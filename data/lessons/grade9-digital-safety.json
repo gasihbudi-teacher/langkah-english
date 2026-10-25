@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Digital Literacy: Checking Online Claims?",
+      "text": "[[Digital literacy]] adalah kemampuan membaca informasi daring secara kritis dan mengambil keputusan aman sebelum mempercayai atau membagikannya."
+    },
+    {
       "type": "scaffold",
-      "intro": "Pesan yang terlihat meyakinkan belum tentu benar. Kita akan memeriksa siapa yang menulis, bukti yang diberikan, dan apakah informasi bisa diverifikasi. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membedakan klaim, sumber, dan bukti dalam pesan daring. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Temukan bagian penting",
+          "explanation": "Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. Tanggal penting untuk mengetahui apakah informasi masih berlaku. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The message has no date.",
           "indonesian": "Pesan itu tidak mencantumkan tanggal.",
           "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Sumber resmi lebih tepat untuk aturan sekolah. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The school website gives the new schedule.",
           "indonesian": "Situs sekolah memberikan jadwal baru.",
           "why": "Sumber resmi lebih tepat untuk aturan sekolah."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, unggahan yang viral belum tentu benar. Baca klaim, cari sumber yang dapat diperiksa, cek tanggal, dan bedakan fakta dari pendapat atau tebakan. Perlindungan data pribadi juga termasuk keamanan digital."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "claim",
-          "indonesian": "klaim"
-        },
-        {
-          "english": "source",
-          "indonesian": "sumber"
-        },
-        {
-          "english": "evidence",
-          "indonesian": "bukti"
-        },
-        {
-          "english": "verify",
-          "indonesian": "memverifikasi"
-        },
-        {
-          "english": "forward",
-          "indonesian": "meneruskan pesan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "The school confirmed the change.",
           "indonesian": "Pihak sekolah mengonfirmasi perubahan itu.",
           "note": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
+        },
+        {
+          "english": "A message may look official even when its sender cannot be verified.",
+          "indonesian": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
+          "note": "Tampilan resmi tidak sama dengan bukti identitas sumber."
+        },
+        {
+          "english": "Before sharing the image, check whether an older photograph is being presented as new.",
+          "indonesian": "Sebelum membagikan gambar itu, periksa apakah foto lama disajikan seolah-olah baru.",
+          "note": "Tanggal dan konteks foto dapat mengubah makna sebuah unggahan."
+        },
+        {
+          "english": "The post contains no date, so we should check when the event actually happened.",
+          "indonesian": "Unggahan itu tidak mencantumkan tanggal, sehingga kita perlu memeriksa kapan peristiwa itu sebenarnya terjadi.",
+          "note": "Tanggal merupakan salah satu unsur pemeriksaan konteks sebelum membagikan berita."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the screenshot looked official, it did not include the school’s address or publication date.",
@@ -205,6 +200,40 @@
         "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
         "Saat membaca [[online claim]], periksa [[source]], [[date]], dan [[evidence]]. Banyak pengulangan pesan tidak sama dengan bukti yang kuat.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan?",
+      "model": "A message may look official even when its sender cannot be verified.",
+      "modelTranslation": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
+      "criteria": "Tampilan resmi tidak sama dengan bukti identitas sumber."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "source",
+          "indonesian": "sumber"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "verify",
+          "indonesian": "memverifikasi"
+        },
+        {
+          "english": "forward",
+          "indonesian": "meneruskan pesan"
+        }
       ]
     }
   ],

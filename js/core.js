@@ -28,9 +28,12 @@ function lessonExampleCard(item,index){
 }
 /** One gentle concept at a time; this content is not graded or saved. */
 function scaffoldCard(step,i){return `<section class="scaffold-step"><h3 lang="id"><span class="scaffold-count">${i+1}</span>${esc(step.title)}</h3><p lang="id">${formatIdText(step.explanation)}</p>${step.english?`<div class="scaffold-sample"><p lang="en" class="example-english">${esc(step.english)}</p><p lang="id"><strong>Artinya:</strong> ${formatIdText(step.indonesian)}</p><p lang="id"><strong>Mengapa?</strong> ${formatIdText(step.why)}</p></div>`:''}</section>`}
-function lessonBlock(b){switch(b.type){
+function lessonBlock(b,context){switch(b.type){
+ case 'definition':return `<section class="concept-definition" aria-label="Definisi materi"><h2 lang="id">${formatIdText(b.title)}</h2><p lang="id">${formatIdText(b.text)}</p></section>`;
+ case 'synthesis':return `<section class="concept-synthesis"><h2 lang="id">${formatIdText(b.title)}</h2><p lang="id">${formatIdText(b.text)}</p></section>`;
+ case 'self_check':return `<section class="writing-self-check"><h3 lang="id">${esc(b.title)}</h3><p lang="id">${formatIdText(b.prompt)}</p><textarea rows="3" aria-label="Jawaban latihan mandiri" placeholder="Tulis jawaban bahasa Inggris di sini. Tidak disimpan atau dinilai otomatis."></textarea><details><summary lang="id">Periksa contoh jawaban dan kriteria</summary><p class="example-english" lang="en">${esc(b.model)}</p><p lang="id"><strong>Artinya:</strong> ${formatIdText(b.modelTranslation)}</p><p lang="id"><strong>Yang perlu diperiksa:</strong> ${formatIdText(b.criteria)}</p></details></section>`;
  case 'scaffold':return `<section class="scaffold-guide" aria-label="Belajar perlahan"><div class="scaffold-heading"><span aria-hidden="true">🪜</span><div><h2 lang="id">Mulai dari dasar, pelan-pelan</h2><p lang="id">${formatIdText(b.intro)}</p></div></div>${b.steps.map(scaffoldCard).join('')}<p class="scaffold-next" lang="id">Jika masih bingung, baca kembali contoh di atas. Tidak ada batas waktu.</p></section>`;
- case 'reference':return `<details class="lesson-reference"><summary lang="id">Penjelasan lebih lengkap, aturan, dan kesalahan umum (opsional)</summary><div class="reference-content">${b.blocks.map(lessonBlock).join('')}</div></details>`;
+ case 'reference':return `<details class="lesson-reference"><summary lang="id">Penjelasan lebih lengkap, aturan, dan kesalahan umum (opsional)</summary><div class="reference-content">${b.blocks.map(item=>lessonBlock(item,context)).join('')}</div></details>`;
  case 'checkpoint':return `<section class="guided-checkpoint" data-guided-check="${esc(b.id)}"><h3 lang="id">Coba pahami dulu · Tanpa nilai</h3><p lang="id">Baca ulang contoh jika perlu. Pilih jawaban dalam bahasa Inggris; bantuan bahasa Indonesia boleh dibuka.</p><p class="checkpoint-prompt" lang="en">${esc(b.prompt)}</p><details class="translation-detail"><summary lang="id">Lihat arti pertanyaan</summary><p lang="id">${formatIdText(b.translation)}</p><ol type="A" lang="id">${(b.translationChoices||[]).map(x=>`<li>${formatIdText(x)}</li>`).join('')}</ol></details><div class="checkpoint-options" role="group" aria-label="${esc(b.prompt)}">${b.choices.map((v,i)=>`<button type="button" data-check-choice="${i}" aria-pressed="false">${esc(v)}</button>`).join('')}</div><p class="checkpoint-result" role="status" aria-live="polite" hidden></p><button type="button" class="checkpoint-hint" data-check-hint aria-expanded="false">Butuh petunjuk?</button><p class="checkpoint-hint-text" hidden lang="id">${formatIdText(b.hint)}</p><template class="checkpoint-solution">${formatIdText(b.explanation)}</template><span data-check-answer="${b.answer}" hidden></span></section>`;
  case 'reflection':return `<section class="reflection"><h3 lang="id">Berhenti sejenak dan bandingkan</h3><p lang="en">${esc(b.prompt)}</p><p lang="id" class="muted">${formatIdText(b.translation)}</p><details><summary lang="id">Lihat panduan setelah mencoba sendiri</summary><p lang="id">${formatIdText(b.answer)}</p></details></section>`;
  case 'heading':return `<h2 lang="id">${formatIdText(b.text)}</h2>`;
@@ -42,7 +45,7 @@ function lessonBlock(b){switch(b.type){
  case 'table':return `<div class="tablewrap"><table><thead><tr>${b.headers.map(h=>`<th scope="col">${formatIdText(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r=>`<tr>${r.map(c=>`<td>${formatIdText(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
  case 'vocabulary':return `<section class="vocab-section" aria-label="Bekal kosakata"><h3 lang="id">${esc(b.title)}</h3><dl class="vocab-grid">${b.items.map(v=>`<div class="vocab-pair"><dt lang="en">${esc(v.english)}</dt><dd lang="id">${formatIdText(v.indonesian)}</dd></div>`).join('')}</dl></section>`;
  case 'example_group':{
-    const cards=`<ol class="worked-examples">${b.items.map(lessonExampleCard).join('')}</ol>`;
+    const cards=`<ol class="worked-examples">${b.items.map(item=>lessonExampleCard(item,context.counter++)).join('')}</ol>`;
     return b.collapsed
       ? `<details class="more-examples"><summary lang="id">${esc(b.title)} · Buka ${b.items.length} contoh tambahan</summary>${cards}</details>`
       : `<section class="example-section"><h3 lang="id">${esc(b.title)}</h3>${cards}</section>`;
@@ -51,4 +54,4 @@ function lessonBlock(b){switch(b.type){
  case 'summary':return `<aside class="lesson-summary"><h3 lang="id">${esc(b.title)}</h3><ul lang="id">${b.items.map(item=>`<li>${formatIdText(item)}</li>`).join('')}</ul></aside>`;
  default:throw Error(`Jenis blok pelajaran tidak didukung: ${b.type}`);
 }}
-export function blocks(items){return items.map(lessonBlock).join('')}
+export function blocks(items){const context={counter:0};return items.map(item=>lessonBlock(item,context)).join('')}

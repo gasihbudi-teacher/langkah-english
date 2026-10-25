@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Argumentative Text: Claims and Counterarguments?",
+      "text": "[[Argumentative text]] adalah teks yang mengajukan klaim lalu membangun alasan serta bukti sambil mempertimbangkan pandangan tandingan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Jika seseorang berkata “pembayaran digital bagus”, kita belum tahu alasannya. Kita akan memecah argumen menjadi pendapat, bukti, dan keberatan yang dijawab secara adil. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Mana klaim, alasan, bukti, dan keberatan pembaca? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Mana klaim, alasan, bukti, dan keberatan pembaca? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini klaim yang memerlukan alasan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Digital payments can be convenient.",
           "indonesian": "Pembayaran digital dapat praktis.",
           "why": "Ini klaim yang memerlukan alasan."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan yang mendukung klaim. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "They can reduce the need to carry cash.",
           "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
           "why": "Ini alasan yang mendukung klaim."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Mana klaim, alasan, bukti, dan keberatan pembaca? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[claim]] merupakan posisi yang hendak dibuktikan, [[reason]] menjelaskan mengapa, dan [[evidence]] memberi dukungan nyata. [[Counterargument]] bukan musuh yang disembunyikan: keberatan perlu dijawab secara adil sesuai kekuatan bukti."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "claim",
-          "indonesian": "klaim"
-        },
-        {
-          "english": "evidence",
-          "indonesian": "bukti"
-        },
-        {
-          "english": "counterargument",
-          "indonesian": "argumen tandingan"
-        },
-        {
-          "english": "convenient",
-          "indonesian": "praktis"
-        },
-        {
-          "english": "cash",
-          "indonesian": "uang tunai"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Some students prefer digital payments.",
           "indonesian": "Sebagian siswa lebih suka pembayaran digital.",
           "note": "Klaim lebih terbatas dan mungkin dapat diuji."
+        },
+        {
+          "english": "The survey included only one school, so its results should not represent the whole city.",
+          "indonesian": "Survei itu hanya melibatkan satu sekolah, sehingga hasilnya tidak seharusnya mewakili seluruh kota.",
+          "note": "Penulis yang bertanggung jawab mengakui keterbatasan bukti sebelum membuat klaim luas."
+        },
+        {
+          "english": "Some people worry about security; however, careful verification may reduce the risk.",
+          "indonesian": "Sebagian orang khawatir tentang keamanan; namun, pemeriksaan yang teliti dapat mengurangi risikonya.",
+          "note": "Kalimat pertama menyatakan [[counterargument]] dan kalimat kedua memberikan tanggapan terbatas."
+        },
+        {
+          "english": "Public transport deserves funding because affordable fares can improve access to jobs.",
+          "indonesian": "Transportasi umum layak mendapat pendanaan karena tarif terjangkau dapat meningkatkan akses pekerjaan.",
+          "note": "[[Deserves funding]] ialah klaim; alasan tentang akses kerja perlu didukung data atau contoh relevan."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although digital payment is fast for connected users, cash remains useful when a network fails.",
@@ -205,6 +204,40 @@
         "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
         "[[Argumentative text]] menyampaikan [[claim]] yang didukung [[reason]] dan [[evidence]]. [[Counterargument]] adalah keberatan yang perlu dijawab, bukan dihapus.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Mana klaim, alasan, bukti, dan keberatan pembaca?",
+      "model": "The survey included only one school, so its results should not represent the whole city.",
+      "modelTranslation": "Survei itu hanya melibatkan satu sekolah, sehingga hasilnya tidak seharusnya mewakili seluruh kota.",
+      "criteria": "Penulis yang bertanggung jawab mengakui keterbatasan bukti sebelum membuat klaim luas."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "counterargument",
+          "indonesian": "argumen tandingan"
+        },
+        {
+          "english": "convenient",
+          "indonesian": "praktis"
+        },
+        {
+          "english": "cash",
+          "indonesian": "uang tunai"
+        }
       ]
     }
   ],

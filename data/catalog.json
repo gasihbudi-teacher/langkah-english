@@ -160,7 +160,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 30,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -204,7 +204,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 40,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "simple-present"
       ]
@@ -288,7 +288,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 10,
-      "estimatedMinutes": 15
+      "estimatedMinutes": 25
     },
     {
       "id": "grade9-reading",
@@ -319,7 +319,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 10,
-      "estimatedMinutes": 15
+      "estimatedMinutes": 25
     },
     {
       "id": "grade10-recount",
@@ -353,7 +353,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 20,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": [
         "grade9-reading"
       ]
@@ -462,7 +462,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 10,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": []
     },
     {
@@ -540,7 +540,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 20,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "parts-of-speech"
       ]
@@ -621,7 +621,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 50,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "simple-present"
       ]
@@ -701,7 +701,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 60,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "simple-present"
       ]
@@ -782,7 +782,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 70,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "simple-present",
         "simple-past"
@@ -983,7 +983,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 110,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1016,7 +1016,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 120,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1045,7 +1045,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 130,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1078,7 +1078,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 140,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1107,7 +1107,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 150,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1136,7 +1136,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 160,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1165,7 +1165,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 170,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1198,7 +1198,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 180,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1227,7 +1227,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 190,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1259,7 +1259,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 200,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1289,7 +1289,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 210,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1322,7 +1322,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 220,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1355,7 +1355,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 230,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1392,7 +1392,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 240,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1468,7 +1468,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 190,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1498,7 +1498,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 200,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1528,7 +1528,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 210,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1564,7 +1564,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 220,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 20,
       "prerequisites": [
         "sentence-structure"
       ]
@@ -1597,7 +1597,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 215,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {
@@ -1628,7 +1628,7 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 225,
-      "estimatedMinutes": 15,
+      "estimatedMinutes": 25,
       "prerequisites": []
     },
     {

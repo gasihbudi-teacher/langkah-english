@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Simple Present Tense?",
+      "text": "[[Simple present tense]] adalah bentuk kata kerja untuk kebiasaan, fakta umum, dan jadwal yang berlaku secara rutin."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita mulai dari kegiatan yang dilakukan berulang kali. Tidak perlu menghafal seluruh rumus sekaligus.",
+      "intro": "Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Pertama, kenali [[subject]] seperti [[I]], [[she]], dan [[they]]."
+          "title": "Temukan bagian penting",
+          "explanation": "Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Untuk kebiasaan dengan [[I]] atau [[they]], kata kerja biasanya tetap dalam bentuk dasar, misalnya [[study]].",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I study English every afternoon.",
           "indonesian": "Saya belajar bahasa Inggris setiap sore.",
           "why": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Jika pelakunya [[he]] atau [[she]], kata kerja positif sering berubah, misalnya [[study]] menjadi [[studies]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "She studies English every afternoon.",
           "indonesian": "Dia belajar bahasa Inggris setiap sore.",
           "why": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[I/you/we/they]] memakai kata kerja dasar, sedangkan [[he/she/it]] biasanya membutuhkan [[-s]] atau [[-es]] pada kalimat afirmatif. Dalam pertanyaan dan negatif, perubahan itu ditangani oleh [[does]], sehingga kata kerja utama kembali ke bentuk dasar."
     },
     {
       "type": "heading",
@@ -113,28 +123,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "habit",
-          "indonesian": "kebiasaan"
-        },
-        {
-          "english": "usually",
-          "indonesian": "biasanya"
-        },
-        {
-          "english": "often",
-          "indonesian": "sering"
-        },
-        {
-          "english": "fact",
-          "indonesian": "fakta"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -216,6 +204,16 @@
           "english": "Does your sister sing?",
           "indonesian": "Apakah kakak/adik perempuanmu bernyanyi?",
           "note": "Pertanyaan untuk [[subject]] tunggal memakai [[does]] sebelum [[subject]]."
+        },
+        {
+          "english": "Does your brother walk to school every day?",
+          "indonesian": "Apakah saudara laki-lakimu berjalan ke sekolah setiap hari?",
+          "note": "[[Does]] digunakan untuk subjek [[your brother]], sedangkan verba [[walk]] tidak mendapat [[-s]] lagi."
+        },
+        {
+          "english": "The school bus leaves at seven every weekday.",
+          "indonesian": "Bus sekolah berangkat pukul tujuh setiap hari kerja.",
+          "note": "Jadwal berulang memakai [[leaves]] karena subjek tunggal [[the school bus]]."
         }
       ]
     },
@@ -228,7 +226,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Our school opens at seven, and classes begin at eight.",
@@ -249,6 +247,36 @@
         "Gunakan [[verb]] dasar untuk [[I]]/[[you]]/[[we]]/[[they]] dan [[verb-s]]/[[-es]] untuk [[he]]/[[she]]/[[it]] dalam kalimat positif.",
         "Negatif dan pertanyaan dengan [[does]] memakai [[verb]] dasar.",
         "Untuk [[be]], gunakan [[am]]/[[is]]/[[are]] dan jangan tambahkan [[do/does]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya?",
+      "model": "Does your brother walk to school every day?",
+      "modelTranslation": "Apakah saudara laki-lakimu berjalan ke sekolah setiap hari?",
+      "criteria": "[[Does]] digunakan untuk subjek [[your brother]], sedangkan verba [[walk]] tidak mendapat [[-s]] lagi."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "habit",
+          "indonesian": "kebiasaan"
+        },
+        {
+          "english": "usually",
+          "indonesian": "biasanya"
+        },
+        {
+          "english": "often",
+          "indonesian": "sering"
+        },
+        {
+          "english": "fact",
+          "indonesian": "fakta"
+        }
       ]
     }
   ],

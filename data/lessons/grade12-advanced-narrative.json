@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Advanced Narrative: Motives and Themes?",
+      "text": "[[Advanced narrative reading]] adalah cara menafsirkan cerita dengan memperhatikan tindakan, motif, konflik, dan tema yang tidak selalu dijelaskan langsung."
+    },
+    {
       "type": "scaffold",
-      "intro": "Cerita tingkat lanjut tidak selalu menyebut perasaan tokoh secara langsung. Kita mengumpulkan petunjuk dari tindakan, pilihan kata, dan perubahan sikapnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini peristiwa yang disebut langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The lights went out.",
           "indonesian": "Lampu-lampu padam.",
           "why": "Ini peristiwa yang disebut langsung."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Tindakan dapat menjadi petunjuk tentang tekad. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Nara kept working by the window.",
           "indonesian": "Nara terus bekerja dekat jendela.",
           "why": "Tindakan dapat menjadi petunjuk tentang tekad."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, karakter bisa mengatakan satu hal tetapi bertindak berbeda. Pembaca menarik kesimpulan dari petunjuk tindakan dan konteks, bukan menebak sifat tokoh tanpa bukti. Tema merupakan gagasan yang muncul dari keseluruhan cerita."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "motivation",
-          "indonesian": "motivasi"
-        },
-        {
-          "english": "conflict",
-          "indonesian": "konflik"
-        },
-        {
-          "english": "theme",
-          "indonesian": "tema"
-        },
-        {
-          "english": "resource",
-          "indonesian": "sumber daya"
-        },
-        {
-          "english": "courage",
-          "indonesian": "keberanian"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Her hands shook as she smiled.",
           "indonesian": "Tangannya gemetar saat ia tersenyum.",
           "note": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+        },
+        {
+          "english": "Nadia kept the letter unopened, even after the others had left.",
+          "indonesian": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
+          "note": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+        },
+        {
+          "english": "When her brother returned, she finally put the key on the table.",
+          "indonesian": "Ketika saudara laki-lakinya kembali, akhirnya ia meletakkan kunci di meja.",
+          "note": "Perubahan tindakan bisa menunjukkan perubahan keputusan tokoh; tafsir harus mempertimbangkan konteks cerita."
+        },
+        {
+          "english": "The boy returned the medal without explaining why he had kept it.",
+          "indonesian": "Anak laki-laki itu mengembalikan medali tanpa menjelaskan mengapa ia menyimpannya.",
+          "note": "Tindakan dan informasi yang sengaja tidak dijelaskan membuka ruang inferensi yang masih memerlukan konteks."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although Nara feared the storm, she stayed to help the younger children find a safe room.",
@@ -205,6 +204,40 @@
         "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
         "Cari [[character motivation]], [[conflict]], dan [[theme]]. Jawaban inferensi harus didukung tindakan atau ucapan tokoh, bukan hanya tebakan pembaca.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa?",
+      "model": "Nadia kept the letter unopened, even after the others had left.",
+      "modelTranslation": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
+      "criteria": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "motivation",
+          "indonesian": "motivasi"
+        },
+        {
+          "english": "conflict",
+          "indonesian": "konflik"
+        },
+        {
+          "english": "theme",
+          "indonesian": "tema"
+        },
+        {
+          "english": "resource",
+          "indonesian": "sumber daya"
+        },
+        {
+          "english": "courage",
+          "indonesian": "keberanian"
+        }
       ]
     }
   ],

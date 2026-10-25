@@ -5,9 +5,10 @@ import {fileURLToPath} from 'node:url';
 import {parseBackup,makeBackup} from '../js/backup-format.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
-const fullCatalog=JSON.parse(read('data/catalog.json'));
-const originalV7=new Set(JSON.parse(read('data/v7-resource-ids.json')));
-const cat={...fullCatalog,resources:fullCatalog.resources.filter(r=>originalV7.has(r.id))};
+// V8 extends the catalogue; this historical regression test checks the untouched V7 baseline.
+const allCatalog=JSON.parse(read('data/catalog.json'));
+const baselineIds=new Set(JSON.parse(read('data/v7-resource-ids.json')));
+const cat={...allCatalog,resources:allCatalog.resources.filter(r=>baselineIds.has(r.id))};
 const ids=new Set(cat.resources.map(r=>r.id));
 assert.equal(ids.size,cat.resources.length);
 assert.equal(cat.resources.length,45);

@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Present Continuous Tense?",
+      "text": "[[Present continuous]] adalah bentuk kalimat untuk kegiatan yang sedang berlangsung sekarang atau sekitar waktu berbicara."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita akan membicarakan kegiatan yang sedang berlangsung sekarang. Coba bayangkan seseorang sedang melakukan sesuatu saat kamu melihatnya.",
+      "intro": "Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari tanda waktu seperti [[now]] atau [[right now]]."
+          "title": "Temukan bagian penting",
+          "explanation": "Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Gunakan bentuk [[am]], [[is]], atau [[are]] sesuai subjek.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I am reading a story now.",
           "indonesian": "Saya sedang membaca cerita sekarang.",
           "why": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah itu gunakan kata kerja dengan [[-ing]], misalnya [[reading]] atau [[drawing]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[He]] memakai [[is]] + [[drawing]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "He is drawing a map.",
           "indonesian": "Dia sedang menggambar peta.",
           "why": "[[He]] memakai [[is]] + [[drawing]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pola dasarnya [[am/is/are]] + [[verb-ing]]. Kata [[now]] sering membantu, tetapi waktu konteks juga penting. Setelah [[is]] jangan memakai bentuk dasar [[read]] ketika maksudnya sedang membaca."
     },
     {
       "type": "heading",
@@ -117,28 +127,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "currently",
-          "indonesian": "saat ini"
-        },
-        {
-          "english": "temporary",
-          "indonesian": "sementara"
-        },
-        {
-          "english": "now",
-          "indonesian": "sekarang"
-        },
-        {
-          "english": "waiting",
-          "indonesian": "sedang menunggu"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -220,6 +208,16 @@
           "english": "Are they studying right now?",
           "indonesian": "Apakah mereka sedang belajar sekarang?",
           "note": "[[Are]] + [[verb-ing]] menanyakan kegiatan yang sedang berlangsung."
+        },
+        {
+          "english": "The students are preparing posters at the moment.",
+          "indonesian": "Para siswa sedang menyiapkan poster saat ini.",
+          "note": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung."
+        },
+        {
+          "english": "I am not watching television; I am doing my homework.",
+          "indonesian": "Saya tidak sedang menonton televisi; saya sedang mengerjakan PR.",
+          "note": "Bentuk negatif menaruh [[not]] setelah [[am]], dan dua verba [[-ing]] menunjukkan aktivitas saat ini."
         }
       ]
     },
@@ -232,7 +230,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The library is closing early this week because workers are repairing its roof.",
@@ -253,6 +251,36 @@
         "Pola dasar adalah [[am]]/[[is]]/[[are]] + [[verb-ing]].",
         "Gunakan untuk kegiatan yang sedang berlangsung atau sementara.",
         "Bandingkan dengan [[simple present]] untuk kebiasaan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek?",
+      "model": "The students are preparing posters at the moment.",
+      "modelTranslation": "Para siswa sedang menyiapkan poster saat ini.",
+      "criteria": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "currently",
+          "indonesian": "saat ini"
+        },
+        {
+          "english": "temporary",
+          "indonesian": "sementara"
+        },
+        {
+          "english": "now",
+          "indonesian": "sekarang"
+        },
+        {
+          "english": "waiting",
+          "indonesian": "sedang menunggu"
+        }
       ]
     }
   ],

@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Complex Sentence Structures?",
+      "text": "[[Complex sentence]] adalah kalimat yang memiliki klausa utama dan setidaknya satu klausa bawahan yang menjelaskan waktu, sebab, syarat, atau pertentangan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalimat panjang sering berisi dua gagasan yang saling terhubung. Jangan menerjemahkan semuanya sekaligus.",
+      "intro": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari gagasan utama yang dapat berdiri sendiri, misalnya [[I stayed inside]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari kata penghubung seperti [[because]] atau [[although]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Because]] memperkenalkan alasan dalam [[dependent clause]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I stayed inside because it rained.",
           "indonesian": "Saya tetap di dalam karena hujan.",
           "why": "[[Because]] memperkenalkan alasan dalam [[dependent clause]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Tanyakan hubungan kedua bagian: apakah penyebab, pertentangan, atau kondisi?",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Although]] memperkenalkan kontras antara dua klausa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Although she was tired, she studied.",
           "indonesian": "Walaupun lelah, dia tetap belajar.",
           "why": "[[Although]] memperkenalkan kontras antara dua klausa."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kedua bagian dapat sama-sama memiliki subjek dan kata kerja, tetapi tidak selalu berdiri sendiri dengan fungsi yang sama. [[Because]] menjawab alasan, [[although]] menyatakan kontras, sementara [[despite]] biasanya diikuti frasa, bukan klausa lengkap."
     },
     {
       "type": "heading",
@@ -82,28 +96,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "although",
-          "indonesian": "meskipun"
-        },
-        {
-          "english": "because",
-          "indonesian": "karena"
-        },
-        {
-          "english": "despite",
-          "indonesian": "walaupun"
-        },
-        {
-          "english": "until",
-          "indonesian": "hingga"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -179,6 +171,16 @@
           "english": "Despite the rain, the match continued.",
           "indonesian": "Walaupun hujan, pertandingan berlanjut.",
           "note": "[[Despite]] diikuti [[noun phrase]], bukan klausa lengkap."
+        },
+        {
+          "english": "Although the rain stopped, the road remained slippery.",
+          "indonesian": "Walaupun hujan berhenti, jalan tetap licin.",
+          "note": "[[Although the rain stopped]] menunjukkan pertentangan dengan klausa utama [[the road remained slippery]]."
+        },
+        {
+          "english": "The concert continued despite the heavy rain.",
+          "indonesian": "Konser tetap berlangsung meskipun hujan deras.",
+          "note": "[[Despite the heavy rain]] adalah frasa pengantar pertentangan, bukan klausa dengan subjek dan verba finit."
         }
       ]
     },
@@ -191,7 +193,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the survey included many students, it did not represent every school in the city.",
@@ -212,6 +214,36 @@
         "[[Main clause]] dapat berdiri sendiri;[[dependent clause]] menambah hubungan makna.",
         "[[Because]] menyatakan alasan, [[although]] menyatakan kontras.",
         "[[Despite]] diikuti [[noun]] atau [[-ing]], bukan klausa penuh tanpa perubahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya?",
+      "model": "Although the rain stopped, the road remained slippery.",
+      "modelTranslation": "Walaupun hujan berhenti, jalan tetap licin.",
+      "criteria": "[[Although the rain stopped]] menunjukkan pertentangan dengan klausa utama [[the road remained slippery]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "although",
+          "indonesian": "meskipun"
+        },
+        {
+          "english": "because",
+          "indonesian": "karena"
+        },
+        {
+          "english": "despite",
+          "indonesian": "walaupun"
+        },
+        {
+          "english": "until",
+          "indonesian": "hingga"
+        }
       ]
     }
   ],

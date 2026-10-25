@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Advanced Conditionals?",
+      "text": "[[Advanced conditionals]] adalah kalimat bersyarat untuk membayangkan keadaan yang tidak terjadi, termasuk akibat yang masih terasa sekarang."
+    },
+    {
       "type": "scaffold",
-      "intro": "Jenis kondisi ini membicarakan kejadian yang tidak benar-benar terjadi pada masa lampau dan akibat yang dibayangkan.",
+      "intro": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Kenali apakah kalimat sedang membahas sesuatu yang sudah berlalu."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Bagian syarat dapat memakai [[had]] + bentuk ketiga kata kerja.",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "If I had known, I would have called.",
           "indonesian": "Jika saya tahu saat itu, saya pasti sudah menelepon.",
           "why": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Akibat yang dibayangkan dapat memakai [[would have]] + bentuk ketiga kata kerja.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "If she had studied, she would have passed.",
           "indonesian": "Jika dia belajar waktu itu, dia akan lulus.",
           "why": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Kalau sebuah syarat membahas masa lalu yang tidak terjadi, hasilnya juga bisa berada di masa lalu atau masa kini. Periksa waktunya terlebih dahulu: [[had known]] menunjuk masa lalu yang sudah lewat, sedangkan [[would be]] dapat menunjuk akibat sekarang. Jangan memakai semua pola [[if]] secara bergantian."
     },
     {
       "type": "heading",
@@ -77,28 +91,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "had known",
-          "indonesian": "seandainya tahu"
-        },
-        {
-          "english": "would have",
-          "indonesian": "akan telah (hipotetis)"
-        },
-        {
-          "english": "were",
-          "indonesian": "seandainya"
-        },
-        {
-          "english": "regret",
-          "indonesian": "penyesalan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -174,6 +166,16 @@
           "english": "Had I known about the delay, I would have left later.",
           "indonesian": "Seandainya saya tahu ada keterlambatan, saya akan berangkat lebih lambat.",
           "note": "[[Had]] [[I]] [[known]] adalah [[inversion]] dari [[if]] [[I]] [[had]] [[known]]."
+        },
+        {
+          "english": "If I had studied medicine, I would be a doctor now.",
+          "indonesian": "Jika dahulu saya belajar kedokteran, sekarang saya akan menjadi dokter.",
+          "note": "Syarat tidak nyata berada di masa lalu ([[had studied]]), tetapi akibat yang dibayangkan berada pada masa kini ([[would be]])."
+        },
+        {
+          "english": "Had the team checked the figures, it would not have reported the wrong total.",
+          "indonesian": "Seandainya tim telah memeriksa angkanya, tim tidak akan melaporkan jumlah yang salah.",
+          "note": "[[Had the team checked]] ialah inversi bersyarat yang setara dengan [[If the team had checked]], tentang masa lalu yang tidak terjadi."
         }
       ]
     },
@@ -186,7 +188,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "If the team had tested the system before launch, fewer users would have encountered errors.",
@@ -207,6 +209,36 @@
         "[[Third conditional]] menyatakan kondisi dan akibat lampau yang tidak terjadi.",
         "[[Mixed conditional]] dapat menghubungkan kondisi lampau dengan akibat sekarang.",
         "Bentuk [[had]]/[[were]] di awal dapat menggantikan [[if]] dalam gaya formal."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu?",
+      "model": "If I had studied medicine, I would be a doctor now.",
+      "modelTranslation": "Jika dahulu saya belajar kedokteran, sekarang saya akan menjadi dokter.",
+      "criteria": "Syarat tidak nyata berada di masa lalu ([[had studied]]), tetapi akibat yang dibayangkan berada pada masa kini ([[would be]])."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "had known",
+          "indonesian": "seandainya tahu"
+        },
+        {
+          "english": "would have",
+          "indonesian": "akan telah (hipotetis)"
+        },
+        {
+          "english": "were",
+          "indonesian": "seandainya"
+        },
+        {
+          "english": "regret",
+          "indonesian": "penyesalan"
+        }
       ]
     }
   ],

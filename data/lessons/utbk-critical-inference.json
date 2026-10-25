@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu UTBK Lab: Inference and Alternative Explanations?",
+      "text": "[[Inference]] dalam bacaan UTBK adalah kesimpulan yang masuk akal dari petunjuk teks meskipun tidak tertulis secara langsung."
+    },
+    {
       "type": "scaffold",
-      "intro": "Cerita sering tidak mengatakan perasaan tokoh secara langsung. Kita mencari petunjuk dan memilih kesimpulan paling hati-hati, bukan yang paling dramatis. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Petunjuk mana yang mendukung simpulan tanpa menambahkan cerita baru? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Baca pertanyaan secara teliti",
+          "explanation": "Petunjuk mana yang mendukung simpulan tanpa menambahkan cerita baru? Jawaban yang terdengar masuk akal belum tentu didukung teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Temukan bukti yang tersedia",
+          "explanation": "Perhatikan kalimat ini. Tindakan disebut langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Riko looked at the empty chair.",
           "indonesian": "Riko memandang kursi kosong.",
           "why": "Tindakan disebut langsung."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa batas kesimpulan",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pengulangan memberi petunjuk tentang kekhawatiran. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "He checked the time again.",
           "indonesian": "Ia kembali melihat waktu.",
           "why": "Pengulangan memberi petunjuk tentang kekhawatiran."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[stated]] berarti tertulis jelas, sedangkan [[implied]] perlu disimpulkan dari beberapa petunjuk. Pilih simpulan paling hati-hati yang sesuai semua bukti, bukan cerita tambahan yang mungkin terjadi tetapi tidak didukung."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "clue",
-          "indonesian": "petunjuk"
-        },
-        {
-          "english": "imply",
-          "indonesian": "menyiratkan"
-        },
-        {
-          "english": "glance",
-          "indonesian": "melirik"
-        },
-        {
-          "english": "hesitate",
-          "indonesian": "ragu-ragu"
-        },
-        {
-          "english": "relief",
-          "indonesian": "kelegaan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "Riko hated his friend.",
           "indonesian": "Riko membenci temannya.",
           "note": "Tidak ada petunjuk untuk kesimpulan ekstrem."
+        },
+        {
+          "english": "Lina reread the invitation twice before finally smiling.",
+          "indonesian": "Lina membaca ulang undangan itu dua kali sebelum akhirnya tersenyum.",
+          "note": "Tindakannya mendukung simpulan bahwa undangan itu penting baginya, tetapi tidak membuktikan isi atau pengirimnya."
+        },
+        {
+          "english": "The paragraph mentions a delayed bus, but it never identifies the driver.",
+          "indonesian": "Paragraf itu menyebut bus terlambat, tetapi tidak pernah menyebut siapa pengemudinya.",
+          "note": "Kesimpulan tentang pengemudi tertentu tidak didukung teks meskipun tampak masuk akal."
+        },
+        {
+          "english": "The researcher noted the missing pages, but the passage did not say who removed them.",
+          "indonesian": "Peneliti mencatat halaman yang hilang, tetapi bacaan tidak menyebut siapa yang mengambilnya.",
+          "note": "Kesimpulan tentang pelaku harus dihindari karena tidak ada bukti teks yang menunjukkannya."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although Riko had prepared his presentation, he kept glancing toward the door when the partner’s seat remained empty.",
@@ -205,6 +200,40 @@
         "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti.",
         "Dalam soal [[inference]], hubungkan [[clues]] dari beberapa kalimat. Bedakan apa yang [[stated]] dan apa yang [[implied]].",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu jawaban bahasa Inggris yang berhati-hati, disertai bukti dari salah satu contoh. Petunjuk mana yang mendukung simpulan tanpa menambahkan cerita baru?",
+      "model": "Lina reread the invitation twice before finally smiling.",
+      "modelTranslation": "Lina membaca ulang undangan itu dua kali sebelum akhirnya tersenyum.",
+      "criteria": "Tindakannya mendukung simpulan bahwa undangan itu penting baginya, tetapi tidak membuktikan isi atau pengirimnya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "clue",
+          "indonesian": "petunjuk"
+        },
+        {
+          "english": "imply",
+          "indonesian": "menyiratkan"
+        },
+        {
+          "english": "glance",
+          "indonesian": "melirik"
+        },
+        {
+          "english": "hesitate",
+          "indonesian": "ragu-ragu"
+        },
+        {
+          "english": "relief",
+          "indonesian": "kelegaan"
+        }
       ]
     }
   ],

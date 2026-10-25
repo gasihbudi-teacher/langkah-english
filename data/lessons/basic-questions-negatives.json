@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Basic Questions and Negatives?",
+      "text": "[[Questions and negatives]] adalah cara membuat kalimat tanya serta menyangkal pernyataan dalam bahasa Inggris dengan urutan dan kata bantu yang tepat."
+    },
+    {
       "type": "scaffold",
-      "intro": "Sebelum membuat pertanyaan, pastikan kamu mengenali kalimat pernyataan biasa. Kita ubah satu bagian setiap kali.",
+      "intro": "Apakah kalimat memakai [[be]] atau kata kerja biasa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulai dari kalimat positif, misalnya [[She likes music]]."
+          "title": "Temukan bagian penting",
+          "explanation": "Apakah kalimat memakai [[be]] atau kata kerja biasa? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Untuk pertanyaan dengan kata kerja biasa, letakkan [[do]] atau [[does]] di awal.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. Ini kalimat positif dengan [[subject]] tunggal. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "She likes music.",
           "indonesian": "Dia menyukai musik.",
           "why": "Ini kalimat positif dengan [[subject]] tunggal."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah [[does]], kata kerja kembali ke bentuk dasar: [[like]], bukan [[likes]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Does she like music?",
           "indonesian": "Apakah dia menyukai musik?",
           "why": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pertanyaan dengan kata kerja biasa menggunakan [[do]], [[does]], atau [[did]], sedangkan bentuk negatif menambahkan [[not]]. Setelah [[does]] atau [[did]], kata kerja utama kembali ke bentuk dasar; jangan menambahkan akhiran lampau atau [[-s]] dua kali."
     },
     {
       "type": "heading",
@@ -125,28 +135,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "question",
-          "indonesian": "pertanyaan"
-        },
-        {
-          "english": "negative",
-          "indonesian": "negatif"
-        },
-        {
-          "english": "answer",
-          "indonesian": "jawaban"
-        },
-        {
-          "english": "why",
-          "indonesian": "mengapa"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -224,6 +212,16 @@
           "english": "They are not ready.",
           "indonesian": "Mereka belum siap.",
           "note": "Negatif [[be]] memakai [[are]] [[not]], tanpa [[do]]."
+        },
+        {
+          "english": "Did Mira finish the experiment yesterday?",
+          "indonesian": "Apakah Mira menyelesaikan percobaan itu kemarin?",
+          "note": "[[Did]] sudah menandai masa lalu, sehingga [[finish]] kembali ke bentuk dasar, bukan [[finished]]."
+        },
+        {
+          "english": "He does not remember the address.",
+          "indonesian": "Dia tidak mengingat alamat itu.",
+          "note": "Dalam negatif [[does not remember]], akhiran [[-s]] tidak ditambahkan pada [[remember]]."
         }
       ]
     },
@@ -236,7 +234,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Did Budi call you yesterday, or did he send a message?",
@@ -257,6 +255,36 @@
         "Pertanyaan dengan [[verb]] tindakan memakai [[do/does]]/[[did]] sesuai waktunya.",
         "Setelah [[do/does]]/[[did]], [[verb]] tetap berbentuk dasar.",
         "Untuk predikat [[be]], cukup balik [[be]] dan [[subject]] dalam pertanyaan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kalimat memakai [[be]] atau kata kerja biasa?",
+      "model": "Did Mira finish the experiment yesterday?",
+      "modelTranslation": "Apakah Mira menyelesaikan percobaan itu kemarin?",
+      "criteria": "[[Did]] sudah menandai masa lalu, sehingga [[finish]] kembali ke bentuk dasar, bukan [[finished]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "question",
+          "indonesian": "pertanyaan"
+        },
+        {
+          "english": "negative",
+          "indonesian": "negatif"
+        },
+        {
+          "english": "answer",
+          "indonesian": "jawaban"
+        },
+        {
+          "english": "why",
+          "indonesian": "mengapa"
+        }
       ]
     }
   ],

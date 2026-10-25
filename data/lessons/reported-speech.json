@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Reported Speech?",
+      "text": "[[Reported speech]] adalah cara menyampaikan isi ucapan atau pertanyaan orang lain tanpa selalu mengutipnya persis."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita dapat menceritakan ucapan orang lain dengan kata-kata kita sendiri.",
+      "intro": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Pertama, pahami siapa yang berbicara dan apa isi ucapannya."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Ucapan langsung dapat memakai tanda kutip: [[I am tired]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. Ini [[direct speech]]: ucapan asli berada dalam tanda kutip. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Rani said, \"I am tired.\"",
           "indonesian": "Rani berkata, \"Saya lelah.\"",
           "why": "Ini [[direct speech]]: ucapan asli berada dalam tanda kutip."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Saat melaporkan ucapan lampau, bentuk waktu dan kata ganti kadang berubah: [[am]] menjadi [[was]].",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Rani said that she was tired.",
           "indonesian": "Rani mengatakan bahwa dia lelah.",
           "why": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, setelah [[said]] atau [[told]], susunan kata dan rujukan waktu dapat berubah menyesuaikan situasi pelaporan. Pertanyaan tidak langsung memakai urutan pernyataan, misalnya [[where she lived]], bukan [[where did she live]]."
     },
     {
       "type": "heading",
@@ -77,28 +91,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "said",
-          "indonesian": "berkata"
-        },
-        {
-          "english": "asked",
-          "indonesian": "bertanya"
-        },
-        {
-          "english": "told",
-          "indonesian": "memberi tahu"
-        },
-        {
-          "english": "reported",
-          "indonesian": "dilaporkan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -178,6 +170,16 @@
           "english": "He asked, \"Where do you live?\"",
           "indonesian": "Dia bertanya, \"Kamu tinggal di mana?\"",
           "note": "Pertanyaan langsung menggunakan bentuk tanya."
+        },
+        {
+          "english": "Rafi asked whether the library was open.",
+          "indonesian": "Rafi bertanya apakah perpustakaan sedang buka.",
+          "note": "Pertanyaan tidak langsung setelah [[asked whether]] memakai urutan [[the library was]], bukan urutan pertanyaan langsung."
+        },
+        {
+          "english": "The guide told us that the museum would close early.",
+          "indonesian": "Pemandu memberi tahu kami bahwa museum akan tutup lebih awal.",
+          "note": "[[Told]] membutuhkan penerima [[us]], sedangkan [[would close]] melaporkan informasi dari sudut pandang waktu lampau."
         }
       ]
     },
@@ -190,7 +192,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The journalist asked where the students lived and why they joined the project.",
@@ -211,6 +213,36 @@
         "[[Reported speech]] menyampaikan ucapan orang lain tanpa selalu mengutip persis.",
         "Ketika kata pelapor lampau, waktu dan [[tense]] sering bergeser sesuai konteks.",
         "[[Reported question]] memakai urutan [[subject]] + [[verb]], bukan bentuk tanya langsung."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya?",
+      "model": "Rafi asked whether the library was open.",
+      "modelTranslation": "Rafi bertanya apakah perpustakaan sedang buka.",
+      "criteria": "Pertanyaan tidak langsung setelah [[asked whether]] memakai urutan [[the library was]], bukan urutan pertanyaan langsung."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "said",
+          "indonesian": "berkata"
+        },
+        {
+          "english": "asked",
+          "indonesian": "bertanya"
+        },
+        {
+          "english": "told",
+          "indonesian": "memberi tahu"
+        },
+        {
+          "english": "reported",
+          "indonesian": "dilaporkan"
+        }
       ]
     }
   ],

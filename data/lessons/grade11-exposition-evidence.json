@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Analytical Exposition: Claims and Evidence?",
+      "text": "[[Evaluating claims and evidence]] berarti memeriksa apakah alasan dan bukti benar-benar mendukung klaim dalam teks eksposisi."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalimat “kegiatan ini baik” belum cukup. Kita akan belajar mencari alasan yang mendukung klaim serta membedakan bukti dari dugaan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apakah contoh yang diberikan cukup untuk mendukung kesimpulan sebesar itu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Tentukan yang dicari",
+          "explanation": "Apakah contoh yang diberikan cukup untuk mendukung kesimpulan sebesar itu? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. Ini sebuah usulan atau klaim. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Schools should offer water stations.",
           "indonesian": "Sekolah sebaiknya menyediakan tempat pengisian air.",
           "why": "Ini sebuah usulan atau klaim."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan untuk mendukung usulan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "They can make drinking water easier to access.",
           "indonesian": "Tempat itu dapat memudahkan akses air minum.",
           "why": "Ini alasan untuk mendukung usulan."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, klaim sering terdengar meyakinkan meskipun contoh yang diberikan terlalu sedikit. Perhatikan sumber data, ukuran sampel, dan apakah ada penjelasan lain. Bukti kuat mendukung klaim secara terbatas dan masuk akal."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "claim",
-          "indonesian": "klaim"
-        },
-        {
-          "english": "reason",
-          "indonesian": "alasan"
-        },
-        {
-          "english": "evidence",
-          "indonesian": "bukti"
-        },
-        {
-          "english": "survey",
-          "indonesian": "survei"
-        },
-        {
-          "english": "limitation",
-          "indonesian": "keterbatasan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "Water stations may make water easier to obtain.",
           "indonesian": "Tempat pengisian air mungkin memudahkan memperoleh air.",
           "note": "Kata “may” lebih hati-hati dan sesuai lingkup alasan."
+        },
+        {
+          "english": "A survey of twelve students cannot represent every teenager in the city.",
+          "indonesian": "Survei terhadap dua belas siswa tidak dapat mewakili semua remaja di kota.",
+          "note": "Ukuran sampel dan cakupan responden membatasi kesimpulan yang dapat ditarik."
+        },
+        {
+          "english": "The report describes lower costs, but it does not explain how they were calculated.",
+          "indonesian": "Laporan itu menyebut biaya lebih rendah, tetapi tidak menjelaskan cara penghitungannya.",
+          "note": "Klaim belum cukup kuat tanpa metode yang memungkinkan pembaca memeriksa bukti."
+        },
+        {
+          "english": "One student's improvement is encouraging but does not prove the method works for everyone.",
+          "indonesian": "Peningkatan satu siswa menggembirakan, tetapi tidak membuktikan metode itu berhasil untuk semua orang.",
+          "note": "Bedakan contoh yang menjanjikan dari bukti untuk klaim yang berlaku bagi seluruh kelompok."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the survey found strong support, it involved only students from two classes.",
@@ -205,6 +200,40 @@
         "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi.",
         "[[Claim]] menyatakan pendapat utama; [[reason]] menjelaskan mengapa; [[evidence]] memberi dasar yang bisa diperiksa; [[limitation]] menunjukkan batas klaim.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Apakah contoh yang diberikan cukup untuk mendukung kesimpulan sebesar itu?",
+      "model": "A survey of twelve students cannot represent every teenager in the city.",
+      "modelTranslation": "Survei terhadap dua belas siswa tidak dapat mewakili semua remaja di kota.",
+      "criteria": "Ukuran sampel dan cakupan responden membatasi kesimpulan yang dapat ditarik."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "reason",
+          "indonesian": "alasan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "survey",
+          "indonesian": "survei"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
+        }
       ]
     }
   ],

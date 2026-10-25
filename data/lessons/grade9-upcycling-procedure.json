@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Procedure Text: Upcycling Materials?",
+      "text": "[[Upcycling procedure]] adalah petunjuk mengolah barang bekas menjadi benda baru yang lebih berguna."
+    },
+    {
       "type": "scaffold",
-      "intro": "Teks prosedur membantu pembaca melakukan sesuatu. Kita belajar membedakan apa yang perlu disiapkan dan apa yang perlu dikerjakan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Pahami hasil yang dituju",
+          "explanation": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca langkah awal",
+          "explanation": "Perhatikan kalimat ini. Kata kerja di awal kalimat adalah perintah. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Wash the empty jar.",
           "indonesian": "Cuci stoples kosong itu.",
           "why": "Kata kerja di awal kalimat adalah perintah."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan syarat dan langkah",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “it” merujuk pada stoples. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Dry it with a clean cloth.",
           "indonesian": "Keringkan dengan kain bersih.",
           "why": "Kata “it” merujuk pada stoples."
+        },
+        {
+          "title": "Cek keamanan dan urutan",
+          "explanation": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, instruksi yang baik menyebut bahan, kata kerja perintah, urutan, dan peringatan keamanan. Jangan melompati langkah yang menjadi syarat keberhasilan langkah berikutnya."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "jar",
-          "indonesian": "stoples"
-        },
-        {
-          "english": "cloth",
-          "indonesian": "kain"
-        },
-        {
-          "english": "attach",
-          "indonesian": "menempelkan"
-        },
-        {
-          "english": "decorate",
-          "indonesian": "menghias"
-        },
-        {
-          "english": "sharp",
-          "indonesian": "tajam"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Decorate the jar with paper.",
           "indonesian": "Hias stoples dengan kertas.",
           "note": "Ini tindakan yang dilakukan."
+        },
+        {
+          "english": "Cut the clean cardboard into four equal pieces.",
+          "indonesian": "Potong karton yang bersih menjadi empat bagian sama besar.",
+          "note": "[[Cut]] adalah perintah; kata [[clean]] dan [[equal]] menentukan bahan serta hasil yang dibutuhkan."
+        },
+        {
+          "english": "After the glue has dried, decorate the outside of the container.",
+          "indonesian": "Setelah lem mengering, hias bagian luar wadah tersebut.",
+          "note": "Langkah kedua bergantung pada kondisi di langkah sebelumnya, bukan sekadar pilihan urutan."
+        },
+        {
+          "english": "Finally, test the holder with a light object before adding anything heavier.",
+          "indonesian": "Terakhir, uji tempat tersebut dengan benda ringan sebelum menambah benda yang lebih berat.",
+          "note": "[[Finally]] menunjukkan tahap terakhir; pengujian ringan berkaitan dengan keamanan hasil kerja."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Before attaching paper, make sure the outside of the jar is completely dry.",
@@ -205,6 +204,40 @@
         "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
         "[[Procedure text]] menyebut [[goal]], [[materials]], dan [[steps]]. Kata kerja perintah seperti [[wash]] dan [[cut]] menjelaskan tindakan; lakukan menurut urutan.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman?",
+      "model": "Cut the clean cardboard into four equal pieces.",
+      "modelTranslation": "Potong karton yang bersih menjadi empat bagian sama besar.",
+      "criteria": "[[Cut]] adalah perintah; kata [[clean]] dan [[equal]] menentukan bahan serta hasil yang dibutuhkan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "jar",
+          "indonesian": "stoples"
+        },
+        {
+          "english": "cloth",
+          "indonesian": "kain"
+        },
+        {
+          "english": "attach",
+          "indonesian": "menempelkan"
+        },
+        {
+          "english": "decorate",
+          "indonesian": "menghias"
+        },
+        {
+          "english": "sharp",
+          "indonesian": "tajam"
+        }
       ]
     }
   ],

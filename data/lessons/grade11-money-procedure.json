@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Procedure Text: Personal Budgeting?",
+      "text": "[[Personal budgeting procedure]] adalah petunjuk bertahap untuk merencanakan pemasukan, kebutuhan, dan tabungan secara sederhana."
+    },
+    {
       "type": "scaffold",
-      "intro": "Pengelolaan uang dimulai dari mencatat pemasukan dan pengeluaran. Kita tidak perlu menghitung rumit; pahami dahulu urutannya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Pahami hasil yang dituju",
+          "explanation": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca langkah awal",
+          "explanation": "Perhatikan kalimat ini. Ini langkah pertama untuk mengetahui jumlah tersedia. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Write down your weekly allowance.",
           "indonesian": "Catat uang saku mingguanmu.",
           "why": "Ini langkah pertama untuk mengetahui jumlah tersedia."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan syarat dan langkah",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Biaya yang wajib didahulukan bisa disebut kebutuhan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "List necessary transport costs.",
           "indonesian": "Daftar biaya transportasi yang diperlukan.",
           "why": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
+        },
+        {
+          "title": "Cek keamanan dan urutan",
+          "explanation": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, langkah harus dapat dilakukan dan dicek hasilnya. [[Needs]] adalah kebutuhan penting; [[wants]] adalah keinginan. Pengeluaran tidak bisa dinilai hanya dari satu angka tanpa melihat total anggaran."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "allowance",
-          "indonesian": "uang saku"
-        },
-        {
-          "english": "expense",
-          "indonesian": "pengeluaran"
-        },
-        {
-          "english": "saving",
-          "indonesian": "tabungan"
-        },
-        {
-          "english": "need",
-          "indonesian": "kebutuhan"
-        },
-        {
-          "english": "want",
-          "indonesian": "keinginan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "A second decorative notebook may be a want.",
           "indonesian": "Buku catatan hias kedua mungkin hanya keinginan.",
           "note": "Tidak semua pembelian yang disukai merupakan kebutuhan."
+        },
+        {
+          "english": "Set aside money for transport before planning entertainment expenses.",
+          "indonesian": "Sisihkan uang untuk transportasi sebelum merencanakan pengeluaran hiburan.",
+          "note": "[[Before]] menunjukkan prioritas; kebutuhan dasar dipertimbangkan terlebih dahulu."
+        },
+        {
+          "english": "Review your spending at the end of each week and adjust the next budget.",
+          "indonesian": "Tinjau pengeluaran pada akhir setiap minggu dan sesuaikan anggaran berikutnya.",
+          "note": "Petunjuk menjelaskan tahap pemeriksaan, bukan hanya membuat daftar pengeluaran."
+        },
+        {
+          "english": "Compare your planned expenses with the amount you actually spent.",
+          "indonesian": "Bandingkan pengeluaran yang direncanakan dengan jumlah yang benar-benar dibelanjakan.",
+          "note": "Tahap evaluasi anggaran memerlukan dua angka: rencana dan pengeluaran nyata."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "After setting aside money for transport, compare the amount left with your savings goal.",
@@ -205,6 +204,40 @@
         "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
         "Teks prosedur menggunakan perintah seperti [[list]], [[compare]], dan [[review]]. [[Needs]] adalah kebutuhan pokok, sedangkan [[wants]] adalah keinginan.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Langkah mana menentukan prioritas sebelum uang dibelanjakan?",
+      "model": "Set aside money for transport before planning entertainment expenses.",
+      "modelTranslation": "Sisihkan uang untuk transportasi sebelum merencanakan pengeluaran hiburan.",
+      "criteria": "[[Before]] menunjukkan prioritas; kebutuhan dasar dipertimbangkan terlebih dahulu."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "allowance",
+          "indonesian": "uang saku"
+        },
+        {
+          "english": "expense",
+          "indonesian": "pengeluaran"
+        },
+        {
+          "english": "saving",
+          "indonesian": "tabungan"
+        },
+        {
+          "english": "need",
+          "indonesian": "kebutuhan"
+        },
+        {
+          "english": "want",
+          "indonesian": "keinginan"
+        }
       ]
     }
   ],

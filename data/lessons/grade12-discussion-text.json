@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Discussion Text: Weighing Two Sides?",
+      "text": "[[Discussion text]] adalah teks yang menyajikan alasan mendukung dan menentang suatu persoalan sebelum mempertimbangkan kesimpulan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Dalam sebuah perdebatan lingkungan, dua pihak bisa mempunyai alasan yang masuk akal. Kita belajar melihat keduanya sebelum mengambil kesimpulan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini alasan pendukung bersepeda. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Cycling can reduce fuel use.",
           "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
           "why": "Ini alasan pendukung bersepeda."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini keterbatasan solusi untuk semua siswa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Not all students live near school.",
           "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
           "why": "Ini keterbatasan solusi untuk semua siswa."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, bagian [[for]] dan [[against]] harus mewakili sudut pandang masing-masing dengan adil. Penutup boleh memilih posisi, tetapi pembaca harus tetap dapat melihat kelebihan dan keterbatasan kedua sisi."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "footprint",
-          "indonesian": "jejak dampak"
-        },
-        {
-          "english": "emission",
-          "indonesian": "emisi"
-        },
-        {
-          "english": "route",
-          "indonesian": "rute"
-        },
-        {
-          "english": "benefit",
-          "indonesian": "manfaat"
-        },
-        {
-          "english": "limitation",
-          "indonesian": "keterbatasan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Cycling could be encouraged where routes are safe.",
           "indonesian": "Bersepeda dapat didorong jika jalurnya aman.",
           "note": "Saran bersyarat lebih memperhatikan konteks."
+        },
+        {
+          "english": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
+          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
+          "note": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
+        },
+        {
+          "english": "The decision should consider both flexibility and access to reliable devices.",
+          "indonesian": "Keputusan itu perlu mempertimbangkan fleksibilitas dan akses terhadap perangkat yang andal.",
+          "note": "Penutup yang seimbang menggabungkan kriteria dari kedua sisi."
+        },
+        {
+          "english": "A balanced review acknowledges convenience without ignoring privacy concerns.",
+          "indonesian": "Ulasan yang seimbang mengakui kepraktisan tanpa mengabaikan kekhawatiran privasi.",
+          "note": "Kesimpulan adil mempertimbangkan manfaat dan risiko dengan jelas."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
@@ -205,6 +204,40 @@
         "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
         "[[Discussion text]] menghadirkan [[issue]], argumen [[for]] dan [[against]], lalu [[conclusion]]. Jangan menganggap semua pendapat sama kuat tanpa memeriksa bukti.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apakah kedua pihak mendapat alasan yang jelas dan seimbang?",
+      "model": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
+      "modelTranslation": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
+      "criteria": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "footprint",
+          "indonesian": "jejak dampak"
+        },
+        {
+          "english": "emission",
+          "indonesian": "emisi"
+        },
+        {
+          "english": "route",
+          "indonesian": "rute"
+        },
+        {
+          "english": "benefit",
+          "indonesian": "manfaat"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
+        }
       ]
     }
   ],

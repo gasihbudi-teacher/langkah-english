@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Simple Past Tense?",
+      "text": "[[Simple past tense]] adalah bentuk kata kerja untuk peristiwa atau keadaan yang terjadi pada waktu lampau."
+    },
+    {
       "type": "scaffold",
-      "intro": "Jika kegiatan sudah terjadi dan selesai, kita sering memakai [[simple past]]. Mulailah dengan membedakan hari ini dan kemarin.",
+      "intro": "Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Perhatikan petunjuk waktu seperti [[yesterday]] atau [[last week]]."
+          "title": "Temukan bagian penting",
+          "explanation": "Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Kata kerja beraturan biasanya ditambah [[-ed]], misalnya [[visit]] menjadi [[visited]].",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I visited my aunt yesterday.",
           "indonesian": "Saya mengunjungi bibi saya kemarin.",
           "why": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Sebagian kata kerja memiliki bentuk khusus: [[go]] berubah menjadi [[went]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Went]] adalah [[verb-2]] tak beraturan dari [[go]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "She went home early.",
           "indonesian": "Dia pulang lebih awal.",
           "why": "[[Went]] adalah [[verb-2]] tak beraturan dari [[go]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kalimat afirmatif memakai bentuk kedua kata kerja seperti [[visited]] atau [[went]]. Untuk pertanyaan dan negatif dengan kata kerja biasa, gunakan [[did]] dan kata kerja dasar: [[Did she go?]], bukan [[Did she went?]]."
     },
     {
       "type": "heading",
@@ -113,28 +123,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "yesterday",
-          "indonesian": "kemarin"
-        },
-        {
-          "english": "ago",
-          "indonesian": "yang lalu"
-        },
-        {
-          "english": "last week",
-          "indonesian": "pekan lalu"
-        },
-        {
-          "english": "arrived",
-          "indonesian": "tiba (lampau)"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -216,6 +204,16 @@
           "english": "We saw the film, but we did not like it.",
           "indonesian": "Kami menonton film itu, tetapi tidak menyukainya.",
           "note": "[[Saw]] adalah [[verb-2]]; [[did not]] diikuti [[like]]."
+        },
+        {
+          "english": "Did the visitors leave before sunset?",
+          "indonesian": "Apakah para pengunjung pergi sebelum matahari terbenam?",
+          "note": "[[Did]] menandai pertanyaan lampau dan [[leave]] tetap berbentuk dasar."
+        },
+        {
+          "english": "The children did not see the sign yesterday.",
+          "indonesian": "Anak-anak tidak melihat tanda itu kemarin.",
+          "note": "[[Did not]] sudah menandai masa lalu; gunakan [[see]], bukan [[saw]], sesudahnya."
         }
       ]
     },
@@ -228,7 +226,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Last Saturday, our class cleaned the park and planted five trees.",
@@ -249,6 +247,36 @@
         "Gunakan [[verb-2]] untuk kalimat positif tentang kejadian yang sudah selesai.",
         "Sesudah [[did]] atau [[did not]], kembalikan [[verb]] ke bentuk dasar.",
         "Pelajari [[verb]] beraturan dan tak beraturan beserta konteks waktunya."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]?",
+      "model": "Did the visitors leave before sunset?",
+      "modelTranslation": "Apakah para pengunjung pergi sebelum matahari terbenam?",
+      "criteria": "[[Did]] menandai pertanyaan lampau dan [[leave]] tetap berbentuk dasar."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "yesterday",
+          "indonesian": "kemarin"
+        },
+        {
+          "english": "ago",
+          "indonesian": "yang lalu"
+        },
+        {
+          "english": "last week",
+          "indonesian": "pekan lalu"
+        },
+        {
+          "english": "arrived",
+          "indonesian": "tiba (lampau)"
+        }
       ]
     }
   ],

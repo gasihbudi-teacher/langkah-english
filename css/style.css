@@ -115,3 +115,21 @@
 .pathway-sections{gap:15px}.topic-divider{margin:19px 0 7px;scroll-margin-top:100px;font-size:22px}
 @media(max-width:650px){.scaffold-guide{padding:13px}.scaffold-step{padding:13px}.guided-checkpoint{padding:14px}.topic-fold>summary{padding:17px 14px}.topic-fold>summary .topic-title{font-size:16px}.topic-fold-body{padding:11px}}
 @media(forced-colors:active){.topic-fold,.scaffold-step,.guided-checkpoint{border:1px solid currentColor}}
+
+/* V9: definitions first, intentional guided pedagogy, visible essential teaching. */
+.concept-definition{padding:23px 25px;margin:20px 0 16px;background:#eff7ff;border:1px solid #bfd6f0;border-left:6px solid #346bb0;border-radius:14px}
+.concept-definition h2{font-size:clamp(21px,3vw,27px);margin:0 0 8px!important;color:#173e75}
+.concept-definition p{font-size:1.08rem;line-height:1.8;margin:0!important}
+.concept-synthesis{margin:22px 0 28px;padding:20px 23px;background:#f0f9f4;border:1px solid #b6deca;border-left:6px solid #3c9166;border-radius:14px}
+.concept-synthesis h2{margin:0 0 9px!important;font-size:clamp(20px,2.5vw,25px);color:#1a694a}
+.concept-synthesis p{margin:0!important;line-height:1.8}
+.writing-self-check{margin:30px 0;padding:20px 23px;background:#fffaf1;border:1px solid #e4cda1;border-radius:14px}
+.writing-self-check h3{margin-top:0!important}.writing-self-check p{line-height:1.75}
+.writing-self-check textarea{display:block;width:100%;box-sizing:border-box;margin:15px 0;padding:13px;border:2px solid #b8cce2;border-radius:9px;min-height:90px;font:inherit;resize:vertical;background:#fff;color:#223d56}
+.writing-self-check textarea:focus-visible{outline:3px solid #3985d6;outline-offset:2px}
+.writing-self-check details{margin-top:14px;border:1px solid #e0d4b4;border-radius:10px;padding:12px 15px;background:#fff}
+.writing-self-check summary{cursor:pointer;color:#305c8c;font-weight:750}
+.lesson-vocabulary{margin-top:34px;border-top:2px solid #dfe8ef;padding-top:11px}
+.objectives-panel{margin:12px 0}.objectives-panel>summary{cursor:pointer;font-weight:740;color:#284e7a}
+.objectives-panel[open]>summary{margin-bottom:13px}
+@media(max-width:650px){.concept-definition,.concept-synthesis,.writing-self-check{padding:16px 17px}}

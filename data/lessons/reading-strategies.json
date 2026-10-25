@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Read with evidence: a strategy toolkit?",
+      "text": "[[Evidence-based reading]] adalah cara memilih jawaban bacaan berdasarkan informasi yang dapat ditunjuk dalam teks."
+    },
+    {
       "type": "scaffold",
-      "intro": "Membaca untuk UTBK tidak berarti menerjemahkan setiap kata. Kita akan mencari bukti langsung dari teks.",
+      "intro": "Kalimat mana dalam bacaan yang benar-benar mendukung pilihanmu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Baca pertanyaan untuk mengetahui informasi yang dicari."
+          "title": "Tentukan yang dicari",
+          "explanation": "Kalimat mana dalam bacaan yang benar-benar mendukung pilihanmu? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Temukan kalimat dalam teks yang mendukung jawaban; jangan hanya mengandalkan tebakan.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. Informasi eksplisit: teks menyatakan jam buka langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The café opens at six.",
           "indonesian": "Kafe itu buka pukul enam.",
           "why": "Informasi eksplisit: teks menyatakan jam buka langsung."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Bandingkan pilihan jawaban dengan isi teks, termasuk kata yang terlalu pasti seperti [[always]].",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pertanyaan detail dapat dijawab dari angka [[two]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Amina borrowed two novels.",
           "indonesian": "Amina meminjam dua novel.",
           "why": "Pertanyaan detail dapat dijawab dari angka [[two]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, jawab pertanyaan setelah mencari kalimat pendukungnya. Pilihan yang terdengar masuk akal tetapi melampaui isi teks tetap belum tentu benar. Bedakan informasi tersurat dan simpulan yang wajar."
     },
     {
       "type": "heading",
@@ -127,28 +137,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "evidence",
-          "indonesian": "bukti"
-        },
-        {
-          "english": "inference",
-          "indonesian": "simpulan tersirat"
-        },
-        {
-          "english": "claim",
-          "indonesian": "klaim"
-        },
-        {
-          "english": "cause",
-          "indonesian": "penyebab"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -226,6 +214,16 @@
           "english": "The results suggest a benefit; they do not prove it.",
           "indonesian": "Hasilnya mengisyaratkan manfaat; hasil itu tidak membuktikannya.",
           "note": "[[Suggest]] berbeda dari [[prove]] dalam tingkat kepastian."
+        },
+        {
+          "english": "The passage says the gate closes at six; it does not say visitors must arrive at five.",
+          "indonesian": "Bacaan menyatakan gerbang ditutup pukul enam; bacaan tidak menyatakan pengunjung harus tiba pukul lima.",
+          "note": "Jangan menambahkan aturan kedatangan yang tidak disebutkan dalam teks."
+        },
+        {
+          "english": "The article mentions three classrooms, so a claim about all schools is too broad.",
+          "indonesian": "Artikel itu menyebut tiga ruang kelas, sehingga klaim tentang semua sekolah terlalu luas.",
+          "note": "Kata [[all]] dalam pilihan jawaban perlu diperiksa terhadap cakupan bukti sebenarnya."
         }
       ]
     },
@@ -238,7 +236,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "A report says attendance improved after a new timetable, but no comparison group was studied.",
@@ -259,6 +257,36 @@
         "Identifikasi topik dan ide utama sebelum mengevaluasi pilihan jawaban.",
         "Cari bukti teks yang jelas untuk tiap jawaban.",
         "Jangan menyimpulkan sebab-akibat hanya dari urutan peristiwa."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Kalimat mana dalam bacaan yang benar-benar mendukung pilihanmu?",
+      "model": "The passage says the gate closes at six; it does not say visitors must arrive at five.",
+      "modelTranslation": "Bacaan menyatakan gerbang ditutup pukul enam; bacaan tidak menyatakan pengunjung harus tiba pukul lima.",
+      "criteria": "Jangan menambahkan aturan kedatangan yang tidak disebutkan dalam teks."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "inference",
+          "indonesian": "simpulan tersirat"
+        },
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "cause",
+          "indonesian": "penyebab"
+        }
       ]
     }
   ],

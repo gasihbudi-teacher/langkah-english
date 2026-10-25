@@ -35,12 +35,12 @@ for r in resources:
     if r['type'] == 'lesson':
         assert d['objectives'] and d['blocks']
         for b in d['blocks']:
-            required = {'heading':['text'],'subheading':['text'],'text':['text'],'example':['text'],'rule':['text'],'mistake':['incorrect','correct','explanation'],'table':['headers','rows'],'vocabulary':['title','items'],'example_group':['title','items','collapsed'],'breakdown':['sentence','parts'],'summary':['title','items'],'scaffold':['intro','steps'],'checkpoint':['id','prompt','translation','choices','answer','explanation','hint'],'reflection':['prompt','translation','answer']}
+            required = {'heading':['text'],'subheading':['text'],'text':['text'],'example':['text'],'rule':['text'],'mistake':['incorrect','correct','explanation'],'table':['headers','rows'],'vocabulary':['title','items'],'example_group':['title','items','collapsed'],'breakdown':['sentence','parts'],'summary':['title','items'],'scaffold':['intro','steps'],'checkpoint':['id','prompt','translation','choices','answer','explanation','hint'],'reflection':['prompt','translation','answer'],'definition':['title','text'],'synthesis':['title','text'],'self_check':['title','prompt','model','modelTranslation','criteria']}
             assert b['type'] in required
             assert all(k in b for k in required[b['type']])
             if b['type']=='scaffold':
-                assert len(b['steps']) == 3 and all(x['title'] and x['explanation'] for x in b['steps'])
-                assert all(x.get('english') and x.get('indonesian') and x.get('why') for x in b['steps'][1:])
+                assert 2 <= len(b['steps']) <= 5 and all(x['title'] and x['explanation'] for x in b['steps'])
+                assert all(x.get('indonesian') and x.get('why') for x in b['steps'] if x.get('english'))
             if b['type']=='checkpoint':
                 assert len(b['choices']) == len(b['translationChoices']) == 3 and 0 <= b['answer'] < 3
             if b['type']=='table':

@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Sports Event Recount?",
+      "text": "[[Sports event recount]] adalah cerita ulang pertandingan atau kegiatan olahraga menurut urutan peristiwa yang benar."
+    },
+    {
       "type": "scaffold",
-      "intro": "Saat membaca kisah pertandingan, kita perlu mengetahui apa yang terjadi, kapan hasil berubah, dan apa yang dipelajari peserta. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apa momen yang mengubah jalannya pertandingan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa momen yang mengubah jalannya pertandingan? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Waktu menunjukkan kejadian tertentu di masa lalu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The match began at three.",
           "indonesian": "Pertandingan dimulai pukul tiga.",
           "why": "Waktu menunjukkan kejadian tertentu di masa lalu."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “first” menyatakan urutan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Our team scored first.",
           "indonesian": "Tim kami mencetak skor lebih dulu.",
           "why": "Kata “first” menyatakan urutan."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa momen yang mengubah jalannya pertandingan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, skor dan waktu pertandingan adalah informasi faktual, sedangkan kata seperti [[exciting]] menunjukkan reaksi. Tandai titik ketika keadaan berubah, lalu lihat akibatnya bagi hasil akhir."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "referee",
-          "indonesian": "wasit"
-        },
-        {
-          "english": "halftime",
-          "indonesian": "turun minum"
-        },
-        {
-          "english": "equalise",
-          "indonesian": "menyamakan skor"
-        },
-        {
-          "english": "volunteer",
-          "indonesian": "relawan"
-        },
-        {
-          "english": "score",
-          "indonesian": "skor"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "It was the best match ever.",
           "indonesian": "Itu pertandingan terbaik sepanjang masa.",
           "note": "Ini penilaian pribadi penulis."
+        },
+        {
+          "english": "At half-time, our team was two points behind.",
+          "indonesian": "Pada pertengahan pertandingan, tim kami tertinggal dua poin.",
+          "note": "[[At half-time]] dan [[two points]] adalah rincian waktu dan skor, bukan pendapat pengamat."
+        },
+        {
+          "english": "The final goal changed a draw into a narrow victory.",
+          "indonesian": "Gol terakhir mengubah hasil seri menjadi kemenangan tipis.",
+          "note": "Kalimat menyebut titik perubahan dan akibatnya terhadap hasil pertandingan."
+        },
+        {
+          "english": "Although the runners were tired, they completed the final lap together.",
+          "indonesian": "Walaupun para pelari lelah, mereka menyelesaikan putaran terakhir bersama-sama.",
+          "note": "Teks recount dapat menambahkan tantangan dan reaksi, tidak hanya daftar hasil."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although our team was behind at halftime, the players equalised in the final minute.",
@@ -205,6 +204,40 @@
         "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis.",
         "Teks [[recount]] memakai [[past tense]] dan kata urutan. Bedakan skor pertandingan (fakta) dengan perasaan penonton (opini).",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa momen yang mengubah jalannya pertandingan?",
+      "model": "At half-time, our team was two points behind.",
+      "modelTranslation": "Pada pertengahan pertandingan, tim kami tertinggal dua poin.",
+      "criteria": "[[At half-time]] dan [[two points]] adalah rincian waktu dan skor, bukan pendapat pengamat."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "referee",
+          "indonesian": "wasit"
+        },
+        {
+          "english": "halftime",
+          "indonesian": "turun minum"
+        },
+        {
+          "english": "equalise",
+          "indonesian": "menyamakan skor"
+        },
+        {
+          "english": "volunteer",
+          "indonesian": "relawan"
+        },
+        {
+          "english": "score",
+          "indonesian": "skor"
+        }
       ]
     }
   ],

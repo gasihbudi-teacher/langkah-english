@@ -7,36 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Advanced Grammar Analysis?",
+      "text": "[[Advanced grammar analysis]] adalah cara membedah kalimat panjang menjadi klausa utama, klausa tambahan, dan bagian yang menerangkan kata tertentu."
+    },
+    {
       "type": "scaffold",
-      "intro": "Untuk memahami kalimat yang rumit, pecah kalimat menjadi bagian kecil sebelum menentukan maknanya.",
+      "intro": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari [[subject]] dan [[verb]] utama lebih dulu."
+          "title": "Temukan bagian penting",
+          "explanation": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Pisahkan klausa penjelas, misalnya bagian yang dimulai dengan [[who]].",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The boy who waved is my cousin.",
           "indonesian": "Anak laki-laki yang melambaikan tangan itu sepupu saya.",
           "why": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Perhatikan kata yang memberi penekanan seperti [[only]]; letaknya dapat mengubah arti.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Only]] membatasi pelaku yang melakukan tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Only Sara read the article.",
           "indonesian": "Hanya Sara yang membaca artikel itu.",
           "why": "[[Only]] membatasi pelaku yang melakukan tindakan."
+        },
+        {
+          "title": "Uji kalimat baru",
+          "explanation": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
-    },
-    {
-      "type": "text",
-      "text": "Menganalisis fungsi klausa, pilihan [[tenses]], serta pembatas klaim dalam kalimat akademik kompleks."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, jangan mengartikan kalimat panjang dari kiri ke kanan secara buta. Temukan [[main clause]] lebih dulu, lalu tentukan bagian mana yang menjadi alasan, pembatas, atau informasi tambahan. Letak kata [[not]] dan penghubung juga menentukan arti."
     },
     {
       "type": "rule",
@@ -82,28 +88,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "scope",
-          "indonesian": "cakupan"
-        },
-        {
-          "english": "modifier",
-          "indonesian": "pewatas"
-        },
-        {
-          "english": "only",
-          "indonesian": "hanya"
-        },
-        {
-          "english": "not all",
-          "indonesian": "tidak semuanya"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -183,6 +167,16 @@
           "english": "Not all students agreed.",
           "indonesian": "Tidak semua siswa setuju.",
           "note": "[[Not]] [[all]] berarti sebagian mungkin tidak setuju; bukan semua menolak."
+        },
+        {
+          "english": "The article that you recommended was not written by the researcher.",
+          "indonesian": "Artikel yang kamu rekomendasikan itu tidak ditulis oleh peneliti tersebut.",
+          "note": "Klausa [[that you recommended]] menerangkan [[the article]], sedangkan [[was not written]] adalah predikat pasif kalimat utama."
+        },
+        {
+          "english": "Only the students who registered early received an email.",
+          "indonesian": "Hanya siswa yang mendaftar lebih awal yang menerima surel.",
+          "note": "[[Who registered early]] membatasi kelompok siswa; [[only]] mempersempit siapa yang menerima surel."
         }
       ]
     },
@@ -195,7 +189,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The article that the class discussed yesterday was revised after the editor checked its sources.",
@@ -216,6 +210,36 @@
         "Cari [[subject]] utama dan [[verb]] utama sebelum membaca [[modifier]] panjang.",
         "Perhatikan cakupan only/[[not]] karena posisi kata mengubah makna.",
         "Simpulan yang tepat harus mengikuti bukti dan batasan dalam kalimat."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus?",
+      "model": "The article that you recommended was not written by the researcher.",
+      "modelTranslation": "Artikel yang kamu rekomendasikan itu tidak ditulis oleh peneliti tersebut.",
+      "criteria": "Klausa [[that you recommended]] menerangkan [[the article]], sedangkan [[was not written]] adalah predikat pasif kalimat utama."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "scope",
+          "indonesian": "cakupan"
+        },
+        {
+          "english": "modifier",
+          "indonesian": "pewatas"
+        },
+        {
+          "english": "only",
+          "indonesian": "hanya"
+        },
+        {
+          "english": "not all",
+          "indonesian": "tidak semuanya"
+        }
       ]
     }
   ],

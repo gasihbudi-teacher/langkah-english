@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Recount Text: A School Trip?",
+      "text": "[[Recount text]] adalah teks yang mengisahkan kembali perjalanan atau kegiatan yang sudah terjadi secara berurutan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalau kamu menceritakan kegiatan kemarin, pendengar perlu tahu apa yang terjadi dulu, kemudian, dan akhirnya. Itulah awal [[recount text]]. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apa yang terjadi pertama, kemudian, dan terakhir? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa yang terjadi pertama, kemudian, dan terakhir? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kata “visited” menunjukkan kejadian yang sudah selesai. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Our class visited a museum.",
           "indonesian": "Kelas kami mengunjungi museum.",
           "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. “First” menyatakan urutan awal. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "First, we met our guide.",
           "indonesian": "Pertama, kami bertemu pemandu.",
           "why": "“First” menyatakan urutan awal."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa yang terjadi pertama, kemudian, dan terakhir? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pembaca perlu tahu siapa yang pergi, kapan dan ke mana, lalu mengikuti kejadian sesuai waktu. Kata [[then]], [[later]], dan bentuk lampau memberi petunjuk; kesan penulis biasanya muncul di akhir."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "arrive",
-          "indonesian": "tiba"
-        },
-        {
-          "english": "guide",
-          "indonesian": "pemandu"
-        },
-        {
-          "english": "exhibit",
-          "indonesian": "benda pameran"
-        },
-        {
-          "english": "compare",
-          "indonesian": "membandingkan"
-        },
-        {
-          "english": "reflection",
-          "indonesian": "refleksi"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "I learned to ask better questions.",
           "indonesian": "Saya belajar mengajukan pertanyaan yang lebih baik.",
           "note": "Ini refleksi: pelajaran yang didapat penulis."
+        },
+        {
+          "english": "We reached the station at eight and boarded the train ten minutes later.",
+          "indonesian": "Kami tiba di stasiun pukul delapan dan naik kereta sepuluh menit kemudian.",
+          "note": "Dua penanda waktu memungkinkan pembaca menyusun urutan pengalaman."
+        },
+        {
+          "english": "At the end of the trip, I felt proud of our teamwork.",
+          "indonesian": "Pada akhir perjalanan, saya merasa bangga dengan kerja sama kami.",
+          "note": "Bagian ini merupakan kesan penutup setelah rangkaian peristiwa, bukan kejadian perjalanan baru."
+        },
+        {
+          "english": "On the way home, our bus stopped near a small fruit market.",
+          "indonesian": "Dalam perjalanan pulang, bus kami berhenti dekat pasar buah kecil.",
+          "note": "[[On the way home]] membantu pembaca menempatkan peristiwa menjelang akhir perjalanan."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "After the guide explained the old maps, we compared them with a modern map.",
@@ -205,6 +204,40 @@
         "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
         "Dalam [[recount]], susun kejadian masa lampau dengan kata urutan seperti [[first]], [[then]], dan [[finally]]. Bagian akhir dapat berisi perasaan atau pelajaran.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa yang terjadi pertama, kemudian, dan terakhir?",
+      "model": "We reached the station at eight and boarded the train ten minutes later.",
+      "modelTranslation": "Kami tiba di stasiun pukul delapan dan naik kereta sepuluh menit kemudian.",
+      "criteria": "Dua penanda waktu memungkinkan pembaca menyusun urutan pengalaman."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "arrive",
+          "indonesian": "tiba"
+        },
+        {
+          "english": "guide",
+          "indonesian": "pemandu"
+        },
+        {
+          "english": "exhibit",
+          "indonesian": "benda pameran"
+        },
+        {
+          "english": "compare",
+          "indonesian": "membandingkan"
+        },
+        {
+          "english": "reflection",
+          "indonesian": "refleksi"
+        }
       ]
     }
   ],

@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Noun Groups: Describing Animals and Products?",
+      "text": "[[Noun group]] adalah kelompok kata yang berpusat pada sebuah nomina dan dapat diberi penjelas sebelum atau sesudahnya."
+    },
+    {
       "type": "scaffold",
-      "intro": "Satu benda bisa dijelaskan dengan banyak kata. Jangan langsung menerjemahkan dari kiri ke kanan; temukan dahulu benda utamanya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Nomina mana yang menjadi inti, dan kata mana yang hanya menerangkannya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Temukan bagian penting",
+          "explanation": "Nomina mana yang menjadi inti, dan kata mana yang hanya menerangkannya? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. “bird” adalah kata benda inti. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "a bird",
           "indonesian": "seekor burung",
           "why": "“bird” adalah kata benda inti."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. “small” menerangkan ukuran. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "a small bird",
           "indonesian": "seekor burung kecil",
           "why": "“small” menerangkan ukuran."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kata inti seperti [[bird]] bisa diperluas menjadi [[a small brown bird]]. Urutan dan jenis penjelas menentukan apakah frasa mudah dipahami. Temukan kata benda intinya sebelum menerjemahkan semua sifat."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "noun",
-          "indonesian": "kata benda"
-        },
-        {
-          "english": "adjective",
-          "indonesian": "kata sifat"
-        },
-        {
-          "english": "size",
-          "indonesian": "ukuran"
-        },
-        {
-          "english": "colour",
-          "indonesian": "warna"
-        },
-        {
-          "english": "material",
-          "indonesian": "bahan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "a box for recycled paper",
           "indonesian": "sebuah kotak untuk kertas daur ulang",
           "note": "Keterangan setelah “box” menjelaskan fungsi kotak."
+        },
+        {
+          "english": "The three young sea turtles swam toward the beach.",
+          "indonesian": "Tiga anak penyu muda berenang menuju pantai.",
+          "note": "[[The three young sea turtles]] berpusat pada nomina [[turtles]]; angka dan sifat menerangkannya."
+        },
+        {
+          "english": "A brightly coloured reusable bag hung beside the door.",
+          "indonesian": "Tas pakai ulang yang berwarna cerah tergantung di samping pintu.",
+          "note": "Nomina inti [[bag]] diperjelas oleh frasa deskriptif; kata sifat tidak berdiri sebagai kalimat baru."
+        },
+        {
+          "english": "A pair of tiny green frogs sat on the wet rock.",
+          "indonesian": "Sepasang katak hijau kecil duduk di atas batu basah.",
+          "note": "Dalam [[a pair of tiny green frogs]], nomina inti pada tingkat frasa utama adalah [[pair]], sementara [[frogs]] menjelaskan isinya."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The small grey bird near the window has a bright yellow tail.",
@@ -205,6 +200,40 @@
         "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
         "Dalam [[noun group]], cari kata benda inti ([[head noun]]) lalu kata yang menjelaskannya. Misalnya [[a small brown bird]] memiliki inti [[bird]].",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Nomina mana yang menjadi inti, dan kata mana yang hanya menerangkannya?",
+      "model": "The three young sea turtles swam toward the beach.",
+      "modelTranslation": "Tiga anak penyu muda berenang menuju pantai.",
+      "criteria": "[[The three young sea turtles]] berpusat pada nomina [[turtles]]; angka dan sifat menerangkannya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "noun",
+          "indonesian": "kata benda"
+        },
+        {
+          "english": "adjective",
+          "indonesian": "kata sifat"
+        },
+        {
+          "english": "size",
+          "indonesian": "ukuran"
+        },
+        {
+          "english": "colour",
+          "indonesian": "warna"
+        },
+        {
+          "english": "material",
+          "indonesian": "bahan"
+        }
       ]
     }
   ],

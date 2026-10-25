@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Parallel Structures?",
+      "text": "[[Parallel structure]] adalah penggunaan bentuk tata bahasa yang sepadan untuk ide-ide yang sejajar dalam daftar atau pasangan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Sebuah daftar lebih mudah dipahami jika semua bagiannya memakai pola yang seimbang.",
+      "intro": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari kata penghubung seperti [[and]] atau [[or]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Bandingkan bentuk tiap unsur daftar: [[reading]], [[writing]], dan [[drawing]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. Tiga unsur dalam daftar sama-sama memakai [[-ing]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "She likes reading, writing, and drawing.",
           "indonesian": "Dia suka membaca, menulis, dan menggambar.",
           "why": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Jangan mencampur bentuk yang tidak sejenis jika semuanya mempunyai fungsi yang sama.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Careful]] dan [[patient]] sama-sama [[adjective]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "He is careful and patient.",
           "indonesian": "Dia teliti dan sabar.",
           "why": "[[Careful]] dan [[patient]] sama-sama [[adjective]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, setelah [[and]], [[or]], dan [[not only ... but also]], bagian yang dianggap setara sebaiknya menggunakan bentuk serupa. Bandingkan [[reading, writing, and speaking]] dengan daftar yang tiba-tiba berganti menjadi [[to speak]]."
     },
     {
       "type": "text",
@@ -82,28 +92,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "both",
-          "indonesian": "keduanya"
-        },
-        {
-          "english": "either",
-          "indonesian": "salah satu"
-        },
-        {
-          "english": "not only",
-          "indonesian": "tidak hanya"
-        },
-        {
-          "english": "also",
-          "indonesian": "juga"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -179,6 +167,16 @@
           "english": "He is not only intelligent but also hardworking.",
           "indonesian": "Dia bukan hanya cerdas, melainkan juga rajin.",
           "note": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]]."
+        },
+        {
+          "english": "The project involves collecting data, checking sources, and writing a report.",
+          "indonesian": "Proyek itu mencakup pengumpulan data, pemeriksaan sumber, dan penulisan laporan.",
+          "note": "Tiga kegiatan berada dalam bentuk [[-ing]] yang sejajar setelah [[involves]]."
+        },
+        {
+          "english": "The course teaches students to observe, to compare, and to explain results.",
+          "indonesian": "Kursus itu mengajarkan siswa untuk mengamati, membandingkan, dan menjelaskan hasil.",
+          "note": "Tiga unsur dalam daftar memakai pola [[to]] + verba dasar secara konsisten."
         }
       ]
     },
@@ -191,7 +189,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The programme aims to increase reading speed, improve accuracy, and build confidence.",
@@ -212,6 +210,36 @@
         "Unsur yang memiliki fungsi sama sebaiknya memakai pola gramatikal sejajar.",
         "Periksa daftar, gabungan [[and]]/[[or]], dan pola [[not only]]…[[but]] also.",
         "Baca ulang setiap unsur untuk memastikan hubungannya tetap logis."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara?",
+      "model": "The project involves collecting data, checking sources, and writing a report.",
+      "modelTranslation": "Proyek itu mencakup pengumpulan data, pemeriksaan sumber, dan penulisan laporan.",
+      "criteria": "Tiga kegiatan berada dalam bentuk [[-ing]] yang sejajar setelah [[involves]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "both",
+          "indonesian": "keduanya"
+        },
+        {
+          "english": "either",
+          "indonesian": "salah satu"
+        },
+        {
+          "english": "not only",
+          "indonesian": "tidak hanya"
+        },
+        {
+          "english": "also",
+          "indonesian": "juga"
+        }
       ]
     }
   ],

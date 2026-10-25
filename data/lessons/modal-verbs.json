@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Modal Verbs?",
+      "text": "[[Modal verbs]] adalah kata bantu seperti [[can]], [[must]], [[may]], dan [[should]] yang menunjukkan kemampuan, kemungkinan, keharusan, atau saran."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kata seperti [[can]] dan [[must]] memberi makna tambahan pada kegiatan: kemampuan, izin, atau kewajiban.",
+      "intro": "Apakah maksudnya kemampuan, izin, kemungkinan, saran, atau kewajiban? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Kenali pesan yang ingin disampaikan: boleh, mampu, perlu, atau harus."
+          "title": "Temukan bagian penting",
+          "explanation": "Apakah maksudnya kemampuan, izin, kemungkinan, saran, atau kewajiban? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Letakkan [[modal]] sebelum kata kerja dasar, misalnya [[can swim]].",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "You can swim here.",
           "indonesian": "Kamu boleh berenang di sini.",
           "why": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Jangan tambahkan [[-s]] setelah [[modal]], meskipun subjeknya [[he]] atau [[she]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Must]] menyatakan kewajiban yang kuat. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "You must wear a helmet.",
           "indonesian": "Kamu harus memakai helm.",
           "why": "[[Must]] menyatakan kewajiban yang kuat."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, modal diikuti kata kerja dasar tanpa [[to]] dalam pola umum seperti [[must study]] atau [[can swim]]. Pilihan modal mengubah kekuatan makna: [[must]] lebih kuat daripada [[might]]."
     },
     {
       "type": "heading",
@@ -82,28 +92,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "ability",
-          "indonesian": "kemampuan"
-        },
-        {
-          "english": "permission",
-          "indonesian": "izin"
-        },
-        {
-          "english": "obligation",
-          "indonesian": "kewajiban"
-        },
-        {
-          "english": "possibility",
-          "indonesian": "kemungkinan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -187,6 +175,16 @@
           "english": "She can speak English, but she cannot read Japanese.",
           "indonesian": "Dia bisa berbicara bahasa Inggris, tetapi tidak bisa membaca bahasa Jepang.",
           "note": "[[Can]] dan [[cannot]] menunjukkan kemampuan yang berbeda."
+        },
+        {
+          "english": "You must wear a helmet, but you may choose its colour.",
+          "indonesian": "Kamu wajib memakai helm, tetapi kamu boleh memilih warnanya.",
+          "note": "[[Must]] menunjukkan kewajiban; [[may]] dalam konteks ini menyatakan izin."
+        },
+        {
+          "english": "The forecast might change, so you should check it again tomorrow.",
+          "indonesian": "Prakiraan mungkin berubah, jadi kamu sebaiknya memeriksanya lagi besok.",
+          "note": "[[Might]] menyatakan kemungkinan, sedangkan [[should]] memberi saran."
         }
       ]
     },
@@ -199,7 +197,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Students should check the evidence before accepting a claim.",
@@ -220,6 +218,36 @@
         "Sesudah [[modal]], gunakan [[verb]] dasar tanpa [[-s]].",
         "[[Must not]] berarti dilarang, sedangkan [[do not have to]] berarti tidak wajib.",
         "Bedakan [[can]], [[might]], [[should]], dan [[must]] berdasarkan makna, bukan hanya bentuk."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah maksudnya kemampuan, izin, kemungkinan, saran, atau kewajiban?",
+      "model": "You must wear a helmet, but you may choose its colour.",
+      "modelTranslation": "Kamu wajib memakai helm, tetapi kamu boleh memilih warnanya.",
+      "criteria": "[[Must]] menunjukkan kewajiban; [[may]] dalam konteks ini menyatakan izin."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "ability",
+          "indonesian": "kemampuan"
+        },
+        {
+          "english": "permission",
+          "indonesian": "izin"
+        },
+        {
+          "english": "obligation",
+          "indonesian": "kewajiban"
+        },
+        {
+          "english": "possibility",
+          "indonesian": "kemungkinan"
+        }
       ]
     }
   ],

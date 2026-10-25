@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Expressing Opinions and Supporting Reasons?",
+      "text": "[[Expressing opinions]] berarti menyampaikan pendapat, lalu mendukungnya dengan alasan yang bisa dipahami orang lain."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita boleh mempunyai pandangan berbeda. Yang penting bukan hanya berkata “setuju” atau “tidak”, tetapi juga menjelaskan alasan dengan sopan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. “I think” menandai pendapat. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I think the library should open earlier.",
           "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
           "why": "“I think” menandai pendapat."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. “Because” memberikan alasan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Because some students arrive early.",
           "indonesian": "Karena beberapa siswa datang lebih awal.",
           "why": "“Because” memberikan alasan."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[I think]] menandai pendapat, sedangkan [[because]] menandai alasan. Contoh atau hasil pengamatan dapat memperkuat alasan; ketidaksetujuan yang sopan tetap perlu menjelaskan persoalannya."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "opinion",
-          "indonesian": "pendapat"
-        },
-        {
-          "english": "reason",
-          "indonesian": "alasan"
-        },
-        {
-          "english": "agree",
-          "indonesian": "setuju"
-        },
-        {
-          "english": "disagree",
-          "indonesian": "tidak setuju"
-        },
-        {
-          "english": "feedback",
-          "indonesian": "tanggapan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "The library should open at seven.",
           "indonesian": "Perpustakaan sebaiknya buka pukul tujuh.",
           "note": "Ini usulan atau pendapat."
+        },
+        {
+          "english": "I support a reading corner because it gives students a quiet place to study.",
+          "indonesian": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
+          "note": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
+        },
+        {
+          "english": "I understand your concern, but the proposal includes a safety plan.",
+          "indonesian": "Saya memahami kekhawatiranmu, tetapi usulan itu mencakup rencana keselamatan.",
+          "note": "Ungkapan sopan mengakui keberatan sebelum menyampaikan tanggapan yang relevan."
+        },
+        {
+          "english": "The school should plant trees since the courtyard gets very hot at noon.",
+          "indonesian": "Sekolah sebaiknya menanam pohon karena halaman menjadi sangat panas pada siang hari.",
+          "note": "Pernyataan usulan diikuti alasan yang bisa diamati dan diperdebatkan."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "I see your point, but the staff may need time to prepare the books.",
@@ -205,6 +204,40 @@
         "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
         "[[I think]] memperkenalkan pendapat, [[because]] menghubungkannya dengan alasan, dan [[I see your point, but]] menunjukkan perbedaan pendapat dengan sopan.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya?",
+      "model": "I support a reading corner because it gives students a quiet place to study.",
+      "modelTranslation": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
+      "criteria": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "opinion",
+          "indonesian": "pendapat"
+        },
+        {
+          "english": "reason",
+          "indonesian": "alasan"
+        },
+        {
+          "english": "agree",
+          "indonesian": "setuju"
+        },
+        {
+          "english": "disagree",
+          "indonesian": "tidak setuju"
+        },
+        {
+          "english": "feedback",
+          "indonesian": "tanggapan"
+        }
       ]
     }
   ],

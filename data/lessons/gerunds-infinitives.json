@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Gerunds and Infinitives?",
+      "text": "[[Gerund]] ialah bentuk [[verb-ing]] yang berfungsi seperti nomina; [[infinitive]] ialah bentuk [[to]] + kata kerja dasar dalam pola yang sedang dipelajari."
+    },
+    {
       "type": "scaffold",
-      "intro": "Sesudah kata kerja tertentu, kegiatan berikutnya dapat ditulis dengan [[-ing]] atau [[to]] + kata kerja dasar.",
+      "intro": "Kata apa yang muncul tepat sebelum kegiatan kedua? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Lihat kata kerja pertama, misalnya [[enjoy]] atau [[decide]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Kata apa yang muncul tepat sebelum kegiatan kedua? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Setelah [[enjoy]], kegiatan umumnya memakai bentuk [[-ing]]: [[enjoy reading]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Enjoy]] diikuti bentuk [[verb-ing]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I enjoy reading.",
           "indonesian": "Saya menikmati membaca.",
           "why": "[[Enjoy]] diikuti bentuk [[verb-ing]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah [[decide]], kegiatan umumnya memakai [[to]]: [[decided to leave]].",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Decide diikuti [[to]] + [[verb]] dasar. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "She decided to leave.",
           "indonesian": "Dia memutuskan untuk pergi.",
           "why": "Decide diikuti [[to]] + [[verb]] dasar."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Kata apa yang muncul tepat sebelum kegiatan kedua? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kata sebelum kegiatan kedua sering menentukan bentuknya: [[enjoy reading]], tetapi [[decide to read]]. Sesudah kata depan seperti [[without]], gunakan [[-ing]]. Jangan menebak dari terjemahan Indonesia saja."
     },
     {
       "type": "heading",
@@ -82,28 +96,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "enjoy",
-          "indonesian": "menikmati"
-        },
-        {
-          "english": "decide",
-          "indonesian": "memutuskan"
-        },
-        {
-          "english": "remember",
-          "indonesian": "mengingat"
-        },
-        {
-          "english": "avoid",
-          "indonesian": "menghindari"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -183,6 +175,16 @@
           "english": "Remember to lock the door.",
           "indonesian": "Ingatlah untuk mengunci pintu.",
           "note": "[[Remember]] + [[to-infinitive]] menekankan tindakan yang harus dilakukan."
+        },
+        {
+          "english": "Before leaving, turn off the lights.",
+          "indonesian": "Sebelum pergi, matikan lampu.",
+          "note": "Setelah preposisi [[before]], kegiatan ditulis sebagai [[leaving]], bukan [[to leave]] dalam struktur ini."
+        },
+        {
+          "english": "They agreed to meet after finishing the assignment.",
+          "indonesian": "Mereka sepakat bertemu setelah menyelesaikan tugas.",
+          "note": "[[Agreed to meet]] memakai infinitif, sedangkan [[after finishing]] memakai gerund sesudah preposisi."
         }
       ]
     },
@@ -195,7 +197,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Students practise summarising short articles before attempting long texts.",
@@ -216,6 +218,36 @@
         "Sejumlah [[verb]] diikuti [[-ing]], sedangkan lainnya diikuti [[to]] + [[verb]] dasar.",
         "Setelah [[preposition]] umumnya gunakan [[-ing]].",
         "Perhatikan pasangan seperti stop + [[-ing]] dan stop + [[to]] karena maknanya berbeda."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Kata apa yang muncul tepat sebelum kegiatan kedua?",
+      "model": "Before leaving, turn off the lights.",
+      "modelTranslation": "Sebelum pergi, matikan lampu.",
+      "criteria": "Setelah preposisi [[before]], kegiatan ditulis sebagai [[leaving]], bukan [[to leave]] dalam struktur ini."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "enjoy",
+          "indonesian": "menikmati"
+        },
+        {
+          "english": "decide",
+          "indonesian": "memutuskan"
+        },
+        {
+          "english": "remember",
+          "indonesian": "mengingat"
+        },
+        {
+          "english": "avoid",
+          "indonesian": "menghindari"
+        }
       ]
     }
   ],

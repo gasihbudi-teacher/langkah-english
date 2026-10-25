@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Digital Identity and Transactional Messages?",
+      "text": "[[Digital identity]] adalah gambaran diri seseorang yang terbentuk melalui informasi, komentar, unggahan, dan aktivitas daring."
+    },
+    {
       "type": "scaffold",
-      "intro": "Pesan daring bisa berisi permintaan, persetujuan, atau penolakan. Sebelum menjawab, cari siapa pengirimnya dan informasi apa yang diminta. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Temukan bagian penting",
+          "explanation": "Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. “Could you” mengajukan permintaan dengan sopan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Could you send the assignment link?",
           "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
           "why": "“Could you” mengajukan permintaan dengan sopan."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Respons menjawab permintaan secara spesifik. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "I will send the official class link.",
           "indonesian": "Saya akan mengirim tautan kelas resmi.",
           "why": "Respons menjawab permintaan secara spesifik."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pesan [[transactional]] bertujuan meminta atau memberi informasi yang jelas, sedangkan jejak digital dapat dibaca orang lain di kemudian hari. Periksa penerima, tujuan, kesopanan, dan informasi pribadi sebelum mengirim."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "sender",
-          "indonesian": "pengirim"
-        },
-        {
-          "english": "request",
-          "indonesian": "permintaan"
-        },
-        {
-          "english": "reply",
-          "indonesian": "balasan"
-        },
-        {
-          "english": "password",
-          "indonesian": "kata sandi"
-        },
-        {
-          "english": "identity",
-          "indonesian": "identitas"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "The message asks for a password.",
           "indonesian": "Pesan meminta kata sandi.",
           "note": "Ini informasi rahasia yang tidak boleh diberikan sembarangan."
+        },
+        {
+          "english": "Could you clarify which file we should submit by Monday?",
+          "indonesian": "Bisakah Anda menjelaskan berkas mana yang harus kami kumpulkan sebelum Senin?",
+          "note": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi."
+        },
+        {
+          "english": "Think carefully before posting a classmate's photograph without permission.",
+          "indonesian": "Pikirkan baik-baik sebelum mengunggah foto teman sekelas tanpa izin.",
+          "note": "Kalimat menghubungkan tindakan daring dengan persetujuan dan privasi orang lain."
+        },
+        {
+          "english": "Please remove my name from the public post until I give permission.",
+          "indonesian": "Tolong hapus nama saya dari unggahan publik sampai saya memberi izin.",
+          "note": "Pesan meminta tindakan dengan sopan dan menyatakan batas persetujuan secara jelas."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the account used a familiar profile photo, its request for a password made Siska suspicious.",
@@ -205,6 +200,40 @@
         "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
         "Dalam [[transactional message]], pahami [[sender]], [[request]], dan [[response]]. Jangan membagikan data pribadi kepada akun yang belum diverifikasi.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas?",
+      "model": "Could you clarify which file we should submit by Monday?",
+      "modelTranslation": "Bisakah Anda menjelaskan berkas mana yang harus kami kumpulkan sebelum Senin?",
+      "criteria": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "sender",
+          "indonesian": "pengirim"
+        },
+        {
+          "english": "request",
+          "indonesian": "permintaan"
+        },
+        {
+          "english": "reply",
+          "indonesian": "balasan"
+        },
+        {
+          "english": "password",
+          "indonesian": "kata sandi"
+        },
+        {
+          "english": "identity",
+          "indonesian": "identitas"
+        }
       ]
     }
   ],

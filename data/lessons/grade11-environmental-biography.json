@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Biography: Environmental Changemakers?",
+      "text": "[[Biography]] adalah teks yang menceritakan perjalanan hidup seseorang berdasarkan peristiwa, tindakan, dan dampaknya."
+    },
+    {
       "type": "scaffold",
-      "intro": "Biografi menceritakan kehidupan orang nyata. Kita mulai dari waktu, tindakan, dan dampak yang disebut jelas sebelum menilai pengaruh tokoh. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini tindakan tokoh di masa lalu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Maya started a reading club.",
           "indonesian": "Maya memulai klub membaca.",
           "why": "Ini tindakan tokoh di masa lalu."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “She” merujuk pada Maya. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "She invited local volunteers.",
           "indonesian": "Ia mengundang relawan setempat.",
           "why": "Kata “She” merujuk pada Maya."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, tanggal, kegiatan, dan hasil membantu pembaca mengikuti kehidupan tokoh. Kalimat [[she founded a club]] menyatakan tindakan; [[she was the greatest leader]] merupakan penilaian yang perlu dasar."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "volunteer",
-          "indonesian": "relawan"
-        },
-        {
-          "english": "organise",
-          "indonesian": "mengorganisasi"
-        },
-        {
-          "english": "achievement",
-          "indonesian": "pencapaian"
-        },
-        {
-          "english": "community",
-          "indonesian": "komunitas"
-        },
-        {
-          "english": "impact",
-          "indonesian": "dampak"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "She was the greatest leader ever.",
           "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
           "note": "Ini penilaian yang memerlukan kriteria."
+        },
+        {
+          "english": "In 2018, Arif organised volunteers to clean the village stream.",
+          "indonesian": "Pada 2018, Arif mengorganisasi relawan untuk membersihkan sungai kecil di desa.",
+          "note": "Tahun dan tindakan yang spesifik membantu menyusun urutan kehidupan tokoh fiktif."
+        },
+        {
+          "english": "Her team planted fifty trees, but the biography does not claim that every tree survived.",
+          "indonesian": "Timnya menanam lima puluh pohon, tetapi biografi itu tidak menyatakan bahwa semua pohon bertahan hidup.",
+          "note": "Bedakan hasil tindakan yang dinyatakan dengan keberhasilan tambahan yang belum dibuktikan."
+        },
+        {
+          "english": "After graduating, Hasan taught local students how to measure rainfall.",
+          "indonesian": "Setelah lulus, Hasan mengajari siswa setempat cara mengukur curah hujan.",
+          "note": "Keterangan waktu menghubungkan tahap hidup tokoh dengan tindakan nyata."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "After noticing waste near the school, Maya asked neighbours to record litter at the riverbank each weekend.",
@@ -205,6 +204,40 @@
         "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
         "[[Biography]] sering memakai [[past tense]], tanggal, dan urutan peristiwa. Bedakan pencapaian yang tercatat dengan pujian yang bersifat opini.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian?",
+      "model": "In 2018, Arif organised volunteers to clean the village stream.",
+      "modelTranslation": "Pada 2018, Arif mengorganisasi relawan untuk membersihkan sungai kecil di desa.",
+      "criteria": "Tahun dan tindakan yang spesifik membantu menyusun urutan kehidupan tokoh fiktif."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "volunteer",
+          "indonesian": "relawan"
+        },
+        {
+          "english": "organise",
+          "indonesian": "mengorganisasi"
+        },
+        {
+          "english": "achievement",
+          "indonesian": "pencapaian"
+        },
+        {
+          "english": "community",
+          "indonesian": "komunitas"
+        },
+        {
+          "english": "impact",
+          "indonesian": "dampak"
+        }
       ]
     }
   ],

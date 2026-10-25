@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu UTBK Lab: Reading Social-Science Data?",
+      "text": "[[Social-science data reading]] adalah keterampilan membaca angka tentang perilaku atau kelompok masyarakat secara tepat dan proporsional."
+    },
+    {
       "type": "scaffold",
-      "intro": "Dalam bacaan sosial, jumlah besar belum tentu berarti peningkatan kebiasaan. Pertama cari apa yang dihitung; lalu periksa perubahan jumlah keseluruhan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apakah jumlah mentah bisa dibandingkan tanpa memperhitungkan ukuran kelompok? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Baca pertanyaan secara teliti",
+          "explanation": "Apakah jumlah mentah bisa dibandingkan tanpa memperhitungkan ukuran kelompok? Jawaban yang terdengar masuk akal belum tentu didukung teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Temukan bukti yang tersedia",
+          "explanation": "Perhatikan kalimat ini. Ini jumlah mutlak. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The library had 200 visitors.",
           "indonesian": "Perpustakaan dikunjungi 200 orang.",
           "why": "Ini jumlah mutlak."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa batas kesimpulan",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini proporsi dari jumlah siswa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Half of the students visited.",
           "indonesian": "Setengah siswa berkunjung.",
           "why": "Ini proporsi dari jumlah siswa."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[raw count]] hanya jumlah mentah, sedangkan [[proportion]] mempertimbangkan besarnya kelompok. Kesimpulan dari survei kecil atau populasi yang berubah harus disampaikan secara terbatas."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "ridership",
-          "indonesian": "jumlah penumpang"
-        },
-        {
-          "english": "proportion",
-          "indonesian": "proporsi"
-        },
-        {
-          "english": "population",
-          "indonesian": "populasi"
-        },
-        {
-          "english": "survey",
-          "indonesian": "survei"
-        },
-        {
-          "english": "trend",
-          "indonesian": "tren"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "The percentage of visitors fell.",
           "indonesian": "Persentase pengunjung turun.",
           "note": "Bisa terjadi bila jumlah semua siswa naik lebih cepat."
+        },
+        {
+          "english": "Forty of eighty respondents preferred cycling, which is half the group.",
+          "indonesian": "Empat puluh dari delapan puluh responden lebih memilih bersepeda, yaitu setengah kelompok.",
+          "note": "Persentase dihitung dari pembilang dan penyebut; empat puluh orang saja tidak cukup tanpa total responden."
+        },
+        {
+          "english": "The town gained more bus users, but its population also increased.",
+          "indonesian": "Kota itu memperoleh lebih banyak pengguna bus, tetapi populasinya juga meningkat.",
+          "note": "Kenaikan jumlah pengguna belum otomatis berarti proporsi pengguna bus juga meningkat."
+        },
+        {
+          "english": "Twenty students joined last year and thirty joined this year, but the total enrolment also doubled.",
+          "indonesian": "Dua puluh siswa bergabung tahun lalu dan tiga puluh tahun ini, tetapi jumlah keseluruhan siswa juga berlipat dua.",
+          "note": "Jumlah peserta naik, tetapi tanpa penyebut kita belum bisa menyatakan proporsi partisipasi meningkat."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although bus ridership rose in absolute numbers, the share of residents using buses fell after the town expanded.",
@@ -205,6 +200,40 @@
         "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase.",
         "Bedakan [[raw count]] (jumlah mentah) dari [[proportion]] (bagian dari keseluruhan). Cermati [[sample]] dan perubahan kondisi antarwaktu.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu jawaban bahasa Inggris yang berhati-hati, disertai bukti dari salah satu contoh. Apakah jumlah mentah bisa dibandingkan tanpa memperhitungkan ukuran kelompok?",
+      "model": "Forty of eighty respondents preferred cycling, which is half the group.",
+      "modelTranslation": "Empat puluh dari delapan puluh responden lebih memilih bersepeda, yaitu setengah kelompok.",
+      "criteria": "Persentase dihitung dari pembilang dan penyebut; empat puluh orang saja tidak cukup tanpa total responden."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "ridership",
+          "indonesian": "jumlah penumpang"
+        },
+        {
+          "english": "proportion",
+          "indonesian": "proporsi"
+        },
+        {
+          "english": "population",
+          "indonesian": "populasi"
+        },
+        {
+          "english": "survey",
+          "indonesian": "survei"
+        },
+        {
+          "english": "trend",
+          "indonesian": "tren"
+        }
       ]
     }
   ],

@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Perfect Tenses?",
+      "text": "[[Perfect tenses]] adalah kelompok bentuk waktu yang menghubungkan suatu tindakan dengan titik waktu lain melalui [[have/has/had]] dan [[V3]]."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita sering ingin mengatakan bahwa suatu kegiatan sudah selesai atau mempunyai hubungan dengan keadaan sekarang.",
+      "intro": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulai dengan mengenali kegiatan yang telah terjadi, seperti tugas yang sudah selesai."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Bentuk [[present perfect]] memakai [[have]] atau [[has]] ditambah bentuk ketiga kata kerja.",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I have finished my homework.",
           "indonesian": "Saya sudah menyelesaikan PR saya.",
           "why": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Untuk [[she]] gunakan [[has]]; untuk [[I]] gunakan [[have]]. Lihat makna kalimat sebelum memilih bentuk.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "She has visited Bali twice.",
           "indonesian": "Dia sudah dua kali mengunjungi Bali.",
           "why": "[[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[present perfect]] menghubungkan kejadian dengan sekarang, sedangkan [[past perfect]] menunjukkan kejadian yang sudah selesai sebelum kejadian lampau lain. Periksa titik waktu pembanding sebelum memilih [[has]], [[have]], atau [[had]]."
     },
     {
       "type": "heading",
@@ -77,28 +91,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "already",
-          "indonesian": "sudah"
-        },
-        {
-          "english": "yet",
-          "indonesian": "belum (dalam konteks tertentu)"
-        },
-        {
-          "english": "so far",
-          "indonesian": "sejauh ini"
-        },
-        {
-          "english": "before",
-          "indonesian": "sebelum"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -170,14 +162,24 @@
           "note": "[[Simple past]] cocok untuk waktu lampau yang spesifik."
         },
         {
-          "english": "I have finished my homework.",
-          "indonesian": "Saya sudah menyelesaikan PR.",
-          "note": "[[Present perfect]] menekankan keadaan sekarang: PR sudah selesai."
-        },
-        {
           "english": "When we arrived, the movie had started.",
           "indonesian": "Saat kami tiba, film sudah dimulai.",
           "note": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]]."
+        },
+        {
+          "english": "She has lived here for five years.",
+          "indonesian": "Dia sudah tinggal di sini selama lima tahun.",
+          "note": "[[Has lived]] menghubungkan awal masa lalu dengan keadaan yang masih berlangsung sekarang."
+        },
+        {
+          "english": "They had left the station before the rain began.",
+          "indonesian": "Mereka telah meninggalkan stasiun sebelum hujan mulai.",
+          "note": "[[Had left]] lebih dulu daripada kejadian lampau lain [[began]]."
+        },
+        {
+          "english": "By noon, we had already completed the safety checklist.",
+          "indonesian": "Menjelang tengah hari, kami sudah menyelesaikan daftar pemeriksaan keselamatan.",
+          "note": "[[Had completed]] menunjukkan kegiatan telah selesai sebelum acuan waktu di masa lampau yang sedang dibicarakan."
         }
       ]
     },
@@ -190,7 +192,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The researchers have collected data from five schools so far.",
@@ -211,6 +213,36 @@
         "[[Present perfect]] memakai [[have/has]] + [[V3]] dan sering menekankan kaitan dengan sekarang.",
         "[[Past perfect]] memakai [[had]] + [[V3]] untuk tindakan yang lebih dulu terjadi.",
         "Keterangan waktu spesifik lampau sering lebih cocok dengan [[simple past]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai?",
+      "model": "She has lived here for five years.",
+      "modelTranslation": "Dia sudah tinggal di sini selama lima tahun.",
+      "criteria": "[[Has lived]] menghubungkan awal masa lalu dengan keadaan yang masih berlangsung sekarang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "already",
+          "indonesian": "sudah"
+        },
+        {
+          "english": "yet",
+          "indonesian": "belum (dalam konteks tertentu)"
+        },
+        {
+          "english": "so far",
+          "indonesian": "sejauh ini"
+        },
+        {
+          "english": "before",
+          "indonesian": "sebelum"
+        }
       ]
     }
   ],

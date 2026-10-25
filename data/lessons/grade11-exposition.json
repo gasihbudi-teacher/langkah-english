@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Analytical exposition · Kelas 11?",
+      "text": "[[Analytical exposition]] adalah teks yang menyampaikan pendapat utama dan menyusun alasan untuk meyakinkan pembaca."
+    },
+    {
       "type": "scaffold",
-      "intro": "Teks eksposisi mengajak pembaca mempertimbangkan pendapat yang didukung alasan.",
+      "intro": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Temukan pendapat utama penulis, yaitu [[claim]]."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari alasan atau bukti yang diberikan untuk mendukung pendapat itu.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini [[thesis]]: posisi yang perlu didukung alasan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Students should read daily.",
           "indonesian": "Siswa sebaiknya membaca setiap hari.",
           "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Bedakan pendapat dengan bukti; kalimat yang meyakinkan belum tentu memuat data.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan yang dapat mendukung [[thesis]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Reading develops vocabulary.",
           "indonesian": "Membaca mengembangkan kosakata.",
           "why": "Ini alasan yang dapat mendukung [[thesis]]."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[thesis]] menyatakan posisi penulis, setiap argumen memberi alasan atau bukti, lalu penutup menegaskan posisi tersebut. Pernyataan tegas belum tentu menjadi bukti; cari alasan yang bisa diperiksa."
     },
     {
       "type": "heading",
@@ -62,28 +76,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "thesis",
-          "indonesian": "pendapat utama"
-        },
-        {
-          "english": "argument",
-          "indonesian": "alasan pendukung"
-        },
-        {
-          "english": "should",
-          "indonesian": "sebaiknya"
-        },
-        {
-          "english": "however",
-          "indonesian": "namun"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -163,6 +155,16 @@
           "english": "However, access to books remains important.",
           "indonesian": "Namun, akses ke buku tetap penting.",
           "note": "[[However]] menunjukkan kontras dengan informasi sebelumnya."
+        },
+        {
+          "english": "Schools should provide drinking-water stations because they can reduce plastic waste.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
+          "note": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
+        },
+        {
+          "english": "A longer lunch break may help students recharge, according to the school survey.",
+          "indonesian": "Istirahat makan siang yang lebih lama mungkin membantu siswa memulihkan tenaga, menurut survei sekolah.",
+          "note": "Ungkapan [[may]] memberi klaim yang terbatas, sementara sumber bukti dinyatakan."
         }
       ]
     },
@@ -175,7 +177,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Schools should create quiet reading corners because noise can make sustained reading difficult.",
@@ -196,6 +198,36 @@
         "[[Analytical exposition]] memiliki posisi, alasan, dan penegasan kesimpulan.",
         "Periksa apakah alasan didukung bukti relevan.",
         "Bedakan kata pendapat seperti [[should]] dari fakta yang telah terbukti."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa pendapat penulis, dan bukti apa yang mendukungnya?",
+      "model": "Schools should provide drinking-water stations because they can reduce plastic waste.",
+      "modelTranslation": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
+      "criteria": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "thesis",
+          "indonesian": "pendapat utama"
+        },
+        {
+          "english": "argument",
+          "indonesian": "alasan pendukung"
+        },
+        {
+          "english": "should",
+          "indonesian": "sebaiknya"
+        },
+        {
+          "english": "however",
+          "indonesian": "namun"
+        }
       ]
     }
   ],

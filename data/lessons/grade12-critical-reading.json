@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Critical reading · Kelas 12?",
+      "text": "[[Critical reading]] adalah cara membaca dengan menilai klaim, bukti, asumsi, serta kesimpulan yang ditawarkan penulis."
+    },
+    {
       "type": "scaffold",
-      "intro": "Membaca kritis berarti memeriksa klaim sebelum menerimanya. Kita tidak perlu langsung setuju atau tidak setuju.",
+      "intro": "Bagian mana fakta dari teks, dan bagian mana tafsiran penulis? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Tentukan klaim utama yang dibuat penulis."
+          "title": "Tentukan yang dicari",
+          "explanation": "Bagian mana fakta dari teks, dan bagian mana tafsiran penulis? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari data atau bukti yang benar-benar disebutkan.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. Kenali ukuran sampel, bukan hanya hasilnya. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Twenty students answered the survey.",
           "indonesian": "Dua puluh siswa menjawab survei.",
           "why": "Kenali ukuran sampel, bukan hanya hasilnya."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Periksa apa yang belum dibuktikan oleh data tersebut.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Fifteen preferred the new schedule.",
           "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
           "why": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+        },
+        {
+          "title": "Tolak dugaan berlebihan",
+          "explanation": "Bagian mana fakta dari teks, dan bagian mana tafsiran penulis? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, fakta yang benar pun dapat dipakai untuk menarik kesimpulan terlalu luas. Bedakan [[stated fact]], [[inference]], dan opini; baca kembali kalimat yang menjadi dasar jawaban sebelum memilih opsi."
     },
     {
       "type": "heading",
@@ -62,28 +76,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "sample",
-          "indonesian": "sampel"
-        },
-        {
-          "english": "respondent",
-          "indonesian": "responden"
-        },
-        {
-          "english": "claim",
-          "indonesian": "klaim"
-        },
-        {
-          "english": "bias",
-          "indonesian": "keberpihakan sistematis"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -163,6 +155,16 @@
           "english": "The new schedule caused better grades.",
           "indonesian": "Jadwal baru menyebabkan nilai lebih baik.",
           "note": "Kata [[caused]] membutuhkan bukti sebab-akibat, bukan sekadar kebersamaan waktu."
+        },
+        {
+          "english": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
+          "indonesian": "Artikel itu melaporkan tiga percobaan berhasil, tetapi tidak menyebutkan percobaan yang gagal.",
+          "note": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
+        },
+        {
+          "english": "A headline says the method always works, yet the article tested it only twice.",
+          "indonesian": "Judul menyatakan metode itu selalu berhasil, padahal artikel hanya mengujinya dua kali.",
+          "note": "Kata mutlak [[always]] melampaui jangkauan bukti berupa dua pengujian."
         }
       ]
     },
@@ -175,7 +177,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Attendance rose after the school changed its timetable, but the report did not compare other possible causes.",
@@ -196,6 +198,36 @@
         "Pisahkan klaim, bukti, sampel, dan kesimpulan.",
         "Jangan menyamakan urutan dua kejadian dengan hubungan sebab-akibat.",
         "Hindari generalisasi dari sampel kecil menjadi pernyataan tentang semua orang."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Bagian mana fakta dari teks, dan bagian mana tafsiran penulis?",
+      "model": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
+      "modelTranslation": "Artikel itu melaporkan tiga percobaan berhasil, tetapi tidak menyebutkan percobaan yang gagal.",
+      "criteria": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "sample",
+          "indonesian": "sampel"
+        },
+        {
+          "english": "respondent",
+          "indonesian": "responden"
+        },
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "bias",
+          "indonesian": "keberpihakan sistematis"
+        }
       ]
     }
   ],

@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Hortatory Exposition: Arguing for Action?",
+      "text": "[[Hortatory exposition]] adalah teks yang berusaha meyakinkan pembaca agar melakukan tindakan atau mengikuti rekomendasi tertentu."
+    },
+    {
       "type": "scaffold",
-      "intro": "Ada tulisan yang tidak berhenti pada “ini masalah”. Penulis menjelaskan masalah, memberi alasan, lalu mengajak pembaca melakukan sesuatu. Kita pelajari langkahnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Tindakan konkret apa yang diminta penulis, dan mengapa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Tindakan konkret apa yang diminta penulis, dan mengapa? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kalimat menunjukkan masalah atau posisi awal. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Online comments can hurt others.",
           "indonesian": "Komentar daring dapat menyakiti orang lain.",
           "why": "Kalimat menunjukkan masalah atau posisi awal."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan pendukung. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Harsh words may discourage participation.",
           "indonesian": "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
           "why": "Ini alasan pendukung."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Tindakan konkret apa yang diminta penulis, dan mengapa? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, teks ini biasanya menyatakan masalah atau pendapat, memberikan alasan, lalu menutup dengan [[recommendation]]. Bedakan [[should]] sebagai anjuran dari pernyataan fakta biasa."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "netiquette",
-          "indonesian": "etika berinternet"
-        },
-        {
-          "english": "recommendation",
-          "indonesian": "rekomendasi"
-        },
-        {
-          "english": "insult",
-          "indonesian": "hinaan"
-        },
-        {
-          "english": "respectful",
-          "indonesian": "sopan"
-        },
-        {
-          "english": "tone",
-          "indonesian": "nada bahasa"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Schools should teach students to pause before sharing comments.",
           "indonesian": "Sekolah sebaiknya mengajarkan siswa berhenti sejenak sebelum membagikan komentar.",
           "note": "Ini saran yang dapat dikerjakan."
+        },
+        {
+          "english": "Schools should label recycling bins clearly so students can sort waste correctly.",
+          "indonesian": "Sekolah sebaiknya memberi label jelas pada tempat sampah daur ulang agar siswa dapat memilah sampah dengan benar.",
+          "note": "[[Should]] mengajukan rekomendasi tindakan, sedangkan [[so]] menjelaskan tujuannya."
+        },
+        {
+          "english": "For these reasons, the council ought to publish a simple safety guide.",
+          "indonesian": "Atas alasan-alasan tersebut, dewan sebaiknya menerbitkan panduan keselamatan yang sederhana.",
+          "note": "Ungkapan penutup [[for these reasons]] menghubungkan argumen dengan rekomendasi konkret."
+        },
+        {
+          "english": "Therefore, residents should report broken streetlights to the local office.",
+          "indonesian": "Oleh karena itu, warga sebaiknya melaporkan lampu jalan rusak kepada kantor setempat.",
+          "note": "[[Therefore]] menghubungkan alasan sebelumnya dengan rekomendasi tindakan yang spesifik."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Because words can be misread without facial expressions, students should reread messages before sending them.",
@@ -205,6 +204,40 @@
         "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
         "[[Hortatory exposition]] berisi [[thesis]], [[arguments]], dan [[recommendation]]. [[Recommendation]] menyebut tindakan yang disarankan penulis.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Tindakan konkret apa yang diminta penulis, dan mengapa?",
+      "model": "Schools should label recycling bins clearly so students can sort waste correctly.",
+      "modelTranslation": "Sekolah sebaiknya memberi label jelas pada tempat sampah daur ulang agar siswa dapat memilah sampah dengan benar.",
+      "criteria": "[[Should]] mengajukan rekomendasi tindakan, sedangkan [[so]] menjelaskan tujuannya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "netiquette",
+          "indonesian": "etika berinternet"
+        },
+        {
+          "english": "recommendation",
+          "indonesian": "rekomendasi"
+        },
+        {
+          "english": "insult",
+          "indonesian": "hinaan"
+        },
+        {
+          "english": "respectful",
+          "indonesian": "sopan"
+        },
+        {
+          "english": "tone",
+          "indonesian": "nada bahasa"
+        }
       ]
     }
   ],

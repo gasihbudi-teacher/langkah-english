@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Relative Clauses?",
+      "text": "[[Relative clause]] adalah klausa yang menerangkan nomina agar pembaca tahu orang atau benda mana yang dimaksud."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kadang kita ingin menjelaskan orang atau benda tanpa membuat dua kalimat terpisah.",
+      "intro": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari kata benda yang akan dijelaskan, misalnya [[girl]] atau [[book]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Gunakan [[who]] untuk menjelaskan orang, dan [[which]] atau [[that]] sering dipakai untuk benda.",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Who]] menjelaskan orang, yaitu [[girl]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The girl who sits near me is friendly.",
           "indonesian": "Anak perempuan yang duduk di dekat saya ramah.",
           "why": "[[Who]] menjelaskan orang, yaitu [[girl]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Baca bagian penjelas secara perlahan; bagian itu bukan orang atau benda baru.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[That]] menjelaskan benda, yaitu [[book]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The book that I borrowed is interesting.",
           "indonesian": "Buku yang saya pinjam menarik.",
           "why": "[[That]] menjelaskan benda, yaitu [[book]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[who]] sering menerangkan orang, [[which]] benda, dan [[where]] tempat. Klausa yang membatasi identitas dan klausa informasi tambahan tidak selalu memakai tanda baca yang sama."
     },
     {
       "type": "heading",
@@ -82,28 +96,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "who",
-          "indonesian": "yang (orang)"
-        },
-        {
-          "english": "which",
-          "indonesian": "yang (benda)"
-        },
-        {
-          "english": "where",
-          "indonesian": "tempat"
-        },
-        {
-          "english": "additional",
-          "indonesian": "tambahan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -183,6 +175,16 @@
           "english": "The phone which she bought was expensive.",
           "indonesian": "Ponsel yang dia beli mahal.",
           "note": "[[Which]] menjelaskan [[phone]]; [[that]] juga mungkin pada klausa pembatas."
+        },
+        {
+          "english": "The volunteer who guided our group speaks three languages.",
+          "indonesian": "Relawan yang memandu kelompok kami berbicara tiga bahasa.",
+          "note": "[[Who guided our group]] menjelaskan relawan yang dimaksud dan mengandung verba sendiri."
+        },
+        {
+          "english": "The school where my mother works has a new laboratory.",
+          "indonesian": "Sekolah tempat ibu saya bekerja memiliki laboratorium baru.",
+          "note": "[[Where my mother works]] menerangkan tempat, yaitu [[the school]]."
         }
       ]
     },
@@ -195,7 +197,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The scientist who led the study explained the results clearly.",
@@ -216,6 +218,36 @@
         "[[Who]] digunakan untuk orang;[[which]]/[[that]] sering untuk benda;[[where]] untuk tempat.",
         "[[Relative clause]] membantu mengidentifikasi atau menambahkan informasi tentang [[noun]].",
         "Koma dapat menandai klausa tambahan yang bukan pembatas."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya?",
+      "model": "The volunteer who guided our group speaks three languages.",
+      "modelTranslation": "Relawan yang memandu kelompok kami berbicara tiga bahasa.",
+      "criteria": "[[Who guided our group]] menjelaskan relawan yang dimaksud dan mengandung verba sendiri."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "who",
+          "indonesian": "yang (orang)"
+        },
+        {
+          "english": "which",
+          "indonesian": "yang (benda)"
+        },
+        {
+          "english": "where",
+          "indonesian": "tempat"
+        },
+        {
+          "english": "additional",
+          "indonesian": "tambahan"
+        }
       ]
     }
   ],

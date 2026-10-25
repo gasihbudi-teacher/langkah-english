@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Parts of Speech (Jenis Kata)?",
+      "text": "[[Parts of speech]] adalah pengelompokan kata menurut tugasnya dalam sebuah kalimat, seperti nomina, verba, adjektiva, dan adverbia."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalimat bahasa Inggris terdiri dari kata-kata yang mempunyai tugas berbeda. Jangan hafalkan nama jenis kata dulu; coba lihat apa yang dilakukan setiap kata.",
+      "intro": "Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulailah dengan mencari orang atau benda yang dibicarakan. Kata seperti [[teacher]] menunjukkan orang."
+          "title": "Temukan bagian penting",
+          "explanation": "Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Berikutnya cari kegiatan atau keadaan. Kata [[smiles]] memberitahu tindakan yang dilakukan.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan). Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The teacher smiles.",
           "indonesian": "Guru itu tersenyum.",
           "why": "[[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan)."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Kata lain bisa menambahkan informasi. Pada [[small cat]], [[small]] menjelaskan [[cat]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The small cat sleeps.",
           "indonesian": "Kucing kecil itu tidur.",
           "why": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kata yang sama dapat mempunyai fungsi berbeda tergantung konteks. Lihat kata yang diterangkan atau tindakan yang dilakukan, bukan hanya menghafal definisi jenis kata."
     },
     {
       "type": "heading",
@@ -128,28 +138,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "noun",
-          "indonesian": "kata benda"
-        },
-        {
-          "english": "verb",
-          "indonesian": "kata kerja"
-        },
-        {
-          "english": "adjective",
-          "indonesian": "kata sifat"
-        },
-        {
-          "english": "adverb",
-          "indonesian": "kata keterangan"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -223,6 +211,16 @@
           "english": "She has a beautiful bag.",
           "indonesian": "Dia mempunyai tas yang indah.",
           "note": "[[Beautiful]] menjelaskan [[bag]], sehingga berfungsi sebagai [[adjective]]."
+        },
+        {
+          "english": "The quiet student spoke quietly during the debate.",
+          "indonesian": "Siswa yang pendiam itu berbicara dengan pelan selama debat.",
+          "note": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]]."
+        },
+        {
+          "english": "After the race, the tired runner rested peacefully.",
+          "indonesian": "Setelah lomba, pelari yang lelah beristirahat dengan tenang.",
+          "note": "[[Tired]] adalah adjektiva untuk pelari, sedangkan [[peacefully]] adalah adverbia untuk cara beristirahat."
         }
       ]
     },
@@ -235,7 +233,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "After the rain stopped, the children played outside.",
@@ -256,6 +254,36 @@
         "Fungsi sebuah kata ditentukan oleh penggunaannya dalam kalimat.",
         "[[Noun]] menamai sesuatu, [[verb]] menyatakan tindakan/keadaan, [[adjective]] menjelaskan [[noun]], dan [[adverb]] memberi keterangan.",
         "Tanyakan apa yang dijelaskan oleh setiap kata sebelum memilih kelas katanya."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain?",
+      "model": "The quiet student spoke quietly during the debate.",
+      "modelTranslation": "Siswa yang pendiam itu berbicara dengan pelan selama debat.",
+      "criteria": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "noun",
+          "indonesian": "kata benda"
+        },
+        {
+          "english": "verb",
+          "indonesian": "kata kerja"
+        },
+        {
+          "english": "adjective",
+          "indonesian": "kata sifat"
+        },
+        {
+          "english": "adverb",
+          "indonesian": "kata keterangan"
+        }
       ]
     }
   ],

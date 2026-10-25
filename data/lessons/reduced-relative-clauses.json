@@ -7,36 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Reduced Relative Clauses?",
+      "text": "[[Reduced relative clause]] adalah bentuk ringkas dari sebagian klausa relatif ketika informasi pentingnya tetap dapat dipahami."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kita dapat membuat penjelasan tentang orang atau benda menjadi lebih ringkas, tetapi maknanya tetap harus jelas.",
+      "intro": "Apakah kata yang diterangkan melakukan tindakan atau menerima tindakan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulai dari klausa lengkap dengan [[who]] atau [[which]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Apakah kata yang diterangkan melakukan tindakan atau menerima tindakan? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Perhatikan bagian [[who is reading]] yang menjelaskan [[girl]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The girl who is reading is my friend.",
           "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
           "why": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Dalam beberapa kondisi, [[who is]] dapat dihilangkan sehingga menjadi [[girl reading]].",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Reading]] [[by]] [[the]] [[window]] adalah reduced [[active]] [[relative clause]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The girl reading by the window is my friend.",
           "indonesian": "Anak perempuan yang membaca di dekat jendela itu teman saya.",
           "why": "[[Reading]] [[by]] [[the]] [[window]] adalah reduced [[active]] [[relative clause]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Apakah kata yang diterangkan melakukan tindakan atau menerima tindakan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
-    },
-    {
-      "type": "text",
-      "text": "Memendekkan beberapa [[relative clause]] tanpa mengubah hubungan makna dasar antara [[noun]] dan [[verb]]."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, bentuk aktif tertentu bisa menjadi [[-ing phrase]], sedangkan bentuk pasif dapat menjadi [[V3 phrase]]. Namun tidak semua klausa relatif aman dipendekkan; subjek yang diterangkan harus tetap jelas."
     },
     {
       "type": "rule",
@@ -82,28 +88,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "carrying",
-          "indonesian": "membawa"
-        },
-        {
-          "english": "donated",
-          "indonesian": "disumbangkan"
-        },
-        {
-          "english": "submitted",
-          "indonesian": "dikumpulkan"
-        },
-        {
-          "english": "waiting",
-          "indonesian": "menunggu"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -183,6 +167,16 @@
           "english": "The students waiting outside are nervous.",
           "indonesian": "Siswa yang menunggu di luar merasa gugup.",
           "note": "[[Waiting]] [[outside]] tetap menjelaskan [[students]] tanpa [[who]] [[are]]."
+        },
+        {
+          "english": "The documents signed yesterday are on the desk.",
+          "indonesian": "Dokumen yang ditandatangani kemarin berada di atas meja.",
+          "note": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
+        },
+        {
+          "english": "The woman sitting by the window teaches science.",
+          "indonesian": "Perempuan yang duduk di dekat jendela itu mengajar sains.",
+          "note": "[[Sitting by the window]] meringkas [[who is sitting by the window]] dan menerangkan [[the woman]]."
         }
       ]
     },
@@ -195,7 +189,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The reports submitted before Friday will be reviewed first.",
@@ -216,6 +210,36 @@
         "Klausa relatif aktif sering dapat dipendekkan menjadi [[-ing]].",
         "Klausa relatif pasif sering dapat dipendekkan menjadi [[V3]].",
         "Pastikan frasa hasil pemendekan tetap menerangkan [[noun]] yang benar."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah kata yang diterangkan melakukan tindakan atau menerima tindakan?",
+      "model": "The documents signed yesterday are on the desk.",
+      "modelTranslation": "Dokumen yang ditandatangani kemarin berada di atas meja.",
+      "criteria": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "carrying",
+          "indonesian": "membawa"
+        },
+        {
+          "english": "donated",
+          "indonesian": "disumbangkan"
+        },
+        {
+          "english": "submitted",
+          "indonesian": "dikumpulkan"
+        },
+        {
+          "english": "waiting",
+          "indonesian": "menunggu"
+        }
       ]
     }
   ],

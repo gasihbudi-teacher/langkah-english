@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Describing Environmental Conditions?",
+      "text": "[[Environmental descriptive text]] adalah teks yang menggambarkan keadaan suatu lingkungan melalui ciri yang dapat diamati."
+    },
+    {
       "type": "scaffold",
-      "intro": "Ketika seseorang mendeskripsikan sungai, kita mulai dari hal yang dapat diamati: warna air, sampah, bau, dan tempat. Dugaan penyebab perlu bukti tambahan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kata “narrow” menerangkan ukuran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The river is narrow.",
           "indonesian": "Sungai itu sempit.",
           "why": "Kata “narrow” menerangkan ukuran."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini pengamatan yang dapat dilihat. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Plastic bags float near the bridge.",
           "indonesian": "Kantong plastik mengapung di dekat jembatan.",
           "why": "Ini pengamatan yang dapat dilihat."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, penjelasan tentang warna air, bau, dan sampah merupakan pengamatan; pernyataan tentang penyebab pencemaran masih memerlukan bukti. Pilih kata sifat yang menggambarkan objek dengan tepat."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "riverbank",
-          "indonesian": "tepi sungai"
-        },
-        {
-          "english": "cloudy",
-          "indonesian": "keruh"
-        },
-        {
-          "english": "waste",
-          "indonesian": "sampah"
-        },
-        {
-          "english": "observe",
-          "indonesian": "mengamati"
-        },
-        {
-          "english": "location",
-          "indonesian": "lokasi"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "The factory caused all the pollution.",
           "indonesian": "Pabrik menyebabkan seluruh polusi.",
           "note": "Ini klaim sebab yang memerlukan bukti."
+        },
+        {
+          "english": "Several plastic bottles were visible near the riverbank.",
+          "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
+          "note": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+        },
+        {
+          "english": "The water looked cloudy after the storm, but the cause was not confirmed.",
+          "indonesian": "Air tampak keruh setelah badai, tetapi penyebabnya belum dipastikan.",
+          "note": "Hubungan waktu [[after the storm]] tidak otomatis membuktikan penyebab perubahan warna."
+        },
+        {
+          "english": "A thin layer of foam covered the water near the bridge.",
+          "indonesian": "Lapisan tipis busa menutupi air di dekat jembatan.",
+          "note": "Deskripsi menyebut lokasi dan ciri yang bisa diamati tanpa memastikan penyebab busa."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Near the footbridge, the riverbanks were covered with grass, but plastic waste collected beside the steps.",
@@ -205,6 +204,40 @@
         "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
         "[[Descriptive text]] menunjukkan ciri tempat; kata seperti [[clear]], [[narrow]], dan [[polluted]] memberi detail. Jangan mengubah pengamatan menjadi klaim penyebab tanpa data.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa yang benar-benar terlihat, dan apa yang baru dugaan?",
+      "model": "Several plastic bottles were visible near the riverbank.",
+      "modelTranslation": "Beberapa botol plastik terlihat di dekat tepi sungai.",
+      "criteria": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "riverbank",
+          "indonesian": "tepi sungai"
+        },
+        {
+          "english": "cloudy",
+          "indonesian": "keruh"
+        },
+        {
+          "english": "waste",
+          "indonesian": "sampah"
+        },
+        {
+          "english": "observe",
+          "indonesian": "mengamati"
+        },
+        {
+          "english": "location",
+          "indonesian": "lokasi"
+        }
       ]
     }
   ],

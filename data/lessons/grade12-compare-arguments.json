@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Comparing Arguments and Evaluating Evidence?",
+      "text": "[[Comparing arguments]] berarti menilai dua pendapat berdasarkan klaim, alasan, bukti, dan batasan masing-masing."
+    },
+    {
       "type": "scaffold",
-      "intro": "Dua tulisan dapat membahas topik sama dan mencapai kesimpulan berbeda. Kita baca apa yang mereka ukur, siapa respondennya, lalu baru membandingkan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Tentukan yang dicari",
+          "explanation": "Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. Pendaftaran tidak sama dengan kehadiran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Source A counts registrations.",
           "indonesian": "Sumber A menghitung pendaftaran.",
           "why": "Pendaftaran tidak sama dengan kehadiran."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini ukuran yang berbeda. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Source B counts attendance.",
           "indonesian": "Sumber B menghitung kehadiran.",
           "why": "Ini ukuran yang berbeda."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, argumen yang lebih yakin belum tentu lebih kuat. Bandingkan apakah kedua teks membahas masalah yang sama, menggunakan bukti yang sebanding, dan mengakui kelemahan datanya."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "sample",
-          "indonesian": "sampel"
-        },
-        {
-          "english": "measure",
-          "indonesian": "ukuran"
-        },
-        {
-          "english": "attendance",
-          "indonesian": "kehadiran"
-        },
-        {
-          "english": "registration",
-          "indonesian": "pendaftaran"
-        },
-        {
-          "english": "reliable",
-          "indonesian": "andal"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "Forty students attended.",
           "indonesian": "Empat puluh siswa hadir.",
           "note": "Jumlah hadir dapat lebih kecil tanpa ada kesalahan data."
+        },
+        {
+          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
+          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
+          "note": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+        },
+        {
+          "english": "Both authors agree that access matters, but they recommend different solutions.",
+          "indonesian": "Kedua penulis sepakat bahwa akses penting, tetapi mereka menganjurkan solusi yang berbeda.",
+          "note": "Membandingkan argumen memisahkan titik persamaan dari perbedaan rekomendasi."
+        },
+        {
+          "english": "The first report describes costs, whereas the second focuses on environmental benefits.",
+          "indonesian": "Laporan pertama membahas biaya, sedangkan laporan kedua berfokus pada manfaat lingkungan.",
+          "note": "Kedua argumen bisa menilai aspek berbeda dari kebijakan yang sama, sehingga kriteria harus dibuat jelas."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
@@ -205,6 +200,40 @@
         "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
         "Dalam [[source comparison]], periksa [[claim]], [[sample]], [[measure]], dan [[limitation]]. Dua angka yang berbeda belum tentu bertentangan bila hal yang diukur berbeda.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras?",
+      "model": "Writer A cites a national survey, while Writer B relies on one personal story.",
+      "modelTranslation": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
+      "criteria": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "sample",
+          "indonesian": "sampel"
+        },
+        {
+          "english": "measure",
+          "indonesian": "ukuran"
+        },
+        {
+          "english": "attendance",
+          "indonesian": "kehadiran"
+        },
+        {
+          "english": "registration",
+          "indonesian": "pendaftaran"
+        },
+        {
+          "english": "reliable",
+          "indonesian": "andal"
+        }
       ]
     }
   ],

@@ -7,36 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Descriptive texts · Kelas 10?",
+      "text": "[[Descriptive text]] adalah teks yang membantu pembaca membayangkan ciri khusus seseorang, benda, atau tempat."
+    },
+    {
       "type": "scaffold",
-      "intro": "Teks deskriptif membantu pembaca membayangkan orang, tempat, atau benda.",
+      "intro": "Detail apa yang membuat objek ini berbeda dari yang lain? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Tentukan apa yang sedang dideskripsikan."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Detail apa yang membuat objek ini berbeda dari yang lain? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari rincian seperti ukuran, warna, posisi, atau suasana.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. [[Spacious]] menyatakan kualitas ruang. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The classroom is spacious.",
           "indonesian": "Ruang kelas itu luas.",
           "why": "[[Spacious]] menyatakan kualitas ruang."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Pisahkan fakta yang benar-benar ditulis dari perkiraanmu sendiri.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "A wooden desk stands near the window.",
           "indonesian": "Meja kayu berada di dekat jendela.",
           "why": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Detail apa yang membuat objek ini berbeda dari yang lain? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
-    },
-    {
-      "type": "text",
-      "text": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada [[descriptive text]]."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, penulis memperkenalkan objek lalu menambahkan detail yang relevan, seperti ukuran, letak, warna, atau suasana. Pembaca harus bisa membedakan ciri yang terlihat dari penilaian pribadi penulis."
     },
     {
       "type": "rule",
@@ -77,28 +83,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "bright",
-          "indonesian": "terang"
-        },
-        {
-          "english": "wide",
-          "indonesian": "lebar"
-        },
-        {
-          "english": "peaceful",
-          "indonesian": "tenang"
-        },
-        {
-          "english": "smell",
-          "indonesian": "aroma"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -174,6 +158,16 @@
           "english": "Both buildings have wide entrances.",
           "indonesian": "Kedua bangunan memiliki pintu masuk lebar.",
           "note": "[[Both]] menunjukkan persamaan dua objek."
+        },
+        {
+          "english": "The stadium has a wide entrance and a bright blue roof.",
+          "indonesian": "Stadion itu memiliki pintu masuk yang lebar dan atap biru terang.",
+          "note": "[[Wide entrance]] dan [[bright blue roof]] membantu pembaca membayangkan ciri fisik stadion."
+        },
+        {
+          "english": "The old library stands beside a small garden filled with jasmine.",
+          "indonesian": "Perpustakaan tua itu berdiri di samping taman kecil yang dipenuhi melati.",
+          "note": "Letak, usia bangunan, dan isi taman memperkaya gambaran tempat secara konkret."
         }
       ]
     },
@@ -186,7 +180,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The reading room faces a small pond, and sunlight enters through two glass doors.",
@@ -207,6 +201,36 @@
         "Deskripsi dapat memakai rincian penglihatan, suara, bau, dan lokasi.",
         "Kata sifat dan frasa tempat membantu membangun gambaran.",
         "Ide utama berbeda dari rincian tunggal seperti jumlah jendela."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Detail apa yang membuat objek ini berbeda dari yang lain?",
+      "model": "The stadium has a wide entrance and a bright blue roof.",
+      "modelTranslation": "Stadion itu memiliki pintu masuk yang lebar dan atap biru terang.",
+      "criteria": "[[Wide entrance]] dan [[bright blue roof]] membantu pembaca membayangkan ciri fisik stadion."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "bright",
+          "indonesian": "terang"
+        },
+        {
+          "english": "wide",
+          "indonesian": "lebar"
+        },
+        {
+          "english": "peaceful",
+          "indonesian": "tenang"
+        },
+        {
+          "english": "smell",
+          "indonesian": "aroma"
+        }
       ]
     }
   ],

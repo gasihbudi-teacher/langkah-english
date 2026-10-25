@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Conditional Sentences?",
+      "text": "[[Conditional sentence]] adalah kalimat yang menghubungkan sebuah syarat dengan hasil atau akibat yang mungkin atau dibayangkan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalimat bersyarat menghubungkan dua hal: syarat dan akibat. Mulailah dengan pertanyaan “jika ini terjadi, lalu apa?”",
+      "intro": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Bagian yang dimulai dengan [[if]] menunjukkan syarat."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Bagian lain menunjukkan akibat. Pada fakta umum, kedua bagian sering berbentuk [[simple present]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[Zero conditional]] menyatakan fakta umum. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "If you heat ice, it melts.",
           "indonesian": "Jika es dipanaskan, es mencair.",
           "why": "[[Zero conditional]] menyatakan fakta umum."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Untuk kemungkinan di masa depan, bagian akibat dapat memakai [[will]] dan kata kerja dasar.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[First conditional]] membicarakan kemungkinan nyata di masa depan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "If it rains tomorrow, we will stay home.",
           "indonesian": "Jika besok hujan, kami akan tinggal di rumah.",
           "why": "[[First conditional]] membicarakan kemungkinan nyata di masa depan."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pilih bentuk kalimat berdasarkan jenis hubungan: fakta umum ([[zero]]), kemungkinan masa depan ([[first]]), atau keadaan khayalan sekarang ([[second]]). Bentuk kata kerja berubah karena makna syaratnya berbeda, bukan sekadar karena harus mengikuti rumus."
     },
     {
       "type": "heading",
@@ -82,28 +96,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "condition",
-          "indonesian": "syarat/kondisi"
-        },
-        {
-          "english": "consequence",
-          "indonesian": "akibat"
-        },
-        {
-          "english": "real",
-          "indonesian": "nyata"
-        },
-        {
-          "english": "imaginary",
-          "indonesian": "imajiner"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -179,6 +171,16 @@
           "english": "If you studied more, you would feel more confident.",
           "indonesian": "Jika kamu belajar lebih giat (andaikan), kamu akan lebih percaya diri.",
           "note": "[[Past]] + [[would]] menyatakan kemungkinan yang dibayangkan, bukan masa lampau nyata."
+        },
+        {
+          "english": "If the bus arrives late, we will take the train.",
+          "indonesian": "Jika bus datang terlambat, kami akan naik kereta.",
+          "note": "Ini [[first conditional]] untuk kemungkinan nyata: [[if]] + [[present]] disertai [[will]] pada akibatnya."
+        },
+        {
+          "english": "If I were the class leader, I would ask everyone for ideas.",
+          "indonesian": "Jika saya menjadi ketua kelas, saya akan meminta gagasan semua orang.",
+          "note": "Ini [[second conditional]]: situasi yang dibayangkan memakai [[were]] dan akibat [[would ask]]."
         }
       ]
     },
@@ -191,7 +193,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "If the library opens on Saturday, our group will meet there.",
@@ -212,6 +214,36 @@
         "[[Zero conditional]] menjelaskan kebiasaan/fakta;[[first conditional]] membahas kemungkinan nyata.",
         "[[Second conditional]] membahas situasi hipotetis sekarang.",
         "Untuk [[first conditional]], [[if-clause]] umumnya memakai [[present]], bukan [[will]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan?",
+      "model": "If the bus arrives late, we will take the train.",
+      "modelTranslation": "Jika bus datang terlambat, kami akan naik kereta.",
+      "criteria": "Ini [[first conditional]] untuk kemungkinan nyata: [[if]] + [[present]] disertai [[will]] pada akibatnya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "condition",
+          "indonesian": "syarat/kondisi"
+        },
+        {
+          "english": "consequence",
+          "indonesian": "akibat"
+        },
+        {
+          "english": "real",
+          "indonesian": "nyata"
+        },
+        {
+          "english": "imaginary",
+          "indonesian": "imajiner"
+        }
       ]
     }
   ],

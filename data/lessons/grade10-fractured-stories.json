@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Fractured Stories: Changing Perspectives?",
+      "text": "[[Fractured story]] adalah cerita yang sengaja mengubah sudut pandang, tokoh, latar, atau akhir dari cerita yang sudah dikenal."
+    },
+    {
       "type": "scaffold",
-      "intro": "Cerita yang sama bisa terlihat berbeda ketika diceritakan oleh tokoh lain. Kita akan membedakan kejadian cerita dari cara tokoh memandangnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kalimat menyatakan kejadian. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The fox ran into the forest.",
           "indonesian": "Rubah itu berlari ke hutan.",
           "why": "Kalimat menyatakan kejadian."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “I” menunjukkan pandangan tokoh pertama. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "I was afraid of the fox.",
           "indonesian": "Saya takut pada rubah itu.",
           "why": "Kata “I” menunjukkan pandangan tokoh pertama."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, peristiwa cerita dan cara menceritakannya bukan hal yang sama. Ketika [[point of view]] berubah, satu tindakan bisa dipahami sebagai ancaman oleh tokoh pertama tetapi sebagai pertolongan oleh tokoh lain. Periksa siapa penceritanya."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "narrator",
-          "indonesian": "pencerita"
-        },
-        {
-          "english": "perspective",
-          "indonesian": "sudut pandang"
-        },
-        {
-          "english": "villager",
-          "indonesian": "penduduk desa"
-        },
-        {
-          "english": "fear",
-          "indonesian": "rasa takut"
-        },
-        {
-          "english": "retell",
-          "indonesian": "menceritakan ulang"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "The giant said he was lonely.",
           "indonesian": "Raksasa itu berkata bahwa ia kesepian.",
           "note": "Pencerita lain memberikan kemungkinan alasan yang berbeda."
+        },
+        {
+          "english": "The wolf thought the villagers were chasing him, but they were searching for a lost child.",
+          "indonesian": "Serigala itu mengira penduduk desa mengejarnya, tetapi mereka sedang mencari anak yang hilang.",
+          "note": "Dua sudut pandang atas peristiwa yang sama mengubah penilaian pembaca terhadap tokoh."
+        },
+        {
+          "english": "In the princess's version, the locked door kept everyone safe.",
+          "indonesian": "Dalam versi sang putri, pintu yang terkunci itu menjaga semua orang tetap aman.",
+          "note": "Frasa [[in the princess's version]] mengingatkan bahwa penafsiran ini milik satu pencerita, bukan fakta netral."
+        },
+        {
+          "english": "The giant called the noise a warning, while the villagers called it a threat.",
+          "indonesian": "Raksasa itu menyebut bunyi tersebut peringatan, sedangkan penduduk desa menyebutnya ancaman.",
+          "note": "Dua narator memberi penafsiran berbeda atas satu kejadian; itulah inti perubahan perspektif."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the villagers feared the giant, he had only come to ask for clean water.",
@@ -205,6 +204,40 @@
         "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita.",
         "[[Point of view]] adalah sudut pandang pencerita. [[Fractured story]] mengubah tokoh, latar, atau akhir cerita yang sudah dikenal.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna?",
+      "model": "The wolf thought the villagers were chasing him, but they were searching for a lost child.",
+      "modelTranslation": "Serigala itu mengira penduduk desa mengejarnya, tetapi mereka sedang mencari anak yang hilang.",
+      "criteria": "Dua sudut pandang atas peristiwa yang sama mengubah penilaian pembaca terhadap tokoh."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "narrator",
+          "indonesian": "pencerita"
+        },
+        {
+          "english": "perspective",
+          "indonesian": "sudut pandang"
+        },
+        {
+          "english": "villager",
+          "indonesian": "penduduk desa"
+        },
+        {
+          "english": "fear",
+          "indonesian": "rasa takut"
+        },
+        {
+          "english": "retell",
+          "indonesian": "menceritakan ulang"
+        }
       ]
     }
   ],

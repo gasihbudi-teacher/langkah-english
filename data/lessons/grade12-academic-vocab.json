@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Academic vocabulary in context · Kelas 12?",
+      "text": "[[Academic vocabulary]] adalah kosakata yang sering digunakan dalam bacaan sekolah atau akademik untuk menyatakan hubungan ide secara tepat."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kata akademik sering berubah makna tergantung kalimatnya. Jangan langsung memilih arti pertama dalam kamus.",
+      "intro": "Hubungan ide apa yang ditandai kata ini? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari kata yang ingin dipahami dalam kalimatnya."
+          "title": "Tentukan yang dicari",
+          "explanation": "Hubungan ide apa yang ditandai kata ini? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Baca kata-kata sebelum dan sesudahnya untuk mendapat petunjuk.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. [[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The results suggest improvement.",
           "indonesian": "Hasilnya mengisyaratkan peningkatan.",
           "why": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Uji arti pilihanmu: apakah masih masuk akal jika dipakai dalam kalimat itu?",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Significant]] dapat mempunyai arti umum atau teknis; cek konteks. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The result was significant.",
           "indonesian": "Hasilnya penting / signifikan.",
           "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, memahami kata seperti [[however]], [[therefore]], atau [[indicate]] memerlukan konteks. Jangan hanya menghafal satu terjemahan; perhatikan apakah kata itu menandai kontras, hasil, dugaan, atau kesimpulan."
     },
     {
       "type": "heading",
@@ -92,28 +102,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "significant",
-          "indonesian": "penting/signifikan"
-        },
-        {
-          "english": "suggest",
-          "indonesian": "mengisyaratkan"
-        },
-        {
-          "english": "approximately",
-          "indonesian": "sekitar"
-        },
-        {
-          "english": "maintain",
-          "indonesian": "mempertahankan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -193,6 +181,16 @@
           "english": "The two methods differ; however, both are useful.",
           "indonesian": "Kedua metode berbeda; namun, keduanya berguna.",
           "note": "[[However]] menghubungkan dua gagasan yang berkontras."
+        },
+        {
+          "english": "The results suggest a possible connection; however, they do not establish the cause.",
+          "indonesian": "Hasilnya menunjukkan kemungkinan hubungan; namun, hasil tersebut tidak menetapkan penyebabnya.",
+          "note": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan."
+        },
+        {
+          "english": "The sample was small; therefore, the findings should be interpreted cautiously.",
+          "indonesian": "Sampelnya kecil; oleh karena itu, temuan harus ditafsirkan dengan hati-hati.",
+          "note": "[[Therefore]] menandai simpulan yang mengikuti keterbatasan sampel."
         }
       ]
     },
@@ -205,7 +203,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The researchers maintained detailed records so their findings could be checked later.",
@@ -226,6 +224,36 @@
         "Tafsirkan istilah akademik memakai konteks kalimat dan paragraf.;[[Suggest]] tidak sama kuatnya dengan [[prove]]",
         " [[approximately]] berarti perkiraan.",
         "Perhatikan kata penghubung yang membatasi klaim, seperti [[however]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Hubungan ide apa yang ditandai kata ini?",
+      "model": "The results suggest a possible connection; however, they do not establish the cause.",
+      "modelTranslation": "Hasilnya menunjukkan kemungkinan hubungan; namun, hasil tersebut tidak menetapkan penyebabnya.",
+      "criteria": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "significant",
+          "indonesian": "penting/signifikan"
+        },
+        {
+          "english": "suggest",
+          "indonesian": "mengisyaratkan"
+        },
+        {
+          "english": "approximately",
+          "indonesian": "sekitar"
+        },
+        {
+          "english": "maintain",
+          "indonesian": "mempertahankan"
+        }
       ]
     }
   ],

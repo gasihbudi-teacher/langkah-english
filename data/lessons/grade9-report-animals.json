@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Report Text: Indonesian Wildlife?",
+      "text": "[[Report text]] adalah teks yang menjelaskan suatu kelompok makhluk atau benda berdasarkan fakta umum, bukan satu pengalaman pribadi."
+    },
+    {
       "type": "scaffold",
-      "intro": "Bayangkan kamu menjelaskan komodo kepada teman yang belum pernah melihatnya. Kita mulai dari informasi umum, lalu menyebut cirinya, bukan pengalaman pribadi. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apakah kalimat menjelaskan kelompok hewan atau satu kejadian khusus? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apakah kalimat menjelaskan kelompok hewan atau satu kejadian khusus? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kalimat ini menjelaskan jenis hewan secara umum. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Komodo dragons are large lizards.",
           "indonesian": "Komodo adalah kadal berukuran besar.",
           "why": "Kalimat ini menjelaskan jenis hewan secara umum."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “They” merujuk pada kelompok hewan yang sedang dibahas. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "They live on several Indonesian islands.",
           "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
           "why": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apakah kalimat menjelaskan kelompok hewan atau satu kejadian khusus? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, bagian awal mengidentifikasi kelompok yang dibahas, sedangkan bagian berikutnya menjelaskan ciri, habitat, atau kebiasaan yang umum. Jangan mencampur fakta spesies dengan kisah satu hewan tertentu."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "species",
-          "indonesian": "spesies"
-        },
-        {
-          "english": "habitat",
-          "indonesian": "habitat"
-        },
-        {
-          "english": "prey",
-          "indonesian": "mangsa"
-        },
-        {
-          "english": "protect",
-          "indonesian": "melindungi"
-        },
-        {
-          "english": "adult",
-          "indonesian": "dewasa"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "I saw a komodo yesterday.",
           "indonesian": "Saya melihat komodo kemarin.",
           "note": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
+        },
+        {
+          "english": "Komodo dragons are large reptiles that live on several Indonesian islands.",
+          "indonesian": "Komodo adalah reptil besar yang hidup di beberapa pulau Indonesia.",
+          "note": "Kalimat menjelaskan ciri kelompok hewan, bukan petualangan satu komodo."
+        },
+        {
+          "english": "Many sea turtles return to nesting beaches to lay eggs.",
+          "indonesian": "Banyak penyu laut kembali ke pantai tempat bertelur untuk meletakkan telur.",
+          "note": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus."
+        },
+        {
+          "english": "Orangutans build nests in trees where they rest.",
+          "indonesian": "Orangutan membangun sarang di pohon sebagai tempat beristirahat.",
+          "note": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although komodos are heavy, they can move quickly over short distances.",
@@ -205,6 +204,40 @@
         "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
         "[[Report text]] menjelaskan kelompok atau jenis secara umum. Gunakan [[simple present]] untuk fakta yang biasanya berlaku, bukan cerita satu kejadian.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apakah kalimat menjelaskan kelompok hewan atau satu kejadian khusus?",
+      "model": "Komodo dragons are large reptiles that live on several Indonesian islands.",
+      "modelTranslation": "Komodo adalah reptil besar yang hidup di beberapa pulau Indonesia.",
+      "criteria": "Kalimat menjelaskan ciri kelompok hewan, bukan petualangan satu komodo."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "species",
+          "indonesian": "spesies"
+        },
+        {
+          "english": "habitat",
+          "indonesian": "habitat"
+        },
+        {
+          "english": "prey",
+          "indonesian": "mangsa"
+        },
+        {
+          "english": "protect",
+          "indonesian": "melindungi"
+        },
+        {
+          "english": "adult",
+          "indonesian": "dewasa"
+        }
       ]
     }
   ],

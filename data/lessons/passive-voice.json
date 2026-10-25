@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Passive Voice?",
+      "text": "[[Passive voice]] adalah bentuk kalimat yang menempatkan penerima tindakan sebagai subjek, bukan pelaku tindakan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kadang sebuah kalimat lebih menekankan apa yang menerima tindakan daripada siapa yang melakukan tindakan.",
+      "intro": "Apa yang menerima tindakan, dan apakah pelakunya perlu disebut? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulailah dengan kalimat aktif: [[The chef prepares the meal]]. Si koki melakukan tindakan."
+          "title": "Temukan bagian penting",
+          "explanation": "Apa yang menerima tindakan, dan apakah pelakunya perlu disebut? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Pindahkan benda yang menerima tindakan ke depan: [[The meal]] menjadi pokok kalimat.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. Kalimat aktif: [[chef]] melakukan tindakan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The chef prepares the meal.",
           "indonesian": "Koki menyiapkan makanan.",
           "why": "Kalimat aktif: [[chef]] melakukan tindakan."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Gunakan [[be]] dan bentuk ketiga kata kerja: [[is prepared]]. Pelaku boleh ditambahkan dengan [[by]].",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The meal is prepared by the chef.",
           "indonesian": "Makanan disiapkan oleh koki.",
           "why": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kalimat pasif menggunakan bentuk [[be]] yang sesuai waktu dan [[past participle]] ([[V3]]). [[The meal was prepared]] menekankan makanan yang disiapkan; [[by the chef]] hanya perlu ditambahkan jika pelakunya penting."
     },
     {
       "type": "heading",
@@ -77,28 +87,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "prepared",
-          "indonesian": "disiapkan"
-        },
-        {
-          "english": "built",
-          "indonesian": "dibangun"
-        },
-        {
-          "english": "stolen",
-          "indonesian": "dicuri"
-        },
-        {
-          "english": "published",
-          "indonesian": "diterbitkan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -178,6 +166,16 @@
           "english": "Someone stole my bag.",
           "indonesian": "Seseorang mencuri tas saya.",
           "note": "Aktif memakai [[subject]] seseorang yang tidak diketahui pasti."
+        },
+        {
+          "english": "The results were checked by two independent readers.",
+          "indonesian": "Hasilnya diperiksa oleh dua pembaca independen.",
+          "note": "Subjek [[the results]] menerima tindakan; [[were]] + [[checked]] membentuk pasif lampau."
+        },
+        {
+          "english": "A new reading room is being built next to the hall.",
+          "indonesian": "Ruang baca baru sedang dibangun di samping aula.",
+          "note": "[[Is being built]] menandakan tindakan pasif yang sedang berlangsung; fokusnya ruang baca."
         }
       ]
     },
@@ -190,7 +188,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "My bag was stolen while I was on the bus.",
@@ -211,6 +209,36 @@
         "Kalimat pasif berfokus pada penerima tindakan.",
         "Pola dasarnya [[be]] + [[V3]], dengan [[be]] disesuaikan waktunya.",
         "Sebutkan pelaku dengan [[by]] jika pelaku memang perlu diketahui."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apa yang menerima tindakan, dan apakah pelakunya perlu disebut?",
+      "model": "The results were checked by two independent readers.",
+      "modelTranslation": "Hasilnya diperiksa oleh dua pembaca independen.",
+      "criteria": "Subjek [[the results]] menerima tindakan; [[were]] + [[checked]] membentuk pasif lampau."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "prepared",
+          "indonesian": "disiapkan"
+        },
+        {
+          "english": "built",
+          "indonesian": "dibangun"
+        },
+        {
+          "english": "stolen",
+          "indonesian": "dicuri"
+        },
+        {
+          "english": "published",
+          "indonesian": "diterbitkan"
+        }
       ]
     }
   ],

@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Reading Posters and Infographics?",
+      "text": "[[Reading posters and infographics]] adalah keterampilan mengambil informasi dari judul, angka, label, simbol, serta keterangan sumber pada materi visual."
+    },
+    {
       "type": "scaffold",
-      "intro": "Poster sering berisi sedikit kalimat, tetapi setiap angka dan label penting. Kita akan memeriksa judul, satuan, dan sumber sebelum menyimpulkan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Angka ini mengukur apa, kapan, dan untuk kelompok mana? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Tentukan yang dicari",
+          "explanation": "Angka ini mengukur apa, kapan, dan untuk kelompok mana? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. Waktu adalah informasi faktual. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The event starts at 8 a.m.",
           "indonesian": "Acara dimulai pukul delapan pagi.",
           "why": "Waktu adalah informasi faktual."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kalimat pendek dapat berupa ajakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Bring a reusable bottle.",
           "indonesian": "Bawalah botol minum yang dapat dipakai ulang.",
           "why": "Kalimat pendek dapat berupa ajakan."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, setiap angka harus dibaca bersama [[unit]], periode waktu, dan kelompok yang diukur. Grafik tiga hari tidak membuktikan tren sebulan. Baca judul dan label sebelum menarik kesimpulan."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "label",
-          "indonesian": "label"
-        },
-        {
-          "english": "unit",
-          "indonesian": "satuan"
-        },
-        {
-          "english": "register",
-          "indonesian": "mendaftar"
-        },
-        {
-          "english": "attend",
-          "indonesian": "hadir"
-        },
-        {
-          "english": "source",
-          "indonesian": "sumber"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "20 minutes of exercise were planned.",
           "indonesian": "Direncanakan dua puluh menit olahraga.",
           "note": "Angka sama tidak berarti informasi sama karena satuannya berbeda."
+        },
+        {
+          "english": "The poster says registration closes on Friday, not Saturday.",
+          "indonesian": "Poster itu menyatakan pendaftaran ditutup hari Jumat, bukan Sabtu.",
+          "note": "Informasi tenggat harus diambil dari teks poster, bukan dikira-kira."
+        },
+        {
+          "english": "The chart compares percentages, so the bars do not represent the number of students directly.",
+          "indonesian": "Grafik itu membandingkan persentase, sehingga batangnya tidak langsung menunjukkan jumlah siswa.",
+          "note": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan."
+        },
+        {
+          "english": "According to the timetable, the second workshop lasts forty-five minutes.",
+          "indonesian": "Menurut jadwal, lokakarya kedua berlangsung empat puluh lima menit.",
+          "note": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The poster reports more registrations on Wednesday, but it does not show how many people actually attended.",
@@ -205,6 +200,40 @@
         "Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual.",
         "Untuk membaca [[infographic]], periksa [[title]], [[labels]], [[units]], dan [[source]]. Jangan membandingkan angka dari satuan berbeda.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Angka ini mengukur apa, kapan, dan untuk kelompok mana?",
+      "model": "The poster says registration closes on Friday, not Saturday.",
+      "modelTranslation": "Poster itu menyatakan pendaftaran ditutup hari Jumat, bukan Sabtu.",
+      "criteria": "Informasi tenggat harus diambil dari teks poster, bukan dikira-kira."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "label",
+          "indonesian": "label"
+        },
+        {
+          "english": "unit",
+          "indonesian": "satuan"
+        },
+        {
+          "english": "register",
+          "indonesian": "mendaftar"
+        },
+        {
+          "english": "attend",
+          "indonesian": "hadir"
+        },
+        {
+          "english": "source",
+          "indonesian": "sumber"
+        }
       ]
     }
   ],

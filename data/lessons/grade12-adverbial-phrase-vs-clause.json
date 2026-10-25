@@ -8,36 +8,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Adverbial Phrase vs. Adverbial Clause · Kelas 12?",
+      "text": "[[Adverbial phrase]] dan [[adverbial clause]] sama-sama berfungsi memberi keterangan, tetapi susunan kata di dalamnya berbeda."
+    },
+    {
       "type": "scaffold",
-      "intro": "Dua kelompok kata dapat sama-sama memberi informasi waktu, alasan, atau pertentangan, tetapi bentuknya berbeda. Kita mulai dengan satu kalimat pendek, kemudian membandingkannya dengan klausa yang memiliki pelaku dan kata kerja. Perhatikan bagian yang dicetak dalam tanda kutip dan jangan terburu-buru menghafal istilah.",
+      "intro": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Temukan fungsi adverbial",
-          "explanation": "Tanyakan: bagian mana yang menerangkan kapan, mengapa, di mana, bagaimana, atau dalam keadaan apa sebuah tindakan terjadi? Itulah fungsi [[adverbial]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Mulai dari frasa",
-          "explanation": "Baca kalimat ini, lalu fokus pada bagian yang menjawab pertanyaan kapan. Bagian tersebut tidak mempunyai pasangan subjek dan verba finit sendiri.",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. [[After lunch]] adalah [[adverbial phrase]]: menjelaskan waktu, tetapi di dalam bagian itu tidak ada pasangan subjek dan verba finit. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "We waited after lunch.",
           "indonesian": "Kami menunggu setelah makan siang.",
           "why": "[[After lunch]] adalah [[adverbial phrase]]: menjelaskan waktu, tetapi di dalam bagian itu tidak ada pasangan subjek dan verba finit."
         },
         {
-          "title": "Bandingkan dengan klausa",
-          "explanation": "Sekarang informasi waktunya diperluas menjadi satu klausa yang memiliki subjek dan verba finit, bukan hanya kata depan dan kelompok nomina.",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[After the bell rang]] adalah [[adverbial clause]]: [[the bell]] = subjek dan [[rang]] = verba finit. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "We waited after the bell rang.",
           "indonesian": "Kami menunggu setelah bel berbunyi.",
           "why": "[[After the bell rang]] adalah [[adverbial clause]]: [[the bell]] = subjek dan [[rang]] = verba finit."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang dimaksud dengan “adverbial”?"
-    },
-    {
-      "type": "text",
-      "text": "[[Adverbial]] adalah FUNGSI dalam kalimat: keterangan yang menjelaskan kapan, di mana, bagaimana, mengapa, atau dalam kondisi apa sesuatu terjadi. [[Phrase]] dan [[clause]] menjelaskan BENTUK kelompok katanya. Jadi, [[adverbial phrase]] dan [[adverbial clause]] bisa memiliki fungsi serupa, tetapi struktur dalam kelompok katanya berbeda."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[adverbial]] menyebut FUNGSI keterangan, sedangkan [[phrase]] dan [[clause]] menyebut STRUKTUR. Dalam perbandingan pelajaran ini, [[after lunch]] adalah frasa tanpa pasangan subjek–verba finit sendiri, sedangkan [[after the bell rang]] memiliki subjek [[the bell]] dan verba [[rang]]. Periksa hanya bagian keterangannya, bukan seluruh kalimat."
     },
     {
       "type": "rule",
@@ -84,52 +90,6 @@
     {
       "type": "text",
       "text": "Baca dulu kalimat Inggrisnya, kemudian lihat terjemahan dan alasan gramatikalnya. Pada setiap contoh, tentukan bagian mana yang berfungsi sebagai [[adverbial]]."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Kosakata dan kata penghubung penting",
-      "items": [
-        {
-          "english": "phrase",
-          "indonesian": "frasa: kelompok kata tanpa pasangan subjek–verba finit sendiri"
-        },
-        {
-          "english": "clause",
-          "indonesian": "klausa: kelompok kata yang memiliki subjek dan verba; pada contoh ini verba finit"
-        },
-        {
-          "english": "finite verb",
-          "indonesian": "verba yang menandai waktu atau kesesuaian dengan subjek"
-        },
-        {
-          "english": "because",
-          "indonesian": "karena; diikuti klausa pada pola pelajaran ini"
-        },
-        {
-          "english": "because of",
-          "indonesian": "karena; biasanya diikuti nomina atau frasa nomina"
-        },
-        {
-          "english": "although",
-          "indonesian": "meskipun; diikuti klausa pada pola pelajaran ini"
-        },
-        {
-          "english": "despite",
-          "indonesian": "meskipun; biasanya diikuti nomina atau frasa nomina"
-        },
-        {
-          "english": "during",
-          "indonesian": "selama; diikuti frasa nomina"
-        },
-        {
-          "english": "while",
-          "indonesian": "ketika/sementara; diikuti klausa pada pola pelajaran ini"
-        },
-        {
-          "english": "subject",
-          "indonesian": "subjek atau pelaku/hal yang dibicarakan dalam klausa"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -260,7 +220,7 @@
     {
       "type": "example_group",
       "title": "3 · Lihat pertentangan, syarat, dan perubahan urutan (buka saat siap)",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Despite the crowded room, Maya concentrated.",
@@ -356,6 +316,60 @@
         "Kedua: periksa STRUKTUR bagian itu sendiri. [[Adverbial phrase]] tidak memiliki subjek + verba finit sendiri; [[adverbial clause]] pada pola dasar memiliki keduanya.",
         "Ketiga: cek pasangan [[because of]]/[[because]], [[despite]]/[[although]], dan [[during]]/[[while]]; lalu periksa tanda baca bila keterangan berada di depan kalimat.",
         "Setelah latihan singkat, buka kuis topik untuk menguji kemampuan mengenali, memilih, dan memperbaiki strukturnya."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri?",
+      "model": "Because of the delay, the audience waited outside.",
+      "modelTranslation": "Karena keterlambatan itu, penonton menunggu di luar.",
+      "criteria": "[[Because of the delay]] ialah frasa keterangan alasan karena di dalamnya tidak terdapat pasangan subjek–verba finit."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Kosakata dan kata penghubung penting",
+      "items": [
+        {
+          "english": "phrase",
+          "indonesian": "frasa: kelompok kata tanpa pasangan subjek–verba finit sendiri"
+        },
+        {
+          "english": "clause",
+          "indonesian": "klausa: kelompok kata yang memiliki subjek dan verba; pada contoh ini verba finit"
+        },
+        {
+          "english": "finite verb",
+          "indonesian": "verba yang menandai waktu atau kesesuaian dengan subjek"
+        },
+        {
+          "english": "because",
+          "indonesian": "karena; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "because of",
+          "indonesian": "karena; biasanya diikuti nomina atau frasa nomina"
+        },
+        {
+          "english": "although",
+          "indonesian": "meskipun; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "despite",
+          "indonesian": "meskipun; biasanya diikuti nomina atau frasa nomina"
+        },
+        {
+          "english": "during",
+          "indonesian": "selama; diikuti frasa nomina"
+        },
+        {
+          "english": "while",
+          "indonesian": "ketika/sementara; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "subject",
+          "indonesian": "subjek atau pelaku/hal yang dibicarakan dalam klausa"
+        }
       ]
     }
   ],

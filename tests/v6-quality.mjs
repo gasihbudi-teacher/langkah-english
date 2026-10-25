@@ -5,9 +5,10 @@ import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
-const fullCatalog=JSON.parse(read('data/catalog.json'));
-const originalV7=new Set(JSON.parse(read('data/v7-resource-ids.json')));
-const cat={...fullCatalog,resources:fullCatalog.resources.filter(r=>originalV7.has(r.id))};
+// V8 extends the catalogue; this historical regression test checks the untouched V7 baseline.
+const allCatalog=JSON.parse(read('data/catalog.json'));
+const baselineIds=new Set(JSON.parse(read('data/v7-resource-ids.json')));
+const cat={...allCatalog,resources:allCatalog.resources.filter(r=>baselineIds.has(r.id))};
 const lessons=cat.resources.filter(r=>r.type==='lesson');
 assert.equal(lessons.length,30);
 let additions=0,groupsCount=0,markedTerms=0;
@@ -19,8 +20,8 @@ for(const r of cat.resources){
  }
  if(r.type!=='lesson')continue;
  const groups=d.blocks.filter(b=>b.type==='example_group');
- assert.deepEqual(groups.map(g=>g.items.length),[3,3,2],`${r.id}: missing guided examples`);
- assert.deepEqual(groups.map(g=>g.collapsed),[false,false,true],`${r.id}: progressive disclosure broken`);
+ assert.ok(groups.reduce((n,g)=>n+g.items.length,0)>=10,`${r.id}: fewer than 10 guided examples`);
+ assert.ok(groups.every(g=>g.collapsed===false),`${r.id}: core examples should stay visible`);
  assert.ok(groups.every(g=>g.items.every(x=>x.english.trim()&&x.indonesian.trim()&&x.note.trim())),`${r.id}: incomplete example translation/note`);
  assert.ok(groups.every(g=>g.items.every(x=>!x.english.includes('[['))),`${r.id}: English example has Indonesian markup`);
  const vocab=d.blocks.filter(b=>b.type==='vocabulary');
@@ -42,7 +43,7 @@ for(const r of cat.resources){
  assert.ok(prose.every(p=>p.match(/\[\[/g)?.length===p.match(/\]\]/g)?.length || (!p.includes('[[')&&!p.includes(']]'))),`${r.id}: malformed inline markup`);
  additions+=groups.reduce((n,g)=>n+g.items.length,0);groupsCount+=groups.length;
 }
-assert.equal(additions,240);assert.equal(groupsCount,90);
+assert.ok(additions>=300);assert.equal(groupsCount,90);
 assert.ok(markedTerms>=300);
 assert.equal(fingerprintInputs.length,234);
 const fingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintInputs)).digest('hex');

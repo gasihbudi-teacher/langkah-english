@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Explanation texts · Kelas 11?",
+      "text": "[[Explanation text]] adalah teks yang menjelaskan bagaimana atau mengapa suatu proses atau fenomena terjadi."
+    },
+    {
       "type": "scaffold",
-      "intro": "Teks penjelasan menjawab bagaimana atau mengapa sesuatu terjadi, bukan sekadar menceritakan urutan kejadian.",
+      "intro": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari fenomena yang sedang dijelaskan."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Amati hubungan sebab dan akibat di setiap kalimat.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Ini tahap awal sebuah proses alam. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Warm air rises.",
           "indonesian": "Udara hangat naik.",
           "why": "Ini tahap awal sebuah proses alam."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Gunakan kata penghubung dan urutan proses untuk mengikuti penjelasan.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kalimat menyatakan tahap berikutnya. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Rising air cools.",
           "indonesian": "Udara yang naik mengalami pendinginan.",
           "why": "Kalimat menyatakan tahap berikutnya."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, penjelasan menghubungkan penyebab, proses, dan hasil. Kata [[because]] dapat menunjukkan sebab, sedangkan [[after]] hanya menunjukkan urutan waktu. Jangan langsung menyamakan dua hubungan ini."
     },
     {
       "type": "heading",
@@ -83,28 +97,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "process",
-          "indonesian": "proses"
-        },
-        {
-          "english": "vapour",
-          "indonesian": "uap"
-        },
-        {
-          "english": "condense",
-          "indonesian": "mengembun"
-        },
-        {
-          "english": "result",
-          "indonesian": "hasil"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -180,6 +172,16 @@
           "english": "As a result, the plant produces sugars.",
           "indonesian": "Akibatnya, tumbuhan menghasilkan gula.",
           "note": "[[As a result]] menandai hasil proses."
+        },
+        {
+          "english": "When warm air cools, water vapour can condense into droplets.",
+          "indonesian": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
+          "note": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
+        },
+        {
+          "english": "As the temperature falls, the metal contracts slightly.",
+          "indonesian": "Ketika suhu turun, logam sedikit menyusut.",
+          "note": "Kalimat menjelaskan proses fisik melalui hubungan antara perubahan suhu dan hasilnya."
         }
       ]
     },
@@ -192,7 +194,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "When rainwater enters the soil, some of it moves downward through tiny spaces between particles.",
@@ -213,6 +215,36 @@
         "[[Explanation text]] menerangkan bagaimana atau mengapa sesuatu terjadi.",
         "Baca hubungan proses, sebab-akibat, dan urutan tahap secara tepat.",
         "Bedakan proses objektif dari anjuran/opini penulis."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya?",
+      "model": "When warm air cools, water vapour can condense into droplets.",
+      "modelTranslation": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
+      "criteria": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "process",
+          "indonesian": "proses"
+        },
+        {
+          "english": "vapour",
+          "indonesian": "uap"
+        },
+        {
+          "english": "condense",
+          "indonesian": "mengembun"
+        },
+        {
+          "english": "result",
+          "indonesian": "hasil"
+        }
       ]
     }
   ],

@@ -1,3 +1,25 @@
+# Langkah English V9 — Teaching-quality overhaul (25 October 2026)
+
+**Version V9:** 54 revised lessons and 39 existing quiz resources (93 resources total), including the Grade 12 *Adverbial Phrase vs. Adverbial Clause* add-on. [V9 lesson guide](docs/V9-TEACHING-OVERHAUL.md) · [V9 test report](docs/V9-TEST-REPORT.md).
+
+Every lesson now starts with a clear definition, follows one of six teaching approaches appropriate to its topic, and provides a deeper explanation directly after guided scaffolding. All 54 lessons have at least ten **distinct, fully translated and explained** worked-example cards; important rules are visible by default instead of hidden behind a general optional disclosure. Each lesson also includes an ungraded writing or evidence-based reasoning self-check with a model response. Vocabulary appears at the end of teaching and practice. The study/quiz navigation, English-first answer options, optional practice translations, and browser-local progress system remain unchanged.
+
+V9 repairs two objectively incorrect answer keys in 2026 Grade 9 quizzes (*School Trip* and *Upcycling*). The **three existing 20-question UTBK simulations, V7's original 234 scored questions, and all resource identifiers** remain compatible. V9 retains the short four-question quizzes from the V8 expansion; fuller assessment banks remain future work. Educational content is original, AI-assisted and unofficial; teacher review and manual Cloudflare preview testing are still necessary.
+
+**Deployment:** Do not upload every file with GitHub's web uploader. Clone the existing repository in GitHub Desktop, then copy the **contents** of this complete V9 ZIP into that clone (overwriting corresponding files, not replacing the `.git` directory). Review the changed files, commit and push. `data/catalog.json` contains 93 entries. If only updating a verified V8-plus-adverbials clone, the smaller V9 changed-files ZIP is also available; see its README for baseline requirements. 
+
+---
+
+# Langkah English V8 — Curriculum expansion
+
+**Current source version: V8 (25 October 2026).** [V8 change log](docs/V8-CHANGES.md) · [Curriculum sources and mapping](docs/V8-SOURCES-AND-MAPPING.md) · [V8 test report](docs/V8-TEST-REPORT.md).
+
+The V8 bundle adds 20 grade-specific modules for Grades 9–12, 20 matched quizzes, and 3 UTBK reading labs with matching quizzes. It keeps English practice questions and options, collapsible Indonesian translations in Practice Mode, structured Indonesian lesson explanations, separate collapsible Materi/Latihan lists, and the standalone Search page. The 3 existing 20-question UTBK simulations are unchanged.
+
+All materials are unofficial and require teacher review. For development and deployment, keep the static HTML/CSS/JS/JSON structure: commit the folder contents to the existing Cloudflare Pages GitHub deployment branch. Check the preview before replacing production.
+
+---
+
 # Langkah English — static learning platform
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.

@@ -327,8 +327,8 @@
               },
               "steps": {
                 "type": "array",
-                "minItems": 3,
-                "maxItems": 3,
+                "minItems": 2,
+                "maxItems": 5,
                 "items": {
                   "type": "object",
                   "required": [
@@ -434,6 +434,87 @@
               },
               "answer": {
                 "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "definition"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "synthesis"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "prompt",
+              "model",
+              "modelTranslation",
+              "criteria"
+            ],
+            "properties": {
+              "type": {
+                "const": "self_check"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "modelTranslation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "criteria": {
+                "type": "string",
+                "minLength": 1
               }
             },
             "additionalProperties": false

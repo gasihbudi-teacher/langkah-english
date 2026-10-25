@@ -20,11 +20,13 @@ try{
     document.querySelector('#content').innerHTML=`<article class="reading">
     <a href="${({grammar:"grammar.html",utbk:"utbk.html",school:"school.html"})[m.placements[0].pathway]}" class="page-back">← ${t('backPath')}</a>
     <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div></div>
-    <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></section>
+    <div class="article-body lesson-opening">${blocks(d.blocks.filter(b=>b.type==='definition'))}</div>
+    <details class="panel objectives-panel"><summary lang="id">${t('objectives')} · lihat jika diperlukan</summary><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></details>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
     <p class="language-legend" lang="id">Istilah bahasa Inggris, seperti ${formatIdText("[[verb]]")}, ditandai dengan warna khusus. Contoh kalimat bahasa Inggris ditampilkan terpisah dari arti dan penjelasannya dalam bahasa Indonesia.</p>
-    <div class="article-body">${blocks((()=>{const items=d.blocks;const marker=items.findIndex(b=>b.type==='heading'&&b.text.startsWith('Pelajari lebih banyak contoh'));if(marker<0||items[0]?.type!=='scaffold')return items;return [items[0],{type:'reference',blocks:items.slice(1,marker)},...items.slice(marker)];})())}</div>
+    <div class="article-body">${blocks(d.blocks.filter(b=>b.type!=='definition'&&b.type!=='vocabulary'))}</div>
     <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><div id="practice"></div></section>
+    <div class="article-body lesson-vocabulary">${blocks(d.blocks.filter(b=>b.type==='vocabulary'))}</div>
     <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ↗</a></p>`).join('')}
     <div class="toolbar"><button type="button" id="complete">✓ ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
     <nav class="lesson-links" aria-label="${t('related')}">${previous?`<a href="${link(previous.id)}" class="button button-outline">← ${t('previousLesson')}</a>`:'<span></span>'}${following?`<a href="${link(following.id)}" class="button button-outline">${t('nextLesson')} →</a>`:''}</nav>

@@ -7,23 +7,28 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu UTBK Lab: Reading Scientific Evidence?",
+      "text": "[[Scientific evidence reading]] adalah keterampilan memahami metode, hasil, perbandingan, serta keterbatasan suatu penelitian dalam teks bahasa Inggris."
+    },
+    {
       "type": "scaffold",
-      "intro": "Soal sains sering menampilkan perubahan angka. Tetapi kenaikan angka saja belum membuktikan penyebabnya. Mulailah dari pertanyaan: apa yang diukur? Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Apakah kondisi pembanding cukup setara untuk menjelaskan hasilnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Baca pertanyaan secara teliti",
+          "explanation": "Apakah kondisi pembanding cukup setara untuk menjelaskan hasilnya? Jawaban yang terdengar masuk akal belum tentu didukung teks."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Temukan bukti yang tersedia",
+          "explanation": "Perhatikan kalimat ini. Ini pengamatan terukur. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Group A used more water.",
           "indonesian": "Kelompok A memakai lebih banyak air.",
           "why": "Ini pengamatan terukur."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Periksa batas kesimpulan",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Angka dua kelompok bisa dibandingkan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Group B used less water.",
           "indonesian": "Kelompok B memakai lebih sedikit air.",
           "why": "Angka dua kelompok bisa dibandingkan."
@@ -31,8 +36,9 @@
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, perubahan angka tidak otomatis membuktikan penyebab. Cari [[control]], kelompok pembanding, dan kondisi lain yang mungkin berbeda sebelum menyimpulkan hubungan sebab-akibat."
     },
     {
       "type": "text",
@@ -59,32 +65,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "observation",
-          "indonesian": "pengamatan"
-        },
-        {
-          "english": "variable",
-          "indonesian": "variabel"
-        },
-        {
-          "english": "comparison",
-          "indonesian": "perbandingan"
-        },
-        {
-          "english": "evidence",
-          "indonesian": "bukti"
-        },
-        {
-          "english": "reliable",
-          "indonesian": "andal"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +135,21 @@
           "english": "The fertilizer caused the growth.",
           "indonesian": "Pupuk menyebabkan pertumbuhan itu.",
           "note": "Ini kesimpulan sebab yang memerlukan kontrol variabel lain."
+        },
+        {
+          "english": "Plants in the shaded group grew less, but they also received less water.",
+          "indonesian": "Tanaman di kelompok teduh tumbuh lebih sedikit, tetapi juga mendapat lebih sedikit air.",
+          "note": "Dua kondisi berubah sekaligus; peneliti tidak bisa mengisolasi efek cahaya tanpa kontrol air."
+        },
+        {
+          "english": "The second trial produced a similar result, although the sample remained small.",
+          "indonesian": "Percobaan kedua menghasilkan hasil serupa, meskipun sampelnya tetap kecil.",
+          "note": "Pengulangan menambah informasi, tetapi ukuran sampel masih membatasi kekuatan kesimpulan."
+        },
+        {
+          "english": "If both groups receive the same water, the study can better isolate the effect of light.",
+          "indonesian": "Jika kedua kelompok mendapat air yang sama, penelitian dapat lebih baik mengisolasi pengaruh cahaya.",
+          "note": "Mengendalikan variabel air membantu menilai hubungan cahaya dengan pertumbuhan secara lebih adil."
         }
       ]
     },
@@ -167,7 +162,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Although the plants grew taller, the gardeners could not tell whether water or sunlight explained the difference.",
@@ -205,6 +200,40 @@
         "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan.",
         "Untuk bacaan sains, temukan [[observation]], [[method]], [[comparison]], dan [[limitation]]. Jangan menyimpulkan [[cause]] hanya dari dua angka.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu jawaban bahasa Inggris yang berhati-hati, disertai bukti dari salah satu contoh. Apakah kondisi pembanding cukup setara untuk menjelaskan hasilnya?",
+      "model": "Plants in the shaded group grew less, but they also received less water.",
+      "modelTranslation": "Tanaman di kelompok teduh tumbuh lebih sedikit, tetapi juga mendapat lebih sedikit air.",
+      "criteria": "Dua kondisi berubah sekaligus; peneliti tidak bisa mengisolasi efek cahaya tanpa kontrol air."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "observation",
+          "indonesian": "pengamatan"
+        },
+        {
+          "english": "variable",
+          "indonesian": "variabel"
+        },
+        {
+          "english": "comparison",
+          "indonesian": "perbandingan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "reliable",
+          "indonesian": "andal"
+        }
       ]
     }
   ],

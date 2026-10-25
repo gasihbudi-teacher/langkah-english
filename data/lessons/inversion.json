@@ -7,36 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Inversion?",
+      "text": "[[Inversion]] adalah perubahan urutan kata yang menempatkan kata kerja bantu sebelum subjek pada pola tertentu, biasanya untuk penekanan atau gaya formal."
+    },
+    {
       "type": "scaffold",
-      "intro": "Biasanya bahasa Inggris menempatkan subjek sebelum kata kerja bantu. Pada pola tertentu, urutannya bisa dibalik untuk penekanan.",
+      "intro": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mulai dari urutan biasa: [[I have never seen that painting]]."
+          "title": "Kenali dua kemungkinan",
+          "explanation": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Perhatikan ungkapan negatif pembuka seperti [[Never]].",
+          "title": "Baca bentuk pertama",
+          "explanation": "Perhatikan kalimat ini. Urutan biasa: [[subject]] diikuti [[auxiliary]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "I have never seen that painting.",
           "indonesian": "Saya belum pernah melihat lukisan itu.",
           "why": "Urutan biasa: [[subject]] diikuti [[auxiliary]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah ungkapan pembuka, kata kerja bantu mendahului subjek: [[Never have I seen...]].",
+          "title": "Bandingkan bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Never]] di depan memicu [[auxiliary]] [[have]] sebelum [[subject]] [[I]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Never have I seen that painting.",
           "indonesian": "Belum pernah saya melihat lukisan itu.",
           "why": "[[Never]] di depan memicu [[auxiliary]] [[have]] sebelum [[subject]] [[I]]."
+        },
+        {
+          "title": "Tentukan batas penerapannya",
+          "explanation": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
-    },
-    {
-      "type": "text",
-      "text": "Mengenali inversi untuk penekanan dalam bahasa Inggris formal, terutama sesudah negative adverbials."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, kalimat biasa [[I have never seen it]] dapat menjadi [[Never have I seen it]] ketika [[never]] dipindah ke awal. Bentuknya bukan sekadar menukar semua kata: [[auxiliary]] harus berada sebelum [[subject]]. Jika tidak ada kata bantu, beberapa pola memerlukan [[do]], [[does]], atau [[did]]. Tidak semua keterangan awal memicu inversi."
     },
     {
       "type": "rule",
@@ -82,28 +88,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "never",
-          "indonesian": "tidak pernah"
-        },
-        {
-          "english": "rarely",
-          "indonesian": "jarang"
-        },
-        {
-          "english": "only then",
-          "indonesian": "baru saat itu"
-        },
-        {
-          "english": "formal",
-          "indonesian": "resmi"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -183,6 +167,16 @@
           "english": "Only then did we understand the problem.",
           "indonesian": "Baru saat itu kami memahami masalahnya.",
           "note": "[[Only then]] di awal memicu [[did]] + [[subject]] + [[verb]] dasar."
+        },
+        {
+          "english": "Only after the teacher explained the rule did we understand the task.",
+          "indonesian": "Baru setelah guru menjelaskan aturan itu kami memahami tugasnya.",
+          "note": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]]."
+        },
+        {
+          "english": "Seldom do we encounter such careful research in a short report.",
+          "indonesian": "Jarang kita menemukan penelitian seteliti itu dalam laporan singkat.",
+          "note": "[[Seldom]] di awal memicu [[do]] sebelum subjek [[we]], sementara verba utama [[encounter]] tetap dasar."
         }
       ]
     },
@@ -195,7 +189,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Not only did the team finish early, but it also checked every answer.",
@@ -216,6 +210,36 @@
         "Beberapa kata/ungkapan negatif di depan kalimat memicu [[auxiliary]] sebelum [[subject]].",
         "Jika tidak ada [[auxiliary]], gunakan [[do/does]]/[[did]] yang tepat.",
         "[[Inversion]] memberi penekanan dan biasanya lebih formal."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Ungkapan pembuka apa yang memicu kata bantu mendahului subjek?",
+      "model": "Only after the teacher explained the rule did we understand the task.",
+      "modelTranslation": "Baru setelah guru menjelaskan aturan itu kami memahami tugasnya.",
+      "criteria": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "never",
+          "indonesian": "tidak pernah"
+        },
+        {
+          "english": "rarely",
+          "indonesian": "jarang"
+        },
+        {
+          "english": "only then",
+          "indonesian": "baru saat itu"
+        },
+        {
+          "english": "formal",
+          "indonesian": "resmi"
+        }
       ]
     }
   ],

@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Grade 9: picture a place through reading?",
+      "text": "[[Descriptive reading]] adalah kegiatan memahami teks yang menjelaskan ciri seseorang, hewan, benda, atau tempat."
+    },
+    {
       "type": "scaffold",
-      "intro": "Mulailah dengan membayangkan tempat yang diceritakan. Kita akan mengenali sifat dan detail yang terlihat dalam teks.",
+      "intro": "Ciri apa yang disebut langsung dan apa yang hanya dugaan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari tempat utama yang dibicarakan."
+          "title": "Tentukan yang dicari",
+          "explanation": "Ciri apa yang disebut langsung dan apa yang hanya dugaan? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Perhatikan kata sifat seperti [[quiet]] untuk memahami suasana.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. [[Quiet]] adalah sifat, bukan kejadian. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Our library is quiet.",
           "indonesian": "Perpustakaan kami tenang.",
           "why": "[[Quiet]] adalah sifat, bukan kejadian."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah menemukan detail, hubungkan detail itu dengan gambaran tempat secara keseluruhan.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Three]] [[benches]] adalah detail yang bisa ditemukan langsung. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The garden has three benches.",
           "indonesian": "Taman memiliki tiga bangku.",
           "why": "[[Three]] [[benches]] adalah detail yang bisa ditemukan langsung."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, cari objek yang dibahas lalu kumpulkan detail yang benar-benar ada di teks. Jangan menambahkan sifat berdasarkan pengetahuan umum; jawaban bacaan harus didukung kalimat dalam teks."
     },
     {
       "type": "heading",
@@ -68,28 +78,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "narrow",
-          "indonesian": "sempit"
-        },
-        {
-          "english": "behind",
-          "indonesian": "di belakang"
-        },
-        {
-          "english": "bench",
-          "indonesian": "bangku"
-        },
-        {
-          "english": "shade",
-          "indonesian": "keteduhan"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -165,6 +153,16 @@
           "english": "The windows are large, so the room gets sunlight.",
           "indonesian": "Jendelanya besar, sehingga ruangan mendapat cahaya matahari.",
           "note": "Detail fisik [[large]] [[windows]] mendukung keadaan bright."
+        },
+        {
+          "english": "The bird has a curved beak and dark feathers.",
+          "indonesian": "Burung itu memiliki paruh melengkung dan bulu gelap.",
+          "note": "Dua detail fisik adalah informasi yang bisa dicari langsung dalam teks deskriptif."
+        },
+        {
+          "english": "Its wings are black with a narrow white stripe.",
+          "indonesian": "Sayapnya hitam dengan satu garis putih sempit.",
+          "note": "Ciri sayap yang khusus dapat dipakai untuk membedakan hewan dari deskripsi lain."
         }
       ]
     },
@@ -177,7 +175,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The science corner has a low shelf for models and a tall cupboard for equipment.",
@@ -198,6 +196,36 @@
         "[[Descriptive text]] menyajikan ciri, lokasi, dan keadaan suatu objek.",
         "Periksa rincian yang disebutkan, jangan menebak hal yang tidak ada dalam teks.",
         "Bedakan deskripsi suatu tempat dari cerita peristiwa."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Ciri apa yang disebut langsung dan apa yang hanya dugaan?",
+      "model": "The bird has a curved beak and dark feathers.",
+      "modelTranslation": "Burung itu memiliki paruh melengkung dan bulu gelap.",
+      "criteria": "Dua detail fisik adalah informasi yang bisa dicari langsung dalam teks deskriptif."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "narrow",
+          "indonesian": "sempit"
+        },
+        {
+          "english": "behind",
+          "indonesian": "di belakang"
+        },
+        {
+          "english": "bench",
+          "indonesian": "bangku"
+        },
+        {
+          "english": "shade",
+          "indonesian": "keteduhan"
+        }
       ]
     }
   ],

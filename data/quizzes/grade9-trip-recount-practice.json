@@ -20,8 +20,8 @@
         "Instructions for drawing a town map",
         "A description of a school canteen"
       ],
-      "answer": 2,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "answer": 0,
+      "explanation": "Teks ini adalah [[recount]] kunjungan kelas ke museum sejarah; kalimat pembuka menyatakan kegiatan dan paragraf berikutnya menceritakan urutan kunjungan.",
       "translationId": {
         "prompt": "Bacaan ini terutama membahas apa?",
         "choices": [
@@ -63,19 +63,19 @@
       "id": "q3",
       "prompt": "Which detail is a reflection rather than an event?",
       "choices": [
-        "Nita learned that maps tell stories of change",
-        "The bus was late",
         "The guide welcomed students",
+        "The bus was late",
+        "Nita learned that maps tell stories of change",
         "The class interviewed a volunteer"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Nita menjelaskan pemahaman baru yang diperoleh.",
       "translationId": {
         "prompt": "Detail mana merupakan refleksi, bukan kejadian?",
         "choices": [
-          "Nita memahami bahwa peta menceritakan perubahan",
-          "Bus terlambat",
           "Pemandu menyambut siswa",
+          "Bus terlambat",
+          "Nita memahami bahwa peta menceritakan perubahan",
           "Kelas mewawancarai relawan"
         ]
       },

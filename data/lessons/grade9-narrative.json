@@ -7,36 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Narrative texts · Kelas 9?",
+      "text": "[[Narrative text]] adalah teks cerita yang menghadirkan tokoh, masalah, rangkaian peristiwa, dan penyelesaian."
+    },
+    {
       "type": "scaffold",
-      "intro": "Cerita memiliki tokoh, masalah, dan penyelesaian. Kita pelajari urutannya satu langkah setiap kali.",
+      "intro": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Pertama, cari siapa tokoh dalam cerita. Tokoh bisa berupa manusia, hewan, atau tokoh khayalan."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Temukan peristiwa yang menimbulkan masalah.",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. Kehilangan kunci memperkenalkan masalah cerita. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "A boy lost his key.",
           "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
           "why": "Kehilangan kunci memperkenalkan masalah cerita."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah itu cari tindakan yang membantu tokoh menyelesaikan masalah.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Tindakan ini menunjukkan usaha menyelesaikan masalah. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "He searched under the table.",
           "indonesian": "Dia mencari di bawah meja.",
           "why": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Konsep dan tujuan"
-    },
-    {
-      "type": "text",
-      "text": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam [[narrative text]]."
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[orientation]] mengenalkan situasi, [[complication]] memunculkan masalah, dan [[resolution]] menunjukkan cara masalah ditangani. Urutan tindakan membantu kita mengenali sebab dan akibat dalam cerita."
     },
     {
       "type": "rule",
@@ -77,28 +83,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "character",
-          "indonesian": "tokoh"
-        },
-        {
-          "english": "problem",
-          "indonesian": "masalah"
-        },
-        {
-          "english": "finally",
-          "indonesian": "akhirnya"
-        },
-        {
-          "english": "solution",
-          "indonesian": "penyelesaian"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -174,6 +158,16 @@
           "english": "Finally, he reached home safely.",
           "indonesian": "Akhirnya, dia sampai rumah dengan selamat.",
           "note": "[[Finally]] menandai akhir rangkaian peristiwa."
+        },
+        {
+          "english": "The children lost their map just as the sky grew dark.",
+          "indonesian": "Anak-anak kehilangan peta tepat ketika langit mulai gelap.",
+          "note": "Kehilangan peta memunculkan [[complication]] yang memengaruhi tindakan tokoh berikutnya."
+        },
+        {
+          "english": "With the bridge broken, the travellers had to find another way across the river.",
+          "indonesian": "Karena jembatan rusak, para pelancong harus mencari jalan lain menyeberangi sungai.",
+          "note": "Kerusakan jembatan menjadi masalah yang mendorong tindakan tokoh."
         }
       ]
     },
@@ -186,7 +180,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Maya missed the bus, so she walked to school and arrived after the bell rang.",
@@ -207,6 +201,36 @@
         "Narrative memiliki tokoh, masalah, dan penyelesaian.",
         "Penanda urutan seperti [[at]] [[first]], later, finally membantu mengikuti alur.",
         "Pesan cerita perlu didukung peristiwa yang benar-benar terjadi."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya?",
+      "model": "The children lost their map just as the sky grew dark.",
+      "modelTranslation": "Anak-anak kehilangan peta tepat ketika langit mulai gelap.",
+      "criteria": "Kehilangan peta memunculkan [[complication]] yang memengaruhi tindakan tokoh berikutnya."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "character",
+          "indonesian": "tokoh"
+        },
+        {
+          "english": "problem",
+          "indonesian": "masalah"
+        },
+        {
+          "english": "finally",
+          "indonesian": "akhirnya"
+        },
+        {
+          "english": "solution",
+          "indonesian": "penyelesaian"
+        }
       ]
     }
   ],

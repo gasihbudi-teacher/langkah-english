@@ -7,32 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Procedure Text: Healthy Routines?",
+      "text": "[[Procedure text]] adalah teks petunjuk yang menjelaskan tujuan, perlengkapan, dan langkah-langkah untuk melakukan sesuatu dengan aman."
+    },
+    {
       "type": "scaffold",
-      "intro": "Instruksi kesehatan harus dibaca secara urut. Kita pelajari cara mengenali tindakan, urutan, dan bagian yang bertujuan menjaga keselamatan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "intro": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+          "title": "Pahami hasil yang dituju",
+          "explanation": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
         },
         {
-          "title": "Pelajari satu contoh sederhana",
-          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "title": "Baca langkah awal",
+          "explanation": "Perhatikan kalimat ini. “before” menunjukkan waktu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Drink water before exercising.",
           "indonesian": "Minum air sebelum berolahraga.",
           "why": "“before” menunjukkan waktu."
         },
         {
-          "title": "Tambahkan satu informasi",
-          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "title": "Hubungkan syarat dan langkah",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata kerja di depan memberi instruksi. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Warm up slowly.",
           "indonesian": "Lakukan pemanasan secara perlahan.",
           "why": "Kata kerja di depan memberi instruksi."
+        },
+        {
+          "title": "Cek keamanan dan urutan",
+          "explanation": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
     },
     {
-      "type": "heading",
-      "text": "Apa yang kita pelajari?"
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, [[imperative verb]] memerintahkan tindakan, sedangkan [[first]], [[next]], dan [[finally]] mengatur urutan. Dalam petunjuk kesehatan, peringatan dan kondisi khusus sama pentingnya dengan urutan biasa."
     },
     {
       "type": "text",
@@ -59,32 +69,6 @@
     {
       "type": "text",
       "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata penting",
-      "items": [
-        {
-          "english": "warm-up",
-          "indonesian": "pemanasan"
-        },
-        {
-          "english": "gradually",
-          "indonesian": "secara bertahap"
-        },
-        {
-          "english": "comfortable",
-          "indonesian": "nyaman"
-        },
-        {
-          "english": "dizzy",
-          "indonesian": "pusing"
-        },
-        {
-          "english": "rest",
-          "indonesian": "istirahat"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -155,6 +139,21 @@
           "english": "Walk for five minutes.",
           "indonesian": "Berjalanlah selama lima menit.",
           "note": "Ini langkah yang harus dikerjakan."
+        },
+        {
+          "english": "First, wash your hands with soap for at least twenty seconds.",
+          "indonesian": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
+          "note": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+        },
+        {
+          "english": "After the activity, drink water and rest in a cool place.",
+          "indonesian": "Setelah kegiatan, minumlah air dan beristirahatlah di tempat yang sejuk.",
+          "note": "[[After the activity]] menandai waktu, dan dua verba perintah menunjukkan tindakan selanjutnya."
+        },
+        {
+          "english": "Next, stretch your shoulders gently without forcing the movement.",
+          "indonesian": "Selanjutnya, regangkan bahu perlahan tanpa memaksakan gerakan.",
+          "note": "[[Next]] menghubungkan urutan dengan langkah sebelumnya, sedangkan [[gently]] menjadi instruksi cara yang aman."
         }
       ]
     },
@@ -167,7 +166,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "After a gentle warm-up, gradually increase your walking speed if you feel comfortable.",
@@ -205,6 +204,40 @@
         "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
         "Dalam instruksi, [[first]], [[next]], dan [[finally]] memberi urutan; [[before]] dan [[after]] menunjukkan kapan suatu tindakan dilakukan.",
         "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti?",
+      "model": "First, wash your hands with soap for at least twenty seconds.",
+      "modelTranslation": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
+      "criteria": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "warm-up",
+          "indonesian": "pemanasan"
+        },
+        {
+          "english": "gradually",
+          "indonesian": "secara bertahap"
+        },
+        {
+          "english": "comfortable",
+          "indonesian": "nyaman"
+        },
+        {
+          "english": "dizzy",
+          "indonesian": "pusing"
+        },
+        {
+          "english": "rest",
+          "indonesian": "istirahat"
+        }
       ]
     }
   ],

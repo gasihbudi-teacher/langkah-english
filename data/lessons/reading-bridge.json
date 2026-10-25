@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Jembatan membaca · dari kalimat ke paragraf?",
+      "text": "[[Reading bridge]] adalah strategi menghubungkan pemahaman satu kalimat ke kalimat berikutnya sampai terbentuk gagasan utama paragraf."
+    },
+    {
       "type": "scaffold",
-      "intro": "Kalimat pendek adalah titik awal membaca paragraf. Pahami satu kalimat dahulu sebelum menggabungkannya dengan kalimat lain.",
+      "intro": "Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari tokoh atau benda utama dalam kalimat."
+          "title": "Tentukan yang dicari",
+          "explanation": "Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari tindakan dan informasi penting, bukan arti setiap kata secara terpisah.",
+          "title": "Tandai bukti pertama",
+          "explanation": "Perhatikan kalimat ini. [[Dog]] adalah pelaku; [[chased]] menyatakan tindakan; [[ball]] adalah sasaran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The dog chased the ball.",
           "indonesian": "Anjing itu mengejar bola.",
           "why": "[[Dog]] adalah pelaku; [[chased]] menyatakan tindakan; [[ball]] adalah sasaran."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Saat dua kalimat berurutan, tanyakan bagaimana informasi keduanya saling terhubung.",
+          "title": "Uji informasi kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Is]] [[old]] menjelaskan keadaan [[bridge]], bukan suatu tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The bridge is old.",
           "indonesian": "Jembatan itu tua.",
           "why": "[[Is]] [[old]] menjelaskan keadaan [[bridge]], bukan suatu tindakan."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pahami pelaku dan tindakan pada tiap kalimat, lalu cari penghubung sebab, kontras, atau urutan. Ringkasan yang baik mencakup ide utama tanpa menyalin semua detail."
     },
     {
       "type": "heading",
@@ -71,28 +81,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "subject",
-          "indonesian": "subjek"
-        },
-        {
-          "english": "main idea",
-          "indonesian": "gagasan utama"
-        },
-        {
-          "english": "however",
-          "indonesian": "namun"
-        },
-        {
-          "english": "therefore",
-          "indonesian": "oleh karena itu"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -172,6 +160,16 @@
           "english": "The museum was free; however, few people visited.",
           "indonesian": "Museum itu gratis; namun, hanya sedikit orang berkunjung.",
           "note": "[[However]] menunjukkan hasil yang tidak sesuai dugaan."
+        },
+        {
+          "english": "The path was flooded. Therefore, the hikers turned back.",
+          "indonesian": "Jalur itu terendam banjir. Karena itu, para pendaki berbalik arah.",
+          "note": "[[Therefore]] menunjukkan hubungan akibat; kalimat kedua tidak terpisah dari gagasan pertama."
+        },
+        {
+          "english": "The library was crowded. However, the study room remained quiet.",
+          "indonesian": "Perpustakaan ramai. Namun, ruang belajar tetap tenang.",
+          "note": "[[However]] menghubungkan informasi yang berbeda arah, bukan sebab dan akibat."
         }
       ]
     },
@@ -184,7 +182,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Every afternoon, volunteers read stories to younger children. The activity helps them enjoy books.",
@@ -205,6 +203,36 @@
         "Mulailah dari [[subject]] dan [[verb]], lalu baca keterangan tambahan.",
         "Kata penghubung seperti [[but]], [[however]], dan [[therefore]] menunjukkan hubungan gagasan.",
         "Bedakan ide utama dari fakta kecil yang mendukungnya."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama?",
+      "model": "The path was flooded. Therefore, the hikers turned back.",
+      "modelTranslation": "Jalur itu terendam banjir. Karena itu, para pendaki berbalik arah.",
+      "criteria": "[[Therefore]] menunjukkan hubungan akibat; kalimat kedua tidak terpisah dari gagasan pertama."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "subject",
+          "indonesian": "subjek"
+        },
+        {
+          "english": "main idea",
+          "indonesian": "gagasan utama"
+        },
+        {
+          "english": "however",
+          "indonesian": "namun"
+        },
+        {
+          "english": "therefore",
+          "indonesian": "oleh karena itu"
+        }
       ]
     }
   ],

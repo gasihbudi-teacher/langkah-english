@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Sentence Structure (Struktur Kalimat)?",
+      "text": "[[Sentence structure]] adalah susunan bagian utama kalimat Inggris, terutama subjek dan predikat, serta objek atau keterangan jika diperlukan."
+    },
+    {
       "type": "scaffold",
-      "intro": "Sebelum menyusun kalimat panjang, pelajari dua pertanyaan: siapa yang dibicarakan, dan apa yang terjadi?",
+      "intro": "Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari [[subject]]: orang, hewan, atau benda yang menjadi pokok kalimat."
+          "title": "Temukan bagian penting",
+          "explanation": "Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Cari [[verb]]: kata yang menunjukkan kegiatan atau keadaan. [[Birds sing]] sudah merupakan kalimat sederhana.",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "Birds sing.",
           "indonesian": "Burung-burung bernyanyi.",
           "why": "[[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Setelah memahami dua bagian utama, tambahkan [[object]] atau keterangan tanpa mengubah kerangkanya.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "Mira reads books.",
           "indonesian": "Mira membaca buku.",
           "why": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, sebuah kalimat membutuhkan bagian yang menyatakan sesuatu tentang subjek. Pada [[The students read books]], [[the students]] merupakan subjek, [[read]] verba, dan [[books]] objek. Urutan tidak dapat dipindahkan sembarangan."
     },
     {
       "type": "heading",
@@ -114,28 +124,6 @@
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
     },
     {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "subject",
-          "indonesian": "subjek"
-        },
-        {
-          "english": "verb",
-          "indonesian": "kata kerja"
-        },
-        {
-          "english": "object",
-          "indonesian": "objek"
-        },
-        {
-          "english": "clause",
-          "indonesian": "klausa"
-        }
-      ]
-    },
-    {
       "type": "example_group",
       "title": "1 · Contoh dasar",
       "collapsed": false,
@@ -209,6 +197,16 @@
           "english": "We met at the station.",
           "indonesian": "Kami bertemu di stasiun.",
           "note": "[[At]] [[the]] [[station]] adalah keterangan tempat, bukan [[object]] langsung."
+        },
+        {
+          "english": "The new student answered the question confidently.",
+          "indonesian": "Siswa baru itu menjawab pertanyaan dengan percaya diri.",
+          "note": "[[The new student]] subjek, [[answered]] predikat, [[the question]] objek, [[confidently]] keterangan cara."
+        },
+        {
+          "english": "My aunt sent a parcel to her friend yesterday.",
+          "indonesian": "Bibi saya mengirim paket kepada temannya kemarin.",
+          "note": "[[My aunt]] subjek, [[sent]] verba, [[a parcel]] objek, [[to her friend]] penerima, dan [[yesterday]] keterangan waktu."
         }
       ]
     },
@@ -221,7 +219,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Because it rained, the match stopped.",
@@ -242,6 +240,36 @@
         "Kalimat lengkap biasanya memiliki [[subject]] dan [[verb]].",
         "Cari unsur utama sebelum menafsirkan keterangan tambahan.",
         "Klausa penghubung dapat menambahkan sebab, waktu, atau penjelasan."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan?",
+      "model": "The new student answered the question confidently.",
+      "modelTranslation": "Siswa baru itu menjawab pertanyaan dengan percaya diri.",
+      "criteria": "[[The new student]] subjek, [[answered]] predikat, [[the question]] objek, [[confidently]] keterangan cara."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "subject",
+          "indonesian": "subjek"
+        },
+        {
+          "english": "verb",
+          "indonesian": "kata kerja"
+        },
+        {
+          "english": "object",
+          "indonesian": "objek"
+        },
+        {
+          "english": "clause",
+          "indonesian": "klausa"
+        }
       ]
     }
   ],

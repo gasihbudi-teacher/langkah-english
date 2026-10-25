@@ -7,28 +7,38 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Subject–Verb Agreement?",
+      "text": "[[Subject–verb agreement]] adalah kesesuaian bentuk kata kerja dengan subjek, terutama jumlah dan orangnya."
+    },
+    {
       "type": "scaffold",
-      "intro": "Bentuk kata kerja bahasa Inggris kadang berubah mengikuti siapa atau apa yang menjadi subjek. Amati jumlah pelakunya terlebih dahulu.",
+      "intro": "Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari siapa yang melakukan kegiatan, misalnya [[boy]] atau [[boys]]."
+          "title": "Temukan bagian penting",
+          "explanation": "Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Satu pelaku orang ketiga biasanya memakai [[verb]] dengan [[-s]] pada [[simple present]].",
+          "title": "Amati bentuknya",
+          "explanation": "Perhatikan kalimat ini. [[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "The boy plays chess.",
           "indonesian": "Anak laki-laki itu bermain catur.",
           "why": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Beberapa pelaku biasanya memakai bentuk dasar. Jangan tentukan jawaban sebelum mengecek subjek.",
+          "title": "Periksa bentuk kedua",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "The boys play chess.",
           "indonesian": "Anak-anak laki-laki itu bermain catur.",
           "why": "[[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, cari inti subjek sebelum memilih [[plays]] atau [[play]]. Frasa seperti [[of the students]] dapat menyela, tetapi tidak otomatis menentukan bentuk verba. Fokus pada kepala frasa subjeknya."
     },
     {
       "type": "heading",
@@ -99,28 +109,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "singular",
-          "indonesian": "tunggal"
-        },
-        {
-          "english": "plural",
-          "indonesian": "jamak"
-        },
-        {
-          "english": "each",
-          "indonesian": "masing-masing"
-        },
-        {
-          "english": "agreement",
-          "indonesian": "kesesuaian"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -200,6 +188,16 @@
           "english": "Each student has a notebook.",
           "indonesian": "Setiap siswa memiliki buku catatan.",
           "note": "[[Each]] [[student]] dianggap tunggal; gunakan [[has]]."
+        },
+        {
+          "english": "A list of recommended books is on the table.",
+          "indonesian": "Daftar buku yang direkomendasikan ada di atas meja.",
+          "note": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]]."
+        },
+        {
+          "english": "The keys to the old cupboard are missing.",
+          "indonesian": "Kunci-kunci lemari tua itu hilang.",
+          "note": "Subjek inti [[the keys]] jamak, bukan [[the old cupboard]], sehingga menggunakan [[are]]."
         }
       ]
     },
@@ -212,7 +210,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "The teacher and the assistant are preparing the room.",
@@ -233,6 +231,36 @@
         "Tentukan inti [[subject]], bukan kata terdekat dengan [[verb]].",
         "[[Subject]] tunggal dan jamak sering memerlukan bentuk [[verb]] berbeda.",
         "Perhatikan [[each]], [[one of]], dan gabungan [[subject]] dengan [[and]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba?",
+      "model": "A list of recommended books is on the table.",
+      "modelTranslation": "Daftar buku yang direkomendasikan ada di atas meja.",
+      "criteria": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "singular",
+          "indonesian": "tunggal"
+        },
+        {
+          "english": "plural",
+          "indonesian": "jamak"
+        },
+        {
+          "english": "each",
+          "indonesian": "masing-masing"
+        },
+        {
+          "english": "agreement",
+          "indonesian": "kesesuaian"
+        }
       ]
     }
   ],

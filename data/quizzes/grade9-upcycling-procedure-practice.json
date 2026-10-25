@@ -20,8 +20,8 @@
         "To tell a frightening story",
         "To argue that jars should be banned"
       ],
-      "answer": 2,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "answer": 1,
+      "explanation": "Kalimat pertama langsung memberi tujuan: membuat tempat pensil dari stoples kosong. Daftar bahan dan urutan langkah membuktikan bahwa teks ini adalah [[procedure]], bukan cerita.",
       "translationId": {
         "prompt": "Apa tujuan utama teks?",
         "choices": [
@@ -64,18 +64,18 @@
       "prompt": "Why should the outside of the jar be dry?",
       "choices": [
         "So the glass becomes heavier",
-        "So the paper can be attached properly",
         "So the pencils can be washed",
+        "So the paper can be attached properly",
         "So the jar can break easily"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Mengeringkan permukaan dilakukan sebelum menempelkan kertas.",
       "translationId": {
         "prompt": "Mengapa bagian luar stoples harus kering?",
         "choices": [
           "Agar kaca menjadi lebih berat",
-          "Agar kertas dapat menempel dengan baik",
           "Agar pensil bisa dicuci",
+          "Agar kertas dapat menempel dengan baik",
           "Agar stoples mudah pecah"
         ]
       },

@@ -7,28 +7,42 @@
   ],
   "blocks": [
     {
+      "type": "definition",
+      "title": "Apa itu Grade 10: follow the story in a recount?",
+      "text": "[[Recount text]] adalah teks yang menceritakan kembali pengalaman atau kejadian nyata yang sudah berlangsung."
+    },
+    {
       "type": "scaffold",
-      "intro": "Teks [[recount]] menceritakan kejadian yang telah terjadi. Urutan waktu sangat penting.",
+      "intro": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
       "steps": [
         {
-          "title": "Kenali ide dasarnya",
-          "explanation": "Cari kapan dan di mana peristiwa dimulai."
+          "title": "Kenali tujuan penulis",
+          "explanation": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
         },
         {
-          "title": "Lihat satu contoh pelan-pelan",
-          "explanation": "Perhatikan penanda urutan seperti [[first]], [[then]], dan [[finally]].",
+          "title": "Baca bagian model",
+          "explanation": "Perhatikan kalimat ini. [[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
           "english": "We visited the museum on Monday.",
           "indonesian": "Kami mengunjungi museum pada hari Senin.",
           "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
         },
         {
-          "title": "Perhatikan apa yang berubah",
-          "explanation": "Susun kejadian sesuai teks; jangan mengubah urutan karena terdengar lebih masuk akal.",
+          "title": "Hubungkan bagian berikutnya",
+          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[First]] memulai urutan kegiatan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
           "english": "First, we bought tickets.",
           "indonesian": "Pertama, kami membeli tiket.",
           "why": "[[First]] memulai urutan kegiatan."
+        },
+        {
+          "title": "Susun kerangka teks sendiri",
+          "explanation": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
         }
       ]
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Jadi intinya, pembaca mengikuti orientasi (siapa, kapan, di mana), rangkaian peristiwa, dan kesan penutup. Kata waktu dan [[past tense]] menjaga urutan; jangan keliru menganggap komentar penulis sebagai kejadian baru."
     },
     {
       "type": "heading",
@@ -81,28 +95,6 @@
     {
       "type": "text",
       "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
-    },
-    {
-      "type": "vocabulary",
-      "title": "Bekal kosakata",
-      "items": [
-        {
-          "english": "first",
-          "indonesian": "pertama"
-        },
-        {
-          "english": "then",
-          "indonesian": "kemudian"
-        },
-        {
-          "english": "after",
-          "indonesian": "setelah"
-        },
-        {
-          "english": "reflection",
-          "indonesian": "refleksi"
-        }
-      ]
     },
     {
       "type": "example_group",
@@ -186,6 +178,16 @@
           "english": "Finally, we returned to school.",
           "indonesian": "Akhirnya, kami kembali ke sekolah.",
           "note": "[[Finally]] menutup urutan kejadian."
+        },
+        {
+          "english": "After we bought the tickets, we entered the science museum.",
+          "indonesian": "Setelah membeli tiket, kami masuk ke museum sains.",
+          "note": "[[After]] menghubungkan dua tindakan lampau dan memperjelas urutan peristiwa."
+        },
+        {
+          "english": "Later that afternoon, our guide showed us a collection of old photographs.",
+          "indonesian": "Sore harinya, pemandu menunjukkan kumpulan foto lama kepada kami.",
+          "note": "[[Later that afternoon]] menandai kelanjutan urutan pengalaman; [[showed]] adalah verba lampau."
         }
       ]
     },
@@ -198,7 +200,7 @@
     {
       "type": "example_group",
       "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "english": "Last Friday, our class cleaned the beach. We collected plastic bottles and separated recyclable waste.",
@@ -219,6 +221,36 @@
         "Recount menceritakan kejadian lampau berdasarkan urutan waktu.",
         "[[First]], then, [[after]], dan finally menandai alur.",
         "Bagian penutup dapat menyampaikan refleksi, bukan sekadar kejadian."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya?",
+      "model": "After we bought the tickets, we entered the science museum.",
+      "modelTranslation": "Setelah membeli tiket, kami masuk ke museum sains.",
+      "criteria": "[[After]] menghubungkan dua tindakan lampau dan memperjelas urutan peristiwa."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "first",
+          "indonesian": "pertama"
+        },
+        {
+          "english": "then",
+          "indonesian": "kemudian"
+        },
+        {
+          "english": "after",
+          "indonesian": "setelah"
+        },
+        {
+          "english": "reflection",
+          "indonesian": "refleksi"
+        }
       ]
     }
   ],
