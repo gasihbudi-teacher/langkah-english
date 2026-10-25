@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Bentuk kata kerja bahasa Inggris kadang berubah mengikuti siapa atau apa yang menjadi subjek. Amati jumlah pelakunya terlebih dahulu.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari siapa yang melakukan kegiatan, misalnya [[boy]] atau [[boys]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Satu pelaku orang ketiga biasanya memakai [[verb]] dengan [[-s]] pada [[simple present]].",
+          "english": "The boy plays chess.",
+          "indonesian": "Anak laki-laki itu bermain catur.",
+          "why": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Beberapa pelaku biasanya memakai bentuk dasar. Jangan tentukan jawaban sebelum mengecek subjek.",
+          "english": "The boys play chess.",
+          "indonesian": "Anak-anak laki-laki itu bermain catur.",
+          "why": "[[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Subjek menentukan bentuk kata kerja"
     },
@@ -52,7 +76,7 @@
       "type": "mistake",
       "incorrect": "The list of reading tasks are long.",
       "correct": "The list of reading tasks is long.",
-      "explanation": "Inti subjek adalah list (tunggal). Tasks hanyalah bagian dari frasa of reading tasks."
+      "explanation": "Inti subjek adalah list (tunggal). [[Tasks]] hanyalah bagian dari frasa [[of reading tasks]]."
     },
     {
       "type": "mistake",
@@ -66,7 +90,7 @@
     },
     {
       "type": "text",
-      "text": "Sebagian besar [[verb]] biasa memiliki bentuk [[simple past]] yang sama untuk subjek tunggal dan jamak: [[she]] walked dan [[they]] walked. [[Be]] berbeda: [[she]] [[was]], [[they]] [[were]]. Pelajaran ini berfokus pada subjek umum yang jelas; collective [[nouns]] dapat memiliki variasi penggunaan."
+      "text": "Sebagian besar [[verb]] biasa memiliki bentuk [[simple past]] yang sama untuk subjek tunggal dan jamak: [[she]] [[walked]] dan [[they]] [[walked]]. [[Be]] berbeda: [[she]] [[was]], [[they]] [[were]]. Pelajaran ini berfokus pada subjek umum yang jelas; collective [[nouns]] dapat memiliki variasi penggunaan."
     },
     {
       "type": "heading",
@@ -121,6 +145,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-subject-verb-agreement",
+      "prompt": "Which sentence is correct?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The boys plays chess.",
+        "The boy play chess.",
+        "The boys play chess."
+      ],
+      "answer": 2,
+      "explanation": "Subjek jamak [[boys]] memakai kata kerja dasar [[play]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Anak-anak laki-laki itu bermain catur. (bentuk keliru)",
+        "Anak laki-laki itu bermain catur. (bentuk keliru)",
+        "Anak-anak laki-laki itu bermain catur. (bentuk tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The boy plays chess.",
       "parts": [
@@ -159,6 +202,12 @@
           "note": "[[Each]] [[student]] dianggap tunggal; gunakan [[has]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Mulailah dengan membayangkan tempat yang diceritakan. Kita akan mengenali sifat dan detail yang terlihat dalam teks.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari tempat utama yang dibicarakan."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Perhatikan kata sifat seperti [[quiet]] untuk memahami suasana.",
+          "english": "Our library is quiet.",
+          "indonesian": "Perpustakaan kami tenang.",
+          "why": "[[Quiet]] adalah sifat, bukan kejadian."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Setelah menemukan detail, hubungkan detail itu dengan gambaran tempat secara keseluruhan.",
+          "english": "The garden has three benches.",
+          "indonesian": "Taman memiliki tiga bangku.",
+          "why": "[[Three]] [[benches]] adalah detail yang bisa ditemukan langsung."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Menggambarkan sebuah tempat"
     },
@@ -90,6 +114,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade9-reading",
+      "prompt": "Which sentence describes a place?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The library is quiet.",
+        "The library opens tomorrow.",
+        "The students borrowed books."
+      ],
+      "answer": 0,
+      "explanation": "[[The library is quiet]] menyampaikan suasana tempat.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Perpustakaan itu tenang.",
+        "Perpustakaan dibuka besok.",
+        "Para siswa meminjam buku."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "Our library is quiet.",
       "parts": [
@@ -124,6 +167,12 @@
           "note": "Detail fisik [[large]] [[windows]] mendukung keadaan bright."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

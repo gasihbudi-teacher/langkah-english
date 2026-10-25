@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Membaca untuk UTBK tidak berarti menerjemahkan setiap kata. Kita akan mencari bukti langsung dari teks.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Baca pertanyaan untuk mengetahui informasi yang dicari."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Temukan kalimat dalam teks yang mendukung jawaban; jangan hanya mengandalkan tebakan.",
+          "english": "The café opens at six.",
+          "indonesian": "Kafe itu buka pukul enam.",
+          "why": "Informasi eksplisit: teks menyatakan jam buka langsung."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Bandingkan pilihan jawaban dengan isi teks, termasuk kata yang terlalu pasti seperti [[always]].",
+          "english": "Amina borrowed two novels.",
+          "indonesian": "Amina meminjam dua novel.",
+          "why": "Pertanyaan detail dapat dijawab dari angka [[two]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami bacaan sebelum mencari jawaban"
     },
@@ -147,6 +171,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-reading-strategies",
+      "prompt": "Which answer is best supported by a text?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "A guess based on your experience.",
+        "A statement supported by a sentence in the text.",
+        "A choice containing the longest words."
+      ],
+      "answer": 1,
+      "explanation": "Jawaban membaca harus didukung kalimat atau informasi dalam teks.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Tebakan berdasarkan pengalaman pribadi.",
+        "Pernyataan yang didukung kalimat dalam teks.",
+        "Pilihan dengan kata paling panjang."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The café opens at six.",
       "parts": [
@@ -185,6 +228,12 @@
           "note": "[[Suggest]] berbeda dari [[prove]] dalam tingkat kepastian."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

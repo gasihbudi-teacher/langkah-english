@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Jika kegiatan sudah terjadi dan selesai, kita sering memakai [[simple past]]. Mulailah dengan membedakan hari ini dan kemarin.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Perhatikan petunjuk waktu seperti [[yesterday]] atau [[last week]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Kata kerja beraturan biasanya ditambah [[-ed]], misalnya [[visit]] menjadi [[visited]].",
+          "english": "I visited my aunt yesterday.",
+          "indonesian": "Saya mengunjungi bibi saya kemarin.",
+          "why": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Sebagian kata kerja memiliki bentuk khusus: [[go]] berubah menjadi [[went]].",
+          "english": "She went home early.",
+          "indonesian": "Dia pulang lebih awal.",
+          "why": "[[Went]] adalah [[verb-2]] tak beraturan dari [[go]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Kapan memakai [[simple past]]?"
     },
@@ -49,7 +73,7 @@
     },
     {
       "type": "text",
-      "text": "Banyak [[verb]] membentuk [[past]] dengan -ed (walk → walked, visit → visited). Sebagian tidak beraturan: [[go]] → went, [[eat]] → ate, see → saw. Hafalkan bentuk yang sering digunakan sambil berlatih dalam konteks."
+      "text": "Banyak [[verb]] membentuk [[past]] dengan -ed ([[walk]] → [[walked]], [[visit]] → [[visited]]). Sebagian tidak beraturan: [[go]] → [[went]], [[eat]] → [[ate]], [[see]] → [[saw]]. Hafalkan bentuk yang sering digunakan sambil berlatih dalam konteks."
     },
     {
       "type": "rule",
@@ -133,6 +157,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-simple-past",
+      "prompt": "Which sentence describes a finished past event?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "I visited my aunt yesterday.",
+        "I visit my aunt yesterday.",
+        "I visiting my aunt yesterday."
+      ],
+      "answer": 0,
+      "explanation": "[[Visited]] adalah bentuk lampau dari [[visit]] dan sesuai dengan [[yesterday]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Saya mengunjungi bibi kemarin. (lampau tepat)",
+        "Saya mengunjungi bibi kemarin. (bentuk tidak tepat)",
+        "Saya mengunjungi bibi kemarin. (bentuk tidak tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "I visited my aunt yesterday.",
       "parts": [
@@ -142,7 +185,7 @@
         },
         {
           "english": "visited",
-          "meaning": "[[verb-2]] dari visit"
+          "meaning": "[[verb-2]] dari [[visit]]"
         },
         {
           "english": "my aunt",
@@ -167,7 +210,7 @@
         {
           "english": "Did she go home?",
           "indonesian": "Apakah dia pulang?",
-          "note": "Sesudah [[did]], gunakan [[go]], bukan went."
+          "note": "Sesudah [[did]], gunakan [[go]], bukan [[went]]."
         },
         {
           "english": "We saw the film, but we did not like it.",
@@ -175,6 +218,12 @@
           "note": "[[Saw]] adalah [[verb-2]]; [[did not]] diikuti [[like]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

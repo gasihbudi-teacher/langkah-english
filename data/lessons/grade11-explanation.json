@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Teks penjelasan menjawab bagaimana atau mengapa sesuatu terjadi, bukan sekadar menceritakan urutan kejadian.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari fenomena yang sedang dijelaskan."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Amati hubungan sebab dan akibat di setiap kalimat.",
+          "english": "Warm air rises.",
+          "indonesian": "Udara hangat naik.",
+          "why": "Ini tahap awal sebuah proses alam."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Gunakan kata penghubung dan urutan proses untuk mengikuti penjelasan.",
+          "english": "Rising air cools.",
+          "indonesian": "Udara yang naik mengalami pendinginan.",
+          "why": "Kalimat menyatakan tahap berikutnya."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Bagaimana [[explanation text]] bekerja?"
     },
@@ -105,6 +129,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade11-explanation",
+      "prompt": "Which sentence explains a process?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "We saw the clouds yesterday.",
+        "The clouds were beautiful.",
+        "Warm air rises and cools at higher altitudes."
+      ],
+      "answer": 2,
+      "explanation": "Kalimat ini menunjukkan hubungan proses antara udara hangat dan pendinginan.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Kami melihat awan kemarin.",
+        "Awan itu indah.",
+        "Udara hangat naik dan mendingin di tempat yang lebih tinggi."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "Warm air rises.",
       "parts": [
@@ -139,6 +182,12 @@
           "note": "[[As a result]] menandai hasil proses."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

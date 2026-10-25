@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Untuk memahami kalimat yang rumit, pecah kalimat menjadi bagian kecil sebelum menentukan maknanya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari [[subject]] dan [[verb]] utama lebih dulu."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Pisahkan klausa penjelas, misalnya bagian yang dimulai dengan [[who]].",
+          "english": "The boy who waved is my cousin.",
+          "indonesian": "Anak laki-laki yang melambaikan tangan itu sepupu saya.",
+          "why": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Perhatikan kata yang memberi penekanan seperti [[only]]; letaknya dapat mengubah arti.",
+          "english": "Only Sara read the article.",
+          "indonesian": "Hanya Sara yang membaca artikel itu.",
+          "why": "[[Only]] membatasi pelaku yang melakukan tindakan."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Konsep dan tujuan"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-advanced-grammar-analysis",
+      "prompt": "Which words form the main subject and verb?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The boy / is",
+        "who waved / is",
+        "my cousin / waved"
+      ],
+      "answer": 0,
+      "explanation": "Dalam [[The boy who waved is my cousin]], inti subjek dan predikatnya adalah [[the boy]] dan [[is]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Anak laki-laki itu / adalah",
+        "yang melambaikan tangan / adalah",
+        "sepupuku / melambaikan tangan"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The boy who waved is my cousin.",
       "parts": [
@@ -142,6 +185,12 @@
           "note": "[[Not]] [[all]] berarti sebagian mungkin tidak setuju; bukan semua menolak."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

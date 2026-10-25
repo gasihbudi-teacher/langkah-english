@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Teks eksposisi mengajak pembaca mempertimbangkan pendapat yang didukung alasan.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Temukan pendapat utama penulis, yaitu [[claim]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Cari alasan atau bukti yang diberikan untuk mendukung pendapat itu.",
+          "english": "Students should read daily.",
+          "indonesian": "Siswa sebaiknya membaca setiap hari.",
+          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Bedakan pendapat dengan bukti; kalimat yang meyakinkan belum tentu memuat data.",
+          "english": "Reading develops vocabulary.",
+          "indonesian": "Membaca mengembangkan kosakata.",
+          "why": "Ini alasan yang dapat mendukung [[thesis]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Susunan teks exposition"
     },
@@ -25,7 +49,7 @@
     },
     {
       "type": "text",
-      "text": "Kalimat “shade [[can]] make breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata [[should]] menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
+      "text": "Kalimat “shade [[can]] [[make]] breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata [[should]] menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
     },
     {
       "type": "rule",
@@ -84,6 +108,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade11-exposition",
+      "prompt": "Which statement is a claim?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "Ten students joined the club.",
+        "Students should read every day.",
+        "The survey included 100 students."
+      ],
+      "answer": 1,
+      "explanation": "[[Should]] menyatakan pendapat atau anjuran yang memerlukan dukungan.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Sepuluh siswa bergabung dengan klub.",
+        "Siswa sebaiknya membaca setiap hari.",
+        "Survei itu melibatkan 100 siswa."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "Students should read daily.",
       "parts": [
@@ -122,6 +165,12 @@
           "note": "[[However]] menunjukkan kontras dengan informasi sebelumnya."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

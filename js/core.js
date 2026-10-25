@@ -23,10 +23,16 @@ export function formatIdText(source){
 function lessonExampleCard(item,index){
   return `<li class="worked-example"><span class="example-index">Contoh ${index+1}</span>
     <p class="example-english" lang="en">${esc(item.english)}</p>
-    <p class="example-id" lang="id"><span class="example-label">Arti:</span> ${esc(item.indonesian)}</p>
+    <p class="example-id" lang="id"><span class="example-label">Arti:</span> ${formatIdText(item.indonesian)}</p>
     <p class="example-reason" lang="id"><span class="example-label">Mengapa?</span> ${formatIdText(item.note)}</p></li>`;
 }
+/** One gentle concept at a time; this content is not graded or saved. */
+function scaffoldCard(step,i){return `<section class="scaffold-step"><h3 lang="id"><span class="scaffold-count">${i+1}</span>${esc(step.title)}</h3><p lang="id">${formatIdText(step.explanation)}</p>${step.english?`<div class="scaffold-sample"><p lang="en" class="example-english">${esc(step.english)}</p><p lang="id"><strong>Artinya:</strong> ${formatIdText(step.indonesian)}</p><p lang="id"><strong>Mengapa?</strong> ${formatIdText(step.why)}</p></div>`:''}</section>`}
 function lessonBlock(b){switch(b.type){
+ case 'scaffold':return `<section class="scaffold-guide" aria-label="Belajar perlahan"><div class="scaffold-heading"><span aria-hidden="true">🪜</span><div><h2 lang="id">Mulai dari dasar, pelan-pelan</h2><p lang="id">${formatIdText(b.intro)}</p></div></div>${b.steps.map(scaffoldCard).join('')}<p class="scaffold-next" lang="id">Jika masih bingung, baca kembali contoh di atas. Tidak ada batas waktu.</p></section>`;
+ case 'reference':return `<details class="lesson-reference"><summary lang="id">Penjelasan lebih lengkap, aturan, dan kesalahan umum (opsional)</summary><div class="reference-content">${b.blocks.map(lessonBlock).join('')}</div></details>`;
+ case 'checkpoint':return `<section class="guided-checkpoint" data-guided-check="${esc(b.id)}"><h3 lang="id">Coba pahami dulu · Tanpa nilai</h3><p lang="id">Baca ulang contoh jika perlu. Pilih jawaban dalam bahasa Inggris; bantuan bahasa Indonesia boleh dibuka.</p><p class="checkpoint-prompt" lang="en">${esc(b.prompt)}</p><details class="translation-detail"><summary lang="id">Lihat arti pertanyaan</summary><p lang="id">${formatIdText(b.translation)}</p><ol type="A" lang="id">${(b.translationChoices||[]).map(x=>`<li>${formatIdText(x)}</li>`).join('')}</ol></details><div class="checkpoint-options" role="group" aria-label="${esc(b.prompt)}">${b.choices.map((v,i)=>`<button type="button" data-check-choice="${i}" aria-pressed="false">${esc(v)}</button>`).join('')}</div><p class="checkpoint-result" role="status" aria-live="polite" hidden></p><button type="button" class="checkpoint-hint" data-check-hint aria-expanded="false">Butuh petunjuk?</button><p class="checkpoint-hint-text" hidden lang="id">${formatIdText(b.hint)}</p><template class="checkpoint-solution">${formatIdText(b.explanation)}</template><span data-check-answer="${b.answer}" hidden></span></section>`;
+ case 'reflection':return `<section class="reflection"><h3 lang="id">Berhenti sejenak dan bandingkan</h3><p lang="en">${esc(b.prompt)}</p><p lang="id" class="muted">${formatIdText(b.translation)}</p><details><summary lang="id">Lihat panduan setelah mencoba sendiri</summary><p lang="id">${formatIdText(b.answer)}</p></details></section>`;
  case 'heading':return `<h2 lang="id">${formatIdText(b.text)}</h2>`;
  case 'subheading':return `<h3 lang="id">${formatIdText(b.text)}</h3>`;
  case 'text':return `<p lang="id">${formatIdText(b.text)}</p>${b.idText?`<p class="bilingual" lang="id">${formatIdText(b.idText)}</p>`:''}`;
@@ -34,7 +40,7 @@ function lessonBlock(b){switch(b.type){
  case 'example':return `<blockquote class="legacy-example"><span lang="en">${esc(b.text)}</span>${b.note?`<br><small lang="id">${formatIdText(b.note)}</small>`:''}</blockquote>`;
  case 'mistake':return `<div class="panel mistake-panel"><p class="bad" lang="en">✗ ${esc(b.incorrect)}</p><p class="good" lang="en">✓ ${esc(b.correct)}</p><p lang="id">${formatIdText(b.explanation)}</p></div>`;
  case 'table':return `<div class="tablewrap"><table><thead><tr>${b.headers.map(h=>`<th scope="col">${formatIdText(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r=>`<tr>${r.map(c=>`<td>${formatIdText(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
- case 'vocabulary':return `<section class="vocab-section" aria-label="Bekal kosakata"><h3 lang="id">${esc(b.title)}</h3><dl class="vocab-grid">${b.items.map(v=>`<div class="vocab-pair"><dt lang="en">${esc(v.english)}</dt><dd lang="id">${esc(v.indonesian)}</dd></div>`).join('')}</dl></section>`;
+ case 'vocabulary':return `<section class="vocab-section" aria-label="Bekal kosakata"><h3 lang="id">${esc(b.title)}</h3><dl class="vocab-grid">${b.items.map(v=>`<div class="vocab-pair"><dt lang="en">${esc(v.english)}</dt><dd lang="id">${formatIdText(v.indonesian)}</dd></div>`).join('')}</dl></section>`;
  case 'example_group':{
     const cards=`<ol class="worked-examples">${b.items.map(lessonExampleCard).join('')}</ol>`;
     return b.collapsed

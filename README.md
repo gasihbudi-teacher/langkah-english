@@ -2,6 +2,20 @@
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.
 
+## Version 7.0 — patient, scaffolded teaching and cleaner section lists (25 October 2026)
+
+**V7 builds directly on V6 and remains a static GitHub + Cloudflare Pages site.** All 45 resource IDs, 30 lessons, 15 quizzes, 234 existing graded questions/answers, existing progress keys, backup format, standalone search page, and English-first assessments remain compatible.
+
+- **30 lesson-by-lesson gentle introductions:** each lesson starts with three small, Indonesian-language steps, including concrete English examples, Indonesian meanings, and notes on how the form or meaning works. Dense original rule explanations are now in an optional, accessible *Penjelasan lebih lengkap* section rather than blocking beginners from reaching the examples.
+- **30 formative checkpoints:** one new three-choice English checkpoint after each lesson's basic examples, with expandable Indonesian glosses for the question and all three choices, optional hints and Indonesian explanations. These are *not* graded examinations and are not added to stored quiz results. Each lesson also pauses for a reflection after comparison examples.
+- **Terms marked visibly and in two ways:** authored `[[English term]]` becomes a coloured italic English label **with quotation marks** around it. Marks work in lesson translations, vocabulary meanings, teaching notes, summaries, and additional feedback. Curated older bare terms have been annotated; use explicit tags when authoring new material instead of an unreliable automatic language detector.
+- **Collapsible, separated libraries:** School English has eight accordions (Kelas 9–12 × Materi / Latihan). Grammar has beginner/intermediate/advanced Materi/Latihan; UTBK has Materi / Latihan / Simulasi. Deep links including older grade URLs open the relevant section. Open sections remain open when the interface language changes.
+- **Safe preservation:** existing practice selections persist through the EN/ID UI toggle, as do the new guided checkpoint selections; stored lesson completion and quiz history are unchanged.
+
+Run `python tools/validate.py`, `node tests/v7-quality.mjs` and all earlier regression tests before updating. Source tests pass; actual Chromium browser navigation to the local preview was **blocked by the environment** and therefore mobile/browser smoke testing is still required. New questions and Indonesian support should be independently checked by an English teacher.
+
+See `docs/V7-CHANGES.md` and `docs/V7-TEST-REPORT.md` for acceptance testing and limitations.
+
 ## Version 6.0 — expanded and clearer lessons (25 October 2026)
 
 **V6 builds directly on V5.** All 45 resource IDs, 234 English-first practice questions and answer choices, Indonesian expandable quiz translations, dedicated Search page, static GitHub/Cloudflare Pages deployment, progress/backup keys and answer positions are preserved.

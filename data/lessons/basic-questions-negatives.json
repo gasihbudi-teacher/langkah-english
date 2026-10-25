@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Sebelum membuat pertanyaan, pastikan kamu mengenali kalimat pernyataan biasa. Kita ubah satu bagian setiap kali.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mulai dari kalimat positif, misalnya [[She likes music]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Untuk pertanyaan dengan kata kerja biasa, letakkan [[do]] atau [[does]] di awal.",
+          "english": "She likes music.",
+          "indonesian": "Dia menyukai musik.",
+          "why": "Ini kalimat positif dengan [[subject]] tunggal."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Setelah [[does]], kata kerja kembali ke bentuk dasar: [[like]], bukan [[likes]].",
+          "english": "Does she like music?",
+          "indonesian": "Apakah dia menyukai musik?",
+          "why": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Dua keluarga pola pertanyaan"
     },
@@ -59,7 +83,7 @@
     },
     {
       "type": "text",
-      "text": "Letakkan kata tanya sebelum [[auxiliary]]: [[Where]] [[do]] [[you]] live? When [[did]] [[she]] arrive? [[Why]] [[is]] [[he]] sad? Untuk pertanyaan yang kata tanyanya menjadi [[subject]], seperti “[[Who]] called [[you]]?”, pola dapat berbeda dan tidak perlu [[did]]."
+      "text": "Letakkan kata tanya sebelum [[auxiliary]]: [[Where]] [[do]] [[you]] live? [[When]] [[did]] [[she]] arrive? [[Why]] [[is]] [[he]] sad? Untuk pertanyaan yang kata tanyanya menjadi [[subject]], seperti “[[Who]] called [[you]]?”, pola dapat berbeda dan tidak perlu [[did]]."
     },
     {
       "type": "example",
@@ -82,7 +106,7 @@
       "type": "mistake",
       "incorrect": "Is she play tennis every Sunday?",
       "correct": "Does she play tennis every Sunday?",
-      "explanation": "Untuk kebiasaan dengan [[verb]] biasa play, gunakan [[does]], bukan [[is]]."
+      "explanation": "Untuk kebiasaan dengan [[verb]] biasa [[play]], gunakan [[does]], bukan [[is]]."
     },
     {
       "type": "heading",
@@ -145,6 +169,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-basic-questions-negatives",
+      "prompt": "Which question is correct?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "Does she likes music?",
+        "Do she like music?",
+        "Does she like music?"
+      ],
+      "answer": 2,
+      "explanation": "Setelah [[does]], kata kerja kembali ke bentuk dasar [[like]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Apakah dia menyukai musik? (kata kerja salah)",
+        "Apakah dia menyukai musik? (kata bantu salah)",
+        "Apakah dia menyukai musik? (bentuk tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "She likes music.",
       "parts": [
@@ -183,6 +226,12 @@
           "note": "Negatif [[be]] memakai [[are]] [[not]], tanpa [[do]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Jenis kondisi ini membicarakan kejadian yang tidak benar-benar terjadi pada masa lampau dan akibat yang dibayangkan.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Kenali apakah kalimat sedang membahas sesuatu yang sudah berlalu."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Bagian syarat dapat memakai [[had]] + bentuk ketiga kata kerja.",
+          "english": "If I had known, I would have called.",
+          "indonesian": "Jika saya tahu saat itu, saya pasti sudah menelepon.",
+          "why": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Akibat yang dibayangkan dapat memakai [[would have]] + bentuk ketiga kata kerja.",
+          "english": "If she had studied, she would have passed.",
+          "indonesian": "Jika dia belajar waktu itu, dia akan lulus.",
+          "why": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -99,6 +123,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-advanced-conditionals",
+      "prompt": "Which sentence imagines a different past?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "If I knew, I call.",
+        "If I have known, I call.",
+        "If I had known, I would have called."
+      ],
+      "answer": 2,
+      "explanation": "Pola [[had known]] dan [[would have called]] membayangkan kejadian masa lampau yang berbeda.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Jika saya tahu, saya menelepon. (tidak sesuai pola)",
+        "Jika saya sudah tahu, saya menelepon. (tidak sesuai pola)",
+        "Jika saya dulu tahu, saya pasti sudah menelepon. (bentuk tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "If I had known, I would have called.",
       "parts": [
@@ -133,6 +176,12 @@
           "note": "[[Had]] [[I]] [[known]] adalah [[inversion]] dari [[if]] [[I]] [[had]] [[known]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kita mulai dari kegiatan yang dilakukan berulang kali. Tidak perlu menghafal seluruh rumus sekaligus.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Pertama, kenali [[subject]] seperti [[I]], [[she]], dan [[they]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Untuk kebiasaan dengan [[I]] atau [[they]], kata kerja biasanya tetap dalam bentuk dasar, misalnya [[study]].",
+          "english": "I study English every afternoon.",
+          "indonesian": "Saya belajar bahasa Inggris setiap sore.",
+          "why": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Jika pelakunya [[he]] atau [[she]], kata kerja positif sering berubah, misalnya [[study]] menjadi [[studies]].",
+          "english": "She studies English every afternoon.",
+          "indonesian": "Dia belajar bahasa Inggris setiap sore.",
+          "why": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Membicarakan kebiasaan dan fakta umum"
     },
@@ -53,7 +77,7 @@
     },
     {
       "type": "text",
-      "text": "Tambahkan [[-es]] pada [[verb]] berakhiran -ch, -sh, -ss, -x (watch → watches; fix → fixes). Untuk konsonan + y, biasanya y berubah menjadi -ies ([[study]] → [[studies]]). Untuk vokal + y, tambahkan [[-s]] (play → plays). [[Have]] berubah menjadi [[has]] dan [[go]] menjadi [[goes]]. Kata keterangan frekuensi umumnya diletakkan sebelum [[verb]] utama, tetapi setelah [[be]]."
+      "text": "Tambahkan [[-es]] pada [[verb]] berakhiran -ch, -sh, -ss, -x ([[watch]] → [[watches]]; [[fix]] → [[fixes]]). Untuk konsonan + y, biasanya y berubah menjadi -ies ([[study]] → [[studies]]). Untuk vokal + y, tambahkan [[-s]] ([[play]] → [[plays]]). [[Have]] berubah menjadi [[has]] dan [[go]] menjadi [[goes]]. Kata keterangan frekuensi umumnya diletakkan sebelum [[verb]] utama, tetapi setelah [[be]]."
     },
     {
       "type": "example",
@@ -133,6 +157,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-simple-present",
+      "prompt": "Which sentence describes a routine correctly?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "She studies daily.",
+        "She study daily.",
+        "She studying daily."
+      ],
+      "answer": 0,
+      "explanation": "Subjek [[she]] memakai [[studies]] untuk kebiasaan.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Dia belajar setiap hari. (bentuk tepat)",
+        "Dia belajar setiap hari. (bentuk tidak tepat)",
+        "Dia sedang belajar setiap hari. (bentuk tidak tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "I study English every afternoon.",
       "parts": [
@@ -175,6 +218,12 @@
           "note": "Pertanyaan untuk [[subject]] tunggal memakai [[does]] sebelum [[subject]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

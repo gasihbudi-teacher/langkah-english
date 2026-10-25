@@ -174,3 +174,24 @@ For every quiz `questions[]` item and lesson `practice[]` item, write the main `
 The example above is a fragment, not an entire quiz. Translations must match the **current choice order exactly**. The English choices must retain the correct answer index (`answer` is zero-based); Indonesian glosses should never contain the answer key or explanations shown before submission. The accordion is initially closed. For exercises that specifically compare English verb forms or intentionally incorrect English word order, you may omit `translationId.choices`: replacing *is/are*, *do/does*, etc. with Indonesian can erase the grammatical distinction. The UI explains that choice forms are then left in English. Add reviewed translations for sentences and reading options whenever meaningful.
 
 All questions should have a translated Indonesian `translationId.prompt` (enforced by the V5 quality test). Run `node tests/v5-quality.mjs` after any modification; its language heuristic only catches common Indonesian words, so a human bilingual review is still essential. Never add filter widgets to ordinary pathway pages: update `data/catalog.json` to publish topics and let the existing pathway list/search render them.
+
+
+## V7 teaching design and authoring rules
+
+Every lesson now begins with a `scaffold` block containing an Indonesian `intro` and **three sequential steps**. Each step has a short Indonesian explanation; steps 2 and 3 also include an English sentence (`english`), Indonesian meaning (`indonesian`), and teaching explanation (`why`). Do not introduce specialized grammar terminology before its simpler prerequisite. Keep samples short and explicitly explain why each form appears.
+
+After the first `example_group`, insert one `checkpoint` (not an exam question): its `prompt` and three `choices` must be in **English**, its Indonesian `translation` and `translationChoices` must be in the exact same order, and it must include `answer` (zero-based index), Indonesian `hint`, and Indonesian `explanation`. Use three plausible alternatives, not obviously absurd ones. The `checkpoint` does **not** change the saved score or historical 234-question fingerprint.
+
+After the comparison `example_group`, insert a `reflection` with a short question in **English**, an Indonesian translation, and a patient explanation under a collapsed answer.
+
+V7 wraps original denser lesson theory in a closed-by-default reference disclosure. The optional existing 3+3+2 worked example groups, sentence breakdown, vocabulary and summary remain unchanged.
+
+### Formatting English terms in Indonesian writing
+
+Write `[[simple present]]`, `[[subject]]`, `[[have been]]`, or `[[will]]`. The renderer safely escapes content and displays an English-language label in a highlighted italic style **with visible “quotation marks” even without the colour**. Do not rely on guessing which plain words are English; it is not reliable in bilingual sentences. Mark meaningful **phrases**, not every separate word. Example English sentences belong in the `english` field and must not be surrounded with tags. Indonesian translations, feedback, teaching notes and vocabulary explanations use the same label parser.
+
+### V7 layout and testing
+
+Do not add on-page filters. The generic `js/pathway.js` groups resources from `data/catalog.json` into native HTML `<details>` lists. Grade navigation links should point to `#grade-9-materi` or `#grade-9-latihan`, etc., or the older `#grade-9` anchor (supported). Keep data IDs and progress storage keys stable.
+
+Run the full Python validator and all Node `.mjs` tests, including `tests/v7-quality.mjs`. Preview the static site over HTTP in a **normal mobile browser** to verify the guide, checkpoint answers and language switch, accordion sections, and existing quizzes. Do not claim an independent teacher/real-browser review unless it has happened.

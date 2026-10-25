@@ -6,6 +6,7 @@ try{
   const {meta:m,data:d,catalog:c}=await resource(params.get('id'),'lesson');
   document.title=m.title+' · Langkah English';
   const practiceAnswers=new Map();
+  const guidedAnswers=new Map();
   const sort=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title);
   const primary=m.placements[0];
   const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>x.pathway===primary.pathway&&(primary.pathway!=='school'||x.grade===primary.grade))).sort(sort);
@@ -22,7 +23,7 @@ try{
     <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></section>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
     <p class="language-legend" lang="id">Istilah bahasa Inggris, seperti ${formatIdText("[[verb]]")}, ditandai dengan warna khusus. Contoh kalimat bahasa Inggris ditampilkan terpisah dari arti dan penjelasannya dalam bahasa Indonesia.</p>
-    <div class="article-body">${blocks(d.blocks)}</div>
+    <div class="article-body">${blocks((()=>{const items=d.blocks;const marker=items.findIndex(b=>b.type==='heading'&&b.text.startsWith('Pelajari lebih banyak contoh'));if(marker<0||items[0]?.type!=='scaffold')return items;return [items[0],{type:'reference',blocks:items.slice(1,marker)},...items.slice(marker)];})())}</div>
     <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><div id="practice"></div></section>
     <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ↗</a></p>`).join('')}
     <div class="toolbar"><button type="button" id="complete">✓ ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
@@ -30,6 +31,23 @@ try{
     ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ↗</a></p>`).join('')}</section>`:''}</article>`;
 
 
+    // Guided checks are formative only: no exam score, no persistence, no time pressure.
+    document.querySelectorAll('[data-guided-check]').forEach(box=>{
+      const output=box.querySelector('.checkpoint-result');const correct=Number(box.querySelector('[data-check-answer]').dataset.checkAnswer);
+      const id=box.dataset.guidedCheck;
+      const showAnswer=(choice)=>{
+        box.querySelectorAll('[data-check-choice]').forEach(other=>other.setAttribute('aria-pressed',String(Number(other.dataset.checkChoice)===choice)));
+        output.hidden=false;output.dataset.correct=String(choice===correct);
+        output.innerHTML=`<strong>${choice===correct?'Benar! Bagus, kamu sudah menangkap idenya.':'Belum tepat. Tidak apa-apa, mari lihat alasannya.'}</strong> ${box.querySelector('.checkpoint-solution').innerHTML}`;
+      };
+      box.querySelectorAll('[data-check-choice]').forEach(button=>button.addEventListener('click',()=>{
+        const choice=Number(button.dataset.checkChoice);
+        guidedAnswers.set(id,choice);showAnswer(choice);
+      }));
+      if(guidedAnswers.has(id))showAnswer(guidedAnswers.get(id));
+      const hint=box.querySelector('[data-check-hint]'),tip=box.querySelector('.checkpoint-hint-text');
+      hint.addEventListener('click',()=>{tip.hidden=!tip.hidden;hint.setAttribute('aria-expanded',String(!tip.hidden))});
+    });
     const target=document.querySelector('#practice');
     if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
     (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3>${translationDetails(q)}<div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="${practiceAnswers.get(q.id)===n}">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;

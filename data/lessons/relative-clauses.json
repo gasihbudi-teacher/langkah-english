@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kadang kita ingin menjelaskan orang atau benda tanpa membuat dua kalimat terpisah.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari kata benda yang akan dijelaskan, misalnya [[girl]] atau [[book]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Gunakan [[who]] untuk menjelaskan orang, dan [[which]] atau [[that]] sering dipakai untuk benda.",
+          "english": "The girl who sits near me is friendly.",
+          "indonesian": "Anak perempuan yang duduk di dekat saya ramah.",
+          "why": "[[Who]] menjelaskan orang, yaitu [[girl]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Baca bagian penjelas secara perlahan; bagian itu bukan orang atau benda baru.",
+          "english": "The book that I borrowed is interesting.",
+          "indonesian": "Buku yang saya pinjam menarik.",
+          "why": "[[That]] menjelaskan benda, yaitu [[book]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-relative-clauses",
+      "prompt": "Which sentence describes a person?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The girl which sits here is kind.",
+        "The girl who sits here is kind.",
+        "The girl where sits here is kind."
+      ],
+      "answer": 1,
+      "explanation": "[[Who]] menghubungkan keterangan dengan kata benda yang merujuk pada orang.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Gadis yang duduk di sini baik hati. (penghubung keliru)",
+        "Gadis yang duduk di sini baik hati. (penghubung tepat)",
+        "Gadis yang duduk di sini baik hati. (penghubung keliru)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The girl who sits near me is friendly.",
       "parts": [
@@ -142,6 +185,12 @@
           "note": "[[Which]] menjelaskan [[phone]]; [[that]] juga mungkin pada klausa pembatas."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

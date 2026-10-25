@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kalimat bahasa Inggris terdiri dari kata-kata yang mempunyai tugas berbeda. Jangan hafalkan nama jenis kata dulu; coba lihat apa yang dilakukan setiap kata.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mulailah dengan mencari orang atau benda yang dibicarakan. Kata seperti [[teacher]] menunjukkan orang."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Berikutnya cari kegiatan atau keadaan. Kata [[smiles]] memberitahu tindakan yang dilakukan.",
+          "english": "The teacher smiles.",
+          "indonesian": "Guru itu tersenyum.",
+          "why": "[[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan)."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Kata lain bisa menambahkan informasi. Pada [[small cat]], [[small]] menjelaskan [[cat]].",
+          "english": "The small cat sleeps.",
+          "indonesian": "Kucing kecil itu tidur.",
+          "why": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Apa itu [[parts of speech]]?"
     },
@@ -81,7 +105,7 @@
       "type": "mistake",
       "incorrect": "She is a quickly runner.",
       "correct": "She is a quick runner.",
-      "explanation": "Kata yang menjelaskan [[noun]] runner adalah [[adjective]] quick. Untuk menjelaskan tindakan run, gunakan [[adverb]] quickly: [[She]] runs quickly."
+      "explanation": "Kata yang menjelaskan [[noun]] runner adalah [[adjective]] quick. Untuk menjelaskan tindakan [[run]], gunakan [[adverb]] quickly: [[She]] runs quickly."
     },
     {
       "type": "rule",
@@ -148,6 +172,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-parts-of-speech",
+      "prompt": "Which word names an action?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "teacher",
+        "smiles",
+        "small"
+      ],
+      "answer": 1,
+      "explanation": "Kata [[smiles]] menunjukkan tindakan. [[Teacher]] adalah orang; [[small]] menjelaskan sifat.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "guru",
+        "tersenyum",
+        "kecil"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The teacher smiles.",
       "parts": [
@@ -182,6 +225,12 @@
           "note": "[[Beautiful]] menjelaskan [[bag]], sehingga berfungsi sebagai [[adjective]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

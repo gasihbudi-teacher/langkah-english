@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kita dapat membuat penjelasan tentang orang atau benda menjadi lebih ringkas, tetapi maknanya tetap harus jelas.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mulai dari klausa lengkap dengan [[who]] atau [[which]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Perhatikan bagian [[who is reading]] yang menjelaskan [[girl]].",
+          "english": "The girl who is reading is my friend.",
+          "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
+          "why": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Dalam beberapa kondisi, [[who is]] dapat dihilangkan sehingga menjadi [[girl reading]].",
+          "english": "The girl reading by the window is my friend.",
+          "indonesian": "Anak perempuan yang membaca di dekat jendela itu teman saya.",
+          "why": "[[Reading]] [[by]] [[the]] [[window]] adalah reduced [[active]] [[relative clause]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Konsep dan tujuan"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-reduced-relative-clauses",
+      "prompt": "Which sentence has a reduced relative clause?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The girl who is reading is my friend.",
+        "The girl reading is my friend.",
+        "The girl who reading is my friend."
+      ],
+      "answer": 1,
+      "explanation": "[[The girl reading]] meringkas [[the girl who is reading]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Gadis yang sedang membaca adalah temanku. (klausa lengkap)",
+        "Gadis yang sedang membaca adalah temanku. (klausa dipersingkat)",
+        "Gadis yang sedang membaca adalah temanku. (struktur keliru)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The girl who is reading is my friend.",
       "parts": [
@@ -142,6 +185,12 @@
           "note": "[[Waiting]] [[outside]] tetap menjelaskan [[students]] tanpa [[who]] [[are]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

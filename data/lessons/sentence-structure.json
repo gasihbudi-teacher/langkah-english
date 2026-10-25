@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Sebelum menyusun kalimat panjang, pelajari dua pertanyaan: siapa yang dibicarakan, dan apa yang terjadi?",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari [[subject]]: orang, hewan, atau benda yang menjadi pokok kalimat."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Cari [[verb]]: kata yang menunjukkan kegiatan atau keadaan. [[Birds sing]] sudah merupakan kalimat sederhana.",
+          "english": "Birds sing.",
+          "indonesian": "Burung-burung bernyanyi.",
+          "why": "[[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Setelah memahami dua bagian utama, tambahkan [[object]] atau keterangan tanpa mengubah kerangkanya.",
+          "english": "Mira reads books.",
+          "indonesian": "Mira membaca buku.",
+          "why": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Kerangka kalimat bahasa Inggris"
     },
@@ -134,6 +158,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-sentence-structure",
+      "prompt": "Which sentence has a subject and a verb?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "Because the book.",
+        "Birds sing.",
+        "On the table."
+      ],
+      "answer": 1,
+      "explanation": "[[Birds]] adalah subjek dan [[sing]] adalah kata kerja.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Karena buku itu. (fragmen)",
+        "Burung-burung bernyanyi.",
+        "Di atas meja. (fragmen)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "Birds sing.",
       "parts": [
@@ -168,6 +211,12 @@
           "note": "[[At]] [[the]] [[station]] adalah keterangan tempat, bukan [[object]] langsung."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

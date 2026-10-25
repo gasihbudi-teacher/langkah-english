@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kita sering ingin mengatakan bahwa suatu kegiatan sudah selesai atau mempunyai hubungan dengan keadaan sekarang.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mulai dengan mengenali kegiatan yang telah terjadi, seperti tugas yang sudah selesai."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Bentuk [[present perfect]] memakai [[have]] atau [[has]] ditambah bentuk ketiga kata kerja.",
+          "english": "I have finished my homework.",
+          "indonesian": "Saya sudah menyelesaikan PR saya.",
+          "why": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Untuk [[she]] gunakan [[has]]; untuk [[I]] gunakan [[have]]. Lihat makna kalimat sebelum memilih bentuk.",
+          "english": "She has visited Bali twice.",
+          "indonesian": "Dia sudah dua kali mengunjungi Bali.",
+          "why": "[[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -99,6 +123,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-perfect-tenses",
+      "prompt": "Which sentence uses the present perfect correctly?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "She has finished her work.",
+        "She have finished her work.",
+        "She has finish her work."
+      ],
+      "answer": 0,
+      "explanation": "[[She]] memakai [[has]] diikuti bentuk ketiga [[finished]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Dia sudah menyelesaikan tugasnya. (bentuk tepat)",
+        "Dia sudah menyelesaikan tugasnya. (kata bantu salah)",
+        "Dia sudah menyelesaikan tugasnya. (bentuk kata kerja salah)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "I have finished my homework.",
       "parts": [
@@ -137,6 +180,12 @@
           "note": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

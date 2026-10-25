@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Membaca kritis berarti memeriksa klaim sebelum menerimanya. Kita tidak perlu langsung setuju atau tidak setuju.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Tentukan klaim utama yang dibuat penulis."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Cari data atau bukti yang benar-benar disebutkan.",
+          "english": "Twenty students answered the survey.",
+          "indonesian": "Dua puluh siswa menjawab survei.",
+          "why": "Kenali ukuran sampel, bukan hanya hasilnya."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Periksa apa yang belum dibuktikan oleh data tersebut.",
+          "english": "Fifteen preferred the new schedule.",
+          "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
+          "why": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Jangan samakan klaim dengan bukti"
     },
@@ -84,6 +108,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade12-critical-reading",
+      "prompt": "Which information is evidence?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "Fifteen out of twenty students preferred the new schedule.",
+        "Everyone definitely likes the schedule.",
+        "The schedule must be perfect."
+      ],
+      "answer": 0,
+      "explanation": "Jumlah responden adalah data, sedangkan pernyataan absolut perlu diperiksa.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Lima belas dari dua puluh siswa lebih menyukai jadwal baru.",
+        "Semua orang pasti menyukai jadwal itu.",
+        "Jadwal itu pasti sempurna."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "Twenty students answered the survey.",
       "parts": [
@@ -122,6 +165,12 @@
           "note": "Kata [[caused]] membutuhkan bukti sebab-akibat, bukan sekadar kebersamaan waktu."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

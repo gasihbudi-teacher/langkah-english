@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kalimat bersyarat menghubungkan dua hal: syarat dan akibat. Mulailah dengan pertanyaan “jika ini terjadi, lalu apa?”",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Bagian yang dimulai dengan [[if]] menunjukkan syarat."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Bagian lain menunjukkan akibat. Pada fakta umum, kedua bagian sering berbentuk [[simple present]].",
+          "english": "If you heat ice, it melts.",
+          "indonesian": "Jika es dipanaskan, es mencair.",
+          "why": "[[Zero conditional]] menyatakan fakta umum."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Untuk kemungkinan di masa depan, bagian akibat dapat memakai [[will]] dan kata kerja dasar.",
+          "english": "If it rains tomorrow, we will stay home.",
+          "indonesian": "Jika besok hujan, kami akan tinggal di rumah.",
+          "why": "[[First conditional]] membicarakan kemungkinan nyata di masa depan."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-conditional-sentences",
+      "prompt": "Which sentence states a future possibility?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "If it rains, we will stay home.",
+        "If it will rain, we stay home.",
+        "If rains, we will stay home."
+      ],
+      "answer": 0,
+      "explanation": "Pada pola umum ini, bagian [[if]] memakai [[present]] dan akibat memakai [[will]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Jika hujan turun, kita akan tinggal di rumah. (bentuk tepat)",
+        "Jika hujan akan turun, kita tinggal di rumah. (bentuk kurang tepat)",
+        "Jika turun hujan, kita akan tinggal di rumah. (struktur tidak lengkap)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "If you heat ice, it melts.",
       "parts": [
@@ -138,6 +181,12 @@
           "note": "[[Past]] + [[would]] menyatakan kemungkinan yang dibayangkan, bukan masa lampau nyata."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

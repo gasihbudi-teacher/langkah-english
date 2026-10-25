@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Teks [[recount]] menceritakan kejadian yang telah terjadi. Urutan waktu sangat penting.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari kapan dan di mana peristiwa dimulai."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Perhatikan penanda urutan seperti [[first]], [[then]], dan [[finally]].",
+          "english": "We visited the museum on Monday.",
+          "indonesian": "Kami mengunjungi museum pada hari Senin.",
+          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Susun kejadian sesuai teks; jangan mengubah urutan karena terdengar lebih masuk akal.",
+          "english": "First, we bought tickets.",
+          "indonesian": "Pertama, kami membeli tiket.",
+          "why": "[[First]] memulai urutan kegiatan."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Mengikuti urutan kejadian dalam recount"
     },
@@ -42,13 +66,13 @@
     },
     {
       "type": "text",
-      "text": "Visited, showed, repaired, dan recommended adalah [[verb]] lampau yang menjelaskan kejadian. Kalimat terakhir menunjukkan perubahan pemahaman narator, bukan klaim bahwa semua perpustakaan bekerja dengan cara yang sama."
+      "text": "[[Visited]], showed, repaired, dan recommended adalah [[verb]] lampau yang menjelaskan kejadian. Kalimat terakhir menunjukkan perubahan pemahaman narator, bukan klaim bahwa semua perpustakaan bekerja dengan cara yang sama."
     },
     {
       "type": "mistake",
       "incorrect": "Siswa merekomendasikan buku sebelum memperbaiki sampul.",
       "correct": "Siswa memperbaiki sampul sebelum merekomendasikan buku.",
-      "explanation": "Then menandai kegiatan memperbaiki sampul. [[Before]] [[we]] left memperkenalkan kegiatan merekomendasikan buku setelahnya."
+      "explanation": "[[Then]] menandai kegiatan memperbaiki sampul. [[Before]] [[we]] [[left]] memperkenalkan kegiatan merekomendasikan buku setelahnya."
     },
     {
       "type": "heading",
@@ -103,6 +127,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade10-recount",
+      "prompt": "Which phrase usually marks the first event?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "First, we bought tickets.",
+        "Finally, we went home.",
+        "As a result, we were tired."
+      ],
+      "answer": 0,
+      "explanation": "[[First]] menandai kejadian awal dalam urutan peristiwa.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Pertama, kami membeli tiket.",
+        "Akhirnya, kami pulang.",
+        "Akibatnya, kami lelah."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "We visited the museum on Monday.",
       "parts": [
@@ -145,6 +188,12 @@
           "note": "[[Finally]] menutup urutan kejadian."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

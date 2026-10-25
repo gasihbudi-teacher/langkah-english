@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kata akademik sering berubah makna tergantung kalimatnya. Jangan langsung memilih arti pertama dalam kamus.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari kata yang ingin dipahami dalam kalimatnya."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Baca kata-kata sebelum dan sesudahnya untuk mendapat petunjuk.",
+          "english": "The results suggest improvement.",
+          "indonesian": "Hasilnya mengisyaratkan peningkatan.",
+          "why": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Uji arti pilihanmu: apakah masih masuk akal jika dipakai dalam kalimat itu?",
+          "english": "The result was significant.",
+          "indonesian": "Hasilnya penting / signifikan.",
+          "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Kosakata melalui konteks"
     },
@@ -114,6 +138,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade12-academic-vocab",
+      "prompt": "Which word suggests an interpretation, not certainty?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "proves",
+        "suggests",
+        "guarantees"
+      ],
+      "answer": 1,
+      "explanation": "[[Suggests]] berarti mengarah pada kemungkinan kesimpulan, bukan kepastian.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "membuktikan",
+        "mengindikasikan",
+        "menjamin"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The results suggest improvement.",
       "parts": [
@@ -152,6 +195,12 @@
           "note": "[[However]] menghubungkan dua gagasan yang berkontras."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

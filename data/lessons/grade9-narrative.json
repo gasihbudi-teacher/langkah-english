@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Cerita memiliki tokoh, masalah, dan penyelesaian. Kita pelajari urutannya satu langkah setiap kali.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Pertama, cari siapa tokoh dalam cerita. Tokoh bisa berupa manusia, hewan, atau tokoh khayalan."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Temukan peristiwa yang menimbulkan masalah.",
+          "english": "A boy lost his key.",
+          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
+          "why": "Kehilangan kunci memperkenalkan masalah cerita."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Setelah itu cari tindakan yang membantu tokoh menyelesaikan masalah.",
+          "english": "He searched under the table.",
+          "indonesian": "Dia mencari di bawah meja.",
+          "why": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Konsep dan tujuan"
     },
@@ -99,6 +123,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-grade9-narrative",
+      "prompt": "Which event is a problem in a story?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The child finds the key.",
+        "The child loses the key.",
+        "The child feels relieved."
+      ],
+      "answer": 1,
+      "explanation": "Kunci yang hilang menjadi masalah yang perlu diselesaikan.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Anak itu menemukan kuncinya.",
+        "Anak itu kehilangan kuncinya.",
+        "Anak itu merasa lega."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "A boy lost his key.",
       "parts": [
@@ -133,6 +176,12 @@
           "note": "[[Finally]] menandai akhir rangkaian peristiwa."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

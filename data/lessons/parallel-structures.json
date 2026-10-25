@@ -7,12 +7,36 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Sebuah daftar lebih mudah dipahami jika semua bagiannya memakai pola yang seimbang.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari kata penghubung seperti [[and]] atau [[or]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Bandingkan bentuk tiap unsur daftar: [[reading]], [[writing]], dan [[drawing]].",
+          "english": "She likes reading, writing, and drawing.",
+          "indonesian": "Dia suka membaca, menulis, dan menggambar.",
+          "why": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Jangan mencampur bentuk yang tidak sejenis jika semuanya mempunyai fungsi yang sama.",
+          "english": "He is careful and patient.",
+          "indonesian": "Dia teliti dan sabar.",
+          "why": "[[Careful]] dan [[patient]] sama-sama [[adjective]]."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Konsep dan tujuan"
     },
     {
       "type": "text",
-      "text": "Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk grammar yang sejajar."
+      "text": "Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk [[grammar]] yang sejajar."
     },
     {
       "type": "rule",
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-parallel-structures",
+      "prompt": "Which list uses parallel structure?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "reading, to write, and drawing",
+        "read, writing, and to draw",
+        "reading, writing, and drawing"
+      ],
+      "answer": 2,
+      "explanation": "Ketiga kegiatan memakai bentuk yang sama: [[-ing]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "membaca, untuk menulis, dan menggambar (bentuk tidak sejajar)",
+        "membaca, menulis, dan untuk menggambar (bentuk tidak sejajar)",
+        "membaca, menulis, dan menggambar (bentuk sejajar)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "She likes reading, writing, and drawing.",
       "parts": [
@@ -138,6 +181,12 @@
           "note": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]]."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kalimat panjang sering berisi dua gagasan yang saling terhubung. Jangan menerjemahkan semuanya sekaligus.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Cari gagasan utama yang dapat berdiri sendiri, misalnya [[I stayed inside]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Cari kata penghubung seperti [[because]] atau [[although]].",
+          "english": "I stayed inside because it rained.",
+          "indonesian": "Saya tetap di dalam karena hujan.",
+          "why": "[[Because]] memperkenalkan alasan dalam [[dependent clause]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Tanyakan hubungan kedua bagian: apakah penyebab, pertentangan, atau kondisi?",
+          "english": "Although she was tired, she studied.",
+          "indonesian": "Walaupun lelah, dia tetap belajar.",
+          "why": "[[Although]] memperkenalkan kontras antara dua klausa."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-complex-sentences",
+      "prompt": "Which word introduces a reason?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "although",
+        "because",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "[[Because]] memperkenalkan alasan atau penyebab.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "meskipun",
+        "karena",
+        "kecuali jika"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "I stayed inside because it rained.",
       "parts": [
@@ -138,6 +181,12 @@
           "note": "[[Despite]] diikuti [[noun phrase]], bukan klausa lengkap."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

@@ -309,6 +309,134 @@
               }
             },
             "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "intro",
+              "steps"
+            ],
+            "properties": {
+              "type": {
+                "const": "scaffold"
+              },
+              "intro": {
+                "type": "string",
+                "minLength": 10
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "explanation"
+                  ],
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "explanation": {
+                      "type": "string"
+                    },
+                    "english": {
+                      "type": "string"
+                    },
+                    "indonesian": {
+                      "type": "string"
+                    },
+                    "why": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "id",
+              "prompt",
+              "translation",
+              "choices",
+              "answer",
+              "explanation",
+              "hint",
+              "translationChoices"
+            ],
+            "properties": {
+              "type": {
+                "const": "checkpoint"
+              },
+              "id": {
+                "type": "string"
+              },
+              "prompt": {
+                "type": "string"
+              },
+              "translation": {
+                "type": "string"
+              },
+              "choices": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "answer": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2
+              },
+              "explanation": {
+                "type": "string"
+              },
+              "hint": {
+                "type": "string"
+              },
+              "translationChoices": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "prompt",
+              "translation",
+              "answer"
+            ],
+            "properties": {
+              "type": {
+                "const": "reflection"
+              },
+              "prompt": {
+                "type": "string"
+              },
+              "translation": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
           }
         ]
       }

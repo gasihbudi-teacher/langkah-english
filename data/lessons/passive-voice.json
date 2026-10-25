@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kadang sebuah kalimat lebih menekankan apa yang menerima tindakan daripada siapa yang melakukan tindakan.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mulailah dengan kalimat aktif: [[The chef prepares the meal]]. Si koki melakukan tindakan."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Pindahkan benda yang menerima tindakan ke depan: [[The meal]] menjadi pokok kalimat.",
+          "english": "The chef prepares the meal.",
+          "indonesian": "Koki menyiapkan makanan.",
+          "why": "Kalimat aktif: [[chef]] melakukan tindakan."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Gunakan [[be]] dan bentuk ketiga kata kerja: [[is prepared]]. Pelaku boleh ditambahkan dengan [[by]].",
+          "english": "The meal is prepared by the chef.",
+          "indonesian": "Makanan disiapkan oleh koki.",
+          "why": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -99,6 +123,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-passive-voice",
+      "prompt": "Which sentence focuses on the meal?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "The chef prepares the meal.",
+        "The meal is prepared by the chef.",
+        "The chef is preparing the meal."
+      ],
+      "answer": 1,
+      "explanation": "Bentuk pasif menempatkan [[the meal]] sebagai subjek yang menerima tindakan.",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Koki itu menyiapkan hidangan.",
+        "Hidangan itu disiapkan oleh koki.",
+        "Koki sedang menyiapkan hidangan."
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "The chef prepares the meal.",
       "parts": [
@@ -137,6 +180,12 @@
           "note": "Aktif memakai [[subject]] seseorang yang tidak diketahui pasti."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

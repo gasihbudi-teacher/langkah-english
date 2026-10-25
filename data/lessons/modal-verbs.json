@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Kata seperti [[can]] dan [[must]] memberi makna tambahan pada kegiatan: kemampuan, izin, atau kewajiban.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Kenali pesan yang ingin disampaikan: boleh, mampu, perlu, atau harus."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Letakkan [[modal]] sebelum kata kerja dasar, misalnya [[can swim]].",
+          "english": "You can swim here.",
+          "indonesian": "Kamu boleh berenang di sini.",
+          "why": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Jangan tambahkan [[-s]] setelah [[modal]], meskipun subjeknya [[he]] atau [[she]].",
+          "english": "You must wear a helmet.",
+          "indonesian": "Kamu harus memakai helm.",
+          "why": "[[Must]] menyatakan kewajiban yang kuat."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-modal-verbs",
+      "prompt": "Which sentence expresses an obligation correctly?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "You must wearing a helmet.",
+        "You must wears a helmet.",
+        "You must wear a helmet."
+      ],
+      "answer": 2,
+      "explanation": "Setelah [[must]], kata kerja memakai bentuk dasar [[wear]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Kamu harus memakai helm. (bentuk kata kerja tidak tepat)",
+        "Kamu harus memakai helm. (bentuk kata kerja tidak tepat)",
+        "Kamu harus memakai helm. (bentuk tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "You can swim here.",
       "parts": [
@@ -146,6 +189,12 @@
           "note": "[[Can]] dan [[cannot]] menunjukkan kemampuan yang berbeda."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",

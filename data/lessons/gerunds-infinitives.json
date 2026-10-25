@@ -7,6 +7,30 @@
   ],
   "blocks": [
     {
+      "type": "scaffold",
+      "intro": "Sesudah kata kerja tertentu, kegiatan berikutnya dapat ditulis dengan [[-ing]] atau [[to]] + kata kerja dasar.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Lihat kata kerja pertama, misalnya [[enjoy]] atau [[decide]]."
+        },
+        {
+          "title": "Lihat satu contoh pelan-pelan",
+          "explanation": "Setelah [[enjoy]], kegiatan umumnya memakai bentuk [[-ing]]: [[enjoy reading]].",
+          "english": "I enjoy reading.",
+          "indonesian": "Saya menikmati membaca.",
+          "why": "[[Enjoy]] diikuti bentuk [[verb-ing]]."
+        },
+        {
+          "title": "Perhatikan apa yang berubah",
+          "explanation": "Setelah [[decide]], kegiatan umumnya memakai [[to]]: [[decided to leave]].",
+          "english": "She decided to leave.",
+          "indonesian": "Dia memutuskan untuk pergi.",
+          "why": "Decide diikuti [[to]] + [[verb]] dasar."
+        }
+      ]
+    },
+    {
       "type": "heading",
       "text": "Pahami konsep"
     },
@@ -104,6 +128,25 @@
       ]
     },
     {
+      "type": "checkpoint",
+      "id": "guided-gerunds-infinitives",
+      "prompt": "Which sentence is correct?",
+      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "choices": [
+        "I enjoy to read.",
+        "I enjoy read.",
+        "I enjoy reading."
+      ],
+      "answer": 2,
+      "explanation": "Setelah [[enjoy]], gunakan bentuk [[-ing]]: [[reading]].",
+      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "translationChoices": [
+        "Saya suka membaca. (pola keliru)",
+        "Saya suka membaca. (pola keliru)",
+        "Saya suka membaca. (pola tepat)"
+      ]
+    },
+    {
       "type": "breakdown",
       "sentence": "I enjoy reading.",
       "parts": [
@@ -142,6 +185,12 @@
           "note": "[[Remember]] + [[to-infinitive]] menekankan tindakan yang harus dilakukan."
         }
       ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What is different between the examples?",
+      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
+      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
     },
     {
       "type": "example_group",
