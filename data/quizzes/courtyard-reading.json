@@ -19,7 +19,7 @@
   "questions": [
     {
       "id": "r1",
-      "prompt": "Which statement best expresses the main idea of the passage?",
+      "prompt": "Pernyataan manakah yang paling tepat menggambarkan gagasan utama bacaan?",
       "choices": [
         "A reading challenge always improves students’ examination scores.",
         "A school reading-space project produced promising results that need careful investigation.",
@@ -27,14 +27,14 @@
         "Rain was the only reason students avoided reading outdoors."
       ],
       "answer": 1,
-      "explanation": "The passage describes a promising increase, discusses alternative explanations and practical limits, and concludes that further investigation is needed.",
+      "explanation": "Teks menjelaskan kenaikan jumlah pembaca yang menjanjikan, menimbang penyebab lain dan keterbatasan praktis, lalu menyimpulkan bahwa diperlukan pengamatan tambahan.",
       "passageId": "courtyard",
       "evidence": "It also shows why an appealing result should lead to further questions rather than an immediate claim of success.",
       "skill": "Main Idea"
     },
     {
       "id": "r2",
-      "prompt": "Why did the team avoid attributing the whole increase to the new area?",
+      "prompt": "Mengapa tim tidak menganggap seluruh peningkatan disebabkan oleh area baca baru?",
       "choices": [
         "They had not counted any readers before the change.",
         "The donated books were missing during the second week.",
@@ -42,14 +42,14 @@
         "The school had already removed the benches."
       ],
       "answer": 2,
-      "explanation": "Paragraph 2 explicitly identifies two other changes: cooler weather and a reading challenge. These possible influences prevent a clear causal conclusion.",
+      "explanation": "Paragraf kedua menyebut dua perubahan lain, yaitu cuaca lebih sejuk dan tantangan membaca. Keduanya mungkin ikut memengaruhi hasil sehingga sebab tunggal belum terbukti.",
       "passageId": "courtyard",
       "evidence": "The second week was cooler than the first, and teachers had announced a reading challenge at the same time.",
       "skill": "Supporting Details"
     },
     {
       "id": "r3",
-      "prompt": "In paragraph 2, “attribute” is closest in meaning to ___.",
+      "prompt": "Pada paragraf 2, kata “attribute” paling dekat artinya dengan …",
       "choices": [
         "connect as an effect to a cause",
         "describe in a fictional story",
@@ -57,14 +57,14 @@
         "remove from a record"
       ],
       "answer": 0,
-      "explanation": "The team would not claim that the new area caused the entire increase. In this context, attribute means to connect an observed effect to its supposed cause.",
+      "explanation": "Tim tidak mau menyatakan bahwa area baru menyebabkan seluruh peningkatan. Attribute di sini berarti mengaitkan suatu hasil dengan penyebabnya.",
       "passageId": "courtyard",
       "evidence": "The team therefore refused to attribute the entire increase to the new reading area.",
       "skill": "Vocabulary in Context"
     },
     {
       "id": "r4",
-      "prompt": "What can reasonably be inferred about the school’s decision to delay a roof?",
+      "prompt": "Apa simpulan yang masuk akal tentang keputusan sekolah menunda pembangunan atap?",
       "choices": [
         "The school believes reading outdoors is harmful.",
         "The school has decided to close the reading area permanently.",
@@ -72,14 +72,14 @@
         "The school wants more evidence before committing additional money."
       ],
       "answer": 3,
-      "explanation": "The delay is explicitly linked to waiting for stronger evidence of continued usefulness. It supports caution about spending, not opposition to reading.",
+      "explanation": "Sekolah menunggu bukti lebih kuat bahwa area baca tetap bermanfaat sebelum mengeluarkan biaya tambahan; bukan berarti sekolah menentang kegiatan membaca.",
       "passageId": "courtyard",
       "evidence": "the school postponed that expense until it had stronger evidence that the area would remain useful.",
       "skill": "Making Inferences"
     },
     {
       "id": "r5",
-      "prompt": "In paragraph 4, what does “it” in “it helps people decide” refer to?",
+      "prompt": "Pada paragraf 4, kata “it” dalam “it helps people decide” merujuk pada …",
       "choices": [
         "A larger number",
         "An immediate claim of success",
@@ -87,7 +87,7 @@
         "A school courtyard"
       ],
       "answer": 2,
-      "explanation": "The subject before the semicolon is a useful experiment. The pronoun it continues referring to that subject in the following clause.",
+      "explanation": "Frasa yang dirujuk adalah a useful experiment pada klausa sebelumnya, bukan larger number atau courtyard.",
       "passageId": "courtyard",
       "evidence": "A useful experiment does not simply produce a larger number; it helps people decide what to investigate next.",
       "skill": "Reference Questions"

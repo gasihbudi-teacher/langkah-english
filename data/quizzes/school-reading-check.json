@@ -17,53 +17,53 @@
   "questions": [
     {
       "id": "sr1",
-      "prompt": "In the garden passage, where are the two wooden benches?",
+      "prompt": "Menurut teks taman, di mana letak dua bangku kayu?",
       "choices": [
         "Beside a mango tree",
         "Inside the science room",
         "Outside the school gate"
       ],
       "answer": 0,
-      "explanation": "The text directly states that two wooden benches stand beside a mango tree.",
+      "explanation": "Teks menyatakan dua bangku kayu ada beside a mango tree.",
       "passageId": "garden",
       "evidence": "Two wooden benches stand beside a mango tree."
     },
     {
       "id": "sr2",
-      "prompt": "What is the main purpose of the garden paragraph?",
+      "prompt": "Apa tujuan utama paragraf tentang taman sekolah?",
       "choices": [
         "To argue against planting trees",
         "To describe a particular school garden",
         "To tell the history of all school gardens"
       ],
       "answer": 1,
-      "explanation": "The paragraph identifies a particular place and develops its physical features and use.",
+      "explanation": "Paragraf mengenalkan sebuah tempat lalu menjelaskan ciri fisik dan kegunaannya, sesuai tujuan teks deskriptif.",
       "passageId": "garden",
       "evidence": "Our school garden is a quiet space behind the science room."
     },
     {
       "id": "sr3",
-      "prompt": "Which activity happened after repairing covers in the recount?",
+      "prompt": "Kegiatan mana yang terjadi setelah memperbaiki sampul buku dalam recount?",
       "choices": [
         "The class arrived last Saturday.",
         "The volunteer explained sorting.",
         "Groups recommended books for younger readers."
       ],
       "answer": 2,
-      "explanation": "The text introduces repairs with Then and recommendations with Before we left.",
+      "explanation": "Then menyatakan perbaikan sampul, sedangkan Before we left menandai kegiatan rekomendasi buku berikutnya.",
       "passageId": "library",
       "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers."
     },
     {
       "id": "sr4",
-      "prompt": "Which sentence is a reflection rather than a physical action?",
+      "prompt": "Kalimat manakah yang menyatakan refleksi, bukan tindakan fisik?",
       "choices": [
         "Our class visited a community library.",
         "We repaired torn covers.",
         "I discovered how much teamwork a small library needs."
       ],
       "answer": 2,
-      "explanation": "Discovered describes the narrator’s changed understanding, not a physical task carried out in the library.",
+      "explanation": "Discovered menunjukkan perubahan pemahaman narator, bukan tindakan fisik yang dilakukan di perpustakaan.",
       "passageId": "library",
       "evidence": "I had expected a quiet morning, but I discovered how much teamwork a small library needs."
     }

@@ -1,0 +1,104 @@
+{
+  "id": "quiz-parts-of-speech",
+  "questionCount": 8,
+  "durationSeconds": 600,
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Dalam kalimat “Rani writes neatly”, kata “neatly” adalah …",
+      "choices": [
+        "Adjective",
+        "Adverb",
+        "Noun",
+        "Pronoun"
+      ],
+      "answer": 1,
+      "explanation": "Neatly menjelaskan cara Rani menulis, jadi merupakan adverb."
+    },
+    {
+      "id": "q2",
+      "prompt": "Manakah kata benda (noun) dalam “The garden looks beautiful”?",
+      "choices": [
+        "looks",
+        "beautiful",
+        "garden",
+        "the"
+      ],
+      "answer": 2,
+      "explanation": "Garden adalah nama tempat/benda yang sedang dibicarakan."
+    },
+    {
+      "id": "q3",
+      "prompt": "Kata “they” dalam “They arrive early” termasuk …",
+      "choices": [
+        "Pronoun",
+        "Verb",
+        "Adjective",
+        "Conjunction"
+      ],
+      "answer": 0,
+      "explanation": "They menggantikan kata benda orang-orang, sehingga merupakan pronoun."
+    },
+    {
+      "id": "q4",
+      "prompt": "Pada “A small bird flies”, kata “small” berfungsi sebagai …",
+      "choices": [
+        "Verb",
+        "Preposition",
+        "Adjective",
+        "Adverb"
+      ],
+      "answer": 2,
+      "explanation": "Small menerangkan noun bird."
+    },
+    {
+      "id": "q5",
+      "prompt": "Pilih kata kerja utama dalam “My sister cooks dinner.”",
+      "choices": [
+        "sister",
+        "my",
+        "dinner",
+        "cooks"
+      ],
+      "answer": 3,
+      "explanation": "Cooks menyatakan tindakan yang dilakukan sister."
+    },
+    {
+      "id": "q6",
+      "prompt": "Apa fungsi “and” dalam “I read and write”?",
+      "choices": [
+        "Menggabungkan dua verb",
+        "Menunjukkan tempat",
+        "Menggantikan noun",
+        "Menyatakan sifat"
+      ],
+      "answer": 0,
+      "explanation": "And merupakan conjunction yang menghubungkan read dan write."
+    },
+    {
+      "id": "q7",
+      "prompt": "Kata “in” pada “in the classroom” merupakan …",
+      "choices": [
+        "Pronoun",
+        "Preposition",
+        "Verb",
+        "Adjective"
+      ],
+      "answer": 1,
+      "explanation": "In menyatakan hubungan lokasi."
+    },
+    {
+      "id": "q8",
+      "prompt": "Manakah pasangan yang tepat?",
+      "choices": [
+        "quickly = adjective",
+        "beautiful = verb",
+        "teacher = noun",
+        "under = conjunction"
+      ],
+      "answer": 2,
+      "explanation": "Teacher merupakan noun yang menyebut orang/profesi."
+    }
+  ],
+  "passages": []
+}

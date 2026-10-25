@@ -1,51 +1,50 @@
 {
   "id": "subject-verb-agreement",
   "objectives": [
-    "Find the head of a subject phrase.",
-    "Match present-tense verbs to singular and plural subjects.",
-    "Avoid distraction from intervening phrases."
+    "Menemukan inti subjek dalam sebuah frasa.",
+    "Memilih bentuk kata kerja yang sesuai dengan subjek tunggal atau jamak.",
+    "Tidak terkecoh oleh frasa tambahan di antara subjek dan verb."
   ],
   "blocks": [
     {
       "type": "heading",
-      "text": "The subject controls the verb"
+      "text": "Subjek menentukan bentuk kata kerja"
     },
     {
       "type": "text",
-      "text": "Subject–verb agreement means that the verb form matches the grammatical subject. This is especially visible in simple-present verbs and in forms of be. A singular third-person subject takes reads; a plural subject takes read.",
-      "idText": "Kesesuaian subjek dan kata kerja ditentukan oleh inti subjek, bukan kata benda yang paling dekat dengan kata kerja."
+      "text": "Subject–verb agreement adalah kesesuaian bentuk verb dengan subjek kalimat. Perbedaan ini tampak pada simple present dan bentuk be. Misalnya, subjek tunggal orang ketiga memakai reads, sedangkan subjek jamak memakai read."
     },
     {
       "type": "rule",
-      "text": "Find the head noun or pronoun. Ignore phrases that describe it when choosing agreement."
+      "text": "Temukan inti noun atau pronoun yang menjadi subjek. Frasa yang hanya menerangkan subjek tidak menentukan bentuk verb."
     },
     {
       "type": "example",
       "text": "The student with two dictionaries is prepared. The students with one dictionary are prepared.",
-      "note": "Student and students are the heads; dictionaries and dictionary are not the subjects."
+      "note": "Inti subjeknya adalah student (tunggal) dan students (jamak); dictionaries/dictionary hanya bagian frasa penjelas."
     },
     {
       "type": "table",
       "headers": [
-        "Pattern",
-        "Example",
-        "Why"
+        "Pola",
+        "Contoh",
+        "Alasan"
       ],
       "rows": [
         [
-          "Each / every + singular noun",
+          "Each/every + noun tunggal",
           "Every student has a notebook.",
-          "Every student is singular."
+          "Every student diperlakukan sebagai subjek tunggal."
         ],
         [
-          "Two subjects joined by and",
+          "Dua subjek dihubungkan and",
           "Rani and Bima read together.",
-          "Two separate people form a plural subject."
+          "Dua orang membentuk subjek jamak."
         ],
         [
           "There + be",
           "There are three books.",
-          "Be agrees with the following noun phrase."
+          "Bentuk be mengikuti frasa noun setelahnya."
         ]
       ]
     },
@@ -53,21 +52,21 @@
       "type": "mistake",
       "incorrect": "The list of reading tasks are long.",
       "correct": "The list of reading tasks is long.",
-      "explanation": "List is the singular head. Tasks is part of an of-phrase."
+      "explanation": "Inti subjek adalah list (tunggal). Tasks hanyalah bagian dari frasa of reading tasks."
     },
     {
       "type": "mistake",
       "incorrect": "Each of the answers seem possible.",
       "correct": "Each of the answers seems possible.",
-      "explanation": "Each is singular, so use seems in the simple present."
+      "explanation": "Each bersifat tunggal, jadi gunakan seems pada simple present."
     },
     {
       "type": "subheading",
-      "text": "Do not overgeneralize"
+      "text": "Jangan menyamaratakan aturan"
     },
     {
       "type": "text",
-      "text": "Most ordinary main verbs have the same form for singular and plural subjects in the simple past: she walked; they walked. Be is different: she was; they were. For this lesson, focus on clear count nouns and pronouns; collective nouns can involve additional choices depending on variety and meaning."
+      "text": "Sebagian besar verb biasa memiliki bentuk simple past yang sama untuk subjek tunggal dan jamak: she walked dan they walked. Be berbeda: she was, they were. Pelajaran ini berfokus pada subjek umum yang jelas; collective nouns dapat memiliki variasi penggunaan."
     }
   ],
   "practice": [
@@ -80,7 +79,7 @@
         "be"
       ],
       "answer": 1,
-      "explanation": "Pages is the plural subject; in this notebook only describes the pages."
+      "explanation": "Pages adalah subjek jamak. Frasa in this notebook hanya menjelaskan pages."
     },
     {
       "id": "s2",
@@ -91,7 +90,7 @@
         "having"
       ],
       "answer": 0,
-      "explanation": "Every learner is singular, so use has."
+      "explanation": "Every learner dianggap tunggal, sehingga gunakan has."
     }
   ],
   "assessments": [

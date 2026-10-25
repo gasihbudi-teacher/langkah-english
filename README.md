@@ -2,6 +2,18 @@
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.
 
+## Version 3.0 — grammar starter pack + dedicated libraries
+
+**Default interface language is Bahasa Indonesia** for new visitors; the EN/ID selector remains available. Lesson instructions, grammatical explanations, inline exercise feedback, quiz questions/instructions and answer discussions are written in Indonesian. English sentences, answer options where students must evaluate English, and English reading passages intentionally remain in English. A previously saved EN/ID preference is retained. There is no automatic translation of educational content.
+
+**Dedicated pathway pages:** `grammar.html`, `utbk.html`, and `school.html`. Homepage cards and navigation now open these individual pages instead of scrolling to `#library`. Their collections, grades, search and filters read the same central `data/catalog.json`; each actual lesson and quiz still uses `lesson.html?id=...` or `quiz.html?id=...`.
+
+**Beginner pack:** Five new lessons with Indonesian explanations, three embedded exercises each, and five quizzes with eight questions each: Parts of Speech, Sentence Structure, Simple Past Tense, Present Continuous Tense, and Basic Questions & Negatives. Two existing grammar lessons (Simple Present and Subject–Verb Agreement) were also translated to Indonesian, along with existing UTBK/School teaching explanations. The existing IDs and local progress key have not changed. Total: **10 lessons, 9 quizzes, 80 questions** including embedded lesson exercises.
+
+**Remaining scope:** This is a substantial beginner-content update, not a finished Grade 9–12 or complete UTBK curriculum. Intermediate/advanced grammar, additional school lessons, and full-length UTBK mock examinations still need to be authored and teacher-reviewed. Preview and manually test the new project before publishing it to students.
+
+**Validation:** `python tools/validate.py`, `node tests/scoring.mjs`, and `node tests/v3-quality.mjs` (now checking V3) passed. A browser navigation test was blocked by environment policy; a static mobile rendering preview was checked at 390px width with zero horizontal overflow. See `docs/V3-TEST-REPORT.md`.
+
 ## Start locally
 
 Do not open index.html through file://: browsers restrict JSON fetching in that context. Serve this directory over HTTP, for example:
@@ -14,13 +26,14 @@ Open http://localhost:8000. Python is only a local preview convenience, not a pr
 
 ## Pages and modules
 
-- index.html — pathway cards, catalog search/filtering, progress and recent activity.
+- index.html — homepage cards, universal catalog search/filtering, progress and recent activity.
+- grammar.html, utbk.html, school.html — separate pathway library pages (all dynamically read catalog.json).
 - lesson.html?id=RESOURCE_ID — universal lesson renderer and embedded practice.
 - quiz.html?id=RESOURCE_ID — shared practice/simulation engine, passage view, timer, navigator, flags, confirmation, saved draft.
 - results.html?attempt=ATTEMPT_ID — locally stored results with answer choices, explanations, evidence and passages.
 - css/style.css — shared responsive styles, keyboard focus, mobile layout.
 - js/core.js — loading, validation, escaping, block rendering, scoring and progress repository.
-- js/home.js, lesson.js, quiz.js, results.js — page controllers.
+- js/home.js, pathway.js, lesson.js, quiz.js, results.js — page controllers.
 - data/catalog.json — the sole resource index and editable topic taxonomy.
 - data/lessons and data/quizzes — educational files.
 - data/schemas — JSON schemas describing the authoring contract.
@@ -30,8 +43,8 @@ Open http://localhost:8000. Python is only a local preview convenience, not a pr
 
 ## Starter library
 
-Five lessons: Simple Present Tense, Subject–Verb Agreement, reading strategies, Grade 9 descriptive reading, Grade 10 recount reading.
-Four quiz resources: five-question grammar assessment, five-question UTBK-style reading practice, four-question school topic test, two-question school practice.
+Ten lessons: seven beginner grammar lessons, one UTBK reading strategies lesson, and one Grade 9 / one Grade 10 reading lesson.
+Nine quiz resources: five new eight-question grammar topic tests, plus the original grammar assessment, UTBK-style reading practice, and two school reading exercises.
 The courtyard passage is original. All sample educational material is AI-generated and unofficial. Keys were checked against grammar rules or explicit passage evidence; this is internal content review, not independent official certification. Content remains subject to teacher review before high-stakes use.
 
 All requested grammar levels, reading skills, grade topic suggestions and search filters are configured. Unpublished topics are deliberately not disguised as completed lessons. Grades 11–12 are expandable catalog destinations; Grade 12 already includes the reading guide and reading lab. Grade 11 initially shows an honest empty state. Each school grade can list materials, practice and tests via the same metadata; the Grade 9–10 samples demonstrate all three.
@@ -84,7 +97,7 @@ The progress repository interface in core.js isolates storage access for a futur
 
 Run `python tools/validate.py` for file, link, ID, block, answer-range and evidence checks. If Node is available, `node tests/scoring.mjs` tests scoring with all-correct, all-wrong, mixed and unanswered submissions plus invalid quiz rejection. Neither tool is required for hosting.
 
-Manual checks: filter pathways and grades; open both lesson styles; toggle Indonesian text; answer inline practice; mark completed and refresh; choose both quiz modes; navigate, flag and resume; submit with unanswered items; inspect review and retake; let a timer expire; test a nonexistent resource; inspect 390px and desktop widths. Missing/invalid resources display an actionable library link rather than a blank page.
+Manual checks: filter pathways and grades; open both lesson styles; read Indonesian teaching explanations; answer inline practice; mark completed and refresh; choose both quiz modes; navigate, flag and resume; submit with unanswered items; inspect review and retake; let a timer expire; test a nonexistent resource; inspect 390px and desktop widths. Missing/invalid resources display an actionable library link rather than a blank page.
 
 
 ## Version 2.0 (2026-10-25)

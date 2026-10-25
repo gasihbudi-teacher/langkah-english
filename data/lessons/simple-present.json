@@ -1,31 +1,30 @@
 {
   "id": "simple-present",
   "objectives": [
-    "Choose a simple-present verb for a routine or fact.",
-    "Form negatives and questions with do and does.",
-    "Distinguish main-verb patterns from be."
+    "Menentukan bentuk simple present untuk kebiasaan atau fakta.",
+    "Membuat kalimat negatif dan pertanyaan dengan do/does.",
+    "Membedakan pola kata kerja biasa dan be."
   ],
   "blocks": [
     {
       "type": "heading",
-      "text": "Talk about routines and general facts"
+      "text": "Membicarakan kebiasaan dan fakta umum"
     },
     {
       "type": "text",
-      "text": "Use the simple present for habits, repeated actions, general facts, and states. Time phrases such as every day, usually, and often commonly appear with this tense. A time phrase is a clue, not a guarantee: choose the tense based on meaning.",
-      "idText": "Gunakan simple present untuk kebiasaan, tindakan berulang, fakta umum, dan keadaan. Pilih bentuk kata kerja berdasarkan subjeknya."
+      "text": "Simple present dipakai untuk kebiasaan, aktivitas berulang, fakta umum, dan keadaan. Ungkapan seperti every day, usually, atau often sering muncul. Namun, jangan hanya mengandalkan petunjuk waktu: perhatikan makna kalimat."
     },
     {
       "type": "rule",
-      "text": "I / you / we / they + base verb. He / she / it + verb-s or verb-es. With be, use am / is / are instead."
+      "text": "I/you/we/they + verb dasar; he/she/it + verb-s/-es. Untuk kata kerja be, gunakan am/is/are."
     },
     {
       "type": "table",
       "headers": [
-        "Subject",
-        "Affirmative",
-        "Negative",
-        "Question"
+        "Subjek",
+        "Kalimat positif",
+        "Kalimat negatif",
+        "Pertanyaan"
       ],
       "rows": [
         [
@@ -41,7 +40,7 @@
           "Does she read?"
         ],
         [
-          "Be: singular",
+          "Be (subjek tunggal)",
           "She is ready.",
           "She is not ready.",
           "Is she ready?"
@@ -50,36 +49,36 @@
     },
     {
       "type": "subheading",
-      "text": "Spelling and adverbs"
+      "text": "Ejaan dan kata keterangan frekuensi"
     },
     {
       "type": "text",
-      "text": "Add -es after endings such as -ch, -sh, -ss and -x: watches, washes, misses, fixes. A consonant + y usually becomes -ies: studies. A vowel + y takes -s: plays. Have becomes has; go becomes goes. Frequency adverbs usually come before a main verb but after be."
+      "text": "Tambahkan -es pada verb berakhiran -ch, -sh, -ss, -x (watch → watches; fix → fixes). Untuk konsonan + y, biasanya y berubah menjadi -ies (study → studies). Untuk vokal + y, tambahkan -s (play → plays). Have berubah menjadi has dan go menjadi goes. Kata keterangan frekuensi umumnya diletakkan sebelum verb utama, tetapi setelah be."
     },
     {
       "type": "example",
       "text": "Dita usually studies after dinner. Her friends often practise with her. She is always curious.",
-      "note": "Studies agrees with Dita; practise agrees with friends."
+      "note": "Studies mengikuti subjek tunggal Dita; practise mengikuti subjek jamak her friends."
     },
     {
       "type": "mistake",
       "incorrect": "He does not studies on Sundays.",
       "correct": "He does not study on Sundays.",
-      "explanation": "Does carries the third-person form. The following verb must be the base form."
+      "explanation": "Does sudah menunjukkan subjek orang ketiga tunggal; verb setelah does not harus berbentuk dasar study."
     },
     {
       "type": "mistake",
       "incorrect": "They is ready.",
       "correct": "They are ready.",
-      "explanation": "The verb be has its own present forms: I am, he/she/it is, you/we/they are."
+      "explanation": "Be memiliki bentuk khusus: I am, he/she/it is, you/we/they are."
     },
     {
       "type": "heading",
-      "text": "A quick decision process"
+      "text": "Langkah menentukan bentuk yang benar"
     },
     {
       "type": "text",
-      "text": "First identify the subject. Then decide whether the clause is affirmative, negative, or a question. For a main verb, choose the correct verb form or auxiliary. For be, do not add do or does."
+      "text": "Pertama, tentukan subjek. Kedua, lihat apakah kalimatnya positif, negatif, atau pertanyaan. Untuk verb biasa, pilih bentuk verb atau auxiliary yang sesuai. Jika predikatnya be, jangan menambahkan do atau does."
     }
   ],
   "practice": [
@@ -92,18 +91,18 @@
         "playing"
       ],
       "answer": 1,
-      "explanation": "My brother is singular, so play takes -s: plays."
+      "explanation": "My brother adalah subjek tunggal, sehingga play menjadi plays."
     },
     {
       "id": "p2",
-      "prompt": "Choose the correct question.",
+      "prompt": "Pilih pertanyaan bahasa Inggris yang benar.",
       "choices": [
         "Does she reads?",
         "Does she read?",
         "Do she read?"
       ],
       "answer": 1,
-      "explanation": "Use does for she, followed by the base form read."
+      "explanation": "She memakai does lalu diikuti verb dasar read."
     }
   ],
   "assessments": [

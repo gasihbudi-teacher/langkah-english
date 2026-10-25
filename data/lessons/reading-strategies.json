@@ -1,112 +1,111 @@
 {
   "id": "reading-strategies",
   "objectives": [
-    "Distinguish a main idea from a supporting example.",
-    "Support an inference with words from the text.",
-    "Separate an observed association from a proven cause."
+    "Membedakan gagasan utama dari detail pendukung.",
+    "Menyimpulkan informasi berdasarkan bukti yang tersedia di teks.",
+    "Membedakan hubungan dua kejadian dari hubungan sebab-akibat yang terbukti."
   ],
   "blocks": [
     {
       "type": "heading",
-      "text": "Read for meaning before hunting for answers"
+      "text": "Pahami bacaan sebelum mencari jawaban"
     },
     {
       "type": "text",
-      "text": "First identify the topic and the writer’s central point. Briefly summarize each paragraph in your own words. Then use the question to locate relevant evidence. Avoid choosing an option merely because it repeats words from the passage.",
-      "idText": "Pahami gagasan dan hubungan antarparagraf. Jawaban yang memakai kata-kata dari teks belum tentu benar; maknanya harus didukung teks."
+      "text": "Pertama, cari topik dan gagasan utama penulis. Ringkas isi setiap paragraf dengan kata-katamu sendiri. Setelah membaca pertanyaan, cari bagian teks yang menjadi buktinya. Hindari memilih opsi hanya karena mengulang kata-kata yang ada di bacaan."
     },
     {
       "type": "rule",
-      "text": "Choose the strongest answer supported by the passage, not the answer that sounds most impressive or matches your personal knowledge."
+      "text": "Pilih jawaban yang paling kuat didukung isi teks, bukan jawaban yang terdengar menarik atau hanya cocok dengan pengetahuan pribadimu."
     },
     {
       "type": "subheading",
-      "text": "A guided example"
+      "text": "Contoh dengan panduan"
     },
     {
       "type": "example",
       "text": "“A library opened on Sundays. Visits increased that month, but the school also began a book festival.”",
-      "note": "Observation: visits increased. Unknown: how much of that increase was caused by Sunday opening."
+      "note": "Informasi yang pasti: jumlah kunjungan meningkat. Yang belum terbukti: seberapa besar peningkatan itu disebabkan oleh perpustakaan buka hari Minggu."
     },
     {
       "type": "text",
-      "text": "An appropriate inference is that more evidence is needed to isolate the effect of Sunday opening. “Sunday opening caused the whole increase” goes beyond the evidence. The word but signals a qualification to the first observation."
+      "text": "Kesimpulan yang masuk akal adalah masih diperlukan bukti lain untuk memisahkan pengaruh jadwal buka hari Minggu. Menyatakan bahwa pembukaan hari Minggu menyebabkan seluruh peningkatan adalah klaim yang melampaui bukti. Kata but menandakan adanya informasi pembatas atau pembanding."
     },
     {
       "type": "table",
       "headers": [
-        "Skill",
-        "Useful question"
+        "Kemampuan",
+        "Pertanyaan panduan"
       ],
       "rows": [
         [
           "Main Idea",
-          "What claim connects most of the paragraphs?"
+          "Gagasan apa yang menghubungkan sebagian besar paragraf?"
         ],
         [
           "Supporting Details",
-          "Where does the text state this information?"
+          "Di bagian mana informasi ini disebutkan?"
         ],
         [
           "Making Inferences",
-          "What follows from the evidence without adding assumptions?"
+          "Apa yang dapat disimpulkan tanpa asumsi tambahan?"
         ],
         [
           "Vocabulary in Context",
-          "Which meaning fits this sentence and nearby ideas?"
+          "Makna kata mana yang paling sesuai dengan kalimat sekitar?"
         ],
         [
           "Reference Questions",
-          "Which earlier noun phrase fits the pronoun?"
+          "Frasa noun sebelumnya mana yang dirujuk pronoun ini?"
         ],
         [
           "Author’s Purpose",
-          "Is the writer explaining, arguing, informing, or comparing?"
+          "Apakah penulis menjelaskan, berpendapat, memberi informasi, atau membandingkan?"
         ],
         [
           "Author’s Tone and Attitude",
-          "Which words show caution, approval, concern, or neutrality?"
+          "Kata mana yang menunjukkan kehati-hatian, persetujuan, kekhawatiran, atau sikap netral?"
         ],
         [
           "Reading Between the Lines",
-          "What is implied rather than explicitly stated?"
+          "Apa yang tersirat, bukan dinyatakan langsung?"
         ],
         [
           "Text Organization",
-          "How do examples, contrasts, and causes build the argument?"
+          "Bagaimana contoh, kontras, dan sebab membangun argumen?"
         ],
         [
           "Critical Reading",
-          "How strong is the evidence, and what alternative explanation remains?"
+          "Seberapa kuat buktinya, dan apa penjelasan alternatifnya?"
         ]
       ]
     },
     {
       "type": "heading",
-      "text": "A practical examination routine"
+      "text": "Strategi praktis saat ujian"
     },
     {
       "type": "text",
-      "text": "Skim for the overall structure, read the question carefully, find evidence, compare every option, and flag unresolved questions. For a 20-question, 20-minute practice format, one minute per question is an average planning guide, not a requirement to spend exactly one minute on each item."
+      "text": "Baca cepat untuk melihat struktur bacaan, pahami pertanyaan, temukan bukti, bandingkan setiap pilihan, dan tandai soal yang belum yakin. Untuk latihan 20 soal dalam 20 menit, satu menit per soal hanya perkiraan pembagian waktu, bukan aturan wajib."
     },
     {
       "type": "mistake",
-      "incorrect": "The text says visits rose, so the change definitely caused the rise.",
-      "correct": "Visits rose, but another event could also have influenced the result.",
-      "explanation": "A temporal association alone does not establish the cause."
+      "incorrect": "Jumlah kunjungan meningkat, jadi perubahan jadwal pasti menjadi penyebabnya.",
+      "correct": "Kunjungan meningkat, tetapi kegiatan lain juga mungkin berpengaruh.",
+      "explanation": "Dua kejadian yang terjadi berdekatan waktunya belum tentu memiliki hubungan sebab-akibat."
     }
   ],
   "practice": [
     {
       "id": "rs1",
-      "prompt": "A text says: “Sales rose after a redesign, although prices also fell.” Which conclusion is supported?",
+      "prompt": "Sebuah teks menyatakan: “Sales rose after a redesign, although prices also fell.” Kesimpulan mana yang didukung teks?",
       "choices": [
         "Only the redesign caused higher sales.",
         "The price change may also help explain higher sales.",
         "The redesign had no effect."
       ],
       "answer": 1,
-      "explanation": "Although introduces another possible influence. The statement does not isolate the redesign’s effect."
+      "explanation": "Although memperkenalkan faktor lain yang mungkin berpengaruh. Teks belum membuktikan bahwa perubahan desain merupakan satu-satunya penyebab."
     }
   ],
   "assessments": [

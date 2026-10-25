@@ -1,0 +1,126 @@
+{
+  "id": "present-continuous",
+  "objectives": [
+    "Mengenali fungsi present continuous dalam konteks.",
+    "Menyusun am/is/are + verb-ing secara tepat.",
+    "Membedakan kegiatan sekarang dan kebiasaan yang berulang."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Sedang berlangsung atau sementara"
+    },
+    {
+      "type": "text",
+      "text": "Present continuous biasanya menjelaskan kegiatan yang berlangsung saat berbicara atau situasi sementara di sekitar waktu sekarang. Bandingkan “She studies every evening” (kebiasaan) dengan “She is studying now” (sedang berlangsung)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subjek",
+        "Pola",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "I",
+          "am + verb-ing",
+          "I am reading."
+        ],
+        [
+          "He / She / It",
+          "is + verb-ing",
+          "She is reading."
+        ],
+        [
+          "You / We / They",
+          "are + verb-ing",
+          "They are reading."
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Kalimat negatif dan pertanyaan"
+    },
+    {
+      "type": "text",
+      "text": "Untuk menyangkal, tambahkan not setelah be: He is not sleeping. Untuk bertanya, pindahkan be ke depan subject: Are they sleeping? Jangan memakai do/does pada pola present continuous."
+    },
+    {
+      "type": "rule",
+      "text": "Subject + am/is/are + verb-ing. Negatif: be + not + verb-ing. Pertanyaan: Am/Is/Are + subject + verb-ing?"
+    },
+    {
+      "type": "subheading",
+      "text": "Aturan ejaan singkat"
+    },
+    {
+      "type": "text",
+      "text": "Read → reading; make → making (hilangkan e); run → running (gandakan konsonan untuk pola tertentu); lie → lying. Perhatikan juga beberapa stative verbs seperti know atau believe yang umumnya tidak digunakan dalam bentuk continuous saat menyatakan keadaan."
+    },
+    {
+      "type": "example",
+      "text": "Look! The students are planting trees. Their teacher is taking photos.",
+      "note": "Look! memberikan petunjuk bahwa kegiatan sedang terjadi. Are dipakai dengan students dan is dengan teacher."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "She studying now.",
+      "correct": "She is studying now.",
+      "explanation": "Present continuous memerlukan bentuk be sebelum verb-ing."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "They are play football.",
+      "correct": "They are playing football.",
+      "explanation": "Setelah are, gunakan bentuk verb-ing: playing."
+    },
+    {
+      "type": "heading",
+      "text": "Bandingkan dengan simple present"
+    },
+    {
+      "type": "text",
+      "text": "“He walks to school every day” menunjukkan rutinitas. “He is walking to school now” menunjukkan tindakan yang sedang berlangsung. Pilih berdasarkan makna kalimat."
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Look! The dog ___ in the yard.",
+      "choices": [
+        "runs",
+        "is running",
+        "run"
+      ],
+      "answer": 1,
+      "explanation": "Look! menunjukkan aktivitas saat ini; dog tunggal memakai is running."
+    },
+    {
+      "id": "q2",
+      "prompt": "They ___ listening to music now.",
+      "choices": [
+        "are",
+        "is",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "They berpasangan dengan are."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pilih kalimat negatif yang benar.",
+      "choices": [
+        "I am not sleeping.",
+        "I do not sleeping.",
+        "I not am sleeping."
+      ],
+      "answer": 0,
+      "explanation": "Negatif present continuous menempatkan not setelah am."
+    }
+  ],
+  "assessments": [
+    "quiz-present-continuous"
+  ]
+}

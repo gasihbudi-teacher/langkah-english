@@ -1,0 +1,137 @@
+{
+  "id": "parts-of-speech",
+  "objectives": [
+    "Mengenali fungsi noun, pronoun, verb, adjective, dan adverb dalam kalimat.",
+    "Membedakan jenis kata berdasarkan konteks kalimat, bukan sekadar terjemahannya.",
+    "Mengenali preposition, conjunction, dan determiner dalam contoh sederhana."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Apa itu parts of speech?"
+    },
+    {
+      "type": "text",
+      "text": "Parts of speech adalah kelompok kata berdasarkan tugasnya di dalam kalimat. Satu kata dapat menjalankan fungsi berbeda bergantung pada konteks. Misalnya, “book” dapat menjadi noun (a book) atau verb (to book a ticket)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jenis kata",
+        "Fungsi",
+        "Contoh dalam kalimat"
+      ],
+      "rows": [
+        [
+          "Noun (kata benda)",
+          "Menyebut orang, tempat, benda, atau ide",
+          "The student reads a book."
+        ],
+        [
+          "Pronoun (kata ganti)",
+          "Menggantikan noun",
+          "She reads every day."
+        ],
+        [
+          "Verb (kata kerja)",
+          "Menunjukkan tindakan atau keadaan",
+          "They study English."
+        ],
+        [
+          "Adjective (kata sifat)",
+          "Menerangkan noun",
+          "It is a useful book."
+        ],
+        [
+          "Adverb (kata keterangan)",
+          "Menerangkan verb, adjective, atau adverb lain",
+          "She reads carefully."
+        ],
+        [
+          "Preposition (kata depan)",
+          "Menunjukkan hubungan tempat, waktu, dan sebagainya",
+          "The book is on the table."
+        ],
+        [
+          "Conjunction (kata hubung)",
+          "Menghubungkan kata atau klausa",
+          "I read and take notes."
+        ],
+        [
+          "Determiner (kata penentu)",
+          "Memperjelas noun",
+          "This book is interesting."
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan posisi dan fungsi kata"
+    },
+    {
+      "type": "text",
+      "text": "Dalam “a careful reader”, careful menjelaskan kata benda reader sehingga berfungsi sebagai adjective. Dalam “reads carefully”, carefully menjelaskan cara membaca sehingga berfungsi sebagai adverb. Akhiran -ly sering muncul pada adverb, tetapi tidak selalu: kata friendly biasanya adjective."
+    },
+    {
+      "type": "example",
+      "text": "Mira quickly opens the small box.",
+      "note": "Mira = noun; quickly = adverb; opens = verb; the = determiner; small = adjective; box = noun."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "She is a quickly runner.",
+      "correct": "She is a quick runner.",
+      "explanation": "Kata yang menjelaskan noun runner adalah adjective quick. Untuk menjelaskan tindakan run, gunakan adverb quickly: She runs quickly."
+    },
+    {
+      "type": "rule",
+      "text": "Tanyakan: “Kata ini sedang menjelaskan apa?” Fungsi dalam kalimat lebih penting daripada menghafal daftar kata."
+    },
+    {
+      "type": "heading",
+      "text": "Langkah belajar"
+    },
+    {
+      "type": "text",
+      "text": "Cari verb utama terlebih dahulu. Temukan siapa atau apa yang melakukan tindakan (subject), kemudian identifikasi kata yang menjelaskan subject, verb, atau noun lainnya."
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Dalam kalimat “The tall boy smiles”, kata “tall” termasuk jenis apa?",
+      "choices": [
+        "Noun",
+        "Adjective",
+        "Verb"
+      ],
+      "answer": 1,
+      "explanation": "Tall menjelaskan noun boy, sehingga termasuk adjective."
+    },
+    {
+      "id": "q2",
+      "prompt": "Dalam kalimat “They sing beautifully”, kata “beautifully” berfungsi sebagai …",
+      "choices": [
+        "Adverb",
+        "Noun",
+        "Preposition"
+      ],
+      "answer": 0,
+      "explanation": "Beautifully menerangkan bagaimana tindakan sing dilakukan."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pilih kata yang menjadi preposition: “The cat sleeps under the chair.”",
+      "choices": [
+        "cat",
+        "under",
+        "sleeps"
+      ],
+      "answer": 1,
+      "explanation": "Under menyatakan hubungan posisi antara cat dan chair."
+    }
+  ],
+  "assessments": [
+    "quiz-parts-of-speech"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "quiz-simple-past",
+  "questionCount": 8,
+  "durationSeconds": 600,
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Yesterday, we ___ to the museum.",
+      "choices": [
+        "go",
+        "went",
+        "going",
+        "goes"
+      ],
+      "answer": 1,
+      "explanation": "Went merupakan bentuk simple past dari go."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pilih kalimat negatif yang benar.",
+      "choices": [
+        "She did not ate.",
+        "She does not ate.",
+        "She did not eat.",
+        "She not ate."
+      ],
+      "answer": 2,
+      "explanation": "Setelah did not, gunakan bentuk dasar eat."
+    },
+    {
+      "id": "q3",
+      "prompt": "What ___ you do last Sunday?",
+      "choices": [
+        "did",
+        "do",
+        "does",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "Pertanyaan simple past dengan verb biasa menggunakan did."
+    },
+    {
+      "id": "q4",
+      "prompt": "Bentuk lampau dari “study” adalah …",
+      "choices": [
+        "studyed",
+        "studies",
+        "studying",
+        "studied"
+      ],
+      "answer": 3,
+      "explanation": "Konsonan + y berubah menjadi -ied: studied."
+    },
+    {
+      "id": "q5",
+      "prompt": "Pilih pasangan was/were yang benar.",
+      "choices": [
+        "They was",
+        "I were",
+        "She was",
+        "You was"
+      ],
+      "answer": 2,
+      "explanation": "She menggunakan was; they/you menggunakan were."
+    },
+    {
+      "id": "q6",
+      "prompt": "We ___ football two days ago.",
+      "choices": [
+        "played",
+        "play",
+        "plays",
+        "playing"
+      ],
+      "answer": 0,
+      "explanation": "Keterangan two days ago menunjukkan kejadian lampau; gunakan played."
+    },
+    {
+      "id": "q7",
+      "prompt": "Pilih kalimat tanya yang benar.",
+      "choices": [
+        "Did Lina saw the film?",
+        "Did Lina see the film?",
+        "Was Lina see the film?",
+        "Does Lina saw the film?"
+      ],
+      "answer": 1,
+      "explanation": "Did diikuti verb dasar see."
+    },
+    {
+      "id": "q8",
+      "prompt": "Manakah irregular past verb yang tepat?",
+      "choices": [
+        "buy → buyed",
+        "eat → eated",
+        "take → taked",
+        "make → made"
+      ],
+      "answer": 3,
+      "explanation": "Make berubah menjadi made dalam simple past."
+    }
+  ],
+  "passages": []
+}

@@ -88,7 +88,7 @@
     {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",
-      "description": "Check simple-present forms and subject–verb agreement.",
+      "description": "Cek pemahaman simple present dan subject–verb agreement dalam lima soal.",
       "type": "quiz",
       "placements": [
         {
@@ -127,7 +127,7 @@
     {
       "id": "simple-present",
       "title": "Simple Present Tense",
-      "description": "Describe routines and facts, and build accurate questions and negatives.",
+      "description": "Pelajari kalimat tentang kebiasaan, fakta, serta cara membentuk pertanyaan dan negatif dengan do/does.",
       "type": "lesson",
       "placements": [
         {
@@ -152,18 +152,22 @@
         "essential grammar review"
       ],
       "relatedLessons": [
-        "subject-verb-agreement"
+        "subject-verb-agreement",
+        "simple-past"
       ],
       "file": "data/lessons/simple-present.json",
       "aiGenerated": true,
       "unofficial": true,
-      "order": 10,
-      "estimatedMinutes": 9
+      "order": 30,
+      "estimatedMinutes": 9,
+      "prerequisites": [
+        "sentence-structure"
+      ]
     },
     {
       "id": "subject-verb-agreement",
       "title": "Subject–Verb Agreement",
-      "description": "Find the real subject and choose the verb that agrees with it.",
+      "description": "Pelajari cara mencocokkan subjek dan kata kerja dalam kalimat sederhana.",
       "type": "lesson",
       "placements": [
         {
@@ -192,12 +196,13 @@
         "essential grammar review"
       ],
       "relatedLessons": [
-        "simple-present"
+        "simple-present",
+        "sentence-structure"
       ],
       "file": "data/lessons/subject-verb-agreement.json",
       "aiGenerated": true,
       "unofficial": true,
-      "order": 20,
+      "order": 40,
       "estimatedMinutes": 10,
       "prerequisites": [
         "simple-present"
@@ -206,7 +211,7 @@
     {
       "id": "courtyard-reading",
       "title": "Reading lab: the courtyard experiment",
-      "description": "One original passage, five connected questions, and evidence-based explanations.",
+      "description": "Teks bacaan orisinal dengan lima soal dan pembahasan berbasis bukti.",
       "type": "quiz",
       "placements": [
         {
@@ -244,7 +249,7 @@
     {
       "id": "reading-strategies",
       "title": "Read with evidence: a strategy toolkit",
-      "description": "A learning-mode guide to main ideas, inference, vocabulary, and critical evaluation.",
+      "description": "Strategi menemukan gagasan utama, inferensi, kosakata, dan mengevaluasi bukti.",
       "type": "lesson",
       "placements": [
         {
@@ -287,7 +292,7 @@
     {
       "id": "grade9-reading",
       "title": "Grade 9: picture a place through reading",
-      "description": "Explore a descriptive text and practise finding details and vocabulary clues.",
+      "description": "Kenali teks deskriptif serta latihan menemukan detail dan konteks kosakata.",
       "type": "lesson",
       "placements": [
         {
@@ -318,7 +323,7 @@
     {
       "id": "grade10-recount",
       "title": "Grade 10: follow the story in a recount",
-      "description": "Track events, time markers, and reflection in an original short text.",
+      "description": "Ikuti urutan peristiwa, penanda waktu, dan refleksi dalam recount text.",
       "type": "lesson",
       "placements": [
         {
@@ -355,7 +360,7 @@
     {
       "id": "school-reading-check",
       "title": "School reading: details and sequence",
-      "description": "A short topic test using the Grade 9 descriptive text and Grade 10 recount.",
+      "description": "Tes singkat tentang detail dan urutan berdasarkan teks Kelas 9–10.",
       "type": "quiz",
       "placements": [
         {
@@ -391,7 +396,7 @@
     {
       "id": "school-reading-practice",
       "title": "School reading: quick practice",
-      "description": "Two guided reading questions with immediate optional explanations.",
+      "description": "Dua soal terpandu untuk melatih pemahaman bacaan.",
       "type": "quiz",
       "placements": [
         {
@@ -419,6 +424,407 @@
       "unofficial": true,
       "kind": "practice",
       "examFormat": "sample"
+    },
+    {
+      "id": "parts-of-speech",
+      "title": "Parts of Speech (Jenis Kata)",
+      "description": "Kenali kata benda, kata kerja, kata sifat, dan jenis kata lainnya untuk memahami kalimat bahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Parts of Speech"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "pemula",
+        "tata bahasa",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "sentence-structure"
+      ],
+      "file": "data/lessons/parts-of-speech.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 10,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "quiz-parts-of-speech",
+      "title": "Latihan: Parts of Speech (Jenis Kata)",
+      "description": "8 soal latihan untuk mengukur pemahaman tentang Parts of Speech. Pembahasan tersedia dalam bahasa Indonesia.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Parts of Speech"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "latihan",
+        "kuis",
+        "grammar",
+        "pemula"
+      ],
+      "relatedLessons": [
+        "parts-of-speech"
+      ],
+      "file": "data/quizzes/quiz-parts-of-speech.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 11
+    },
+    {
+      "id": "sentence-structure",
+      "title": "Sentence Structure (Struktur Kalimat)",
+      "description": "Pelajari subject, verb, object, complement, dan urutan kata dalam kalimat dasar.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Sentence Structure"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "pemula",
+        "tata bahasa",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "simple-present"
+      ],
+      "file": "data/lessons/sentence-structure.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 20,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "parts-of-speech"
+      ]
+    },
+    {
+      "id": "quiz-sentence-structure",
+      "title": "Latihan: Sentence Structure (Struktur Kalimat)",
+      "description": "8 soal latihan untuk mengukur pemahaman tentang Sentence Structure. Pembahasan tersedia dalam bahasa Indonesia.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Sentence Structure"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "latihan",
+        "kuis",
+        "grammar",
+        "pemula"
+      ],
+      "relatedLessons": [
+        "sentence-structure"
+      ],
+      "file": "data/quizzes/quiz-sentence-structure.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 21
+    },
+    {
+      "id": "simple-past",
+      "title": "Simple Past Tense",
+      "description": "Bicarakan peristiwa yang telah selesai, gunakan bentuk lampau, dan susun pertanyaan dengan did.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Simple Past Tense"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "pemula",
+        "tata bahasa",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "grade10-recount",
+        "basic-questions-negatives"
+      ],
+      "file": "data/lessons/simple-past.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 50,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "simple-present"
+      ]
+    },
+    {
+      "id": "quiz-simple-past",
+      "title": "Latihan: Simple Past Tense",
+      "description": "8 soal latihan untuk mengukur pemahaman tentang Simple Past Tense. Pembahasan tersedia dalam bahasa Indonesia.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Simple Past Tense"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "latihan",
+        "kuis",
+        "grammar",
+        "pemula"
+      ],
+      "relatedLessons": [
+        "simple-past"
+      ],
+      "file": "data/quizzes/quiz-simple-past.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 51
+    },
+    {
+      "id": "present-continuous",
+      "title": "Present Continuous Tense",
+      "description": "Gunakan am/is/are + verb-ing untuk kegiatan yang berlangsung saat ini atau sementara.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Present Continuous Tense"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "pemula",
+        "tata bahasa",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "basic-questions-negatives"
+      ],
+      "file": "data/lessons/present-continuous.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 60,
+      "estimatedMinutes": 12,
+      "prerequisites": [
+        "simple-present"
+      ]
+    },
+    {
+      "id": "quiz-present-continuous",
+      "title": "Latihan: Present Continuous Tense",
+      "description": "8 soal latihan untuk mengukur pemahaman tentang Present Continuous Tense. Pembahasan tersedia dalam bahasa Indonesia.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Present Continuous Tense"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "latihan",
+        "kuis",
+        "grammar",
+        "pemula"
+      ],
+      "relatedLessons": [
+        "present-continuous"
+      ],
+      "file": "data/quizzes/quiz-present-continuous.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 61
+    },
+    {
+      "id": "basic-questions-negatives",
+      "title": "Basic Questions and Negatives",
+      "description": "Pahami cara membuat kalimat tanya dan negatif dengan be, do/does, dan did.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Basic Questions and Negatives"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "pemula",
+        "tata bahasa",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "sentence-structure",
+        "present-continuous"
+      ],
+      "file": "data/lessons/basic-questions-negatives.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 70,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "simple-present",
+        "simple-past"
+      ]
+    },
+    {
+      "id": "quiz-basic-questions-negatives",
+      "title": "Latihan: Basic Questions and Negatives",
+      "description": "8 soal latihan untuk mengukur pemahaman tentang Basic Questions and Negatives. Pembahasan tersedia dalam bahasa Indonesia.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Basic Questions and Negatives"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "latihan",
+        "kuis",
+        "grammar",
+        "pemula"
+      ],
+      "relatedLessons": [
+        "basic-questions-negatives"
+      ],
+      "file": "data/quizzes/quiz-basic-questions-negatives.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 71
     }
   ]
 }

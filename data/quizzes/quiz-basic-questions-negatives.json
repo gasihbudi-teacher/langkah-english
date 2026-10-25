@@ -1,0 +1,104 @@
+{
+  "id": "quiz-basic-questions-negatives",
+  "questionCount": 8,
+  "durationSeconds": 600,
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pilih pertanyaan simple present yang benar.",
+      "choices": [
+        "Does he likes coffee?",
+        "Do he like coffee?",
+        "Does he like coffee?",
+        "Is he like coffee?"
+      ],
+      "answer": 2,
+      "explanation": "Does dipakai untuk he, dan sesudahnya gunakan verb dasar like."
+    },
+    {
+      "id": "q2",
+      "prompt": "Kalimat negatif “They play” yang tepat adalah …",
+      "choices": [
+        "They do not play.",
+        "They does not play.",
+        "They not play.",
+        "They do not plays."
+      ],
+      "answer": 0,
+      "explanation": "They menggunakan do not + verb dasar play."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pilih pertanyaan lampau yang benar.",
+      "choices": [
+        "Did she watched TV?",
+        "Was she watch TV?",
+        "Does she watched TV?",
+        "Did she watch TV?"
+      ],
+      "answer": 3,
+      "explanation": "Did menandakan waktu lampau, kemudian gunakan verb dasar watch."
+    },
+    {
+      "id": "q4",
+      "prompt": "___ your friends ready now?",
+      "choices": [
+        "Is",
+        "Are",
+        "Does",
+        "Did"
+      ],
+      "answer": 1,
+      "explanation": "Your friends jamak dan predikatnya berupa adjective ready, sehingga gunakan Are."
+    },
+    {
+      "id": "q5",
+      "prompt": "Kalimat negatif yang benar untuk “He is tired” adalah …",
+      "choices": [
+        "He does not tired.",
+        "He not is tired.",
+        "He is not tired.",
+        "He do not tired."
+      ],
+      "answer": 2,
+      "explanation": "Negatif dengan be dibentuk dengan menambahkan not setelah is."
+    },
+    {
+      "id": "q6",
+      "prompt": "___ do you live? — In Bandung.",
+      "choices": [
+        "Where",
+        "When",
+        "Why",
+        "Who"
+      ],
+      "answer": 0,
+      "explanation": "Where dipakai untuk menanyakan tempat."
+    },
+    {
+      "id": "q7",
+      "prompt": "Pilih pertanyaan yang tepat.",
+      "choices": [
+        "Where does she studies?",
+        "Where do she study?",
+        "Where she studies?",
+        "Where does she study?"
+      ],
+      "answer": 3,
+      "explanation": "Urutannya Where + does + she + study."
+    },
+    {
+      "id": "q8",
+      "prompt": "Manakah kalimat negatif simple past yang benar?",
+      "choices": [
+        "He did not went.",
+        "He did not go.",
+        "He does not went.",
+        "He not did go."
+      ],
+      "answer": 1,
+      "explanation": "Did not diikuti verb dasar go."
+    }
+  ],
+  "passages": []
+}

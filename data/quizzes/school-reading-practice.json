@@ -17,27 +17,27 @@
   "questions": [
     {
       "id": "sr1",
-      "prompt": "In the garden passage, where are the two wooden benches?",
+      "prompt": "Menurut teks taman, di mana letak dua bangku kayu?",
       "choices": [
         "Beside a mango tree",
         "Inside the science room",
         "Outside the school gate"
       ],
       "answer": 0,
-      "explanation": "The text directly states that two wooden benches stand beside a mango tree.",
+      "explanation": "Teks menyatakan secara langsung bahwa dua bangku kayu berada beside a mango tree.",
       "passageId": "garden",
       "evidence": "Two wooden benches stand beside a mango tree."
     },
     {
       "id": "sr3",
-      "prompt": "Which activity happened after repairing covers in the recount?",
+      "prompt": "Kegiatan apa yang terjadi setelah memperbaiki sampul buku dalam recount?",
       "choices": [
         "The class arrived last Saturday.",
         "The volunteer explained sorting.",
         "Groups recommended books for younger readers."
       ],
       "answer": 2,
-      "explanation": "The text introduces repairs with Then and recommendations with Before we left.",
+      "explanation": "Then memperkenalkan kegiatan memperbaiki sampul, sedangkan Before we left memperkenalkan rekomendasi buku sebagai kegiatan berikutnya.",
       "passageId": "library",
       "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers."
     }

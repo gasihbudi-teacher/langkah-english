@@ -1,0 +1,122 @@
+{
+  "id": "simple-past",
+  "objectives": [
+    "Mengenali penggunaan simple past untuk peristiwa selesai di masa lampau.",
+    "Memilih bentuk verb-2 beraturan dan tidak beraturan.",
+    "Membentuk kalimat negatif dan pertanyaan dengan did serta was/were."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Kapan memakai simple past?"
+    },
+    {
+      "type": "text",
+      "text": "Gunakan simple past untuk tindakan atau keadaan yang selesai pada waktu lampau. Penanda seperti yesterday, last week, atau two days ago sering muncul, tetapi makna konteks tetap menentukan pilihan tense."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jenis",
+        "Afirmatif",
+        "Negatif",
+        "Pertanyaan"
+      ],
+      "rows": [
+        [
+          "Verb biasa",
+          "She visited her aunt.",
+          "She did not visit her aunt.",
+          "Did she visit her aunt?"
+        ],
+        [
+          "Verb tidak beraturan",
+          "They went home.",
+          "They did not go home.",
+          "Did they go home?"
+        ],
+        [
+          "Be",
+          "He was tired.",
+          "He was not tired.",
+          "Was he tired?"
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Regular dan irregular verbs"
+    },
+    {
+      "type": "text",
+      "text": "Banyak verb membentuk past dengan -ed (walk → walked, visit → visited). Sebagian tidak beraturan: go → went, eat → ate, see → saw. Hafalkan bentuk yang sering digunakan sambil berlatih dalam konteks."
+    },
+    {
+      "type": "rule",
+      "text": "Kalimat dengan verb biasa: afirmatif memakai verb-2; negatif/pertanyaan memakai did + verb dasar. Untuk be, gunakan was/were tanpa did."
+    },
+    {
+      "type": "example",
+      "text": "Yesterday, Nia watched a film. She did not watch TV. Did she enjoy the film?",
+      "note": "Watched adalah bentuk lampau. Setelah did dan did not, verb kembali ke bentuk dasar watch/enjoy."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Did he went to school?",
+      "correct": "Did he go to school?",
+      "explanation": "Did sudah menandakan lampau; setelahnya gunakan bentuk dasar go."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "They was late yesterday.",
+      "correct": "They were late yesterday.",
+      "explanation": "Subjek they memakai were, bukan was."
+    },
+    {
+      "type": "heading",
+      "text": "Cara cepat memeriksa kalimat"
+    },
+    {
+      "type": "text",
+      "text": "Tanyakan: Apakah peristiwa sudah selesai? Apakah verb utama merupakan be atau verb biasa? Jika menggunakan did/did not, pastikan verb setelahnya berbentuk dasar."
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Yesterday, Rina ___ a letter.",
+      "choices": [
+        "wrote",
+        "writes",
+        "writing"
+      ],
+      "answer": 0,
+      "explanation": "Wrote adalah bentuk lampau dari write."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pilih pertanyaan yang benar.",
+      "choices": [
+        "Did he played?",
+        "Did he play?",
+        "Does he played?"
+      ],
+      "answer": 1,
+      "explanation": "Setelah did gunakan verb dasar play."
+    },
+    {
+      "id": "q3",
+      "prompt": "They ___ at home last night.",
+      "choices": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": 1,
+      "explanation": "They dalam simple past menggunakan were."
+    }
+  ],
+  "assessments": [
+    "quiz-simple-past"
+  ]
+}

@@ -13,11 +13,11 @@
         "is go"
       ],
       "answer": 1,
-      "explanation": "Rina is a singular third-person subject. In an affirmative simple-present clause, go becomes goes."
+      "explanation": "Rina merupakan subjek tunggal orang ketiga. Dalam simple present positif, go berubah menjadi goes."
     },
     {
       "id": "g2",
-      "prompt": "Which sentence uses a correct simple-present negative?",
+      "prompt": "Manakah kalimat negatif simple present yang benar?",
       "choices": [
         "He does not likes coffee.",
         "He do not like coffee.",
@@ -25,7 +25,7 @@
         "He not likes coffee."
       ],
       "answer": 2,
-      "explanation": "After does not, use the base verb like. Does already carries the third-person agreement."
+      "explanation": "Setelah does not, gunakan verb dasar like. Does sudah menunjukkan kesesuaian dengan subjek orang ketiga tunggal."
     },
     {
       "id": "g3",
@@ -37,7 +37,7 @@
         "be"
       ],
       "answer": 1,
-      "explanation": "The subject is books, which is plural. The prepositional phrase on the shelf does not change the subject; use are."
+      "explanation": "Subjeknya adalah books (jamak), bukan shelf. Jadi bentuk be yang benar adalah are."
     },
     {
       "id": "g4",
@@ -49,11 +49,11 @@
         "are keeping"
       ],
       "answer": 2,
-      "explanation": "Each is the singular head of the subject. In the simple present, use keeps, even though students inside the of-phrase is plural."
+      "explanation": "Each adalah inti subjek tunggal, sehingga gunakan keeps walaupun students berbentuk jamak dalam frasa of."
     },
     {
       "id": "g5",
-      "prompt": "Which question is grammatically correct?",
+      "prompt": "Manakah kalimat tanya yang benar?",
       "choices": [
         "Does Sinta studies English every day?",
         "Do Sinta study English every day?",
@@ -61,7 +61,7 @@
         "Sinta does studies English every day?"
       ],
       "answer": 2,
-      "explanation": "For a simple-present question with singular Sinta, use Does + subject + base verb study."
+      "explanation": "Subjek Sinta tunggal menggunakan Does + subject + verb dasar study."
     }
   ],
   "passages": []

@@ -1,0 +1,104 @@
+{
+  "id": "quiz-present-continuous",
+  "questionCount": 8,
+  "durationSeconds": 600,
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Right now, she ___ a book.",
+      "choices": [
+        "read",
+        "reads",
+        "is reading",
+        "are reading"
+      ],
+      "answer": 2,
+      "explanation": "She memakai is + reading untuk tindakan yang sedang berlangsung."
+    },
+    {
+      "id": "q2",
+      "prompt": "They ___ dinner at the moment.",
+      "choices": [
+        "are cooking",
+        "is cooking",
+        "cooks",
+        "cook usually"
+      ],
+      "answer": 0,
+      "explanation": "They memakai are cooking; at the moment menunjukkan kegiatan saat ini."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pilih pertanyaan yang benar.",
+      "choices": [
+        "Do you studying?",
+        "Are you studying?",
+        "Is you studying?",
+        "Are you study?"
+      ],
+      "answer": 1,
+      "explanation": "Pertanyaan: Are + you + studying?"
+    },
+    {
+      "id": "q4",
+      "prompt": "He ___ not watching television.",
+      "choices": [
+        "am",
+        "are",
+        "do",
+        "is"
+      ],
+      "answer": 3,
+      "explanation": "He dipasangkan dengan is."
+    },
+    {
+      "id": "q5",
+      "prompt": "Bentuk -ing yang benar dari “make” adalah …",
+      "choices": [
+        "makeing",
+        "makes",
+        "making",
+        "makking"
+      ],
+      "answer": 2,
+      "explanation": "Huruf e terakhir pada make dihilangkan: making."
+    },
+    {
+      "id": "q6",
+      "prompt": "Kalimat yang menunjukkan kebiasaan adalah …",
+      "choices": [
+        "She plays tennis every Friday.",
+        "She is playing now.",
+        "They are studying at this moment.",
+        "I am writing right now."
+      ],
+      "answer": 0,
+      "explanation": "Every Friday menunjukkan kebiasaan; gunakan simple present."
+    },
+    {
+      "id": "q7",
+      "prompt": "The children ___ outside now.",
+      "choices": [
+        "is playing",
+        "are playing",
+        "plays",
+        "play usually"
+      ],
+      "answer": 1,
+      "explanation": "Children jamak, sehingga are playing."
+    },
+    {
+      "id": "q8",
+      "prompt": "Manakah kalimat present continuous yang tepat?",
+      "choices": [
+        "We are learn English.",
+        "We is learning English.",
+        "We learning English.",
+        "We are learning English."
+      ],
+      "answer": 3,
+      "explanation": "We memerlukan are diikuti learning."
+    }
+  ],
+  "passages": []
+}

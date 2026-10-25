@@ -6,3 +6,29 @@
 @media(max-width:760px){.nav{padding-top:12px;padding-bottom:12px;flex-wrap:wrap;gap:12px;min-height:80px}.nav-links{order:3;width:100%;margin-left:0;gap:18px;overflow-x:auto;padding-bottom:3px}.nav-links a{white-space:nowrap}.lang-switch{margin-left:auto}.hero{grid-template-columns:1fr}.hero-copy{padding:39px 26px 18px}.hero-art{padding:10px 18px 25px;height:300px}.illustration-card{height:256px;width:320px}.illustration-shape{height:155px}.visual-ring{height:160px;width:160px;left:70px;top:0}.ring-two{width:115px;height:115px;left:92px;top:19px}.visual-book{width:110px;height:141px}.visual-book-cover{font-size:16px;padding-top:38px}.visual-book-cover span{font-size:35px}.floating-a{top:0;right:24px}.floating-b{bottom:23px;left:12px}.section{margin-top:59px}.choice-grid,.mode-grid{grid-template-columns:1fr}.stats,.roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}.path-grid{grid-template-columns:1fr}.path-card{min-height:220px}.library-shell{grid-template-columns:1fr}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.filter-panel{padding:18px}.quizgrid{grid-template-columns:1fr}.passage{position:static;max-height:310px}.footer-layout{flex-direction:column;gap:14px}.footer-note{text-align:left}.reading h1{font-size:37px}}
 @media(max-width:520px){.shell{padding-left:15px;padding-right:15px}.logo{font-size:19px}.nav-links{gap:15px}.nav-links a{font-size:12px}.hero{margin-top:15px;border-radius:19px}.hero-copy{padding:30px 21px 5px}.hero h1{font-size:39px;line-height:1.16}.hero-lead{font-size:14px}.hero-art{height:250px}.illustration-card{height:222px;width:270px}.illustration-shape{height:126px}.visual-book{height:110px;width:95px}.visual-book-cover{padding:23px 10px;font-size:13px}.visual-book-cover span{font-size:30px}.visual-bottom{padding:9px;font-size:8px}.floating-a{font-size:20px}.floating-b{font-size:17px}.section-intro h2{font-size:29px}.stats{gap:8px}.stat{padding:16px 12px;min-height:94px}.stat strong{font-size:26px}.stat span{font-size:11px}.roadmap{grid-template-columns:1fr}.grade-grid{gap:8px}.grade-card{padding:16px}.filters{grid-template-columns:1fr}.resource-grid{grid-template-columns:1fr}.panel{padding:18px}.result-hero{padding:21px}.hero-actions .button{flex:1}.mode-grid{grid-template-columns:1fr}.toolbar button{font-size:13px;padding:9px 12px}.exam-header{padding:16px}.choice{font-size:14px}.page-main{padding-top:17px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+/* V3: dedicated subject libraries — shared visual language, separate URLs. */
+.pathway-hero{border-radius:24px;border:1px solid #dbe4f6;background:#eef3ff;padding:30px 40px 35px;margin-top:12px;box-shadow:0 12px 38px rgba(28,56,105,.035)}
+.pathway-hero-grammar{background:linear-gradient(125deg,#fff2e9,#fff9f4 65%,#eaf4ff);border-color:#f1dfd5}
+.pathway-hero-utbk{background:linear-gradient(125deg,#e7efff,#f5f7ff 70%,#eefaf7);border-color:#dbe5f9}
+.pathway-hero-school{background:linear-gradient(125deg,#e6f6ec,#f6fbf7 70%,#f4f6ff);border-color:#d5eadf}
+.pathway-hero .page-back{display:inline-flex;margin-bottom:26px;font-weight:750;font-size:13px;text-decoration:none;color:#3d5478}
+.pathway-heading{display:flex;gap:23px;align-items:center;margin-top:15px}
+.pathway-symbol{width:84px;height:84px;flex:0 0 84px;display:grid;place-items:center;background:#ffffffde;border-radius:24px;box-shadow:0 12px 23px #11244712;color:#3d59af;font-weight:900;font-size:35px}
+.pathway-heading h1{font-size:clamp(34px,4.2vw,50px);margin:0 0 12px}
+.pathway-description{font-size:16px;max-width:650px;color:#536580;margin:0;line-height:1.8}
+.pathway-hero-links{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}
+.pathway-hero-links a{font-size:13px;font-weight:750;padding:9px 14px;background:#fff9;border:1px solid #ffffff;border-radius:999px;text-decoration:none;color:#31486f}
+.pathway-hero-links a:hover,.pathway-hero-links a:focus-visible{background:#fff;color:#2449a7}
+.path-library{margin-top:52px}.pathway-grades{margin-bottom:27px}
+.pathway-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 29px}
+.quick-pick{display:flex;flex-direction:column;align-items:flex-start;text-align:left;border:1px solid #dce5f1;background:white;color:var(--ink);padding:19px 22px;border-radius:16px;gap:7px;min-height:142px;box-shadow:0 3px 15px #20345608}
+.quick-pick:hover,.grade-card-button:hover{background:#eef3ff;border-color:#bdccec;transform:translateY(-2px)}
+.quick-pick-symbol{font-size:11px;letter-spacing:.18em;font-weight:900;color:#6174cd}.quick-pick strong{font-size:20px}.quick-pick small{color:#61728e;font-size:12px}
+.grade-card-button{font-family:inherit;color:var(--ink);display:flex;flex-direction:column;text-align:left;align-items:stretch;justify-content:flex-start;min-height:170px;border:1px solid #dce4f0;background:#fff;transition:background .2s,transform .2s}
+.grade-card-button .grade-number{display:block}.grade-card-button .grade-link{margin-top:auto}
+.filter-reset{width:100%;margin-top:12px}.pathway-help{margin-top:35px;margin-bottom:66px}.pathway-help .notice{padding:23px 26px}.pathway-help .notice p{margin:7px 0 0;color:#486079}
+@media(max-width:760px){.pathway-hero{padding:25px 22px}.pathway-heading{gap:16px}.pathway-symbol{height:64px;width:64px;flex-basis:64px;font-size:26px}.pathway-levels{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.pathway-heading{display:block}.pathway-symbol{margin-bottom:17px}.pathway-hero-links{gap:7px}.pathway-hero-links a{font-size:12px}.pathway-levels{grid-template-columns:1fr}.quick-pick{min-height:104px}.pathway-hero .page-back{margin-bottom:18px}}
+.pathway-hero .section-kicker{display:block;margin-top:2px}
+[hidden]{display:none!important}

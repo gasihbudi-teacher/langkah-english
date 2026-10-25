@@ -1,0 +1,134 @@
+{
+  "id": "basic-questions-negatives",
+  "objectives": [
+    "Membentuk pertanyaan yes/no dengan be, do/does, dan did.",
+    "Membentuk kalimat negatif tanpa mencampur bentuk auxiliary.",
+    "Menggunakan question words seperti what, where, when, dan why."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Dua keluarga pola pertanyaan"
+    },
+    {
+      "type": "text",
+      "text": "Dalam bahasa Inggris, pola pertanyaan bergantung pada verb. Jika kalimat memiliki be (am/is/are/was/were), pindahkan be ke depan subject. Jika menggunakan verb biasa dalam simple present, gunakan do/does. Untuk simple past dengan verb biasa, gunakan did."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pola",
+        "Afirmatif",
+        "Pertanyaan",
+        "Negatif"
+      ],
+      "rows": [
+        [
+          "Be",
+          "She is ready.",
+          "Is she ready?",
+          "She is not ready."
+        ],
+        [
+          "Simple present",
+          "They study.",
+          "Do they study?",
+          "They do not study."
+        ],
+        [
+          "Simple present (he/she/it)",
+          "He studies.",
+          "Does he study?",
+          "He does not study."
+        ],
+        [
+          "Simple past",
+          "Rina visited us.",
+          "Did Rina visit us?",
+          "Rina did not visit us."
+        ]
+      ]
+    },
+    {
+      "type": "rule",
+      "text": "Setelah does/did/don’t/doesn’t/didn’t, gunakan verb dasar: Does he like…?; Did she go…?; She does not like…"
+    },
+    {
+      "type": "subheading",
+      "text": "Question words"
+    },
+    {
+      "type": "text",
+      "text": "Letakkan kata tanya sebelum auxiliary: Where do you live? When did she arrive? Why is he sad? Untuk pertanyaan yang kata tanyanya menjadi subject, seperti “Who called you?”, pola dapat berbeda dan tidak perlu did."
+    },
+    {
+      "type": "example",
+      "text": "What does Bima read every day? He reads newspapers. He does not read magazines.",
+      "note": "What menanyakan informasi. Does dipakai karena Bima subjek tunggal, lalu verb dasar read."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Does she likes music?",
+      "correct": "Does she like music?",
+      "explanation": "Akhiran -s sudah dibawa oleh does, sehingga gunakan like."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Did they went yesterday?",
+      "correct": "Did they go yesterday?",
+      "explanation": "Setelah did, gunakan kata kerja dasar go."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Is she play tennis every Sunday?",
+      "correct": "Does she play tennis every Sunday?",
+      "explanation": "Untuk kebiasaan dengan verb biasa play, gunakan does, bukan is."
+    },
+    {
+      "type": "heading",
+      "text": "Strategi memilih bantuan kata kerja"
+    },
+    {
+      "type": "text",
+      "text": "Cari verb utama dan waktunya. Apakah ada be? Jika tidak, apakah kalimat menyatakan kebiasaan (do/does) atau peristiwa lampau (did)? Setelah itu, letakkan not untuk negatif atau balikkan susunan untuk pertanyaan."
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Pilih pertanyaan yang benar.",
+      "choices": [
+        "Does Arif play football?",
+        "Does Arif plays football?",
+        "Do Arif play football?"
+      ],
+      "answer": 0,
+      "explanation": "Arif tunggal menggunakan does + verb dasar play."
+    },
+    {
+      "id": "q2",
+      "prompt": "Kalimat negatif yang tepat adalah …",
+      "choices": [
+        "They does not know.",
+        "They do not know.",
+        "They do not knows."
+      ],
+      "answer": 1,
+      "explanation": "They memakai do not dan bentuk dasar know."
+    },
+    {
+      "id": "q3",
+      "prompt": "___ she at home yesterday?",
+      "choices": [
+        "Did",
+        "Was",
+        "Does"
+      ],
+      "answer": 1,
+      "explanation": "Untuk keadaan lampau dengan be, gunakan Was she …?"
+    }
+  ],
+  "assessments": [
+    "quiz-basic-questions-negatives"
+  ]
+}

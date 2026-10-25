@@ -6,7 +6,8 @@ try{
   document.title=m.title+' · Langkah English';
   let bilingual=true;
   const sort=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title);
-  const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>m.placements.some(y=>x.pathway===y.pathway&&(x.pathway!=='school'||x.grade===y.grade)))).sort(sort);
+  const primary=m.placements[0];
+  const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>x.pathway===primary.pathway&&(primary.pathway!=='school'||x.grade===primary.grade))).sort(sort);
   const here=same.findIndex(x=>x.id===m.id);
   const previous=here>0?same[here-1]:null;
   const following=here>=0&&here<same.length-1?same[here+1]:null;
@@ -15,8 +16,8 @@ try{
   const prerequisite=(m.prerequisites||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson')).filter(Boolean);
   function render(){
     document.querySelector('#content').innerHTML=`<article class="reading">
-    <a href="index.html?pathway=${encodeURIComponent(m.placements[0].pathway)}#library" class="page-back">← ${t('backPath')}</a>
-    <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div><div class="toolbar"><button type="button" id="language-explanations" class="button button-outline" aria-pressed="${bilingual}">${t(bilingual?'hideIndonesian':'showIndonesian')}</button></div></div>
+    <a href="${({grammar:"grammar.html",utbk:"utbk.html",school:"school.html"})[m.placements[0].pathway]}" class="page-back">← ${t('backPath')}</a>
+    <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div></div>
     <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></section>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
     <div class="article-body">${blocks(d.blocks)}</div>
@@ -25,8 +26,8 @@ try{
     <div class="toolbar"><button type="button" id="complete">✓ ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
     <nav class="lesson-links" aria-label="${t('related')}">${previous?`<a href="${link(previous.id)}" class="button button-outline">← ${t('previousLesson')}</a>`:'<span></span>'}${following?`<a href="${link(following.id)}" class="button button-outline">${t('nextLesson')} →</a>`:''}</nav>
     ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ↗</a></p>`).join('')}</section>`:''}</article>`;
-    document.querySelector('#language-explanations').onclick=()=>{bilingual=!bilingual;syncBilingual()};
-    function syncBilingual(){document.querySelectorAll('.bilingual').forEach(el=>el.hidden=!bilingual);const btn=document.querySelector('#language-explanations');btn.textContent=t(bilingual?'hideIndonesian':'showIndonesian');btn.setAttribute('aria-pressed',String(bilingual))}syncBilingual();
+
+
     const target=document.querySelector('#practice');
     if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
     (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3><div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="false">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;

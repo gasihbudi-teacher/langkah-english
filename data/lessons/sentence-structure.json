@@ -1,0 +1,123 @@
+{
+  "id": "sentence-structure",
+  "objectives": [
+    "Menemukan subject dan verb dalam kalimat sederhana.",
+    "Mengenali pola S–V, S–V–O, serta S–be–complement.",
+    "Menghindari kalimat tanpa verb atau susunan kata yang keliru."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Kerangka kalimat bahasa Inggris"
+    },
+    {
+      "type": "text",
+      "text": "Kalimat sederhana biasanya memiliki subject (siapa/apa yang dibicarakan) dan predicate, yang mencakup verb. Pola dasar membantu kita memahami urutan kata ketika membaca atau menulis."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pola",
+        "Contoh",
+        "Penjelasan"
+      ],
+      "rows": [
+        [
+          "Subject + Verb (S–V)",
+          "Birds fly.",
+          "Birds adalah subject; fly adalah verb."
+        ],
+        [
+          "Subject + Verb + Object (S–V–O)",
+          "Nina reads novels.",
+          "Novels menerima tindakan reads."
+        ],
+        [
+          "Subject + be + Complement",
+          "Rani is happy.",
+          "Happy menjelaskan keadaan Rani."
+        ],
+        [
+          "Subject + Verb + Keterangan",
+          "They study at home.",
+          "At home menunjukkan tempat."
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Bedakan object dan keterangan"
+    },
+    {
+      "type": "text",
+      "text": "Object biasanya menerima tindakan dari verb. Pada “He opened the window”, window adalah object. Pada “He slept in the room”, in the room adalah keterangan tempat, bukan object dari slept."
+    },
+    {
+      "type": "rule",
+      "text": "Untuk kalimat afirmatif sederhana: Subject + Verb (+ Object/Complement/Keterangan). Bahasa Inggris umumnya tidak menggunakan urutan bebas untuk pola dasar ini."
+    },
+    {
+      "type": "example",
+      "text": "The students study English after school.",
+      "note": "Subject = The students; verb = study; object = English; keterangan waktu = after school."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "My sister very kind.",
+      "correct": "My sister is very kind.",
+      "explanation": "Kalimat membutuhkan verb. Di sini gunakan be (is) sebelum complement very kind."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Every morning reads Dika a book.",
+      "correct": "Dika reads a book every morning.",
+      "explanation": "Pola yang lebih alami adalah subject (Dika) + verb (reads) + object (a book) + keterangan waktu."
+    },
+    {
+      "type": "heading",
+      "text": "Coba analisis secara bertahap"
+    },
+    {
+      "type": "text",
+      "text": "Tandai kata kerja utama lebih dulu; tanyakan siapa/apa subjeknya, kemudian periksa apakah kata setelah verb berfungsi sebagai object, pelengkap, atau keterangan."
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Tentukan subject pada kalimat “The children play outside.”",
+      "choices": [
+        "play",
+        "The children",
+        "outside"
+      ],
+      "answer": 1,
+      "explanation": "The children adalah pelaku tindakan play."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pilih kalimat yang tersusun benar.",
+      "choices": [
+        "Likes she music.",
+        "She music likes.",
+        "She likes music."
+      ],
+      "answer": 2,
+      "explanation": "Urutannya adalah subject (She) + verb (likes) + object (music)."
+    },
+    {
+      "id": "q3",
+      "prompt": "Kalimat “My teacher ___ patient.” memerlukan …",
+      "choices": [
+        "is",
+        "have",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "My teacher adalah subject tunggal dan patient adalah adjective; gunakan is."
+    }
+  ],
+  "assessments": [
+    "quiz-sentence-structure"
+  ]
+}
