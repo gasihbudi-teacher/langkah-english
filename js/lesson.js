@@ -1,3 +1,37 @@
 import {resource,params,esc,blocks,link,progress,error} from './core.js';
-try{const {meta:m,data:d,catalog:c}=await resource(params.get('id'),'lesson');document.title=m.title+' · Langkah English';document.querySelector('#content').innerHTML=`<article class="reading"><a href="index.html#library">← Resource library</a><p class="eyebrow">${esc(m.difficulty)} / Lesson</p><h1>${esc(m.title)}</h1><p class="muted">${esc(m.description)}</p><div class="toolbar"><button id="language" class="secondary" aria-pressed="true">Hide Indonesian explanations</button><span class="badge">AI-generated · unofficial</span></div><section class="panel"><h2>What you’ll learn</h2><ul>${d.objectives.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></section>${blocks(d.blocks)}<section><h2>Try it yourself</h2><div id="practice"></div></section><section class="panel"><h2>Your next step</h2>${(d.assessments||[]).map(id=>{const r=c.resources.find(x=>x.id===id);return r?`<p><a class="button secondary" href="${link(id,'quiz')}">${esc(r.title)}</a></p>`:''}).join('')}<button id="complete">Mark lesson complete</button><p id="completion" role="status"></p></section><h2>Related learning</h2>${(m.relatedLessons||[]).map(id=>{const r=c.resources.find(x=>x.id===id);return r?`<p><a href="${link(r.id,r.type)}">${esc(r.title)}</a></p>`:''}).join('')}</article>`;
-let bilingual=true;document.querySelector('#language').onclick=e=>{bilingual=!bilingual;document.querySelectorAll('.bilingual').forEach(x=>x.hidden=!bilingual);e.target.textContent=bilingual?'Hide Indonesian explanations':'Show Indonesian explanations';e.target.setAttribute('aria-pressed',String(bilingual))};const target=document.querySelector('#practice');(d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${esc(q.prompt)}</h3><div class="choices">${q.choices.map((v,n)=>`<button class="choice" data-answer="${n}">${esc(v)}</button>`).join('')}</div><p role="status"></p>`;section.querySelectorAll('button').forEach(b=>b.onclick=()=>{section.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));section.querySelector('[role=status]').textContent=(Number(b.dataset.answer)===q.answer?'Correct. ':'Not quite. ')+q.explanation});target.append(section)});function state(){document.querySelector('#completion').textContent=progress.read().lessons[m.id]?'Completed. You can revisit this lesson anytime.':''}state();document.querySelector('#complete').onclick=()=>{progress.complete(m.id,m.title);state()}}catch(e){error(e)}
+import {t,initI18n,onLanguageChange,language} from './i18n.js';
+initI18n();
+try{
+  const {meta:m,data:d,catalog:c}=await resource(params.get('id'),'lesson');
+  document.title=m.title+' · Langkah English';
+  let bilingual=true;
+  const sort=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title);
+  const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>m.placements.some(y=>x.pathway===y.pathway&&(x.pathway!=='school'||x.grade===y.grade)))).sort(sort);
+  const here=same.findIndex(x=>x.id===m.id);
+  const previous=here>0?same[here-1]:null;
+  const following=here>=0&&here<same.length-1?same[here+1]:null;
+  const assessments=(d.assessments||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz')).filter(Boolean);
+  const related=(m.relatedLessons||[]).map(id=>c.resources.find(r=>r.id===id)).filter(Boolean);
+  const prerequisite=(m.prerequisites||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson')).filter(Boolean);
+  function render(){
+    document.querySelector('#content').innerHTML=`<article class="reading">
+    <a href="index.html?pathway=${encodeURIComponent(m.placements[0].pathway)}#library" class="page-back">← ${t('backPath')}</a>
+    <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div><div class="toolbar"><button type="button" id="language-explanations" class="button button-outline" aria-pressed="${bilingual}">${t(bilingual?'hideIndonesian':'showIndonesian')}</button></div></div>
+    <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></section>
+    ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
+    <div class="article-body">${blocks(d.blocks)}</div>
+    <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><div id="practice"></div></section>
+    <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ↗</a></p>`).join('')}
+    <div class="toolbar"><button type="button" id="complete">✓ ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
+    <nav class="lesson-links" aria-label="${t('related')}">${previous?`<a href="${link(previous.id)}" class="button button-outline">← ${t('previousLesson')}</a>`:'<span></span>'}${following?`<a href="${link(following.id)}" class="button button-outline">${t('nextLesson')} →</a>`:''}</nav>
+    ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ↗</a></p>`).join('')}</section>`:''}</article>`;
+    document.querySelector('#language-explanations').onclick=()=>{bilingual=!bilingual;syncBilingual()};
+    function syncBilingual(){document.querySelectorAll('.bilingual').forEach(el=>el.hidden=!bilingual);const btn=document.querySelector('#language-explanations');btn.textContent=t(bilingual?'hideIndonesian':'showIndonesian');btn.setAttribute('aria-pressed',String(bilingual))}syncBilingual();
+    const target=document.querySelector('#practice');
+    if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
+    (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3><div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="false">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;
+      const feedback=section.querySelector('[role="status"]');section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));feedback.hidden=false;feedback.textContent=(Number(btn.dataset.answer)===q.answer?t('correct'):t('notQuite'))+' '+q.explanation});target.append(section)});
+    const completion=document.querySelector('#completion');function status(){if(progress.read().lessons?.[m.id])completion.textContent=t('alreadyComplete');else completion.textContent=''}status();document.querySelector('#complete').onclick=()=>{if(!progress.read().lessons?.[m.id])progress.complete(m.id,m.title);completion.textContent=t('justComplete')};
+  }
+  render();onLanguageChange(render);
+}catch(e){error(e)}

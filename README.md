@@ -85,3 +85,25 @@ The progress repository interface in core.js isolates storage access for a futur
 Run `python tools/validate.py` for file, link, ID, block, answer-range and evidence checks. If Node is available, `node tests/scoring.mjs` tests scoring with all-correct, all-wrong, mixed and unanswered submissions plus invalid quiz rejection. Neither tool is required for hosting.
 
 Manual checks: filter pathways and grades; open both lesson styles; toggle Indonesian text; answer inline practice; mark completed and refresh; choose both quiz modes; navigate, flag and resume; submit with unanswered items; inspect review and retake; let a timer expire; test a nonexistent resource; inspect 390px and desktop widths. Missing/invalid resources display an actionable library link rather than a blank page.
+
+
+## Version 2.0 (2026-10-25)
+
+Langkah English V2 keeps the original static HTML/CSS/JavaScript structure, all original learning resources, their IDs, quiz scoring, and the `langkah.progress.v1` localStorage key. There is no build system, runtime CDN dependency, or server requirement.
+
+**Interface language:** select **EN / ID** in the header. The setting is saved under `langkah.language.v2` and translates interface labels. Educational materials remain in their original language; optional Indonesian lesson explanations remain independently show/hide-able.
+
+**Learning path:** grammar roadmap, grade cards, a student-friendly entry area, and the searchable library are generated from `data/catalog.json`. A blank category clearly says that content is coming soon. The existing library URL and `lesson.html?id=...` / `quiz.html?id=...` links still work.
+
+**Optional catalog metadata:**
+
+- `order`: non-negative integer ordering lessons within a pathway (smaller comes first).
+- `estimatedMinutes`: positive integer display estimate for lessons.
+- `prerequisites`: array of existing lesson IDs recommended before this one (nothing is locked).
+- `examFormat`: `sample`, `topic`, or `full` for quiz cards/intros; if `full`, the JSON quiz `referenceFormat.questionCount` and `referenceFormat.durationSeconds` must exactly match the actual quiz. Do not label a quiz `full` unless it truly matches the reference format.
+
+All fields above are **optional**. Adding any new lesson or test continues to require only the new JSON file and a `catalog.json` entry. See `docs/AUTHORING.md`.
+
+**Deployment:** With the GitHub repository root containing `index.html`, Cloudflare **Pages** requires no framework, build command `exit 0` and output directory `.`. Push all updated files to the existing repository to redeploy. Do not upload the ZIP itself into the repository. Back up or tag the previous working commit before replacing files.
+
+**Testing:** Run `python tools/validate.py` and `node tests/scoring.mjs` locally. Preview with `python -m http.server 8000` from the project root to allow JSON to load via `fetch`. An interactive browser check of lesson/quiz flows is recommended before deploying. See `docs/V2-CHANGES.md` for changes.

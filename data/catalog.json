@@ -121,7 +121,8 @@
       "file": "data/quizzes/grammar-foundations.json",
       "aiGenerated": true,
       "unofficial": true,
-      "kind": "test"
+      "kind": "test",
+      "examFormat": "topic"
     },
     {
       "id": "simple-present",
@@ -155,7 +156,9 @@
       ],
       "file": "data/lessons/simple-present.json",
       "aiGenerated": true,
-      "unofficial": true
+      "unofficial": true,
+      "order": 10,
+      "estimatedMinutes": 9
     },
     {
       "id": "subject-verb-agreement",
@@ -193,7 +196,12 @@
       ],
       "file": "data/lessons/subject-verb-agreement.json",
       "aiGenerated": true,
-      "unofficial": true
+      "unofficial": true,
+      "order": 20,
+      "estimatedMinutes": 10,
+      "prerequisites": [
+        "simple-present"
+      ]
     },
     {
       "id": "courtyard-reading",
@@ -230,7 +238,8 @@
       "file": "data/quizzes/courtyard-reading.json",
       "aiGenerated": true,
       "unofficial": true,
-      "kind": "practice"
+      "kind": "practice",
+      "examFormat": "sample"
     },
     {
       "id": "reading-strategies",
@@ -271,7 +280,9 @@
       ],
       "file": "data/lessons/reading-strategies.json",
       "aiGenerated": true,
-      "unofficial": true
+      "unofficial": true,
+      "order": 10,
+      "estimatedMinutes": 12
     },
     {
       "id": "grade9-reading",
@@ -300,7 +311,9 @@
       ],
       "file": "data/lessons/grade9-reading.json",
       "aiGenerated": true,
-      "unofficial": true
+      "unofficial": true,
+      "order": 10,
+      "estimatedMinutes": 8
     },
     {
       "id": "grade10-recount",
@@ -332,7 +345,12 @@
       ],
       "file": "data/lessons/grade10-recount.json",
       "aiGenerated": true,
-      "unofficial": true
+      "unofficial": true,
+      "order": 20,
+      "estimatedMinutes": 9,
+      "prerequisites": [
+        "grade9-reading"
+      ]
     },
     {
       "id": "school-reading-check",
@@ -367,7 +385,8 @@
       "file": "data/quizzes/school-reading-check.json",
       "aiGenerated": true,
       "unofficial": true,
-      "kind": "test"
+      "kind": "test",
+      "examFormat": "topic"
     },
     {
       "id": "school-reading-practice",
@@ -398,7 +417,8 @@
       "file": "data/quizzes/school-reading-practice.json",
       "aiGenerated": true,
       "unofficial": true,
-      "kind": "practice"
+      "kind": "practice",
+      "examFormat": "sample"
     }
   ]
 }

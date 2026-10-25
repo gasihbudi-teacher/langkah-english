@@ -20,6 +20,14 @@ for r in resources:
     for p in r['placements']:
         assert p['pathway'] in pathways
         assert 'grade' not in p or p['grade'] in (9,10,11,12)
+    if 'order' in r:
+        assert type(r['order']) is int and r['order'] >= 0, ('Invalid lesson order', r['id'])
+    if 'estimatedMinutes' in r:
+        assert type(r['estimatedMinutes']) is int and r['estimatedMinutes'] > 0, ('Invalid reading time', r['id'])
+    for ref in r.get('prerequisites', []):
+        assert r['type'] == 'lesson' and ref in by_id and by_id[ref]['type'] == 'lesson' and ref != r['id'], ('Invalid prerequisite', ref)
+    if 'examFormat' in r:
+        assert r['type'] == 'quiz' and r['examFormat'] in ('sample','topic','full'), ('Invalid quiz format',r['id'])
     for ref in r['relatedLessons']:
         assert ref in by_id, ('Missing related resource', ref)
     d = read(r['file'])
@@ -39,6 +47,9 @@ for r in resources:
     else:
         assert r['kind'] in ('practice','test')
         assert d['questionCount'] == len(d['questions']) > 0
+        if r.get('examFormat') == 'full':
+            ref=d.get('referenceFormat')
+            assert ref and ref['questionCount'] == d['questionCount'] and ref['durationSeconds'] == d['durationSeconds'], ('Full-length format mismatch', r['id'])
         assert isinstance(d['durationSeconds'],int) and d['durationSeconds'] >= 0
         assert len({p['id'] for p in d['passages']}) == len(d['passages'])
         passages = {p['id']:p['text'] for p in d['passages']}

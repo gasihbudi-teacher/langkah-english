@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 globalThis.location={search:''};
-const source=fs.readFileSync(new URL('../js/core.js',import.meta.url),'utf8');
+const source=fs.readFileSync(new URL('../js/core.js',import.meta.url),'utf8').replace('import {t} from "./i18n.js";','const t=k=>k;');
 const {score,validateQuiz}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 const d=JSON.parse(fs.readFileSync(new URL('../data/quizzes/grammar-foundations.json',import.meta.url)));
 validateQuiz(d);

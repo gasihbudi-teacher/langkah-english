@@ -95,3 +95,24 @@ Evidence should quote an exact substring of the passage. Explanations should con
 - Verify official formats against current SNPMB guidance before changing reference metadata.
 - Preview lesson, practice, simulation, results, mobile view and empty filters.
 - Keep IDs stable after publication. If a quiz changes substantially, consider publishing a new version ID.
+
+
+## V2 optional catalog fields
+
+The V2 interface accepts optional metadata on each entry in `data/catalog.json`:
+
+```json
+{
+  "order": 10,
+  "estimatedMinutes": 8,
+  "prerequisites": ["simple-present"]
+}
+```
+
+Use `order` and `estimatedMinutes` for lessons; include `prerequisites` only when the referenced IDs identify published lessons. They do not lock content. Existing lessons work without these fields.
+
+For a quiz, set `"examFormat": "sample"` or `"examFormat": "topic"`, and use `"full"` only when you deliberately created a full-length practice simulation. A quiz with `"examFormat": "full"` must also provide `referenceFormat` whose question count and duration match the actual quiz data. The validator checks this. AI-generated practice remains unofficial.
+
+A lesson can appear in multiple grade/pathway sections using the existing `placements` array. Do not duplicate its lesson JSON just to display it in different places.
+
+Major interface labels are translated in `js/i18n.js`. English content text is not machine-translated by switching the interface to Indonesian. Continue to supply optional lesson `idText` explanations where needed.
