@@ -35,6 +35,14 @@ try{
    html+=group('utbk-mocks','UTBK · Simulasi',quizzes.filter(r=>r.examFormat==='full'));
   }
   target.innerHTML=html;
+  const firstGroup=pathway==='grammar'?'beginner-materi':pathway==='school'?'grade-9-materi':'utbk-lessons';
+  if(!previousOpen.size && !location.hash){const first=document.getElementById(firstGroup);if(first)first.open=true;}
+  const relevant=resources.filter(r=>r.type==='lesson');
+  const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
+  const hero=document.querySelector('.pathway-hero');
+  let summary=hero.querySelector('.pathway-progress-summary');
+  if(!summary){summary=document.createElement('div');summary.className='pathway-progress-summary';hero.append(summary);}
+  summary.innerHTML=`<span>${t('pathwayProgress',{done:completed,total:relevant.length})}</span><span class="pathway-progress-track" aria-hidden="true"><span style="width:${relevant.length?Math.round(100*completed/relevant.length):0}%"></span></span>`;
   for(const id of previousOpen){const section=document.getElementById(id);if(section?.tagName==='DETAILS')section.open=true;}
   openForHash(false);
  }

@@ -33,6 +33,42 @@ try{
     ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ↗</a></p>`).join('')}</section>`:''}</article>`;
 
 
+    // V10 reader tools operate on the rendered V9 blocks without changing lesson content.
+    const reading=document.querySelector('#content .reading');
+    const intro=reading.querySelector('.reading-intro');
+    const targets=[
+      ['readOverview',reading.querySelector('.concept-definition')],
+      ['readGuide',reading.querySelector('.scaffold-guide')],
+      ['readExamples',reading.querySelector('.example-section')],
+      ['readPractice',reading.querySelector('#practice')],
+      ['readVocabulary',reading.querySelector('.lesson-vocabulary')],
+      ['readNext',reading.querySelector('.complete-box')]
+    ].filter(([,element])=>element);
+    for(const [key,element] of targets)if(!element.id)element.id='read-'+key;
+    const tools=document.createElement('nav');tools.className='lesson-tools';
+    tools.setAttribute('aria-label',t('readingContents'));
+    tools.innerHTML=`<span class="lesson-tools-text">${t('readingContents')}</span><div class="lesson-toc">${targets.map(([key,element])=>`<a href="#${element.id}">${t(key)}</a>`).join('')}</div><button class="focus-button" type="button" aria-pressed="false"></button>`;
+    intro.insertAdjacentElement('afterend',tools);
+    const focusButton=tools.querySelector('.focus-button');
+    const activeFocus=()=>{
+      focusButton.textContent=document.body.classList.contains('focus-reading')?`✕ ${t('exitFocus')}`:`◎ ${t('focusMode')}`;
+      focusButton.setAttribute('aria-pressed',String(document.body.classList.contains('focus-reading')));
+    };
+    activeFocus();focusButton.addEventListener('click',()=>{document.body.classList.toggle('focus-reading');activeFocus();});
+    if(!document.querySelector('#reading-progress')){
+      const bar=document.createElement('div');bar.id='reading-progress';bar.setAttribute('aria-hidden','true');bar.innerHTML='<span></span>';document.body.append(bar);
+    }
+    const updateReadingProgress=()=>{
+      const rect=reading.getBoundingClientRect();
+      const total=Math.max(1,reading.offsetHeight-innerHeight*.55);
+      const passed=Math.min(total,Math.max(0,-rect.top+innerHeight*.28));
+      const bar=document.querySelector('#reading-progress span');if(bar)bar.style.width=Math.round(passed/total*100)+'%';
+    };
+    if(window.__langkahReadingScrollHandler){removeEventListener('scroll',window.__langkahReadingScrollHandler);removeEventListener('resize',window.__langkahReadingScrollHandler);}
+    window.__langkahReadingScrollHandler=()=>requestAnimationFrame(updateReadingProgress);
+    addEventListener('scroll',window.__langkahReadingScrollHandler,{passive:true});addEventListener('resize',window.__langkahReadingScrollHandler);
+    updateReadingProgress();
+
     // Guided checks are formative only: no exam score, no persistence, no time pressure.
     document.querySelectorAll('[data-guided-check]').forEach(box=>{
       const output=box.querySelector('.checkpoint-result');const correct=Number(box.querySelector('[data-check-answer]').dataset.checkAnswer);

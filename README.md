@@ -1,3 +1,13 @@
+# Langkah English V10 — Learner-centered interface redesign (25 October 2026)
+
+**V10 is a presentation and navigation upgrade on top of the exact V9 learning dataset**, not a new educational-content release. All 54 lessons, 39 quizzes, 543 explained bilingual examples and three timed 20-question UTBK mocks are retained. The homepage is now a learner workspace with one recommended action, saved progress, compact course pathways, improved search, keyboard/mobile navigation, and a focus-reading mode for long lessons.
+
+**Research:** [V10 UX research and design rationale](docs/V10-UX-RESEARCH.md). **Release and testing:** [V10 redesign test report](docs/V10-REDESIGN-TEST-REPORT.md).
+
+**Install:** In GitHub Desktop on Linux Mint, pull the existing V9 clone, copy in the contents of the **V10 changed-files ZIP** (or the complete V10 ZIP if replacing a different baseline), run `python3 tools/validate.py` and `node tests/v9-quality.mjs`, review the diff, then commit/push. Do **not** replace the local `.git` folder. Preview the deployment on a real phone and desktop. This environment's Chromium network navigation was blocked; an isolated DOM browser smoke harness passed, but production browser QA is still required.
+
+---
+
 # Langkah English V9 — Teaching-quality overhaul (25 October 2026)
 
 **Version V9:** 54 revised lessons and 39 existing quiz resources (93 resources total), including the Grade 12 *Adverbial Phrase vs. Adverbial Clause* add-on. [V9 lesson guide](docs/V9-TEACHING-OVERHAUL.md) · [V9 test report](docs/V9-TEST-REPORT.md).
