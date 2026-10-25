@@ -2,7 +2,7 @@ import {t} from "./i18n.js";
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const params=new URLSearchParams(location.search);
 export const link=(id,type='lesson')=>`${type==='lesson'?'lesson':'quiz'}.html?id=${encodeURIComponent(id)}`;
-export function error(e){document.querySelector('#content, #resources').innerHTML=`<div class="error" role="alert"><h2>${t('errorTitle')}</h2><p>${esc(e.message)}</p><a href="index.html">${t('errorBack')}</a></div>`;}
+export function error(e){(document.querySelector('#content, #resources')||document.querySelector('main')).innerHTML=`<div class="error" role="alert"><h2>${t('errorTitle')}</h2><p>${esc(e.message)}</p><a href="index.html">${t('errorBack')}</a></div>`;}
 export async function load(path){const r=await fetch(path);if(!r.ok)throw Error(`Missing content (${r.status}). Please check the catalog and deployed files.`);try{return await r.json()}catch{throw Error('Format JSON tidak valid. Periksa file materi.')}}
 let catalog;
 export async function getCatalog(){if(!catalog){catalog=await load('data/catalog.json');if(!Array.isArray(catalog.resources))throw Error('Katalog tidak valid: resources harus berupa daftar.');const ids=new Set;for(const r of catalog.resources){if(!r.id||ids.has(r.id)||!['lesson','quiz'].includes(r.type)||!/^data\/(lessons|quizzes)\/[a-zA-Z0-9_/-]+\.json$/.test(r.file))throw Error('Entri katalog tidak valid atau terduplikasi.');ids.add(r.id)}}return catalog}

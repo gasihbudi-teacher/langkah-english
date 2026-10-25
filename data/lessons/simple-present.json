@@ -91,18 +91,24 @@
         "playing"
       ],
       "answer": 1,
-      "explanation": "My brother adalah subjek tunggal, sehingga play menjadi plays."
+      "explanation": "My brother adalah subjek tunggal, sehingga play menjadi plays.",
+      "translationId": {
+        "prompt": "Saudaraku ___ sepak bola setiap Jumat."
+      }
     },
     {
       "id": "p2",
-      "prompt": "Pilih pertanyaan bahasa Inggris yang benar.",
+      "prompt": "Choose the grammatically correct English question.",
       "choices": [
         "Does she reads?",
         "Does she read?",
         "Do she read?"
       ],
       "answer": 1,
-      "explanation": "She memakai does lalu diikuti verb dasar read."
+      "explanation": "She memakai does lalu diikuti verb dasar read.",
+      "translationId": {
+        "prompt": "Pilih pertanyaan bahasa Inggris yang benar."
+      }
     }
   ],
   "assessments": [

@@ -85,36 +85,45 @@
   "practice": [
     {
       "id": "q1",
-      "prompt": "Tentukan subject pada kalimat “The children play outside.”",
+      "prompt": "Identify the subject in “The children play outside”.",
       "choices": [
         "play",
         "The children",
         "outside"
       ],
       "answer": 1,
-      "explanation": "The children adalah pelaku tindakan play."
+      "explanation": "The children adalah pelaku tindakan play.",
+      "translationId": {
+        "prompt": "Tentukan subject pada kalimat “The children play outside.”"
+      }
     },
     {
       "id": "q2",
-      "prompt": "Pilih kalimat yang tersusun benar.",
+      "prompt": "Choose the correctly ordered sentence.",
       "choices": [
         "Likes she music.",
         "She music likes.",
         "She likes music."
       ],
       "answer": 2,
-      "explanation": "Urutannya adalah subject (She) + verb (likes) + object (music)."
+      "explanation": "Urutannya adalah subject (She) + verb (likes) + object (music).",
+      "translationId": {
+        "prompt": "Pilih kalimat yang tersusun benar."
+      }
     },
     {
       "id": "q3",
-      "prompt": "Kalimat “My teacher ___ patient.” memerlukan …",
+      "prompt": "What word completes “My teacher ___ patient”?",
       "choices": [
         "is",
         "have",
         "do"
       ],
       "answer": 0,
-      "explanation": "My teacher adalah subject tunggal dan patient adalah adjective; gunakan is."
+      "explanation": "My teacher adalah subject tunggal dan patient adalah adjective; gunakan is.",
+      "translationId": {
+        "prompt": "Kalimat “My teacher ___ patient.” memerlukan …"
+      }
     }
   ],
   "assessments": [

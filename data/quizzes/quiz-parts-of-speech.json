@@ -5,99 +5,129 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Dalam kalimat “Rani writes neatly”, kata “neatly” adalah …",
-      "choices": [
-        "Adjective",
-        "Adverb",
-        "Noun",
-        "Pronoun"
-      ],
-      "answer": 1,
-      "explanation": "Neatly menjelaskan cara Rani menulis, jadi merupakan adverb."
-    },
-    {
-      "id": "q2",
-      "prompt": "Manakah kata benda (noun) dalam “The garden looks beautiful”?",
-      "choices": [
-        "looks",
-        "beautiful",
-        "garden",
-        "the"
-      ],
-      "answer": 2,
-      "explanation": "Garden adalah nama tempat/benda yang sedang dibicarakan."
-    },
-    {
-      "id": "q3",
-      "prompt": "Kata “they” dalam “They arrive early” termasuk …",
+      "prompt": "In “Rani writes neatly”, what part of speech is “neatly”?",
       "choices": [
         "Pronoun",
-        "Verb",
-        "Adjective",
-        "Conjunction"
-      ],
-      "answer": 0,
-      "explanation": "They menggantikan kata benda orang-orang, sehingga merupakan pronoun."
-    },
-    {
-      "id": "q4",
-      "prompt": "Pada “A small bird flies”, kata “small” berfungsi sebagai …",
-      "choices": [
-        "Verb",
-        "Preposition",
+        "Noun",
         "Adjective",
         "Adverb"
       ],
+      "answer": 3,
+      "explanation": "Neatly menjelaskan cara Rani menulis, jadi merupakan adverb.",
+      "translationId": {
+        "prompt": "Dalam kalimat “Rani writes neatly”, kata “neatly” adalah …"
+      }
+    },
+    {
+      "id": "q2",
+      "prompt": "Which word is a noun in “The garden looks beautiful”?",
+      "choices": [
+        "the",
+        "looks",
+        "garden",
+        "beautiful"
+      ],
       "answer": 2,
-      "explanation": "Small menerangkan noun bird."
+      "explanation": "Garden adalah nama tempat/benda yang sedang dibicarakan.",
+      "translationId": {
+        "prompt": "Manakah kata benda (noun) dalam “The garden looks beautiful”?"
+      }
+    },
+    {
+      "id": "q3",
+      "prompt": "What part of speech is “they” in “They arrive early”?",
+      "choices": [
+        "Pronoun",
+        "Conjunction",
+        "Adjective",
+        "Verb"
+      ],
+      "answer": 0,
+      "explanation": "They menggantikan kata benda orang-orang, sehingga merupakan pronoun.",
+      "translationId": {
+        "prompt": "Kata “they” dalam “They arrive early” termasuk …"
+      }
+    },
+    {
+      "id": "q4",
+      "prompt": "What is the function of “small” in “A small bird flies”?",
+      "choices": [
+        "Preposition",
+        "Adjective",
+        "Verb",
+        "Adverb"
+      ],
+      "answer": 1,
+      "explanation": "Small menerangkan noun bird.",
+      "translationId": {
+        "prompt": "Pada “A small bird flies”, kata “small” berfungsi sebagai …"
+      }
     },
     {
       "id": "q5",
-      "prompt": "Pilih kata kerja utama dalam “My sister cooks dinner.”",
+      "prompt": "Identify the main verb in “My sister cooks dinner”.",
       "choices": [
         "sister",
-        "my",
         "dinner",
+        "my",
         "cooks"
       ],
       "answer": 3,
-      "explanation": "Cooks menyatakan tindakan yang dilakukan sister."
+      "explanation": "Cooks menyatakan tindakan yang dilakukan sister.",
+      "translationId": {
+        "prompt": "Pilih kata kerja utama dalam “My sister cooks dinner.”"
+      }
     },
     {
       "id": "q6",
-      "prompt": "Apa fungsi “and” dalam “I read and write”?",
+      "prompt": "What is the function of “and” in “I read and write”?",
       "choices": [
-        "Menggabungkan dua verb",
-        "Menunjukkan tempat",
-        "Menggantikan noun",
-        "Menyatakan sifat"
+        "It replaces a noun.",
+        "It indicates a place.",
+        "It connects two verbs.",
+        "It describes a quality."
       ],
-      "answer": 0,
-      "explanation": "And merupakan conjunction yang menghubungkan read dan write."
+      "answer": 2,
+      "explanation": "And merupakan conjunction yang menghubungkan read dan write.",
+      "translationId": {
+        "prompt": "Apa fungsi “and” dalam “I read and write”?",
+        "choices": [
+          "Menggantikan noun",
+          "Menunjukkan tempat",
+          "Menggabungkan dua verb",
+          "Menyatakan sifat"
+        ]
+      }
     },
     {
       "id": "q7",
-      "prompt": "Kata “in” pada “in the classroom” merupakan …",
+      "prompt": "What part of speech is “in” in “in the classroom”?",
       "choices": [
-        "Pronoun",
-        "Preposition",
         "Verb",
-        "Adjective"
+        "Preposition",
+        "Adjective",
+        "Pronoun"
       ],
       "answer": 1,
-      "explanation": "In menyatakan hubungan lokasi."
+      "explanation": "In menyatakan hubungan lokasi.",
+      "translationId": {
+        "prompt": "Kata “in” pada “in the classroom” merupakan …"
+      }
     },
     {
       "id": "q8",
-      "prompt": "Manakah pasangan yang tepat?",
+      "prompt": "Which pair is correct?",
       "choices": [
-        "quickly = adjective",
-        "beautiful = verb",
         "teacher = noun",
-        "under = conjunction"
+        "under = conjunction",
+        "quickly = adjective",
+        "beautiful = verb"
       ],
-      "answer": 2,
-      "explanation": "Teacher merupakan noun yang menyebut orang/profesi."
+      "answer": 0,
+      "explanation": "Teacher merupakan noun yang menyebut orang/profesi.",
+      "translationId": {
+        "prompt": "Manakah pasangan yang tepat?"
+      }
     }
   ],
   "passages": []

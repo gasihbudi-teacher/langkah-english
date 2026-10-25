@@ -56,36 +56,60 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Tujuan utama explanation text adalah …",
+      "prompt": "What is the main purpose of an explanation text?",
       "choices": [
-        "menjelaskan proses",
-        "menceritakan lelucon",
-        "menawarkan diskon"
+        "to explain a process",
+        "to tell a joke",
+        "to offer a discount"
       ],
       "answer": 0,
-      "explanation": "Genre explanation menguraikan bagaimana/mengapa sesuatu terjadi."
+      "explanation": "Genre explanation menguraikan bagaimana/mengapa sesuatu terjadi.",
+      "translationId": {
+        "prompt": "Tujuan utama explanation text adalah …",
+        "choices": [
+          "menjelaskan proses",
+          "menceritakan lelucon",
+          "menawarkan diskon"
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "“As a result” menunjukkan …",
+      "prompt": "What does “as a result” signal?",
       "choices": [
-        "akibat",
-        "perbandingan setara",
-        "kata ganti"
+        "a result",
+        "an equal comparison",
+        "a pronoun"
       ],
       "answer": 0,
-      "explanation": "As a result memperkenalkan konsekuensi."
+      "explanation": "As a result memperkenalkan konsekuensi.",
+      "translationId": {
+        "prompt": "“As a result” menunjukkan …",
+        "choices": [
+          "akibat",
+          "perbandingan setara",
+          "kata ganti"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "Dari contoh, apa yang terjadi setelah udara lembap naik?",
+      "prompt": "According to the example, what happens after moist air rises?",
       "choices": [
-        "Udara mendingin.",
-        "Air langsung menjadi es.",
-        "Langit pasti cerah."
+        "The air cools.",
+        "Water instantly turns into ice.",
+        "The sky definitely becomes clear."
       ],
       "answer": 0,
-      "explanation": "Kalimat kedua dari contoh menyebut cooling setelah rising."
+      "explanation": "Kalimat kedua dari contoh menyebut cooling setelah rising.",
+      "translationId": {
+        "prompt": "Dari contoh, apa yang terjadi setelah udara lembap naik?",
+        "choices": [
+          "Udara mendingin.",
+          "Air langsung menjadi es.",
+          "Langit pasti cerah."
+        ]
+      }
     }
   ],
   "assessments": []

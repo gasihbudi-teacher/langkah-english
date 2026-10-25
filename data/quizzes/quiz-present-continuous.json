@@ -7,73 +7,91 @@
       "id": "q1",
       "prompt": "Right now, she ___ a book.",
       "choices": [
-        "read",
         "reads",
+        "are reading",
         "is reading",
-        "are reading"
+        "read"
       ],
       "answer": 2,
-      "explanation": "She memakai is + reading untuk tindakan yang sedang berlangsung."
+      "explanation": "She memakai is + reading untuk tindakan yang sedang berlangsung.",
+      "translationId": {
+        "prompt": "Saat ini dia ___ sebuah buku."
+      }
     },
     {
       "id": "q2",
       "prompt": "They ___ dinner at the moment.",
       "choices": [
         "are cooking",
+        "cook usually",
         "is cooking",
-        "cooks",
-        "cook usually"
+        "cooks"
       ],
       "answer": 0,
-      "explanation": "They memakai are cooking; at the moment menunjukkan kegiatan saat ini."
+      "explanation": "They memakai are cooking; at the moment menunjukkan kegiatan saat ini.",
+      "translationId": {
+        "prompt": "Mereka ___ makan malam saat ini."
+      }
     },
     {
       "id": "q3",
-      "prompt": "Pilih pertanyaan yang benar.",
+      "prompt": "Choose the correct question.",
       "choices": [
-        "Do you studying?",
-        "Are you studying?",
+        "Are you study?",
         "Is you studying?",
-        "Are you study?"
+        "Are you studying?",
+        "Do you studying?"
       ],
-      "answer": 1,
-      "explanation": "Pertanyaan: Are + you + studying?"
+      "answer": 2,
+      "explanation": "Pertanyaan: Are + you + studying?",
+      "translationId": {
+        "prompt": "Pilih pertanyaan yang benar."
+      }
     },
     {
       "id": "q4",
       "prompt": "He ___ not watching television.",
       "choices": [
+        "is",
         "am",
         "are",
-        "do",
-        "is"
+        "do"
       ],
-      "answer": 3,
-      "explanation": "He dipasangkan dengan is."
+      "answer": 0,
+      "explanation": "He dipasangkan dengan is.",
+      "translationId": {
+        "prompt": "Dia ___ tidak sedang menonton televisi."
+      }
     },
     {
       "id": "q5",
-      "prompt": "Bentuk -ing yang benar dari “make” adalah …",
+      "prompt": "What is the correct -ing form of “make”?",
       "choices": [
+        "makking",
         "makeing",
         "makes",
-        "making",
-        "makking"
+        "making"
       ],
-      "answer": 2,
-      "explanation": "Huruf e terakhir pada make dihilangkan: making."
+      "answer": 3,
+      "explanation": "Huruf e terakhir pada make dihilangkan: making.",
+      "translationId": {
+        "prompt": "Bentuk -ing yang benar dari “make” adalah …"
+      }
     },
     {
       "id": "q6",
-      "prompt": "Kalimat yang menunjukkan kebiasaan adalah …",
+      "prompt": "Which sentence describes a habit?",
       "choices": [
+        "I am writing right now.",
         "She plays tennis every Friday.",
-        "She is playing now.",
         "They are studying at this moment.",
-        "I am writing right now."
+        "She is playing now."
       ],
-      "answer": 0,
-      "explanation": "Every Friday menunjukkan kebiasaan; gunakan simple present."
+      "answer": 1,
+      "explanation": "Every Friday menunjukkan kebiasaan; gunakan simple present.",
+      "translationId": {
+        "prompt": "Kalimat yang menunjukkan kebiasaan adalah …"
+      }
     },
     {
       "id": "q7",
@@ -81,23 +99,29 @@
       "choices": [
         "is playing",
         "are playing",
-        "plays",
-        "play usually"
+        "play usually",
+        "plays"
       ],
       "answer": 1,
-      "explanation": "Children jamak, sehingga are playing."
+      "explanation": "Children jamak, sehingga are playing.",
+      "translationId": {
+        "prompt": "Anak-anak itu ___ bermain di luar sekarang."
+      }
     },
     {
       "id": "q8",
-      "prompt": "Manakah kalimat present continuous yang tepat?",
+      "prompt": "Which sentence uses the present continuous correctly?",
       "choices": [
+        "We learning English.",
         "We are learn English.",
         "We is learning English.",
-        "We learning English.",
         "We are learning English."
       ],
       "answer": 3,
-      "explanation": "We memerlukan are diikuti learning."
+      "explanation": "We memerlukan are diikuti learning.",
+      "translationId": {
+        "prompt": "Manakah kalimat present continuous yang tepat?"
+      }
     }
   ],
   "passages": []

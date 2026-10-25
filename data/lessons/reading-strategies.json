@@ -98,14 +98,22 @@
   "practice": [
     {
       "id": "rs1",
-      "prompt": "Sebuah teks menyatakan: “Sales rose after a redesign, although prices also fell.” Kesimpulan mana yang didukung teks?",
+      "prompt": "A text states: “Sales rose after a redesign, although prices also fell.” Which conclusion is supported?",
       "choices": [
         "Only the redesign caused higher sales.",
         "The price change may also help explain higher sales.",
         "The redesign had no effect."
       ],
       "answer": 1,
-      "explanation": "Although memperkenalkan faktor lain yang mungkin berpengaruh. Teks belum membuktikan bahwa perubahan desain merupakan satu-satunya penyebab."
+      "explanation": "Although memperkenalkan faktor lain yang mungkin berpengaruh. Teks belum membuktikan bahwa perubahan desain merupakan satu-satunya penyebab.",
+      "translationId": {
+        "prompt": "Sebuah teks menyatakan: “Sales rose after a redesign, although prices also fell.” Kesimpulan mana yang didukung teks?",
+        "choices": [
+          "Hanya desain ulang yang meningkatkan penjualan.",
+          "Perubahan harga mungkin juga membantu menjelaskan kenaikan penjualan.",
+          "Desain ulang itu tidak berpengaruh."
+        ]
+      }
     }
   ],
   "assessments": [

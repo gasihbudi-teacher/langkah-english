@@ -5,91 +5,124 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Manakah subject dalam “My friends enjoy music”?",
+      "prompt": "What is the subject in “My friends enjoy music”?",
       "choices": [
-        "enjoy",
         "music",
         "My friends",
+        "enjoy",
         "friends enjoy"
       ],
-      "answer": 2,
-      "explanation": "My friends adalah subjek yang menikmati musik."
+      "answer": 1,
+      "explanation": "My friends adalah subjek yang menikmati musik.",
+      "translationId": {
+        "prompt": "Manakah subject dalam “My friends enjoy music”?"
+      }
     },
     {
       "id": "q2",
-      "prompt": "Pilih pola yang sesuai untuk “Lina eats rice.”",
+      "prompt": "Choose the correct sentence pattern for “Lina eats rice”.",
       "choices": [
-        "S–V–O",
         "S–be–Complement",
+        "S–O–V",
         "V–S–O",
-        "S–O–V"
+        "S–V–O"
       ],
-      "answer": 0,
-      "explanation": "Lina = subject, eats = verb, rice = object."
+      "answer": 3,
+      "explanation": "Lina = subject, eats = verb, rice = object.",
+      "translationId": {
+        "prompt": "Pilih pola yang sesuai untuk “Lina eats rice.”"
+      }
     },
     {
       "id": "q3",
-      "prompt": "Kalimat manakah yang lengkap?",
+      "prompt": "Which sentence is complete?",
       "choices": [
-        "The boy very tired.",
-        "The boy is very tired.",
         "Very tired the boy.",
+        "The boy is very tired.",
+        "The boy very tired.",
         "The is boy tired."
       ],
       "answer": 1,
-      "explanation": "Is bertindak sebagai verb penghubung subject dan complement."
+      "explanation": "Is bertindak sebagai verb penghubung subject dan complement.",
+      "translationId": {
+        "prompt": "Kalimat manakah yang lengkap?"
+      }
     },
     {
       "id": "q4",
-      "prompt": "Dalam “She reads at night”, frasa “at night” adalah …",
+      "prompt": "In “She reads at night”, what is the role of “at night”?",
       "choices": [
-        "Subject",
-        "Object",
         "Verb",
-        "Keterangan waktu"
+        "Subject",
+        "Time expression",
+        "Object"
       ],
-      "answer": 3,
-      "explanation": "At night menjelaskan kapan kegiatan membaca dilakukan."
+      "answer": 2,
+      "explanation": "At night menjelaskan kapan kegiatan membaca dilakukan.",
+      "translationId": {
+        "prompt": "Dalam “She reads at night”, frasa “at night” adalah …",
+        "choices": [
+          "Verb",
+          "Subject",
+          "Keterangan waktu",
+          "Object"
+        ]
+      }
     },
     {
       "id": "q5",
-      "prompt": "Pilih susunan kalimat afirmatif yang paling tepat.",
+      "prompt": "Choose the correct affirmative word order.",
       "choices": [
-        "Books reads Nisa.",
         "Nisa books reads.",
+        "Reads Nisa books.",
         "Nisa reads books.",
-        "Reads Nisa books."
+        "Books reads Nisa."
       ],
       "answer": 2,
-      "explanation": "Pola utamanya subject + verb + object."
+      "explanation": "Pola utamanya subject + verb + object.",
+      "translationId": {
+        "prompt": "Pilih susunan kalimat afirmatif yang paling tepat."
+      }
     },
     {
       "id": "q6",
-      "prompt": "Apa verb pada “The cat sleeps”?",
+      "prompt": "What is the verb in “The cat sleeps”?",
       "choices": [
-        "The",
-        "cat",
         "sleeps",
+        "cat",
+        "The",
         "The cat"
       ],
-      "answer": 2,
-      "explanation": "Sleeps menyatakan tindakan/keadaan yang dilakukan oleh cat."
+      "answer": 0,
+      "explanation": "Sleeps menyatakan tindakan/keadaan yang dilakukan oleh cat.",
+      "translationId": {
+        "prompt": "Apa verb pada “The cat sleeps”?"
+      }
     },
     {
       "id": "q7",
-      "prompt": "Manakah object dalam “We bought a notebook”?",
+      "prompt": "What is the object in “We bought a notebook”?",
       "choices": [
+        "There is no object",
         "We",
         "bought",
-        "a notebook",
-        "Tidak ada object"
+        "a notebook"
       ],
-      "answer": 2,
-      "explanation": "A notebook adalah benda yang dibeli."
+      "answer": 3,
+      "explanation": "A notebook adalah benda yang dibeli.",
+      "translationId": {
+        "prompt": "Manakah object dalam “We bought a notebook”?",
+        "choices": [
+          "Tidak ada object",
+          "We",
+          "bought",
+          "a notebook"
+        ]
+      }
     },
     {
       "id": "q8",
-      "prompt": "Pilih kalimat dengan pola S–V yang benar.",
+      "prompt": "Choose a correctly formed subject–verb sentence.",
       "choices": [
         "Birds fly.",
         "Birds are fly.",
@@ -97,7 +130,10 @@
         "Fly birds."
       ],
       "answer": 0,
-      "explanation": "Birds berfungsi sebagai subject dan fly sebagai verb utama."
+      "explanation": "Birds berfungsi sebagai subject dan fly sebagai verb utama.",
+      "translationId": {
+        "prompt": "Pilih kalimat dengan pola S–V yang benar."
+      }
     }
   ],
   "passages": []

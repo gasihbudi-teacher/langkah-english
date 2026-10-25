@@ -50,36 +50,60 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Ciri fisik reading room di contoh adalah …",
+      "prompt": "What physical feature does the reading room have in the example?",
       "choices": [
         "two wide windows",
         "two busy streets",
         "a tall mountain"
       ],
       "answer": 0,
-      "explanation": "Jendela dijelaskan langsung dalam bacaan."
+      "explanation": "Jendela dijelaskan langsung dalam bacaan.",
+      "translationId": {
+        "prompt": "Ciri fisik reading room di contoh adalah …",
+        "choices": [
+          "dua jendela lebar",
+          "dua jalan ramai",
+          "gunung tinggi"
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "Tujuan utama descriptive text adalah …",
+      "prompt": "What is the main purpose of a descriptive text?",
       "choices": [
-        "menggambarkan suatu objek",
-        "menjelaskan langkah memasak",
-        "membuktikan rumus fisika"
+        "to describe something",
+        "to explain cooking steps",
+        "to prove a physics formula"
       ],
       "answer": 0,
-      "explanation": "Descriptive text memberikan gambaran rinci."
+      "explanation": "Descriptive text memberikan gambaran rinci.",
+      "translationId": {
+        "prompt": "Tujuan utama descriptive text adalah …",
+        "choices": [
+          "menggambarkan suatu objek",
+          "menjelaskan langkah memasak",
+          "membuktikan rumus fisika"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "“Peaceful” paling dekat dengan …",
+      "prompt": "Which word is closest in meaning to “peaceful”?",
       "choices": [
-        "tenang",
-        "bising",
-        "mahal"
+        "calm",
+        "noisy",
+        "expensive"
       ],
       "answer": 0,
-      "explanation": "Peaceful menggambarkan suasana yang tenang."
+      "explanation": "Peaceful menggambarkan suasana yang tenang.",
+      "translationId": {
+        "prompt": "“Peaceful” paling dekat dengan …",
+        "choices": [
+          "tenang",
+          "bising",
+          "mahal"
+        ]
+      }
     }
   ],
   "assessments": []

@@ -54,25 +54,41 @@
   "practice": [
     {
       "id": "t1",
-      "prompt": "Apa kegiatan pertama kelas di perpustakaan?",
+      "prompt": "What did the class do first at the library?",
       "choices": [
         "Recommended books",
         "Learned how donated books were sorted",
         "Repaired covers"
       ],
       "answer": 1,
-      "explanation": "First menjelaskan bahwa relawan menunjukkan cara buku donasi dipilah."
+      "explanation": "First menjelaskan bahwa relawan menunjukkan cara buku donasi dipilah.",
+      "translationId": {
+        "prompt": "Apa kegiatan pertama kelas di perpustakaan?",
+        "choices": [
+          "Merekomendasikan buku",
+          "Mempelajari cara menyortir buku sumbangan",
+          "Memperbaiki sampul"
+        ]
+      }
     },
     {
       "id": "t2",
-      "prompt": "Apa yang dipelajari narator?",
+      "prompt": "What did the narrator learn?",
       "choices": [
         "Small libraries need teamwork.",
         "Libraries never need volunteers.",
         "All books need new covers."
       ],
       "answer": 0,
-      "explanation": "Kalimat terakhir menyatakan narator menyadari pentingnya kerja sama dalam perpustakaan kecil."
+      "explanation": "Kalimat terakhir menyatakan narator menyadari pentingnya kerja sama dalam perpustakaan kecil.",
+      "translationId": {
+        "prompt": "Apa yang dipelajari narator?",
+        "choices": [
+          "Perpustakaan kecil memerlukan kerja sama.",
+          "Perpustakaan tidak pernah memerlukan relawan.",
+          "Semua buku memerlukan sampul baru."
+        ]
+      }
     }
   ],
   "assessments": [

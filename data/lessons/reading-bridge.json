@@ -44,36 +44,55 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "“The cat slept under the chair.” Apa kegiatan cat?",
+      "prompt": "In “The cat slept under the chair”, what did the cat do?",
       "choices": [
         "slept",
         "chair",
         "under"
       ],
       "answer": 0,
-      "explanation": "Verb slept = tidur."
+      "explanation": "Verb slept = tidur.",
+      "translationId": {
+        "prompt": "“The cat slept under the chair.” Apa kegiatan cat?"
+      }
     },
     {
       "id": "p2",
-      "prompt": "“It rained. Therefore, the game stopped.” Therefore artinya …",
+      "prompt": "In “It rained. Therefore, the game stopped”, what does “therefore” mean?",
       "choices": [
-        "jadi/akibatnya",
-        "walaupun",
-        "sebelum"
+        "therefore / as a result",
+        "although",
+        "before"
       ],
       "answer": 0,
-      "explanation": "Therefore memperkenalkan akibat."
+      "explanation": "Therefore memperkenalkan akibat.",
+      "translationId": {
+        "prompt": "“It rained. Therefore, the game stopped.” Therefore artinya …",
+        "choices": [
+          "jadi/akibatnya",
+          "walaupun",
+          "sebelum"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "“Many students cycle to school because it is affordable.” Ide utama adalah …",
+      "prompt": "Many students cycle to school because it is affordable. What is the main idea?",
       "choices": [
-        "Bersepeda ke sekolah populer karena terjangkau.",
-        "Semua siswa memiliki sepeda mahal.",
-        "Sekolah melarang kendaraan."
+        "Cycling to school is popular because it is affordable.",
+        "Every student owns an expensive bicycle.",
+        "The school has banned vehicles."
       ],
       "answer": 0,
-      "explanation": "Jawaban menyatukan kegiatan dan alasannya tanpa tambahan asumsi."
+      "explanation": "Jawaban menyatukan kegiatan dan alasannya tanpa tambahan asumsi.",
+      "translationId": {
+        "prompt": "“Many students cycle to school because it is affordable.” Ide utama adalah …",
+        "choices": [
+          "Bersepeda ke sekolah populer karena terjangkau.",
+          "Semua siswa memiliki sepeda mahal.",
+          "Sekolah melarang kendaraan."
+        ]
+      }
     }
   ],
   "assessments": [

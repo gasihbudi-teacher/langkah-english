@@ -62,7 +62,10 @@
         "She enjoys hike, drawing, and sing."
       ],
       "answer": 1,
-      "explanation": "Semua gerund sejajar."
+      "explanation": "Semua gerund sejajar.",
+      "translationId": {
+        "prompt": "Pilih daftar dengan bentuk sejajar."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "to collect"
       ],
       "answer": 1,
-      "explanation": "Collecting setara dengan reporting."
+      "explanation": "Collecting setara dengan reporting.",
+      "translationId": {
+        "prompt": "Tugas kita adalah ___ data dan melaporkan hasil."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "Both care and patience person"
       ],
       "answer": 1,
-      "explanation": "Careful dan patient adalah adjectives."
+      "explanation": "Careful dan patient adalah adjectives.",
+      "translationId": {
+        "prompt": "Pilih pasangan yang benar."
+      }
     }
   ],
   "assessments": [

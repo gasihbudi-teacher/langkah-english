@@ -35,36 +35,55 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Kesimpulan paling didukung oleh survei 25 sukarelawan di atas adalah …",
+      "prompt": "Which conclusion is best supported by the survey of 25 volunteers?",
       "choices": [
-        "18 sukarelawan yang menjawab menyukai jadwal baru.",
-        "Semua siswa menyukai jadwal baru.",
-        "Jadwal baru menaikkan nilai ujian."
+        "Eighteen responding volunteers liked the new schedule.",
+        "All students liked the new schedule.",
+        "The new schedule improved exam marks."
       ],
       "answer": 0,
-      "explanation": "Data berlaku pada responden yang ditanya."
+      "explanation": "Data berlaku pada responden yang ditanya.",
+      "translationId": {
+        "prompt": "Kesimpulan paling didukung oleh survei 25 sukarelawan di atas adalah …",
+        "choices": [
+          "18 sukarelawan yang menjawab menyukai jadwal baru.",
+          "Semua siswa menyukai jadwal baru.",
+          "Jadwal baru menaikkan nilai ujian."
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "Apa kelemahan utama generalisasi?",
+      "prompt": "What is the main limitation when generalising the results?",
       "choices": [
-        "Pemilihan sukarelawan bisa bias.",
-        "Angka tidak dapat dibaca.",
-        "Perpustakaan tidak memiliki pintu."
+        "Volunteer selection may be biased.",
+        "The numbers cannot be read.",
+        "The library has no door."
       ],
       "answer": 0,
-      "explanation": "Voluntary response bias bisa membatasi representasi."
+      "explanation": "Voluntary response bias bisa membatasi representasi.",
+      "translationId": {
+        "prompt": "Apa kelemahan utama generalisasi?",
+        "choices": [
+          "Pemilihan sukarelawan bisa bias.",
+          "Angka tidak dapat dibaca.",
+          "Perpustakaan tidak memiliki pintu."
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "Kata mana menandakan kepastian yang berlebihan?",
+      "prompt": "Which word signals excessive certainty?",
       "choices": [
         "may",
         "perhaps",
         "always"
       ],
       "answer": 2,
-      "explanation": "Always menyatakan tanpa pengecualian."
+      "explanation": "Always menyatakan tanpa pengecualian.",
+      "translationId": {
+        "prompt": "Kata mana menandakan kepastian yang berlebihan?"
+      }
     }
   ],
   "assessments": [

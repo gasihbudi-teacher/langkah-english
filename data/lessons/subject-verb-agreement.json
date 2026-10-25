@@ -79,7 +79,10 @@
         "be"
       ],
       "answer": 1,
-      "explanation": "Pages adalah subjek jamak. Frasa in this notebook hanya menjelaskan pages."
+      "explanation": "Pages adalah subjek jamak. Frasa in this notebook hanya menjelaskan pages.",
+      "translationId": {
+        "prompt": "Halaman-halaman dalam buku catatan ini ___ kosong."
+      }
     },
     {
       "id": "s2",
@@ -90,7 +93,10 @@
         "having"
       ],
       "answer": 0,
-      "explanation": "Every learner dianggap tunggal, sehingga gunakan has."
+      "explanation": "Every learner dianggap tunggal, sehingga gunakan has.",
+      "translationId": {
+        "prompt": "Setiap pembelajar ___ titik awal yang berbeda."
+      }
     }
   ],
   "assessments": [

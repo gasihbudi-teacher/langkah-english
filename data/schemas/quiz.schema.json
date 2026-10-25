@@ -86,6 +86,21 @@
           },
           "skill": {
             "type": "string"
+          },
+          "translationId": {
+            "type": "object",
+            "properties": {
+              "prompt": {
+                "type": "string"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
           }
         }
       }

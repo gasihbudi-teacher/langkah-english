@@ -50,36 +50,60 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Dalam kisah pendek, apa complication?",
+      "prompt": "What is the complication in the short story?",
       "choices": [
         "Lala lost the map.",
         "She found the station.",
         "The sun was bright."
       ],
       "answer": 0,
-      "explanation": "Kehilangan peta adalah masalah utama."
+      "explanation": "Kehilangan peta adalah masalah utama.",
+      "translationId": {
+        "prompt": "Dalam kisah pendek, apa complication?",
+        "choices": [
+          "Lala kehilangan peta.",
+          "Dia menemukan stasiun.",
+          "Matahari bersinar cerah."
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "“Finally” menandakan …",
+      "prompt": "What does “finally” signal?",
       "choices": [
-        "akhir peristiwa",
-        "sebab ilmiah",
-        "pertentangan"
+        "the end of a sequence",
+        "a scientific cause",
+        "a contrast"
       ],
       "answer": 0,
-      "explanation": "Finally merujuk tahap akhir."
+      "explanation": "Finally merujuk tahap akhir.",
+      "translationId": {
+        "prompt": "“Finally” menandakan …",
+        "choices": [
+          "akhir peristiwa",
+          "sebab ilmiah",
+          "pertentangan"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "Pesan pembaca yang paling kuat?",
+      "prompt": "Which message is most strongly supported by the story?",
       "choices": [
-        "Meminta bantuan dapat membantu menyelesaikan masalah.",
-        "Semua toko tutup.",
-        "Peta tidak pernah dipakai."
+        "Asking for help can solve problems.",
+        "Every shop is closed.",
+        "The map was never used."
       ],
       "answer": 0,
-      "explanation": "Lala meminta petunjuk dan menemukan stasiun."
+      "explanation": "Lala meminta petunjuk dan menemukan stasiun.",
+      "translationId": {
+        "prompt": "Pesan pembaca yang paling kuat?",
+        "choices": [
+          "Meminta bantuan dapat membantu menyelesaikan masalah.",
+          "Semua toko tutup.",
+          "Peta tidak pernah dipakai."
+        ]
+      }
     }
   ],
   "assessments": []

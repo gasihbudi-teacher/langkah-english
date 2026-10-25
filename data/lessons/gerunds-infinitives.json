@@ -62,7 +62,10 @@
         "to learning"
       ],
       "answer": 1,
-      "explanation": "Enjoy + gerund."
+      "explanation": "Enjoy + gerund.",
+      "translationId": {
+        "prompt": "Aku suka ___ kata-kata baru."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "to visit"
       ],
       "answer": 2,
-      "explanation": "Plan + to-infinitive."
+      "explanation": "Plan + to-infinitive.",
+      "translationId": {
+        "prompt": "Kami berencana ___ museum pada hari Jumat."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "to find"
       ],
       "answer": 1,
-      "explanation": "At (preposition) + V-ing."
+      "explanation": "At (preposition) + V-ing.",
+      "translationId": {
+        "prompt": "Dia pandai ___ bukti."
+      }
     }
   ],
   "assessments": [

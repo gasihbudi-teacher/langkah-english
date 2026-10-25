@@ -65,36 +65,60 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "“The results suggest a pattern.” Suggest berarti …",
+      "prompt": "In “The results suggest a pattern”, what does “suggest” mean?",
       "choices": [
-        "mengisyaratkan",
-        "membuktikan tanpa keraguan",
-        "menolak"
+        "indicates or suggests",
+        "proves beyond any doubt",
+        "rejects"
       ],
       "answer": 0,
-      "explanation": "Suggest menunjukkan kemungkinan berdasar temuan."
+      "explanation": "Suggest menunjukkan kemungkinan berdasar temuan.",
+      "translationId": {
+        "prompt": "“The results suggest a pattern.” Suggest berarti …",
+        "choices": [
+          "mengisyaratkan",
+          "membuktikan tanpa keraguan",
+          "menolak"
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "“Approximately forty people” berarti …",
+      "prompt": "What does “approximately forty people” mean?",
       "choices": [
-        "tepat empat puluh",
-        "sekitar empat puluh",
-        "kurang dari empat"
+        "exactly forty",
+        "about forty",
+        "fewer than four"
       ],
       "answer": 1,
-      "explanation": "Approximately = roughly/sekitar."
+      "explanation": "Approximately = roughly/sekitar.",
+      "translationId": {
+        "prompt": "“Approximately forty people” berarti …",
+        "choices": [
+          "tepat empat puluh",
+          "sekitar empat puluh",
+          "kurang dari empat"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "“However” menandai hubungan …",
+      "prompt": "What relationship does “however” indicate?",
       "choices": [
-        "kontras",
-        "penambahan yang sama",
-        "urutan angka"
+        "contrast",
+        "an equivalent addition",
+        "numerical sequence"
       ],
       "answer": 0,
-      "explanation": "However mengenalkan pertentangan atau pengecualian."
+      "explanation": "However mengenalkan pertentangan atau pengecualian.",
+      "translationId": {
+        "prompt": "“However” menandai hubungan …",
+        "choices": [
+          "kontras",
+          "penambahan yang sama",
+          "urutan angka"
+        ]
+      }
     }
   ],
   "assessments": []

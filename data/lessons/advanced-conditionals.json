@@ -57,7 +57,10 @@
         "had felt"
       ],
       "answer": 0,
-      "explanation": "Akibat kini dari syarat lampau: would + V1."
+      "explanation": "Akibat kini dari syarat lampau: would + V1.",
+      "translationId": {
+        "prompt": "Jika dahulu ia berlatih, sekarang ia ___ lebih percaya diri."
+      }
     },
     {
       "id": "p2",
@@ -68,7 +71,10 @@
         "If had we left earlier, we would arrive."
       ],
       "answer": 0,
-      "explanation": "Had + subject + V3 dengan hasil past conditional."
+      "explanation": "Had + subject + V3 dengan hasil past conditional.",
+      "translationId": {
+        "prompt": "Pilih kalimat inversi conditional yang benar."
+      }
     },
     {
       "id": "p3",
@@ -79,7 +85,10 @@
         "was"
       ],
       "answer": 0,
-      "explanation": "Mixed conditional hasil saat ini: would be."
+      "explanation": "Mixed conditional hasil saat ini: would be.",
+      "translationId": {
+        "prompt": "Jika dahulu ia berhasil naik bus, sekarang ia ___ di sini."
+      }
     }
   ],
   "assessments": [

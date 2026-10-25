@@ -62,7 +62,10 @@
         "could"
       ],
       "answer": 1,
-      "explanation": "Compulsory menandakan kewajiban."
+      "explanation": "Compulsory menandakan kewajiban.",
+      "translationId": {
+        "prompt": "Kamu ___ memakai helm di tempat ini; itu wajib."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "can not to"
       ],
       "answer": 0,
-      "explanation": "Might menandakan kemungkinan, bukan kepastian."
+      "explanation": "Might menandakan kemungkinan, bukan kepastian.",
+      "translationId": {
+        "prompt": "Besok mungkin ___ dingin; ramalannya belum pasti."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "must"
       ],
       "answer": 1,
-      "explanation": "Tidak wajib berbeda dari dilarang."
+      "explanation": "Tidak wajib berbeda dari dilarang.",
+      "translationId": {
+        "prompt": "Kamu ___ membawa pena. Kami memiliki cadangan."
+      }
     }
   ],
   "assessments": [

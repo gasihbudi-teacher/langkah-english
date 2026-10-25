@@ -62,7 +62,10 @@
         "Rarely had heard I that."
       ],
       "answer": 1,
-      "explanation": "Rarely + auxiliary + subject + V3."
+      "explanation": "Rarely + auxiliary + subject + V3.",
+      "translationId": {
+        "prompt": "Pilih inversi yang benar."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "was"
       ],
       "answer": 0,
-      "explanation": "Did memicu bentuk dasar arrive."
+      "explanation": "Did memicu bentuk dasar arrive.",
+      "translationId": {
+        "prompt": "Dia tidak hanya ___ datang lebih awal, tetapi juga membantu."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "is"
       ],
       "answer": 0,
-      "explanation": "Present perfect inversion: has she been."
+      "explanation": "Present perfect inversion: has she been.",
+      "translationId": {
+        "prompt": "Belum pernah ___ dia seyakin ini."
+      }
     }
   ],
   "assessments": [

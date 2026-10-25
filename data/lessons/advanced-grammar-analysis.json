@@ -55,25 +55,36 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "“Unless the road reopens, we will delay the trip.” Artinya …",
+      "prompt": "What does “Unless the road reopens, we will delay the trip” mean?",
       "choices": [
-        "Perjalanan ditunda jika jalan tetap tertutup.",
-        "Perjalanan pasti tetap dilakukan.",
-        "Jalan dibuka karena perjalanan ditunda."
+        "The trip will be postponed if the road stays closed.",
+        "The trip will definitely go ahead.",
+        "The road opened because the trip was postponed."
       ],
       "answer": 0,
-      "explanation": "Unless means if not."
+      "explanation": "Unless means if not.",
+      "translationId": {
+        "prompt": "“Unless the road reopens, we will delay the trip.” Artinya …",
+        "choices": [
+          "Perjalanan ditunda jika jalan tetap tertutup.",
+          "Perjalanan pasti tetap dilakukan.",
+          "Jalan dibuka karena perjalanan ditunda."
+        ]
+      }
     },
     {
       "id": "p2",
-      "prompt": "“The findings, which were reviewed, suggest a trend.” Bagian mana berfungsi sebagai keterangan tambahan?",
+      "prompt": "Which part of “The findings, which were reviewed, suggest a trend” adds extra information?",
       "choices": [
         "which were reviewed",
         "The findings",
         "suggest a trend"
       ],
       "answer": 0,
-      "explanation": "Relative clause memberi informasi tambahan."
+      "explanation": "Relative clause memberi informasi tambahan.",
+      "translationId": {
+        "prompt": "“The findings, which were reviewed, suggest a trend.” Bagian mana berfungsi sebagai keterangan tambahan?"
+      }
     },
     {
       "id": "p3",
@@ -84,7 +95,10 @@
         "Because of data were limited, the cautious."
       ],
       "answer": 0,
-      "explanation": "Although disusul klausa lengkap dan klausa utama."
+      "explanation": "Although disusul klausa lengkap dan klausa utama.",
+      "translationId": {
+        "prompt": "Pilih kalimat dengan kontras yang secara tata bahasa benar."
+      }
     }
   ],
   "assessments": [

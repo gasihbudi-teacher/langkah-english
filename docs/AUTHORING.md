@@ -28,7 +28,7 @@ Example of ONE lesson listed in THREE destinations:
 }
 ```
 
-This is an authoring example, not a published starter resource. Place its lesson file first, then register it. Do not register nonexistent content. Grades are numbers 9–12; UI values are strings converted during matching. `difficulty` determines grammar level grouping when used with the difficulty filter; `grammarTopics` describes topics independently.
+This is an authoring example, not a published starter resource. Place its lesson file first, then register it. Do not register nonexistent content. Grades are numbers 9–12; the School page lists each grade without filters. `difficulty` determines grouping under Beginner, Intermediate or Advanced on the Grammar page; `grammarTopics` describes topics independently.
 
 ## Universal lesson format
 
@@ -116,3 +116,25 @@ For a quiz, set `"examFormat": "sample"` or `"examFormat": "topic"`, and use `"f
 A lesson can appear in multiple grade/pathway sections using the existing `placements` array. Do not duplicate its lesson JSON just to display it in different places.
 
 Major interface labels are translated in `js/i18n.js`. English content text is not machine-translated by switching the interface to Indonesian. Continue to supply optional lesson `idText` explanations where needed.
+
+
+## V5 authoring requirement: English questions + Indonesian help
+
+For every quiz `questions[]` item and lesson `practice[]` item, write the main `prompt` and every `choices[]` string in **English**. Explanations may be written in Indonesian. Provide optional `translationId` with Indonesian wording of the same question:
+
+```json
+{
+  "prompt": "Why did the researcher repeat the measurements?",
+  "choices": ["To check consistency", "To increase ticket prices", "To replace the instruments"],
+  "answer": 0,
+  "explanation": "Peneliti mengulang pengukuran untuk memeriksa apakah hasilnya konsisten.",
+  "translationId": {
+    "prompt": "Mengapa peneliti mengulang pengukuran?",
+    "choices": ["Untuk memeriksa konsistensi", "Untuk menaikkan harga tiket", "Untuk mengganti alat ukur"]
+  }
+}
+```
+
+The example above is a fragment, not an entire quiz. Translations must match the **current choice order exactly**. The English choices must retain the correct answer index (`answer` is zero-based); Indonesian glosses should never contain the answer key or explanations shown before submission. The accordion is initially closed. For exercises that specifically compare English verb forms or intentionally incorrect English word order, you may omit `translationId.choices`: replacing *is/are*, *do/does*, etc. with Indonesian can erase the grammatical distinction. The UI explains that choice forms are then left in English. Add reviewed translations for sentences and reading options whenever meaningful.
+
+All questions should have a translated Indonesian `translationId.prompt` (enforced by the V5 quality test). Run `node tests/v5-quality.mjs` after any modification; its language heuristic only catches common Indonesian words, so a human bilingual review is still essential. Never add filter widgets to ordinary pathway pages: update `data/catalog.json` to publish topics and let the existing pathway list/search render them.

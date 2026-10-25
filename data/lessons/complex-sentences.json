@@ -62,7 +62,10 @@
         "Because of"
       ],
       "answer": 1,
-      "explanation": "Although diikuti klausa lengkap."
+      "explanation": "Although diikuti klausa lengkap.",
+      "translationId": {
+        "prompt": "___ datanya terbatas, tim itu menerbitkan laporan yang berhati-hati."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,15 @@
         "The report because late."
       ],
       "answer": 1,
-      "explanation": "Dependent clause memerlukan main clause."
+      "explanation": "Dependent clause memerlukan main clause.",
+      "translationId": {
+        "prompt": "Pilih kalimat yang lengkap.",
+        "choices": [
+          "Karena surveinya terlambat.",
+          "Karena surveinya terlambat, laporannya tertunda.",
+          "Laporannya karena terlambat."
+        ]
+      }
     },
     {
       "id": "p3",
@@ -84,7 +95,10 @@
         "Because"
       ],
       "answer": 0,
-      "explanation": "Despite + noun phrase the noise."
+      "explanation": "Despite + noun phrase the noise.",
+      "translationId": {
+        "prompt": "___ kebisingan itu, dia tetap bisa berkonsentrasi."
+      }
     }
   ],
   "assessments": [

@@ -8,7 +8,7 @@ validateQuiz(d);
 assert.equal(score(d.questions,d.questions.map(q=>q.answer)).percentage,100);
 assert.equal(score(d.questions,d.questions.map(q=>(q.answer+1)%q.choices.length)).correct,0);
 assert.deepEqual(score(d.questions,[null,null,null,null,null]),{correct:0,incorrect:0,unanswered:5,total:5,percentage:0});
-assert.deepEqual(score(d.questions,[1,0,null,2,null]),{correct:2,incorrect:1,unanswered:2,total:5,percentage:40});
+assert.deepEqual(score(d.questions,[d.questions[0].answer,(d.questions[1].answer+1)%4,null,d.questions[3].answer,null]),{correct:2,incorrect:1,unanswered:2,total:5,percentage:40});
 assert.throws(()=>validateQuiz({...d,questionCount:20}));
 assert.throws(()=>validateQuiz({...d,durationSeconds:-1}));
 assert.throws(()=>validateQuiz({...d,questions:d.questions.map(q=>({...q,answer:99}))}));

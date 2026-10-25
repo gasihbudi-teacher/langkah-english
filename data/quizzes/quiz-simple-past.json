@@ -8,96 +8,120 @@
       "prompt": "Yesterday, we ___ to the museum.",
       "choices": [
         "go",
-        "went",
         "going",
+        "went",
         "goes"
       ],
-      "answer": 1,
-      "explanation": "Went merupakan bentuk simple past dari go."
+      "answer": 2,
+      "explanation": "Went merupakan bentuk simple past dari go.",
+      "translationId": {
+        "prompt": "Kemarin kami ___ ke museum."
+      }
     },
     {
       "id": "q2",
-      "prompt": "Pilih kalimat negatif yang benar.",
+      "prompt": "Choose the correct negative sentence.",
       "choices": [
-        "She did not ate.",
         "She does not ate.",
-        "She did not eat.",
-        "She not ate."
+        "She not ate.",
+        "She did not ate.",
+        "She did not eat."
       ],
-      "answer": 2,
-      "explanation": "Setelah did not, gunakan bentuk dasar eat."
+      "answer": 3,
+      "explanation": "Setelah did not, gunakan bentuk dasar eat.",
+      "translationId": {
+        "prompt": "Pilih kalimat negatif yang benar."
+      }
     },
     {
       "id": "q3",
       "prompt": "What ___ you do last Sunday?",
       "choices": [
         "did",
-        "do",
         "does",
-        "are"
+        "are",
+        "do"
       ],
       "answer": 0,
-      "explanation": "Pertanyaan simple past dengan verb biasa menggunakan did."
+      "explanation": "Pertanyaan simple past dengan verb biasa menggunakan did.",
+      "translationId": {
+        "prompt": "Apa yang ___ kamu lakukan Minggu lalu?"
+      }
     },
     {
       "id": "q4",
-      "prompt": "Bentuk lampau dari “study” adalah …",
+      "prompt": "What is the past form of “study”?",
       "choices": [
+        "studying",
         "studyed",
         "studies",
-        "studying",
         "studied"
       ],
       "answer": 3,
-      "explanation": "Konsonan + y berubah menjadi -ied: studied."
+      "explanation": "Konsonan + y berubah menjadi -ied: studied.",
+      "translationId": {
+        "prompt": "Bentuk lampau dari “study” adalah …"
+      }
     },
     {
       "id": "q5",
-      "prompt": "Pilih pasangan was/were yang benar.",
+      "prompt": "Which was/were pair is correct?",
       "choices": [
-        "They was",
         "I were",
         "She was",
+        "They was",
         "You was"
       ],
-      "answer": 2,
-      "explanation": "She menggunakan was; they/you menggunakan were."
+      "answer": 1,
+      "explanation": "She menggunakan was; they/you menggunakan were.",
+      "translationId": {
+        "prompt": "Pilih pasangan was/were yang benar."
+      }
     },
     {
       "id": "q6",
       "prompt": "We ___ football two days ago.",
       "choices": [
-        "played",
         "play",
         "plays",
+        "played",
         "playing"
       ],
-      "answer": 0,
-      "explanation": "Keterangan two days ago menunjukkan kejadian lampau; gunakan played."
+      "answer": 2,
+      "explanation": "Keterangan two days ago menunjukkan kejadian lampau; gunakan played.",
+      "translationId": {
+        "prompt": "Kami ___ sepak bola dua hari yang lalu."
+      }
     },
     {
       "id": "q7",
-      "prompt": "Pilih kalimat tanya yang benar.",
+      "prompt": "Choose the correct question.",
       "choices": [
-        "Did Lina saw the film?",
+        "Does Lina saw the film?",
         "Did Lina see the film?",
-        "Was Lina see the film?",
-        "Does Lina saw the film?"
+        "Did Lina saw the film?",
+        "Was Lina see the film?"
       ],
       "answer": 1,
-      "explanation": "Did diikuti verb dasar see."
+      "explanation": "Did diikuti verb dasar see.",
+      "translationId": {
+        "prompt": "Pilih kalimat tanya yang benar."
+      }
     },
     {
       "id": "q8",
-      "prompt": "Manakah irregular past verb yang tepat?",
+      "prompt": "Which irregular past-tense form is correct?",
       "choices": [
-        "buy → buyed",
+        "make → made",
         "eat → eated",
-        "take → taked",
-        "make → made"
+        "buy → buyed",
+        "take → taked"
       ],
-      "answer": 3,
-      "explanation": "Make berubah menjadi made dalam simple past."
+      "answer": 0,
+      "explanation": "Make berubah menjadi made dalam simple past.",
+      "translationId": {
+        "prompt": "Manakah irregular past verb yang tepat?"
+      }
     }
   ],
   "passages": []

@@ -35,36 +35,55 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Kalimat yang memperkenalkan posisi penulis disebut …",
+      "prompt": "What is the sentence presenting the writer’s position called?",
       "choices": [
         "Thesis",
         "Argument",
         "Reiteration"
       ],
       "answer": 0,
-      "explanation": "Thesis menyatakan posisi di awal teks."
+      "explanation": "Thesis menyatakan posisi di awal teks.",
+      "translationId": {
+        "prompt": "Kalimat yang memperkenalkan posisi penulis disebut …"
+      }
     },
     {
       "id": "p2",
-      "prompt": "“Therefore” paling sering memperkenalkan …",
+      "prompt": "What does “therefore” usually introduce?",
       "choices": [
-        "kesimpulan atau penegasan",
-        "contoh yang acak",
-        "tokoh baru"
+        "a conclusion or restatement",
+        "a random example",
+        "a new character"
       ],
       "answer": 0,
-      "explanation": "Therefore menandai simpulan dari argumen."
+      "explanation": "Therefore menandai simpulan dari argumen.",
+      "translationId": {
+        "prompt": "“Therefore” paling sering memperkenalkan …",
+        "choices": [
+          "kesimpulan atau penegasan",
+          "contoh yang acak",
+          "tokoh baru"
+        ]
+      }
     },
     {
       "id": "p3",
-      "prompt": "Pernyataan mana yang membutuhkan bukti?",
+      "prompt": "Which claim requires supporting evidence?",
       "choices": [
         "The word shade has five letters.",
         "Adding trees will improve every school.",
         "This paragraph has three sentences."
       ],
       "answer": 1,
-      "explanation": "Klaim dampak luas perlu data, bukan sekadar keyakinan."
+      "explanation": "Klaim dampak luas perlu data, bukan sekadar keyakinan.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang membutuhkan bukti?",
+        "choices": [
+          "Kata shade terdiri dari lima huruf.",
+          "Menambahkan pepohonan akan meningkatkan kondisi setiap sekolah.",
+          "Paragraf ini terdiri atas tiga kalimat."
+        ]
+      }
     }
   ],
   "assessments": []

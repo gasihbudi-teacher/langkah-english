@@ -62,7 +62,10 @@
         "where"
       ],
       "answer": 1,
-      "explanation": "Who merujuk orang."
+      "explanation": "Who merujuk orang.",
+      "translationId": {
+        "prompt": "Penulis yang ___ menulis artikel ini adalah ahli biologi."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "The book where I borrowed is useful."
       ],
       "answer": 0,
-      "explanation": "That tanpa koma membatasi buku yang dimaksud."
+      "explanation": "That tanpa koma membatasi buku yang dimaksud.",
+      "translationId": {
+        "prompt": "Pilih kalimat yang memiliki klausa pembatas."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "whose"
       ],
       "answer": 1,
-      "explanation": "Where merujuk lokasi."
+      "explanation": "Where merujuk lokasi.",
+      "translationId": {
+        "prompt": "Kota tempat dia ___ tumbuh berada di dekat pantai."
+      }
     }
   ],
   "assessments": [

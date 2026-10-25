@@ -91,18 +91,24 @@
         "writing"
       ],
       "answer": 0,
-      "explanation": "Wrote adalah bentuk lampau dari write."
+      "explanation": "Wrote adalah bentuk lampau dari write.",
+      "translationId": {
+        "prompt": "Kemarin Rina ___ sebuah surat."
+      }
     },
     {
       "id": "q2",
-      "prompt": "Pilih pertanyaan yang benar.",
+      "prompt": "Choose the correct question.",
       "choices": [
         "Did he played?",
         "Did he play?",
         "Does he played?"
       ],
       "answer": 1,
-      "explanation": "Setelah did gunakan verb dasar play."
+      "explanation": "Setelah did gunakan verb dasar play.",
+      "translationId": {
+        "prompt": "Pilih pertanyaan yang benar."
+      }
     },
     {
       "id": "q3",
@@ -113,7 +119,10 @@
         "is"
       ],
       "answer": 1,
-      "explanation": "They dalam simple past menggunakan were."
+      "explanation": "They dalam simple past menggunakan were.",
+      "translationId": {
+        "prompt": "Mereka ___ di rumah tadi malam."
+      }
     }
   ],
   "assessments": [

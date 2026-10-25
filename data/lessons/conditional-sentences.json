@@ -62,7 +62,10 @@
         "arrived"
       ],
       "answer": 0,
-      "explanation": "First conditional: if + present."
+      "explanation": "First conditional: if + present.",
+      "translationId": {
+        "prompt": "Jika aku ___ lebih awal, aku akan meneleponmu."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "am"
       ],
       "answer": 1,
-      "explanation": "Second conditional: would + V1."
+      "explanation": "Second conditional: would + V1.",
+      "translationId": {
+        "prompt": "Jika aku lebih tinggi, aku ___ mencapai rak itu."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "would melted"
       ],
       "answer": 0,
-      "explanation": "Zero conditional untuk fakta umum."
+      "explanation": "Zero conditional untuk fakta umum.",
+      "translationId": {
+        "prompt": "Jika es dipanaskan, es akan ___."
+      }
     }
   ],
   "assessments": [

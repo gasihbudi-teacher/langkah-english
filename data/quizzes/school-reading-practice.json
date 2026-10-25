@@ -17,7 +17,7 @@
   "questions": [
     {
       "id": "sr1",
-      "prompt": "Menurut teks taman, di mana letak dua bangku kayu?",
+      "prompt": "According to the garden passage, where are the two wooden benches?",
       "choices": [
         "Beside a mango tree",
         "Inside the science room",
@@ -26,11 +26,19 @@
       "answer": 0,
       "explanation": "Teks menyatakan secara langsung bahwa dua bangku kayu berada beside a mango tree.",
       "passageId": "garden",
-      "evidence": "Two wooden benches stand beside a mango tree."
+      "evidence": "Two wooden benches stand beside a mango tree.",
+      "translationId": {
+        "prompt": "Menurut teks taman, di mana letak dua bangku kayu?",
+        "choices": [
+          "Di samping pohon mangga",
+          "Di dalam ruang sains",
+          "Di luar gerbang sekolah"
+        ]
+      }
     },
     {
       "id": "sr3",
-      "prompt": "Kegiatan apa yang terjadi setelah memperbaiki sampul buku dalam recount?",
+      "prompt": "Which event happened after the book covers were repaired?",
       "choices": [
         "The class arrived last Saturday.",
         "The volunteer explained sorting.",
@@ -39,7 +47,15 @@
       "answer": 2,
       "explanation": "Then memperkenalkan kegiatan memperbaiki sampul, sedangkan Before we left memperkenalkan rekomendasi buku sebagai kegiatan berikutnya.",
       "passageId": "library",
-      "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers."
+      "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers.",
+      "translationId": {
+        "prompt": "Kegiatan apa yang terjadi setelah memperbaiki sampul buku dalam recount?",
+        "choices": [
+          "Kelas itu datang Sabtu lalu.",
+          "Relawan menjelaskan cara penyortiran.",
+          "Kelompok-kelompok merekomendasikan buku kepada pembaca lebih muda."
+        ]
+      }
     }
   ]
 }

@@ -8,144 +8,183 @@
       "id": "q1",
       "prompt": "Rarely ___ such a detailed report.",
       "choices": [
-        "I have seen",
-        "have I seen",
+        "have seen I",
         "I saw have",
-        "have seen I"
+        "I have seen",
+        "have I seen"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Rarely diletakkan sebelum auxiliary have dan subjek I.",
-      "skill": "Inversion"
+      "skill": "Inversion",
+      "translationId": {
+        "prompt": "Jarang sekali ___ laporan serinci itu."
+      }
     },
     {
       "id": "q2",
       "prompt": "Not until the meeting ended ___ the team leave.",
       "choices": [
-        "did",
-        "was",
         "had",
-        "does"
+        "was",
+        "does",
+        "did"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Not until fronted memicu did + team + leave untuk past.",
-      "skill": "Inversion"
+      "skill": "Inversion",
+      "translationId": {
+        "prompt": "Baru setelah rapat selesai ___ tim itu pergi."
+      }
     },
     {
       "id": "q3",
       "prompt": "The machines ___ last week are now working.",
       "choices": [
         "repaired",
+        "to repairing",
         "repairing",
-        "which repairing",
-        "to repairing"
+        "which repairing"
       ],
       "answer": 0,
       "explanation": "Mesin menerima aksi diperbaiki → repaired.",
-      "skill": "Reduced Relative Clauses"
+      "skill": "Reduced Relative Clauses",
+      "translationId": {
+        "prompt": "Mesin-mesin yang ___ minggu lalu kini berfungsi."
+      }
     },
     {
       "id": "q4",
       "prompt": "Workers ___ the bridge wore safety helmets.",
       "choices": [
-        "constructing",
-        "constructed by",
+        "construction",
         "were constructing by",
-        "construction"
+        "constructed by",
+        "constructing"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Workers adalah pelaku: constructing.",
-      "skill": "Reduced Relative Clauses"
+      "skill": "Reduced Relative Clauses",
+      "translationId": {
+        "prompt": "Pekerja yang ___ jembatan mengenakan helm keselamatan."
+      }
     },
     {
       "id": "q5",
       "prompt": "The programme aims to teach, to practise, and ___.",
       "choices": [
+        "assessments",
         "to assess",
-        "assessing",
         "assessment",
-        "assessments"
+        "assessing"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Infinitive paralel: to teach, to practise, to assess.",
-      "skill": "Parallel Structures"
+      "skill": "Parallel Structures",
+      "translationId": {
+        "prompt": "Program itu bertujuan mengajar, berlatih, dan ___."
+      }
     },
     {
       "id": "q6",
       "prompt": "She is both creative and ___.",
       "choices": [
-        "reliably",
         "reliable",
         "reliability",
+        "reliably",
         "rely"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Creative dan reliable sama-sama adjective.",
-      "skill": "Parallel Structures"
+      "skill": "Parallel Structures",
+      "translationId": {
+        "prompt": "Dia kreatif sekaligus ___."
+      }
     },
     {
       "id": "q7",
-      "prompt": "“Unless the rainfall increases, the reservoir will remain low.” Arti paling tepat?",
+      "prompt": "What does the sentence “Unless the rainfall increases, the reservoir will remain low” mean?",
       "choices": [
-        "Waduk tetap rendah jika hujan tidak bertambah.",
-        "Waduk pasti penuh sekarang.",
-        "Hujan tidak pernah turun.",
-        "Waduk menyebabkan hujan."
+        "The reservoir causes rain.",
+        "The reservoir is certainly full now.",
+        "The reservoir will remain low if rainfall does not increase.",
+        "It never rains."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Unless berarti if not.",
-      "skill": "Advanced Grammar Analysis"
+      "skill": "Advanced Grammar Analysis",
+      "translationId": {
+        "prompt": "“Unless the rainfall increases, the reservoir will remain low.” Arti paling tepat?",
+        "choices": [
+          "Waduk menyebabkan hujan.",
+          "Waduk pasti penuh sekarang.",
+          "Waduk tetap rendah jika hujan tidak bertambah.",
+          "Hujan tidak pernah turun."
+        ]
+      }
     },
     {
       "id": "q8",
       "prompt": "The study, ___ was published in June, examined sleep habits.",
       "choices": [
-        "which",
-        "what",
         "where",
-        "who"
+        "which",
+        "who",
+        "what"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Non-defining relative clause untuk benda study memakai which.",
-      "skill": "Advanced Grammar Analysis"
+      "skill": "Advanced Grammar Analysis",
+      "translationId": {
+        "prompt": "Penelitian yang ___ terbit pada Juni itu mengkaji kebiasaan tidur."
+      }
     },
     {
       "id": "q9",
       "prompt": "If she had saved the document, she ___ a copy now.",
       "choices": [
-        "would have",
         "had",
-        "will has",
-        "have had"
+        "have had",
+        "would have",
+        "will has"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Mixed conditional: akibat keadaan sekarang.",
-      "skill": "Advanced Conditionals"
+      "skill": "Advanced Conditionals",
+      "translationId": {
+        "prompt": "Jika ia telah menyimpan dokumennya, sekarang ia ___ salinannya."
+      }
     },
     {
       "id": "q10",
       "prompt": "Had we known about the closure, we ___ another route.",
       "choices": [
-        "would have taken",
-        "will take",
         "take",
-        "had taking"
+        "had taking",
+        "would have taken",
+        "will take"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conditional inversion merujuk past unreal.",
-      "skill": "Advanced Conditionals"
+      "skill": "Advanced Conditionals",
+      "translationId": {
+        "prompt": "Seandainya kami tahu ada penutupan, kami ___ rute lain."
+      }
     },
     {
       "id": "q11",
       "prompt": "___ the results were promising, the authors requested more tests.",
       "choices": [
-        "Although",
-        "Despite",
         "Because of",
-        "In spite"
+        "Although",
+        "In spite",
+        "Despite"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Although diikuti subjek-verb clause.",
-      "skill": "Complex Sentence Structures"
+      "skill": "Complex Sentence Structures",
+      "translationId": {
+        "prompt": "___ hasilnya menjanjikan, para penulis meminta pengujian lebih lanjut."
+      }
     },
     {
       "id": "q12",
@@ -153,12 +192,15 @@
       "choices": [
         "the limitations",
         "limited",
-        "to limit",
-        "limiting"
+        "limiting",
+        "to limit"
       ],
       "answer": 0,
       "explanation": "Noun phrase sejajar dengan the method.",
-      "skill": "Parallel Structures"
+      "skill": "Parallel Structures",
+      "translationId": {
+        "prompt": "Para peneliti menjelaskan metode sekaligus ___."
+      }
     }
   ]
 }

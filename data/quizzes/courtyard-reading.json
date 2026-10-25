@@ -19,78 +19,123 @@
   "questions": [
     {
       "id": "r1",
-      "prompt": "Pernyataan manakah yang paling tepat menggambarkan gagasan utama bacaan?",
+      "prompt": "Which statement best expresses the passage’s main idea?",
       "choices": [
-        "A reading challenge always improves students’ examination scores.",
-        "A school reading-space project produced promising results that need careful investigation.",
+        "Rain was the only reason students avoided reading outdoors.",
         "Schools should replace all indoor libraries with courtyard benches.",
-        "Rain was the only reason students avoided reading outdoors."
+        "A school reading-space project produced promising results that need careful investigation.",
+        "A reading challenge always improves students’ examination scores."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Teks menjelaskan kenaikan jumlah pembaca yang menjanjikan, menimbang penyebab lain dan keterbatasan praktis, lalu menyimpulkan bahwa diperlukan pengamatan tambahan.",
       "passageId": "courtyard",
       "evidence": "It also shows why an appealing result should lead to further questions rather than an immediate claim of success.",
-      "skill": "Main Idea"
+      "skill": "Main Idea",
+      "translationId": {
+        "prompt": "Pernyataan manakah yang paling tepat menggambarkan gagasan utama bacaan?",
+        "choices": [
+          "Hujan adalah satu-satunya alasan siswa menghindari membaca di luar.",
+          "Sekolah seharusnya mengganti semua perpustakaan dalam ruangan dengan bangku halaman.",
+          "Proyek ruang baca sekolah menunjukkan hasil menjanjikan, tetapi memerlukan penyelidikan cermat.",
+          "Tantangan membaca selalu meningkatkan nilai ujian siswa."
+        ]
+      }
     },
     {
       "id": "r2",
-      "prompt": "Mengapa tim tidak menganggap seluruh peningkatan disebabkan oleh area baca baru?",
+      "prompt": "Why did the team not attribute all the increase to the new reading area?",
       "choices": [
-        "They had not counted any readers before the change.",
         "The donated books were missing during the second week.",
-        "Cooler weather and a simultaneous reading challenge could also have influenced reading.",
-        "The school had already removed the benches."
+        "The school had already removed the benches.",
+        "They had not counted any readers before the change.",
+        "Cooler weather and a simultaneous reading challenge could also have influenced reading."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Paragraf kedua menyebut dua perubahan lain, yaitu cuaca lebih sejuk dan tantangan membaca. Keduanya mungkin ikut memengaruhi hasil sehingga sebab tunggal belum terbukti.",
       "passageId": "courtyard",
       "evidence": "The second week was cooler than the first, and teachers had announced a reading challenge at the same time.",
-      "skill": "Supporting Details"
+      "skill": "Supporting Details",
+      "translationId": {
+        "prompt": "Mengapa tim tidak menganggap seluruh peningkatan disebabkan oleh area baca baru?",
+        "choices": [
+          "Buku sumbangan hilang pada minggu kedua.",
+          "Sekolah sudah memindahkan bangkunya.",
+          "Mereka belum menghitung pembaca sebelum perubahan.",
+          "Cuaca yang lebih sejuk dan tantangan membaca bersamaan mungkin juga memengaruhi kebiasaan membaca."
+        ]
+      }
     },
     {
       "id": "r3",
-      "prompt": "Pada paragraf 2, kata “attribute” paling dekat artinya dengan …",
+      "prompt": "In paragraph 2, “attribute” is closest in meaning to …",
       "choices": [
+        "remove from a record",
         "connect as an effect to a cause",
-        "describe in a fictional story",
         "divide into equal groups",
-        "remove from a record"
+        "describe in a fictional story"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Tim tidak mau menyatakan bahwa area baru menyebabkan seluruh peningkatan. Attribute di sini berarti mengaitkan suatu hasil dengan penyebabnya.",
       "passageId": "courtyard",
       "evidence": "The team therefore refused to attribute the entire increase to the new reading area.",
-      "skill": "Vocabulary in Context"
+      "skill": "Vocabulary in Context",
+      "translationId": {
+        "prompt": "Pada paragraf 2, kata “attribute” paling dekat artinya dengan …",
+        "choices": [
+          "menghapus dari catatan",
+          "menghubungkan akibat dengan suatu penyebab",
+          "membagi menjadi kelompok yang sama",
+          "menggambarkan cerita fiksi"
+        ]
+      }
     },
     {
       "id": "r4",
-      "prompt": "Apa simpulan yang masuk akal tentang keputusan sekolah menunda pembangunan atap?",
+      "prompt": "What can reasonably be inferred from the decision to postpone building a roof?",
       "choices": [
-        "The school believes reading outdoors is harmful.",
-        "The school has decided to close the reading area permanently.",
+        "The school wants more evidence before committing additional money.",
         "The school knows that rain never affects courtyard reading.",
-        "The school wants more evidence before committing additional money."
+        "The school believes reading outdoors is harmful.",
+        "The school has decided to close the reading area permanently."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Sekolah menunggu bukti lebih kuat bahwa area baca tetap bermanfaat sebelum mengeluarkan biaya tambahan; bukan berarti sekolah menentang kegiatan membaca.",
       "passageId": "courtyard",
       "evidence": "the school postponed that expense until it had stronger evidence that the area would remain useful.",
-      "skill": "Making Inferences"
+      "skill": "Making Inferences",
+      "translationId": {
+        "prompt": "Apa simpulan yang masuk akal tentang keputusan sekolah menunda pembangunan atap?",
+        "choices": [
+          "Sekolah ingin lebih banyak bukti sebelum menambah pengeluaran.",
+          "Sekolah tahu hujan tidak pernah memengaruhi kegiatan membaca di halaman.",
+          "Sekolah percaya membaca di luar berbahaya.",
+          "Sekolah memutuskan menutup area baca secara permanen."
+        ]
+      }
     },
     {
       "id": "r5",
-      "prompt": "Pada paragraf 4, kata “it” dalam “it helps people decide” merujuk pada …",
+      "prompt": "In paragraph 4, what does “it” in “it helps people decide” refer to?",
       "choices": [
-        "A larger number",
-        "An immediate claim of success",
         "A useful experiment",
-        "A school courtyard"
+        "An immediate claim of success",
+        "A school courtyard",
+        "A larger number"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Frasa yang dirujuk adalah a useful experiment pada klausa sebelumnya, bukan larger number atau courtyard.",
       "passageId": "courtyard",
       "evidence": "A useful experiment does not simply produce a larger number; it helps people decide what to investigate next.",
-      "skill": "Reference Questions"
+      "skill": "Reference Questions",
+      "translationId": {
+        "prompt": "Pada paragraf 4, kata “it” dalam “it helps people decide” merujuk pada …",
+        "choices": [
+          "Eksperimen yang bermanfaat",
+          "Klaim keberhasilan langsung",
+          "Halaman sekolah",
+          "Angka yang lebih besar"
+        ]
+      }
     }
   ]
 }

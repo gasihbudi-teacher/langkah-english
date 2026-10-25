@@ -95,7 +95,10 @@
         "run"
       ],
       "answer": 1,
-      "explanation": "Look! menunjukkan aktivitas saat ini; dog tunggal memakai is running."
+      "explanation": "Look! menunjukkan aktivitas saat ini; dog tunggal memakai is running.",
+      "translationId": {
+        "prompt": "Lihat! Anjing itu ___ di halaman."
+      }
     },
     {
       "id": "q2",
@@ -106,18 +109,24 @@
         "do"
       ],
       "answer": 0,
-      "explanation": "They berpasangan dengan are."
+      "explanation": "They berpasangan dengan are.",
+      "translationId": {
+        "prompt": "Mereka ___ sedang mendengarkan musik sekarang."
+      }
     },
     {
       "id": "q3",
-      "prompt": "Pilih kalimat negatif yang benar.",
+      "prompt": "Choose the correct negative sentence.",
       "choices": [
         "I am not sleeping.",
         "I do not sleeping.",
         "I not am sleeping."
       ],
       "answer": 0,
-      "explanation": "Negatif present continuous menempatkan not setelah am."
+      "explanation": "Negatif present continuous menempatkan not setelah am.",
+      "translationId": {
+        "prompt": "Pilih kalimat negatif yang benar."
+      }
     }
   ],
   "assessments": [

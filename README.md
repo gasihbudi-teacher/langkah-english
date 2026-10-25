@@ -2,7 +2,22 @@
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.
 
-## Version 4.0 — expanded learning catalogue and student tools (25 October 2026)
+## Version 5.0 — English-first practice, optional Indonesian support, simple lists (25 October 2026)
+
+**This is the full site, ready to upload to a Cloudflare Pages preview (not yet deployed).** It keeps the same GitHub + Cloudflare static configuration, all 45 existing resource IDs, and the browser-local progress/backup format.
+
+- **English-only assessment prompts and answer choices** in all 234 questions. Indonesian explanations and answer discussions are retained.
+- **Closed-by-default Indonesian glosses** for all 234 question prompts. **116 question sets** also have manually authored Indonesian choice translations, including all 70 questions in the three complete UTBK mocks and 10-question reading lab. Some grammar-choice forms intentionally remain in English; additional teacher-reviewed choice translations may be added without JavaScript changes.
+- **No catalogue filters on the homepage or Grammar/UTBK/School pages.** Every pathway is a grouped list. A standalone `search.html` performs simple text search across the full catalogue.
+- **Balanced A–D answer distribution** in four-choice quizzes; full mocks have five answers at each position. This does not substitute for a distractor-quality review.
+- **Diagnostic recommendations by weak skill** on results and homepage, with an explicit warning about small diagnostic samples.
+- **Automated V5 content-quality checks** integrated with GitHub Actions. Run `node tests/v5-quality.mjs` after editing quizzes or translations.
+
+**Upgrade caution:** unfinished V4 quiz drafts become invalid because answer positions have changed, but saved completed V4 results and lesson progress remain on the original storage keys. Students should finish or back up outstanding attempts before deployment. Independent bilingual teacher review and actual mobile browser testing remain required. Chromium browser navigation was blocked in the authoring environment, so no claim is made that real-browser tests have passed.
+
+See `docs/V5-CHANGES.md` and `docs/V5-TEST-REPORT.md` for precise coverage, limitations and preview acceptance checklist.
+
+## Historical: Version 4.0 — expanded learning catalogue and student tools (25 October 2026)
 
 **V4 is ready to upload for preview but has not been deployed by this ZIP.** It keeps the V3 static Cloudflare Pages + GitHub setup and all old resource and local progress IDs. New files extend rather than replace existing content. A V3 backup is recommended before deploying.
 
@@ -14,7 +29,7 @@ A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-sc
 
 **Curriculum/accuracy notice:** Original AI-assisted lessons and questions are unofficial. Structural answer/evidence checks do not replace independent English-teacher review. The three full simulations match 2026 English Literacy *question count and duration* at https://snpmb.id/fr/ but are not official exam predictions. The project remains free, static, local-first and without accounts or paid dependencies.
 
-## Version 3.0 — grammar starter pack + dedicated libraries
+## Historical: Version 3.0 — grammar starter pack + dedicated libraries
 
 **Default interface language is Bahasa Indonesia** for new visitors; the EN/ID selector remains available. Lesson instructions, grammatical explanations, inline exercise feedback, quiz questions/instructions and answer discussions are written in Indonesian. English sentences, answer options where students must evaluate English, and English reading passages intentionally remain in English. A previously saved EN/ID preference is retained. There is no automatic translation of educational content.
 
@@ -38,14 +53,15 @@ Open http://localhost:8000. Python is only a local preview convenience, not a pr
 
 ## Pages and modules
 
-- index.html — homepage cards, universal catalog search/filtering, progress and recent activity.
-- grammar.html, utbk.html, school.html — separate pathway library pages (all dynamically read catalog.json).
-- lesson.html?id=RESOURCE_ID — universal lesson renderer and embedded practice.
+- index.html — homepage, lesson pathway links, progress, diagnostics and recent activity.
+- grammar.html, utbk.html, school.html — grouped lists for all published materials; no on-page filters.
+- search.html — dedicated sitewide text search (the only main search field).
+- lesson.html?id=RESOURCE_ID — universal lesson renderer and embedded English-first practice with optional Indonesian glosses.
 - quiz.html?id=RESOURCE_ID — shared practice/simulation engine, passage view, timer, navigator, flags, confirmation, saved draft.
 - results.html?attempt=ATTEMPT_ID — locally stored results with answer choices, explanations, evidence and passages.
 - css/style.css — shared responsive styles, keyboard focus, mobile layout.
 - js/core.js — loading, validation, escaping, block rendering, scoring and progress repository.
-- js/home.js, pathway.js, lesson.js, quiz.js, results.js — page controllers.
+- js/home.js, pathway.js, search.js, lesson.js, quiz.js, results.js, translations.js — page controllers and optional translation renderer.
 - data/catalog.json — the sole resource index and editable topic taxonomy.
 - data/lessons and data/quizzes — educational files.
 - data/schemas — JSON schemas describing the authoring contract.
@@ -73,8 +89,8 @@ The official SNPMB framework lists English Literacy as 20 questions / 20 minutes
 2. Give it a unique stable lowercase-hyphenated ID. Keep the content ID equal to the catalog ID.
 3. Register one metadata object in catalog.resources, with the relative file path.
 4. Assign any number of placements, e.g. grammar, school Grade 11, UTBK grammar foundations. One file serves every placement.
-5. Add appropriate grammarTopics, readingSkills, tags, relatedLessons. Search uses title, description, skills, topics and tags.
-6. Set quiz kind to practice or test. The Content type filter maps lesson to Study Materials, quiz/practice to Practice Exercises, quiz/test to Topic Tests.
+5. Add appropriate grammarTopics, readingSkills, tags, relatedLessons. The dedicated search.html page searches title, description, skills, topics and tags.
+6. Set quiz kind to practice or test. The catalogue lists all lesson, practice and test resources without requiring type filters.
 7. Validate with `python tools/validate.py`; review wording, answers and explanations; preview all views; redeploy.
 
 Adding a resource never requires a new HTML page or a JavaScript edit. Adding a new renderer block type does require code because components define the supported content format. Use the existing blocks for routine expansion. JSON is plain text, not arbitrary HTML; markup is escaped to reduce injection risks.

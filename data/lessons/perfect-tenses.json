@@ -57,7 +57,10 @@
         "had read"
       ],
       "answer": 0,
-      "explanation": "So far mengarah ke present perfect dan she → has + read."
+      "explanation": "So far mengarah ke present perfect dan she → has + read.",
+      "translationId": {
+        "prompt": "Sejauh ini dia ___ tiga bab."
+      }
     },
     {
       "id": "p2",
@@ -68,7 +71,10 @@
         "starts"
       ],
       "answer": 1,
-      "explanation": "Film dimulai sebelum titik waktu lampau kedatangan: had started."
+      "explanation": "Film dimulai sebelum titik waktu lampau kedatangan: had started.",
+      "translationId": {
+        "prompt": "Ketika kami tiba, film itu ___."
+      }
     },
     {
       "id": "p3",
@@ -79,7 +85,10 @@
         "I had visited Bali tomorrow."
       ],
       "answer": 0,
-      "explanation": "Have + visited adalah bentuk present perfect yang benar."
+      "explanation": "Have + visited adalah bentuk present perfect yang benar.",
+      "translationId": {
+        "prompt": "Kalimat mana yang menggambarkan pengalaman hingga sekarang?"
+      }
     }
   ],
   "assessments": [

@@ -41,25 +41,41 @@
   "practice": [
     {
       "id": "n1",
-      "prompt": "Di mana letak taman dalam bacaan?",
+      "prompt": "Where is the garden in the passage?",
       "choices": [
         "Behind the science room",
         "Inside the library",
         "Beside the school gate"
       ],
       "answer": 0,
-      "explanation": "Kalimat pertama menyebutkan taman berada behind the science room (di belakang ruang sains)."
+      "explanation": "Kalimat pertama menyebutkan taman berada behind the science room (di belakang ruang sains).",
+      "translationId": {
+        "prompt": "Di mana letak taman dalam bacaan?",
+        "choices": [
+          "Di belakang ruang sains",
+          "Di dalam perpustakaan",
+          "Di samping gerbang sekolah"
+        ]
+      }
     },
     {
       "id": "n2",
-      "prompt": "Dalam frasa “a narrow path”, apa arti paling dekat dari “narrow”?",
+      "prompt": "In “a narrow path”, what does “narrow” most nearly mean?",
       "choices": [
         "not wide",
         "very noisy",
         "newly painted"
       ],
       "answer": 0,
-      "explanation": "Narrow menggambarkan lebar jalan setapak, yaitu tidak lebar atau sempit."
+      "explanation": "Narrow menggambarkan lebar jalan setapak, yaitu tidak lebar atau sempit.",
+      "translationId": {
+        "prompt": "Dalam frasa “a narrow path”, apa arti paling dekat dari “narrow”?",
+        "choices": [
+          "tidak lebar",
+          "sangat bising",
+          "baru dicat"
+        ]
+      }
     }
   ],
   "assessments": [

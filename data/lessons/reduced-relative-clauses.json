@@ -62,7 +62,10 @@
         "were testing"
       ],
       "answer": 0,
-      "explanation": "Samples menerima perlakuan test → tested."
+      "explanation": "Samples menerima perlakuan test → tested.",
+      "translationId": {
+        "prompt": "Sampel yang ___ di laboratorium telah disegel."
+      }
     },
     {
       "id": "p2",
@@ -73,7 +76,10 @@
         "People wait outside because"
       ],
       "answer": 0,
-      "explanation": "People who are waiting outside → people waiting outside."
+      "explanation": "People who are waiting outside → people waiting outside.",
+      "translationId": {
+        "prompt": "Pilih bentuk reduced clause aktif."
+      }
     },
     {
       "id": "p3",
@@ -84,7 +90,10 @@
         "workers building the bridge"
       ],
       "answer": 1,
-      "explanation": "Signed menunjukkan forms menerima aksi."
+      "explanation": "Signed menunjukkan forms menerima aksi.",
+      "translationId": {
+        "prompt": "Frasa mana yang bersifat pasif?"
+      }
     }
   ],
   "assessments": [

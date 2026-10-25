@@ -57,7 +57,10 @@
         "will"
       ],
       "answer": 0,
-      "explanation": "Backshift dari am ke was dalam pelaporan lampau."
+      "explanation": "Backshift dari am ke was dalam pelaporan lampau.",
+      "translationId": {
+        "prompt": "Langsung: “Aku sibuk.” Tidak langsung: Dia berkata bahwa dia ___ sibuk."
+      }
     },
     {
       "id": "p2",
@@ -68,7 +71,10 @@
         "that where"
       ],
       "answer": 0,
-      "explanation": "Pola reported question: where + subject + verb."
+      "explanation": "Pola reported question: where + subject + verb.",
+      "translationId": {
+        "prompt": "Dia bertanya ___ aku tinggal."
+      }
     },
     {
       "id": "p3",
@@ -79,7 +85,10 @@
         "He told that me the news."
       ],
       "answer": 0,
-      "explanation": "Tell memerlukan objek (me) untuk konstruksi ini."
+      "explanation": "Tell memerlukan objek (me) untuk konstruksi ini.",
+      "translationId": {
+        "prompt": "Pilih kata pelapor yang benar."
+      }
     }
   ],
   "assessments": [

@@ -96,25 +96,31 @@
   "practice": [
     {
       "id": "q1",
-      "prompt": "Pilih pertanyaan yang benar.",
+      "prompt": "Choose the correct question.",
       "choices": [
         "Does Arif play football?",
         "Does Arif plays football?",
         "Do Arif play football?"
       ],
       "answer": 0,
-      "explanation": "Arif tunggal menggunakan does + verb dasar play."
+      "explanation": "Arif tunggal menggunakan does + verb dasar play.",
+      "translationId": {
+        "prompt": "Pilih pertanyaan yang benar."
+      }
     },
     {
       "id": "q2",
-      "prompt": "Kalimat negatif yang tepat adalah …",
+      "prompt": "Choose the correct negative sentence.",
       "choices": [
         "They does not know.",
         "They do not know.",
         "They do not knows."
       ],
       "answer": 1,
-      "explanation": "They memakai do not dan bentuk dasar know."
+      "explanation": "They memakai do not dan bentuk dasar know.",
+      "translationId": {
+        "prompt": "Kalimat negatif yang tepat adalah …"
+      }
     },
     {
       "id": "q3",
@@ -125,7 +131,10 @@
         "Does"
       ],
       "answer": 1,
-      "explanation": "Untuk keadaan lampau dengan be, gunakan Was she …?"
+      "explanation": "Untuk keadaan lampau dengan be, gunakan Was she …?",
+      "translationId": {
+        "prompt": "___ dia berada di rumah kemarin?"
+      }
     }
   ],
   "assessments": [

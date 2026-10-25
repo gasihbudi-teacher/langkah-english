@@ -13,55 +13,70 @@
         "is go"
       ],
       "answer": 1,
-      "explanation": "Rina merupakan subjek tunggal orang ketiga. Dalam simple present positif, go berubah menjadi goes."
+      "explanation": "Rina merupakan subjek tunggal orang ketiga. Dalam simple present positif, go berubah menjadi goes.",
+      "translationId": {
+        "prompt": "Rina ___ ke sekolah naik sepeda setiap hari kerja."
+      }
     },
     {
       "id": "g2",
-      "prompt": "Manakah kalimat negatif simple present yang benar?",
+      "prompt": "Which negative simple-present sentence is correct?",
       "choices": [
-        "He does not likes coffee.",
-        "He do not like coffee.",
         "He does not like coffee.",
-        "He not likes coffee."
+        "He does not likes coffee.",
+        "He not likes coffee.",
+        "He do not like coffee."
       ],
-      "answer": 2,
-      "explanation": "Setelah does not, gunakan verb dasar like. Does sudah menunjukkan kesesuaian dengan subjek orang ketiga tunggal."
+      "answer": 0,
+      "explanation": "Setelah does not, gunakan verb dasar like. Does sudah menunjukkan kesesuaian dengan subjek orang ketiga tunggal.",
+      "translationId": {
+        "prompt": "Manakah kalimat negatif simple present yang benar?"
+      }
     },
     {
       "id": "g3",
       "prompt": "The books on the shelf ___ useful for our project.",
       "choices": [
-        "is",
-        "are",
+        "be",
         "was",
-        "be"
+        "is",
+        "are"
       ],
-      "answer": 1,
-      "explanation": "Subjeknya adalah books (jamak), bukan shelf. Jadi bentuk be yang benar adalah are."
+      "answer": 3,
+      "explanation": "Subjeknya adalah books (jamak), bukan shelf. Jadi bentuk be yang benar adalah are.",
+      "translationId": {
+        "prompt": "Buku-buku di rak itu ___ bermanfaat untuk proyek kita."
+      }
     },
     {
       "id": "g4",
       "prompt": "Each of the students ___ a reading journal.",
       "choices": [
-        "keep",
+        "are keeping",
         "keeping",
         "keeps",
-        "are keeping"
+        "keep"
       ],
       "answer": 2,
-      "explanation": "Each adalah inti subjek tunggal, sehingga gunakan keeps walaupun students berbentuk jamak dalam frasa of."
+      "explanation": "Each adalah inti subjek tunggal, sehingga gunakan keeps walaupun students berbentuk jamak dalam frasa of.",
+      "translationId": {
+        "prompt": "Setiap siswa ___ jurnal membaca."
+      }
     },
     {
       "id": "g5",
-      "prompt": "Manakah kalimat tanya yang benar?",
+      "prompt": "Which question is grammatically correct?",
       "choices": [
-        "Does Sinta studies English every day?",
-        "Do Sinta study English every day?",
         "Does Sinta study English every day?",
-        "Sinta does studies English every day?"
+        "Do Sinta study English every day?",
+        "Sinta does studies English every day?",
+        "Does Sinta studies English every day?"
       ],
-      "answer": 2,
-      "explanation": "Subjek Sinta tunggal menggunakan Does + subject + verb dasar study."
+      "answer": 0,
+      "explanation": "Subjek Sinta tunggal menggunakan Does + subject + verb dasar study.",
+      "translationId": {
+        "prompt": "Manakah kalimat tanya yang benar?"
+      }
     }
   ],
   "passages": []

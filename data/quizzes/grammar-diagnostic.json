@@ -9,39 +9,48 @@
       "prompt": "She ___ English every morning.",
       "choices": [
         "study",
-        "studies",
         "studying",
-        "studied"
+        "studied",
+        "studies"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "She + studies untuk kebiasaan simple present.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Dia ___ bahasa Inggris setiap pagi."
+      }
     },
     {
       "id": "q2",
       "prompt": "Yesterday the class ___ early.",
       "choices": [
-        "finish",
-        "finishes",
         "finished",
+        "finishes",
+        "finish",
         "finishing"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Yesterday → simple past finished.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Kemarin kelas itu ___ lebih awal."
+      }
     },
     {
       "id": "q3",
-      "prompt": "Pilih kalimat dengan susunan benar.",
+      "prompt": "Choose the sentence with the correct word order.",
       "choices": [
-        "Always she late is.",
         "She is always late.",
         "She always is late?",
-        "Late she always is."
+        "Late she always is.",
+        "Always she late is."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Adverb frekuensi biasanya setelah be.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Pilih kalimat dengan susunan benar."
+      }
     },
     {
       "id": "q4",
@@ -49,116 +58,179 @@
       "choices": [
         "was",
         "were",
-        "is",
-        "be"
+        "be",
+        "is"
       ],
       "answer": 1,
       "explanation": "They + were pada past continuous.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Mereka ___ sedang bermain ketika aku tiba."
+      }
     },
     {
       "id": "q5",
       "prompt": "The reports ___ yesterday.",
       "choices": [
-        "were submitted",
-        "was submit",
         "submitted were",
+        "was submit",
+        "were submitted",
         "are submit"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Past passive: were + submitted.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Laporan-laporan itu ___ kemarin."
+      }
     },
     {
       "id": "q6",
       "prompt": "If I have time, I ___ the article.",
       "choices": [
-        "readed",
+        "was reading",
         "will read",
         "would reading",
-        "was reading"
+        "readed"
       ],
       "answer": 1,
       "explanation": "First conditional: if + present, will + dasar.",
-      "skill": "Sentence foundations"
+      "skill": "Sentence foundations",
+      "translationId": {
+        "prompt": "Jika aku punya waktu, aku ___ artikelnya."
+      }
     },
     {
       "id": "q7",
-      "prompt": "“The garden is small, but it attracts many birds.” Kata but menunjukkan …",
+      "prompt": "In “The garden is small, but it attracts many birds”, what relationship does “but” express?",
       "choices": [
-        "sebab",
-        "kontras",
-        "waktu",
-        "syarat"
+        "cause",
+        "time",
+        "condition",
+        "contrast"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "But memberi kontras antara ukuran kecil dan banyak burung.",
-      "skill": "Text Organization"
+      "skill": "Text Organization",
+      "translationId": {
+        "prompt": "“The garden is small, but it attracts many birds.” Kata but menunjukkan …",
+        "choices": [
+          "sebab",
+          "waktu",
+          "syarat",
+          "pertentangan"
+        ]
+      }
     },
     {
       "id": "q8",
-      "prompt": "“The class tested two methods. Both reduced waste.” Kata both merujuk pada …",
+      "prompt": "In “The class tested two methods. Both reduced waste”, what does “both” refer to?",
       "choices": [
-        "two methods",
         "waste",
+        "time",
         "the class",
-        "time"
+        "two methods"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Both kembali pada dua metode.",
-      "skill": "Reference Questions"
+      "skill": "Reference Questions",
+      "translationId": {
+        "prompt": "“The class tested two methods. Both reduced waste.” Kata both merujuk pada …",
+        "choices": [
+          "limbah",
+          "waktu",
+          "kelas itu",
+          "dua metode"
+        ]
+      }
     },
     {
       "id": "q9",
-      "prompt": "“The claim lacks evidence.” Arti evidence adalah …",
+      "prompt": "In “The claim lacks evidence”, what does “evidence” mean?",
       "choices": [
-        "bukti",
-        "kesalahan",
-        "janji",
-        "kemungkinan"
+        "possibility",
+        "mistake",
+        "proof or supporting facts",
+        "promise"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Evidence = bukti yang mendukung klaim.",
-      "skill": "Vocabulary in Context"
+      "skill": "Vocabulary in Context",
+      "translationId": {
+        "prompt": "“The claim lacks evidence.” Arti evidence adalah …",
+        "choices": [
+          "kemungkinan",
+          "kesalahan",
+          "bukti",
+          "janji"
+        ]
+      }
     },
     {
       "id": "q10",
-      "prompt": "“Visits rose after a poster campaign, although tickets became cheaper.” Kesimpulan paling hati-hati?",
+      "prompt": "Visits rose after a poster campaign, although tickets became cheaper. Which conclusion is most cautious?",
       "choices": [
-        "Poster pasti menjadi satu-satunya penyebab.",
-        "Harga tiket mungkin juga berpengaruh.",
-        "Kunjungan pasti menurun.",
-        "Harga tidak pernah penting."
+        "Visits certainly fell.",
+        "Prices never matter.",
+        "Lower ticket prices may also have influenced visits.",
+        "The poster campaign was definitely the only cause."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Although menambah faktor yang dapat menjelaskan kenaikan.",
-      "skill": "Critical Reading"
+      "skill": "Critical Reading",
+      "translationId": {
+        "prompt": "“Visits rose after a poster campaign, although tickets became cheaper.” Kesimpulan paling hati-hati?",
+        "choices": [
+          "Kunjungan pasti menurun.",
+          "Harga tidak pernah penting.",
+          "Harga tiket mungkin juga berpengaruh.",
+          "Poster pasti menjadi satu-satunya penyebab."
+        ]
+      }
     },
     {
       "id": "q11",
-      "prompt": "Penulis membandingkan dua solusi dan menyebut kelebihan-kekurangannya. Tujuan penulis paling mungkin …",
+      "prompt": "An author compares two solutions, giving their strengths and weaknesses. What is the most likely purpose?",
       "choices": [
-        "mengevaluasi pilihan",
-        "menulis resep",
-        "mengundang pesta",
-        "menghafal angka"
+        "to invite people to a party",
+        "to evaluate options",
+        "to memorise numbers",
+        "to write a recipe"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Menilai dua solusi adalah tujuan evaluatif.",
-      "skill": "Author’s Purpose"
+      "skill": "Author’s Purpose",
+      "translationId": {
+        "prompt": "Penulis membandingkan dua solusi dan menyebut kelebihan-kekurangannya. Tujuan penulis paling mungkin …",
+        "choices": [
+          "mengundang pesta",
+          "mengevaluasi pilihan",
+          "menghafal angka",
+          "menulis resep"
+        ]
+      }
     },
     {
       "id": "q12",
-      "prompt": "“Only twelve volunteers answered the poll.” Apa keterbatasan utamanya?",
+      "prompt": "Only twelve volunteers answered the poll. What is its main limitation?",
       "choices": [
-        "Sampel kecil dan sukarela mungkin tidak mewakili semua orang.",
-        "Semua sukarelawan pasti bohong.",
-        "Jumlah responden tak diketahui.",
-        "Hasil pasti mewakili dunia."
+        "A small volunteer sample may not represent everyone.",
+        "The number of respondents is unknown.",
+        "Every volunteer must have lied.",
+        "The results definitely represent the world."
       ],
       "answer": 0,
       "explanation": "Sampel kecil dan sukarela membatasi generalisasi.",
-      "skill": "Critical Reading"
+      "skill": "Critical Reading",
+      "translationId": {
+        "prompt": "“Only twelve volunteers answered the poll.” Apa keterbatasan utamanya?",
+        "choices": [
+          "Sampel kecil dan sukarela mungkin tidak mewakili semua orang.",
+          "Jumlah responden tidak diketahui.",
+          "Semua sukarelawan pasti berbohong.",
+          "Hasil pasti mewakili seluruh dunia."
+        ]
+      }
     }
   ]
 }

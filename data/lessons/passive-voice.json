@@ -57,7 +57,10 @@
         "closed"
       ],
       "answer": 1,
-      "explanation": "Pasif simple present: is + closed."
+      "explanation": "Pasif simple present: is + closed.",
+      "translationId": {
+        "prompt": "Museum itu ___ setiap Senin."
+      }
     },
     {
       "id": "p2",
@@ -68,7 +71,10 @@
         "The road is repair yesterday."
       ],
       "answer": 1,
-      "explanation": "Was + repaired untuk passive lampau."
+      "explanation": "Was + repaired untuk passive lampau.",
+      "translationId": {
+        "prompt": "Pilih bentuk pasif lampau."
+      }
     },
     {
       "id": "p3",
@@ -79,7 +85,10 @@
         "are collect"
       ],
       "answer": 0,
-      "explanation": "Objek berubah menjadi subjek; were + V3 sesuai past."
+      "explanation": "Objek berubah menjadi subjek; were + V3 sesuai past.",
+      "translationId": {
+        "prompt": "Aktif: Siswa mengumpulkan sampel. Pasif: Sampel ___ oleh siswa."
+      }
     }
   ],
   "assessments": [
