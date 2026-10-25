@@ -825,6 +825,891 @@
       "kind": "test",
       "examFormat": "topic",
       "order": 71
+    },
+    {
+      "id": "utbk-mock-a",
+      "title": "Simulasi UTBK A · 20 soal",
+      "description": "Simulasi mandiri 20 soal / 20 menit dengan 4 bacaan orisinal. Bukan soal resmi atau prediksi nilai UTBK.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "literasi bahasa inggris",
+        "simulasi",
+        "UTBK",
+        "academic reading"
+      ],
+      "relatedLessons": [
+        "reading-strategies"
+      ],
+      "file": "data/quizzes/utbk-mock-a.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full"
+    },
+    {
+      "id": "utbk-mock-b",
+      "title": "Simulasi UTBK B · 20 soal",
+      "description": "Simulasi mandiri 20 soal / 20 menit dengan 4 bacaan orisinal. Bukan soal resmi atau prediksi nilai UTBK.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "literasi bahasa inggris",
+        "simulasi",
+        "UTBK",
+        "academic reading"
+      ],
+      "relatedLessons": [
+        "reading-strategies"
+      ],
+      "file": "data/quizzes/utbk-mock-b.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full"
+    },
+    {
+      "id": "utbk-reading-lab",
+      "title": "Lab membaca UTBK · 10 soal",
+      "description": "Latihan terarah: ide utama, inferensi, kosakata, dan mengevaluasi bukti pada dua bacaan pendek.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 11
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "reading lab",
+        "bukti teks",
+        "inferensi"
+      ],
+      "relatedLessons": [
+        "reading-strategies"
+      ],
+      "file": "data/quizzes/utbk-reading-lab.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
+      "id": "perfect-tenses",
+      "title": "Perfect Tenses",
+      "description": "Memahami dan memakai perfect tenses dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Perfect Tenses"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/perfect-tenses.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 110,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "Passive Voice",
+      "description": "Memahami dan memakai passive voice dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Passive Voice"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/passive-voice.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 120,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "modal-verbs",
+      "title": "Modal Verbs",
+      "description": "Memahami dan memakai modal verbs dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Modal Verbs"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/modal-verbs.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 130,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "conditional-sentences",
+      "title": "Conditional Sentences",
+      "description": "Memahami dan memakai conditional sentences dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Conditional Sentences"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/conditional-sentences.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 140,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "title": "Relative Clauses",
+      "description": "Memahami dan memakai relative clauses dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Relative Clauses"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/relative-clauses.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 150,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "gerunds-infinitives",
+      "title": "Gerunds and Infinitives",
+      "description": "Memahami dan memakai gerunds and infinitives dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Gerunds and Infinitives"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/gerunds-infinitives.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 160,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "title": "Reported Speech",
+      "description": "Memahami dan memakai reported speech dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Reported Speech"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "intermediate"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/reported-speech.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 170,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "complex-sentences",
+      "title": "Complex Sentence Structures",
+      "description": "Memahami dan memakai complex sentence structures dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "advanced"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/complex-sentences.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 180,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "advanced-conditionals",
+      "title": "Advanced Conditionals",
+      "description": "Memahami dan memakai advanced conditionals dalam kalimat dan teks berbahasa Inggris.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Advanced Conditionals"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "advanced"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/advanced-conditionals.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 190,
+      "estimatedMinutes": 13,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "grade11-exposition",
+      "title": "Analytical exposition · Kelas 11",
+      "description": "Membaca tesis, alasan, dan penegasan ulang dalam teks argumentatif.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "school English",
+        "kelas 11",
+        "reading",
+        "literasi"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade11-exposition.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 200,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "grade11-explanation",
+      "title": "Explanation texts · Kelas 11",
+      "description": "Menemukan proses sebab-akibat dan kata penghubung dalam explanation texts.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "school English",
+        "kelas 11",
+        "reading",
+        "literasi"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade11-explanation.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 210,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "grade12-critical-reading",
+      "title": "Critical reading · Kelas 12",
+      "description": "Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        },
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Critical Reading"
+      ],
+      "tags": [
+        "school English",
+        "kelas 12",
+        "reading",
+        "literasi"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade12-critical-reading.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 220,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "grade12-academic-vocab",
+      "title": "Academic vocabulary in context · Kelas 12",
+      "description": "Mempelajari makna kata akademik melalui konteks, sinonim, dan kalimat.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        },
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Vocabulary in Context"
+      ],
+      "tags": [
+        "school English",
+        "kelas 12",
+        "reading",
+        "vocabulary"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade12-academic-vocab.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 230,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "reading-bridge",
+      "title": "Jembatan membaca · dari kalimat ke paragraf",
+      "description": "Belajar menemukan subjek, ide penting, dan petunjuk hubungan untuk pembaca pemula.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        },
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "school English",
+        "kelas 9",
+        "reading",
+        "literasi"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/reading-bridge.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 240,
+      "estimatedMinutes": 12,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar-diagnostic",
+      "title": "Tes diagnostik · mulai dari mana?",
+      "description": "12 soal penempatan mandiri: dasar tata bahasa dan pemahaman bacaan. Lihat pembahasan untuk memilih langkah belajar berikutnya.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 11
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "tes awal",
+        "diagnostic",
+        "placement",
+        "level check"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grammar-diagnostic.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
+      "id": "inversion",
+      "title": "Inversion",
+      "description": "Mengenali inversi untuk penekanan dalam bahasa Inggris formal, terutama sesudah negative adverbials.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Inversion"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "advanced",
+        "Inversion"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/inversion.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 190,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "reduced-relative-clauses",
+      "title": "Reduced Relative Clauses",
+      "description": "Memendekkan beberapa relative clause tanpa mengubah hubungan makna dasar antara noun dan verb.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Reduced Relative Clauses"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "advanced",
+        "Reduced Relative Clauses"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/reduced-relative-clauses.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 200,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "parallel-structures",
+      "title": "Parallel Structures",
+      "description": "Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk grammar yang sejajar.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Parallel Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "advanced",
+        "Parallel Structures"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/parallel-structures.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 210,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "advanced-grammar-analysis",
+      "title": "Advanced Grammar Analysis",
+      "description": "Menganalisis fungsi klausa, pilihan tenses, serta pembatas klaim dalam kalimat akademik kompleks.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Advanced Grammar Analysis"
+      ],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "grammar",
+        "advanced",
+        "Advanced Grammar Analysis"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/advanced-grammar-analysis.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 220,
+      "estimatedMinutes": 14,
+      "prerequisites": [
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "grade9-narrative",
+      "title": "Narrative texts · Kelas 9",
+      "description": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "school English",
+        "kelas 9"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade9-narrative.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 215,
+      "estimatedMinutes": 14,
+      "prerequisites": []
+    },
+    {
+      "id": "grade10-descriptive",
+      "title": "Descriptive texts · Kelas 10",
+      "description": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "school English",
+        "kelas 10"
+      ],
+      "relatedLessons": [],
+      "file": "data/lessons/grade10-descriptive.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 225,
+      "estimatedMinutes": 14,
+      "prerequisites": []
+    },
+    {
+      "id": "advanced-grammar-check",
+      "title": "Tes grammar tingkat lanjut · 12 soal",
+      "description": "Latihan terintegrasi tentang inversi, relative clauses, paralelisme, dan kalimat kompleks.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Inversion",
+        "Reduced Relative Clauses",
+        "Parallel Structures",
+        "Advanced Grammar Analysis",
+        "Advanced Conditionals",
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "advanced grammar",
+        "assessment"
+      ],
+      "relatedLessons": [
+        "inversion",
+        "parallel-structures"
+      ],
+      "file": "data/quizzes/advanced-grammar-check.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic"
+    },
+    {
+      "id": "utbk-mock-c",
+      "title": "Simulasi UTBK C · 20 soal",
+      "description": "Paket latihan mandiri 20 soal / 20 menit: pengukuran hujan, pasar, peta keluarga, dan kebijakan transportasi. Bukan soal resmi.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "UTBK",
+        "simulasi",
+        "reading",
+        "literasi bahasa inggris"
+      ],
+      "relatedLessons": [
+        "reading-strategies"
+      ],
+      "file": "data/quizzes/utbk-mock-c.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full"
     }
   ]
 }

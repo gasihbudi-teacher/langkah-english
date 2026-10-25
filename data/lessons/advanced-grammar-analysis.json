@@ -1,0 +1,93 @@
+{
+  "id": "advanced-grammar-analysis",
+  "objectives": [
+    "Menganalisis fungsi klausa, pilihan tenses, serta pembatas klaim dalam kalimat akademik kompleks.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Menganalisis fungsi klausa, pilihan tenses, serta pembatas klaim dalam kalimat akademik kompleks."
+    },
+    {
+      "type": "rule",
+      "text": "Identifikasi main clause, dependent clause, modifier, dan cakupan negasi sebelum menerjemahkan. Penghubung “although”, “because”, dan “unless” memiliki hubungan makna berbeda."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "Although the sample was small, the pattern was consistent.",
+      "note": "Although mengakui keterbatasan tetapi hasil tetap konsisten."
+    },
+    {
+      "type": "example",
+      "text": "The findings, which were reviewed independently, suggest a trend.",
+      "note": "Relative clause non-defining memberikan keterangan tambahan."
+    },
+    {
+      "type": "example",
+      "text": "Unless conditions change, the plan will remain in place.",
+      "note": "Unless = if not, yaitu kecuali jika kondisi berubah."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Despite the findings were limited, we reported them.",
+      "correct": "Although the findings were limited, we reported them.",
+      "explanation": "Despite + noun phrase; although + clause."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“Unless the road reopens, we will delay the trip.” Artinya …",
+      "choices": [
+        "Perjalanan ditunda jika jalan tetap tertutup.",
+        "Perjalanan pasti tetap dilakukan.",
+        "Jalan dibuka karena perjalanan ditunda."
+      ],
+      "answer": 0,
+      "explanation": "Unless means if not."
+    },
+    {
+      "id": "p2",
+      "prompt": "“The findings, which were reviewed, suggest a trend.” Bagian mana berfungsi sebagai keterangan tambahan?",
+      "choices": [
+        "which were reviewed",
+        "The findings",
+        "suggest a trend"
+      ],
+      "answer": 0,
+      "explanation": "Relative clause memberi informasi tambahan."
+    },
+    {
+      "id": "p3",
+      "prompt": "Choose a grammatical contrast.",
+      "choices": [
+        "Although the data were limited, the conclusion was cautious.",
+        "Despite the data were limited, conclusion cautious.",
+        "Because of data were limited, the cautious."
+      ],
+      "answer": 0,
+      "explanation": "Although disusul klausa lengkap dan klausa utama."
+    }
+  ],
+  "assessments": [
+    "advanced-grammar-check"
+  ]
+}

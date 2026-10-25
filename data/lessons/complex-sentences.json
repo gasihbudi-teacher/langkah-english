@@ -1,0 +1,93 @@
+{
+  "id": "complex-sentences",
+  "objectives": [
+    "Memahami dan memakai complex sentence structures dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Complex sentences menghubungkan klausa utama dan subordinat. Pelajari fungsi sebab, kontras, dan syarat agar argumen terbaca jelas."
+    },
+    {
+      "type": "rule",
+      "text": "Although + clause, main clause; because + clause, main clause; despite + noun/V-ing (bukan full clause)."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "Although the sample was small, the results were useful.",
+      "note": "Contrast — Hasil berguna tetapi ada keterbatasan."
+    },
+    {
+      "type": "example",
+      "text": "We delayed the trip because the road was closed.",
+      "note": "Cause — Because menghubungkan dua klausa."
+    },
+    {
+      "type": "example",
+      "text": "Despite the rain, the match continued.",
+      "note": "Concession — Despite diikuti frasa noun."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Despite it rained, we walked.",
+      "correct": "Although it rained, we walked.",
+      "explanation": "Despite tidak langsung diikuti klausa subject + verb."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "___ the data were limited, the team published a cautious report.",
+      "choices": [
+        "Despite",
+        "Although",
+        "Because of"
+      ],
+      "answer": 1,
+      "explanation": "Although diikuti klausa lengkap."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose a complete sentence.",
+      "choices": [
+        "Because the survey was late.",
+        "Because the survey was late, the report was delayed.",
+        "The report because late."
+      ],
+      "answer": 1,
+      "explanation": "Dependent clause memerlukan main clause."
+    },
+    {
+      "id": "p3",
+      "prompt": "___ the noise, she could concentrate.",
+      "choices": [
+        "Despite",
+        "Although",
+        "Because"
+      ],
+      "answer": 0,
+      "explanation": "Despite + noun phrase the noise."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

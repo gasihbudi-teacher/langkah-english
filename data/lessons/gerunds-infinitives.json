@@ -1,0 +1,93 @@
+{
+  "id": "gerunds-infinitives",
+  "objectives": [
+    "Memahami dan memakai gerunds and infinitives dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Sebagian verb diikuti -ing, sebagian diikuti to + V1; pilihan juga dapat mengubah makna."
+    },
+    {
+      "type": "rule",
+      "text": "Enjoy + V-ing; decide + to-infinitive; preposition + V-ing."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "They enjoy reading short stories.",
+      "note": "Gerund — Enjoy + -ing."
+    },
+    {
+      "type": "example",
+      "text": "She decided to apply.",
+      "note": "Infinitive — Decide + to + base form."
+    },
+    {
+      "type": "example",
+      "text": "He is interested in learning.",
+      "note": "Preposition — Setelah in, -ing berfungsi sebagai noun."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "We decided going home.",
+      "correct": "We decided to go home.",
+      "explanation": "Decide biasa diikuti to-infinitive."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "I enjoy ___ new words.",
+      "choices": [
+        "learn",
+        "learning",
+        "to learning"
+      ],
+      "answer": 1,
+      "explanation": "Enjoy + gerund."
+    },
+    {
+      "id": "p2",
+      "prompt": "We plan ___ the museum on Friday.",
+      "choices": [
+        "visit",
+        "visiting",
+        "to visit"
+      ],
+      "answer": 2,
+      "explanation": "Plan + to-infinitive."
+    },
+    {
+      "id": "p3",
+      "prompt": "She is good at ___ evidence.",
+      "choices": [
+        "find",
+        "finding",
+        "to find"
+      ],
+      "answer": 1,
+      "explanation": "At (preposition) + V-ing."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

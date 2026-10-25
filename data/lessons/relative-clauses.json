@@ -1,0 +1,93 @@
+{
+  "id": "relative-clauses",
+  "objectives": [
+    "Memahami dan memakai relative clauses dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Relative clause menambahkan informasi mengenai noun: orang, benda, tempat, atau waktu."
+    },
+    {
+      "type": "rule",
+      "text": "Who untuk orang; which/that untuk benda; where untuk tempat. Klausa non-defining biasanya diapit koma."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "The scientist who led the team spoke first.",
+      "note": "People — Who merujuk orang."
+    },
+    {
+      "type": "example",
+      "text": "The device that measures rainfall is new.",
+      "note": "Things — That menjelaskan alat."
+    },
+    {
+      "type": "example",
+      "text": "My aunt, who lives in Bogor, is visiting.",
+      "note": "Extra detail — Klausa koma memberi informasi tambahan."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The place which I was born is small.",
+      "correct": "The place where I was born is small.",
+      "explanation": "Where mengungkap lokasi kejadian; alternatively: the place in which I was born."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "The author ___ wrote this article is a biologist.",
+      "choices": [
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": 1,
+      "explanation": "Who merujuk orang."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose the sentence with a defining clause.",
+      "choices": [
+        "The book that I borrowed is useful.",
+        "The book, that I borrowed, is useful.",
+        "The book where I borrowed is useful."
+      ],
+      "answer": 0,
+      "explanation": "That tanpa koma membatasi buku yang dimaksud."
+    },
+    {
+      "id": "p3",
+      "prompt": "The city ___ she grew up is near the coast.",
+      "choices": [
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": 1,
+      "explanation": "Where merujuk lokasi."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

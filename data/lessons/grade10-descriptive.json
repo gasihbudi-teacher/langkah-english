@@ -1,0 +1,86 @@
+{
+  "id": "grade10-descriptive",
+  "objectives": [
+    "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text."
+    },
+    {
+      "type": "rule",
+      "text": "Descriptive text memperkenalkan objek lalu menggambarkan ciri, lokasi, fungsi, atau kesannya; detail harus mendukung objek utama."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "The reading room is small but bright. Two wide windows face the garden, and a long table stands near the door.",
+      "note": "Ide utama: gambaran reading room; detail: ukuran, jendela, meja."
+    },
+    {
+      "type": "example",
+      "text": "It feels peaceful in the morning.",
+      "note": "Feels peaceful adalah kesan penulis terhadap objek."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The library have two window.",
+      "correct": "The library has two windows.",
+      "explanation": "Subjek tunggal library memakai has dan angka two diikuti plural windows."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Ciri fisik reading room di contoh adalah …",
+      "choices": [
+        "two wide windows",
+        "two busy streets",
+        "a tall mountain"
+      ],
+      "answer": 0,
+      "explanation": "Jendela dijelaskan langsung dalam bacaan."
+    },
+    {
+      "id": "p2",
+      "prompt": "Tujuan utama descriptive text adalah …",
+      "choices": [
+        "menggambarkan suatu objek",
+        "menjelaskan langkah memasak",
+        "membuktikan rumus fisika"
+      ],
+      "answer": 0,
+      "explanation": "Descriptive text memberikan gambaran rinci."
+    },
+    {
+      "id": "p3",
+      "prompt": "“Peaceful” paling dekat dengan …",
+      "choices": [
+        "tenang",
+        "bising",
+        "mahal"
+      ],
+      "answer": 0,
+      "explanation": "Peaceful menggambarkan suasana yang tenang."
+    }
+  ],
+  "assessments": []
+}

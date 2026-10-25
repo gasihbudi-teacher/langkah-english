@@ -1,0 +1,82 @@
+{
+  "id": "reading-bridge",
+  "objectives": [
+    "Belajar menemukan subjek, ide penting, dan petunjuk hubungan untuk pembaca pemula.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Satu kalimat, satu gagasan"
+    },
+    {
+      "type": "text",
+      "text": "Mulailah dengan siapa/apa yang dibicarakan (subject), kemudian apa yang terjadi atau dijelaskan (verb/predicate). Kamu tidak perlu memahami setiap kata untuk menangkap pesan utama."
+    },
+    {
+      "type": "example",
+      "text": "The young scientist carefully tested the water.",
+      "note": "Siapa? The young scientist. Melakukan apa? tested the water. Carefully menerangkan cara."
+    },
+    {
+      "type": "subheading",
+      "text": "Baca dua kalimat bersama"
+    },
+    {
+      "type": "example",
+      "text": "The bus was late. Therefore, we missed the opening speech.",
+      "note": "Therefore menghubungkan keterlambatan bus dengan tidak sempat mengikuti pidato pembukaan."
+    },
+    {
+      "type": "subheading",
+      "text": "Bedakan ide utama dan contoh"
+    },
+    {
+      "type": "text",
+      "text": "Contoh dan angka sering menjadi bukti; ide utama adalah gagasan yang menghubungkan bukti tersebut. Jika ada but atau however, periksa apakah pendapat utama berubah."
+    },
+    {
+      "type": "rule",
+      "text": "Baca kalimat pertama, cari penghubung, rangkum paragraf dalam tujuh sampai sepuluh kata. Setelah itu baru periksa pilihan jawaban."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“The cat slept under the chair.” Apa kegiatan cat?",
+      "choices": [
+        "slept",
+        "chair",
+        "under"
+      ],
+      "answer": 0,
+      "explanation": "Verb slept = tidur."
+    },
+    {
+      "id": "p2",
+      "prompt": "“It rained. Therefore, the game stopped.” Therefore artinya …",
+      "choices": [
+        "jadi/akibatnya",
+        "walaupun",
+        "sebelum"
+      ],
+      "answer": 0,
+      "explanation": "Therefore memperkenalkan akibat."
+    },
+    {
+      "id": "p3",
+      "prompt": "“Many students cycle to school because it is affordable.” Ide utama adalah …",
+      "choices": [
+        "Bersepeda ke sekolah populer karena terjangkau.",
+        "Semua siswa memiliki sepeda mahal.",
+        "Sekolah melarang kendaraan."
+      ],
+      "answer": 0,
+      "explanation": "Jawaban menyatukan kegiatan dan alasannya tanpa tambahan asumsi."
+    }
+  ],
+  "assessments": [
+    "utbk-reading-lab"
+  ]
+}

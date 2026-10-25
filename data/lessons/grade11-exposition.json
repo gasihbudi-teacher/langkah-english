@@ -1,0 +1,71 @@
+{
+  "id": "grade11-exposition",
+  "objectives": [
+    "Membaca tesis, alasan, dan penegasan ulang dalam teks argumentatif.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Susunan teks exposition"
+    },
+    {
+      "type": "text",
+      "text": "Analytical exposition menyampaikan sebuah pendapat (thesis), alasan pendukung (arguments), lalu penegasan kembali (reiteration). Pembaca harus memeriksa kekuatan bukti, bukan hanya kata yang terdengar yakin."
+    },
+    {
+      "type": "example",
+      "text": "Schools should provide more shaded outdoor spaces. Shade can make break times more comfortable, and greenery may support biodiversity. Therefore, planners should consider shaded spaces when improving campuses.",
+      "note": "Thesis: shaded spaces; arguments: comfort and biodiversity; reiteration: planners should consider."
+    },
+    {
+      "type": "subheading",
+      "text": "Bukti dan pendapat"
+    },
+    {
+      "type": "text",
+      "text": "Kalimat “shade can make breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata should menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
+    },
+    {
+      "type": "rule",
+      "text": "Pertanyaan berpikir kritis: bukti apa yang disediakan, seberapa luas cakupannya, dan apakah ada penjelasan alternatif?"
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Kalimat yang memperkenalkan posisi penulis disebut …",
+      "choices": [
+        "Thesis",
+        "Argument",
+        "Reiteration"
+      ],
+      "answer": 0,
+      "explanation": "Thesis menyatakan posisi di awal teks."
+    },
+    {
+      "id": "p2",
+      "prompt": "“Therefore” paling sering memperkenalkan …",
+      "choices": [
+        "kesimpulan atau penegasan",
+        "contoh yang acak",
+        "tokoh baru"
+      ],
+      "answer": 0,
+      "explanation": "Therefore menandai simpulan dari argumen."
+    },
+    {
+      "id": "p3",
+      "prompt": "Pernyataan mana yang membutuhkan bukti?",
+      "choices": [
+        "The word shade has five letters.",
+        "Adding trees will improve every school.",
+        "This paragraph has three sentences."
+      ],
+      "answer": 1,
+      "explanation": "Klaim dampak luas perlu data, bukan sekadar keyakinan."
+    }
+  ],
+  "assessments": []
+}

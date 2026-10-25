@@ -1,0 +1,93 @@
+{
+  "id": "reduced-relative-clauses",
+  "objectives": [
+    "Memendekkan beberapa relative clause tanpa mengubah hubungan makna dasar antara noun dan verb.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Memendekkan beberapa relative clause tanpa mengubah hubungan makna dasar antara noun dan verb."
+    },
+    {
+      "type": "rule",
+      "text": "Active relative clause → -ing phrase; passive relative clause → V3 phrase. Pengurangan tidak selalu cocok jika kehilangan informasi waktu/identitas."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "Students who live nearby → Students living nearby",
+      "note": "Active: who live → living."
+    },
+    {
+      "type": "example",
+      "text": "Data that were collected yesterday → Data collected yesterday",
+      "note": "Passive: that were collected → collected."
+    },
+    {
+      "type": "example",
+      "text": "The report written by Mei is available.",
+      "note": "Written menerangkan report sebagai pasif."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The books borrowing yesterday are here.",
+      "correct": "The books borrowed yesterday are here.",
+      "explanation": "Buku menerima aksi borrowed, bukan melakukan borrowing."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "The samples ___ in the lab were sealed.",
+      "choices": [
+        "tested",
+        "testing by",
+        "were testing"
+      ],
+      "answer": 0,
+      "explanation": "Samples menerima perlakuan test → tested."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose active reduction.",
+      "choices": [
+        "People waiting outside",
+        "People waited outside",
+        "People wait outside because"
+      ],
+      "answer": 0,
+      "explanation": "People who are waiting outside → people waiting outside."
+    },
+    {
+      "id": "p3",
+      "prompt": "Which phrase is passive?",
+      "choices": [
+        "students reading quietly",
+        "forms signed by parents",
+        "workers building the bridge"
+      ],
+      "answer": 1,
+      "explanation": "Signed menunjukkan forms menerima aksi."
+    }
+  ],
+  "assessments": [
+    "advanced-grammar-check"
+  ]
+}

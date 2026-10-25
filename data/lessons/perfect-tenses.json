@@ -1,0 +1,88 @@
+{
+  "id": "perfect-tenses",
+  "objectives": [
+    "Memahami dan memakai perfect tenses dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Present perfect menghubungkan pengalaman/kejadian lampau dengan keadaan kini; past perfect menjelaskan kejadian yang lebih dahulu dari peristiwa lampau lain."
+    },
+    {
+      "type": "rule",
+      "text": "have/has + past participle (V3) untuk present perfect; had + V3 untuk past perfect."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "She has lived here since 2022.",
+      "note": "Present perfect — Sampai sekarang masih tinggal di sini."
+    },
+    {
+      "type": "example",
+      "text": "When I arrived, the train had left.",
+      "note": "Past perfect — Kereta pergi lebih dahulu daripada kedatangan saya."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "I have seen him yesterday.",
+      "correct": "I saw him yesterday.",
+      "explanation": "Yesterday merupakan waktu lampau spesifik; gunakan simple past."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "She ___ three chapters so far.",
+      "choices": [
+        "has read",
+        "reads",
+        "had read"
+      ],
+      "answer": 0,
+      "explanation": "So far mengarah ke present perfect dan she → has + read."
+    },
+    {
+      "id": "p2",
+      "prompt": "By the time we arrived, the film ___.",
+      "choices": [
+        "has started",
+        "had started",
+        "starts"
+      ],
+      "answer": 1,
+      "explanation": "Film dimulai sebelum titik waktu lampau kedatangan: had started."
+    },
+    {
+      "id": "p3",
+      "prompt": "Which sentence describes experience up to now?",
+      "choices": [
+        "I have visited Bali twice.",
+        "I have visit Bali twice.",
+        "I had visited Bali tomorrow."
+      ],
+      "answer": 0,
+      "explanation": "Have + visited adalah bentuk present perfect yang benar."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

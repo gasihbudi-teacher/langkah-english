@@ -1,0 +1,88 @@
+{
+  "id": "advanced-conditionals",
+  "objectives": [
+    "Memahami dan memakai advanced conditionals dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Mixed conditionals menghubungkan kondisi masa lalu dengan akibat sekarang, dan inversi kondisional dapat menghilangkan if dalam gaya formal."
+    },
+    {
+      "type": "rule",
+      "text": "If + past perfect, would + base form (akibat kini); Had + subject + V3, ... = If + subject + had + V3."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "If she had saved the file, she would have a copy now.",
+      "note": "Mixed — Kondisi lampau memengaruhi keadaan saat ini."
+    },
+    {
+      "type": "example",
+      "text": "Had I known, I would have called.",
+      "note": "Inversion — Setara dengan If I had known, ..."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Had I knew, I would call.",
+      "correct": "Had I known, I would have called.",
+      "explanation": "Inversi bentuk lampau sempurna: had + subject + V3."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "If he had practised, he ___ more confident now.",
+      "choices": [
+        "would feel",
+        "will felt",
+        "had felt"
+      ],
+      "answer": 0,
+      "explanation": "Akibat kini dari syarat lampau: would + V1."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose conditional inversion.",
+      "choices": [
+        "Had we left earlier, we would have arrived on time.",
+        "Had we leave earlier, we arrive on time.",
+        "If had we left earlier, we would arrive."
+      ],
+      "answer": 0,
+      "explanation": "Had + subject + V3 dengan hasil past conditional."
+    },
+    {
+      "id": "p3",
+      "prompt": "If she had caught the bus, she ___ here now.",
+      "choices": [
+        "would be",
+        "will have been",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "Mixed conditional hasil saat ini: would be."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

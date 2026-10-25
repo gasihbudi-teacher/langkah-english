@@ -1,0 +1,93 @@
+{
+  "id": "conditional-sentences",
+  "objectives": [
+    "Memahami dan memakai conditional sentences dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Conditional sentences menyatakan akibat dari suatu kondisi. Pilih bentuk berdasarkan fakta/kebiasaan, kemungkinan nyata, atau situasi imajiner."
+    },
+    {
+      "type": "rule",
+      "text": "Zero: if + present, present. First: if + present, will + V1. Second: if + past, would + V1."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "If water freezes, it expands.",
+      "note": "Zero — Pernyataan umum."
+    },
+    {
+      "type": "example",
+      "text": "If it rains, we will stay inside.",
+      "note": "First — Mungkin terjadi di masa depan."
+    },
+    {
+      "type": "example",
+      "text": "If I had more time, I would volunteer.",
+      "note": "Second — Situasi imajiner saat ini."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "If she will study, she will pass.",
+      "correct": "If she studies, she will pass.",
+      "explanation": "Pada first conditional, klausa if umumnya memakai present."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "If I ___ early, I will call you.",
+      "choices": [
+        "arrive",
+        "will arrive",
+        "arrived"
+      ],
+      "answer": 0,
+      "explanation": "First conditional: if + present."
+    },
+    {
+      "id": "p2",
+      "prompt": "If I were taller, I ___ reach that shelf.",
+      "choices": [
+        "will",
+        "would",
+        "am"
+      ],
+      "answer": 1,
+      "explanation": "Second conditional: would + V1."
+    },
+    {
+      "id": "p3",
+      "prompt": "If you heat ice, it ___.",
+      "choices": [
+        "melts",
+        "will melted",
+        "would melted"
+      ],
+      "answer": 0,
+      "explanation": "Zero conditional untuk fakta umum."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

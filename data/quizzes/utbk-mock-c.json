@@ -1,0 +1,339 @@
+{
+  "id": "utbk-mock-c",
+  "questionCount": 20,
+  "durationSeconds": 1200,
+  "referenceFormat": {
+    "year": 2026,
+    "questionCount": 20,
+    "durationSeconds": 1200,
+    "source": "https://snpmb.id/fr/"
+  },
+  "passages": [
+    {
+      "id": "rainfall-sensors",
+      "title": "Reading the rainfall numbers",
+      "text": "A science club installed two simple rain gauges, one beside the school garden and another near the football field. The students expected both gauges to record similar totals because they were only a short walk apart. After three weeks, however, the garden gauge repeatedly recorded less rain than the field gauge.\n\nAt first, the club suspected that rainfall varied sharply across the school grounds. A visiting researcher asked them to inspect the equipment before drawing that conclusion. They discovered that a large branch partly covered the garden gauge. During heavy rain, some water hit the leaves and dripped away from the container. The field gauge had no obstruction above it.\n\nThe students moved the garden gauge to an open location. Over the next two weeks, its readings became closer to those of the field gauge, although they were not identical. The researcher explained that gauges can still differ because of wind, placement, and small errors in measurement. She encouraged the club to write down exactly where every gauge was positioned.\n\nThe students had begun the project hoping to learn about weather patterns. Instead, they first learned a lesson about evidence: an unexpected number may tell us something about the world, but it may also reveal a problem with how we collected it.",
+      "original": true
+    },
+    {
+      "id": "city-market",
+      "title": "A different way to count shoppers",
+      "text": "A neighborhood market moved its busiest trading hours from late morning to early evening. Shopkeepers hoped that workers returning home would find it easier to visit. In the first month, the number of transactions rose by about fifteen percent. Several vendors said the new schedule was clearly better for everyone.\n\nA community volunteer examined the records more carefully. She noticed that weekend transactions had increased sharply but some weekday vendors had sold less than before. She also learned that the market had been featured in a local travel video during the same month. More customers might have come because of the video rather than the new hours alone.\n\nThe volunteer suggested comparing weekday and weekend figures across several months and asking sellers which hours suited them. Some sellers needed to leave early to collect children from school, while others preferred evening work. The market committee decided to keep the new hours for another trial period but to allow a small number of morning stalls.\n\nThe experience showed that a single total can hide differences among people. An improvement measured for the market as a whole does not necessarily mean that every seller benefits equally.",
+      "original": true
+    },
+    {
+      "id": "old-map",
+      "title": "The old map in a drawer",
+      "text": "After moving to a new apartment, Iqbal helped his mother sort through boxes of family papers. In one drawer he found a hand-drawn map of the neighborhood where his grandmother had grown up. The map showed a small cinema, a water pump, and a narrow path beside the river. None of these places appeared on the map application on his phone.\n\nIqbal assumed the drawing must be inaccurate. His grandmother laughed when he showed it to her. She explained that the cinema had closed decades ago and the water pump had been replaced by a public tap. The path, once used by cyclists, had disappeared when a wider road was built. She could still remember where these places had stood, even though the buildings were gone.\n\nTogether they walked around the neighborhood, comparing the drawing with what remained. They found the old cinema's name carved into a wall that now belonged to a grocery store. Iqbal photographed it and wrote down his grandmother's memories. He began to see that a map can show more than present-day directions; it can also capture how people once understood a place.\n\nBefore returning the drawing to its folder, he added the date of their walk on a separate note. He wanted future readers to know when the memories had been recorded, without changing the map itself.",
+      "original": true
+    },
+    {
+      "id": "bus-priority",
+      "title": "Testing a bus priority lane",
+      "text": "To make public transport more reliable, a city marked one lane on a busy road for buses during the morning rush. Officials measured average bus travel time before the change and again four weeks later. The buses completed the route faster on most days. A headline announced that the lane had solved the city's traffic problems.\n\nTransport researchers advised caution. The bus measurements did not include delays at stops where passengers boarded. Nor did they show how the new lane affected delivery vehicles or cyclists on nearby streets. In addition, the second measurement period included a school holiday, when fewer cars were on the road.\n\nRather than abandoning the plan, the researchers recommended a broader evaluation. They suggested recording total journey times for bus passengers, observing safety at intersections, and repeating the study after schools reopened. They also invited shop owners and commuters to describe difficulties that travel-time averages might overlook.\n\nThe city retained the trial lane while collecting more information. Faster buses were a valuable result, but the policy could only be judged fairly by considering who gained, who faced new problems, and whether the improvements lasted under normal traffic conditions.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Apa gagasan utama?",
+      "choices": [
+        "Pengukuran yang tampak berbeda perlu diperiksa dari sisi alat dan cara pengumpulan data.",
+        "Semua hujan di sekolah memiliki volume sama.",
+        "Cabang pohon selalu meningkatkan curah hujan.",
+        "Klub menghentikan eksperimen setelah satu hari."
+      ],
+      "answer": 0,
+      "explanation": "Teks menekankan ketelitian metode pengukuran sebelum menarik kesimpulan.",
+      "skill": "Main Idea",
+      "evidence": "it may also reveal a problem with how we collected it.",
+      "passageId": "rainfall-sensors"
+    },
+    {
+      "id": "q2",
+      "prompt": "Apa masalah pada alat ukur di dekat kebun?",
+      "choices": [
+        "Wadah tertutup sebagian oleh cabang",
+        "Alat dicuri penduduk",
+        "Lapangan tidak memiliki rumput",
+        "Tidak ada yang mencatat data"
+      ],
+      "answer": 0,
+      "explanation": "Cabang mengalihkan sebagian air dari alat pengukur.",
+      "skill": "Supporting Details",
+      "evidence": "a large branch partly covered the garden gauge",
+      "passageId": "rainfall-sensors"
+    },
+    {
+      "id": "q3",
+      "prompt": "Setelah alat dipindah, apa yang terjadi?",
+      "choices": [
+        "Hasil pengukurannya lebih mendekati hasil alat di lapangan",
+        "Alat tidak pernah terisi air",
+        "Pengukuran selalu identik",
+        "Klub berhenti mencatat lokasi"
+      ],
+      "answer": 0,
+      "explanation": "Perbedaan berkurang setelah penghalang disingkirkan.",
+      "skill": "Making Inferences",
+      "evidence": "its readings became closer to those of the field gauge",
+      "passageId": "rainfall-sensors"
+    },
+    {
+      "id": "q4",
+      "prompt": "Dalam bacaan ini “obstruction” berarti …",
+      "choices": [
+        "penghalang",
+        "pengumuman",
+        "pelengkap",
+        "ramalan"
+      ],
+      "answer": 0,
+      "explanation": "Cabang menjadi penghalang yang menutupi posisi alat.",
+      "skill": "Vocabulary in Context",
+      "evidence": "The field gauge had no obstruction above it.",
+      "passageId": "rainfall-sensors"
+    },
+    {
+      "id": "q5",
+      "prompt": "Peran peneliti tamu dalam alur argumen adalah …",
+      "choices": [
+        "Mengajak siswa memeriksa metode sebelum menyimpulkan sebab",
+        "Menyuruh klub membuang semua catatan",
+        "Memastikan cuaca selalu dapat diprediksi",
+        "Membuktikan alat tidak pernah salah"
+      ],
+      "answer": 0,
+      "explanation": "Peneliti memindahkan fokus dari hipotesis cuaca menuju pemeriksaan alat.",
+      "skill": "Text Organization",
+      "evidence": "inspect the equipment before drawing that conclusion",
+      "passageId": "rainfall-sensors"
+    },
+    {
+      "id": "q6",
+      "prompt": "Apa gagasan utama teks?",
+      "choices": [
+        "Angka total yang meningkat dapat menutupi pengalaman pedagang yang berbeda.",
+        "Video lokal tidak pernah berpengaruh terhadap pembelian.",
+        "Jam sore selalu lebih baik bagi semua pedagang.",
+        "Setiap pedagang mendapat kenaikan sama."
+      ],
+      "answer": 0,
+      "explanation": "Kalimat penutup membedakan kenaikan keseluruhan dari pengalaman individu.",
+      "skill": "Main Idea",
+      "evidence": "An improvement measured for the market as a whole does not necessarily mean that every seller benefits equally.",
+      "passageId": "city-market"
+    },
+    {
+      "id": "q7",
+      "prompt": "Berapa kira-kira persentase kenaikan transaksi pada bulan pertama?",
+      "choices": [
+        "5 persen",
+        "15 persen",
+        "50 persen",
+        "Tidak disebutkan"
+      ],
+      "answer": 1,
+      "explanation": "Bacaan menyebut about fifteen percent.",
+      "skill": "Supporting Details",
+      "evidence": "transactions rose by about fifteen percent",
+      "passageId": "city-market"
+    },
+    {
+      "id": "q8",
+      "prompt": "Mengapa sulit menganggap jam baru sebagai satu-satunya penyebab kenaikan?",
+      "choices": [
+        "Pasar juga muncul dalam video wisata lokal",
+        "Semua pedagang pindah kota",
+        "Tidak ada catatan transaksi",
+        "Pasar hanya buka akhir pekan"
+      ],
+      "answer": 0,
+      "explanation": "Video menjadi faktor alternatif yang berjalan bersamaan.",
+      "skill": "Critical Reading",
+      "evidence": "the market had been featured in a local travel video during the same month",
+      "passageId": "city-market"
+    },
+    {
+      "id": "q9",
+      "prompt": "Pada “some weekday vendors had sold less”, “vendors” adalah …",
+      "choices": [
+        "pedagang",
+        "pelancong",
+        "pengelola video",
+        "pekerja jalan"
+      ],
+      "answer": 0,
+      "explanation": "Vendors adalah orang yang menjual barang di pasar.",
+      "skill": "Vocabulary in Context",
+      "evidence": "some weekday vendors had sold less than before",
+      "passageId": "city-market"
+    },
+    {
+      "id": "q10",
+      "prompt": "Mengapa panitia menyediakan beberapa kios pagi?",
+      "choices": [
+        "Untuk mengakomodasi kebutuhan pedagang yang beragam",
+        "Untuk menutup kios sore seluruhnya",
+        "Untuk melarang pelanggan akhir pekan",
+        "Untuk menghilangkan survei relawan"
+      ],
+      "answer": 0,
+      "explanation": "Pilihan jadwal mempertimbangkan pedagang dengan kebutuhan waktu berbeda.",
+      "skill": "Reading Between the Lines",
+      "evidence": "The market committee decided to keep the new hours for another trial period but to allow a small number of morning stalls.",
+      "passageId": "city-market"
+    },
+    {
+      "id": "q11",
+      "prompt": "Perubahan pandangan Iqbal paling tepat digambarkan sebagai …",
+      "choices": [
+        "Dari menganggap peta tidak akurat menjadi memahami nilainya sebagai catatan masa lalu",
+        "Dari suka berjalan menjadi takut sungai",
+        "Dari mencari kertas menjadi membuang semua dokumen",
+        "Dari pendiam menjadi pemilik bioskop"
+      ],
+      "answer": 0,
+      "explanation": "Ia memahami peta mewakili pengalaman dan kondisi masa lampau.",
+      "skill": "Main Idea",
+      "evidence": "a map can show more than present-day directions; it can also capture how people once understood a place.",
+      "passageId": "old-map"
+    },
+    {
+      "id": "q12",
+      "prompt": "Apa yang menggantikan pompa air lama?",
+      "choices": [
+        "Keran umum",
+        "Perpustakaan",
+        "Tempat parkir",
+        "Rel kereta"
+      ],
+      "answer": 0,
+      "explanation": "Nenek menyebut penggantian pompa oleh public tap.",
+      "skill": "Supporting Details",
+      "evidence": "the water pump had been replaced by a public tap",
+      "passageId": "old-map"
+    },
+    {
+      "id": "q13",
+      "prompt": "Mengapa peta itu tidak muncul sama persis dalam aplikasi ponsel?",
+      "choices": [
+        "Sebagian lokasi dan bangunan sudah berubah atau hilang",
+        "Telepon Iqbal tidak bisa diisi ulang",
+        "Semua nama jalan salah eja",
+        "Nenek menggambar tempat yang belum dibangun"
+      ],
+      "answer": 0,
+      "explanation": "Peta lama merekam lokasi yang tidak ada lagi.",
+      "skill": "Making Inferences",
+      "evidence": "the buildings were gone",
+      "passageId": "old-map"
+    },
+    {
+      "id": "q14",
+      "prompt": "Kata “remained” dalam “comparing the drawing with what remained” berarti …",
+      "choices": [
+        "yang masih tersisa",
+        "yang belum direncanakan",
+        "yang dipindahkan ke luar negeri",
+        "yang akan segera dibangun"
+      ],
+      "answer": 0,
+      "explanation": "Remained merujuk pada hal yang masih ada hingga kini.",
+      "skill": "Vocabulary in Context",
+      "evidence": "comparing the drawing with what remained",
+      "passageId": "old-map"
+    },
+    {
+      "id": "q15",
+      "prompt": "Mengapa Iqbal menulis tanggal di catatan terpisah?",
+      "choices": [
+        "Agar asal waktu wawancara jelas tanpa mengubah dokumen asli",
+        "Agar gambar lebih berwarna",
+        "Agar peta bisa digunakan untuk perjalanan cepat",
+        "Agar aplikasi otomatis diperbarui"
+      ],
+      "answer": 0,
+      "explanation": "Tujuannya melestarikan dokumen sambil memberi konteks rekaman ingatan.",
+      "skill": "Author’s Purpose",
+      "evidence": "without changing the map itself.",
+      "passageId": "old-map"
+    },
+    {
+      "id": "q16",
+      "prompt": "Apa gagasan utama teks?",
+      "choices": [
+        "Lajur prioritas bus menunjukkan manfaat awal namun perlu evaluasi dampak lebih luas.",
+        "Semua kota harus menghapus jalan untuk mobil.",
+        "Pengukuran empat minggu membuktikan seluruh masalah lalu lintas selesai.",
+        "Hanya kecepatan bus yang penting bagi semua pengguna jalan."
+      ],
+      "answer": 0,
+      "explanation": "Penulis menekankan hasil positif sekaligus keterbatasan dan kebutuhan evaluasi.",
+      "skill": "Main Idea",
+      "evidence": "Faster buses were a valuable result, but the policy could only be judged fairly by considering who gained",
+      "passageId": "bus-priority"
+    },
+    {
+      "id": "q17",
+      "prompt": "Apa yang tidak termasuk dalam pengukuran waktu awal?",
+      "choices": [
+        "Waktu tunggu di pemberhentian saat penumpang naik",
+        "Waktu perjalanan bus di rute",
+        "Pengukuran sebelum perubahan",
+        "Pengukuran empat minggu kemudian"
+      ],
+      "answer": 0,
+      "explanation": "Peneliti menyatakan bahwa delay at stops tidak dihitung.",
+      "skill": "Supporting Details",
+      "evidence": "The bus measurements did not include delays at stops where passengers boarded.",
+      "passageId": "bus-priority"
+    },
+    {
+      "id": "q18",
+      "prompt": "Mengapa masa libur sekolah merupakan faktor penting?",
+      "choices": [
+        "Jumlah mobil pada periode kedua lebih sedikit dari biasanya",
+        "Waktu perjalanan selalu lebih lama saat libur",
+        "Semua bus berhenti beroperasi saat sekolah libur",
+        "Lajur baru dibangun setelah libur"
+      ],
+      "answer": 0,
+      "explanation": "Perubahan volume mobil bisa memengaruhi kecepatan tanpa seluruhnya disebabkan lajur prioritas.",
+      "skill": "Critical Reading",
+      "evidence": "the second measurement period included a school holiday, when fewer cars were on the road",
+      "passageId": "bus-priority"
+    },
+    {
+      "id": "q19",
+      "prompt": "Pada “Officials measured average bus travel time”, “average” berarti …",
+      "choices": [
+        "rata-rata",
+        "maksimum saja",
+        "ramalan",
+        "biaya tiket"
+      ],
+      "answer": 0,
+      "explanation": "Average adalah nilai ringkasan pusat dari sejumlah waktu tempuh.",
+      "skill": "Vocabulary in Context",
+      "evidence": "average bus travel time",
+      "passageId": "bus-priority"
+    },
+    {
+      "id": "q20",
+      "prompt": "Apa tujuan utama mengundang masukan dari pemilik toko dan komuter?",
+      "choices": [
+        "Memahami masalah yang mungkin tidak terlihat dari angka rata-rata",
+        "Menggantikan semua data dengan pendapat",
+        "Menentukan nama jalan baru",
+        "Menghentikan pengamatan keselamatan"
+      ],
+      "answer": 0,
+      "explanation": "Riset ingin menangkap dampak yang luput dari travel-time averages.",
+      "skill": "Author’s Purpose",
+      "evidence": "difficulties that travel-time averages might overlook.",
+      "passageId": "bus-priority"
+    }
+  ]
+}

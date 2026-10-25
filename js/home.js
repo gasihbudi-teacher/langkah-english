@@ -1,5 +1,6 @@
 import {getCatalog,esc,link,progress,params,error} from './core.js';
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
+import {setupBackup} from './backup.js';
 initI18n();
 try{
   const catalog=await getCatalog();
@@ -31,5 +32,6 @@ try{
     const groups=f.pathway==='grammar'?c.grammarLevels:f.pathway==='utbk'?{'Reading skills':c.readingSkills}:f.pathway==='school'?c.schoolTopics:{};document.querySelector('#topics').innerHTML=Object.entries(groups).map(([name,topics])=>`<details><summary>${esc(name)}</summary><div class="topiclist">${topics.map(topic=>`<button type="button" class="topic" data-topic="${esc(topic)}">${esc(topic)}</button>`).join('')}</div></details>`).join('');document.querySelectorAll('.topic').forEach(b=>b.addEventListener('click',()=>{document.querySelector('#q').value=b.dataset.topic;renderResources()}));const q=new URLSearchParams();Object.entries(f).forEach(([k,v])=>{if(v)q.set(k,v)});history.replaceState(null,'',location.pathname+(q.size?'?'+q:'')+location.hash);
   }
   document.getElementById('clear').addEventListener('click',()=>{defs.forEach(([k])=>document.getElementById(k).value='');renderResources()});
+  setupBackup(()=>renderAll());
   buildFilters();function renderAll(){buildFilters();renderStats();renderRoadmap();renderGrades();renderResources()};renderAll();onLanguageChange(renderAll);
 }catch(e){error(e)}

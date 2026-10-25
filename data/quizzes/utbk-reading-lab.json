@@ -1,0 +1,171 @@
+{
+  "id": "utbk-reading-lab",
+  "questionCount": 10,
+  "durationSeconds": 600,
+  "passages": [
+    {
+      "id": "reusable-cups",
+      "title": "The cup return experiment",
+      "text": "A university cafeteria offered a discount to students who returned reusable cups. During the first week, staff counted 240 returned cups; in the second, they counted 310. The manager praised the discount as a success. However, the second week included a popular campus festival, when more people visited the cafeteria than usual.\n\nTo evaluate the programme, students suggested recording the total number of drinks sold as well as returned cups. A rise in returns would be more informative if the proportion of drinks served in reusable cups also increased. They also wanted to know whether customers brought cups back more than once, because repeated use mattered more than a single return. The manager agreed to collect data for another month before changing the discount.",
+      "original": true
+    },
+    {
+      "id": "river-notebook",
+      "title": "The river notebook",
+      "text": "Sari interviewed people who lived along a river for a school project. Several older residents remembered swimming there as children, while newer residents mainly discussed the traffic on a bridge nearby. Sari initially wrote that the river had lost its importance to the community.\n\nHer teacher asked whether memories of recreation and present-day observations of traffic measured the same thing. Sari realized that the river still supplied water to vegetable gardens and served as a route for small fishing boats. She revised her report to distinguish changes in how people described the river from changes in how they used it. The interviews were valuable, but they represented different experiences rather than a complete history.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Apa gagasan utama teks?",
+      "choices": [
+        "Jumlah pengembalian meningkat tetapi perlu konteks untuk menilai program diskon.",
+        "Festival selalu meningkatkan daur ulang.",
+        "Kafe tidak menjual minuman dingin.",
+        "Diskon harus dihapus segera."
+      ],
+      "answer": 0,
+      "explanation": "Perbandingan total dan proporsi diperlukan untuk menilai dampak sebenarnya.",
+      "passageId": "reusable-cups",
+      "evidence": "A rise in returns would be more informative if the proportion of drinks served in reusable cups also increased.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q2",
+      "prompt": "Faktor apa yang menyulitkan interpretasi kenaikan pengembalian?",
+      "choices": [
+        "Festival menarik lebih banyak pengunjung pada minggu kedua",
+        "Kafe ditutup pada minggu kedua",
+        "Mereka berhenti menawarkan diskon",
+        "Tidak ada data jumlah pengembalian"
+      ],
+      "answer": 0,
+      "explanation": "Jumlah pengunjung berubah secara bersamaan dengan program.",
+      "passageId": "reusable-cups",
+      "evidence": "the second week included a popular campus festival",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q3",
+      "prompt": "Mengapa proporsi lebih informatif daripada angka mentah?",
+      "choices": [
+        "Karena total penjualan mungkin juga meningkat",
+        "Karena angka mentah selalu bohong",
+        "Karena diskon sama dengan keuntungan",
+        "Karena pelanggan tidak pernah mengembalikan gelas"
+      ],
+      "answer": 0,
+      "explanation": "Kenaikan jumlah absolut bisa muncul hanya karena lebih banyak minuman terjual.",
+      "passageId": "reusable-cups",
+      "evidence": "recording the total number of drinks sold as well as returned cups",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q4",
+      "prompt": "Dalam konteks bacaan, “proportion” berarti …",
+      "choices": [
+        "bagian dibanding total",
+        "jenis minuman",
+        "waktu penutupan",
+        "jarak kampus"
+      ],
+      "answer": 0,
+      "explanation": "Proporsi membandingkan jumlah gelas yang dipakai kembali dengan jumlah keseluruhan minuman.",
+      "passageId": "reusable-cups",
+      "evidence": "the proportion of drinks served in reusable cups",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q5",
+      "prompt": "Apa langkah selanjutnya manajer?",
+      "choices": [
+        "Mengumpulkan data selama sebulan lagi",
+        "Menutup kantin",
+        "Langsung mengganti diskon",
+        "Hanya menghitung penjualan hari pertama"
+      ],
+      "answer": 0,
+      "explanation": "Manajer memilih menunda perubahan sambil mengumpulkan bukti tambahan.",
+      "passageId": "reusable-cups",
+      "evidence": "collect data for another month before changing the discount.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q6",
+      "prompt": "Apa revisi utama yang dilakukan Sari?",
+      "choices": [
+        "Membedakan cara orang menggambarkan sungai dari cara mereka menggunakannya",
+        "Menghapus seluruh wawancara",
+        "Menyimpulkan tidak ada perubahan sama sekali",
+        "Mengabaikan nelayan"
+      ],
+      "answer": 0,
+      "explanation": "Ia menyadari bahwa persepsi dan penggunaan tidak sama.",
+      "passageId": "river-notebook",
+      "evidence": "distinguish changes in how people described the river from changes in how they used it",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q7",
+      "prompt": "Apa salah satu penggunaan sungai saat ini?",
+      "choices": [
+        "Menyediakan air untuk kebun sayur",
+        "Sebagai jalan tol mobil",
+        "Menjadi tempat parkir",
+        "Mengisi kolam renang sekolah"
+      ],
+      "answer": 0,
+      "explanation": "Sungai masih mendukung kegiatan sehari-hari.",
+      "passageId": "river-notebook",
+      "evidence": "the river still supplied water to vegetable gardens",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q8",
+      "prompt": "Mengapa kesimpulan awal Sari terlalu luas?",
+      "choices": [
+        "Wawancara menunjukkan pengalaman berbeda, bukan seluruh fungsi sungai",
+        "Semua warga memberikan cerita sama",
+        "Guru melarang penelitian",
+        "Sungai sudah tidak ada"
+      ],
+      "answer": 0,
+      "explanation": "Sari tidak bisa menyamakan kisah yang sering disebut dengan semua penggunaan sungai.",
+      "passageId": "river-notebook",
+      "evidence": "they represented different experiences rather than a complete history",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q9",
+      "prompt": "Dalam paragraf terakhir, “represented” paling dekat dengan …",
+      "choices": [
+        "mewakili atau menggambarkan",
+        "menggantikan",
+        "memperbaiki",
+        "menyimpan"
+      ],
+      "answer": 0,
+      "explanation": "Kata represented merujuk pada cakupan pengalaman yang tercermin dalam wawancara.",
+      "passageId": "river-notebook",
+      "evidence": "they represented different experiences rather than a complete history",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q10",
+      "prompt": "Apa tujuan pertanyaan guru?",
+      "choices": [
+        "Mengajak Sari memeriksa apakah dua jenis informasi sebanding",
+        "Memastikan semua siswa menyukai sungai",
+        "Menyuruh Sari berhenti menulis",
+        "Membahas pembangunan jembatan baru"
+      ],
+      "answer": 0,
+      "explanation": "Pertanyaan guru menyadarkan Sari bahwa bentuk bukti berbeda.",
+      "passageId": "river-notebook",
+      "evidence": "whether memories of recreation and present-day observations of traffic measured the same thing",
+      "skill": "Author’s Purpose"
+    }
+  ]
+}

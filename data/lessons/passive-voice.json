@@ -1,0 +1,88 @@
+{
+  "id": "passive-voice",
+  "objectives": [
+    "Memahami dan memakai passive voice dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Passive voice menekankan tindakan atau hasil, bukan pelakunya; bentuk tense tetap penting."
+    },
+    {
+      "type": "rule",
+      "text": "Subject penerima + be (sesuai tense) + V3; tambahkan by jika pelaku penting."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "The reports are checked every Friday.",
+      "note": "Present passive — Laporan diperiksa berulang."
+    },
+    {
+      "type": "example",
+      "text": "The bridge was repaired last year.",
+      "note": "Past passive — Perbaikan selesai pada masa lampau."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The letters sent yesterday.",
+      "correct": "The letters were sent yesterday.",
+      "explanation": "Pasif membutuhkan auxiliary be (were)."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "The museum ___ every Monday.",
+      "choices": [
+        "closes",
+        "is closed",
+        "closed"
+      ],
+      "answer": 1,
+      "explanation": "Pasif simple present: is + closed."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose past passive.",
+      "choices": [
+        "The road repaired yesterday.",
+        "The road was repaired yesterday.",
+        "The road is repair yesterday."
+      ],
+      "answer": 1,
+      "explanation": "Was + repaired untuk passive lampau."
+    },
+    {
+      "id": "p3",
+      "prompt": "Active: Students collected samples. Passive: Samples ___ by students.",
+      "choices": [
+        "were collected",
+        "collected",
+        "are collect"
+      ],
+      "answer": 0,
+      "explanation": "Objek berubah menjadi subjek; were + V3 sesuai past."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

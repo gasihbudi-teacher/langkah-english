@@ -1,0 +1,86 @@
+{
+  "id": "grade9-narrative",
+  "objectives": [
+    "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text."
+    },
+    {
+      "type": "rule",
+      "text": "Orientation memperkenalkan tokoh dan latar; complication menunjukkan masalah; resolution menjelaskan bagaimana masalah dihadapi."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "Lala lost the map. She asked a shopkeeper for directions. At last, she found the station.",
+      "note": "Complication: lost the map; resolution: found the station."
+    },
+    {
+      "type": "example",
+      "text": "At first..., later..., finally...",
+      "note": "Kata transisi memberi urutan kejadian."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Finally she lost the map, first she found it.",
+      "correct": "First she lost the map. Finally she found it.",
+      "explanation": "Urutan waktu harus masuk akal."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Dalam kisah pendek, apa complication?",
+      "choices": [
+        "Lala lost the map.",
+        "She found the station.",
+        "The sun was bright."
+      ],
+      "answer": 0,
+      "explanation": "Kehilangan peta adalah masalah utama."
+    },
+    {
+      "id": "p2",
+      "prompt": "“Finally” menandakan …",
+      "choices": [
+        "akhir peristiwa",
+        "sebab ilmiah",
+        "pertentangan"
+      ],
+      "answer": 0,
+      "explanation": "Finally merujuk tahap akhir."
+    },
+    {
+      "id": "p3",
+      "prompt": "Pesan pembaca yang paling kuat?",
+      "choices": [
+        "Meminta bantuan dapat membantu menyelesaikan masalah.",
+        "Semua toko tutup.",
+        "Peta tidak pernah dipakai."
+      ],
+      "answer": 0,
+      "explanation": "Lala meminta petunjuk dan menemukan stasiun."
+    }
+  ],
+  "assessments": []
+}

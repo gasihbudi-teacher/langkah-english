@@ -1,0 +1,88 @@
+{
+  "id": "reported-speech",
+  "objectives": [
+    "Memahami dan memakai reported speech dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Reported speech menyampaikan ucapan orang lain. Waktu verb sering mundur jika pelaporan dilakukan di masa lampau, tetapi fakta yang masih berlaku bisa tetap memakai tense yang sama."
+    },
+    {
+      "type": "rule",
+      "text": "Say (that) + clause; tell + object + clause; pertanyaan tidak menggunakan urutan kata tanya langsung."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "He said that he was tired.",
+      "note": "Statement — Direct: “I am tired.”"
+    },
+    {
+      "type": "example",
+      "text": "She asked where I lived.",
+      "note": "Question — Bukan *where did I live* setelah asked."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "She asked where did I work.",
+      "correct": "She asked where I worked.",
+      "explanation": "Reported questions memakai urutan subject + verb."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Direct: “I am busy.” Reported: She said she ___ busy.",
+      "choices": [
+        "was",
+        "is being",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Backshift dari am ke was dalam pelaporan lampau."
+    },
+    {
+      "id": "p2",
+      "prompt": "She asked ___ I lived.",
+      "choices": [
+        "where",
+        "where did",
+        "that where"
+      ],
+      "answer": 0,
+      "explanation": "Pola reported question: where + subject + verb."
+    },
+    {
+      "id": "p3",
+      "prompt": "Choose correct reporting verb.",
+      "choices": [
+        "He told me the news.",
+        "He said me the news.",
+        "He told that me the news."
+      ],
+      "answer": 0,
+      "explanation": "Tell memerlukan objek (me) untuk konstruksi ini."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}

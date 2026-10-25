@@ -2,6 +2,18 @@
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.
 
+## Version 4.0 — expanded learning catalogue and student tools (25 October 2026)
+
+**V4 is ready to upload for preview but has not been deployed by this ZIP.** It keeps the V3 static Cloudflare Pages + GitHub setup and all old resource and local progress IDs. New files extend rather than replace existing content. A V3 backup is recommended before deploying.
+
+**45 published resources:** 30 lessons and 15 quizzes, totalling 234 scored questions (including embedded lesson practice). Three original, unofficial **20-question / 20-minute UTBK English Literacy practice simulations** (`utbk-mock-a` to `utbk-mock-c`) plus a 10-question reading lab, a 12-question entry diagnostic, a 12-question advanced grammar check, and new teaching materials. All 20 grammar roadmap topics now have lessons. Grades 9–12 have at least one dedicated lesson each, though this is not a full year-by-year curriculum.
+
+**New student experience:** four-stage beginner-to-UTBK learning route; skill breakdown in quiz results; approximate diagnostic recommendations; JSON download/restore of this browser's progress and unfinished drafts; improved preservation of inline exercise selections and quiz feedback during ID/EN interface changes. Restoring a backup **replaces** local browser progress after explicit confirmation. Backup files contain personal answers and activity; treat them as private.
+
+**Validation:** `python tools/validate.py`, `node tests/scoring.mjs` and `node tests/v4-quality.mjs` passed. `.github/workflows/validate.yml` runs the same checks in GitHub Actions. Browser navigation in the generation environment was blocked by administration policy, so all interactive flows still require preview testing. See `docs/V4-CHANGES.md` and `docs/V4-TEST-REPORT.md` for release notes, deployment steps, limits and a manual acceptance checklist.
+
+**Curriculum/accuracy notice:** Original AI-assisted lessons and questions are unofficial. Structural answer/evidence checks do not replace independent English-teacher review. The three full simulations match 2026 English Literacy *question count and duration* at https://snpmb.id/fr/ but are not official exam predictions. The project remains free, static, local-first and without accounts or paid dependencies.
+
 ## Version 3.0 — grammar starter pack + dedicated libraries
 
 **Default interface language is Bahasa Indonesia** for new visitors; the EN/ID selector remains available. Lesson instructions, grammatical explanations, inline exercise feedback, quiz questions/instructions and answer discussions are written in Indonesian. English sentences, answer options where students must evaluate English, and English reading passages intentionally remain in English. A previously saved EN/ID preference is retained. There is no automatic translation of educational content.

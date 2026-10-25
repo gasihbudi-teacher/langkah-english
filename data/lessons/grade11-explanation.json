@@ -1,0 +1,92 @@
+{
+  "id": "grade11-explanation",
+  "objectives": [
+    "Menemukan proses sebab-akibat dan kata penghubung dalam explanation texts.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Bagaimana explanation text bekerja?"
+    },
+    {
+      "type": "text",
+      "text": "Explanation text menjelaskan mengapa atau bagaimana proses terjadi. Perhatikan urutan langkah, sebab-akibat, dan istilah yang diulang. Teks ini menjelaskan mekanisme, bukan membujuk pembaca."
+    },
+    {
+      "type": "example",
+      "text": "When moist air rises, it cools. Some water vapor then condenses into droplets. As droplets combine, they may fall as rain.",
+      "note": "Urutan proses: udara naik → mendingin → kondensasi → kemungkinan hujan."
+    },
+    {
+      "type": "subheading",
+      "text": "Petunjuk hubungan"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kata penghubung",
+        "Fungsi"
+      ],
+      "rows": [
+        [
+          "because",
+          "sebab"
+        ],
+        [
+          "therefore",
+          "akibat/simpulan"
+        ],
+        [
+          "as a result",
+          "hasil"
+        ],
+        [
+          "when",
+          "waktu atau kondisi"
+        ]
+      ]
+    },
+    {
+      "type": "rule",
+      "text": "Jangan tertukar antara urutan waktu dan sebab-akibat: “after” tidak selalu berarti “because”."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Tujuan utama explanation text adalah …",
+      "choices": [
+        "menjelaskan proses",
+        "menceritakan lelucon",
+        "menawarkan diskon"
+      ],
+      "answer": 0,
+      "explanation": "Genre explanation menguraikan bagaimana/mengapa sesuatu terjadi."
+    },
+    {
+      "id": "p2",
+      "prompt": "“As a result” menunjukkan …",
+      "choices": [
+        "akibat",
+        "perbandingan setara",
+        "kata ganti"
+      ],
+      "answer": 0,
+      "explanation": "As a result memperkenalkan konsekuensi."
+    },
+    {
+      "id": "p3",
+      "prompt": "Dari contoh, apa yang terjadi setelah udara lembap naik?",
+      "choices": [
+        "Udara mendingin.",
+        "Air langsung menjadi es.",
+        "Langit pasti cerah."
+      ],
+      "answer": 0,
+      "explanation": "Kalimat kedua dari contoh menyebut cooling setelah rising."
+    }
+  ],
+  "assessments": []
+}

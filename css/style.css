@@ -32,3 +32,18 @@
 @media(max-width:520px){.pathway-heading{display:block}.pathway-symbol{margin-bottom:17px}.pathway-hero-links{gap:7px}.pathway-hero-links a{font-size:12px}.pathway-levels{grid-template-columns:1fr}.quick-pick{min-height:104px}.pathway-hero .page-back{margin-bottom:18px}}
 .pathway-hero .section-kicker{display:block;margin-top:2px}
 [hidden]{display:none!important}
+
+/* V4: learning stages, backup and reading skill analysis */
+.journey-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.journey-step{display:flex;flex-direction:column;gap:9px;background:#fff;border:1px solid var(--border);padding:19px;border-radius:15px;text-decoration:none;color:var(--ink);min-height:165px}
+.journey-step:hover,.journey-step:focus-visible{border-color:#6681da;background:#f7f9ff}
+.journey-step>span{color:var(--brand);font-weight:900;letter-spacing:.12em}
+.journey-step strong{font-size:16px;line-height:1.4}.journey-step small{color:var(--muted);line-height:1.5}
+.diagnostic-callout{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:17px;padding:18px 23px;background:#eaf3ff;border-radius:15px;flex-wrap:wrap}
+.diagnostic-callout p{margin:0;flex:1 1 240px}.diagnostic-callout .button{flex-shrink:0}
+.backup-panel{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:19px;background:#f8faff;flex-wrap:wrap}
+.backup-panel p{font-size:13px;color:var(--muted);margin:5px 0}.backup-panel .toolbar{margin:0}.backup-panel .file-button{cursor:pointer}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.skill-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.skill-list>div{display:grid;grid-template-columns:1fr auto;gap:7px;font-size:13px}.skill-list strong{font-variant-numeric:tabular-nums}.skill-list progress{grid-column:1/-1}
+@media(max-width:960px){.journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.journey-grid,.skill-list{grid-template-columns:1fr}.backup-panel .toolbar{align-items:stretch}.backup-panel .button{font-size:12px}.journey-step{min-height:116px}}

@@ -1,0 +1,339 @@
+{
+  "id": "utbk-mock-b",
+  "questionCount": 20,
+  "durationSeconds": 1200,
+  "passages": [
+    {
+      "id": "wetland",
+      "title": "A wetland beside the highway",
+      "text": "For years, people described the low field beside a highway as wasted land. It flooded after heavy rain and was difficult to build on. When engineers proposed filling the field to create a parking area, a biology teacher asked the town to examine what the wetland already did.\n\nHer students observed that water spread across the field after storms and then drained slowly. They also recorded frogs, insects, and birds feeding among the reeds. These observations did not prove that the wetland prevented flooding elsewhere, but they suggested that the field stored some rainwater temporarily and provided habitats for several species.\n\nThe town council postponed the parking project and requested a drainage study. Some shop owners were disappointed because they wanted more parking spaces. The teacher acknowledged their concerns and suggested comparing alternatives, such as improving public transport access or using an existing paved lot. She argued that decisions should consider both immediate convenience and less visible environmental services.\n\nBy the following year, the field had not become a protected reserve. Nevertheless, the discussion had changed: residents were no longer asking only what could be built there, but also what might be lost if the wetland disappeared.",
+      "original": true
+    },
+    {
+      "id": "school-lunch",
+      "title": "What a lunch survey cannot tell us",
+      "text": "A student council surveyed eighty classmates about a proposal to add more plant-based meals to the school canteen. Fifty-two respondents said they would try at least one new dish. Excited by the number, the council announced that most students supported replacing the existing lunch menu entirely.\n\nA mathematics teacher asked the council to reconsider its statement. The survey had asked whether students would try a new dish, not whether they wanted the old menu removed. Moreover, the students who chose to answer might have been more interested in food changes than those who ignored the survey. The results were useful, but they did not justify the council's stronger claim.\n\nThe council revised its proposal. Instead of replacing every dish, it suggested offering two new options for a month and gathering feedback about taste, price, and portion size. The canteen manager agreed to discuss a trial, provided the meals could be prepared within the existing budget.\n\nThe students learned that a survey is not simply a collection of numbers. The meaning of a result depends on exactly what was asked, who answered, and how the findings are interpreted.",
+      "original": true
+    },
+    {
+      "id": "night-sky",
+      "title": "A sky worth noticing",
+      "text": "Nadia used to hurry home after evening lessons without looking above the rooftops. Then her grandfather invited her to watch a meteor shower from a field outside town. They saw only three bright streaks before clouds covered the sky. Nadia was disappointed, but her grandfather said that watching carefully was not the same as expecting a spectacular result.\n\nOver the next month, Nadia began recording what she could see from her balcony. Some evenings the moon was bright, while on others nearby streetlights seemed to hide all but the strongest stars. She wrote down the weather and time beside each observation. Her notebook slowly became a record of conditions, not a competition to count stars.\n\nOne night she noticed that the familiar group of stars appeared lower than it had weeks earlier. She asked her science teacher whether the stars had moved closer to the horizon. The teacher explained that the changing position was mainly related to when Nadia observed them as Earth moved around the Sun. The explanation made her curious about the patterns she had not yet recognized.\n\nNadia still hoped to see another meteor shower. Yet she now valued the evenings when she noticed something ordinary well enough to ask a better question.",
+      "original": true
+    },
+    {
+      "id": "museum-labels",
+      "title": "When museum labels changed",
+      "text": "A local history museum displayed farming tools with labels that identified each object's age and material. Visitors often walked past them quickly. Hoping to make the exhibition more engaging, the museum added short stories about how families had used the tools and invited visitors to compare those accounts with photographs.\n\nAfter the changes, more visitors stopped at the display. Some staff members immediately credited the new labels. Others pointed out that the museum had also extended its weekend opening hours and introduced free student entry. Without more information, no one could determine how much each change contributed to the increase.\n\nThe museum then invited visitors to leave anonymous comments about what had helped them understand the objects. Many appreciated the family stories; several also asked for larger text and translations. The curators responded by testing clearer labels with small groups of students before replacing the entire display.\n\nThe project reminded the team that access is not only about getting people through the door. A museum is more useful when visitors can connect what they see to experiences they recognize, question the information presented, and find explanations they can actually read.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Apa gagasan pokok yang paling tepat?",
+      "choices": [
+        "Setiap lahan basah pasti menghentikan banjir.",
+        "Lahan yang tampak tidak berguna mungkin memiliki fungsi yang perlu dinilai sebelum diubah.",
+        "Area parkir tidak boleh dibangun di kota mana pun.",
+        "Frog adalah spesies paling penting."
+      ],
+      "answer": 1,
+      "explanation": "Penulis membahas kebutuhan menilai manfaat tak terlihat sebelum mengubah fungsi lahan.",
+      "passageId": "wetland",
+      "evidence": "what might be lost if the wetland disappeared",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q2",
+      "prompt": "Apa yang diamati siswa setelah hujan deras?",
+      "choices": [
+        "Air segera hilang dari lokasi",
+        "Air menyebar lalu surut secara perlahan",
+        "Seluruh burung meninggalkan kota",
+        "Lahan segera ditutup aspal"
+      ],
+      "answer": 1,
+      "explanation": "Hasil observasi menunjukkan air tertahan sementara.",
+      "passageId": "wetland",
+      "evidence": "water spread across the field after storms and then drained slowly",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q3",
+      "prompt": "Apa batas penting dari pengamatan siswa?",
+      "choices": [
+        "Pengamatan belum membuktikan dampak terhadap banjir di wilayah lain",
+        "Tidak ada hewan di sekitar lahan",
+        "Semua toko mendukung rencana awal",
+        "Tanah tidak pernah basah"
+      ],
+      "answer": 0,
+      "explanation": "Teks secara eksplisit membatasi klaim dari hasil observasi.",
+      "passageId": "wetland",
+      "evidence": "These observations did not prove that the wetland prevented flooding elsewhere",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q4",
+      "prompt": "Kata “acknowledged” dalam paragraf ketiga paling dekat dengan …",
+      "choices": [
+        "mengakui atau mempertimbangkan",
+        "menyembunyikan",
+        "menyalahkan",
+        "mengabaikan"
+      ],
+      "answer": 0,
+      "explanation": "Guru mengakui kekhawatiran pemilik toko sebelum menawarkan alternatif.",
+      "passageId": "wetland",
+      "evidence": "The teacher acknowledged their concerns",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q5",
+      "prompt": "Bagaimana diskusi warga berubah?",
+      "choices": [
+        "Dari semata soal pembangunan menjadi juga soal kerugian jika lahan basah hilang",
+        "Dari sekolah ke pertandingan sepak bola",
+        "Dari parkir ke tarif listrik",
+        "Dari hujan ke jaringan telepon"
+      ],
+      "answer": 0,
+      "explanation": "Paragraf terakhir membandingkan pertanyaan dahulu dan sesudah perdebatan.",
+      "passageId": "wetland",
+      "evidence": "residents were no longer asking only what could be built there, but also what might be lost if the wetland disappeared.",
+      "skill": "Text Organization"
+    },
+    {
+      "id": "q6",
+      "prompt": "Apa pelajaran utama dari survei tersebut?",
+      "choices": [
+        "Angka survei selalu cukup untuk mengubah kebijakan.",
+        "Kesimpulan harus sesuai pertanyaan dan karakteristik responden.",
+        "Makanan nabati tidak boleh disajikan di sekolah.",
+        "Delapan puluh siswa mewakili seluruh penduduk kota."
+      ],
+      "answer": 1,
+      "explanation": "Paragraf akhir menjelaskan pentingnya pertanyaan, responden, dan interpretasi.",
+      "passageId": "school-lunch",
+      "evidence": "depends on exactly what was asked, who answered, and how the findings are interpreted",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q7",
+      "prompt": "Berapa responden yang bersedia mencoba sedikitnya satu menu baru?",
+      "choices": [
+        "28",
+        "52",
+        "80",
+        "Tidak disebutkan"
+      ],
+      "answer": 1,
+      "explanation": "Bacaan memberi jumlah responden dan jawaban positif.",
+      "passageId": "school-lunch",
+      "evidence": "Fifty-two respondents said they would try at least one new dish.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q8",
+      "prompt": "Mengapa klaim dewan siswa terlalu kuat?",
+      "choices": [
+        "Survei menanyakan kemauan mencoba, bukan mengganti seluruh menu.",
+        "Guru melarang survei sekolah.",
+        "Menu tidak tersedia di kantin.",
+        "Tidak ada siswa yang menjawab survei."
+      ],
+      "answer": 0,
+      "explanation": "Klaim mengganti keseluruhan menu tidak diukur.",
+      "passageId": "school-lunch",
+      "evidence": "The survey had asked whether students would try a new dish, not whether they wanted the old menu removed.",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q9",
+      "prompt": "Makna “provided” dalam kalimat manajer kantin adalah …",
+      "choices": [
+        "dengan syarat",
+        "sebab sudah disediakan",
+        "bahkan jika",
+        "meskipun"
+      ],
+      "answer": 0,
+      "explanation": "Provided di sini memperkenalkan syarat kesediaan mempertimbangkan uji coba.",
+      "passageId": "school-lunch",
+      "evidence": "provided the meals could be prepared within the existing budget",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q10",
+      "prompt": "Bagaimana sikap guru matematika terhadap hasil survei?",
+      "choices": [
+        "Menganggapnya bermanfaat tetapi tidak mendukung klaim yang berlebihan",
+        "Menolak semua penggunaan survei",
+        "Mendukung penghapusan menu lama tanpa syarat",
+        "Tidak membaca hasilnya"
+      ],
+      "answer": 0,
+      "explanation": "Guru meminta revisi karena penafsiran melampaui data.",
+      "passageId": "school-lunch",
+      "evidence": "The results were useful, but they did not justify the council's stronger claim.",
+      "skill": "Author’s Tone and Attitude"
+    },
+    {
+      "id": "q11",
+      "prompt": "Apa perkembangan utama tokoh Nadia?",
+      "choices": [
+        "Dari ingin tontonan spektakuler menjadi pengamat yang cermat dan ingin bertanya",
+        "Dari mengamati langit menjadi takut bintang",
+        "Dari menulis catatan menjadi berhenti belajar",
+        "Dari rumah ke kota baru setiap minggu"
+      ],
+      "answer": 0,
+      "explanation": "Nadia belajar menghargai proses pengamatan, bukan banyaknya bintang atau meteor.",
+      "passageId": "night-sky",
+      "evidence": "she now valued the evenings when she noticed something ordinary well enough to ask a better question",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q12",
+      "prompt": "Apa yang dicatat Nadia selain hasil pengamatannya?",
+      "choices": [
+        "Harga teleskop",
+        "Cuaca dan waktu",
+        "Jumlah kendaraan di jalan",
+        "Jadwal ujian temannya"
+      ],
+      "answer": 1,
+      "explanation": "Ia mencatat kondisi untuk memahami pola.",
+      "passageId": "night-sky",
+      "evidence": "She wrote down the weather and time beside each observation.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q13",
+      "prompt": "Mengapa catatan kondisi penting untuk pengamatan Nadia?",
+      "choices": [
+        "Karena visibilitas bintang dapat berubah menurut cahaya dan cuaca",
+        "Karena semua bintang selalu terlihat sama",
+        "Karena bulan tidak pernah berubah",
+        "Karena pencatatan menghilangkan awan"
+      ],
+      "answer": 0,
+      "explanation": "Teks membandingkan bulan terang, lampu jalan, dan kondisi berbeda.",
+      "passageId": "night-sky",
+      "evidence": "nearby streetlights seemed to hide all but the strongest stars",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q14",
+      "prompt": "Dalam kalimat terakhir, kata “ordinary” berarti …",
+      "choices": [
+        "biasa atau sehari-hari",
+        "sangat langka",
+        "berbahaya",
+        "mustahil diamati"
+      ],
+      "answer": 0,
+      "explanation": "Ordinary berlawanan dengan hasil spektakuler yang sebelumnya diharapkan.",
+      "passageId": "night-sky",
+      "evidence": "noticed something ordinary well enough to ask a better question",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q15",
+      "prompt": "Bagaimana nada akhir bacaan?",
+      "choices": [
+        "Penuh keingintahuan dan reflektif",
+        "Marah kepada guru",
+        "Mengejek kegiatan sains",
+        "Panik terhadap perubahan musim"
+      ],
+      "answer": 0,
+      "explanation": "Akhir teks menunjukkan refleksi positif atas rasa ingin tahu.",
+      "passageId": "night-sky",
+      "evidence": "The explanation made her curious about the patterns she had not yet recognized.",
+      "skill": "Author’s Tone and Attitude"
+    },
+    {
+      "id": "q16",
+      "prompt": "Apa fokus utama proyek museum?",
+      "choices": [
+        "Mengurangi jumlah benda bersejarah",
+        "Membantu pengunjung memahami dan terhubung dengan koleksi",
+        "Menaikkan harga tiket siswa",
+        "Menghilangkan foto lama"
+      ],
+      "answer": 1,
+      "explanation": "Perubahan label dilakukan untuk pemahaman dan keterlibatan pengunjung.",
+      "passageId": "museum-labels",
+      "evidence": "visitors can connect what they see to experiences they recognize",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q17",
+      "prompt": "Perubahan lain apa yang terjadi bersamaan dengan label baru?",
+      "choices": [
+        "Jam akhir pekan diperpanjang dan siswa mendapat tiket gratis",
+        "Museum berhenti menerima rombongan",
+        "Semua benda dipindahkan ke gudang",
+        "Jumlah staf dipotong setengah"
+      ],
+      "answer": 0,
+      "explanation": "Dua kebijakan lain membuat dampak label tidak bisa dipisahkan begitu saja.",
+      "passageId": "museum-labels",
+      "evidence": "extended its weekend opening hours and introduced free student entry",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q18",
+      "prompt": "Kesimpulan paling hati-hati tentang kenaikan pengunjung yang berhenti di pajangan adalah …",
+      "choices": [
+        "Hanya label baru yang menyebabkannya.",
+        "Perubahan label mungkin membantu, tetapi faktor lain juga bisa berperan.",
+        "Tiket gratis pasti tidak berpengaruh.",
+        "Label lama lebih efektif daripada label baru."
+      ],
+      "answer": 1,
+      "explanation": "Perbandingan tidak mengendalikan perubahan lain.",
+      "passageId": "museum-labels",
+      "evidence": "no one could determine how much each change contributed to the increase",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q19",
+      "prompt": "Pada frasa “The curators responded”, “curators” merujuk pada …",
+      "choices": [
+        "pengelola koleksi/pameran museum",
+        "petani zaman dahulu",
+        "pembaca surat kabar",
+        "penjual alat"
+      ],
+      "answer": 0,
+      "explanation": "Curators bertanggung jawab mengembangkan label pameran.",
+      "passageId": "museum-labels",
+      "evidence": "The curators responded by testing clearer labels",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q20",
+      "prompt": "Mengapa teks menggunakan komentar anonim?",
+      "choices": [
+        "Untuk mengumpulkan pengalaman dan kebutuhan pengunjung",
+        "Untuk memutuskan benda mana yang harus dijual",
+        "Untuk membandingkan harga bahan",
+        "Untuk melarang siswa masuk"
+      ],
+      "answer": 0,
+      "explanation": "Komentar dipakai untuk melihat apa yang membantu pemahaman dan kebutuhan akses.",
+      "passageId": "museum-labels",
+      "evidence": "leave anonymous comments about what had helped them understand the objects.",
+      "skill": "Author’s Purpose"
+    }
+  ],
+  "referenceFormat": {
+    "year": 2026,
+    "questionCount": 20,
+    "durationSeconds": 1200,
+    "source": "https://snpmb.id/fr/"
+  }
+}

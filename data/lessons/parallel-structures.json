@@ -1,0 +1,93 @@
+{
+  "id": "parallel-structures",
+  "objectives": [
+    "Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk grammar yang sejajar.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk grammar yang sejajar."
+    },
+    {
+      "type": "rule",
+      "text": "Pada daftar atau pola not only...but also, each unsur setara sebaiknya memakai bentuk gramatikal yang sama."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "The project involved reading, writing, and presenting.",
+      "note": "Semua unsur berbentuk gerund (-ing)."
+    },
+    {
+      "type": "example",
+      "text": "She is both careful and patient.",
+      "note": "Keduanya adjective."
+    },
+    {
+      "type": "example",
+      "text": "Our goal is to collect data and to explain the results.",
+      "note": "Kedua unsur infinitive."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "He likes reading, to swim, and drawing.",
+      "correct": "He likes reading, swimming, and drawing.",
+      "explanation": "Gunakan bentuk -ing sejajar dalam rangkaian."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Choose parallel list.",
+      "choices": [
+        "She enjoys hiking, drawing, and to sing.",
+        "She enjoys hiking, drawing, and singing.",
+        "She enjoys hike, drawing, and sing."
+      ],
+      "answer": 1,
+      "explanation": "Semua gerund sejajar."
+    },
+    {
+      "id": "p2",
+      "prompt": "Our tasks are ___ data and reporting results.",
+      "choices": [
+        "collect",
+        "collecting",
+        "to collect"
+      ],
+      "answer": 1,
+      "explanation": "Collecting setara dengan reporting."
+    },
+    {
+      "id": "p3",
+      "prompt": "Choose correct pair.",
+      "choices": [
+        "Both careful and patiently",
+        "Both careful and patient",
+        "Both care and patience person"
+      ],
+      "answer": 1,
+      "explanation": "Careful dan patient adalah adjectives."
+    }
+  ],
+  "assessments": [
+    "advanced-grammar-check"
+  ]
+}

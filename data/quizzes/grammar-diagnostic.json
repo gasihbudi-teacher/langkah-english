@@ -1,0 +1,164 @@
+{
+  "id": "grammar-diagnostic",
+  "questionCount": 12,
+  "durationSeconds": 720,
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "She ___ English every morning.",
+      "choices": [
+        "study",
+        "studies",
+        "studying",
+        "studied"
+      ],
+      "answer": 1,
+      "explanation": "She + studies untuk kebiasaan simple present.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q2",
+      "prompt": "Yesterday the class ___ early.",
+      "choices": [
+        "finish",
+        "finishes",
+        "finished",
+        "finishing"
+      ],
+      "answer": 2,
+      "explanation": "Yesterday → simple past finished.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q3",
+      "prompt": "Pilih kalimat dengan susunan benar.",
+      "choices": [
+        "Always she late is.",
+        "She is always late.",
+        "She always is late?",
+        "Late she always is."
+      ],
+      "answer": 1,
+      "explanation": "Adverb frekuensi biasanya setelah be.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q4",
+      "prompt": "They ___ playing when I arrived.",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "They + were pada past continuous.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q5",
+      "prompt": "The reports ___ yesterday.",
+      "choices": [
+        "were submitted",
+        "was submit",
+        "submitted were",
+        "are submit"
+      ],
+      "answer": 0,
+      "explanation": "Past passive: were + submitted.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q6",
+      "prompt": "If I have time, I ___ the article.",
+      "choices": [
+        "readed",
+        "will read",
+        "would reading",
+        "was reading"
+      ],
+      "answer": 1,
+      "explanation": "First conditional: if + present, will + dasar.",
+      "skill": "Sentence foundations"
+    },
+    {
+      "id": "q7",
+      "prompt": "“The garden is small, but it attracts many birds.” Kata but menunjukkan …",
+      "choices": [
+        "sebab",
+        "kontras",
+        "waktu",
+        "syarat"
+      ],
+      "answer": 1,
+      "explanation": "But memberi kontras antara ukuran kecil dan banyak burung.",
+      "skill": "Text Organization"
+    },
+    {
+      "id": "q8",
+      "prompt": "“The class tested two methods. Both reduced waste.” Kata both merujuk pada …",
+      "choices": [
+        "two methods",
+        "waste",
+        "the class",
+        "time"
+      ],
+      "answer": 0,
+      "explanation": "Both kembali pada dua metode.",
+      "skill": "Reference Questions"
+    },
+    {
+      "id": "q9",
+      "prompt": "“The claim lacks evidence.” Arti evidence adalah …",
+      "choices": [
+        "bukti",
+        "kesalahan",
+        "janji",
+        "kemungkinan"
+      ],
+      "answer": 0,
+      "explanation": "Evidence = bukti yang mendukung klaim.",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q10",
+      "prompt": "“Visits rose after a poster campaign, although tickets became cheaper.” Kesimpulan paling hati-hati?",
+      "choices": [
+        "Poster pasti menjadi satu-satunya penyebab.",
+        "Harga tiket mungkin juga berpengaruh.",
+        "Kunjungan pasti menurun.",
+        "Harga tidak pernah penting."
+      ],
+      "answer": 1,
+      "explanation": "Although menambah faktor yang dapat menjelaskan kenaikan.",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q11",
+      "prompt": "Penulis membandingkan dua solusi dan menyebut kelebihan-kekurangannya. Tujuan penulis paling mungkin …",
+      "choices": [
+        "mengevaluasi pilihan",
+        "menulis resep",
+        "mengundang pesta",
+        "menghafal angka"
+      ],
+      "answer": 0,
+      "explanation": "Menilai dua solusi adalah tujuan evaluatif.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q12",
+      "prompt": "“Only twelve volunteers answered the poll.” Apa keterbatasan utamanya?",
+      "choices": [
+        "Sampel kecil dan sukarela mungkin tidak mewakili semua orang.",
+        "Semua sukarelawan pasti bohong.",
+        "Jumlah responden tak diketahui.",
+        "Hasil pasti mewakili dunia."
+      ],
+      "answer": 0,
+      "explanation": "Sampel kecil dan sukarela membatasi generalisasi.",
+      "skill": "Critical Reading"
+    }
+  ]
+}

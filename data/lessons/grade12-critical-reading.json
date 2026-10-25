@@ -1,0 +1,73 @@
+{
+  "id": "grade12-critical-reading",
+  "objectives": [
+    "Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Jangan samakan klaim dengan bukti"
+    },
+    {
+      "type": "text",
+      "text": "Klaim adalah sesuatu yang ingin dipercaya penulis. Bukti berupa data, pengamatan, contoh, atau sumber yang relevan. Kualitas bukti bergantung pada cara bukti dikumpulkan dan seberapa tepat bukti mendukung klaim."
+    },
+    {
+      "type": "example",
+      "text": "A survey of 25 volunteers found that 18 preferred the new library hours. This suggests interest among respondents, not necessarily among all students.",
+      "note": "18/25 menggambarkan responden sukarela; tidak otomatis mewakili populasi sekolah."
+    },
+    {
+      "type": "subheading",
+      "text": "Pertanyaan evaluasi"
+    },
+    {
+      "type": "text",
+      "text": "Tanya: siapa yang diukur? apa yang sebenarnya ditanya? ada faktor lain? adakah bahasa yang terlalu pasti seperti always, all, atau proves?"
+    },
+    {
+      "type": "rule",
+      "text": "Kesimpulan yang baik tidak lebih luas daripada bukti. Ganti “semua siswa” dengan “sebagian responden” jika sampel tidak representatif."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Kesimpulan paling didukung oleh survei 25 sukarelawan di atas adalah …",
+      "choices": [
+        "18 sukarelawan yang menjawab menyukai jadwal baru.",
+        "Semua siswa menyukai jadwal baru.",
+        "Jadwal baru menaikkan nilai ujian."
+      ],
+      "answer": 0,
+      "explanation": "Data berlaku pada responden yang ditanya."
+    },
+    {
+      "id": "p2",
+      "prompt": "Apa kelemahan utama generalisasi?",
+      "choices": [
+        "Pemilihan sukarelawan bisa bias.",
+        "Angka tidak dapat dibaca.",
+        "Perpustakaan tidak memiliki pintu."
+      ],
+      "answer": 0,
+      "explanation": "Voluntary response bias bisa membatasi representasi."
+    },
+    {
+      "id": "p3",
+      "prompt": "Kata mana menandakan kepastian yang berlebihan?",
+      "choices": [
+        "may",
+        "perhaps",
+        "always"
+      ],
+      "answer": 2,
+      "explanation": "Always menyatakan tanpa pengecualian."
+    }
+  ],
+  "assessments": [
+    "utbk-reading-lab"
+  ]
+}

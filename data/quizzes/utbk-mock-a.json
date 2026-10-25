@@ -1,0 +1,339 @@
+{
+  "id": "utbk-mock-a",
+  "questionCount": 20,
+  "durationSeconds": 1200,
+  "passages": [
+    {
+      "id": "urban-trees",
+      "title": "Urban trees and summer heat",
+      "text": "In a small coastal city, volunteers measured the temperature on two streets at the same hour for ten summer afternoons. One street had mature trees along both sidewalks; the other had almost no shade. The shaded street was cooler on most afternoons, sometimes by several degrees. Residents called the difference proof that planting trees everywhere would solve the city's heat problem.\n\nThe volunteers, however, warned against such a broad conclusion. The streets also differed in traffic levels and building heights. Hot exhaust from buses could have affected the measurements, while taller buildings might have blocked sunlight. Because the study compared only two streets, it could not isolate the effect of trees from these other factors.\n\nThe volunteers proposed a longer study with sensors placed on several streets. They also suggested measuring temperatures before and after new trees had grown, while recording traffic and nearby construction. Although young trees would not provide immediate shade, such a project could help planners decide where green spaces would be most useful. The first measurements were a promising beginning, not a final answer.",
+      "original": true
+    },
+    {
+      "id": "community-radio",
+      "title": "The village radio project",
+      "text": "When a mountain village lost mobile reception after a storm, a group of students helped the community radio station share important announcements. They collected updates from the local clinic and farmers' cooperative, then read them aloud three times a day. The broadcasts were useful to residents who could not travel easily, particularly older people living far from the village center.\n\nAt first, the students assumed that repeating each announcement would be enough. Listeners soon reported that some medical instructions were too fast and that unfamiliar terms caused confusion. The students responded by asking the clinic to approve simpler summaries. They also added a short pause after each instruction so listeners could write it down.\n\nThe project did not restore phone service, and the station still needed fuel for its generator. Yet it showed that communication depends on more than sending a message. Information is valuable only if people can understand it and use it. After the mobile network returned, the station kept its slower announcement format because the change had benefited many listeners.",
+      "original": true
+    },
+    {
+      "id": "seed-library",
+      "title": "Seeds for uncertain seasons",
+      "text": "A regional seed library lends small packets of local crop seeds to families. Instead of returning the exact same seeds, borrowers grow the plants and bring back some seeds from their harvest. The library hopes to maintain varieties that have adapted to local conditions and that commercial suppliers may no longer stock.\n\nOne family tried a traditional bean during an unusually dry season. The plants survived, but the harvest was smaller than the family expected. A neighbor concluded that the variety was not worth keeping. The library coordinator disagreed: a single difficult season could not show how the bean would perform across different rainfall patterns. She suggested comparing it with other beans over several years.\n\nKeeping a variety is not a promise that it will always produce the largest harvest. It preserves an option that farmers might need when weather changes. The coordinator also reminded borrowers to label seeds carefully; if varieties are mixed or stored while damp, future growers may not receive the seeds they expect. A seed library therefore depends on both patient observation and careful community records.",
+      "original": true
+    },
+    {
+      "id": "borrowed-books",
+      "title": "A note in a borrowed book",
+      "text": "Every Thursday, Maya returned a borrowed book to the neighborhood reading room. She usually chose books about distant places, although she had rarely traveled beyond her town. One afternoon, she found a pencil note inside a novel: “The ending is not what I expected, but I am glad I continued.” The note had no name or date.\n\nMaya almost erased the writing. The reading room asked visitors not to mark books, and she agreed with that rule. Yet she wondered about the unknown reader who had been surprised enough to leave a message. She copied the sentence onto a scrap of paper and told the librarian, who removed the pencil note carefully.\n\nWeeks later, Maya finished the novel. Its ending was quiet rather than dramatic; a character chose to repair an old friendship instead of leaving home. Maya understood why someone might find it unexpected. She did not know whether she agreed that the ending was satisfying, but she liked the idea that readers could meet a story at different moments and notice different things. She returned the book without adding a note of her own.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Apa gagasan utama bacaan?",
+      "choices": [
+        "Dua jalan membuktikan semua pohon menurunkan suhu dengan tingkat yang sama.",
+        "Pengamatan awal tentang jalan teduh menarik, tetapi kesimpulannya perlu diuji lebih lanjut.",
+        "Polusi bus adalah satu-satunya penyebab panas kota.",
+        "Pohon muda langsung memberi keteduhan penuh."
+      ],
+      "answer": 1,
+      "explanation": "Penulis menekankan hasil awal yang menjanjikan dan keterbatasan studi dua jalan.",
+      "passageId": "urban-trees",
+      "evidence": "The first measurements were a promising beginning, not a final answer.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q2",
+      "prompt": "Apa yang diukur oleh relawan?",
+      "choices": [
+        "Suhu pada dua jalan pada jam yang sama selama sepuluh sore",
+        "Jumlah pohon di seluruh kota selama setahun",
+        "Harga properti di jalan teduh",
+        "Tingkat curah hujan setiap pagi"
+      ],
+      "answer": 0,
+      "explanation": "Kalimat awal menyebut tempat, waktu, dan jumlah hari pengukuran.",
+      "passageId": "urban-trees",
+      "evidence": "measured the temperature on two streets at the same hour for ten summer afternoons",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q3",
+      "prompt": "Mengapa hasil penelitian belum dapat menunjukkan pengaruh pohon secara terpisah?",
+      "choices": [
+        "Sensor tidak dapat membaca suhu.",
+        "Semua jalan memiliki tinggi gedung identik.",
+        "Ada perbedaan lalu lintas dan bangunan antara kedua jalan.",
+        "Relawan hanya mengukur pada malam hari."
+      ],
+      "answer": 2,
+      "explanation": "Faktor pembaur yang disebutkan adalah lalu lintas dan tinggi bangunan.",
+      "passageId": "urban-trees",
+      "evidence": "The streets also differed in traffic levels and building heights.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q4",
+      "prompt": "Dalam kalimat terakhir, makna “promising” paling dekat dengan …",
+      "choices": [
+        "menjanjikan kemungkinan baik",
+        "sudah pasti",
+        "membingungkan",
+        "tidak berguna"
+      ],
+      "answer": 0,
+      "explanation": "Promising berarti menunjukkan potensi, bukan pembuktian akhir.",
+      "passageId": "urban-trees",
+      "evidence": "The first measurements were a promising beginning, not a final answer.",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q5",
+      "prompt": "Apa tujuan usulan studi lanjutan?",
+      "choices": [
+        "Menghapus jalan tanpa pohon",
+        "Membandingkan banyak kondisi agar keputusan ruang hijau lebih berdasar",
+        "Membuktikan bus tidak pernah memengaruhi suhu",
+        "Mengukur kecepatan pertumbuhan pohon saja"
+      ],
+      "answer": 1,
+      "explanation": "Studi dengan beberapa sensor dan pencatatan faktor lain membantu pengambilan keputusan yang lebih kuat.",
+      "passageId": "urban-trees",
+      "evidence": "such a project could help planners decide where green spaces would be most useful.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q6",
+      "prompt": "Pernyataan mana yang paling tepat merangkum teks?",
+      "choices": [
+        "Telepon selalu lebih baik daripada radio.",
+        "Proyek radio menunjukkan pentingnya menyesuaikan cara penyampaian informasi dengan pendengar.",
+        "Siswa membangun jaringan telepon baru.",
+        "Radio berhenti mengudara setelah badai."
+      ],
+      "answer": 1,
+      "explanation": "Fokus teks ialah pemahaman pendengar, bukan sekadar penyebaran pesan.",
+      "passageId": "community-radio",
+      "evidence": "Information is valuable only if people can understand it and use it.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q7",
+      "prompt": "Siapa yang memeriksa ringkasan instruksi medis?",
+      "choices": [
+        "Koperasi petani",
+        "Klinik setempat",
+        "Pemerintah provinsi",
+        "Guru olahraga"
+      ],
+      "answer": 1,
+      "explanation": "Ringkasan lebih sederhana dikonfirmasi oleh klinik.",
+      "passageId": "community-radio",
+      "evidence": "asking the clinic to approve simpler summaries",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q8",
+      "prompt": "Apa yang dapat disimpulkan dari tetap digunakannya format lambat setelah jaringan pulih?",
+      "choices": [
+        "Format lambat tetap membantu sebagian pendengar.",
+        "Jaringan tidak benar-benar pulih.",
+        "Radio tidak dapat menyiarkan musik.",
+        "Semua pendengar sudah memiliki ponsel."
+      ],
+      "answer": 0,
+      "explanation": "Pemeliharaan format menandakan manfaat yang melampaui kondisi darurat.",
+      "passageId": "community-radio",
+      "evidence": "the station kept its slower announcement format because the change had benefited many listeners",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q9",
+      "prompt": "Dalam konteks paragraf pertama, “reception” berarti …",
+      "choices": [
+        "upacara penyambutan",
+        "penerimaan sinyal",
+        "pencatatan pasien",
+        "ruang tunggu"
+      ],
+      "answer": 1,
+      "explanation": "Mobile reception berarti kemampuan perangkat menerima sinyal seluler.",
+      "passageId": "community-radio",
+      "evidence": "lost mobile reception after a storm",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q10",
+      "prompt": "Mengapa siswa menambahkan jeda setelah instruksi?",
+      "choices": [
+        "Agar penyiar dapat pulang lebih cepat",
+        "Agar pendengar sempat mencatat",
+        "Agar generator hemat bahan bakar",
+        "Agar pengumuman tidak diperiksa klinik"
+      ],
+      "answer": 1,
+      "explanation": "Jeda dirancang untuk memberi waktu mencatat.",
+      "passageId": "community-radio",
+      "evidence": "so listeners could write it down.",
+      "skill": "Text Organization"
+    },
+    {
+      "id": "q11",
+      "prompt": "Apa tujuan utama perpustakaan benih?",
+      "choices": [
+        "Menjual hanya varietas komersial",
+        "Menjaga pilihan varietas lokal untuk masa depan",
+        "Mewajibkan semua keluarga menanam kacang",
+        "Menghindari pencatatan hasil panen"
+      ],
+      "answer": 1,
+      "explanation": "Bacaan menekankan pelestarian ragam benih yang beradaptasi pada kondisi lokal.",
+      "passageId": "seed-library",
+      "evidence": "maintain varieties that have adapted to local conditions",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q12",
+      "prompt": "Apa yang dilakukan peminjam setelah menanam benih?",
+      "choices": [
+        "Mengembalikan sebagian benih hasil panen",
+        "Mengembalikan kantong yang tidak dibuka",
+        "Membeli bibit dari luar negeri",
+        "Menjual semua hasil ke perpustakaan"
+      ],
+      "answer": 0,
+      "explanation": "Sistem peminjaman adalah menanam lalu menyumbangkan sebagian benih baru.",
+      "passageId": "seed-library",
+      "evidence": "bring back some seeds from their harvest",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q13",
+      "prompt": "Mengapa koordinator tidak setuju dengan penilaian tetangga?",
+      "choices": [
+        "Kondisi satu musim belum cukup untuk menilai kinerja varietas jangka panjang",
+        "Varietas itu menghasilkan panen terbesar setiap tahun",
+        "Curah hujan tidak memengaruhi tanaman",
+        "Benih selalu tahan disimpan basah"
+      ],
+      "answer": 0,
+      "explanation": "Ia menginginkan pembandingan selama beberapa tahun dan kondisi hujan berbeda.",
+      "passageId": "seed-library",
+      "evidence": "a single difficult season could not show how the bean would perform across different rainfall patterns",
+      "skill": "Critical Reading"
+    },
+    {
+      "id": "q14",
+      "prompt": "Makna “stock” pada paragraf pertama adalah …",
+      "choices": [
+        "menyimpan atau menyediakan barang",
+        "batang kayu",
+        "mencatat di buku harian",
+        "memasak bersama"
+      ],
+      "answer": 0,
+      "explanation": "Suppliers may no longer stock berarti pemasok mungkin tidak lagi menyediakan barang.",
+      "passageId": "seed-library",
+      "evidence": "commercial suppliers may no longer stock",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "q15",
+      "prompt": "Apa akibat yang mungkin terjadi jika benih salah label?",
+      "choices": [
+        "Petani menerima varietas yang tidak mereka perkirakan",
+        "Benih pasti tumbuh dua kali lebih cepat",
+        "Hujan akan semakin banyak",
+        "Tidak ada dampak apa pun"
+      ],
+      "answer": 0,
+      "explanation": "Peringatan terakhir menyatakan bahwa pencampuran mengganggu ketepatan jenis benih bagi penanam berikutnya.",
+      "passageId": "seed-library",
+      "evidence": "future growers may not receive the seeds they expect.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q16",
+      "prompt": "Perubahan apa yang paling jelas dialami Maya?",
+      "choices": [
+        "Ia berhenti membaca novel.",
+        "Ia menyadari bahwa pembaca dapat menafsirkan satu kisah secara berbeda.",
+        "Ia memutuskan meninggalkan kotanya.",
+        "Ia berusaha mencari penulis catatan untuk dimarahi."
+      ],
+      "answer": 1,
+      "explanation": "Akhir bacaan menyoroti beragam reaksi dan perhatian pembaca.",
+      "passageId": "borrowed-books",
+      "evidence": "readers could meet a story at different moments and notice different things",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q17",
+      "prompt": "Apa yang dilakukan pustakawan terhadap catatan itu?",
+      "choices": [
+        "Menerbitkannya di koran",
+        "Menghapus atau melepaskannya dengan hati-hati",
+        "Menyuruh Maya menulis catatan lain",
+        "Meninggalkan tulisan tanpa perubahan"
+      ],
+      "answer": 1,
+      "explanation": "Pustakawan menindaklanjuti informasi Maya dengan melepas catatan pensil.",
+      "passageId": "borrowed-books",
+      "evidence": "the librarian, who removed the pencil note carefully",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q18",
+      "prompt": "Sikap Maya terhadap aturan tidak menulis di buku adalah …",
+      "choices": [
+        "Ia menyetujuinya meski penasaran pada catatan itu.",
+        "Ia menganggapnya tidak penting.",
+        "Ia melanggar aturan pada akhir cerita.",
+        "Ia menghapus semua buku dari perpustakaan."
+      ],
+      "answer": 0,
+      "explanation": "Dia setuju dengan aturan, walaupun ingin tahu siapa penulis catatan.",
+      "passageId": "borrowed-books",
+      "evidence": "The reading room asked visitors not to mark books, and she agreed with that rule.",
+      "skill": "Author’s Tone and Attitude"
+    },
+    {
+      "id": "q19",
+      "prompt": "Pada “Its ending was quiet rather than dramatic”, kata “Its” merujuk pada …",
+      "choices": [
+        "catatan pensil",
+        "novel yang telah selesai dibaca Maya",
+        "kota Maya",
+        "ruang baca"
+      ],
+      "answer": 1,
+      "explanation": "Its mengacu pada the novel di kalimat sebelumnya.",
+      "passageId": "borrowed-books",
+      "evidence": "Weeks later, Maya finished the novel. Its ending was quiet rather than dramatic",
+      "skill": "Reference Questions"
+    },
+    {
+      "id": "q20",
+      "prompt": "Mengapa Maya tidak menambahkan catatan di akhir?",
+      "choices": [
+        "Ia mematuhi aturan perpustakaan sambil tetap menghargai pendapat pembaca lain.",
+        "Ia tidak dapat menulis dengan pensil.",
+        "Ia membenci cerita itu.",
+        "Ia sudah tidak memiliki kertas."
+      ],
+      "answer": 0,
+      "explanation": "Teks menyebut kepatuhannya pada aturan dan pada akhir cerita ia tidak menulis pada buku.",
+      "passageId": "borrowed-books",
+      "evidence": "She returned the book without adding a note of her own.",
+      "skill": "Reading Between the Lines"
+    }
+  ],
+  "referenceFormat": {
+    "year": 2026,
+    "questionCount": 20,
+    "durationSeconds": 1200,
+    "source": "https://snpmb.id/fr/"
+  }
+}

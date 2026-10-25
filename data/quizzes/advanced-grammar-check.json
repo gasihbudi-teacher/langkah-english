@@ -1,0 +1,164 @@
+{
+  "id": "advanced-grammar-check",
+  "questionCount": 12,
+  "durationSeconds": 900,
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Rarely ___ such a detailed report.",
+      "choices": [
+        "I have seen",
+        "have I seen",
+        "I saw have",
+        "have seen I"
+      ],
+      "answer": 1,
+      "explanation": "Rarely diletakkan sebelum auxiliary have dan subjek I.",
+      "skill": "Inversion"
+    },
+    {
+      "id": "q2",
+      "prompt": "Not until the meeting ended ___ the team leave.",
+      "choices": [
+        "did",
+        "was",
+        "had",
+        "does"
+      ],
+      "answer": 0,
+      "explanation": "Not until fronted memicu did + team + leave untuk past.",
+      "skill": "Inversion"
+    },
+    {
+      "id": "q3",
+      "prompt": "The machines ___ last week are now working.",
+      "choices": [
+        "repaired",
+        "repairing",
+        "which repairing",
+        "to repairing"
+      ],
+      "answer": 0,
+      "explanation": "Mesin menerima aksi diperbaiki → repaired.",
+      "skill": "Reduced Relative Clauses"
+    },
+    {
+      "id": "q4",
+      "prompt": "Workers ___ the bridge wore safety helmets.",
+      "choices": [
+        "constructing",
+        "constructed by",
+        "were constructing by",
+        "construction"
+      ],
+      "answer": 0,
+      "explanation": "Workers adalah pelaku: constructing.",
+      "skill": "Reduced Relative Clauses"
+    },
+    {
+      "id": "q5",
+      "prompt": "The programme aims to teach, to practise, and ___.",
+      "choices": [
+        "to assess",
+        "assessing",
+        "assessment",
+        "assessments"
+      ],
+      "answer": 0,
+      "explanation": "Infinitive paralel: to teach, to practise, to assess.",
+      "skill": "Parallel Structures"
+    },
+    {
+      "id": "q6",
+      "prompt": "She is both creative and ___.",
+      "choices": [
+        "reliably",
+        "reliable",
+        "reliability",
+        "rely"
+      ],
+      "answer": 1,
+      "explanation": "Creative dan reliable sama-sama adjective.",
+      "skill": "Parallel Structures"
+    },
+    {
+      "id": "q7",
+      "prompt": "“Unless the rainfall increases, the reservoir will remain low.” Arti paling tepat?",
+      "choices": [
+        "Waduk tetap rendah jika hujan tidak bertambah.",
+        "Waduk pasti penuh sekarang.",
+        "Hujan tidak pernah turun.",
+        "Waduk menyebabkan hujan."
+      ],
+      "answer": 0,
+      "explanation": "Unless berarti if not.",
+      "skill": "Advanced Grammar Analysis"
+    },
+    {
+      "id": "q8",
+      "prompt": "The study, ___ was published in June, examined sleep habits.",
+      "choices": [
+        "which",
+        "what",
+        "where",
+        "who"
+      ],
+      "answer": 0,
+      "explanation": "Non-defining relative clause untuk benda study memakai which.",
+      "skill": "Advanced Grammar Analysis"
+    },
+    {
+      "id": "q9",
+      "prompt": "If she had saved the document, she ___ a copy now.",
+      "choices": [
+        "would have",
+        "had",
+        "will has",
+        "have had"
+      ],
+      "answer": 0,
+      "explanation": "Mixed conditional: akibat keadaan sekarang.",
+      "skill": "Advanced Conditionals"
+    },
+    {
+      "id": "q10",
+      "prompt": "Had we known about the closure, we ___ another route.",
+      "choices": [
+        "would have taken",
+        "will take",
+        "take",
+        "had taking"
+      ],
+      "answer": 0,
+      "explanation": "Conditional inversion merujuk past unreal.",
+      "skill": "Advanced Conditionals"
+    },
+    {
+      "id": "q11",
+      "prompt": "___ the results were promising, the authors requested more tests.",
+      "choices": [
+        "Although",
+        "Despite",
+        "Because of",
+        "In spite"
+      ],
+      "answer": 0,
+      "explanation": "Although diikuti subjek-verb clause.",
+      "skill": "Complex Sentence Structures"
+    },
+    {
+      "id": "q12",
+      "prompt": "The researchers described both the method and ___.",
+      "choices": [
+        "the limitations",
+        "limited",
+        "to limit",
+        "limiting"
+      ],
+      "answer": 0,
+      "explanation": "Noun phrase sejajar dengan the method.",
+      "skill": "Parallel Structures"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "inversion",
+  "objectives": [
+    "Mengenali inversi untuk penekanan dalam bahasa Inggris formal, terutama sesudah negative adverbials.",
+    "Mengenali struktur yang tepat dari beberapa contoh.",
+    "Menerapkan konsep pada latihan mandiri."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Konsep dan tujuan"
+    },
+    {
+      "type": "text",
+      "text": "Mengenali inversi untuk penekanan dalam bahasa Inggris formal, terutama sesudah negative adverbials."
+    },
+    {
+      "type": "rule",
+      "text": "Negative adverbial di depan + auxiliary + subject + main verb. Jika tidak ada auxiliary, gunakan do/does/did."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap"
+    },
+    {
+      "type": "example",
+      "text": "Rarely have I seen such clear evidence.",
+      "note": "Rarely di awal memicu have + I."
+    },
+    {
+      "type": "example",
+      "text": "Not only did she explain the method, but she also tested it.",
+      "note": "Not only di awal klausa menyebabkan did she explain."
+    },
+    {
+      "type": "example",
+      "text": "Never was the room completely silent.",
+      "note": "Dengan be, inversi terjadi antara was dan subjek."
+    },
+    {
+      "type": "subheading",
+      "text": "Perhatikan kesalahan berikut"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Never I have read this article.",
+      "correct": "Never have I read this article.",
+      "explanation": "Never di awal memicu inversi auxiliary have sebelum subject."
+    },
+    {
+      "type": "text",
+      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Choose correct inversion.",
+      "choices": [
+        "Rarely I have heard that.",
+        "Rarely have I heard that.",
+        "Rarely had heard I that."
+      ],
+      "answer": 1,
+      "explanation": "Rarely + auxiliary + subject + V3."
+    },
+    {
+      "id": "p2",
+      "prompt": "Not only ___ he arrive early, but he also helped.",
+      "choices": [
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "Did memicu bentuk dasar arrive."
+    },
+    {
+      "id": "p3",
+      "prompt": "Never ___ she been so certain.",
+      "choices": [
+        "has",
+        "does",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "Present perfect inversion: has she been."
+    }
+  ],
+  "assessments": [
+    "advanced-grammar-check"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "grade12-academic-vocab",
+  "objectives": [
+    "Mempelajari makna kata akademik melalui konteks, sinonim, dan kalimat.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Kosakata melalui konteks"
+    },
+    {
+      "type": "text",
+      "text": "Ketika bertemu kata sulit, jangan langsung menerjemahkan semua kata. Lihat peran kata dalam kalimat, petunjuk kontras, contoh, dan pengulangan gagasan."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kata",
+        "Makna dalam konteks",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "evidence",
+          "bukti",
+          "The claim lacks evidence."
+        ],
+        [
+          "significant",
+          "bermakna/penting (atau bermakna secara statistik)",
+          "The change was significant."
+        ],
+        [
+          "maintain",
+          "mempertahankan",
+          "The team maintained records."
+        ],
+        [
+          "however",
+          "namun / kontras",
+          "The idea is useful; however, it is costly."
+        ],
+        [
+          "approximately",
+          "sekitar",
+          "Approximately 60 people attended."
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Makna bergantung konteks"
+    },
+    {
+      "type": "text",
+      "text": "“Significant” dalam tulisan umum bisa berarti penting; dalam laporan statistik dapat memiliki arti teknis. “Suggest” mengisyaratkan, bukan selalu membuktikan. Perhatikan pilihan verba untuk menilai tingkat kepastian penulis."
+    },
+    {
+      "type": "rule",
+      "text": "Cari petunjuk sebelum/sesudah kata, buat tebakan, lalu uji apakah tebakan cocok dengan keseluruhan paragraf."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“The results suggest a pattern.” Suggest berarti …",
+      "choices": [
+        "mengisyaratkan",
+        "membuktikan tanpa keraguan",
+        "menolak"
+      ],
+      "answer": 0,
+      "explanation": "Suggest menunjukkan kemungkinan berdasar temuan."
+    },
+    {
+      "id": "p2",
+      "prompt": "“Approximately forty people” berarti …",
+      "choices": [
+        "tepat empat puluh",
+        "sekitar empat puluh",
+        "kurang dari empat"
+      ],
+      "answer": 1,
+      "explanation": "Approximately = roughly/sekitar."
+    },
+    {
+      "id": "p3",
+      "prompt": "“However” menandai hubungan …",
+      "choices": [
+        "kontras",
+        "penambahan yang sama",
+        "urutan angka"
+      ],
+      "answer": 0,
+      "explanation": "However mengenalkan pertentangan atau pengecualian."
+    }
+  ],
+  "assessments": []
+}

@@ -4,7 +4,7 @@ initI18n();
 try{
   const {meta:m,data:d,catalog:c}=await resource(params.get('id'),'lesson');
   document.title=m.title+' · Langkah English';
-  let bilingual=true;
+  const practiceAnswers=new Map();
   const sort=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title);
   const primary=m.placements[0];
   const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>x.pathway===primary.pathway&&(primary.pathway!=='school'||x.grade===primary.grade))).sort(sort);
@@ -30,8 +30,8 @@ try{
 
     const target=document.querySelector('#practice');
     if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
-    (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3><div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="false">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;
-      const feedback=section.querySelector('[role="status"]');section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));feedback.hidden=false;feedback.textContent=(Number(btn.dataset.answer)===q.answer?t('correct'):t('notQuite'))+' '+q.explanation});target.append(section)});
+    (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3><div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="${practiceAnswers.get(q.id)===n}">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;
+      const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);if(!feedback.hidden)feedback.textContent=(value===q.answer?t('correct'):t('notQuite'))+' '+q.explanation};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
     const completion=document.querySelector('#completion');function status(){if(progress.read().lessons?.[m.id])completion.textContent=t('alreadyComplete');else completion.textContent=''}status();document.querySelector('#complete').onclick=()=>{if(!progress.read().lessons?.[m.id])progress.complete(m.id,m.title);completion.textContent=t('justComplete')};
   }
   render();onLanguageChange(render);

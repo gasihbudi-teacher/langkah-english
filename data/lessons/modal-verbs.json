@@ -1,0 +1,93 @@
+{
+  "id": "modal-verbs",
+  "objectives": [
+    "Memahami dan memakai modal verbs dalam kalimat dan teks berbahasa Inggris.",
+    "Menerapkan materi melalui contoh dan latihan singkat.",
+    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Pahami konsep"
+    },
+    {
+      "type": "text",
+      "text": "Modal verbs mengekspresikan kemampuan, kewajiban, saran, dan kemungkinan sesuai konteks."
+    },
+    {
+      "type": "rule",
+      "text": "Modal + base verb; must not = larangan; do not have to = tidak wajib."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh yang perlu diperhatikan"
+    },
+    {
+      "type": "example",
+      "text": "Rani can swim.",
+      "note": "Ability — Can mengungkap kemampuan."
+    },
+    {
+      "type": "example",
+      "text": "You should check the source.",
+      "note": "Advice — Should menyatakan saran."
+    },
+    {
+      "type": "example",
+      "text": "It might rain tonight.",
+      "note": "Possibility — Might tidak memberi kepastian."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan umum"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "She can speaks French.",
+      "correct": "She can speak French.",
+      "explanation": "Setelah modal, gunakan bentuk dasar speak."
+    },
+    {
+      "type": "text",
+      "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "You ___ wear a helmet on this site; it is compulsory.",
+      "choices": [
+        "might",
+        "must",
+        "could"
+      ],
+      "answer": 1,
+      "explanation": "Compulsory menandakan kewajiban."
+    },
+    {
+      "id": "p2",
+      "prompt": "It ___ be cold tomorrow; the forecast is uncertain.",
+      "choices": [
+        "might",
+        "must not",
+        "can not to"
+      ],
+      "answer": 0,
+      "explanation": "Might menandakan kemungkinan, bukan kepastian."
+    },
+    {
+      "id": "p3",
+      "prompt": "You ___ bring a pen. We have extras.",
+      "choices": [
+        "must not",
+        "do not have to",
+        "must"
+      ],
+      "answer": 1,
+      "explanation": "Tidak wajib berbeda dari dilarang."
+    }
+  ],
+  "assessments": [
+    "grammar-diagnostic"
+  ]
+}
