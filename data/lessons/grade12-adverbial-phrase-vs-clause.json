@@ -1,0 +1,472 @@
+{
+  "id": "grade12-adverbial-phrase-vs-clause",
+  "objectives": [
+    "Menjelaskan bahwa [[adverbial]] adalah fungsi, sedangkan [[phrase]] dan [[clause]] menunjuk struktur.",
+    "Mengenali [[adverbial phrase]] dan [[adverbial clause]] melalui ada/tidaknya subjek serta verba finit dalam bagian keterangan.",
+    "Memilih [[because]]/[[because of]], [[although]]/[[despite]], dan [[while]]/[[during]] sesuai strukturnya.",
+    "Mengubah contoh frasa menjadi klausa yang maknanya serupa dan menemukan keterangan dalam bacaan."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Dua kelompok kata dapat sama-sama memberi informasi waktu, alasan, atau pertentangan, tetapi bentuknya berbeda. Kita mulai dengan satu kalimat pendek, kemudian membandingkannya dengan klausa yang memiliki pelaku dan kata kerja. Perhatikan bagian yang dicetak dalam tanda kutip dan jangan terburu-buru menghafal istilah.",
+      "steps": [
+        {
+          "title": "Temukan fungsi adverbial",
+          "explanation": "Tanyakan: bagian mana yang menerangkan kapan, mengapa, di mana, bagaimana, atau dalam keadaan apa sebuah tindakan terjadi? Itulah fungsi [[adverbial]]."
+        },
+        {
+          "title": "Mulai dari frasa",
+          "explanation": "Baca kalimat ini, lalu fokus pada bagian yang menjawab pertanyaan kapan. Bagian tersebut tidak mempunyai pasangan subjek dan verba finit sendiri.",
+          "english": "We waited after lunch.",
+          "indonesian": "Kami menunggu setelah makan siang.",
+          "why": "[[After lunch]] adalah [[adverbial phrase]]: menjelaskan waktu, tetapi di dalam bagian itu tidak ada pasangan subjek dan verba finit."
+        },
+        {
+          "title": "Bandingkan dengan klausa",
+          "explanation": "Sekarang informasi waktunya diperluas menjadi satu klausa yang memiliki subjek dan verba finit, bukan hanya kata depan dan kelompok nomina.",
+          "english": "We waited after the bell rang.",
+          "indonesian": "Kami menunggu setelah bel berbunyi.",
+          "why": "[[After the bell rang]] adalah [[adverbial clause]]: [[the bell]] = subjek dan [[rang]] = verba finit."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang dimaksud dengan “adverbial”?"
+    },
+    {
+      "type": "text",
+      "text": "[[Adverbial]] adalah FUNGSI dalam kalimat: keterangan yang menjelaskan kapan, di mana, bagaimana, mengapa, atau dalam kondisi apa sesuatu terjadi. [[Phrase]] dan [[clause]] menjelaskan BENTUK kelompok katanya. Jadi, [[adverbial phrase]] dan [[adverbial clause]] bisa memiliki fungsi serupa, tetapi struktur dalam kelompok katanya berbeda."
+    },
+    {
+      "type": "rule",
+      "text": "Aturan praktis untuk siswa: [[adverbial phrase]] tidak memiliki pasangan subjek + [[finite verb]] sendiri di dalam bagian keterangan itu; [[adverbial clause]] biasanya mempunyai subjek + [[finite verb]] dan sering diawali [[because]], [[when]], [[although]], [[if]], atau [[after]]. [[Finite verb]] = bentuk verba yang menandai waktu atau sesuai dengan subjek, misalnya [[rained]], [[is]], atau [[were]]."
+    },
+    {
+      "type": "text",
+      "text": "Jangan menghitung subjek dan verba dari KALIMAT UTAMA. Pada “We waited after lunch”, [[we waited]] memang memiliki subjek dan verba. Namun bagian yang kita periksa adalah [[after lunch]], bukan seluruh kalimat."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Hubungan makna",
+        "Adverbial phrase (frasa)",
+        "Adverbial clause (klausa)"
+      ],
+      "rows": [
+        [
+          "Waktu",
+          "after the meeting — setelah rapat",
+          "after the meeting ended — setelah rapat berakhir"
+        ],
+        [
+          "Alasan",
+          "because of the heavy rain — karena hujan lebat",
+          "because it rained heavily — karena hujan turun deras"
+        ],
+        [
+          "Pertentangan",
+          "despite the noise — meskipun ada kebisingan",
+          "although the room was noisy — meskipun ruangannya bising"
+        ],
+        [
+          "Waktu berlangsung",
+          "during the test — selama ujian",
+          "while the students were taking the test — ketika para siswa mengerjakan ujian"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca dulu kalimat Inggrisnya, kemudian lihat terjemahan dan alasan gramatikalnya. Pada setiap contoh, tentukan bagian mana yang berfungsi sebagai [[adverbial]]."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Kosakata dan kata penghubung penting",
+      "items": [
+        {
+          "english": "phrase",
+          "indonesian": "frasa: kelompok kata tanpa pasangan subjek–verba finit sendiri"
+        },
+        {
+          "english": "clause",
+          "indonesian": "klausa: kelompok kata yang memiliki subjek dan verba; pada contoh ini verba finit"
+        },
+        {
+          "english": "finite verb",
+          "indonesian": "verba yang menandai waktu atau kesesuaian dengan subjek"
+        },
+        {
+          "english": "because",
+          "indonesian": "karena; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "because of",
+          "indonesian": "karena; biasanya diikuti nomina atau frasa nomina"
+        },
+        {
+          "english": "although",
+          "indonesian": "meskipun; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "despite",
+          "indonesian": "meskipun; biasanya diikuti nomina atau frasa nomina"
+        },
+        {
+          "english": "during",
+          "indonesian": "selama; diikuti frasa nomina"
+        },
+        {
+          "english": "while",
+          "indonesian": "ketika/sementara; diikuti klausa pada pola pelajaran ini"
+        },
+        {
+          "english": "subject",
+          "indonesian": "subjek atau pelaku/hal yang dibicarakan dalam klausa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh paling sederhana",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "We studied in the library.",
+          "indonesian": "Kami belajar di perpustakaan.",
+          "note": "[[In the library]] menjawab “di mana?”; ini [[prepositional phrase]] yang berfungsi sebagai adverbial, tanpa subjek + verba sendiri."
+        },
+        {
+          "english": "We studied when the library opened.",
+          "indonesian": "Kami belajar ketika perpustakaan dibuka.",
+          "note": "[[When the library opened]] memiliki subjek [[the library]] dan verba finit [[opened]]. Maka bagian ini klausa adverbial waktu."
+        },
+        {
+          "english": "She answered very carefully.",
+          "indonesian": "Dia menjawab dengan sangat hati-hati.",
+          "note": "[[Very carefully]] merupakan [[adverb phrase]] yang berfungsi sebagai keterangan cara. Tidak semua frasa adverbial harus diawali kata depan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-adverbial-phrase-vs-clause",
+      "prompt": "Which highlighted part is an adverbial clause?",
+      "translation": "Bagian yang mana merupakan klausa adverbial?",
+      "choices": [
+        "after the exam",
+        "because the bus was late",
+        "during the discussion"
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "setelah ujian",
+        "karena busnya terlambat",
+        "selama diskusi"
+      ],
+      "hint": "Carilah bagian yang memiliki subjek dan kata kerja finit sendiri. Kata “was” adalah petunjuk penting.",
+      "explanation": "[[Because the bus was late]] memiliki subjek [[the bus]] dan verba finit [[was]]. Dua pilihan lain hanya frasa."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The students waited outside the classroom because the teacher was speaking.",
+      "parts": [
+        {
+          "english": "The students",
+          "meaning": "Subjek kalimat utama: para siswa."
+        },
+        {
+          "english": "waited",
+          "meaning": "Verba finit pada kalimat utama: menunggu (bentuk lampau)."
+        },
+        {
+          "english": "outside the classroom",
+          "meaning": "[[Adverbial phrase]] tempat: di luar ruang kelas. Tidak memiliki pasangan subjek dan verba sendiri."
+        },
+        {
+          "english": "because the teacher was speaking",
+          "meaning": "[[Adverbial clause]] alasan: karena guru sedang berbicara. [[The teacher]] adalah subjek dan [[was speaking]] kelompok verba finit."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan pasangan yang mempunyai fungsi sama",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The club met after school.",
+          "indonesian": "Klub itu bertemu setelah jam sekolah.",
+          "note": "[[After school]] = frasa adverbial waktu; [[school]] ialah nomina, bukan verba."
+        },
+        {
+          "english": "The club met after the final bell rang.",
+          "indonesian": "Klub itu bertemu setelah bel terakhir berbunyi.",
+          "note": "[[After the final bell rang]] = klausa adverbial waktu; [[the final bell]] subjek, [[rang]] verba finit."
+        },
+        {
+          "english": "The match stopped because of heavy rain.",
+          "indonesian": "Pertandingan berhenti karena hujan lebat.",
+          "note": "[[Because of heavy rain]] = frasa adverbial alasan. [[Because of]] merupakan gabungan kata depan yang diikuti frasa nomina."
+        },
+        {
+          "english": "The match stopped because it rained heavily.",
+          "indonesian": "Pertandingan berhenti karena hujan turun deras.",
+          "note": "[[Because it rained heavily]] = klausa adverbial alasan. [[It]] subjek; [[rained]] verba finit."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "How do “because of the storm” and “because the storm became stronger” differ in structure?",
+      "translation": "Apa perbedaan struktur “because of the storm” dan “because the storm became stronger”?",
+      "answer": "Keduanya menerangkan alasan. [[Because of the storm]] adalah frasa dengan [[the storm]] sebagai frasa nomina; [[because the storm became stronger]] adalah klausa karena memiliki subjek [[the storm]] dan verba finit [[became]]."
+    },
+    {
+      "type": "subheading",
+      "text": "Jebakan yang paling sering muncul"
+    },
+    {
+      "type": "rule",
+      "text": "Pasangan penting: [[because of]] + nomina/frasa nomina, tetapi [[because]] + klausa; [[despite]] + nomina/frasa nomina, tetapi [[although]] + klausa; [[during]] + nomina/frasa nomina, tetapi [[while]] + klausa. Ini pola dasar yang berguna untuk pilihan ganda; penggunaan bahasa Inggris yang lebih lanjut dapat memiliki bentuk non-finit yang lebih kompleks."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Because of she was tired, she rested.",
+      "correct": "Because she was tired, she rested.",
+      "explanation": "Setelah [[because of]] jangan langsung menulis klausa dengan [[she was]]. Gunakan [[because]] untuk diikuti subjek + verba finit. Alternatif frasa: [[Because of her tiredness, she rested.]]"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Despite it was raining, we played.",
+      "correct": "Although it was raining, we played.",
+      "explanation": "[[It was raining]] ialah klausa (subjek [[it]], verba [[was raining]]). Gunakan [[although]], bukan [[despite]]. Alternatif frasa: [[Despite the rain, we played.]]"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "During the teacher was explaining, we took notes.",
+      "correct": "While the teacher was explaining, we took notes.",
+      "explanation": "[[The teacher was explaining]] adalah klausa. Gunakan [[while]] untuk pola tersebut. Alternatif frasa: [[During the explanation, we took notes.]]"
+    },
+    {
+      "type": "rule",
+      "text": "Letak dan tanda baca: [[Because the road was flooded, we stayed home.]] memakai koma setelah klausa pembuka. [[We stayed home because the road was flooded.]] biasanya tidak memerlukan koma sebelum klausa alasan di akhir. Frasa pembuka juga bisa diikuti koma: [[After lunch, we revised our notes.]]"
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Lihat pertentangan, syarat, dan perubahan urutan (buka saat siap)",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Despite the crowded room, Maya concentrated.",
+          "indonesian": "Meskipun ruangannya penuh sesak, Maya berkonsentrasi.",
+          "note": "[[Despite the crowded room]] = frasa; [[the crowded room]] adalah frasa nomina, tidak memiliki verba finit."
+        },
+        {
+          "english": "Although the room was crowded, Maya concentrated.",
+          "indonesian": "Walaupun ruangan itu penuh sesak, Maya berkonsentrasi.",
+          "note": "[[Although the room was crowded]] = klausa; subjek [[the room]] dan verba finit [[was]]."
+        },
+        {
+          "english": "In case of heavy rain, the event will move indoors.",
+          "indonesian": "Jika terjadi hujan lebat, acara akan dipindahkan ke dalam ruangan.",
+          "note": "[[In case of heavy rain]] adalah frasa adverbial kondisi yang diikuti nomina. Maknanya di sini terkait rencana menghadapi kemungkinan hujan."
+        },
+        {
+          "english": "If heavy rain starts, the event will move indoors.",
+          "indonesian": "Jika hujan lebat mulai turun, acara akan dipindahkan ke dalam ruangan.",
+          "note": "[[If heavy rain starts]] = klausa kondisi; [[heavy rain]] sebagai subjek dan [[starts]] sebagai verba finit."
+        },
+        {
+          "english": "We revised our notes before dinner.",
+          "indonesian": "Kami meninjau ulang catatan sebelum makan malam.",
+          "note": "[[Before dinner]] = frasa waktu tanpa pasangan subjek–verba sendiri."
+        },
+        {
+          "english": "Before dinner began, we revised our notes.",
+          "indonesian": "Sebelum makan malam dimulai, kami meninjau ulang catatan.",
+          "note": "[[Before dinner began]] = klausa waktu; [[dinner]] subjek dan [[began]] verba finit."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Membaca teks pendek: temukan fungsi dan strukturnya"
+    },
+    {
+      "type": "example",
+      "text": "On Monday, the school debate team met in the library. Because the auditorium was being repaired, the students needed a quieter room. During the first hour, they collected evidence about public transport. When the teacher arrived, the students compared their arguments. Despite the limited time, they completed a short outline. Although several members disagreed, everyone listened respectfully. After the discussion ended, the team shared its draft with the teacher. The teacher reminded them to support each claim with reliable evidence.",
+      "note": "Teks latihan orisinal. Petunjuk: [[in the library]], [[during the first hour]], dan [[despite the limited time]] adalah frasa; [[because the auditorium was being repaired]], [[when the teacher arrived]], serta [[although several members disagreed]] adalah klausa."
+    },
+    {
+      "type": "text",
+      "text": "Cara membaca: mula-mula garis bawahi keterangan waktu, tempat, alasan, atau pertentangan. Setelah itu, periksa hanya bagian yang digarisbawahi. Adakah subjek dan verba finit di dalamnya? Jangan terkecoh oleh subjek dan verba pada kalimat utamanya."
+    },
+    {
+      "type": "subheading",
+      "text": "Ubah bentuk: latihan terbimbing tanpa nilai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dari bentuk frasa",
+        "Menjadi bentuk klausa",
+        "Alasan"
+      ],
+      "rows": [
+        [
+          "because of the storm",
+          "because the storm was strong",
+          "Tambahkan [[the storm]] (subjek) + [[was]] (verba finit). Makna umumnya serupa."
+        ],
+        [
+          "after the lesson",
+          "after the lesson finished",
+          "Tambahkan [[the lesson]] (subjek) + [[finished]] (verba finit)."
+        ],
+        [
+          "despite the noise",
+          "although the classroom was noisy",
+          "Ubah frasa nomina menjadi subjek + verba finit sambil mempertahankan hubungan kontras."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Catatan untuk pembelajar lanjut: beberapa tata bahasa menyebut konstruksi berverba non-finit, seperti [[after finishing the task]], sebagai [[non-finite clause]]. Agar tidak rancu, latihan awal kita menggunakan frasa nomina/kata depan dan klausa dengan subjek + verba finit yang jelas. [[Adverbial phrase]] juga merupakan istilah fungsi yang dapat mencakup berbagai bentuk frasa."
+    },
+    {
+      "type": "heading",
+      "text": "Sekarang kamu siap mencoba latihan"
+    },
+    {
+      "type": "text",
+      "text": "Kerjakan pertanyaan pendek di bawah. Semua soal dan pilihan ditulis dalam bahasa Inggris. Kamu boleh membuka terjemahan Indonesia jika perlu; pelajaran ini tidak diberi batas waktu."
+    },
+    {
+      "type": "summary",
+      "title": "Rangkuman tiga langkah",
+      "items": [
+        "Pertama: tentukan FUNGSINYA. Apakah kelompok kata menjawab kapan, di mana, mengapa, bagaimana, atau dalam kondisi apa?",
+        "Kedua: periksa STRUKTUR bagian itu sendiri. [[Adverbial phrase]] tidak memiliki subjek + verba finit sendiri; [[adverbial clause]] pada pola dasar memiliki keduanya.",
+        "Ketiga: cek pasangan [[because of]]/[[because]], [[despite]]/[[although]], dan [[during]]/[[while]]; lalu periksa tanda baca bila keterangan berada di depan kalimat.",
+        "Setelah latihan singkat, buka kuis topik untuk menguji kemampuan mengenali, memilih, dan memperbaiki strukturnya."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence contains an adverbial phrase of time?",
+      "choices": [
+        "They met after lunch.",
+        "They met after the bell rang.",
+        "They met when everyone arrived.",
+        "They met because the room was free."
+      ],
+      "answer": 0,
+      "explanation": "[[After lunch]] ialah frasa keterangan waktu. Tidak ada subjek dan verba finit di dalam frasa itu.",
+      "translationId": {
+        "prompt": "Kalimat mana yang mengandung frasa adverbial waktu?",
+        "choices": [
+          "Mereka bertemu setelah makan siang.",
+          "Mereka bertemu setelah bel berbunyi.",
+          "Mereka bertemu ketika semua orang tiba.",
+          "Mereka bertemu karena ruangan tersedia."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "prompt": "Which expression is an adverbial clause of reason?",
+      "choices": [
+        "because of the strong wind",
+        "because the wind was strong",
+        "during the strong wind",
+        "despite the strong wind"
+      ],
+      "answer": 1,
+      "explanation": "[[Because the wind was strong]] memuat subjek [[the wind]] dan verba finit [[was]], serta menjelaskan alasan.",
+      "translationId": {
+        "prompt": "Ungkapan mana yang merupakan klausa adverbial alasan?",
+        "choices": [
+          "karena angin kencang",
+          "karena anginnya kencang",
+          "selama angin kencang",
+          "meskipun anginnya kencang"
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "prompt": "Choose the correct completion: “___ the road was flooded, the bus stopped.”",
+      "choices": [
+        "Because of",
+        "Despite",
+        "Because",
+        "During"
+      ],
+      "answer": 2,
+      "explanation": "Setelah bagian kosong ada klausa [[the road was flooded]], sehingga gunakan [[Because]]. [[Because of]] dan [[despite]] umumnya diikuti nomina/frasa nomina.",
+      "translationId": {
+        "prompt": "Pilih pelengkap yang benar untuk kalimat “___ jalan tergenang, bus berhenti.”",
+        "choices": [
+          "Karena (diikuti frasa nomina)",
+          "Meskipun (diikuti frasa nomina)",
+          "Karena (diikuti klausa)",
+          "Selama (diikuti frasa nomina)"
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "prompt": "Which part of “We waited near the hall until the speaker arrived” is an adverbial phrase?",
+      "choices": [
+        "until the speaker arrived",
+        "the speaker arrived",
+        "We waited",
+        "near the hall"
+      ],
+      "answer": 3,
+      "explanation": "[[Near the hall]] adalah frasa yang menerangkan tempat. [[Until the speaker arrived]] justru klausa waktu dengan subjek dan verba.",
+      "translationId": {
+        "prompt": "Bagian mana dari kalimat tersebut yang merupakan frasa adverbial?",
+        "choices": [
+          "sampai pembicara tiba",
+          "pembicara tiba",
+          "kami menunggu",
+          "di dekat aula"
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence is grammatically correct?",
+      "choices": [
+        "Despite she was nervous, she spoke.",
+        "Although she was nervous, she spoke.",
+        "During she was nervous, she spoke.",
+        "Because of she was nervous, she spoke."
+      ],
+      "answer": 1,
+      "explanation": "[[Although]] dapat mengawali klausa [[she was nervous]]. [[Despite]], [[during]], dan [[because of]] tidak cocok langsung diikuti klausa finit pada pola ini.",
+      "translationId": {
+        "prompt": "Kalimat mana yang benar secara tata bahasa?",
+        "choices": [
+          "Meskipun dia gugup, dia berbicara (struktur Inggris keliru).",
+          "Walaupun dia gugup, dia berbicara (struktur Inggris benar).",
+          "Saat dia gugup, dia berbicara (struktur Inggris keliru).",
+          "Karena dia gugup, dia berbicara (struktur Inggris keliru)."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-adverbial-phrase-vs-clause-practice"
+  ]
+}

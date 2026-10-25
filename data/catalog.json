@@ -81,7 +81,8 @@
       "Hortatory Exposition: Arguing for Action",
       "Discussion Text: Weighing Two Sides",
       "Advanced Narrative: Motives and Themes",
-      "Comparing Arguments and Evaluating Evidence"
+      "Comparing Arguments and Evaluating Evidence",
+      "Adverbial Phrases and Adverbial Clauses"
     ]
   },
   "resources": [
@@ -3498,6 +3499,104 @@
         "theme": "personal and literary texts",
         "curriculumElement": "Reading–Viewing",
         "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "grade12-adverbial-phrase-vs-clause",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-adverbial-phrase-vs-clause-practice",
+        "complex-sentences"
+      ],
+      "file": "data/lessons/grade12-adverbial-phrase-vs-clause.json",
+      "order": 495,
+      "estimatedMinutes": 30,
+      "prerequisites": [
+        "sentence-structure",
+        "complex-sentences"
+      ],
+      "title": "Adverbial Phrase vs. Adverbial Clause · Kelas 12",
+      "description": "Bedakan keterangan berbentuk frasa dan klausa lewat contoh bertahap, perbandingan, dan latihan dalam bacaan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        },
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grade 12",
+        "grammar",
+        "adverbial phrase",
+        "adverbial clause",
+        "because of",
+        "although",
+        "while",
+        "despite"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Grammar: Adverbial phrases and clauses",
+        "theme": "school debates, writing, and reading comprehension",
+        "curriculumElement": "Reading–Viewing and Writing–Presenting",
+        "mappingNote": "Materi tata bahasa pendukung untuk Fase F; tidak diklaim sebagai bab wajib nasional atau soal resmi UTBK."
+      }
+    },
+    {
+      "id": "grade12-adverbial-phrase-vs-clause-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-adverbial-phrase-vs-clause"
+      ],
+      "file": "data/quizzes/grade12-adverbial-phrase-vs-clause-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 496,
+      "title": "Latihan: Adverbial Phrase vs. Adverbial Clause · 12 Soal",
+      "description": "12 soal grammar dan bacaan dengan umpan balik bahasa Indonesia serta terjemahan opsional.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        },
+        {
+          "pathway": "grammar"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grade 12",
+        "grammar",
+        "adverbial phrase",
+        "adverbial clause",
+        "because of",
+        "although",
+        "while",
+        "despite"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Grammar: Adverbial phrases and clauses",
+        "theme": "school debates, writing, and reading comprehension",
+        "curriculumElement": "Reading–Viewing and Writing–Presenting",
+        "mappingNote": "Materi tata bahasa pendukung untuk Fase F; tidak diklaim sebagai bab wajib nasional atau soal resmi UTBK."
       }
     }
   ],

@@ -1,0 +1,297 @@
+{
+  "id": "grade12-adverbial-phrase-vs-clause-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "debate-team",
+      "title": "Debate Team: Finding a Quiet Room",
+      "text": "On Monday, the school debate team met in the library. Because the auditorium was being repaired, the students needed a quieter room. During the first hour, they collected evidence about public transport. When the teacher arrived, the students compared their arguments. Despite the limited time, they completed a short outline. Although several members disagreed, everyone listened respectfully. After the discussion ended, the team shared its draft with the teacher.",
+      "original": true
+    },
+    {
+      "id": "science-fair",
+      "title": "A Student Improves Her Science Project",
+      "text": "During the science fair, a student explained her air-quality project. Although the first sensor was unreliable, she kept collecting observations. She revised the design after her teacher suggested a simpler circuit. Because the new sensor worked better, the class could compare readings from different rooms. Despite the extra work, the student finished her report before the deadline. When the exhibition opened, visitors asked how she had checked her results.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which expression is an adverbial phrase of place?",
+      "choices": [
+        "near the entrance",
+        "when the doors opened",
+        "because we arrived early",
+        "although the room was full"
+      ],
+      "answer": 0,
+      "explanation": "[[Near the entrance]] merupakan frasa keterangan tempat; hanya mengandung kata depan dan kelompok nomina.",
+      "translationId": {
+        "prompt": "Ungkapan mana yang merupakan frasa adverbial tempat?",
+        "choices": [
+          "di dekat pintu masuk",
+          "ketika pintu dibuka",
+          "karena kami tiba lebih awal",
+          "meskipun ruangan penuh"
+        ]
+      },
+      "skill": "Grammar Analysis"
+    },
+    {
+      "id": "q2",
+      "prompt": "Which expression contains a subject and a finite verb?",
+      "choices": [
+        "after the lesson",
+        "after the lesson ended",
+        "during the lesson",
+        "before the final test"
+      ],
+      "answer": 1,
+      "explanation": "[[After the lesson ended]] memiliki subjek [[the lesson]] dan verba finit [[ended]], jadi merupakan klausa.",
+      "translationId": {
+        "prompt": "Ungkapan mana yang memiliki subjek dan verba finit?",
+        "choices": [
+          "setelah pelajaran",
+          "setelah pelajaran berakhir",
+          "selama pelajaran",
+          "sebelum ujian akhir"
+        ]
+      },
+      "skill": "Grammar Analysis"
+    },
+    {
+      "id": "q3",
+      "prompt": "Choose the correct completion: “The match was delayed ___ the rain.”",
+      "choices": [
+        "because",
+        "although",
+        "because of",
+        "while"
+      ],
+      "answer": 2,
+      "explanation": "Di belakang bagian kosong terdapat frasa nomina [[the rain]], sehingga [[because of]] sesuai. [[Because]] membutuhkan klausa pada pola ini.",
+      "translationId": {
+        "prompt": "Pilih pelengkap yang benar: “Pertandingan ditunda ___ hujan.”",
+        "choices": [
+          "karena (diikuti klausa)",
+          "walaupun (diikuti klausa)",
+          "karena (diikuti frasa nomina)",
+          "sementara (diikuti klausa)"
+        ]
+      },
+      "skill": "Grammar Accuracy"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence uses “although” correctly?",
+      "choices": [
+        "Although the traffic, we arrived early.",
+        "Although of the rain, we walked.",
+        "Although the noise, I studied.",
+        "Although the road was busy, we arrived early."
+      ],
+      "answer": 3,
+      "explanation": "[[Although the road was busy]] memuat subjek [[the road]] dan verba finit [[was]]. Pilihan lain menggunakan frasa tanpa klausa.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memakai “although” dengan benar?",
+        "choices": [
+          "Meskipun lalu lintas, kami tiba lebih awal (struktur keliru).",
+          "Meskipun karena hujan, kami berjalan (struktur keliru).",
+          "Meskipun kebisingan, saya belajar (struktur keliru).",
+          "Walaupun jalan ramai, kami tiba lebih awal (struktur benar)."
+        ]
+      },
+      "skill": "Grammar Accuracy"
+    },
+    {
+      "id": "q5",
+      "prompt": "In the first passage, which expression is an adverbial clause of reason?",
+      "choices": [
+        "Because the auditorium was being repaired",
+        "During the first hour",
+        "in the library",
+        "Despite the limited time"
+      ],
+      "answer": 0,
+      "explanation": "Bagian [[Because the auditorium was being repaired]] menerangkan alasan dan memiliki subjek [[the auditorium]] serta verba finit [[was being repaired]].",
+      "translationId": {
+        "prompt": "Dalam bacaan pertama, ungkapan mana yang merupakan klausa adverbial alasan?",
+        "choices": [
+          "Karena aula sedang diperbaiki",
+          "Selama jam pertama",
+          "di perpustakaan",
+          "Meskipun waktunya terbatas"
+        ]
+      },
+      "passageId": "debate-team",
+      "evidence": "Because the auditorium was being repaired",
+      "skill": "Text Structure"
+    },
+    {
+      "id": "q6",
+      "prompt": "In the first passage, which expression is an adverbial phrase of time?",
+      "choices": [
+        "When the teacher arrived",
+        "During the first hour",
+        "After the discussion ended",
+        "Although several members disagreed"
+      ],
+      "answer": 1,
+      "explanation": "[[During the first hour]] adalah frasa: kata depan [[during]] diikuti frasa nomina. Pilihan lain memiliki subjek dan verba finit.",
+      "translationId": {
+        "prompt": "Dalam bacaan pertama, ungkapan mana yang merupakan frasa adverbial waktu?",
+        "choices": [
+          "Ketika guru tiba",
+          "Selama jam pertama",
+          "Setelah diskusi berakhir",
+          "Walaupun beberapa anggota berbeda pendapat"
+        ]
+      },
+      "passageId": "debate-team",
+      "evidence": "During the first hour",
+      "skill": "Text Structure"
+    },
+    {
+      "id": "q7",
+      "prompt": "What is the grammatical role of “Although several members disagreed” in the first passage?",
+      "choices": [
+        "A phrase showing place",
+        "A main clause giving an instruction",
+        "An adverbial clause expressing contrast",
+        "A noun phrase describing the team"
+      ],
+      "answer": 2,
+      "explanation": "[[Although several members disagreed]] adalah klausa keterangan pertentangan. [[Several members]] subjek, [[disagreed]] verba finit.",
+      "translationId": {
+        "prompt": "Apa peran gramatikal ungkapan tersebut dalam bacaan pertama?",
+        "choices": [
+          "Frasa yang menyatakan tempat",
+          "Klausa utama berupa instruksi",
+          "Klausa adverbial yang menyatakan pertentangan",
+          "Frasa nomina yang mendeskripsikan tim"
+        ]
+      },
+      "passageId": "debate-team",
+      "evidence": "Although several members disagreed",
+      "skill": "Text Structure"
+    },
+    {
+      "id": "q8",
+      "prompt": "Which clause could replace “Despite the limited time” while keeping the contrast?",
+      "choices": [
+        "During the time limit",
+        "Because the time was limited",
+        "Because of the limited time",
+        "Although time was limited"
+      ],
+      "answer": 3,
+      "explanation": "[[Although time was limited]] menyatakan pertentangan dengan klausa finit (subjek [[time]], verba [[was]]). Ini mempertahankan hubungan makna [[despite]].",
+      "translationId": {
+        "prompt": "Klausa mana yang dapat menggantikan “Despite the limited time” sambil mempertahankan makna pertentangan?",
+        "choices": [
+          "Selama batas waktu",
+          "Karena waktu terbatas",
+          "Karena keterbatasan waktu",
+          "Walaupun waktu terbatas"
+        ]
+      },
+      "passageId": "debate-team",
+      "evidence": "Despite the limited time",
+      "skill": "Sentence Transformation"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which expression from the second passage is an adverbial clause of reason?",
+      "choices": [
+        "Because the new sensor worked better",
+        "During the science fair",
+        "Despite the extra work",
+        "before the deadline"
+      ],
+      "answer": 0,
+      "explanation": "[[Because the new sensor worked better]] memuat subjek [[the new sensor]] dan verba finit [[worked]], sehingga merupakan klausa keterangan alasan.",
+      "translationId": {
+        "prompt": "Ungkapan mana dari bacaan kedua yang merupakan klausa adverbial alasan?",
+        "choices": [
+          "Karena sensor baru berfungsi lebih baik",
+          "Selama pameran sains",
+          "Meskipun ada pekerjaan tambahan",
+          "sebelum batas waktu"
+        ]
+      },
+      "passageId": "science-fair",
+      "evidence": "Because the new sensor worked better",
+      "skill": "Text Structure"
+    },
+    {
+      "id": "q10",
+      "prompt": "What type of adverbial is “Despite the extra work” in the second passage?",
+      "choices": [
+        "A clause of condition",
+        "A phrase of contrast",
+        "A clause of reason",
+        "A phrase of place"
+      ],
+      "answer": 1,
+      "explanation": "[[Despite the extra work]] adalah frasa keterangan pertentangan; [[the extra work]] merupakan frasa nomina, bukan subjek + verba finit.",
+      "translationId": {
+        "prompt": "Jenis adverbial apa “Despite the extra work” pada bacaan kedua?",
+        "choices": [
+          "Klausa syarat",
+          "Frasa pertentangan",
+          "Klausa alasan",
+          "Frasa tempat"
+        ]
+      },
+      "passageId": "science-fair",
+      "evidence": "Despite the extra work",
+      "skill": "Text Structure"
+    },
+    {
+      "id": "q11",
+      "prompt": "Choose the correct completion: “___ the teacher was explaining, the students took notes.”",
+      "choices": [
+        "During",
+        "Despite",
+        "While",
+        "Because of"
+      ],
+      "answer": 2,
+      "explanation": "[[The teacher was explaining]] adalah klausa, sehingga [[while]] sesuai untuk menandai waktu berlangsung. [[During]] diikuti frasa nomina.",
+      "translationId": {
+        "prompt": "Pilih pelengkap yang benar: “___ guru sedang menjelaskan, siswa mencatat.”",
+        "choices": [
+          "Selama (diikuti frasa nomina)",
+          "Meskipun (diikuti frasa nomina)",
+          "Ketika (diikuti klausa)",
+          "Karena (diikuti frasa nomina)"
+        ]
+      },
+      "skill": "Grammar Accuracy"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which explanation correctly identifies the adverbial in “After dinner, Sari reviewed the notes”?",
+      "choices": [
+        "“After dinner” is a clause because “reviewed” is a verb.",
+        "“Sari reviewed” is an adverbial phrase of time.",
+        "“After dinner” is a clause because every sentence has a subject.",
+        "“After dinner” is a phrase because it has no subject–finite verb pair of its own."
+      ],
+      "answer": 3,
+      "explanation": "Periksa bagian [[after dinner]] saja. Frasa itu tidak memiliki subjek atau verba finit sendiri. Subjek [[Sari]] dan verba [[reviewed]] berada di klausa utama.",
+      "translationId": {
+        "prompt": "Penjelasan mana yang benar untuk adverbial dalam kalimat tersebut?",
+        "choices": [
+          "“After dinner” adalah klausa karena “reviewed” adalah verba (keliru).",
+          "“Sari reviewed” adalah frasa adverbial waktu (keliru).",
+          "“After dinner” adalah klausa karena tiap kalimat memiliki subjek (keliru).",
+          "“After dinner” adalah frasa karena tidak memiliki pasangan subjek–verba finit sendiri."
+        ]
+      },
+      "skill": "Grammar Analysis"
+    }
+  ]
+}

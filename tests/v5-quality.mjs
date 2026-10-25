@@ -4,7 +4,9 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
-const cat=JSON.parse(read('data/catalog.json'));
+const fullCatalog=JSON.parse(read('data/catalog.json'));
+const originalV7=new Set(JSON.parse(read('data/v7-resource-ids.json')));
+const cat={...fullCatalog,resources:fullCatalog.resources.filter(r=>originalV7.has(r.id))};
 const rxIndonesian=/\b(apa|manakah|pilih|kalimat|yang|adalah|karena|menurut|setelah|dengan|paling|terjadi|menjadi|merujuk|berarti|termasuk|membuktikan|tidak|pada|dalam|penulis|sekolah|untuk|sebuah|siswa|saat|memilih|rata-rata|maka|antara|semua|hanya)\b/i;
 let all=0,fullTranslated=0,promptTranslated=0;
 for(const resource of cat.resources){
