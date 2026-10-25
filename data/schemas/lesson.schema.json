@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "objectives",
+    "blocks",
+    "practice",
+    "assessments"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "heading"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "subheading"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "text"
+              },
+              "text": {
+                "type": "string"
+              },
+              "idText": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "rule"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "const": "example"
+              },
+              "text": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "incorrect",
+              "correct",
+              "explanation"
+            ],
+            "properties": {
+              "type": {
+                "const": "mistake"
+              },
+              "incorrect": {
+                "type": "string"
+              },
+              "correct": {
+                "type": "string"
+              },
+              "explanation": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "headers",
+              "rows"
+            ],
+            "properties": {
+              "type": {
+                "const": "table"
+              },
+              "headers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "practice": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "prompt",
+          "choices",
+          "answer",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "answer": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "passageId": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "skill": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "pathways": [
+    {
+      "id": "grammar",
+      "title": "Grammar Academy"
+    },
+    {
+      "id": "utbk",
+      "title": "UTBK English Preparation"
+    },
+    {
+      "id": "school",
+      "title": "School English"
+    }
+  ],
+  "grammarLevels": {
+    "Beginner": [
+      "Parts of Speech",
+      "Sentence Structure",
+      "Subject-Verb Agreement",
+      "Simple Present Tense",
+      "Simple Past Tense",
+      "Present Continuous Tense",
+      "Basic Questions and Negatives"
+    ],
+    "Intermediate": [
+      "Perfect Tenses",
+      "Passive Voice",
+      "Modal Verbs",
+      "Conditional Sentences",
+      "Relative Clauses",
+      "Gerunds and Infinitives",
+      "Reported Speech"
+    ],
+    "Advanced": [
+      "Complex Sentence Structures",
+      "Advanced Conditionals",
+      "Inversion",
+      "Reduced Relative Clauses",
+      "Parallel Structures",
+      "Advanced Grammar Analysis"
+    ]
+  },
+  "readingSkills": [
+    "Main Idea",
+    "Supporting Details",
+    "Making Inferences",
+    "Vocabulary in Context",
+    "Reference Questions",
+    "Author’s Purpose",
+    "Author’s Tone and Attitude",
+    "Reading Between the Lines",
+    "Text Organization",
+    "Critical Reading"
+  ],
+  "schoolTopics": {
+    "Grade 9": [
+      "Essential grammar review",
+      "Descriptive and narrative texts",
+      "Report texts",
+      "Reading comprehension",
+      "Vocabulary development"
+    ],
+    "Grade 10": [
+      "Recount and descriptive texts",
+      "Narrative texts",
+      "Grammar foundations",
+      "Reading strategies",
+      "Vocabulary practice"
+    ],
+    "Grade 11": [
+      "Analytical exposition",
+      "Explanation texts",
+      "Conditional Sentences",
+      "Passive Voice",
+      "Complex Sentence Structures"
+    ],
+    "Grade 12": [
+      "Advanced reading comprehension",
+      "Academic vocabulary",
+      "Critical Reading",
+      "Complex grammar",
+      "Examination preparation"
+    ]
+  },
+  "resources": [
+    {
+      "id": "grammar-foundations",
+      "title": "Grammar foundations: five-question check",
+      "description": "Check simple-present forms and subject–verb agreement.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Simple Present Tense",
+        "Subject-Verb Agreement"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar review",
+        "grammar foundations",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "simple-present",
+        "subject-verb-agreement"
+      ],
+      "file": "data/quizzes/grammar-foundations.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test"
+    },
+    {
+      "id": "simple-present",
+      "title": "Simple Present Tense",
+      "description": "Describe routines and facts, and build accurate questions and negatives.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Simple Present Tense"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar foundations",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "subject-verb-agreement"
+      ],
+      "file": "data/lessons/simple-present.json",
+      "aiGenerated": true,
+      "unofficial": true
+    },
+    {
+      "id": "subject-verb-agreement",
+      "title": "Subject–Verb Agreement",
+      "description": "Find the real subject and choose the verb that agrees with it.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        },
+        {
+          "pathway": "utbk",
+          "section": "Grammar foundations"
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Subject-Verb Agreement"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar foundations",
+        "essential grammar review"
+      ],
+      "relatedLessons": [
+        "simple-present"
+      ],
+      "file": "data/lessons/subject-verb-agreement.json",
+      "aiGenerated": true,
+      "unofficial": true
+    },
+    {
+      "id": "courtyard-reading",
+      "title": "Reading lab: the courtyard experiment",
+      "description": "One original passage, five connected questions, and evidence-based explanations.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Vocabulary in Context",
+        "Making Inferences",
+        "Reference Questions"
+      ],
+      "tags": [
+        "reading comprehension",
+        "critical reading",
+        "examination preparation",
+        "simulation"
+      ],
+      "relatedLessons": [
+        "reading-strategies"
+      ],
+      "file": "data/quizzes/courtyard-reading.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice"
+    },
+    {
+      "id": "reading-strategies",
+      "title": "Read with evidence: a strategy toolkit",
+      "description": "A learning-mode guide to main ideas, inference, vocabulary, and critical evaluation.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "utbk"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Author’s Tone and Attitude",
+        "Reading Between the Lines",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "learning mode",
+        "advanced reading comprehension",
+        "critical reading",
+        "reading strategies"
+      ],
+      "relatedLessons": [
+        "grade10-recount"
+      ],
+      "file": "data/lessons/reading-strategies.json",
+      "aiGenerated": true,
+      "unofficial": true
+    },
+    {
+      "id": "grade9-reading",
+      "title": "Grade 9: picture a place through reading",
+      "description": "Explore a descriptive text and practise finding details and vocabulary clues.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Supporting Details",
+        "Vocabulary in Context"
+      ],
+      "tags": [
+        "descriptive and narrative texts",
+        "reading comprehension",
+        "vocabulary development"
+      ],
+      "relatedLessons": [
+        "grade10-recount"
+      ],
+      "file": "data/lessons/grade9-reading.json",
+      "aiGenerated": true,
+      "unofficial": true
+    },
+    {
+      "id": "grade10-recount",
+      "title": "Grade 10: follow the story in a recount",
+      "description": "Track events, time markers, and reflection in an original short text.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [
+        "Simple Past Tense"
+      ],
+      "readingSkills": [
+        "Text Organization",
+        "Supporting Details"
+      ],
+      "tags": [
+        "recount and descriptive texts",
+        "reading strategies",
+        "vocabulary practice"
+      ],
+      "relatedLessons": [
+        "grade9-reading",
+        "reading-strategies"
+      ],
+      "file": "data/lessons/grade10-recount.json",
+      "aiGenerated": true,
+      "unofficial": true
+    },
+    {
+      "id": "school-reading-check",
+      "title": "School reading: details and sequence",
+      "description": "A short topic test using the Grade 9 descriptive text and Grade 10 recount.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Supporting Details",
+        "Text Organization"
+      ],
+      "tags": [
+        "reading comprehension",
+        "descriptive and narrative texts",
+        "recount and descriptive texts"
+      ],
+      "relatedLessons": [
+        "grade9-reading",
+        "grade10-recount"
+      ],
+      "file": "data/quizzes/school-reading-check.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test"
+    },
+    {
+      "id": "school-reading-practice",
+      "title": "School reading: quick practice",
+      "description": "Two guided reading questions with immediate optional explanations.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Supporting Details",
+        "Text Organization"
+      ],
+      "tags": [
+        "reading comprehension",
+        "reading strategies"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/school-reading-practice.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice"
+    }
+  ]
+}

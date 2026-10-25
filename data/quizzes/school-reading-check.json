@@ -1,0 +1,71 @@
+{
+  "id": "school-reading-check",
+  "questionCount": 4,
+  "durationSeconds": 240,
+  "passages": [
+    {
+      "id": "garden",
+      "title": "Our school garden",
+      "text": "Our school garden is a quiet space behind the science room. A narrow path runs between pots of herbs. Two wooden benches stand beside a mango tree. During breaks, students sit there to read or talk softly. The garden is small, but its shade makes it a comfortable place to rest."
+    },
+    {
+      "id": "library",
+      "title": "A morning at the community library",
+      "text": "Last Saturday, our class visited a community library near the river. First, a volunteer showed us how donated books were sorted. Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers. I had expected a quiet morning, but I discovered how much teamwork a small library needs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "sr1",
+      "prompt": "In the garden passage, where are the two wooden benches?",
+      "choices": [
+        "Beside a mango tree",
+        "Inside the science room",
+        "Outside the school gate"
+      ],
+      "answer": 0,
+      "explanation": "The text directly states that two wooden benches stand beside a mango tree.",
+      "passageId": "garden",
+      "evidence": "Two wooden benches stand beside a mango tree."
+    },
+    {
+      "id": "sr2",
+      "prompt": "What is the main purpose of the garden paragraph?",
+      "choices": [
+        "To argue against planting trees",
+        "To describe a particular school garden",
+        "To tell the history of all school gardens"
+      ],
+      "answer": 1,
+      "explanation": "The paragraph identifies a particular place and develops its physical features and use.",
+      "passageId": "garden",
+      "evidence": "Our school garden is a quiet space behind the science room."
+    },
+    {
+      "id": "sr3",
+      "prompt": "Which activity happened after repairing covers in the recount?",
+      "choices": [
+        "The class arrived last Saturday.",
+        "The volunteer explained sorting.",
+        "Groups recommended books for younger readers."
+      ],
+      "answer": 2,
+      "explanation": "The text introduces repairs with Then and recommendations with Before we left.",
+      "passageId": "library",
+      "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers."
+    },
+    {
+      "id": "sr4",
+      "prompt": "Which sentence is a reflection rather than a physical action?",
+      "choices": [
+        "Our class visited a community library.",
+        "We repaired torn covers.",
+        "I discovered how much teamwork a small library needs."
+      ],
+      "answer": 2,
+      "explanation": "Discovered describes the narrator’s changed understanding, not a physical task carried out in the library.",
+      "passageId": "library",
+      "evidence": "I had expected a quiet morning, but I discovered how much teamwork a small library needs."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "grammar-foundations",
+  "questionCount": 5,
+  "durationSeconds": 300,
+  "questions": [
+    {
+      "id": "g1",
+      "prompt": "Rina ___ to school by bicycle every weekday.",
+      "choices": [
+        "go",
+        "goes",
+        "going",
+        "is go"
+      ],
+      "answer": 1,
+      "explanation": "Rina is a singular third-person subject. In an affirmative simple-present clause, go becomes goes."
+    },
+    {
+      "id": "g2",
+      "prompt": "Which sentence uses a correct simple-present negative?",
+      "choices": [
+        "He does not likes coffee.",
+        "He do not like coffee.",
+        "He does not like coffee.",
+        "He not likes coffee."
+      ],
+      "answer": 2,
+      "explanation": "After does not, use the base verb like. Does already carries the third-person agreement."
+    },
+    {
+      "id": "g3",
+      "prompt": "The books on the shelf ___ useful for our project.",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "The subject is books, which is plural. The prepositional phrase on the shelf does not change the subject; use are."
+    },
+    {
+      "id": "g4",
+      "prompt": "Each of the students ___ a reading journal.",
+      "choices": [
+        "keep",
+        "keeping",
+        "keeps",
+        "are keeping"
+      ],
+      "answer": 2,
+      "explanation": "Each is the singular head of the subject. In the simple present, use keeps, even though students inside the of-phrase is plural."
+    },
+    {
+      "id": "g5",
+      "prompt": "Which question is grammatically correct?",
+      "choices": [
+        "Does Sinta studies English every day?",
+        "Do Sinta study English every day?",
+        "Does Sinta study English every day?",
+        "Sinta does studies English every day?"
+      ],
+      "answer": 2,
+      "explanation": "For a simple-present question with singular Sinta, use Does + subject + base verb study."
+    }
+  ],
+  "passages": []
+}

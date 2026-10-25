@@ -1,0 +1,115 @@
+{
+  "id": "reading-strategies",
+  "objectives": [
+    "Distinguish a main idea from a supporting example.",
+    "Support an inference with words from the text.",
+    "Separate an observed association from a proven cause."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Read for meaning before hunting for answers"
+    },
+    {
+      "type": "text",
+      "text": "First identify the topic and the writer’s central point. Briefly summarize each paragraph in your own words. Then use the question to locate relevant evidence. Avoid choosing an option merely because it repeats words from the passage.",
+      "idText": "Pahami gagasan dan hubungan antarparagraf. Jawaban yang memakai kata-kata dari teks belum tentu benar; maknanya harus didukung teks."
+    },
+    {
+      "type": "rule",
+      "text": "Choose the strongest answer supported by the passage, not the answer that sounds most impressive or matches your personal knowledge."
+    },
+    {
+      "type": "subheading",
+      "text": "A guided example"
+    },
+    {
+      "type": "example",
+      "text": "“A library opened on Sundays. Visits increased that month, but the school also began a book festival.”",
+      "note": "Observation: visits increased. Unknown: how much of that increase was caused by Sunday opening."
+    },
+    {
+      "type": "text",
+      "text": "An appropriate inference is that more evidence is needed to isolate the effect of Sunday opening. “Sunday opening caused the whole increase” goes beyond the evidence. The word but signals a qualification to the first observation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Skill",
+        "Useful question"
+      ],
+      "rows": [
+        [
+          "Main Idea",
+          "What claim connects most of the paragraphs?"
+        ],
+        [
+          "Supporting Details",
+          "Where does the text state this information?"
+        ],
+        [
+          "Making Inferences",
+          "What follows from the evidence without adding assumptions?"
+        ],
+        [
+          "Vocabulary in Context",
+          "Which meaning fits this sentence and nearby ideas?"
+        ],
+        [
+          "Reference Questions",
+          "Which earlier noun phrase fits the pronoun?"
+        ],
+        [
+          "Author’s Purpose",
+          "Is the writer explaining, arguing, informing, or comparing?"
+        ],
+        [
+          "Author’s Tone and Attitude",
+          "Which words show caution, approval, concern, or neutrality?"
+        ],
+        [
+          "Reading Between the Lines",
+          "What is implied rather than explicitly stated?"
+        ],
+        [
+          "Text Organization",
+          "How do examples, contrasts, and causes build the argument?"
+        ],
+        [
+          "Critical Reading",
+          "How strong is the evidence, and what alternative explanation remains?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "A practical examination routine"
+    },
+    {
+      "type": "text",
+      "text": "Skim for the overall structure, read the question carefully, find evidence, compare every option, and flag unresolved questions. For a 20-question, 20-minute practice format, one minute per question is an average planning guide, not a requirement to spend exactly one minute on each item."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The text says visits rose, so the change definitely caused the rise.",
+      "correct": "Visits rose, but another event could also have influenced the result.",
+      "explanation": "A temporal association alone does not establish the cause."
+    }
+  ],
+  "practice": [
+    {
+      "id": "rs1",
+      "prompt": "A text says: “Sales rose after a redesign, although prices also fell.” Which conclusion is supported?",
+      "choices": [
+        "Only the redesign caused higher sales.",
+        "The price change may also help explain higher sales.",
+        "The redesign had no effect."
+      ],
+      "answer": 1,
+      "explanation": "Although introduces another possible influence. The statement does not isolate the redesign’s effect."
+    }
+  ],
+  "assessments": [
+    "courtyard-reading"
+  ]
+}

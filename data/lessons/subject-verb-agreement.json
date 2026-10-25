@@ -1,0 +1,100 @@
+{
+  "id": "subject-verb-agreement",
+  "objectives": [
+    "Find the head of a subject phrase.",
+    "Match present-tense verbs to singular and plural subjects.",
+    "Avoid distraction from intervening phrases."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "The subject controls the verb"
+    },
+    {
+      "type": "text",
+      "text": "Subject–verb agreement means that the verb form matches the grammatical subject. This is especially visible in simple-present verbs and in forms of be. A singular third-person subject takes reads; a plural subject takes read.",
+      "idText": "Kesesuaian subjek dan kata kerja ditentukan oleh inti subjek, bukan kata benda yang paling dekat dengan kata kerja."
+    },
+    {
+      "type": "rule",
+      "text": "Find the head noun or pronoun. Ignore phrases that describe it when choosing agreement."
+    },
+    {
+      "type": "example",
+      "text": "The student with two dictionaries is prepared. The students with one dictionary are prepared.",
+      "note": "Student and students are the heads; dictionaries and dictionary are not the subjects."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pattern",
+        "Example",
+        "Why"
+      ],
+      "rows": [
+        [
+          "Each / every + singular noun",
+          "Every student has a notebook.",
+          "Every student is singular."
+        ],
+        [
+          "Two subjects joined by and",
+          "Rani and Bima read together.",
+          "Two separate people form a plural subject."
+        ],
+        [
+          "There + be",
+          "There are three books.",
+          "Be agrees with the following noun phrase."
+        ]
+      ]
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The list of reading tasks are long.",
+      "correct": "The list of reading tasks is long.",
+      "explanation": "List is the singular head. Tasks is part of an of-phrase."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Each of the answers seem possible.",
+      "correct": "Each of the answers seems possible.",
+      "explanation": "Each is singular, so use seems in the simple present."
+    },
+    {
+      "type": "subheading",
+      "text": "Do not overgeneralize"
+    },
+    {
+      "type": "text",
+      "text": "Most ordinary main verbs have the same form for singular and plural subjects in the simple past: she walked; they walked. Be is different: she was; they were. For this lesson, focus on clear count nouns and pronouns; collective nouns can involve additional choices depending on variety and meaning."
+    }
+  ],
+  "practice": [
+    {
+      "id": "s1",
+      "prompt": "The pages in this notebook ___ blank.",
+      "choices": [
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "Pages is the plural subject; in this notebook only describes the pages."
+    },
+    {
+      "id": "s2",
+      "prompt": "Every learner ___ a different starting point.",
+      "choices": [
+        "has",
+        "have",
+        "having"
+      ],
+      "answer": 0,
+      "explanation": "Every learner is singular, so use has."
+    }
+  ],
+  "assessments": [
+    "grammar-foundations"
+  ]
+}

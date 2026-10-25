@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "resources",
+    "pathways",
+    "grammarLevels",
+    "readingSkills",
+    "schoolTopics"
+  ],
+  "properties": {
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "description",
+          "type",
+          "placements",
+          "difficulty",
+          "grammarTopics",
+          "readingSkills",
+          "tags",
+          "relatedLessons",
+          "file",
+          "aiGenerated",
+          "unofficial"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "lesson",
+              "quiz"
+            ]
+          },
+          "difficulty": {
+            "enum": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "practice",
+              "test"
+            ]
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^data/(lessons|quizzes)/[a-z0-9-]+\\.json$"
+          },
+          "placements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "pathway"
+              ],
+              "properties": {
+                "pathway": {
+                  "type": "string"
+                },
+                "grade": {
+                  "type": "integer",
+                  "minimum": 9,
+                  "maximum": 12
+                },
+                "section": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "grammarTopics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "readingSkills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relatedLessons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "aiGenerated": {
+            "type": "boolean"
+          },
+          "unofficial": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "grade9-reading",
+  "objectives": [
+    "Identify the purpose of a descriptive paragraph.",
+    "Locate specific details without inventing information.",
+    "Use nearby words to infer a vocabulary meaning."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Describe a place clearly"
+    },
+    {
+      "type": "text",
+      "text": "A descriptive text helps a reader picture a particular person, place, or object. It often begins by identifying its subject and then develops details. Notice that this is different from a narrative, which follows events and typically develops a problem or change.",
+      "idText": "Teks deskriptif menggambarkan sesuatu secara khusus. Cari apa yang digambarkan, ciri-cirinya, dan rincian yang benar-benar disebutkan."
+    },
+    {
+      "type": "example",
+      "text": "Our school garden is a quiet space behind the science room. A narrow path runs between pots of herbs. Two wooden benches stand beside a mango tree. During breaks, students sit there to read or talk softly. The garden is small, but its shade makes it a comfortable place to rest.",
+      "note": "Original sample text: “Our school garden.”"
+    },
+    {
+      "type": "subheading",
+      "text": "Read the details carefully"
+    },
+    {
+      "type": "text",
+      "text": "The paragraph describes a garden, not a trip to a garden. The phrase behind the science room gives its location. Two wooden benches tells us the number and material of the benches. We do not know who built them."
+    },
+    {
+      "type": "rule",
+      "text": "For a detail question, point to the exact phrase that supports your answer."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The passage says a teacher built the benches.",
+      "correct": "The passage says there are two wooden benches.",
+      "explanation": "A builder is not identified. Plausibility is not textual evidence."
+    }
+  ],
+  "practice": [
+    {
+      "id": "n1",
+      "prompt": "Where is the garden?",
+      "choices": [
+        "Behind the science room",
+        "Inside the library",
+        "Beside the school gate"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence explicitly places it behind the science room."
+    },
+    {
+      "id": "n2",
+      "prompt": "In the phrase “a narrow path,” narrow most nearly means ___.",
+      "choices": [
+        "not wide",
+        "very noisy",
+        "newly painted"
+      ],
+      "answer": 0,
+      "explanation": "Narrow describes the width of the path: not wide."
+    }
+  ],
+  "assessments": [
+    "school-reading-check"
+  ]
+}

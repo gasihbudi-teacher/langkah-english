@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+globalThis.location={search:''};
+const source=fs.readFileSync(new URL('../js/core.js',import.meta.url),'utf8');
+const {score,validateQuiz}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const d=JSON.parse(fs.readFileSync(new URL('../data/quizzes/grammar-foundations.json',import.meta.url)));
+validateQuiz(d);
+assert.equal(score(d.questions,d.questions.map(q=>q.answer)).percentage,100);
+assert.equal(score(d.questions,d.questions.map(q=>(q.answer+1)%q.choices.length)).correct,0);
+assert.deepEqual(score(d.questions,[null,null,null,null,null]),{correct:0,incorrect:0,unanswered:5,total:5,percentage:0});
+assert.deepEqual(score(d.questions,[1,0,null,2,null]),{correct:2,incorrect:1,unanswered:2,total:5,percentage:40});
+assert.throws(()=>validateQuiz({...d,questionCount:20}));
+assert.throws(()=>validateQuiz({...d,durationSeconds:-1}));
+assert.throws(()=>validateQuiz({...d,questions:d.questions.map(q=>({...q,answer:99}))}));
+console.log('PASS: real scoring exports, answer-count validation, invalid answer and timer rejection.');

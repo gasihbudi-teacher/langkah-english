@@ -1,0 +1,82 @@
+{
+  "id": "grade10-recount",
+  "objectives": [
+    "Recognize the sequence and purpose of a recount.",
+    "Identify time markers and past-tense verbs.",
+    "Separate an event from a writer’s reflection."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Follow events through a recount"
+    },
+    {
+      "type": "text",
+      "text": "A recount retells past events. It commonly provides an orientation (who, where, and when), a sequence of events, and a closing comment or reflection. These are useful reading patterns, not rules that every text must follow identically.",
+      "idText": "Recount menceritakan kembali kejadian yang sudah berlangsung. Penanda waktu membantu kita mengikuti urutan peristiwa."
+    },
+    {
+      "type": "example",
+      "text": "Last Saturday, our class visited a community library near the river. First, a volunteer showed us how donated books were sorted. Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers. I had expected a quiet morning, but I discovered how much teamwork a small library needs.",
+      "note": "Original sample text: “A morning at the community library.”"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Part",
+        "Evidence"
+      ],
+      "rows": [
+        [
+          "Orientation",
+          "Last Saturday; our class; a community library"
+        ],
+        [
+          "Event sequence",
+          "First → Then → Before we left"
+        ],
+        [
+          "Reflection",
+          "I discovered how much teamwork a small library needs."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Visited, showed, repaired, and recommended locate events in the past. The final sentence reveals a change in the narrator’s understanding; it is not a claim that every library operates in exactly the same way."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The class recommended books before repairing covers.",
+      "correct": "The class repaired covers before recommending books.",
+      "explanation": "Then introduces repairs; Before we left introduces recommendations later in the sequence."
+    }
+  ],
+  "practice": [
+    {
+      "id": "t1",
+      "prompt": "What did the class do first at the library?",
+      "choices": [
+        "Recommended books",
+        "Learned how donated books were sorted",
+        "Repaired covers"
+      ],
+      "answer": 1,
+      "explanation": "First introduces the volunteer showing how donated books were sorted."
+    },
+    {
+      "id": "t2",
+      "prompt": "What did the narrator learn?",
+      "choices": [
+        "Small libraries need teamwork.",
+        "Libraries never need volunteers.",
+        "All books need new covers."
+      ],
+      "answer": 0,
+      "explanation": "The final sentence explicitly reflects on how much teamwork a small library needs."
+    }
+  ],
+  "assessments": [
+    "school-reading-check"
+  ]
+}

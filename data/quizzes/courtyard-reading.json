@@ -1,0 +1,96 @@
+{
+  "id": "courtyard-reading",
+  "questionCount": 5,
+  "durationSeconds": 300,
+  "referenceFormat": {
+    "year": 2026,
+    "questionCount": 20,
+    "durationSeconds": 1200,
+    "source": "https://snpmb.id/fr/"
+  },
+  "passages": [
+    {
+      "id": "courtyard",
+      "title": "A courtyard worth reading in",
+      "text": "At Meranti High School, an unused corner of the courtyard became an outdoor reading area. Students placed benches beneath two existing trees and filled a waterproof box with donated books. They wanted to learn whether a more welcoming space would encourage reading during lunch breaks. Before the change, a student team counted an average of eight readers in the courtyard each lunchtime for one week. During a week after the change, the average rose to nineteen.\n\nThe increase was encouraging, but the team was cautious. The second week was cooler than the first, and teachers had announced a reading challenge at the same time. Either factor might have influenced students’ choices. The team therefore refused to attribute the entire increase to the new reading area. Instead, they planned to count readers over several more weeks and ask students why they chose to read outside.\n\nThe project also revealed a practical issue. Although the trees provided shade, rain sometimes reached the benches. Students suggested a small roof, but the school postponed that expense until it had stronger evidence that the area would remain useful. For now, volunteers bring the books indoors when heavy rain is expected.\n\nThe experience suggests that small changes can make school spaces more inviting. It also shows why an appealing result should lead to further questions rather than an immediate claim of success. A useful experiment does not simply produce a larger number; it helps people decide what to investigate next.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "r1",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "choices": [
+        "A reading challenge always improves students’ examination scores.",
+        "A school reading-space project produced promising results that need careful investigation.",
+        "Schools should replace all indoor libraries with courtyard benches.",
+        "Rain was the only reason students avoided reading outdoors."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes a promising increase, discusses alternative explanations and practical limits, and concludes that further investigation is needed.",
+      "passageId": "courtyard",
+      "evidence": "It also shows why an appealing result should lead to further questions rather than an immediate claim of success.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "r2",
+      "prompt": "Why did the team avoid attributing the whole increase to the new area?",
+      "choices": [
+        "They had not counted any readers before the change.",
+        "The donated books were missing during the second week.",
+        "Cooler weather and a simultaneous reading challenge could also have influenced reading.",
+        "The school had already removed the benches."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph 2 explicitly identifies two other changes: cooler weather and a reading challenge. These possible influences prevent a clear causal conclusion.",
+      "passageId": "courtyard",
+      "evidence": "The second week was cooler than the first, and teachers had announced a reading challenge at the same time.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "r3",
+      "prompt": "In paragraph 2, “attribute” is closest in meaning to ___.",
+      "choices": [
+        "connect as an effect to a cause",
+        "describe in a fictional story",
+        "divide into equal groups",
+        "remove from a record"
+      ],
+      "answer": 0,
+      "explanation": "The team would not claim that the new area caused the entire increase. In this context, attribute means to connect an observed effect to its supposed cause.",
+      "passageId": "courtyard",
+      "evidence": "The team therefore refused to attribute the entire increase to the new reading area.",
+      "skill": "Vocabulary in Context"
+    },
+    {
+      "id": "r4",
+      "prompt": "What can reasonably be inferred about the school’s decision to delay a roof?",
+      "choices": [
+        "The school believes reading outdoors is harmful.",
+        "The school has decided to close the reading area permanently.",
+        "The school knows that rain never affects courtyard reading.",
+        "The school wants more evidence before committing additional money."
+      ],
+      "answer": 3,
+      "explanation": "The delay is explicitly linked to waiting for stronger evidence of continued usefulness. It supports caution about spending, not opposition to reading.",
+      "passageId": "courtyard",
+      "evidence": "the school postponed that expense until it had stronger evidence that the area would remain useful.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "r5",
+      "prompt": "In paragraph 4, what does “it” in “it helps people decide” refer to?",
+      "choices": [
+        "A larger number",
+        "An immediate claim of success",
+        "A useful experiment",
+        "A school courtyard"
+      ],
+      "answer": 2,
+      "explanation": "The subject before the semicolon is a useful experiment. The pronoun it continues referring to that subject in the following clause.",
+      "passageId": "courtyard",
+      "evidence": "A useful experiment does not simply produce a larger number; it helps people decide what to investigate next.",
+      "skill": "Reference Questions"
+    }
+  ]
+}

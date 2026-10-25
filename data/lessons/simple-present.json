@@ -1,0 +1,112 @@
+{
+  "id": "simple-present",
+  "objectives": [
+    "Choose a simple-present verb for a routine or fact.",
+    "Form negatives and questions with do and does.",
+    "Distinguish main-verb patterns from be."
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Talk about routines and general facts"
+    },
+    {
+      "type": "text",
+      "text": "Use the simple present for habits, repeated actions, general facts, and states. Time phrases such as every day, usually, and often commonly appear with this tense. A time phrase is a clue, not a guarantee: choose the tense based on meaning.",
+      "idText": "Gunakan simple present untuk kebiasaan, tindakan berulang, fakta umum, dan keadaan. Pilih bentuk kata kerja berdasarkan subjeknya."
+    },
+    {
+      "type": "rule",
+      "text": "I / you / we / they + base verb. He / she / it + verb-s or verb-es. With be, use am / is / are instead."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Affirmative",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "They read.",
+          "They do not read.",
+          "Do they read?"
+        ],
+        [
+          "He / she / it",
+          "She reads.",
+          "She does not read.",
+          "Does she read?"
+        ],
+        [
+          "Be: singular",
+          "She is ready.",
+          "She is not ready.",
+          "Is she ready?"
+        ]
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "Spelling and adverbs"
+    },
+    {
+      "type": "text",
+      "text": "Add -es after endings such as -ch, -sh, -ss and -x: watches, washes, misses, fixes. A consonant + y usually becomes -ies: studies. A vowel + y takes -s: plays. Have becomes has; go becomes goes. Frequency adverbs usually come before a main verb but after be."
+    },
+    {
+      "type": "example",
+      "text": "Dita usually studies after dinner. Her friends often practise with her. She is always curious.",
+      "note": "Studies agrees with Dita; practise agrees with friends."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "He does not studies on Sundays.",
+      "correct": "He does not study on Sundays.",
+      "explanation": "Does carries the third-person form. The following verb must be the base form."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "They is ready.",
+      "correct": "They are ready.",
+      "explanation": "The verb be has its own present forms: I am, he/she/it is, you/we/they are."
+    },
+    {
+      "type": "heading",
+      "text": "A quick decision process"
+    },
+    {
+      "type": "text",
+      "text": "First identify the subject. Then decide whether the clause is affirmative, negative, or a question. For a main verb, choose the correct verb form or auxiliary. For be, do not add do or does."
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "My brother ___ football on Fridays.",
+      "choices": [
+        "play",
+        "plays",
+        "playing"
+      ],
+      "answer": 1,
+      "explanation": "My brother is singular, so play takes -s: plays."
+    },
+    {
+      "id": "p2",
+      "prompt": "Choose the correct question.",
+      "choices": [
+        "Does she reads?",
+        "Does she read?",
+        "Do she read?"
+      ],
+      "answer": 1,
+      "explanation": "Use does for she, followed by the base form read."
+    }
+  ],
+  "assessments": [
+    "grammar-foundations"
+  ]
+}

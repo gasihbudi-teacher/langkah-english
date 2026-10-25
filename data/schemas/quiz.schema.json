@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "questionCount",
+    "durationSeconds",
+    "questions",
+    "passages"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "questionCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "durationSeconds": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "prompt",
+          "choices",
+          "answer",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "answer": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "passageId": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "skill": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "referenceFormat": {
+      "type": "object"
+    }
+  }
+}

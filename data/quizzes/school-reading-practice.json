@@ -1,0 +1,45 @@
+{
+  "id": "school-reading-practice",
+  "questionCount": 2,
+  "durationSeconds": 120,
+  "passages": [
+    {
+      "id": "garden",
+      "title": "Our school garden",
+      "text": "Our school garden is a quiet space behind the science room. A narrow path runs between pots of herbs. Two wooden benches stand beside a mango tree. During breaks, students sit there to read or talk softly. The garden is small, but its shade makes it a comfortable place to rest."
+    },
+    {
+      "id": "library",
+      "title": "A morning at the community library",
+      "text": "Last Saturday, our class visited a community library near the river. First, a volunteer showed us how donated books were sorted. Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers. I had expected a quiet morning, but I discovered how much teamwork a small library needs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "sr1",
+      "prompt": "In the garden passage, where are the two wooden benches?",
+      "choices": [
+        "Beside a mango tree",
+        "Inside the science room",
+        "Outside the school gate"
+      ],
+      "answer": 0,
+      "explanation": "The text directly states that two wooden benches stand beside a mango tree.",
+      "passageId": "garden",
+      "evidence": "Two wooden benches stand beside a mango tree."
+    },
+    {
+      "id": "sr3",
+      "prompt": "Which activity happened after repairing covers in the recount?",
+      "choices": [
+        "The class arrived last Saturday.",
+        "The volunteer explained sorting.",
+        "Groups recommended books for younger readers."
+      ],
+      "answer": 2,
+      "explanation": "The text introduces repairs with Then and recommendations with Before we left.",
+      "passageId": "library",
+      "evidence": "Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers."
+    }
+  ]
+}
