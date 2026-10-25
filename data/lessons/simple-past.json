@@ -1,18 +1,18 @@
 {
   "id": "simple-past",
   "objectives": [
-    "Mengenali penggunaan simple past untuk peristiwa selesai di masa lampau.",
-    "Memilih bentuk verb-2 beraturan dan tidak beraturan.",
-    "Membentuk kalimat negatif dan pertanyaan dengan did serta was/were."
+    "Mengenali penggunaan [[simple past]] untuk peristiwa selesai di masa lampau.",
+    "Memilih bentuk [[verb-2]] beraturan dan tidak beraturan.",
+    "Membentuk kalimat negatif dan pertanyaan dengan [[did]] serta [[was]]/[[were]]."
   ],
   "blocks": [
     {
       "type": "heading",
-      "text": "Kapan memakai simple past?"
+      "text": "Kapan memakai [[simple past]]?"
     },
     {
       "type": "text",
-      "text": "Gunakan simple past untuk tindakan atau keadaan yang selesai pada waktu lampau. Penanda seperti yesterday, last week, atau two days ago sering muncul, tetapi makna konteks tetap menentukan pilihan tense."
+      "text": "Gunakan [[simple past]] untuk tindakan atau keadaan yang selesai pada waktu lampau. Penanda seperti [[yesterday]], last week, atau two days ago sering muncul, tetapi makna konteks tetap menentukan pilihan [[tense]]."
     },
     {
       "type": "table",
@@ -45,32 +45,32 @@
     },
     {
       "type": "subheading",
-      "text": "Regular dan irregular verbs"
+      "text": "Regular dan irregular [[verbs]]"
     },
     {
       "type": "text",
-      "text": "Banyak verb membentuk past dengan -ed (walk → walked, visit → visited). Sebagian tidak beraturan: go → went, eat → ate, see → saw. Hafalkan bentuk yang sering digunakan sambil berlatih dalam konteks."
+      "text": "Banyak [[verb]] membentuk [[past]] dengan -ed (walk → walked, visit → visited). Sebagian tidak beraturan: [[go]] → went, [[eat]] → ate, see → saw. Hafalkan bentuk yang sering digunakan sambil berlatih dalam konteks."
     },
     {
       "type": "rule",
-      "text": "Kalimat dengan verb biasa: afirmatif memakai verb-2; negatif/pertanyaan memakai did + verb dasar. Untuk be, gunakan was/were tanpa did."
+      "text": "Kalimat dengan [[verb]] biasa: afirmatif memakai [[verb-2]]; negatif/pertanyaan memakai [[did]] + [[verb]] dasar. Untuk [[be]], gunakan [[was]]/[[were]] tanpa [[did]]."
     },
     {
       "type": "example",
       "text": "Yesterday, Nia watched a film. She did not watch TV. Did she enjoy the film?",
-      "note": "Watched adalah bentuk lampau. Setelah did dan did not, verb kembali ke bentuk dasar watch/enjoy."
+      "note": "[[Watched]] adalah bentuk lampau. Setelah [[did]] dan [[did not]], [[verb]] kembali ke bentuk dasar [[watch]]/[[enjoy]]."
     },
     {
       "type": "mistake",
       "incorrect": "Did he went to school?",
       "correct": "Did he go to school?",
-      "explanation": "Did sudah menandakan lampau; setelahnya gunakan bentuk dasar go."
+      "explanation": "[[Did]] sudah menandakan lampau; setelahnya gunakan bentuk dasar [[go]]."
     },
     {
       "type": "mistake",
       "incorrect": "They was late yesterday.",
       "correct": "They were late yesterday.",
-      "explanation": "Subjek they memakai were, bukan was."
+      "explanation": "Subjek [[they]] memakai [[were]], bukan [[was]]."
     },
     {
       "type": "heading",
@@ -78,7 +78,129 @@
     },
     {
       "type": "text",
-      "text": "Tanyakan: Apakah peristiwa sudah selesai? Apakah verb utama merupakan be atau verb biasa? Jika menggunakan did/did not, pastikan verb setelahnya berbentuk dasar."
+      "text": "Tanyakan: Apakah peristiwa sudah selesai? Apakah [[verb]] utama merupakan [[be]] atau [[verb]] biasa? Jika menggunakan [[did]]/[[did not]], pastikan [[verb]] setelahnya berbentuk dasar."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "yesterday",
+          "indonesian": "kemarin"
+        },
+        {
+          "english": "ago",
+          "indonesian": "yang lalu"
+        },
+        {
+          "english": "last week",
+          "indonesian": "pekan lalu"
+        },
+        {
+          "english": "arrived",
+          "indonesian": "tiba (lampau)"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I visited my aunt yesterday.",
+          "indonesian": "Saya mengunjungi bibi saya kemarin.",
+          "note": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai."
+        },
+        {
+          "english": "She went home early.",
+          "indonesian": "Dia pulang lebih awal.",
+          "note": "[[Went]] adalah [[verb-2]] tak beraturan dari [[go]]."
+        },
+        {
+          "english": "They were tired last night.",
+          "indonesian": "Mereka lelah tadi malam.",
+          "note": "[[Were]] adalah bentuk lampau [[be]] untuk [[subject]] jamak."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I visited my aunt yesterday.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "visited",
+          "meaning": "[[verb-2]] dari visit"
+        },
+        {
+          "english": "my aunt",
+          "meaning": "[[object]]"
+        },
+        {
+          "english": "yesterday",
+          "meaning": "keterangan waktu lampau"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I did not visit the museum.",
+          "indonesian": "Saya tidak mengunjungi museum.",
+          "note": "Sesudah [[did not]], gunakan [[verb]] dasar [[visit]]."
+        },
+        {
+          "english": "Did she go home?",
+          "indonesian": "Apakah dia pulang?",
+          "note": "Sesudah [[did]], gunakan [[go]], bukan went."
+        },
+        {
+          "english": "We saw the film, but we did not like it.",
+          "indonesian": "Kami menonton film itu, tetapi tidak menyukainya.",
+          "note": "[[Saw]] adalah [[verb-2]]; [[did not]] diikuti [[like]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Last Saturday, our class cleaned the park and planted five trees.",
+          "indonesian": "Sabtu lalu, kelas kami membersihkan taman dan menanam lima pohon.",
+          "note": "[[Cleaned]] dan [[planted]] menyusun urutan kegiatan lampau."
+        },
+        {
+          "english": "When the alarm rang, Dina left the building immediately.",
+          "indonesian": "Ketika alarm berbunyi, Dina segera meninggalkan gedung.",
+          "note": "[[Rang]] dan [[left]] adalah kejadian selesai dalam cerita lampau."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Gunakan [[verb-2]] untuk kalimat positif tentang kejadian yang sudah selesai.",
+        "Sesudah [[did]] atau [[did not]], kembalikan [[verb]] ke bentuk dasar.",
+        "Pelajari [[verb]] beraturan dan tak beraturan beserta konteks waktunya."
+      ]
     }
   ],
   "practice": [
@@ -105,7 +227,7 @@
         "Does he played?"
       ],
       "answer": 1,
-      "explanation": "Setelah did gunakan verb dasar play.",
+      "explanation": "Setelah [[did]] gunakan [[verb]] dasar play.",
       "translationId": {
         "prompt": "Pilih pertanyaan yang benar."
       }
@@ -119,7 +241,7 @@
         "is"
       ],
       "answer": 1,
-      "explanation": "They dalam simple past menggunakan were.",
+      "explanation": "[[They]] dalam [[simple past]] menggunakan [[were]].",
       "translationId": {
         "prompt": "Mereka ___ di rumah tadi malam."
       }

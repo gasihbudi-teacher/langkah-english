@@ -55,11 +55,129 @@
     },
     {
       "type": "text",
-      "text": "“Significant” dalam tulisan umum bisa berarti penting; dalam laporan statistik dapat memiliki arti teknis. “Suggest” mengisyaratkan, bukan selalu membuktikan. Perhatikan pilihan verba untuk menilai tingkat kepastian penulis."
+      "text": "“[[Significant]]” dalam tulisan umum bisa berarti penting; dalam laporan statistik dapat memiliki arti teknis. “[[Suggest]]” mengisyaratkan, bukan selalu membuktikan. Perhatikan pilihan verba untuk menilai tingkat kepastian penulis."
     },
     {
       "type": "rule",
       "text": "Cari petunjuk sebelum/sesudah kata, buat tebakan, lalu uji apakah tebakan cocok dengan keseluruhan paragraf."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "significant",
+          "indonesian": "penting/signifikan"
+        },
+        {
+          "english": "suggest",
+          "indonesian": "mengisyaratkan"
+        },
+        {
+          "english": "approximately",
+          "indonesian": "sekitar"
+        },
+        {
+          "english": "maintain",
+          "indonesian": "mempertahankan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The results suggest improvement.",
+          "indonesian": "Hasilnya mengisyaratkan peningkatan.",
+          "note": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
+        },
+        {
+          "english": "The result was significant.",
+          "indonesian": "Hasilnya penting / signifikan.",
+          "note": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
+        },
+        {
+          "english": "Approximately fifty people attended.",
+          "indonesian": "Sekitar lima puluh orang hadir.",
+          "note": "[[Approximately]] menyatakan jumlah perkiraan."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The results suggest improvement.",
+      "parts": [
+        {
+          "english": "The results",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "suggest",
+          "meaning": "kata kerja yang membatasi tingkat kepastian"
+        },
+        {
+          "english": "improvement",
+          "meaning": "dugaan perubahan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The study proves the idea.",
+          "indonesian": "Penelitian itu membuktikan gagasan tersebut.",
+          "note": "[[Proves]] adalah klaim jauh lebih kuat daripada [[suggests]]."
+        },
+        {
+          "english": "The study suggests the idea.",
+          "indonesian": "Penelitian itu mengisyaratkan gagasan tersebut.",
+          "note": "[[Suggests]] lebih berhati-hati: belum menyatakan kepastian."
+        },
+        {
+          "english": "The two methods differ; however, both are useful.",
+          "indonesian": "Kedua metode berbeda; namun, keduanya berguna.",
+          "note": "[[However]] menghubungkan dua gagasan yang berkontras."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The researchers maintained detailed records so their findings could be checked later.",
+          "indonesian": "Para peneliti menyimpan catatan terperinci agar temuannya dapat diperiksa kemudian.",
+          "note": "[[Maintained]] di sini bermakna terus menjaga atau menyimpan dengan baik."
+        },
+        {
+          "english": "Although the sample was limited, the findings provide preliminary evidence of a possible trend.",
+          "indonesian": "Walaupun sampelnya terbatas, temuannya memberi bukti awal tentang kemungkinan tren.",
+          "note": "[[Preliminary]] dan [[possible]] membatasi tingkat kepastian klaim ilmiah."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Tafsirkan istilah akademik memakai konteks kalimat dan paragraf.;[[Suggest]] tidak sama kuatnya dengan [[prove]]",
+        " [[approximately]] berarti perkiraan.",
+        "Perhatikan kata penghubung yang membatasi klaim, seperti [[however]]."
+      ]
     }
   ],
   "practice": [
@@ -72,7 +190,7 @@
         "rejects"
       ],
       "answer": 0,
-      "explanation": "Suggest menunjukkan kemungkinan berdasar temuan.",
+      "explanation": "[[Suggest]] menunjukkan kemungkinan berdasar temuan.",
       "translationId": {
         "prompt": "“The results suggest a pattern.” Suggest berarti …",
         "choices": [
@@ -91,7 +209,7 @@
         "fewer than four"
       ],
       "answer": 1,
-      "explanation": "Approximately = roughly/sekitar.",
+      "explanation": "[[Approximately]] = roughly/sekitar.",
       "translationId": {
         "prompt": "“Approximately forty people” berarti …",
         "choices": [
@@ -110,7 +228,7 @@
         "numerical sequence"
       ],
       "answer": 0,
-      "explanation": "However mengenalkan pertentangan atau pengecualian.",
+      "explanation": "[[However]] mengenalkan pertentangan atau pengecualian.",
       "translationId": {
         "prompt": "“However” menandai hubungan …",
         "choices": [

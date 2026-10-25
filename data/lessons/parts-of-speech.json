@@ -1,18 +1,18 @@
 {
   "id": "parts-of-speech",
   "objectives": [
-    "Mengenali fungsi noun, pronoun, verb, adjective, dan adverb dalam kalimat.",
+    "Mengenali fungsi [[noun]], [[pronoun]], [[verb]], [[adjective]], dan [[adverb]] dalam kalimat.",
     "Membedakan jenis kata berdasarkan konteks kalimat, bukan sekadar terjemahannya.",
-    "Mengenali preposition, conjunction, dan determiner dalam contoh sederhana."
+    "Mengenali [[preposition]], [[conjunction]], dan determiner dalam contoh sederhana."
   ],
   "blocks": [
     {
       "type": "heading",
-      "text": "Apa itu parts of speech?"
+      "text": "Apa itu [[parts of speech]]?"
     },
     {
       "type": "text",
-      "text": "Parts of speech adalah kelompok kata berdasarkan tugasnya di dalam kalimat. Satu kata dapat menjalankan fungsi berbeda bergantung pada konteks. Misalnya, “book” dapat menjadi noun (a book) atau verb (to book a ticket)."
+      "text": "[[Parts of speech]] adalah kelompok kata berdasarkan tugasnya di dalam kalimat. Satu kata dapat menjalankan fungsi berbeda bergantung pada konteks. Misalnya, “book” dapat menjadi [[noun]] (a book) atau [[verb]] ([[to]] book a ticket)."
     },
     {
       "type": "table",
@@ -70,18 +70,18 @@
     },
     {
       "type": "text",
-      "text": "Dalam “a careful reader”, careful menjelaskan kata benda reader sehingga berfungsi sebagai adjective. Dalam “reads carefully”, carefully menjelaskan cara membaca sehingga berfungsi sebagai adverb. Akhiran -ly sering muncul pada adverb, tetapi tidak selalu: kata friendly biasanya adjective."
+      "text": "Dalam “a careful reader”, careful menjelaskan kata benda reader sehingga berfungsi sebagai [[adjective]]. Dalam “[[reads]] carefully”, carefully menjelaskan cara membaca sehingga berfungsi sebagai [[adverb]]. Akhiran -ly sering muncul pada [[adverb]], tetapi tidak selalu: kata friendly biasanya [[adjective]]."
     },
     {
       "type": "example",
       "text": "Mira quickly opens the small box.",
-      "note": "Mira = noun; quickly = adverb; opens = verb; the = determiner; small = adjective; box = noun."
+      "note": "[[Mira]] = [[noun]]; [[quickly]] = [[adverb]]; [[opens]] = [[verb]]; [[the]] = determiner; [[small]] = [[adjective]]; [[box]] = [[noun]]."
     },
     {
       "type": "mistake",
       "incorrect": "She is a quickly runner.",
       "correct": "She is a quick runner.",
-      "explanation": "Kata yang menjelaskan noun runner adalah adjective quick. Untuk menjelaskan tindakan run, gunakan adverb quickly: She runs quickly."
+      "explanation": "Kata yang menjelaskan [[noun]] runner adalah [[adjective]] quick. Untuk menjelaskan tindakan run, gunakan [[adverb]] quickly: [[She]] runs quickly."
     },
     {
       "type": "rule",
@@ -93,7 +93,121 @@
     },
     {
       "type": "text",
-      "text": "Cari verb utama terlebih dahulu. Temukan siapa atau apa yang melakukan tindakan (subject), kemudian identifikasi kata yang menjelaskan subject, verb, atau noun lainnya."
+      "text": "Cari [[verb]] utama terlebih dahulu. Temukan siapa atau apa yang melakukan tindakan ([[subject]]), kemudian identifikasi kata yang menjelaskan [[subject]], [[verb]], atau [[noun]] lainnya."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "noun",
+          "indonesian": "kata benda"
+        },
+        {
+          "english": "verb",
+          "indonesian": "kata kerja"
+        },
+        {
+          "english": "adjective",
+          "indonesian": "kata sifat"
+        },
+        {
+          "english": "adverb",
+          "indonesian": "kata keterangan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The teacher smiles.",
+          "indonesian": "Guru itu tersenyum.",
+          "note": "[[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan)."
+        },
+        {
+          "english": "The small cat sleeps.",
+          "indonesian": "Kucing kecil itu tidur.",
+          "note": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
+        },
+        {
+          "english": "Rina speaks clearly.",
+          "indonesian": "Rina berbicara dengan jelas.",
+          "note": "[[Clearly]] adalah [[adverb]] karena menjelaskan cara [[Rina]] berbicara."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The teacher smiles.",
+      "parts": [
+        {
+          "english": "The teacher",
+          "meaning": "subjek ([[noun]])"
+        },
+        {
+          "english": "smiles",
+          "meaning": "[[verb]]: kegiatan yang dilakukan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The book is on the desk.",
+          "indonesian": "Buku itu berada di atas meja.",
+          "note": "[[On]] adalah [[preposition]] yang menunjukkan hubungan tempat."
+        },
+        {
+          "english": "He runs quickly.",
+          "indonesian": "Dia berlari dengan cepat.",
+          "note": "[[Runs]] adalah [[verb]]; [[quickly]] adalah [[adverb]] yang menjelaskan [[runs]]."
+        },
+        {
+          "english": "She has a beautiful bag.",
+          "indonesian": "Dia mempunyai tas yang indah.",
+          "note": "[[Beautiful]] menjelaskan [[bag]], sehingga berfungsi sebagai [[adjective]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "After the rain stopped, the children played outside.",
+          "indonesian": "Setelah hujan berhenti, anak-anak bermain di luar.",
+          "note": "[[After]] menghubungkan waktu; [[outside]] memberi keterangan tempat."
+        },
+        {
+          "english": "Although the road was wet, the driver moved carefully.",
+          "indonesian": "Walaupun jalan basah, pengemudi bergerak hati-hati.",
+          "note": "[[Although]] menghubungkan klausa yang berlawanan; [[carefully]] menerangkan [[moved]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Fungsi sebuah kata ditentukan oleh penggunaannya dalam kalimat.",
+        "[[Noun]] menamai sesuatu, [[verb]] menyatakan tindakan/keadaan, [[adjective]] menjelaskan [[noun]], dan [[adverb]] memberi keterangan.",
+        "Tanyakan apa yang dijelaskan oleh setiap kata sebelum memilih kelas katanya."
+      ]
     }
   ],
   "practice": [
@@ -106,7 +220,7 @@
         "Verb"
       ],
       "answer": 1,
-      "explanation": "Tall menjelaskan noun boy, sehingga termasuk adjective.",
+      "explanation": "Tall menjelaskan [[noun]] boy, sehingga termasuk [[adjective]].",
       "translationId": {
         "prompt": "Dalam kalimat “The tall boy smiles”, kata “tall” termasuk jenis apa?"
       }

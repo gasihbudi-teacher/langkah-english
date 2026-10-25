@@ -1,9 +1,9 @@
 {
   "id": "simple-present",
   "objectives": [
-    "Menentukan bentuk simple present untuk kebiasaan atau fakta.",
-    "Membuat kalimat negatif dan pertanyaan dengan do/does.",
-    "Membedakan pola kata kerja biasa dan be."
+    "Menentukan bentuk [[simple present]] untuk kebiasaan atau fakta.",
+    "Membuat kalimat negatif dan pertanyaan dengan [[do/does]].",
+    "Membedakan pola kata kerja biasa dan [[be]]."
   ],
   "blocks": [
     {
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Simple present dipakai untuk kebiasaan, aktivitas berulang, fakta umum, dan keadaan. Ungkapan seperti every day, usually, atau often sering muncul. Namun, jangan hanya mengandalkan petunjuk waktu: perhatikan makna kalimat."
+      "text": "[[Simple present]] dipakai untuk kebiasaan, aktivitas berulang, fakta umum, dan keadaan. Ungkapan seperti [[every day]], [[usually]], atau [[often]] sering muncul. Namun, jangan hanya mengandalkan petunjuk waktu: perhatikan makna kalimat."
     },
     {
       "type": "rule",
-      "text": "I/you/we/they + verb dasar; he/she/it + verb-s/-es. Untuk kata kerja be, gunakan am/is/are."
+      "text": "[[I]]/[[you]]/[[we]]/[[they]] + [[verb]] dasar; [[he]]/[[she]]/[[it]] + [[verb-s]]/[[-es]]. Untuk kata kerja [[be]], gunakan [[am]]/[[is]]/[[are]]."
     },
     {
       "type": "table",
@@ -53,24 +53,24 @@
     },
     {
       "type": "text",
-      "text": "Tambahkan -es pada verb berakhiran -ch, -sh, -ss, -x (watch → watches; fix → fixes). Untuk konsonan + y, biasanya y berubah menjadi -ies (study → studies). Untuk vokal + y, tambahkan -s (play → plays). Have berubah menjadi has dan go menjadi goes. Kata keterangan frekuensi umumnya diletakkan sebelum verb utama, tetapi setelah be."
+      "text": "Tambahkan [[-es]] pada [[verb]] berakhiran -ch, -sh, -ss, -x (watch → watches; fix → fixes). Untuk konsonan + y, biasanya y berubah menjadi -ies ([[study]] → [[studies]]). Untuk vokal + y, tambahkan [[-s]] (play → plays). [[Have]] berubah menjadi [[has]] dan [[go]] menjadi [[goes]]. Kata keterangan frekuensi umumnya diletakkan sebelum [[verb]] utama, tetapi setelah [[be]]."
     },
     {
       "type": "example",
       "text": "Dita usually studies after dinner. Her friends often practise with her. She is always curious.",
-      "note": "Studies mengikuti subjek tunggal Dita; practise mengikuti subjek jamak her friends."
+      "note": "[[Studies]] mengikuti subjek tunggal [[Dita]]; [[practise]] mengikuti subjek jamak [[her]] [[friends]]."
     },
     {
       "type": "mistake",
       "incorrect": "He does not studies on Sundays.",
       "correct": "He does not study on Sundays.",
-      "explanation": "Does sudah menunjukkan subjek orang ketiga tunggal; verb setelah does not harus berbentuk dasar study."
+      "explanation": "[[Does]] sudah menunjukkan subjek orang ketiga tunggal; [[verb]] setelah [[does not]] harus berbentuk dasar [[study]]."
     },
     {
       "type": "mistake",
       "incorrect": "They is ready.",
       "correct": "They are ready.",
-      "explanation": "Be memiliki bentuk khusus: I am, he/she/it is, you/we/they are."
+      "explanation": "[[Be]] memiliki bentuk khusus: [[I]] [[am]], [[he]]/[[she]]/[[it]] [[is]], [[you]]/[[we]]/[[they]] [[are]]."
     },
     {
       "type": "heading",
@@ -78,7 +78,129 @@
     },
     {
       "type": "text",
-      "text": "Pertama, tentukan subjek. Kedua, lihat apakah kalimatnya positif, negatif, atau pertanyaan. Untuk verb biasa, pilih bentuk verb atau auxiliary yang sesuai. Jika predikatnya be, jangan menambahkan do atau does."
+      "text": "Pertama, tentukan subjek. Kedua, lihat apakah kalimatnya positif, negatif, atau pertanyaan. Untuk [[verb]] biasa, pilih bentuk [[verb]] atau [[auxiliary]] yang sesuai. Jika predikatnya [[be]], jangan menambahkan [[do]] atau [[does]]."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "habit",
+          "indonesian": "kebiasaan"
+        },
+        {
+          "english": "usually",
+          "indonesian": "biasanya"
+        },
+        {
+          "english": "often",
+          "indonesian": "sering"
+        },
+        {
+          "english": "fact",
+          "indonesian": "fakta"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I study English every afternoon.",
+          "indonesian": "Saya belajar bahasa Inggris setiap sore.",
+          "note": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
+        },
+        {
+          "english": "She studies English every afternoon.",
+          "indonesian": "Dia belajar bahasa Inggris setiap sore.",
+          "note": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
+        },
+        {
+          "english": "They are usually ready.",
+          "indonesian": "Mereka biasanya siap.",
+          "note": "Dengan [[be]], [[adverb]] [[usually]] ditempatkan setelah [[are]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I study English every afternoon.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]] orang pertama"
+        },
+        {
+          "english": "study",
+          "meaning": "[[verb]] dasar untuk [[I]]"
+        },
+        {
+          "english": "English",
+          "meaning": "[[object]]"
+        },
+        {
+          "english": "every afternoon",
+          "meaning": "keterangan kebiasaan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I do not drink tea.",
+          "indonesian": "Saya tidak minum teh.",
+          "note": "Negatif dengan [[I]] menggunakan [[do]] [[not]] + [[verb]] dasar."
+        },
+        {
+          "english": "He does not drink tea.",
+          "indonesian": "Dia tidak minum teh.",
+          "note": "Negatif dengan [[he]] menggunakan [[does not]]; [[drink]] tetap bentuk dasar."
+        },
+        {
+          "english": "Does your sister sing?",
+          "indonesian": "Apakah kakak/adik perempuanmu bernyanyi?",
+          "note": "Pertanyaan untuk [[subject]] tunggal memakai [[does]] sebelum [[subject]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Our school opens at seven, and classes begin at eight.",
+          "indonesian": "Sekolah kami buka pukul tujuh dan pelajaran dimulai pukul delapan.",
+          "note": "Dua fakta jadwal menggunakan [[simple present]]."
+        },
+        {
+          "english": "Nina always checks her notes before she takes a test.",
+          "indonesian": "Nina selalu memeriksa catatannya sebelum mengikuti tes.",
+          "note": "[[Checks]] dan [[takes]] memakai [[-s]] karena [[subject]] masing-masing [[Nina]] dan [[she]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Gunakan [[verb]] dasar untuk [[I]]/[[you]]/[[we]]/[[they]] dan [[verb-s]]/[[-es]] untuk [[he]]/[[she]]/[[it]] dalam kalimat positif.",
+        "Negatif dan pertanyaan dengan [[does]] memakai [[verb]] dasar.",
+        "Untuk [[be]], gunakan [[am]]/[[is]]/[[are]] dan jangan tambahkan [[do/does]]."
+      ]
     }
   ],
   "practice": [
@@ -91,7 +213,7 @@
         "playing"
       ],
       "answer": 1,
-      "explanation": "My brother adalah subjek tunggal, sehingga play menjadi plays.",
+      "explanation": "[[My]] brother adalah subjek tunggal, sehingga play menjadi plays.",
       "translationId": {
         "prompt": "Saudaraku ___ sepak bola setiap Jumat."
       }
@@ -105,7 +227,7 @@
         "Do she read?"
       ],
       "answer": 1,
-      "explanation": "She memakai does lalu diikuti verb dasar read.",
+      "explanation": "[[She]] memakai [[does]] lalu diikuti [[verb]] dasar [[read]].",
       "translationId": {
         "prompt": "Pilih pertanyaan bahasa Inggris yang benar."
       }

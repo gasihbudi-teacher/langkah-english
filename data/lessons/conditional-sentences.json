@@ -1,7 +1,7 @@
 {
   "id": "conditional-sentences",
   "objectives": [
-    "Memahami dan memakai conditional sentences dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[conditional sentences]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Conditional sentences menyatakan akibat dari suatu kondisi. Pilih bentuk berdasarkan fakta/kebiasaan, kemungkinan nyata, atau situasi imajiner."
+      "text": "[[Conditional sentences]] menyatakan akibat dari suatu kondisi. Pilih bentuk berdasarkan fakta/kebiasaan, kemungkinan nyata, atau situasi imajiner."
     },
     {
       "type": "rule",
-      "text": "Zero: if + present, present. First: if + present, will + V1. Second: if + past, would + V1."
+      "text": "[[Zero]]: [[if]] + [[present]], [[present]]. [[First]]: [[if]] + [[present]], [[will]] + [[V1]]. [[Second]]: [[if]] + [[past]], [[would]] + [[V1]]."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "If water freezes, it expands.",
-      "note": "Zero — Pernyataan umum."
+      "note": "[[Zero]] — Pernyataan umum."
     },
     {
       "type": "example",
       "text": "If it rains, we will stay inside.",
-      "note": "First — Mungkin terjadi di masa depan."
+      "note": "[[First]] — Mungkin terjadi di masa depan."
     },
     {
       "type": "example",
       "text": "If I had more time, I would volunteer.",
-      "note": "Second — Situasi imajiner saat ini."
+      "note": "[[Second]] — Situasi imajiner saat ini."
     },
     {
       "type": "subheading",
@@ -45,11 +45,125 @@
       "type": "mistake",
       "incorrect": "If she will study, she will pass.",
       "correct": "If she studies, she will pass.",
-      "explanation": "Pada first conditional, klausa if umumnya memakai present."
+      "explanation": "Pada [[first conditional]], klausa [[if]] umumnya memakai [[present]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "condition",
+          "indonesian": "syarat/kondisi"
+        },
+        {
+          "english": "consequence",
+          "indonesian": "akibat"
+        },
+        {
+          "english": "real",
+          "indonesian": "nyata"
+        },
+        {
+          "english": "imaginary",
+          "indonesian": "imajiner"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "If you heat ice, it melts.",
+          "indonesian": "Jika es dipanaskan, es mencair.",
+          "note": "[[Zero conditional]] menyatakan fakta umum."
+        },
+        {
+          "english": "If it rains tomorrow, we will stay home.",
+          "indonesian": "Jika besok hujan, kami akan tinggal di rumah.",
+          "note": "[[First conditional]] membicarakan kemungkinan nyata di masa depan."
+        },
+        {
+          "english": "If I had a bicycle, I would ride to school.",
+          "indonesian": "Jika saya punya sepeda, saya akan bersepeda ke sekolah.",
+          "note": "[[Second conditional]] menggambarkan situasi imajiner saat ini."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "If you heat ice, it melts.",
+      "parts": [
+        {
+          "english": "If you heat ice",
+          "meaning": "klausa kondisi"
+        },
+        {
+          "english": "it melts",
+          "meaning": "hasil/fakta umum"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "If you study regularly, you improve.",
+          "indonesian": "Jika kamu belajar teratur, kemampuanmu meningkat.",
+          "note": "Dua [[simple present]] menyatakan hubungan yang berlaku umum."
+        },
+        {
+          "english": "If you study tonight, you will feel more prepared.",
+          "indonesian": "Jika kamu belajar malam ini, kamu akan merasa lebih siap.",
+          "note": "[[Present]] di [[if-clause]], [[will]] di akibat untuk masa depan."
+        },
+        {
+          "english": "If you studied more, you would feel more confident.",
+          "indonesian": "Jika kamu belajar lebih giat (andaikan), kamu akan lebih percaya diri.",
+          "note": "[[Past]] + [[would]] menyatakan kemungkinan yang dibayangkan, bukan masa lampau nyata."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "If the library opens on Saturday, our group will meet there.",
+          "indonesian": "Jika perpustakaan buka pada Sabtu, kelompok kami akan bertemu di sana.",
+          "note": "Pakai [[opens]], bukan [[will]] open, setelah [[if]] untuk [[first conditional]]."
+        },
+        {
+          "english": "If the internet were more reliable, students could join online lessons more easily.",
+          "indonesian": "Jika internet lebih andal, siswa bisa lebih mudah mengikuti pelajaran daring.",
+          "note": "[[Were]] dan [[could]] menampilkan situasi hipotetis."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Zero conditional]] menjelaskan kebiasaan/fakta;[[first conditional]] membahas kemungkinan nyata.",
+        "[[Second conditional]] membahas situasi hipotetis sekarang.",
+        "Untuk [[first conditional]], [[if-clause]] umumnya memakai [[present]], bukan [[will]]."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +176,7 @@
         "arrived"
       ],
       "answer": 0,
-      "explanation": "First conditional: if + present.",
+      "explanation": "[[First conditional]]: [[if]] + [[present]].",
       "translationId": {
         "prompt": "Jika aku ___ lebih awal, aku akan meneleponmu."
       }
@@ -76,7 +190,7 @@
         "am"
       ],
       "answer": 1,
-      "explanation": "Second conditional: would + V1.",
+      "explanation": "[[Second conditional]]: [[would]] + [[V1]].",
       "translationId": {
         "prompt": "Jika aku lebih tinggi, aku ___ mencapai rak itu."
       }
@@ -90,7 +204,7 @@
         "would melted"
       ],
       "answer": 0,
-      "explanation": "Zero conditional untuk fakta umum.",
+      "explanation": "[[Zero conditional]] untuk fakta umum.",
       "translationId": {
         "prompt": "Jika es dipanaskan, es akan ___."
       }

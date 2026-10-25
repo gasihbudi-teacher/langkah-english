@@ -2,6 +2,20 @@
 
 A complete HTML5/CSS3/vanilla JavaScript application for Indonesian secondary-school learners. No account, build step, server-side code, database, or third-party runtime dependency is required. Educational content is loaded at runtime from JSON.
 
+## Version 6.0 — expanded and clearer lessons (25 October 2026)
+
+**V6 builds directly on V5.** All 45 resource IDs, 234 English-first practice questions and answer choices, Indonesian expandable quiz translations, dedicated Search page, static GitHub/Cloudflare Pages deployment, progress/backup keys and answer positions are preserved.
+
+- **240 new fully explained English examples**: all 30 lessons gain three guided example groups containing 3 beginner examples, 3 contrast/comparison examples and 2 optional longer examples. Each new example has a visible Indonesian translation and a specific Indonesian explanation. Six are displayed by default; two longer examples open in an accessible disclosure.
+- **English terminology highlighted in Indonesian educational text** with a consistently coloured/italic label, using explicit `[[English term]]` markers rather than general language detection. Example sentences remain English in separate cards, Indonesian translations and notes are labelled distinctly.
+- **30 sentence breakdowns**, **120 vocabulary definitions** (four per lesson), and **30 three-point recaps**. Reading time estimates are updated for expanded lessons.
+- **No change to any practice question or correct-answer position.** Lesson feedback retains answer selection during EN/ID interface changes and uses safe markup for highlighted terms.
+- **New V6 tests** cover all lesson expansions, escaping, language labelling, protected V5 question fingerprint and source schema; run `node tests/v6-quality.mjs` alongside existing checks.
+
+This is an **unofficial, original AI-assisted educational resource**. The new Indonesian glosses and English grammar examples need independent bilingual teacher review, and the full site still needs manual real-device and interactive browser testing before a production rollout. The authoring environment blocked Chromium navigation, so browser tests could not be completed. Deploy to a Cloudflare preview first.
+
+See `docs/V6-CHANGES.md` and `docs/V6-TEST-REPORT.md` for details and verification steps.
+
 ## Version 5.0 — English-first practice, optional Indonesian support, simple lists (25 October 2026)
 
 **This is the full site, ready to upload to a Cloudflare Pages preview (not yet deployed).** It keeps the same GitHub + Cloudflare static configuration, all 45 existing resource IDs, and the browser-local progress/backup format.

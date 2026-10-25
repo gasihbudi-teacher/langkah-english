@@ -16,7 +16,7 @@
     },
     {
       "type": "rule",
-      "text": "Pada daftar atau pola not only...but also, each unsur setara sebaiknya memakai bentuk gramatikal yang sama."
+      "text": "Pada daftar atau pola [[not only]]...[[but]] also, [[each]] unsur setara sebaiknya memakai bentuk gramatikal yang sama."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "The project involved reading, writing, and presenting.",
-      "note": "Semua unsur berbentuk gerund (-ing)."
+      "note": "Semua unsur berbentuk [[gerund]] ([[-ing]])."
     },
     {
       "type": "example",
       "text": "She is both careful and patient.",
-      "note": "Keduanya adjective."
+      "note": "Keduanya [[adjective]]."
     },
     {
       "type": "example",
       "text": "Our goal is to collect data and to explain the results.",
-      "note": "Kedua unsur infinitive."
+      "note": "Kedua unsur [[infinitive]]."
     },
     {
       "type": "subheading",
@@ -45,11 +45,125 @@
       "type": "mistake",
       "incorrect": "He likes reading, to swim, and drawing.",
       "correct": "He likes reading, swimming, and drawing.",
-      "explanation": "Gunakan bentuk -ing sejajar dalam rangkaian."
+      "explanation": "Gunakan bentuk [[-ing]] sejajar dalam rangkaian."
     },
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "both",
+          "indonesian": "keduanya"
+        },
+        {
+          "english": "either",
+          "indonesian": "salah satu"
+        },
+        {
+          "english": "not only",
+          "indonesian": "tidak hanya"
+        },
+        {
+          "english": "also",
+          "indonesian": "juga"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She likes reading, writing, and drawing.",
+          "indonesian": "Dia suka membaca, menulis, dan menggambar.",
+          "note": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
+        },
+        {
+          "english": "He is careful and patient.",
+          "indonesian": "Dia teliti dan sabar.",
+          "note": "[[Careful]] dan [[patient]] sama-sama [[adjective]]."
+        },
+        {
+          "english": "The task requires planning and teamwork.",
+          "indonesian": "Tugas itu memerlukan perencanaan dan kerja sama.",
+          "note": "[[Planning]] dan [[teamwork]] sama-sama [[noun phrase]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "She likes reading, writing, and drawing.",
+      "parts": [
+        {
+          "english": "She likes",
+          "meaning": "[[subject]] dan [[verb]] utama"
+        },
+        {
+          "english": "reading, writing, and drawing",
+          "meaning": "tiga kegiatan paralel berbentuk [[-ing]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She wants to learn and to practise.",
+          "indonesian": "Dia ingin belajar dan berlatih.",
+          "note": "Dua [[to-infinitive]] menampilkan bentuk yang setara."
+        },
+        {
+          "english": "She wants to learn and practise.",
+          "indonesian": "Dia ingin belajar dan berlatih.",
+          "note": "[[To]] dapat dipakai bersama dua [[verb]] dasar yang paralel."
+        },
+        {
+          "english": "He is not only intelligent but also hardworking.",
+          "indonesian": "Dia bukan hanya cerdas, melainkan juga rajin.",
+          "note": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The programme aims to increase reading speed, improve accuracy, and build confidence.",
+          "indonesian": "Program itu bertujuan meningkatkan kecepatan membaca, memperbaiki ketepatan, dan membangun kepercayaan diri.",
+          "note": "[[Increase]], [[improve]], dan [[build]] sejajar setelah [[aims]] [[to]]."
+        },
+        {
+          "english": "Rather than guessing quickly, students should reread the passage and examine the evidence.",
+          "indonesian": "Alih-alih menebak cepat, siswa sebaiknya membaca ulang teks dan memeriksa bukti.",
+          "note": "[[Reread]] dan [[examine]] adalah [[verb]] dasar yang sejajar setelah [[should]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Unsur yang memiliki fungsi sama sebaiknya memakai pola gramatikal sejajar.",
+        "Periksa daftar, gabungan [[and]]/[[or]], dan pola [[not only]]…[[but]] also.",
+        "Baca ulang setiap unsur untuk memastikan hubungannya tetap logis."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +176,7 @@
         "She enjoys hike, drawing, and sing."
       ],
       "answer": 1,
-      "explanation": "Semua gerund sejajar.",
+      "explanation": "Semua [[gerund]] sejajar.",
       "translationId": {
         "prompt": "Pilih daftar dengan bentuk sejajar."
       }
@@ -90,7 +204,7 @@
         "Both care and patience person"
       ],
       "answer": 1,
-      "explanation": "Careful dan patient adalah adjectives.",
+      "explanation": "Careful dan patient adalah [[adjectives]].",
       "translationId": {
         "prompt": "Pilih pasangan yang benar."
       }

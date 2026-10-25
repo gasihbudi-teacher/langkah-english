@@ -1,9 +1,9 @@
 {
   "id": "sentence-structure",
   "objectives": [
-    "Menemukan subject dan verb dalam kalimat sederhana.",
-    "Mengenali pola S–V, S–V–O, serta S–be–complement.",
-    "Menghindari kalimat tanpa verb atau susunan kata yang keliru."
+    "Menemukan [[subject]] dan [[verb]] dalam kalimat sederhana.",
+    "Mengenali pola S–V, S–V–O, serta S–[[be]]–[[complement]].",
+    "Menghindari kalimat tanpa [[verb]] atau susunan kata yang keliru."
   ],
   "blocks": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "type": "text",
-      "text": "Kalimat sederhana biasanya memiliki subject (siapa/apa yang dibicarakan) dan predicate, yang mencakup verb. Pola dasar membantu kita memahami urutan kata ketika membaca atau menulis."
+      "text": "Kalimat sederhana biasanya memiliki [[subject]] (siapa/apa yang dibicarakan) dan [[predicate]], yang mencakup [[verb]]. Pola dasar membantu kita memahami urutan kata ketika membaca atau menulis."
     },
     {
       "type": "table",
@@ -46,32 +46,32 @@
     },
     {
       "type": "subheading",
-      "text": "Bedakan object dan keterangan"
+      "text": "Bedakan [[object]] dan keterangan"
     },
     {
       "type": "text",
-      "text": "Object biasanya menerima tindakan dari verb. Pada “He opened the window”, window adalah object. Pada “He slept in the room”, in the room adalah keterangan tempat, bukan object dari slept."
+      "text": "[[Object]] biasanya menerima tindakan dari [[verb]]. Pada “[[He]] opened [[the]] window”, window adalah [[object]]. Pada “[[He]] slept [[in]] [[the]] room”, [[in]] [[the]] room adalah keterangan tempat, bukan [[object]] dari slept."
     },
     {
       "type": "rule",
-      "text": "Untuk kalimat afirmatif sederhana: Subject + Verb (+ Object/Complement/Keterangan). Bahasa Inggris umumnya tidak menggunakan urutan bebas untuk pola dasar ini."
+      "text": "Untuk kalimat afirmatif sederhana: [[Subject]] + [[Verb]] (+ [[Object]]/[[Complement]]/Keterangan). Bahasa Inggris umumnya tidak menggunakan urutan bebas untuk pola dasar ini."
     },
     {
       "type": "example",
       "text": "The students study English after school.",
-      "note": "Subject = The students; verb = study; object = English; keterangan waktu = after school."
+      "note": "[[Subject]] = [[The]] [[students]]; [[verb]] = [[study]]; [[object]] = [[English]]; keterangan waktu = [[after]] [[school]]."
     },
     {
       "type": "mistake",
       "incorrect": "My sister very kind.",
       "correct": "My sister is very kind.",
-      "explanation": "Kalimat membutuhkan verb. Di sini gunakan be (is) sebelum complement very kind."
+      "explanation": "Kalimat membutuhkan [[verb]]. Di sini gunakan [[be]] ([[is]]) sebelum [[complement]] very kind."
     },
     {
       "type": "mistake",
       "incorrect": "Every morning reads Dika a book.",
       "correct": "Dika reads a book every morning.",
-      "explanation": "Pola yang lebih alami adalah subject (Dika) + verb (reads) + object (a book) + keterangan waktu."
+      "explanation": "Pola yang lebih alami adalah [[subject]] (Dika) + [[verb]] ([[reads]]) + [[object]] (a book) + keterangan waktu."
     },
     {
       "type": "heading",
@@ -79,7 +79,121 @@
     },
     {
       "type": "text",
-      "text": "Tandai kata kerja utama lebih dulu; tanyakan siapa/apa subjeknya, kemudian periksa apakah kata setelah verb berfungsi sebagai object, pelengkap, atau keterangan."
+      "text": "Tandai kata kerja utama lebih dulu; tanyakan siapa/apa subjeknya, kemudian periksa apakah kata setelah [[verb]] berfungsi sebagai [[object]], pelengkap, atau keterangan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "subject",
+          "indonesian": "subjek"
+        },
+        {
+          "english": "verb",
+          "indonesian": "kata kerja"
+        },
+        {
+          "english": "object",
+          "indonesian": "objek"
+        },
+        {
+          "english": "clause",
+          "indonesian": "klausa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Birds sing.",
+          "indonesian": "Burung-burung bernyanyi.",
+          "note": "[[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap."
+        },
+        {
+          "english": "Mira reads books.",
+          "indonesian": "Mira membaca buku.",
+          "note": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
+        },
+        {
+          "english": "The room is quiet.",
+          "indonesian": "Ruangan itu tenang.",
+          "note": "[[Quiet]] adalah [[complement]] yang menjelaskan keadaan [[subject]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Birds sing.",
+      "parts": [
+        {
+          "english": "Birds",
+          "meaning": "[[subject]] (burung-burung)"
+        },
+        {
+          "english": "sing",
+          "meaning": "[[verb]] (bernyanyi)"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "He opened the door.",
+          "indonesian": "Dia membuka pintu.",
+          "note": "Kata [[opened]] memerlukan [[object]] [[door]] agar maknanya lebih lengkap."
+        },
+        {
+          "english": "The door opened.",
+          "indonesian": "Pintu itu terbuka.",
+          "note": "Di sini [[opened]] tidak diikuti [[object]]; perhatikan perubahan struktur."
+        },
+        {
+          "english": "We met at the station.",
+          "indonesian": "Kami bertemu di stasiun.",
+          "note": "[[At]] [[the]] [[station]] adalah keterangan tempat, bukan [[object]] langsung."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Because it rained, the match stopped.",
+          "indonesian": "Karena hujan turun, pertandingan berhenti.",
+          "note": "[[Because]] [[it]] [[rained]] adalah [[dependent clause]]; [[the]] [[match]] [[stopped]] adalah [[main clause]]."
+        },
+        {
+          "english": "The students who arrived early found seats.",
+          "indonesian": "Para siswa yang datang lebih awal mendapat tempat duduk.",
+          "note": "[[Who]] [[arrived]] [[early]] menjelaskan [[students]]; inti kalimat tetap [[the]] [[students]] [[found]] [[seats]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Kalimat lengkap biasanya memiliki [[subject]] dan [[verb]].",
+        "Cari unsur utama sebelum menafsirkan keterangan tambahan.",
+        "Klausa penghubung dapat menambahkan sebab, waktu, atau penjelasan."
+      ]
     }
   ],
   "practice": [
@@ -92,7 +206,7 @@
         "outside"
       ],
       "answer": 1,
-      "explanation": "The children adalah pelaku tindakan play.",
+      "explanation": "[[The]] children adalah pelaku tindakan play.",
       "translationId": {
         "prompt": "Tentukan subject pada kalimat “The children play outside.”"
       }
@@ -106,7 +220,7 @@
         "She likes music."
       ],
       "answer": 2,
-      "explanation": "Urutannya adalah subject (She) + verb (likes) + object (music).",
+      "explanation": "Urutannya adalah [[subject]] ([[She]]) + [[verb]] (likes) + [[object]] (music).",
       "translationId": {
         "prompt": "Pilih kalimat yang tersusun benar."
       }
@@ -120,7 +234,7 @@
         "do"
       ],
       "answer": 0,
-      "explanation": "My teacher adalah subject tunggal dan patient adalah adjective; gunakan is.",
+      "explanation": "[[My]] teacher adalah [[subject]] tunggal dan patient adalah [[adjective]]; gunakan [[is]].",
       "translationId": {
         "prompt": "Kalimat “My teacher ___ patient.” memerlukan …"
       }

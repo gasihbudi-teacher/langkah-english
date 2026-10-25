@@ -35,7 +35,7 @@ for r in resources:
     if r['type'] == 'lesson':
         assert d['objectives'] and d['blocks']
         for b in d['blocks']:
-            required = {'heading':['text'],'subheading':['text'],'text':['text'],'example':['text'],'rule':['text'],'mistake':['incorrect','correct','explanation'],'table':['headers','rows']}
+            required = {'heading':['text'],'subheading':['text'],'text':['text'],'example':['text'],'rule':['text'],'mistake':['incorrect','correct','explanation'],'table':['headers','rows'],'vocabulary':['title','items'],'example_group':['title','items','collapsed'],'breakdown':['sentence','parts'],'summary':['title','items']}
             assert b['type'] in required
             assert all(k in b for k in required[b['type']])
             if b['type']=='table':

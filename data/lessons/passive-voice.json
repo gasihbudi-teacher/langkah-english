@@ -1,7 +1,7 @@
 {
   "id": "passive-voice",
   "objectives": [
-    "Memahami dan memakai passive voice dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[passive voice]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Passive voice menekankan tindakan atau hasil, bukan pelakunya; bentuk tense tetap penting."
+      "text": "[[Passive voice]] menekankan tindakan atau hasil, bukan pelakunya; bentuk [[tense]] tetap penting."
     },
     {
       "type": "rule",
-      "text": "Subject penerima + be (sesuai tense) + V3; tambahkan by jika pelaku penting."
+      "text": "[[Subject]] penerima + [[be]] (sesuai [[tense]]) + [[V3]]; tambahkan [[by]] jika pelaku penting."
     },
     {
       "type": "subheading",
@@ -25,12 +25,12 @@
     {
       "type": "example",
       "text": "The reports are checked every Friday.",
-      "note": "Present passive — Laporan diperiksa berulang."
+      "note": "[[Present]] [[passive]] — Laporan diperiksa berulang."
     },
     {
       "type": "example",
       "text": "The bridge was repaired last year.",
-      "note": "Past passive — Perbaikan selesai pada masa lampau."
+      "note": "[[Past]] [[passive]] — Perbaikan selesai pada masa lampau."
     },
     {
       "type": "subheading",
@@ -40,11 +40,129 @@
       "type": "mistake",
       "incorrect": "The letters sent yesterday.",
       "correct": "The letters were sent yesterday.",
-      "explanation": "Pasif membutuhkan auxiliary be (were)."
+      "explanation": "Pasif membutuhkan [[auxiliary]] [[be]] ([[were]])."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "prepared",
+          "indonesian": "disiapkan"
+        },
+        {
+          "english": "built",
+          "indonesian": "dibangun"
+        },
+        {
+          "english": "stolen",
+          "indonesian": "dicuri"
+        },
+        {
+          "english": "published",
+          "indonesian": "diterbitkan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The chef prepares the meal.",
+          "indonesian": "Koki menyiapkan makanan.",
+          "note": "Kalimat aktif: [[chef]] melakukan tindakan."
+        },
+        {
+          "english": "The meal is prepared by the chef.",
+          "indonesian": "Makanan disiapkan oleh koki.",
+          "note": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
+        },
+        {
+          "english": "The windows were cleaned yesterday.",
+          "indonesian": "Jendela-jendela dibersihkan kemarin.",
+          "note": "[[Were]] + [[V3]] menunjukkan pasif lampau dengan [[subject]] jamak."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The chef prepares the meal.",
+      "parts": [
+        {
+          "english": "The chef",
+          "meaning": "pelaku/[[subject]] aktif"
+        },
+        {
+          "english": "prepares",
+          "meaning": "[[verb]] aktif"
+        },
+        {
+          "english": "the meal",
+          "meaning": "[[object]] yang dapat menjadi [[subject]] pasif"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "They build houses here.",
+          "indonesian": "Mereka membangun rumah di sini.",
+          "note": "Aktif menekankan pelaku [[they]]."
+        },
+        {
+          "english": "Houses are built here.",
+          "indonesian": "Rumah-rumah dibangun di sini.",
+          "note": "Pasif menekankan [[houses]]; [[are]] + [[built]]."
+        },
+        {
+          "english": "Someone stole my bag.",
+          "indonesian": "Seseorang mencuri tas saya.",
+          "note": "Aktif memakai [[subject]] seseorang yang tidak diketahui pasti."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "My bag was stolen while I was on the bus.",
+          "indonesian": "Tas saya dicuri ketika saya berada di bus.",
+          "note": "[[Was]] [[stolen]] cocok ketika pelaku tidak diketahui."
+        },
+        {
+          "english": "The report will be published next week after it is reviewed.",
+          "indonesian": "Laporan akan diterbitkan minggu depan setelah ditinjau.",
+          "note": "[[Will]] [[be]] [[published]] menunjukkan pasif masa depan; [[is]] [[reviewed]] pasif kini."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Kalimat pasif berfokus pada penerima tindakan.",
+        "Pola dasarnya [[be]] + [[V3]], dengan [[be]] disesuaikan waktunya.",
+        "Sebutkan pelaku dengan [[by]] jika pelaku memang perlu diketahui."
+      ]
     }
   ],
   "practice": [
@@ -57,7 +175,7 @@
         "closed"
       ],
       "answer": 1,
-      "explanation": "Pasif simple present: is + closed.",
+      "explanation": "Pasif [[simple present]]: [[is]] + closed.",
       "translationId": {
         "prompt": "Museum itu ___ setiap Senin."
       }
@@ -71,7 +189,7 @@
         "The road is repair yesterday."
       ],
       "answer": 1,
-      "explanation": "Was + repaired untuk passive lampau.",
+      "explanation": "[[Was]] + repaired untuk [[passive]] lampau.",
       "translationId": {
         "prompt": "Pilih bentuk pasif lampau."
       }
@@ -85,7 +203,7 @@
         "are collect"
       ],
       "answer": 0,
-      "explanation": "Objek berubah menjadi subjek; were + V3 sesuai past.",
+      "explanation": "Objek berubah menjadi subjek; [[were]] + [[V3]] sesuai [[past]].",
       "translationId": {
         "prompt": "Aktif: Siswa mengumpulkan sampel. Pasif: Sampel ___ oleh siswa."
       }

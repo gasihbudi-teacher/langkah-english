@@ -1,7 +1,7 @@
 {
   "id": "reduced-relative-clauses",
   "objectives": [
-    "Memendekkan beberapa relative clause tanpa mengubah hubungan makna dasar antara noun dan verb.",
+    "Memendekkan beberapa [[relative clause]] tanpa mengubah hubungan makna dasar antara [[noun]] dan [[verb]].",
     "Mengenali struktur yang tepat dari beberapa contoh.",
     "Menerapkan konsep pada latihan mandiri."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Memendekkan beberapa relative clause tanpa mengubah hubungan makna dasar antara noun dan verb."
+      "text": "Memendekkan beberapa [[relative clause]] tanpa mengubah hubungan makna dasar antara [[noun]] dan [[verb]]."
     },
     {
       "type": "rule",
-      "text": "Active relative clause → -ing phrase; passive relative clause → V3 phrase. Pengurangan tidak selalu cocok jika kehilangan informasi waktu/identitas."
+      "text": "[[Active]] [[relative clause]] → [[-ing]] [[phrase]]; [[passive]] [[relative clause]] → [[V3]] [[phrase]]. Pengurangan tidak selalu cocok jika kehilangan informasi waktu/identitas."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "Students who live nearby → Students living nearby",
-      "note": "Active: who live → living."
+      "note": "[[Active]]: [[who]] [[live]] → [[living]]."
     },
     {
       "type": "example",
       "text": "Data that were collected yesterday → Data collected yesterday",
-      "note": "Passive: that were collected → collected."
+      "note": "[[Passive]]: [[that]] [[were]] [[collected]] → [[collected]]."
     },
     {
       "type": "example",
       "text": "The report written by Mei is available.",
-      "note": "Written menerangkan report sebagai pasif."
+      "note": "[[Written]] menerangkan [[report]] sebagai pasif."
     },
     {
       "type": "subheading",
@@ -50,6 +50,124 @@
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "carrying",
+          "indonesian": "membawa"
+        },
+        {
+          "english": "donated",
+          "indonesian": "disumbangkan"
+        },
+        {
+          "english": "submitted",
+          "indonesian": "dikumpulkan"
+        },
+        {
+          "english": "waiting",
+          "indonesian": "menunggu"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The girl who is reading is my friend.",
+          "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
+          "note": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
+        },
+        {
+          "english": "The girl reading by the window is my friend.",
+          "indonesian": "Anak perempuan yang membaca di dekat jendela itu teman saya.",
+          "note": "[[Reading]] [[by]] [[the]] [[window]] adalah reduced [[active]] [[relative clause]]."
+        },
+        {
+          "english": "The books that were donated are useful.",
+          "indonesian": "Buku-buku yang disumbangkan itu bermanfaat.",
+          "note": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The girl who is reading is my friend.",
+      "parts": [
+        {
+          "english": "The girl",
+          "meaning": "[[subject]] inti"
+        },
+        {
+          "english": "who is reading",
+          "meaning": "[[relative clause]] lengkap"
+        },
+        {
+          "english": "is my friend",
+          "meaning": "predikat utama"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The books donated yesterday are useful.",
+          "indonesian": "Buku-buku yang disumbangkan kemarin itu bermanfaat.",
+          "note": "[[Donated]] [[yesterday]] adalah bentuk relatif pasif yang dipendekkan."
+        },
+        {
+          "english": "The students who are waiting outside are nervous.",
+          "indonesian": "Siswa yang sedang menunggu di luar merasa gugup.",
+          "note": "[[Who]] [[are]] [[waiting]] menunjukkan bentuk lengkap."
+        },
+        {
+          "english": "The students waiting outside are nervous.",
+          "indonesian": "Siswa yang menunggu di luar merasa gugup.",
+          "note": "[[Waiting]] [[outside]] tetap menjelaskan [[students]] tanpa [[who]] [[are]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The reports submitted before Friday will be reviewed first.",
+          "indonesian": "Laporan yang dikumpulkan sebelum Jumat akan ditinjau lebih dahulu.",
+          "note": "[[Submitted]] adalah bentuk [[V3]] pasif yang menerangkan [[reports]]."
+        },
+        {
+          "english": "The volunteers carrying water bottles walked toward the crowded hall.",
+          "indonesian": "Para relawan yang membawa botol air berjalan menuju aula yang ramai.",
+          "note": "[[Carrying]] [[water]] [[bottles]] menerangkan [[volunteers]] sebagai pelaku."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Klausa relatif aktif sering dapat dipendekkan menjadi [[-ing]].",
+        "Klausa relatif pasif sering dapat dipendekkan menjadi [[V3]].",
+        "Pastikan frasa hasil pemendekan tetap menerangkan [[noun]] yang benar."
+      ]
     }
   ],
   "practice": [
@@ -76,7 +194,7 @@
         "People wait outside because"
       ],
       "answer": 0,
-      "explanation": "People who are waiting outside → people waiting outside.",
+      "explanation": "People [[who]] [[are]] waiting outside → people waiting outside.",
       "translationId": {
         "prompt": "Pilih bentuk reduced clause aktif."
       }

@@ -1,8 +1,8 @@
 {
   "id": "present-continuous",
   "objectives": [
-    "Mengenali fungsi present continuous dalam konteks.",
-    "Menyusun am/is/are + verb-ing secara tepat.",
+    "Mengenali fungsi [[present continuous]] dalam konteks.",
+    "Menyusun [[am]]/[[is]]/[[are]] + [[verb-ing]] secara tepat.",
     "Membedakan kegiatan sekarang dan kebiasaan yang berulang."
   ],
   "blocks": [
@@ -12,7 +12,7 @@
     },
     {
       "type": "text",
-      "text": "Present continuous biasanya menjelaskan kegiatan yang berlangsung saat berbicara atau situasi sementara di sekitar waktu sekarang. Bandingkan “She studies every evening” (kebiasaan) dengan “She is studying now” (sedang berlangsung)."
+      "text": "[[Present continuous]] biasanya menjelaskan kegiatan yang berlangsung saat berbicara atau situasi sementara di sekitar waktu sekarang. Bandingkan “[[She]] [[studies]] every evening” (kebiasaan) dengan “[[She]] [[is]] studying [[now]]” (sedang berlangsung)."
     },
     {
       "type": "table",
@@ -45,11 +45,11 @@
     },
     {
       "type": "text",
-      "text": "Untuk menyangkal, tambahkan not setelah be: He is not sleeping. Untuk bertanya, pindahkan be ke depan subject: Are they sleeping? Jangan memakai do/does pada pola present continuous."
+      "text": "Untuk menyangkal, tambahkan [[not]] setelah [[be]]: [[He]] [[is]] [[not]] sleeping. Untuk bertanya, pindahkan [[be]] ke depan [[subject]]: [[Are]] [[they]] sleeping? Jangan memakai [[do/does]] pada pola [[present continuous]]."
     },
     {
       "type": "rule",
-      "text": "Subject + am/is/are + verb-ing. Negatif: be + not + verb-ing. Pertanyaan: Am/Is/Are + subject + verb-ing?"
+      "text": "[[Subject]] + [[am]]/[[is]]/[[are]] + [[verb-ing]]. Negatif: [[be]] + [[not]] + [[verb-ing]]. Pertanyaan: [[Am]]/[[Is]]/[[Are]] + [[subject]] + [[verb-ing]]?"
     },
     {
       "type": "subheading",
@@ -57,32 +57,154 @@
     },
     {
       "type": "text",
-      "text": "Read → reading; make → making (hilangkan e); run → running (gandakan konsonan untuk pola tertentu); lie → lying. Perhatikan juga beberapa stative verbs seperti know atau believe yang umumnya tidak digunakan dalam bentuk continuous saat menyatakan keadaan."
+      "text": "[[Read]] → reading; make → making (hilangkan e); run → running (gandakan konsonan untuk pola tertentu); lie → lying. Perhatikan juga beberapa stative [[verbs]] seperti know atau believe yang umumnya tidak digunakan dalam bentuk [[continuous]] saat menyatakan keadaan."
     },
     {
       "type": "example",
       "text": "Look! The students are planting trees. Their teacher is taking photos.",
-      "note": "Look! memberikan petunjuk bahwa kegiatan sedang terjadi. Are dipakai dengan students dan is dengan teacher."
+      "note": "[[Look]]! memberikan petunjuk bahwa kegiatan sedang terjadi. [[Are]] dipakai dengan [[students]] dan [[is]] dengan [[teacher]]."
     },
     {
       "type": "mistake",
       "incorrect": "She studying now.",
       "correct": "She is studying now.",
-      "explanation": "Present continuous memerlukan bentuk be sebelum verb-ing."
+      "explanation": "[[Present continuous]] memerlukan bentuk [[be]] sebelum [[verb-ing]]."
     },
     {
       "type": "mistake",
       "incorrect": "They are play football.",
       "correct": "They are playing football.",
-      "explanation": "Setelah are, gunakan bentuk verb-ing: playing."
+      "explanation": "Setelah [[are]], gunakan bentuk [[verb-ing]]: playing."
     },
     {
       "type": "heading",
-      "text": "Bandingkan dengan simple present"
+      "text": "Bandingkan dengan [[simple present]]"
     },
     {
       "type": "text",
-      "text": "“He walks to school every day” menunjukkan rutinitas. “He is walking to school now” menunjukkan tindakan yang sedang berlangsung. Pilih berdasarkan makna kalimat."
+      "text": "“[[He]] walks [[to]] school [[every day]]” menunjukkan rutinitas. “[[He]] [[is]] walking [[to]] school [[now]]” menunjukkan tindakan yang sedang berlangsung. Pilih berdasarkan makna kalimat."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "currently",
+          "indonesian": "saat ini"
+        },
+        {
+          "english": "temporary",
+          "indonesian": "sementara"
+        },
+        {
+          "english": "now",
+          "indonesian": "sekarang"
+        },
+        {
+          "english": "waiting",
+          "indonesian": "sedang menunggu"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I am reading a story now.",
+          "indonesian": "Saya sedang membaca cerita sekarang.",
+          "note": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini."
+        },
+        {
+          "english": "He is drawing a map.",
+          "indonesian": "Dia sedang menggambar peta.",
+          "note": "[[He]] memakai [[is]] + [[drawing]]."
+        },
+        {
+          "english": "They are waiting outside.",
+          "indonesian": "Mereka sedang menunggu di luar.",
+          "note": "[[They]] memakai [[are]] + [[waiting]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I am reading a story now.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "am reading",
+          "meaning": "[[am]] + [[verb-ing]]"
+        },
+        {
+          "english": "a story",
+          "meaning": "[[object]]"
+        },
+        {
+          "english": "now",
+          "meaning": "waktu sekarang"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She usually walks, but today she is cycling.",
+          "indonesian": "Biasanya dia berjalan kaki, tetapi hari ini dia sedang bersepeda.",
+          "note": "[[Walks]] menunjukkan kebiasaan; [[is]] [[cycling]] menunjukkan kegiatan sementara."
+        },
+        {
+          "english": "Do they study every day?",
+          "indonesian": "Apakah mereka belajar setiap hari?",
+          "note": "[[Do]] + [[verb]] dasar menanyakan rutinitas, bukan kegiatan saat ini."
+        },
+        {
+          "english": "Are they studying right now?",
+          "indonesian": "Apakah mereka sedang belajar sekarang?",
+          "note": "[[Are]] + [[verb-ing]] menanyakan kegiatan yang sedang berlangsung."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The library is closing early this week because workers are repairing its roof.",
+          "indonesian": "Perpustakaan tutup lebih awal minggu ini karena para pekerja sedang memperbaiki atapnya.",
+          "note": "[[Is]] [[closing]] dan [[are]] [[repairing]] menjelaskan situasi sementara."
+        },
+        {
+          "english": "Look! The children are crossing the street while the guard is watching them.",
+          "indonesian": "Lihat! Anak-anak sedang menyeberang jalan sementara petugas menjaga mereka.",
+          "note": "Dua tindakan berlangsung bersamaan; gunakan bentuk [[continuous]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Pola dasar adalah [[am]]/[[is]]/[[are]] + [[verb-ing]].",
+        "Gunakan untuk kegiatan yang sedang berlangsung atau sementara.",
+        "Bandingkan dengan [[simple present]] untuk kebiasaan."
+      ]
     }
   ],
   "practice": [
@@ -95,7 +217,7 @@
         "run"
       ],
       "answer": 1,
-      "explanation": "Look! menunjukkan aktivitas saat ini; dog tunggal memakai is running.",
+      "explanation": "Look! menunjukkan aktivitas saat ini; dog tunggal memakai [[is]] running.",
       "translationId": {
         "prompt": "Lihat! Anjing itu ___ di halaman."
       }
@@ -109,7 +231,7 @@
         "do"
       ],
       "answer": 0,
-      "explanation": "They berpasangan dengan are.",
+      "explanation": "[[They]] berpasangan dengan [[are]].",
       "translationId": {
         "prompt": "Mereka ___ sedang mendengarkan musik sekarang."
       }
@@ -123,7 +245,7 @@
         "I not am sleeping."
       ],
       "answer": 0,
-      "explanation": "Negatif present continuous menempatkan not setelah am.",
+      "explanation": "Negatif [[present continuous]] menempatkan [[not]] setelah [[am]].",
       "translationId": {
         "prompt": "Pilih kalimat negatif yang benar."
       }

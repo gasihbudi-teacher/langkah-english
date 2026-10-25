@@ -1,7 +1,7 @@
 {
   "id": "advanced-grammar-analysis",
   "objectives": [
-    "Menganalisis fungsi klausa, pilihan tenses, serta pembatas klaim dalam kalimat akademik kompleks.",
+    "Menganalisis fungsi klausa, pilihan [[tenses]], serta pembatas klaim dalam kalimat akademik kompleks.",
     "Mengenali struktur yang tepat dari beberapa contoh.",
     "Menerapkan konsep pada latihan mandiri."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Menganalisis fungsi klausa, pilihan tenses, serta pembatas klaim dalam kalimat akademik kompleks."
+      "text": "Menganalisis fungsi klausa, pilihan [[tenses]], serta pembatas klaim dalam kalimat akademik kompleks."
     },
     {
       "type": "rule",
-      "text": "Identifikasi main clause, dependent clause, modifier, dan cakupan negasi sebelum menerjemahkan. Penghubung “although”, “because”, dan “unless” memiliki hubungan makna berbeda."
+      "text": "Identifikasi [[main clause]], [[dependent clause]], [[modifier]], dan cakupan negasi sebelum menerjemahkan. Penghubung “[[although]]”, “[[because]]”, dan “[[unless]]” memiliki hubungan makna berbeda."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "Although the sample was small, the pattern was consistent.",
-      "note": "Although mengakui keterbatasan tetapi hasil tetap konsisten."
+      "note": "[[Although]] mengakui keterbatasan tetapi hasil tetap konsisten."
     },
     {
       "type": "example",
       "text": "The findings, which were reviewed independently, suggest a trend.",
-      "note": "Relative clause non-defining memberikan keterangan tambahan."
+      "note": "[[Relative clause]] [[non-defining]] memberikan keterangan tambahan."
     },
     {
       "type": "example",
       "text": "Unless conditions change, the plan will remain in place.",
-      "note": "Unless = if not, yaitu kecuali jika kondisi berubah."
+      "note": "[[Unless]] = [[if]] [[not]], yaitu kecuali jika kondisi berubah."
     },
     {
       "type": "subheading",
@@ -45,11 +45,129 @@
       "type": "mistake",
       "incorrect": "Despite the findings were limited, we reported them.",
       "correct": "Although the findings were limited, we reported them.",
-      "explanation": "Despite + noun phrase; although + clause."
+      "explanation": "[[Despite]] + [[noun phrase]]; [[although]] + [[clause]]."
     },
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "scope",
+          "indonesian": "cakupan"
+        },
+        {
+          "english": "modifier",
+          "indonesian": "pewatas"
+        },
+        {
+          "english": "only",
+          "indonesian": "hanya"
+        },
+        {
+          "english": "not all",
+          "indonesian": "tidak semuanya"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The boy who waved is my cousin.",
+          "indonesian": "Anak laki-laki yang melambaikan tangan itu sepupu saya.",
+          "note": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]."
+        },
+        {
+          "english": "Only Sara read the article.",
+          "indonesian": "Hanya Sara yang membaca artikel itu.",
+          "note": "[[Only]] membatasi pelaku yang melakukan tindakan."
+        },
+        {
+          "english": "Sara only read the article.",
+          "indonesian": "Sara hanya membaca artikel itu.",
+          "note": "[[Only]] membatasi tindakan; mungkin [[Sara]] tidak merangkum atau membahasnya."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The boy who waved is my cousin.",
+      "parts": [
+        {
+          "english": "The boy",
+          "meaning": "[[subject]] inti"
+        },
+        {
+          "english": "who waved",
+          "meaning": "penjelas untuk boy"
+        },
+        {
+          "english": "is my cousin",
+          "meaning": "predikat utama"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The teacher said the test was easy.",
+          "indonesian": "Guru mengatakan bahwa tes itu mudah.",
+          "note": "[[The]] [[test]] [[was]] [[easy]] adalah klausa isi dari [[said]]."
+        },
+        {
+          "english": "The teacher, who was smiling, said the test was easy.",
+          "indonesian": "Guru, yang sedang tersenyum, mengatakan bahwa tes itu mudah.",
+          "note": "[[Who]] [[was]] [[smiling]] adalah sisipan; inti pesan tetap [[teacher]] [[said]]."
+        },
+        {
+          "english": "Not all students agreed.",
+          "indonesian": "Tidak semua siswa setuju.",
+          "note": "[[Not]] [[all]] berarti sebagian mungkin tidak setuju; bukan semua menolak."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The article that the class discussed yesterday was revised after the editor checked its sources.",
+          "indonesian": "Artikel yang dibahas kelas kemarin direvisi setelah editor memeriksa sumbernya.",
+          "note": "Cari [[subject]] utama [[the]] [[article]] dan [[verb]] utama [[was]] [[revised]]."
+        },
+        {
+          "english": "Although the proposal seems affordable, the committee has not explained how maintenance costs will be covered.",
+          "indonesian": "Walaupun usulan itu tampak terjangkau, komite belum menjelaskan bagaimana biaya perawatannya akan ditanggung.",
+          "note": "[[Although]] membatasi klaim; [[has]] [[not]] [[explained]] menegaskan kekurangan bukti."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Cari [[subject]] utama dan [[verb]] utama sebelum membaca [[modifier]] panjang.",
+        "Perhatikan cakupan only/[[not]] karena posisi kata mengubah makna.",
+        "Simpulan yang tepat harus mengikuti bukti dan batasan dalam kalimat."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +180,7 @@
         "The road opened because the trip was postponed."
       ],
       "answer": 0,
-      "explanation": "Unless means if not.",
+      "explanation": "[[Unless]] means [[if]] [[not]].",
       "translationId": {
         "prompt": "“Unless the road reopens, we will delay the trip.” Artinya …",
         "choices": [
@@ -81,7 +199,7 @@
         "suggest a trend"
       ],
       "answer": 0,
-      "explanation": "Relative clause memberi informasi tambahan.",
+      "explanation": "[[Relative clause]] memberi informasi tambahan.",
       "translationId": {
         "prompt": "“The findings, which were reviewed, suggest a trend.” Bagian mana berfungsi sebagai keterangan tambahan?"
       }
@@ -95,7 +213,7 @@
         "Because of data were limited, the cautious."
       ],
       "answer": 0,
-      "explanation": "Although disusul klausa lengkap dan klausa utama.",
+      "explanation": "[[Although]] disusul klausa lengkap dan klausa utama.",
       "translationId": {
         "prompt": "Pilih kalimat dengan kontras yang secara tata bahasa benar."
       }

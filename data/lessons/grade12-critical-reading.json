@@ -25,11 +25,129 @@
     },
     {
       "type": "text",
-      "text": "Tanya: siapa yang diukur? apa yang sebenarnya ditanya? ada faktor lain? adakah bahasa yang terlalu pasti seperti always, all, atau proves?"
+      "text": "Tanya: siapa yang diukur? apa yang sebenarnya ditanya? ada faktor lain? adakah bahasa yang terlalu pasti seperti [[always]], [[all]], atau [[proves]]?"
     },
     {
       "type": "rule",
       "text": "Kesimpulan yang baik tidak lebih luas daripada bukti. Ganti “semua siswa” dengan “sebagian responden” jika sampel tidak representatif."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "sample",
+          "indonesian": "sampel"
+        },
+        {
+          "english": "respondent",
+          "indonesian": "responden"
+        },
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "bias",
+          "indonesian": "keberpihakan sistematis"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Twenty students answered the survey.",
+          "indonesian": "Dua puluh siswa menjawab survei.",
+          "note": "Kenali ukuran sampel, bukan hanya hasilnya."
+        },
+        {
+          "english": "Fifteen preferred the new schedule.",
+          "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
+          "note": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+        },
+        {
+          "english": "The results suggest interest among respondents.",
+          "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
+          "note": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Twenty students answered the survey.",
+      "parts": [
+        {
+          "english": "Twenty students",
+          "meaning": "ukuran sampel"
+        },
+        {
+          "english": "answered",
+          "meaning": "aktivitas yang dilaporkan"
+        },
+        {
+          "english": "the survey",
+          "meaning": "instrumen pengumpulan data"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "All students love the new schedule.",
+          "indonesian": "Semua siswa menyukai jadwal baru.",
+          "note": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil."
+        },
+        {
+          "english": "Most surveyed students preferred the new schedule.",
+          "indonesian": "Sebagian besar siswa yang disurvei lebih menyukai jadwal baru.",
+          "note": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh."
+        },
+        {
+          "english": "The new schedule caused better grades.",
+          "indonesian": "Jadwal baru menyebabkan nilai lebih baik.",
+          "note": "Kata [[caused]] membutuhkan bukti sebab-akibat, bukan sekadar kebersamaan waktu."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Attendance rose after the school changed its timetable, but the report did not compare other possible causes.",
+          "indonesian": "Kehadiran naik setelah sekolah mengubah jadwal, tetapi laporan tidak membandingkan kemungkinan penyebab lain.",
+          "note": "Kenaikan setelah perubahan tidak cukup untuk membuktikan sebab tunggal."
+        },
+        {
+          "english": "The author cites responses from five volunteers and concludes that those volunteers valued the new library hours.",
+          "indonesian": "Penulis mengutip tanggapan lima relawan dan menyimpulkan bahwa mereka menghargai jam buka perpustakaan yang baru.",
+          "note": "Kesimpulan dibatasi pada responden sehingga tidak menggeneralisasi berlebihan."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Pisahkan klaim, bukti, sampel, dan kesimpulan.",
+        "Jangan menyamakan urutan dua kejadian dengan hubungan sebab-akibat.",
+        "Hindari generalisasi dari sampel kecil menjadi pernyataan tentang semua orang."
+      ]
     }
   ],
   "practice": [
@@ -80,7 +198,7 @@
         "always"
       ],
       "answer": 2,
-      "explanation": "Always menyatakan tanpa pengecualian.",
+      "explanation": "[[Always]] menyatakan tanpa pengecualian.",
       "translationId": {
         "prompt": "Kata mana menandakan kepastian yang berlebihan?"
       }

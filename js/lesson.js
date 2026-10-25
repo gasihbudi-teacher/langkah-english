@@ -1,4 +1,4 @@
-import {resource,params,esc,blocks,link,progress,error} from './core.js';
+import {resource,params,esc,blocks,formatIdText,link,progress,error} from './core.js';
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
 initI18n();
@@ -19,8 +19,9 @@ try{
     document.querySelector('#content').innerHTML=`<article class="reading">
     <a href="${({grammar:"grammar.html",utbk:"utbk.html",school:"school.html"})[m.placements[0].pathway]}" class="page-back">← ${t('backPath')}</a>
     <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div></div>
-    <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></section>
+    <section class="panel objectives-panel"><h2>${t('objectives')}</h2><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></section>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
+    <p class="language-legend" lang="id">Istilah bahasa Inggris, seperti ${formatIdText("[[verb]]")}, ditandai dengan warna khusus. Contoh kalimat bahasa Inggris ditampilkan terpisah dari arti dan penjelasannya dalam bahasa Indonesia.</p>
     <div class="article-body">${blocks(d.blocks)}</div>
     <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><div id="practice"></div></section>
     <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ↗</a></p>`).join('')}
@@ -32,7 +33,7 @@ try{
     const target=document.querySelector('#practice');
     if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
     (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3>${translationDetails(q)}<div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="${practiceAnswers.get(q.id)===n}">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;
-      const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);if(!feedback.hidden)feedback.textContent=(value===q.answer?t('correct'):t('notQuite'))+' '+q.explanation};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
+      const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);if(!feedback.hidden)feedback.innerHTML='<strong>'+esc(value===q.answer?t('correct'):t('notQuite'))+'</strong> '+formatIdText(q.explanation)};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
     const completion=document.querySelector('#completion');function status(){if(progress.read().lessons?.[m.id])completion.textContent=t('alreadyComplete');else completion.textContent=''}status();document.querySelector('#complete').onclick=()=>{if(!progress.read().lessons?.[m.id])progress.complete(m.id,m.title);completion.textContent=t('justComplete')};
   }
   render();onLanguageChange(render);

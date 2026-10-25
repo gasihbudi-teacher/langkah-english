@@ -1,7 +1,7 @@
 {
   "id": "gerunds-infinitives",
   "objectives": [
-    "Memahami dan memakai gerunds and infinitives dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[gerunds and infinitives]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Sebagian verb diikuti -ing, sebagian diikuti to + V1; pilihan juga dapat mengubah makna."
+      "text": "Sebagian [[verb]] diikuti [[-ing]], sebagian diikuti [[to]] + [[V1]]; pilihan juga dapat mengubah makna."
     },
     {
       "type": "rule",
-      "text": "Enjoy + V-ing; decide + to-infinitive; preposition + V-ing."
+      "text": "Enjoy + V-ing; decide + [[to-infinitive]]; [[preposition]] + V-ing."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "They enjoy reading short stories.",
-      "note": "Gerund — Enjoy + -ing."
+      "note": "[[Gerund]] — [[Enjoy]] + [[-ing]]."
     },
     {
       "type": "example",
       "text": "She decided to apply.",
-      "note": "Infinitive — Decide + to + base form."
+      "note": "[[Infinitive]] — Decide + [[to]] + base form."
     },
     {
       "type": "example",
       "text": "He is interested in learning.",
-      "note": "Preposition — Setelah in, -ing berfungsi sebagai noun."
+      "note": "[[Preposition]] — Setelah [[in]], [[-ing]] berfungsi sebagai [[noun]]."
     },
     {
       "type": "subheading",
@@ -45,11 +45,129 @@
       "type": "mistake",
       "incorrect": "We decided going home.",
       "correct": "We decided to go home.",
-      "explanation": "Decide biasa diikuti to-infinitive."
+      "explanation": "Decide biasa diikuti [[to-infinitive]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "enjoy",
+          "indonesian": "menikmati"
+        },
+        {
+          "english": "decide",
+          "indonesian": "memutuskan"
+        },
+        {
+          "english": "remember",
+          "indonesian": "mengingat"
+        },
+        {
+          "english": "avoid",
+          "indonesian": "menghindari"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I enjoy reading.",
+          "indonesian": "Saya menikmati membaca.",
+          "note": "[[Enjoy]] diikuti bentuk [[verb-ing]]."
+        },
+        {
+          "english": "She decided to leave.",
+          "indonesian": "Dia memutuskan untuk pergi.",
+          "note": "Decide diikuti [[to]] + [[verb]] dasar."
+        },
+        {
+          "english": "They are good at swimming.",
+          "indonesian": "Mereka pandai berenang.",
+          "note": "Setelah [[preposition]] [[at]], gunakan [[verb-ing]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I enjoy reading.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "enjoy",
+          "meaning": "[[verb]] utama"
+        },
+        {
+          "english": "reading",
+          "meaning": "[[gerund]] sebagai [[object]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "He stopped smoking.",
+          "indonesian": "Dia berhenti merokok.",
+          "note": "Stop + [[-ing]] berarti menghentikan kegiatan."
+        },
+        {
+          "english": "He stopped to smoke.",
+          "indonesian": "Dia berhenti sejenak untuk merokok.",
+          "note": "Stop + [[to-infinitive]] berarti berhenti melakukan hal lain dengan tujuan merokok."
+        },
+        {
+          "english": "Remember to lock the door.",
+          "indonesian": "Ingatlah untuk mengunci pintu.",
+          "note": "[[Remember]] + [[to-infinitive]] menekankan tindakan yang harus dilakukan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Students practise summarising short articles before attempting long texts.",
+          "indonesian": "Siswa berlatih merangkum artikel pendek sebelum mencoba teks panjang.",
+          "note": "[[Practise]] dan [[before]] diikuti bentuk [[-ing]]."
+        },
+        {
+          "english": "The team hopes to finish the project without working late.",
+          "indonesian": "Tim berharap menyelesaikan proyek tanpa bekerja hingga larut.",
+          "note": "[[Hopes]] + [[to-infinitive]], sedangkan [[without]] + [[-ing]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Sejumlah [[verb]] diikuti [[-ing]], sedangkan lainnya diikuti [[to]] + [[verb]] dasar.",
+        "Setelah [[preposition]] umumnya gunakan [[-ing]].",
+        "Perhatikan pasangan seperti stop + [[-ing]] dan stop + [[to]] karena maknanya berbeda."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +180,7 @@
         "to learning"
       ],
       "answer": 1,
-      "explanation": "Enjoy + gerund.",
+      "explanation": "Enjoy + [[gerund]].",
       "translationId": {
         "prompt": "Aku suka ___ kata-kata baru."
       }
@@ -76,7 +194,7 @@
         "to visit"
       ],
       "answer": 2,
-      "explanation": "Plan + to-infinitive.",
+      "explanation": "Plan + [[to-infinitive]].",
       "translationId": {
         "prompt": "Kami berencana ___ museum pada hari Jumat."
       }
@@ -90,7 +208,7 @@
         "to find"
       ],
       "answer": 1,
-      "explanation": "At (preposition) + V-ing.",
+      "explanation": "[[At]] ([[preposition]]) + V-ing.",
       "translationId": {
         "prompt": "Dia pandai ___ bukti."
       }

@@ -1,7 +1,7 @@
 {
   "id": "grade9-narrative",
   "objectives": [
-    "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text.",
+    "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam [[narrative text]].",
     "Mengenali struktur yang tepat dari beberapa contoh.",
     "Menerapkan konsep pada latihan mandiri."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text."
+      "text": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam [[narrative text]]."
     },
     {
       "type": "rule",
-      "text": "Orientation memperkenalkan tokoh dan latar; complication menunjukkan masalah; resolution menjelaskan bagaimana masalah dihadapi."
+      "text": "[[Orientation]] memperkenalkan tokoh dan latar; [[complication]] menunjukkan masalah; [[resolution]] menjelaskan bagaimana masalah dihadapi."
     },
     {
       "type": "subheading",
@@ -25,7 +25,7 @@
     {
       "type": "example",
       "text": "Lala lost the map. She asked a shopkeeper for directions. At last, she found the station.",
-      "note": "Complication: lost the map; resolution: found the station."
+      "note": "[[Complication]]: [[lost]] [[the]] [[map]]; [[resolution]]: [[found]] [[the]] [[station]]."
     },
     {
       "type": "example",
@@ -45,6 +45,120 @@
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "character",
+          "indonesian": "tokoh"
+        },
+        {
+          "english": "problem",
+          "indonesian": "masalah"
+        },
+        {
+          "english": "finally",
+          "indonesian": "akhirnya"
+        },
+        {
+          "english": "solution",
+          "indonesian": "penyelesaian"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "A boy lost his key.",
+          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
+          "note": "Kehilangan kunci memperkenalkan masalah cerita."
+        },
+        {
+          "english": "He searched under the table.",
+          "indonesian": "Dia mencari di bawah meja.",
+          "note": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
+        },
+        {
+          "english": "His sister found it in a bag.",
+          "indonesian": "Saudara perempuannya menemukan kunci itu di tas.",
+          "note": "Penemuan kunci menjadi penyelesaian."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "A boy lost his key.",
+      "parts": [
+        {
+          "english": "A boy",
+          "meaning": "tokoh"
+        },
+        {
+          "english": "lost his key",
+          "meaning": "masalah awal cerita"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "At first, Deni was afraid to ask for help.",
+          "indonesian": "Awalnya, Deni takut meminta bantuan.",
+          "note": "[[At]] [[first]] memperkenalkan keadaan awal tokoh."
+        },
+        {
+          "english": "Later, he asked his neighbour.",
+          "indonesian": "Kemudian, dia bertanya kepada tetangganya.",
+          "note": "[[Later]] menandai tahap berikutnya."
+        },
+        {
+          "english": "Finally, he reached home safely.",
+          "indonesian": "Akhirnya, dia sampai rumah dengan selamat.",
+          "note": "[[Finally]] menandai akhir rangkaian peristiwa."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Maya missed the bus, so she walked to school and arrived after the bell rang.",
+          "indonesian": "Maya ketinggalan bus, sehingga berjalan ke sekolah dan tiba setelah bel berbunyi.",
+          "note": "Urutan sebab dan akibat membentuk alur sederhana."
+        },
+        {
+          "english": "Although his first attempt failed, Arif tried again and solved the puzzle.",
+          "indonesian": "Walaupun usaha pertamanya gagal, Arif mencoba lagi dan memecahkan teka-teki.",
+          "note": "Perubahan dari masalah ke resolusi mendukung pesan tentang ketekunan."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Narrative memiliki tokoh, masalah, dan penyelesaian.",
+        "Penanda urutan seperti [[at]] [[first]], later, finally membantu mengikuti alur.",
+        "Pesan cerita perlu didukung peristiwa yang benar-benar terjadi."
+      ]
     }
   ],
   "practice": [

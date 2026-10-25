@@ -1,7 +1,7 @@
 {
   "id": "complex-sentences",
   "objectives": [
-    "Memahami dan memakai complex sentence structures dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[complex sentence]] structures dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Complex sentences menghubungkan klausa utama dan subordinat. Pelajari fungsi sebab, kontras, dan syarat agar argumen terbaca jelas."
+      "text": "[[Complex sentences]] menghubungkan klausa utama dan subordinat. Pelajari fungsi sebab, kontras, dan syarat agar argumen terbaca jelas."
     },
     {
       "type": "rule",
-      "text": "Although + clause, main clause; because + clause, main clause; despite + noun/V-ing (bukan full clause)."
+      "text": "[[Although]] + [[clause]], [[main clause]]; [[because]] + [[clause]], [[main clause]]; [[despite]] + [[noun]]/V-ing (bukan full [[clause]])."
     },
     {
       "type": "subheading",
@@ -30,12 +30,12 @@
     {
       "type": "example",
       "text": "We delayed the trip because the road was closed.",
-      "note": "Cause — Because menghubungkan dua klausa."
+      "note": "Cause — [[Because]] menghubungkan dua klausa."
     },
     {
       "type": "example",
       "text": "Despite the rain, the match continued.",
-      "note": "Concession — Despite diikuti frasa noun."
+      "note": "Concession — [[Despite]] diikuti frasa [[noun]]."
     },
     {
       "type": "subheading",
@@ -45,11 +45,125 @@
       "type": "mistake",
       "incorrect": "Despite it rained, we walked.",
       "correct": "Although it rained, we walked.",
-      "explanation": "Despite tidak langsung diikuti klausa subject + verb."
+      "explanation": "[[Despite]] tidak langsung diikuti klausa [[subject]] + [[verb]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "although",
+          "indonesian": "meskipun"
+        },
+        {
+          "english": "because",
+          "indonesian": "karena"
+        },
+        {
+          "english": "despite",
+          "indonesian": "walaupun"
+        },
+        {
+          "english": "until",
+          "indonesian": "hingga"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I stayed inside because it rained.",
+          "indonesian": "Saya tetap di dalam karena hujan.",
+          "note": "[[Because]] memperkenalkan alasan dalam [[dependent clause]]."
+        },
+        {
+          "english": "Although she was tired, she studied.",
+          "indonesian": "Walaupun lelah, dia tetap belajar.",
+          "note": "[[Although]] memperkenalkan kontras antara dua klausa."
+        },
+        {
+          "english": "We waited until the bell rang.",
+          "indonesian": "Kami menunggu hingga bel berbunyi.",
+          "note": "[[Until]] memperkenalkan batas waktu."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I stayed inside because it rained.",
+      "parts": [
+        {
+          "english": "I stayed inside",
+          "meaning": "[[main clause]]"
+        },
+        {
+          "english": "because it rained",
+          "meaning": "[[dependent clause]] yang menjelaskan alasan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Because the road was closed, we took a different route.",
+          "indonesian": "Karena jalan ditutup, kami mengambil rute lain.",
+          "note": "[[Dependent clause]] di depan biasanya diikuti koma."
+        },
+        {
+          "english": "We took a different route because the road was closed.",
+          "indonesian": "Kami mengambil rute lain karena jalan ditutup.",
+          "note": "[[Dependent clause]] sesudah [[main clause]] umumnya tidak membutuhkan koma."
+        },
+        {
+          "english": "Despite the rain, the match continued.",
+          "indonesian": "Walaupun hujan, pertandingan berlanjut.",
+          "note": "[[Despite]] diikuti [[noun phrase]], bukan klausa lengkap."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the survey included many students, it did not represent every school in the city.",
+          "indonesian": "Walaupun survei mencakup banyak siswa, survei itu tidak mewakili semua sekolah di kota.",
+          "note": "[[Although]] menunjukkan batasan penting terhadap temuan."
+        },
+        {
+          "english": "The volunteers continued working because the shelter still needed supplies, even though the roads were flooded.",
+          "indonesian": "Relawan terus bekerja karena penampungan masih membutuhkan persediaan, meskipun jalanan banjir.",
+          "note": "Satu kalimat dapat memuat alasan dan kontras sekaligus."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Main clause]] dapat berdiri sendiri;[[dependent clause]] menambah hubungan makna.",
+        "[[Because]] menyatakan alasan, [[although]] menyatakan kontras.",
+        "[[Despite]] diikuti [[noun]] atau [[-ing]], bukan klausa penuh tanpa perubahan."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +176,7 @@
         "Because of"
       ],
       "answer": 1,
-      "explanation": "Although diikuti klausa lengkap.",
+      "explanation": "[[Although]] diikuti klausa lengkap.",
       "translationId": {
         "prompt": "___ datanya terbatas, tim itu menerbitkan laporan yang berhati-hati."
       }
@@ -76,7 +190,7 @@
         "The report because late."
       ],
       "answer": 1,
-      "explanation": "Dependent clause memerlukan main clause.",
+      "explanation": "[[Dependent clause]] memerlukan [[main clause]].",
       "translationId": {
         "prompt": "Pilih kalimat yang lengkap.",
         "choices": [
@@ -95,7 +209,7 @@
         "Because"
       ],
       "answer": 0,
-      "explanation": "Despite + noun phrase the noise.",
+      "explanation": "[[Despite]] + [[noun phrase]] [[the]] noise.",
       "translationId": {
         "prompt": "___ kebisingan itu, dia tetap bisa berkonsentrasi."
       }

@@ -12,12 +12,12 @@
     },
     {
       "type": "text",
-      "text": "Descriptive text membantu pembaca membayangkan orang, tempat, atau benda tertentu. Biasanya teks mengenalkan objek lebih dulu, kemudian menjelaskan cirinya. Teks ini berbeda dari narrative text yang menceritakan rangkaian kejadian atau konflik."
+      "text": "[[Descriptive text]] membantu pembaca membayangkan orang, tempat, atau benda tertentu. Biasanya teks mengenalkan objek lebih dulu, kemudian menjelaskan cirinya. Teks ini berbeda dari [[narrative text]] yang menceritakan rangkaian kejadian atau konflik."
     },
     {
       "type": "example",
       "text": "Our school garden is a quiet space behind the science room. A narrow path runs between pots of herbs. Two wooden benches stand beside a mango tree. During breaks, students sit there to read or talk softly. The garden is small, but its shade makes it a comfortable place to rest.",
-      "note": "Contoh teks asli: “Our school garden.”"
+      "note": "Contoh teks asli: “[[Our]] [[school]] [[garden]].”"
     },
     {
       "type": "subheading",
@@ -25,7 +25,7 @@
     },
     {
       "type": "text",
-      "text": "Paragraf tersebut menggambarkan taman, bukan perjalanan ke taman. Frasa behind the science room menunjukkan lokasi taman. Two wooden benches menjelaskan jumlah dan bahan bangku. Tidak ada informasi siapa pembuat bangku itu."
+      "text": "Paragraf tersebut menggambarkan taman, bukan perjalanan ke taman. Frasa behind [[the]] science room menunjukkan lokasi taman. Two wooden benches menjelaskan jumlah dan bahan bangku. Tidak ada informasi siapa pembuat bangku itu."
     },
     {
       "type": "rule",
@@ -36,6 +36,120 @@
       "incorrect": "Teks menyatakan seorang guru membuat bangku taman.",
       "correct": "Teks menyebutkan ada dua bangku kayu di taman.",
       "explanation": "Tidak ada keterangan siapa pembuatnya. Informasi yang terasa masuk akal belum tentu tertulis di teks."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "narrow",
+          "indonesian": "sempit"
+        },
+        {
+          "english": "behind",
+          "indonesian": "di belakang"
+        },
+        {
+          "english": "bench",
+          "indonesian": "bangku"
+        },
+        {
+          "english": "shade",
+          "indonesian": "keteduhan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Our library is quiet.",
+          "indonesian": "Perpustakaan kami tenang.",
+          "note": "[[Quiet]] adalah sifat, bukan kejadian."
+        },
+        {
+          "english": "The garden has three benches.",
+          "indonesian": "Taman memiliki tiga bangku.",
+          "note": "[[Three]] [[benches]] adalah detail yang bisa ditemukan langsung."
+        },
+        {
+          "english": "A narrow path leads to the pond.",
+          "indonesian": "Jalan setapak yang sempit menuju kolam.",
+          "note": "[[Narrow]] membantu membayangkan bentuk jalan."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Our library is quiet.",
+      "parts": [
+        {
+          "english": "Our library",
+          "meaning": "yang dideskripsikan"
+        },
+        {
+          "english": "is quiet",
+          "meaning": "sifat atau ciri tempat"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The classroom is bright, but the corridor is dark.",
+          "indonesian": "Ruang kelas terang, tetapi koridor gelap.",
+          "note": "[[Bright]] dan [[dark]] membandingkan suasana dua tempat."
+        },
+        {
+          "english": "The house is beside a river.",
+          "indonesian": "Rumah itu berada di sebelah sungai.",
+          "note": "[[Beside]] menunjukkan lokasi, bukan alasan."
+        },
+        {
+          "english": "The windows are large, so the room gets sunlight.",
+          "indonesian": "Jendelanya besar, sehingga ruangan mendapat cahaya matahari.",
+          "note": "Detail fisik [[large]] [[windows]] mendukung keadaan bright."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The science corner has a low shelf for models and a tall cupboard for equipment.",
+          "indonesian": "Sudut sains memiliki rak rendah untuk model dan lemari tinggi untuk peralatan.",
+          "note": "Cari ciri dan fungsi benda dalam deskripsi."
+        },
+        {
+          "english": "Behind the school hall stands a small garden where students often read during breaks.",
+          "indonesian": "Di belakang aula sekolah terdapat taman kecil tempat siswa sering membaca saat istirahat.",
+          "note": "[[Behind]] memberi lokasi; [[where]] menjelaskan fungsi tempat."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Descriptive text]] menyajikan ciri, lokasi, dan keadaan suatu objek.",
+        "Periksa rincian yang disebutkan, jangan menebak hal yang tidak ada dalam teks.",
+        "Bedakan deskripsi suatu tempat dari cerita peristiwa."
+      ]
     }
   ],
   "practice": [
@@ -48,7 +162,7 @@
         "Beside the school gate"
       ],
       "answer": 0,
-      "explanation": "Kalimat pertama menyebutkan taman berada behind the science room (di belakang ruang sains).",
+      "explanation": "Kalimat pertama menyebutkan taman berada behind [[the]] science room (di belakang ruang sains).",
       "translationId": {
         "prompt": "Di mana letak taman dalam bacaan?",
         "choices": [

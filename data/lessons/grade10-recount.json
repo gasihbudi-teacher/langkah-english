@@ -1,7 +1,7 @@
 {
   "id": "grade10-recount",
   "objectives": [
-    "Mengenali urutan kejadian dan tujuan recount text.",
+    "Mengenali urutan kejadian dan tujuan [[recount text]].",
     "Menemukan penanda waktu dan bentuk lampau.",
     "Membedakan kejadian dari refleksi penulis."
   ],
@@ -12,12 +12,12 @@
     },
     {
       "type": "text",
-      "text": "Recount text menceritakan kembali peristiwa masa lalu. Sering kali susunannya terdiri atas orientation (siapa, di mana, kapan), urutan kejadian, dan komentar atau refleksi penutup. Ini pola yang membantu membaca, bukan aturan mutlak untuk semua teks."
+      "text": "[[Recount text]] menceritakan kembali peristiwa masa lalu. Sering kali susunannya terdiri atas [[orientation]] (siapa, di mana, kapan), urutan kejadian, dan komentar atau refleksi penutup. Ini pola yang membantu membaca, bukan aturan mutlak untuk semua teks."
     },
     {
       "type": "example",
       "text": "Last Saturday, our class visited a community library near the river. First, a volunteer showed us how donated books were sorted. Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers. I had expected a quiet morning, but I discovered how much teamwork a small library needs.",
-      "note": "Contoh teks asli: “A morning at the community library.”"
+      "note": "Contoh teks asli: “A [[morning]] [[at]] [[the]] [[community]] [[library]].”"
     },
     {
       "type": "table",
@@ -42,13 +42,135 @@
     },
     {
       "type": "text",
-      "text": "Visited, showed, repaired, dan recommended adalah verb lampau yang menjelaskan kejadian. Kalimat terakhir menunjukkan perubahan pemahaman narator, bukan klaim bahwa semua perpustakaan bekerja dengan cara yang sama."
+      "text": "Visited, showed, repaired, dan recommended adalah [[verb]] lampau yang menjelaskan kejadian. Kalimat terakhir menunjukkan perubahan pemahaman narator, bukan klaim bahwa semua perpustakaan bekerja dengan cara yang sama."
     },
     {
       "type": "mistake",
       "incorrect": "Siswa merekomendasikan buku sebelum memperbaiki sampul.",
       "correct": "Siswa memperbaiki sampul sebelum merekomendasikan buku.",
-      "explanation": "Then menandai kegiatan memperbaiki sampul. Before we left memperkenalkan kegiatan merekomendasikan buku setelahnya."
+      "explanation": "Then menandai kegiatan memperbaiki sampul. [[Before]] [[we]] left memperkenalkan kegiatan merekomendasikan buku setelahnya."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "first",
+          "indonesian": "pertama"
+        },
+        {
+          "english": "then",
+          "indonesian": "kemudian"
+        },
+        {
+          "english": "after",
+          "indonesian": "setelah"
+        },
+        {
+          "english": "reflection",
+          "indonesian": "refleksi"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "We visited the museum on Monday.",
+          "indonesian": "Kami mengunjungi museum pada hari Senin.",
+          "note": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+        },
+        {
+          "english": "First, we bought tickets.",
+          "indonesian": "Pertama, kami membeli tiket.",
+          "note": "[[First]] memulai urutan kegiatan."
+        },
+        {
+          "english": "Then, we watched a short film.",
+          "indonesian": "Kemudian, kami menonton film pendek.",
+          "note": "[[Then]] menghubungkan kejadian berikutnya."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "We visited the museum on Monday.",
+      "parts": [
+        {
+          "english": "We",
+          "meaning": "pelaku"
+        },
+        {
+          "english": "visited",
+          "meaning": "[[verb-2]]"
+        },
+        {
+          "english": "the museum",
+          "meaning": "tujuan kunjungan"
+        },
+        {
+          "english": "on Monday",
+          "meaning": "waktu lampau"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "We saw a painting before lunch.",
+          "indonesian": "Kami melihat lukisan sebelum makan siang.",
+          "note": "[[Before]] menandai urutan waktu."
+        },
+        {
+          "english": "After lunch, we joined a workshop.",
+          "indonesian": "Setelah makan siang, kami mengikuti lokakarya.",
+          "note": "[[After]] menunjukkan tahapan berikutnya."
+        },
+        {
+          "english": "Finally, we returned to school.",
+          "indonesian": "Akhirnya, kami kembali ke sekolah.",
+          "note": "[[Finally]] menutup urutan kejadian."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Last Friday, our class cleaned the beach. We collected plastic bottles and separated recyclable waste.",
+          "indonesian": "Jumat lalu, kelas kami membersihkan pantai. Kami mengumpulkan botol plastik dan memisahkan limbah yang dapat didaur ulang.",
+          "note": "Rangkaian tindakan lampau dijelaskan dengan [[verb-2]]."
+        },
+        {
+          "english": "I expected the trip to be boring, but I learned how volunteers protect sea turtles.",
+          "indonesian": "Saya mengira perjalanan itu membosankan, tetapi saya belajar cara relawan melindungi penyu.",
+          "note": "Kalimat refleksi menyampaikan perubahan pandangan penulis."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Recount menceritakan kejadian lampau berdasarkan urutan waktu.",
+        "[[First]], then, [[after]], dan finally menandai alur.",
+        "Bagian penutup dapat menyampaikan refleksi, bukan sekadar kejadian."
+      ]
     }
   ],
   "practice": [
@@ -61,7 +183,7 @@
         "Repaired covers"
       ],
       "answer": 1,
-      "explanation": "First menjelaskan bahwa relawan menunjukkan cara buku donasi dipilah.",
+      "explanation": "[[First]] menjelaskan bahwa relawan menunjukkan cara buku donasi dipilah.",
       "translationId": {
         "prompt": "Apa kegiatan pertama kelas di perpustakaan?",
         "choices": [

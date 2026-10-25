@@ -160,6 +160,155 @@
               }
             },
             "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "items"
+            ],
+            "properties": {
+              "type": {
+                "const": "vocabulary"
+              },
+              "title": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "english",
+                    "indonesian"
+                  ],
+                  "properties": {
+                    "english": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "indonesian": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "items",
+              "collapsed"
+            ],
+            "properties": {
+              "type": {
+                "const": "example_group"
+              },
+              "title": {
+                "type": "string"
+              },
+              "collapsed": {
+                "type": "boolean"
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "english",
+                    "indonesian",
+                    "note"
+                  ],
+                  "properties": {
+                    "english": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "indonesian": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "note": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "sentence",
+              "parts"
+            ],
+            "properties": {
+              "type": {
+                "const": "breakdown"
+              },
+              "sentence": {
+                "type": "string"
+              },
+              "parts": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "english",
+                    "meaning"
+                  ],
+                  "properties": {
+                    "english": {
+                      "type": "string"
+                    },
+                    "meaning": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "items"
+            ],
+            "properties": {
+              "type": {
+                "const": "summary"
+              },
+              "title": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": false
           }
         ]
       }

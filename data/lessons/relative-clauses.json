@@ -1,7 +1,7 @@
 {
   "id": "relative-clauses",
   "objectives": [
-    "Memahami dan memakai relative clauses dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[relative clauses]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Relative clause menambahkan informasi mengenai noun: orang, benda, tempat, atau waktu."
+      "text": "[[Relative clause]] menambahkan informasi mengenai [[noun]]: orang, benda, tempat, atau waktu."
     },
     {
       "type": "rule",
-      "text": "Who untuk orang; which/that untuk benda; where untuk tempat. Klausa non-defining biasanya diapit koma."
+      "text": "[[Who]] untuk orang; [[which]]/[[that]] untuk benda; [[where]] untuk tempat. Klausa [[non-defining]] biasanya diapit koma."
     },
     {
       "type": "subheading",
@@ -25,12 +25,12 @@
     {
       "type": "example",
       "text": "The scientist who led the team spoke first.",
-      "note": "People — Who merujuk orang."
+      "note": "People — [[Who]] merujuk orang."
     },
     {
       "type": "example",
       "text": "The device that measures rainfall is new.",
-      "note": "Things — That menjelaskan alat."
+      "note": "Things — [[That]] menjelaskan alat."
     },
     {
       "type": "example",
@@ -45,11 +45,129 @@
       "type": "mistake",
       "incorrect": "The place which I was born is small.",
       "correct": "The place where I was born is small.",
-      "explanation": "Where mengungkap lokasi kejadian; alternatively: the place in which I was born."
+      "explanation": "[[Where]] mengungkap lokasi kejadian; alternatively: [[the]] place [[in]] [[which]] [[I]] [[was]] born."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "who",
+          "indonesian": "yang (orang)"
+        },
+        {
+          "english": "which",
+          "indonesian": "yang (benda)"
+        },
+        {
+          "english": "where",
+          "indonesian": "tempat"
+        },
+        {
+          "english": "additional",
+          "indonesian": "tambahan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The girl who sits near me is friendly.",
+          "indonesian": "Anak perempuan yang duduk di dekat saya ramah.",
+          "note": "[[Who]] menjelaskan orang, yaitu [[girl]]."
+        },
+        {
+          "english": "The book that I borrowed is interesting.",
+          "indonesian": "Buku yang saya pinjam menarik.",
+          "note": "[[That]] menjelaskan benda, yaitu [[book]]."
+        },
+        {
+          "english": "This is the café where we met.",
+          "indonesian": "Inilah kafe tempat kami bertemu.",
+          "note": "[[Where]] menjelaskan tempat."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The girl who sits near me is friendly.",
+      "parts": [
+        {
+          "english": "The girl",
+          "meaning": "[[subject]] inti"
+        },
+        {
+          "english": "who sits near me",
+          "meaning": "klausa yang menjelaskan girl"
+        },
+        {
+          "english": "is friendly",
+          "meaning": "predikat utama"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Students who study regularly often improve.",
+          "indonesian": "Siswa yang belajar teratur sering meningkat.",
+          "note": "Klausa [[who]] [[study]] [[regularly]] membatasi kelompok siswa yang dimaksud."
+        },
+        {
+          "english": "My brother, who lives in Bandung, is visiting.",
+          "indonesian": "Saudara laki-laki saya, yang tinggal di Bandung, sedang berkunjung.",
+          "note": "Tanda koma menunjukkan informasi tambahan, bukan identifikasi wajib."
+        },
+        {
+          "english": "The phone which she bought was expensive.",
+          "indonesian": "Ponsel yang dia beli mahal.",
+          "note": "[[Which]] menjelaskan [[phone]]; [[that]] juga mungkin pada klausa pembatas."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The scientist who led the study explained the results clearly.",
+          "indonesian": "Ilmuwan yang memimpin penelitian itu menjelaskan hasilnya dengan jelas.",
+          "note": "Klausa [[who]] [[led]] [[the]] [[study]] membantu mengenali [[scientist]]."
+        },
+        {
+          "english": "The museum, which opened last year, offers free workshops for students.",
+          "indonesian": "Museum itu, yang dibuka tahun lalu, menawarkan lokakarya gratis untuk siswa.",
+          "note": "[[Which]] memberi informasi tambahan tentang [[museum]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Who]] digunakan untuk orang;[[which]]/[[that]] sering untuk benda;[[where]] untuk tempat.",
+        "[[Relative clause]] membantu mengidentifikasi atau menambahkan informasi tentang [[noun]].",
+        "Koma dapat menandai klausa tambahan yang bukan pembatas."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +180,7 @@
         "where"
       ],
       "answer": 1,
-      "explanation": "Who merujuk orang.",
+      "explanation": "[[Who]] merujuk orang.",
       "translationId": {
         "prompt": "Penulis yang ___ menulis artikel ini adalah ahli biologi."
       }
@@ -76,7 +194,7 @@
         "The book where I borrowed is useful."
       ],
       "answer": 0,
-      "explanation": "That tanpa koma membatasi buku yang dimaksud.",
+      "explanation": "[[That]] tanpa koma membatasi buku yang dimaksud.",
       "translationId": {
         "prompt": "Pilih kalimat yang memiliki klausa pembatas."
       }
@@ -90,7 +208,7 @@
         "whose"
       ],
       "answer": 1,
-      "explanation": "Where merujuk lokasi.",
+      "explanation": "[[Where]] merujuk lokasi.",
       "translationId": {
         "prompt": "Kota tempat dia ___ tumbuh berada di dekat pantai."
       }

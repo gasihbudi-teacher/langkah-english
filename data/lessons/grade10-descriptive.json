@@ -1,7 +1,7 @@
 {
   "id": "grade10-descriptive",
   "objectives": [
-    "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text.",
+    "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada [[descriptive text]].",
     "Mengenali struktur yang tepat dari beberapa contoh.",
     "Menerapkan konsep pada latihan mandiri."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text."
+      "text": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada [[descriptive text]]."
     },
     {
       "type": "rule",
-      "text": "Descriptive text memperkenalkan objek lalu menggambarkan ciri, lokasi, fungsi, atau kesannya; detail harus mendukung objek utama."
+      "text": "[[Descriptive text]] memperkenalkan objek lalu menggambarkan ciri, lokasi, fungsi, atau kesannya; detail harus mendukung objek utama."
     },
     {
       "type": "subheading",
@@ -25,12 +25,12 @@
     {
       "type": "example",
       "text": "The reading room is small but bright. Two wide windows face the garden, and a long table stands near the door.",
-      "note": "Ide utama: gambaran reading room; detail: ukuran, jendela, meja."
+      "note": "Ide utama: gambaran [[reading]] [[room]]; detail: ukuran, jendela, meja."
     },
     {
       "type": "example",
       "text": "It feels peaceful in the morning.",
-      "note": "Feels peaceful adalah kesan penulis terhadap objek."
+      "note": "[[Feels]] [[peaceful]] adalah kesan penulis terhadap objek."
     },
     {
       "type": "subheading",
@@ -40,11 +40,125 @@
       "type": "mistake",
       "incorrect": "The library have two window.",
       "correct": "The library has two windows.",
-      "explanation": "Subjek tunggal library memakai has dan angka two diikuti plural windows."
+      "explanation": "Subjek tunggal library memakai [[has]] dan angka two diikuti plural windows."
     },
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "bright",
+          "indonesian": "terang"
+        },
+        {
+          "english": "wide",
+          "indonesian": "lebar"
+        },
+        {
+          "english": "peaceful",
+          "indonesian": "tenang"
+        },
+        {
+          "english": "smell",
+          "indonesian": "aroma"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The classroom is spacious.",
+          "indonesian": "Ruang kelas itu luas.",
+          "note": "[[Spacious]] menyatakan kualitas ruang."
+        },
+        {
+          "english": "A wooden desk stands near the window.",
+          "indonesian": "Meja kayu berada di dekat jendela.",
+          "note": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
+        },
+        {
+          "english": "The air smells fresh after rain.",
+          "indonesian": "Udara berbau segar setelah hujan.",
+          "note": "[[Smells]] menggambarkan kesan inderawi."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The classroom is spacious.",
+      "parts": [
+        {
+          "english": "The classroom",
+          "meaning": "yang dijelaskan"
+        },
+        {
+          "english": "is spacious",
+          "meaning": "ciri fisik"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The old building has high ceilings.",
+          "indonesian": "Bangunan tua itu memiliki langit-langit tinggi.",
+          "note": "[[Old]] dan [[high]] membentuk gambaran fisik."
+        },
+        {
+          "english": "The new building has lower ceilings but brighter rooms.",
+          "indonesian": "Bangunan baru itu memiliki langit-langit lebih rendah tetapi ruangan lebih terang.",
+          "note": "[[But]] membandingkan ciri bangunan."
+        },
+        {
+          "english": "Both buildings have wide entrances.",
+          "indonesian": "Kedua bangunan memiliki pintu masuk lebar.",
+          "note": "[[Both]] menunjukkan persamaan dua objek."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The reading room faces a small pond, and sunlight enters through two glass doors.",
+          "indonesian": "Ruang baca menghadap kolam kecil, dan sinar matahari masuk melalui dua pintu kaca.",
+          "note": "Keterangan tempat dan detail visual membantu pembaca membayangkan ruangan."
+        },
+        {
+          "english": "During the afternoon, the market becomes lively with colourful stalls and the smell of fresh bread.",
+          "indonesian": "Pada sore hari, pasar menjadi ramai dengan kios berwarna-warni dan aroma roti segar.",
+          "note": "[[Lively]], [[colourful]], dan [[smell]] menghadirkan suasana dengan beberapa indera."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Deskripsi dapat memakai rincian penglihatan, suara, bau, dan lokasi.",
+        "Kata sifat dan frasa tempat membantu membangun gambaran.",
+        "Ide utama berbeda dari rincian tunggal seperti jumlah jendela."
+      ]
     }
   ],
   "practice": [
@@ -76,7 +190,7 @@
         "to prove a physics formula"
       ],
       "answer": 0,
-      "explanation": "Descriptive text memberikan gambaran rinci.",
+      "explanation": "[[Descriptive text]] memberikan gambaran rinci.",
       "translationId": {
         "prompt": "Tujuan utama descriptive text adalah …",
         "choices": [

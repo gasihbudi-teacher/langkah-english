@@ -8,11 +8,11 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "Bagaimana explanation text bekerja?"
+      "text": "Bagaimana [[explanation text]] bekerja?"
     },
     {
       "type": "text",
-      "text": "Explanation text menjelaskan mengapa atau bagaimana proses terjadi. Perhatikan urutan langkah, sebab-akibat, dan istilah yang diulang. Teks ini menjelaskan mekanisme, bukan membujuk pembaca."
+      "text": "[[Explanation text]] menjelaskan mengapa atau bagaimana proses terjadi. Perhatikan urutan langkah, sebab-akibat, dan istilah yang diulang. Teks ini menjelaskan mekanisme, bukan membujuk pembaca."
     },
     {
       "type": "example",
@@ -50,7 +50,121 @@
     },
     {
       "type": "rule",
-      "text": "Jangan tertukar antara urutan waktu dan sebab-akibat: “after” tidak selalu berarti “because”."
+      "text": "Jangan tertukar antara urutan waktu dan sebab-akibat: “[[after]]” tidak selalu berarti “[[because]]”."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "process",
+          "indonesian": "proses"
+        },
+        {
+          "english": "vapour",
+          "indonesian": "uap"
+        },
+        {
+          "english": "condense",
+          "indonesian": "mengembun"
+        },
+        {
+          "english": "result",
+          "indonesian": "hasil"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Warm air rises.",
+          "indonesian": "Udara hangat naik.",
+          "note": "Ini tahap awal sebuah proses alam."
+        },
+        {
+          "english": "Rising air cools.",
+          "indonesian": "Udara yang naik mengalami pendinginan.",
+          "note": "Kalimat menyatakan tahap berikutnya."
+        },
+        {
+          "english": "Water vapour condenses into droplets.",
+          "indonesian": "Uap air mengembun menjadi tetesan.",
+          "note": "[[Condenses]] menjelaskan perubahan keadaan."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Warm air rises.",
+      "parts": [
+        {
+          "english": "Warm air",
+          "meaning": "yang mengalami proses"
+        },
+        {
+          "english": "rises",
+          "meaning": "langkah dalam proses"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Plants need sunlight to make food.",
+          "indonesian": "Tumbuhan membutuhkan sinar matahari untuk membuat makanan.",
+          "note": "Menyatakan kondisi yang diperlukan suatu proses."
+        },
+        {
+          "english": "As sunlight reaches the leaves, photosynthesis begins.",
+          "indonesian": "Ketika sinar matahari mencapai daun, fotosintesis dimulai.",
+          "note": "[[As]] menandai hubungan waktu dalam mekanisme."
+        },
+        {
+          "english": "As a result, the plant produces sugars.",
+          "indonesian": "Akibatnya, tumbuhan menghasilkan gula.",
+          "note": "[[As a result]] menandai hasil proses."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "When rainwater enters the soil, some of it moves downward through tiny spaces between particles.",
+          "indonesian": "Ketika air hujan masuk ke tanah, sebagian bergerak turun melalui celah kecil antarpartikel.",
+          "note": "[[When]] menunjukkan urutan; [[through]] menunjukkan jalur gerak."
+        },
+        {
+          "english": "Because the surface cools overnight, moisture in the air may turn into small drops of water.",
+          "indonesian": "Karena permukaan mendingin pada malam hari, kelembapan udara dapat berubah menjadi tetesan air kecil.",
+          "note": "[[Because]] menjelaskan sebab dalam proses kondensasi."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Explanation text]] menerangkan bagaimana atau mengapa sesuatu terjadi.",
+        "Baca hubungan proses, sebab-akibat, dan urutan tahap secara tepat.",
+        "Bedakan proses objektif dari anjuran/opini penulis."
+      ]
     }
   ],
   "practice": [
@@ -82,7 +196,7 @@
         "a pronoun"
       ],
       "answer": 0,
-      "explanation": "As a result memperkenalkan konsekuensi.",
+      "explanation": "[[As a result]] memperkenalkan konsekuensi.",
       "translationId": {
         "prompt": "“As a result” menunjukkan …",
         "choices": [

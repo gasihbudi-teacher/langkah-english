@@ -1,9 +1,9 @@
 {
   "id": "basic-questions-negatives",
   "objectives": [
-    "Membentuk pertanyaan yes/no dengan be, do/does, dan did.",
-    "Membentuk kalimat negatif tanpa mencampur bentuk auxiliary.",
-    "Menggunakan question words seperti what, where, when, dan why."
+    "Membentuk pertanyaan yes/no dengan [[be]], [[do/does]], dan [[did]].",
+    "Membentuk kalimat negatif tanpa mencampur bentuk [[auxiliary]].",
+    "Menggunakan question words seperti [[what]], [[where]], when, dan [[why]]."
   ],
   "blocks": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "type": "text",
-      "text": "Dalam bahasa Inggris, pola pertanyaan bergantung pada verb. Jika kalimat memiliki be (am/is/are/was/were), pindahkan be ke depan subject. Jika menggunakan verb biasa dalam simple present, gunakan do/does. Untuk simple past dengan verb biasa, gunakan did."
+      "text": "Dalam bahasa Inggris, pola pertanyaan bergantung pada [[verb]]. Jika kalimat memiliki [[be]] ([[am]]/[[is]]/[[are]]/[[was]]/[[were]]), pindahkan [[be]] ke depan [[subject]]. Jika menggunakan [[verb]] biasa dalam [[simple present]], gunakan [[do/does]]. Untuk [[simple past]] dengan [[verb]] biasa, gunakan [[did]]."
     },
     {
       "type": "table",
@@ -51,7 +51,7 @@
     },
     {
       "type": "rule",
-      "text": "Setelah does/did/don’t/doesn’t/didn’t, gunakan verb dasar: Does he like…?; Did she go…?; She does not like…"
+      "text": "Setelah [[does]]/[[did]]/don’t/doesn’t/didn’t, gunakan [[verb]] dasar: [[Does]] [[he]] like…?; [[Did]] [[she]] [[go]]…?; [[She]] [[does not]] like…"
     },
     {
       "type": "subheading",
@@ -59,30 +59,30 @@
     },
     {
       "type": "text",
-      "text": "Letakkan kata tanya sebelum auxiliary: Where do you live? When did she arrive? Why is he sad? Untuk pertanyaan yang kata tanyanya menjadi subject, seperti “Who called you?”, pola dapat berbeda dan tidak perlu did."
+      "text": "Letakkan kata tanya sebelum [[auxiliary]]: [[Where]] [[do]] [[you]] live? When [[did]] [[she]] arrive? [[Why]] [[is]] [[he]] sad? Untuk pertanyaan yang kata tanyanya menjadi [[subject]], seperti “[[Who]] called [[you]]?”, pola dapat berbeda dan tidak perlu [[did]]."
     },
     {
       "type": "example",
       "text": "What does Bima read every day? He reads newspapers. He does not read magazines.",
-      "note": "What menanyakan informasi. Does dipakai karena Bima subjek tunggal, lalu verb dasar read."
+      "note": "[[What]] menanyakan informasi. [[Does]] dipakai karena [[Bima]] subjek tunggal, lalu [[verb]] dasar [[read]]."
     },
     {
       "type": "mistake",
       "incorrect": "Does she likes music?",
       "correct": "Does she like music?",
-      "explanation": "Akhiran -s sudah dibawa oleh does, sehingga gunakan like."
+      "explanation": "Akhiran [[-s]] sudah dibawa oleh [[does]], sehingga gunakan like."
     },
     {
       "type": "mistake",
       "incorrect": "Did they went yesterday?",
       "correct": "Did they go yesterday?",
-      "explanation": "Setelah did, gunakan kata kerja dasar go."
+      "explanation": "Setelah [[did]], gunakan kata kerja dasar [[go]]."
     },
     {
       "type": "mistake",
       "incorrect": "Is she play tennis every Sunday?",
       "correct": "Does she play tennis every Sunday?",
-      "explanation": "Untuk kebiasaan dengan verb biasa play, gunakan does, bukan is."
+      "explanation": "Untuk kebiasaan dengan [[verb]] biasa play, gunakan [[does]], bukan [[is]]."
     },
     {
       "type": "heading",
@@ -90,7 +90,125 @@
     },
     {
       "type": "text",
-      "text": "Cari verb utama dan waktunya. Apakah ada be? Jika tidak, apakah kalimat menyatakan kebiasaan (do/does) atau peristiwa lampau (did)? Setelah itu, letakkan not untuk negatif atau balikkan susunan untuk pertanyaan."
+      "text": "Cari [[verb]] utama dan waktunya. Apakah ada [[be]]? Jika tidak, apakah kalimat menyatakan kebiasaan ([[do/does]]) atau peristiwa lampau ([[did]])? Setelah itu, letakkan [[not]] untuk negatif atau balikkan susunan untuk pertanyaan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "question",
+          "indonesian": "pertanyaan"
+        },
+        {
+          "english": "negative",
+          "indonesian": "negatif"
+        },
+        {
+          "english": "answer",
+          "indonesian": "jawaban"
+        },
+        {
+          "english": "why",
+          "indonesian": "mengapa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She likes music.",
+          "indonesian": "Dia menyukai musik.",
+          "note": "Ini kalimat positif dengan [[subject]] tunggal."
+        },
+        {
+          "english": "Does she like music?",
+          "indonesian": "Apakah dia menyukai musik?",
+          "note": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
+        },
+        {
+          "english": "She does not like music.",
+          "indonesian": "Dia tidak menyukai musik.",
+          "note": "Dalam negatif, [[does not]] diikuti [[like]] tanpa [[-s]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "She likes music.",
+      "parts": [
+        {
+          "english": "She",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "likes",
+          "meaning": "[[verb]] dengan [[-s]] untuk [[she]]"
+        },
+        {
+          "english": "music",
+          "meaning": "[[object]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "They are ready.",
+          "indonesian": "Mereka siap.",
+          "note": "Predikat memakai [[be]], bukan [[verb]] tindakan."
+        },
+        {
+          "english": "Are they ready?",
+          "indonesian": "Apakah mereka siap?",
+          "note": "Untuk [[be]], pindahkan [[are]] ke depan [[subject]]."
+        },
+        {
+          "english": "They are not ready.",
+          "indonesian": "Mereka belum siap.",
+          "note": "Negatif [[be]] memakai [[are]] [[not]], tanpa [[do]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Did Budi call you yesterday, or did he send a message?",
+          "indonesian": "Apakah Budi meneleponmu kemarin atau mengirim pesan?",
+          "note": "Kedua pertanyaan lampau menggunakan [[did]] + [[verb]] dasar."
+        },
+        {
+          "english": "Why doesn't the train stop here on Sundays?",
+          "indonesian": "Mengapa kereta tidak berhenti di sini pada hari Minggu?",
+          "note": "Pertanyaan [[why]] + [[doesn't]] + [[subject]] + [[verb]] dasar."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Pertanyaan dengan [[verb]] tindakan memakai [[do/does]]/[[did]] sesuai waktunya.",
+        "Setelah [[do/does]]/[[did]], [[verb]] tetap berbentuk dasar.",
+        "Untuk predikat [[be]], cukup balik [[be]] dan [[subject]] dalam pertanyaan."
+      ]
     }
   ],
   "practice": [
@@ -103,7 +221,7 @@
         "Do Arif play football?"
       ],
       "answer": 0,
-      "explanation": "Arif tunggal menggunakan does + verb dasar play.",
+      "explanation": "Arif tunggal menggunakan [[does]] + [[verb]] dasar play.",
       "translationId": {
         "prompt": "Pilih pertanyaan yang benar."
       }
@@ -117,7 +235,7 @@
         "They do not knows."
       ],
       "answer": 1,
-      "explanation": "They memakai do not dan bentuk dasar know.",
+      "explanation": "[[They]] memakai [[do]] [[not]] dan bentuk dasar know.",
       "translationId": {
         "prompt": "Kalimat negatif yang tepat adalah …"
       }
@@ -131,7 +249,7 @@
         "Does"
       ],
       "answer": 1,
-      "explanation": "Untuk keadaan lampau dengan be, gunakan Was she …?",
+      "explanation": "Untuk keadaan lampau dengan [[be]], gunakan [[Was]] [[she]] …?",
       "translationId": {
         "prompt": "___ dia berada di rumah kemarin?"
       }

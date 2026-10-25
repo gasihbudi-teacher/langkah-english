@@ -3,7 +3,7 @@
   "objectives": [
     "Menemukan inti subjek dalam sebuah frasa.",
     "Memilih bentuk kata kerja yang sesuai dengan subjek tunggal atau jamak.",
-    "Tidak terkecoh oleh frasa tambahan di antara subjek dan verb."
+    "Tidak terkecoh oleh frasa tambahan di antara subjek dan [[verb]]."
   ],
   "blocks": [
     {
@@ -12,16 +12,16 @@
     },
     {
       "type": "text",
-      "text": "Subject–verb agreement adalah kesesuaian bentuk verb dengan subjek kalimat. Perbedaan ini tampak pada simple present dan bentuk be. Misalnya, subjek tunggal orang ketiga memakai reads, sedangkan subjek jamak memakai read."
+      "text": "[[Subject–verb agreement]] adalah kesesuaian bentuk [[verb]] dengan subjek kalimat. Perbedaan ini tampak pada [[simple present]] dan bentuk [[be]]. Misalnya, subjek tunggal orang ketiga memakai [[reads]], sedangkan subjek jamak memakai [[read]]."
     },
     {
       "type": "rule",
-      "text": "Temukan inti noun atau pronoun yang menjadi subjek. Frasa yang hanya menerangkan subjek tidak menentukan bentuk verb."
+      "text": "Temukan inti [[noun]] atau [[pronoun]] yang menjadi subjek. Frasa yang hanya menerangkan subjek tidak menentukan bentuk [[verb]]."
     },
     {
       "type": "example",
       "text": "The student with two dictionaries is prepared. The students with one dictionary are prepared.",
-      "note": "Inti subjeknya adalah student (tunggal) dan students (jamak); dictionaries/dictionary hanya bagian frasa penjelas."
+      "note": "Inti subjeknya adalah [[student]] (tunggal) dan [[students]] (jamak); [[dictionaries]]/[[dictionary]] hanya bagian frasa penjelas."
     },
     {
       "type": "table",
@@ -58,7 +58,7 @@
       "type": "mistake",
       "incorrect": "Each of the answers seem possible.",
       "correct": "Each of the answers seems possible.",
-      "explanation": "Each bersifat tunggal, jadi gunakan seems pada simple present."
+      "explanation": "[[Each]] bersifat tunggal, jadi gunakan seems pada [[simple present]]."
     },
     {
       "type": "subheading",
@@ -66,7 +66,125 @@
     },
     {
       "type": "text",
-      "text": "Sebagian besar verb biasa memiliki bentuk simple past yang sama untuk subjek tunggal dan jamak: she walked dan they walked. Be berbeda: she was, they were. Pelajaran ini berfokus pada subjek umum yang jelas; collective nouns dapat memiliki variasi penggunaan."
+      "text": "Sebagian besar [[verb]] biasa memiliki bentuk [[simple past]] yang sama untuk subjek tunggal dan jamak: [[she]] walked dan [[they]] walked. [[Be]] berbeda: [[she]] [[was]], [[they]] [[were]]. Pelajaran ini berfokus pada subjek umum yang jelas; collective [[nouns]] dapat memiliki variasi penggunaan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "singular",
+          "indonesian": "tunggal"
+        },
+        {
+          "english": "plural",
+          "indonesian": "jamak"
+        },
+        {
+          "english": "each",
+          "indonesian": "masing-masing"
+        },
+        {
+          "english": "agreement",
+          "indonesian": "kesesuaian"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The boy plays chess.",
+          "indonesian": "Anak laki-laki itu bermain catur.",
+          "note": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
+        },
+        {
+          "english": "The boys play chess.",
+          "indonesian": "Anak-anak laki-laki itu bermain catur.",
+          "note": "[[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]."
+        },
+        {
+          "english": "My sister is here.",
+          "indonesian": "Saudara perempuan saya ada di sini.",
+          "note": "Bentuk [[be]] untuk [[subject]] tunggal adalah [[is]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The boy plays chess.",
+      "parts": [
+        {
+          "english": "The boy",
+          "meaning": "[[subject]] tunggal"
+        },
+        {
+          "english": "plays",
+          "meaning": "[[verb]] yang sesuai dengan [[subject]] tunggal"
+        },
+        {
+          "english": "chess",
+          "meaning": "[[object]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The list of questions is long.",
+          "indonesian": "Daftar pertanyaannya panjang.",
+          "note": "Inti [[subject]] adalah [[list]], bukan [[questions]]."
+        },
+        {
+          "english": "The questions on the list are difficult.",
+          "indonesian": "Pertanyaan dalam daftar itu sulit.",
+          "note": "Inti [[subject]] adalah [[questions]] yang jamak."
+        },
+        {
+          "english": "Each student has a notebook.",
+          "indonesian": "Setiap siswa memiliki buku catatan.",
+          "note": "[[Each]] [[student]] dianggap tunggal; gunakan [[has]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The teacher and the assistant are preparing the room.",
+          "indonesian": "Guru dan asisten sedang menyiapkan ruangan.",
+          "note": "Dua [[subject]] yang digabung [[and]] umumnya memakai [[verb]] jamak."
+        },
+        {
+          "english": "One of the answers seems correct, but the others are wrong.",
+          "indonesian": "Salah satu jawaban tampak benar, tetapi yang lain salah.",
+          "note": "[[One]] adalah tunggal ([[seems]]), sedangkan [[others]] jamak ([[are]])."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Tentukan inti [[subject]], bukan kata terdekat dengan [[verb]].",
+        "[[Subject]] tunggal dan jamak sering memerlukan bentuk [[verb]] berbeda.",
+        "Perhatikan [[each]], [[one of]], dan gabungan [[subject]] dengan [[and]]."
+      ]
     }
   ],
   "practice": [
@@ -79,7 +197,7 @@
         "be"
       ],
       "answer": 1,
-      "explanation": "Pages adalah subjek jamak. Frasa in this notebook hanya menjelaskan pages.",
+      "explanation": "Pages adalah subjek jamak. Frasa [[in]] this notebook hanya menjelaskan pages.",
       "translationId": {
         "prompt": "Halaman-halaman dalam buku catatan ini ___ kosong."
       }
@@ -93,7 +211,7 @@
         "having"
       ],
       "answer": 0,
-      "explanation": "Every learner dianggap tunggal, sehingga gunakan has.",
+      "explanation": "Every learner dianggap tunggal, sehingga gunakan [[has]].",
       "translationId": {
         "prompt": "Setiap pembelajar ___ titik awal yang berbeda."
       }

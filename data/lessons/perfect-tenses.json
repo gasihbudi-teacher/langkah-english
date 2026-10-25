@@ -1,7 +1,7 @@
 {
   "id": "perfect-tenses",
   "objectives": [
-    "Memahami dan memakai perfect tenses dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[perfect tenses]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Present perfect menghubungkan pengalaman/kejadian lampau dengan keadaan kini; past perfect menjelaskan kejadian yang lebih dahulu dari peristiwa lampau lain."
+      "text": "[[Present perfect]] menghubungkan pengalaman/kejadian lampau dengan keadaan kini; [[past perfect]] menjelaskan kejadian yang lebih dahulu dari peristiwa lampau lain."
     },
     {
       "type": "rule",
-      "text": "have/has + past participle (V3) untuk present perfect; had + V3 untuk past perfect."
+      "text": "[[have/has]] + [[past participle]] ([[V3]]) untuk [[present perfect]]; [[had]] + [[V3]] untuk [[past perfect]]."
     },
     {
       "type": "subheading",
@@ -25,12 +25,12 @@
     {
       "type": "example",
       "text": "She has lived here since 2022.",
-      "note": "Present perfect — Sampai sekarang masih tinggal di sini."
+      "note": "[[Present perfect]] — Sampai sekarang masih tinggal di sini."
     },
     {
       "type": "example",
       "text": "When I arrived, the train had left.",
-      "note": "Past perfect — Kereta pergi lebih dahulu daripada kedatangan saya."
+      "note": "[[Past perfect]] — Kereta pergi lebih dahulu daripada kedatangan saya."
     },
     {
       "type": "subheading",
@@ -40,11 +40,129 @@
       "type": "mistake",
       "incorrect": "I have seen him yesterday.",
       "correct": "I saw him yesterday.",
-      "explanation": "Yesterday merupakan waktu lampau spesifik; gunakan simple past."
+      "explanation": "[[Yesterday]] merupakan waktu lampau spesifik; gunakan [[simple past]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "already",
+          "indonesian": "sudah"
+        },
+        {
+          "english": "yet",
+          "indonesian": "belum (dalam konteks tertentu)"
+        },
+        {
+          "english": "so far",
+          "indonesian": "sejauh ini"
+        },
+        {
+          "english": "before",
+          "indonesian": "sebelum"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I have finished my homework.",
+          "indonesian": "Saya sudah menyelesaikan PR saya.",
+          "note": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
+        },
+        {
+          "english": "She has visited Bali twice.",
+          "indonesian": "Dia sudah dua kali mengunjungi Bali.",
+          "note": "[[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]."
+        },
+        {
+          "english": "They have not arrived yet.",
+          "indonesian": "Mereka belum tiba.",
+          "note": "[[Have]] [[not]] + [[V3]] menyatakan sesuatu belum terjadi sampai sekarang."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I have finished my homework.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "have finished",
+          "meaning": "[[have]] + [[V3]]"
+        },
+        {
+          "english": "my homework",
+          "meaning": "[[object]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I finished my homework last night.",
+          "indonesian": "Saya menyelesaikan PR tadi malam.",
+          "note": "[[Simple past]] cocok untuk waktu lampau yang spesifik."
+        },
+        {
+          "english": "I have finished my homework.",
+          "indonesian": "Saya sudah menyelesaikan PR.",
+          "note": "[[Present perfect]] menekankan keadaan sekarang: PR sudah selesai."
+        },
+        {
+          "english": "When we arrived, the movie had started.",
+          "indonesian": "Saat kami tiba, film sudah dimulai.",
+          "note": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The researchers have collected data from five schools so far.",
+          "indonesian": "Para peneliti telah mengumpulkan data dari lima sekolah sejauh ini.",
+          "note": "[[So]] [[far]] menandakan rentang sampai sekarang."
+        },
+        {
+          "english": "By the time the teacher entered, all students had opened their books.",
+          "indonesian": "Ketika guru masuk, semua siswa sudah membuka buku.",
+          "note": "[[Had]] [[opened]] menandai peristiwa yang lebih dahulu dari [[entered]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Present perfect]] memakai [[have/has]] + [[V3]] dan sering menekankan kaitan dengan sekarang.",
+        "[[Past perfect]] memakai [[had]] + [[V3]] untuk tindakan yang lebih dulu terjadi.",
+        "Keterangan waktu spesifik lampau sering lebih cocok dengan [[simple past]]."
+      ]
     }
   ],
   "practice": [
@@ -57,7 +175,7 @@
         "had read"
       ],
       "answer": 0,
-      "explanation": "So far mengarah ke present perfect dan she → has + read.",
+      "explanation": "So far mengarah ke [[present perfect]] dan [[she]] → [[has]] + [[read]].",
       "translationId": {
         "prompt": "Sejauh ini dia ___ tiga bab."
       }
@@ -71,7 +189,7 @@
         "starts"
       ],
       "answer": 1,
-      "explanation": "Film dimulai sebelum titik waktu lampau kedatangan: had started.",
+      "explanation": "Film dimulai sebelum titik waktu lampau kedatangan: [[had]] started.",
       "translationId": {
         "prompt": "Ketika kami tiba, film itu ___."
       }
@@ -85,7 +203,7 @@
         "I had visited Bali tomorrow."
       ],
       "answer": 0,
-      "explanation": "Have + visited adalah bentuk present perfect yang benar.",
+      "explanation": "[[Have]] + visited adalah bentuk [[present perfect]] yang benar.",
       "translationId": {
         "prompt": "Kalimat mana yang menggambarkan pengalaman hingga sekarang?"
       }

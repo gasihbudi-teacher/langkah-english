@@ -1,7 +1,7 @@
 {
   "id": "reported-speech",
   "objectives": [
-    "Memahami dan memakai reported speech dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[reported speech]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Reported speech menyampaikan ucapan orang lain. Waktu verb sering mundur jika pelaporan dilakukan di masa lampau, tetapi fakta yang masih berlaku bisa tetap memakai tense yang sama."
+      "text": "[[Reported speech]] menyampaikan ucapan orang lain. Waktu [[verb]] sering mundur jika pelaporan dilakukan di masa lampau, tetapi fakta yang masih berlaku bisa tetap memakai [[tense]] yang sama."
     },
     {
       "type": "rule",
-      "text": "Say (that) + clause; tell + object + clause; pertanyaan tidak menggunakan urutan kata tanya langsung."
+      "text": "Say ([[that]]) + [[clause]]; tell + [[object]] + [[clause]]; pertanyaan tidak menggunakan urutan kata tanya langsung."
     },
     {
       "type": "subheading",
@@ -25,12 +25,12 @@
     {
       "type": "example",
       "text": "He said that he was tired.",
-      "note": "Statement — Direct: “I am tired.”"
+      "note": "Statement — Direct: “[[I]] [[am]] [[tired]].”"
     },
     {
       "type": "example",
       "text": "She asked where I lived.",
-      "note": "Question — Bukan *where did I live* setelah asked."
+      "note": "Question — Bukan *[[where]] [[did]] [[I]] live* setelah [[asked]]."
     },
     {
       "type": "subheading",
@@ -40,11 +40,129 @@
       "type": "mistake",
       "incorrect": "She asked where did I work.",
       "correct": "She asked where I worked.",
-      "explanation": "Reported questions memakai urutan subject + verb."
+      "explanation": "Reported questions memakai urutan [[subject]] + [[verb]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "said",
+          "indonesian": "berkata"
+        },
+        {
+          "english": "asked",
+          "indonesian": "bertanya"
+        },
+        {
+          "english": "told",
+          "indonesian": "memberi tahu"
+        },
+        {
+          "english": "reported",
+          "indonesian": "dilaporkan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Rani said, \"I am tired.\"",
+          "indonesian": "Rani berkata, \"Saya lelah.\"",
+          "note": "Ini [[direct speech]]: ucapan asli berada dalam tanda kutip."
+        },
+        {
+          "english": "Rani said that she was tired.",
+          "indonesian": "Rani mengatakan bahwa dia lelah.",
+          "note": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]."
+        },
+        {
+          "english": "He told me that he needed help.",
+          "indonesian": "Dia mengatakan kepada saya bahwa dia membutuhkan bantuan.",
+          "note": "Tell membutuhkan penerima, di sini [[me]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Rani said, \"I am tired.\"",
+      "parts": [
+        {
+          "english": "Rani",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "said",
+          "meaning": "kata pelapor"
+        },
+        {
+          "english": "I am tired",
+          "meaning": "ucapan asli"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She said, \"I will call tomorrow.\"",
+          "indonesian": "Dia berkata, \"Saya akan menelepon besok.\"",
+          "note": "[[Will]] dan [[tomorrow]] muncul dalam kutipan asli."
+        },
+        {
+          "english": "She said that she would call the next day.",
+          "indonesian": "Dia berkata bahwa dia akan menelepon keesokan harinya.",
+          "note": "[[Will]] dapat bergeser menjadi [[would]]; [[tomorrow]] menjadi [[the]] [[next]] [[day]]."
+        },
+        {
+          "english": "He asked, \"Where do you live?\"",
+          "indonesian": "Dia bertanya, \"Kamu tinggal di mana?\"",
+          "note": "Pertanyaan langsung menggunakan bentuk tanya."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The journalist asked where the students lived and why they joined the project.",
+          "indonesian": "Wartawan itu bertanya di mana para siswa tinggal dan mengapa mereka ikut proyek.",
+          "note": "Dalam [[reported question]], urutan adalah [[subject]] + [[verb]], bukan inversi pertanyaan langsung."
+        },
+        {
+          "english": "The teacher explained that water boils at 100°C at sea level.",
+          "indonesian": "Guru menjelaskan bahwa air mendidih pada 100°C di permukaan laut.",
+          "note": "Kebenaran umum dapat tetap dalam [[present]] ketika dilaporkan."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Reported speech]] menyampaikan ucapan orang lain tanpa selalu mengutip persis.",
+        "Ketika kata pelapor lampau, waktu dan [[tense]] sering bergeser sesuai konteks.",
+        "[[Reported question]] memakai urutan [[subject]] + [[verb]], bukan bentuk tanya langsung."
+      ]
     }
   ],
   "practice": [
@@ -57,7 +175,7 @@
         "will"
       ],
       "answer": 0,
-      "explanation": "Backshift dari am ke was dalam pelaporan lampau.",
+      "explanation": "Backshift dari [[am]] ke [[was]] dalam pelaporan lampau.",
       "translationId": {
         "prompt": "Langsung: “Aku sibuk.” Tidak langsung: Dia berkata bahwa dia ___ sibuk."
       }
@@ -71,7 +189,7 @@
         "that where"
       ],
       "answer": 0,
-      "explanation": "Pola reported question: where + subject + verb.",
+      "explanation": "Pola [[reported question]]: [[where]] + [[subject]] + [[verb]].",
       "translationId": {
         "prompt": "Dia bertanya ___ aku tinggal."
       }

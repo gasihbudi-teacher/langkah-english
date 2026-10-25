@@ -12,12 +12,12 @@
     },
     {
       "type": "text",
-      "text": "Mulailah dengan siapa/apa yang dibicarakan (subject), kemudian apa yang terjadi atau dijelaskan (verb/predicate). Kamu tidak perlu memahami setiap kata untuk menangkap pesan utama."
+      "text": "Mulailah dengan siapa/apa yang dibicarakan ([[subject]]), kemudian apa yang terjadi atau dijelaskan ([[verb]]/[[predicate]]). Kamu tidak perlu memahami setiap kata untuk menangkap pesan utama."
     },
     {
       "type": "example",
       "text": "The young scientist carefully tested the water.",
-      "note": "Siapa? The young scientist. Melakukan apa? tested the water. Carefully menerangkan cara."
+      "note": "Siapa? [[The]] [[young]] [[scientist]]. Melakukan apa? [[tested]] [[the]] [[water]]. [[Carefully]] menerangkan cara."
     },
     {
       "type": "subheading",
@@ -26,7 +26,7 @@
     {
       "type": "example",
       "text": "The bus was late. Therefore, we missed the opening speech.",
-      "note": "Therefore menghubungkan keterlambatan bus dengan tidak sempat mengikuti pidato pembukaan."
+      "note": "[[Therefore]] menghubungkan keterlambatan [[bus]] dengan tidak sempat mengikuti pidato pembukaan."
     },
     {
       "type": "subheading",
@@ -34,11 +34,129 @@
     },
     {
       "type": "text",
-      "text": "Contoh dan angka sering menjadi bukti; ide utama adalah gagasan yang menghubungkan bukti tersebut. Jika ada but atau however, periksa apakah pendapat utama berubah."
+      "text": "Contoh dan angka sering menjadi bukti; ide utama adalah gagasan yang menghubungkan bukti tersebut. Jika ada [[but]] atau [[however]], periksa apakah pendapat utama berubah."
     },
     {
       "type": "rule",
       "text": "Baca kalimat pertama, cari penghubung, rangkum paragraf dalam tujuh sampai sepuluh kata. Setelah itu baru periksa pilihan jawaban."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "subject",
+          "indonesian": "subjek"
+        },
+        {
+          "english": "main idea",
+          "indonesian": "gagasan utama"
+        },
+        {
+          "english": "however",
+          "indonesian": "namun"
+        },
+        {
+          "english": "therefore",
+          "indonesian": "oleh karena itu"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The dog chased the ball.",
+          "indonesian": "Anjing itu mengejar bola.",
+          "note": "[[Dog]] adalah pelaku; [[chased]] menyatakan tindakan; [[ball]] adalah sasaran."
+        },
+        {
+          "english": "The bridge is old.",
+          "indonesian": "Jembatan itu tua.",
+          "note": "[[Is]] [[old]] menjelaskan keadaan [[bridge]], bukan suatu tindakan."
+        },
+        {
+          "english": "The students opened their books.",
+          "indonesian": "Para siswa membuka buku mereka.",
+          "note": "Cari [[subject]] [[students]] dan [[verb]] [[opened]] sebelum melihat detail lainnya."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The dog chased the ball.",
+      "parts": [
+        {
+          "english": "The dog",
+          "meaning": "siapa yang dibicarakan"
+        },
+        {
+          "english": "chased",
+          "meaning": "apa yang dilakukan"
+        },
+        {
+          "english": "the ball",
+          "meaning": "apa yang menjadi sasaran"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The room was crowded, but everyone found a seat.",
+          "indonesian": "Ruangan penuh sesak, tetapi semua orang mendapat kursi.",
+          "note": "[[But]] menunjukkan dua informasi yang berlawanan."
+        },
+        {
+          "english": "It rained heavily; therefore, the match ended early.",
+          "indonesian": "Hujan turun deras; oleh karena itu, pertandingan selesai lebih awal.",
+          "note": "[[Therefore]] menandai akibat dari hujan."
+        },
+        {
+          "english": "The museum was free; however, few people visited.",
+          "indonesian": "Museum itu gratis; namun, hanya sedikit orang berkunjung.",
+          "note": "[[However]] menunjukkan hasil yang tidak sesuai dugaan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Every afternoon, volunteers read stories to younger children. The activity helps them enjoy books.",
+          "indonesian": "Setiap sore, relawan membacakan cerita untuk anak-anak yang lebih kecil. Kegiatan itu membantu mereka menyukai buku.",
+          "note": "Gagasan utama adalah kegiatan membaca yang membantu anak-anak, bukan hanya waktu sore."
+        },
+        {
+          "english": "The river flooded after heavy rain, so the school postponed its outdoor event.",
+          "indonesian": "Sungai meluap setelah hujan deras, sehingga sekolah menunda acara luar ruang.",
+          "note": "Hubungkan sebab [[heavy]] [[rain]] dan akibat [[postponed]] [[the]] [[event]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Mulailah dari [[subject]] dan [[verb]], lalu baca keterangan tambahan.",
+        "Kata penghubung seperti [[but]], [[however]], dan [[therefore]] menunjukkan hubungan gagasan.",
+        "Bedakan ide utama dari fakta kecil yang mendukungnya."
+      ]
     }
   ],
   "practice": [
@@ -51,7 +169,7 @@
         "under"
       ],
       "answer": 0,
-      "explanation": "Verb slept = tidur.",
+      "explanation": "[[Verb]] slept = tidur.",
       "translationId": {
         "prompt": "“The cat slept under the chair.” Apa kegiatan cat?"
       }
@@ -65,7 +183,7 @@
         "before"
       ],
       "answer": 0,
-      "explanation": "Therefore memperkenalkan akibat.",
+      "explanation": "[[Therefore]] memperkenalkan akibat.",
       "translationId": {
         "prompt": "“It rained. Therefore, the game stopped.” Therefore artinya …",
         "choices": [

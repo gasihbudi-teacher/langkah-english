@@ -29,7 +29,7 @@
     },
     {
       "type": "text",
-      "text": "Kesimpulan yang masuk akal adalah masih diperlukan bukti lain untuk memisahkan pengaruh jadwal buka hari Minggu. Menyatakan bahwa pembukaan hari Minggu menyebabkan seluruh peningkatan adalah klaim yang melampaui bukti. Kata but menandakan adanya informasi pembatas atau pembanding."
+      "text": "Kesimpulan yang masuk akal adalah masih diperlukan bukti lain untuk memisahkan pengaruh jadwal buka hari Minggu. Menyatakan bahwa pembukaan hari Minggu menyebabkan seluruh peningkatan adalah klaim yang melampaui bukti. Kata [[but]] menandakan adanya informasi pembatas atau pembanding."
     },
     {
       "type": "table",
@@ -93,6 +93,124 @@
       "incorrect": "Jumlah kunjungan meningkat, jadi perubahan jadwal pasti menjadi penyebabnya.",
       "correct": "Kunjungan meningkat, tetapi kegiatan lain juga mungkin berpengaruh.",
       "explanation": "Dua kejadian yang terjadi berdekatan waktunya belum tentu memiliki hubungan sebab-akibat."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "inference",
+          "indonesian": "simpulan tersirat"
+        },
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "cause",
+          "indonesian": "penyebab"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The café opens at six.",
+          "indonesian": "Kafe itu buka pukul enam.",
+          "note": "Informasi eksplisit: teks menyatakan jam buka langsung."
+        },
+        {
+          "english": "Amina borrowed two novels.",
+          "indonesian": "Amina meminjam dua novel.",
+          "note": "Pertanyaan detail dapat dijawab dari angka [[two]]."
+        },
+        {
+          "english": "The author discusses ways to reduce plastic waste.",
+          "indonesian": "Penulis membahas cara mengurangi sampah plastik.",
+          "note": "Kalimat ini merangkum topik, bukan contoh kecil."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The café opens at six.",
+      "parts": [
+        {
+          "english": "The café",
+          "meaning": "topik kalimat"
+        },
+        {
+          "english": "opens",
+          "meaning": "informasi tindakan"
+        },
+        {
+          "english": "at six",
+          "meaning": "detail waktu yang dapat diperiksa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The road was wet, so the driver slowed down.",
+          "indonesian": "Jalan basah, sehingga pengemudi memperlambat kendaraan.",
+          "note": "[[So]] memberi petunjuk hubungan sebab-akibat."
+        },
+        {
+          "english": "Many students joined, but some left early.",
+          "indonesian": "Banyak siswa bergabung, tetapi beberapa pulang lebih awal.",
+          "note": "[[But]] memperkenalkan informasi pembatas."
+        },
+        {
+          "english": "The results suggest a benefit; they do not prove it.",
+          "indonesian": "Hasilnya mengisyaratkan manfaat; hasil itu tidak membuktikannya.",
+          "note": "[[Suggest]] berbeda dari [[prove]] dalam tingkat kepastian."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "A report says attendance improved after a new timetable, but no comparison group was studied.",
+          "indonesian": "Laporan menyatakan kehadiran meningkat setelah jadwal baru, tetapi tidak ada kelompok pembanding yang diteliti.",
+          "note": "Jawaban kuat mengakui peningkatan tanpa memastikan penyebabnya."
+        },
+        {
+          "english": "Although three participants liked the app, the article concludes only that those participants reacted positively.",
+          "indonesian": "Walaupun tiga peserta menyukai aplikasi itu, artikel hanya menyimpulkan bahwa peserta tersebut bereaksi positif.",
+          "note": "Kesimpulan tidak boleh meluas menjadi semua pengguna menyukai aplikasi."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Identifikasi topik dan ide utama sebelum mengevaluasi pilihan jawaban.",
+        "Cari bukti teks yang jelas untuk tiap jawaban.",
+        "Jangan menyimpulkan sebab-akibat hanya dari urutan peristiwa."
+      ]
     }
   ],
   "practice": [
@@ -105,7 +223,7 @@
         "The redesign had no effect."
       ],
       "answer": 1,
-      "explanation": "Although memperkenalkan faktor lain yang mungkin berpengaruh. Teks belum membuktikan bahwa perubahan desain merupakan satu-satunya penyebab.",
+      "explanation": "[[Although]] memperkenalkan faktor lain yang mungkin berpengaruh. Teks belum membuktikan bahwa perubahan desain merupakan satu-satunya penyebab.",
       "translationId": {
         "prompt": "Sebuah teks menyatakan: “Sales rose after a redesign, although prices also fell.” Kesimpulan mana yang didukung teks?",
         "choices": [

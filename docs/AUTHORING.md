@@ -54,6 +54,42 @@ This is an authoring example, not a published starter resource. Place its lesson
 
 IDs in assessments must resolve to existing catalog quizzes. Related resources use relatedLessons in metadata, not hard-coded HTML links. All block values are plain text. Optional Indonesian text is supported on text blocks. Repeat text, example and rule blocks as needed. Short assessments are reusable quiz links; embedded practice gives immediate feedback without recording an examination attempt. Lesson completion is a deliberate student action, not a claim that the learner mastered the topic.
 
+## V6 bilingual formatting and structured teaching blocks
+
+In **Indonesian explanation fields only**, surround literal English terminology with `[[...]]`; the renderer escapes the data then applies blue/italic `<span lang="en">` styling. For example, `"Dalam [[Simple Present]], [[she]] memakai [[verb]] dengan -s."` is safe and is distinguishable from Indonesian words. **Do not** use HTML `<em>` or `<span>` in JSON. Do not wrap complete English example sentences: they have their own `<p lang="en">` and are not translated automatically. Explanations and notes default to Indonesian, regardless of the interface language.
+
+The new JSON block shapes are illustrated below. These blocks are supported in `data/schemas/lesson.schema.json` and rendered by `js/core.js`. Lessons can still use older headings, tables, rules, examples and mistake blocks.
+
+```json
+{
+  "type": "example_group",
+  "title": "1 · Contoh dasar",
+  "collapsed": false,
+  "items": [
+    {"english": "She reads every day.", "indonesian": "Dia membaca setiap hari.", "note": "Karena [[she]] tunggal, kata kerja [[read]] mendapat -s."},
+    {"english": "They read every day.", "indonesian": "Mereka membaca setiap hari.", "note": "Untuk [[they]], gunakan [[read]] tanpa -s."}
+  ]
+}
+```
+
+Use `collapsed:true` for the optional longer-example group (rendered with a native accessible `<details>` element, initially closed). Typically provide at least 3 basics, 3 contrasts, and 2 contextual examples per lesson; verify every English sentence, translation, and teaching note individually.
+
+```json
+{"type":"vocabulary","title":"Bekal kosakata","items":[{"english":"habit","indonesian":"kebiasaan"}]}
+```
+
+```json
+{"type":"breakdown","sentence":"She reads every day.","parts":[{"english":"She","meaning":"[[subject]] tunggal"},{"english":"reads","meaning":"kata kerja berakhiran -s"},{"english":"every day","meaning":"keterangan frekuensi"}]}
+```
+
+```json
+{"type":"summary","title":"Yang perlu kamu ingat","items":["Cari [[subject]] sebelum menentukan bentuk kata kerja.","Periksa waktu yang dimaksud."]}
+```
+
+**Preserve English-first assessments:** `practice[].prompt` and `practice[].choices[]` must remain entirely English; `practice[].translationId.prompt` is the optional Indonesian hint that starts collapsed. `practice[].explanation` may contain `[[term]]` markers for the feedback display; never reveal the answer in a translation. The quiz engine's JSON contract is unchanged.
+
+After changing lesson content, run `python tools/validate.py`, `node tests/v6-quality.mjs`, and all prior `tests/*.mjs`, then preview on desktop and mobile. Human teaching review is essential; automatic validation cannot verify that examples are pedagogically sound.
+
 ## Quiz format
 
 ```json

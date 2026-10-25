@@ -12,12 +12,12 @@
     },
     {
       "type": "text",
-      "text": "Analytical exposition menyampaikan sebuah pendapat (thesis), alasan pendukung (arguments), lalu penegasan kembali (reiteration). Pembaca harus memeriksa kekuatan bukti, bukan hanya kata yang terdengar yakin."
+      "text": "[[Analytical exposition]] menyampaikan sebuah pendapat ([[thesis]]), alasan pendukung ([[arguments]]), lalu penegasan kembali ([[reiteration]]). Pembaca harus memeriksa kekuatan bukti, bukan hanya kata yang terdengar yakin."
     },
     {
       "type": "example",
       "text": "Schools should provide more shaded outdoor spaces. Shade can make break times more comfortable, and greenery may support biodiversity. Therefore, planners should consider shaded spaces when improving campuses.",
-      "note": "Thesis: shaded spaces; arguments: comfort and biodiversity; reiteration: planners should consider."
+      "note": "[[Thesis]]: [[shaded]] [[spaces]]; [[arguments]]: comfort [[and]] [[biodiversity]]; [[reiteration]]: [[planners]] [[should]] [[consider]]."
     },
     {
       "type": "subheading",
@@ -25,11 +25,129 @@
     },
     {
       "type": "text",
-      "text": "Kalimat “shade can make breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata should menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
+      "text": "Kalimat “shade [[can]] make breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata [[should]] menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
     },
     {
       "type": "rule",
       "text": "Pertanyaan berpikir kritis: bukti apa yang disediakan, seberapa luas cakupannya, dan apakah ada penjelasan alternatif?"
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "thesis",
+          "indonesian": "pendapat utama"
+        },
+        {
+          "english": "argument",
+          "indonesian": "alasan pendukung"
+        },
+        {
+          "english": "should",
+          "indonesian": "sebaiknya"
+        },
+        {
+          "english": "however",
+          "indonesian": "namun"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Students should read daily.",
+          "indonesian": "Siswa sebaiknya membaca setiap hari.",
+          "note": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+        },
+        {
+          "english": "Reading develops vocabulary.",
+          "indonesian": "Membaca mengembangkan kosakata.",
+          "note": "Ini alasan yang dapat mendukung [[thesis]]."
+        },
+        {
+          "english": "Therefore, schools should provide reading time.",
+          "indonesian": "Karena itu, sekolah sebaiknya menyediakan waktu membaca.",
+          "note": "[[Therefore]] mengantar rekomendasi atau kesimpulan."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Students should read daily.",
+      "parts": [
+        {
+          "english": "Students",
+          "meaning": "kelompok yang dibicarakan"
+        },
+        {
+          "english": "should read",
+          "meaning": "saran atau posisi"
+        },
+        {
+          "english": "daily",
+          "meaning": "frekuensi"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Some students prefer printed books.",
+          "indonesian": "Sebagian siswa lebih menyukai buku cetak.",
+          "note": "[[Some]] membatasi klaim: bukan semua siswa."
+        },
+        {
+          "english": "A small survey found mixed preferences.",
+          "indonesian": "Survei kecil menemukan preferensi yang beragam.",
+          "note": "Bukti terbatas tidak boleh diterapkan ke semua sekolah."
+        },
+        {
+          "english": "However, access to books remains important.",
+          "indonesian": "Namun, akses ke buku tetap penting.",
+          "note": "[[However]] menunjukkan kontras dengan informasi sebelumnya."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Schools should create quiet reading corners because noise can make sustained reading difficult.",
+          "indonesian": "Sekolah sebaiknya membuat sudut baca yang tenang karena kebisingan dapat menyulitkan membaca berkelanjutan.",
+          "note": "Pernyataan pendapat diikuti alasan yang masih memerlukan bukti relevan."
+        },
+        {
+          "english": "Although online materials can be convenient, students without stable internet may need printed alternatives.",
+          "indonesian": "Walaupun materi daring bisa praktis, siswa tanpa internet stabil mungkin membutuhkan bahan cetak.",
+          "note": "[[Although]] memperkenalkan keberatan atau batasan agar argumen lebih seimbang."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Analytical exposition]] memiliki posisi, alasan, dan penegasan kesimpulan.",
+        "Periksa apakah alasan didukung bukti relevan.",
+        "Bedakan kata pendapat seperti [[should]] dari fakta yang telah terbukti."
+      ]
     }
   ],
   "practice": [
@@ -42,7 +160,7 @@
         "Reiteration"
       ],
       "answer": 0,
-      "explanation": "Thesis menyatakan posisi di awal teks.",
+      "explanation": "[[Thesis]] menyatakan posisi di awal teks.",
       "translationId": {
         "prompt": "Kalimat yang memperkenalkan posisi penulis disebut …"
       }
@@ -56,7 +174,7 @@
         "a new character"
       ],
       "answer": 0,
-      "explanation": "Therefore menandai simpulan dari argumen.",
+      "explanation": "[[Therefore]] menandai simpulan dari argumen.",
       "translationId": {
         "prompt": "“Therefore” paling sering memperkenalkan …",
         "choices": [

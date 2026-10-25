@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Mixed conditionals menghubungkan kondisi masa lalu dengan akibat sekarang, dan inversi kondisional dapat menghilangkan if dalam gaya formal."
+      "text": "Mixed conditionals menghubungkan kondisi masa lalu dengan akibat sekarang, dan inversi kondisional dapat menghilangkan [[if]] dalam gaya formal."
     },
     {
       "type": "rule",
-      "text": "If + past perfect, would + base form (akibat kini); Had + subject + V3, ... = If + subject + had + V3."
+      "text": "[[If]] + [[past perfect]], [[would]] + base form (akibat kini); [[Had]] + [[subject]] + [[V3]], ... = [[If]] + [[subject]] + [[had]] + [[V3]]."
     },
     {
       "type": "subheading",
@@ -30,7 +30,7 @@
     {
       "type": "example",
       "text": "Had I known, I would have called.",
-      "note": "Inversion — Setara dengan If I had known, ..."
+      "note": "[[Inversion]] — Setara dengan [[If]] [[I]] [[had]] [[known]], ..."
     },
     {
       "type": "subheading",
@@ -40,11 +40,125 @@
       "type": "mistake",
       "incorrect": "Had I knew, I would call.",
       "correct": "Had I known, I would have called.",
-      "explanation": "Inversi bentuk lampau sempurna: had + subject + V3."
+      "explanation": "Inversi bentuk lampau sempurna: [[had]] + [[subject]] + [[V3]]."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "had known",
+          "indonesian": "seandainya tahu"
+        },
+        {
+          "english": "would have",
+          "indonesian": "akan telah (hipotetis)"
+        },
+        {
+          "english": "were",
+          "indonesian": "seandainya"
+        },
+        {
+          "english": "regret",
+          "indonesian": "penyesalan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "If I had known, I would have called.",
+          "indonesian": "Jika saya tahu saat itu, saya pasti sudah menelepon.",
+          "note": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
+        },
+        {
+          "english": "If she had studied, she would have passed.",
+          "indonesian": "Jika dia belajar waktu itu, dia akan lulus.",
+          "note": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
+        },
+        {
+          "english": "If it were warmer now, we would go outside.",
+          "indonesian": "Jika sekarang lebih hangat, kami akan keluar.",
+          "note": "[[Second conditional]] membahas situasi kini yang imajiner."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "If I had known, I would have called.",
+      "parts": [
+        {
+          "english": "If I had known",
+          "meaning": "syarat masa lalu yang tidak terjadi"
+        },
+        {
+          "english": "I would have called",
+          "meaning": "akibat lampau hipotetis"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "If he had slept earlier, he would feel better now.",
+          "indonesian": "Jika dia tidur lebih awal semalam, sekarang dia akan merasa lebih baik.",
+          "note": "[[Mixed conditional]]: kondisi masa lalu, akibat sekarang."
+        },
+        {
+          "english": "If I were more organised, I would have submitted it yesterday.",
+          "indonesian": "Jika saya lebih teratur, kemarin saya mungkin sudah mengumpulkannya.",
+          "note": "[[Mixed conditional]]: kondisi umum/kini, akibat masa lampau."
+        },
+        {
+          "english": "Had I known about the delay, I would have left later.",
+          "indonesian": "Seandainya saya tahu ada keterlambatan, saya akan berangkat lebih lambat.",
+          "note": "[[Had]] [[I]] [[known]] adalah [[inversion]] dari [[if]] [[I]] [[had]] [[known]]."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "If the team had tested the system before launch, fewer users would have encountered errors.",
+          "indonesian": "Jika tim menguji sistem sebelum peluncuran, lebih sedikit pengguna yang mungkin mengalami galat.",
+          "note": "Kondisi lampau yang tidak terpenuhi menjelaskan konsekuensi alternatif lampau."
+        },
+        {
+          "english": "Were the instructions clearer, more students would complete the task independently.",
+          "indonesian": "Jika instruksinya lebih jelas, lebih banyak siswa akan menyelesaikan tugas secara mandiri.",
+          "note": "[[Were]] di awal menggantikan [[if]] pada kondisi hipotetis formal."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Third conditional]] menyatakan kondisi dan akibat lampau yang tidak terjadi.",
+        "[[Mixed conditional]] dapat menghubungkan kondisi lampau dengan akibat sekarang.",
+        "Bentuk [[had]]/[[were]] di awal dapat menggantikan [[if]] dalam gaya formal."
+      ]
     }
   ],
   "practice": [
@@ -57,7 +171,7 @@
         "had felt"
       ],
       "answer": 0,
-      "explanation": "Akibat kini dari syarat lampau: would + V1.",
+      "explanation": "Akibat kini dari syarat lampau: [[would]] + [[V1]].",
       "translationId": {
         "prompt": "Jika dahulu ia berlatih, sekarang ia ___ lebih percaya diri."
       }
@@ -71,7 +185,7 @@
         "If had we left earlier, we would arrive."
       ],
       "answer": 0,
-      "explanation": "Had + subject + V3 dengan hasil past conditional.",
+      "explanation": "[[Had]] + [[subject]] + [[V3]] dengan hasil [[past]] conditional.",
       "translationId": {
         "prompt": "Pilih kalimat inversi conditional yang benar."
       }
@@ -85,7 +199,7 @@
         "was"
       ],
       "answer": 0,
-      "explanation": "Mixed conditional hasil saat ini: would be.",
+      "explanation": "[[Mixed conditional]] hasil saat ini: [[would]] [[be]].",
       "translationId": {
         "prompt": "Jika dahulu ia berhasil naik bus, sekarang ia ___ di sini."
       }

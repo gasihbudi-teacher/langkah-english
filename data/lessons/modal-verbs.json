@@ -1,7 +1,7 @@
 {
   "id": "modal-verbs",
   "objectives": [
-    "Memahami dan memakai modal verbs dalam kalimat dan teks berbahasa Inggris.",
+    "Memahami dan memakai [[modal]] [[verbs]] dalam kalimat dan teks berbahasa Inggris.",
     "Menerapkan materi melalui contoh dan latihan singkat.",
     "Memeriksa jawaban dan memperbaiki kesalahan umum."
   ],
@@ -12,11 +12,11 @@
     },
     {
       "type": "text",
-      "text": "Modal verbs mengekspresikan kemampuan, kewajiban, saran, dan kemungkinan sesuai konteks."
+      "text": "[[Modal]] [[verbs]] mengekspresikan kemampuan, kewajiban, saran, dan kemungkinan sesuai konteks."
     },
     {
       "type": "rule",
-      "text": "Modal + base verb; must not = larangan; do not have to = tidak wajib."
+      "text": "[[Modal]] + base [[verb]]; [[must not]] = larangan; [[do not have to]] = tidak wajib."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "Rani can swim.",
-      "note": "Ability — Can mengungkap kemampuan."
+      "note": "Ability — [[Can]] mengungkap kemampuan."
     },
     {
       "type": "example",
       "text": "You should check the source.",
-      "note": "Advice — Should menyatakan saran."
+      "note": "Advice — [[Should]] menyatakan saran."
     },
     {
       "type": "example",
       "text": "It might rain tonight.",
-      "note": "Possibility — Might tidak memberi kepastian."
+      "note": "Possibility — [[Might]] tidak memberi kepastian."
     },
     {
       "type": "subheading",
@@ -45,11 +45,133 @@
       "type": "mistake",
       "incorrect": "She can speaks French.",
       "correct": "She can speak French.",
-      "explanation": "Setelah modal, gunakan bentuk dasar speak."
+      "explanation": "Setelah [[modal]], gunakan bentuk dasar speak."
     },
     {
       "type": "text",
       "text": "Strategi latihan: baca seluruh kalimat, tandai petunjuk waktu atau hubungan makna, lalu pilih bentuk yang paling tepat. Setelah menjawab, jelaskan alasannya dengan kata-katamu sendiri."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "ability",
+          "indonesian": "kemampuan"
+        },
+        {
+          "english": "permission",
+          "indonesian": "izin"
+        },
+        {
+          "english": "obligation",
+          "indonesian": "kewajiban"
+        },
+        {
+          "english": "possibility",
+          "indonesian": "kemungkinan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "You can swim here.",
+          "indonesian": "Kamu boleh berenang di sini.",
+          "note": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks."
+        },
+        {
+          "english": "You must wear a helmet.",
+          "indonesian": "Kamu harus memakai helm.",
+          "note": "[[Must]] menyatakan kewajiban yang kuat."
+        },
+        {
+          "english": "You should rest.",
+          "indonesian": "Kamu sebaiknya beristirahat.",
+          "note": "[[Should]] memberi saran, bukan perintah mutlak."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "You can swim here.",
+      "parts": [
+        {
+          "english": "You",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "can",
+          "meaning": "[[modal]] yang memberi izin atau kemampuan"
+        },
+        {
+          "english": "swim",
+          "meaning": "[[verb]] dasar"
+        },
+        {
+          "english": "here",
+          "meaning": "keterangan tempat"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "You must not park here.",
+          "indonesian": "Kamu dilarang parkir di sini.",
+          "note": "[[Must not]] berarti larangan."
+        },
+        {
+          "english": "You do not have to come early.",
+          "indonesian": "Kamu tidak wajib datang lebih awal.",
+          "note": "[[Do not have to]] berarti tidak wajib, berbeda dari larangan."
+        },
+        {
+          "english": "She can speak English, but she cannot read Japanese.",
+          "indonesian": "Dia bisa berbicara bahasa Inggris, tetapi tidak bisa membaca bahasa Jepang.",
+          "note": "[[Can]] dan [[cannot]] menunjukkan kemampuan yang berbeda."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Students should check the evidence before accepting a claim.",
+          "indonesian": "Siswa sebaiknya memeriksa bukti sebelum menerima suatu klaim.",
+          "note": "[[Should]] menyarankan langkah berpikir kritis."
+        },
+        {
+          "english": "The experiment might fail if the equipment is not calibrated correctly.",
+          "indonesian": "Eksperimen mungkin gagal jika alat tidak dikalibrasi dengan benar.",
+          "note": "[[Might]] menunjukkan kemungkinan, bukan kepastian."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Sesudah [[modal]], gunakan [[verb]] dasar tanpa [[-s]].",
+        "[[Must not]] berarti dilarang, sedangkan [[do not have to]] berarti tidak wajib.",
+        "Bedakan [[can]], [[might]], [[should]], dan [[must]] berdasarkan makna, bukan hanya bentuk."
+      ]
     }
   ],
   "practice": [
@@ -76,7 +198,7 @@
         "can not to"
       ],
       "answer": 0,
-      "explanation": "Might menandakan kemungkinan, bukan kepastian.",
+      "explanation": "[[Might]] menandakan kemungkinan, bukan kepastian.",
       "translationId": {
         "prompt": "Besok mungkin ___ dingin; ramalannya belum pasti."
       }

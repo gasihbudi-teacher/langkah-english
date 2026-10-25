@@ -51,3 +51,34 @@
 /* V5: focused topic lists, one-page search and accessible optional translations */
 .pathway-sections{display:grid;gap:28px}.topic-section{scroll-margin-top:100px}.topic-section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 15px}.topic-section-head h2{margin:0}.simple-resources{list-style:none;padding:0;margin:0;display:grid;gap:10px}.simple-resource{background:#fff;border:1px solid var(--border,#d9e3ec);border-radius:15px;padding:17px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px}.simple-resource h3{margin:0 0 6px;font-size:17px}.simple-resource h3 a{text-decoration:none;color:inherit}.simple-resource h3 a:hover,.simple-resource h3 a:focus-visible{text-decoration:underline}.simple-resource p{font-size:13px;margin:0 0 9px}.simple-resource .resource-meta{display:flex;gap:10px;align-items:center}.simple-arrow{font-size:22px;flex-shrink:0}.directory-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.directory-links a{background:#fff;border-radius:14px;padding:24px;border:1px solid #d6e0e8;display:flex;justify-content:space-between;gap:12px}.search-screen{max-width:1000px;margin:auto}.search-screen label{font-weight:750;display:block;margin-bottom:10px}.search-screen input{font:inherit;padding:16px 18px;border-radius:14px;border:2px solid #aebdcb;width:100%;background:#fff}.search-screen input:focus{outline:3px solid #f7d985;outline-offset:2px}.search-screen #search-count{margin:20px 0}.search-screen .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.translation-detail{background:#f6f9fc;border:1px solid #d9e7f0;border-radius:10px;padding:9px 13px;margin:14px 0;color:#223a50}.translation-detail summary{cursor:pointer;font-size:13px;font-weight:750;list-style-position:inside;touch-action:manipulation}.translation-detail[open] summary{margin-bottom:10px}.translation-detail p{margin:6px 0;font-size:13px;line-height:1.7}.translation-detail ol{padding-left:27px;margin:8px 0}.translation-detail li{margin:6px 0}.translation-note{font-size:12px;color:#5b7088}.quiz-language-note{background:#eaf7f0;border-left:4px solid #338e72;border-radius:9px;padding:13px 17px;margin:14px 0}.diagnostic-recommendations{margin-top:17px}.diagnostic-recommendations li{margin:10px 0}.diagnostic-recommendations a{font-weight:750}.review .translation-detail{margin:15px 0}.choices .choice{white-space:normal;text-align:left}
 @media(max-width:740px){.directory-links,.search-screen .resource-grid{grid-template-columns:1fr}.simple-resource{padding:13px}.simple-resource h3{font-size:16px}.topic-section-head{flex-wrap:wrap}}
+
+/* V6: calm, explicit bilingual teaching typography and many worked examples. */
+.english-term{color:#254c9a;background:#e9efff;font-weight:740;font-style:italic;border-radius:.24em;padding:.04em .23em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.language-legend{padding:13px 18px;background:#f1f6ff;border:1px solid #d6e2fb;border-radius:12px;line-height:1.75;color:#30445f;font-size:14px}
+.example-section,.vocab-section,.sentence-breakdown{margin:22px 0 30px;scroll-margin-top:80px}
+.article-body .example-section h3,.article-body .vocab-section h3,.article-body .sentence-breakdown h3{margin-bottom:14px}
+.worked-examples{padding:0;margin:0;list-style:none;display:grid;gap:12px;counter-reset:worked}
+.worked-example{background:#fff;border:1px solid #dbe3f1;border-left:5px solid #7684d8;padding:17px 19px;border-radius:12px;overflow-wrap:anywhere}
+.example-index{display:inline-block;color:#536c90;font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:800;margin-bottom:6px}
+.article-body .worked-example p{margin:6px 0;line-height:1.65}
+.article-body .worked-example .example-english,.example-english{color:#1b3558;font-size:18px;line-height:1.65;font-weight:720;letter-spacing:.01em}
+.article-body .worked-example .example-id{color:#2f5873;font-size:14px}
+.article-body .worked-example .example-reason{color:#3b4b64;font-size:14px;background:#f5f8fd;padding:9px 12px;border-radius:8px;margin-top:9px}
+.example-label{font-weight:750;color:#294269}
+.vocab-grid,.breakdown-grid{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.vocab-pair,.breakdown-grid>div{margin:0;border:1px solid #dce6ef;border-radius:10px;padding:10px 14px;background:#f9fbff}
+.vocab-pair dt,.breakdown-grid dt{color:#2d51a1;font-style:italic;font-weight:780;margin-bottom:5px}
+.vocab-pair dd,.breakdown-grid dd{color:#4b5d72;margin:0;font-size:14px;line-height:1.6}
+.sentence-breakdown{padding:17px 20px;background:#eff8f4;border:1px solid #cce6dc;border-radius:14px}
+.sentence-breakdown .example-english{margin:4px 0 12px}
+.sentence-breakdown .breakdown-grid>div{background:#fff;border-color:#d9e8e1}
+.more-examples{margin:22px 0;padding:16px 18px;background:#f6f7ff;border-radius:12px;border:1px solid #d7ddf4}
+.more-examples>summary{cursor:pointer;color:#2b4b8e;font-weight:780;line-height:1.5}
+.more-examples[open]>summary{margin-bottom:18px}
+.more-examples>summary:hover,.more-examples>summary:focus-visible{text-decoration:underline}
+.lesson-summary{padding:21px 25px;margin:25px 0 30px;background:#eaf6ee;border:1px solid #c5e4ce;border-left:5px solid #319168;border-radius:13px}
+.lesson-summary h3{margin:0 0 9px!important;color:#1c6544}
+.lesson-summary ul{margin:0;padding-left:21px}.lesson-summary li{margin:7px 0;line-height:1.7}
+.legacy-example>span[lang="en"]{color:#244876}
+@media(max-width:650px){.vocab-grid,.breakdown-grid{grid-template-columns:1fr}.worked-example{padding:13px 14px}.article-body .worked-example .example-english{font-size:16px}.lesson-summary{padding:16px 18px}.sentence-breakdown{padding:14px}}
+@media(forced-colors:active){.english-term{border:1px solid currentColor}}

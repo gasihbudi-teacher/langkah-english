@@ -16,7 +16,7 @@
     },
     {
       "type": "rule",
-      "text": "Negative adverbial di depan + auxiliary + subject + main verb. Jika tidak ada auxiliary, gunakan do/does/did."
+      "text": "Negative adverbial di depan + [[auxiliary]] + [[subject]] + [[main]] [[verb]]. Jika tidak ada [[auxiliary]], gunakan [[do/does]]/[[did]]."
     },
     {
       "type": "subheading",
@@ -25,17 +25,17 @@
     {
       "type": "example",
       "text": "Rarely have I seen such clear evidence.",
-      "note": "Rarely di awal memicu have + I."
+      "note": "[[Rarely]] di awal memicu [[have]] + [[I]]."
     },
     {
       "type": "example",
       "text": "Not only did she explain the method, but she also tested it.",
-      "note": "Not only di awal klausa menyebabkan did she explain."
+      "note": "[[Not only]] di awal klausa menyebabkan [[did]] [[she]] [[explain]]."
     },
     {
       "type": "example",
       "text": "Never was the room completely silent.",
-      "note": "Dengan be, inversi terjadi antara was dan subjek."
+      "note": "Dengan [[be]], inversi terjadi antara [[was]] dan subjek."
     },
     {
       "type": "subheading",
@@ -45,11 +45,129 @@
       "type": "mistake",
       "incorrect": "Never I have read this article.",
       "correct": "Never have I read this article.",
-      "explanation": "Never di awal memicu inversi auxiliary have sebelum subject."
+      "explanation": "[[Never]] di awal memicu inversi [[auxiliary]] [[have]] sebelum [[subject]]."
     },
     {
       "type": "text",
       "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata",
+      "items": [
+        {
+          "english": "never",
+          "indonesian": "tidak pernah"
+        },
+        {
+          "english": "rarely",
+          "indonesian": "jarang"
+        },
+        {
+          "english": "only then",
+          "indonesian": "baru saat itu"
+        },
+        {
+          "english": "formal",
+          "indonesian": "resmi"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I have never seen that painting.",
+          "indonesian": "Saya belum pernah melihat lukisan itu.",
+          "note": "Urutan biasa: [[subject]] diikuti [[auxiliary]]."
+        },
+        {
+          "english": "Never have I seen that painting.",
+          "indonesian": "Belum pernah saya melihat lukisan itu.",
+          "note": "[[Never]] di depan memicu [[auxiliary]] [[have]] sebelum [[subject]] [[I]]."
+        },
+        {
+          "english": "She rarely misses a class.",
+          "indonesian": "Dia jarang melewatkan pelajaran.",
+          "note": "Urutan biasa tanpa [[inversion]]."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I have never seen that painting.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "[[subject]]"
+        },
+        {
+          "english": "have never seen",
+          "meaning": "[[auxiliary]] dan keterangan negatif"
+        },
+        {
+          "english": "that painting",
+          "meaning": "[[object]]"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Rarely does she miss a class.",
+          "indonesian": "Jarang sekali dia melewatkan pelajaran.",
+          "note": "[[Rarely]] di depan memakai [[does]] + [[subject]] + [[verb]] dasar."
+        },
+        {
+          "english": "We understood the problem only then.",
+          "indonesian": "Baru saat itu kami memahami masalahnya.",
+          "note": "[[Only then]] di akhir tidak mengubah urutan."
+        },
+        {
+          "english": "Only then did we understand the problem.",
+          "indonesian": "Baru saat itu kami memahami masalahnya.",
+          "note": "[[Only then]] di awal memicu [[did]] + [[subject]] + [[verb]] dasar."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Not only did the team finish early, but it also checked every answer.",
+          "indonesian": "Tim tidak hanya selesai lebih awal, tetapi juga memeriksa setiap jawaban.",
+          "note": "[[Not only]] di depan klausa memicu [[inversion]]."
+        },
+        {
+          "english": "Under no circumstances should students share their passwords.",
+          "indonesian": "Dalam keadaan apa pun siswa tidak boleh membagikan kata sandi.",
+          "note": "Frasa negatif di depan menyebabkan [[auxiliary]] [[should]] mendahului [[subject]]."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Beberapa kata/ungkapan negatif di depan kalimat memicu [[auxiliary]] sebelum [[subject]].",
+        "Jika tidak ada [[auxiliary]], gunakan [[do/does]]/[[did]] yang tepat.",
+        "[[Inversion]] memberi penekanan dan biasanya lebih formal."
+      ]
     }
   ],
   "practice": [
@@ -62,7 +180,7 @@
         "Rarely had heard I that."
       ],
       "answer": 1,
-      "explanation": "Rarely + auxiliary + subject + V3.",
+      "explanation": "[[Rarely]] + [[auxiliary]] + [[subject]] + [[V3]].",
       "translationId": {
         "prompt": "Pilih inversi yang benar."
       }
@@ -76,7 +194,7 @@
         "was"
       ],
       "answer": 0,
-      "explanation": "Did memicu bentuk dasar arrive.",
+      "explanation": "[[Did]] memicu bentuk dasar arrive.",
       "translationId": {
         "prompt": "Dia tidak hanya ___ datang lebih awal, tetapi juga membantu."
       }
@@ -90,7 +208,7 @@
         "is"
       ],
       "answer": 0,
-      "explanation": "Present perfect inversion: has she been.",
+      "explanation": "[[Present perfect]] [[inversion]]: [[has]] [[she]] been.",
       "translationId": {
         "prompt": "Belum pernah ___ dia seyakin ini."
       }
