@@ -1,0 +1,111 @@
+{
+  "id": "utbk-science-evidence-practice",
+  "questionCount": 4,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "text-science-evidence",
+      "title": "UTBK Lab: Reading Scientific Evidence",
+      "text": "A school research team tested two methods of growing spinach. Ten pots received water once each morning, while ten other pots received water in the morning and afternoon. After four weeks, the second group was taller on average. However, the second group also stood beside a brighter window. Some students wanted to conclude that watering twice a day caused faster growth. Their teacher disagreed: the groups differed in sunlight as well as watering frequency. The team proposed repeating the study with both groups receiving the same amount of light. The initial result was useful as an observation, but not enough to identify a single cause.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which conclusion is best supported by the passage?",
+      "choices": [
+        "Morning watering always harms plants",
+        "Sunlight has no effect on plants",
+        "The experiment proved daily water never matters",
+        "One group grew taller, but the cause is not yet established"
+      ],
+      "answer": 3,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Kesimpulan apa yang paling didukung?",
+        "choices": [
+          "Penyiraman pagi selalu merusak tanaman",
+          "Sinar matahari tidak berpengaruh pada tanaman",
+          "Percobaan membuktikan air harian tidak penting",
+          "Satu kelompok tumbuh lebih tinggi, tetapi penyebabnya belum dipastikan"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-science-evidence",
+      "evidence": "A school research team tested two methods of growing spinach."
+    },
+    {
+      "id": "q2",
+      "prompt": "What else differed between the two groups?",
+      "choices": [
+        "Sunlight exposure",
+        "Type of spinach",
+        "Number of pots",
+        "Length of study"
+      ],
+      "answer": 0,
+      "explanation": "Kondisi sinar matahari tidak sama.",
+      "translationId": {
+        "prompt": "Apa perbedaan lain antara dua kelompok?",
+        "choices": [
+          "Paparan sinar matahari",
+          "Jenis bayam",
+          "Jumlah pot",
+          "Lama penelitian"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-science-evidence",
+      "evidence": "the second group also stood beside a brighter window"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why did the teacher reject a causal conclusion?",
+      "choices": [
+        "The plants did not grow at all",
+        "Water and sunlight both differed across groups",
+        "Only one variable changed",
+        "The students measured no heights"
+      ],
+      "answer": 1,
+      "explanation": "Perbedaan air dan cahaya menghambat penetapan penyebab tunggal.",
+      "translationId": {
+        "prompt": "Mengapa guru menolak kesimpulan sebab-akibat?",
+        "choices": [
+          "Tanaman sama sekali tidak tumbuh",
+          "Air dan sinar matahari sama-sama berbeda antarkelompok",
+          "Hanya satu variabel berubah",
+          "Siswa tidak mengukur tinggi"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-science-evidence",
+      "evidence": "the groups differed in sunlight as well as watering frequency"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which new study would best address the limitation?",
+      "choices": [
+        "Remove all water from both groups",
+        "Stop measuring plants",
+        "Use equal sunlight in both groups",
+        "Use different windows again"
+      ],
+      "answer": 2,
+      "explanation": "Menyamakan cahaya membuat perbandingan frekuensi air lebih masuk akal.",
+      "translationId": {
+        "prompt": "Penelitian baru mana paling mengatasi keterbatasan?",
+        "choices": [
+          "Menghapus semua air di dua kelompok",
+          "Berhenti mengukur tanaman",
+          "Menggunakan sinar matahari sama di dua kelompok",
+          "Menggunakan jendela berbeda lagi"
+        ]
+      },
+      "skill": "Evaluating Methods",
+      "passageId": "text-science-evidence",
+      "evidence": "both groups receiving the same amount of light"
+    }
+  ]
+}

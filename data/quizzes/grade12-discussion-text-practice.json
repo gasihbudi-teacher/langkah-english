@@ -1,0 +1,111 @@
+{
+  "id": "grade12-discussion-text-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-discussion-text",
+      "title": "Discussion Text: Weighing Two Sides",
+      "text": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which statement best summarises the discussion?",
+      "choices": [
+        "Private cars are always the fastest choice",
+        "Lower-emission travel has benefits, but students’ situations differ",
+        "Every student lives within walking distance",
+        "Buses have no role in school travel"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Pernyataan mana merangkum diskusi?",
+        "choices": [
+          "Mobil pribadi selalu paling cepat",
+          "Perjalanan dengan emisi lebih rendah bermanfaat, tetapi situasi siswa berbeda",
+          "Semua siswa tinggal dekat sekolah",
+          "Bus tidak berperan dalam perjalanan sekolah"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-discussion-text",
+      "evidence": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates."
+    },
+    {
+      "id": "q2",
+      "prompt": "What benefit do supporters mention?",
+      "choices": [
+        "More traffic at school gates",
+        "Longer homework hours",
+        "Guaranteed good weather",
+        "Potentially lower transport emissions"
+      ],
+      "answer": 3,
+      "explanation": "Alasan pendukung menyebut pengurangan sebagian emisi.",
+      "translationId": {
+        "prompt": "Manfaat apa yang disebut pendukung?",
+        "choices": [
+          "Lebih banyak kemacetan gerbang sekolah",
+          "Jam pekerjaan rumah lebih panjang",
+          "Cuaca bagus yang terjamin",
+          "Potensi emisi transportasi lebih rendah"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-discussion-text",
+      "evidence": "can reduce some transport emissions"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which concern belongs to critics?",
+      "choices": [
+        "Unsafe routes can make alternatives difficult",
+        "Bicycles need parking",
+        "Walking can ease traffic",
+        "School gates are near roads"
+      ],
+      "answer": 0,
+      "explanation": "Pengkritik menyoroti jarak, cuaca, dan keamanan jalur.",
+      "translationId": {
+        "prompt": "Kekhawatiran mana berasal dari pengkritik?",
+        "choices": [
+          "Jalur tidak aman membuat pilihan alternatif sulit",
+          "Sepeda memerlukan parkir",
+          "Berjalan bisa mengurangi kemacetan",
+          "Gerbang sekolah dekat jalan"
+        ]
+      },
+      "skill": "Comparing Views",
+      "passageId": "text-discussion-text",
+      "evidence": "unsafe routes can make these options difficult"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why is flexibility part of the conclusion?",
+      "choices": [
+        "All families have identical journeys",
+        "No one uses public transport",
+        "A single transport rule may not suit every student",
+        "Cycling never helps the environment"
+      ],
+      "answer": 2,
+      "explanation": "Penulis mempertimbangkan perbedaan kondisi perjalanan siswa.",
+      "translationId": {
+        "prompt": "Mengapa fleksibilitas masuk dalam simpulan?",
+        "choices": [
+          "Semua keluarga memiliki perjalanan sama",
+          "Tidak ada yang memakai angkutan umum",
+          "Satu aturan transportasi mungkin tidak cocok bagi semua siswa",
+          "Bersepeda tidak pernah membantu lingkungan"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-discussion-text",
+      "evidence": "a single rule would not fit every family"
+    }
+  ]
+}

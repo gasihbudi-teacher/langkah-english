@@ -1,0 +1,258 @@
+{
+  "id": "grade12-advanced-narrative",
+  "objectives": [
+    "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Cerita tingkat lanjut tidak selalu menyebut perasaan tokoh secara langsung. Kita mengumpulkan petunjuk dari tindakan, pilihan kata, dan perubahan sikapnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The lights went out.",
+          "indonesian": "Lampu-lampu padam.",
+          "why": "Ini peristiwa yang disebut langsung."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Nara kept working by the window.",
+          "indonesian": "Nara terus bekerja dekat jendela.",
+          "why": "Tindakan dapat menjadi petunjuk tentang tekad."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Cerita tingkat lanjut tidak selalu menyebut perasaan tokoh secara langsung. Kita mengumpulkan petunjuk dari tindakan, pilihan kata, dan perubahan sikapnya."
+    },
+    {
+      "type": "rule",
+      "text": "Cari [[character motivation]], [[conflict]], dan [[theme]]. Jawaban inferensi harus didukung tindakan atau ucapan tokoh, bukan hanya tebakan pembaca."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Nara gave away the battery because she hated school.",
+      "correct": "Nara chose to help children despite the cost to her project.",
+      "explanation": "Interpretasi harus mengikuti tindakan dan petunjuk cerita."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "motivation",
+          "indonesian": "motivasi"
+        },
+        {
+          "english": "conflict",
+          "indonesian": "konflik"
+        },
+        {
+          "english": "theme",
+          "indonesian": "tema"
+        },
+        {
+          "english": "resource",
+          "indonesian": "sumber daya"
+        },
+        {
+          "english": "courage",
+          "indonesian": "keberanian"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The lights went out.",
+          "indonesian": "Lampu-lampu padam.",
+          "note": "Ini peristiwa yang disebut langsung."
+        },
+        {
+          "english": "Nara kept working by the window.",
+          "indonesian": "Nara terus bekerja dekat jendela.",
+          "note": "Tindakan dapat menjadi petunjuk tentang tekad."
+        },
+        {
+          "english": "She gave the last battery to her friend.",
+          "indonesian": "Ia memberikan baterai terakhir kepada temannya.",
+          "note": "Tindakan bisa menunjukkan prioritas tokoh."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-advanced-narrative",
+      "prompt": "Which sentence means “Nara terus bekerja dekat jendela.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Nara terus bekerja dekat jendela.”.",
+      "choices": [
+        "The lights went out.",
+        "Nara kept working by the window.",
+        "She gave the last battery to her friend."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Lampu-lampu padam.",
+        "Nara terus bekerja dekat jendela.",
+        "Ia memberikan baterai terakhir kepada temannya."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Tindakan dapat menjadi petunjuk tentang tekad.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The lights went out.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "lights went out.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Lampu-lampu padam."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Nara said she was calm.",
+          "indonesian": "Nara berkata bahwa ia tenang.",
+          "note": "Perasaan dinyatakan secara langsung."
+        },
+        {
+          "english": "Her hands shook as she smiled.",
+          "indonesian": "Tangannya gemetar saat ia tersenyum.",
+          "note": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Perasaan dinyatakan secara langsung. Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although Nara feared the storm, she stayed to help the younger children find a safe room.",
+          "indonesian": "Meskipun Nara takut pada badai, ia tetap membantu anak-anak kecil menemukan ruangan aman.",
+          "note": "Kontras antara takut dan bertindak menunjukkan keberanian."
+        },
+        {
+          "english": "When the power returned, she realised that sharing resources had mattered more than finishing her own project.",
+          "indonesian": "Saat listrik kembali, ia menyadari berbagi sumber daya lebih penting daripada menuntaskan proyeknya sendiri.",
+          "note": "Perubahan nilai tokoh membantu menemukan tema."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "When the town’s electricity failed during a storm, Nara was building a miniature solar lamp for a school project. She had one spare battery left. Across the hall, two younger children were trying to read the emergency instructions in the dark. Nara hesitated, looking at her unfinished model. Then she carried the battery to their lamp. The children read the instructions and found a safe room. Later, Nara could not complete her model that evening, but she felt less disappointed than she had expected.",
+      "note": "Ringkasan bantuan: Menolong orang lain dapat lebih penting daripada pencapaian pribadi. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
+        "Cari [[character motivation]], [[conflict]], dan [[theme]]. Jawaban inferensi harus didukung tindakan atau ucapan tokoh, bukan hanya tebakan pembaca.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “lights”?",
+      "choices": [
+        "Nara kept working by the window.",
+        "She gave the last battery to her friend.",
+        "The lights went out.",
+        "Nara said she was calm."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[lights]] muncul dalam kalimat [[The lights went out.]]. Ini peristiwa yang disebut langsung.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “lights”?",
+        "choices": [
+          "Nara terus bekerja dekat jendela.",
+          "Ia memberikan baterai terakhir kepada temannya.",
+          "Lampu-lampu padam.",
+          "Nara berkata bahwa ia tenang."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “battery”?",
+      "choices": [
+        "The lights went out.",
+        "Nara kept working by the window.",
+        "Nara said she was calm.",
+        "She gave the last battery to her friend."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[battery]] muncul dalam kalimat [[She gave the last battery to her friend.]]. Tindakan bisa menunjukkan prioritas tokoh.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “battery”?",
+        "choices": [
+          "Lampu-lampu padam.",
+          "Nara terus bekerja dekat jendela.",
+          "Nara berkata bahwa ia tenang.",
+          "Ia memberikan baterai terakhir kepada temannya."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-advanced-narrative-practice"
+  ]
+}

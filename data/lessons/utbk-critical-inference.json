@@ -1,0 +1,258 @@
+{
+  "id": "utbk-critical-inference",
+  "objectives": [
+    "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Cerita sering tidak mengatakan perasaan tokoh secara langsung. Kita mencari petunjuk dan memilih kesimpulan paling hati-hati, bukan yang paling dramatis. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Riko looked at the empty chair.",
+          "indonesian": "Riko memandang kursi kosong.",
+          "why": "Tindakan disebut langsung."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "He checked the time again.",
+          "indonesian": "Ia kembali melihat waktu.",
+          "why": "Pengulangan memberi petunjuk tentang kekhawatiran."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Cerita sering tidak mengatakan perasaan tokoh secara langsung. Kita mencari petunjuk dan memilih kesimpulan paling hati-hati, bukan yang paling dramatis."
+    },
+    {
+      "type": "rule",
+      "text": "Dalam soal [[inference]], hubungkan [[clues]] dari beberapa kalimat. Bedakan apa yang [[stated]] dan apa yang [[implied]]."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Riko rearranged cards, so he hated his partner.",
+      "correct": "Riko may have felt worried because the promised chart was missing.",
+      "explanation": "Inferensi yang baik menghubungkan perilaku dengan petunjuk dan tetap hati-hati."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "clue",
+          "indonesian": "petunjuk"
+        },
+        {
+          "english": "imply",
+          "indonesian": "menyiratkan"
+        },
+        {
+          "english": "glance",
+          "indonesian": "melirik"
+        },
+        {
+          "english": "hesitate",
+          "indonesian": "ragu-ragu"
+        },
+        {
+          "english": "relief",
+          "indonesian": "kelegaan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Riko looked at the empty chair.",
+          "indonesian": "Riko memandang kursi kosong.",
+          "note": "Tindakan disebut langsung."
+        },
+        {
+          "english": "He checked the time again.",
+          "indonesian": "Ia kembali melihat waktu.",
+          "note": "Pengulangan memberi petunjuk tentang kekhawatiran."
+        },
+        {
+          "english": "The meeting had already begun.",
+          "indonesian": "Pertemuan sudah dimulai.",
+          "note": "Waktu kejadian memberikan konteks."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-utbk-critical-inference",
+      "prompt": "Which sentence means “Ia kembali melihat waktu.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Ia kembali melihat waktu.”.",
+      "choices": [
+        "Riko looked at the empty chair.",
+        "He checked the time again.",
+        "The meeting had already begun."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Riko memandang kursi kosong.",
+        "Ia kembali melihat waktu.",
+        "Pertemuan sudah dimulai."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Pengulangan memberi petunjuk tentang kekhawatiran.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Riko looked at the empty chair.",
+      "parts": [
+        {
+          "english": "Riko",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "looked at the empty chair.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Riko memandang kursi kosong."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Riko waited for his friend.",
+          "indonesian": "Riko menunggu temannya.",
+          "note": "Ini kesimpulan yang mungkin sesuai konteks."
+        },
+        {
+          "english": "Riko hated his friend.",
+          "indonesian": "Riko membenci temannya.",
+          "note": "Tidak ada petunjuk untuk kesimpulan ekstrem."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini kesimpulan yang mungkin sesuai konteks. Tidak ada petunjuk untuk kesimpulan ekstrem."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although Riko had prepared his presentation, he kept glancing toward the door when the partner’s seat remained empty.",
+          "indonesian": "Walaupun Riko telah mempersiapkan presentasi, ia terus melirik pintu ketika kursi pasangannya tetap kosong.",
+          "note": "Perilaku ini mendukung dugaan bahwa ia menunggu seseorang."
+        },
+        {
+          "english": "When the partner finally arrived, Riko relaxed his shoulders and opened the slides.",
+          "indonesian": "Saat pasangannya akhirnya datang, Riko merilekskan bahu dan membuka salindia.",
+          "note": "Perubahan tindakan memberi petunjuk tentang kondisi sebelumnya."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Riko had rehearsed his presentation twice before the community meeting. As the first speaker finished, he noticed that the chair beside him was still empty. He checked his phone, looked toward the door, and quietly rearranged the note cards that he had already put in order. His partner had promised to bring a chart showing the project’s results. When she finally arrived with the chart, Riko smiled and placed the cards back on the table. He began speaking only after checking that the chart could be displayed.",
+      "note": "Ringkasan bantuan: Riko khawatir mengenai rekan dan grafik sebelum presentasi. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti.",
+        "Dalam soal [[inference]], hubungkan [[clues]] dari beberapa kalimat. Bedakan apa yang [[stated]] dan apa yang [[implied]].",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “looked”?",
+      "choices": [
+        "He checked the time again.",
+        "The meeting had already begun.",
+        "Riko looked at the empty chair.",
+        "Riko waited for his friend."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[looked]] muncul dalam kalimat [[Riko looked at the empty chair.]]. Tindakan disebut langsung.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “looked”?",
+        "choices": [
+          "Ia kembali melihat waktu.",
+          "Pertemuan sudah dimulai.",
+          "Riko memandang kursi kosong.",
+          "Riko menunggu temannya."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “meeting”?",
+      "choices": [
+        "Riko looked at the empty chair.",
+        "He checked the time again.",
+        "Riko waited for his friend.",
+        "The meeting had already begun."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[meeting]] muncul dalam kalimat [[The meeting had already begun.]]. Waktu kejadian memberikan konteks.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “meeting”?",
+        "choices": [
+          "Riko memandang kursi kosong.",
+          "Ia kembali melihat waktu.",
+          "Riko menunggu temannya.",
+          "Pertemuan sudah dimulai."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "utbk-critical-inference-practice"
+  ]
+}

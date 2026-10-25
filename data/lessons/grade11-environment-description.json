@@ -1,0 +1,258 @@
+{
+  "id": "grade11-environment-description",
+  "objectives": [
+    "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Ketika seseorang mendeskripsikan sungai, kita mulai dari hal yang dapat diamati: warna air, sampah, bau, dan tempat. Dugaan penyebab perlu bukti tambahan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The river is narrow.",
+          "indonesian": "Sungai itu sempit.",
+          "why": "Kata “narrow” menerangkan ukuran."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Plastic bags float near the bridge.",
+          "indonesian": "Kantong plastik mengapung di dekat jembatan.",
+          "why": "Ini pengamatan yang dapat dilihat."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Ketika seseorang mendeskripsikan sungai, kita mulai dari hal yang dapat diamati: warna air, sampah, bau, dan tempat. Dugaan penyebab perlu bukti tambahan."
+    },
+    {
+      "type": "rule",
+      "text": "[[Descriptive text]] menunjukkan ciri tempat; kata seperti [[clear]], [[narrow]], dan [[polluted]] memberi detail. Jangan mengubah pengamatan menjadi klaim penyebab tanpa data."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Cloudy water proves one factory caused the problem.",
+      "correct": "Cloudy water is an observation; its cause needs more evidence.",
+      "explanation": "Pengamatan tidak otomatis membuktikan penyebab tertentu."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "riverbank",
+          "indonesian": "tepi sungai"
+        },
+        {
+          "english": "cloudy",
+          "indonesian": "keruh"
+        },
+        {
+          "english": "waste",
+          "indonesian": "sampah"
+        },
+        {
+          "english": "observe",
+          "indonesian": "mengamati"
+        },
+        {
+          "english": "location",
+          "indonesian": "lokasi"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The river is narrow.",
+          "indonesian": "Sungai itu sempit.",
+          "note": "Kata “narrow” menerangkan ukuran."
+        },
+        {
+          "english": "Plastic bags float near the bridge.",
+          "indonesian": "Kantong plastik mengapung di dekat jembatan.",
+          "note": "Ini pengamatan yang dapat dilihat."
+        },
+        {
+          "english": "The water smells unpleasant.",
+          "indonesian": "Airnya berbau tidak sedap.",
+          "note": "Kalimat mendeskripsikan keadaan air."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade11-environment-description",
+      "prompt": "Which sentence means “Kantong plastik mengapung di dekat jembatan.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Kantong plastik mengapung di dekat jembatan.”.",
+      "choices": [
+        "The river is narrow.",
+        "Plastic bags float near the bridge.",
+        "The water smells unpleasant."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Sungai itu sempit.",
+        "Kantong plastik mengapung di dekat jembatan.",
+        "Airnya berbau tidak sedap."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini pengamatan yang dapat dilihat.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The river is narrow.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "river is narrow.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Sungai itu sempit."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The water looked cloudy after rain.",
+          "indonesian": "Air tampak keruh setelah hujan.",
+          "note": "Ini laporan kondisi yang terlihat."
+        },
+        {
+          "english": "The factory caused all the pollution.",
+          "indonesian": "Pabrik menyebabkan seluruh polusi.",
+          "note": "Ini klaim sebab yang memerlukan bukti."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini laporan kondisi yang terlihat. Ini klaim sebab yang memerlukan bukti."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Near the footbridge, the riverbanks were covered with grass, but plastic waste collected beside the steps.",
+          "indonesian": "Di dekat jembatan pejalan kaki, tepian sungai ditumbuhi rumput, tetapi sampah plastik terkumpul di samping tangga.",
+          "note": "Kata “but” memperlihatkan kontras kondisi dua lokasi."
+        },
+        {
+          "english": "Students recorded the colour of the water at three locations rather than making conclusions from one photograph.",
+          "indonesian": "Siswa mencatat warna air di tiga lokasi daripada menyimpulkan dari satu foto.",
+          "note": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Students described the river behind their school during a community project. Upstream, the water appeared clear and small fish could be seen near the stones. Beside the pedestrian bridge, floating plastic collected against the steps. Downstream, the water looked cloudy after heavy rain. The students recorded these observations at three locations but avoided blaming one source for the changes. They proposed collecting samples with a local environmental group before making stronger claims about water quality.",
+      "note": "Ringkasan bantuan: Siswa dengan hati-hati mendeskripsikan kondisi sungai di beberapa tempat. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
+        "[[Descriptive text]] menunjukkan ciri tempat; kata seperti [[clear]], [[narrow]], dan [[polluted]] memberi detail. Jangan mengubah pengamatan menjadi klaim penyebab tanpa data.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “narrow”?",
+      "choices": [
+        "Plastic bags float near the bridge.",
+        "The water smells unpleasant.",
+        "The water looked cloudy after rain.",
+        "The river is narrow."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[narrow]] muncul dalam kalimat [[The river is narrow.]]. Kata “narrow” menerangkan ukuran.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “narrow”?",
+        "choices": [
+          "Kantong plastik mengapung di dekat jembatan.",
+          "Airnya berbau tidak sedap.",
+          "Air tampak keruh setelah hujan.",
+          "Sungai itu sempit."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “unpleasant”?",
+      "choices": [
+        "The water smells unpleasant.",
+        "The river is narrow.",
+        "Plastic bags float near the bridge.",
+        "The water looked cloudy after rain."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[unpleasant]] muncul dalam kalimat [[The water smells unpleasant.]]. Kalimat mendeskripsikan keadaan air.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “unpleasant”?",
+        "choices": [
+          "Airnya berbau tidak sedap.",
+          "Sungai itu sempit.",
+          "Kantong plastik mengapung di dekat jembatan.",
+          "Air tampak keruh setelah hujan."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade11-environment-description-practice"
+  ]
+}

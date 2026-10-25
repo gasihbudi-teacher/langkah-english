@@ -1,0 +1,258 @@
+{
+  "id": "grade10-sports-recount",
+  "objectives": [
+    "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Saat membaca kisah pertandingan, kita perlu mengetahui apa yang terjadi, kapan hasil berubah, dan apa yang dipelajari peserta. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The match began at three.",
+          "indonesian": "Pertandingan dimulai pukul tiga.",
+          "why": "Waktu menunjukkan kejadian tertentu di masa lalu."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Our team scored first.",
+          "indonesian": "Tim kami mencetak skor lebih dulu.",
+          "why": "Kata “first” menyatakan urutan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Saat membaca kisah pertandingan, kita perlu mengetahui apa yang terjadi, kapan hasil berubah, dan apa yang dipelajari peserta."
+    },
+    {
+      "type": "rule",
+      "text": "Teks [[recount]] memakai [[past tense]] dan kata urutan. Bedakan skor pertandingan (fakta) dengan perasaan penonton (opini)."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The team won 1–1.",
+      "correct": "The match ended in a 1–1 draw.",
+      "explanation": "Skor sama adalah seri, bukan kemenangan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "referee",
+          "indonesian": "wasit"
+        },
+        {
+          "english": "halftime",
+          "indonesian": "turun minum"
+        },
+        {
+          "english": "equalise",
+          "indonesian": "menyamakan skor"
+        },
+        {
+          "english": "volunteer",
+          "indonesian": "relawan"
+        },
+        {
+          "english": "score",
+          "indonesian": "skor"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The match began at three.",
+          "indonesian": "Pertandingan dimulai pukul tiga.",
+          "note": "Waktu menunjukkan kejadian tertentu di masa lalu."
+        },
+        {
+          "english": "Our team scored first.",
+          "indonesian": "Tim kami mencetak skor lebih dulu.",
+          "note": "Kata “first” menyatakan urutan."
+        },
+        {
+          "english": "We felt proud afterward.",
+          "indonesian": "Kami merasa bangga setelahnya.",
+          "note": "Ini perasaan narator, bukan hasil pertandingan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade10-sports-recount",
+      "prompt": "Which sentence means “Tim kami mencetak skor lebih dulu.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Tim kami mencetak skor lebih dulu.”.",
+      "choices": [
+        "The match began at three.",
+        "Our team scored first.",
+        "We felt proud afterward."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Pertandingan dimulai pukul tiga.",
+        "Tim kami mencetak skor lebih dulu.",
+        "Kami merasa bangga setelahnya."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “first” menyatakan urutan.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The match began at three.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "match began at three.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Pertandingan dimulai pukul tiga."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The final score was 2–2.",
+          "indonesian": "Skor akhirnya 2–2.",
+          "note": "Ini hasil yang dapat diperiksa."
+        },
+        {
+          "english": "It was the best match ever.",
+          "indonesian": "Itu pertandingan terbaik sepanjang masa.",
+          "note": "Ini penilaian pribadi penulis."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini hasil yang dapat diperiksa. Ini penilaian pribadi penulis."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although our team was behind at halftime, the players equalised in the final minute.",
+          "indonesian": "Meskipun tim kami tertinggal saat turun minum, para pemain menyamakan kedudukan pada menit terakhir.",
+          "note": "“Although” menghubungkan hambatan dan perubahan hasil."
+        },
+        {
+          "english": "After the referee ended the match, both teams thanked the volunteers who had prepared the field.",
+          "indonesian": "Setelah wasit mengakhiri pertandingan, kedua tim berterima kasih kepada relawan yang menyiapkan lapangan.",
+          "note": "“After” membantu melacak urutan kegiatan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "On Saturday afternoon, the school futsal team played a friendly match against a neighbouring school. The visitors scored in the first half. During the break, the captain reminded everyone to pass carefully instead of rushing. In the second half, Lani equalised with a shot from outside the area. The match ended 1–1. Afterward, both teams thanked the volunteers who had prepared the court. The captain wrote that good teamwork had mattered more than winning the friendly match.",
+      "note": "Ringkasan bantuan: Pertandingan futsal persahabatan sekolah dan pelajarannya. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis.",
+        "Teks [[recount]] memakai [[past tense]] dan kata urutan. Bedakan skor pertandingan (fakta) dengan perasaan penonton (opini).",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “match”?",
+      "choices": [
+        "The match began at three.",
+        "Our team scored first.",
+        "We felt proud afterward.",
+        "The final score was 2–2."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[match]] muncul dalam kalimat [[The match began at three.]]. Waktu menunjukkan kejadian tertentu di masa lalu.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “match”?",
+        "choices": [
+          "Pertandingan dimulai pukul tiga.",
+          "Tim kami mencetak skor lebih dulu.",
+          "Kami merasa bangga setelahnya.",
+          "Skor akhirnya 2–2."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “afterward”?",
+      "choices": [
+        "The match began at three.",
+        "We felt proud afterward.",
+        "Our team scored first.",
+        "The final score was 2–2."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[afterward]] muncul dalam kalimat [[We felt proud afterward.]]. Ini perasaan narator, bukan hasil pertandingan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “afterward”?",
+        "choices": [
+          "Pertandingan dimulai pukul tiga.",
+          "Kami merasa bangga setelahnya.",
+          "Tim kami mencetak skor lebih dulu.",
+          "Skor akhirnya 2–2."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade10-sports-recount-practice"
+  ]
+}

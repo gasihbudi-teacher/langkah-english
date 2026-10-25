@@ -1,0 +1,111 @@
+{
+  "id": "grade11-online-identity-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-online-identity",
+      "title": "Digital Identity and Transactional Messages",
+      "text": "Siska received a message from an account showing her class leader’s profile picture. It asked her to upload the group assignment and share the password to the class folder. Siska noticed that the account name contained an extra letter. She contacted the leader through the official class chat. The leader confirmed that the assignment was due on Friday but said that no one should share folder passwords. Siska then uploaded her work through the school platform and reported the suspicious account.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "How to create a new class picture",
+        "A student verifying a suspicious request before replying",
+        "A sports team choosing a captain",
+        "Why assignments should never be uploaded"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa inti bacaan?",
+        "choices": [
+          "Cara membuat foto kelas baru",
+          "Seorang siswa memverifikasi permintaan mencurigakan sebelum membalas",
+          "Tim olahraga memilih kapten",
+          "Mengapa tugas tidak boleh diunggah"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-online-identity",
+      "evidence": "Siska received a message from an account showing her class leader’s profile picture."
+    },
+    {
+      "id": "q2",
+      "prompt": "What first made Siska suspicious?",
+      "choices": [
+        "The account name had an extra letter",
+        "The due date was Friday",
+        "The class leader was absent",
+        "The assignment was too short"
+      ],
+      "answer": 0,
+      "explanation": "Perbedaan ejaan nama akun adalah petunjuk yang dicermati Siska.",
+      "translationId": {
+        "prompt": "Apa yang pertama membuat Siska curiga?",
+        "choices": [
+          "Nama akun memiliki satu huruf tambahan",
+          "Tenggatnya Jumat",
+          "Ketua kelas tidak hadir",
+          "Tugas terlalu singkat"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-online-identity",
+      "evidence": "account name contained an extra letter"
+    },
+    {
+      "id": "q3",
+      "prompt": "What did the real class leader confirm?",
+      "choices": [
+        "Everyone must share their password",
+        "The school platform had closed",
+        "The account was a teacher",
+        "The assignment was due on Friday"
+      ],
+      "answer": 3,
+      "explanation": "Ketua kelas mengonfirmasi tenggat, bukan permintaan sandi.",
+      "translationId": {
+        "prompt": "Apa yang dikonfirmasi ketua kelas asli?",
+        "choices": [
+          "Semua orang harus membagikan kata sandi",
+          "Platform sekolah sudah ditutup",
+          "Akun itu milik guru",
+          "Tugas dikumpulkan Jumat"
+        ]
+      },
+      "skill": "Locating Information",
+      "passageId": "text-online-identity",
+      "evidence": "the assignment was due on Friday"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which action best demonstrates safe digital communication?",
+      "choices": [
+        "Send the password to save time",
+        "Trust any account with the same photo",
+        "Verify through an official channel before sharing",
+        "Ignore the assignment completely"
+      ],
+      "answer": 2,
+      "explanation": "Siska memeriksa pengirim melalui percakapan kelas resmi.",
+      "translationId": {
+        "prompt": "Tindakan mana menunjukkan komunikasi digital aman?",
+        "choices": [
+          "Kirim kata sandi agar cepat",
+          "Percaya akun mana pun dengan foto sama",
+          "Verifikasi melalui kanal resmi sebelum berbagi",
+          "Abaikan tugas sepenuhnya"
+        ]
+      },
+      "skill": "Application",
+      "passageId": "text-online-identity",
+      "evidence": "contacted the leader through the official class chat"
+    }
+  ]
+}

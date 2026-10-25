@@ -1,0 +1,258 @@
+{
+  "id": "utbk-science-evidence",
+  "objectives": [
+    "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Soal sains sering menampilkan perubahan angka. Tetapi kenaikan angka saja belum membuktikan penyebabnya. Mulailah dari pertanyaan: apa yang diukur? Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Group A used more water.",
+          "indonesian": "Kelompok A memakai lebih banyak air.",
+          "why": "Ini pengamatan terukur."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Group B used less water.",
+          "indonesian": "Kelompok B memakai lebih sedikit air.",
+          "why": "Angka dua kelompok bisa dibandingkan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Soal sains sering menampilkan perubahan angka. Tetapi kenaikan angka saja belum membuktikan penyebabnya. Mulailah dari pertanyaan: apa yang diukur?"
+    },
+    {
+      "type": "rule",
+      "text": "Untuk bacaan sains, temukan [[observation]], [[method]], [[comparison]], dan [[limitation]]. Jangan menyimpulkan [[cause]] hanya dari dua angka."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The taller plants prove extra water caused the difference.",
+      "correct": "Extra water is one possible explanation, but sunlight also differed.",
+      "explanation": "Kesimpulan sebab memerlukan kontrol terhadap variabel lain."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "observation",
+          "indonesian": "pengamatan"
+        },
+        {
+          "english": "variable",
+          "indonesian": "variabel"
+        },
+        {
+          "english": "comparison",
+          "indonesian": "perbandingan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "reliable",
+          "indonesian": "andal"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Group A used more water.",
+          "indonesian": "Kelompok A memakai lebih banyak air.",
+          "note": "Ini pengamatan terukur."
+        },
+        {
+          "english": "Group B used less water.",
+          "indonesian": "Kelompok B memakai lebih sedikit air.",
+          "note": "Angka dua kelompok bisa dibandingkan."
+        },
+        {
+          "english": "Both groups received sunlight.",
+          "indonesian": "Kedua kelompok mendapat cahaya matahari.",
+          "note": "Detail kondisi membantu memeriksa perbandingan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-utbk-science-evidence",
+      "prompt": "Which sentence means “Kelompok B memakai lebih sedikit air.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Kelompok B memakai lebih sedikit air.”.",
+      "choices": [
+        "Group A used more water.",
+        "Group B used less water.",
+        "Both groups received sunlight."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Kelompok A memakai lebih banyak air.",
+        "Kelompok B memakai lebih sedikit air.",
+        "Kedua kelompok mendapat cahaya matahari."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Angka dua kelompok bisa dibandingkan.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Group A used more water.",
+      "parts": [
+        {
+          "english": "Group",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "A used more water.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Kelompok A memakai lebih banyak air."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Plants grew faster in one group.",
+          "indonesian": "Tanaman tumbuh lebih cepat di satu kelompok.",
+          "note": "Ini hasil pengamatan."
+        },
+        {
+          "english": "The fertilizer caused the growth.",
+          "indonesian": "Pupuk menyebabkan pertumbuhan itu.",
+          "note": "Ini kesimpulan sebab yang memerlukan kontrol variabel lain."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini hasil pengamatan. Ini kesimpulan sebab yang memerlukan kontrol variabel lain."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the plants grew taller, the gardeners could not tell whether water or sunlight explained the difference.",
+          "indonesian": "Walaupun tanaman tumbuh lebih tinggi, para pekebun belum tahu apakah air atau sinar matahari menjelaskan perbedaan.",
+          "note": "Dua faktor yang berubah membuat sebab tidak pasti."
+        },
+        {
+          "english": "Repeating the experiment with equal sunlight would help make the comparison more reliable.",
+          "indonesian": "Mengulang percobaan dengan cahaya matahari sama dapat membuat perbandingan lebih andal.",
+          "note": "Perbaikan metode mengurangi kemungkinan penjelasan lain."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "A school research team tested two methods of growing spinach. Ten pots received water once each morning, while ten other pots received water in the morning and afternoon. After four weeks, the second group was taller on average. However, the second group also stood beside a brighter window. Some students wanted to conclude that watering twice a day caused faster growth. Their teacher disagreed: the groups differed in sunlight as well as watering frequency. The team proposed repeating the study with both groups receiving the same amount of light. The initial result was useful as an observation, but not enough to identify a single cause.",
+      "note": "Ringkasan bantuan: Satu kelompok tumbuh lebih tinggi, tetapi penyebabnya belum dipastikan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan.",
+        "Untuk bacaan sains, temukan [[observation]], [[method]], [[comparison]], dan [[limitation]]. Jangan menyimpulkan [[cause]] hanya dari dua angka.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “Group A used more water.”?",
+      "choices": [
+        "Group A used more water.",
+        "Group B used less water.",
+        "Both groups received sunlight.",
+        "Plants grew faster in one group."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[Group A used more water.]] muncul dalam kalimat [[Group A used more water.]]. Ini pengamatan terukur.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Group A used more water.”?",
+        "choices": [
+          "Kelompok A memakai lebih banyak air.",
+          "Kelompok B memakai lebih sedikit air.",
+          "Kedua kelompok mendapat cahaya matahari.",
+          "Tanaman tumbuh lebih cepat di satu kelompok."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “received”?",
+      "choices": [
+        "Group A used more water.",
+        "Both groups received sunlight.",
+        "Group B used less water.",
+        "Plants grew faster in one group."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[received]] muncul dalam kalimat [[Both groups received sunlight.]]. Detail kondisi membantu memeriksa perbandingan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “received”?",
+        "choices": [
+          "Kelompok A memakai lebih banyak air.",
+          "Kedua kelompok mendapat cahaya matahari.",
+          "Kelompok B memakai lebih sedikit air.",
+          "Tanaman tumbuh lebih cepat di satu kelompok."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "utbk-science-evidence-practice"
+  ]
+}

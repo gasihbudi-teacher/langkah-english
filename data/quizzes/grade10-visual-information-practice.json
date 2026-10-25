@@ -1,0 +1,111 @@
+{
+  "id": "grade10-visual-information-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-visual-information",
+      "title": "Reading Posters and Infographics",
+      "text": "A school poster advertised a three-day reading challenge. Its chart listed registrations: Monday, 24 students; Tuesday, 31 students; Wednesday, 39 students. The poster also stated that each session lasted 20 minutes and that students should bring their own books. A note below the chart explained that registrations were recorded before each session, so they were not the same as confirmed attendance. The source was the school library team. The poster did not provide numbers for Thursday or Friday.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main purpose of the poster description?",
+      "choices": [
+        "To narrate a fictional rescue",
+        "To explain information presented in a short event poster",
+        "To list ingredients for a recipe",
+        "To recommend cancelling the library"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa tujuan utama deskripsi poster?",
+        "choices": [
+          "Menceritakan penyelamatan fiksi",
+          "Menjelaskan informasi pada poster acara",
+          "Mendaftar bahan resep",
+          "Menyarankan pembatalan perpustakaan"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-visual-information",
+      "evidence": "A school poster advertised a three-day reading challenge."
+    },
+    {
+      "id": "q2",
+      "prompt": "How many students registered on Tuesday?",
+      "choices": [
+        "24",
+        "39",
+        "20",
+        "31"
+      ],
+      "answer": 3,
+      "explanation": "Daftar angka menempatkan 31 siswa pada hari Selasa.",
+      "translationId": {
+        "prompt": "Berapa siswa mendaftar pada hari Selasa?",
+        "choices": [
+          "24",
+          "39",
+          "20",
+          "31"
+        ]
+      },
+      "skill": "Locating Information",
+      "passageId": "text-visual-information",
+      "evidence": "Tuesday, 31 students"
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the important limitation of the chart?",
+      "choices": [
+        "It counts registrations rather than confirmed attendance",
+        "Its figures are confirmed attendance",
+        "It includes the whole month",
+        "It lacks any stated source"
+      ],
+      "answer": 0,
+      "explanation": "Catatan poster membedakan pendaftaran dan kehadiran.",
+      "translationId": {
+        "prompt": "Apa keterbatasan penting grafik?",
+        "choices": [
+          "Grafik menghitung pendaftaran, bukan kehadiran terkonfirmasi",
+          "Angkanya adalah kehadiran terkonfirmasi",
+          "Grafik mencakup seluruh bulan",
+          "Grafik tidak memiliki sumber"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-visual-information",
+      "evidence": "they were not the same as confirmed attendance"
+    },
+    {
+      "id": "q4",
+      "prompt": "What cannot be concluded from the data?",
+      "choices": [
+        "Registrations increased across the three shown days",
+        "Each session lasted twenty minutes",
+        "Registrations continued rising on Friday",
+        "Wednesday had more registrations than Monday"
+      ],
+      "answer": 2,
+      "explanation": "Poster tidak memberi data Jumat sehingga tren setelah Rabu tidak diketahui.",
+      "translationId": {
+        "prompt": "Apa yang tidak bisa disimpulkan dari data?",
+        "choices": [
+          "Pendaftaran naik selama tiga hari yang ditampilkan",
+          "Setiap sesi berlangsung dua puluh menit",
+          "Pendaftaran terus naik sampai Jumat",
+          "Hari Rabu lebih banyak pendaftar daripada Senin"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-visual-information",
+      "evidence": "did not provide numbers for Thursday or Friday"
+    }
+  ]
+}

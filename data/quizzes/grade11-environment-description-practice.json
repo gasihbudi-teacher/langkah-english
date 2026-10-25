@@ -1,0 +1,111 @@
+{
+  "id": "grade11-environment-description-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-environment-description",
+      "title": "Describing Environmental Conditions",
+      "text": "Students described the river behind their school during a community project. Upstream, the water appeared clear and small fish could be seen near the stones. Beside the pedestrian bridge, floating plastic collected against the steps. Downstream, the water looked cloudy after heavy rain. The students recorded these observations at three locations but avoided blaming one source for the changes. They proposed collecting samples with a local environmental group before making stronger claims about water quality.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Students carefully describing river conditions at several places",
+        "A recipe for cleaning shoes",
+        "A history of bridges across Indonesia",
+        "A claim that all rivers are polluted"
+      ],
+      "answer": 0,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa isi utama bacaan?",
+        "choices": [
+          "Siswa dengan hati-hati mendeskripsikan kondisi sungai di beberapa tempat",
+          "Resep membersihkan sepatu",
+          "Sejarah jembatan di Indonesia",
+          "Klaim semua sungai tercemar"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-environment-description",
+      "evidence": "Students described the river behind their school during a community project."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where did plastic collect?",
+      "choices": [
+        "Only near upstream stones",
+        "Beside the pedestrian bridge steps",
+        "Inside the school library",
+        "On the roof"
+      ],
+      "answer": 1,
+      "explanation": "Teks menyebut plastik berkumpul di tangga jembatan.",
+      "translationId": {
+        "prompt": "Di mana plastik berkumpul?",
+        "choices": [
+          "Hanya di dekat batu bagian hulu",
+          "Di samping tangga jembatan pejalan kaki",
+          "Di dalam perpustakaan sekolah",
+          "Di atas atap"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-environment-description",
+      "evidence": "floating plastic collected against the steps"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why did the students avoid blaming one source?",
+      "choices": [
+        "They had no interest in the river",
+        "They knew the exact cause already",
+        "The bridge had disappeared",
+        "Their observations did not establish a single cause"
+      ],
+      "answer": 3,
+      "explanation": "Catatan kondisi di beberapa lokasi belum mengidentifikasi penyebab tunggal.",
+      "translationId": {
+        "prompt": "Mengapa siswa tidak langsung menyalahkan satu sumber?",
+        "choices": [
+          "Mereka tidak tertarik pada sungai",
+          "Mereka sudah mengetahui penyebab pasti",
+          "Jembatan sudah hilang",
+          "Pengamatan mereka belum membuktikan satu penyebab"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-environment-description",
+      "evidence": "avoided blaming one source for the changes"
+    },
+    {
+      "id": "q4",
+      "prompt": "What would strengthen a claim about water quality?",
+      "choices": [
+        "A single photo without a date",
+        "A guess from social media",
+        "Samples collected with an environmental group",
+        "A story about another river"
+      ],
+      "answer": 2,
+      "explanation": "Mereka mengusulkan pengumpulan sampel sebagai bukti tambahan.",
+      "translationId": {
+        "prompt": "Apa yang akan memperkuat klaim kualitas air?",
+        "choices": [
+          "Satu foto tanpa tanggal",
+          "Tebakan dari media sosial",
+          "Sampel bersama kelompok lingkungan",
+          "Cerita tentang sungai lain"
+        ]
+      },
+      "skill": "Evidence",
+      "passageId": "text-environment-description",
+      "evidence": "collecting samples with a local environmental group"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "grade9-digital-safety-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-digital-safety",
+      "title": "Digital Literacy: Checking Online Claims",
+      "text": "An image circulated in a class chat claiming that Monday’s examination had been cancelled. The image used the school logo but included no date and no link to an original notice. Several students immediately shared it. Dira checked the school’s official website and found a notice saying that the examination would begin one hour later, not that it was cancelled. She sent the official link to her classmates and reminded them to check dates and sources before forwarding urgent messages.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "How the school designed its logo",
+        "How to delete every group chat",
+        "Why examinations should never be rescheduled",
+        "How a student checked a misleading exam message"
+      ],
+      "answer": 3,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa inti bacaan?",
+        "choices": [
+          "Bagaimana sekolah merancang logonya",
+          "Cara menghapus semua grup percakapan",
+          "Mengapa ujian tidak boleh dijadwal ulang",
+          "Bagaimana siswa memeriksa pesan ujian yang menyesatkan"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-digital-safety",
+      "evidence": "An image circulated in a class chat claiming that Monday’s examination had been cancelled."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did the official school notice actually say?",
+      "choices": [
+        "The exam was cancelled",
+        "The school would close for a month",
+        "The exam would start one hour later",
+        "Students should ignore the timetable"
+      ],
+      "answer": 2,
+      "explanation": "Pengumuman resmi menyatakan perubahan waktu, bukan pembatalan.",
+      "translationId": {
+        "prompt": "Apa isi pengumuman resmi sekolah?",
+        "choices": [
+          "Ujian dibatalkan",
+          "Sekolah tutup satu bulan",
+          "Ujian dimulai satu jam lebih lambat",
+          "Siswa harus mengabaikan jadwal"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-digital-safety",
+      "evidence": "the examination would begin one hour later, not that it was cancelled"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why was the screenshot unreliable?",
+      "choices": [
+        "It lacked a date and original link",
+        "It contained a school logo",
+        "Many students saw it",
+        "It appeared in a class chat"
+      ],
+      "answer": 0,
+      "explanation": "Ketiadaan tanggal dan sumber asli menghambat verifikasi.",
+      "translationId": {
+        "prompt": "Mengapa tangkapan layar kurang dapat dipercaya?",
+        "choices": [
+          "Tidak ada tanggal dan tautan asli",
+          "Memuat logo sekolah",
+          "Banyak siswa melihatnya",
+          "Muncul di percakapan kelas"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-digital-safety",
+      "evidence": "included no date and no link to an original notice"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which action best reflects the message of the text?",
+      "choices": [
+        "Forward an urgent image immediately",
+        "Check the issuing organisation before sharing",
+        "Assume popular messages are accurate",
+        "Believe all images with a logo"
+      ],
+      "answer": 1,
+      "explanation": "Dira memeriksa situs resmi sebelum meneruskan informasi.",
+      "translationId": {
+        "prompt": "Tindakan mana paling sesuai dengan pesan teks?",
+        "choices": [
+          "Segera meneruskan gambar mendesak",
+          "Memeriksa organisasi penerbit sebelum membagikan",
+          "Menganggap pesan populer selalu benar",
+          "Mempercayai semua gambar berlogo"
+        ]
+      },
+      "skill": "Application",
+      "passageId": "text-digital-safety",
+      "evidence": "checked the school’s official website"
+    }
+  ]
+}

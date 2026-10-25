@@ -1,0 +1,111 @@
+{
+  "id": "grade10-healthy-procedure-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-healthy-procedure",
+      "title": "Procedure Text: Healthy Routines",
+      "text": "A student health club prepared a guide for a short walking session. First, put on comfortable shoes and drink some water. Next, walk slowly for five minutes to warm up. Increase your pace only if you feel comfortable. After fifteen minutes, slow down and rest. The guide warns students to stop if they feel dizzy or unwell. It also reminds them that the plan is a general school activity, not advice for treating a medical condition.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the text mainly intended to do?",
+      "choices": [
+        "Describe the history of competitive running",
+        "Advertise an expensive pair of shoes",
+        "Give a sequence for a safe school walking session",
+        "Prove every student has the same fitness level"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa tujuan utama bacaan?",
+        "choices": [
+          "Mendeskripsikan sejarah lomba lari",
+          "Mengiklankan sepatu mahal",
+          "Memberikan urutan kegiatan jalan kaki sekolah yang aman",
+          "Membuktikan semua siswa memiliki kebugaran sama"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-healthy-procedure",
+      "evidence": "A student health club prepared a guide for a short walking session."
+    },
+    {
+      "id": "q2",
+      "prompt": "What should students do before increasing their pace?",
+      "choices": [
+        "Rest for an hour",
+        "Run as fast as possible",
+        "Skip drinking water",
+        "Walk slowly to warm up"
+      ],
+      "answer": 3,
+      "explanation": "Pemanasan lima menit dilakukan sebelum menambah kecepatan.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan sebelum menambah kecepatan?",
+        "choices": [
+          "Istirahat satu jam",
+          "Berlari sekencang mungkin",
+          "Melewatkan minum air",
+          "Berjalan pelan untuk pemanasan"
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "text-healthy-procedure",
+      "evidence": "walk slowly for five minutes to warm up"
+    },
+    {
+      "id": "q3",
+      "prompt": "When should a student stop the activity?",
+      "choices": [
+        "Whenever another student finishes",
+        "When feeling dizzy or unwell",
+        "When the shoes are new",
+        "Only after an hour"
+      ],
+      "answer": 1,
+      "explanation": "Peringatan keselamatan disebut langsung.",
+      "translationId": {
+        "prompt": "Kapan siswa harus berhenti melakukan kegiatan?",
+        "choices": [
+          "Ketika siswa lain selesai",
+          "Ketika merasa pusing atau kurang sehat",
+          "Ketika sepatu masih baru",
+          "Hanya setelah satu jam"
+        ]
+      },
+      "skill": "Following Instructions",
+      "passageId": "text-healthy-procedure",
+      "evidence": "stop if they feel dizzy or unwell"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why does the guide mention medical conditions?",
+      "choices": [
+        "To limit how the instructions should be used",
+        "To claim the activity cures illnesses",
+        "To require everyone to run",
+        "To encourage students to skip rest"
+      ],
+      "answer": 0,
+      "explanation": "Panduan menjelaskan bahwa kegiatan umum bukan nasihat pengobatan.",
+      "translationId": {
+        "prompt": "Mengapa panduan menyebut kondisi medis?",
+        "choices": [
+          "Untuk membatasi penggunaan instruksi",
+          "Untuk menyatakan kegiatan menyembuhkan penyakit",
+          "Untuk mewajibkan semua orang berlari",
+          "Untuk menganjurkan melewatkan istirahat"
+        ]
+      },
+      "skill": "Purpose",
+      "passageId": "text-healthy-procedure",
+      "evidence": "not advice for treating a medical condition"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "grade12-compare-arguments-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-compare-arguments",
+      "title": "Comparing Arguments and Evaluating Evidence",
+      "text": "Two reports described the school’s science fair. Report A said participation reached 180 because it counted online registrations, including students who later stayed home. Report B recorded 142 participants because volunteers counted the people who entered the hall. A social media post claimed that one report must be false. However, the two reports measured different things. The organiser explained that both numbers could be accurate while answering different questions. A careful reader should compare the definitions before deciding whether the figures disagree.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main point of the passage?",
+      "choices": [
+        "Reports can differ because they measure different things",
+        "All online registrations are false",
+        "Social media always checks statistics correctly",
+        "Science fairs should never count participants"
+      ],
+      "answer": 0,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa gagasan utama bacaan?",
+        "choices": [
+          "Laporan bisa berbeda karena mengukur hal berbeda",
+          "Semua pendaftaran daring palsu",
+          "Media sosial selalu memeriksa statistik dengan benar",
+          "Pameran sains tidak boleh menghitung peserta"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-compare-arguments",
+      "evidence": "Two reports described the school’s science fair."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did Report A count?",
+      "choices": [
+        "Only people entering the hall",
+        "Only teachers",
+        "Number of exhibits",
+        "Online registrations"
+      ],
+      "answer": 3,
+      "explanation": "Report A mencatat semua pendaftaran daring.",
+      "translationId": {
+        "prompt": "Apa yang dihitung laporan A?",
+        "choices": [
+          "Hanya orang yang masuk aula",
+          "Hanya guru",
+          "Jumlah pameran",
+          "Pendaftaran daring"
+        ]
+      },
+      "skill": "Locating Information",
+      "passageId": "text-compare-arguments",
+      "evidence": "it counted online registrations"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why could both reports be accurate?",
+      "choices": [
+        "They counted exactly the same group",
+        "They used different definitions of participation",
+        "They described different schools",
+        "The fair was cancelled"
+      ],
+      "answer": 1,
+      "explanation": "Satu laporan menghitung pendaftar dan yang lain menghitung kehadiran.",
+      "translationId": {
+        "prompt": "Mengapa dua laporan bisa sama-sama akurat?",
+        "choices": [
+          "Mereka menghitung kelompok sama persis",
+          "Mereka menggunakan definisi partisipasi berbeda",
+          "Mereka mendeskripsikan sekolah berbeda",
+          "Pameran dibatalkan"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-compare-arguments",
+      "evidence": "the two reports measured different things"
+    },
+    {
+      "id": "q4",
+      "prompt": "What should readers do before concluding the reports contradict each other?",
+      "choices": [
+        "Ignore both figures",
+        "Choose the larger number automatically",
+        "Compare how participation is defined",
+        "Ask a random student to guess"
+      ],
+      "answer": 2,
+      "explanation": "Pembaca perlu menelusuri arti ukuran yang dipakai.",
+      "translationId": {
+        "prompt": "Apa yang perlu dilakukan sebelum menyimpulkan kedua laporan bertentangan?",
+        "choices": [
+          "Mengabaikan kedua angka",
+          "Otomatis memilih angka lebih besar",
+          "Membandingkan definisi partisipasi",
+          "Meminta siswa acak menebak"
+        ]
+      },
+      "skill": "Evaluating Evidence",
+      "passageId": "text-compare-arguments",
+      "evidence": "compare the definitions before deciding"
+    }
+  ]
+}

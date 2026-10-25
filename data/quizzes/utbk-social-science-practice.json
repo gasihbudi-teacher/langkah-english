@@ -1,0 +1,111 @@
+{
+  "id": "utbk-social-science-practice",
+  "questionCount": 4,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "text-social-science",
+      "title": "UTBK Lab: Reading Social-Science Data",
+      "text": "A town council reported that daily bus trips rose from 1,200 to 1,500 over five years. Officials called the rise evidence that residents were choosing public transport more often. A local researcher checked the town’s population: it had increased from 12,000 to 20,000 over the same period. The number of bus trips per resident had therefore fallen, even though the total number of trips grew. The researcher noted that one bus trip was not necessarily one unique passenger, so further surveys were needed to understand individual travel habits. Both sides agreed that additional data would be valuable.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the best summary of the passage?",
+      "choices": [
+        "Bus trips fell sharply across every year",
+        "Population numbers are irrelevant to transport analysis",
+        "Bus trips increased, but that alone does not show a higher rate of bus use",
+        "Each bus trip always represents a unique passenger"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa ringkasan terbaik bacaan?",
+        "choices": [
+          "Perjalanan bus turun tajam setiap tahun",
+          "Jumlah penduduk tidak relevan untuk analisis transportasi",
+          "Perjalanan bus meningkat, tetapi itu belum membuktikan tingkat penggunaan lebih tinggi",
+          "Setiap perjalanan bus selalu satu penumpang unik"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-social-science",
+      "evidence": "A town council reported that daily bus trips rose from 1,200 to 1,500 over five years."
+    },
+    {
+      "id": "q2",
+      "prompt": "How many daily bus trips were recorded after five years?",
+      "choices": [
+        "1,200",
+        "12,000",
+        "20,000",
+        "1,500"
+      ],
+      "answer": 3,
+      "explanation": "Jumlah terbaru adalah 1.500 perjalanan.",
+      "translationId": {
+        "prompt": "Berapa perjalanan bus harian setelah lima tahun?",
+        "choices": [
+          "1.200",
+          "12.000",
+          "20.000",
+          "1.500"
+        ]
+      },
+      "skill": "Locating Information",
+      "passageId": "text-social-science",
+      "evidence": "rose from 1,200 to 1,500"
+    },
+    {
+      "id": "q3",
+      "prompt": "What made the initial official conclusion incomplete?",
+      "choices": [
+        "The town population also grew",
+        "The buses stopped working",
+        "The council reported no numbers",
+        "The researcher counted bicycle rides"
+      ],
+      "answer": 0,
+      "explanation": "Populasi meningkat sehingga jumlah perjalanan per penduduk justru turun.",
+      "translationId": {
+        "prompt": "Apa yang membuat kesimpulan awal pejabat kurang lengkap?",
+        "choices": [
+          "Jumlah penduduk kota juga bertambah",
+          "Bus berhenti beroperasi",
+          "Dewan tidak melaporkan angka",
+          "Peneliti menghitung perjalanan sepeda"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-social-science",
+      "evidence": "population: it had increased from 12,000 to 20,000"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why did the researcher recommend more surveys?",
+      "choices": [
+        "To remove all transport data",
+        "To understand individual behaviour beyond trip counts",
+        "To avoid asking residents anything",
+        "To prove every trip was by a new person"
+      ],
+      "answer": 1,
+      "explanation": "Satu orang dapat melakukan lebih dari satu perjalanan sehingga perlu data perilaku.",
+      "translationId": {
+        "prompt": "Mengapa peneliti menyarankan survei tambahan?",
+        "choices": [
+          "Untuk menghapus semua data transportasi",
+          "Untuk memahami perilaku individu, tidak hanya hitungan perjalanan",
+          "Untuk menghindari bertanya kepada warga",
+          "Untuk membuktikan setiap perjalanan dilakukan orang berbeda"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-social-science",
+      "evidence": "one bus trip was not necessarily one unique passenger"
+    }
+  ]
+}

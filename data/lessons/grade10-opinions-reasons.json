@@ -1,0 +1,258 @@
+{
+  "id": "grade10-opinions-reasons",
+  "objectives": [
+    "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Kita boleh mempunyai pandangan berbeda. Yang penting bukan hanya berkata “setuju” atau “tidak”, tetapi juga menjelaskan alasan dengan sopan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "I think the library should open earlier.",
+          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+          "why": "“I think” menandai pendapat."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Because some students arrive early.",
+          "indonesian": "Karena beberapa siswa datang lebih awal.",
+          "why": "“Because” memberikan alasan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Kita boleh mempunyai pandangan berbeda. Yang penting bukan hanya berkata “setuju” atau “tidak”, tetapi juga menjelaskan alasan dengan sopan."
+    },
+    {
+      "type": "rule",
+      "text": "[[I think]] memperkenalkan pendapat, [[because]] menghubungkannya dengan alasan, dan [[I see your point, but]] menunjukkan perbedaan pendapat dengan sopan."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "You are wrong; stop talking.",
+      "correct": "I see your point, but I have a different concern.",
+      "explanation": "Perbedaan pendapat bisa disampaikan tanpa merendahkan orang lain."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "opinion",
+          "indonesian": "pendapat"
+        },
+        {
+          "english": "reason",
+          "indonesian": "alasan"
+        },
+        {
+          "english": "agree",
+          "indonesian": "setuju"
+        },
+        {
+          "english": "disagree",
+          "indonesian": "tidak setuju"
+        },
+        {
+          "english": "feedback",
+          "indonesian": "tanggapan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "I think the library should open earlier.",
+          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+          "note": "“I think” menandai pendapat."
+        },
+        {
+          "english": "Because some students arrive early.",
+          "indonesian": "Karena beberapa siswa datang lebih awal.",
+          "note": "“Because” memberikan alasan."
+        },
+        {
+          "english": "I agree with your idea.",
+          "indonesian": "Saya setuju dengan idemu.",
+          "note": "Kalimat ini menyatakan persetujuan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade10-opinions-reasons",
+      "prompt": "Which sentence means “Karena beberapa siswa datang lebih awal.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Karena beberapa siswa datang lebih awal.”.",
+      "choices": [
+        "I think the library should open earlier.",
+        "Because some students arrive early.",
+        "I agree with your idea."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+        "Karena beberapa siswa datang lebih awal.",
+        "Saya setuju dengan idemu."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “Because” memberikan alasan.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "I think the library should open earlier.",
+      "parts": [
+        {
+          "english": "I",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "think the library should open earlier.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Menurut saya perpustakaan sebaiknya buka lebih awal."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The library opens at eight.",
+          "indonesian": "Perpustakaan buka pukul delapan.",
+          "note": "Ini fakta jadwal yang bisa diperiksa."
+        },
+        {
+          "english": "The library should open at seven.",
+          "indonesian": "Perpustakaan sebaiknya buka pukul tujuh.",
+          "note": "Ini usulan atau pendapat."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini fakta jadwal yang bisa diperiksa. Ini usulan atau pendapat."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "I see your point, but the staff may need time to prepare the books.",
+          "indonesian": "Saya memahami maksudmu, tetapi petugas mungkin memerlukan waktu menyiapkan buku.",
+          "note": "Tanggapan sopan dapat menyampaikan pertimbangan lain."
+        },
+        {
+          "english": "We could try the new schedule for one week and collect student feedback.",
+          "indonesian": "Kita dapat mencoba jadwal baru selama satu minggu dan mengumpulkan tanggapan siswa.",
+          "note": "Usulan ini memberi langkah nyata untuk menilai gagasan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "During a student council meeting, Rani suggested opening the library thirty minutes earlier. She explained that some students arrived at school before their first lesson and wanted a quiet place to read. Bima agreed that early access would be useful, but he wondered whether librarians needed extra preparation time. Rani proposed a one-week trial and suggested collecting feedback from staff and students. The group decided to discuss the trial with the librarians rather than changing the schedule immediately.",
+      "note": "Ringkasan bantuan: Mencari cara yang adil untuk mempertimbangkan jam buka perpustakaan lebih awal. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
+        "[[I think]] memperkenalkan pendapat, [[because]] menghubungkannya dengan alasan, dan [[I see your point, but]] menunjukkan perbedaan pendapat dengan sopan.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “earlier”?",
+      "choices": [
+        "Because some students arrive early.",
+        "I agree with your idea.",
+        "I think the library should open earlier.",
+        "The library opens at eight."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[earlier]] muncul dalam kalimat [[I think the library should open earlier.]]. “I think” menandai pendapat.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “earlier”?",
+        "choices": [
+          "Karena beberapa siswa datang lebih awal.",
+          "Saya setuju dengan idemu.",
+          "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+          "Perpustakaan buka pukul delapan."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “agree”?",
+      "choices": [
+        "I think the library should open earlier.",
+        "Because some students arrive early.",
+        "The library opens at eight.",
+        "I agree with your idea."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[agree]] muncul dalam kalimat [[I agree with your idea.]]. Kalimat ini menyatakan persetujuan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “agree”?",
+        "choices": [
+          "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+          "Karena beberapa siswa datang lebih awal.",
+          "Perpustakaan buka pukul delapan.",
+          "Saya setuju dengan idemu."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade10-opinions-reasons-practice"
+  ]
+}

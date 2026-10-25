@@ -1,0 +1,258 @@
+{
+  "id": "grade12-hortatory-exposition",
+  "objectives": [
+    "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Ada tulisan yang tidak berhenti pada “ini masalah”. Penulis menjelaskan masalah, memberi alasan, lalu mengajak pembaca melakukan sesuatu. Kita pelajari langkahnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Online comments can hurt others.",
+          "indonesian": "Komentar daring dapat menyakiti orang lain.",
+          "why": "Kalimat menunjukkan masalah atau posisi awal."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Harsh words may discourage participation.",
+          "indonesian": "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
+          "why": "Ini alasan pendukung."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Ada tulisan yang tidak berhenti pada “ini masalah”. Penulis menjelaskan masalah, memberi alasan, lalu mengajak pembaca melakukan sesuatu. Kita pelajari langkahnya."
+    },
+    {
+      "type": "rule",
+      "text": "[[Hortatory exposition]] berisi [[thesis]], [[arguments]], dan [[recommendation]]. [[Recommendation]] menyebut tindakan yang disarankan penulis."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Netiquette means always agreeing with others.",
+      "correct": "Netiquette means disagreeing respectfully without personal attacks.",
+      "explanation": "Kesopanan tidak mengharuskan semua orang memiliki pendapat yang sama."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "netiquette",
+          "indonesian": "etika berinternet"
+        },
+        {
+          "english": "recommendation",
+          "indonesian": "rekomendasi"
+        },
+        {
+          "english": "insult",
+          "indonesian": "hinaan"
+        },
+        {
+          "english": "respectful",
+          "indonesian": "sopan"
+        },
+        {
+          "english": "tone",
+          "indonesian": "nada bahasa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Online comments can hurt others.",
+          "indonesian": "Komentar daring dapat menyakiti orang lain.",
+          "note": "Kalimat menunjukkan masalah atau posisi awal."
+        },
+        {
+          "english": "Harsh words may discourage participation.",
+          "indonesian": "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
+          "note": "Ini alasan pendukung."
+        },
+        {
+          "english": "Check your tone before posting.",
+          "indonesian": "Periksa nada bicaramu sebelum mengunggah.",
+          "note": "Ini rekomendasi tindakan yang jelas."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-hortatory-exposition",
+      "prompt": "Which sentence means “Kata-kata kasar bisa membuat orang enggan berpartisipasi.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Kata-kata kasar bisa membuat orang enggan berpartisipasi.”.",
+      "choices": [
+        "Online comments can hurt others.",
+        "Harsh words may discourage participation.",
+        "Check your tone before posting."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Komentar daring dapat menyakiti orang lain.",
+        "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
+        "Periksa nada bicaramu sebelum mengunggah."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini alasan pendukung.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Online comments can hurt others.",
+      "parts": [
+        {
+          "english": "Online",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "comments can hurt others.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Komentar daring dapat menyakiti orang lain."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Respectful comments are important.",
+          "indonesian": "Komentar yang sopan itu penting.",
+          "note": "Ini klaim nilai."
+        },
+        {
+          "english": "Schools should teach students to pause before sharing comments.",
+          "indonesian": "Sekolah sebaiknya mengajarkan siswa berhenti sejenak sebelum membagikan komentar.",
+          "note": "Ini saran yang dapat dikerjakan."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini klaim nilai. Ini saran yang dapat dikerjakan."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Because words can be misread without facial expressions, students should reread messages before sending them.",
+          "indonesian": "Karena kata-kata bisa disalahpahami tanpa ekspresi wajah, siswa sebaiknya membaca ulang pesan sebelum mengirim.",
+          "note": "Alasan dan rekomendasi dihubungkan secara jelas."
+        },
+        {
+          "english": "Although disagreement is normal, personal insults should be avoided in classroom discussion groups.",
+          "indonesian": "Meskipun perbedaan pendapat wajar, hinaan pribadi sebaiknya dihindari dalam grup diskusi kelas.",
+          "note": "Kata “although” mengakui perbedaan pendapat dan menolak serangan pribadi."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Students should practise respectful communication in online school groups. Short messages can be misunderstood because readers cannot hear the speaker’s tone. Personal insults may discourage classmates from asking questions, even when they have useful ideas. Respectful disagreement makes discussion more productive. Therefore, before sending a reply, students should check whether it addresses an idea rather than attacking a person. They should also report harmful messages through the school’s established channels instead of spreading screenshots for entertainment.",
+      "note": "Ringkasan bantuan: Memeriksa balasan dan bersikap sopan dalam grup sekolah. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
+        "[[Hortatory exposition]] berisi [[thesis]], [[arguments]], dan [[recommendation]]. [[Recommendation]] menyebut tindakan yang disarankan penulis.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “Online”?",
+      "choices": [
+        "Online comments can hurt others.",
+        "Harsh words may discourage participation.",
+        "Check your tone before posting.",
+        "Respectful comments are important."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[Online]] muncul dalam kalimat [[Online comments can hurt others.]]. Kalimat menunjukkan masalah atau posisi awal.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Online”?",
+        "choices": [
+          "Komentar daring dapat menyakiti orang lain.",
+          "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
+          "Periksa nada bicaramu sebelum mengunggah.",
+          "Komentar yang sopan itu penting."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “posting”?",
+      "choices": [
+        "Online comments can hurt others.",
+        "Check your tone before posting.",
+        "Harsh words may discourage participation.",
+        "Respectful comments are important."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[posting]] muncul dalam kalimat [[Check your tone before posting.]]. Ini rekomendasi tindakan yang jelas.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “posting”?",
+        "choices": [
+          "Komentar daring dapat menyakiti orang lain.",
+          "Periksa nada bicaramu sebelum mengunggah.",
+          "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
+          "Komentar yang sopan itu penting."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-hortatory-exposition-practice"
+  ]
+}

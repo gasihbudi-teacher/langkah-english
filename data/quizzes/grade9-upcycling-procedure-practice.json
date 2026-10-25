@@ -1,0 +1,111 @@
+{
+  "id": "grade9-upcycling-procedure-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-upcycling-procedure",
+      "title": "Procedure Text: Upcycling Materials",
+      "text": "Make a pencil holder from an empty glass jar. You need one clean jar, a soft cloth, coloured paper, and glue. First, wash the jar and check that it has no sharp edges. Next, dry its outer surface with the cloth. Then attach the paper with a small amount of glue. Leave the holder to dry before placing pencils inside. If the glass is chipped, choose another container instead. The goal is to reuse a safe object rather than throw it away.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main purpose of the text?",
+      "choices": [
+        "To describe one artist’s childhood",
+        "To show how to make a pencil holder",
+        "To tell a frightening story",
+        "To argue that jars should be banned"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa tujuan utama teks?",
+        "choices": [
+          "Mendeskripsikan masa kecil seniman",
+          "Menjelaskan cara membuat tempat pensil",
+          "Menceritakan kisah menakutkan",
+          "Berargumen bahwa stoples harus dilarang"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-upcycling-procedure",
+      "evidence": "Make a pencil holder from an empty glass jar."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which material is NOT needed?",
+      "choices": [
+        "Coloured paper",
+        "A soft cloth",
+        "Glue",
+        "Cooking oil"
+      ],
+      "answer": 3,
+      "explanation": "Bahan yang diperlukan tercantum; minyak goreng tidak disebut.",
+      "translationId": {
+        "prompt": "Bahan mana yang tidak diperlukan?",
+        "choices": [
+          "Kertas berwarna",
+          "Kain lembut",
+          "Lem",
+          "Minyak goreng"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-upcycling-procedure",
+      "evidence": "a soft cloth, coloured paper, and glue"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why should the outside of the jar be dry?",
+      "choices": [
+        "So the glass becomes heavier",
+        "So the paper can be attached properly",
+        "So the pencils can be washed",
+        "So the jar can break easily"
+      ],
+      "answer": 1,
+      "explanation": "Mengeringkan permukaan dilakukan sebelum menempelkan kertas.",
+      "translationId": {
+        "prompt": "Mengapa bagian luar stoples harus kering?",
+        "choices": [
+          "Agar kaca menjadi lebih berat",
+          "Agar kertas dapat menempel dengan baik",
+          "Agar pensil bisa dicuci",
+          "Agar stoples mudah pecah"
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "text-upcycling-procedure",
+      "evidence": "dry its outer surface with the cloth. Then attach the paper"
+    },
+    {
+      "id": "q4",
+      "prompt": "What should a reader do if the glass is chipped?",
+      "choices": [
+        "Choose another container",
+        "Use extra glue only",
+        "Fill it with water",
+        "Skip the safety check"
+      ],
+      "answer": 0,
+      "explanation": "Petunjuk keselamatan menyuruh mengganti wadah bila kaca rusak.",
+      "translationId": {
+        "prompt": "Apa yang harus dilakukan jika kaca retak/terkelupas?",
+        "choices": [
+          "Memilih wadah lain",
+          "Hanya menambah lem",
+          "Mengisinya dengan air",
+          "Melewati pemeriksaan keamanan"
+        ]
+      },
+      "skill": "Following Instructions",
+      "passageId": "text-upcycling-procedure",
+      "evidence": "If the glass is chipped, choose another container instead."
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "grade9-upcycling-procedure",
+  "objectives": [
+    "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Teks prosedur membantu pembaca melakukan sesuatu. Kita belajar membedakan apa yang perlu disiapkan dan apa yang perlu dikerjakan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Wash the empty jar.",
+          "indonesian": "Cuci stoples kosong itu.",
+          "why": "Kata kerja di awal kalimat adalah perintah."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Dry it with a clean cloth.",
+          "indonesian": "Keringkan dengan kain bersih.",
+          "why": "Kata “it” merujuk pada stoples."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Teks prosedur membantu pembaca melakukan sesuatu. Kita belajar membedakan apa yang perlu disiapkan dan apa yang perlu dikerjakan."
+    },
+    {
+      "type": "rule",
+      "text": "[[Procedure text]] menyebut [[goal]], [[materials]], dan [[steps]]. Kata kerja perintah seperti [[wash]] dan [[cut]] menjelaskan tindakan; lakukan menurut urutan."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Dry the jar before washing it.",
+      "correct": "Wash the jar before drying it.",
+      "explanation": "Urutan kerja yang benar dimulai dari mencuci lalu mengeringkan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "jar",
+          "indonesian": "stoples"
+        },
+        {
+          "english": "cloth",
+          "indonesian": "kain"
+        },
+        {
+          "english": "attach",
+          "indonesian": "menempelkan"
+        },
+        {
+          "english": "decorate",
+          "indonesian": "menghias"
+        },
+        {
+          "english": "sharp",
+          "indonesian": "tajam"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Wash the empty jar.",
+          "indonesian": "Cuci stoples kosong itu.",
+          "note": "Kata kerja di awal kalimat adalah perintah."
+        },
+        {
+          "english": "Dry it with a clean cloth.",
+          "indonesian": "Keringkan dengan kain bersih.",
+          "note": "Kata “it” merujuk pada stoples."
+        },
+        {
+          "english": "Put small pencils inside.",
+          "indonesian": "Masukkan pensil kecil ke dalamnya.",
+          "note": "Tahap terakhir menunjukkan fungsi benda baru."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade9-upcycling-procedure",
+      "prompt": "Which sentence means “Keringkan dengan kain bersih.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Keringkan dengan kain bersih.”.",
+      "choices": [
+        "Wash the empty jar.",
+        "Dry it with a clean cloth.",
+        "Put small pencils inside."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Cuci stoples kosong itu.",
+        "Keringkan dengan kain bersih.",
+        "Masukkan pensil kecil ke dalamnya."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “it” merujuk pada stoples.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Wash the empty jar.",
+      "parts": [
+        {
+          "english": "Wash",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "the empty jar.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Cuci stoples kosong itu."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "You need a clean jar.",
+          "indonesian": "Kamu memerlukan stoples bersih.",
+          "note": "Ini bahan yang diperlukan."
+        },
+        {
+          "english": "Decorate the jar with paper.",
+          "indonesian": "Hias stoples dengan kertas.",
+          "note": "Ini tindakan yang dilakukan."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini bahan yang diperlukan. Ini tindakan yang dilakukan."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Before attaching paper, make sure the outside of the jar is completely dry.",
+          "indonesian": "Sebelum menempelkan kertas, pastikan bagian luar stoples benar-benar kering.",
+          "note": "“Before” menunjukkan prasyarat untuk tindakan berikutnya."
+        },
+        {
+          "english": "If the jar has sharp edges, ask an adult to help before using it.",
+          "indonesian": "Jika stoples mempunyai tepi tajam, mintalah bantuan orang dewasa sebelum menggunakannya.",
+          "note": "Kalimat bersyarat ini memberikan peringatan keselamatan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Make a pencil holder from an empty glass jar. You need one clean jar, a soft cloth, coloured paper, and glue. First, wash the jar and check that it has no sharp edges. Next, dry its outer surface with the cloth. Then attach the paper with a small amount of glue. Leave the holder to dry before placing pencils inside. If the glass is chipped, choose another container instead. The goal is to reuse a safe object rather than throw it away.",
+      "note": "Ringkasan bantuan: Menceritakan kisah menakutkan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
+        "[[Procedure text]] menyebut [[goal]], [[materials]], dan [[steps]]. Kata kerja perintah seperti [[wash]] dan [[cut]] menjelaskan tindakan; lakukan menurut urutan.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “empty”?",
+      "choices": [
+        "Dry it with a clean cloth.",
+        "Put small pencils inside.",
+        "Wash the empty jar.",
+        "You need a clean jar."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[empty]] muncul dalam kalimat [[Wash the empty jar.]]. Kata kerja di awal kalimat adalah perintah.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “empty”?",
+        "choices": [
+          "Keringkan dengan kain bersih.",
+          "Masukkan pensil kecil ke dalamnya.",
+          "Cuci stoples kosong itu.",
+          "Kamu memerlukan stoples bersih."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “pencils”?",
+      "choices": [
+        "Wash the empty jar.",
+        "Dry it with a clean cloth.",
+        "You need a clean jar.",
+        "Put small pencils inside."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[pencils]] muncul dalam kalimat [[Put small pencils inside.]]. Tahap terakhir menunjukkan fungsi benda baru.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “pencils”?",
+        "choices": [
+          "Cuci stoples kosong itu.",
+          "Keringkan dengan kain bersih.",
+          "Kamu memerlukan stoples bersih.",
+          "Masukkan pensil kecil ke dalamnya."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade9-upcycling-procedure-practice"
+  ]
+}

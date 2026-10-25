@@ -1,0 +1,258 @@
+{
+  "id": "grade11-money-procedure",
+  "objectives": [
+    "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Pengelolaan uang dimulai dari mencatat pemasukan dan pengeluaran. Kita tidak perlu menghitung rumit; pahami dahulu urutannya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Write down your weekly allowance.",
+          "indonesian": "Catat uang saku mingguanmu.",
+          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "List necessary transport costs.",
+          "indonesian": "Daftar biaya transportasi yang diperlukan.",
+          "why": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Pengelolaan uang dimulai dari mencatat pemasukan dan pengeluaran. Kita tidak perlu menghitung rumit; pahami dahulu urutannya."
+    },
+    {
+      "type": "rule",
+      "text": "Teks prosedur menggunakan perintah seperti [[list]], [[compare]], dan [[review]]. [[Needs]] adalah kebutuhan pokok, sedangkan [[wants]] adalah keinginan."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Buy optional items before checking the total.",
+      "correct": "Check essential costs and totals before optional purchases.",
+      "explanation": "Urutan langkah anggaran memengaruhi keputusan akhir."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "allowance",
+          "indonesian": "uang saku"
+        },
+        {
+          "english": "expense",
+          "indonesian": "pengeluaran"
+        },
+        {
+          "english": "saving",
+          "indonesian": "tabungan"
+        },
+        {
+          "english": "need",
+          "indonesian": "kebutuhan"
+        },
+        {
+          "english": "want",
+          "indonesian": "keinginan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Write down your weekly allowance.",
+          "indonesian": "Catat uang saku mingguanmu.",
+          "note": "Ini langkah pertama untuk mengetahui jumlah tersedia."
+        },
+        {
+          "english": "List necessary transport costs.",
+          "indonesian": "Daftar biaya transportasi yang diperlukan.",
+          "note": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
+        },
+        {
+          "english": "Review your plan each Friday.",
+          "indonesian": "Tinjau kembali rencanamu setiap Jumat.",
+          "note": "Peninjauan membantu memperbaiki rencana."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade11-money-procedure",
+      "prompt": "Which sentence means “Daftar biaya transportasi yang diperlukan.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Daftar biaya transportasi yang diperlukan.”.",
+      "choices": [
+        "Write down your weekly allowance.",
+        "List necessary transport costs.",
+        "Review your plan each Friday."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Catat uang saku mingguanmu.",
+        "Daftar biaya transportasi yang diperlukan.",
+        "Tinjau kembali rencanamu setiap Jumat."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Biaya yang wajib didahulukan bisa disebut kebutuhan.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Write down your weekly allowance.",
+      "parts": [
+        {
+          "english": "Write",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "down your weekly allowance.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Catat uang saku mingguanmu."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Bus fare is a necessary expense.",
+          "indonesian": "Ongkos bus adalah pengeluaran yang diperlukan.",
+          "note": "Ini contoh kebutuhan untuk perjalanan sekolah."
+        },
+        {
+          "english": "A second decorative notebook may be a want.",
+          "indonesian": "Buku catatan hias kedua mungkin hanya keinginan.",
+          "note": "Tidak semua pembelian yang disukai merupakan kebutuhan."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini contoh kebutuhan untuk perjalanan sekolah. Tidak semua pembelian yang disukai merupakan kebutuhan."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "After setting aside money for transport, compare the amount left with your savings goal.",
+          "indonesian": "Setelah menyisihkan uang untuk transportasi, bandingkan sisa uang dengan target tabungan.",
+          "note": "Urutan ini menempatkan kebutuhan sebelum tabungan tambahan."
+        },
+        {
+          "english": "If the planned spending is higher than the allowance, reduce optional purchases before changing necessary costs.",
+          "indonesian": "Jika rencana pengeluaran lebih besar dari uang saku, kurangi pembelian pilihan sebelum mengubah biaya wajib.",
+          "note": "Instruksi bersyarat mendukung keputusan anggaran yang masuk akal."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "A school finance club shared a simple budgeting guide. First, record your weekly allowance. Second, list essential expenses such as transport and meals. Third, decide on a realistic amount to save. Only then consider optional purchases. Check whether the total plan exceeds your allowance. If it does, revise optional spending before reducing essential costs. At the end of the week, compare your plan with your actual expenses. The guide advises students to review their choices rather than blame themselves for an imperfect first attempt.",
+      "note": "Ringkasan bantuan: Langkah praktis menyusun anggaran siswa. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
+        "Teks prosedur menggunakan perintah seperti [[list]], [[compare]], dan [[review]]. [[Needs]] adalah kebutuhan pokok, sedangkan [[wants]] adalah keinginan.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “allowance”?",
+      "choices": [
+        "List necessary transport costs.",
+        "Write down your weekly allowance.",
+        "Review your plan each Friday.",
+        "Bus fare is a necessary expense."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[allowance]] muncul dalam kalimat [[Write down your weekly allowance.]]. Ini langkah pertama untuk mengetahui jumlah tersedia.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “allowance”?",
+        "choices": [
+          "Daftar biaya transportasi yang diperlukan.",
+          "Catat uang saku mingguanmu.",
+          "Tinjau kembali rencanamu setiap Jumat.",
+          "Ongkos bus adalah pengeluaran yang diperlukan."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “Review”?",
+      "choices": [
+        "Write down your weekly allowance.",
+        "List necessary transport costs.",
+        "Review your plan each Friday.",
+        "Bus fare is a necessary expense."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[Review]] muncul dalam kalimat [[Review your plan each Friday.]]. Peninjauan membantu memperbaiki rencana.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Review”?",
+        "choices": [
+          "Catat uang saku mingguanmu.",
+          "Daftar biaya transportasi yang diperlukan.",
+          "Tinjau kembali rencanamu setiap Jumat.",
+          "Ongkos bus adalah pengeluaran yang diperlukan."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade11-money-procedure-practice"
+  ]
+}

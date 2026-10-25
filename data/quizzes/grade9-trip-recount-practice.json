@@ -1,0 +1,111 @@
+{
+  "id": "grade9-trip-recount-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-trip-recount",
+      "title": "Recount Text: A School Trip",
+      "text": "Last Friday, Class 9B visited a small history museum. First, a guide welcomed the students and explained three old maps. Next, the class compared the maps with a present-day map of the town. After lunch, students interviewed a museum volunteer about the river that once ran through the market. The bus arrived twenty minutes late for the return trip, but everyone reached school safely. Before leaving, Nita wrote that she had learned how maps could tell stories about changes in a place.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "A class visit to a history museum",
+        "A debate about public transport",
+        "Instructions for drawing a town map",
+        "A description of a school canteen"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Bacaan ini terutama membahas apa?",
+        "choices": [
+          "Kunjungan kelas ke museum sejarah",
+          "Debat tentang transportasi umum",
+          "Instruksi menggambar peta kota",
+          "Deskripsi kantin sekolah"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-trip-recount",
+      "evidence": "Last Friday, Class 9B visited a small history museum."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did the students do after the guide explained the maps?",
+      "choices": [
+        "They went straight home",
+        "They missed the entire visit",
+        "They bought bus tickets",
+        "They compared old and modern maps"
+      ],
+      "answer": 3,
+      "explanation": "Kata “Next” menunjukkan kegiatan membandingkan peta setelah penjelasan pemandu.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan siswa setelah pemandu menjelaskan peta?",
+        "choices": [
+          "Mereka langsung pulang",
+          "Mereka melewatkan seluruh kunjungan",
+          "Mereka membeli tiket bus",
+          "Mereka membandingkan peta lama dan modern"
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "text-trip-recount",
+      "evidence": "Next, the class compared the maps with a present-day map of the town."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which detail is a reflection rather than an event?",
+      "choices": [
+        "Nita learned that maps tell stories of change",
+        "The bus was late",
+        "The guide welcomed students",
+        "The class interviewed a volunteer"
+      ],
+      "answer": 0,
+      "explanation": "Nita menjelaskan pemahaman baru yang diperoleh.",
+      "translationId": {
+        "prompt": "Detail mana merupakan refleksi, bukan kejadian?",
+        "choices": [
+          "Nita memahami bahwa peta menceritakan perubahan",
+          "Bus terlambat",
+          "Pemandu menyambut siswa",
+          "Kelas mewawancarai relawan"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-trip-recount",
+      "evidence": "she had learned how maps could tell stories about changes in a place"
+    },
+    {
+      "id": "q4",
+      "prompt": "What can be inferred about the late bus?",
+      "choices": [
+        "It prevented students from reaching school",
+        "It did not stop the group returning safely",
+        "It made the museum close early",
+        "It arrived before lunch"
+      ],
+      "answer": 1,
+      "explanation": "Teks menyatakan keterlambatan dan kepulangan aman dalam satu kalimat.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan tentang bus yang terlambat?",
+        "choices": [
+          "Bus menghalangi siswa tiba di sekolah",
+          "Bus tidak menghalangi rombongan pulang dengan selamat",
+          "Bus membuat museum tutup lebih awal",
+          "Bus datang sebelum makan siang"
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "text-trip-recount",
+      "evidence": "but everyone reached school safely"
+    }
+  ]
+}

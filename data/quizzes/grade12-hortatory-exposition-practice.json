@@ -1,0 +1,111 @@
+{
+  "id": "grade12-hortatory-exposition-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-hortatory-exposition",
+      "title": "Hortatory Exposition: Arguing for Action",
+      "text": "Students should practise respectful communication in online school groups. Short messages can be misunderstood because readers cannot hear the speaker’s tone. Personal insults may discourage classmates from asking questions, even when they have useful ideas. Respectful disagreement makes discussion more productive. Therefore, before sending a reply, students should check whether it addresses an idea rather than attacking a person. They should also report harmful messages through the school’s established channels instead of spreading screenshots for entertainment.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What action does the author recommend?",
+      "choices": [
+        "Stop asking all questions online",
+        "Review replies and respond respectfully in school groups",
+        "Share harmful messages for entertainment",
+        "Attack anyone who disagrees"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Tindakan apa yang disarankan penulis?",
+        "choices": [
+          "Berhenti bertanya secara daring",
+          "Memeriksa balasan dan bersikap sopan dalam grup sekolah",
+          "Menyebarkan pesan menyakitkan sebagai hiburan",
+          "Menyerang siapa pun yang tidak setuju"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-hortatory-exposition",
+      "evidence": "Students should practise respectful communication in online school groups."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why can short messages be misunderstood?",
+      "choices": [
+        "All readers always agree",
+        "The messages must be very long",
+        "Readers cannot hear the speaker’s tone",
+        "School groups have no students"
+      ],
+      "answer": 2,
+      "explanation": "Nada suara tidak hadir dalam pesan pendek.",
+      "translationId": {
+        "prompt": "Mengapa pesan singkat dapat disalahpahami?",
+        "choices": [
+          "Semua pembaca selalu setuju",
+          "Pesan harus sangat panjang",
+          "Pembaca tidak mendengar nada suara penulis",
+          "Grup sekolah tidak memiliki siswa"
+        ]
+      },
+      "skill": "Reasons",
+      "passageId": "text-hortatory-exposition",
+      "evidence": "readers cannot hear the speaker’s tone"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence is the clearest recommendation?",
+      "choices": [
+        "Short messages can be misunderstood",
+        "Insults may discourage classmates",
+        "Classmates may have useful ideas",
+        "Students should check their replies before sending"
+      ],
+      "answer": 3,
+      "explanation": "Kata “should” pada anjuran mengarahkan tindakan.",
+      "translationId": {
+        "prompt": "Kalimat mana merupakan rekomendasi paling jelas?",
+        "choices": [
+          "Pesan pendek dapat disalahpahami",
+          "Hinaan dapat membuat teman enggan berbicara",
+          "Teman mungkin memiliki ide berguna",
+          "Siswa sebaiknya memeriksa balasan sebelum mengirim"
+        ]
+      },
+      "skill": "Text Structure",
+      "passageId": "text-hortatory-exposition",
+      "evidence": "students should check whether it addresses an idea"
+    },
+    {
+      "id": "q4",
+      "prompt": "What is the likely effect of respectful disagreement?",
+      "choices": [
+        "More productive discussion",
+        "Guaranteed agreement on every issue",
+        "No one will ever make a mistake",
+        "All messages will disappear"
+      ],
+      "answer": 0,
+      "explanation": "Penulis menghubungkan sikap saling menghormati dengan diskusi lebih produktif.",
+      "translationId": {
+        "prompt": "Apa dampak yang mungkin dari perbedaan pendapat sopan?",
+        "choices": [
+          "Diskusi lebih produktif",
+          "Semua pihak pasti sepakat",
+          "Tidak seorang pun akan pernah salah",
+          "Semua pesan menghilang"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-hortatory-exposition",
+      "evidence": "Respectful disagreement makes discussion more productive."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "grade11-exposition-evidence-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-exposition-evidence",
+      "title": "Analytical Exposition: Claims and Evidence",
+      "text": "A student article argues that schools should provide refillable water stations. Students who forget a bottle could still reach drinking water, and reusable bottles may reduce single-use plastic. To support the proposal, the writer describes a survey in two classes in which most respondents wanted easier water access. However, the article acknowledges that two classes do not represent the whole school. It recommends a short trial and a wider survey before the principal decides whether to install more stations.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the author’s main argument?",
+      "choices": [
+        "Students should stop drinking water",
+        "All surveys must be banned",
+        "Schools should consider refillable water stations",
+        "The school needs more plastic cups"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa argumen utama penulis?",
+        "choices": [
+          "Siswa harus berhenti minum air",
+          "Semua survei harus dilarang",
+          "Sekolah perlu mempertimbangkan tempat pengisian air minum",
+          "Sekolah memerlukan lebih banyak gelas plastik"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-exposition-evidence",
+      "evidence": "A student article argues that schools should provide refillable water stations."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which detail is used as supporting evidence?",
+      "choices": [
+        "A story about a mountain",
+        "A survey of two classes",
+        "A prediction without respondents",
+        "A photograph of a bus"
+      ],
+      "answer": 1,
+      "explanation": "Penulis menyebut survei sebagai dukungan usulan.",
+      "translationId": {
+        "prompt": "Detail mana dipakai sebagai bukti pendukung?",
+        "choices": [
+          "Cerita tentang gunung",
+          "Survei dua kelas",
+          "Ramalan tanpa responden",
+          "Foto bus"
+        ]
+      },
+      "skill": "Evidence",
+      "passageId": "text-exposition-evidence",
+      "evidence": "a survey in two classes"
+    },
+    {
+      "id": "q3",
+      "prompt": "What limitation does the article recognise?",
+      "choices": [
+        "The water is always unsafe",
+        "Students cannot carry bottles",
+        "The school has no principal",
+        "The survey covered only two classes"
+      ],
+      "answer": 3,
+      "explanation": "Penulis sendiri membatasi keterwakilan survei.",
+      "translationId": {
+        "prompt": "Keterbatasan apa yang diakui artikel?",
+        "choices": [
+          "Air selalu tidak aman",
+          "Siswa tidak bisa membawa botol",
+          "Sekolah tidak punya kepala sekolah",
+          "Survei hanya melibatkan dua kelas"
+        ]
+      },
+      "skill": "Critical Reading",
+      "passageId": "text-exposition-evidence",
+      "evidence": "two classes do not represent the whole school"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why does the writer recommend a trial?",
+      "choices": [
+        "To gather evidence before a larger decision",
+        "To avoid learning anything",
+        "To prove every student agrees",
+        "To replace all school lessons"
+      ],
+      "answer": 0,
+      "explanation": "Uji coba dan survei lebih luas memungkinkan evaluasi sebelum perluasan.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyarankan uji coba?",
+        "choices": [
+          "Untuk mengumpulkan bukti sebelum keputusan lebih besar",
+          "Untuk menghindari pembelajaran apa pun",
+          "Untuk membuktikan semua siswa setuju",
+          "Untuk mengganti semua pelajaran sekolah"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-exposition-evidence",
+      "evidence": "It recommends a short trial and a wider survey"
+    }
+  ]
+}

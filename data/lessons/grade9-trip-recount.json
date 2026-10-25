@@ -1,0 +1,258 @@
+{
+  "id": "grade9-trip-recount",
+  "objectives": [
+    "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Kalau kamu menceritakan kegiatan kemarin, pendengar perlu tahu apa yang terjadi dulu, kemudian, dan akhirnya. Itulah awal [[recount text]]. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Our class visited a museum.",
+          "indonesian": "Kelas kami mengunjungi museum.",
+          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "First, we met our guide.",
+          "indonesian": "Pertama, kami bertemu pemandu.",
+          "why": "“First” menyatakan urutan awal."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Kalau kamu menceritakan kegiatan kemarin, pendengar perlu tahu apa yang terjadi dulu, kemudian, dan akhirnya. Itulah awal [[recount text]]."
+    },
+    {
+      "type": "rule",
+      "text": "Dalam [[recount]], susun kejadian masa lampau dengan kata urutan seperti [[first]], [[then]], dan [[finally]]. Bagian akhir dapat berisi perasaan atau pelajaran."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "First we returned; then we arrived.",
+      "correct": "First we arrived; later we returned.",
+      "explanation": "Urutan dalam recount harus mengikuti waktu kejadian."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "arrive",
+          "indonesian": "tiba"
+        },
+        {
+          "english": "guide",
+          "indonesian": "pemandu"
+        },
+        {
+          "english": "exhibit",
+          "indonesian": "benda pameran"
+        },
+        {
+          "english": "compare",
+          "indonesian": "membandingkan"
+        },
+        {
+          "english": "reflection",
+          "indonesian": "refleksi"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Our class visited a museum.",
+          "indonesian": "Kelas kami mengunjungi museum.",
+          "note": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+        },
+        {
+          "english": "First, we met our guide.",
+          "indonesian": "Pertama, kami bertemu pemandu.",
+          "note": "“First” menyatakan urutan awal."
+        },
+        {
+          "english": "Finally, we wrote a short report.",
+          "indonesian": "Terakhir, kami menulis laporan singkat.",
+          "note": "“Finally” menandai tahap akhir kegiatan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade9-trip-recount",
+      "prompt": "Which sentence means “Pertama, kami bertemu pemandu.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Pertama, kami bertemu pemandu.”.",
+      "choices": [
+        "Our class visited a museum.",
+        "First, we met our guide.",
+        "Finally, we wrote a short report."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Kelas kami mengunjungi museum.",
+        "Pertama, kami bertemu pemandu.",
+        "Terakhir, kami menulis laporan singkat."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “First” menyatakan urutan awal.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Our class visited a museum.",
+      "parts": [
+        {
+          "english": "Our",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "class visited a museum.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Kelas kami mengunjungi museum."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "We arrived at nine.",
+          "indonesian": "Kami tiba pukul sembilan.",
+          "note": "Ini kejadian yang dapat dicatat dalam urutan waktu."
+        },
+        {
+          "english": "I learned to ask better questions.",
+          "indonesian": "Saya belajar mengajukan pertanyaan yang lebih baik.",
+          "note": "Ini refleksi: pelajaran yang didapat penulis."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini kejadian yang dapat dicatat dalam urutan waktu. Ini refleksi: pelajaran yang didapat penulis."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "After the guide explained the old maps, we compared them with a modern map.",
+          "indonesian": "Setelah pemandu menjelaskan peta lama, kami membandingkannya dengan peta modern.",
+          "note": "“After” menunjukkan hubungan urutan dua kejadian."
+        },
+        {
+          "english": "Although the bus was late, we still completed all the activities.",
+          "indonesian": "Meskipun bus terlambat, kami tetap menyelesaikan semua kegiatan.",
+          "note": "“Although” menghubungkan hambatan dengan hasil kegiatan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Last Friday, Class 9B visited a small history museum. First, a guide welcomed the students and explained three old maps. Next, the class compared the maps with a present-day map of the town. After lunch, students interviewed a museum volunteer about the river that once ran through the market. The bus arrived twenty minutes late for the return trip, but everyone reached school safely. Before leaving, Nita wrote that she had learned how maps could tell stories about changes in a place.",
+      "note": "Ringkasan bantuan: Instruksi menggambar peta kota. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+        "Dalam [[recount]], susun kejadian masa lampau dengan kata urutan seperti [[first]], [[then]], dan [[finally]]. Bagian akhir dapat berisi perasaan atau pelajaran.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “visited”?",
+      "choices": [
+        "First, we met our guide.",
+        "Our class visited a museum.",
+        "Finally, we wrote a short report.",
+        "We arrived at nine."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[visited]] muncul dalam kalimat [[Our class visited a museum.]]. Kata “visited” menunjukkan kejadian yang sudah selesai.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “visited”?",
+        "choices": [
+          "Pertama, kami bertemu pemandu.",
+          "Kelas kami mengunjungi museum.",
+          "Terakhir, kami menulis laporan singkat.",
+          "Kami tiba pukul sembilan."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “Finally”?",
+      "choices": [
+        "Our class visited a museum.",
+        "First, we met our guide.",
+        "Finally, we wrote a short report.",
+        "We arrived at nine."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[Finally]] muncul dalam kalimat [[Finally, we wrote a short report.]]. “Finally” menandai tahap akhir kegiatan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Finally”?",
+        "choices": [
+          "Kelas kami mengunjungi museum.",
+          "Pertama, kami bertemu pemandu.",
+          "Terakhir, kami menulis laporan singkat.",
+          "Kami tiba pukul sembilan."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade9-trip-recount-practice"
+  ]
+}

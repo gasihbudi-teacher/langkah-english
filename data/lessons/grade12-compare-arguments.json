@@ -1,0 +1,258 @@
+{
+  "id": "grade12-compare-arguments",
+  "objectives": [
+    "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Dua tulisan dapat membahas topik sama dan mencapai kesimpulan berbeda. Kita baca apa yang mereka ukur, siapa respondennya, lalu baru membandingkan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Source A counts registrations.",
+          "indonesian": "Sumber A menghitung pendaftaran.",
+          "why": "Pendaftaran tidak sama dengan kehadiran."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Source B counts attendance.",
+          "indonesian": "Sumber B menghitung kehadiran.",
+          "why": "Ini ukuran yang berbeda."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Dua tulisan dapat membahas topik sama dan mencapai kesimpulan berbeda. Kita baca apa yang mereka ukur, siapa respondennya, lalu baru membandingkan."
+    },
+    {
+      "type": "rule",
+      "text": "Dalam [[source comparison]], periksa [[claim]], [[sample]], [[measure]], dan [[limitation]]. Dua angka yang berbeda belum tentu bertentangan bila hal yang diukur berbeda."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Different numbers mean one source is lying.",
+      "correct": "Different numbers may reflect different measures and methods.",
+      "explanation": "Periksa definisi, sumber, dan cara penghitungan lebih dahulu."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "sample",
+          "indonesian": "sampel"
+        },
+        {
+          "english": "measure",
+          "indonesian": "ukuran"
+        },
+        {
+          "english": "attendance",
+          "indonesian": "kehadiran"
+        },
+        {
+          "english": "registration",
+          "indonesian": "pendaftaran"
+        },
+        {
+          "english": "reliable",
+          "indonesian": "andal"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Source A counts registrations.",
+          "indonesian": "Sumber A menghitung pendaftaran.",
+          "note": "Pendaftaran tidak sama dengan kehadiran."
+        },
+        {
+          "english": "Source B counts attendance.",
+          "indonesian": "Sumber B menghitung kehadiran.",
+          "note": "Ini ukuran yang berbeda."
+        },
+        {
+          "english": "Both sources discuss the same event.",
+          "indonesian": "Kedua sumber membahas acara sama.",
+          "note": "Topik sama tidak berarti ukuran sama."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-compare-arguments",
+      "prompt": "Which sentence means “Sumber B menghitung kehadiran.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Sumber B menghitung kehadiran.”.",
+      "choices": [
+        "Source A counts registrations.",
+        "Source B counts attendance.",
+        "Both sources discuss the same event."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Sumber A menghitung pendaftaran.",
+        "Sumber B menghitung kehadiran.",
+        "Kedua sumber membahas acara sama."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini ukuran yang berbeda.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Source A counts registrations.",
+      "parts": [
+        {
+          "english": "Source",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "A counts registrations.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Sumber A menghitung pendaftaran."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Fifty students signed up.",
+          "indonesian": "Lima puluh siswa mendaftar.",
+          "note": "Ini jumlah pendaftar."
+        },
+        {
+          "english": "Forty students attended.",
+          "indonesian": "Empat puluh siswa hadir.",
+          "note": "Jumlah hadir dapat lebih kecil tanpa ada kesalahan data."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini jumlah pendaftar. Jumlah hadir dapat lebih kecil tanpa ada kesalahan data."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
+          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
+          "note": "Definisi ukuran menjelaskan sebagian perbedaan."
+        },
+        {
+          "english": "Before judging which claim is stronger, readers need to ask whether the sources describe the same group and time period.",
+          "indonesian": "Sebelum menilai klaim mana lebih kuat, pembaca perlu memeriksa apakah sumber membahas kelompok dan periode waktu sama.",
+          "note": "Perbandingan memerlukan kesesuaian dasar data."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Two reports described the school’s science fair. Report A said participation reached 180 because it counted online registrations, including students who later stayed home. Report B recorded 142 participants because volunteers counted the people who entered the hall. A social media post claimed that one report must be false. However, the two reports measured different things. The organiser explained that both numbers could be accurate while answering different questions. A careful reader should compare the definitions before deciding whether the figures disagree.",
+      "note": "Ringkasan bantuan: Laporan bisa berbeda karena mengukur hal berbeda. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
+        "Dalam [[source comparison]], periksa [[claim]], [[sample]], [[measure]], dan [[limitation]]. Dua angka yang berbeda belum tentu bertentangan bila hal yang diukur berbeda.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “registrations”?",
+      "choices": [
+        "Source B counts attendance.",
+        "Both sources discuss the same event.",
+        "Fifty students signed up.",
+        "Source A counts registrations."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[registrations]] muncul dalam kalimat [[Source A counts registrations.]]. Pendaftaran tidak sama dengan kehadiran.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “registrations”?",
+        "choices": [
+          "Sumber B menghitung kehadiran.",
+          "Kedua sumber membahas acara sama.",
+          "Lima puluh siswa mendaftar.",
+          "Sumber A menghitung pendaftaran."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “sources”?",
+      "choices": [
+        "Both sources discuss the same event.",
+        "Source A counts registrations.",
+        "Source B counts attendance.",
+        "Fifty students signed up."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[sources]] muncul dalam kalimat [[Both sources discuss the same event.]]. Topik sama tidak berarti ukuran sama.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “sources”?",
+        "choices": [
+          "Kedua sumber membahas acara sama.",
+          "Sumber A menghitung pendaftaran.",
+          "Sumber B menghitung kehadiran.",
+          "Lima puluh siswa mendaftar."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-compare-arguments-practice"
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "grade10-fractured-stories",
+  "objectives": [
+    "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Cerita yang sama bisa terlihat berbeda ketika diceritakan oleh tokoh lain. Kita akan membedakan kejadian cerita dari cara tokoh memandangnya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The fox ran into the forest.",
+          "indonesian": "Rubah itu berlari ke hutan.",
+          "why": "Kalimat menyatakan kejadian."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "I was afraid of the fox.",
+          "indonesian": "Saya takut pada rubah itu.",
+          "why": "Kata “I” menunjukkan pandangan tokoh pertama."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Cerita yang sama bisa terlihat berbeda ketika diceritakan oleh tokoh lain. Kita akan membedakan kejadian cerita dari cara tokoh memandangnya."
+    },
+    {
+      "type": "rule",
+      "text": "[[Point of view]] adalah sudut pandang pencerita. [[Fractured story]] mengubah tokoh, latar, atau akhir cerita yang sudah dikenal."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The villagers’ version is the only possible truth.",
+      "correct": "Different narrators may explain the same event differently.",
+      "explanation": "Bacaan berperspektif ganda mengajak pembaca meninjau asumsi."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "narrator",
+          "indonesian": "pencerita"
+        },
+        {
+          "english": "perspective",
+          "indonesian": "sudut pandang"
+        },
+        {
+          "english": "villager",
+          "indonesian": "penduduk desa"
+        },
+        {
+          "english": "fear",
+          "indonesian": "rasa takut"
+        },
+        {
+          "english": "retell",
+          "indonesian": "menceritakan ulang"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The fox ran into the forest.",
+          "indonesian": "Rubah itu berlari ke hutan.",
+          "note": "Kalimat menyatakan kejadian."
+        },
+        {
+          "english": "I was afraid of the fox.",
+          "indonesian": "Saya takut pada rubah itu.",
+          "note": "Kata “I” menunjukkan pandangan tokoh pertama."
+        },
+        {
+          "english": "The fox was afraid of me.",
+          "indonesian": "Rubah itu takut kepada saya.",
+          "note": "Perubahan pelaku mengubah tafsir peristiwa."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade10-fractured-stories",
+      "prompt": "Which sentence means “Saya takut pada rubah itu.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Saya takut pada rubah itu.”.",
+      "choices": [
+        "The fox ran into the forest.",
+        "I was afraid of the fox.",
+        "The fox was afraid of me."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Rubah itu berlari ke hutan.",
+        "Saya takut pada rubah itu.",
+        "Rubah itu takut kepada saya."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “I” menunjukkan pandangan tokoh pertama.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The fox ran into the forest.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "fox ran into the forest.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Rubah itu berlari ke hutan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Mira called the giant cruel.",
+          "indonesian": "Mira menyebut raksasa itu kejam.",
+          "note": "Label “cruel” berasal dari penilaian Mira."
+        },
+        {
+          "english": "The giant said he was lonely.",
+          "indonesian": "Raksasa itu berkata bahwa ia kesepian.",
+          "note": "Pencerita lain memberikan kemungkinan alasan yang berbeda."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Label “cruel” berasal dari penilaian Mira. Pencerita lain memberikan kemungkinan alasan yang berbeda."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the villagers feared the giant, he had only come to ask for clean water.",
+          "indonesian": "Meskipun penduduk desa takut kepada raksasa itu, ia hanya datang untuk meminta air bersih.",
+          "note": "Informasi baru bisa mengubah cara kita menilai tokoh."
+        },
+        {
+          "english": "When the story was retold by the giant, the frightening footsteps became a request for help.",
+          "indonesian": "Ketika kisah diceritakan ulang oleh raksasa, langkah kaki yang menakutkan berubah makna menjadi permintaan bantuan.",
+          "note": "Sudut pandang baru mengubah penafsiran tanpa mengubah suara langkah."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "In the first version of the tale, villagers heard heavy footsteps and believed a giant had come to destroy their bridge. They locked their doors. In the giant’s version, he had travelled for two days because a flood had left his home without clean water. He approached the bridge to ask for help, but no one answered. A young baker eventually listened and brought him a bucket. Both versions describe the same footsteps, yet they lead readers to judge the giant differently.",
+      "note": "Ringkasan bantuan: Pencerita berbeda dapat mengubah pemahaman terhadap kejadian. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita.",
+        "[[Point of view]] adalah sudut pandang pencerita. [[Fractured story]] mengubah tokoh, latar, atau akhir cerita yang sudah dikenal.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “forest”?",
+      "choices": [
+        "I was afraid of the fox.",
+        "The fox was afraid of me.",
+        "Mira called the giant cruel.",
+        "The fox ran into the forest."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[forest]] muncul dalam kalimat [[The fox ran into the forest.]]. Kalimat menyatakan kejadian.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “forest”?",
+        "choices": [
+          "Saya takut pada rubah itu.",
+          "Rubah itu takut kepada saya.",
+          "Mira menyebut raksasa itu kejam.",
+          "Rubah itu berlari ke hutan."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “The fox was afraid of me.”?",
+      "choices": [
+        "The fox was afraid of me.",
+        "The fox ran into the forest.",
+        "I was afraid of the fox.",
+        "Mira called the giant cruel."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[The fox was afraid of me.]] muncul dalam kalimat [[The fox was afraid of me.]]. Perubahan pelaku mengubah tafsir peristiwa.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “The fox was afraid of me.”?",
+        "choices": [
+          "Rubah itu takut kepada saya.",
+          "Rubah itu berlari ke hutan.",
+          "Saya takut pada rubah itu.",
+          "Mira menyebut raksasa itu kejam."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade10-fractured-stories-practice"
+  ]
+}

@@ -56,32 +56,32 @@
   ],
   "schoolTopics": {
     "Grade 9": [
-      "Essential grammar review",
-      "Descriptive and narrative texts",
-      "Report texts",
-      "Reading comprehension",
-      "Vocabulary development"
+      "Report Text: Indonesian Wildlife",
+      "Recount Text: A School Trip",
+      "Procedure Text: Upcycling Materials",
+      "Digital Literacy: Checking Online Claims",
+      "Noun Groups: Describing Animals and Products"
     ],
     "Grade 10": [
-      "Recount and descriptive texts",
-      "Narrative texts",
-      "Grammar foundations",
-      "Reading strategies",
-      "Vocabulary practice"
+      "Procedure Text: Healthy Routines",
+      "Expressing Opinions and Supporting Reasons",
+      "Fractured Stories: Changing Perspectives",
+      "Sports Event Recount",
+      "Reading Posters and Infographics"
     ],
     "Grade 11": [
-      "Analytical exposition",
-      "Explanation texts",
-      "Conditional Sentences",
-      "Passive Voice",
-      "Complex Sentence Structures"
+      "Digital Identity and Transactional Messages",
+      "Describing Environmental Conditions",
+      "Biography: Environmental Changemakers",
+      "Procedure Text: Personal Budgeting",
+      "Analytical Exposition: Claims and Evidence"
     ],
     "Grade 12": [
-      "Advanced reading comprehension",
-      "Academic vocabulary",
-      "Critical Reading",
-      "Complex grammar",
-      "Examination preparation"
+      "Argumentative Text: Claims and Counterarguments",
+      "Hortatory Exposition: Arguing for Action",
+      "Discussion Text: Weighing Two Sides",
+      "Advanced Narrative: Motives and Themes",
+      "Comparing Arguments and Evaluating Evidence"
     ]
   },
   "resources": [
@@ -1710,6 +1710,1796 @@
       "unofficial": true,
       "kind": "test",
       "examFormat": "full"
+    },
+    {
+      "id": "grade9-report-animals",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade9-report-animals-practice",
+        "simple-present"
+      ],
+      "file": "data/lessons/grade9-report-animals.json",
+      "order": 300,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "simple-present"
+      ],
+      "title": "Report Text: Indonesian Wildlife",
+      "description": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Indonesian wildlife",
+        "Report Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Report Text",
+        "theme": "Indonesian wildlife",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-report-animals-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade9-report-animals"
+      ],
+      "file": "data/quizzes/grade9-report-animals-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 301,
+      "title": "Report Text: Indonesian Wildlife",
+      "description": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Indonesian wildlife",
+        "Report Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Report Text",
+        "theme": "Indonesian wildlife",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-trip-recount",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade9-trip-recount-practice",
+        "simple-past"
+      ],
+      "file": "data/lessons/grade9-trip-recount.json",
+      "order": 310,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "simple-past"
+      ],
+      "title": "Recount Text: A School Trip",
+      "description": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "school trip",
+        "Recount Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Recount Text",
+        "theme": "school trip",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-trip-recount-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade9-trip-recount"
+      ],
+      "file": "data/quizzes/grade9-trip-recount-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 311,
+      "title": "Recount Text: A School Trip",
+      "description": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "school trip",
+        "Recount Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Recount Text",
+        "theme": "school trip",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-upcycling-procedure",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade9-upcycling-procedure-practice",
+        "sentence-structure"
+      ],
+      "file": "data/lessons/grade9-upcycling-procedure.json",
+      "order": 320,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "sentence-structure"
+      ],
+      "title": "Procedure Text: Upcycling Materials",
+      "description": "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "upcycling used materials",
+        "Procedure Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Procedure Text",
+        "theme": "upcycling used materials",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-upcycling-procedure-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade9-upcycling-procedure"
+      ],
+      "file": "data/quizzes/grade9-upcycling-procedure-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 321,
+      "title": "Procedure Text: Upcycling Materials",
+      "description": "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "upcycling used materials",
+        "Procedure Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Procedure Text",
+        "theme": "upcycling used materials",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-digital-safety",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade9-digital-safety-practice",
+        "reading-bridge"
+      ],
+      "file": "data/lessons/grade9-digital-safety.json",
+      "order": 330,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "reading-bridge"
+      ],
+      "title": "Digital Literacy: Checking Online Claims",
+      "description": "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "digital life",
+        "Information Literacy",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Information Literacy",
+        "theme": "digital life",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-digital-safety-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade9-digital-safety"
+      ],
+      "file": "data/quizzes/grade9-digital-safety-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 331,
+      "title": "Digital Literacy: Checking Online Claims",
+      "description": "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "digital life",
+        "Information Literacy",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Information Literacy",
+        "theme": "digital life",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-noun-groups",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade9-noun-groups-practice",
+        "parts-of-speech"
+      ],
+      "file": "data/lessons/grade9-noun-groups.json",
+      "order": 340,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "parts-of-speech"
+      ],
+      "title": "Noun Groups: Describing Animals and Products",
+      "description": "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "detailed descriptions",
+        "Language in Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Language in Text",
+        "theme": "detailed descriptions",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade9-noun-groups-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade9-noun-groups"
+      ],
+      "file": "data/quizzes/grade9-noun-groups-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 341,
+      "title": "Noun Groups: Describing Animals and Products",
+      "description": "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "detailed descriptions",
+        "Language in Text",
+        "Grade 9"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 9,
+        "phase": "D",
+        "genre": "Language in Text",
+        "theme": "detailed descriptions",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-healthy-procedure",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade10-healthy-procedure-practice",
+        "sentence-structure"
+      ],
+      "file": "data/lessons/grade10-healthy-procedure.json",
+      "order": 350,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "sentence-structure"
+      ],
+      "title": "Procedure Text: Healthy Routines",
+      "description": "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports and health",
+        "Procedure Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Procedure Text",
+        "theme": "sports and health",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-healthy-procedure-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade10-healthy-procedure"
+      ],
+      "file": "data/quizzes/grade10-healthy-procedure-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 351,
+      "title": "Procedure Text: Healthy Routines",
+      "description": "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports and health",
+        "Procedure Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Procedure Text",
+        "theme": "sports and health",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-opinions-reasons",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade10-opinions-reasons-practice",
+        "basic-questions-negatives"
+      ],
+      "file": "data/lessons/grade10-opinions-reasons.json",
+      "order": 360,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "basic-questions-negatives"
+      ],
+      "title": "Expressing Opinions and Supporting Reasons",
+      "description": "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "expressing opinions",
+        "Transactional Language",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Transactional Language",
+        "theme": "expressing opinions",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-opinions-reasons-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade10-opinions-reasons"
+      ],
+      "file": "data/quizzes/grade10-opinions-reasons-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 361,
+      "title": "Expressing Opinions and Supporting Reasons",
+      "description": "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "expressing opinions",
+        "Transactional Language",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Transactional Language",
+        "theme": "expressing opinions",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-fractured-stories",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade10-fractured-stories-practice",
+        "grade9-narrative"
+      ],
+      "file": "data/lessons/grade10-fractured-stories.json",
+      "order": 370,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade9-narrative"
+      ],
+      "title": "Fractured Stories: Changing Perspectives",
+      "description": "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "rewritten stories",
+        "Narrative Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Narrative Text",
+        "theme": "rewritten stories",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-fractured-stories-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade10-fractured-stories"
+      ],
+      "file": "data/quizzes/grade10-fractured-stories-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 371,
+      "title": "Fractured Stories: Changing Perspectives",
+      "description": "Menemukan perubahan sudut pandang dan dampaknya terhadap pemahaman cerita.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "rewritten stories",
+        "Narrative Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Narrative Text",
+        "theme": "rewritten stories",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-sports-recount",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade10-sports-recount-practice",
+        "simple-past"
+      ],
+      "file": "data/lessons/grade10-sports-recount.json",
+      "order": 380,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "simple-past"
+      ],
+      "title": "Sports Event Recount",
+      "description": "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports events",
+        "Recount Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Recount Text",
+        "theme": "sports events",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-sports-recount-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade10-sports-recount"
+      ],
+      "file": "data/quizzes/grade10-sports-recount-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 381,
+      "title": "Sports Event Recount",
+      "description": "Membaca rangkaian pertandingan dan memisahkan hasil dari refleksi penulis.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports events",
+        "Recount Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Recount Text",
+        "theme": "sports events",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-visual-information",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade10-visual-information-practice",
+        "reading-bridge"
+      ],
+      "file": "data/lessons/grade10-visual-information.json",
+      "order": 390,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "reading-bridge"
+      ],
+      "title": "Reading Posters and Infographics",
+      "description": "Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports and health posters",
+        "Multimodal Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Multimodal Text",
+        "theme": "sports and health posters",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-visual-information-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade10-visual-information"
+      ],
+      "file": "data/quizzes/grade10-visual-information-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 391,
+      "title": "Reading Posters and Infographics",
+      "description": "Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "sports and health posters",
+        "Multimodal Text",
+        "Grade 10"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Multimodal Text",
+        "theme": "sports and health posters",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-online-identity",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade11-online-identity-practice",
+        "basic-questions-negatives"
+      ],
+      "file": "data/lessons/grade11-online-identity.json",
+      "order": 400,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "basic-questions-negatives"
+      ],
+      "title": "Digital Identity and Transactional Messages",
+      "description": "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "digital identity",
+        "Transactional Language",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Transactional Language",
+        "theme": "digital identity",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-online-identity-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade11-online-identity"
+      ],
+      "file": "data/quizzes/grade11-online-identity-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 401,
+      "title": "Digital Identity and Transactional Messages",
+      "description": "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "digital identity",
+        "Transactional Language",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Transactional Language",
+        "theme": "digital identity",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-environment-description",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade11-environment-description-practice",
+        "grade10-descriptive"
+      ],
+      "file": "data/lessons/grade11-environment-description.json",
+      "order": 410,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade10-descriptive"
+      ],
+      "title": "Describing Environmental Conditions",
+      "description": "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "environment",
+        "Descriptive Text",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Descriptive Text",
+        "theme": "environment",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-environment-description-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade11-environment-description"
+      ],
+      "file": "data/quizzes/grade11-environment-description-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 411,
+      "title": "Describing Environmental Conditions",
+      "description": "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "environment",
+        "Descriptive Text",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Descriptive Text",
+        "theme": "environment",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-environmental-biography",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade11-environmental-biography-practice",
+        "simple-past"
+      ],
+      "file": "data/lessons/grade11-environmental-biography.json",
+      "order": 420,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "simple-past"
+      ],
+      "title": "Biography: Environmental Changemakers",
+      "description": "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "environmental figures",
+        "Biographical Narrative",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Biographical Narrative",
+        "theme": "environmental figures",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-environmental-biography-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade11-environmental-biography"
+      ],
+      "file": "data/quizzes/grade11-environmental-biography-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 421,
+      "title": "Biography: Environmental Changemakers",
+      "description": "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "environmental figures",
+        "Biographical Narrative",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Biographical Narrative",
+        "theme": "environmental figures",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-money-procedure",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade11-money-procedure-practice",
+        "sentence-structure"
+      ],
+      "file": "data/lessons/grade11-money-procedure.json",
+      "order": 430,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "sentence-structure"
+      ],
+      "title": "Procedure Text: Personal Budgeting",
+      "description": "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "personal money management",
+        "Procedure Text",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Procedure Text",
+        "theme": "personal money management",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-money-procedure-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade11-money-procedure"
+      ],
+      "file": "data/quizzes/grade11-money-procedure-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 431,
+      "title": "Procedure Text: Personal Budgeting",
+      "description": "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "personal money management",
+        "Procedure Text",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Procedure Text",
+        "theme": "personal money management",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-exposition-evidence",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade11-exposition-evidence-practice",
+        "grade11-exposition"
+      ],
+      "file": "data/lessons/grade11-exposition-evidence.json",
+      "order": 440,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade11-exposition"
+      ],
+      "title": "Analytical Exposition: Claims and Evidence",
+      "description": "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "healthy living",
+        "Analytical Exposition",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Analytical Exposition",
+        "theme": "healthy living",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade11-exposition-evidence-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade11-exposition-evidence"
+      ],
+      "file": "data/quizzes/grade11-exposition-evidence-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 441,
+      "title": "Analytical Exposition: Claims and Evidence",
+      "description": "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "healthy living",
+        "Analytical Exposition",
+        "Grade 11"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 11,
+        "phase": "F",
+        "genre": "Analytical Exposition",
+        "theme": "healthy living",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-argumentative-text",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-argumentative-text-practice",
+        "grade11-exposition"
+      ],
+      "file": "data/lessons/grade12-argumentative-text.json",
+      "order": 450,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade11-exposition"
+      ],
+      "title": "Argumentative Text: Claims and Counterarguments",
+      "description": "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "e-money",
+        "Argumentative Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Argumentative Text",
+        "theme": "e-money",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-argumentative-text-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-argumentative-text"
+      ],
+      "file": "data/quizzes/grade12-argumentative-text-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 451,
+      "title": "Argumentative Text: Claims and Counterarguments",
+      "description": "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "e-money",
+        "Argumentative Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Argumentative Text",
+        "theme": "e-money",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-hortatory-exposition",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-hortatory-exposition-practice",
+        "grade11-exposition"
+      ],
+      "file": "data/lessons/grade12-hortatory-exposition.json",
+      "order": 460,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade11-exposition"
+      ],
+      "title": "Hortatory Exposition: Arguing for Action",
+      "description": "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "netiquette",
+        "Hortatory Exposition",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Hortatory Exposition",
+        "theme": "netiquette",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-hortatory-exposition-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-hortatory-exposition"
+      ],
+      "file": "data/quizzes/grade12-hortatory-exposition-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 461,
+      "title": "Hortatory Exposition: Arguing for Action",
+      "description": "Membedakan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "netiquette",
+        "Hortatory Exposition",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Hortatory Exposition",
+        "theme": "netiquette",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-discussion-text-practice",
+        "grade12-critical-reading"
+      ],
+      "file": "data/lessons/grade12-discussion-text.json",
+      "order": 470,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade12-critical-reading"
+      ],
+      "title": "Discussion Text: Weighing Two Sides",
+      "description": "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "carbon footprints",
+        "Discussion Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "carbon footprints",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-discussion-text"
+      ],
+      "file": "data/quizzes/grade12-discussion-text-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 471,
+      "title": "Discussion Text: Weighing Two Sides",
+      "description": "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "carbon footprints",
+        "Discussion Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "carbon footprints",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-advanced-narrative",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-advanced-narrative-practice",
+        "grade9-narrative"
+      ],
+      "file": "data/lessons/grade12-advanced-narrative.json",
+      "order": 480,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade9-narrative"
+      ],
+      "title": "Advanced Narrative: Motives and Themes",
+      "description": "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "future stories",
+        "Narrative Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Narrative Text",
+        "theme": "future stories",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-advanced-narrative-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-advanced-narrative"
+      ],
+      "file": "data/quizzes/grade12-advanced-narrative-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 481,
+      "title": "Advanced Narrative: Motives and Themes",
+      "description": "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "future stories",
+        "Narrative Text",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Narrative Text",
+        "theme": "future stories",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-compare-arguments",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-compare-arguments-practice",
+        "grade12-critical-reading"
+      ],
+      "file": "data/lessons/grade12-compare-arguments.json",
+      "order": 490,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "grade12-critical-reading"
+      ],
+      "title": "Comparing Arguments and Evaluating Evidence",
+      "description": "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "source evaluation",
+        "Critical Reading",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Critical Reading",
+        "theme": "source evaluation",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-compare-arguments-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-compare-arguments"
+      ],
+      "file": "data/quizzes/grade12-compare-arguments-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 491,
+      "title": "Comparing Arguments and Evaluating Evidence",
+      "description": "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "source evaluation",
+        "Critical Reading",
+        "Grade 12"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Critical Reading",
+        "theme": "source evaluation",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "utbk-science-evidence",
+      "type": "lesson",
+      "relatedLessons": [
+        "utbk-science-evidence-practice",
+        "reading-strategies"
+      ],
+      "file": "data/lessons/utbk-science-evidence.json",
+      "order": 500,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "reading-strategies"
+      ],
+      "title": "UTBK Lab: Reading Scientific Evidence",
+      "description": "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "science",
+        "Scientific Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Scientific Reading",
+        "theme": "science",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "utbk-science-evidence-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "utbk-science-evidence"
+      ],
+      "file": "data/quizzes/utbk-science-evidence-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 501,
+      "title": "UTBK Lab: Reading Scientific Evidence",
+      "description": "Membedakan hasil penelitian, penjelasan alternatif, dan kesimpulan yang tidak berlebihan.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "science",
+        "Scientific Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Scientific Reading",
+        "theme": "science",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "utbk-social-science",
+      "type": "lesson",
+      "relatedLessons": [
+        "utbk-social-science-practice",
+        "reading-strategies"
+      ],
+      "file": "data/lessons/utbk-social-science.json",
+      "order": 510,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "reading-strategies"
+      ],
+      "title": "UTBK Lab: Reading Social-Science Data",
+      "description": "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "public transport",
+        "Social Science Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Social Science Reading",
+        "theme": "public transport",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "utbk-social-science-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "utbk-social-science"
+      ],
+      "file": "data/quizzes/utbk-social-science-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 511,
+      "title": "UTBK Lab: Reading Social-Science Data",
+      "description": "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "public transport",
+        "Social Science Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Social Science Reading",
+        "theme": "public transport",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "utbk-critical-inference",
+      "type": "lesson",
+      "relatedLessons": [
+        "utbk-critical-inference-practice",
+        "reading-strategies"
+      ],
+      "file": "data/lessons/utbk-critical-inference.json",
+      "order": 520,
+      "estimatedMinutes": 28,
+      "prerequisites": [
+        "reading-strategies"
+      ],
+      "title": "UTBK Lab: Inference and Alternative Explanations",
+      "description": "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "personal and literary texts",
+        "Critical Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Critical Reading",
+        "theme": "personal and literary texts",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
+    },
+    {
+      "id": "utbk-critical-inference-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "utbk-critical-inference"
+      ],
+      "file": "data/quizzes/utbk-critical-inference-practice.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 521,
+      "title": "UTBK Lab: Inference and Alternative Explanations",
+      "description": "Menyusun inferensi yang didukung petunjuk serta menolak kesimpulan yang terlalu pasti.",
+      "placements": [
+        {
+          "pathway": "utbk"
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "personal and literary texts",
+        "Critical Reading",
+        "UTBK skill"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": null,
+        "phase": null,
+        "genre": "Critical Reading",
+        "theme": "personal and literary texts",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Latihan orisinal berdasarkan kompetensi literasi SNPMB 2026; bukan soal, rubrik atau kisi-kisi resmi."
+      }
     }
-  ]
+  ],
+  "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
 }

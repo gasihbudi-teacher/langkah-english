@@ -1,0 +1,111 @@
+{
+  "id": "grade9-report-animals-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-report-animals",
+      "title": "Report Text: Indonesian Wildlife",
+      "text": "Komodo dragons are large lizards found on several islands in eastern Indonesia. They have powerful legs and a strong sense of smell. Komodos eat other animals, and adults may consume large prey. Their natural habitats include dry forests and grasslands. Protected areas help reduce human disturbance, but conservation also depends on caring for the wider environment. Unlike a story about one visit to a zoo, this report describes characteristics of the species.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main purpose of the passage?",
+      "choices": [
+        "To describe common facts about komodo dragons",
+        "To recount a student’s visit to a zoo",
+        "To explain how to cook food for reptiles",
+        "To advertise a wildlife holiday"
+      ],
+      "answer": 0,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa tujuan utama bacaan?",
+        "choices": [
+          "Menjelaskan fakta umum tentang komodo",
+          "Menceritakan kunjungan seorang siswa ke kebun binatang",
+          "Menjelaskan cara memasak makanan reptil",
+          "Mengiklankan liburan wisata alam"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-report-animals",
+      "evidence": "Komodo dragons are large lizards found on several islands in eastern Indonesia."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where can komodo dragons be found?",
+      "choices": [
+        "Only in large cities",
+        "In every country of the world",
+        "Only inside laboratories",
+        "On several eastern Indonesian islands"
+      ],
+      "answer": 3,
+      "explanation": "Teks menyebut beberapa pulau di Indonesia bagian timur.",
+      "translationId": {
+        "prompt": "Di mana komodo dapat ditemukan?",
+        "choices": [
+          "Hanya di kota besar",
+          "Di semua negara di dunia",
+          "Hanya di laboratorium",
+          "Di beberapa pulau Indonesia bagian timur"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-report-animals",
+      "evidence": "found on several islands in eastern Indonesia"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why does the author mention a zoo visit?",
+      "choices": [
+        "To prove that komodos live only in zoos",
+        "To show that reports and personal recounts have different purposes",
+        "To recommend a particular zoo",
+        "To say conservation is unnecessary"
+      ],
+      "answer": 1,
+      "explanation": "Kalimat terakhir membandingkan laporan fakta dengan cerita pengalaman pribadi.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebut kunjungan kebun binatang?",
+        "choices": [
+          "Untuk membuktikan komodo hanya hidup di kebun binatang",
+          "Untuk membedakan tujuan report dan recount pribadi",
+          "Untuk merekomendasikan kebun binatang tertentu",
+          "Untuk menyatakan konservasi tidak diperlukan"
+        ]
+      },
+      "skill": "Text Organization",
+      "passageId": "text-report-animals",
+      "evidence": "Unlike a story about one visit to a zoo"
+    },
+    {
+      "id": "q4",
+      "prompt": "In the passage, what does “habitats” refer to?",
+      "choices": [
+        "Types of food",
+        "The animals’ colours",
+        "The animals’ natural living places",
+        "Groups of tourists"
+      ],
+      "answer": 2,
+      "explanation": "Hutan kering dan padang rumput adalah tempat komodo hidup.",
+      "translationId": {
+        "prompt": "Apa arti “habitats” dalam bacaan?",
+        "choices": [
+          "Jenis makanan",
+          "Warna hewan",
+          "Tempat tinggal alami hewan",
+          "Kelompok wisatawan"
+        ]
+      },
+      "skill": "Vocabulary in Context",
+      "passageId": "text-report-animals",
+      "evidence": "Their natural habitats include dry forests and grasslands."
+    }
+  ]
+}

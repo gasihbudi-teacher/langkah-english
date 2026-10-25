@@ -1,0 +1,111 @@
+{
+  "id": "grade9-noun-groups-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-noun-groups",
+      "title": "Noun Groups: Describing Animals and Products",
+      "text": "At the nature corner, students observed a small brown bird with a curved beak. Its short wings helped it move quickly between nearby trees. Beside the bird’s picture, a large wooden board showed simple facts about its food and habitat. The class also displayed two reusable blue containers for collecting paper. Students noticed that descriptive word groups helped visitors identify objects without reading a very long explanation.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main focus of the passage?",
+      "choices": [
+        "Instructions for building a new classroom",
+        "A description of objects and an animal using detailed word groups",
+        "The history of an old museum",
+        "A debate about banning paper"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa fokus utama bacaan?",
+        "choices": [
+          "Instruksi membangun ruang kelas baru",
+          "Deskripsi benda dan hewan dengan kelompok kata terperinci",
+          "Sejarah museum lama",
+          "Debat tentang larangan kertas"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-noun-groups",
+      "evidence": "At the nature corner, students observed a small brown bird with a curved beak."
+    },
+    {
+      "id": "q2",
+      "prompt": "What colour was the bird?",
+      "choices": [
+        "Bright green",
+        "Blue",
+        "Brown",
+        "Red"
+      ],
+      "answer": 2,
+      "explanation": "Frasa “small brown bird” menyatakan warna burung.",
+      "translationId": {
+        "prompt": "Apa warna burung tersebut?",
+        "choices": [
+          "Hijau terang",
+          "Biru",
+          "Cokelat",
+          "Merah"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-noun-groups",
+      "evidence": "a small brown bird"
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the head noun in “a large wooden board”?",
+      "choices": [
+        "large",
+        "wooden",
+        "a",
+        "board"
+      ],
+      "answer": 3,
+      "explanation": "Kata inti adalah benda yang dijelaskan oleh besar dan kayu.",
+      "translationId": {
+        "prompt": "Apa kata benda inti dalam “a large wooden board”?",
+        "choices": [
+          "large (kata sifat)",
+          "wooden (kata sifat)",
+          "a (artikel)",
+          "board (kata benda)"
+        ]
+      },
+      "skill": "Grammar in Context",
+      "passageId": "text-noun-groups",
+      "evidence": "a large wooden board"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why did students use descriptive word groups?",
+      "choices": [
+        "To help visitors identify objects quickly",
+        "To confuse the visitors",
+        "To remove every picture",
+        "To avoid naming the objects"
+      ],
+      "answer": 0,
+      "explanation": "Paragraf terakhir menjelaskan fungsi kelompok kata deskriptif.",
+      "translationId": {
+        "prompt": "Mengapa siswa menggunakan kelompok kata deskriptif?",
+        "choices": [
+          "Untuk membantu pengunjung mengenali benda dengan cepat",
+          "Untuk membingungkan pengunjung",
+          "Untuk menghapus semua gambar",
+          "Untuk menghindari penamaan benda"
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "text-noun-groups",
+      "evidence": "helped visitors identify objects"
+    }
+  ]
+}

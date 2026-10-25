@@ -1,0 +1,111 @@
+{
+  "id": "grade10-sports-recount-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-sports-recount",
+      "title": "Sports Event Recount",
+      "text": "On Saturday afternoon, the school futsal team played a friendly match against a neighbouring school. The visitors scored in the first half. During the break, the captain reminded everyone to pass carefully instead of rushing. In the second half, Lani equalised with a shot from outside the area. The match ended 1–1. Afterward, both teams thanked the volunteers who had prepared the court. The captain wrote that good teamwork had mattered more than winning the friendly match.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the text mainly recounting?",
+      "choices": [
+        "Instructions for building a futsal court",
+        "A history of professional referees",
+        "A friendly school futsal match and its lesson",
+        "An advertisement for a sports shop"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Teks terutama menceritakan apa?",
+        "choices": [
+          "Instruksi membangun lapangan futsal",
+          "Sejarah wasit profesional",
+          "Pertandingan futsal persahabatan sekolah dan pelajarannya",
+          "Iklan toko olahraga"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-sports-recount",
+      "evidence": "On Saturday afternoon, the school futsal team played a friendly match against a neighbouring school."
+    },
+    {
+      "id": "q2",
+      "prompt": "What was the final score?",
+      "choices": [
+        "1–1",
+        "1–0",
+        "2–1",
+        "0–0"
+      ],
+      "answer": 0,
+      "explanation": "Hasil akhir dinyatakan secara eksplisit.",
+      "translationId": {
+        "prompt": "Berapa skor akhirnya?",
+        "choices": [
+          "Satu-satu",
+          "Satu-nol",
+          "Dua-satu",
+          "Nol-nol"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-sports-recount",
+      "evidence": "The match ended 1–1."
+    },
+    {
+      "id": "q3",
+      "prompt": "What did the captain suggest during the break?",
+      "choices": [
+        "Shoot from anywhere",
+        "Stop playing immediately",
+        "Ignore the other team",
+        "Pass carefully instead of rushing"
+      ],
+      "answer": 3,
+      "explanation": "Kapten meminta permainan operan yang lebih terarah.",
+      "translationId": {
+        "prompt": "Apa saran kapten saat istirahat?",
+        "choices": [
+          "Menendang dari mana saja",
+          "Langsung berhenti bermain",
+          "Mengabaikan tim lain",
+          "Mengoper dengan hati-hati daripada terburu-buru"
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "text-sports-recount",
+      "evidence": "pass carefully instead of rushing"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence best captures the captain’s reflection?",
+      "choices": [
+        "Only victory matters",
+        "Teamwork can matter more than the result",
+        "The other team cheated",
+        "Volunteers scored the goal"
+      ],
+      "answer": 1,
+      "explanation": "Refleksi akhir menekankan kerja sama tim.",
+      "translationId": {
+        "prompt": "Kalimat mana paling mencerminkan refleksi kapten?",
+        "choices": [
+          "Hanya kemenangan yang penting",
+          "Kerja sama dapat lebih penting daripada hasil",
+          "Tim lawan curang",
+          "Relawan mencetak gol"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-sports-recount",
+      "evidence": "good teamwork had mattered more than winning"
+    }
+  ]
+}

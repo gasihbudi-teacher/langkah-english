@@ -1,0 +1,258 @@
+{
+  "id": "grade9-report-animals",
+  "objectives": [
+    "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Bayangkan kamu menjelaskan komodo kepada teman yang belum pernah melihatnya. Kita mulai dari informasi umum, lalu menyebut cirinya, bukan pengalaman pribadi. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Komodo dragons are large lizards.",
+          "indonesian": "Komodo adalah kadal berukuran besar.",
+          "why": "Kalimat ini menjelaskan jenis hewan secara umum."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "They live on several Indonesian islands.",
+          "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
+          "why": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Bayangkan kamu menjelaskan komodo kepada teman yang belum pernah melihatnya. Kita mulai dari informasi umum, lalu menyebut cirinya, bukan pengalaman pribadi."
+    },
+    {
+      "type": "rule",
+      "text": "[[Report text]] menjelaskan kelompok atau jenis secara umum. Gunakan [[simple present]] untuk fakta yang biasanya berlaku, bukan cerita satu kejadian."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "All komodos live in one zoo.",
+      "correct": "Komodo dragons live on several Indonesian islands.",
+      "explanation": "Klaim pertama terlalu sempit dan bertentangan dengan fakta di teks."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "species",
+          "indonesian": "spesies"
+        },
+        {
+          "english": "habitat",
+          "indonesian": "habitat"
+        },
+        {
+          "english": "prey",
+          "indonesian": "mangsa"
+        },
+        {
+          "english": "protect",
+          "indonesian": "melindungi"
+        },
+        {
+          "english": "adult",
+          "indonesian": "dewasa"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Komodo dragons are large lizards.",
+          "indonesian": "Komodo adalah kadal berukuran besar.",
+          "note": "Kalimat ini menjelaskan jenis hewan secara umum."
+        },
+        {
+          "english": "They live on several Indonesian islands.",
+          "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
+          "note": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
+        },
+        {
+          "english": "Adult komodos can eat large prey.",
+          "indonesian": "Komodo dewasa dapat memakan mangsa berukuran besar.",
+          "note": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade9-report-animals",
+      "prompt": "Which sentence means “Mereka hidup di beberapa pulau Indonesia.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Mereka hidup di beberapa pulau Indonesia.”.",
+      "choices": [
+        "Komodo dragons are large lizards.",
+        "They live on several Indonesian islands.",
+        "Adult komodos can eat large prey."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Komodo adalah kadal berukuran besar.",
+        "Mereka hidup di beberapa pulau Indonesia.",
+        "Komodo dewasa dapat memakan mangsa berukuran besar."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “They” merujuk pada kelompok hewan yang sedang dibahas.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Komodo dragons are large lizards.",
+      "parts": [
+        {
+          "english": "Komodo",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "dragons are large lizards.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Komodo adalah kadal berukuran besar."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "A komodo has strong legs.",
+          "indonesian": "Seekor komodo mempunyai kaki yang kuat.",
+          "note": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang."
+        },
+        {
+          "english": "I saw a komodo yesterday.",
+          "indonesian": "Saya melihat komodo kemarin.",
+          "note": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang. Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although komodos are heavy, they can move quickly over short distances.",
+          "indonesian": "Meskipun berat, komodo dapat bergerak cepat dalam jarak pendek.",
+          "note": "“Although” memperkenalkan dua fakta yang tampak berlawanan."
+        },
+        {
+          "english": "Protected habitats help these animals survive when food sources change.",
+          "indonesian": "Habitat yang dilindungi membantu hewan-hewan ini bertahan saat sumber makanan berubah.",
+          "note": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Komodo dragons are large lizards found on several islands in eastern Indonesia. They have powerful legs and a strong sense of smell. Komodos eat other animals, and adults may consume large prey. Their natural habitats include dry forests and grasslands. Protected areas help reduce human disturbance, but conservation also depends on caring for the wider environment. Unlike a story about one visit to a zoo, this report describes characteristics of the species.",
+      "note": "Ringkasan bantuan: Menjelaskan fakta umum tentang komodo. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+        "[[Report text]] menjelaskan kelompok atau jenis secara umum. Gunakan [[simple present]] untuk fakta yang biasanya berlaku, bukan cerita satu kejadian.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “dragons”?",
+      "choices": [
+        "Komodo dragons are large lizards.",
+        "They live on several Indonesian islands.",
+        "Adult komodos can eat large prey.",
+        "A komodo has strong legs."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[dragons]] muncul dalam kalimat [[Komodo dragons are large lizards.]]. Kalimat ini menjelaskan jenis hewan secara umum.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “dragons”?",
+        "choices": [
+          "Komodo adalah kadal berukuran besar.",
+          "Mereka hidup di beberapa pulau Indonesia.",
+          "Komodo dewasa dapat memakan mangsa berukuran besar.",
+          "Seekor komodo mempunyai kaki yang kuat."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “komodos”?",
+      "choices": [
+        "Komodo dragons are large lizards.",
+        "Adult komodos can eat large prey.",
+        "They live on several Indonesian islands.",
+        "A komodo has strong legs."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[komodos]] muncul dalam kalimat [[Adult komodos can eat large prey.]]. Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “komodos”?",
+        "choices": [
+          "Komodo adalah kadal berukuran besar.",
+          "Komodo dewasa dapat memakan mangsa berukuran besar.",
+          "Mereka hidup di beberapa pulau Indonesia.",
+          "Seekor komodo mempunyai kaki yang kuat."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade9-report-animals-practice"
+  ]
+}

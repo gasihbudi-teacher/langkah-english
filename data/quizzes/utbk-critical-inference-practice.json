@@ -1,0 +1,111 @@
+{
+  "id": "utbk-critical-inference-practice",
+  "questionCount": 4,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "text-critical-inference",
+      "title": "UTBK Lab: Inference and Alternative Explanations",
+      "text": "Riko had rehearsed his presentation twice before the community meeting. As the first speaker finished, he noticed that the chair beside him was still empty. He checked his phone, looked toward the door, and quietly rearranged the note cards that he had already put in order. His partner had promised to bring a chart showing the project’s results. When she finally arrived with the chart, Riko smiled and placed the cards back on the table. He began speaking only after checking that the chart could be displayed.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which inference is best supported?",
+      "choices": [
+        "Riko intended to cancel the meeting permanently",
+        "Riko had never prepared his presentation",
+        "Riko disliked every person in the room",
+        "Riko was concerned about his partner and the chart before presenting"
+      ],
+      "answer": 3,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Inferensi mana paling didukung?",
+        "choices": [
+          "Riko ingin membatalkan pertemuan selamanya",
+          "Riko sama sekali belum menyiapkan presentasi",
+          "Riko membenci semua orang dalam ruangan",
+          "Riko khawatir mengenai rekan dan grafik sebelum presentasi"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-critical-inference",
+      "evidence": "Riko had rehearsed his presentation twice before the community meeting."
+    },
+    {
+      "id": "q2",
+      "prompt": "What had Riko’s partner promised to bring?",
+      "choices": [
+        "A new telephone",
+        "Food for all guests",
+        "A chart of project results",
+        "Another set of chairs"
+      ],
+      "answer": 2,
+      "explanation": "Grafik disebut sebagai barang yang dijanjikan.",
+      "translationId": {
+        "prompt": "Apa yang dijanjikan rekan Riko?",
+        "choices": [
+          "Telepon baru",
+          "Makanan untuk semua tamu",
+          "Grafik hasil proyek",
+          "Satu set kursi lagi"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-critical-inference",
+      "evidence": "bring a chart showing the project’s results"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which behaviour best suggests concern?",
+      "choices": [
+        "He checked his phone and the door repeatedly",
+        "He rehearsed twice before the meeting",
+        "He read the entire chart aloud",
+        "He left the building without speaking"
+      ],
+      "answer": 0,
+      "explanation": "Tindakan memeriksa dan merapikan ulang menunjukkan kegelisahan saat menunggu.",
+      "translationId": {
+        "prompt": "Perilaku mana paling menunjukkan kekhawatiran?",
+        "choices": [
+          "Ia berulang kali memeriksa telepon dan pintu",
+          "Ia berlatih dua kali sebelum pertemuan",
+          "Ia membacakan seluruh grafik",
+          "Ia meninggalkan gedung tanpa berbicara"
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "text-critical-inference",
+      "evidence": "He checked his phone, looked toward the door, and quietly rearranged"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which claim goes beyond the available evidence?",
+      "choices": [
+        "Riko wanted the chart available",
+        "Riko planned to end their friendship",
+        "His partner arrived with the chart",
+        "Riko had prepared beforehand"
+      ],
+      "answer": 1,
+      "explanation": "Tidak ada tindakan atau ucapan yang menunjukkan putus persahabatan.",
+      "translationId": {
+        "prompt": "Klaim mana melampaui bukti yang ada?",
+        "choices": [
+          "Riko ingin grafik tersedia",
+          "Riko berencana mengakhiri persahabatan mereka",
+          "Rekannya datang membawa grafik",
+          "Riko sudah bersiap sebelumnya"
+        ]
+      },
+      "skill": "Evaluating Inferences",
+      "passageId": "text-critical-inference",
+      "evidence": "When she finally arrived with the chart, Riko smiled"
+    }
+  ]
+}

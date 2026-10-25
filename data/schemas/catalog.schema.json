@@ -138,9 +138,54 @@
               "topic",
               "full"
             ]
+          },
+          "curriculumAlignment": {
+            "type": "object",
+            "required": [
+              "genre",
+              "theme",
+              "curriculumElement",
+              "mappingNote"
+            ],
+            "properties": {
+              "grade": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "phase": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "D",
+                  "E",
+                  "F",
+                  null
+                ]
+              },
+              "genre": {
+                "type": "string"
+              },
+              "theme": {
+                "type": "string"
+              },
+              "curriculumElement": {
+                "type": "string"
+              },
+              "mappingNote": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
           }
         }
       }
+    },
+    "curriculumNote": {
+      "type": "string"
     }
   }
 }

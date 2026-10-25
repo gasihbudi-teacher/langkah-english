@@ -1,0 +1,258 @@
+{
+  "id": "grade12-argumentative-text",
+  "objectives": [
+    "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Jika seseorang berkata “pembayaran digital bagus”, kita belum tahu alasannya. Kita akan memecah argumen menjadi pendapat, bukti, dan keberatan yang dijawab secara adil. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Digital payments can be convenient.",
+          "indonesian": "Pembayaran digital dapat praktis.",
+          "why": "Ini klaim yang memerlukan alasan."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "They can reduce the need to carry cash.",
+          "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
+          "why": "Ini alasan yang mendukung klaim."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Jika seseorang berkata “pembayaran digital bagus”, kita belum tahu alasannya. Kita akan memecah argumen menjadi pendapat, bukti, dan keberatan yang dijawab secara adil."
+    },
+    {
+      "type": "rule",
+      "text": "[[Argumentative text]] menyampaikan [[claim]] yang didukung [[reason]] dan [[evidence]]. [[Counterargument]] adalah keberatan yang perlu dijawab, bukan dihapus."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The trial proves digital payments will work for everyone.",
+      "correct": "The trial offers limited support while access concerns remain.",
+      "explanation": "Satu uji coba kecil tidak membuktikan hasil bagi semua pengguna."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "counterargument",
+          "indonesian": "argumen tandingan"
+        },
+        {
+          "english": "convenient",
+          "indonesian": "praktis"
+        },
+        {
+          "english": "cash",
+          "indonesian": "uang tunai"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Digital payments can be convenient.",
+          "indonesian": "Pembayaran digital dapat praktis.",
+          "note": "Ini klaim yang memerlukan alasan."
+        },
+        {
+          "english": "They can reduce the need to carry cash.",
+          "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
+          "note": "Ini alasan yang mendukung klaim."
+        },
+        {
+          "english": "Some users may lack internet access.",
+          "indonesian": "Sebagian pengguna mungkin tidak memiliki akses internet.",
+          "note": "Ini keberatan atau keterbatasan yang perlu dipertimbangkan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-argumentative-text",
+      "prompt": "Which sentence means “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”.",
+      "choices": [
+        "Digital payments can be convenient.",
+        "They can reduce the need to carry cash.",
+        "Some users may lack internet access."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Pembayaran digital dapat praktis.",
+        "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
+        "Sebagian pengguna mungkin tidak memiliki akses internet."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini alasan yang mendukung klaim.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Digital payments can be convenient.",
+      "parts": [
+        {
+          "english": "Digital",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "payments can be convenient.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Pembayaran digital dapat praktis."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Everyone prefers digital payments.",
+          "indonesian": "Semua orang lebih suka pembayaran digital.",
+          "note": "Klaim mutlak tidak disertai bukti."
+        },
+        {
+          "english": "Some students prefer digital payments.",
+          "indonesian": "Sebagian siswa lebih suka pembayaran digital.",
+          "note": "Klaim lebih terbatas dan mungkin dapat diuji."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Klaim mutlak tidak disertai bukti. Klaim lebih terbatas dan mungkin dapat diuji."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although digital payment is fast for connected users, cash remains useful when a network fails.",
+          "indonesian": "Walaupun pembayaran digital cepat bagi pengguna yang terhubung, uang tunai tetap berguna saat jaringan gagal.",
+          "note": "Kalimat mempertimbangkan dua keadaan."
+        },
+        {
+          "english": "A fair school policy could allow both payment methods while teaching students how to protect their accounts.",
+          "indonesian": "Kebijakan sekolah yang adil dapat mengizinkan kedua metode sekaligus mengajarkan keamanan akun.",
+          "note": "Solusi mempertimbangkan manfaat dan kekhawatiran."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "A school committee is considering digital payments at the canteen. Supporters argue that electronic transactions could shorten queues and make spending easier to record. They point to a small trial in which several sellers completed payments more quickly. Critics note that some students do not own suitable devices and that poor internet service can interrupt transactions. The committee suggests keeping a cash option while testing digital payments further. This position supports new technology but recognises that access and reliability matter.",
+      "note": "Ringkasan bantuan: Pembayaran digital mungkin membantu, tetapi akses adil dan keandalan perlu dipertimbangkan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
+        "[[Argumentative text]] menyampaikan [[claim]] yang didukung [[reason]] dan [[evidence]]. [[Counterargument]] adalah keberatan yang perlu dijawab, bukan dihapus.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “convenient”?",
+      "choices": [
+        "They can reduce the need to carry cash.",
+        "Some users may lack internet access.",
+        "Everyone prefers digital payments.",
+        "Digital payments can be convenient."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[convenient]] muncul dalam kalimat [[Digital payments can be convenient.]]. Ini klaim yang memerlukan alasan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “convenient”?",
+        "choices": [
+          "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
+          "Sebagian pengguna mungkin tidak memiliki akses internet.",
+          "Semua orang lebih suka pembayaran digital.",
+          "Pembayaran digital dapat praktis."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “internet”?",
+      "choices": [
+        "Some users may lack internet access.",
+        "Digital payments can be convenient.",
+        "They can reduce the need to carry cash.",
+        "Everyone prefers digital payments."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[internet]] muncul dalam kalimat [[Some users may lack internet access.]]. Ini keberatan atau keterbatasan yang perlu dipertimbangkan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “internet”?",
+        "choices": [
+          "Sebagian pengguna mungkin tidak memiliki akses internet.",
+          "Pembayaran digital dapat praktis.",
+          "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
+          "Semua orang lebih suka pembayaran digital."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-argumentative-text-practice"
+  ]
+}

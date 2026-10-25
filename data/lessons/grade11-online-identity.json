@@ -1,0 +1,258 @@
+{
+  "id": "grade11-online-identity",
+  "objectives": [
+    "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Pesan daring bisa berisi permintaan, persetujuan, atau penolakan. Sebelum menjawab, cari siapa pengirimnya dan informasi apa yang diminta. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Could you send the assignment link?",
+          "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
+          "why": "“Could you” mengajukan permintaan dengan sopan."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "I will send the official class link.",
+          "indonesian": "Saya akan mengirim tautan kelas resmi.",
+          "why": "Respons menjawab permintaan secara spesifik."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Pesan daring bisa berisi permintaan, persetujuan, atau penolakan. Sebelum menjawab, cari siapa pengirimnya dan informasi apa yang diminta."
+    },
+    {
+      "type": "rule",
+      "text": "Dalam [[transactional message]], pahami [[sender]], [[request]], dan [[response]]. Jangan membagikan data pribadi kepada akun yang belum diverifikasi."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Please send me your password. — Here it is.",
+      "correct": "Please send me your password. — I cannot share private login details.",
+      "explanation": "Respons aman tidak membocorkan informasi rahasia."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "sender",
+          "indonesian": "pengirim"
+        },
+        {
+          "english": "request",
+          "indonesian": "permintaan"
+        },
+        {
+          "english": "reply",
+          "indonesian": "balasan"
+        },
+        {
+          "english": "password",
+          "indonesian": "kata sandi"
+        },
+        {
+          "english": "identity",
+          "indonesian": "identitas"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Could you send the assignment link?",
+          "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
+          "note": "“Could you” mengajukan permintaan dengan sopan."
+        },
+        {
+          "english": "I will send the official class link.",
+          "indonesian": "Saya akan mengirim tautan kelas resmi.",
+          "note": "Respons menjawab permintaan secara spesifik."
+        },
+        {
+          "english": "Please check the sender first.",
+          "indonesian": "Tolong periksa pengirimnya terlebih dahulu.",
+          "note": "Petunjuk ini melindungi identitas digital."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade11-online-identity",
+      "prompt": "Which sentence means “Saya akan mengirim tautan kelas resmi.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Saya akan mengirim tautan kelas resmi.”.",
+      "choices": [
+        "Could you send the assignment link?",
+        "I will send the official class link.",
+        "Please check the sender first."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Bisakah kamu mengirimkan tautan tugas?",
+        "Saya akan mengirim tautan kelas resmi.",
+        "Tolong periksa pengirimnya terlebih dahulu."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Respons menjawab permintaan secara spesifik.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Could you send the assignment link?",
+      "parts": [
+        {
+          "english": "Could",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "you send the assignment link?",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Bisakah kamu mengirimkan tautan tugas?"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The message asks for the meeting time.",
+          "indonesian": "Pesan meminta waktu pertemuan.",
+          "note": "Ini informasi kegiatan yang wajar."
+        },
+        {
+          "english": "The message asks for a password.",
+          "indonesian": "Pesan meminta kata sandi.",
+          "note": "Ini informasi rahasia yang tidak boleh diberikan sembarangan."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini informasi kegiatan yang wajar. Ini informasi rahasia yang tidak boleh diberikan sembarangan."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the account used a familiar profile photo, its request for a password made Siska suspicious.",
+          "indonesian": "Meskipun akun memakai foto profil yang dikenal, permintaan kata sandi membuat Siska curiga.",
+          "note": "Identitas visual saja tidak menjamin pengirim asli."
+        },
+        {
+          "english": "Siska replied through the official class channel instead of sharing her private login details.",
+          "indonesian": "Siska membalas melalui kanal kelas resmi, bukan membagikan data masuk pribadinya.",
+          "note": "Pilihan kanal resmi mengurangi risiko."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Siska received a message from an account showing her class leader’s profile picture. It asked her to upload the group assignment and share the password to the class folder. Siska noticed that the account name contained an extra letter. She contacted the leader through the official class chat. The leader confirmed that the assignment was due on Friday but said that no one should share folder passwords. Siska then uploaded her work through the school platform and reported the suspicious account.",
+      "note": "Ringkasan bantuan: Seorang siswa memverifikasi permintaan mencurigakan sebelum membalas. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
+        "Dalam [[transactional message]], pahami [[sender]], [[request]], dan [[response]]. Jangan membagikan data pribadi kepada akun yang belum diverifikasi.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “assignment”?",
+      "choices": [
+        "I will send the official class link.",
+        "Please check the sender first.",
+        "Could you send the assignment link?",
+        "The message asks for the meeting time."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[assignment]] muncul dalam kalimat [[Could you send the assignment link?]]. “Could you” mengajukan permintaan dengan sopan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “assignment”?",
+        "choices": [
+          "Saya akan mengirim tautan kelas resmi.",
+          "Tolong periksa pengirimnya terlebih dahulu.",
+          "Bisakah kamu mengirimkan tautan tugas?",
+          "Pesan meminta waktu pertemuan."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “Please”?",
+      "choices": [
+        "Could you send the assignment link?",
+        "I will send the official class link.",
+        "The message asks for the meeting time.",
+        "Please check the sender first."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[Please]] muncul dalam kalimat [[Please check the sender first.]]. Petunjuk ini melindungi identitas digital.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Please”?",
+        "choices": [
+          "Bisakah kamu mengirimkan tautan tugas?",
+          "Saya akan mengirim tautan kelas resmi.",
+          "Pesan meminta waktu pertemuan.",
+          "Tolong periksa pengirimnya terlebih dahulu."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade11-online-identity-practice"
+  ]
+}

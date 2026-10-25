@@ -1,0 +1,258 @@
+{
+  "id": "grade9-digital-safety",
+  "objectives": [
+    "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Pesan yang terlihat meyakinkan belum tentu benar. Kita akan memeriksa siapa yang menulis, bukti yang diberikan, dan apakah informasi bisa diverifikasi. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membedakan klaim, sumber, dan bukti dalam pesan daring. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The message has no date.",
+          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
+          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "The school website gives the new schedule.",
+          "indonesian": "Situs sekolah memberikan jadwal baru.",
+          "why": "Sumber resmi lebih tepat untuk aturan sekolah."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Pesan yang terlihat meyakinkan belum tentu benar. Kita akan memeriksa siapa yang menulis, bukti yang diberikan, dan apakah informasi bisa diverifikasi."
+    },
+    {
+      "type": "rule",
+      "text": "Saat membaca [[online claim]], periksa [[source]], [[date]], dan [[evidence]]. Banyak pengulangan pesan tidak sama dengan bukti yang kuat."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The message is true because it was shared widely.",
+      "correct": "The message needs verification from an official source.",
+      "explanation": "Jumlah penerusan tidak membuktikan sebuah klaim."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "source",
+          "indonesian": "sumber"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "verify",
+          "indonesian": "memverifikasi"
+        },
+        {
+          "english": "forward",
+          "indonesian": "meneruskan pesan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The message has no date.",
+          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
+          "note": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+        },
+        {
+          "english": "The school website gives the new schedule.",
+          "indonesian": "Situs sekolah memberikan jadwal baru.",
+          "note": "Sumber resmi lebih tepat untuk aturan sekolah."
+        },
+        {
+          "english": "Check the original announcement.",
+          "indonesian": "Periksa pengumuman aslinya.",
+          "note": "Perintah ini mengajak pembaca mencari sumber pertama."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade9-digital-safety",
+      "prompt": "Which sentence means “Situs sekolah memberikan jadwal baru.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Situs sekolah memberikan jadwal baru.”.",
+      "choices": [
+        "The message has no date.",
+        "The school website gives the new schedule.",
+        "Check the original announcement."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Pesan itu tidak mencantumkan tanggal.",
+        "Situs sekolah memberikan jadwal baru.",
+        "Periksa pengumuman aslinya."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Sumber resmi lebih tepat untuk aturan sekolah.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The message has no date.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "message has no date.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Pesan itu tidak mencantumkan tanggal."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Many people shared the claim.",
+          "indonesian": "Banyak orang membagikan klaim itu.",
+          "note": "Kepopuleran belum membuktikan kebenaran."
+        },
+        {
+          "english": "The school confirmed the change.",
+          "indonesian": "Pihak sekolah mengonfirmasi perubahan itu.",
+          "note": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Kepopuleran belum membuktikan kebenaran. Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the screenshot looked official, it did not include the school’s address or publication date.",
+          "indonesian": "Meskipun tangkapan layar tampak resmi, tidak ada alamat sekolah atau tanggal terbit.",
+          "note": "Kontras ini menunjukkan alasan penting untuk memeriksa detail."
+        },
+        {
+          "english": "Before forwarding the message, Dira checked the notice on the school’s actual website.",
+          "indonesian": "Sebelum meneruskan pesan, Dira memeriksa pengumuman di situs sekolah yang sebenarnya.",
+          "note": "Tindakan ini memeriksa sumber sebelum menyebarkan informasi."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "An image circulated in a class chat claiming that Monday’s examination had been cancelled. The image used the school logo but included no date and no link to an original notice. Several students immediately shared it. Dira checked the school’s official website and found a notice saying that the examination would begin one hour later, not that it was cancelled. She sent the official link to her classmates and reminded them to check dates and sources before forwarding urgent messages.",
+      "note": "Ringkasan bantuan: Bagaimana siswa memeriksa pesan ujian yang menyesatkan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+        "Saat membaca [[online claim]], periksa [[source]], [[date]], dan [[evidence]]. Banyak pengulangan pesan tidak sama dengan bukti yang kuat.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “message”?",
+      "choices": [
+        "The school website gives the new schedule.",
+        "Check the original announcement.",
+        "Many people shared the claim.",
+        "The message has no date."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[message]] muncul dalam kalimat [[The message has no date.]]. Tanggal penting untuk mengetahui apakah informasi masih berlaku.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “message”?",
+        "choices": [
+          "Situs sekolah memberikan jadwal baru.",
+          "Periksa pengumuman aslinya.",
+          "Banyak orang membagikan klaim itu.",
+          "Pesan itu tidak mencantumkan tanggal."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “announcement”?",
+      "choices": [
+        "Check the original announcement.",
+        "The message has no date.",
+        "The school website gives the new schedule.",
+        "Many people shared the claim."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[announcement]] muncul dalam kalimat [[Check the original announcement.]]. Perintah ini mengajak pembaca mencari sumber pertama.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “announcement”?",
+        "choices": [
+          "Periksa pengumuman aslinya.",
+          "Pesan itu tidak mencantumkan tanggal.",
+          "Situs sekolah memberikan jadwal baru.",
+          "Banyak orang membagikan klaim itu."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade9-digital-safety-practice"
+  ]
+}

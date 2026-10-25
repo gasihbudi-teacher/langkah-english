@@ -1,0 +1,111 @@
+{
+  "id": "grade10-opinions-reasons-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-opinions-reasons",
+      "title": "Expressing Opinions and Supporting Reasons",
+      "text": "During a student council meeting, Rani suggested opening the library thirty minutes earlier. She explained that some students arrived at school before their first lesson and wanted a quiet place to read. Bima agreed that early access would be useful, but he wondered whether librarians needed extra preparation time. Rani proposed a one-week trial and suggested collecting feedback from staff and students. The group decided to discuss the trial with the librarians rather than changing the schedule immediately.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the conversation mainly about?",
+      "choices": [
+        "Choosing a new school uniform",
+        "Finding a fair way to consider an earlier library opening",
+        "Buying a new bus for the school",
+        "Closing the student council"
+      ],
+      "answer": 1,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa inti percakapan?",
+        "choices": [
+          "Memilih seragam baru",
+          "Mencari cara yang adil untuk mempertimbangkan jam buka perpustakaan lebih awal",
+          "Membeli bus sekolah baru",
+          "Menutup OSIS"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-opinions-reasons",
+      "evidence": "During a student council meeting, Rani suggested opening the library thirty minutes earlier."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why did Rani propose opening the library earlier?",
+      "choices": [
+        "Books had already disappeared",
+        "The library was always empty",
+        "Some students wanted a quiet place before class",
+        "A teacher demanded its closure"
+      ],
+      "answer": 2,
+      "explanation": "Alasan Rani adalah kebutuhan siswa yang datang sebelum kelas.",
+      "translationId": {
+        "prompt": "Mengapa Rani mengusulkan perpustakaan buka lebih awal?",
+        "choices": [
+          "Buku sudah hilang",
+          "Perpustakaan selalu kosong",
+          "Sebagian siswa membutuhkan tempat tenang sebelum pelajaran",
+          "Guru menuntut penutupannya"
+        ]
+      },
+      "skill": "Reasons",
+      "passageId": "text-opinions-reasons",
+      "evidence": "wanted a quiet place to read"
+    },
+    {
+      "id": "q3",
+      "prompt": "How did Bima respond?",
+      "choices": [
+        "He rejected reading altogether",
+        "He ordered everyone to leave",
+        "He changed the subject to sports",
+        "He agreed but raised a staffing concern"
+      ],
+      "answer": 3,
+      "explanation": "Tanggapan Bima memadukan persetujuan dan pertimbangan lain.",
+      "translationId": {
+        "prompt": "Bagaimana tanggapan Bima?",
+        "choices": [
+          "Ia menolak kegiatan membaca",
+          "Ia menyuruh semua orang keluar",
+          "Ia mengubah topik ke olahraga",
+          "Ia setuju tetapi mengangkat masalah kesiapan petugas"
+        ]
+      },
+      "skill": "Comparing Views",
+      "passageId": "text-opinions-reasons",
+      "evidence": "Bima agreed that early access would be useful, but he wondered"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why is the one-week trial useful?",
+      "choices": [
+        "It provides experience and feedback before a permanent decision",
+        "It guarantees everyone agrees",
+        "It removes the need for librarians",
+        "It proves the library should never open"
+      ],
+      "answer": 0,
+      "explanation": "Uji coba membantu mengevaluasi usulan sebelum diterapkan permanen.",
+      "translationId": {
+        "prompt": "Mengapa uji coba seminggu berguna?",
+        "choices": [
+          "Memberikan pengalaman dan tanggapan sebelum keputusan permanen",
+          "Menjamin semua orang setuju",
+          "Menghilangkan kebutuhan petugas perpustakaan",
+          "Membuktikan perpustakaan tidak boleh buka"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-opinions-reasons",
+      "evidence": "a one-week trial and suggested collecting feedback"
+    }
+  ]
+}

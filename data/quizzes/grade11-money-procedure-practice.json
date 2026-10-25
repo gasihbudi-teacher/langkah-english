@@ -1,0 +1,111 @@
+{
+  "id": "grade11-money-procedure-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-money-procedure",
+      "title": "Procedure Text: Personal Budgeting",
+      "text": "A school finance club shared a simple budgeting guide. First, record your weekly allowance. Second, list essential expenses such as transport and meals. Third, decide on a realistic amount to save. Only then consider optional purchases. Check whether the total plan exceeds your allowance. If it does, revise optional spending before reducing essential costs. At the end of the week, compare your plan with your actual expenses. The guide advises students to review their choices rather than blame themselves for an imperfect first attempt.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does the text mainly provide?",
+      "choices": [
+        "A history of bank buildings",
+        "A story about a lost wallet",
+        "An advertisement for luxury products",
+        "Practical steps for planning a student budget"
+      ],
+      "answer": 3,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa yang terutama diberikan teks?",
+        "choices": [
+          "Sejarah bangunan bank",
+          "Cerita dompet hilang",
+          "Iklan barang mewah",
+          "Langkah praktis menyusun anggaran siswa"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-money-procedure",
+      "evidence": "A school finance club shared a simple budgeting guide."
+    },
+    {
+      "id": "q2",
+      "prompt": "What should students list before optional purchases?",
+      "choices": [
+        "Essential expenses",
+        "Only luxury items",
+        "Friends’ shopping lists",
+        "Shop opening hours"
+      ],
+      "answer": 0,
+      "explanation": "Panduan mengutamakan biaya wajib sebelum pembelian pilihan.",
+      "translationId": {
+        "prompt": "Apa yang perlu didaftar sebelum pembelian pilihan?",
+        "choices": [
+          "Pengeluaran penting",
+          "Hanya barang mewah",
+          "Daftar belanja teman",
+          "Jam buka toko"
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "text-money-procedure",
+      "evidence": "list essential expenses such as transport and meals"
+    },
+    {
+      "id": "q3",
+      "prompt": "What should a student do if the plan exceeds the allowance?",
+      "choices": [
+        "Ignore the total",
+        "Revise optional spending first",
+        "Stop recording expenses",
+        "Increase spending immediately"
+      ],
+      "answer": 1,
+      "explanation": "Petunjuk eksplisit meminta merevisi pembelian pilihan terlebih dahulu.",
+      "translationId": {
+        "prompt": "Apa yang harus dilakukan jika rencana melebihi uang saku?",
+        "choices": [
+          "Mengabaikan total",
+          "Mengurangi pengeluaran pilihan terlebih dahulu",
+          "Berhenti mencatat pengeluaran",
+          "Segera menambah belanja"
+        ]
+      },
+      "skill": "Following Instructions",
+      "passageId": "text-money-procedure",
+      "evidence": "revise optional spending before reducing essential costs"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why compare planned and actual expenses?",
+      "choices": [
+        "To prove every purchase is a mistake",
+        "To spend all remaining money",
+        "To understand and improve the next budget",
+        "To avoid saving forever"
+      ],
+      "answer": 2,
+      "explanation": "Evaluasi di akhir minggu membantu memperbaiki keputusan selanjutnya.",
+      "translationId": {
+        "prompt": "Mengapa perlu membandingkan rencana dan pengeluaran nyata?",
+        "choices": [
+          "Untuk membuktikan semua pembelian salah",
+          "Untuk menghabiskan sisa uang",
+          "Agar dapat memahami dan memperbaiki anggaran berikutnya",
+          "Untuk menghindari menabung selamanya"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-money-procedure",
+      "evidence": "compare your plan with your actual expenses"
+    }
+  ]
+}

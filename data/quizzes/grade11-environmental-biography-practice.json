@@ -1,0 +1,111 @@
+{
+  "id": "grade11-environmental-biography-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-environmental-biography",
+      "title": "Biography: Environmental Changemakers",
+      "text": "Maya Putri, a fictional student leader in this practice biography, noticed litter near the river in her town. In 2022, she invited five classmates to record the types of waste they found. They began monthly clean-ups and shared the results with residents. A year later, the team partnered with a local library to hold workshops about reusing materials. The workshops attracted more volunteers, but Maya reminded the team that keeping records mattered more than claiming instant success. Their reports helped the community plan new waste bins.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the central focus of this biography?",
+      "choices": [
+        "How a student leader organised evidence-based environmental work",
+        "How to purchase a library building",
+        "Why records should always be destroyed",
+        "A fictional river monster"
+      ],
+      "answer": 0,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa fokus utama biografi?",
+        "choices": [
+          "Bagaimana pemimpin siswa mengorganisasi kegiatan lingkungan berbasis catatan",
+          "Cara membeli gedung perpustakaan",
+          "Mengapa catatan harus selalu dimusnahkan",
+          "Monster sungai fiksi"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-environmental-biography",
+      "evidence": "Maya Putri, a fictional student leader in this practice biography, noticed litter near the river in her town."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did Maya’s team do in 2022?",
+      "choices": [
+        "Opened a new national park",
+        "Banned all school activities",
+        "Built a new library",
+        "Recorded types of waste near the river"
+      ],
+      "answer": 3,
+      "explanation": "Teks menyebut kegiatan pertama tim pada tahun 2022.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan tim Maya pada 2022?",
+        "choices": [
+          "Membuka taman nasional baru",
+          "Melarang semua kegiatan sekolah",
+          "Membangun perpustakaan baru",
+          "Mencatat jenis sampah dekat sungai"
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "text-environmental-biography",
+      "evidence": "In 2022, she invited five classmates to record the types of waste"
+    },
+    {
+      "id": "q3",
+      "prompt": "What happened a year later?",
+      "choices": [
+        "The river disappeared",
+        "The team worked with a library on workshops",
+        "The clean-ups were declared unnecessary",
+        "All volunteers moved away"
+      ],
+      "answer": 1,
+      "explanation": "Teks menyebut kerja sama dengan perpustakaan setahun setelah 2022.",
+      "translationId": {
+        "prompt": "Apa yang terjadi setahun kemudian?",
+        "choices": [
+          "Sungai menghilang",
+          "Tim bekerja sama dengan perpustakaan untuk lokakarya",
+          "Bersih-bersih dinyatakan tidak diperlukan",
+          "Semua relawan pindah"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-environmental-biography",
+      "evidence": "A year later, the team partnered with a local library"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why did Maya value keeping records?",
+      "choices": [
+        "Records make every project succeed instantly",
+        "Records can replace volunteers",
+        "Records help avoid unsupported claims and guide planning",
+        "Records guarantee no more waste"
+      ],
+      "answer": 2,
+      "explanation": "Pencatatan membantu evaluasi dan penyediaan tempat sampah berikutnya.",
+      "translationId": {
+        "prompt": "Mengapa Maya menghargai pencatatan?",
+        "choices": [
+          "Catatan membuat proyek langsung berhasil",
+          "Catatan menggantikan relawan",
+          "Catatan menghindari klaim tanpa bukti dan membantu perencanaan",
+          "Catatan menjamin tidak ada sampah lagi"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-environmental-biography",
+      "evidence": "Their reports helped the community plan new waste bins."
+    }
+  ]
+}

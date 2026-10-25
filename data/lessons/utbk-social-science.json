@@ -1,0 +1,258 @@
+{
+  "id": "utbk-social-science",
+  "objectives": [
+    "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Dalam bacaan sosial, jumlah besar belum tentu berarti peningkatan kebiasaan. Pertama cari apa yang dihitung; lalu periksa perubahan jumlah keseluruhan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "The library had 200 visitors.",
+          "indonesian": "Perpustakaan dikunjungi 200 orang.",
+          "why": "Ini jumlah mutlak."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Half of the students visited.",
+          "indonesian": "Setengah siswa berkunjung.",
+          "why": "Ini proporsi dari jumlah siswa."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Dalam bacaan sosial, jumlah besar belum tentu berarti peningkatan kebiasaan. Pertama cari apa yang dihitung; lalu periksa perubahan jumlah keseluruhan."
+    },
+    {
+      "type": "rule",
+      "text": "Bedakan [[raw count]] (jumlah mentah) dari [[proportion]] (bagian dari keseluruhan). Cermati [[sample]] dan perubahan kondisi antarwaktu."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "More trips means a larger percentage of residents used buses.",
+      "correct": "More trips can coexist with a smaller rate per resident.",
+      "explanation": "Jumlah pembanding meningkat; karena itu hitung bagian dari total."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "ridership",
+          "indonesian": "jumlah penumpang"
+        },
+        {
+          "english": "proportion",
+          "indonesian": "proporsi"
+        },
+        {
+          "english": "population",
+          "indonesian": "populasi"
+        },
+        {
+          "english": "survey",
+          "indonesian": "survei"
+        },
+        {
+          "english": "trend",
+          "indonesian": "tren"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The library had 200 visitors.",
+          "indonesian": "Perpustakaan dikunjungi 200 orang.",
+          "note": "Ini jumlah mutlak."
+        },
+        {
+          "english": "Half of the students visited.",
+          "indonesian": "Setengah siswa berkunjung.",
+          "note": "Ini proporsi dari jumlah siswa."
+        },
+        {
+          "english": "The school population increased.",
+          "indonesian": "Jumlah siswa di sekolah bertambah.",
+          "note": "Ukuran keseluruhan dapat memengaruhi interpretasi."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-utbk-social-science",
+      "prompt": "Which sentence means “Setengah siswa berkunjung.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Setengah siswa berkunjung.”.",
+      "choices": [
+        "The library had 200 visitors.",
+        "Half of the students visited.",
+        "The school population increased."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Perpustakaan dikunjungi 200 orang.",
+        "Setengah siswa berkunjung.",
+        "Jumlah siswa di sekolah bertambah."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini proporsi dari jumlah siswa.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "The library had 200 visitors.",
+      "parts": [
+        {
+          "english": "The",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "library had 200 visitors.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Perpustakaan dikunjungi 200 orang."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Visits increased from 100 to 120.",
+          "indonesian": "Kunjungan naik dari 100 menjadi 120.",
+          "note": "Ini kenaikan jumlah kunjungan."
+        },
+        {
+          "english": "The percentage of visitors fell.",
+          "indonesian": "Persentase pengunjung turun.",
+          "note": "Bisa terjadi bila jumlah semua siswa naik lebih cepat."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini kenaikan jumlah kunjungan. Bisa terjadi bila jumlah semua siswa naik lebih cepat."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although bus ridership rose in absolute numbers, the share of residents using buses fell after the town expanded.",
+          "indonesian": "Meskipun jumlah penumpang bus meningkat, persentase warga yang memakai bus menurun setelah kota berkembang.",
+          "note": "Jumlah mentah dan persentase menjawab pertanyaan berbeda."
+        },
+        {
+          "english": "A fair comparison should account for changes in population size before judging whether travel habits improved.",
+          "indonesian": "Perbandingan yang adil mempertimbangkan perubahan jumlah penduduk sebelum menilai kebiasaan perjalanan.",
+          "note": "Perlu penyebut yang sama untuk membandingkan proporsi."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "A town council reported that daily bus trips rose from 1,200 to 1,500 over five years. Officials called the rise evidence that residents were choosing public transport more often. A local researcher checked the town’s population: it had increased from 12,000 to 20,000 over the same period. The number of bus trips per resident had therefore fallen, even though the total number of trips grew. The researcher noted that one bus trip was not necessarily one unique passenger, so further surveys were needed to understand individual travel habits. Both sides agreed that additional data would be valuable.",
+      "note": "Ringkasan bantuan: Perjalanan bus meningkat, tetapi itu belum membuktikan tingkat penggunaan lebih tinggi. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase.",
+        "Bedakan [[raw count]] (jumlah mentah) dari [[proportion]] (bagian dari keseluruhan). Cermati [[sample]] dan perubahan kondisi antarwaktu.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “visitors”?",
+      "choices": [
+        "Half of the students visited.",
+        "The library had 200 visitors.",
+        "The school population increased.",
+        "Visits increased from 100 to 120."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[visitors]] muncul dalam kalimat [[The library had 200 visitors.]]. Ini jumlah mutlak.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “visitors”?",
+        "choices": [
+          "Setengah siswa berkunjung.",
+          "Perpustakaan dikunjungi 200 orang.",
+          "Jumlah siswa di sekolah bertambah.",
+          "Kunjungan naik dari 100 menjadi 120."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “population”?",
+      "choices": [
+        "The library had 200 visitors.",
+        "Half of the students visited.",
+        "The school population increased.",
+        "Visits increased from 100 to 120."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[population]] muncul dalam kalimat [[The school population increased.]]. Ukuran keseluruhan dapat memengaruhi interpretasi.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “population”?",
+        "choices": [
+          "Perpustakaan dikunjungi 200 orang.",
+          "Setengah siswa berkunjung.",
+          "Jumlah siswa di sekolah bertambah.",
+          "Kunjungan naik dari 100 menjadi 120."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "utbk-social-science-practice"
+  ]
+}

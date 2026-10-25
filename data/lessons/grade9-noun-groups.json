@@ -1,0 +1,258 @@
+{
+  "id": "grade9-noun-groups",
+  "objectives": [
+    "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Satu benda bisa dijelaskan dengan banyak kata. Jangan langsung menerjemahkan dari kiri ke kanan; temukan dahulu benda utamanya. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "a bird",
+          "indonesian": "seekor burung",
+          "why": "“bird” adalah kata benda inti."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "a small bird",
+          "indonesian": "seekor burung kecil",
+          "why": "“small” menerangkan ukuran."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Satu benda bisa dijelaskan dengan banyak kata. Jangan langsung menerjemahkan dari kiri ke kanan; temukan dahulu benda utamanya."
+    },
+    {
+      "type": "rule",
+      "text": "Dalam [[noun group]], cari kata benda inti ([[head noun]]) lalu kata yang menjelaskannya. Misalnya [[a small brown bird]] memiliki inti [[bird]]."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "a bird small brown",
+      "correct": "a small brown bird",
+      "explanation": "Dalam kelompok kata benda ini, kata sifat diletakkan sebelum benda inti."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "noun",
+          "indonesian": "kata benda"
+        },
+        {
+          "english": "adjective",
+          "indonesian": "kata sifat"
+        },
+        {
+          "english": "size",
+          "indonesian": "ukuran"
+        },
+        {
+          "english": "colour",
+          "indonesian": "warna"
+        },
+        {
+          "english": "material",
+          "indonesian": "bahan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "a bird",
+          "indonesian": "seekor burung",
+          "note": "“bird” adalah kata benda inti."
+        },
+        {
+          "english": "a small bird",
+          "indonesian": "seekor burung kecil",
+          "note": "“small” menerangkan ukuran."
+        },
+        {
+          "english": "a small brown bird",
+          "indonesian": "seekor burung kecil berwarna cokelat",
+          "note": "“brown” menambah informasi warna."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade9-noun-groups",
+      "prompt": "Which sentence means “seekor burung kecil”?",
+      "translation": "Pilih kalimat Inggris yang berarti “seekor burung kecil”.",
+      "choices": [
+        "a bird",
+        "a small bird",
+        "a small brown bird"
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "seekor burung",
+        "seekor burung kecil",
+        "seekor burung kecil berwarna cokelat"
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “small” menerangkan ukuran.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "a bird",
+      "parts": [
+        {
+          "english": "a",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "bird",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: seekor burung"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "a wooden box",
+          "indonesian": "sebuah kotak kayu",
+          "note": "“wooden” menjelaskan bahan kotak."
+        },
+        {
+          "english": "a box for recycled paper",
+          "indonesian": "sebuah kotak untuk kertas daur ulang",
+          "note": "Keterangan setelah “box” menjelaskan fungsi kotak."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. “wooden” menjelaskan bahan kotak. Keterangan setelah “box” menjelaskan fungsi kotak."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "The small grey bird near the window has a bright yellow tail.",
+          "indonesian": "Burung kecil berwarna abu-abu dekat jendela memiliki ekor kuning terang.",
+          "note": "Temukan inti “bird” sebelum membaca keterangan lainnya."
+        },
+        {
+          "english": "Students labelled the reusable blue containers in the science room.",
+          "indonesian": "Siswa memberi label pada wadah biru yang dapat dipakai ulang di ruang sains.",
+          "note": "Kata inti “containers” diterangkan oleh kata sifat dan keterangan tempat."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "At the nature corner, students observed a small brown bird with a curved beak. Its short wings helped it move quickly between nearby trees. Beside the bird’s picture, a large wooden board showed simple facts about its food and habitat. The class also displayed two reusable blue containers for collecting paper. Students noticed that descriptive word groups helped visitors identify objects without reading a very long explanation.",
+      "note": "Ringkasan bantuan: Deskripsi benda dan hewan dengan kelompok kata terperinci. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
+        "Dalam [[noun group]], cari kata benda inti ([[head noun]]) lalu kata yang menjelaskannya. Misalnya [[a small brown bird]] memiliki inti [[bird]].",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “a bird”?",
+      "choices": [
+        "a bird",
+        "a small bird",
+        "a small brown bird",
+        "a wooden box"
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[a bird]] muncul dalam kalimat [[a bird]]. “bird” adalah kata benda inti.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “a bird”?",
+        "choices": [
+          "seekor burung",
+          "seekor burung kecil",
+          "seekor burung kecil berwarna cokelat",
+          "sebuah kotak kayu"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “brown”?",
+      "choices": [
+        "a bird",
+        "a small brown bird",
+        "a small bird",
+        "a wooden box"
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[brown]] muncul dalam kalimat [[a small brown bird]]. “brown” menambah informasi warna.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “brown”?",
+        "choices": [
+          "seekor burung",
+          "seekor burung kecil berwarna cokelat",
+          "seekor burung kecil",
+          "sebuah kotak kayu"
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade9-noun-groups-practice"
+  ]
+}

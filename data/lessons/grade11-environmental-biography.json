@@ -1,0 +1,258 @@
+{
+  "id": "grade11-environmental-biography",
+  "objectives": [
+    "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Biografi menceritakan kehidupan orang nyata. Kita mulai dari waktu, tindakan, dan dampak yang disebut jelas sebelum menilai pengaruh tokoh. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Maya started a reading club.",
+          "indonesian": "Maya memulai klub membaca.",
+          "why": "Ini tindakan tokoh di masa lalu."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "She invited local volunteers.",
+          "indonesian": "Ia mengundang relawan setempat.",
+          "why": "Kata “She” merujuk pada Maya."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Biografi menceritakan kehidupan orang nyata. Kita mulai dari waktu, tindakan, dan dampak yang disebut jelas sebelum menilai pengaruh tokoh."
+    },
+    {
+      "type": "rule",
+      "text": "[[Biography]] sering memakai [[past tense]], tanggal, dan urutan peristiwa. Bedakan pencapaian yang tercatat dengan pujian yang bersifat opini."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Maya solved all river pollution immediately.",
+      "correct": "Maya helped her community plan steps to address litter.",
+      "explanation": "Biografi harus membedakan kontribusi terukur dari klaim berlebihan."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "volunteer",
+          "indonesian": "relawan"
+        },
+        {
+          "english": "organise",
+          "indonesian": "mengorganisasi"
+        },
+        {
+          "english": "achievement",
+          "indonesian": "pencapaian"
+        },
+        {
+          "english": "community",
+          "indonesian": "komunitas"
+        },
+        {
+          "english": "impact",
+          "indonesian": "dampak"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Maya started a reading club.",
+          "indonesian": "Maya memulai klub membaca.",
+          "note": "Ini tindakan tokoh di masa lalu."
+        },
+        {
+          "english": "She invited local volunteers.",
+          "indonesian": "Ia mengundang relawan setempat.",
+          "note": "Kata “She” merujuk pada Maya."
+        },
+        {
+          "english": "The club later cleaned a riverbank.",
+          "indonesian": "Klub itu kemudian membersihkan tepi sungai.",
+          "note": "“later” menandai perkembangan kegiatan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade11-environmental-biography",
+      "prompt": "Which sentence means “Ia mengundang relawan setempat.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Ia mengundang relawan setempat.”.",
+      "choices": [
+        "Maya started a reading club.",
+        "She invited local volunteers.",
+        "The club later cleaned a riverbank."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Maya memulai klub membaca.",
+        "Ia mengundang relawan setempat.",
+        "Klub itu kemudian membersihkan tepi sungai."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “She” merujuk pada Maya.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Maya started a reading club.",
+      "parts": [
+        {
+          "english": "Maya",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "started a reading club.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Maya memulai klub membaca."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "She organised ten clean-ups.",
+          "indonesian": "Ia menyelenggarakan sepuluh kegiatan bersih-bersih.",
+          "note": "Ini pencapaian yang dapat dihitung."
+        },
+        {
+          "english": "She was the greatest leader ever.",
+          "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
+          "note": "Ini penilaian yang memerlukan kriteria."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini pencapaian yang dapat dihitung. Ini penilaian yang memerlukan kriteria."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "After noticing waste near the school, Maya asked neighbours to record litter at the riverbank each weekend.",
+          "indonesian": "Setelah melihat sampah dekat sekolah, Maya meminta tetangga mencatat sampah di tepi sungai setiap akhir pekan.",
+          "note": "Tindakan dimulai dari masalah yang diamati."
+        },
+        {
+          "english": "Although early meetings attracted only a few people, the group gradually gained more volunteers.",
+          "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit orang, kelompok itu perlahan memperoleh lebih banyak relawan.",
+          "note": "Kalimat menunjukkan perkembangan kerja tokoh."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Maya Putri, a fictional student leader in this practice biography, noticed litter near the river in her town. In 2022, she invited five classmates to record the types of waste they found. They began monthly clean-ups and shared the results with residents. A year later, the team partnered with a local library to hold workshops about reusing materials. The workshops attracted more volunteers, but Maya reminded the team that keeping records mattered more than claiming instant success. Their reports helped the community plan new waste bins.",
+      "note": "Ringkasan bantuan: Bagaimana pemimpin siswa mengorganisasi kegiatan lingkungan berbasis catatan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
+        "[[Biography]] sering memakai [[past tense]], tanggal, dan urutan peristiwa. Bedakan pencapaian yang tercatat dengan pujian yang bersifat opini.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “started”?",
+      "choices": [
+        "Maya started a reading club.",
+        "She invited local volunteers.",
+        "The club later cleaned a riverbank.",
+        "She organised ten clean-ups."
+      ],
+      "answer": 0,
+      "explanation": "Ungkapan [[started]] muncul dalam kalimat [[Maya started a reading club.]]. Ini tindakan tokoh di masa lalu.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “started”?",
+        "choices": [
+          "Maya memulai klub membaca.",
+          "Ia mengundang relawan setempat.",
+          "Klub itu kemudian membersihkan tepi sungai.",
+          "Ia menyelenggarakan sepuluh kegiatan bersih-bersih."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “riverbank”?",
+      "choices": [
+        "Maya started a reading club.",
+        "The club later cleaned a riverbank.",
+        "She invited local volunteers.",
+        "She organised ten clean-ups."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[riverbank]] muncul dalam kalimat [[The club later cleaned a riverbank.]]. “later” menandai perkembangan kegiatan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “riverbank”?",
+        "choices": [
+          "Maya memulai klub membaca.",
+          "Klub itu kemudian membersihkan tepi sungai.",
+          "Ia mengundang relawan setempat.",
+          "Ia menyelenggarakan sepuluh kegiatan bersih-bersih."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade11-environmental-biography-practice"
+  ]
+}

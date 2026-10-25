@@ -1,0 +1,111 @@
+{
+  "id": "grade12-argumentative-text-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-argumentative-text",
+      "title": "Argumentative Text: Claims and Counterarguments",
+      "text": "A school committee is considering digital payments at the canteen. Supporters argue that electronic transactions could shorten queues and make spending easier to record. They point to a small trial in which several sellers completed payments more quickly. Critics note that some students do not own suitable devices and that poor internet service can interrupt transactions. The committee suggests keeping a cash option while testing digital payments further. This position supports new technology but recognises that access and reliability matter.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which argument best represents the passage?",
+      "choices": [
+        "Cash should be banned immediately",
+        "Every student owns an internet-connected phone",
+        "Digital payments may help, but fair access and reliability must be considered",
+        "Canteen queues are unrelated to payments"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Argumen apa yang paling menggambarkan bacaan?",
+        "choices": [
+          "Uang tunai harus langsung dilarang",
+          "Setiap siswa memiliki ponsel berinternet",
+          "Pembayaran digital mungkin membantu, tetapi akses adil dan keandalan perlu dipertimbangkan",
+          "Antrean kantin tidak berhubungan dengan pembayaran"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-argumentative-text",
+      "evidence": "A school committee is considering digital payments at the canteen."
+    },
+    {
+      "id": "q2",
+      "prompt": "What evidence do supporters mention?",
+      "choices": [
+        "A national law banning cash",
+        "A survey about sports",
+        "An experiment on school uniforms",
+        "A small trial with faster seller transactions"
+      ],
+      "answer": 3,
+      "explanation": "Pendukung menyebut hasil uji coba kecil.",
+      "translationId": {
+        "prompt": "Bukti apa yang disebut pendukung?",
+        "choices": [
+          "Hukum nasional melarang uang tunai",
+          "Survei tentang olahraga",
+          "Eksperimen seragam sekolah",
+          "Uji coba kecil dengan transaksi penjual lebih cepat"
+        ]
+      },
+      "skill": "Evidence",
+      "passageId": "text-argumentative-text",
+      "evidence": "a small trial in which several sellers completed payments more quickly"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which concern is a counterargument?",
+      "choices": [
+        "Payments can be recorded",
+        "Some students lack suitable devices",
+        "Queues may be shorter",
+        "Technology can be convenient"
+      ],
+      "answer": 1,
+      "explanation": "Keterbatasan perangkat menantang kebijakan digital sepenuhnya.",
+      "translationId": {
+        "prompt": "Kekhawatiran mana merupakan argumen tandingan?",
+        "choices": [
+          "Pembayaran dapat dicatat",
+          "Sebagian siswa tidak memiliki perangkat memadai",
+          "Antrean mungkin lebih singkat",
+          "Teknologi bisa praktis"
+        ]
+      },
+      "skill": "Counterargument",
+      "passageId": "text-argumentative-text",
+      "evidence": "some students do not own suitable devices"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why does the committee keep the cash option?",
+      "choices": [
+        "To balance benefits with accessibility",
+        "To exclude students without phones",
+        "To stop recording spending",
+        "To prove networks never fail"
+      ],
+      "answer": 0,
+      "explanation": "Solusi menjaga akses bagi siswa dengan perangkat/koneksi terbatas.",
+      "translationId": {
+        "prompt": "Mengapa panitia tetap menyediakan uang tunai?",
+        "choices": [
+          "Untuk menyeimbangkan manfaat dan akses",
+          "Untuk mengecualikan siswa tanpa ponsel",
+          "Untuk berhenti mencatat pengeluaran",
+          "Untuk membuktikan jaringan tidak pernah gagal"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-argumentative-text",
+      "evidence": "keeping a cash option while testing digital payments further"
+    }
+  ]
+}

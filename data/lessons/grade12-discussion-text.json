@@ -1,0 +1,258 @@
+{
+  "id": "grade12-discussion-text",
+  "objectives": [
+    "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Dalam sebuah perdebatan lingkungan, dua pihak bisa mempunyai alasan yang masuk akal. Kita belajar melihat keduanya sebelum mengambil kesimpulan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Cycling can reduce fuel use.",
+          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "why": "Ini alasan pendukung bersepeda."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "Not all students live near school.",
+          "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
+          "why": "Ini keterbatasan solusi untuk semua siswa."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Dalam sebuah perdebatan lingkungan, dua pihak bisa mempunyai alasan yang masuk akal. Kita belajar melihat keduanya sebelum mengambil kesimpulan."
+    },
+    {
+      "type": "rule",
+      "text": "[[Discussion text]] menghadirkan [[issue]], argumen [[for]] dan [[against]], lalu [[conclusion]]. Jangan menganggap semua pendapat sama kuat tanpa memeriksa bukti."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The critics are wrong because walking is good.",
+      "correct": "Both the benefits and practical limitations must be considered.",
+      "explanation": "Diskusi yang baik menimbang argumen serta kondisi penerapannya."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "footprint",
+          "indonesian": "jejak dampak"
+        },
+        {
+          "english": "emission",
+          "indonesian": "emisi"
+        },
+        {
+          "english": "route",
+          "indonesian": "rute"
+        },
+        {
+          "english": "benefit",
+          "indonesian": "manfaat"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Cycling can reduce fuel use.",
+          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "note": "Ini alasan pendukung bersepeda."
+        },
+        {
+          "english": "Not all students live near school.",
+          "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
+          "note": "Ini keterbatasan solusi untuk semua siswa."
+        },
+        {
+          "english": "Schools could support several travel options.",
+          "indonesian": "Sekolah dapat mendukung beberapa pilihan perjalanan.",
+          "note": "Simpulan mempertimbangkan situasi berbeda."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-discussion-text",
+      "prompt": "Which sentence means “Tidak semua siswa tinggal dekat sekolah.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Tidak semua siswa tinggal dekat sekolah.”.",
+      "choices": [
+        "Cycling can reduce fuel use.",
+        "Not all students live near school.",
+        "Schools could support several travel options."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+        "Tidak semua siswa tinggal dekat sekolah.",
+        "Sekolah dapat mendukung beberapa pilihan perjalanan."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini keterbatasan solusi untuk semua siswa.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Cycling can reduce fuel use.",
+      "parts": [
+        {
+          "english": "Cycling",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "can reduce fuel use.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Bersepeda dapat mengurangi pemakaian bahan bakar."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Everyone must cycle to school.",
+          "indonesian": "Semua orang harus bersepeda ke sekolah.",
+          "note": "Saran mutlak mengabaikan kondisi berbeda."
+        },
+        {
+          "english": "Cycling could be encouraged where routes are safe.",
+          "indonesian": "Bersepeda dapat didorong jika jalurnya aman.",
+          "note": "Saran bersyarat lebih memperhatikan konteks."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Saran mutlak mengabaikan kondisi berbeda. Saran bersyarat lebih memperhatikan konteks."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
+          "indonesian": "Walaupun bersepeda memiliki manfaat lingkungan, siswa yang tinggal jauh mungkin memerlukan transportasi umum andal.",
+          "note": "Dua alasan ditempatkan berdampingan."
+        },
+        {
+          "english": "A balanced plan could combine bicycle parking, safe walking routes, and better information about buses.",
+          "indonesian": "Rencana seimbang dapat menggabungkan parkir sepeda, jalur jalan kaki aman, dan informasi bus yang lebih baik.",
+          "note": "Simpulan mencoba merespons kebutuhan beragam."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward.",
+      "note": "Ringkasan bantuan: Perjalanan dengan emisi lebih rendah bermanfaat, tetapi situasi siswa berbeda. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
+        "[[Discussion text]] menghadirkan [[issue]], argumen [[for]] dan [[against]], lalu [[conclusion]]. Jangan menganggap semua pendapat sama kuat tanpa memeriksa bukti.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “Cycling”?",
+      "choices": [
+        "Not all students live near school.",
+        "Cycling can reduce fuel use.",
+        "Schools could support several travel options.",
+        "Everyone must cycle to school."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan [[Cycling]] muncul dalam kalimat [[Cycling can reduce fuel use.]]. Ini alasan pendukung bersepeda.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Cycling”?",
+        "choices": [
+          "Tidak semua siswa tinggal dekat sekolah.",
+          "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "Sekolah dapat mendukung beberapa pilihan perjalanan.",
+          "Semua orang harus bersepeda ke sekolah."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “Schools”?",
+      "choices": [
+        "Cycling can reduce fuel use.",
+        "Not all students live near school.",
+        "Schools could support several travel options.",
+        "Everyone must cycle to school."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[Schools]] muncul dalam kalimat [[Schools could support several travel options.]]. Simpulan mempertimbangkan situasi berbeda.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “Schools”?",
+        "choices": [
+          "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "Tidak semua siswa tinggal dekat sekolah.",
+          "Sekolah dapat mendukung beberapa pilihan perjalanan.",
+          "Semua orang harus bersepeda ke sekolah."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-discussion-text-practice"
+  ]
+}

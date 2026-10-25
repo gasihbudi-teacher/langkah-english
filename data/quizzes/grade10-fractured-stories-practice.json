@@ -1,0 +1,111 @@
+{
+  "id": "grade10-fractured-stories-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-fractured-stories",
+      "title": "Fractured Stories: Changing Perspectives",
+      "text": "In the first version of the tale, villagers heard heavy footsteps and believed a giant had come to destroy their bridge. They locked their doors. In the giant’s version, he had travelled for two days because a flood had left his home without clean water. He approached the bridge to ask for help, but no one answered. A young baker eventually listened and brought him a bucket. Both versions describe the same footsteps, yet they lead readers to judge the giant differently.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main idea of the text?",
+      "choices": [
+        "A different narrator can change how an event is understood",
+        "Every giant enjoys destroying bridges",
+        "Floods never affect villages",
+        "Bakers should not help strangers"
+      ],
+      "answer": 0,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Apa gagasan utama teks?",
+        "choices": [
+          "Pencerita berbeda dapat mengubah pemahaman terhadap kejadian",
+          "Semua raksasa suka menghancurkan jembatan",
+          "Banjir tidak pernah memengaruhi desa",
+          "Tukang roti tidak boleh menolong orang asing"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-fractured-stories",
+      "evidence": "In the first version of the tale, villagers heard heavy footsteps and believed a giant had come to destroy their bridge."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why did the giant approach the bridge?",
+      "choices": [
+        "He wanted to destroy it",
+        "He was searching for clean water",
+        "He planned to steal bread",
+        "He was chasing a baker"
+      ],
+      "answer": 1,
+      "explanation": "Sudut pandang raksasa menyatakan kebutuhan air bersih.",
+      "translationId": {
+        "prompt": "Mengapa raksasa mendekati jembatan?",
+        "choices": [
+          "Ia ingin menghancurkannya",
+          "Ia mencari air bersih",
+          "Ia berencana mencuri roti",
+          "Ia mengejar tukang roti"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-fractured-stories",
+      "evidence": "He approached the bridge to ask for help"
+    },
+    {
+      "id": "q3",
+      "prompt": "What was the villagers’ initial assumption?",
+      "choices": [
+        "The giant needed medical attention",
+        "The giant was a school teacher",
+        "The giant had come to damage the bridge",
+        "The giant wanted to bake bread"
+      ],
+      "answer": 2,
+      "explanation": "Penduduk takut bahwa raksasa ingin menghancurkan jembatan.",
+      "translationId": {
+        "prompt": "Apa dugaan awal penduduk desa?",
+        "choices": [
+          "Raksasa butuh pertolongan medis",
+          "Raksasa adalah guru sekolah",
+          "Raksasa datang merusak jembatan",
+          "Raksasa ingin membuat roti"
+        ]
+      },
+      "skill": "Perspective",
+      "passageId": "text-fractured-stories",
+      "evidence": "believed a giant had come to destroy their bridge"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which detail most strongly challenges the villagers’ judgement?",
+      "choices": [
+        "The giant’s footsteps were heavy",
+        "The village had a bridge",
+        "The baker was young",
+        "The giant had lost access to clean water"
+      ],
+      "answer": 3,
+      "explanation": "Informasi tentang banjir dan kebutuhan air memberi motivasi berbeda.",
+      "translationId": {
+        "prompt": "Detail apa yang paling menggugurkan penilaian penduduk desa?",
+        "choices": [
+          "Langkah raksasa berat",
+          "Desa memiliki jembatan",
+          "Tukang roti masih muda",
+          "Raksasa kehilangan akses ke air bersih"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-fractured-stories",
+      "evidence": "a flood had left his home without clean water"
+    }
+  ]
+}

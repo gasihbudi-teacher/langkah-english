@@ -1,0 +1,111 @@
+{
+  "id": "grade12-advanced-narrative-practice",
+  "questionCount": 4,
+  "durationSeconds": 360,
+  "passages": [
+    {
+      "id": "text-advanced-narrative",
+      "title": "Advanced Narrative: Motives and Themes",
+      "text": "When the town’s electricity failed during a storm, Nara was building a miniature solar lamp for a school project. She had one spare battery left. Across the hall, two younger children were trying to read the emergency instructions in the dark. Nara hesitated, looking at her unfinished model. Then she carried the battery to their lamp. The children read the instructions and found a safe room. Later, Nara could not complete her model that evening, but she felt less disappointed than she had expected.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which theme is most strongly supported?",
+      "choices": [
+        "Every project must be finished in one night",
+        "Storms always destroy schoolwork",
+        "Helping others can matter more than personal achievement",
+        "Batteries cannot power lamps"
+      ],
+      "answer": 2,
+      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "translationId": {
+        "prompt": "Tema apa yang paling didukung?",
+        "choices": [
+          "Semua proyek harus selesai satu malam",
+          "Badai selalu merusak tugas",
+          "Menolong orang lain dapat lebih penting daripada pencapaian pribadi",
+          "Baterai tidak dapat menyalakan lampu"
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-advanced-narrative",
+      "evidence": "When the town’s electricity failed during a storm, Nara was building a miniature solar lamp for a school project."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why did Nara hesitate?",
+      "choices": [
+        "She did not know the children",
+        "She wanted to hide the instructions",
+        "She disliked solar lamps",
+        "She had been using the battery for her own project"
+      ],
+      "answer": 3,
+      "explanation": "Keraguan muncul saat Nara memandang model yang belum selesai.",
+      "translationId": {
+        "prompt": "Mengapa Nara ragu-ragu?",
+        "choices": [
+          "Ia tidak mengenal anak-anak",
+          "Ia ingin menyembunyikan instruksi",
+          "Ia tidak suka lampu surya",
+          "Baterai itu sebelumnya untuk proyeknya sendiri"
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-advanced-narrative",
+      "evidence": "Nara hesitated, looking at her unfinished model."
+    },
+    {
+      "id": "q3",
+      "prompt": "What did the younger children need?",
+      "choices": [
+        "To read emergency instructions",
+        "To finish Nara’s model",
+        "To watch a film",
+        "To find a missing bus"
+      ],
+      "answer": 0,
+      "explanation": "Mereka membutuhkan cahaya untuk membaca instruksi.",
+      "translationId": {
+        "prompt": "Apa yang diperlukan anak-anak kecil?",
+        "choices": [
+          "Untuk membaca instruksi darurat",
+          "Untuk menyelesaikan model Nara",
+          "Untuk menonton film",
+          "Untuk mencari bus hilang"
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-advanced-narrative",
+      "evidence": "trying to read the emergency instructions in the dark"
+    },
+    {
+      "id": "q4",
+      "prompt": "What does Nara’s final feeling suggest?",
+      "choices": [
+        "She regretted helping the children completely",
+        "She valued the help despite her unfinished work",
+        "She forgot the storm immediately",
+        "She did not notice the missing battery"
+      ],
+      "answer": 1,
+      "explanation": "Kekecewaannya lebih kecil daripada perkiraannya setelah membantu.",
+      "translationId": {
+        "prompt": "Apa yang ditunjukkan perasaan Nara pada akhir cerita?",
+        "choices": [
+          "Ia benar-benar menyesali bantuannya",
+          "Ia menghargai bantuan meskipun tugasnya belum selesai",
+          "Ia langsung melupakan badai",
+          "Ia tidak menyadari baterainya habis"
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "text-advanced-narrative",
+      "evidence": "she felt less disappointed than she had expected"
+    }
+  ]
+}

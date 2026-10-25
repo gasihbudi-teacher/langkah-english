@@ -1,0 +1,258 @@
+{
+  "id": "grade11-exposition-evidence",
+  "objectives": [
+    "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi.",
+    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
+    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+  ],
+  "blocks": [
+    {
+      "type": "scaffold",
+      "intro": "Kalimat “kegiatan ini baik” belum cukup. Kita akan belajar mencari alasan yang mendukung klaim serta membedakan bukti dari dugaan. Kamu boleh membaca ulang setiap contoh sebelum lanjut ke bagian berikutnya.",
+      "steps": [
+        {
+          "title": "Kenali ide dasarnya",
+          "explanation": "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi. Coba pikirkan tujuan teks atau kalimatnya dahulu."
+        },
+        {
+          "title": "Pelajari satu contoh sederhana",
+          "explanation": "Kita mulai dengan satu kalimat bahasa Inggris. Cocokkan maknanya, lalu baca alasan di bawahnya.",
+          "english": "Schools should offer water stations.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat pengisian air.",
+          "why": "Ini sebuah usulan atau klaim."
+        },
+        {
+          "title": "Tambahkan satu informasi",
+          "explanation": "Sekarang lihat kalimat lain. Perhatikan informasi tambahan atau perubahan yang membuat makna berbeda.",
+          "english": "They can make drinking water easier to access.",
+          "indonesian": "Tempat itu dapat memudahkan akses air minum.",
+          "why": "Ini alasan untuk mendukung usulan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Apa yang kita pelajari?"
+    },
+    {
+      "type": "text",
+      "text": "Kalimat “kegiatan ini baik” belum cukup. Kita akan belajar mencari alasan yang mendukung klaim serta membedakan bukti dari dugaan."
+    },
+    {
+      "type": "rule",
+      "text": "[[Claim]] menyatakan pendapat utama; [[reason]] menjelaskan mengapa; [[evidence]] memberi dasar yang bisa diperiksa; [[limitation]] menunjukkan batas klaim."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Two classes agree, so every student agrees.",
+      "correct": "The two-class survey suggests support, but broader evidence is needed.",
+      "explanation": "Generalisasi memerlukan data yang cukup mewakili sasaran."
+    },
+    {
+      "type": "heading",
+      "text": "Pelajari lebih banyak contoh sebelum latihan"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "claim",
+          "indonesian": "klaim"
+        },
+        {
+          "english": "reason",
+          "indonesian": "alasan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "survey",
+          "indonesian": "survei"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Contoh dasar, satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Schools should offer water stations.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat pengisian air.",
+          "note": "Ini sebuah usulan atau klaim."
+        },
+        {
+          "english": "They can make drinking water easier to access.",
+          "indonesian": "Tempat itu dapat memudahkan akses air minum.",
+          "note": "Ini alasan untuk mendukung usulan."
+        },
+        {
+          "english": "A survey asked students about their needs.",
+          "indonesian": "Sebuah survei menanyakan kebutuhan siswa.",
+          "note": "Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade11-exposition-evidence",
+      "prompt": "Which sentence means “Tempat itu dapat memudahkan akses air minum.”?",
+      "translation": "Pilih kalimat Inggris yang berarti “Tempat itu dapat memudahkan akses air minum.”.",
+      "choices": [
+        "Schools should offer water stations.",
+        "They can make drinking water easier to access.",
+        "A survey asked students about their needs."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Sekolah sebaiknya menyediakan tempat pengisian air.",
+        "Tempat itu dapat memudahkan akses air minum.",
+        "Sebuah survei menanyakan kebutuhan siswa."
+      ],
+      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini alasan untuk mendukung usulan.",
+      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Schools should offer water stations.",
+      "parts": [
+        {
+          "english": "Schools",
+          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+        },
+        {
+          "english": "should offer water stations.",
+          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Sekolah sebaiknya menyediakan tempat pengisian air."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Bandingkan makna dan tujuan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Every student will become healthier.",
+          "indonesian": "Semua siswa pasti menjadi lebih sehat.",
+          "note": "Klaim terlalu pasti tanpa bukti kuat."
+        },
+        {
+          "english": "Water stations may make water easier to obtain.",
+          "indonesian": "Tempat pengisian air mungkin memudahkan memperoleh air.",
+          "note": "Kata “may” lebih hati-hati dan sesuai lingkup alasan."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "What changes in meaning between the two examples?",
+      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
+      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Klaim terlalu pasti tanpa bukti kuat. Kata “may” lebih hati-hati dan sesuai lingkup alasan."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Although the survey found strong support, it involved only students from two classes.",
+          "indonesian": "Meskipun survei menemukan dukungan kuat, respondennya hanya dari dua kelas.",
+          "note": "Keterbatasan sampel penting saat menilai kesimpulan."
+        },
+        {
+          "english": "The principal proposed a short trial before extending the programme to the whole school.",
+          "indonesian": "Kepala sekolah mengusulkan uji coba singkat sebelum memperluas program ke seluruh sekolah.",
+          "note": "Uji coba membantu mengumpulkan bukti tambahan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+    },
+    {
+      "type": "example",
+      "text": "A student article argues that schools should provide refillable water stations. Students who forget a bottle could still reach drinking water, and reusable bottles may reduce single-use plastic. To support the proposal, the writer describes a survey in two classes in which most respondents wanted easier water access. However, the article acknowledges that two classes do not represent the whole school. It recommends a short trial and a wider survey before the principal decides whether to install more stations.",
+      "note": "Ringkasan bantuan: Sekolah perlu mempertimbangkan tempat pengisian air minum. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+    },
+    {
+      "type": "text",
+      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "Mengidentifikasi tesis, alasan, bukti, dan batas dari sebuah argumentasi.",
+        "[[Claim]] menyatakan pendapat utama; [[reason]] menjelaskan mengapa; [[evidence]] memberi dasar yang bisa diperiksa; [[limitation]] menunjukkan batas klaim.",
+        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which sentence contains “stations”?",
+      "choices": [
+        "They can make drinking water easier to access.",
+        "A survey asked students about their needs.",
+        "Schools should offer water stations.",
+        "Every student will become healthier."
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan [[stations]] muncul dalam kalimat [[Schools should offer water stations.]]. Ini sebuah usulan atau klaim.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “stations”?",
+        "choices": [
+          "Tempat itu dapat memudahkan akses air minum.",
+          "Sebuah survei menanyakan kebutuhan siswa.",
+          "Sekolah sebaiknya menyediakan tempat pengisian air.",
+          "Semua siswa pasti menjadi lebih sehat."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence contains “students”?",
+      "choices": [
+        "Schools should offer water stations.",
+        "They can make drinking water easier to access.",
+        "Every student will become healthier.",
+        "A survey asked students about their needs."
+      ],
+      "answer": 3,
+      "explanation": "Ungkapan [[students]] muncul dalam kalimat [[A survey asked students about their needs.]]. Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat.",
+      "translationId": {
+        "prompt": "Kalimat mana yang memuat “students”?",
+        "choices": [
+          "Sekolah sebaiknya menyediakan tempat pengisian air.",
+          "Tempat itu dapat memudahkan akses air minum.",
+          "Semua siswa pasti menjadi lebih sehat.",
+          "Sebuah survei menanyakan kebutuhan siswa."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade11-exposition-evidence-practice"
+  ]
+}
