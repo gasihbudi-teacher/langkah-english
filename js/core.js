@@ -1,4 +1,5 @@
 import {t} from "./i18n.js";
+import {validateQuestion,score as scoreResponses} from "./question-types.mjs";
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const params=new URLSearchParams(location.search);
 export const link=(id,type='lesson')=>`${type==='lesson'?'lesson':'quiz'}.html?id=${encodeURIComponent(id)}`;
@@ -7,8 +8,18 @@ export async function load(path){const r=await fetch(path);if(!r.ok)throw Error(
 let catalog;
 export async function getCatalog(){if(!catalog){catalog=await load('data/catalog.json');if(!Array.isArray(catalog.resources))throw Error('Katalog tidak valid: resources harus berupa daftar.');const ids=new Set;for(const r of catalog.resources){if(!r.id||ids.has(r.id)||!['lesson','quiz'].includes(r.type)||!/^data\/(lessons|quizzes)\/[a-zA-Z0-9_/-]+\.json$/.test(r.file))throw Error('Entri katalog tidak valid atau terduplikasi.');ids.add(r.id)}}return catalog}
 export async function resource(id,type){const c=await getCatalog(),m=c.resources.find(r=>r.id===id);if(!m||m.type!==type)throw Error('Materi tidak ditemukan. Silakan pilih materi yang sudah terbit dari perpustakaan.');const d=await load(m.file);if(d.id!==m.id)throw Error('ID materi tidak sesuai dengan katalog.');if(type==='quiz')validateQuiz(d);else if(!Array.isArray(d.blocks))throw Error('Bagian isi pelajaran tidak ditemukan.');return {meta:m,data:d,catalog:c}}
-export function validateQuiz(d){if(!Array.isArray(d.questions)||!d.questions.length||d.questionCount!==d.questions.length)throw Error('Jumlah soal tidak sesuai dengan daftar soal.');if(!Number.isFinite(d.durationSeconds)||d.durationSeconds<0)throw Error('Durasi kuis tidak valid.');const ids=new Set;for(const q of d.questions){if(!q.id||ids.has(q.id)||!q.prompt||!Array.isArray(q.choices)||q.choices.length<2||q.choices.some(v=>typeof v!=='string')||!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.choices.length||!q.explanation)throw Error('Soal atau kunci jawaban tidak valid.');if(q.passageId&&!d.passages?.some(p=>p.id===q.passageId))throw Error('Soal mengacu pada teks bacaan yang tidak ditemukan.');ids.add(q.id)}}
-export function score(questions,answers){const correct=questions.filter((q,i)=>answers[i]===q.answer).length;const unanswered=questions.filter((q,i)=>!Number.isInteger(answers[i])).length;return {correct,incorrect:questions.length-correct-unanswered,unanswered,total:questions.length,percentage:Math.round(correct/questions.length*100)}}
+export function validateQuiz(d){
+ if(!Array.isArray(d.questions)||!d.questions.length||d.questionCount!==d.questions.length)throw Error('Jumlah soal tidak sesuai dengan daftar soal.');
+ if(!Number.isInteger(d.durationSeconds)||d.durationSeconds<0)throw Error('Durasi kuis tidak valid.');
+ const ids=new Set(),passageIds=new Set((d.passages||[]).map(p=>p.id));
+ for(const q of d.questions){
+  validateQuestion(q);
+  if(ids.has(q.id))throw Error('ID soal terduplikasi.');
+  if(q.passageId&&!passageIds.has(q.passageId))throw Error('Soal mengacu pada teks bacaan yang tidak ditemukan.');
+  ids.add(q.id);
+ }
+}
+export const score=scoreResponses;
 const key='langkah.progress.v1';let memory;
 export const progress={read(){try{return JSON.parse(localStorage.getItem(key))||{lessons:{},attempts:[],activity:[]}}catch{return memory||{lessons:{},attempts:[],activity:[]}}},write(v){memory=v;try{localStorage.setItem(key,JSON.stringify(v))}catch{const n=document.createElement('p');n.className='notice';n.textContent=t('storageWarning');document.querySelector('main').prepend(n)}},complete(id,title){const p=this.read();p.lessons??={};p.activity??=[];p.lessons[id]=Date.now();p.activity.unshift({title,at:Date.now(),kind:'Lesson completed'});p.activity=p.activity.slice(0,30);this.write(p)},save(attempt){const p=this.read();p.attempts??=[];p.activity??=[];p.attempts.unshift(attempt);p.attempts=p.attempts.slice(0,100);p.activity.unshift({title:attempt.title,at:Date.now(),kind:`Examination: ${attempt.result.percentage}%`});p.activity=p.activity.slice(0,30);this.write(p)}};
 export const time=s=>`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;

@@ -62,9 +62,26 @@ for r in resources:
         questions = d['questions']
     assert len({q['id'] for q in questions}) == len(questions)
     for q in questions:
-        assert q['prompt'] and q['explanation']
-        assert len(q['choices']) >= 2 and all(isinstance(v,str) for v in q['choices'])
-        assert type(q['answer']) is int and 0 <= q['answer'] < len(q['choices'])
+        assert isinstance(q.get('prompt'),str) and q['prompt'].strip() and isinstance(q.get('explanation'),str) and q['explanation'].strip()
+        kind = q.get('questionType','single')
+        assert kind in ('single','multiple','category'), (r['id'],q['id'])
+        if kind == 'category':
+            assert not any(k in q for k in ('choices','answer','answers'))
+            cats=q['categories'];rows=q['statements']
+            assert 2 <= len(cats) <= 6 and all(isinstance(c,str) and c.strip() for c in cats) and len(set(cats))==len(cats)
+            assert 2 <= len(rows) <= 12 and all(row['text'].strip() and row['answerCategory'] in cats for row in rows)
+            if q.get('translationId',{}).get('categories'): assert len(q['translationId']['categories'])==len(cats)
+            if q.get('translationId',{}).get('statements'): assert len(q['translationId']['statements'])==len(rows)
+        else:
+            choices=q['choices']
+            assert 2 <= len(choices) <= 8 and all(isinstance(c,str) and c.strip() for c in choices) and len(set(choices))==len(choices)
+            if kind == 'single':
+                assert 'answers' not in q and type(q['answer']) is int and 0 <= q['answer'] < len(choices)
+            else:
+                keys=q['answers']
+                assert 'answer' not in q and len(keys)>=2 and len(keys)<=len(choices) and len(set(keys))==len(keys) and all(type(v) is int and 0<=v<len(choices) for v in keys)
+            if 'choiceExplanations' in q: assert len(q['choiceExplanations'])==len(choices) and all(v.strip() for v in q['choiceExplanations'])
+            if q.get('translationId',{}).get('choices'): assert len(q['translationId']['choices'])==len(choices)
         if 'passageId' in q:
             assert q['passageId'] in passages
             assert q.get('evidence') and q['evidence'] in passages[q['passageId']], ('Evidence quote missing from passage',q['id'])

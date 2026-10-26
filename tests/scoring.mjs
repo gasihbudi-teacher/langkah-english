@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 globalThis.location={search:''};
-const source=fs.readFileSync(new URL('../js/core.js',import.meta.url),'utf8').replace('import {t} from "./i18n.js";','const t=k=>k;');
+const model=await import('../js/question-types.mjs');
+globalThis.__v13bModel=model;
+const source=fs.readFileSync(new URL('../js/core.js',import.meta.url),'utf8').replace('import {t} from "./i18n.js";','const t=k=>k;').replace('import {validateQuestion,score as scoreResponses} from "./question-types.mjs";','const {validateQuestion,score:scoreResponses}=globalThis.__v13bModel;');
 const {score,validateQuiz}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 const d=JSON.parse(fs.readFileSync(new URL('../data/quizzes/grammar-foundations.json',import.meta.url)));
 validateQuiz(d);

@@ -1,0 +1,50 @@
+{
+  "id": "tka-engine-fixture",
+  "questionCount": 3,
+  "durationSeconds": 180,
+  "passages": [{
+    "id": "school-garden",
+    "title": "A small school garden",
+    "text": "The school garden project began in March. Students planted tomatoes and spinach. The science club watered the plants twice a week."
+  }],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "When did the school garden project begin?",
+      "choices": ["In January", "In March", "In July"],
+      "answer": 1,
+      "questionType": "single",
+      "explanation": "Teks menyatakan secara langsung bahwa proyek dimulai pada bulan Maret.",
+      "passageId": "school-garden", "evidence": "began in March",
+      "skill": "Explicit information",
+      "translationId": {"prompt": "Kapan proyek kebun sekolah dimulai?", "choices": ["Januari", "Maret", "Juli"]}
+    },
+    {
+      "id": "q2",
+      "prompt": "Select all statements supported by the passage.",
+      "questionType": "multiple",
+      "choices": ["Students planted tomatoes.", "The garden began in July.", "The science club watered plants twice weekly.", "Students planted only spinach."],
+      "answers": [0,2],
+      "explanation": "Pilihan A dan C didukung oleh bacaan. Tidak ada informasi bahwa proyek dimulai pada Juli atau hanya menanam bayam.",
+      "choiceExplanations": ["Tomatoes tertulis di bacaan.", "Waktu yang benar adalah Maret.", "Twice a week sama dengan dua kali seminggu.", "Tidak hanya spinach: ada tomatoes juga."],
+      "passageId": "school-garden", "evidence": "The science club watered the plants twice a week.",
+      "skill": "Supported statements",
+      "translationId": {"prompt": "Pilih semua pernyataan yang didukung bacaan.", "choices": ["Siswa menanam tomat.", "Kebun dimulai pada Juli.", "Klub sains menyiram dua kali seminggu.", "Siswa hanya menanam bayam."]}
+    },
+    {
+      "id": "q3",
+      "prompt": "For each statement, choose Supported or Not supported.",
+      "questionType": "category",
+      "categories": ["Supported", "Not supported"],
+      "statements": [
+        {"text": "The project started in March.", "answerCategory": "Supported", "explanation": "Tertulis pada kalimat pertama."},
+        {"text": "Students grew only tomatoes.", "answerCategory": "Not supported", "explanation": "Kalimat kedua juga menyebut spinach."},
+        {"text": "The science club watered plants every day.", "answerCategory": "Not supported", "explanation": "Teks mengatakan twice a week, bukan setiap hari."}
+      ],
+      "explanation": "Tiga baris harus dinilai secara terpisah terhadap teks, bukan ditebak sebagai satu jawaban.",
+      "passageId": "school-garden", "evidence": "Students planted tomatoes and spinach.",
+      "skill": "Categorisation",
+      "translationId": {"prompt": "Kelompokkan tiap pernyataan: didukung atau tidak.", "categories": ["Didukung", "Tidak didukung"], "statements": ["Proyek dimulai pada Maret.", "Siswa hanya menanam tomat.", "Klub sains menyiram setiap hari."]}
+    }
+  ]
+}

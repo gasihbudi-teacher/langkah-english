@@ -522,3 +522,30 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 @media(max-width:1050px){.path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.path-grid .path-card:last-child{grid-column:auto}}
 @media(max-width:560px){.path-grid,.tka-info-grid,.tka-module-grid{grid-template-columns:1fr}.tka-module{padding:15px}.path-card{min-height:232px}}
 @media(forced-colors:active){.tka-module,.tka-stage,.tka-pending,.tka-support-items{border:1px solid currentColor}}
+
+/* V13-B: keyboard-accessible MCMA and category-based questions. */
+.tka-response{padding:0;margin:12px 0 18px;border:0;min-width:0}
+.tka-response legend{font-size:15px;font-weight:750;line-height:1.55;padding:0 0 9px}
+.tka-option{display:flex;align-items:flex-start;gap:11px;padding:11px 13px;margin:8px 0;border:1px solid #cad9d5;border-radius:10px;cursor:pointer;background:#fff;color:#23404c;line-height:1.55;overflow-wrap:anywhere}
+.tka-option:has(input:checked){background:#e1f3e9;border-color:#278568;font-weight:650}
+.tka-option:focus-within{outline:3px solid #315cc0;outline-offset:2px}
+.tka-option input{flex:0 0 auto;width:19px;height:19px;margin:3px 0 0;accent-color:#16775b}
+.tka-option span{min-width:0}
+.tka-category{padding:13px 15px;border:1px solid #d8e3e6;border-radius:12px;background:#fbfcfc;margin:12px 0}
+.category-controls{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.tka-category .tka-option{flex:1 1 145px;margin:3px 0;min-width:0}
+.clear-row{background:#fff;border:1px solid #b4c4d0;border-radius:8px;min-height:38px;padding:7px 10px;font-size:13px}
+.clear-answer{margin:3px 8px 14px 0;font-size:13px}
+.response-hint{font-weight:700;color:#285a52;font-size:14px;line-height:1.65}
+.feedback-rows{padding-left:22px;line-height:1.65;font-size:14px}
+.feedback-rows li{margin:8px 0}
+.category-review-wrap{max-width:100%;overflow-x:auto;margin:17px 0}
+.category-review{width:100%;border-collapse:collapse;min-width:450px;font-size:13px}
+.category-review th,.category-review td{border:1px solid #cfdbdf;padding:10px;text-align:left;vertical-align:top}
+.category-review thead th{background:#f0f6f4}
+.review-reason{font-size:12px;font-weight:400;color:#4f6071;line-height:1.5;margin:5px 0 1px}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:560px){.tka-category{padding:10px}.tka-category .tka-option{flex:1 1 100%}}
+@media(forced-colors:active){.tka-option,.tka-category,.clear-row{border:1px solid CanvasText}.tka-option:has(input:checked){outline:2px solid Highlight}}
+.clear-row{color:#24485a;font-weight:700}
+.clear-row:focus-visible{outline:3px solid #315cc0;outline-offset:2px}
