@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Students arranging donated books in a library</title>
+<desc id="desc">Two students place colorful donated books in boxes on a library table. A sign reads BOOK DONATIONS. Bookshelves appear in the background.</desc>
+<rect width="960" height="540" fill="#edf5f4"/>
+<rect x="32" y="40" width="896" height="453" rx="25" fill="#f9f7f0" stroke="#cbded9" stroke-width="5"/>
+<rect x="75" y="118" width="810" height="240" rx="12" fill="#dbe8e7"/>
+<rect x="95" y="142" width="275" height="192" rx="8" fill="#a4bdbb"/>
+<rect x="112" y="156" width="238" height="153" fill="#f2f7ef"/>
+<path d="M110 232h243M110 305h243" stroke="#a4bdbb" stroke-width="10"/>
+<g stroke="#52676b" stroke-width="2"><rect x="125" y="173" width="25" height="54" fill="#f3bc79"/><rect x="153" y="168" width="19" height="59" fill="#7fa3ca"/><rect x="176" y="187" width="27" height="40" fill="#9bc897"/><rect x="217" y="177" width="29" height="50" fill="#e9a2a0"/><rect x="250" y="171" width="21" height="56" fill="#c9b3d9"/><rect x="276" y="182" width="29" height="45" fill="#f2d27d"/></g>
+<rect x="410" y="58" width="240" height="95" rx="12" fill="#d8f1e8" stroke="#4b807c" stroke-width="5"/>
+<text x="530" y="101" font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="24" fill="#205451">BOOK</text><text x="530" y="128" font-family="sans-serif" font-weight="bold" text-anchor="middle" font-size="24" fill="#205451">DONATIONS</text>
+<rect x="118" y="362" width="720" height="37" rx="9" fill="#aa7859"/><rect x="155" y="392" width="24" height="96" fill="#8c6046"/><rect x="775" y="392" width="24" height="96" fill="#8c6046"/>
+<rect x="425" y="313" width="161" height="61" rx="4" fill="#cca277" stroke="#8b6247" stroke-width="4"/><text x="505" y="349" font-family="sans-serif" text-anchor="middle" font-size="19" fill="#4f3322">BOOKS</text>
+<rect x="454" y="297" width="18" height="28" fill="#78a0ce"/><rect x="478" y="288" width="16" height="37" fill="#efac69"/><rect x="502" y="299" width="23" height="26" fill="#b6c977"/><rect x="530" y="292" width="22" height="33" fill="#c898be"/>
+<circle cx="317" cy="220" r="41" fill="#c48760"/><path d="M270 219q1-57 49-49q35 1 36 38q-42-18-85 11" fill="#392e32"/><path d="M262 357q-4-109 52-104q64-5 67 104" fill="#6b97b9"/><path d="M369 274l60 55" stroke="#c48760" stroke-width="22" stroke-linecap="round"/>
+<circle cx="684" cy="216" r="41" fill="#d69b75"/><path d="M643 212q0-53 49-47q35 3 33 38q-47-14-82 9" fill="#353b44"/><path d="M630 355q-2-100 55-101q60-3 65 101" fill="#84a77b"/><path d="M632 278l-55 47" stroke="#d69b75" stroke-width="22" stroke-linecap="round"/>
+<rect x="70" y="456" width="815" height="25" rx="11" fill="#c6dad4"/>
+<text x="480" y="524" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#2d625e">ORIGINAL LEARNING ILLUSTRATION · NOT A DOCUMENTARY PHOTO</text>
+</svg>

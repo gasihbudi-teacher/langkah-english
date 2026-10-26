@@ -7,9 +7,9 @@ const read=rel=>fs.readFileSync(path.join(root,rel),'utf8');
 const c=JSON.parse(read('data/catalog.json'));
 const lessons=c.resources.filter(x=>x.type==='lesson');
 const quizzes=c.resources.filter(x=>x.type==='quiz');
-assert.equal(lessons.length,54);
-assert.equal(quizzes.length,39);
-assert.equal(new Set(c.resources.map(x=>x.id)).size,93);
+assert.ok(lessons.length>=54,'V9/V11 lessons missing');
+assert.ok(quizzes.length>=39,'V9/V11 quizzes missing');
+assert.equal(new Set(c.resources.map(x=>x.id)).size,c.resources.length,'Duplicate resources');
 const uniqueScaffolds=new Set();
 let totalCards=0,totalSelfChecks=0,totalScaffolds=0;
 for(const m of lessons){
@@ -42,7 +42,7 @@ for(const m of lessons){
 }
 assert.ok(uniqueScaffolds.size>=6,'Scaffold is still too uniform');
 assert.ok(totalCards>=540,'Insufficient total explained examples');
-assert.equal(totalScaffolds,54);assert.equal(totalSelfChecks,54);
+assert.equal(totalScaffolds,lessons.length);assert.equal(totalSelfChecks,lessons.length);
 const lessonJs=read('js/lesson.js');
 assert.doesNotMatch(lessonJs,/const marker=items\.findIndex/,'Essential theory still auto-collapsed');
 assert.ok(lessonJs.indexOf('id="practice"')<lessonJs.indexOf('lesson-vocabulary'),'Vocabulary should render after scored practice');
@@ -62,4 +62,4 @@ for(const id of ['utbk-mock-a','utbk-mock-b','utbk-mock-c']){
  assert.equal(d.questionCount,20);assert.equal(d.durationSeconds,1200);
 }
 assert.ok(read('js/core.js').includes("'langkah.progress.v1'"),'Student progress key altered');
-console.log(`PASS V9: ${lessons.length} revised lessons, ${totalCards} unique bilingual cards, ${uniqueScaffolds.size} scaffold families, ${totalSelfChecks} ungraded open responses, vocab last, key repairs and compatible UTBK mocks.`);
+console.log(`PASS V9-structure regression: ${lessons.length} lessons, ${totalCards} unique bilingual cards, ${uniqueScaffolds.size} scaffold families, ${totalSelfChecks} ungraded open responses, vocab last, key repairs and compatible UTBK mocks.`);

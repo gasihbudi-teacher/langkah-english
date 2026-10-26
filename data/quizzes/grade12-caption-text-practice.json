@@ -1,0 +1,299 @@
+{
+  "id": "grade12-caption-text-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "caption-school-reading-drive",
+      "title": "A School Reading Drive — Visual and Verified Notes",
+      "text": "Visual description: The illustration shows two students placing books into boxes on a library table. A sign says “BOOK DONATIONS.” There is a shelf behind them. Verified event note: The school library held a reading drive on Friday, 16 October. Students sorted donated books for the school reading corner. The note does not identify the students by name or say how they felt.",
+      "original": true
+    },
+    {
+      "id": "caption-garden-project",
+      "title": "A School Garden — Visual and Verified Notes",
+      "text": "Visual description: Three students are watering young plants in the school garden. A small sign says “GARDEN CLUB.” Verified note: The club planted 24 seedlings on Tuesday. The picture does not show whether the plants will survive or whether the club has won a prize. The school invites volunteers to help with watering next week.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the primary purpose of an informative photo caption?",
+      "choices": [
+        "To invent a dramatic story",
+        "To explain relevant information about the image",
+        "To hide what appears in the picture",
+        "To make every image sound like an advertisement"
+      ],
+      "answer": 1,
+      "explanation": "Caption informatif menjelaskan isi atau konteks visual secara relevan; tidak perlu menciptakan cerita dramatis.",
+      "translationId": {
+        "prompt": "Apa tujuan utama caption informatif?",
+        "choices": [
+          "Mengarang cerita dramatis",
+          "Menjelaskan informasi relevan tentang gambar",
+          "Menyembunyikan isi gambar",
+          "Menjadikan semua gambar iklan"
+        ]
+      },
+      "skill": "Purpose"
+    },
+    {
+      "id": "q2",
+      "prompt": "Which caption best matches a drawing of two students arranging books?",
+      "choices": [
+        "The school has won an international prize.",
+        "All students love to read every day.",
+        "Two students arrange books on a library table.",
+        "The students will become professional writers."
+      ],
+      "answer": 2,
+      "explanation": "Pilihan C menjelaskan tindakan yang terlihat. Informasi penghargaan, perasaan semua siswa, dan masa depan tidak didukung gambar.",
+      "translationId": {
+        "prompt": "Caption mana paling sesuai untuk gambar dua siswa menata buku?",
+        "choices": [
+          "Sekolah memenangkan penghargaan internasional.",
+          "Semua siswa suka membaca setiap hari.",
+          "Dua siswa menata buku di meja perpustakaan.",
+          "Para siswa akan menjadi penulis profesional."
+        ]
+      },
+      "skill": "Observation"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which detail should never be guessed from a picture alone?",
+      "choices": [
+        "The exact date of the event",
+        "A visible table",
+        "The number of visible boxes",
+        "The presence of books"
+      ],
+      "answer": 0,
+      "explanation": "Tanggal tepat biasanya memerlukan catatan kegiatan yang valid; meja, kotak, dan buku dapat dilihat langsung jika tampak jelas.",
+      "translationId": {
+        "prompt": "Rincian mana yang tidak boleh ditebak hanya dari gambar?",
+        "choices": [
+          "Tanggal tepat kegiatan",
+          "Meja yang terlihat",
+          "Jumlah kotak yang terlihat",
+          "Adanya buku"
+        ]
+      },
+      "skill": "Verification"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which caption is an invitation rather than a description?",
+      "choices": [
+        "The students stand beside a bookshelf.",
+        "The library has two large windows.",
+        "Students are placing books in boxes.",
+        "Bring a gently used book to our reading corner."
+      ],
+      "answer": 3,
+      "explanation": "[[Bring]] meminta pembaca melakukan tindakan, sehingga menjadi caption ajakan.",
+      "translationId": {
+        "prompt": "Caption mana merupakan ajakan, bukan deskripsi?",
+        "choices": [
+          "Para siswa berdiri di samping rak buku.",
+          "Perpustakaan memiliki dua jendela besar.",
+          "Para siswa memasukkan buku ke kotak.",
+          "Bawalah buku bekas layak pakai untuk pojok baca kami."
+        ]
+      },
+      "skill": "Purpose"
+    },
+    {
+      "id": "q5",
+      "prompt": "According to the first note, where are the students placing books?",
+      "choices": [
+        "In the sports hall",
+        "On a library table",
+        "Near a swimming pool",
+        "At the school gate"
+      ],
+      "answer": 1,
+      "explanation": "Catatan visual secara eksplisit menyatakan [[on a library table]]. Jangan menambah lokasi yang tidak ada.",
+      "translationId": {
+        "prompt": "Menurut catatan pertama, di mana siswa menaruh buku?",
+        "choices": [
+          "Di gedung olahraga",
+          "Di meja perpustakaan",
+          "Dekat kolam renang",
+          "Di gerbang sekolah"
+        ]
+      },
+      "skill": "Detail",
+      "passageId": "caption-school-reading-drive",
+      "evidence": "on a library table"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which information is verified in the first event note?",
+      "choices": [
+        "The students were extremely happy.",
+        "The library won first prize.",
+        "The reading drive took place on Friday, 16 October.",
+        "The students are all Grade 12 learners."
+      ],
+      "answer": 2,
+      "explanation": "Tanggal Jumat 16 Oktober disebut di catatan kegiatan yang telah diverifikasi. Perasaan, hadiah, dan kelas siswa tidak disebut.",
+      "translationId": {
+        "prompt": "Informasi mana yang diverifikasi dalam catatan kegiatan pertama?",
+        "choices": [
+          "Para siswa sangat bahagia.",
+          "Perpustakaan mendapat juara satu.",
+          "Kegiatan membaca berlangsung Jumat, 16 Oktober.",
+          "Semua siswa adalah kelas 12."
+        ]
+      },
+      "skill": "Evidence",
+      "passageId": "caption-school-reading-drive",
+      "evidence": "Friday, 16 October"
+    },
+    {
+      "id": "q7",
+      "prompt": "Which opening gives the clearest factual caption for the first visual?",
+      "choices": [
+        "Two students sort donated books",
+        "The best people in the world",
+        "Everyone is excited and proud",
+        "A future award-winning team"
+      ],
+      "answer": 0,
+      "explanation": "Subjek dan tindakan yang didukung visual dan catatan membantu pembaca memahami peristiwa.",
+      "translationId": {
+        "prompt": "Pembuka caption mana paling jelas dan faktual untuk visual pertama?",
+        "choices": [
+          "Dua siswa memilah buku sumbangan",
+          "Orang terbaik di dunia",
+          "Semua orang gembira dan bangga",
+          "Tim pemenang penghargaan masa depan"
+        ]
+      },
+      "skill": "Writing",
+      "passageId": "caption-school-reading-drive",
+      "evidence": "Students sorted donated books"
+    },
+    {
+      "id": "q8",
+      "prompt": "What is the safest statement about the two students in the first passage?",
+      "choices": [
+        "They are unhappy with their school.",
+        "They are famous nationally.",
+        "They have perfect grades.",
+        "Their names and feelings are not given."
+      ],
+      "answer": 3,
+      "explanation": "Catatan secara jelas tidak menyebut identitas maupun perasaan para siswa. Kesimpulan lain tidak beralasan.",
+      "translationId": {
+        "prompt": "Pernyataan mana paling aman mengenai dua siswa pada bacaan pertama?",
+        "choices": [
+          "Mereka tidak bahagia dengan sekolah.",
+          "Mereka terkenal secara nasional.",
+          "Nilai mereka sempurna.",
+          "Nama dan perasaan mereka tidak diberikan."
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "caption-school-reading-drive",
+      "evidence": "does not identify the students by name or say how they felt"
+    },
+    {
+      "id": "q9",
+      "prompt": "What does “24” refer to in the second note?",
+      "choices": [
+        "A group of visitors",
+        "Young plants the club planted",
+        "The number of club prizes",
+        "The number of classrooms"
+      ],
+      "answer": 1,
+      "explanation": "[[24 seedlings]] berarti dua puluh empat bibit yang ditanam klub. Tidak berkaitan dengan pengunjung atau penghargaan.",
+      "translationId": {
+        "prompt": "Apa yang dimaksud angka “24” pada catatan kedua?",
+        "choices": [
+          "Kelompok pengunjung",
+          "Bibit tanaman yang ditanam klub",
+          "Jumlah hadiah klub",
+          "Jumlah ruang kelas"
+        ]
+      },
+      "skill": "Data",
+      "passageId": "caption-garden-project",
+      "evidence": "24 seedlings"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which claim is NOT supported by the second passage?",
+      "choices": [
+        "Three students are watering plants.",
+        "The event note says the club planted seedlings.",
+        "Every seedling will survive.",
+        "The school invites volunteers to help next week."
+      ],
+      "answer": 2,
+      "explanation": "Bacaan menegaskan bahwa gambar tidak menunjukkan apakah tanaman akan bertahan hidup; klaim semua bibit pasti hidup terlalu kuat.",
+      "translationId": {
+        "prompt": "Klaim mana TIDAK didukung bacaan kedua?",
+        "choices": [
+          "Tiga siswa sedang menyiram tanaman.",
+          "Catatan menyebut klub menanam bibit.",
+          "Semua bibit pasti bertahan hidup.",
+          "Sekolah mengajak relawan membantu minggu depan."
+        ]
+      },
+      "skill": "Limits",
+      "passageId": "caption-garden-project",
+      "evidence": "does not show whether the plants will survive"
+    },
+    {
+      "id": "q11",
+      "prompt": "Which detail could be used to identify the activity in the second visual?",
+      "choices": [
+        "The “GARDEN CLUB” sign",
+        "A national competition result",
+        "The students’ exam scores",
+        "A statement about future harvests"
+      ],
+      "answer": 0,
+      "explanation": "Tulisan [[GARDEN CLUB]] adalah detail yang tersedia dalam deskripsi visual dan relevan untuk mengidentifikasi kegiatan.",
+      "translationId": {
+        "prompt": "Rincian mana dapat mengidentifikasi kegiatan dalam gambar kedua?",
+        "choices": [
+          "Tulisan “GARDEN CLUB”",
+          "Hasil lomba nasional",
+          "Nilai ujian para siswa",
+          "Pernyataan tentang panen mendatang"
+        ]
+      },
+      "skill": "Visual evidence",
+      "passageId": "caption-garden-project",
+      "evidence": "A small sign says"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which caption type adds a visible action to the identification of a subject?",
+      "choices": [
+        "Identification bar",
+        "Group identification",
+        "A document title with no image",
+        "Cutline"
+      ],
+      "answer": 3,
+      "explanation": "Dalam pengelompokan yang sering diajarkan, [[cutline]] menyebut siapa/apa dan apa yang dilakukannya; jenis identifikasi terutama menyebut subjek.",
+      "translationId": {
+        "prompt": "Jenis caption mana menambahkan tindakan yang terlihat setelah mengidentifikasi subjek?",
+        "choices": [
+          "Identification bar",
+          "Identifikasi kelompok",
+          "Judul dokumen tanpa gambar",
+          "Cutline"
+        ]
+      },
+      "skill": "Caption types"
+    }
+  ]
+}

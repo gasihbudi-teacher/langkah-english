@@ -82,7 +82,9 @@
       "Discussion Text: Weighing Two Sides",
       "Advanced Narrative: Motives and Themes",
       "Comparing Arguments and Evaluating Evidence",
-      "Adverbial Phrases and Adverbial Clauses"
+      "Adverbial Phrases and Adverbial Clauses",
+      "Caption Text: Reading and Writing Image Captions",
+      "Curriculum Vitae (CV): Writing a Student CV"
     ]
   },
   "resources": [
@@ -3597,6 +3599,164 @@
         "theme": "school debates, writing, and reading comprehension",
         "curriculumElement": "Reading–Viewing and Writing–Presenting",
         "mappingNote": "Materi tata bahasa pendukung untuk Fase F; tidak diklaim sebagai bab wajib nasional atau soal resmi UTBK."
+      }
+    },
+    {
+      "id": "grade12-caption-text",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-caption-text-practice",
+        "grade10-visual-information"
+      ],
+      "file": "data/lessons/grade12-caption-text.json",
+      "order": 496,
+      "estimatedMinutes": 40,
+      "prerequisites": [
+        "grade10-visual-information"
+      ],
+      "title": "Caption Text: Reading and Writing Image Captions",
+      "description": "Membaca visual dengan teliti dan menulis caption yang singkat, akurat, dan sesuai tujuan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "caption",
+        "visual literacy",
+        "Grade 12",
+        "writing"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Caption Text",
+        "theme": "school images and event documentation",
+        "curriculumElement": "Reading–Viewing and Writing–Presenting",
+        "mappingNote": "Materi tambahan praktis berdasarkan permintaan siswa; ditempatkan pada Kelas 12 secara editorial, bukan klaim bahwa topik ini wajib berada di bab tertentu atau urutan nasional."
+      }
+    },
+    {
+      "id": "grade12-caption-text-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-caption-text"
+      ],
+      "file": "data/quizzes/grade12-caption-text-practice.json",
+      "order": 497,
+      "kind": "practice",
+      "examFormat": "topic",
+      "title": "Caption Text: Reading and Writing Image Captions",
+      "description": "Membaca visual dengan teliti dan menulis caption yang singkat, akurat, dan sesuai tujuan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "caption",
+        "visual literacy",
+        "Grade 12",
+        "writing"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Caption Text",
+        "theme": "school images and event documentation",
+        "curriculumElement": "Reading–Viewing and Writing–Presenting",
+        "mappingNote": "Materi tambahan praktis berdasarkan permintaan siswa; ditempatkan pada Kelas 12 secara editorial, bukan klaim bahwa topik ini wajib berada di bab tertentu atau urutan nasional."
+      }
+    },
+    {
+      "id": "grade12-curriculum-vitae",
+      "type": "lesson",
+      "relatedLessons": [
+        "grade12-curriculum-vitae-practice",
+        "grade11-online-identity"
+      ],
+      "file": "data/lessons/grade12-curriculum-vitae.json",
+      "order": 498,
+      "estimatedMinutes": 40,
+      "prerequisites": [
+        "grade11-online-identity"
+      ],
+      "title": "Curriculum Vitae (CV): Writing a Student CV",
+      "description": "Menulis CV siswa sederhana dengan pengalaman nyata, bahasa yang jelas, dan privasi terjaga.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "CV",
+        "curriculum vitae",
+        "Grade 12",
+        "practical writing"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Curriculum Vitae",
+        "theme": "student opportunities and applications",
+        "curriculumElement": "Writing–Presenting",
+        "mappingNote": "Materi tambahan praktis berdasarkan permintaan siswa; ditempatkan pada Kelas 12 secara editorial, bukan klaim bahwa topik ini wajib berada di bab tertentu atau urutan nasional."
+      }
+    },
+    {
+      "id": "grade12-curriculum-vitae-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-curriculum-vitae"
+      ],
+      "file": "data/quizzes/grade12-curriculum-vitae-practice.json",
+      "order": 499,
+      "kind": "practice",
+      "examFormat": "topic",
+      "title": "Curriculum Vitae (CV): Writing a Student CV",
+      "description": "Menulis CV siswa sederhana dengan pengalaman nyata, bahasa yang jelas, dan privasi terjaga.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "CV",
+        "curriculum vitae",
+        "Grade 12",
+        "practical writing"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Curriculum Vitae",
+        "theme": "student opportunities and applications",
+        "curriculumElement": "Writing–Presenting",
+        "mappingNote": "Materi tambahan praktis berdasarkan permintaan siswa; ditempatkan pada Kelas 12 secara editorial, bukan klaim bahwa topik ini wajib berada di bab tertentu atau urutan nasional."
       }
     }
   ],

@@ -1,0 +1,431 @@
+{
+  "id": "grade12-curriculum-vitae",
+  "objectives": [
+    "Menjelaskan tujuan dan bagian utama CV bagi siswa yang belum memiliki pengalaman kerja.",
+    "Menulis data pendidikan, proyek/kegiatan nyata dan keterampilan dalam bahasa Inggris yang akurat.",
+    "Menyusun CV singkat yang relevan, mudah dipindai, dan menjaga privasi."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu Curriculum Vitae (CV)?",
+      "text": "[[Curriculum vitae]] atau [[CV]] adalah ringkasan tertata tentang pendidikan, kegiatan, keterampilan, dan pengalaman seseorang untuk memperkenalkan kualifikasi pada kesempatan tertentu. CV siswa boleh sederhana: isinya harus jujur, relevan, mudah dibaca, dan tidak membocorkan data sensitif."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Pelajari langkah satu per satu. Bacalah penjelasan berbahasa Indonesia lebih dahulu, cocokkan contoh bahasa Inggris dengan terjemahannya, lalu coba jawab pertanyaan kecil sebelum membuka jawabannya. Kamu boleh mengulang langkah mana pun; tidak ada batas waktu.",
+      "steps": [
+        {
+          "title": "Pahami tujuan CV secara sederhana",
+          "explanation": "[[Curriculum vitae]] atau [[CV]] adalah ringkasan fakta tentang pendidikan, keterampilan, dan pengalaman yang relevan untuk kesempatan tertentu. CV bukan karangan bebas dan bukan tempat membesar-besarkan prestasi. Bagi siswa, pengalaman sekolah juga dapat menjadi isi yang baik.",
+          "english": "Curriculum Vitae — Nadia Putri",
+          "indonesian": "Daftar riwayat hidup — Nadia Putri",
+          "why": "Judul ini menunjukkan bahwa halaman berisi ringkasan kualifikasi Nadia. Nama pada contoh bersifat fiktif, bukan data siswa yang harus ditiru.",
+          "check": "Apakah CV perlu memuat cerita seluruh kehidupan seseorang, atau ringkasan kualifikasi yang relevan?",
+          "checkAnswer": "CV berisi ringkasan kualifikasi yang relevan dan benar, bukan seluruh cerita hidup."
+        },
+        {
+          "title": "Tentukan tujuan dan pembaca",
+          "explanation": "Sebelum menulis, tanyakan: CV ini untuk magang, organisasi, beasiswa, atau kesempatan lainnya? Pilihan informasi bergantung pada kebutuhan pembaca. Sebuah CV siswa tidak harus sama dengan CV pekerja berpengalaman.",
+          "english": "Application: School Library Volunteer",
+          "indonesian": "Lamaran: Relawan Perpustakaan Sekolah",
+          "why": "Untuk posisi relawan perpustakaan, kegiatan mengelola buku atau melayani pengunjung lebih relevan daripada daftar hobi yang tidak berkaitan.",
+          "check": "Jika Nadia mendaftar sebagai relawan perpustakaan, pengalaman mana yang lebih relevan: menyusun buku atau bermain gim tanpa kaitan?",
+          "checkAnswer": "Pengalaman menyusun buku lebih relevan karena berhubungan langsung dengan tugas perpustakaan."
+        },
+        {
+          "title": "Kenali bagian utama CV",
+          "explanation": "Susun CV secara mudah dibaca: nama dan kontak aman, profil singkat (opsional), pendidikan, pengalaman atau proyek, serta keterampilan. Siswa tidak wajib memiliki pengalaman kerja berbayar. Jangan menambah bagian hanya agar terlihat panjang.",
+          "english": "Sections: Contact | Education | Activities | Skills",
+          "indonesian": "Bagian: Kontak | Pendidikan | Kegiatan | Keterampilan",
+          "why": "Empat judul ini menolong pembaca menemukan informasi. [[Activities]] dapat berisi pengalaman organisasi atau proyek sekolah yang nyata.",
+          "check": "Bagian mana yang digunakan untuk menyebutkan pengalaman organisasi sekolah?",
+          "checkAnswer": "[[Activities]] atau [[Experience]], tergantung jenis kegiatan dan susunan CV."
+        },
+        {
+          "title": "Tulis identitas dan kontak secukupnya",
+          "explanation": "Untuk contoh latihan, gunakan data fiktif. Dalam CV asli, biasanya cukup nama, alamat email yang profesional, dan kontak yang diminta. Jangan otomatis menuliskan NIK, agama, tanggal lahir, alamat rumah lengkap, atau data keluarga; pertimbangkan privasi dan persyaratan yang benar-benar relevan.",
+          "english": "Nadia Putri | nadia.student@example.com",
+          "indonesian": "Nadia Putri | nadia.student@example.com (alamat email contoh)",
+          "why": "Baris ini menyediakan nama dan jalur kontak tanpa menampilkan informasi pribadi yang berlebihan. Domain [[example.com]] hanya dipakai untuk contoh, bukan alamat yang dapat dihubungi.",
+          "check": "Apakah nomor identitas kependudukan perlu selalu ditulis pada CV sekolah? Jelaskan.",
+          "checkAnswer": "Tidak. Cantumkan hanya data yang diperlukan dan aman sesuai proses pendaftaran yang sah."
+        },
+        {
+          "title": "Perkenalkan profil singkat tanpa berlebihan",
+          "explanation": "[[Profile]] atau [[Summary]] adalah 1–2 kalimat opsional yang menyoroti status dan kekuatan yang relevan. Hindari klaim seperti “the best student” jika tidak ada bukti; tulis kemampuan yang benar-benar dimiliki.",
+          "english": "Grade 12 student interested in library services and community projects.",
+          "indonesian": "Siswa kelas 12 yang berminat pada layanan perpustakaan dan proyek masyarakat.",
+          "why": "Kalimat ini menyebut status dan minat, bukan mengklaim keahlian profesional yang belum dimiliki.",
+          "check": "Mengapa “interested in library services” lebih aman daripada “the greatest librarian in the city” untuk seorang siswa?",
+          "checkAnswer": "Kalimat pertama menyatakan minat secara wajar; kalimat kedua adalah klaim besar yang tidak didukung pengalaman."
+        },
+        {
+          "title": "Isi pendidikan dengan jelas",
+          "explanation": "Bagian [[Education]] memuat sekolah, jenjang, dan periode jika relevan. Jangan menebak tanggal kelulusan; gunakan keterangan yang sesuai, seperti [[Expected graduation: 2027]] jika memang benar untuk siswa tersebut.",
+          "english": "Education: SMA Nusantara — Grade 12 (2026–present)",
+          "indonesian": "Pendidikan: SMA Nusantara — Kelas 12 (2026–sekarang)",
+          "why": "Pembaca dapat mengetahui sekolah dan jenjang pendidikan. Nama sekolah adalah nama contoh; sesuaikan dengan informasi nyata.",
+          "check": "Apa dua informasi pendidikan yang bisa langsung ditemukan dari kalimat contoh?",
+          "checkAnswer": "Nama sekolah dan jenjang/kelas; periode juga tercantum jika diperlukan."
+        },
+        {
+          "title": "Pengalaman tidak harus pekerjaan berbayar",
+          "explanation": "Siswa dapat menulis proyek kelas, organisasi, tugas kepanitiaan, atau kegiatan relawan. Jelaskan peran yang benar-benar dilakukan. Jika belum pernah ikut organisasi, jangan menciptakan pengalaman; mulai dari proyek sekolah yang memang pernah dikerjakan.",
+          "english": "Library Volunteer — Organized donated books for a reading corner.",
+          "indonesian": "Relawan Perpustakaan — Menata buku sumbangan untuk pojok baca.",
+          "why": "Keterangan kegiatan konkret lebih berguna daripada hanya menulis “volunteer” tanpa menjelaskan tugas.",
+          "check": "Jika siswa belum pernah bekerja, apakah CV mereka otomatis harus kosong?",
+          "checkAnswer": "Tidak. Kegiatan sekolah, proyek, dan kerja sukarela yang benar-benar dilakukan bisa menjadi pengalaman relevan."
+        },
+        {
+          "title": "Gunakan kata kerja tindakan dan rincian yang benar",
+          "explanation": "Untuk pengalaman, mulai dengan kata kerja seperti [[organized]], [[assisted]], [[created]], atau [[presented]]. Tambahkan hasil terukur hanya jika tercatat dan benar. Jangan mengarang angka agar CV tampak lebih bagus.",
+          "english": "Created a poster for the school reading campaign.",
+          "indonesian": "Membuat poster untuk kampanye membaca di sekolah.",
+          "why": "[[Created]] menunjukkan kontribusi yang spesifik; pembaca dapat membayangkan pekerjaan yang dilakukan.",
+          "check": "Mana yang lebih menunjukkan tugas nyata: “Responsible student” atau “Created a reading poster”? Mengapa?",
+          "checkAnswer": "“Created a reading poster” lebih jelas karena menyebut tindakan konkret, bukan sekadar sifat diri."
+        },
+        {
+          "title": "Tulis keterampilan yang dapat dibuktikan",
+          "explanation": "Bagian [[Skills]] sebaiknya berisi kemampuan yang memang dimiliki, misalnya mengolah dokumen, bekerja sama, atau komunikasi bahasa. Hindari daftar keterampilan yang tidak bisa dijelaskan dengan contoh saat diwawancarai.",
+          "english": "Skills: Basic spreadsheet use; teamwork; poster design.",
+          "indonesian": "Keterampilan: penggunaan spreadsheet dasar; kerja sama; desain poster.",
+          "why": "Kata [[Basic]] membatasi klaim kemampuan secara jujur; pemilihan keterampilan dapat disesuaikan dengan posisi yang dituju.",
+          "check": "Jika kamu hanya pernah menggunakan spreadsheet untuk tugas sederhana, apakah tepat menulis “expert spreadsheet analyst”?",
+          "checkAnswer": "Tidak. Sebutkan tingkat kemampuan yang benar, misalnya [[basic spreadsheet use]]."
+        },
+        {
+          "title": "Susun bagian dan tanggal agar mudah diperiksa",
+          "explanation": "Gunakan judul bagian yang konsisten, urutan yang mudah dibaca, dan tanggal dengan format yang seragam. Bila beberapa pengalaman memiliki tanggal, yang terbaru sering ditempatkan lebih dahulu. Satu halaman sering cukup untuk siswa, tetapi kejelasan lebih penting daripada aturan panjang yang mutlak.",
+          "english": "Activities | 2026 — Library Volunteer | 2025 — Class Poster Project",
+          "indonesian": "Kegiatan | 2026 — Relawan Perpustakaan | 2025 — Proyek Poster Kelas",
+          "why": "Tahun yang konsisten membantu pembaca melihat urutan pengalaman. Tidak perlu memasukkan semua kegiatan jika kurang relevan.",
+          "check": "Mengapa format tahun yang seragam membantu pembaca CV?",
+          "checkAnswer": "Karena pembaca dapat membandingkan waktu kegiatan dengan cepat tanpa menebak urutannya."
+        },
+        {
+          "title": "Sesuaikan CV dengan kesempatan nyata",
+          "explanation": "[[Tailor]] berarti memilih dan menonjolkan informasi yang paling relevan, bukan mengubah fakta. Untuk magang desain, contoh proyek poster lebih penting; untuk relawan perpustakaan, pengalaman mengatur buku mungkin lebih penting.",
+          "english": "Relevant project: Designed a poster for Reading Week.",
+          "indonesian": "Proyek relevan: Mendesain poster untuk Pekan Membaca.",
+          "why": "Kegiatan desain yang benar dapat ditonjolkan jika kesempatan yang dituju berkaitan dengan komunikasi visual.",
+          "check": "Apakah menyesuaikan CV berarti boleh mengarang pengalaman supaya terlihat cocok?",
+          "checkAnswer": "Tidak. Pilih dan susun fakta yang benar; jangan menciptakan pengalaman atau prestasi."
+        },
+        {
+          "title": "Rancang CV sendiri dan periksa ulang",
+          "explanation": "Tulis draf dari identitas aman, pendidikan, satu pengalaman nyata, dan dua keterampilan relevan. Baca ulang: apakah semua benar? Apakah setiap bagian mudah ditemukan? Apakah bahasa Inggris dan ejaannya jelas? Apakah ada informasi pribadi yang tidak perlu? Simpan sebagai dokumen yang mudah dibaca sesuai instruksi pendaftaran.",
+          "english": "Education: SMA Nusantara. Experience: Organized donated books. Skills: Teamwork and basic spreadsheet use.",
+          "indonesian": "Pendidikan: SMA Nusantara. Pengalaman: Menata buku sumbangan. Keterampilan: Kerja sama dan penggunaan spreadsheet dasar.",
+          "why": "Ini draf sangat sederhana: semua isi harus diganti dengan pengalaman nyata siswa. Setelah itu, pisahkan menjadi bagian yang mudah dibaca.",
+          "check": "Sebutkan tiga pemeriksaan terakhir sebelum mengirim CV berbahasa Inggris.",
+          "checkAnswer": "Pastikan isinya jujur dan relevan, ejaan serta format jelas, dan informasi pribadi tidak berlebihan."
+        }
+      ],
+      "modelTitle": "Model CV siswa · contoh fiktif, bukan data untuk disalin",
+      "modelEnglish": "Nadia Putri — Grade 12 Student. Contact: nadia.student@example.com. Profile: Interested in library services and community projects. Education: SMA Nusantara, Grade 12 (2026–present). Activities: Library Volunteer (2026) — Organized donated books for a reading corner. Skills: Teamwork, basic spreadsheet use, poster design.",
+      "modelIndonesian": "Nadia Putri — Siswi kelas 12. Kontak: nadia.student@example.com (contoh). Profil: Berminat pada layanan perpustakaan dan proyek masyarakat. Pendidikan: SMA Nusantara, kelas 12 (2026–sekarang). Kegiatan: Relawan Perpustakaan (2026) — Menata buku sumbangan untuk pojok baca. Keterampilan: Kerja sama, spreadsheet dasar, desain poster."
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Untuk menyusun [[CV]], pikirkan kebutuhan pembaca lebih dahulu. Gunakan bagian yang mudah ditemukan: nama/kontak aman, [[education]], kegiatan atau [[projects]], dan [[skills]]. Profil singkat bersifat opsional. Pengalaman tidak harus pekerjaan berbayar: proyek kelas dan kerja sukarela yang benar dapat dicantumkan. Gunakan kata kerja tindakan, tanggal konsisten, dan tingkat keterampilan yang tepat. Menyesuaikan CV dengan kesempatan berarti memilih informasi relevan, bukan mengubah kenyataan. Data seperti NIK dan alamat rumah lengkap biasanya tidak perlu dicantumkan pada contoh CV sekolah."
+    },
+    {
+      "type": "text",
+      "text": "Kita gunakan contoh siswa fiktif bernama Nadia Putri yang ingin menjadi relawan perpustakaan. Jangan menyalin kontak contoh ke lamaran asli. Dalam latihan, kamu boleh memakai nama fiktif demi menjaga privasi."
+    },
+    {
+      "type": "rule",
+      "text": "Susunan awal yang aman: [[Name/Contact → Education → Activities or Projects → Skills]]. Tambahkan [[Profile]] bila membantu. Jangan mengarang organisasi, penghargaan, angka, atau tingkat kemampuan."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "I am an expert manager who has led many international companies.",
+      "correct": "Organized donated books for a school reading corner.",
+      "explanation": "Siswa tidak perlu mengaku punya pekerjaan atau prestasi besar. Kegiatan konkret yang benar-benar dilakukan jauh lebih kuat dan lebih aman."
+    },
+    {
+      "type": "heading",
+      "text": "Contoh bertahap: baca bahasa Inggris, lalu artinya dan alasannya"
+    },
+    {
+      "type": "text",
+      "text": "Baca contoh tanpa menghafal. Tanyakan: bagian mana yang menjawab kebutuhan materi ini, dan adakah informasi yang tidak diketahui?"
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Baca bagian CV satu per satu",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Name: Nadia Putri",
+          "indonesian": "Nama: Nadia Putri",
+          "note": "Nama menjadi identitas utama; gunakan nama yang benar pada CV asli."
+        },
+        {
+          "english": "Email: nadia.student@example.com",
+          "indonesian": "Email: nadia.student@example.com (contoh)",
+          "note": "Kontak membantu panitia menghubungi pendaftar; alamat [[example.com]] hanyalah contoh aman."
+        },
+        {
+          "english": "Education: SMA Nusantara — Grade 12",
+          "indonesian": "Pendidikan: SMA Nusantara — Kelas 12",
+          "note": "Bagian pendidikan menunjukkan jenjang yang sedang ditempuh tanpa berpura-pura telah lulus."
+        },
+        {
+          "english": "Profile: Grade 12 student interested in community service.",
+          "indonesian": "Profil: Siswa kelas 12 yang berminat pada pelayanan masyarakat.",
+          "note": "Profil menyoroti minat yang relevan dan tidak menyatakan prestasi tanpa bukti."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-cv",
+      "prompt": "Which detail is a useful and believable CV entry for a student who designed a class poster?",
+      "translation": "Rincian mana yang cocok dan dapat dipercaya pada CV siswa yang pernah mendesain poster kelas?",
+      "choices": [
+        "Designed a poster for a class project.",
+        "Directed a multinational company.",
+        "Won every national design prize."
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Mendesain poster untuk proyek kelas.",
+        "Memimpin perusahaan multinasional.",
+        "Memenangkan semua penghargaan desain nasional."
+      ],
+      "explanation": "[[Designed a poster for a class project]] menyebut tugas nyata dan spesifik tanpa melebih-lebihkan prestasi.",
+      "hint": "Pilih pengalaman yang sesuai dengan kegiatan siswa yang disebut dalam pertanyaan."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Designed a poster for a class reading event.",
+      "parts": [
+        {
+          "english": "Designed",
+          "meaning": "Kata kerja tindakan: merancang atau mendesain."
+        },
+        {
+          "english": "a poster",
+          "meaning": "Produk atau hasil yang dibuat."
+        },
+        {
+          "english": "for a class reading event",
+          "meaning": "Konteks proyek kelas; hanya ditulis jika sesuai kegiatan nyata."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Nyatakan kegiatan dan keterampilan secara jujur",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Organized donated books for the school library.",
+          "indonesian": "Menata buku sumbangan untuk perpustakaan sekolah.",
+          "note": "[[Organized]] menjelaskan pekerjaan konkret yang benar-benar dapat dilakukan siswa."
+        },
+        {
+          "english": "Designed a poster for a class reading event.",
+          "indonesian": "Mendesain poster untuk acara membaca kelas.",
+          "note": "Proyek kelas dapat menjadi pengalaman relevan jika siswa memang terlibat."
+        },
+        {
+          "english": "Assisted teachers during the school exhibition.",
+          "indonesian": "Membantu guru selama pameran sekolah.",
+          "note": "[[Assisted]] adalah kata kerja tindakan yang sederhana dan spesifik."
+        },
+        {
+          "english": "Skills: Teamwork and basic spreadsheet use.",
+          "indonesian": "Keterampilan: Kerja sama dan penggunaan spreadsheet dasar.",
+          "note": "[[Basic]] membuat tingkat keterampilan lebih akurat daripada mengaku ahli."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why can a real school project be more useful than an impressive but invented claim?",
+      "translation": "Mengapa proyek sekolah yang benar-benar dikerjakan lebih berguna daripada klaim besar yang dibuat-buat?",
+      "answer": "CV harus dapat dipercaya dan bisa dijelaskan ketika ditanya. Proyek nyata menunjukkan kontribusi spesifik; klaim palsu dapat menyesatkan pembaca."
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Perbaiki isi dan sesuaikan kesempatan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Activity: Library Volunteer (2026).",
+          "indonesian": "Kegiatan: Relawan Perpustakaan (2026).",
+          "note": "Tahun dapat membantu pembaca melihat kapan pengalaman terjadi."
+        },
+        {
+          "english": "Project: Created a reading campaign poster in 2025.",
+          "indonesian": "Proyek: Membuat poster kampanye membaca pada tahun 2025.",
+          "note": "Kalimat menyebut hasil pekerjaan dan waktu; hindari angka atau penghargaan yang dikarang."
+        },
+        {
+          "english": "Relevant skills: Document editing and careful record keeping.",
+          "indonesian": "Keterampilan relevan: Penyuntingan dokumen dan pencatatan yang teliti.",
+          "note": "Keterampilan ini bisa ditonjolkan untuk pekerjaan administrasi jika memang pernah dipraktikkan."
+        },
+        {
+          "english": "Goal: Apply for a school library volunteer position.",
+          "indonesian": "Tujuan: Mendaftar untuk posisi relawan perpustakaan sekolah.",
+          "note": "Menentukan kesempatan yang dituju membantu memilih isi CV; kalimat tujuan tidak wajib selalu dicantumkan pada CV jadi."
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "CV siswa tidak harus berisi pengalaman kerja; proyek kelas dan relawan yang nyata dapat menunjukkan kemampuan.",
+        "Tuliskan hanya data identitas dan kontak yang aman serta diperlukan.",
+        "Pilih kata kerja tindakan dan tingkat keterampilan yang jujur, jangan mengarang angka/prestasi.",
+        "Gunakan judul bagian jelas, susunan konsisten, dan sesuaikan informasi dengan tujuan melamar."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Susun CV siswa sederhana · tanpa nilai",
+      "prompt": "Susun CV singkat dalam bahasa Inggris dengan data latihan yang kamu buat sendiri (bukan NIK/alamat rumah). Sertakan Name, Education, satu Activity/Project yang benar-benar dapat kamu jelaskan, dan dua Skills yang sesuai. Jika belum punya kegiatan organisasi, gunakan proyek kelas yang sungguh pernah dikerjakan. Setelah itu, cek apakah isinya jujur, relevan, dan mudah dibaca.",
+      "model": "Name: Nadia Putri | Contact: nadia.student@example.com | Education: SMA Nusantara, Grade 12 | Project: Designed a poster for Reading Week | Skills: Teamwork; basic document editing.",
+      "modelTranslation": "Nama: Nadia Putri | Kontak: nadia.student@example.com (contoh) | Pendidikan: SMA Nusantara, kelas 12 | Proyek: Mendesain poster untuk Pekan Membaca | Keterampilan: Kerja sama; penyuntingan dokumen dasar.",
+      "criteria": "Semua bagian diberi judul yang jelas. Pengalaman memakai kata kerja tindakan dan harus benar-benar terjadi. Keterampilan tidak dilebihkan. Kontak hanya yang diperlukan dan aman; jangan mencantumkan data pribadi sensitif."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "curriculum vitae (CV)",
+          "indonesian": "daftar riwayat hidup/ringkasan kualifikasi"
+        },
+        {
+          "english": "application",
+          "indonesian": "pendaftaran/lamaran"
+        },
+        {
+          "english": "education",
+          "indonesian": "pendidikan"
+        },
+        {
+          "english": "experience",
+          "indonesian": "pengalaman"
+        },
+        {
+          "english": "activities",
+          "indonesian": "kegiatan"
+        },
+        {
+          "english": "project",
+          "indonesian": "proyek"
+        },
+        {
+          "english": "skills",
+          "indonesian": "keterampilan"
+        },
+        {
+          "english": "volunteer",
+          "indonesian": "relawan"
+        },
+        {
+          "english": "organized",
+          "indonesian": "menata/mengatur"
+        },
+        {
+          "english": "assisted",
+          "indonesian": "membantu"
+        },
+        {
+          "english": "relevant",
+          "indonesian": "relevan"
+        },
+        {
+          "english": "contact",
+          "indonesian": "informasi untuk dihubungi"
+        },
+        {
+          "english": "profile",
+          "indonesian": "ringkasan diri singkat"
+        },
+        {
+          "english": "basic",
+          "indonesian": "tingkat dasar"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which statement is appropriate for a student CV?",
+      "choices": [
+        "I am the greatest worker in the country.",
+        "I have managed 20 companies.",
+        "Organized donated books at school.",
+        "I always win every competition."
+      ],
+      "answer": 2,
+      "explanation": "[[Organized donated books at school]] adalah kontribusi yang dapat dibuktikan apabila siswa benar-benar melakukannya.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang tepat untuk CV siswa?",
+        "choices": [
+          "Saya pekerja terhebat di negara ini.",
+          "Saya pernah mengelola 20 perusahaan.",
+          "Menata buku sumbangan di sekolah.",
+          "Saya selalu menang di setiap lomba."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which item is usually unnecessary to put in a school CV?",
+      "choices": [
+        "Relevant school project",
+        "Education level",
+        "Relevant skills",
+        "National identity number"
+      ],
+      "answer": 3,
+      "explanation": "Nomor identitas pribadi sensitif dan tidak perlu otomatis disebarkan dalam CV; cantumkan hanya bila ada kebutuhan yang sah melalui kanal yang tepat.",
+      "translationId": {
+        "prompt": "Informasi mana yang biasanya tidak perlu dicantumkan dalam CV sekolah?",
+        "choices": [
+          "Proyek sekolah yang relevan",
+          "Jenjang pendidikan",
+          "Keterampilan relevan",
+          "Nomor identitas kependudukan"
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "Which description best fits an entry-level applicant with basic spreadsheet skills?",
+      "choices": [
+        "Basic spreadsheet use",
+        "Expert financial database engineer",
+        "Advanced software architect",
+        "Professional auditor with ten years of work"
+      ],
+      "answer": 0,
+      "explanation": "Klaim keterampilan harus sesuai kemampuan yang benar; [[basic spreadsheet use]] tidak melebih-lebihkan pengalaman.",
+      "translationId": {
+        "prompt": "Deskripsi mana paling sesuai bagi pemula yang memiliki kemampuan spreadsheet dasar?",
+        "choices": [
+          "Penggunaan spreadsheet dasar",
+          "Insinyur basis data keuangan ahli",
+          "Arsitek perangkat lunak tingkat lanjut",
+          "Auditor profesional dengan pengalaman sepuluh tahun"
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-curriculum-vitae-practice"
+  ]
+}

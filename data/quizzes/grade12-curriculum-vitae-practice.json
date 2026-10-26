@@ -1,0 +1,299 @@
+{
+  "id": "grade12-curriculum-vitae-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "cv-nadia-example",
+      "title": "Sample Student CV — Nadia Putri (Fictional)",
+      "text": "Nadia Putri | nadia.student@example.com | Grade 12 student. Profile: Interested in school library services and community projects. Education: SMA Nusantara, Grade 12 (2026–present). Activities: Library Volunteer (2026) — Organized donated books for the school reading corner. Project: Designed a poster for Reading Week. Skills: Teamwork, basic spreadsheet use, poster design. Nadia is applying to help at a school library. The email address is fictional and used for teaching only.",
+      "original": true
+    },
+    {
+      "id": "cv-bima-example",
+      "title": "Application Brief and Student Notes — Bima (Fictional)",
+      "text": "Opportunity: The school art club needs a student to help create posters for its open day. Relevant tasks: simple poster design and working with a team. Bima’s verified activities: Created two posters for his class project in 2025; helped classmates prepare art displays in 2026. Skills Bima can explain: basic drawing software and teamwork. Bima has not had paid employment and has not won any national awards. No home address or identity number is required for this school application.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the main purpose of a student CV?",
+      "choices": [
+        "To tell a fictional life story",
+        "To list every family member",
+        "To present relevant and truthful qualifications",
+        "To guarantee the student will get a job"
+      ],
+      "answer": 2,
+      "explanation": "CV merangkum pendidikan, pengalaman, dan keterampilan yang relevan secara jujur; tidak menjamin keberhasilan lamaran.",
+      "translationId": {
+        "prompt": "Apa tujuan utama CV siswa?",
+        "choices": [
+          "Menceritakan kisah hidup fiktif",
+          "Mencantumkan semua anggota keluarga",
+          "Menyajikan kualifikasi yang relevan dan benar",
+          "Menjamin siswa mendapat pekerjaan"
+        ]
+      },
+      "skill": "Purpose"
+    },
+    {
+      "id": "q2",
+      "prompt": "Which item is the safest basic contact detail for a student CV?",
+      "choices": [
+        "A professional email address",
+        "A national identity number",
+        "A complete family history",
+        "A password to an online account"
+      ],
+      "answer": 0,
+      "explanation": "Email profesional yang memang digunakan untuk menerima pesan adalah informasi kontak yang biasanya relevan. Data sensitif lain tidak seharusnya dibagikan tanpa alasan sah.",
+      "translationId": {
+        "prompt": "Informasi kontak dasar mana paling aman untuk CV siswa?",
+        "choices": [
+          "Alamat email profesional",
+          "Nomor identitas kependudukan",
+          "Riwayat lengkap keluarga",
+          "Kata sandi akun daring"
+        ]
+      },
+      "skill": "Privacy"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which entry is suitable under “Education”?",
+      "choices": [
+        "I enjoy music and games.",
+        "I am always the best student.",
+        "I will become famous soon.",
+        "SMA Nusantara — Grade 12"
+      ],
+      "answer": 3,
+      "explanation": "Bagian [[Education]] menyebut sekolah dan jenjang, bukan hobi atau klaim berlebihan.",
+      "translationId": {
+        "prompt": "Entri mana cocok di bagian “Education”?",
+        "choices": [
+          "Saya menyukai musik dan gim.",
+          "Saya selalu siswa terbaik.",
+          "Saya akan segera terkenal.",
+          "SMA Nusantara — Kelas 12"
+        ]
+      },
+      "skill": "Sections"
+    },
+    {
+      "id": "q4",
+      "prompt": "Which statement best describes a real school project?",
+      "choices": [
+        "I led hundreds of international offices.",
+        "Designed a poster for a class reading event.",
+        "I can do every job perfectly.",
+        "I have ten years of professional experience."
+      ],
+      "answer": 1,
+      "explanation": "Mendesain poster kelas adalah contoh pengalaman spesifik yang wajar bagi siswa jika benar-benar dikerjakan.",
+      "translationId": {
+        "prompt": "Pernyataan mana paling baik menggambarkan proyek sekolah yang nyata?",
+        "choices": [
+          "Memimpin ratusan kantor internasional.",
+          "Mendesain poster untuk kegiatan membaca kelas.",
+          "Saya dapat mengerjakan semua pekerjaan sempurna.",
+          "Saya punya sepuluh tahun pengalaman profesional."
+        ]
+      },
+      "skill": "Writing"
+    },
+    {
+      "id": "q5",
+      "prompt": "What activity does Nadia list in her CV?",
+      "choices": [
+        "Running an international company",
+        "Winning a national science prize",
+        "Organizing donated books",
+        "Teaching at a university"
+      ],
+      "answer": 2,
+      "explanation": "Nadia menuliskan [[Organized donated books]] sebagai kegiatan relawan perpustakaan.",
+      "translationId": {
+        "prompt": "Kegiatan apa yang dicantumkan Nadia dalam CV-nya?",
+        "choices": [
+          "Mengelola perusahaan internasional",
+          "Memenangkan hadiah sains nasional",
+          "Menata buku sumbangan",
+          "Mengajar di universitas"
+        ]
+      },
+      "skill": "Detail",
+      "passageId": "cv-nadia-example",
+      "evidence": "Organized donated books"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which skill level does Nadia claim for spreadsheet use?",
+      "choices": [
+        "Basic",
+        "Expert",
+        "Professional analyst",
+        "Not mentioned at all"
+      ],
+      "answer": 0,
+      "explanation": "Tercantum [[basic spreadsheet use]], yaitu kemampuan tingkat dasar, bukan ahli.",
+      "translationId": {
+        "prompt": "Tingkat keterampilan spreadsheet apa yang Nadia tulis?",
+        "choices": [
+          "Dasar",
+          "Ahli",
+          "Analis profesional",
+          "Sama sekali tidak disebutkan"
+        ]
+      },
+      "skill": "Precision",
+      "passageId": "cv-nadia-example",
+      "evidence": "basic spreadsheet use"
+    },
+    {
+      "id": "q7",
+      "prompt": "Which project is most relevant to the school art club opportunity?",
+      "choices": [
+        "A made-up leadership award",
+        "A fictional international internship",
+        "Unrelated hobbies with no evidence",
+        "Creating posters for a class project"
+      ],
+      "answer": 3,
+      "explanation": "Tugas klub seni memerlukan pembuatan poster; Bima memang pernah membuat poster kelas. Pilihan lain bukan bukti relevan.",
+      "translationId": {
+        "prompt": "Proyek mana paling relevan untuk kesempatan di klub seni sekolah?",
+        "choices": [
+          "Penghargaan kepemimpinan fiktif",
+          "Magang internasional yang dibuat-buat",
+          "Hobi tidak terkait tanpa bukti",
+          "Membuat poster untuk proyek kelas"
+        ]
+      },
+      "skill": "Relevance",
+      "passageId": "cv-bima-example",
+      "evidence": "Created two posters for his class project"
+    },
+    {
+      "id": "q8",
+      "prompt": "What should Bima write about paid work experience?",
+      "choices": [
+        "He managed a large company.",
+        "He has no paid work experience and can describe school projects.",
+        "He worked for ten years as a designer.",
+        "He must leave every section blank."
+      ],
+      "answer": 1,
+      "explanation": "Bima belum bekerja berbayar. Ia tetap dapat mencantumkan proyek sekolah nyata tanpa mengarang riwayat pekerjaan.",
+      "translationId": {
+        "prompt": "Apa yang sebaiknya Bima tulis mengenai pengalaman kerja berbayar?",
+        "choices": [
+          "Ia mengelola perusahaan besar.",
+          "Ia belum berpengalaman kerja berbayar dan dapat menjelaskan proyek sekolah.",
+          "Ia menjadi desainer selama sepuluh tahun.",
+          "Ia harus membiarkan semua bagian kosong."
+        ]
+      },
+      "skill": "Integrity",
+      "passageId": "cv-bima-example",
+      "evidence": "has not had paid employment"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which phrase is an appropriate action-based experience description?",
+      "choices": [
+        "Assisted classmates in preparing art displays.",
+        "I am the most amazing person ever.",
+        "I probably know everything about art.",
+        "My friends say I deserve any position."
+      ],
+      "answer": 0,
+      "explanation": "[[Assisted classmates]] menyebut kontribusi yang dapat diperiksa dari catatan kegiatan Bima; yang lain klaim diri tanpa bukti.",
+      "translationId": {
+        "prompt": "Frasa mana menggambarkan pengalaman dengan kata kerja tindakan yang tepat?",
+        "choices": [
+          "Membantu teman sekelas menyiapkan pajangan seni.",
+          "Saya orang paling luar biasa.",
+          "Saya mungkin tahu semua tentang seni.",
+          "Teman saya bilang saya layak semua posisi."
+        ]
+      },
+      "skill": "Action verbs",
+      "passageId": "cv-bima-example",
+      "evidence": "helped classmates prepare art displays"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which personal information is NOT required for Bima’s school application?",
+      "choices": [
+        "His relevant activities",
+        "His relevant skills",
+        "His education level",
+        "His home address and identity number"
+      ],
+      "answer": 3,
+      "explanation": "Catatan pendaftaran menegaskan alamat rumah dan nomor identitas tidak diperlukan. Jangan membagikan data sensitif tanpa keperluan sah.",
+      "translationId": {
+        "prompt": "Informasi pribadi mana yang TIDAK diperlukan untuk pendaftaran Bima?",
+        "choices": [
+          "Kegiatannya yang relevan",
+          "Keterampilannya yang relevan",
+          "Jenjang pendidikannya",
+          "Alamat rumah dan nomor identitas"
+        ]
+      },
+      "skill": "Privacy",
+      "passageId": "cv-bima-example",
+      "evidence": "No home address or identity number is required"
+    },
+    {
+      "id": "q11",
+      "prompt": "Which detail should Nadia emphasize for a school library application?",
+      "choices": [
+        "A made-up award",
+        "An unrelated claim of fame",
+        "Her library volunteer activity",
+        "Private information about family members"
+      ],
+      "answer": 2,
+      "explanation": "Kegiatan relawan perpustakaan berhubungan dengan tugas yang dituju dan tercatat dalam CV contoh.",
+      "translationId": {
+        "prompt": "Rincian mana yang sebaiknya Nadia tonjolkan untuk lamaran perpustakaan sekolah?",
+        "choices": [
+          "Penghargaan fiktif",
+          "Klaim terkenal yang tidak terkait",
+          "Kegiatan relawan perpustakaannya",
+          "Informasi pribadi anggota keluarganya"
+        ]
+      },
+      "skill": "Relevance",
+      "passageId": "cv-nadia-example",
+      "evidence": "Nadia is applying to help at a school library"
+    },
+    {
+      "id": "q12",
+      "prompt": "What is the best final check before sending a CV?",
+      "choices": [
+        "Add more unverified achievements.",
+        "Check truthfulness, relevance, spelling, and unnecessary personal data.",
+        "Remove every school activity.",
+        "Include a password so the reviewer trusts you."
+      ],
+      "answer": 1,
+      "explanation": "Cek ulang kebenaran isi, kesesuaian dengan tujuan, bahasa, dan privasi. Mengarang prestasi atau membagikan kata sandi justru berbahaya.",
+      "translationId": {
+        "prompt": "Apa pemeriksaan terakhir terbaik sebelum mengirim CV?",
+        "choices": [
+          "Menambahkan prestasi yang tidak terverifikasi.",
+          "Memeriksa kejujuran, relevansi, ejaan, dan data pribadi yang tak perlu.",
+          "Menghapus seluruh kegiatan sekolah.",
+          "Mencantumkan kata sandi agar penilai percaya."
+        ]
+      },
+      "skill": "Review"
+    }
+  ]
+}
