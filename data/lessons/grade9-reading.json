@@ -13,27 +13,66 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ciri apa yang disebut langsung dan apa yang hanya dugaan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Ciri apa yang disebut langsung dan apa yang hanya dugaan? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
-        },
-        {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. [[Quiet]] adalah sifat, bukan kejadian. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Mengapa tempat dideskripsikan?",
+          "explanation": "Teks deskriptif membantu pembaca membayangkan tempat; pertama-tama kenali tempat apa yang sedang dibahas.",
           "english": "Our library is quiet.",
           "indonesian": "Perpustakaan kami tenang.",
-          "why": "[[Quiet]] adalah sifat, bukan kejadian."
+          "why": "[[Quiet]] adalah sifat, bukan kejadian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa tempat dideskripsikan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Quiet]] adalah sifat, bukan kejadian."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Three]] [[benches]] adalah detail yang bisa ditemukan langsung. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "The garden has three benches.",
-          "indonesian": "Taman memiliki tiga bangku.",
-          "why": "[[Three]] [[benches]] adalah detail yang bisa ditemukan langsung."
+          "title": "Kenali satu ciri",
+          "explanation": "Baca satu kalimat pendek dan tandai kata sifat yang benar-benar menyatakan ciri tempat tersebut.",
+          "english": "A narrow path leads to the pond.",
+          "indonesian": "Jalan setapak yang sempit menuju kolam.",
+          "why": "[[Narrow]] membantu membayangkan bentuk jalan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali satu ciri»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Narrow]] membantu membayangkan bentuk jalan."
+        },
+        {
+          "title": "Detail lokasi dan benda",
+          "explanation": "Cari informasi seperti [[near the door]] atau jumlah benda yang ada; jangan mengubah detail menjadi dugaan.",
+          "english": "The house is beside a river.",
+          "indonesian": "Rumah itu berada di sebelah sungai.",
+          "why": "[[Beside]] menunjukkan lokasi, bukan alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «detail lokasi dan benda»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Beside]] menunjukkan lokasi, bukan alasan."
+        },
+        {
+          "title": "Gabungkan beberapa detail",
+          "explanation": "Sambungkan dua atau tiga kalimat tentang tempat yang sama untuk membentuk gambaran yang lebih lengkap.",
+          "english": "The windows are large, so the room gets sunlight.",
+          "indonesian": "Jendelanya besar, sehingga ruangan mendapat cahaya matahari.",
+          "why": "Detail fisik [[large]] [[windows]] mendukung keadaan bright.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan beberapa detail»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Detail fisik [[large]] [[windows]] mendukung keadaan bright."
+        },
+        {
+          "title": "Teks atau dugaan?",
+          "explanation": "Bedakan [[the library is quiet]] yang tertulis dari asumsi bahwa perpustakaan selalu sepi setiap hari.",
+          "english": "Its wings are black with a narrow white stripe.",
+          "indonesian": "Sayapnya hitam dengan satu garis putih sempit.",
+          "why": "Ciri sayap yang khusus dapat dipakai untuk membedakan hewan dari deskripsi lain.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «teks atau dugaan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ciri sayap yang khusus dapat dipakai untuk membedakan hewan dari deskripsi lain."
+        },
+        {
+          "title": "Baca dan simpulkan",
+          "explanation": "Ringkas tempat dari bukti tertulis; tebak arti kata asing memakai konteks lalu periksa apakah tebakan sesuai dengan kalimat.",
+          "english": "Behind the school hall stands a small garden where students often read during breaks.",
+          "indonesian": "Di belakang aula sekolah terdapat taman kecil tempat siswa sering membaca saat istirahat.",
+          "why": "[[Behind]] memberi lokasi; [[where]] menjelaskan fungsi tempat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca dan simpulkan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Behind]] memberi lokasi; [[where]] menjelaskan fungsi tempat."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Our school library is beside the science room. It has three long tables and two windows. The reading corner is quiet in the morning. Students put their bags near the door.",
+      "modelIndonesian": "Perpustakaan sekolah kami berada di sebelah ruang sains. Perpustakaan itu memiliki tiga meja panjang dan dua jendela. Sudut bacanya tenang pada pagi hari. Para siswa meletakkan tas mereka di dekat pintu."
     },
     {
       "type": "synthesis",

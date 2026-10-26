@@ -13,31 +13,66 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Kata “narrow” menerangkan ukuran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Tempat yang diamati",
+          "explanation": "Tentukan lokasi dan kondisi lingkungan yang menjadi fokus deskripsi.",
           "english": "The river is narrow.",
           "indonesian": "Sungai itu sempit.",
-          "why": "Kata “narrow” menerangkan ukuran."
+          "why": "Kata “narrow” menerangkan ukuran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tempat yang diamati»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “narrow” menerangkan ukuran."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini pengamatan yang dapat dilihat. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Cari pengamatan konkret",
+          "explanation": "Kumpulkan detail yang benar-benar terlihat, terukur, atau disebut di teks.",
+          "english": "The river is narrow.",
+          "indonesian": "Sungai itu sempit.",
+          "why": "Kata “narrow” menerangkan ukuran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari pengamatan konkret»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “narrow” menerangkan ukuran."
+        },
+        {
+          "title": "Kosakata kondisi",
+          "explanation": "Kenali kata seperti [[polluted]], [[clean]], [[dry]], atau [[crowded]] dalam konteks.",
           "english": "Plastic bags float near the bridge.",
           "indonesian": "Kantong plastik mengapung di dekat jembatan.",
-          "why": "Ini pengamatan yang dapat dilihat."
+          "why": "Ini pengamatan yang dapat dilihat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kosakata kondisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini pengamatan yang dapat dilihat."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apa yang benar-benar terlihat, dan apa yang baru dugaan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Lokasi dan tingkat perubahan",
+          "explanation": "Ungkapan tempat dan derajat membantu memperjelas lokasi dan berat-ringannya kondisi.",
+          "english": "The water smells unpleasant.",
+          "indonesian": "Airnya berbau tidak sedap.",
+          "why": "Kalimat mendeskripsikan keadaan air.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «lokasi dan tingkat perubahan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat mendeskripsikan keadaan air."
+        },
+        {
+          "title": "Fakta vs dugaan penyebab",
+          "explanation": "Air keruh adalah pengamatan; menyalahkan pabrik tertentu tanpa bukti adalah kesimpulan tambahan.",
+          "english": "Several plastic bottles were visible near the riverbank.",
+          "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
+          "why": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta vs dugaan penyebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+        },
+        {
+          "title": "Gabungkan dalam paragraf",
+          "explanation": "Susun kondisi dan lokasi menjadi deskripsi yang jelas dengan klaim sesuai informasi yang tersedia.",
+          "english": "Students recorded the colour of the water at three locations rather than making conclusions from one photograph.",
+          "indonesian": "Siswa mencatat warna air di tiga lokasi daripada menyimpulkan dari satu foto.",
+          "why": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan dalam paragraf»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "The river near the market looks brown after heavy rain. Plastic waste is visible along the bank. There are fewer trees near the bridge than in the upstream area. These are observations; the text does not establish who caused the pollution.",
+      "modelIndonesian": "Sungai dekat pasar terlihat cokelat setelah hujan deras. Sampah plastik terlihat di sepanjang tepinya. Pohon di dekat jembatan lebih sedikit daripada di kawasan hulu. Ini adalah pengamatan; teks tidak memastikan siapa penyebab pencemarannya."
     },
     {
       "type": "synthesis",

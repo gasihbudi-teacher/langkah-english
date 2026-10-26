@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. Tanggal penting untuk mengetahui apakah informasi masih berlaku. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Informasi daring belum tentu benar",
+          "explanation": "Sebuah unggahan bisa salah atau menyesatkan meskipun banyak dibagikan.",
           "english": "The message has no date.",
           "indonesian": "Pesan itu tidak mencantumkan tanggal.",
-          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «informasi daring belum tentu benar»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Sumber resmi lebih tepat untuk aturan sekolah. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Tandai klaim",
+          "explanation": "Salin inti pernyataan yang dapat diperiksa; bedakan dari ajakan emosional.",
+          "english": "The message has no date.",
+          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
+          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tandai klaim»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+        },
+        {
+          "title": "Fakta atau opini?",
+          "explanation": "Pertanyaan fakta dapat diperiksa dengan bukti; penilaian pribadi tidak diuji dengan cara sama.",
           "english": "The school website gives the new schedule.",
           "indonesian": "Situs sekolah memberikan jadwal baru.",
-          "why": "Sumber resmi lebih tepat untuk aturan sekolah."
+          "why": "Sumber resmi lebih tepat untuk aturan sekolah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta atau opini?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Sumber resmi lebih tepat untuk aturan sekolah."
+        },
+        {
+          "title": "Siapa sumbernya?",
+          "explanation": "Cari penulis atau lembaga asal, bukan sekadar nama akun yang meneruskan unggahan.",
+          "english": "Check the original announcement.",
+          "indonesian": "Periksa pengumuman aslinya.",
+          "why": "Perintah ini mengajak pembaca mencari sumber pertama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa sumbernya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perintah ini mengajak pembaca mencari sumber pertama."
+        },
+        {
+          "title": "Kapan dan konteks apa?",
+          "explanation": "Informasi lama atau gambar dari peristiwa lain dapat membuat klaim baru menyesatkan.",
+          "english": "Many people shared the claim.",
+          "indonesian": "Banyak orang membagikan klaim itu.",
+          "why": "Kepopuleran belum membuktikan kebenaran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kapan dan konteks apa?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kepopuleran belum membuktikan kebenaran."
+        },
+        {
+          "title": "Apa buktinya?",
+          "explanation": "Cari dokumen, data, rekaman utuh, atau rujukan yang benar-benar relevan dengan klaim.",
+          "english": "The school confirmed the change.",
+          "indonesian": "Pihak sekolah mengonfirmasi perubahan itu.",
+          "why": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa buktinya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
+        },
+        {
+          "title": "Bukti palsu atau tidak terkait",
+          "explanation": "Tangkapan layar dan kutipan tanpa konteks belum tentu membuktikan sesuatu; telusuri sumber asli bila mungkin.",
+          "english": "A message may look official even when its sender cannot be verified.",
+          "indonesian": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
+          "why": "Tampilan resmi tidak sama dengan bukti identitas sumber.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukti palsu atau tidak terkait»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tampilan resmi tidak sama dengan bukti identitas sumber."
+        },
+        {
+          "title": "Bandingkan sumber lain",
+          "explanation": "Periksa kesesuaian informasi dengan sumber independen tepercaya yang relevan.",
+          "english": "Before sharing the image, check whether an older photograph is being presented as new.",
+          "indonesian": "Sebelum membagikan gambar itu, periksa apakah foto lama disajikan seolah-olah baru.",
+          "why": "Tanggal dan konteks foto dapat mengubah makna sebuah unggahan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan sumber lain»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tanggal dan konteks foto dapat mengubah makna sebuah unggahan."
+        },
+        {
+          "title": "Hindari keyakinan palsu",
+          "explanation": "Kalimat sangat pasti tidak menjamin kebenaran; bedakan tidak terbukti dari pasti salah.",
+          "english": "Although the screenshot looked official, it did not include the school’s address or publication date.",
+          "indonesian": "Meskipun tangkapan layar tampak resmi, tidak ada alamat sekolah atau tanggal terbit.",
+          "why": "Kontras ini menunjukkan alasan penting untuk memeriksa detail.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hindari keyakinan palsu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kontras ini menunjukkan alasan penting untuk memeriksa detail."
+        },
+        {
+          "title": "Putuskan sebelum membagikan",
+          "explanation": "Nyatakan apa yang diketahui, apa yang masih belum pasti, dan pertimbangkan risiko privasi serta keselamatan.",
+          "english": "Before forwarding the message, Dira checked the notice on the school’s actual website.",
+          "indonesian": "Sebelum meneruskan pesan, Dira memeriksa pengumuman di situs sekolah yang sebenarnya.",
+          "why": "Tindakan ini memeriksa sumber sebelum menyebarkan informasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «putuskan sebelum membagikan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan ini memeriksa sumber sebelum menyebarkan informasi."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "A post says: “All schools will close tomorrow.” The post gives no official source and shows a photo from last year. Sari checks the date and looks for an announcement from her school. She finds no confirmation, so she does not share the post as a fact.",
+      "modelIndonesian": "Sebuah unggahan mengatakan: “Semua sekolah akan tutup besok.” Unggahan itu tidak menyebut sumber resmi dan menampilkan foto dari tahun lalu. Sari memeriksa tanggal dan mencari pengumuman dari sekolahnya. Ia tidak menemukan konfirmasi, sehingga tidak membagikan unggahan itu sebagai fakta."
     },
     {
       "type": "synthesis",

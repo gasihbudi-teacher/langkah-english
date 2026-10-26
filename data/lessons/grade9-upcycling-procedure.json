@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Pahami hasil yang dituju",
-          "explanation": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
-        },
-        {
-          "title": "Baca langkah awal",
-          "explanation": "Perhatikan kalimat ini. Kata kerja di awal kalimat adalah perintah. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Tujuan prosedur",
+          "explanation": "Prosedur memberi petunjuk untuk menghasilkan suatu benda; cari hasil akhirnya lebih dulu.",
           "english": "Wash the empty jar.",
           "indonesian": "Cuci stoples kosong itu.",
-          "why": "Kata kerja di awal kalimat adalah perintah."
+          "why": "Kata kerja di awal kalimat adalah perintah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tujuan prosedur»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata kerja di awal kalimat adalah perintah."
         },
         {
-          "title": "Hubungkan syarat dan langkah",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “it” merujuk pada stoples. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Periksa hasil yang diinginkan",
+          "explanation": "Bayangkan bentuk produk yang akan dibuat agar setiap langkah punya tujuan jelas.",
           "english": "Dry it with a clean cloth.",
           "indonesian": "Keringkan dengan kain bersih.",
-          "why": "Kata “it” merujuk pada stoples."
+          "why": "Kata “it” merujuk pada stoples.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa hasil yang diinginkan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “it” merujuk pada stoples."
         },
         {
-          "title": "Cek keamanan dan urutan",
-          "explanation": "Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Bahan dan alat",
+          "explanation": "Bedakan benda yang diperlukan dari tindakan yang perlu dilakukan.",
+          "english": "Put small pencils inside.",
+          "indonesian": "Masukkan pensil kecil ke dalamnya.",
+          "why": "Tahap terakhir menunjukkan fungsi benda baru.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bahan dan alat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tahap terakhir menunjukkan fungsi benda baru."
+        },
+        {
+          "title": "Kata kerja perintah",
+          "explanation": "[[Cut]], [[fold]], dan [[attach]] menyuruh pembaca melakukan sesuatu; kenali objek tindakannya.",
+          "english": "You need a clean jar.",
+          "indonesian": "Kamu memerlukan stoples bersih.",
+          "why": "Ini bahan yang diperlukan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata kerja perintah»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini bahan yang diperlukan."
+        },
+        {
+          "title": "Satu petunjuk sekali jalan",
+          "explanation": "Pahami apa yang harus dilakukan pada langkah pertama sebelum meneruskan langkah kedua.",
+          "english": "Decorate the jar with paper.",
+          "indonesian": "Hias stoples dengan kertas.",
+          "why": "Ini tindakan yang dilakukan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «satu petunjuk sekali jalan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini tindakan yang dilakukan."
+        },
+        {
+          "title": "Urutan dan ketergantungan",
+          "explanation": "Tentukan langkah yang harus selesai lebih dahulu agar langkah berikutnya bisa dilakukan.",
+          "english": "After the glue has dried, decorate the outside of the container.",
+          "indonesian": "Setelah lem mengering, hias bagian luar wadah tersebut.",
+          "why": "Langkah kedua bergantung pada kondisi di langkah sebelumnya, bukan sekadar pilihan urutan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutan dan ketergantungan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Langkah kedua bergantung pada kondisi di langkah sebelumnya, bukan sekadar pilihan urutan."
+        },
+        {
+          "title": "Keselamatan",
+          "explanation": "Temukan petunjuk penggunaan benda tajam, lem, atau bahan tertentu sesuai tingkat risiko.",
+          "english": "Finally, test the holder with a light object before adding anything heavier.",
+          "indonesian": "Terakhir, uji tempat tersebut dengan benda ringan sebelum menambah benda yang lebih berat.",
+          "why": "[[Finally]] menunjukkan tahap terakhir; pengujian ringan berkaitan dengan keamanan hasil kerja.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «keselamatan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Finally]] menunjukkan tahap terakhir; pengujian ringan berkaitan dengan keamanan hasil kerja."
+        },
+        {
+          "title": "Jika langkah terlewat",
+          "explanation": "Prediksi dampak konkret dari melewatkan atau menukar urutan tindakan penting.",
+          "english": "Before attaching paper, make sure the outside of the jar is completely dry.",
+          "indonesian": "Sebelum menempelkan kertas, pastikan bagian luar stoples benar-benar kering.",
+          "why": "“Before” menunjukkan prasyarat untuk tindakan berikutnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jika langkah terlewat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“Before” menunjukkan prasyarat untuk tindakan berikutnya."
+        },
+        {
+          "title": "Coba jelaskan prosedur",
+          "explanation": "Urutkan kembali seluruh instruksi dan jelaskan mengapa hasil yang diharapkan dapat dicapai.",
+          "english": "If the jar has sharp edges, ask an adult to help before using it.",
+          "indonesian": "Jika stoples mempunyai tepi tajam, mintalah bantuan orang dewasa sebelum menggunakannya.",
+          "why": "Kalimat bersyarat ini memberikan peringatan keselamatan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «coba jelaskan prosedur»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat bersyarat ini memberikan peringatan keselamatan."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Make a pencil holder from a clean plastic bottle. First, wash the bottle and let it dry. Ask an adult to cut off the top safely. Next, cover the sharp edge with tape. Finally, decorate the holder and put your pencils inside.",
+      "modelIndonesian": "Buatlah tempat pensil dari botol plastik yang bersih. Pertama, cuci botol dan biarkan kering. Mintalah bantuan orang dewasa untuk memotong bagian atasnya dengan aman. Selanjutnya, tutupi tepi tajam dengan selotip. Terakhir, hias tempat pensil itu dan masukkan pensilmu."
     },
     {
       "type": "synthesis",

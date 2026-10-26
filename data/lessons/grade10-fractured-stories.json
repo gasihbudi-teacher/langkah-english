@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Kalimat menyatakan kejadian. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kenali cerita sumber",
+          "explanation": "Pahami cerita dasar sebelum melihat versi perubahan agar perbandingannya adil.",
           "english": "The fox ran into the forest.",
           "indonesian": "Rubah itu berlari ke hutan.",
-          "why": "Kalimat menyatakan kejadian."
+          "why": "Kalimat menyatakan kejadian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali cerita sumber»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menyatakan kejadian."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “I” menunjukkan pandangan tokoh pertama. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Tokoh dan konflik",
+          "explanation": "Tentukan siapa yang terlibat dan apa masalah utama pada versi asli.",
+          "english": "The fox ran into the forest.",
+          "indonesian": "Rubah itu berlari ke hutan.",
+          "why": "Kalimat menyatakan kejadian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tokoh dan konflik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menyatakan kejadian."
+        },
+        {
+          "title": "Siapa bercerita?",
+          "explanation": "[[Narrator]] menentukan informasi apa yang dapat diketahui pembaca.",
+          "english": "The fox ran into the forest.",
+          "indonesian": "Rubah itu berlari ke hutan.",
+          "why": "Kalimat menyatakan kejadian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa bercerita?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menyatakan kejadian."
+        },
+        {
+          "title": "Sudut pandang",
+          "explanation": "Kenali [[I]] pada penceritaan orang pertama dan [[he/she]] pada orang ketiga.",
           "english": "I was afraid of the fox.",
           "indonesian": "Saya takut pada rubah itu.",
-          "why": "Kata “I” menunjukkan pandangan tokoh pertama."
+          "why": "Kata “I” menunjukkan pandangan tokoh pertama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «sudut pandang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “I” menunjukkan pandangan tokoh pertama."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Siapa yang menceritakan ulang, dan bagaimana penilaiannya mengubah makna? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Sudut pandang baru",
+          "explanation": "Baca kembali peristiwa yang sama melalui tokoh lain; perhatikan detail yang sekarang lebih menonjol.",
+          "english": "Mira called the giant cruel.",
+          "indonesian": "Mira menyebut raksasa itu kejam.",
+          "why": "Label “cruel” berasal dari penilaian Mira.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «sudut pandang baru»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Label “cruel” berasal dari penilaian Mira."
+        },
+        {
+          "title": "Apa yang berubah?",
+          "explanation": "Pisahkan perubahan fakta kejadian dari perubahan pendapat atau pengetahuan narator.",
+          "english": "The giant said he was lonely.",
+          "indonesian": "Raksasa itu berkata bahwa ia kesepian.",
+          "why": "Pencerita lain memberikan kemungkinan alasan yang berbeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa yang berubah?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pencerita lain memberikan kemungkinan alasan yang berbeda."
+        },
+        {
+          "title": "Latar atau akhir berbeda",
+          "explanation": "Perubahan tempat atau akhir dapat mengubah konflik dan akibat tindakan tokoh.",
+          "english": "In the princess's version, the locked door kept everyone safe.",
+          "indonesian": "Dalam versi sang putri, pintu yang terkunci itu menjaga semua orang tetap aman.",
+          "why": "Frasa [[in the princess's version]] mengingatkan bahwa penafsiran ini milik satu pencerita, bukan fakta netral.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «latar atau akhir berbeda»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Frasa [[in the princess's version]] mengingatkan bahwa penafsiran ini milik satu pencerita, bukan fakta netral."
+        },
+        {
+          "title": "Bandingkan interpretasi",
+          "explanation": "Jelaskan bagaimana pembaca memandang tokoh secara berbeda setelah sudut pandang diganti.",
+          "english": "The giant called the noise a warning, while the villagers called it a threat.",
+          "indonesian": "Raksasa itu menyebut bunyi tersebut peringatan, sedangkan penduduk desa menyebutnya ancaman.",
+          "why": "Dua narator memberi penafsiran berbeda atas satu kejadian; itulah inti perubahan perspektif.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan interpretasi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua narator memberi penafsiran berbeda atas satu kejadian; itulah inti perubahan perspektif."
+        },
+        {
+          "title": "Tulis versi alternatif",
+          "explanation": "Ubah satu unsur cerita dengan sengaja dan pertahankan hubungan peristiwa yang masuk akal.",
+          "english": "When the story was retold by the giant, the frightening footsteps became a request for help.",
+          "indonesian": "Ketika kisah diceritakan ulang oleh raksasa, langkah kaki yang menakutkan berubah makna menjadi permintaan bantuan.",
+          "why": "Sudut pandang baru mengubah penafsiran tanpa mengubah suara langkah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tulis versi alternatif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Sudut pandang baru mengubah penafsiran tanpa mengubah suara langkah."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Original story: A young fox took food from a farmer and ran away. The farmer called the fox a thief. In the fox’s version, it had not eaten for two days and feared the farmer. Both versions describe the same action but reveal different concerns.",
+      "modelIndonesian": "Cerita asli: Seekor rubah muda mengambil makanan petani dan melarikan diri. Petani menyebut rubah itu pencuri. Dalam versi rubah, hewan itu belum makan selama dua hari dan takut pada petani. Kedua versi menggambarkan tindakan yang sama tetapi menunjukkan kekhawatiran berbeda."
     },
     {
       "type": "synthesis",

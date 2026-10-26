@@ -1,3 +1,15 @@
+# Langkah English V11 — Gradual teaching scaffold redesign (26 October 2026)
+
+**V11 revises the learning scaffolds in all 54 lessons** from the original V10 redesign source. Instead of applying three/four generic moves to every subject, each lesson now has **5–10 topic-specific teaching steps** (469 in total), with patient Indonesian explanations, bilingual example and reasoning, and an ungraded revealable understanding check. **34 lessons** also provide a connected bilingual model text; Grade 10 visual-information reading adds an original accessible poster graphic. All V10 visual/navigation features remain.
+
+**Preserved:** 39 original quizzes, 543 existing explained worked-example cards, three 20-minute UTBK practice mocks, 93 resource IDs, English-first assessment questions and optional Indonesian glosses, browser-local progress keys and backups. No existing grades/scores are recalculated. Schema, validators and the `js/core.js` renderer now support up to **20 scaffold steps** without hiding essential explanations.
+
+**Read:** [V11 curriculum and authoring guide](docs/V11-SCAFFOLDING-REDESIGN.md) · [V11 testing and limits](docs/V11-TEST-REPORT.md).
+
+**Update from V10:** In GitHub Desktop, pull your cloned repository first. Unzip **`langkah-english-v11-scaffolding-update-from-v10.zip`** in a separate location, then copy its contents into the existing Git repository **without replacing `.git`**. Or use the complete V11 ZIP if you need the whole snapshot. Run `python3 tools/validate.py` and all Node tests; review the diff, commit/push, then verify on a Cloudflare preview and an actual phone. The educational text is AI-assisted and still needs teacher review; Chrome network navigation was blocked in this authoring environment.
+
+---
+
 # Langkah English V10 — Learner-centered interface redesign (25 October 2026)
 
 **V10 is a presentation and navigation upgrade on top of the exact V9 learning dataset**, not a new educational-content release. All 54 lessons, 39 quizzes, 543 explained bilingual examples and three timed 20-question UTBK mocks are retained. The homepage is now a learner workspace with one recommended action, saved progress, compact course pathways, improved search, keyboard/mobile navigation, and a focus-reading mode for long lessons.

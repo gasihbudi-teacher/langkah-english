@@ -486,3 +486,21 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 .mobile-progress-link{display:none}
 @media(max-width:810px){.site-header .nav-links .mobile-progress-link{display:block}}
 @media(max-width:460px){.site-header .nav-progress{display:none}.site-header .nav{gap:8px}}
+
+
+/* V11: patient topic-specific guided learning; all explanations visible. */
+.scaffold-total{font-size:14px;font-weight:700;color:#235d53;margin:16px 0}
+.scaffold-model{background:#fffefa;border:1px solid #e6e0c9;border-left:4px solid #cfad5f;border-radius:11px;padding:17px 19px;margin:17px 0}
+.scaffold-model h3{font-size:18px;margin:0 0 8px}
+.scaffold-model p{margin:9px 0;line-height:1.75}
+.scaffold-model .example-english{white-space:pre-wrap}
+.scaffold-review{border-top:1px dashed #d5e6de;margin-top:15px;padding-top:12px;font-size:15px}
+.scaffold-review p{line-height:1.7}
+.scaffold-review details{padding:8px 12px;border:1px solid #d9e5df;background:#f7fbf8;border-radius:8px}
+.scaffold-review summary{cursor:pointer;color:#1c645b;font-weight:700;line-height:1.6}
+.scaffold-review details[open] summary{margin-bottom:8px}
+.scaffold-step{scroll-margin-top:90px}
+@media(max-width:650px){.scaffold-model{padding:13px}.scaffold-review{font-size:14px}.scaffold-step h3{align-items:start}.scaffold-count{flex:none}}
+@media(forced-colors:active){.scaffold-review details,.scaffold-model{border:1px solid currentColor}}
+
+.scaffold-graphic{margin:12px 0}.scaffold-graphic img{width:100%;height:auto;border:1px solid #e2e8e1;border-radius:10px}

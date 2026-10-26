@@ -327,8 +327,8 @@
               },
               "steps": {
                 "type": "array",
-                "minItems": 2,
-                "maxItems": 5,
+                "minItems": 3,
+                "maxItems": 20,
                 "items": {
                   "type": "object",
                   "required": [
@@ -350,10 +350,38 @@
                     },
                     "why": {
                       "type": "string"
+                    },
+                    "check": {
+                      "type": "string",
+                      "minLength": 20
+                    },
+                    "checkAnswer": {
+                      "type": "string",
+                      "minLength": 10
                     }
                   },
                   "additionalProperties": false
                 }
+              },
+              "modelTitle": {
+                "type": "string",
+                "minLength": 10
+              },
+              "modelEnglish": {
+                "type": "string",
+                "minLength": 10
+              },
+              "modelIndonesian": {
+                "type": "string",
+                "minLength": 10
+              },
+              "modelImage": {
+                "type": "string",
+                "minLength": 5
+              },
+              "modelImageAlt": {
+                "type": "string",
+                "minLength": 20
               }
             },
             "additionalProperties": false

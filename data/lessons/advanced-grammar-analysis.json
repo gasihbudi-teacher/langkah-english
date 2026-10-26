@@ -13,29 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Baca struktur, bukan kata demi kata",
+          "explanation": "Kalimat panjang lebih mudah dipahami jika bagian intinya ditemukan sebelum menerjemahkan semua kata.",
           "english": "The boy who waved is my cousin.",
           "indonesian": "Anak laki-laki yang melambaikan tangan itu sepupu saya.",
-          "why": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]."
+          "why": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca struktur, bukan kata demi kata»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Who]] [[waved]] menerangkan [[boy]], bukan [[cousin]]."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Only]] membatasi pelaku yang melakukan tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Cari subjek utama",
+          "explanation": "Bedakan subjek utama dari nomina lain di dalam frasa atau klausa tambahan.",
           "english": "Only Sara read the article.",
           "indonesian": "Hanya Sara yang membaca artikel itu.",
-          "why": "[[Only]] membatasi pelaku yang melakukan tindakan."
+          "why": "[[Only]] membatasi pelaku yang melakukan tindakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari subjek utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Only]] membatasi pelaku yang melakukan tindakan."
         },
         {
-          "title": "Uji kalimat baru",
-          "explanation": "Kalimat inti mana yang tetap lengkap jika bagian tambahan dihapus? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Cari verba utama",
+          "explanation": "Temukan predikat utama, lalu periksa tense atau pasifnya agar pesan inti tidak tertukar.",
+          "english": "Sara only read the article.",
+          "indonesian": "Sara hanya membaca artikel itu.",
+          "why": "[[Only]] membatasi tindakan; mungkin [[Sara]] tidak merangkum atau membahasnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari verba utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Only]] membatasi tindakan; mungkin [[Sara]] tidak merangkum atau membahasnya."
+        },
+        {
+          "title": "Pisahkan main clause",
+          "explanation": "Tuliskan gagasan yang masih berdiri jika informasi tambahan sementara disisihkan.",
+          "english": "The teacher said the test was easy.",
+          "indonesian": "Guru mengatakan bahwa tes itu mudah.",
+          "why": "[[The]] [[test]] [[was]] [[easy]] adalah klausa isi dari [[said]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pisahkan main clause»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[The]] [[test]] [[was]] [[easy]] adalah klausa isi dari [[said]]."
+        },
+        {
+          "title": "Kenali subordinate clause",
+          "explanation": "Klausa pengikut bisa menyatakan alasan, waktu, kondisi, atau informasi yang melengkapi predikat.",
+          "english": "The teacher, who was smiling, said the test was easy.",
+          "indonesian": "Guru, yang sedang tersenyum, mengatakan bahwa tes itu mudah.",
+          "why": "[[Who]] [[was]] [[smiling]] adalah sisipan; inti pesan tetap [[teacher]] [[said]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali subordinate clause»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Who]] [[was]] [[smiling]] adalah sisipan; inti pesan tetap [[teacher]] [[said]]."
+        },
+        {
+          "title": "Kenali penjelas noun",
+          "explanation": "Relative clause atau frasa lain dapat menjelaskan nomina tertentu; jangan menghubungkannya dengan nomina yang keliru.",
+          "english": "Not all students agreed.",
+          "indonesian": "Tidak semua siswa setuju.",
+          "why": "[[Not]] [[all]] berarti sebagian mungkin tidak setuju; bukan semua menolak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali penjelas noun»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Not]] [[all]] berarti sebagian mungkin tidak setuju; bukan semua menolak."
+        },
+        {
+          "title": "Kenali keterangan tindakan",
+          "explanation": "Cari ekspresi waktu, cara, atau sebab yang menjelaskan tindakan utama maupun keseluruhan proposisi.",
+          "english": "The article that you recommended was not written by the researcher.",
+          "indonesian": "Artikel yang kamu rekomendasikan itu tidak ditulis oleh peneliti tersebut.",
+          "why": "Klausa [[that you recommended]] menerangkan [[the article]], sedangkan [[was not written]] adalah predikat pasif kalimat utama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali keterangan tindakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klausa [[that you recommended]] menerangkan [[the article]], sedangkan [[was not written]] adalah predikat pasif kalimat utama."
+        },
+        {
+          "title": "Tense dan modality",
+          "explanation": "Periksa apakah penulis menyatakan fakta, kemungkinan, kewajiban, atau peristiwa dengan acuan waktu tertentu.",
+          "english": "Only the students who registered early received an email.",
+          "indonesian": "Hanya siswa yang mendaftar lebih awal yang menerima surel.",
+          "why": "[[Who registered early]] membatasi kelompok siswa; [[only]] mempersempit siapa yang menerima surel.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tense dan modality»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Who registered early]] membatasi kelompok siswa; [[only]] mempersempit siapa yang menerima surel."
+        },
+        {
+          "title": "Negasi dan pembatas",
+          "explanation": "[[Not all]] berbeda dari [[none]]; posisi [[only]] juga mengubah lingkup klaim.",
+          "english": "The article that the class discussed yesterday was revised after the editor checked its sources.",
+          "indonesian": "Artikel yang dibahas kelas kemarin direvisi setelah editor memeriksa sumbernya.",
+          "why": "Cari [[subject]] utama [[the]] [[article]] dan [[verb]] utama [[was]] [[revised]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negasi dan pembatas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Cari [[subject]] utama [[the]] [[article]] dan [[verb]] utama [[was]] [[revised]]."
+        },
+        {
+          "title": "Pertanggungjawabkan makna",
+          "explanation": "Uraikan satu kalimat akademik kompleks dan pilih tafsir yang didukung struktur, bukan yang sekadar terdengar wajar.",
+          "english": "Although the proposal seems affordable, the committee has not explained how maintenance costs will be covered.",
+          "indonesian": "Walaupun usulan itu tampak terjangkau, komite belum menjelaskan bagaimana biaya perawatannya akan ditanggung.",
+          "why": "[[Although]] membatasi klaim; [[has]] [[not]] [[explained]] menegaskan kekurangan bukti.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanggungjawabkan makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Although]] membatasi klaim; [[has]] [[not]] [[explained]] menegaskan kekurangan bukti."
         }
       ]
     },

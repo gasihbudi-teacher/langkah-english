@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini tahap awal sebuah proses alam. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Menjelaskan bagaimana/mengapa",
+          "explanation": "[[Explanation text]] menyampaikan proses atau sebab fenomena, bukan hanya mencatat urutan aktivitas seseorang.",
           "english": "Warm air rises.",
           "indonesian": "Udara hangat naik.",
-          "why": "Ini tahap awal sebuah proses alam."
+          "why": "Ini tahap awal sebuah proses alam.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «menjelaskan bagaimana/mengapa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini tahap awal sebuah proses alam."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kalimat menyatakan tahap berikutnya. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Fenomena inti",
+          "explanation": "Tentukan peristiwa alam atau sosial yang memerlukan penjelasan.",
           "english": "Rising air cools.",
           "indonesian": "Udara yang naik mengalami pendinginan.",
-          "why": "Kalimat menyatakan tahap berikutnya."
+          "why": "Kalimat menyatakan tahap berikutnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fenomena inti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menyatakan tahap berikutnya."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Kondisi awal",
+          "explanation": "Cari keadaan yang memungkinkan proses dimulai, bukan langsung melompat ke hasil.",
+          "english": "Water vapour condenses into droplets.",
+          "indonesian": "Uap air mengembun menjadi tetesan.",
+          "why": "[[Condenses]] menjelaskan perubahan keadaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kondisi awal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Condenses]] menjelaskan perubahan keadaan."
+        },
+        {
+          "title": "Tahap pertama",
+          "explanation": "Pahami perubahan awal dan unsur apa yang terlibat.",
+          "english": "Plants need sunlight to make food.",
+          "indonesian": "Tumbuhan membutuhkan sinar matahari untuk membuat makanan.",
+          "why": "Menyatakan kondisi yang diperlukan suatu proses.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tahap pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Menyatakan kondisi yang diperlukan suatu proses."
+        },
+        {
+          "title": "Tahap lanjutan",
+          "explanation": "Hubungkan perubahan berikutnya dengan kondisi yang dihasilkan tahap sebelumnya.",
+          "english": "As sunlight reaches the leaves, photosynthesis begins.",
+          "indonesian": "Ketika sinar matahari mencapai daun, fotosintesis dimulai.",
+          "why": "[[As]] menandai hubungan waktu dalam mekanisme.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tahap lanjutan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[As]] menandai hubungan waktu dalam mekanisme."
+        },
+        {
+          "title": "Petunjuk sebab",
+          "explanation": "[[Because]], [[therefore]], atau kata sejenis membantu menyatakan hubungan penyebab dengan akibat.",
+          "english": "When warm air cools, water vapour can condense into droplets.",
+          "indonesian": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
+          "why": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «petunjuk sebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
+        },
+        {
+          "title": "Urutan bukan sebab",
+          "explanation": "Dua peristiwa yang terjadi berurutan belum tentu saling menyebabkan.",
+          "english": "As the temperature falls, the metal contracts slightly.",
+          "indonesian": "Ketika suhu turun, logam sedikit menyusut.",
+          "why": "Kalimat menjelaskan proses fisik melalui hubungan antara perubahan suhu dan hasilnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutan bukan sebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menjelaskan proses fisik melalui hubungan antara perubahan suhu dan hasilnya."
+        },
+        {
+          "title": "Rangkaian utuh",
+          "explanation": "Jelaskan bagaimana tiap tahap menjawab pertanyaan tentang fenomena awal.",
+          "english": "When rainwater enters the soil, some of it moves downward through tiny spaces between particles.",
+          "indonesian": "Ketika air hujan masuk ke tanah, sebagian bergerak turun melalui celah kecil antarpartikel.",
+          "why": "[[When]] menunjukkan urutan; [[through]] menunjukkan jalur gerak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rangkaian utuh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[When]] menunjukkan urutan; [[through]] menunjukkan jalur gerak."
+        },
+        {
+          "title": "Periksa penjelasan",
+          "explanation": "Temukan tahap yang hilang atau hubungan kausal yang belum memiliki penjelasan memadai.",
+          "english": "Because the surface cools overnight, moisture in the air may turn into small drops of water.",
+          "indonesian": "Karena permukaan mendingin pada malam hari, kelembapan udara dapat berubah menjadi tetesan air kecil.",
+          "why": "[[Because]] menjelaskan sebab dalam proses kondensasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa penjelasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Because]] menjelaskan sebab dalam proses kondensasi."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Rain forms when water evaporates from oceans, rivers, or lakes. The water vapour rises and cools. As it cools, tiny droplets form clouds. When droplets become heavy enough, they fall as rain.",
+      "modelIndonesian": "Hujan terbentuk ketika air menguap dari laut, sungai, atau danau. Uap air naik dan mendingin. Saat mendingin, tetesan kecil membentuk awan. Ketika tetesan cukup berat, tetesan itu jatuh sebagai hujan."
     },
     {
       "type": "synthesis",

@@ -13,31 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Mana klaim, alasan, bukti, dan keberatan pembaca? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Mana klaim, alasan, bukti, dan keberatan pembaca? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini klaim yang memerlukan alasan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Mengapa ada perdebatan?",
+          "explanation": "[[Argumentative text]] mencoba mempertahankan posisi tentang isu yang dapat diperdebatkan.",
           "english": "Digital payments can be convenient.",
           "indonesian": "Pembayaran digital dapat praktis.",
-          "why": "Ini klaim yang memerlukan alasan."
+          "why": "Ini klaim yang memerlukan alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa ada perdebatan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini klaim yang memerlukan alasan."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan yang mendukung klaim. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Identifikasi isu",
+          "explanation": "Tentukan pertanyaan yang sedang dijawab sebelum menilai sikap penulis.",
+          "english": "Digital payments can be convenient.",
+          "indonesian": "Pembayaran digital dapat praktis.",
+          "why": "Ini klaim yang memerlukan alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «identifikasi isu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini klaim yang memerlukan alasan."
+        },
+        {
+          "title": "Posisi penulis",
+          "explanation": "Cari klaim utama yang ingin dibenarkan penulis.",
+          "english": "Digital payments can be convenient.",
+          "indonesian": "Pembayaran digital dapat praktis.",
+          "why": "Ini klaim yang memerlukan alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «posisi penulis»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini klaim yang memerlukan alasan."
+        },
+        {
+          "title": "Alasan pendukung",
+          "explanation": "Tandai mengapa penulis mendukung posisi itu.",
           "english": "They can reduce the need to carry cash.",
           "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-          "why": "Ini alasan yang mendukung klaim."
+          "why": "Ini alasan yang mendukung klaim.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan pendukung»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan yang mendukung klaim."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Mana klaim, alasan, bukti, dan keberatan pembaca? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Bukti untuk alasan",
+          "explanation": "Hubungkan contoh atau informasi faktual dengan alasan tertentu.",
+          "english": "Some students prefer digital payments.",
+          "indonesian": "Sebagian siswa lebih suka pembayaran digital.",
+          "why": "Klaim lebih terbatas dan mungkin dapat diuji.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukti untuk alasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klaim lebih terbatas dan mungkin dapat diuji."
+        },
+        {
+          "title": "Ada pandangan lawan",
+          "explanation": "[[Counterargument]] menyatakan keberatan yang mungkin diajukan pihak lain.",
+          "english": "Some users may lack internet access.",
+          "indonesian": "Sebagian pengguna mungkin tidak memiliki akses internet.",
+          "why": "Ini keberatan atau keterbatasan yang perlu dipertimbangkan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ada pandangan lawan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini keberatan atau keterbatasan yang perlu dipertimbangkan."
+        },
+        {
+          "title": "Tandai counterargument",
+          "explanation": "Jangan mengira pendapat lawan adalah pendapat penulis hanya karena muncul dalam teks.",
+          "english": "Some people worry about security; however, careful verification may reduce the risk.",
+          "indonesian": "Sebagian orang khawatir tentang keamanan; namun, pemeriksaan yang teliti dapat mengurangi risikonya.",
+          "why": "Kalimat pertama menyatakan [[counterargument]] dan kalimat kedua memberikan tanggapan terbatas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tandai counterargument»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat pertama menyatakan [[counterargument]] dan kalimat kedua memberikan tanggapan terbatas."
+        },
+        {
+          "title": "Baca rebuttal",
+          "explanation": "[[Rebuttal]] merupakan jawaban penulis terhadap keberatan, bukan pengulangan klaim semula.",
+          "english": "Some parents say a later start makes transport difficult. Schools could test new routes first.",
+          "indonesian": "Sebagian orang tua mengatakan bahwa jam mulai lebih siang menyulitkan transportasi. Sekolah dapat lebih dahulu menguji rute baru.",
+          "why": "Kalimat kedua menjawab keberatan transportasi melalui tindakan yang relevan, bukan sekadar mengulang posisi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca rebuttal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat kedua menjawab keberatan transportasi melalui tindakan yang relevan, bukan sekadar mengulang posisi."
+        },
+        {
+          "title": "Uji tanggapan",
+          "explanation": "Periksa apakah rebuttal benar-benar menjawab masalah yang diajukan, bukan menghindarinya.",
+          "english": "Although digital payment is fast for connected users, cash remains useful when a network fails.",
+          "indonesian": "Walaupun pembayaran digital cepat bagi pengguna yang terhubung, uang tunai tetap berguna saat jaringan gagal.",
+          "why": "Kalimat mempertimbangkan dua keadaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «uji tanggapan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat mempertimbangkan dua keadaan."
+        },
+        {
+          "title": "Rancang argumen lengkap",
+          "explanation": "Susun klaim, alasan, bukti, keberatan yang adil, dan tanggapan yang masuk akal.",
+          "english": "A fair school policy could allow both payment methods while teaching students how to protect their accounts.",
+          "indonesian": "Kebijakan sekolah yang adil dapat mengizinkan kedua metode sekaligus mengajarkan keamanan akun.",
+          "why": "Solusi mempertimbangkan manfaat dan kekhawatiran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rancang argumen lengkap»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Solusi mempertimbangkan manfaat dan kekhawatiran."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Schools should consider starting classes a little later because students need adequate rest. Some parents argue that later classes make transport difficult. This concern is important, but schools could test different transport schedules before changing the timetable permanently.",
+      "modelIndonesian": "Sekolah sebaiknya mempertimbangkan memulai pelajaran sedikit lebih siang karena siswa membutuhkan istirahat yang cukup. Sebagian orang tua berpendapat bahwa jam pelajaran lebih siang menyulitkan transportasi. Kekhawatiran ini penting, tetapi sekolah dapat menguji jadwal transportasi berbeda sebelum mengubah jadwal secara permanen."
     },
     {
       "type": "synthesis",

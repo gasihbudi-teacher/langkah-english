@@ -13,25 +13,70 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kegiatan berlangsung",
+          "explanation": "Bedakan kegiatan yang tengah berlangsung dari kebiasaan. Konteks yang dibicarakan menentukan pemilihan bentuk.",
           "english": "I am reading a story now.",
           "indonesian": "Saya sedang membaca cerita sekarang.",
-          "why": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini."
+          "why": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kegiatan berlangsung»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[He]] memakai [[is]] + [[drawing]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "He is drawing a map.",
-          "indonesian": "Dia sedang menggambar peta.",
-          "why": "[[He]] memakai [[is]] + [[drawing]]."
+          "title": "Kegiatan sementara",
+          "explanation": "[[Present continuous]] dapat menggambarkan situasi sementara sekitar masa kini, bukan hanya detik ini.",
+          "english": "They are waiting outside.",
+          "indonesian": "Mereka sedang menunggu di luar.",
+          "why": "[[They]] memakai [[are]] + [[waiting]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kegiatan sementara»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[They]] memakai [[are]] + [[waiting]]."
+        },
+        {
+          "title": "Pilih am/is/are",
+          "explanation": "Kenali subjek lalu pilih bentuk [[be]] yang cocok sebelum menambahkan verba kegiatan.",
+          "english": "She usually walks, but today she is cycling.",
+          "indonesian": "Biasanya dia berjalan kaki, tetapi hari ini dia sedang bersepeda.",
+          "why": "[[Walks]] menunjukkan kebiasaan; [[is]] [[cycling]] menunjukkan kegiatan sementara.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih am/is/are»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Walks]] menunjukkan kebiasaan; [[is]] [[cycling]] menunjukkan kegiatan sementara."
+        },
+        {
+          "title": "Bentuk -ing",
+          "explanation": "Bentuk [[verb-ing]] mengalami perubahan ejaan tertentu seperti [[write → writing]] dan [[run → running]].",
+          "english": "Do they study every day?",
+          "indonesian": "Apakah mereka belajar setiap hari?",
+          "why": "[[Do]] + [[verb]] dasar menanyakan rutinitas, bukan kegiatan saat ini.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bentuk -ing»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Do]] + [[verb]] dasar menanyakan rutinitas, bukan kegiatan saat ini."
+        },
+        {
+          "title": "Kalimat afirmatif",
+          "explanation": "Gabungkan [[subject + am/is/are + verb-ing]] untuk menyatakan tindakan yang sedang berlangsung.",
+          "english": "The students are preparing posters at the moment.",
+          "indonesian": "Para siswa sedang menyiapkan poster saat ini.",
+          "why": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat afirmatif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung."
+        },
+        {
+          "title": "Negatif dan pertanyaan",
+          "explanation": "Letakkan [[not]] setelah [[be]] untuk negatif; pindahkan [[be]] sebelum subjek untuk pertanyaan.",
+          "english": "Is she reading now?",
+          "indonesian": "Apakah dia sedang membaca sekarang?",
+          "why": "Bentuk [[is]] dipindahkan ke depan subjek untuk pertanyaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif dan pertanyaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Bentuk [[is]] dipindahkan ke depan subjek untuk pertanyaan."
+        },
+        {
+          "title": "Bandingkan dengan simple present",
+          "explanation": "Gunakan kegiatan sama dalam dua konteks: [[She reads every night]] berbeda dengan [[She is reading now]].",
+          "english": "Look! The children are crossing the street while the guard is watching them.",
+          "indonesian": "Lihat! Anak-anak sedang menyeberang jalan sementara petugas menjaga mereka.",
+          "why": "Dua tindakan berlangsung bersamaan; gunakan bentuk [[continuous]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan dengan simple present»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua tindakan berlangsung bersamaan; gunakan bentuk [[continuous]]."
         }
       ]
     },

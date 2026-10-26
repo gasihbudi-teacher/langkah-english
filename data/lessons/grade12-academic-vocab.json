@@ -13,27 +13,84 @@
     },
     {
       "type": "scaffold",
-      "intro": "Hubungan ide apa yang ditandai kata ini? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Hubungan ide apa yang ditandai kata ini? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
-        },
-        {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. [[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kata akademik punya konteks",
+          "explanation": "Arti kata dalam bacaan ilmiah tidak selalu sama dengan terjemahan yang paling sering dikenal.",
           "english": "The results suggest improvement.",
           "indonesian": "Hasilnya mengisyaratkan peningkatan.",
-          "why": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
+          "why": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata akademik punya konteks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Significant]] dapat mempunyai arti umum atau teknis; cek konteks. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Temukan kata sasaran",
+          "explanation": "Tandai kata asing tetapi jangan berhenti membaca satu kata saja.",
           "english": "The result was significant.",
           "indonesian": "Hasilnya penting / signifikan.",
-          "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
+          "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan kata sasaran»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
+        },
+        {
+          "title": "Lihat kelas katanya",
+          "explanation": "Apakah kata itu nomina, verba, adjektiva, atau adverbia? Fungsi membatasi kemungkinan maknanya.",
+          "english": "The study proves the idea.",
+          "indonesian": "Penelitian itu membuktikan gagasan tersebut.",
+          "why": "[[Proves]] adalah klaim jauh lebih kuat daripada [[suggests]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «lihat kelas katanya»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Proves]] adalah klaim jauh lebih kuat daripada [[suggests]]."
+        },
+        {
+          "title": "Baca satu kalimat utuh",
+          "explanation": "Tentukan gagasan pokok kalimat dan posisi kata sasaran di dalamnya.",
+          "english": "The study suggests the idea.",
+          "indonesian": "Penelitian itu mengisyaratkan gagasan tersebut.",
+          "why": "[[Suggests]] lebih berhati-hati: belum menyatakan kepastian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca satu kalimat utuh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Suggests]] lebih berhati-hati: belum menyatakan kepastian."
+        },
+        {
+          "title": "Cari definisi dan contoh",
+          "explanation": "Penulis kadang menjelaskan istilah melalui pengertian atau contoh di dekatnya.",
+          "english": "The two methods differ; however, both are useful.",
+          "indonesian": "Kedua metode berbeda; namun, keduanya berguna.",
+          "why": "[[However]] menghubungkan dua gagasan yang berkontras.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari definisi dan contoh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[However]] menghubungkan dua gagasan yang berkontras."
+        },
+        {
+          "title": "Cari perbandingan dan kontras",
+          "explanation": "[[However]], [[unlike]], atau [[because]] dapat memberi petunjuk hubungan makna.",
+          "english": "The results suggest a possible connection; however, they do not establish the cause.",
+          "indonesian": "Hasilnya menunjukkan kemungkinan hubungan; namun, hasil tersebut tidak menetapkan penyebabnya.",
+          "why": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari perbandingan dan kontras»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan."
+        },
+        {
+          "title": "Uji tebakan",
+          "explanation": "Masukkan makna sementara ke kalimat dan periksa apakah logika paragraf tetap utuh.",
+          "english": "The researchers maintained detailed records so their findings could be checked later.",
+          "indonesian": "Para peneliti menyimpan catatan terperinci agar temuannya dapat diperiksa kemudian.",
+          "why": "[[Maintained]] di sini bermakna terus menjaga atau menyimpan dengan baik.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «uji tebakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Maintained]] di sini bermakna terus menjaga atau menyimpan dengan baik."
+        },
+        {
+          "title": "Kenali kadar kepastian",
+          "explanation": "Kata seperti [[suggest]], [[indicate]], dan [[prove]] memiliki kekuatan klaim berbeda; jangan menyamakannya.",
+          "english": "Although the sample was limited, the findings provide preliminary evidence of a possible trend.",
+          "indonesian": "Walaupun sampelnya terbatas, temuannya memberi bukti awal tentang kemungkinan tren.",
+          "why": "[[Preliminary]] dan [[possible]] membatasi tingkat kepastian klaim ilmiah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali kadar kepastian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Preliminary]] dan [[possible]] membatasi tingkat kepastian klaim ilmiah."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "The researchers observed a gradual decline in noise levels. However, the findings were limited to two classrooms. The results suggest a possible benefit, but they do not prove that the method will work everywhere.",
+      "modelIndonesian": "Para peneliti mengamati penurunan bertahap tingkat kebisingan. Namun, temuan itu terbatas pada dua ruang kelas. Hasilnya menunjukkan kemungkinan manfaat, tetapi tidak membuktikan bahwa metode tersebut akan berhasil di semua tempat."
     },
     {
       "type": "synthesis",

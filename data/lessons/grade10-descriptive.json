@@ -13,31 +13,66 @@
     },
     {
       "type": "scaffold",
-      "intro": "Detail apa yang membuat objek ini berbeda dari yang lain? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Detail apa yang membuat objek ini berbeda dari yang lain? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. [[Spacious]] menyatakan kualitas ruang. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Subjek dan tujuan deskripsi",
+          "explanation": "Tanyakan tempat atau benda apa yang ingin dibayangkan pembaca.",
           "english": "The classroom is spacious.",
           "indonesian": "Ruang kelas itu luas.",
-          "why": "[[Spacious]] menyatakan kualitas ruang."
+          "why": "[[Spacious]] menyatakan kualitas ruang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «subjek dan tujuan deskripsi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Spacious]] menyatakan kualitas ruang."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Identifikasi umum",
+          "explanation": "Temukan kalimat pembuka yang memperkenalkan objek sebelum membaca sifat rinci.",
+          "english": "The classroom is spacious.",
+          "indonesian": "Ruang kelas itu luas.",
+          "why": "[[Spacious]] menyatakan kualitas ruang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «identifikasi umum»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Spacious]] menyatakan kualitas ruang."
+        },
+        {
+          "title": "Ciri yang tampak",
+          "explanation": "Periksa adjektiva ukuran, warna, bahan, atau bentuk yang menggambarkan objek.",
           "english": "A wooden desk stands near the window.",
           "indonesian": "Meja kayu berada di dekat jendela.",
-          "why": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
+          "why": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ciri yang tampak»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Detail apa yang membuat objek ini berbeda dari yang lain? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Detail inderawi dan lokasi",
+          "explanation": "Baca keterangan bau, suara, dan posisi sebagai bagian dari gambaran, bukan fakta yang diada-adakan.",
+          "english": "The air smells fresh after rain.",
+          "indonesian": "Udara berbau segar setelah hujan.",
+          "why": "[[Smells]] menggambarkan kesan inderawi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «detail inderawi dan lokasi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Smells]] menggambarkan kesan inderawi."
+        },
+        {
+          "title": "Susun detail yang berkaitan",
+          "explanation": "Kelompokkan ciri luar, keadaan, dan suasana agar paragraf lebih mudah diikuti.",
+          "english": "The reading room faces a small pond, and sunlight enters through two glass doors.",
+          "indonesian": "Ruang baca menghadap kolam kecil, dan sinar matahari masuk melalui dua pintu kaca.",
+          "why": "Keterangan tempat dan detail visual membantu pembaca membayangkan ruangan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «susun detail yang berkaitan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Keterangan tempat dan detail visual membantu pembaca membayangkan ruangan."
+        },
+        {
+          "title": "Tulis deskripsi akurat",
+          "explanation": "Buat deskripsi singkat dan gunakan informasi yang dinyatakan atau bisa diamati, tanpa menambah klaim tanpa dasar.",
+          "english": "During the afternoon, the market becomes lively with colourful stalls and the smell of fresh bread.",
+          "indonesian": "Pada sore hari, pasar menjadi ramai dengan kios berwarna-warni dan aroma roti segar.",
+          "why": "[[Lively]], [[colourful]], dan [[smell]] menghadirkan suasana dengan beberapa indera.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tulis deskripsi akurat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Lively]], [[colourful]], dan [[smell]] menghadirkan suasana dengan beberapa indera."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "The new school library stands beside a small garden. Its windows are wide, and sunlight fills the reading room. Wooden tables are arranged near the shelves. The room smells fresh after the morning rain. Students can read quietly there.",
+      "modelIndonesian": "Perpustakaan sekolah yang baru berdiri di samping taman kecil. Jendelanya lebar, dan sinar matahari memenuhi ruang baca. Meja kayu tertata di dekat rak. Ruangan berbau segar setelah hujan pagi. Siswa dapat membaca dengan tenang di sana."
     },
     {
       "type": "synthesis",

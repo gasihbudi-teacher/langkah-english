@@ -13,29 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Kata apa yang muncul tepat sebelum kegiatan kedua? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Kata apa yang muncul tepat sebelum kegiatan kedua? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
+          "title": "Kenali bentuk verba",
+          "explanation": "Bentuk [[-ing]] dan [[to + verb]] dapat muncul di posisi berbeda; jangan menebak fungsinya dari terjemahan saja.",
+          "english": "Reading helps me relax.",
+          "indonesian": "Membaca membantu saya merasa rileks.",
+          "why": "[[Reading]] adalah bentuk [[-ing]] yang menamai kegiatan dan menjadi subjek, bukan bagian dari present continuous.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali bentuk verba»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Reading]] adalah bentuk [[-ing]] yang menamai kegiatan dan menjadi subjek, bukan bagian dari present continuous."
         },
         {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Enjoy]] diikuti bentuk [[verb-ing]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "I enjoy reading.",
-          "indonesian": "Saya menikmati membaca.",
-          "why": "[[Enjoy]] diikuti bentuk [[verb-ing]]."
+          "title": "Gerund sebagai nomina",
+          "explanation": "[[Reading]] dapat menjadi pokok kegiatan atau objek sebuah verba; ini berbeda dari [[is reading]] yang berbentuk kontinu.",
+          "english": "Reading helps me relax.",
+          "indonesian": "Membaca membantu saya merasa rileks.",
+          "why": "[[Reading]] berfungsi seperti nomina karena menempati posisi subjek.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gerund sebagai nomina»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Reading]] berfungsi seperti nomina karena menempati posisi subjek."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Decide diikuti [[to]] + [[verb]] dasar. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Gerund dalam kalimat",
+          "explanation": "Periksa verba yang mendahului kegiatan: [[enjoy reading]], bukan [[enjoy to read]] dalam penggunaan biasa.",
+          "english": "They are good at swimming.",
+          "indonesian": "Mereka pandai berenang.",
+          "why": "Setelah [[preposition]] [[at]], gunakan [[verb-ing]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gerund dalam kalimat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Setelah [[preposition]] [[at]], gunakan [[verb-ing]]."
+        },
+        {
+          "title": "Kenali to-infinitive",
+          "explanation": "[[To read]] dapat mengikuti verba seperti [[decide]], atau menyatakan tujuan suatu kegiatan.",
           "english": "She decided to leave.",
           "indonesian": "Dia memutuskan untuk pergi.",
-          "why": "Decide diikuti [[to]] + [[verb]] dasar."
+          "why": "[[Decided]] dapat diikuti [[to leave]]; [[to]] adalah bagian penanda infinitive.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali to-infinitive»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Decided]] dapat diikuti [[to leave]]; [[to]] adalah bagian penanda infinitive."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Kata apa yang muncul tepat sebelum kegiatan kedua? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Verba yang memilih gerund",
+          "explanation": "Pelajari pola yang lazim seperti [[enjoy/avoid/practise + -ing]] melalui kalimat utuh.",
+          "english": "I enjoy reading.",
+          "indonesian": "Saya menikmati membaca.",
+          "why": "[[Enjoy]] secara lazim diikuti gerund [[reading]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba yang memilih gerund»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Enjoy]] secara lazim diikuti gerund [[reading]]."
+        },
+        {
+          "title": "Verba yang memilih infinitive",
+          "explanation": "Pelajari [[decide/hope/agree + to + verb]] melalui situasi yang masuk akal.",
+          "english": "She decided to leave.",
+          "indonesian": "Dia memutuskan untuk pergi.",
+          "why": "[[Decided]] secara lazim diikuti [[to + verb]] dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba yang memilih infinitive»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Decided]] secara lazim diikuti [[to + verb]] dasar."
+        },
+        {
+          "title": "Setelah preposition",
+          "explanation": "Sesudah preposisi seperti [[before]] dan [[without]], kegiatan lazim dinyatakan dengan bentuk [[-ing]].",
+          "english": "They agreed to meet after finishing the assignment.",
+          "indonesian": "Mereka sepakat bertemu setelah menyelesaikan tugas.",
+          "why": "[[Agreed to meet]] memakai infinitif, sedangkan [[after finishing]] memakai gerund sesudah preposisi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «setelah preposition»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Agreed to meet]] memakai infinitif, sedangkan [[after finishing]] memakai gerund sesudah preposisi."
+        },
+        {
+          "title": "Bentuk mengubah makna",
+          "explanation": "[[Stop smoking]] berbeda dari [[stop to smoke]]; perubahan bentuk dapat mengubah hubungan antara dua tindakan.",
+          "english": "Students practise summarising short articles before attempting long texts.",
+          "indonesian": "Siswa berlatih merangkum artikel pendek sebelum mencoba teks panjang.",
+          "why": "[[Practise]] dan [[before]] diikuti bentuk [[-ing]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bentuk mengubah makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Practise]] dan [[before]] diikuti bentuk [[-ing]]."
+        },
+        {
+          "title": "Pilih dari konteks",
+          "explanation": "Tentukan pola yang diperlukan setelah kata sebelumnya lalu periksa arti keseluruhan kalimat.",
+          "english": "The team hopes to finish the project without working late.",
+          "indonesian": "Tim berharap menyelesaikan proyek tanpa bekerja hingga larut.",
+          "why": "[[Hopes]] + [[to-infinitive]], sedangkan [[without]] + [[-ing]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih dari konteks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Hopes]] + [[to-infinitive]], sedangkan [[without]] + [[-ing]]."
         }
       ]
     },

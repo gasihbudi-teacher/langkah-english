@@ -13,25 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
+          "title": "Kalimat menyampaikan gagasan",
+          "explanation": "Mulai dari kalimat yang jelas: ada sesuatu yang dibicarakan dan predikat yang menyatakan tindakan atau keadaan, bukan hanya deretan kata.",
+          "english": "Birds fly.",
+          "indonesian": "Burung terbang.",
+          "why": "[[Birds]] adalah subjek dan [[fly]] predikat berupa verba; keduanya sudah mengungkapkan gagasan lengkap.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat menyampaikan gagasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Birds]] adalah subjek dan [[fly]] predikat berupa verba; keduanya sudah mengungkapkan gagasan lengkap."
         },
         {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "Birds sing.",
-          "indonesian": "Burung-burung bernyanyi.",
-          "why": "[[Birds]] adalah [[subject]]; [[sing]] adalah [[verb]]. Dua unsur ini membentuk kalimat lengkap."
-        },
-        {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Temukan subject",
+          "explanation": "[[Subject]] adalah siapa atau apa yang menjadi pokok pembicaraan. Dalam kalimat tindakan sederhana, subjek sering menjadi pelaku.",
           "english": "Mira reads books.",
           "indonesian": "Mira membaca buku.",
-          "why": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
+          "why": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan subject»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
+        },
+        {
+          "title": "Temukan verb",
+          "explanation": "[[Verb]] merupakan bagian inti predikat. Bedakan verba utama dari kata yang hanya menjelaskan nomina.",
+          "english": "The room is quiet.",
+          "indonesian": "Ruangan itu tenang.",
+          "why": "[[Quiet]] adalah [[complement]] yang menjelaskan keadaan [[subject]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan verb»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Quiet]] adalah [[complement]] yang menjelaskan keadaan [[subject]]."
+        },
+        {
+          "title": "Pola subject–verb",
+          "explanation": "Latih bentuk sederhana yang sudah utuh, misalnya subjek diikuti verba yang tidak memerlukan objek.",
+          "english": "He opened the door.",
+          "indonesian": "Dia membuka pintu.",
+          "why": "Kata [[opened]] memerlukan [[object]] [[door]] agar maknanya lebih lengkap.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pola subject–verb»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata [[opened]] memerlukan [[object]] [[door]] agar maknanya lebih lengkap."
+        },
+        {
+          "title": "Kenali object",
+          "explanation": "Sebagian verba mempunyai objek yang menerima tindakan. Temukan apa yang dibaca, dibuka, atau dibawa oleh pelaku.",
+          "english": "The door opened.",
+          "indonesian": "Pintu itu terbuka.",
+          "why": "Di sini [[opened]] tidak diikuti [[object]]; perhatikan perubahan struktur.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali object»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Di sini [[opened]] tidak diikuti [[object]]; perhatikan perubahan struktur."
+        },
+        {
+          "title": "Pola subject–verb–object",
+          "explanation": "Bandingkan kalimat tanpa objek dengan kalimat yang menambahkan objek setelah verba transitif.",
+          "english": "The new student answered the question confidently.",
+          "indonesian": "Siswa baru itu menjawab pertanyaan dengan percaya diri.",
+          "why": "[[The new student]] subjek, [[answered]] predikat, [[the question]] objek, [[confidently]] keterangan cara.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pola subject–verb–object»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[The new student]] subjek, [[answered]] predikat, [[the question]] objek, [[confidently]] keterangan cara."
+        },
+        {
+          "title": "Pola be + complement",
+          "explanation": "[[Is]], [[am]], dan [[are]] dapat menghubungkan subjek dengan sifat atau identitas. Kata setelah [[be]] bukan otomatis objek.",
+          "english": "Mira is happy.",
+          "indonesian": "Mira senang.",
+          "why": "[[Happy]] adalah pelengkap yang menjelaskan [[Mira]], bukan benda yang menerima tindakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pola be + complement»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Happy]] adalah pelengkap yang menjelaskan [[Mira]], bukan benda yang menerima tindakan."
+        },
+        {
+          "title": "Tambahkan keterangan",
+          "explanation": "Informasi waktu dan tempat dapat memperluas kalimat tanpa mengubah bagian utamanya.",
+          "english": "Because it rained, the match stopped.",
+          "indonesian": "Karena hujan turun, pertandingan berhenti.",
+          "why": "[[Because]] [[it]] [[rained]] adalah [[dependent clause]]; [[the]] [[match]] [[stopped]] adalah [[main clause]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tambahkan keterangan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Because]] [[it]] [[rained]] adalah [[dependent clause]]; [[the]] [[match]] [[stopped]] adalah [[main clause]]."
+        },
+        {
+          "title": "Perbaiki susunan kalimat",
+          "explanation": "Periksa subjek, verba, dan hubungan kata. Perbaiki fragmen, verba yang hilang, atau urutan yang meniru bahasa Indonesia.",
+          "english": "The students who arrived early found seats.",
+          "indonesian": "Para siswa yang datang lebih awal mendapat tempat duduk.",
+          "why": "[[Who]] [[arrived]] [[early]] menjelaskan [[students]]; inti kalimat tetap [[the]] [[students]] [[found]] [[seats]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perbaiki susunan kalimat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Who]] [[arrived]] [[early]] menjelaskan [[students]]; inti kalimat tetap [[the]] [[students]] [[found]] [[seats]]."
         }
       ]
     },

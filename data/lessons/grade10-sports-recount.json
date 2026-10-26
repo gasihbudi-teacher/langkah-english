@@ -13,31 +13,66 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa momen yang mengubah jalannya pertandingan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apa momen yang mengubah jalannya pertandingan? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Waktu menunjukkan kejadian tertentu di masa lalu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Siapa bertanding?",
+          "explanation": "Identifikasi cabang olahraga, tim, atau atlet agar laporan punya konteks.",
           "english": "The match began at three.",
           "indonesian": "Pertandingan dimulai pukul tiga.",
-          "why": "Waktu menunjukkan kejadian tertentu di masa lalu."
+          "why": "Waktu menunjukkan kejadian tertentu di masa lalu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa bertanding?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Waktu menunjukkan kejadian tertentu di masa lalu."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “first” menyatakan urutan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Kapan dan di mana?",
+          "explanation": "Tentukan waktu serta lokasi pertandingan untuk memahami latarnya.",
+          "english": "The match began at three.",
+          "indonesian": "Pertandingan dimulai pukul tiga.",
+          "why": "Waktu menunjukkan kejadian tertentu di masa lalu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kapan dan di mana?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Waktu menunjukkan kejadian tertentu di masa lalu."
+        },
+        {
+          "title": "Pertandingan dimulai",
+          "explanation": "Periksa peristiwa awal dan bagaimana penulis mengenalkan pertandingan.",
           "english": "Our team scored first.",
           "indonesian": "Tim kami mencetak skor lebih dulu.",
-          "why": "Kata “first” menyatakan urutan."
+          "why": "Kata “first” menyatakan urutan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertandingan dimulai»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “first” menyatakan urutan."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apa momen yang mengubah jalannya pertandingan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Momen penentu",
+          "explanation": "Temukan tindakan atau perubahan skor yang memengaruhi hasil.",
+          "english": "We felt proud afterward.",
+          "indonesian": "Kami merasa bangga setelahnya.",
+          "why": "Ini perasaan narator, bukan hasil pertandingan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «momen penentu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini perasaan narator, bukan hasil pertandingan."
+        },
+        {
+          "title": "Hasil dan kronologi",
+          "explanation": "Bedakan skor akhir dari kejadian di tengah pertandingan; urutkan informasi sesuai teks.",
+          "english": "It was the best match ever.",
+          "indonesian": "Itu pertandingan terbaik sepanjang masa.",
+          "why": "Ini penilaian pribadi penulis.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hasil dan kronologi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini penilaian pribadi penulis."
+        },
+        {
+          "title": "Fakta atau reaksi?",
+          "explanation": "Pisahkan hasil terverifikasi dari komentar seperti [[the fans were thrilled]] sebelum merangkum.",
+          "english": "After the referee ended the match, both teams thanked the volunteers who had prepared the field.",
+          "indonesian": "Setelah wasit mengakhiri pertandingan, kedua tim berterima kasih kepada relawan yang menyiapkan lapangan.",
+          "why": "“After” membantu melacak urutan kegiatan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta atau reaksi?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“After” membantu melacak urutan kegiatan."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Our school played a volleyball match on Saturday. In the first set, the other team scored more points. Our team improved its defence in the second set. We won the final set by two points. The players were delighted, but the coach reminded us to keep practising.",
+      "modelIndonesian": "Sekolah kami memainkan pertandingan bola voli pada hari Sabtu. Pada set pertama, tim lawan memperoleh lebih banyak poin. Tim kami memperbaiki pertahanan pada set kedua. Kami memenangkan set terakhir dengan selisih dua poin. Para pemain gembira, tetapi pelatih mengingatkan kami untuk terus berlatih."
     },
     {
       "type": "synthesis",

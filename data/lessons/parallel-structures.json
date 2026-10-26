@@ -13,29 +13,61 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. Tiga unsur dalam daftar sama-sama memakai [[-ing]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Bagian yang setara",
+          "explanation": "Ketika dua atau lebih unsur menjalankan peran sama, bentuknya biasanya dibuat sejajar agar mudah dipahami.",
           "english": "She likes reading, writing, and drawing.",
           "indonesian": "Dia suka membaca, menulis, dan menggambar.",
-          "why": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
+          "why": "Tiga unsur dalam daftar sama-sama memakai [[-ing]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bagian yang setara»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Careful]] dan [[patient]] sama-sama [[adjective]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "He is careful and patient.",
-          "indonesian": "Dia teliti dan sabar.",
-          "why": "[[Careful]] dan [[patient]] sama-sama [[adjective]]."
+          "title": "Daftar kata",
+          "explanation": "Bandingkan daftar sesama nomina dengan daftar yang tiba-tiba berubah menjadi verba tanpa alasan.",
+          "english": "The task requires planning and teamwork.",
+          "indonesian": "Tugas itu memerlukan perencanaan dan kerja sama.",
+          "why": "[[Planning]] dan [[teamwork]] sama-sama [[noun phrase]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «daftar kata»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Planning]] dan [[teamwork]] sama-sama [[noun phrase]]."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Daftar frasa",
+          "explanation": "Periksa apakah kegiatan dalam daftar ditulis dengan bentuk yang sebanding, misalnya [[reading, writing, and speaking]].",
+          "english": "She wants to learn and practise.",
+          "indonesian": "Dia ingin belajar dan berlatih.",
+          "why": "[[To]] dapat dipakai bersama dua [[verb]] dasar yang paralel.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «daftar frasa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[To]] dapat dipakai bersama dua [[verb]] dasar yang paralel."
+        },
+        {
+          "title": "Dua klausa setara",
+          "explanation": "Klausa yang dihubungkan dapat disusun sejajar agar hubungan gagasan jelas dan alami.",
+          "english": "He is not only intelligent but also hardworking.",
+          "indonesian": "Dia bukan hanya cerdas, melainkan juga rajin.",
+          "why": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «dua klausa setara»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]]."
+        },
+        {
+          "title": "Kata hubung berpasangan",
+          "explanation": "[[Both ... and]] serta [[either ... or]] menghubungkan unsur yang sebanding; cari pasangan yang semestinya.",
+          "english": "The course teaches students to observe, to compare, and to explain results.",
+          "indonesian": "Kursus itu mengajarkan siswa untuk mengamati, membandingkan, dan menjelaskan hasil.",
+          "why": "Tiga unsur dalam daftar memakai pola [[to]] + verba dasar secara konsisten.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata hubung berpasangan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tiga unsur dalam daftar memakai pola [[to]] + verba dasar secara konsisten."
+        },
+        {
+          "title": "Perbaiki dalam konteks",
+          "explanation": "Edit kalimat dengan [[not only ... but also]], periksa kesejajaran fungsi, dan pertahankan makna penulis.",
+          "english": "Rather than guessing quickly, students should reread the passage and examine the evidence.",
+          "indonesian": "Alih-alih menebak cepat, siswa sebaiknya membaca ulang teks dan memeriksa bukti.",
+          "why": "[[Reread]] dan [[examine]] adalah [[verb]] dasar yang sejajar setelah [[should]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perbaiki dalam konteks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Reread]] dan [[examine]] adalah [[verb]] dasar yang sejajar setelah [[should]]."
         }
       ]
     },

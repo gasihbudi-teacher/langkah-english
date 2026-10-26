@@ -13,31 +13,75 @@
     },
     {
       "type": "scaffold",
-      "intro": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini tindakan tokoh di masa lalu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Biografi berbasis fakta",
+          "explanation": "Biografi melaporkan kehidupan tokoh nyata; bedakan dari cerita imajinatif.",
           "english": "Maya started a reading club.",
           "indonesian": "Maya memulai klub membaca.",
-          "why": "Ini tindakan tokoh di masa lalu."
+          "why": "Ini tindakan tokoh di masa lalu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «biografi berbasis fakta»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini tindakan tokoh di masa lalu."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata “She” merujuk pada Maya. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Siapa tokohnya?",
+          "explanation": "Kenali nama, latar, dan bidang kontribusi orang yang dibahas.",
+          "english": "Maya started a reading club.",
+          "indonesian": "Maya memulai klub membaca.",
+          "why": "Ini tindakan tokoh di masa lalu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa tokohnya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini tindakan tokoh di masa lalu."
+        },
+        {
+          "title": "Keadaan awal",
+          "explanation": "Baca pengalaman atau masalah awal yang membentuk fokus kegiatan tokoh.",
           "english": "She invited local volunteers.",
           "indonesian": "Ia mengundang relawan setempat.",
-          "why": "Kata “She” merujuk pada Maya."
+          "why": "Kata “She” merujuk pada Maya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «keadaan awal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “She” merujuk pada Maya."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Urutkan waktu hidup",
+          "explanation": "Gunakan penanda waktu untuk menyusun perkembangan hidup secara kronologis.",
+          "english": "The club later cleaned a riverbank.",
+          "indonesian": "Klub itu kemudian membersihkan tepi sungai.",
+          "why": "“later” menandai perkembangan kegiatan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutkan waktu hidup»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“later” menandai perkembangan kegiatan."
+        },
+        {
+          "title": "Tindakan nyata",
+          "explanation": "Identifikasi proyek, kampanye, penelitian, atau pekerjaan yang benar-benar dilakukan tokoh.",
+          "english": "She organised ten clean-ups.",
+          "indonesian": "Ia menyelenggarakan sepuluh kegiatan bersih-bersih.",
+          "why": "Ini pencapaian yang dapat dihitung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tindakan nyata»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini pencapaian yang dapat dihitung."
+        },
+        {
+          "title": "Hasil yang tercatat",
+          "explanation": "Bedakan capaian yang disebutkan dari pujian umum yang tidak disertai bukti.",
+          "english": "She was the greatest leader ever.",
+          "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
+          "why": "Ini penilaian yang memerlukan kriteria.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hasil yang tercatat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini penilaian yang memerlukan kriteria."
+        },
+        {
+          "title": "Pengaruh secara proporsional",
+          "explanation": "Jelaskan hubungan tindakan dengan dampaknya tanpa mengklaim seluruh perubahan disebabkan satu orang.",
+          "english": "Although early meetings attracted only a few people, the group gradually gained more volunteers.",
+          "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit orang, kelompok itu perlahan memperoleh lebih banyak relawan.",
+          "why": "Kalimat menunjukkan perkembangan kerja tokoh.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pengaruh secara proporsional»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menunjukkan perkembangan kerja tokoh."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Maya grew up near a polluted river. As a student, she organised small clean-up days with friends. Later, she worked with local residents to record waste along the riverbank. Her group published its findings and requested more bins. The report describes these actions but does not prove they solved every problem.",
+      "modelIndonesian": "Maya tumbuh besar dekat sungai yang tercemar. Saat menjadi siswa, ia mengorganisasi kegiatan bersih-bersih kecil bersama teman-temannya. Belakangan, ia bekerja dengan warga untuk mencatat sampah di tepi sungai. Kelompoknya menerbitkan hasil pengamatan dan meminta lebih banyak tempat sampah. Laporan ini menggambarkan tindakan tersebut tetapi tidak membuktikan bahwa semua masalah telah teratasi."
     },
     {
       "type": "synthesis",

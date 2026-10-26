@@ -13,31 +13,84 @@
     },
     {
       "type": "scaffold",
-      "intro": "Tindakan konkret apa yang diminta penulis, dan mengapa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Tindakan konkret apa yang diminta penulis, dan mengapa? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Kalimat menunjukkan masalah atau posisi awal. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Tulisan mengajak bertindak",
+          "explanation": "[[Hortatory exposition]] menyatakan posisi tentang isu dan mendorong tindakan tertentu.",
           "english": "Online comments can hurt others.",
           "indonesian": "Komentar daring dapat menyakiti orang lain.",
-          "why": "Kalimat menunjukkan masalah atau posisi awal."
+          "why": "Kalimat menunjukkan masalah atau posisi awal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tulisan mengajak bertindak»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menunjukkan masalah atau posisi awal."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan pendukung. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Kenali isu",
+          "explanation": "Cari situasi atau masalah yang memerlukan tanggapan.",
+          "english": "Online comments can hurt others.",
+          "indonesian": "Komentar daring dapat menyakiti orang lain.",
+          "why": "Kalimat menunjukkan masalah atau posisi awal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali isu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menunjukkan masalah atau posisi awal."
+        },
+        {
+          "title": "Pahami posisi penulis",
+          "explanation": "Tentukan pendapat utama sebelum mengidentifikasi saran akhir.",
+          "english": "Respectful comments are important.",
+          "indonesian": "Komentar yang sopan itu penting.",
+          "why": "Ini klaim nilai.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pahami posisi penulis»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini klaim nilai."
+        },
+        {
+          "title": "Alasan pertama",
+          "explanation": "Periksa mengapa masalah itu dianggap penting.",
           "english": "Harsh words may discourage participation.",
           "indonesian": "Kata-kata kasar bisa membuat orang enggan berpartisipasi.",
-          "why": "Ini alasan pendukung."
+          "why": "Ini alasan pendukung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan pendukung."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Tindakan konkret apa yang diminta penulis, dan mengapa? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Bukti dan alasan lanjutan",
+          "explanation": "Amati contoh dan alasan tambahan yang mendukung tindakan yang akan disarankan.",
+          "english": "Because words can be misread without facial expressions, students should reread messages before sending them.",
+          "indonesian": "Karena kata-kata bisa disalahpahami tanpa ekspresi wajah, siswa sebaiknya membaca ulang pesan sebelum mengirim.",
+          "why": "Alasan dan rekomendasi dihubungkan secara jelas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukti dan alasan lanjutan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Alasan dan rekomendasi dihubungkan secara jelas."
+        },
+        {
+          "title": "Cari rekomendasi",
+          "explanation": "Tentukan apa yang secara konkret diminta atau disarankan kepada pembaca.",
+          "english": "The school should provide refill stations.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air.",
+          "why": "[[Should provide]] menyebut tindakan konkret yang direkomendasikan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari rekomendasi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Should provide]] menyebut tindakan konkret yang direkomendasikan."
+        },
+        {
+          "title": "Bukan simpulan biasa",
+          "explanation": "[[We should ...]] dapat berfungsi sebagai rekomendasi; pengulangan posisi tanpa tindakan belum tentu sama.",
+          "english": "Plastic waste is increasing. Therefore, students should bring reusable bottles.",
+          "indonesian": "Sampah plastik bertambah. Karena itu, siswa sebaiknya membawa botol pakai ulang.",
+          "why": "Kalimat kedua meminta tindakan konkret; bukan hanya mengulang bahwa sampah adalah masalah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukan simpulan biasa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat kedua meminta tindakan konkret; bukan hanya mengulang bahwa sampah adalah masalah."
+        },
+        {
+          "title": "Uji hubungan dengan alasan",
+          "explanation": "Periksa apakah rekomendasi benar-benar mengikuti bukti dan pertimbangan yang diberikan.",
+          "english": "Refill stations can reduce single-use bottles, so the school should consider installing them.",
+          "indonesian": "Tempat isi ulang dapat mengurangi botol sekali pakai, jadi sekolah sebaiknya mempertimbangkan pemasangannya.",
+          "why": "Rekomendasi pemasangan mengikuti alasan mengenai pengurangan botol sekali pakai.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «uji hubungan dengan alasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Rekomendasi pemasangan mengikuti alasan mengenai pengurangan botol sekali pakai."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Plastic waste is increasing around our school. Single-use containers add to the rubbish, and bins fill quickly. The school should provide refill stations and encourage reusable bottles. Students can begin by bringing their own bottles tomorrow.",
+      "modelIndonesian": "Sampah plastik bertambah di sekitar sekolah kami. Wadah sekali pakai menambah sampah, dan tempat sampah cepat penuh. Sekolah sebaiknya menyediakan tempat isi ulang dan mendorong penggunaan botol pakai ulang. Para siswa dapat memulai dengan membawa botol sendiri besok."
     },
     {
       "type": "synthesis",

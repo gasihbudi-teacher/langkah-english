@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah kondisi pembanding cukup setara untuk menjelaskan hasilnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Baca pertanyaan secara teliti",
-          "explanation": "Apakah kondisi pembanding cukup setara untuk menjelaskan hasilnya? Jawaban yang terdengar masuk akal belum tentu didukung teks."
+          "title": "Tujuan laporan penelitian",
+          "explanation": "Teks ilmiah menyampaikan pertanyaan, cara pengamatan, hasil, dan batasan; jangan langsung mengira semua hasil membuktikan sebab.",
+          "english": "A classroom study compared two reading methods.",
+          "indonesian": "Sebuah penelitian kelas membandingkan dua metode membaca.",
+          "why": "Laporan membahas perbandingan hasil, bukan bukti sebab-akibat yang sudah pasti.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tujuan laporan penelitian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Laporan membahas perbandingan hasil, bukan bukti sebab-akibat yang sudah pasti."
         },
         {
-          "title": "Temukan bukti yang tersedia",
-          "explanation": "Perhatikan kalimat ini. Ini pengamatan terukur. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "Group A used more water.",
-          "indonesian": "Kelompok A memakai lebih banyak air.",
-          "why": "Ini pengamatan terukur."
+          "title": "Pertanyaan penelitian",
+          "explanation": "Tentukan apa yang ingin diketahui para peneliti, bukan sekadar topik luasnya.",
+          "english": "Which reading method produced higher average quiz scores?",
+          "indonesian": "Metode membaca mana menghasilkan rerata skor kuis lebih tinggi?",
+          "why": "Pertanyaan penelitian adalah perbedaan rerata hasil menurut metode.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan penelitian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan penelitian adalah perbedaan rerata hasil menurut metode."
         },
         {
-          "title": "Periksa batas kesimpulan",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Angka dua kelompok bisa dibandingkan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "Group B used less water.",
-          "indonesian": "Kelompok B memakai lebih sedikit air.",
-          "why": "Angka dua kelompok bisa dibandingkan."
+          "title": "Subjek dan sampel",
+          "explanation": "Cari siapa atau apa yang diteliti dan berapa banyak kelompok yang terlibat.",
+          "english": "Ten students used method A and ten used method B.",
+          "indonesian": "Sepuluh siswa menggunakan metode A dan sepuluh siswa menggunakan metode B.",
+          "why": "Ada dua kelompok dengan masing-masing sepuluh siswa; tidak berarti sampelnya mewakili populasi besar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «subjek dan sampel»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ada dua kelompok dengan masing-masing sepuluh siswa; tidak berarti sampelnya mewakili populasi besar."
+        },
+        {
+          "title": "Kelompok dan variabel",
+          "explanation": "Bedakan hal yang dibandingkan dari hal yang diukur.",
+          "english": "Students were divided into method A and method B groups.",
+          "indonesian": "Siswa dibagi menjadi kelompok metode A dan metode B.",
+          "why": "Metode pembelajaran adalah pembeda kelompok; skor kuis adalah hasil yang diukur.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kelompok dan variabel»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Metode pembelajaran adalah pembeda kelompok; skor kuis adalah hasil yang diukur."
+        },
+        {
+          "title": "Apa ukuran hasil?",
+          "explanation": "Tentukan satuan atau hasil yang dihitung, seperti skor, tinggi, atau frekuensi.",
+          "english": "The researchers measured quiz scores after one week.",
+          "indonesian": "Peneliti mengukur skor kuis setelah satu minggu.",
+          "why": "Ukuran hasilnya adalah skor kuis sesudah satu minggu, bukan kepuasan atau kemampuan jangka panjang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa ukuran hasil?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ukuran hasilnya adalah skor kuis sesudah satu minggu, bukan kepuasan atau kemampuan jangka panjang."
+        },
+        {
+          "title": "Baca temuan",
+          "explanation": "Bandingkan angka atau hasil yang dilaporkan tanpa mengarang perbedaan yang tidak disebut.",
+          "english": "Method A averaged 70 points; method B averaged 76.",
+          "indonesian": "Metode A memiliki rerata 70 poin; metode B rerata 76.",
+          "why": "Perbedaan rerata yang dilaporkan adalah enam poin.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca temuan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perbedaan rerata yang dilaporkan adalah enam poin."
+        },
+        {
+          "title": "Observasi atau tafsir?",
+          "explanation": "Hasil yang diamati tidak sama dengan alasan peneliti menganggap hasil itu terjadi.",
+          "english": "Method B had a higher average quiz score.",
+          "indonesian": "Metode B memiliki rerata skor kuis lebih tinggi.",
+          "why": "Ini pengamatan yang dilaporkan; belum menjelaskan mengapa perbedaan terjadi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «observasi atau tafsir?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini pengamatan yang dilaporkan; belum menjelaskan mengapa perbedaan terjadi."
+        },
+        {
+          "title": "Korelasi belum tentu sebab",
+          "explanation": "Dua gejala yang berubah bersama tidak otomatis berarti yang satu menyebabkan lainnya.",
+          "english": "The two groups had different average scores, but they were not randomly assigned.",
+          "indonesian": "Kedua kelompok memiliki rerata nilai berbeda, tetapi pembagiannya tidak acak.",
+          "why": "Perbedaan skor teramati tidak otomatis membuktikan metode menyebabkan perbedaan tersebut.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «korelasi belum tentu sebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perbedaan skor teramati tidak otomatis membuktikan metode menyebabkan perbedaan tersebut."
+        },
+        {
+          "title": "Faktor alternatif",
+          "explanation": "Periksa ukuran sampel, kondisi berbeda, atau variabel lain yang mungkin berperan.",
+          "english": "Students were not randomly assigned to the two groups.",
+          "indonesian": "Siswa tidak dibagi secara acak ke dua kelompok.",
+          "why": "Kemampuan awal atau faktor lain bisa berbeda; desain ini membatasi penafsiran sebab-akibat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «faktor alternatif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kemampuan awal atau faktor lain bisa berbeda; desain ini membatasi penafsiran sebab-akibat."
+        },
+        {
+          "title": "Simpulan sesuai data",
+          "explanation": "Pilih kesimpulan yang menyebut apa yang didukung penelitian tanpa mengklaim kepastian berlebihan.",
+          "english": "The higher average does not prove that method B caused the difference.",
+          "indonesian": "Rerata lebih tinggi itu tidak membuktikan bahwa metode B menyebabkan selisih tersebut.",
+          "why": "Kesimpulan menjaga batas bukti karena kondisi kelompok mungkin tidak sebanding sejak awal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «simpulan sesuai data»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kesimpulan menjaga batas bukti karena kondisi kelompok mungkin tidak sebanding sejak awal."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "In a fictional classroom study, 20 students tried two reading methods. Ten students used method A, and ten used method B. After one week, the average quiz scores were 70 and 76 respectively. The groups were not randomly assigned, and their starting skill levels were not recorded. The difference in averages cannot by itself prove that method B caused better learning.",
+      "modelIndonesian": "Dalam studi kelas rekaan, 20 siswa mencoba dua metode membaca. Sepuluh siswa menggunakan metode A dan sepuluh siswa menggunakan metode B. Setelah satu minggu, rerata nilai kuisnya berturut-turut 70 dan 76. Kelompok tidak dibagi secara acak, dan kemampuan awal mereka tidak dicatat. Selisih rerata itu saja tidak dapat membuktikan bahwa metode B menyebabkan hasil belajar lebih baik."
     },
     {
       "type": "synthesis",

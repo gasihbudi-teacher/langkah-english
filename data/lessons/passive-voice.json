@@ -13,25 +13,79 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa yang menerima tindakan, dan apakah pelakunya perlu disebut? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apa yang menerima tindakan, dan apakah pelakunya perlu disebut? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. Kalimat aktif: [[chef]] melakukan tindakan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Pelaku dan tindakan",
+          "explanation": "Dalam kalimat aktif, identifikasi siapa melakukan tindakan dan verba yang menyatakannya.",
           "english": "The chef prepares the meal.",
           "indonesian": "Koki menyiapkan makanan.",
-          "why": "Kalimat aktif: [[chef]] melakukan tindakan."
+          "why": "Kalimat aktif: [[chef]] melakukan tindakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pelaku dan tindakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat aktif: [[chef]] melakukan tindakan."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Penerima tindakan",
+          "explanation": "Temukan objek yang menerima tindakan; tidak semua verba memiliki objek untuk dijadikan subjek pasif.",
           "english": "The meal is prepared by the chef.",
           "indonesian": "Makanan disiapkan oleh koki.",
-          "why": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
+          "why": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «penerima tindakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
+        },
+        {
+          "title": "Mengapa fokus berubah?",
+          "explanation": "Kalimat pasif menonjolkan penerima tindakan, misalnya ketika hasilnya lebih penting daripada pelakunya.",
+          "english": "The meal is prepared by the chef.",
+          "indonesian": "Makanan disiapkan oleh koki.",
+          "why": "[[The meal]] menjadi fokus penerima tindakan; pelaku dapat disebut dengan [[by the chef]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa fokus berubah?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[The meal]] menjadi fokus penerima tindakan; pelaku dapat disebut dengan [[by the chef]]."
+        },
+        {
+          "title": "Rumus be + V3",
+          "explanation": "Buat [[be]] sesuai waktu lalu tambahkan [[past participle]]; jangan sekadar menukar posisi subjek dan objek.",
+          "english": "The meal is prepared by the chef.",
+          "indonesian": "Makanan disiapkan oleh koki.",
+          "why": "[[Is prepared]] terdiri dari [[be]] dan bentuk ketiga [[prepared]] dalam pasif present.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rumus be + v3»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Is prepared]] terdiri dari [[be]] dan bentuk ketiga [[prepared]] dalam pasif present."
+        },
+        {
+          "title": "Pasif simple present",
+          "explanation": "Bandingkan [[prepares]] dengan [[is prepared]]; kedua kalimat dapat menggambarkan kegiatan rutin yang sama.",
+          "english": "The chef prepares the meal. The meal is prepared by the chef.",
+          "indonesian": "Koki menyiapkan makanan. Makanan disiapkan oleh koki.",
+          "why": "[[Prepares]] adalah aktif present; [[is prepared]] menjaga waktu present pada bentuk pasif.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pasif simple present»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Prepares]] adalah aktif present; [[is prepared]] menjaga waktu present pada bentuk pasif."
+        },
+        {
+          "title": "Pasif simple past",
+          "explanation": "Bandingkan [[prepared]] dengan [[was prepared]]; bentuk [[was]] menjaga waktu lampau.",
+          "english": "The window was cleaned yesterday.",
+          "indonesian": "Jendela itu dibersihkan kemarin.",
+          "why": "[[Was + cleaned]] menunjukkan pasif lampau, bukan present.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pasif simple past»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Was + cleaned]] menunjukkan pasif lampau, bukan present."
+        },
+        {
+          "title": "Perlukah by?",
+          "explanation": "Sebut pelaku dengan [[by]] hanya bila informasi itu penting; kalimat pasif tetap lengkap tanpa frasa tersebut.",
+          "english": "My bag was stolen while I was on the bus.",
+          "indonesian": "Tas saya dicuri ketika saya berada di bus.",
+          "why": "[[Was]] [[stolen]] cocok ketika pelaku tidak diketahui.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perlukah by?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Was]] [[stolen]] cocok ketika pelaku tidak diketahui."
+        },
+        {
+          "title": "Buat dan periksa",
+          "explanation": "Ubahlah kalimat aktif yang cocok menjadi pasif, lalu periksa fokus, kesesuaian, bentuk V3, dan makna awal.",
+          "english": "The report will be published next week after it is reviewed.",
+          "indonesian": "Laporan akan diterbitkan minggu depan setelah ditinjau.",
+          "why": "[[Will]] [[be]] [[published]] menunjukkan pasif masa depan; [[is]] [[reviewed]] pasif kini.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «buat dan periksa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Will]] [[be]] [[published]] menunjukkan pasif masa depan; [[is]] [[reviewed]] pasif kini."
         }
       ]
     },

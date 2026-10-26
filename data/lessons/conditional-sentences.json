@@ -13,29 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Zero conditional]] menyatakan fakta umum. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kenali hubungan syarat",
+          "explanation": "Satu klausa menyatakan syarat; klausa lainnya menyatakan akibat yang bergantung pada syarat itu.",
           "english": "If you heat ice, it melts.",
           "indonesian": "Jika es dipanaskan, es mencair.",
-          "why": "[[Zero conditional]] menyatakan fakta umum."
+          "why": "[[Zero conditional]] menyatakan fakta umum.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali hubungan syarat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Zero conditional]] menyatakan fakta umum."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[First conditional]] membicarakan kemungkinan nyata di masa depan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Tandai dua klausa",
+          "explanation": "Pisahkan bagian [[if]] dan bagian hasil, lalu tentukan apa yang harus terjadi lebih dulu secara logis.",
+          "english": "If it rains, the road gets wet.",
+          "indonesian": "Jika hujan turun, jalan menjadi basah.",
+          "why": "Bagian [[if it rains]] adalah syarat dan [[the road gets wet]] adalah akibat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tandai dua klausa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Bagian [[if it rains]] adalah syarat dan [[the road gets wet]] adalah akibat."
+        },
+        {
+          "title": "Zero conditional: makna",
+          "explanation": "Gunakan zero conditional untuk hubungan umum yang dianggap berlaku berulang, bukan satu rencana khusus.",
+          "english": "If you heat ice, it melts.",
+          "indonesian": "Jika es dipanaskan, es mencair.",
+          "why": "Ini hubungan umum atau zero conditional, bukan janji tentang satu hari tertentu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «zero conditional: makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini hubungan umum atau zero conditional, bukan janji tentang satu hari tertentu."
+        },
+        {
+          "title": "Zero conditional: pola",
+          "explanation": "Perhatikan penggunaan [[simple present]] dalam dua bagian pada contoh umum.",
+          "english": "If you heat ice, it melts.",
+          "indonesian": "Jika es dipanaskan, es mencair.",
+          "why": "[[Heat]] dan [[melts]] sama-sama memakai simple present dalam pola zero conditional umum.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «zero conditional: pola»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Heat]] dan [[melts]] sama-sama memakai simple present dalam pola zero conditional umum."
+        },
+        {
+          "title": "First conditional: makna",
+          "explanation": "Bicarakan kemungkinan nyata di masa depan; hasil belum tentu terjadi karena syaratnya belum terpenuhi.",
           "english": "If it rains tomorrow, we will stay home.",
           "indonesian": "Jika besok hujan, kami akan tinggal di rumah.",
-          "why": "[[First conditional]] membicarakan kemungkinan nyata di masa depan."
+          "why": "Hujan besok belum pasti, tetapi kemungkinan ini nyata dalam konteks pembicara.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «first conditional: makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Hujan besok belum pasti, tetapi kemungkinan ini nyata dalam konteks pembicara."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "First conditional: pola",
+          "explanation": "Gunakan bentuk present di klausa [[if]] dan bentuk seperti [[will + verb]] di klausa hasil.",
+          "english": "If it rains tomorrow, we will stay home.",
+          "indonesian": "Jika besok hujan, kami akan tinggal di rumah.",
+          "why": "Klausa syarat memakai [[rains]], sedangkan akibat memakai [[will stay]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «first conditional: pola»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klausa syarat memakai [[rains]], sedangkan akibat memakai [[will stay]]."
+        },
+        {
+          "title": "Second conditional: makna",
+          "explanation": "Gunakan bentuk hipotetis untuk keadaan kini/masa depan yang dibayangkan atau tidak realistis.",
+          "english": "If I had a bicycle, I would ride to school.",
+          "indonesian": "Seandainya saya punya sepeda, saya akan naik sepeda ke sekolah.",
+          "why": "Situasi itu dibayangkan, bukan pernyataan bahwa pembicara benar-benar memiliki sepeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «second conditional: makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Situasi itu dibayangkan, bukan pernyataan bahwa pembicara benar-benar memiliki sepeda."
+        },
+        {
+          "title": "Second conditional: pola",
+          "explanation": "Kenali penggunaan bentuk lampau di klausa [[if]] dan [[would + verb]] untuk hasil hipotetis.",
+          "english": "If I had a bicycle, I would ride to school.",
+          "indonesian": "Seandainya saya punya sepeda, saya akan naik sepeda ke sekolah.",
+          "why": "[[Had]] dalam klausa if dipasangkan dengan [[would ride]] untuk situasi hipotetis kini.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «second conditional: pola»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had]] dalam klausa if dipasangkan dengan [[would ride]] untuk situasi hipotetis kini."
+        },
+        {
+          "title": "Bandingkan kemungkinan",
+          "explanation": "Perhatikan bagaimana satu situasi dapat dibicarakan sebagai kemungkinan realistis atau sebagai andaian.",
+          "english": "If the library opens on Saturday, our group will meet there.",
+          "indonesian": "Jika perpustakaan buka pada Sabtu, kelompok kami akan bertemu di sana.",
+          "why": "Pakai [[opens]], bukan [[will]] open, setelah [[if]] untuk [[first conditional]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan kemungkinan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pakai [[opens]], bukan [[will]] open, setelah [[if]] untuk [[first conditional]]."
+        },
+        {
+          "title": "Terapkan dan perbaiki",
+          "explanation": "Buat kalimat sesuai maksud dan hindari kesalahan seperti [[If it will rain]] dalam pola first conditional dasar.",
+          "english": "If the internet were more reliable, students could join online lessons more easily.",
+          "indonesian": "Jika internet lebih andal, siswa bisa lebih mudah mengikuti pelajaran daring.",
+          "why": "[[Were]] dan [[could]] menampilkan situasi hipotetis.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «terapkan dan perbaiki»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Were]] dan [[could]] menampilkan situasi hipotetis."
         }
       ]
     },

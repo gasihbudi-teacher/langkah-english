@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. “Could you” mengajukan permintaan dengan sopan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Jejak identitas daring",
+          "explanation": "Informasi yang dibagikan dapat membentuk gambaran mengenai seseorang dan bertahan lama di internet.",
           "english": "Could you send the assignment link?",
           "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
-          "why": "“Could you” mengajukan permintaan dengan sopan."
+          "why": "“Could you” mengajukan permintaan dengan sopan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jejak identitas daring»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“Could you” mengajukan permintaan dengan sopan."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Respons menjawab permintaan secara spesifik. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Informasi pribadi",
+          "explanation": "Bedakan informasi umum yang wajar dibagikan dari informasi sensitif yang perlu dilindungi.",
           "english": "I will send the official class link.",
           "indonesian": "Saya akan mengirim tautan kelas resmi.",
-          "why": "Respons menjawab permintaan secara spesifik."
+          "why": "Respons menjawab permintaan secara spesifik.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «informasi pribadi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Respons menjawab permintaan secara spesifik."
+        },
+        {
+          "title": "Situasi menentukan gaya",
+          "explanation": "Pesan kepada teman dan pesan kepada guru atau lembaga membutuhkan kesesuaian gaya yang berbeda.",
+          "english": "Please check the sender first.",
+          "indonesian": "Tolong periksa pengirimnya terlebih dahulu.",
+          "why": "Petunjuk ini melindungi identitas digital.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «situasi menentukan gaya»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Petunjuk ini melindungi identitas digital."
+        },
+        {
+          "title": "Siapa pengirim-penerima?",
+          "explanation": "Kenali penulis dan orang yang dituju sebelum menafsirkan maksud pesan.",
+          "english": "The message asks for the meeting time.",
+          "indonesian": "Pesan meminta waktu pertemuan.",
+          "why": "Ini informasi kegiatan yang wajar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa pengirim-penerima?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini informasi kegiatan yang wajar."
+        },
+        {
+          "title": "Apa tujuan pesan?",
+          "explanation": "Cari apakah penulis meminta informasi, mengonfirmasi kegiatan, atau menanggapi permintaan.",
+          "english": "The message asks for a password.",
+          "indonesian": "Pesan meminta kata sandi.",
+          "why": "Ini informasi rahasia yang tidak boleh diberikan sembarangan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa tujuan pesan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini informasi rahasia yang tidak boleh diberikan sembarangan."
+        },
+        {
+          "title": "Apa yang perlu dijawab?",
+          "explanation": "Catat pertanyaan, tanggal, persyaratan, atau tindakan yang benar-benar diminta.",
+          "english": "Could you clarify which file we should submit by Monday?",
+          "indonesian": "Bisakah Anda menjelaskan berkas mana yang harus kami kumpulkan sebelum Senin?",
+          "why": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa yang perlu dijawab?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi."
+        },
+        {
+          "title": "Kesopanan dan kejelasan",
+          "explanation": "Gunakan sapaan dan pilihan kata yang tepat tanpa membuat pesan bertele-tele.",
+          "english": "Think carefully before posting a classmate's photograph without permission.",
+          "indonesian": "Pikirkan baik-baik sebelum mengunggah foto teman sekelas tanpa izin.",
+          "why": "Kalimat menghubungkan tindakan daring dengan persetujuan dan privasi orang lain.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kesopanan dan kejelasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat menghubungkan tindakan daring dengan persetujuan dan privasi orang lain."
+        },
+        {
+          "title": "Balas sesuai kebutuhan",
+          "explanation": "Tulis jawaban yang relevan dan lengkap, bukan hanya mengulang pesan sebelumnya.",
+          "english": "Please remove my name from the public post until I give permission.",
+          "indonesian": "Tolong hapus nama saya dari unggahan publik sampai saya memberi izin.",
+          "why": "Pesan meminta tindakan dengan sopan dan menyatakan batas persetujuan secara jelas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «balas sesuai kebutuhan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pesan meminta tindakan dengan sopan dan menyatakan batas persetujuan secara jelas."
+        },
+        {
+          "title": "Jangan bagikan sembarangan",
+          "explanation": "Waspadai permintaan kata sandi, alamat pribadi, atau tautan mencurigakan yang tidak diperlukan.",
+          "english": "Although the account used a familiar profile photo, its request for a password made Siska suspicious.",
+          "indonesian": "Meskipun akun memakai foto profil yang dikenal, permintaan kata sandi membuat Siska curiga.",
+          "why": "Identitas visual saja tidak menjamin pengirim asli.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jangan bagikan sembarangan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Identitas visual saja tidak menjamin pengirim asli."
+        },
+        {
+          "title": "Periksa dan revisi",
+          "explanation": "Tinjau ulang penerima, fakta, kesopanan, dan keamanan sebelum pesan dikirim.",
+          "english": "Siska replied through the official class channel instead of sharing her private login details.",
+          "indonesian": "Siska membalas melalui kanal kelas resmi, bukan membagikan data masuk pribadinya.",
+          "why": "Pilihan kanal resmi mengurangi risiko.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa dan revisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pilihan kanal resmi mengurangi risiko."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Subject: Request to confirm a workshop schedule. Dear Ms Sari, I registered for the writing workshop but cannot find the starting time. Could you please confirm when it begins? Thank you, Dito. Reply: The workshop starts at 09.00 on Friday.",
+      "modelIndonesian": "Subjek: Permintaan konfirmasi jadwal lokakarya. Yth. Ibu Sari, saya sudah mendaftar lokakarya menulis tetapi belum menemukan waktu mulainya. Bisakah Ibu mengonfirmasi kapan acara dimulai? Terima kasih, Dito. Balasan: Lokakarya dimulai pukul 09.00 pada hari Jumat."
     },
     {
       "type": "synthesis",

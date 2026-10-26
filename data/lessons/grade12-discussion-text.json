@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini alasan pendukung bersepeda. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Satu isu, beberapa sudut",
+          "explanation": "[[Discussion text]] memeriksa lebih dari satu pandangan terhadap suatu persoalan.",
           "english": "Cycling can reduce fuel use.",
           "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "why": "Ini alasan pendukung bersepeda."
+          "why": "Ini alasan pendukung bersepeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «satu isu, beberapa sudut»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan pendukung bersepeda."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini keterbatasan solusi untuk semua siswa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Rumusan pertanyaan",
+          "explanation": "Tentukan persoalan yang diperdebatkan tanpa langsung memilih pihak.",
+          "english": "Cycling can reduce fuel use.",
+          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "why": "Ini alasan pendukung bersepeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rumusan pertanyaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan pendukung bersepeda."
+        },
+        {
+          "title": "Pandangan pertama",
+          "explanation": "Identifikasi argumen yang mendukung sisi pertama.",
+          "english": "Cycling can reduce fuel use.",
+          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "why": "Ini alasan pendukung bersepeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pandangan pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan pendukung bersepeda."
+        },
+        {
+          "title": "Alasan sisi pertama",
+          "explanation": "Temukan contoh dan bukti yang dipakai untuk memperkuat pandangan itu.",
+          "english": "Cycling can reduce fuel use.",
+          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
+          "why": "Ini alasan pendukung bersepeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan sisi pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan pendukung bersepeda."
+        },
+        {
+          "title": "Pandangan berbeda",
+          "explanation": "Kenali sisi lawan tanpa mengejek atau membuatnya tampak lebih lemah dari yang sebenarnya.",
           "english": "Not all students live near school.",
           "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
-          "why": "Ini keterbatasan solusi untuk semua siswa."
+          "why": "Ini keterbatasan solusi untuk semua siswa.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pandangan berbeda»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini keterbatasan solusi untuk semua siswa."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apakah kedua pihak mendapat alasan yang jelas dan seimbang? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Alasan sisi kedua",
+          "explanation": "Pahami alasan dan bukti yang mendukung posisi berbeda tersebut.",
+          "english": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
+          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
+          "why": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan sisi kedua»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
+        },
+        {
+          "title": "Bandingkan setara",
+          "explanation": "Nilai kedua pandangan dengan kriteria sama: bukti, relevansi, dan keterbatasan.",
+          "english": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
+          "indonesian": "Walaupun bersepeda memiliki manfaat lingkungan, siswa yang tinggal jauh mungkin memerlukan transportasi umum andal.",
+          "why": "Dua alasan ditempatkan berdampingan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan setara»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua alasan ditempatkan berdampingan."
+        },
+        {
+          "title": "Kesimpulan hati-hati",
+          "explanation": "Simpulan bisa condong ke salah satu sisi atau mengakui kondisi tertentu, asal dibenarkan oleh pembahasan.",
+          "english": "The decision should consider both flexibility and access to reliable devices.",
+          "indonesian": "Keputusan itu perlu mempertimbangkan fleksibilitas dan akses terhadap perangkat yang andal.",
+          "why": "Penutup yang seimbang menggabungkan kriteria dari kedua sisi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kesimpulan hati-hati»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Penutup yang seimbang menggabungkan kriteria dari kedua sisi."
+        },
+        {
+          "title": "Susun discussion",
+          "explanation": "Tulis isu, dua pandangan beserta alasan, lalu simpulan yang mencerminkan perbandingan.",
+          "english": "A balanced plan could combine bicycle parking, safe walking routes, and better information about buses.",
+          "indonesian": "Rencana seimbang dapat menggabungkan parkir sepeda, jalur jalan kaki aman, dan informasi bus yang lebih baik.",
+          "why": "Simpulan mencoba merespons kebutuhan beragam.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «susun discussion»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Simpulan mencoba merespons kebutuhan beragam."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Should homework be reduced? Supporters say less homework gives students more rest and family time. Opponents say short assignments help students review lessons independently. A fair decision depends on the workload, age group, and learning goals.",
+      "modelIndonesian": "Haruskah pekerjaan rumah dikurangi? Pendukungnya mengatakan bahwa pekerjaan rumah yang lebih sedikit memberi siswa lebih banyak waktu istirahat dan keluarga. Penentangnya mengatakan bahwa tugas singkat membantu siswa mengulang pelajaran secara mandiri. Keputusan yang adil bergantung pada beban tugas, kelompok usia, dan tujuan belajar."
     },
     {
       "type": "synthesis",

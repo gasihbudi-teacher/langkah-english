@@ -13,29 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Because]] memperkenalkan alasan dalam [[dependent clause]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Cari gagasan utama",
+          "explanation": "Sebelum membaca kalimat panjang, temukan subjek dan predikat dari pesan intinya.",
           "english": "I stayed inside because it rained.",
-          "indonesian": "Saya tetap di dalam karena hujan.",
-          "why": "[[Because]] memperkenalkan alasan dalam [[dependent clause]]."
+          "indonesian": "Saya tetap di dalam karena hujan turun.",
+          "why": "[[I stayed inside]] dapat berdiri sendiri sebagai gagasan utama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari gagasan utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I stayed inside]] dapat berdiri sendiri sebagai gagasan utama."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Although]] memperkenalkan kontras antara dua klausa. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "Although she was tired, she studied.",
-          "indonesian": "Walaupun lelah, dia tetap belajar.",
-          "why": "[[Although]] memperkenalkan kontras antara dua klausa."
+          "title": "Klausa mandiri",
+          "explanation": "Klausa mandiri mempunyai subjek dan verba serta dapat mengungkapkan gagasan lengkap.",
+          "english": "I stayed inside.",
+          "indonesian": "Saya tetap di dalam.",
+          "why": "[[I stayed inside]] memiliki subjek [[I]] dan predikat [[stayed inside]] sehingga dapat berdiri sendiri.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «klausa mandiri»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I stayed inside]] memiliki subjek [[I]] dan predikat [[stayed inside]] sehingga dapat berdiri sendiri."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Klausa bergantung",
+          "explanation": "Klausa seperti [[because it rained]] membutuhkan klausa utama untuk membentuk kalimat kompleks yang lengkap.",
+          "english": "Because it rained, I stayed inside.",
+          "indonesian": "Karena hujan turun, saya tetap di dalam.",
+          "why": "[[Because it rained]] ialah klausa bergantung dan membutuhkan gagasan utama [[I stayed inside]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «klausa bergantung»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Because it rained]] ialah klausa bergantung dan membutuhkan gagasan utama [[I stayed inside]]."
+        },
+        {
+          "title": "Hubungan sebab",
+          "explanation": "[[Because]] menjelaskan alasan; bedakan penyebab dengan peristiwa yang sekadar terjadi lebih dulu.",
+          "english": "Because the road was closed, we took a different route.",
+          "indonesian": "Karena jalan ditutup, kami mengambil rute lain.",
+          "why": "[[Dependent clause]] di depan biasanya diikuti koma.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan sebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Dependent clause]] di depan biasanya diikuti koma."
+        },
+        {
+          "title": "Hubungan waktu",
+          "explanation": "[[When]], [[after]], dan [[until]] menandai hubungan waktu antara dua peristiwa.",
+          "english": "We took a different route because the road was closed.",
+          "indonesian": "Kami mengambil rute lain karena jalan ditutup.",
+          "why": "[[Dependent clause]] sesudah [[main clause]] umumnya tidak membutuhkan koma.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Dependent clause]] sesudah [[main clause]] umumnya tidak membutuhkan koma."
+        },
+        {
+          "title": "Hubungan kontras",
+          "explanation": "[[Although]] menyatakan pertentangan harapan, bukan hubungan sebab-akibat.",
+          "english": "Although the rain stopped, the road remained slippery.",
+          "indonesian": "Walaupun hujan berhenti, jalan tetap licin.",
+          "why": "[[Although the rain stopped]] menunjukkan pertentangan dengan klausa utama [[the road remained slippery]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan kontras»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Although the rain stopped]] menunjukkan pertentangan dengan klausa utama [[the road remained slippery]]."
+        },
+        {
+          "title": "Hubungan kondisi",
+          "explanation": "[[If]] memperkenalkan syarat yang menentukan atau memengaruhi hasil.",
+          "english": "If the bell rings, we will leave.",
+          "indonesian": "Jika bel berbunyi, kami akan pergi.",
+          "why": "[[If the bell rings]] menyatakan kondisi dan [[we will leave]] akibat yang diantisipasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan kondisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[If the bell rings]] menyatakan kondisi dan [[we will leave]] akibat yang diantisipasi."
+        },
+        {
+          "title": "Posisi dan tanda baca",
+          "explanation": "Klausa bergantung di depan biasanya diikuti koma; di belakang sering tidak. Bedakan [[although]] dan [[despite]] karena bentuk lanjutannya berbeda.",
+          "english": "Although the survey included many students, it did not represent every school in the city.",
+          "indonesian": "Walaupun survei mencakup banyak siswa, survei itu tidak mewakili semua sekolah di kota.",
+          "why": "[[Although]] menunjukkan batasan penting terhadap temuan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «posisi dan tanda baca»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Although]] menunjukkan batasan penting terhadap temuan."
+        },
+        {
+          "title": "Uraikan kalimat panjang",
+          "explanation": "Identifikasi klausa utama, semua klausa bergantung, dan hubungan maknanya sebelum mencoba menerjemahkan seluruh kalimat.",
+          "english": "The volunteers continued working because the shelter still needed supplies, even though the roads were flooded.",
+          "indonesian": "Relawan terus bekerja karena penampungan masih membutuhkan persediaan, meskipun jalanan banjir.",
+          "why": "Satu kalimat dapat memuat alasan dan kontras sekaligus.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «uraikan kalimat panjang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Satu kalimat dapat memuat alasan dan kontras sekaligus."
         }
       ]
     },

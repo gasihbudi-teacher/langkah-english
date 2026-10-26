@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Petunjuk mana yang mendukung simpulan tanpa menambahkan cerita baru? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Baca pertanyaan secara teliti",
-          "explanation": "Petunjuk mana yang mendukung simpulan tanpa menambahkan cerita baru? Jawaban yang terdengar masuk akal belum tentu didukung teks."
+          "title": "Fakta vs inferensi",
+          "explanation": "Fakta tertulis dapat ditunjuk langsung; inferensi memerlukan alasan yang menghubungkan beberapa petunjuk.",
+          "english": "The lights were off, and no students were inside.",
+          "indonesian": "Lampu padam dan tidak ada siswa di dalam.",
+          "why": "Dua keadaan tersebut dinyatakan langsung; penyebabnya belum dinyatakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta vs inferensi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua keadaan tersebut dinyatakan langsung; penyebabnya belum dinyatakan."
         },
         {
-          "title": "Temukan bukti yang tersedia",
-          "explanation": "Perhatikan kalimat ini. Tindakan disebut langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "Riko looked at the empty chair.",
-          "indonesian": "Riko memandang kursi kosong.",
-          "why": "Tindakan disebut langsung."
+          "title": "Situasi utama",
+          "explanation": "Tentukan siapa terlibat dan apa yang terjadi secara eksplisit sebelum membuat dugaan.",
+          "english": "Rina reached the classroom at seven.",
+          "indonesian": "Rina sampai di ruang kelas pukul tujuh.",
+          "why": "Informasi eksplisitnya ialah orang, tempat, dan waktu kedatangan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «situasi utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Informasi eksplisitnya ialah orang, tempat, dan waktu kedatangan."
         },
         {
-          "title": "Periksa batas kesimpulan",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pengulangan memberi petunjuk tentang kekhawatiran. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "He checked the time again.",
-          "indonesian": "Ia kembali melihat waktu.",
-          "why": "Pengulangan memberi petunjuk tentang kekhawatiran."
+          "title": "Temukan petunjuk",
+          "explanation": "Catat kalimat yang relevan terhadap pertanyaan, bukan seluruh detail secara acak.",
+          "english": "She checked her phone and looked again at the room number.",
+          "indonesian": "Ia memeriksa ponsel dan kembali melihat nomor ruangan.",
+          "why": "Tindakan yang benar-benar ditulis adalah memeriksa ponsel dan nomor ruang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan petunjuk»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan yang benar-benar ditulis adalah memeriksa ponsel dan nomor ruang."
+        },
+        {
+          "title": "Arti tiap petunjuk",
+          "explanation": "Jelaskan apa yang benar-benar ditunjukkan satu petunjuk tanpa menambah cerita.",
+          "english": "She checked her phone.",
+          "indonesian": "Ia memeriksa ponselnya.",
+          "why": "Satu tindakan ini tidak cukup untuk memastikan bahwa jadwal kelas salah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «arti tiap petunjuk»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Satu tindakan ini tidak cukup untuk memastikan bahwa jadwal kelas salah."
+        },
+        {
+          "title": "Gabungkan bukti",
+          "explanation": "Dua atau lebih petunjuk dapat mendukung kesimpulan yang tidak ditulis secara langsung.",
+          "english": "The lights were off. She checked her phone and the room number.",
+          "indonesian": "Lampu padam. Ia memeriksa ponsel dan nomor ruang.",
+          "why": "Gabungan keadaan dan tindakan mendukung kemungkinan bahwa Rina ragu tentang waktu atau ruangan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan bukti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Gabungan keadaan dan tindakan mendukung kemungkinan bahwa Rina ragu tentang waktu atau ruangan."
+        },
+        {
+          "title": "Cek kontradiksi",
+          "explanation": "Inferensi tidak boleh bertentangan dengan fakta yang dinyatakan teks.",
+          "english": "The room was empty, but the passage does not say the class was cancelled.",
+          "indonesian": "Ruangan kosong, tetapi bacaan tidak menyatakan bahwa kelas dibatalkan.",
+          "why": "Menetapkan kelas pasti dibatalkan akan melampaui informasi yang tertulis.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cek kontradiksi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Menetapkan kelas pasti dibatalkan akan melampaui informasi yang tertulis."
+        },
+        {
+          "title": "Alternatif masuk akal",
+          "explanation": "Pertimbangkan penjelasan lain yang juga mungkin sesuai informasi terbatas.",
+          "english": "The room was empty when Rina arrived.",
+          "indonesian": "Ruang kosong ketika Rina datang.",
+          "why": "Ada kemungkinan Rina terlalu awal atau salah ruangan; keduanya belum dipastikan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alternatif masuk akal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ada kemungkinan Rina terlalu awal atau salah ruangan; keduanya belum dipastikan."
+        },
+        {
+          "title": "Bandingkan dukungan",
+          "explanation": "Penafsiran lebih kuat jika lebih banyak petunjuk relevan mendukungnya dan lebih sedikit asumsi dibutuhkan.",
+          "english": "She checked her phone and looked again at the room number.",
+          "indonesian": "Ia memeriksa ponselnya dan kembali melihat nomor ruang.",
+          "why": "Kedua tindakan dapat mendukung dugaan bahwa ia ragu tentang ruang atau waktu, tetapi tidak memastikan penyebab ruang kosong.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan dukungan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kedua tindakan dapat mendukung dugaan bahwa ia ragu tentang ruang atau waktu, tetapi tidak memastikan penyebab ruang kosong."
+        },
+        {
+          "title": "Hindari kepastian berlebih",
+          "explanation": "Kata [[must]] atau [[certainly]] bisa berlebihan bila teks hanya memungkinkan [[may]] atau [[probably]].",
+          "english": "Rina might be unsure about the room or time.",
+          "indonesian": "Rina mungkin tidak yakin tentang ruangan atau waktunya.",
+          "why": "[[Might]] menunjukkan inferensi tentatif; [[certainly]] akan terlalu kuat tanpa bukti tambahan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hindari kepastian berlebih»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Might]] menunjukkan inferensi tentatif; [[certainly]] akan terlalu kuat tanpa bukti tambahan."
+        },
+        {
+          "title": "Pilih dan pertanggungjawabkan",
+          "explanation": "Sebut jawaban paling kuat beserta bukti, lalu jelaskan kelemahan pilihan yang terlalu spesifik atau bersifat spekulatif.",
+          "english": "She checked her phone and the room number.",
+          "indonesian": "Ia memeriksa ponsel dan nomor ruang.",
+          "why": "Inferensi paling defensibel ialah keraguan mengenai jadwal atau tempat, bukan kepastian pembatalan kelas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih dan pertanggungjawabkan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Inferensi paling defensibel ialah keraguan mengenai jadwal atau tempat, bukan kepastian pembatalan kelas."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Rina reached the classroom at seven. The lights were off, and no students were inside. She checked her phone and looked again at the room number. The passage does not explain why the room was empty.",
+      "modelIndonesian": "Rina sampai di ruang kelas pada pukul tujuh. Lampunya padam, dan tidak ada siswa di dalam. Ia memeriksa ponselnya dan kembali melihat nomor ruang. Bacaan tidak menjelaskan mengapa ruangan itu kosong."
     },
     {
       "type": "synthesis",

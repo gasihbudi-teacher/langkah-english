@@ -14,31 +14,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
+          "title": "Fungsi adverbial",
+          "explanation": "[[Adverbial]] menambahkan informasi seperti waktu, alasan, cara, atau kontras; itu tugasnya, bukan nama satu bentuk tertentu.",
+          "english": "We studied in the library.",
+          "indonesian": "Kami belajar di perpustakaan.",
+          "why": "[[In the library]] menjawab “di mana?”; ini [[prepositional phrase]] yang berfungsi sebagai adverbial, tanpa subjek + verba sendiri.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fungsi adverbial»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[In the library]] menjawab “di mana?”; ini [[prepositional phrase]] yang berfungsi sebagai adverbial, tanpa subjek + verba sendiri."
         },
         {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[After lunch]] adalah [[adverbial phrase]]: menjelaskan waktu, tetapi di dalam bagian itu tidak ada pasangan subjek dan verba finit. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "We waited after lunch.",
-          "indonesian": "Kami menunggu setelah makan siang.",
-          "why": "[[After lunch]] adalah [[adverbial phrase]]: menjelaskan waktu, tetapi di dalam bagian itu tidak ada pasangan subjek dan verba finit."
+          "title": "Pisahkan bagian inti",
+          "explanation": "Dalam [[She left after lunch]], klausa inti ialah [[She left]]; hanya [[after lunch]] yang diuji sebagai adverbial.",
+          "english": "She left after lunch.",
+          "indonesian": "Dia pergi setelah makan siang.",
+          "why": "[[She left]] adalah klausa utama; [[after lunch]] bagian yang menerangkan waktu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pisahkan bagian inti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[She left]] adalah klausa utama; [[after lunch]] bagian yang menerangkan waktu."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[After the bell rang]] adalah [[adverbial clause]]: [[the bell]] = subjek dan [[rang]] = verba finit. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "We waited after the bell rang.",
-          "indonesian": "Kami menunggu setelah bel berbunyi.",
-          "why": "[[After the bell rang]] adalah [[adverbial clause]]: [[the bell]] = subjek dan [[rang]] = verba finit."
+          "title": "Phrase atau clause?",
+          "explanation": "[[Phrase]] tidak memuat struktur subjek–predikat klausa finit lengkap; [[clause]] mempunyai struktur predikasi, dan sebagian berbentuk nonfinit.",
+          "english": "The club met after school.",
+          "indonesian": "Klub itu bertemu setelah jam sekolah.",
+          "why": "[[After school]] = frasa adverbial waktu; [[school]] ialah nomina, bukan verba.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «phrase atau clause?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[After school]] = frasa adverbial waktu; [[school]] ialah nomina, bukan verba."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Kenali finite verb",
+          "explanation": "Dalam [[the meeting ended]], [[ended]] adalah verba finit yang menandai waktu; bandingkan dengan [[after the meeting]] tanpa verba finit.",
+          "english": "She left after the meeting ended.",
+          "indonesian": "Dia pergi setelah rapat selesai.",
+          "why": "[[The meeting]] adalah subjek dan [[ended]] verba finit di dalam adverbial.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali finite verb»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[The meeting]] adalah subjek dan [[ended]] verba finit di dalam adverbial."
+        },
+        {
+          "title": "Analisis adverbial phrase",
+          "explanation": "[[After lunch]] adalah frasa preposisional yang berfungsi sebagai keterangan waktu dalam kalimat.",
+          "english": "She left after lunch.",
+          "indonesian": "Dia pergi setelah makan siang.",
+          "why": "[[After lunch]] ialah frasa preposisional tanpa predikasi finit yang berfungsi sebagai keterangan waktu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «analisis adverbial phrase»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[After lunch]] ialah frasa preposisional tanpa predikasi finit yang berfungsi sebagai keterangan waktu."
+        },
+        {
+          "title": "Analisis finite adverbial clause",
+          "explanation": "[[After the meeting ended]] memuat subjek [[the meeting]] dan verba finit [[ended]], sehingga merupakan klausa adverbial finit.",
+          "english": "She left after the meeting ended.",
+          "indonesian": "Dia pergi setelah rapat selesai.",
+          "why": "[[After the meeting ended]] adalah klausa adverbial finit: ada subjek [[the meeting]] dan predikat [[ended]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «analisis finite adverbial clause»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[After the meeting ended]] adalah klausa adverbial finit: ada subjek [[the meeting]] dan predikat [[ended]]."
+        },
+        {
+          "title": "Pasangkan dua bentuk",
+          "explanation": "Bandingkan dua adverbial dengan fungsi waktu atau alasan sama; lihat struktur bagian adverbial, bukan subjek kalimat utama.",
+          "english": "Although the room was crowded, Maya concentrated.",
+          "indonesian": "Walaupun ruangan itu penuh sesak, Maya berkonsentrasi.",
+          "why": "[[Although the room was crowded]] = klausa; subjek [[the room]] dan verba finit [[was]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pasangkan dua bentuk»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Although the room was crowded]] = klausa; subjek [[the room]] dan verba finit [[was]]."
+        },
+        {
+          "title": "Pilih penghubung",
+          "explanation": "[[Because]] lazim diikuti klausa; [[because of]] diikuti frasa nomina. Demikian pula [[although/despite]] dan [[while/during]] punya pola berbeda.",
+          "english": "She stayed home because of the rain. She stayed home because it rained.",
+          "indonesian": "Dia tetap di rumah karena hujan. Dia tetap di rumah karena hujan turun.",
+          "why": "[[Because of]] mendahului frasa nomina [[the rain]], sedangkan [[because]] mendahului klausa [[it rained]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih penghubung»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Because of]] mendahului frasa nomina [[the rain]], sedangkan [[because]] mendahului klausa [[it rained]]."
+        },
+        {
+          "title": "Ubah tanpa mengubah maksud",
+          "explanation": "Ubah klausa menjadi frasa hanya bila makna, hubungan, dan kejelasan tetap wajar; tidak semua pasangan dapat diubah otomatis.",
+          "english": "We revised our notes before dinner.",
+          "indonesian": "Kami meninjau ulang catatan sebelum makan malam.",
+          "why": "[[Before dinner]] = frasa waktu tanpa pasangan subjek–verba sendiri.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ubah tanpa mengubah maksud»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Before dinner]] = frasa waktu tanpa pasangan subjek–verba sendiri."
+        },
+        {
+          "title": "Terapkan dan kenali batas",
+          "explanation": "Klasifikasikan dalam paragraf, lalu ingat bahwa klausa adverbial juga bisa nonfinit sehingga aturan [[ada subjek + verb finit]] adalah pembeda awal, bukan definisi semua klausa.",
+          "english": "Before dinner began, we revised our notes.",
+          "indonesian": "Sebelum makan malam dimulai, kami meninjau ulang catatan.",
+          "why": "[[Before dinner began]] = klausa waktu; [[dinner]] subjek dan [[began]] verba finit.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «terapkan dan kenali batas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Before dinner began]] = klausa waktu; [[dinner]] subjek dan [[began]] verba finit."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Mira stayed inside because of the rain. She read a book while the rain continued. After lunch, she checked the weather. She went out after the rain stopped.",
+      "modelIndonesian": "Mira tetap di dalam karena hujan. Ia membaca buku sementara hujan terus turun. Setelah makan siang, ia memeriksa cuaca. Ia keluar setelah hujan berhenti."
     },
     {
       "type": "synthesis",

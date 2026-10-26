@@ -1,3 +1,11 @@
+## CURRENT — V11 scaffolding authoring (26 October 2026)
+
+The V7 three-step instructions preserved later in this document are **historical**, not the active V11 teaching contract. For new/updated lessons, design a topic-specific progression based on prerequisites and understanding, usually 5–10 steps but allow 3–20 when justified. Every step should teach one main conceptual challenge, contain a clear Indonesian explanation, focused English sample, Indonesian meaning, and why the example works. Use an optional connected bilingual `modelEnglish`/`modelIndonesian` passage for text-based instruction; do not teach genres with unrelated one-line examples alone. Add `check` and `checkAnswer` for a small ungraded question. The answer stays in a native closed `<details>` disclosure; the explanation, translation, and example remain visible.
+
+See [V11 authoring and quality guide](V11-SCAFFOLDING-REDESIGN.md). After authoring, run `python3 tools/validate.py` and `node tests/v11-quality.mjs`. Keep IDs, existing graded questions and progress record formats unchanged. A bilingual teacher must check whether every step example directly illustrates the idea taught, not just whether the lesson has enough cards.
+
+---
+
 # Authoring content, including AI-generated material
 
 ## Catalog contract

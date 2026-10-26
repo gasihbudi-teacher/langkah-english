@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah contoh yang diberikan cukup untuk mendukung kesimpulan sebesar itu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Apakah contoh yang diberikan cukup untuk mendukung kesimpulan sebesar itu? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
-        },
-        {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. Ini sebuah usulan atau klaim. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kenali struktur argumen",
+          "explanation": "Tinjau thesis dan argumen sebelum memeriksa apakah dukungannya cukup meyakinkan.",
           "english": "Schools should offer water stations.",
           "indonesian": "Sekolah sebaiknya menyediakan tempat pengisian air.",
-          "why": "Ini sebuah usulan atau klaim."
+          "why": "Ini sebuah usulan atau klaim.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali struktur argumen»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini sebuah usulan atau klaim."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan untuk mendukung usulan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Apa klaimnya?",
+          "explanation": "Temukan pernyataan yang ingin dibuktikan oleh penulis.",
+          "english": "Schools should offer water stations.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat pengisian air.",
+          "why": "Ini sebuah usulan atau klaim.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa klaimnya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini sebuah usulan atau klaim."
+        },
+        {
+          "title": "Apa alasannya?",
+          "explanation": "Cari penjelasan mengapa penulis menganggap klaim itu masuk akal.",
           "english": "They can make drinking water easier to access.",
           "indonesian": "Tempat itu dapat memudahkan akses air minum.",
-          "why": "Ini alasan untuk mendukung usulan."
+          "why": "Ini alasan untuk mendukung usulan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa alasannya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan untuk mendukung usulan."
+        },
+        {
+          "title": "Alasan vs bukti",
+          "explanation": "Alasan adalah hubungan logis; bukti ialah informasi pendukung yang dapat diperiksa.",
+          "english": "A survey asked students about their needs.",
+          "indonesian": "Sebuah survei menanyakan kebutuhan siswa.",
+          "why": "Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan vs bukti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat."
+        },
+        {
+          "title": "Bentuk bukti",
+          "explanation": "Contoh, observasi, penelitian, dan angka bisa menjadi bukti bila relevan.",
+          "english": "A survey asked students about their needs.",
+          "indonesian": "Sebuah survei menanyakan kebutuhan siswa.",
+          "why": "Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bentuk bukti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini sumber bukti potensial, tetapi hasil surveinya perlu dilihat."
+        },
+        {
+          "title": "Relevansi",
+          "explanation": "Bukti harus berkaitan langsung dengan klaim; data menarik dari topik lain belum cukup.",
+          "english": "One student's improvement is encouraging but does not prove the method works for everyone.",
+          "indonesian": "Peningkatan satu siswa menggembirakan, tetapi tidak membuktikan metode itu berhasil untuk semua orang.",
+          "why": "Bedakan contoh yang menjanjikan dari bukti untuk klaim yang berlaku bagi seluruh kelompok.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «relevansi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Bedakan contoh yang menjanjikan dari bukti untuk klaim yang berlaku bagi seluruh kelompok."
+        },
+        {
+          "title": "Kredibilitas",
+          "explanation": "Periksa asal, metode, konteks, dan kelengkapan informasi jika tersedia.",
+          "english": "The report describes lower costs, but it does not explain how they were calculated.",
+          "indonesian": "Laporan itu menyebut biaya lebih rendah, tetapi tidak menjelaskan cara penghitungannya.",
+          "why": "Klaim belum cukup kuat tanpa metode yang memungkinkan pembaca memeriksa bukti.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kredibilitas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klaim belum cukup kuat tanpa metode yang memungkinkan pembaca memeriksa bukti."
+        },
+        {
+          "title": "Asumsi tersembunyi",
+          "explanation": "Tandai lompatan dari data terbatas menuju klaim yang terlalu luas.",
+          "english": "A survey of twelve students cannot represent every teenager in the city.",
+          "indonesian": "Survei terhadap dua belas siswa tidak dapat mewakili semua remaja di kota.",
+          "why": "Ukuran sampel dan cakupan responden membatasi kesimpulan yang dapat ditarik.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «asumsi tersembunyi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ukuran sampel dan cakupan responden membatasi kesimpulan yang dapat ditarik."
+        },
+        {
+          "title": "Batas kepastian",
+          "explanation": "Hindari menyatakan [[all]] jika data hanya mendukung [[some]] atau [[in this sample]].",
+          "english": "Water stations may make water easier to obtain.",
+          "indonesian": "Tempat pengisian air mungkin memudahkan memperoleh air.",
+          "why": "Kata “may” lebih hati-hati dan sesuai lingkup alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «batas kepastian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata “may” lebih hati-hati dan sesuai lingkup alasan."
+        },
+        {
+          "title": "Evaluasi teks",
+          "explanation": "Sebut bukti kuat, bukti lemah, dan informasi tambahan yang dibutuhkan.",
+          "english": "Although the survey found strong support, it involved only students from two classes.",
+          "indonesian": "Meskipun survei menemukan dukungan kuat, respondennya hanya dari dua kelas.",
+          "why": "Keterbatasan sampel penting saat menilai kesimpulan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «evaluasi teks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Keterbatasan sampel penting saat menilai kesimpulan."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "A writer claims that all students learn better online. Her only evidence is a survey of ten students from one class; seven preferred online lessons. The survey shows a preference in that small group. It does not establish that every student learns better online or measure learning outcomes.",
+      "modelIndonesian": "Seorang penulis menyatakan bahwa semua siswa belajar lebih baik secara daring. Satu-satunya buktinya adalah survei terhadap sepuluh siswa dari satu kelas; tujuh lebih menyukai pelajaran daring. Survei itu menunjukkan preferensi kelompok kecil tersebut. Survei itu tidak membuktikan bahwa setiap siswa belajar lebih baik secara daring atau mengukur hasil belajarnya."
     },
     {
       "type": "synthesis",

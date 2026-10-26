@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" role="img" aria-labelledby="p-title p-desc">
+<title id="p-title">School Reading Week poster and miniature infographic</title>
+<desc id="p-desc">Schedule: Monday book exchange 9 to 11, Wednesday storytelling 10 to 11, Friday library visit 8 to 9, all at the school library. Sample registrations by day: Monday 30, Wednesday 45, Friday 25. Total 100.</desc>
+<rect width="860" height="540" rx="24" fill="#f0f6ed"/>
+<rect x="24" y="24" width="812" height="492" rx="18" fill="#ffffff" stroke="#d4e0d0" stroke-width="3"/>
+<rect x="46" y="46" width="768" height="105" rx="13" fill="#1e6159"/>
+<text x="70" y="92" font-family="Arial,sans-serif" font-size="35" fill="#ffffff" font-weight="bold">SCHOOL READING WEEK</text>
+<text x="70" y="125" font-family="Arial,sans-serif" font-size="20" fill="#e3f4eb">All activities take place at the school library</text>
+<text x="62" y="194" font-family="Arial,sans-serif" font-size="22" fill="#183e3a" font-weight="bold">EVENT SCHEDULE</text>
+<g font-family="Arial,sans-serif" font-size="19" fill="#173c37">
+<rect x="58" y="210" width="739" height="57" rx="8" fill="#e4f4f1"/>
+<text x="76" y="244" font-weight="bold">MONDAY</text><text x="246" y="244">Book exchange</text><text x="616" y="244">09:00–11:00</text>
+<rect x="58" y="272" width="739" height="57" rx="8" fill="#eef0fa"/>
+<text x="76" y="305" font-weight="bold">WEDNESDAY</text><text x="246" y="305">Storytelling</text><text x="616" y="305">10:00–11:00</text>
+<rect x="58" y="334" width="739" height="57" rx="8" fill="#f9f0df"/>
+<text x="76" y="367" font-weight="bold">FRIDAY</text><text x="246" y="367">Library visit</text><text x="616" y="367">08:00–09:00</text>
+</g>
+<text x="62" y="429" font-family="Arial,sans-serif" font-size="18" fill="#173c37" font-weight="bold">SAMPLE REGISTRATIONS BY DAY (100 total)</text>
+<g font-family="Arial,sans-serif" font-size="15" fill="#183e3a">
+<text x="62" y="460">Mon 30%</text><rect x="159" y="446" width="174" height="20" rx="4" fill="#4f9584"/>
+<text x="354" y="460">Wed 45%</text><rect x="455" y="446" width="260" height="20" rx="4" fill="#4f9584"/>
+<text x="62" y="497">Fri 25%</text><rect x="159" y="483" width="145" height="20" rx="4" fill="#4f9584"/>
+<text x="354" y="497">Illustrative example — not attendance data</text>
+</g>
+</svg>

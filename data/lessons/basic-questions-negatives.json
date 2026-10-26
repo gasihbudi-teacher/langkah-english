@@ -13,25 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah kalimat memakai [[be]] atau kata kerja biasa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apakah kalimat memakai [[be]] atau kata kerja biasa? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. Ini kalimat positif dengan [[subject]] tunggal. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Apa yang berubah?",
+          "explanation": "Pernyataan memberi informasi; negatif menyangkal, sedangkan pertanyaan meminta informasi. Maknanya berubah saat bentuk diubah.",
           "english": "She likes music.",
           "indonesian": "Dia menyukai musik.",
-          "why": "Ini kalimat positif dengan [[subject]] tunggal."
+          "why": "Ini kalimat positif dengan [[subject]] tunggal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa yang berubah?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini kalimat positif dengan [[subject]] tunggal."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Kenali jenis predikat",
+          "explanation": "Periksa apakah kalimat memakai [[be]] atau verba biasa karena aturan pertanyaan dan negatifnya tidak sama.",
           "english": "Does she like music?",
           "indonesian": "Apakah dia menyukai musik?",
-          "why": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
+          "why": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali jenis predikat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
+        },
+        {
+          "title": "Negatif dengan be",
+          "explanation": "Sisipkan [[not]] setelah [[am/is/are/was/were]], tanpa [[do]].",
+          "english": "They are not ready.",
+          "indonesian": "Mereka belum siap.",
+          "why": "[[Are not]] menegasikan [[be]] tanpa bantuan [[do]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif dengan be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Are not]] menegasikan [[be]] tanpa bantuan [[do]]."
+        },
+        {
+          "title": "Pertanyaan dengan be",
+          "explanation": "Pindahkan bentuk [[be]] ke depan subjek untuk pertanyaan ya/tidak.",
+          "english": "Are they ready?",
+          "indonesian": "Apakah mereka siap?",
+          "why": "[[Are]] berpindah ke depan subjek [[they]] pada pertanyaan dengan [[be]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan dengan be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Are]] berpindah ke depan subjek [[they]] pada pertanyaan dengan [[be]]."
+        },
+        {
+          "title": "Pertanyaan dengan do",
+          "explanation": "Pada verba biasa present dengan [[I/you/we/they]], gunakan [[do]] sebelum subjek dan verba dasar.",
+          "english": "Do you like music?",
+          "indonesian": "Apakah kamu menyukai musik?",
+          "why": "[[Do]] mendahului subjek [[you]], sedangkan [[like]] tetap bentuk dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan dengan do»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Do]] mendahului subjek [[you]], sedangkan [[like]] tetap bentuk dasar."
+        },
+        {
+          "title": "Pertanyaan dengan does",
+          "explanation": "Gunakan [[does]] untuk [[he/she/it]] dan kembalikan verba utama ke bentuk dasar.",
+          "english": "Does she like music?",
+          "indonesian": "Apakah dia menyukai musik?",
+          "why": "[[Does]] dipakai untuk [[she]] dan verba utamanya [[like]] bukan [[likes]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan dengan does»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Does]] dipakai untuk [[she]] dan verba utamanya [[like]] bukan [[likes]]."
+        },
+        {
+          "title": "Negatif verba biasa",
+          "explanation": "Gunakan [[don't/doesn't]] sesuai subjek; jangan menggandakan akhiran [[-s]].",
+          "english": "She does not like music.",
+          "indonesian": "Dia tidak menyukai musik.",
+          "why": "[[Does not]] membuat verba biasa menjadi negatif; [[like]] kembali ke bentuk dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif verba biasa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Does not]] membuat verba biasa menjadi negatif; [[like]] kembali ke bentuk dasar."
+        },
+        {
+          "title": "Pertanyaan/negatif lampau",
+          "explanation": "Gunakan [[did/didn't]] bersama verba dasar untuk tindakan masa lalu.",
+          "english": "Did Mira finish the experiment yesterday?",
+          "indonesian": "Apakah Mira menyelesaikan percobaan kemarin?",
+          "why": "[[Did]] menandai pertanyaan lampau sehingga [[finish]] tidak menjadi [[finished]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan/negatif lampau»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Did]] menandai pertanyaan lampau sehingga [[finish]] tidak menjadi [[finished]]."
+        },
+        {
+          "title": "Kata tanya",
+          "explanation": "Tempatkan [[what/where/when/why]] sebelum susunan pertanyaan yang benar; pertanyaan tentang subjek dapat mempunyai pola berbeda.",
+          "english": "Where does Rina study?",
+          "indonesian": "Di mana Rina belajar?",
+          "why": "[[Where]] mendahului [[does + Rina + study]]; bentuk [[study]] tetap dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata tanya»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Where]] mendahului [[does + Rina + study]]; bentuk [[study]] tetap dasar."
+        },
+        {
+          "title": "Periksa pilihan pola",
+          "explanation": "Ubah pernyataan menjadi negatif dan pertanyaan, lalu jelaskan pemakaian [[be]], [[do]], [[does]], atau [[did]].",
+          "english": "Why doesn't the train stop here on Sundays?",
+          "indonesian": "Mengapa kereta tidak berhenti di sini pada hari Minggu?",
+          "why": "Pertanyaan [[why]] + [[doesn't]] + [[subject]] + [[verb]] dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa pilihan pola»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan [[why]] + [[doesn't]] + [[subject]] + [[verb]] dasar."
         }
       ]
     },

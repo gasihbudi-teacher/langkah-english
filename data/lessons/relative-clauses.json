@@ -13,29 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Who]] menjelaskan orang, yaitu [[girl]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Mulai dari noun dan clause",
+          "explanation": "[[Noun]] ialah kata benda; [[clause]] memiliki predikat. Keduanya harus dikenali sebelum memahami relative clause.",
           "english": "The girl who sits near me is friendly.",
-          "indonesian": "Anak perempuan yang duduk di dekat saya ramah.",
-          "why": "[[Who]] menjelaskan orang, yaitu [[girl]]."
+          "indonesian": "Gadis yang duduk di dekat saya itu ramah.",
+          "why": "[[The girl]] adalah kata benda yang diterangkan; [[who sits near me]] adalah klausanya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mulai dari noun dan clause»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[The girl]] adalah kata benda yang diterangkan; [[who sits near me]] adalah klausanya."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[That]] menjelaskan benda, yaitu [[book]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Noun yang perlu dijelaskan",
+          "explanation": "Pembaca kadang perlu tahu orang/benda yang mana; informasi tambahan ditempelkan pada kata benda itu.",
           "english": "The book that I borrowed is interesting.",
           "indonesian": "Buku yang saya pinjam menarik.",
-          "why": "[[That]] menjelaskan benda, yaitu [[book]]."
+          "why": "[[That]] menjelaskan benda, yaitu [[book]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «noun yang perlu dijelaskan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[That]] menjelaskan benda, yaitu [[book]]."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Satukan dua kalimat",
+          "explanation": "Gabungkan dua kalimat yang membahas orang atau benda sama, tanpa mengulangnya secara tidak perlu.",
+          "english": "The girl is friendly. She sits near me.",
+          "indonesian": "Gadis itu ramah. Ia duduk di dekat saya.",
+          "why": "Dua kalimat membahas orang yang sama dan dapat digabung menjadi [[The girl who sits near me is friendly]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «satukan dua kalimat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua kalimat membahas orang yang sama dan dapat digabung menjadi [[The girl who sits near me is friendly]]."
+        },
+        {
+          "title": "Gunakan who",
+          "explanation": "[[Who]] umumnya merujuk pada orang dalam klausa relatif; cari kata benda yang dijelaskannya.",
+          "english": "Students who study regularly often improve.",
+          "indonesian": "Siswa yang belajar teratur sering meningkat.",
+          "why": "Klausa [[who]] [[study]] [[regularly]] membatasi kelompok siswa yang dimaksud.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gunakan who»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klausa [[who]] [[study]] [[regularly]] membatasi kelompok siswa yang dimaksud."
+        },
+        {
+          "title": "Gunakan which/that",
+          "explanation": "Untuk benda, lihat pemakaian [[which]] atau [[that]] dalam klausa pembatas yang sesuai konteks.",
+          "english": "The book that I borrowed is interesting.",
+          "indonesian": "Buku yang saya pinjam itu menarik.",
+          "why": "[[That I borrowed]] menerangkan benda [[the book]] dan membatasi buku yang dimaksud.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gunakan which/that»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[That I borrowed]] menerangkan benda [[the book]] dan membatasi buku yang dimaksud."
+        },
+        {
+          "title": "Gunakan whose/where",
+          "explanation": "[[Whose]] menunjukkan kepemilikan, sedangkan [[where]] berkaitan dengan tempat; jangan menyamakan keduanya.",
+          "english": "The girl whose bag is red lives here.",
+          "indonesian": "Gadis yang tasnya merah itu tinggal di sini.",
+          "why": "[[Whose]] menunjukkan kepemilikan tas oleh [[girl]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gunakan whose/where»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Whose]] menunjukkan kepemilikan tas oleh [[girl]]."
+        },
+        {
+          "title": "Peran dalam klausa",
+          "explanation": "Bedakan relative pronoun yang menjadi subjek dari yang menjadi objek, karena penghilangan pronomina tidak selalu diizinkan.",
+          "english": "The book that I borrowed is interesting.",
+          "indonesian": "Buku yang saya pinjam itu menarik.",
+          "why": "Dalam [[that I borrowed]], [[I]] adalah subjek dan [[that]] berfungsi sebagai objek [[borrowed]]; pada konteks pembatas ini [[that]] boleh dihilangkan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «peran dalam klausa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dalam [[that I borrowed]], [[I]] adalah subjek dan [[that]] berfungsi sebagai objek [[borrowed]]; pada konteks pembatas ini [[that]] boleh dihilangkan."
+        },
+        {
+          "title": "Informasi penting atau tambahan",
+          "explanation": "Klausa pembatas mengenali rujukan; klausa tambahan memberikan keterangan non-esensial dan biasanya diapit koma.",
+          "english": "My brother, who lives in Bandung, is visiting.",
+          "indonesian": "Kakak laki-laki saya, yang tinggal di Bandung, sedang berkunjung.",
+          "why": "Dua koma mengapit informasi tambahan yang tidak dibutuhkan untuk mengidentifikasi [[my brother]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «informasi penting atau tambahan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua koma mengapit informasi tambahan yang tidak dibutuhkan untuk mengidentifikasi [[my brother]]."
+        },
+        {
+          "title": "Gabungkan dengan cermat",
+          "explanation": "Tentukan pronomina, posisi, dan tanda baca sambil memeriksa makna kalimat gabungan.",
+          "english": "The museum, which opened last year, offers free workshops for students.",
+          "indonesian": "Museum itu, yang dibuka tahun lalu, menawarkan lokakarya gratis untuk siswa.",
+          "why": "[[Which]] memberi informasi tambahan tentang [[museum]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan dengan cermat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Which]] memberi informasi tambahan tentang [[museum]]."
         }
       ]
     },

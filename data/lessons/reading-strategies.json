@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Kalimat mana dalam bacaan yang benar-benar mendukung pilihanmu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Kalimat mana dalam bacaan yang benar-benar mendukung pilihanmu? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
-        },
-        {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. Informasi eksplisit: teks menyatakan jam buka langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Jawaban harus punya bukti",
+          "explanation": "Pilihan yang terdengar masuk akal belum tentu sesuai bacaan; cari kalimat pendukung terlebih dahulu.",
           "english": "The café opens at six.",
           "indonesian": "Kafe itu buka pukul enam.",
-          "why": "Informasi eksplisit: teks menyatakan jam buka langsung."
+          "why": "Informasi eksplisit: teks menyatakan jam buka langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jawaban harus punya bukti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Informasi eksplisit: teks menyatakan jam buka langsung."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Pertanyaan detail dapat dijawab dari angka [[two]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "Amina borrowed two novels.",
-          "indonesian": "Amina meminjam dua novel.",
-          "why": "Pertanyaan detail dapat dijawab dari angka [[two]]."
+          "title": "Kenali jenis pertanyaan",
+          "explanation": "Bedakan pertanyaan gagasan utama, detail, referensi, kosakata, tujuan, dan inferensi.",
+          "english": "What is the main idea of the passage?",
+          "indonesian": "Apa gagasan utama bacaan?",
+          "why": "Pertanyaan [[main idea]] meminta pesan umum, bukan satu angka atau detail.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali jenis pertanyaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan [[main idea]] meminta pesan umum, bukan satu angka atau detail."
+        },
+        {
+          "title": "Gagasan utama vs detail",
+          "explanation": "Gagasan utama merangkum maksud bagian teks, sedangkan detail memberi contoh atau penjelasan.",
+          "english": "The author discusses ways to reduce plastic waste.",
+          "indonesian": "Penulis membahas cara mengurangi sampah plastik.",
+          "why": "Kalimat ini merangkum topik, bukan contoh kecil.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gagasan utama vs detail»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat ini merangkum topik, bukan contoh kecil."
+        },
+        {
+          "title": "Cari bagian yang relevan",
+          "explanation": "Temukan paragraf atau kalimat yang berbicara tentang pertanyaan, bukan membaca ulang tanpa arah.",
+          "english": "The school library opened at eight on Monday.",
+          "indonesian": "Perpustakaan sekolah dibuka pukul delapan pada Senin.",
+          "why": "Jika pertanyaannya tentang jam buka, inilah kalimat relevan yang memberikan bukti langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari bagian yang relevan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Jika pertanyaannya tentang jam buka, inilah kalimat relevan yang memberikan bukti langsung."
+        },
+        {
+          "title": "Kenali parafrasa",
+          "explanation": "Jawaban benar sering memakai kata berbeda tetapi makna setara dengan bacaan.",
+          "english": "Students borrowed books before noon.",
+          "indonesian": "Para siswa meminjam buku sebelum tengah hari.",
+          "why": "Ungkapan [[checked out books]] dapat memparafrasakan [[borrowed books]] dalam konteks perpustakaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali parafrasa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ungkapan [[checked out books]] dapat memparafrasakan [[borrowed books]] dalam konteks perpustakaan."
+        },
+        {
+          "title": "Informasi eksplisit",
+          "explanation": "Bedakan fakta yang dinyatakan langsung dari pikiran pembaca.",
+          "english": "The café opens at six.",
+          "indonesian": "Kafe itu buka pukul enam.",
+          "why": "Informasi eksplisit: teks menyatakan jam buka langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «informasi eksplisit»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Informasi eksplisit: teks menyatakan jam buka langsung."
+        },
+        {
+          "title": "Inferensi yang wajar",
+          "explanation": "Gabungkan petunjuk yang benar-benar ada; jangan menganggap semua kemungkinan sama kuat.",
+          "english": "A student suggested opening earlier next week.",
+          "indonesian": "Seorang siswa menyarankan pembukaan lebih awal minggu depan.",
+          "why": "Saran ini dapat menunjukkan keinginan terhadap jam buka lain, tetapi tidak membuktikan jadwal benar-benar berubah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «inferensi yang wajar»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Saran ini dapat menunjukkan keinginan terhadap jam buka lain, tetapi tidak membuktikan jadwal benar-benar berubah."
+        },
+        {
+          "title": "Perangkap pilihan",
+          "explanation": "Kenali pilihan yang terlalu luas, bertentangan, atau mengubah hubungan menjadi sebab-akibat tanpa bukti.",
+          "english": "The article mentions three classrooms, so a claim about all schools is too broad.",
+          "indonesian": "Artikel itu menyebut tiga ruang kelas, sehingga klaim tentang semua sekolah terlalu luas.",
+          "why": "Kata [[all]] dalam pilihan jawaban perlu diperiksa terhadap cakupan bukti sebenarnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perangkap pilihan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata [[all]] dalam pilihan jawaban perlu diperiksa terhadap cakupan bukti sebenarnya."
+        },
+        {
+          "title": "Eliminasi berdasarkan teks",
+          "explanation": "Bandingkan alternatif satu per satu dan catat bagian teks yang mendukung atau membantahnya.",
+          "english": "A report says attendance improved after a new timetable, but no comparison group was studied.",
+          "indonesian": "Laporan menyatakan kehadiran meningkat setelah jadwal baru, tetapi tidak ada kelompok pembanding yang diteliti.",
+          "why": "Jawaban kuat mengakui peningkatan tanpa memastikan penyebabnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «eliminasi berdasarkan teks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Jawaban kuat mengakui peningkatan tanpa memastikan penyebabnya."
+        },
+        {
+          "title": "Jelaskan jawaban terbaik",
+          "explanation": "Pilih alternatif paling kuat dan jelaskan mengapa yang lain kurang tepat, bahkan jika terlihat masuk akal.",
+          "english": "Although three participants liked the app, the article concludes only that those participants reacted positively.",
+          "indonesian": "Walaupun tiga peserta menyukai aplikasi itu, artikel hanya menyimpulkan bahwa peserta tersebut bereaksi positif.",
+          "why": "Kesimpulan tidak boleh meluas menjadi semua pengguna menyukai aplikasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jelaskan jawaban terbaik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kesimpulan tidak boleh meluas menjadi semua pengguna menyukai aplikasi."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "The school library opened at eight on Monday. Fifteen students borrowed books before noon. A student suggested that the library should open earlier next week, but the text does not state that the schedule changed.",
+      "modelIndonesian": "Perpustakaan sekolah dibuka pukul delapan pada hari Senin. Lima belas siswa meminjam buku sebelum tengah hari. Seorang siswa menyarankan agar perpustakaan dibuka lebih awal minggu depan, tetapi teks tidak menyatakan bahwa jadwalnya berubah."
     },
     {
       "type": "synthesis",

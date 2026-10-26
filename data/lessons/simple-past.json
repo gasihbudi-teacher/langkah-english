@@ -13,25 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Peristiwa yang selesai",
+          "explanation": "[[Simple past]] dipakai untuk situasi lampau yang telah terjadi. Tentukan dulu kapan peristiwa berlangsung.",
           "english": "I visited my aunt yesterday.",
           "indonesian": "Saya mengunjungi bibi saya kemarin.",
-          "why": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai."
+          "why": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «peristiwa yang selesai»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Visited]] adalah [[verb-2]] beraturan untuk kejadian selesai."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Went]] adalah [[verb-2]] tak beraturan dari [[go]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Petunjuk waktu",
+          "explanation": "Kata seperti [[yesterday]] dan [[last week]] memberi konteks, tetapi bentuk lampau juga dapat dipahami dari cerita tanpa petunjuk tersebut.",
+          "english": "We visited the museum yesterday.",
+          "indonesian": "Kami mengunjungi museum kemarin.",
+          "why": "[[Yesterday]] menunjukkan acuan waktu lampau; [[visited]] menyatakan kegiatan yang telah selesai.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «petunjuk waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Yesterday]] menunjukkan acuan waktu lampau; [[visited]] menyatakan kegiatan yang telah selesai."
+        },
+        {
+          "title": "Be di masa lalu",
+          "explanation": "Gunakan [[was/were]] untuk keadaan atau identitas pada masa lampau dan pilih berdasarkan subjek.",
+          "english": "They were tired last night.",
+          "indonesian": "Mereka lelah tadi malam.",
+          "why": "[[Were]] adalah bentuk lampau [[be]] untuk [[subject]] jamak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «be di masa lalu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Were]] adalah bentuk lampau [[be]] untuk [[subject]] jamak."
+        },
+        {
+          "title": "Verba regular",
+          "explanation": "Sebagian verba membentuk lampau dengan [[-ed]]. Perhatikan perubahan ejaan tanpa menganggap semua verba mengikutinya.",
+          "english": "I visited the museum.",
+          "indonesian": "Saya mengunjungi museum itu.",
+          "why": "[[Visited]] berasal dari [[visit + -ed]], bentuk lampau beraturan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba regular»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Visited]] berasal dari [[visit + -ed]], bentuk lampau beraturan."
+        },
+        {
+          "title": "Verba irregular",
+          "explanation": "[[Go → went]] dan [[see → saw]] tidak mengikuti pola [[-ed]]. Pelajari bentuknya bersama makna dan kalimatnya.",
           "english": "She went home early.",
           "indonesian": "Dia pulang lebih awal.",
-          "why": "[[Went]] adalah [[verb-2]] tak beraturan dari [[go]]."
+          "why": "[[Went]] merupakan bentuk lampau tak beraturan dari [[go]], bukan [[goed]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba irregular»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Went]] merupakan bentuk lampau tak beraturan dari [[go]], bukan [[goed]]."
+        },
+        {
+          "title": "Kalimat positif",
+          "explanation": "Susun subjek dan bentuk lampau verba biasa untuk menceritakan peristiwa yang selesai.",
+          "english": "Dina finished her homework last night.",
+          "indonesian": "Dina menyelesaikan PR-nya tadi malam.",
+          "why": "[[Finished]] menyatakan tindakan selesai dalam kalimat afirmatif tanpa [[did]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat positif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Finished]] menyatakan tindakan selesai dalam kalimat afirmatif tanpa [[did]]."
+        },
+        {
+          "title": "Kalimat negatif",
+          "explanation": "Dengan verba biasa gunakan [[did not + verb]] dasar; untuk [[be]], gunakan [[wasn't/weren't]].",
+          "english": "Mira did not go to school yesterday.",
+          "indonesian": "Mira tidak pergi ke sekolah kemarin.",
+          "why": "[[Did not]] sudah menandai lampau, jadi gunakan [[go]], bukan [[went]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat negatif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Did not]] sudah menandai lampau, jadi gunakan [[go]], bukan [[went]]."
+        },
+        {
+          "title": "Pertanyaan lampau",
+          "explanation": "Gunakan [[Did + subject + verb]] dasar atau pindahkan [[was/were]] untuk pertanyaan dengan [[be]].",
+          "english": "Did Mira go to school yesterday?",
+          "indonesian": "Apakah Mira pergi ke sekolah kemarin?",
+          "why": "Setelah [[did]], verba tetap bentuk dasar [[go]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan lampau»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Setelah [[did]], verba tetap bentuk dasar [[go]]."
+        },
+        {
+          "title": "Baca kisah pendek",
+          "explanation": "Urutkan beberapa tindakan lampau dan perbaiki kesalahan seperti [[Did she went?]] yang menggandakan penanda lampau.",
+          "english": "When the alarm rang, Dina left the building immediately.",
+          "indonesian": "Ketika alarm berbunyi, Dina segera meninggalkan gedung.",
+          "why": "[[Rang]] dan [[left]] adalah kejadian selesai dalam cerita lampau.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca kisah pendek»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Rang]] dan [[left]] adalah kejadian selesai dalam cerita lampau."
         }
       ]
     },

@@ -21,7 +21,7 @@ for(const m of lessons){
  assert.equal(bs[bs.length-1]?.type,'vocabulary',m.id+': vocabulary must be last');
  assert.ok(bs[0].text.trim().length>=70&&bs[2].text.trim().length>=150,m.id+': insufficient definitions');
  assert.notEqual(bs[0].text,bs[2].text,m.id+': summary is a repeated definition');
- const guided=bs[1];assert.ok(guided.steps.length>=2&&guided.steps.length<=5);
+ const guided=bs[1];assert.ok(guided.steps.length>=2&&guided.steps.length<=20);
  assert.ok(guided.steps.filter(s=>s.english&&s.indonesian&&s.why).length>=2,m.id+': missing worked mini-examples');
  assert.ok(guided.steps.every(s=>s.title&&s.explanation),m.id+': incomplete guided step');
  uniqueScaffolds.add(guided.steps[0].title);totalScaffolds++;

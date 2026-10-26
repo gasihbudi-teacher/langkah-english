@@ -13,31 +13,57 @@
     },
     {
       "type": "scaffold",
-      "intro": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. [[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Konteks pengalaman",
+          "explanation": "Cari kejadian utama, pelaku, lokasi, dan waktu dalam pembukaan recount.",
           "english": "We visited the museum on Monday.",
           "indonesian": "Kami mengunjungi museum pada hari Senin.",
-          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «konteks pengalaman»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[First]] memulai urutan kegiatan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Tindakan lampau",
+          "explanation": "Kenali verba masa lampau yang menyatakan apa yang dilakukan, bukan hanya menyebutkan ciri benda.",
+          "english": "We visited the museum on Monday.",
+          "indonesian": "Kami mengunjungi museum pada hari Senin.",
+          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tindakan lampau»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+        },
+        {
+          "title": "Petunjuk kronologi",
+          "explanation": "Gunakan penanda waktu untuk menentukan kejadian yang terjadi dahulu dan kemudian.",
           "english": "First, we bought tickets.",
           "indonesian": "Pertama, kami membeli tiket.",
-          "why": "[[First]] memulai urutan kegiatan."
+          "why": "[[First]] memulai urutan kegiatan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «petunjuk kronologi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[First]] memulai urutan kegiatan."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Sambungkan rangkaian",
+          "explanation": "Gabungkan beberapa kalimat menjadi satu alur tanpa membalik urutan sebenarnya.",
+          "english": "Then, we watched a short film.",
+          "indonesian": "Kemudian, kami menonton film pendek.",
+          "why": "[[Then]] menghubungkan kejadian berikutnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «sambungkan rangkaian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Then]] menghubungkan kejadian berikutnya."
+        },
+        {
+          "title": "Bedakan refleksi",
+          "explanation": "Komentar seperti [[I felt proud]] menyatakan tanggapan penulis, bukan kejadian baru dalam kronologi.",
+          "english": "Finally, we returned to school.",
+          "indonesian": "Akhirnya, kami kembali ke sekolah.",
+          "why": "[[Finally]] menutup urutan kejadian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bedakan refleksi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Finally]] menutup urutan kejadian."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "On Monday, we attended a science fair. We arrived early and prepared our poster. Later, two visitors asked about our experiment. We explained our results and answered their questions. I felt nervous at first but proud afterward.",
+      "modelIndonesian": "Pada hari Senin, kami mengikuti pameran sains. Kami tiba lebih awal dan menyiapkan poster kami. Kemudian, dua pengunjung bertanya tentang eksperimen kami. Kami menjelaskan hasil dan menjawab pertanyaan mereka. Awalnya saya gugup, tetapi sesudahnya saya bangga."
     },
     {
       "type": "synthesis",

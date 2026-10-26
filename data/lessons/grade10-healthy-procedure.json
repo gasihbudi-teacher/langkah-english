@@ -13,31 +13,84 @@
     },
     {
       "type": "scaffold",
-      "intro": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Pahami hasil yang dituju",
-          "explanation": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
-        },
-        {
-          "title": "Baca langkah awal",
-          "explanation": "Perhatikan kalimat ini. “before” menunjukkan waktu. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Tujuan rutinitas",
+          "explanation": "Kenali hasil praktis yang hendak dicapai; jangan menganggap setiap langkah sebagai nasihat medis untuk semua orang.",
           "english": "Drink water before exercising.",
           "indonesian": "Minum air sebelum berolahraga.",
-          "why": "“before” menunjukkan waktu."
+          "why": "“before” menunjukkan waktu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tujuan rutinitas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“before” menunjukkan waktu."
         },
         {
-          "title": "Hubungkan syarat dan langkah",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Kata kerja di depan memberi instruksi. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Persiapan",
+          "explanation": "Kenali benda, waktu, atau kondisi yang perlu disiapkan sebelum memulai.",
           "english": "Warm up slowly.",
           "indonesian": "Lakukan pemanasan secara perlahan.",
-          "why": "Kata kerja di depan memberi instruksi."
+          "why": "Kata kerja di depan memberi instruksi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «persiapan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata kerja di depan memberi instruksi."
         },
         {
-          "title": "Cek keamanan dan urutan",
-          "explanation": "Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Baca kata kerja tindakan",
+          "explanation": "Pahami perintah seperti [[wash]], [[drink]], atau [[stretch]] beserta objeknya.",
+          "english": "You need comfortable shoes.",
+          "indonesian": "Kamu memerlukan sepatu yang nyaman.",
+          "why": "Ini persiapan sebelum tindakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca kata kerja tindakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini persiapan sebelum tindakan."
+        },
+        {
+          "title": "Ikuti instruksi pertama",
+          "explanation": "Tentukan apa yang benar-benar diminta, tidak sekadar menerjemahkan verba lepas konteks.",
+          "english": "Walk for five minutes.",
+          "indonesian": "Berjalanlah selama lima menit.",
+          "why": "Ini langkah yang harus dikerjakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ikuti instruksi pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini langkah yang harus dikerjakan."
+        },
+        {
+          "title": "Hubungkan urutan",
+          "explanation": "Langkah yang berurutan harus dipahami hubungan dan ketergantungannya.",
+          "english": "First, wash your hands with soap for at least twenty seconds.",
+          "indonesian": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
+          "why": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungkan urutan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+        },
+        {
+          "title": "Kenali if dan when",
+          "explanation": "Kondisi seperti [[if you feel dizzy]] dapat mengubah tindakan yang tepat.",
+          "english": "After the activity, drink water and rest in a cool place.",
+          "indonesian": "Setelah kegiatan, minumlah air dan beristirahatlah di tempat yang sejuk.",
+          "why": "[[After the activity]] menandai waktu, dan dua verba perintah menunjukkan tindakan selanjutnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali if dan when»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[After the activity]] menandai waktu, dan dua verba perintah menunjukkan tindakan selanjutnya."
+        },
+        {
+          "title": "Pertimbangkan kehati-hatian",
+          "explanation": "Baca peringatan dengan serius dan hindari generalisasi bahwa satu rutinitas cocok untuk semua orang.",
+          "english": "After a gentle warm-up, gradually increase your walking speed if you feel comfortable.",
+          "indonesian": "Setelah pemanasan ringan, tingkatkan kecepatan berjalan secara bertahap jika merasa nyaman.",
+          "why": "Urutan dan kondisi menjaga kegiatan tetap aman.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertimbangkan kehati-hatian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Urutan dan kondisi menjaga kegiatan tetap aman."
+        },
+        {
+          "title": "Terangkan keseluruhan",
+          "explanation": "Susun rutinitas singkat dan jelaskan maksud setiap langkah serta urutannya.",
+          "english": "If you experience pain, stop the activity and ask a trusted adult for help.",
+          "indonesian": "Jika mengalami rasa sakit, hentikan kegiatan dan mintalah bantuan orang dewasa tepercaya.",
+          "why": "Kalimat ini menekankan keselamatan, bukan pencapaian waktu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «terangkan keseluruhan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat ini menekankan keselamatan, bukan pencapaian waktu."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "For a simple classroom stretch, stand in a clear space. Move your shoulders gently for a few seconds. Next, raise your arms slowly. If you feel pain or dizziness, stop and tell your teacher. Do not force any movement.",
+      "modelIndonesian": "Untuk peregangan sederhana di kelas, berdirilah di area yang lapang. Gerakkan bahu dengan lembut selama beberapa detik. Selanjutnya, angkat tangan perlahan. Jika merasa sakit atau pusing, berhentilah dan beri tahu guru. Jangan memaksakan gerakan."
     },
     {
       "type": "synthesis",

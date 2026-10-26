@@ -13,29 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. Urutan biasa: [[subject]] diikuti [[auxiliary]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Urutan biasa",
+          "explanation": "Dalam pernyataan normal, subjek biasanya mendahului verba atau auxiliary: [[I have seen]].",
           "english": "I have never seen that painting.",
           "indonesian": "Saya belum pernah melihat lukisan itu.",
-          "why": "Urutan biasa: [[subject]] diikuti [[auxiliary]]."
+          "why": "Urutan biasa: [[subject]] diikuti [[auxiliary]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutan biasa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Urutan biasa: [[subject]] diikuti [[auxiliary]]."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Never]] di depan memicu [[auxiliary]] [[have]] sebelum [[subject]] [[I]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Apa itu auxiliary?",
+          "explanation": "Bedakan kata bantu seperti [[have]], [[is]], dan [[can]] dari verba utama yang menyatakan tindakan.",
+          "english": "I have never seen that painting.",
+          "indonesian": "Saya belum pernah melihat lukisan itu.",
+          "why": "[[Have]] adalah kata bantu, sedangkan [[seen]] merupakan verba utama dalam pola present perfect.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa itu auxiliary?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Have]] adalah kata bantu, sedangkan [[seen]] merupakan verba utama dalam pola present perfect."
+        },
+        {
+          "title": "Inversi pada pertanyaan",
+          "explanation": "Dalam [[Have you seen ...?]], auxiliary muncul sebelum subjek; kenali perubahan urutan yang sudah familiar ini.",
+          "english": "Have you seen the film?",
+          "indonesian": "Apakah kamu sudah menonton film itu?",
+          "why": "[[Have]] terletak sebelum subjek [[you]] dalam pertanyaan; ini membantu mengenali pola inversi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «inversi pada pertanyaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Have]] terletak sebelum subjek [[you]] dalam pertanyaan; ini membantu mengenali pola inversi."
+        },
+        {
+          "title": "Inversi dalam pernyataan",
+          "explanation": "Beberapa struktur formal memakai auxiliary-before-subject meskipun bukan pertanyaan.",
+          "english": "Rarely does she miss a class.",
+          "indonesian": "Jarang sekali dia melewatkan pelajaran.",
+          "why": "[[Rarely]] di depan memakai [[does]] + [[subject]] + [[verb]] dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «inversi dalam pernyataan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Rarely]] di depan memakai [[does]] + [[subject]] + [[verb]] dasar."
+        },
+        {
+          "title": "Pemicu negatif/pembatas",
+          "explanation": "Ungkapan awal seperti [[never]], [[rarely]], dan [[only then]] dapat memicu inversi pada klausa utama.",
           "english": "Never have I seen that painting.",
           "indonesian": "Belum pernah saya melihat lukisan itu.",
-          "why": "[[Never]] di depan memicu [[auxiliary]] [[have]] sebelum [[subject]] [[I]]."
+          "why": "[[Never]] di awal kalimat merupakan pemicu inversi; [[have]] muncul sebelum subjek [[I]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pemicu negatif/pembatas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Never]] di awal kalimat merupakan pemicu inversi; [[have]] muncul sebelum subjek [[I]]."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Ungkapan pembuka apa yang memicu kata bantu mendahului subjek? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Balik auxiliary dan subject",
+          "explanation": "Perhatikan [[Never have I ...]]; yang berpindah bukan sembarang kata tetapi auxiliary yang sesuai.",
+          "english": "Only after the teacher explained the rule did we understand the task.",
+          "indonesian": "Baru setelah guru menjelaskan aturan itu kami memahami tugasnya.",
+          "why": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «balik auxiliary dan subject»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]]."
+        },
+        {
+          "title": "Jika auxiliary belum ada",
+          "explanation": "Dalam simple past atau simple present biasa, gunakan [[did/do/does]] untuk membentuk inversi yang memerlukannya.",
+          "english": "Rarely does she miss a class.",
+          "indonesian": "Jarang sekali ia melewatkan kelas.",
+          "why": "[[Does]] digunakan karena klausa present biasa [[she misses]] tidak memiliki auxiliary lain untuk dibalik.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jika auxiliary belum ada»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Does]] digunakan karena klausa present biasa [[she misses]] tidak memiliki auxiliary lain untuk dibalik."
+        },
+        {
+          "title": "Kapan tidak dibalik?",
+          "explanation": "Tidak semua frasa pembuka memicu inversi. Bandingkan [[Yesterday I saw ...]] dengan [[Never did I see ...]].",
+          "english": "Yesterday I met Lina.",
+          "indonesian": "Kemarin saya bertemu Lina.",
+          "why": "[[Yesterday]] di awal tidak menuntut inversi: urutannya tetap [[I met]], bukan [[did I meet]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kapan tidak dibalik?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Yesterday]] di awal tidak menuntut inversi: urutannya tetap [[I met]], bukan [[did I meet]]."
+        },
+        {
+          "title": "Ubah lalu jelaskan",
+          "explanation": "Bentuk inversi dari kalimat yang cocok, periksa bentuk verba, dan jelaskan penekanan makna yang dihasilkan.",
+          "english": "Under no circumstances should students share their passwords.",
+          "indonesian": "Dalam keadaan apa pun siswa tidak boleh membagikan kata sandi.",
+          "why": "Frasa negatif di depan menyebabkan [[auxiliary]] [[should]] mendahului [[subject]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ubah lalu jelaskan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Frasa negatif di depan menyebabkan [[auxiliary]] [[should]] mendahului [[subject]]."
         }
       ]
     },

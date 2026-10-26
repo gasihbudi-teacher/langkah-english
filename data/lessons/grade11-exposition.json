@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini [[thesis]]: posisi yang perlu didukung alasan. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Mengapa penulis berargumen?",
+          "explanation": "[[Analytical exposition]] bertujuan meyakinkan pembaca mengenai suatu posisi melalui alasan.",
           "english": "Students should read daily.",
           "indonesian": "Siswa sebaiknya membaca setiap hari.",
-          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa penulis berargumen?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini [[thesis]]: posisi yang perlu didukung alasan."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini alasan yang dapat mendukung [[thesis]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Isu utamanya",
+          "explanation": "Tentukan masalah atau topik yang sedang diperdebatkan sebelum menilai pandangan penulis.",
+          "english": "Students should read daily.",
+          "indonesian": "Siswa sebaiknya membaca setiap hari.",
+          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «isu utamanya»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+        },
+        {
+          "title": "Temukan thesis",
+          "explanation": "Cari pernyataan posisi utama yang ingin penulis pertahankan.",
+          "english": "Students should read daily.",
+          "indonesian": "Siswa sebaiknya membaca setiap hari.",
+          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan thesis»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+        },
+        {
+          "title": "Thesis bukan alasan",
+          "explanation": "Pernyataan posisi mengatakan apa yang diyakini, sedangkan alasan menjawab mengapa posisi itu layak diterima.",
           "english": "Reading develops vocabulary.",
           "indonesian": "Membaca mengembangkan kosakata.",
-          "why": "Ini alasan yang dapat mendukung [[thesis]]."
+          "why": "Ini alasan yang dapat mendukung [[thesis]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «thesis bukan alasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan yang dapat mendukung [[thesis]]."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apa pendapat penulis, dan bukti apa yang mendukungnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Argumen pertama",
+          "explanation": "Uraikan satu alasan secara utuh sebelum menambahkan alasan lainnya.",
+          "english": "Reading develops vocabulary.",
+          "indonesian": "Membaca mengembangkan kosakata.",
+          "why": "Ini alasan yang dapat mendukung [[thesis]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «argumen pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini alasan yang dapat mendukung [[thesis]]."
+        },
+        {
+          "title": "Argumen berikutnya",
+          "explanation": "Hubungkan alasan tambahan dengan thesis, bukan dengan topik baru yang tidak relevan.",
+          "english": "Schools should provide drinking-water stations because they can reduce plastic waste.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
+          "why": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «argumen berikutnya»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
+        },
+        {
+          "title": "Bukti pendukung",
+          "explanation": "Contoh, fakta, dan data dapat memperjelas alasan; bedakan ketiganya dari pendapat tanpa dukungan.",
+          "english": "A longer lunch break may help students recharge, according to the school survey.",
+          "indonesian": "Istirahat makan siang yang lebih lama mungkin membantu siswa memulihkan tenaga, menurut survei sekolah.",
+          "why": "Ungkapan [[may]] memberi klaim yang terbatas, sementara sumber bukti dinyatakan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukti pendukung»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ungkapan [[may]] memberi klaim yang terbatas, sementara sumber bukti dinyatakan."
+        },
+        {
+          "title": "Reiteration",
+          "explanation": "Bagian akhir menguatkan posisi awal tanpa menyisipkan klaim baru yang tidak dijelaskan.",
+          "english": "For these reasons, keeping the reading room open for one extra hour is worth considering.",
+          "indonesian": "Karena alasan-alasan tersebut, membuka ruang baca satu jam lebih lama layak dipertimbangkan.",
+          "why": "[[For these reasons]] merujuk kembali pada argumen yang sudah dikemukakan sebelum penutup.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «reiteration»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[For these reasons]] merujuk kembali pada argumen yang sudah dikemukakan sebelum penutup."
+        },
+        {
+          "title": "Susun exposition lengkap",
+          "explanation": "Tandai thesis, tiap argumen, bukti, dan reiteration di satu teks utuh sebelum menulis kerangkanya.",
+          "english": "Students need a quiet place to study. A school reading room can help, so extending its hours is worth considering.",
+          "indonesian": "Siswa memerlukan tempat tenang untuk belajar. Ruang baca sekolah dapat membantu, jadi memperpanjang jam bukanya layak dipertimbangkan.",
+          "why": "Kalimat pertama menyatakan kebutuhan, yang kedua menghubungkan alasan dengan posisi penulis dalam satu alur argumentasi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «susun exposition lengkap»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat pertama menyatakan kebutuhan, yang kedua menghubungkan alasan dengan posisi penulis dalam satu alur argumentasi."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Students should have access to a school reading room after classes. First, a quiet space helps them concentrate on assignments. Second, students who share a room at home may need a place to study. For these reasons, keeping the reading room open for one extra hour is worth considering.",
+      "modelIndonesian": "Siswa sebaiknya dapat menggunakan ruang baca sekolah setelah pelajaran berakhir. Pertama, tempat tenang membantu mereka berkonsentrasi pada tugas. Kedua, siswa yang berbagi kamar di rumah mungkin memerlukan tempat belajar. Karena alasan tersebut, membuka ruang baca satu jam lebih lama layak dipertimbangkan."
     },
     {
       "type": "synthesis",

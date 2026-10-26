@@ -13,29 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
+          "title": "Ucapan langsung dan laporan",
+          "explanation": "Bedakan kalimat yang mengutip kata asli dengan kalimat yang menyampaikan kembali isi ucapan.",
+          "english": "Mira said, \"I am tired.\" Mira said that she was tired.",
+          "indonesian": "Mira berkata, \"Saya lelah.\" Mira mengatakan bahwa ia lelah.",
+          "why": "Versi kedua melaporkan ucapan tanpa mengutip kata demi kata.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ucapan langsung dan laporan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Versi kedua melaporkan ucapan tanpa mengutip kata demi kata."
         },
         {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. Ini [[direct speech]]: ucapan asli berada dalam tanda kutip. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "Rani said, \"I am tired.\"",
-          "indonesian": "Rani berkata, \"Saya lelah.\"",
-          "why": "Ini [[direct speech]]: ucapan asli berada dalam tanda kutip."
-        },
-        {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Siapa dan kapan?",
+          "explanation": "Tentukan siapa yang berbicara, siapa yang dilapori, dan kapan laporan dibuat sebelum mengubah bentuk.",
           "english": "Rani said that she was tired.",
           "indonesian": "Rani mengatakan bahwa dia lelah.",
-          "why": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]."
+          "why": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa dan kapan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Say dan tell",
+          "explanation": "Gunakan [[say]] untuk melaporkan kata-kata dan [[tell]] dengan penerima, misalnya [[told me]].",
+          "english": "He said that he was ready. He told me that he was ready.",
+          "indonesian": "Ia mengatakan bahwa ia siap. Ia memberi tahu saya bahwa ia siap.",
+          "why": "[[Told me]] menyebut penerima laporan; [[said]] tidak langsung diikuti objek orang dengan pola yang sama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «say dan tell»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Told me]] menyebut penerima laporan; [[said]] tidak langsung diikuti objek orang dengan pola yang sama."
+        },
+        {
+          "title": "Ubah pronoun",
+          "explanation": "[[I]] dalam ucapan asli mungkin menjadi [[she]] saat dilaporkan; perubahan mengikuti orang yang dirujuk.",
+          "english": "Rina said, \"I am ready.\" Rina said she was ready.",
+          "indonesian": "Rina berkata, \"Saya siap.\" Rina mengatakan bahwa ia siap.",
+          "why": "[[I]] milik Rina berubah menjadi [[she]] saat dilaporkan oleh orang lain.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ubah pronoun»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I]] milik Rina berubah menjadi [[she]] saat dilaporkan oleh orang lain."
+        },
+        {
+          "title": "Ubah acuan waktu/tempat",
+          "explanation": "[[Today]], [[tomorrow]], dan [[here]] berubah hanya bila konteks pelaporannya memang berubah.",
+          "english": "He said, \"I will come tomorrow.\" He said he would come the next day.",
+          "indonesian": "Ia berkata, \"Saya akan datang besok.\" Ia mengatakan bahwa ia akan datang keesokan harinya.",
+          "why": "[[Tomorrow]] menjadi [[the next day]] jika laporan dibuat setelah hari asli.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ubah acuan waktu/tempat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Tomorrow]] menjadi [[the next day]] jika laporan dibuat setelah hari asli."
+        },
+        {
+          "title": "Backshift dasar",
+          "explanation": "Ketika melaporkan pernyataan dari sudut pandang lampau, [[am]] dapat menjadi [[was]] dan [[will]] menjadi [[would]].",
+          "english": "Mira said, \"I am tired.\" Mira said that she was tired.",
+          "indonesian": "Mira berkata, \"Saya lelah.\" Mira mengatakan bahwa ia lelah.",
+          "why": "Saat dilaporkan dari sudut lampau, [[am]] dapat menjadi [[was]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «backshift dasar»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Saat dilaporkan dari sudut lampau, [[am]] dapat menjadi [[was]]."
+        },
+        {
+          "title": "Kapan tense tetap?",
+          "explanation": "Fakta yang masih berlaku atau laporan yang terjadi segera tidak selalu membutuhkan perubahan tense.",
+          "english": "The teacher said that water boils at 100°C at sea level.",
+          "indonesian": "Guru mengatakan bahwa air mendidih pada 100°C di permukaan laut.",
+          "why": "Fakta umum yang masih berlaku boleh dipertahankan dalam present, tidak harus dibackshift.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kapan tense tetap?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Fakta umum yang masih berlaku boleh dipertahankan dalam present, tidak harus dibackshift."
+        },
+        {
+          "title": "Laporkan yes/no questions",
+          "explanation": "Gunakan [[if/whether]] dan urutan pernyataan, bukan urutan pertanyaan langsung.",
+          "english": "She asked whether I was ready.",
+          "indonesian": "Dia bertanya apakah saya siap.",
+          "why": "Pertanyaan ya/tidak yang dilaporkan memakai [[whether]] dan urutan pernyataan [[I was]], bukan [[was I]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «laporkan yes/no questions»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan ya/tidak yang dilaporkan memakai [[whether]] dan urutan pernyataan [[I was]], bukan [[was I]]."
+        },
+        {
+          "title": "Laporkan wh-questions dan perintah",
+          "explanation": "Pertahankan kata tanya untuk pertanyaan informasi; perintah sering dilaporkan dengan [[told/asked + someone + to + verb]].",
+          "english": "He told me to close the door.",
+          "indonesian": "Ia menyuruh saya menutup pintu.",
+          "why": "Perintah dapat dilaporkan dengan [[told + person + to + verb]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «laporkan wh-questions dan perintah»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perintah dapat dilaporkan dengan [[told + person + to + verb]]."
+        },
+        {
+          "title": "Laporkan percakapan",
+          "explanation": "Ubah beberapa kutipan secara berurutan, lalu periksa apakah orang, waktu, dan maksud tetap konsisten.",
+          "english": "The teacher explained that water boils at 100°C at sea level.",
+          "indonesian": "Guru menjelaskan bahwa air mendidih pada 100°C di permukaan laut.",
+          "why": "Kebenaran umum dapat tetap dalam [[present]] ketika dilaporkan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «laporkan percakapan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kebenaran umum dapat tetap dalam [[present]] ketika dilaporkan."
         }
       ]
     },

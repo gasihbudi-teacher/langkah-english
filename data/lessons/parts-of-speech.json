@@ -13,25 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan). Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kata punya tugas",
+          "explanation": "Jenis kata ditentukan oleh perannya dalam kalimat, bukan sekadar arti terjemahan. Lihat pekerjaan tiap kata dalam satu kalimat sederhana.",
           "english": "The teacher smiles.",
           "indonesian": "Guru itu tersenyum.",
-          "why": "[[The]] [[teacher]] berfungsi sebagai [[noun]] (pelaku); [[smiles]] sebagai [[verb]] (tindakan)."
+          "why": "[[Teacher]] menamai orang, sedangkan [[smiles]] menyatakan tindakan. Tugas kata di kalimat menentukan jenisnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata punya tugas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Teacher]] menamai orang, sedangkan [[smiles]] menyatakan tindakan. Tugas kata di kalimat menentukan jenisnya."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Kenali noun",
+          "explanation": "[[Noun]] menamai orang, tempat, benda, atau gagasan. Cari kata yang menunjuk sesuatu, bukan tindakan yang sedang dilakukan.",
           "english": "The small cat sleeps.",
           "indonesian": "Kucing kecil itu tidur.",
-          "why": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
+          "why": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali noun»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
+        },
+        {
+          "title": "Kenali verb",
+          "explanation": "[[Verb]] menyatakan tindakan atau keadaan. Bandingkan kata yang menamai pelaku dengan kata yang menyatakan kegiatannya.",
+          "english": "Rina speaks clearly.",
+          "indonesian": "Rina berbicara dengan jelas.",
+          "why": "[[Clearly]] adalah [[adverb]] karena menjelaskan cara [[Rina]] berbicara.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali verb»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Clearly]] adalah [[adverb]] karena menjelaskan cara [[Rina]] berbicara."
+        },
+        {
+          "title": "Gabungkan subjek dan verba",
+          "explanation": "Satu kalimat sederhana dapat dibangun dari siapa yang dibahas dan apa yang ia lakukan. Periksa apakah ada verba yang mengungkapkan predikat.",
+          "english": "The book is on the desk.",
+          "indonesian": "Buku itu berada di atas meja.",
+          "why": "[[On]] adalah [[preposition]] yang menunjukkan hubungan tempat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan subjek dan verba»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[On]] adalah [[preposition]] yang menunjukkan hubungan tempat."
+        },
+        {
+          "title": "Kenali pronoun",
+          "explanation": "[[Pronoun]] dapat menggantikan kata benda yang sudah diketahui. Saat membaca [[she]], tanyakan siapa yang dimaksud dalam konteks.",
+          "english": "Rina is a student. She studies English.",
+          "indonesian": "Rina adalah seorang siswa. Ia belajar bahasa Inggris.",
+          "why": "[[She]] mengacu pada [[Rina]] sehingga nama tidak perlu diulang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali pronoun»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[She]] mengacu pada [[Rina]] sehingga nama tidak perlu diulang."
+        },
+        {
+          "title": "Kenali adjective",
+          "explanation": "[[Adjective]] menjelaskan sifat atau ciri kata benda. Tentukan kata benda yang diterangkan sebelum memberi label.",
+          "english": "She has a beautiful bag.",
+          "indonesian": "Dia mempunyai tas yang indah.",
+          "why": "[[Beautiful]] menjelaskan [[bag]], sehingga berfungsi sebagai [[adjective]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali adjective»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Beautiful]] menjelaskan [[bag]], sehingga berfungsi sebagai [[adjective]]."
+        },
+        {
+          "title": "Kenali adverb",
+          "explanation": "[[Adverb]] sering menjelaskan bagaimana, kapan, atau seberapa suatu tindakan terjadi; tidak semua berakhiran [[-ly]].",
+          "english": "The quiet student spoke quietly during the debate.",
+          "indonesian": "Siswa yang pendiam itu berbicara dengan pelan selama debat.",
+          "why": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali adverb»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]]."
+        },
+        {
+          "title": "Kenali determiner",
+          "explanation": "Kata seperti [[the]], [[a]], dan [[this]] muncul bersama kata benda dan membantu menentukan rujukannya.",
+          "english": "After the race, the tired runner rested peacefully.",
+          "indonesian": "Setelah lomba, pelari yang lelah beristirahat dengan tenang.",
+          "why": "[[Tired]] adalah adjektiva untuk pelari, sedangkan [[peacefully]] adalah adverbia untuk cara beristirahat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali determiner»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Tired]] adalah adjektiva untuk pelari, sedangkan [[peacefully]] adalah adverbia untuk cara beristirahat."
+        },
+        {
+          "title": "Hubungan dan sambungan",
+          "explanation": "[[Preposition]] menunjukkan hubungan seperti tempat atau waktu; [[conjunction]] menghubungkan bagian kalimat atau gagasan.",
+          "english": "After the rain stopped, the children played outside.",
+          "indonesian": "Setelah hujan berhenti, anak-anak bermain di luar.",
+          "why": "[[After]] menghubungkan waktu; [[outside]] memberi keterangan tempat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan dan sambungan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[After]] menghubungkan waktu; [[outside]] memberi keterangan tempat."
+        },
+        {
+          "title": "Periksa fungsi dalam konteks",
+          "explanation": "Kata seperti [[book]] bisa menjadi kata benda atau kata kerja. Jangan menebak kelas kata tanpa membaca kalimat lengkap.",
+          "english": "Although the road was wet, the driver moved carefully.",
+          "indonesian": "Walaupun jalan basah, pengemudi bergerak hati-hati.",
+          "why": "[[Although]] menghubungkan klausa yang berlawanan; [[carefully]] menerangkan [[moved]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa fungsi dalam konteks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Although]] menghubungkan klausa yang berlawanan; [[carefully]] menerangkan [[moved]]."
         }
       ]
     },

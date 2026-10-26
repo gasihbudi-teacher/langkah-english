@@ -13,25 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Kebiasaan atau fakta",
+          "explanation": "[[Simple present]] biasa dipakai untuk rutinitas, fakta umum, dan jadwal tetap; tidak berarti semua kejadian yang sedang berlangsung.",
           "english": "I study English every afternoon.",
           "indonesian": "Saya belajar bahasa Inggris setiap sore.",
-          "why": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
+          "why": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kebiasaan atau fakta»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Kenali subject",
+          "explanation": "Siapa yang melakukan kegiatan? Bentuk verba afirmatif bergantung pada subjek tersebut.",
           "english": "She studies English every afternoon.",
           "indonesian": "Dia belajar bahasa Inggris setiap sore.",
-          "why": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
+          "why": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali subject»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
+        },
+        {
+          "title": "Kalimat dengan be",
+          "explanation": "Mulailah dari [[I am]], [[she is]], dan [[they are]] untuk keadaan atau identitas; jangan menambah [[do]].",
+          "english": "They are usually ready.",
+          "indonesian": "Mereka biasanya siap.",
+          "why": "Dengan [[be]], [[adverb]] [[usually]] ditempatkan setelah [[are]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat dengan be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dengan [[be]], [[adverb]] [[usually]] ditempatkan setelah [[are]]."
+        },
+        {
+          "title": "Verba dasar untuk I/you/we/they",
+          "explanation": "Dalam kalimat positif, subjek ini biasanya memakai verba dasar: [[I study]], [[they study]].",
+          "english": "I study English every afternoon.",
+          "indonesian": "Saya belajar bahasa Inggris setiap sore.",
+          "why": "Subjek [[I]] memakai bentuk dasar [[study]] dalam kalimat afirmatif.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba dasar untuk i/you/we/they»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Subjek [[I]] memakai bentuk dasar [[study]] dalam kalimat afirmatif."
+        },
+        {
+          "title": "Verba untuk he/she/it",
+          "explanation": "Pelajari [[studies]], [[watches]], dan [[plays]] sebagai variasi penambahan [[-s/-es]] pada kalimat afirmatif.",
+          "english": "She studies English every afternoon.",
+          "indonesian": "Dia belajar bahasa Inggris setiap sore.",
+          "why": "Subjek [[she]] memakai [[studies]]; bentuk [[-ies]] berasal dari [[study]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verba untuk he/she/it»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Subjek [[she]] memakai [[studies]]; bentuk [[-ies]] berasal dari [[study]]."
+        },
+        {
+          "title": "Negatif dengan be",
+          "explanation": "Tambahkan [[not]] setelah [[am/is/are]]; tidak menggunakan [[don't]] bersama [[be]] utama.",
+          "english": "She is not ready.",
+          "indonesian": "Dia belum siap.",
+          "why": "Karena predikat memakai [[is]], negasinya [[is not]], bukan [[does not is]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif dengan be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Karena predikat memakai [[is]], negasinya [[is not]], bukan [[does not is]]."
+        },
+        {
+          "title": "Negatif dengan do/does",
+          "explanation": "Gunakan [[do not/does not]] lalu verba dasar. Bandingkan [[she studies]] dengan [[she does not study]].",
+          "english": "She does not study every afternoon.",
+          "indonesian": "Dia tidak belajar setiap sore.",
+          "why": "[[Does not]] sudah menandai subjek [[she]], sehingga [[study]] tetap bentuk dasar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif dengan do/does»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Does not]] sudah menandai subjek [[she]], sehingga [[study]] tetap bentuk dasar."
+        },
+        {
+          "title": "Pertanyaan dengan be",
+          "explanation": "Pindahkan [[am/is/are]] ke depan subjek saat membentuk pertanyaan sederhana.",
+          "english": "Is she ready?",
+          "indonesian": "Apakah dia siap?",
+          "why": "Pertanyaan dengan [[be]] dibuat dengan memindahkan [[is]] sebelum subjek [[she]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan dengan be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan dengan [[be]] dibuat dengan memindahkan [[is]] sebelum subjek [[she]]."
+        },
+        {
+          "title": "Pertanyaan dengan do/does",
+          "explanation": "Awali pertanyaan verba biasa dengan [[do/does]], disusul subjek dan verba dasar.",
+          "english": "Does she study every day?",
+          "indonesian": "Apakah dia belajar setiap hari?",
+          "why": "Pertanyaan memakai [[does]] dan verba dasar [[study]], bukan [[studies]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan dengan do/does»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pertanyaan memakai [[does]] dan verba dasar [[study]], bukan [[studies]]."
+        },
+        {
+          "title": "Tentukan pola yang tepat",
+          "explanation": "Pilih antara [[be]] dan verba biasa menurut makna, lalu periksa kesalahan seperti [[doesn't studies]].",
+          "english": "She studies, but they study at home.",
+          "indonesian": "Dia belajar, tetapi mereka belajar di rumah.",
+          "why": "[[She]] memakai [[studies]], sedangkan [[they]] memakai [[study]]. Konteks tidak mengubah aturan agreement.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tentukan pola yang tepat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[She]] memakai [[studies]], sedangkan [[they]] memakai [[study]]. Konteks tidak mengubah aturan agreement."
         }
       ]
     },

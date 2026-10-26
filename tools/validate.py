@@ -39,8 +39,9 @@ for r in resources:
             assert b['type'] in required
             assert all(k in b for k in required[b['type']])
             if b['type']=='scaffold':
-                assert 2 <= len(b['steps']) <= 5 and all(x['title'] and x['explanation'] for x in b['steps'])
-                assert all(x.get('indonesian') and x.get('why') for x in b['steps'] if x.get('english'))
+                assert 3 <= len(b['steps']) <= 20 and all(x['title'] and x['explanation'] for x in b['steps'])
+                assert all(x.get('english') and x.get('indonesian') and x.get('why') and x.get('check') and x.get('checkAnswer') for x in b['steps'])
+                assert (not b.get('modelEnglish')) or (b.get('modelIndonesian') and b.get('modelTitle'))
             if b['type']=='checkpoint':
                 assert len(b['choices']) == len(b['translationChoices']) == 3 and 0 <= b['answer'] < 3
             if b['type']=='table':

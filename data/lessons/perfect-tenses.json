@@ -13,29 +13,97 @@
     },
     {
       "type": "scaffold",
-      "intro": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Waktu kejadian dan acuan",
+          "explanation": "Pisahkan kapan sesuatu terjadi dari waktu yang dijadikan titik pembanding; dua waktu itu tidak selalu sama.",
           "english": "I have finished my homework.",
           "indonesian": "Saya sudah menyelesaikan PR saya.",
-          "why": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
+          "why": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «waktu kejadian dan acuan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "She has visited Bali twice.",
-          "indonesian": "Dia sudah dua kali mengunjungi Bali.",
-          "why": "[[Has]] dipakai untuk [[she]]; [[visited]] adalah [[V3]]."
+          "title": "Gunakan garis waktu",
+          "explanation": "Gambarkan masa lalu dan sekarang. Letakkan peristiwa, hasil, serta titik acuan sebelum memilih bentuk verba.",
+          "english": "I finished my homework yesterday. I have finished it now.",
+          "indonesian": "Saya menyelesaikan PR kemarin. Sekarang PR itu sudah selesai.",
+          "why": "Kalimat pertama menyebut kejadian lampau tertentu; yang kedua menekankan keadaan atau hasil yang relevan sekarang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gunakan garis waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat pertama menyebut kejadian lampau tertentu; yang kedua menekankan keadaan atau hasil yang relevan sekarang."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Kenali V3",
+          "explanation": "[[Past participle]] ialah bentuk ketiga verba; [[seen]] dan [[finished]] berbeda asal-usul tetapi sama-sama dapat mengikuti [[have]].",
+          "english": "She has written the report.",
+          "indonesian": "Dia telah menulis laporan itu.",
+          "why": "[[Written]] adalah bentuk V3 dari [[write]] yang mengikuti [[has]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali v3»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Written]] adalah bentuk V3 dari [[write]] yang mengikuti [[has]]."
+        },
+        {
+          "title": "Susun present perfect",
+          "explanation": "Gunakan [[have/has + V3]]; [[have]] untuk [[I/you/we/they]] dan [[has]] untuk [[he/she/it]].",
+          "english": "I finished my homework last night.",
+          "indonesian": "Saya menyelesaikan PR tadi malam.",
+          "why": "[[Simple past]] cocok untuk waktu lampau yang spesifik.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «susun present perfect»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Simple past]] cocok untuk waktu lampau yang spesifik."
+        },
+        {
+          "title": "Pengalaman hidup",
+          "explanation": "[[I have visited Bali]] dapat membahas pengalaman tanpa menyatakan waktu lampau tertentu.",
+          "english": "When we arrived, the movie had started.",
+          "indonesian": "Saat kami tiba, film sudah dimulai.",
+          "why": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pengalaman hidup»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]]."
+        },
+        {
+          "title": "Hasil yang relevan sekarang",
+          "explanation": "[[I have lost my key]] mengaitkan kejadian lampau dengan keadaan sekarang, misalnya kunci belum ditemukan.",
+          "english": "I have lost my key.",
+          "indonesian": "Saya kehilangan kunci saya.",
+          "why": "[[Have lost]] menekankan akibat masa lalu yang masih relevan, misalnya kunci belum ditemukan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hasil yang relevan sekarang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Have lost]] menekankan akibat masa lalu yang masih relevan, misalnya kunci belum ditemukan."
+        },
+        {
+          "title": "Since dan for",
+          "explanation": "[[Since]] menandai awal periode dan [[for]] durasinya dalam situasi yang masih relevan sekarang.",
+          "english": "She has lived here for three years.",
+          "indonesian": "Dia sudah tinggal di sini selama tiga tahun.",
+          "why": "[[For three years]] menyatakan durasi yang berkaitan dengan situasi berlanjut hingga sekarang.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «since dan for»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[For three years]] menyatakan durasi yang berkaitan dengan situasi berlanjut hingga sekarang."
+        },
+        {
+          "title": "Bedakan simple past",
+          "explanation": "[[I visited Bali in 2022]] menyebut waktu lampau selesai; jangan sembarang menambah [[yesterday]] pada present perfect pengalaman.",
+          "english": "I visited Bali in 2022.",
+          "indonesian": "Saya mengunjungi Bali pada tahun 2022.",
+          "why": "Waktu selesai [[in 2022]] lazim memakai simple past [[visited]], bukan present perfect pengalaman.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bedakan simple past»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Waktu selesai [[in 2022]] lazim memakai simple past [[visited]], bukan present perfect pengalaman."
+        },
+        {
+          "title": "Kenali past perfect",
+          "explanation": "[[Had + V3]] menempatkan suatu peristiwa sebelum titik acuan di masa lalu, bukan sekadar menyatakan peristiwa yang sangat lama.",
+          "english": "The train had left when we arrived.",
+          "indonesian": "Kereta sudah berangkat ketika kami tiba.",
+          "why": "[[Had left]] terjadi lebih dulu daripada [[arrived]], dua kejadian yang sama-sama beracuan masa lalu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali past perfect»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had left]] terjadi lebih dulu daripada [[arrived]], dua kejadian yang sama-sama beracuan masa lalu."
+        },
+        {
+          "title": "Bandingkan dengan cerita",
+          "explanation": "Urutkan dua peristiwa lampau dan lihat mana yang memerlukan [[had + V3]]; jelaskan perbedaan dengan simple past.",
+          "english": "By the time the teacher entered, all students had opened their books.",
+          "indonesian": "Ketika guru masuk, semua siswa sudah membuka buku.",
+          "why": "[[Had]] [[opened]] menandai peristiwa yang lebih dahulu dari [[entered]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan dengan cerita»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had]] [[opened]] menandai peristiwa yang lebih dahulu dari [[entered]]."
         }
       ]
     },

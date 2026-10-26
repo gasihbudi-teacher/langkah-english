@@ -13,29 +13,88 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
-        },
-        {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. [[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Ulangi kondisi hipotetis",
+          "explanation": "Ingat bahwa bentuk conditional dipilih berdasarkan apakah situasi nyata, mungkin, atau hanya dibayangkan.",
           "english": "If I had known, I would have called.",
           "indonesian": "Jika saya tahu saat itu, saya pasti sudah menelepon.",
-          "why": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
+          "why": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ulangi kondisi hipotetis»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Buat garis waktu",
+          "explanation": "Pisahkan masa lalu dari masa kini; tanyakan kapan syarat terjadi dan kapan hasil dibayangkan.",
           "english": "If she had studied, she would have passed.",
           "indonesian": "Jika dia belajar waktu itu, dia akan lulus.",
-          "why": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
+          "why": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «buat garis waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Third conditional: makna",
+          "explanation": "Bayangkan hasil berbeda dari masa lalu yang sudah tidak dapat diubah.",
+          "english": "If I had known, I would have called.",
+          "indonesian": "Seandainya saya tahu, saya tentu sudah menelepon.",
+          "why": "Kalimat membayangkan perubahan atas masa lalu, bukan kejadian yang benar-benar terjadi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «third conditional: makna»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kalimat membayangkan perubahan atas masa lalu, bukan kejadian yang benar-benar terjadi."
+        },
+        {
+          "title": "Third conditional: bentuk",
+          "explanation": "Kenali [[if + had + V3]] dan [[would have + V3]] untuk syarat dan akibat lampau yang hipotetis.",
+          "english": "If she had studied, she would have passed.",
+          "indonesian": "Jika dahulu ia belajar, ia tentu akan lulus.",
+          "why": "Klausa syarat memakai [[had studied]] dan akibat [[would have passed]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «third conditional: bentuk»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Klausa syarat memakai [[had studied]] dan akibat [[would have passed]]."
+        },
+        {
+          "title": "Bandingkan dengan kenyataan",
+          "explanation": "Tuliskan kejadian yang sebenarnya dan apa yang dibayangkan; jangan menganggap kalimat bersyarat sebagai laporan fakta.",
+          "english": "If I were more organised, I would have submitted it yesterday.",
+          "indonesian": "Jika saya lebih teratur, kemarin saya mungkin sudah mengumpulkannya.",
+          "why": "[[Mixed conditional]]: kondisi umum/kini, akibat masa lampau.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan dengan kenyataan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Mixed conditional]]: kondisi umum/kini, akibat masa lampau."
+        },
+        {
+          "title": "Mixed: masa lalu ke kini",
+          "explanation": "Syarat tidak nyata di masa lalu bisa mempunyai akibat yang dibayangkan pada masa kini.",
+          "english": "If he had slept earlier, he would feel better now.",
+          "indonesian": "Jika dahulu ia tidur lebih cepat, ia akan merasa lebih baik sekarang.",
+          "why": "Syarat lampau menggunakan [[had slept]] dan hasil saat ini menggunakan [[would feel]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mixed: masa lalu ke kini»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Syarat lampau menggunakan [[had slept]] dan hasil saat ini menggunakan [[would feel]]."
+        },
+        {
+          "title": "Periksa dua waktu",
+          "explanation": "Bentuk verba di tiap klausa bergantung pada waktu masing-masing, bukan harus selalu sama.",
+          "english": "Had the team checked the figures, it would not have reported the wrong total.",
+          "indonesian": "Seandainya tim telah memeriksa angkanya, tim tidak akan melaporkan jumlah yang salah.",
+          "why": "[[Had the team checked]] ialah inversi bersyarat yang setara dengan [[If the team had checked]], tentang masa lalu yang tidak terjadi.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periksa dua waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Had the team checked]] ialah inversi bersyarat yang setara dengan [[If the team had checked]], tentang masa lalu yang tidak terjadi."
+        },
+        {
+          "title": "Bandingkan beberapa andaian",
+          "explanation": "Bedakan third conditional, mixed conditional, dan second conditional melalui satu kisah yang sama.",
+          "english": "If the team had tested the system before launch, fewer users would have encountered errors.",
+          "indonesian": "Jika tim menguji sistem sebelum peluncuran, lebih sedikit pengguna yang mungkin mengalami galat.",
+          "why": "Kondisi lampau yang tidak terpenuhi menjelaskan konsekuensi alternatif lampau.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan beberapa andaian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kondisi lampau yang tidak terpenuhi menjelaskan konsekuensi alternatif lampau."
+        },
+        {
+          "title": "Terapkan sesuai konteks",
+          "explanation": "Rumuskan situasi nyata lalu alternatif hipotetis yang tepat; catat bahwa inversi bersyarat formal merupakan bentuk lanjutan, bukan syarat wajib.",
+          "english": "Were the instructions clearer, more students would complete the task independently.",
+          "indonesian": "Jika instruksinya lebih jelas, lebih banyak siswa akan menyelesaikan tugas secara mandiri.",
+          "why": "[[Were]] di awal menggantikan [[if]] pada kondisi hipotetis formal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «terapkan sesuai konteks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Were]] di awal menggantikan [[if]] pada kondisi hipotetis formal."
         }
       ]
     },

@@ -13,25 +13,70 @@
     },
     {
       "type": "scaffold",
-      "intro": "Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Temukan inti subjek",
+          "explanation": "Sebelum memilih verba, cari siapa atau apa yang benar-benar menjadi subjek; jangan hanya melihat kata yang paling dekat dengan verba.",
           "english": "The boy plays chess.",
           "indonesian": "Anak laki-laki itu bermain catur.",
-          "why": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
+          "why": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan inti subjek»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "The boys play chess.",
-          "indonesian": "Anak-anak laki-laki itu bermain catur.",
-          "why": "[[Subject]] jamak [[the]] [[boys]] memakai [[play]] tanpa [[-s]]."
+          "title": "Tunggal dan jamak",
+          "explanation": "Bedakan satu orang atau benda dengan lebih dari satu. Jumlah subjek memengaruhi sejumlah bentuk verba bahasa Inggris.",
+          "english": "My sister is here.",
+          "indonesian": "Saudara perempuan saya ada di sini.",
+          "why": "Bentuk [[be]] untuk [[subject]] tunggal adalah [[is]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tunggal dan jamak»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Bentuk [[be]] untuk [[subject]] tunggal adalah [[is]]."
+        },
+        {
+          "title": "Verb biasa di present",
+          "explanation": "Untuk subjek [[he/she/it]] tunggal, verba biasa afirmatif sering berakhiran [[-s/-es]]; bentuk jamak biasanya memakai verba dasar.",
+          "english": "The list of questions is long.",
+          "indonesian": "Daftar pertanyaannya panjang.",
+          "why": "Inti [[subject]] adalah [[list]], bukan [[questions]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «verb biasa di present»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Inti [[subject]] adalah [[list]], bukan [[questions]]."
+        },
+        {
+          "title": "Agreement pada be",
+          "explanation": "[[Am]], [[is]], dan [[are]] mengikuti subjek masing-masing, berbeda dari perubahan akhiran verba biasa.",
+          "english": "The questions on the list are difficult.",
+          "indonesian": "Pertanyaan dalam daftar itu sulit.",
+          "why": "Inti [[subject]] adalah [[questions]] yang jamak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «agreement pada be»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Inti [[subject]] adalah [[questions]] yang jamak."
+        },
+        {
+          "title": "Bandingkan pasangan",
+          "explanation": "Ganti hanya subjek dalam dua kalimat dan perhatikan bagian verba mana yang perlu berubah.",
+          "english": "A list of recommended books is on the table.",
+          "indonesian": "Daftar buku yang direkomendasikan ada di atas meja.",
+          "why": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan pasangan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]]."
+        },
+        {
+          "title": "Negatif dan pertanyaan",
+          "explanation": "Dalam [[does not]] dan pertanyaan [[does]], penanda kesesuaian berada pada [[does]] sehingga verba utama tetap dasar.",
+          "english": "The teacher and the assistant are preparing the room.",
+          "indonesian": "Guru dan asisten sedang menyiapkan ruangan.",
+          "why": "Dua [[subject]] yang digabung [[and]] umumnya memakai [[verb]] jamak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «negatif dan pertanyaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Dua [[subject]] yang digabung [[and]] umumnya memakai [[verb]] jamak."
+        },
+        {
+          "title": "Jangan tertipu kata penyela",
+          "explanation": "Dalam [[the box of pencils]], subjek intinya [[box]], bukan [[pencils]]. Telusuri seluruh frasa subjek sebelum memilih verba.",
+          "english": "Does she read every night?",
+          "indonesian": "Apakah dia membaca setiap malam?",
+          "why": "[[Does]] menandai subjek tunggal; verba utamanya [[read]] tanpa [[-s]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jangan tertipu kata penyela»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Does]] menandai subjek tunggal; verba utamanya [[read]] tanpa [[-s]]."
         }
       ]
     },

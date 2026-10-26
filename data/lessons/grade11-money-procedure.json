@@ -13,31 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Pahami hasil yang dituju",
-          "explanation": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Instruksi yang benar tidak boleh mengabaikan prasyarat atau peringatan."
-        },
-        {
-          "title": "Baca langkah awal",
-          "explanation": "Perhatikan kalimat ini. Ini langkah pertama untuk mengetahui jumlah tersedia. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Mengapa membuat anggaran?",
+          "explanation": "Anggaran membagi uang yang tersedia untuk kebutuhan dan tujuan sehingga pengeluaran bisa dikendalikan.",
           "english": "Write down your weekly allowance.",
           "indonesian": "Catat uang saku mingguanmu.",
-          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia."
+          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa membuat anggaran?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini langkah pertama untuk mengetahui jumlah tersedia."
         },
         {
-          "title": "Hubungkan syarat dan langkah",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Biaya yang wajib didahulukan bisa disebut kebutuhan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Tentukan tujuan",
+          "explanation": "Sebut sasaran konkret, misalnya menyisihkan uang untuk buku, sebelum mengalokasikan dana.",
+          "english": "Write down your weekly allowance.",
+          "indonesian": "Catat uang saku mingguanmu.",
+          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tentukan tujuan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini langkah pertama untuk mengetahui jumlah tersedia."
+        },
+        {
+          "title": "Hitung dana tersedia",
+          "explanation": "Identifikasi pemasukan atau uang saku yang benar-benar dapat dipakai.",
+          "english": "Dini receives Rp100,000 each week.",
+          "indonesian": "Dini menerima Rp100.000 setiap minggu.",
+          "why": "[[Rp100,000]] adalah uang tersedia sebelum dikurangi pengeluaran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hitung dana tersedia»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Rp100,000]] adalah uang tersedia sebelum dikurangi pengeluaran."
+        },
+        {
+          "title": "Daftar pengeluaran wajib",
+          "explanation": "Catat ongkos, makanan, atau kebutuhan pokok sebelum belanja tambahan.",
           "english": "List necessary transport costs.",
           "indonesian": "Daftar biaya transportasi yang diperlukan.",
-          "why": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
+          "why": "Biaya yang wajib didahulukan bisa disebut kebutuhan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «daftar pengeluaran wajib»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
         },
         {
-          "title": "Cek keamanan dan urutan",
-          "explanation": "Langkah mana menentukan prioritas sebelum uang dibelanjakan? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Kebutuhan dan keinginan",
+          "explanation": "Bandingkan pengeluaran yang penting dengan yang bisa ditunda.",
+          "english": "A second decorative notebook may be a want.",
+          "indonesian": "Buku catatan hias kedua mungkin hanya keinginan.",
+          "why": "Tidak semua pembelian yang disukai merupakan kebutuhan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kebutuhan dan keinginan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tidak semua pembelian yang disukai merupakan kebutuhan."
+        },
+        {
+          "title": "Alokasikan uang",
+          "explanation": "Bagi jumlah tersedia ke kategori yang jelas tanpa menjumlahkan dua kali.",
+          "english": "She plans Rp40,000 for transport, Rp30,000 for meals, and Rp20,000 for savings.",
+          "indonesian": "Ia menganggarkan Rp40.000 untuk transportasi, Rp30.000 untuk makan, dan Rp20.000 untuk tabungan.",
+          "why": "Total alokasi Rp90.000 dari Rp100.000. Setiap kategori memiliki jumlah yang jelas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alokasikan uang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Total alokasi Rp90.000 dari Rp100.000. Setiap kategori memiliki jumlah yang jelas."
+        },
+        {
+          "title": "Hitung sisa",
+          "explanation": "Kurangi seluruh alokasi dari dana awal untuk memeriksa apakah anggaran seimbang.",
+          "english": "Rp100,000 − Rp40,000 − Rp30,000 − Rp20,000 = Rp10,000.",
+          "indonesian": "Rp100.000 dikurangi Rp40.000, Rp30.000, dan Rp20.000 sama dengan Rp10.000.",
+          "why": "Sisa anggaran adalah Rp10.000, bukan Rp30.000; kurangi seluruh alokasi dari dana awal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hitung sisa»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Sisa anggaran adalah Rp10.000, bukan Rp30.000; kurangi seluruh alokasi dari dana awal."
+        },
+        {
+          "title": "Kenali defisit",
+          "explanation": "Jika total pengeluaran lebih besar daripada pemasukan, rencana harus diperbaiki.",
+          "english": "Dini has Rp10,000 left, but she wants to spend Rp25,000.",
+          "indonesian": "Dini memiliki sisa Rp10.000, tetapi ingin mengeluarkan Rp25.000.",
+          "why": "Pengeluaran Rp25.000 melampaui sisa Rp10.000 dengan selisih Rp15.000.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali defisit»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pengeluaran Rp25.000 melampaui sisa Rp10.000 dengan selisih Rp15.000."
+        },
+        {
+          "title": "Pilih penyesuaian",
+          "explanation": "Kurangi pengeluaran yang lebih fleksibel sambil menjaga tujuan utama.",
+          "english": "Dini could lower her entertainment spending to Rp10,000.",
+          "indonesian": "Dini dapat mengurangi belanja hiburannya menjadi Rp10.000.",
+          "why": "Penyesuaian membatasi pengeluaran sesuai sisa anggaran tanpa memotong transportasi atau makan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih penyesuaian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Penyesuaian membatasi pengeluaran sesuai sisa anggaran tanpa memotong transportasi atau makan."
+        },
+        {
+          "title": "Terapkan rencana utuh",
+          "explanation": "Ikuti satu contoh anggaran dari awal hingga akhir dan periksa kembali perhitungannya.",
+          "english": "If the planned spending is higher than the allowance, reduce optional purchases before changing necessary costs.",
+          "indonesian": "Jika rencana pengeluaran lebih besar dari uang saku, kurangi pembelian pilihan sebelum mengubah biaya wajib.",
+          "why": "Instruksi bersyarat mendukung keputusan anggaran yang masuk akal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «terapkan rencana utuh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Instruksi bersyarat mendukung keputusan anggaran yang masuk akal."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Dini receives Rp100,000 each week. She plans Rp40,000 for transport, Rp30,000 for meals, and Rp20,000 for savings. She has Rp10,000 left for other expenses. If she spends Rp25,000 on entertainment, she will exceed her plan by Rp15,000 unless she changes another allocation.",
+      "modelIndonesian": "Dini menerima Rp100.000 setiap minggu. Ia merencanakan Rp40.000 untuk transportasi, Rp30.000 untuk makan, dan Rp20.000 untuk tabungan. Ia memiliki sisa Rp10.000 untuk pengeluaran lain. Jika ia mengeluarkan Rp25.000 untuk hiburan, ia akan melampaui rencana sebesar Rp15.000 kecuali mengubah alokasi lain."
     },
     {
       "type": "synthesis",

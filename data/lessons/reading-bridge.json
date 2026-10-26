@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
+          "title": "Mulai dengan kata dikenal",
+          "explanation": "Tidak perlu menerjemahkan semua kata sekaligus; cari kata paling mudah sebagai pijakan.",
+          "english": "Rina has a small garden.",
+          "indonesian": "Rina memiliki kebun kecil.",
+          "why": "[[Rina]] dan [[garden]] adalah kata mudah yang menjadi pijakan arti kalimat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mulai dengan kata dikenal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Rina]] dan [[garden]] adalah kata mudah yang menjadi pijakan arti kalimat."
         },
         {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. [[Dog]] adalah pelaku; [[chased]] menyatakan tindakan; [[ball]] adalah sasaran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
-          "english": "The dog chased the ball.",
-          "indonesian": "Anjing itu mengejar bola.",
-          "why": "[[Dog]] adalah pelaku; [[chased]] menyatakan tindakan; [[ball]] adalah sasaran."
+          "title": "Siapa atau apa?",
+          "explanation": "Cari subjek kalimat untuk mengetahui hal utama yang sedang dibicarakan.",
+          "english": "Rina has a small garden.",
+          "indonesian": "Rina memiliki kebun kecil.",
+          "why": "Subjek kalimat ialah [[Rina]], bukan [[garden]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa atau apa?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Subjek kalimat ialah [[Rina]], bukan [[garden]]."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Is]] [[old]] menjelaskan keadaan [[bridge]], bukan suatu tindakan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "The bridge is old.",
-          "indonesian": "Jembatan itu tua.",
-          "why": "[[Is]] [[old]] menjelaskan keadaan [[bridge]], bukan suatu tindakan."
+          "title": "Apa yang terjadi?",
+          "explanation": "Temukan verba atau keadaan inti sehingga kalimat punya makna dasar.",
+          "english": "She waters the plants every morning.",
+          "indonesian": "Ia menyiram tanaman setiap pagi.",
+          "why": "[[Waters]] menyatakan kegiatan inti yang dilakukan [[she]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa yang terjadi?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Waters]] menyatakan kegiatan inti yang dilakukan [[she]]."
+        },
+        {
+          "title": "Gabungkan informasi inti",
+          "explanation": "Sampaikan hubungan subjek dan predikat menggunakan bahasa Indonesia sederhana.",
+          "english": "Rina has a small garden.",
+          "indonesian": "Rina memiliki kebun kecil.",
+          "why": "Makna inti dapat dipahami sebagai [[Rina memiliki kebun]], sebelum detail [[small]] ditambahkan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan informasi inti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Makna inti dapat dipahami sebagai [[Rina memiliki kebun]], sebelum detail [[small]] ditambahkan."
+        },
+        {
+          "title": "Informasi tambahan",
+          "explanation": "Kenali keterangan waktu, tempat, dan sifat tanpa kehilangan inti kalimat.",
+          "english": "She waters the plants every morning.",
+          "indonesian": "Ia menyiram tanaman setiap pagi.",
+          "why": "[[Every morning]] menambahkan informasi waktu pada tindakan [[waters]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «informasi tambahan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Every morning]] menambahkan informasi waktu pada tindakan [[waters]]."
+        },
+        {
+          "title": "Dua kalimat satu topik",
+          "explanation": "Baca dua kalimat berurutan dan cari apa yang masih dibicarakan.",
+          "english": "Rina has a small garden. She waters the plants every morning.",
+          "indonesian": "Rina memiliki kebun kecil. Ia menyiram tanaman setiap pagi.",
+          "why": "Kedua kalimat membahas Rina dan kebunnya, sehingga saling berkaitan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «dua kalimat satu topik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kedua kalimat membahas Rina dan kebunnya, sehingga saling berkaitan."
+        },
+        {
+          "title": "Rujukan ulang",
+          "explanation": "[[He]], [[it]], [[they]], atau [[this]] sering merujuk informasi di kalimat sebelumnya; telusuri acuannya.",
+          "english": "Rina has a garden. She waters it.",
+          "indonesian": "Rina memiliki kebun. Ia menyiraminya.",
+          "why": "[[She]] merujuk pada [[Rina]], sedangkan [[it]] merujuk pada [[a garden]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rujukan ulang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[She]] merujuk pada [[Rina]], sedangkan [[it]] merujuk pada [[a garden]]."
+        },
+        {
+          "title": "Hubungan antarkalimat",
+          "explanation": "[[But]], [[because]], dan [[therefore]] menunjukkan kontras, alasan, atau akibat yang perlu dipahami.",
+          "english": "The soil is dry today, so she brings more water.",
+          "indonesian": "Tanahnya kering hari ini, jadi ia membawa lebih banyak air.",
+          "why": "[[So]] menghubungkan kondisi tanah kering dengan akibat berupa tindakan Rina.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungan antarkalimat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[So]] menghubungkan kondisi tanah kering dengan akibat berupa tindakan Rina."
+        },
+        {
+          "title": "Gagasan utama paragraf",
+          "explanation": "Gabungkan rincian pendukung menjadi satu pesan yang mencakup sebagian besar kalimat.",
+          "english": "Rina waters her garden and gets help from her brother.",
+          "indonesian": "Rina menyiram kebunnya dan mendapat bantuan dari kakaknya.",
+          "why": "Rangkuman ini menyatukan beberapa detail tanpa mengubah pesan utama paragraf.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gagasan utama paragraf»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Rangkuman ini menyatukan beberapa detail tanpa mengubah pesan utama paragraf."
+        },
+        {
+          "title": "Rangkum dengan bahasa sendiri",
+          "explanation": "Jelaskan paragraf pendek dalam bahasa Indonesia tanpa mengganti fakta atau menerjemahkan kata demi kata.",
+          "english": "Rina cares for her small garden before school.",
+          "indonesian": "Rina merawat kebun kecilnya sebelum sekolah.",
+          "why": "Ringkasan memadatkan beberapa kalimat tetapi tetap menjaga pelaku, kegiatan, dan waktu.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «rangkum dengan bahasa sendiri»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ringkasan memadatkan beberapa kalimat tetapi tetap menjaga pelaku, kegiatan, dan waktu."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Rina has a small garden. She waters the plants every morning. The soil is dry today, so she brings an extra bottle of water. Her brother helps her. Together, they finish before school.",
+      "modelIndonesian": "Rina memiliki kebun kecil. Ia menyiram tanaman setiap pagi. Tanahnya kering hari ini, jadi ia membawa satu botol air tambahan. Kakaknya membantunya. Bersama-sama mereka selesai sebelum sekolah."
     },
     {
       "type": "synthesis",

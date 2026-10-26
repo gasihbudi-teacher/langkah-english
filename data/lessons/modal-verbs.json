@@ -13,25 +13,70 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apakah maksudnya kemampuan, izin, kemungkinan, saran, atau kewajiban? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Temukan bagian penting",
-          "explanation": "Apakah maksudnya kemampuan, izin, kemungkinan, saran, atau kewajiban? Tentukan fungsi kata atau bagian kalimat sebelum menghafal rumus."
-        },
-        {
-          "title": "Amati bentuknya",
-          "explanation": "Perhatikan kalimat ini. [[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Modal mengubah maksud",
+          "explanation": "Kata bantu seperti [[can]] dan [[must]] tidak menamai kegiatan, melainkan menunjukkan sikap pembicara terhadap kegiatan itu.",
           "english": "You can swim here.",
           "indonesian": "Kamu boleh berenang di sini.",
-          "why": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks."
+          "why": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «modal mengubah maksud»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Can]] dapat menyatakan izin atau kemampuan, tergantung konteks."
         },
         {
-          "title": "Periksa bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. [[Must]] menyatakan kewajiban yang kuat. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "You must wear a helmet.",
-          "indonesian": "Kamu harus memakai helm.",
-          "why": "[[Must]] menyatakan kewajiban yang kuat."
+          "title": "Kemampuan dan izin",
+          "explanation": "[[Can]] dapat menyatakan kemampuan atau izin; lihat konteks untuk membedakannya.",
+          "english": "You should rest.",
+          "indonesian": "Kamu sebaiknya beristirahat.",
+          "why": "[[Should]] memberi saran, bukan perintah mutlak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kemampuan dan izin»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Should]] memberi saran, bukan perintah mutlak."
+        },
+        {
+          "title": "Kemungkinan",
+          "explanation": "[[May]], [[might]], dan [[could]] dapat menyatakan kemungkinan dengan tingkat keyakinan atau nuansa yang berbeda.",
+          "english": "It might rain later.",
+          "indonesian": "Mungkin nanti akan hujan.",
+          "why": "[[Might]] menyampaikan kemungkinan tanpa kepastian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kemungkinan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Might]] menyampaikan kemungkinan tanpa kepastian."
+        },
+        {
+          "title": "Saran",
+          "explanation": "[[Should]] biasa digunakan saat memberi saran, tidak sama dengan perintah mutlak.",
+          "english": "You should rest after the race.",
+          "indonesian": "Kamu sebaiknya beristirahat setelah perlombaan.",
+          "why": "[[Should]] memberi saran, berbeda dari keharusan mutlak.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «saran»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Should]] memberi saran, berbeda dari keharusan mutlak."
+        },
+        {
+          "title": "Kewajiban",
+          "explanation": "[[Must]] dan [[have to]] dapat menunjukkan keharusan tetapi berasal dari konteks atau sumber kewajiban berbeda.",
+          "english": "You must wear a helmet here.",
+          "indonesian": "Kamu wajib memakai helm di sini.",
+          "why": "[[Must]] menyatakan kewajiban kuat, bukan hanya kemungkinan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kewajiban»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Must]] menyatakan kewajiban kuat, bukan hanya kemungkinan."
+        },
+        {
+          "title": "Larangan vs tidak wajib",
+          "explanation": "[[Mustn't]] berarti dilarang; [[don't have to]] berarti tidak wajib. Kedua makna ini tidak dapat dipertukarkan.",
+          "english": "You must not enter. You do not have to wait.",
+          "indonesian": "Kamu dilarang masuk. Kamu tidak wajib menunggu.",
+          "why": "[[Must not]] menyatakan larangan, sedangkan [[do not have to]] meniadakan kewajiban.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «larangan vs tidak wajib»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Must not]] menyatakan larangan, sedangkan [[do not have to]] meniadakan kewajiban."
+        },
+        {
+          "title": "Bentuk dan pilihan",
+          "explanation": "Modal inti seperti [[can/should/must]] diikuti verba dasar tanpa [[to]]; pilih modal berdasarkan maksud kalimat.",
+          "english": "She can read the message.",
+          "indonesian": "Dia dapat membaca pesan itu.",
+          "why": "[[Can]] sebagai modal inti langsung diikuti [[read]], bukan [[to read]].",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bentuk dan pilihan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Can]] sebagai modal inti langsung diikuti [[read]], bukan [[to read]]."
         }
       ]
     },

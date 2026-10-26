@@ -13,31 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Ini peristiwa yang disebut langsung. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Unsur cerita dasar",
+          "explanation": "Kenali tokoh, tempat, dan rangkaian kejadian sebelum mencari makna tersembunyi.",
           "english": "The lights went out.",
           "indonesian": "Lampu-lampu padam.",
-          "why": "Ini peristiwa yang disebut langsung."
+          "why": "Ini peristiwa yang disebut langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «unsur cerita dasar»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini peristiwa yang disebut langsung."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Tindakan dapat menjadi petunjuk tentang tekad. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Sudut pandang pencerita",
+          "explanation": "Pengetahuan dan sikap narator memengaruhi apa yang diketahui pembaca.",
           "english": "Nara kept working by the window.",
           "indonesian": "Nara terus bekerja dekat jendela.",
-          "why": "Tindakan dapat menjadi petunjuk tentang tekad."
+          "why": "Tindakan dapat menjadi petunjuk tentang tekad.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «sudut pandang pencerita»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan dapat menjadi petunjuk tentang tekad."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Situasi awal",
+          "explanation": "Pahami keadaan tokoh sebelum konflik berkembang.",
+          "english": "She gave the last battery to her friend.",
+          "indonesian": "Ia memberikan baterai terakhir kepada temannya.",
+          "why": "Tindakan bisa menunjukkan prioritas tokoh.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «situasi awal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan bisa menunjukkan prioritas tokoh."
+        },
+        {
+          "title": "Konflik",
+          "explanation": "Identifikasi masalah yang mendorong pilihan dan tindakan tokoh.",
+          "english": "Nara said she was calm.",
+          "indonesian": "Nara berkata bahwa ia tenang.",
+          "why": "Perasaan dinyatakan secara langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «konflik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perasaan dinyatakan secara langsung."
+        },
+        {
+          "title": "Titik balik",
+          "explanation": "Cari peristiwa yang mengubah arah cerita atau hubungan antartokoh.",
+          "english": "Her hands shook as she smiled.",
+          "indonesian": "Tangannya gemetar saat ia tersenyum.",
+          "why": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «titik balik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+        },
+        {
+          "title": "Petunjuk perasaan",
+          "explanation": "Tindakan dan dialog dapat menyiratkan emosi, tetapi jangan langsung menambah fakta baru.",
+          "english": "Nadia kept the letter unopened, even after the others had left.",
+          "indonesian": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
+          "why": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «petunjuk perasaan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+        },
+        {
+          "title": "Motif tokoh",
+          "explanation": "Hubungkan beberapa petunjuk untuk menafsirkan mengapa tokoh bertindak.",
+          "english": "When her brother returned, she finally put the key on the table.",
+          "indonesian": "Ketika saudara laki-lakinya kembali, akhirnya ia meletakkan kunci di meja.",
+          "why": "Perubahan tindakan bisa menunjukkan perubahan keputusan tokoh; tafsir harus mempertimbangkan konteks cerita.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «motif tokoh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perubahan tindakan bisa menunjukkan perubahan keputusan tokoh; tafsir harus mempertimbangkan konteks cerita."
+        },
+        {
+          "title": "Uji tafsir",
+          "explanation": "Periksa apakah peristiwa berikutnya menguatkan atau melemahkan dugaan tentang tokoh.",
+          "english": "The boy returned the medal without explaining why he had kept it.",
+          "indonesian": "Anak laki-laki itu mengembalikan medali tanpa menjelaskan mengapa ia menyimpannya.",
+          "why": "Tindakan dan informasi yang sengaja tidak dijelaskan membuka ruang inferensi yang masih memerlukan konteks.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «uji tafsir»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan dan informasi yang sengaja tidak dijelaskan membuka ruang inferensi yang masih memerlukan konteks."
+        },
+        {
+          "title": "Temukan tema",
+          "explanation": "Tema adalah gagasan yang berkembang melalui pilihan dan konflik, bukan sekadar label moral.",
+          "english": "Although Nara feared the storm, she stayed to help the younger children find a safe room.",
+          "indonesian": "Meskipun Nara takut pada badai, ia tetap membantu anak-anak kecil menemukan ruangan aman.",
+          "why": "Kontras antara takut dan bertindak menunjukkan keberanian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan tema»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kontras antara takut dan bertindak menunjukkan keberanian."
+        },
+        {
+          "title": "Pertanggungjawabkan interpretasi",
+          "explanation": "Simpulkan motif dan tema dengan bukti tekstual sambil menyebut alternatif bila bukti belum pasti.",
+          "english": "When the power returned, she realised that sharing resources had mattered more than finishing her own project.",
+          "indonesian": "Saat listrik kembali, ia menyadari berbagi sumber daya lebih penting daripada menuntaskan proyeknya sendiri.",
+          "why": "Perubahan nilai tokoh membantu menemukan tema.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanggungjawabkan interpretasi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perubahan nilai tokoh membantu menemukan tema."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Dara waited outside the empty hall with her speech in hand. When her friend arrived late, Dara smiled but kept looking at the clock. She said she was not worried. Later, she admitted that speaking alone had frightened her. Her actions earlier had hinted at that fear.",
+      "modelIndonesian": "Dara menunggu di luar aula kosong sambil memegang naskah pidatonya. Saat temannya datang terlambat, Dara tersenyum tetapi terus melihat jam. Ia berkata bahwa dirinya tidak khawatir. Belakangan ia mengakui bahwa berbicara sendirian membuatnya takut. Tindakannya sebelumnya sudah memberi petunjuk mengenai ketakutan itu."
     },
     {
       "type": "synthesis",

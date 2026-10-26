@@ -20,7 +20,7 @@ for(const m of catalog.resources){
  const [scaffold]=d.blocks.filter(b=>b.type==='scaffold');
  assert.ok(scaffold,`${m.id}: missing scaffold`);
  assert.equal(d.blocks[0].type,'definition',`${m.id}: definition must introduce lesson`);
- assert.ok(scaffold.steps.length>=2&&scaffold.steps.length<=5);
+ assert.ok(scaffold.steps.length>=2&&scaffold.steps.length<=20);
  assert.ok(scaffold.intro.length>=65,`${m.id}: introductory explanation too short`);
  assert.ok(scaffold.steps.every(x=>x.explanation.length>=35),`${m.id}: one microstep is too brief`);
  assert.ok(scaffold.steps.filter(s=>s.english).length>=2&&scaffold.steps.filter(s=>s.english).every(s=>s.indonesian&&s.why),`${m.id}: untranslated mini-example`);

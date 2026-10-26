@@ -13,27 +13,102 @@
     },
     {
       "type": "scaffold",
-      "intro": "Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Tentukan yang dicari",
-          "explanation": "Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras? Cari kalimat yang mendukung jawaban; periksa batas informasi teks."
+          "title": "Dua pendapat bisa berbeda",
+          "explanation": "Penulis dapat memakai informasi berbeda untuk menjawab persoalan sama.",
+          "english": "Both sources discuss the same event.",
+          "indonesian": "Kedua sumber membahas acara sama.",
+          "why": "Topik sama tidak berarti ukuran sama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «dua pendapat bisa berbeda»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Topik sama tidak berarti ukuran sama."
         },
         {
-          "title": "Tandai bukti pertama",
-          "explanation": "Perhatikan kalimat ini. Pendaftaran tidak sama dengan kehadiran. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Pertanyaan pembanding",
+          "explanation": "Tentukan isu persis yang dibahas kedua sumber agar tidak membandingkan topik yang berlainan.",
+          "english": "Both sources discuss the same event.",
+          "indonesian": "Kedua sumber membahas acara sama.",
+          "why": "Topik sama tidak berarti ukuran sama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pertanyaan pembanding»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Topik sama tidak berarti ukuran sama."
+        },
+        {
+          "title": "Klaim teks pertama",
+          "explanation": "Nyatakan posisi penulis pertama dengan bahasa sederhana tanpa menambah maksud.",
           "english": "Source A counts registrations.",
           "indonesian": "Sumber A menghitung pendaftaran.",
-          "why": "Pendaftaran tidak sama dengan kehadiran."
+          "why": "Pendaftaran tidak sama dengan kehadiran.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «klaim teks pertama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Pendaftaran tidak sama dengan kehadiran."
         },
         {
-          "title": "Uji informasi kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Ini ukuran yang berbeda. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Klaim teks kedua",
+          "explanation": "Nyatakan posisi penulis kedua dengan ketelitian yang sama.",
           "english": "Source B counts attendance.",
           "indonesian": "Sumber B menghitung kehadiran.",
-          "why": "Ini ukuran yang berbeda."
+          "why": "Ini ukuran yang berbeda.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «klaim teks kedua»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini ukuran yang berbeda."
+        },
+        {
+          "title": "Alasan setiap posisi",
+          "explanation": "Pisahkan alasan masing-masing argumen sebelum menilai buktinya.",
+          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
+          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
+          "why": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «alasan setiap posisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+        },
+        {
+          "title": "Bukti yang dipakai",
+          "explanation": "Tentukan angka, pengamatan, atau sumber spesifik yang mendukung masing-masing klaim.",
+          "english": "Fifty students signed up.",
+          "indonesian": "Lima puluh siswa mendaftar.",
+          "why": "Ini jumlah pendaftar.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukti yang dipakai»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini jumlah pendaftar."
+        },
+        {
+          "title": "Relevansi dan kesetaraan",
+          "explanation": "Bandingkan bukti dengan ukuran, kelompok, dan pertanyaan yang sepadan.",
+          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
+          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
+          "why": "Definisi ukuran menjelaskan sebagian perbedaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «relevansi dan kesetaraan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Definisi ukuran menjelaskan sebagian perbedaan."
+        },
+        {
+          "title": "Keandalan dan batas",
+          "explanation": "Periksa cakupan, metode, dan informasi yang tidak tersedia sebelum mempercayai klaim.",
+          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
+          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
+          "why": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «keandalan dan batas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+        },
+        {
+          "title": "Hindari simpulan berlebihan",
+          "explanation": "Sampel kecil atau data berbeda periode tidak cukup untuk kesimpulan mutlak.",
+          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
+          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
+          "why": "Definisi ukuran menjelaskan sebagian perbedaan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hindari simpulan berlebihan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Definisi ukuran menjelaskan sebagian perbedaan."
+        },
+        {
+          "title": "Putuskan secara proporsional",
+          "explanation": "Pilih argumen dengan bukti lebih kuat atau akui bila data tidak cukup, dan sebut alasan eksplisitnya.",
+          "english": "Before judging which claim is stronger, readers need to ask whether the sources describe the same group and time period.",
+          "indonesian": "Sebelum menilai klaim mana lebih kuat, pembaca perlu memeriksa apakah sumber membahas kelompok dan periode waktu sama.",
+          "why": "Perbandingan memerlukan kesesuaian dasar data.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «putuskan secara proporsional»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perbandingan memerlukan kesesuaian dasar data."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Writer A says the new bus route is effective because 80 passengers used it on Monday. Writer B notes that 80 passengers alone is not enough to judge its effectiveness because no previous figure, cost, or passenger target is provided. The writers evaluate the same route but use different standards of evidence.",
+      "modelIndonesian": "Penulis A mengatakan rute bus baru efektif karena 80 penumpang menggunakannya pada hari Senin. Penulis B mencatat bahwa angka 80 penumpang saja tidak cukup untuk menilai efektivitasnya karena tidak ada angka sebelumnya, biaya, atau target penumpang. Kedua penulis menilai rute sama tetapi menggunakan standar bukti berbeda."
     },
     {
       "type": "synthesis",

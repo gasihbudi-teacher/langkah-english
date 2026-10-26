@@ -38,7 +38,7 @@ for(const m of entries){
   assert.equal(d.assessments.length,1);
   assert.ok(m.prerequisites?.length>=1,'prerequisite missing '+m.id);
   const scaffold=d.blocks.filter(b=>b.type==='scaffold');assert.equal(scaffold.length,1);assert.equal(d.blocks[0].type,'definition');
-  assert.ok(scaffold[0].steps.length>=2&&scaffold[0].steps.length<=5);
+  assert.ok(scaffold[0].steps.length>=2&&scaffold[0].steps.length<=20);
   assert.ok(scaffold[0].steps.filter(s=>s.english).length>=2&&scaffold[0].steps.filter(s=>s.english).every(s=>s.indonesian&&s.why));
   const groups=d.blocks.filter(b=>b.type==='example_group');
   assert.ok(groups.reduce((n,g)=>n+g.items.length,0)>=10);

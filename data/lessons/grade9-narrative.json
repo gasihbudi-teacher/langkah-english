@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali tujuan penulis",
-          "explanation": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Coba tentukan fungsi bagian teks: pengenalan, perkembangan, alasan, atau penutup."
-        },
-        {
-          "title": "Baca bagian model",
-          "explanation": "Perhatikan kalimat ini. Kehilangan kunci memperkenalkan masalah cerita. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Cerita punya rangkaian kejadian",
+          "explanation": "Teks naratif menampilkan tokoh dan peristiwa yang saling berhubungan, bukan daftar ciri objek.",
           "english": "A boy lost his key.",
           "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
-          "why": "Kehilangan kunci memperkenalkan masalah cerita."
+          "why": "Kehilangan kunci memperkenalkan masalah cerita.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cerita punya rangkaian kejadian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kehilangan kunci memperkenalkan masalah cerita."
         },
         {
-          "title": "Hubungkan bagian berikutnya",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. Tindakan ini menunjukkan usaha menyelesaikan masalah. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
+          "title": "Siapa tokohnya?",
+          "explanation": "Tentukan siapa yang bertindak dan siapa yang terpengaruh dalam cerita.",
+          "english": "A boy lost his key.",
+          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
+          "why": "Kehilangan kunci memperkenalkan masalah cerita.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa tokohnya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kehilangan kunci memperkenalkan masalah cerita."
+        },
+        {
+          "title": "Di mana dan kapan?",
+          "explanation": "Kenali latar tempat serta waktu agar tindakan tokoh mudah diikuti.",
           "english": "He searched under the table.",
           "indonesian": "Dia mencari di bawah meja.",
-          "why": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
+          "why": "Tindakan ini menunjukkan usaha menyelesaikan masalah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «di mana dan kapan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
         },
         {
-          "title": "Susun kerangka teks sendiri",
-          "explanation": "Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Masalah awal",
+          "explanation": "Cari kejadian yang menimbulkan kesulitan atau konflik bagi tokoh.",
+          "english": "His sister found it in a bag.",
+          "indonesian": "Saudara perempuannya menemukan kunci itu di tas.",
+          "why": "Penemuan kunci menjadi penyelesaian.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «masalah awal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Penemuan kunci menjadi penyelesaian."
+        },
+        {
+          "title": "Urutkan tindakan",
+          "explanation": "Ikuti apa yang dilakukan tokoh setelah masalah muncul, bukan hanya melompat ke akhir.",
+          "english": "At first, Deni was afraid to ask for help.",
+          "indonesian": "Awalnya, Deni takut meminta bantuan.",
+          "why": "[[At]] [[first]] memperkenalkan keadaan awal tokoh.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutkan tindakan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[At]] [[first]] memperkenalkan keadaan awal tokoh."
+        },
+        {
+          "title": "Hubungkan tindakan dan akibat",
+          "explanation": "Tanyakan bagaimana satu pilihan tokoh memengaruhi kejadian berikutnya.",
+          "english": "Later, he asked his neighbour.",
+          "indonesian": "Kemudian, dia bertanya kepada tetangganya.",
+          "why": "[[Later]] menandai tahap berikutnya.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungkan tindakan dan akibat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Later]] menandai tahap berikutnya."
+        },
+        {
+          "title": "Titik balik dan penyelesaian",
+          "explanation": "Temukan peristiwa penting yang mengubah situasi dan apa yang terjadi pada akhirnya.",
+          "english": "Finally, he reached home safely.",
+          "indonesian": "Akhirnya, dia sampai rumah dengan selamat.",
+          "why": "[[Finally]] menandai akhir rangkaian peristiwa.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «titik balik dan penyelesaian»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Finally]] menandai akhir rangkaian peristiwa."
+        },
+        {
+          "title": "Perasaan dan motif",
+          "explanation": "Simpulkan alasan tindakan tokoh dari dialog atau peristiwa yang benar-benar ditulis.",
+          "english": "With the bridge broken, the travellers had to find another way across the river.",
+          "indonesian": "Karena jembatan rusak, para pelancong harus mencari jalan lain menyeberangi sungai.",
+          "why": "Kerusakan jembatan menjadi masalah yang mendorong tindakan tokoh.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perasaan dan motif»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Kerusakan jembatan menjadi masalah yang mendorong tindakan tokoh."
+        },
+        {
+          "title": "Pesan berdasarkan cerita",
+          "explanation": "Jelaskan tema atau pesan yang wajar didukung rangkaian tindakan; jangan memilih moral yang tidak punya bukti.",
+          "english": "Although his first attempt failed, Arif tried again and solved the puzzle.",
+          "indonesian": "Walaupun usaha pertamanya gagal, Arif mencoba lagi dan memecahkan teka-teki.",
+          "why": "Perubahan dari masalah ke resolusi mendukung pesan tentang ketekunan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pesan berdasarkan cerita»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Perubahan dari masalah ke resolusi mendukung pesan tentang ketekunan."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Nina found a lost kitten near the market. She wanted to keep it, but she saw a phone number on its collar. Nina called the number and waited with the kitten. Its owner arrived and thanked her. Nina was glad she had helped.",
+      "modelIndonesian": "Nina menemukan anak kucing yang tersesat di dekat pasar. Ia ingin memeliharanya, tetapi melihat nomor telepon pada kalungnya. Nina menelepon nomor itu dan menunggu bersama anak kucing tersebut. Pemiliknya datang dan berterima kasih. Nina senang karena telah membantu."
     },
     {
       "type": "synthesis",

@@ -13,31 +13,93 @@
     },
     {
       "type": "scaffold",
-      "intro": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Kita akan menguji satu petunjuk dalam bahasa Inggris setiap kali; baca terjemahan dan alasan tiap contoh sebelum melanjutkan.",
+      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
       "steps": [
         {
-          "title": "Kenali dua kemungkinan",
-          "explanation": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Bandingkan struktur dan fungsi, bukan hanya kesamaan terjemahan."
+          "title": "Opini atau fakta?",
+          "explanation": "Opini adalah penilaian yang bisa diperdebatkan; fakta dapat ditelusuri kebenarannya.",
+          "english": "The library opens at eight.",
+          "indonesian": "Perpustakaan buka pukul delapan.",
+          "why": "Ini fakta jadwal yang bisa diperiksa.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «opini atau fakta?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Ini fakta jadwal yang bisa diperiksa."
         },
         {
-          "title": "Baca bentuk pertama",
-          "explanation": "Perhatikan kalimat ini. “I think” menandai pendapat. Setelah membaca artinya, temukan bagian yang menjawab pertanyaan pada langkah pertama.",
+          "title": "Ekspresi opini",
+          "explanation": "[[I think]] atau [[In my opinion]] menandai posisi penutur, bukan dengan sendirinya menjadi alasan.",
           "english": "I think the library should open earlier.",
           "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "why": "“I think” menandai pendapat."
+          "why": "“I think” menandai pendapat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ekspresi opini»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“I think” menandai pendapat."
         },
         {
-          "title": "Bandingkan bentuk kedua",
-          "explanation": "Sekarang baca contoh kedua dan cari perbedaannya. “Because” memberikan alasan. Jangan menyamakan dua kalimat hanya karena artinya terasa mirip.",
-          "english": "Because some students arrive early.",
-          "indonesian": "Karena beberapa siswa datang lebih awal.",
-          "why": "“Because” memberikan alasan."
+          "title": "Temukan posisi",
+          "explanation": "Tentukan bagian kalimat yang menyebut apa yang diyakini atau dipilih penutur.",
+          "english": "I think the library should open earlier.",
+          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
+          "why": "“I think” menandai pendapat.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan posisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "“I think” menandai pendapat."
         },
         {
-          "title": "Tentukan batas penerapannya",
-          "explanation": "Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya? Coba jawab dengan alasan berdasarkan bagian kalimat atau bukti yang telah dibaca; kamu boleh melihat kedua contoh lagi."
+          "title": "Apa alasan?",
+          "explanation": "Alasan menjawab [[why]]; ulangi opini tanpa alasan belum membuat argumen lebih kuat.",
+          "english": "I think the library should open earlier because some students arrive before class.",
+          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal karena sebagian siswa datang sebelum pelajaran.",
+          "why": "[[Because some students arrive before class]] menjawab mengapa perpustakaan diusulkan buka lebih awal.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «apa alasan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[Because some students arrive before class]] menjawab mengapa perpustakaan diusulkan buka lebih awal."
+        },
+        {
+          "title": "Hubungkan dengan because",
+          "explanation": "Gabungkan opini dan alasan yang relevan menjadi satu kalimat lengkap.",
+          "english": "I support a reading corner because it gives students a quiet place to study.",
+          "indonesian": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
+          "why": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungkan dengan because»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
+        },
+        {
+          "title": "Dukung dengan contoh",
+          "explanation": "Contoh konkret membuat alasan lebih jelas tetapi tidak otomatis membuktikan klaim berlaku umum.",
+          "english": "I support a reading corner because it gives students a quiet place to study.",
+          "indonesian": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
+          "why": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «dukung dengan contoh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
+        },
+        {
+          "title": "Setuju dengan sopan",
+          "explanation": "Tunjukkan persetujuan dan sebut alasan agar tanggapan tidak hanya [[yes]].",
+          "english": "I agree with your idea because a quiet room helps students focus.",
+          "indonesian": "Saya setuju dengan idemu karena ruangan tenang membantu siswa berkonsentrasi.",
+          "why": "Tanggapan menyatakan persetujuan dan memberi alasan yang relevan.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «setuju dengan sopan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tanggapan menyatakan persetujuan dan memberi alasan yang relevan."
+        },
+        {
+          "title": "Tidak setuju dengan hormat",
+          "explanation": "Tanggapi isi alasan pihak lain tanpa menyerang orangnya.",
+          "english": "I see your point, but the staff may need time to prepare the books.",
+          "indonesian": "Saya memahami maksudmu, tetapi petugas mungkin memerlukan waktu menyiapkan buku.",
+          "why": "Tanggapan sopan dapat menyampaikan pertimbangan lain.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tidak setuju dengan hormat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Tanggapan sopan dapat menyampaikan pertimbangan lain."
+        },
+        {
+          "title": "Bangun dialog",
+          "explanation": "Susun dua atau tiga giliran bicara yang saling menjawab, bukan monolog terpisah.",
+          "english": "A: We need more trees. B: I agree, but we also need space for sports.",
+          "indonesian": "A: Kita membutuhkan lebih banyak pohon. B: Saya setuju, tetapi kita juga membutuhkan tempat olahraga.",
+          "why": "Jawaban B menanggapi gagasan A dan menambah pertimbangan baru; ini dialog, bukan dua kalimat terpisah.",
+          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bangun dialog»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
+          "checkAnswer": "Jawaban B menanggapi gagasan A dan menambah pertimbangan baru; ini dialog, bukan dua kalimat terpisah."
         }
-      ]
+      ],
+      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelEnglish": "Alya: “I think our school should plant more trees because the yard gets very hot.” Bima: “I agree that shade is helpful, but we also need space for sports.” Alya: “That is fair. We could plant trees along the fence.”",
+      "modelIndonesian": "Alya: “Menurut saya sekolah kita sebaiknya menanam lebih banyak pohon karena halaman sangat panas.” Bima: “Saya setuju tempat teduh berguna, tetapi kita juga memerlukan ruang olahraga.” Alya: “Itu masuk akal. Kita bisa menanam pohon di sepanjang pagar.”"
     },
     {
       "type": "synthesis",
