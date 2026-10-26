@@ -1,0 +1,496 @@
+{
+  "id": "tka-explicit-information-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka2-reading-club",
+      "title": "Community Reading Club · Original A2 Practice Text",
+      "text": "A community center in East Bay has started a free reading club for teenagers. The program began in February and meets every Wednesday from four to five in the afternoon. The center first planned to meet on Fridays, but it changed the day after several students reported that they had sports practice then. Members meet in Room B, beside the small garden. They read short stories and discuss the characters in groups. The center provides printed stories, but participants should bring a notebook and a pen. New members do not need to buy books. However, they must complete a simple registration form before attending their first meeting. The form asks for a name and a contact method; it does not ask for school exam scores. The club currently has eighteen registered members. A volunteer teacher leads the discussion, and two older students help prepare the room. Last month, the group invited a local writer to describe how she planned her stories. The notice says the writer answered questions after her talk. It does not say that she will return next month. The center plans to add a second group if enough students register, but it has not announced a date for that change. The director also asked students to suggest new stories for future meetings. Suggestions can be written on a small card and placed in a box by the entrance. No story has been selected for the next meeting.",
+      "original": true
+    },
+    {
+      "id": "tka2-repair-workshop",
+      "title": "Student Repair Workshop · Original B1 Practice Text",
+      "text": "Riverside Vocational School runs a small repair workshop where students learn to fix everyday objects. The workshop opens to visitors on the first Saturday of each month. Visitors can bring a bicycle light, a broken bag strap, or another simple item for the students to examine. The students work with a teacher who checks each repair before an item is returned. The workshop does not repair mobile phones because it lacks the required equipment. During the July session, twenty-four visitors arrived between nine and eleven in the morning. Twelve brought bicycles or bicycle parts, seven brought bags, and five brought small household objects. The volunteers completed nineteen repairs that day. They explained to the remaining visitors why their items needed different tools or spare parts. A report published by the school noted that some visitors returned in August with the missing parts, but it did not say how many. The school encourages visitors to describe a problem clearly before handing over an object. This helps students decide which tools to prepare. The workshop is free for visitors; however, replacement parts are not always provided. Anyone who needs a new part must first discuss its cost with the teacher. The school hopes that the project will help students practice communication as well as technical skills. A student volunteer explained that people sometimes describe the same problem using different words. The teacher encourages learners to ask polite follow-up questions rather than assume they understand immediately. The report does not claim that every repair can be completed during one session. Some problems require more time or an additional visit.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "questionType": "single",
+      "passageId": "tka2-reading-club",
+      "skill": "Time detail",
+      "prompt": "When does the club currently meet?",
+      "choices": [
+        "Every Friday from four to five",
+        "Every Wednesday from four to five",
+        "Every Wednesday in the morning",
+        "Every day after school"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Hari Jumat hanya rencana awal yang telah diubah.",
+        "Benar: Wednesday from four to five.",
+        "Teks menyebut in the afternoon.",
+        "Teks menyebut seminggu sekali, bukan tiap hari."
+      ],
+      "translationId": {
+        "prompt": "Kapan klub sekarang bertemu?",
+        "choices": [
+          "Setiap Jumat pukul empat sampai lima",
+          "Setiap Rabu pukul empat sampai lima",
+          "Setiap Rabu pagi",
+          "Setiap hari sesudah sekolah"
+        ]
+      },
+      "evidence": "every Wednesday from four to five in the afternoon",
+      "proficiencyTarget": "A2",
+      "id": "q1",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bukti: “every Wednesday from four to five in the afternoon”. Benar: Wednesday from four to five. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka2-reading-club",
+      "skill": "Requirements and resources",
+      "prompt": "Which statements about joining the club are supported? Select ALL.",
+      "choices": [
+        "Members should bring a notebook",
+        "Members must buy printed stories",
+        "New members must complete registration",
+        "Members should bring a pen"
+      ],
+      "answers": [
+        0,
+        2,
+        3
+      ],
+      "choiceExplanations": [
+        "Benar: should bring a notebook.",
+        "Tidak: center provides printed stories.",
+        "Benar: must complete a simple registration form.",
+        "Benar: teks secara langsung menyuruh anggota membawa pena."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana tentang bergabung klub yang didukung? Pilih SEMUA.",
+        "choices": [
+          "Anggota sebaiknya membawa buku catatan",
+          "Anggota wajib membeli cerita cetak",
+          "Anggota baru harus mengisi pendaftaran",
+          "Anggota sebaiknya membawa pena"
+        ]
+      },
+      "evidence": "participants should bring a notebook and a pen",
+      "proficiencyTarget": "A2",
+      "id": "q2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “participants should bring a notebook and a pen”. Jawaban benar: A, C, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka2-reading-club",
+      "skill": "Supported vs unknown",
+      "prompt": "Classify the details about the reading club.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The club meets in Room B.",
+          "answerCategory": "Supported",
+          "explanation": "Teks menyebut Room B beside the garden."
+        },
+        {
+          "text": "The form asks for exam scores.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks tegas menyebut does not ask for school exam scores."
+        },
+        {
+          "text": "The center has announced the start date for a second group.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks menyatakan has not announced a date for that change."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan rincian klub membaca.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Klub bertemu di Ruang B.",
+          "Formulir menanyakan nilai ujian.",
+          "Pusat sudah mengumumkan tanggal mulai kelompok kedua."
+        ]
+      },
+      "evidence": "Room B, beside the small garden",
+      "proficiencyTarget": "A2",
+      "id": "q3",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “Room B, beside the small garden”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka2-reading-club",
+      "skill": "Paraphrase",
+      "prompt": "Which option best paraphrases “The center provides printed stories”?",
+      "choices": [
+        "The center gives members reading materials",
+        "Students must print their own stories",
+        "The teacher sells every story",
+        "The center has banned printed stories"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Benar: provides = supplies/gives in this context.",
+        "Salah: menyediakan cerita bukan berarti siswa harus mencetak sendiri.",
+        "Salah: tidak ada keterangan guru menjual cerita.",
+        "Salah: teks menyebut bahan tersedia, bukan dilarang."
+      ],
+      "translationId": {
+        "prompt": "Pilihan mana paling tepat memparafrasakan “The center provides printed stories”?",
+        "choices": [
+          "Pusat kegiatan menyediakan bahan bacaan untuk anggota",
+          "Siswa harus mencetak cerita sendiri",
+          "Guru menjual semua cerita",
+          "Pusat kegiatan melarang cerita cetak"
+        ]
+      },
+      "evidence": "The center provides printed stories",
+      "proficiencyTarget": "A2",
+      "id": "q4",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bukti: “The center provides printed stories”. Benar: provides = supplies/gives in this context. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka2-reading-club",
+      "skill": "People and events",
+      "prompt": "Which statements about the club’s recent activity are supported? Select ALL.",
+      "choices": [
+        "A local writer spoke to the group",
+        "The writer answered questions",
+        "The writer is confirmed to return next month",
+        "Two older students prepare the room"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Benar: kelompok secara jelas mengundang seorang penulis lokal.",
+        "Benar: she answered questions after her talk.",
+        "Tidak disebut; teks secara khusus mengatakan tidak ada kepastian kembali.",
+        "Benar: two older students help prepare the room."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana tentang kegiatan baru-baru ini yang didukung? Pilih SEMUA.",
+        "choices": [
+          "Penulis lokal berbicara kepada kelompok",
+          "Penulis menjawab pertanyaan",
+          "Penulis dipastikan kembali bulan depan",
+          "Dua siswa yang lebih tua menyiapkan ruangan"
+        ]
+      },
+      "evidence": "writer answered questions after her talk",
+      "proficiencyTarget": "A2",
+      "id": "q5",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “writer answered questions after her talk”. Jawaban benar: A, B, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka2-reading-club",
+      "skill": "Numbers and future plans",
+      "prompt": "Classify each claim about the program.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "Eighteen members are registered.",
+          "answerCategory": "Supported",
+          "explanation": "Tertulis currently has eighteen registered members."
+        },
+        {
+          "text": "The program began in January.",
+          "answerCategory": "Contradicted",
+          "explanation": "Waktu mulai yang dinyatakan langsung adalah February, bukan January."
+        },
+        {
+          "text": "A second group will begin on 1 May.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Belum ada tanggal pengumuman; rencana bersyarat."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan klaim tentang program.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Delapan belas anggota telah terdaftar.",
+          "Program dimulai pada Januari.",
+          "Kelompok kedua akan dimulai 1 Mei."
+        ]
+      },
+      "evidence": "eighteen registered members",
+      "proficiencyTarget": "A2",
+      "id": "q6",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “eighteen registered members”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka2-repair-workshop",
+      "skill": "Stated totals",
+      "prompt": "How many visitors arrived during the July session?",
+      "choices": [
+        "Nineteen",
+        "Twelve",
+        "Twenty-four",
+        "Five"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Ini jumlah perbaikan selesai, bukan pengunjung.",
+        "Ini jumlah yang membawa sepeda/suku cadang sepeda.",
+        "Benar: jumlah pengunjung yang datang.",
+        "Ini kelompok pembawa benda rumah tangga kecil."
+      ],
+      "translationId": {
+        "prompt": "Berapa jumlah pengunjung sesi Juli?",
+        "choices": [
+          "Sembilan belas",
+          "Dua belas",
+          "Dua puluh empat",
+          "Lima"
+        ]
+      },
+      "evidence": "twenty-four visitors arrived",
+      "proficiencyTarget": "B1",
+      "id": "q7",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bukti: “twenty-four visitors arrived”. Benar: jumlah pengunjung yang datang. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka2-repair-workshop",
+      "skill": "What can be brought",
+      "prompt": "Which items were specifically welcomed for examination? Select ALL.",
+      "choices": [
+        "A bicycle light",
+        "A broken bag strap",
+        "A mobile phone needing repair",
+        "Another simple item"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Disebut sebagai contoh barang yang boleh dibawa.",
+        "Disebut sebagai contoh barang yang boleh dibawa.",
+        "Tidak: tidak ada peralatan ponsel.",
+        "Benar: benda sederhana lain juga disebut boleh dibawa."
+      ],
+      "translationId": {
+        "prompt": "Barang apa yang secara khusus diperbolehkan untuk diperiksa? Pilih SEMUA.",
+        "choices": [
+          "Lampu sepeda",
+          "Tali tas rusak",
+          "Ponsel yang perlu diperbaiki",
+          "Barang sederhana lain"
+        ]
+      },
+      "evidence": "a bicycle light, a broken bag strap, or another simple item",
+      "proficiencyTarget": "B1",
+      "id": "q8",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “a bicycle light, a broken bag strap, or another simple item”. Jawaban benar: A, B, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka2-repair-workshop",
+      "skill": "Accurate reporting",
+      "prompt": "Classify the statements about July repairs.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "Nineteen repairs were completed.",
+          "answerCategory": "Supported",
+          "explanation": "Teks menyatakan completed nineteen repairs."
+        },
+        {
+          "text": "Every visitor received a finished repair.",
+          "answerCategory": "Contradicted",
+          "explanation": "Ada 24 pengunjung tetapi hanya 19 perbaikan selesai; sisanya butuh alat atau suku cadang."
+        },
+        {
+          "text": "Five visitors returned in August.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Beberapa datang kembali, tetapi jumlahnya tidak disebut."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan pernyataan tentang perbaikan pada Juli.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Sembilan belas perbaikan berhasil diselesaikan.",
+          "Setiap pengunjung menerima barang selesai diperbaiki.",
+          "Lima pengunjung kembali pada Agustus."
+        ]
+      },
+      "evidence": "completed nineteen repairs that day",
+      "proficiencyTarget": "B1",
+      "id": "q9",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “completed nineteen repairs that day”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka2-repair-workshop",
+      "skill": "Reference and purpose",
+      "prompt": "Why does the school ask visitors to explain a problem clearly?",
+      "choices": [
+        "To sell mobile phones",
+        "To increase the repair fee",
+        "To reduce the number of teachers",
+        "To help students prepare the necessary tools"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Sekolah tidak menangani perbaikan ponsel.",
+        "Layanan gratis, biaya suku cadang dapat berbeda.",
+        "Tidak ada kaitan dengan jumlah guru.",
+        "Benar: kalimat berikutnya menyatakan tools to prepare."
+      ],
+      "translationId": {
+        "prompt": "Mengapa sekolah meminta pengunjung menjelaskan masalah dengan jelas?",
+        "choices": [
+          "Untuk menjual ponsel",
+          "Untuk menaikkan biaya perbaikan",
+          "Untuk mengurangi jumlah guru",
+          "Agar siswa menyiapkan alat yang diperlukan"
+        ]
+      },
+      "evidence": "This helps students decide which tools to prepare.",
+      "proficiencyTarget": "B1",
+      "id": "q10",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bukti: “This helps students decide which tools to prepare.”. Benar: kalimat berikutnya menyatakan tools to prepare. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka2-repair-workshop",
+      "skill": "Fees and policy",
+      "prompt": "Which statements about costs are explicitly supported? Select ALL.",
+      "choices": [
+        "Visitors do not pay for workshop service",
+        "Replacement parts are always supplied",
+        "New parts may involve a cost discussion",
+        "Every repair costs exactly ten dollars"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "choiceExplanations": [
+        "Benar: workshop is free for visitors.",
+        "Salah: suku cadang tidak selalu disediakan oleh bengkel.",
+        "Benar: must first discuss its cost.",
+        "Tidak ada harga tetap tersebut."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan tentang biaya mana yang tersurat? Pilih SEMUA.",
+        "choices": [
+          "Pengunjung tidak membayar layanan bengkel",
+          "Suku cadang selalu disediakan",
+          "Suku cadang baru mungkin memerlukan diskusi biaya",
+          "Setiap perbaikan tepat sepuluh dolar"
+        ]
+      },
+      "evidence": "replacement parts are not always provided",
+      "proficiencyTarget": "B1",
+      "id": "q11",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “replacement parts are not always provided”. Jawaban benar: A, C. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka2-repair-workshop",
+      "skill": "Facts versus assumptions",
+      "prompt": "Classify the workshop statements.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "A teacher checks repairs before items are returned.",
+          "answerCategory": "Supported",
+          "explanation": "Tertulis teacher who checks each repair before an item is returned."
+        },
+        {
+          "text": "The workshop repairs mobile phones.",
+          "answerCategory": "Contradicted",
+          "explanation": "Tidak menyediakan layanan ini karena tidak ada peralatan."
+        },
+        {
+          "text": "The workshop will open every Sunday next year.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Teks hanya memberi jadwal Sabtu pertama tiap bulan; rencana tahun depan tidak disebut."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan pernyataan tentang bengkel sekolah.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Guru memeriksa perbaikan sebelum barang dikembalikan.",
+          "Bengkel memperbaiki ponsel.",
+          "Bengkel akan buka setiap Minggu tahun depan."
+        ]
+      },
+      "evidence": "does not repair mobile phones",
+      "proficiencyTarget": "B1",
+      "id": "q12",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “does not repair mobile phones”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "id": "tka-reading-foundations-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka1-school-playground",
+      "title": "A Cleaner Playground · Original A2 Practice Text",
+      "text": "At Sunrise School, the student council wanted to make the playground cleaner. On Monday morning, eight students walked around the playground and wrote down what they saw. They found plastic cups near the benches and pieces of paper beside the basketball court. They did not find broken glass. On Tuesday, the council placed two bins near the main gate and one bin near the court. A teacher explained which bin was for paper and which was for plastic. The council also put a short notice on the school board. It asked students to use the new bins and keep food wrappers out of the garden. On Wednesday afternoon, students from two classes collected litter for twenty minutes. They separated paper from plastic before putting it into the bins. The science teacher counted six bags of waste, but the notice did not report the bags' weight. On Friday, the council visited the same places again. There were fewer cups near the benches. The group was pleased, but it did not claim that the whole playground was perfectly clean. Next week, members planned to check the bins and speak to younger students about keeping shared spaces tidy. They also wanted to ask teachers whether students understood the new signs. The council had not decided to buy more bins, because it wanted to observe how the current bins were being used first.",
+      "original": true
+    },
+    {
+      "id": "tka1-riverside-market",
+      "title": "A Trip to the Riverside Market · Original A2 Practice Text",
+      "text": "Mila and her brother Arman live near a small village river. One Saturday, their grandmother invited them to visit the riverside market. The market opens early, so they left home after breakfast. On the way, they saw a narrow wooden bridge. Arman wanted to cross it, but a sign said that the bridge was closed for repairs. They used a longer road instead. When they arrived, several sellers were preparing their stalls. A woman displayed woven baskets, while another seller arranged vegetables on a table. Mila bought three oranges for her grandmother. Arman carried the bag because Mila was holding an umbrella. Dark clouds covered the sky, but it did not rain while they were at the market. Before going home, the children met a friend who was helping his father sell plants. He showed them a small seedling and explained how to water it. The children did not buy the plant. At noon, they took the same longer road home and gave the oranges to their grandmother. Later, Mila wrote a short note about the trip. She described the bridge, the market, and the friend, but she did not say that the market was the largest in the area. Her note helped her remember what she actually saw. When her grandmother read it, she asked whether the children had eaten lunch at the market. Mila explained that they had returned home at noon, but she had not written about eating anything. Her grandmother thanked them for the oranges.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "questionType": "single",
+      "passageId": "tka1-school-playground",
+      "skill": "Detail: actor",
+      "prompt": "Who first walked around the playground to record what they saw?",
+      "choices": [
+        "Eight students",
+        "All teachers",
+        "Two classes",
+        "The younger students"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Benar: Monday morning, eight students walked around.",
+        "Teks hanya menyebut seorang guru menjelaskan fungsi tempat sampah kemudian.",
+        "Dua kelas melakukan kegiatan mengumpulkan sampah pada Rabu, bukan pengamatan awal.",
+        "Mereka baru akan diajak berbicara minggu depan."
+      ],
+      "translationId": {
+        "prompt": "Siapa yang pertama mengamati taman bermain dan mencatat temuannya?",
+        "choices": [
+          "Delapan siswa",
+          "Semua guru",
+          "Dua kelas",
+          "Siswa yang lebih muda"
+        ]
+      },
+      "evidence": "eight students walked around the playground",
+      "proficiencyTarget": "A2",
+      "id": "q1",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Bukti: “eight students walked around the playground”. Benar: Monday morning, eight students walked around. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka1-school-playground",
+      "skill": "Explicit actions",
+      "prompt": "Which actions did the council take on Tuesday? Select ALL supported answers.",
+      "choices": [
+        "Placed bins near the gate and court",
+        "Placed a notice on the school board",
+        "Closed the playground for repairs",
+        "Counted the weight of the collected waste"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Benar: dua di gerbang, satu di dekat lapangan.",
+        "Benar: pengurus juga memasang pengumuman singkat.",
+        "Tidak ada penutupan taman bermain.",
+        "Teks justru tidak melaporkan berat sampah."
+      ],
+      "translationId": {
+        "prompt": "Tindakan apa yang dilakukan pengurus pada Selasa? Pilih SEMUA yang didukung.",
+        "choices": [
+          "Menaruh tempat sampah di dekat gerbang dan lapangan",
+          "Memasang pengumuman di papan sekolah",
+          "Menutup taman bermain untuk diperbaiki",
+          "Menghitung berat sampah terkumpul"
+        ]
+      },
+      "evidence": "On Tuesday, the council placed two bins near the main gate",
+      "proficiencyTarget": "A2",
+      "id": "q2",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “On Tuesday, the council placed two bins near the main gate”. Jawaban benar: A, B. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka1-school-playground",
+      "skill": "Negation and missing facts",
+      "prompt": "Classify each statement using the playground report.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "Broken glass was found on Monday.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks menegaskan they did not find broken glass."
+        },
+        {
+          "text": "Students collected litter on Wednesday.",
+          "answerCategory": "Supported",
+          "explanation": "On Wednesday afternoon terdapat kegiatan pengumpulan sampah."
+        },
+        {
+          "text": "The six bags weighed 20 kilograms.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Laporan menyebut enam kantong, tetapi beratnya tidak dilaporkan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan tiap pernyataan berdasarkan laporan taman bermain.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Pecahan kaca ditemukan pada Senin.",
+          "Siswa mengumpulkan sampah pada Rabu.",
+          "Enam kantong sampah beratnya 20 kilogram."
+        ]
+      },
+      "evidence": "did not report the bags' weight",
+      "proficiencyTarget": "A2",
+      "id": "q3",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “did not report the bags' weight”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka1-school-playground",
+      "skill": "Meaning of a limiter",
+      "prompt": "What does the final Friday observation actually support?",
+      "choices": [
+        "The entire school became litter-free",
+        "Every student cleaned the whole playground",
+        "There were fewer cups near the benches",
+        "The council stopped checking the bins"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Teks tidak menjamin seluruh sekolah bersih.",
+        "Tidak ada klaim bahwa semua siswa berpartisipasi.",
+        "Benar: fewer cups adalah pengamatan yang dinyatakan.",
+        "Mereka justru berencana mengeceknya minggu depan."
+      ],
+      "translationId": {
+        "prompt": "Apa yang benar-benar didukung pengamatan pada Jumat?",
+        "choices": [
+          "Seluruh sekolah bebas sampah",
+          "Semua siswa membersihkan seluruh taman",
+          "Ada lebih sedikit gelas dekat bangku",
+          "Pengurus berhenti memeriksa tempat sampah"
+        ]
+      },
+      "evidence": "There were fewer cups near the benches.",
+      "proficiencyTarget": "A2",
+      "id": "q4",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Bukti: “There were fewer cups near the benches.”. Benar: fewer cups adalah pengamatan yang dinyatakan. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka1-school-playground",
+      "skill": "Time and evidence",
+      "prompt": "Which statements about Wednesday are supported? Select ALL.",
+      "choices": [
+        "Students worked for twenty minutes",
+        "Two classes participated",
+        "The group weighed every bag",
+        "They separated paper and plastic"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Benar: keterangan durasi for twenty minutes disebut langsung.",
+        "Benar: students from two classes.",
+        "Tidak disebut; justru berat sampah tidak dilaporkan.",
+        "Benar: separated paper from plastic."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana tentang Rabu yang didukung? Pilih SEMUA.",
+        "choices": [
+          "Siswa bekerja selama dua puluh menit",
+          "Dua kelas ikut serta",
+          "Kelompok menimbang semua kantong",
+          "Mereka memisahkan kertas dan plastik"
+        ]
+      },
+      "evidence": "On Wednesday afternoon, students from two classes collected litter for twenty minutes.",
+      "proficiencyTarget": "A2",
+      "id": "q5",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “On Wednesday afternoon, students from two classes collected litter for twenty minutes.”. Jawaban benar: A, B, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka1-school-playground",
+      "skill": "Evidence boundaries",
+      "prompt": "Sort the statements about the council’s work.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The council added three bins in total.",
+          "answerCategory": "Supported",
+          "explanation": "Dua di gerbang dan satu di lapangan, jumlahnya tiga."
+        },
+        {
+          "text": "The council claimed the playground was perfectly clean.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks menyebut did not claim that."
+        },
+        {
+          "text": "Next week the council will paint the basketball court.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Rencana minggu depan hanya memeriksa tempat sampah dan berbicara dengan siswa muda."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan pernyataan tentang pekerjaan pengurus.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Pengurus menambah total tiga tempat sampah.",
+          "Pengurus menyatakan taman bermain sepenuhnya bersih.",
+          "Minggu depan pengurus akan mengecat lapangan basket."
+        ]
+      },
+      "evidence": "did not claim that the whole playground was perfectly clean",
+      "proficiencyTarget": "A2",
+      "id": "q6",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “did not claim that the whole playground was perfectly clean”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka1-riverside-market",
+      "skill": "Reference and place",
+      "prompt": "Why did Mila and Arman use a longer road?",
+      "choices": [
+        "The market was closed",
+        "The bridge was closed for repairs",
+        "Their grandmother wanted a longer walk",
+        "The river flooded their house"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Pasar tetap buka ketika mereka tiba.",
+        "Benar: tanda melarang penyeberangan karena perbaikan.",
+        "Tidak ada permintaan seperti itu.",
+        "Tidak ada informasi banjir rumah atau sungai dalam teks."
+      ],
+      "translationId": {
+        "prompt": "Mengapa Mila dan Arman memakai jalan yang lebih panjang?",
+        "choices": [
+          "Pasar tutup",
+          "Jembatan ditutup untuk perbaikan",
+          "Nenek menginginkan perjalanan lebih lama",
+          "Sungai membanjiri rumah mereka"
+        ]
+      },
+      "evidence": "the bridge was closed for repairs",
+      "proficiencyTarget": "A2",
+      "id": "q7",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Bukti: “the bridge was closed for repairs”. Benar: tanda melarang penyeberangan karena perbaikan. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka1-riverside-market",
+      "skill": "People and actions",
+      "prompt": "Which actions are stated in the market story? Select ALL.",
+      "choices": [
+        "Mila bought oranges",
+        "Arman carried a bag",
+        "The children bought a seedling",
+        "A friend showed them a small seedling"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Benar: teks jelas menyebut Mila membeli tiga buah jeruk.",
+        "Benar: Arman membawanya saat Mila memegang payung.",
+        "Salah: kalimat menegaskan anak-anak tidak membeli tanaman.",
+        "Benar: seorang teman menunjukkan bibit tanaman."
+      ],
+      "translationId": {
+        "prompt": "Tindakan apa yang memang dinyatakan dalam cerita pasar? Pilih SEMUA.",
+        "choices": [
+          "Mila membeli jeruk",
+          "Arman membawa tas",
+          "Anak-anak membeli bibit",
+          "Seorang teman menunjukkan bibit kecil"
+        ]
+      },
+      "evidence": "He showed them a small seedling",
+      "proficiencyTarget": "A2",
+      "id": "q8",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “He showed them a small seedling”. Jawaban benar: A, B, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka1-riverside-market",
+      "skill": "Contrast and guessing",
+      "prompt": "Classify the claims about the weather and market.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "It rained while the children were at the market.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks mengatakan it did not rain while they were at the market."
+        },
+        {
+          "text": "Dark clouds appeared in the sky.",
+          "answerCategory": "Supported",
+          "explanation": "Dark clouds covered the sky."
+        },
+        {
+          "text": "The market had over 100 stalls.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Tidak ada jumlah lapak di teks."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan klaim tentang cuaca dan pasar.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Hujan turun saat mereka berada di pasar.",
+          "Awan gelap muncul di langit.",
+          "Pasar memiliki lebih dari 100 lapak."
+        ]
+      },
+      "evidence": "it did not rain while they were at the market",
+      "proficiencyTarget": "A2",
+      "id": "q9",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “it did not rain while they were at the market”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    },
+    {
+      "questionType": "single",
+      "passageId": "tka1-riverside-market",
+      "skill": "Chronology",
+      "prompt": "What did the children do at noon?",
+      "choices": [
+        "They first entered the market",
+        "They repaired the bridge",
+        "They bought the seedling",
+        "They walked home by the longer road"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Saat tengah hari mereka sudah meninggalkan pasar.",
+        "Jembatan ditutup untuk perbaikan; mereka tidak memperbaikinya.",
+        "Teks mengatakan tidak membeli bibit.",
+        "Benar: mereka memakai jalan panjang yang sama untuk pulang."
+      ],
+      "translationId": {
+        "prompt": "Apa yang dilakukan anak-anak pada tengah hari?",
+        "choices": [
+          "Mereka baru tiba di pasar",
+          "Mereka memperbaiki jembatan",
+          "Mereka membeli bibit",
+          "Mereka pulang lewat jalan yang lebih panjang"
+        ]
+      },
+      "evidence": "At noon, they took the same longer road home",
+      "proficiencyTarget": "A2",
+      "id": "q10",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Bukti: “At noon, they took the same longer road home”. Benar: mereka memakai jalan panjang yang sama untuk pulang. Pilihan lain perlu ditolak dengan memeriksa waktu, jumlah, penyangkalan, atau informasi yang tidak disebutkan."
+    },
+    {
+      "questionType": "multiple",
+      "passageId": "tka1-riverside-market",
+      "skill": "Text versus guess",
+      "prompt": "Which facts about the visit are stated? Select ALL.",
+      "choices": [
+        "A basket seller displayed woven baskets",
+        "Mila bought three oranges",
+        "The market was the largest in the area",
+        "A friend helped his father sell plants"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Benar: penjual memajang keranjang anyaman di pasar.",
+        "Benar: Mila membeli tepat tiga jeruk untuk neneknya.",
+        "Teks justru mengatakan Mila tidak menyatakan hal tersebut.",
+        "Benar: friend who was helping his father sell plants."
+      ],
+      "translationId": {
+        "prompt": "Fakta mana tentang kunjungan yang tertulis? Pilih SEMUA.",
+        "choices": [
+          "Penjual keranjang memajang keranjang anyaman",
+          "Mila membeli tiga jeruk",
+          "Pasar adalah yang terbesar di wilayah itu",
+          "Teman membantu ayahnya menjual tanaman"
+        ]
+      },
+      "evidence": "Mila bought three oranges for her grandmother.",
+      "proficiencyTarget": "A2",
+      "id": "q11",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Periksa setiap opsi secara terpisah. Bukti: “Mila bought three oranges for her grandmother.”. Jawaban benar: A, B, D. Satu pilihan yang terdengar masuk akal tetap salah bila tidak didukung teks."
+    },
+    {
+      "questionType": "category",
+      "passageId": "tka1-riverside-market",
+      "skill": "Referents and limits",
+      "prompt": "Classify each detail from Mila’s story.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "Arman carried the shopping bag.",
+          "answerCategory": "Supported",
+          "explanation": "Teks dengan jelas menyebut Arman carried the bag sebagai kegiatan Arman."
+        },
+        {
+          "text": "The children crossed the wooden bridge.",
+          "answerCategory": "Contradicted",
+          "explanation": "Mereka justru memilih jalan lain karena jembatan tutup."
+        },
+        {
+          "text": "The children returned home by bus.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Tidak ada bus; hanya disebut menggunakan jalan lebih panjang."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan rincian dari cerita Mila.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Arman membawa tas belanja.",
+          "Anak-anak menyeberangi jembatan kayu.",
+          "Anak-anak pulang menggunakan bus."
+        ]
+      },
+      "evidence": "Arman carried the bag",
+      "proficiencyTarget": "A2",
+      "id": "q12",
+      "genre": "recount",
+      "competency": "Fondasi membaca (penunjang kompetensi TKA)",
+      "explanation": "Setiap baris memiliki penilaian sendiri: didukung, bertentangan, atau tidak disebut. Petunjuk teks: “Arman carried the bag”. Jangan memilih satu kategori untuk semua baris tanpa memeriksa buktinya."
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "id": "tka-reading-foundations",
+  "objectives": [
+    "Membaca subjek, tindakan, rincian dan pembatas tanpa menerjemahkan setiap kata.",
+    "Menghubungkan beberapa kalimat dengan pronoun dan konektor.",
+    "Menunjukkan bukti sebelum menjawab pertanyaan bacaan."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu Jembatan TKA: Dari Kalimat ke Bacaan?",
+      "text": "[[Jembatan membaca TKA]] adalah cara memahami isi teks secara bertahap: temukan siapa/apa, apa yang terjadi, rincian dan hubungan antarkalimat, lalu periksa bukti sebelum menarik kesimpulan. Tujuannya bukan menerjemahkan semua kata atau menghafal rumus, melainkan memahami makna yang benar-benar didukung teks."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Mulailah dari pemahaman kecil. Setiap tahap memiliki contoh bahasa Inggris, terjemahan, alasan, dan pertanyaan tanpa nilai. Bacalah dahulu, coba jawab sendiri, lalu buka pembahasan. Kembali ke langkah sebelumnya kapan pun perlu.",
+      "steps": [
+        {
+          "title": "TKA membaca makna, bukan menghafal rumus",
+          "explanation": "Di TKA Bahasa Inggris Wajib, kamu membaca pesan yang disampaikan teks. Grammar membantu memahami, tetapi jawaban harus berasal dari kata dan hubungan antarkalimat. Mulai dengan menanyakan “apa yang benar-benar dikatakan?” sebelum memikirkan pilihan jawaban.",
+          "english": "The school library is open after lunch.",
+          "indonesian": "Perpustakaan sekolah buka setelah makan siang.",
+          "why": "Kalimat ini memberi informasi tentang tempat dan waktu. Kita belum tahu jam tepat perpustakaan buka; jangan menambah angka.",
+          "check": "Apakah kalimat ini mengatakan perpustakaan buka pukul 13.00?",
+          "checkAnswer": "Tidak. Teks hanya menyebut after lunch (setelah makan siang), bukan pukul 13.00. Jawaban yang terdengar mungkin tetap bukan fakta tertulis.",
+          "phase": "Fondasi: kenali kalimat"
+        },
+        {
+          "title": "Temukan siapa atau apa yang dibicarakan",
+          "explanation": "Cari [[subject]]: orang, benda, atau hal yang menjadi pokok satu kalimat. Subjek tidak selalu nama orang. Jangan tertukar dengan benda yang menerima tindakan.",
+          "english": "A small garden attracts butterflies.",
+          "indonesian": "Sebuah kebun kecil menarik kupu-kupu.",
+          "why": "Yang dibicarakan sebagai pelaku ialah a small garden; butterflies ialah yang tertarik pada kebun.",
+          "check": "Mana subjeknya: a small garden atau butterflies?",
+          "checkAnswer": "A small garden. Letaknya sebelum attracts dan menjadi hal yang menyebabkan kupu-kupu datang.",
+          "phase": "Fondasi: kenali kalimat"
+        },
+        {
+          "title": "Temukan tindakan atau keadaan pokok",
+          "explanation": "Setelah subjek, cari bagian yang menjelaskan tindakan atau keadaan. Kata kerja tidak selalu kegiatan fisik: [[is]], [[have]], dan [[need]] juga membantu membangun makna.",
+          "english": "The volunteers clean the reading room.",
+          "indonesian": "Para sukarelawan membersihkan ruang baca.",
+          "why": "Clean menjelaskan apa yang dilakukan volunteers; reading room adalah lokasi yang dibersihkan, bukan tindakan.",
+          "check": "Apa tindakan utama sukarelawan dalam kalimat ini, dan ruangan apa yang menjadi objeknya?",
+          "checkAnswer": "Mereka membersihkan ruang baca. Jawab dengan clean the reading room, bukan hanya menyebut volunteers.",
+          "phase": "Fondasi: kenali kalimat"
+        },
+        {
+          "title": "Tambahkan waktu, tempat, jumlah, dan objek",
+          "explanation": "Rincian mengubah jawaban menjadi lebih tepat. Saat pertanyaan meminta waktu, cari penanda seperti on Friday; bila meminta jumlah, cari angka dan benda yang dihitung. Bedakan inti dari rincian.",
+          "english": "Three students planted beans on Monday.",
+          "indonesian": "Tiga siswa menanam kacang pada hari Senin.",
+          "why": "Three menunjukkan jumlah siswa, beans ialah yang ditanam, dan on Monday menunjukkan waktu.",
+          "check": "Di kalimat tentang menanam kacang, angka three menghitung siswa atau kacang? Kapan mereka menanam?",
+          "checkAnswer": "Tiga siswa, pada hari Senin. Jangan salah membaca three sebagai jumlah kacang.",
+          "phase": "Menemukan: rincian dan acuan"
+        },
+        {
+          "title": "Waspadai not, only, some, dan all",
+          "explanation": "Satu kata pembatas bisa membalik atau mempersempit makna. [[Some]] tidak sama dengan [[all]], [[only]] membatasi, sedangkan [[not]] menyangkal. Perhatikan pembatas sebelum memilih jawaban.",
+          "english": "Only two teams finished the project.",
+          "indonesian": "Hanya dua tim yang menyelesaikan proyek.",
+          "why": "Only membatasi jumlah; teks tidak mengatakan tim lain tidak berusaha, hanya tidak disebut selesai.",
+          "check": "Apakah kalimat dengan only membenarkan bahwa semua tim menyelesaikan proyek? Jelaskan.",
+          "checkAnswer": "Tidak. Hanya dua tim yang selesai. Kata only membuat jawaban all teams bertentangan dengan teks.",
+          "phase": "Menemukan: rincian dan acuan"
+        },
+        {
+          "title": "Hubungkan kata ganti dengan acuannya",
+          "explanation": "[[He]], [[she]], [[they]], [[it]] dan [[this]] mengganti sesuatu yang sudah disebut. Cari calon acuan yang cocok menurut jumlah dan makna, bukan sekadar kata terdekat.",
+          "english": "The students found a kitten. They gave it water.",
+          "indonesian": "Para siswa menemukan seekor anak kucing. Mereka memberinya air.",
+          "why": "They merujuk pada students (jamak), sedangkan it merujuk pada kitten (tunggal).",
+          "check": "Dalam kalimat kedua, apakah it menggantikan anak kucing atau para siswa? Apa alasannya?",
+          "checkAnswer": "A kitten. They menggantikan students, jadi jangan menukar dua acuan itu.",
+          "phase": "Menemukan: rincian dan acuan"
+        },
+        {
+          "title": "Kenali alasan, pertentangan, akibat, dan waktu",
+          "explanation": "[[Because]] biasanya memperkenalkan alasan; [[but]] menandai kontras; [[so]] menunjukkan akibat; [[after]] membantu mengurutkan waktu. Konektor bukan hiasan: hubungannya menentukan makna.",
+          "english": "It rained, so the match moved indoors.",
+          "indonesian": "Hujan turun, sehingga pertandingan dipindahkan ke dalam ruangan.",
+          "why": "So menghubungkan hujan dengan keputusan memindahkan pertandingan. Di sini akibat dinyatakan langsung.",
+          "check": "Dalam contoh pertandingan, apa yang benar-benar dilakukan setelah hujan turun: pindah ruangan atau dibatalkan?",
+          "checkAnswer": "Pertandingan dipindahkan ke dalam ruangan. Jangan menyimpulkan pertandingan dibatalkan, karena moved indoors berbeda dari cancelled.",
+          "phase": "Menghubungkan: makna antarkalimat"
+        },
+        {
+          "title": "Baca dua kalimat sebagai satu gagasan",
+          "explanation": "Saat kalimat kedua melanjutkan topik pertama, cari informasi tambahan atau perubahan. Jangan membaca keduanya sebagai fakta yang tidak terkait.",
+          "english": "The class collected old paper. The paper was used to make notebooks.",
+          "indonesian": "Kelas mengumpulkan kertas bekas. Kertas itu digunakan untuk membuat buku catatan.",
+          "why": "The paper pada kalimat kedua merujuk kertas bekas yang dikumpulkan; kalimat kedua menjelaskan apa yang terjadi selanjutnya.",
+          "check": "Mengapa kelas mengumpulkan kertas bekas? Apakah tujuan disebut eksplisit?",
+          "checkAnswer": "Teks menunjukkan kertas kemudian digunakan untuk membuat buku catatan. Namun kata “supaya” tidak disebut; jangan menganggap setiap akibat pasti tujuan awal.",
+          "phase": "Menghubungkan: makna antarkalimat"
+        },
+        {
+          "title": "Gunakan konteks untuk kata yang belum dikenal",
+          "explanation": "Kamu tidak perlu mengetahui semua kata. Lihat definisi, contoh, atau kejadian di sekeliling kata asing. Uji dugaanmu dan akui bila petunjuk belum cukup kuat.",
+          "english": "The path was slippery after the rain, so Nina walked slowly.",
+          "indonesian": "Jalur itu licin setelah hujan, jadi Nina berjalan perlahan.",
+          "why": "After the rain dan walked slowly memberi petunjuk bahwa slippery berkaitan dengan pijakan licin, bukan jalan yang luas.",
+          "check": "Apa arti slippery yang paling cocok ketika jalur basah membuat Nina berjalan perlahan?",
+          "checkAnswer": "Licin. Dugaan didukung hujan dan cara Nina berjalan. Ini lebih kuat daripada menebak tanpa membaca sekitarnya.",
+          "phase": "Menghubungkan: makna antarkalimat"
+        },
+        {
+          "title": "Pisahkan fakta teks dari tebakan pembaca",
+          "explanation": "Sesuatu yang masuk akal tidak otomatis tertulis. Tandai apa yang [[stated]] (tersurat), lalu pisahkan [[possible inference]] (dugaan yang mungkin). Dalam soal fakta, pilih hanya yang didukung kata-kata teks.",
+          "english": "Rafi carried a wet umbrella into class.",
+          "indonesian": "Rafi membawa payung basah ke dalam kelas.",
+          "why": "Payung basah terlihat dalam kalimat. Kita tidak diberi tahu apakah Rafi kehujanan, siapa yang memakainya, atau kondisi hujan saat itu.",
+          "check": "Apakah payung yang basah sudah cukup membuktikan bahwa Rafi sendiri kehujanan? Mengapa?",
+          "checkAnswer": "Tidak. Payungnya basah, tetapi cara payung menjadi basah tidak dinyatakan. “Rafi kehujanan” adalah tebakan.",
+          "phase": "Menerapkan: baca dengan bukti"
+        },
+        {
+          "title": "Gabungkan empat kalimat menjadi isi paragraf",
+          "explanation": "Baca satu paragraf untuk menemukan topik bersama dan perubahan penting. Ringkas dalam satu kalimat bahasa Indonesia, bukan menerjemahkan kata demi kata. Rincian kecil tetap berguna sebagai bukti.",
+          "english": "The class wanted a reading corner. Students brought books. A teacher prepared a shelf. The corner opened on Friday.",
+          "indonesian": "Kelas itu menginginkan pojok baca. Siswa membawa buku. Seorang guru menyiapkan rak. Pojok baca dibuka pada Jumat.",
+          "why": "Keempat kalimat membentuk satu rangkaian: kelas menyiapkan dan membuka pojok baca. Buku, rak, dan Jumat menjadi rincian pendukung.",
+          "check": "Apa isi pokok keempat kalimat dalam satu kalimat?",
+          "checkAnswer": "Kelas bekerja sama membuat pojok baca yang akhirnya dibuka pada Jumat. Jangan merangkum hanya “ada rak”, karena itu satu detail kecil.",
+          "phase": "Menerapkan: baca dengan bukti"
+        },
+        {
+          "title": "Coba teks baru lalu tunjukkan buktinya",
+          "explanation": "Sekarang baca beberapa kalimat yang belum digunakan sebelumnya. Sebutkan pesan pokok, lalu kutip frasa yang mendukungnya. Jika bukti tidak ditemukan, revisi kesimpulanmu.",
+          "english": "The riverbank was full of litter. On Saturday, students collected plastic and separated bottles. By noon, they had filled four bags.",
+          "indonesian": "Tepi sungai penuh sampah. Pada Sabtu, siswa mengumpulkan plastik dan memilah botol. Menjelang tengah hari, mereka telah mengisi empat kantong.",
+          "why": "Tiga kalimat mengarah pada kegiatan bersih-bersih tepi sungai. Bukti langsungnya students collected plastic and separated bottles, ditambah four bags.",
+          "check": "Apakah teks menjamin sungai sudah sepenuhnya bersih?",
+          "checkAnswer": "Tidak. Teks mendukung bahwa siswa membersihkan sampah dan mengisi empat kantong. “Sepenuhnya bersih” melampaui bukti.",
+          "phase": "Menerapkan: baca dengan bukti"
+        }
+      ],
+      "modelTitle": "Model bacaan terhubung · baca ide, bukan kata per kata",
+      "modelPosition": "after",
+      "modelEnglish": "The students at Green Hill School wanted a quiet place to read. On Monday, their teacher asked them to bring books they no longer used. Some students brought storybooks, while others brought science magazines. They put the books on a clean shelf near the classroom window. The shelf was small, but everyone could reach it. On Wednesday, the class made simple labels for the different books. Rina wrote the titles, and Budi checked the spelling. After lunch, the students tried the new reading corner. Two students read aloud, while others read silently. The teacher did not say that everyone had to finish a book that day. Instead, she asked each student to share one interesting idea. On Friday, the class counted forty books on the shelf. They planned to care for the books and return them after reading. The reading corner was a shared project that grew step by step.",
+      "modelIndonesian": "Siswa di Sekolah Green Hill menginginkan tempat tenang untuk membaca. Pada Senin, guru meminta mereka membawa buku yang tidak lagi digunakan. Sebagian siswa membawa buku cerita, sedangkan yang lain membawa majalah sains. Mereka menaruh buku di rak bersih dekat jendela kelas. Rak itu kecil, tetapi mudah dijangkau semua orang. Pada Rabu, kelas membuat label sederhana untuk berbagai buku. Rina menulis judul dan Budi mengecek ejaannya. Seusai makan siang, siswa mencoba pojok baca yang baru. Dua siswa membaca keras-keras, sementara yang lain membaca dalam hati. Guru tidak mengatakan bahwa setiap siswa wajib menamatkan buku hari itu. Sebaliknya, guru meminta setiap siswa membagikan satu gagasan menarik. Pada Jumat, kelas menghitung empat puluh buku di rak. Mereka berencana menjaga buku dan mengembalikannya setelah membaca. Pojok baca merupakan proyek bersama yang berkembang bertahap."
+    },
+    {
+      "type": "synthesis",
+      "title": "Hubungkan keterampilan yang sudah dipelajari",
+      "text": "Langkah pembaca: kenali subjek dan tindakan → baca rincian → periksa kata pembatas → hubungkan pronoun dan konektor → simpulkan gagasan → tunjukkan bukti. Kalimat yang tampak sederhana pun bisa berubah makna karena [[not]], [[only]], atau [[before]]. Teks yang lebih panjang dibaca sebagai jaringan gagasan, bukan sebagai daftar kata terpisah."
+    },
+    {
+      "type": "heading",
+      "text": "Contoh beralasan: amati bukti dan kesalahan yang mungkin"
+    },
+    {
+      "type": "text",
+      "text": "Setiap kartu memuat kalimat bahasa Inggris, arti, dan alasan. Coba temukan sendiri petunjuk penting sebelum membaca penjelasannya."
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Fondasi dan rincian",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The nurse checks the room.",
+          "indonesian": "Perawat memeriksa ruangan.",
+          "note": "The nurse adalah subjek; checks menunjukkan tindakan. Kita belum tahu siapa yang meminta pemeriksaan."
+        },
+        {
+          "english": "The bridge is narrow.",
+          "indonesian": "Jembatan itu sempit.",
+          "note": "Is menunjukkan keadaan; narrow adalah sifat. Tidak ada kendaraan atau panjang yang dijelaskan."
+        },
+        {
+          "english": "Five books arrived yesterday.",
+          "indonesian": "Lima buku tiba kemarin.",
+          "note": "Five menyebut jumlah buku, yesterday menyatakan waktu; tidak membuktikan siapa pengirimnya."
+        },
+        {
+          "english": "Not every student joined the trip.",
+          "indonesian": "Tidak semua siswa ikut perjalanan.",
+          "note": "Not every menolak gagasan semua siswa ikut; ini berbeda dari no student."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Hubungan dan bukti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Only one lamp worked.",
+          "indonesian": "Hanya satu lampu yang berfungsi.",
+          "note": "Only membatasi menjadi satu lampu. Kata worked memberi keadaan lampu, bukan lokasi."
+        },
+        {
+          "english": "Sinta met the coach. He gave her a map.",
+          "indonesian": "Sinta bertemu pelatih. Ia (pelatih) memberinya peta.",
+          "note": "He menunjuk coach berdasarkan susunan dan peran; her menunjuk Sinta."
+        },
+        {
+          "english": "It was windy, but the children played outside.",
+          "indonesian": "Hari itu berangin, tetapi anak-anak bermain di luar.",
+          "note": "But menandai pertentangan antara kondisi berangin dan tetap bermain."
+        },
+        {
+          "english": "The gate was locked, so we used the side door.",
+          "indonesian": "Gerbang terkunci, sehingga kami menggunakan pintu samping.",
+          "note": "So menyatakan hasil langsung dari gerbang terkunci, bukan dugaan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Hubungan dan bukti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The soil was dry. The gardener watered it.",
+          "indonesian": "Tanah kering. Tukang kebun menyiraminya.",
+          "note": "It menunjuk soil; kalimat kedua memberi tindakan yang berkaitan dengan keadaan pertama."
+        },
+        {
+          "english": "A sign said “No entry.” The room was empty.",
+          "indonesian": "Tanda bertuliskan “Dilarang masuk.” Ruangan itu kosong.",
+          "note": "Dua fakta tertulis; menyimpulkan ruangan kosong karena tanda adalah sebab yang belum dinyatakan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka-reading-foundations",
+      "prompt": "Which statement follows directly from “Only two teams finished the poster”?",
+      "translation": "Pernyataan mana yang langsung didukung kalimat “Hanya dua tim menyelesaikan poster”?",
+      "choices": [
+        "Every team finished.",
+        "Exactly two teams finished.",
+        "No team started."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Setiap tim selesai.",
+        "Tepat dua tim selesai.",
+        "Tidak ada tim memulai."
+      ],
+      "explanation": "Only two teams finished menyatakan dua tim selesai. Pilihan lain mengabaikan pembatas only atau menambahkan fakta yang tidak ada.",
+      "hint": "Perhatikan kata only sebelum angka two."
+    },
+    {
+      "type": "reflection",
+      "prompt": "What evidence should you check before selecting an answer?",
+      "translation": "Bukti apa yang perlu diperiksa sebelum menentukan jawaban?",
+      "answer": "Cari subjek dan predikat, periksa not/only/angka serta hubungan kalimat, lalu tunjuk frasa yang menjadi bukti."
+    },
+    {
+      "type": "summary",
+      "title": "Ingat saat membaca",
+      "items": [
+        "Cari subjek dan tindakan sebelum detail tambahan.",
+        "Periksa kata pembatas seperti not, some, all, only.",
+        "Hubungkan kata ganti dan konektor antarkalimat.",
+        "Ringkas ide pokok dengan bukti; jangan membuat fakta baru."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba secara mandiri · tanpa nilai",
+      "prompt": "Baca model Green Hill School. Tulis satu kalimat bahasa Inggris tentang proyek utama, lalu sebut dua bukti spesifik. Sebut pula satu hal yang tidak diketahui teks.",
+      "model": "The class built a shared reading corner. Evidence: students placed books on a shelf, and the class counted forty books on Friday. Not stated: whether every student read all forty books.",
+      "modelTranslation": "Kelas membuat pojok baca bersama. Bukti: siswa menaruh buku di rak dan menghitung empat puluh buku pada Jumat. Tidak disebut: apakah tiap siswa membaca semua empat puluh buku.",
+      "criteria": "Makna pokok sesuai bacaan. · Dua bukti memang ada di model. · Tidak menyebut dugaan sebagai fakta."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "subject",
+          "indonesian": "subjek; yang dibicarakan"
+        },
+        {
+          "english": "verb",
+          "indonesian": "kata kerja / bagian tindakan"
+        },
+        {
+          "english": "only",
+          "indonesian": "hanya"
+        },
+        {
+          "english": "some",
+          "indonesian": "sebagian"
+        },
+        {
+          "english": "all",
+          "indonesian": "semua"
+        },
+        {
+          "english": "not",
+          "indonesian": "tidak"
+        },
+        {
+          "english": "because",
+          "indonesian": "karena"
+        },
+        {
+          "english": "but",
+          "indonesian": "tetapi"
+        },
+        {
+          "english": "so",
+          "indonesian": "sehingga / jadi"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti dari teks"
+        },
+        {
+          "english": "reading corner",
+          "indonesian": "pojok baca"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“Some students used the side door.” Which conclusion is supported?",
+      "choices": [
+        "All students used the side door.",
+        "At least some students used the side door.",
+        "No student used the side door."
+      ],
+      "answer": 1,
+      "explanation": "Some berarti sebagian; kita tidak mengetahui apakah semua siswa ikut menggunakan pintu itu.",
+      "translationId": {
+        "prompt": "“Sebagian siswa memakai pintu samping.” Mana kesimpulan yang didukung?",
+        "choices": [
+          "Semua siswa memakai pintu samping.",
+          "Setidaknya sebagian siswa memakai pintu samping.",
+          "Tidak ada siswa memakai pintu samping."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "“The box was heavy, so Dina asked for help.” What happened after the box felt heavy?",
+      "choices": [
+        "Dina asked for help.",
+        "Dina sold the box.",
+        "The box became empty."
+      ],
+      "answer": 0,
+      "explanation": "So menghubungkan kotak berat dengan tindakan Dina meminta bantuan; dua lainnya tidak disebut.",
+      "translationId": {
+        "prompt": "“Kotak berat, jadi Dina meminta bantuan.” Apa yang terjadi kemudian?",
+        "choices": [
+          "Dina meminta bantuan.",
+          "Dina menjual kotak.",
+          "Kotak menjadi kosong."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "“Lia found a notebook. She gave it to the teacher.” What does it refer to?",
+      "choices": [
+        "The teacher",
+        "Lia",
+        "A notebook"
+      ],
+      "answer": 2,
+      "explanation": "It menggantikan a notebook sebagai benda yang diberikan kepada guru.",
+      "translationId": {
+        "prompt": "“Lia menemukan buku catatan. Ia memberikannya kepada guru.” Apa acuan it?",
+        "choices": [
+          "Guru",
+          "Lia",
+          "Sebuah buku catatan"
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-reading-foundations-practice"
+  ]
+}

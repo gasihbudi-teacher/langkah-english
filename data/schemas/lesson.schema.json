@@ -358,6 +358,10 @@
                     "checkAnswer": {
                       "type": "string",
                       "minLength": 10
+                    },
+                    "phase": {
+                      "type": "string",
+                      "minLength": 4
                     }
                   },
                   "additionalProperties": false
@@ -382,6 +386,12 @@
               "modelImageAlt": {
                 "type": "string",
                 "minLength": 20
+              },
+              "modelPosition": {
+                "enum": [
+                  "before",
+                  "after"
+                ]
               }
             },
             "additionalProperties": false

@@ -549,3 +549,19 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 @media(forced-colors:active){.tka-option,.tka-category,.clear-row{border:1px solid CanvasText}.tka-option:has(input:checked){outline:2px solid Highlight}}
 .clear-row{color:#24485a;font-weight:700}
 .clear-row:focus-visible{outline:3px solid #315cc0;outline-offset:2px}
+
+/* V13-C1: distinguish live TKA lessons from future roadmap entries. */
+.tka-available{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.tka-available a{display:inline-flex;padding:7px 10px;border-radius:8px;background:#f2fbf7;color:#125b48;border:1px solid #b4dfd0;font-weight:750;font-size:13px;text-decoration:none}
+.tka-available a:hover,.tka-available a:focus-visible{background:#dbf6eb;text-decoration:underline}
+.tka-released{display:inline-block;margin-top:7px;background:#e5f7ee;border:1px solid #a7d5bc;color:#145f40;font-size:12px;font-weight:750;border-radius:7px;padding:3px 8px}
+@media(forced-colors:active){.tka-available a,.tka-released{border-color:currentColor}}
+
+/* Optional, fully expanded-by-default phases for long beginner TKA scaffolds. */
+.scaffold-phase-links{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}
+.scaffold-phase-links a{font-size:12px;font-weight:760;text-decoration:underline;color:#265e65;background:#e9f7f3;border:1px solid #bcded2;border-radius:8px;padding:7px 9px}
+.scaffold-phase{border:1px solid var(--border);border-radius:14px;margin:16px 0;background:#fbfdfc;padding:11px 17px}
+.scaffold-phase>summary{cursor:pointer;font-weight:850;font-size:16px;padding:6px 0;color:#244f4a}
+.scaffold-phase .scaffold-step{scroll-margin-top:75px}
+.scaffold-phase-check,.scaffold-phase-guide{color:#53677b;font-size:13px}
+@media(forced-colors:active){.scaffold-phase,.scaffold-phase-links a{border-color:currentColor}}

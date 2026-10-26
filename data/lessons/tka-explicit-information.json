@@ -1,0 +1,354 @@
+{
+  "id": "tka-explicit-information",
+  "objectives": [
+    "Menemukan informasi tersurat berdasarkan jenis pertanyaan.",
+    "Mencocokkan parafrasa dan kata ganti dengan bukti teks.",
+    "Membedakan pilihan didukung, bertentangan, atau tidak disebut."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu Menemukan Informasi Tersurat dan Parafrasa?",
+      "text": "[[Informasi tersurat]] ialah hal yang dapat ditemukan langsung dalam teks, meskipun pertanyaan memakai kata berbeda. [[Parafrasa]] mempertahankan makna dengan ungkapan lain. Untuk menjawab dengan akurat, tentukan rincian yang ditanyakan, temukan bukti, dan periksa pilihan yang hampir benar."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Mulailah dari pemahaman kecil. Setiap tahap memiliki contoh bahasa Inggris, terjemahan, alasan, dan pertanyaan tanpa nilai. Bacalah dahulu, coba jawab sendiri, lalu buka pembahasan. Kembali ke langkah sebelumnya kapan pun perlu.",
+      "steps": [
+        {
+          "title": "Bedakan informasi tersurat dan dugaan",
+          "explanation": "[[Explicit information]] adalah fakta yang memang dinyatakan, meskipun dengan susunan kata berbeda dari pertanyaan. “Mungkin terjadi” bukan sama dengan “tertulis”. Periksa setiap pilihan terhadap kalimat bukti.",
+          "english": "The workshop starts at ten.",
+          "indonesian": "Lokakarya dimulai pukul sepuluh.",
+          "why": "Starts at ten dinyatakan langsung. Kita belum tahu jam selesai, jumlah peserta, atau apakah lokakarya terlambat.",
+          "check": "Apakah informasi tentang waktu mulai juga membuktikan bahwa lokakarya selesai pukul dua belas?",
+          "checkAnswer": "Tidak disebutkan. Teks hanya memberitahu waktu mulai, bukan waktu selesai.",
+          "phase": "Fondasi: baca pertanyaannya"
+        },
+        {
+          "title": "Tentukan jenis fakta yang ditanyakan",
+          "explanation": "Perhatikan [[who]], [[what]], [[when]], [[where]], dan [[how many]]. Masing-masing mencari orang, tindakan/benda, waktu, tempat, dan jumlah. Memahami pertanyaan dulu menghemat pencarian.",
+          "english": "Four visitors arrived at the museum on Tuesday.",
+          "indonesian": "Empat pengunjung tiba di museum pada Selasa.",
+          "why": "Who/how many menuntun ke four visitors; where ke museum; when ke on Tuesday. Jawab hanya rincian yang diminta.",
+          "check": "Jika pertanyaannya Where did the visitors arrive?, apa jawabannya?",
+          "checkAnswer": "At the museum. Tuesday adalah jawaban untuk when, bukan where.",
+          "phase": "Fondasi: baca pertanyaannya"
+        },
+        {
+          "title": "Temukan kalimat bukti paling relevan",
+          "explanation": "Carilah kata kunci semantik dari pertanyaan lalu pindai bagian yang membahasnya. Jangan menebak dari judul atau membaca ulang semua teks tanpa arah. Sebutkan kalimat yang mendukung jawabanmu.",
+          "english": "The bus left at seven. It reached the park at eight.",
+          "indonesian": "Bus berangkat pukul tujuh. Bus tiba di taman pukul delapan.",
+          "why": "Pertanyaan tentang arrival membutuhkan kalimat kedua, bukan kalimat pertama tentang departure.",
+          "check": "When did the bus reach the park, and which sentence gives the arrival time?",
+          "checkAnswer": "At eight. Bukti langsung: It reached the park at eight. Angka seven merupakan waktu berangkat.",
+          "phase": "Fondasi: baca pertanyaannya"
+        },
+        {
+          "title": "Lacak pronoun dan sebutan ulang",
+          "explanation": "Teks bisa menyebut benda dengan nama berbeda atau kata ganti. Hubungkan [[they]], [[it]], atau frasa seperti the group dengan acuan yang logis dari kalimat sebelumnya.",
+          "english": "The science club built a model. The group tested it after school.",
+          "indonesian": "Klub sains membuat sebuah model. Kelompok itu mengujinya seusai sekolah.",
+          "why": "The group menunjuk science club; it menunjuk model. Tanpa rujukan ini, pembaca bisa salah menentukan apa yang diuji.",
+          "check": "Pada contoh klub sains, benda apa yang sebenarnya diuji setelah sekolah, dan siapa pengujinya?",
+          "checkAnswer": "The model. Subjek penguji ialah the science club, tetapi benda yang diuji ialah model.",
+          "phase": "Membandingkan: makna dan pembatas"
+        },
+        {
+          "title": "Kenali parafrasa, bukan cuma kata identik",
+          "explanation": "Pertanyaan sering memakai [[paraphrase]], yaitu cara lain menyampaikan makna serupa. Cocokkan gagasan: joined berarti took part; earlier than berarti before. Jangan memilih hanya karena satu kata sama.",
+          "english": "Lina joined the clean-up event.",
+          "indonesian": "Lina mengikuti kegiatan bersih-bersih.",
+          "why": "Joined bermakna took part in atau participated in dalam konteks ini. Kalimat parafrasa tidak harus menyalin joined.",
+          "check": "Which option matches joined: took part in atau watched from home?",
+          "checkAnswer": "Took part in. Watched from home mengubah tindakan aktif menjadi menonton; maknanya tidak setara.",
+          "phase": "Membandingkan: makna dan pembatas"
+        },
+        {
+          "title": "Periksa not, before, after, only, dan angka",
+          "explanation": "Pilihan pengecoh sering memindahkan waktu, mengganti jumlah, atau menghapus negasi. Bandingkan detail yang tampak kecil tersebut dengan teks asli sebelum mengunci jawaban.",
+          "english": "The clinic does not open on Sundays.",
+          "indonesian": "Klinik tidak buka pada hari Minggu.",
+          "why": "Not membalik makna open, dan on Sundays membatasi hari. Jawaban “open every Sunday” jelas bertentangan.",
+          "check": "Apa jawaban tepat untuk pertanyaan apakah klinik buka setiap hari Minggu, jika ada does not?",
+          "checkAnswer": "Tidak. Kata does not tidak boleh diabaikan, meskipun kata open dan Sundays muncul di pilihan.",
+          "phase": "Membandingkan: makna dan pembatas"
+        },
+        {
+          "title": "Gabungkan dua fakta yang sama-sama tersurat",
+          "explanation": "Beberapa soal membutuhkan dua kalimat: satu memuat orang, satu lagi memuat aktivitasnya. Menggabungkan fakta yang tertulis bukan menebak motivasi tersembunyi.",
+          "english": "Mr Dedi teaches art. His class meets on Thursdays.",
+          "indonesian": "Pak Dedi mengajar seni. Kelasnya bertemu pada hari Kamis.",
+          "why": "His mengacu kepada Mr Dedi sehingga kelas seni yang diasuhnya bertemu Kamis. Kedua potongan diperlukan.",
+          "check": "On what day does Mr Dedi’s class meet, and what does his refer to?",
+          "checkAnswer": "On Thursdays. Gabungkan Mr Dedi dengan his class; jangan menciptakan hari lain dari kebiasaan sekolah.",
+          "phase": "Menerapkan: verifikasi bukti"
+        },
+        {
+          "title": "Bedakan didukung, bertentangan, dan tidak disebut",
+          "explanation": "[[Supported]] cocok dengan teks; [[contradicted]] berlawanan dengan teks; [[not mentioned]] tidak memiliki bukti memadai. Dua jenis jawaban terakhir sama-sama tidak boleh dipilih saat soal meminta informasi tersurat.",
+          "english": "All ten plants survived. The report did not mention their height.",
+          "indonesian": "Kesepuluh tanaman bertahan hidup. Laporan tidak menyebut tinggi tanaman.",
+          "why": "“Ten survived” didukung; “some died” bertentangan; “each was 20 cm tall” tidak disebut. Keduanya berbeda alasan penolakannya.",
+          "check": "Klasifikasikan: Five plants died; Each plant was 20 cm tall.",
+          "checkAnswer": "Five plants died = contradicted karena semua sepuluh bertahan; each plant was 20 cm tall = not mentioned karena tinggi tidak dilaporkan.",
+          "phase": "Menerapkan: verifikasi bukti"
+        },
+        {
+          "title": "Uji pada bacaan baru dan kutip bukti",
+          "explanation": "Untuk teks lebih panjang, jawab pertanyaan secara mandiri lalu cek baris pendukungnya. Evaluasi semua pilihan, termasuk yang terlihat familier. Jangan menambah informasi dari pengalaman pribadi.",
+          "english": "The community library added a weekend reading class. It takes place every Saturday at nine. The class is free, but visitors must register before Friday.",
+          "indonesian": "Perpustakaan komunitas menambah kelas membaca akhir pekan. Kelas berlangsung setiap Sabtu pukul sembilan. Kelas gratis, tetapi pengunjung harus mendaftar sebelum Jumat.",
+          "why": "Every Saturday at nine menjawab waktu; free menjawab biaya; must register before Friday menandai syarat. “Siapa gurunya?” tetap belum terjawab.",
+          "check": "Is registration optional because the class is free?",
+          "checkAnswer": "Tidak. Free hanya menjelaskan biaya; must register menyatakan pendaftaran wajib. Jawaban yang masuk akal secara umum tetap harus diuji dengan kata-kata teks.",
+          "phase": "Menerapkan: verifikasi bukti"
+        }
+      ],
+      "modelTitle": "Model bacaan terhubung · baca ide, bukan kata per kata",
+      "modelPosition": "after",
+      "modelEnglish": "A town museum introduced a free student tour in April. The tour runs on Tuesday and Thursday afternoons. On Tuesdays, it begins at two, while Thursday tours start at three. Visitors meet a guide near the main entrance. The guide shows students a collection of old farming tools and explains how people used them. After the first room, the group visits a small exhibition about local rivers. The museum provides a worksheet, but students must bring their own pencils. Students under sixteen need a teacher or another responsible adult with them. The museum does not provide lunch. A nearby café sells snacks, but buying food is not part of the tour. Teachers must book a place at least two days before a visit. The museum can welcome up to twenty students in each group. After the visit, teachers may email the museum with questions. The notice does not state how long the tour lasts.",
+      "modelIndonesian": "Museum kota memperkenalkan tur siswa gratis pada April. Tur berlangsung setiap Selasa dan Kamis sore. Pada Selasa, tur dimulai pukul dua, sedangkan tur Kamis dimulai pukul tiga. Pengunjung bertemu pemandu dekat pintu masuk utama. Pemandu menunjukkan koleksi alat pertanian lama dan menjelaskan cara penggunaannya. Setelah ruang pertama, kelompok mengunjungi pameran kecil tentang sungai setempat. Museum menyediakan lembar kerja, tetapi siswa harus membawa pensil sendiri. Siswa di bawah enam belas tahun memerlukan pendamping guru atau orang dewasa yang bertanggung jawab. Museum tidak menyediakan makan siang. Kafe terdekat menjual camilan, tetapi membeli makanan bukan bagian tur. Guru harus memesan tempat sedikitnya dua hari sebelum kunjungan. Museum dapat menerima hingga dua puluh siswa tiap kelompok. Setelah kunjungan, guru boleh mengirim surel untuk bertanya. Pengumuman tidak menyebut lama tur."
+    },
+    {
+      "type": "synthesis",
+      "title": "Hubungkan keterampilan yang sudah dipelajari",
+      "text": "Cara memeriksa jawaban: tentukan jenis informasi pada pertanyaan → cari bukti paling relevan → cocokkan parafrasa dan kata rujukan → periksa hari/jam/angka/negasi → bedakan [[supported]], [[contradicted]], dan [[not mentioned]]. Kesamaan kata tanpa kesamaan makna bukan bukti; jawaban yang masuk akal tetapi tidak tertulis juga belum dapat dipilih."
+    },
+    {
+      "type": "heading",
+      "text": "Contoh beralasan: amati bukti dan kesalahan yang mungkin"
+    },
+    {
+      "type": "text",
+      "text": "Setiap kartu memuat kalimat bahasa Inggris, arti, dan alasan. Coba temukan sendiri petunjuk penting sebelum membaca penjelasannya."
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Fondasi dan rincian",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The class meets on Wednesdays.",
+          "indonesian": "Kelas bertemu setiap Rabu.",
+          "note": "On Wednesdays menjawab when. Pilihan on Tuesday salah meski sama-sama nama hari."
+        },
+        {
+          "english": "The visitors left before sunset.",
+          "indonesian": "Para pengunjung pergi sebelum matahari terbenam.",
+          "note": "Before sunset tidak sama dengan at sunset; preposisi menentukan urutan waktu."
+        },
+        {
+          "english": "Three teams completed the task.",
+          "indonesian": "Tiga tim menyelesaikan tugas.",
+          "note": "Jumlah yang selesai tiga tim, tetapi jumlah seluruh peserta tidak diketahui."
+        },
+        {
+          "english": "The students participated in the workshop.",
+          "indonesian": "Para siswa mengikuti lokakarya.",
+          "note": "Participated in dapat diparafrasakan menjadi took part in; bukan sekadar hadir di dekat lokasi."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Hubungan dan bukti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Mira borrowed a book. She returned it on Friday.",
+          "indonesian": "Mira meminjam buku. Ia mengembalikannya pada Jumat.",
+          "note": "She menunjuk Mira dan it menunjuk book; waktu pengembalian tertulis Friday."
+        },
+        {
+          "english": "The garden opens at eight but closes at four.",
+          "indonesian": "Kebun buka pukul delapan tetapi tutup pukul empat.",
+          "note": "Opens dan closes memiliki peran berbeda; angka empat bukan waktu membuka."
+        },
+        {
+          "english": "The club did not meet during the holiday.",
+          "indonesian": "Klub tidak bertemu selama liburan.",
+          "note": "Did not meet menyangkal pertemuan pada masa libur; jangan menghilangkan not."
+        },
+        {
+          "english": "The school bought new chairs. The furniture arrived in June.",
+          "indonesian": "Sekolah membeli kursi baru. Perabot itu tiba pada Juni.",
+          "note": "The furniture mengacu pada kursi di kalimat pertama; June adalah waktu kedatangan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Hubungan dan bukti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "All the bottles were collected; none were left behind.",
+          "indonesian": "Semua botol dikumpulkan; tidak ada yang tertinggal.",
+          "note": "All dan none saling menguatkan; pilihan “some were left” bertentangan."
+        },
+        {
+          "english": "The notice lists a fee but gives no deadline.",
+          "indonesian": "Pengumuman mencantumkan biaya tetapi tidak menyebut batas waktu.",
+          "note": "Biaya didukung; tanggal batas waktu tidak disebut. Kedua pertanyaan memerlukan pemeriksaan berbeda."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka-explicit-information",
+      "prompt": "“The visit starts on Thursday at three.” When does the visit begin?",
+      "translation": "“Kunjungan dimulai hari Kamis pukul tiga.” Kapan kunjungan dimulai?",
+      "choices": [
+        "On Wednesday at three",
+        "On Thursday at three",
+        "Every morning"
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Rabu pukul tiga",
+        "Kamis pukul tiga",
+        "Setiap pagi"
+      ],
+      "explanation": "Bukti langsung ialah on Thursday at three. Wednesday mengubah hari, morning bertentangan dengan pukul tiga sore dalam konteks ini.",
+      "hint": "Pertanyaan when mencari waktu; cocokkan hari dan jam sekaligus."
+    },
+    {
+      "type": "reflection",
+      "prompt": "What evidence should you check before selecting an answer?",
+      "translation": "Bukti apa yang perlu diperiksa sebelum menentukan jawaban?",
+      "answer": "Temukan kalimat tempat fakta muncul, cocokkan dengan parafrasa, lalu periksa penyangkalan, angka, hari, dan siapa yang dirujuk pronoun."
+    },
+    {
+      "type": "summary",
+      "title": "Ingat saat membaca",
+      "items": [
+        "Tentukan whether who/what/when/where/how many yang dicari.",
+        "Carilah kalimat bukti yang benar; parafrasa tidak harus memakai kata yang sama.",
+        "Periksa negasi, jumlah, hari, dan kata ganti.",
+        "Bedakan didukung, bertentangan, dan tidak disebut."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba secara mandiri · tanpa nilai",
+      "prompt": "Baca model museum. Jawab: On which days does the tour run? What must students bring? What does the notice say about the tour length? Sertakan bukti untuk setiap jawaban.",
+      "model": "It runs on Tuesday and Thursday afternoons (evidence: “on Tuesday and Thursday afternoons”). Students must bring pencils (evidence: “must bring their own pencils”). The length is not stated (evidence: “does not state how long the tour lasts”).",
+      "modelTranslation": "Tur berlangsung Selasa dan Kamis sore. Siswa wajib membawa pensil. Lama tur tidak disebut. Semua jawaban memiliki frasa bukti pada model.",
+      "criteria": "Menjawab tiga pertanyaan berdasarkan kalimat yang relevan. · Membedakan kewajiban bring pencils dari worksheet yang disediakan. · Tidak mengarang lama tur."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "explicit",
+          "indonesian": "dinyatakan langsung / tersurat"
+        },
+        {
+          "english": "paraphrase",
+          "indonesian": "pengungkapan kembali makna"
+        },
+        {
+          "english": "supported",
+          "indonesian": "didukung bacaan"
+        },
+        {
+          "english": "contradicted",
+          "indonesian": "bertentangan dengan bacaan"
+        },
+        {
+          "english": "not mentioned",
+          "indonesian": "tidak disebutkan"
+        },
+        {
+          "english": "arrive",
+          "indonesian": "tiba"
+        },
+        {
+          "english": "depart",
+          "indonesian": "berangkat"
+        },
+        {
+          "english": "register",
+          "indonesian": "mendaftar"
+        },
+        {
+          "english": "before",
+          "indonesian": "sebelum"
+        },
+        {
+          "english": "after",
+          "indonesian": "setelah"
+        },
+        {
+          "english": "worksheet",
+          "indonesian": "lembar kerja"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“The museum closes at five.” What time does the museum close?",
+      "choices": [
+        "At four",
+        "At five",
+        "At six"
+      ],
+      "answer": 1,
+      "explanation": "Closes at five adalah keterangan langsung. Pilihan empat atau enam mengubah angka.",
+      "translationId": {
+        "prompt": "“Museum tutup pukul lima.” Jam berapa museum tutup?",
+        "choices": [
+          "Pukul empat",
+          "Pukul lima",
+          "Pukul enam"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "“The club participated in the event.” What is the closest paraphrase?",
+      "choices": [
+        "The club avoided the event.",
+        "The club organized every event.",
+        "The club took part in the event."
+      ],
+      "answer": 2,
+      "explanation": "Participated in = took part in; avoided berarti menghindari dan organized menambah peran yang tidak disebut.",
+      "translationId": {
+        "prompt": "“Klub itu berpartisipasi dalam kegiatan.” Parafrasa mana paling tepat?",
+        "choices": [
+          "Klub menghindari kegiatan.",
+          "Klub menyelenggarakan setiap kegiatan.",
+          "Klub mengikuti kegiatan."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "“Four books arrived. None were damaged.” Which is supported?",
+      "choices": [
+        "All four arrived without damage.",
+        "Four books were damaged.",
+        "The books arrived on Monday."
+      ],
+      "answer": 0,
+      "explanation": "None were damaged berarti tidak satu pun rusak. Waktu pengiriman tidak disebut.",
+      "translationId": {
+        "prompt": "“Empat buku tiba. Tidak satu pun rusak.” Mana didukung?",
+        "choices": [
+          "Keempat buku tidak rusak.",
+          "Empat buku rusak.",
+          "Buku tiba Senin."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-explicit-information-practice"
+  ]
+}

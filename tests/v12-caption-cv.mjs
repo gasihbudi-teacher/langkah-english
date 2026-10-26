@@ -5,9 +5,9 @@ import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const c=read('data/catalog.json');
-assert.equal(c.resources.filter(r=>r.type==='lesson').length,56);
-assert.equal(c.resources.filter(r=>r.type==='quiz').length,41);
-assert.equal(new Set(c.resources.map(r=>r.id)).size,97);
+assert.ok(c.resources.filter(r=>r.type==='lesson').length>=56, 'V12 lesson baseline must remain');
+assert.ok(c.resources.filter(r=>r.type==='quiz').length>=41, 'V12 quiz baseline must remain');
+assert.equal(new Set(c.resources.map(r=>r.id)).size,c.resources.length);
 assert.ok(c.schoolTopics['Grade 12'].includes('Caption Text: Reading and Writing Image Captions'));
 assert.ok(c.schoolTopics['Grade 12'].includes('Curriculum Vitae (CV): Writing a Student CV'));
 for(const id of ['grade12-caption-text','grade12-curriculum-vitae']){

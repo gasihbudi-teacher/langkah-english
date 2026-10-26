@@ -3794,6 +3794,178 @@
         "curriculumElement": "Writing–Presenting",
         "mappingNote": "Materi tambahan praktis berdasarkan permintaan siswa; ditempatkan pada Kelas 12 secara editorial, bukan klaim bahwa topik ini wajib berada di bab tertentu atau urutan nasional."
       }
+    },
+    {
+      "id": "tka-reading-foundations",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-reading-foundations-practice",
+        "reading-bridge",
+        "sentence-structure"
+      ],
+      "file": "data/lessons/tka-reading-foundations.json",
+      "order": 601,
+      "title": "TKA-01 · Jembatan TKA: Dari Kalimat ke Bacaan",
+      "description": "12 langkah sabar dari memahami satu kalimat hingga menunjukkan bukti dalam teks; 10 contoh beralasan dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Read with evidence",
+        "Sentence-to-paragraph"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "reading evidence",
+        "V13-C1"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2 recount and descriptive",
+        "theme": "school and community literacy",
+        "curriculumElement": "Foundation supporting all three TKA reading competencies",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 45,
+      "prerequisites": [
+        "reading-bridge",
+        "sentence-structure"
+      ]
+    },
+    {
+      "id": "tka-reading-foundations-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-reading-foundations"
+      ],
+      "file": "data/quizzes/tka-reading-foundations-practice.json",
+      "order": 602,
+      "title": "Latihan TKA-01 · Jembatan dari Kalimat ke Bacaan",
+      "description": "12 soal asli pada bacaan A2; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi, dengan pembahasan Indonesia.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Read with evidence",
+        "Sentence-to-paragraph"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "reading evidence",
+        "V13-C1"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2 recount and descriptive",
+        "theme": "school and community literacy",
+        "curriculumElement": "Foundation supporting all three TKA reading competencies",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
+    },
+    {
+      "id": "tka-explicit-information",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-explicit-information-practice",
+        "tka-reading-foundations"
+      ],
+      "file": "data/lessons/tka-explicit-information.json",
+      "order": 603,
+      "title": "TKA-02 · Informasi Tersurat dan Parafrasa",
+      "description": "9 langkah mengenali jenis pertanyaan, mencari bukti, memahami parafrasa, dan menolak jawaban yang tidak didukung.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Read with evidence",
+        "Explicit information"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "reading evidence",
+        "V13-C1"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive information",
+        "theme": "school and community literacy",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 40,
+      "prerequisites": [
+        "tka-reading-foundations"
+      ]
+    },
+    {
+      "id": "tka-explicit-information-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-explicit-information"
+      ],
+      "file": "data/quizzes/tka-explicit-information-practice.json",
+      "order": 604,
+      "title": "Latihan TKA-02 · Informasi Tersurat dan Parafrasa",
+      "description": "12 soal asli berbasis bacaan A2/B1; periksa bukti, parafrasa, waktu, angka, dan kategori supported/contradicted/not mentioned.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Read with evidence",
+        "Explicit information"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "reading evidence",
+        "V13-C1"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive information",
+        "theme": "school and community literacy",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
