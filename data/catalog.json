@@ -12,6 +12,10 @@
     {
       "id": "school",
       "title": "School English"
+    },
+    {
+      "id": "tka",
+      "title": "TKA Bahasa Inggris Wajib"
     }
   ],
   "grammarLevels": {
@@ -261,6 +265,10 @@
         {
           "pathway": "school",
           "grade": 12
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Intermediate",
@@ -522,6 +530,10 @@
         {
           "pathway": "school",
           "grade": 10
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Beginner",
@@ -1306,6 +1318,10 @@
         },
         {
           "pathway": "utbk"
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Advanced",
@@ -1376,6 +1392,10 @@
         },
         {
           "pathway": "utbk"
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Beginner",
@@ -1583,6 +1603,10 @@
         {
           "pathway": "school",
           "grade": 9
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Beginner",
@@ -1614,6 +1638,10 @@
         {
           "pathway": "school",
           "grade": 10
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Beginner",
@@ -2811,6 +2839,10 @@
         {
           "pathway": "school",
           "grade": 11
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Intermediate",
@@ -3196,6 +3228,10 @@
         {
           "pathway": "school",
           "grade": 12
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
         }
       ],
       "difficulty": "Advanced",

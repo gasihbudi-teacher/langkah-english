@@ -34,7 +34,8 @@ for(const m of entries){
  assert.equal(m.unofficial,true);
  assert.ok(m.curriculumAlignment?.mappingNote.includes('bukan') || m.curriculumAlignment?.mappingNote.includes('tidak resmi'));
  if(m.type==='lesson'){
-  assert.deepEqual(m.placements.length,1);
+  // V13-A may cross-list an unchanged V8 lesson in TKA; original school placement stays first.
+  assert.equal(m.placements.filter(p=>p.pathway!=='tka').length,1);
   assert.equal(d.assessments.length,1);
   assert.ok(m.prerequisites?.length>=1,'prerequisite missing '+m.id);
   const scaffold=d.blocks.filter(b=>b.type==='scaffold');assert.equal(scaffold.length,1);assert.equal(d.blocks[0].type,'definition');

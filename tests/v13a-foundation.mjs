@@ -1,0 +1,36 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const cat=JSON.parse(read('data/catalog.json'));
+assert.deepEqual(cat.pathways.map(p=>p.id),['grammar','utbk','school','tka']);
+assert.equal(cat.resources.length,97);
+assert.equal(cat.resources.filter(r=>r.type==='lesson').length,56);
+assert.equal(cat.resources.filter(r=>r.type==='quiz').length,41);
+assert.equal(new Set(cat.resources.map(r=>r.id)).size,97);
+assert.equal(cat.resources.filter(r=>r.placements.some(p=>p.pathway==='tka')).length,8);
+assert.ok(cat.resources.filter(r=>r.placements.some(p=>p.pathway==='tka')).every(r=>r.type==='lesson' && r.placements.length>=2));
+const tka=read('tka.html');
+for(const id of ['tka-support','tka-modules','tka-practice','tka-mocks','tka-support-list','tka-module-list'])assert.match(tka,new RegExp(`id="${id}"`));
+assert.match(tka,/js\/tka\.js/);
+for(const page of fs.readdirSync(root).filter(n=>n.endsWith('.html'))){
+ const content=read(page);
+ assert.match(content,/data-i18n="navTka" href="tka\.html"/,`${page} missing TKA nav`);
+ const ids=[...content.matchAll(/\bid="([a-z0-9-]+)"/gi)].map(x=>x[1]);
+ assert.equal(ids.length,new Set(ids).size,`Duplicate id in ${page}`);
+}
+assert.match(read('index.html'),/path-card path-tka/);
+const plan=read('js/tka.js');
+const modules=[...plan.matchAll(/\['(TKA-\d\d)','([^']+)',(\d+),'(\w+)'\]/g)];
+assert.equal(modules.length,10);
+assert.deepEqual(modules.map(m=>m[1]),Array.from({length:10},(_,i)=>`TKA-${String(i+1).padStart(2,'0')}`));
+assert.equal(modules.reduce((sum,m)=>sum+Number(m[3]),0),112);
+const i18nSource=read('js/i18n.js')+'\nexport {dictionary};';
+const {dictionary}=await import('data:text/javascript;base64,'+Buffer.from(i18nSource).toString('base64'));
+assert.deepEqual(Object.keys(dictionary.en).sort(),Object.keys(dictionary.id).sort());
+for(const m of tka.matchAll(/data-i18n="([a-zA-Z]+)"/g))assert.ok(dictionary.en[m[1]],`Missing translation ${m[1]}`);
+for(const m of plan.matchAll(/\bt\('([a-zA-Z]+)'/g))assert.ok(dictionary.en[m[1]],`Missing JS translation ${m[1]}`);
+for(const file of ['js/core.js','js/quiz.js','js/results.js','js/backup-format.mjs','data/schemas/quiz.schema.json'])assert.ok(fs.existsSync(path.join(root,file)));
+console.log('PASS V13-A: separate pathway, eight cross-listed V12 lessons, ten planned modules/112 steps, navigation, no quiz additions, translation parity.');

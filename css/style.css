@@ -504,3 +504,21 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 @media(forced-colors:active){.scaffold-review details,.scaffold-model{border:1px solid currentColor}}
 
 .scaffold-graphic{margin:12px 0}.scaffold-graphic img{width:100%;height:auto;border:1px solid #e2e8e1;border-radius:10px}
+
+
+/* V13-A: TKA pathway only. Original reading/quiz engines remain untouched. */
+@media(min-width:811px){.site-header .nav{gap:14px}.site-header .nav-links{gap:15px}.site-header .nav-links a{font-size:13px}.site-header .nav-actions{gap:7px}.site-header .lang-switch{margin-left:0}}
+@media(min-width:811px) and (max-width:1070px){.site-header .nav-progress{display:none}.site-header .logo{font-size:19px}}
+.path-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.path-card{padding:25px 21px;min-height:305px}.path-card h3{font-size:22px}
+.path-tka{background:#f2eefa;border-color:#e6dff5}
+.pathway-hero-tka{background:#f5f0fe;border-color:#e8e0f3}.pathway-hero-tka:after{color:#e8def8}.pathway-hero-tka .pathway-symbol{color:#6b51ac}
+.tka-stage{display:inline-block;background:#fff;color:#5a437a;border:1px solid #decdec;border-radius:9px;padding:7px 11px;font-size:13px;font-weight:750;margin:12px 0 16px}
+.tka-info-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.tka-info-grid .notice{margin:0}
+.tka-count{font-size:13px;color:#596780;font-weight:750;margin:10px 0 14px}.tka-support-items{list-style:none;margin:0;padding:0;border:1px solid var(--border);border-radius:16px;overflow:hidden;background:white}
+.tka-module-groups{display:grid;gap:24px}.tka-module-group h3{margin:0 0 12px;font-size:20px}.tka-module-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0}
+.tka-module{border:1px solid #e4e2ee;background:#fff;border-radius:13px;padding:18px;display:flex;align-items:flex-start;gap:5px;flex-direction:column}.tka-module-code{color:#614f90;font-weight:850;font-size:13px}.tka-module strong{font-size:16px;line-height:1.5}.tka-module small{color:#60718b}.tka-pending{display:inline-block;margin-top:9px;background:#f3f0f8;border:1px solid #e3ddee;color:#614d82;font-size:12px;font-weight:750;border-radius:7px;padding:3px 8px}
+.tka-upcoming{margin-top:26px;background:#f9f8fc;border:1px dashed #cfc9db;border-radius:14px;padding:22px}.tka-upcoming h2{font-size:21px;margin:0 0 7px}.tka-upcoming p{margin:0;color:#5f6880}
+@media(max-width:1050px){.path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.path-grid .path-card:last-child{grid-column:auto}}
+@media(max-width:560px){.path-grid,.tka-info-grid,.tka-module-grid{grid-template-columns:1fr}.tka-module{padding:15px}.path-card{min-height:232px}}
+@media(forced-colors:active){.tka-module,.tka-stage,.tka-pending,.tka-support-items{border:1px solid currentColor}}
