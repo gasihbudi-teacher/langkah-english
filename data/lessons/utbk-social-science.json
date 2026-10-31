@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-utbk-social-science",
       "prompt": "Which sentence means “Setengah siswa berkunjung.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Setengah siswa berkunjung.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Setengah siswa berkunjung.”?",
       "choices": [
         "The library had 200 visitors.",
         "Half of the students visited.",

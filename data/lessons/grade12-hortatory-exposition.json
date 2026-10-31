@@ -133,7 +133,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-hortatory-exposition",
       "prompt": "Which sentence means “Kata-kata kasar bisa membuat orang enggan berpartisipasi.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Kata-kata kasar bisa membuat orang enggan berpartisipasi.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Kata-kata kasar bisa membuat orang enggan berpartisipasi.”?",
       "choices": [
         "Online comments can hurt others.",
         "Harsh words may discourage participation.",

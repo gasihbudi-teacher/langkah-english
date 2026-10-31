@@ -8,7 +8,8 @@ const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const catalogue=JSON.parse(read('data/catalog.json'));
 const source=read('js/core.js');
 const excerpt=source.slice(source.indexOf('// V6: explicit'));
-const esc=`const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
+const esc=`const t=key=>key;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
 const {blocks}=await import('data:text/javascript;base64,'+Buffer.from(esc+excerpt).toString('base64'));
 
 const schoolIds=new Set(catalogue.resources.filter(r=>r.type==='lesson'&&/^grade(?:9|10|11|12)-/.test(r.id)).map(r=>r.id));
@@ -26,7 +27,7 @@ for(const meta of catalogue.resources.filter(r=>r.type==='lesson')){
  const visibleChecks=(rendered.match(/class="scaffold-review"/g)||[]).length;
  assert.equal(visibleChecks,authoredChecks,`${meta.id}: invented or missing check`);
  const examples=lesson.blocks.filter(b=>b.type==='example_group').flatMap(b=>b.items);
- const translations=(rendered.match(/class="lesson-translation-help"/g)||[]).length;
+ const translations=(rendered.match(/class="lesson-translation"/g)||[]).length;
  const translationMinimum=examples.length+(scaffold?scaffold.steps.filter(x=>x.english&&x.indonesian).length+(scaffold.modelIndonesian?1:0):0);
  assert(translations>=translationMinimum,`${meta.id}: Indonesian assistance disappeared`);
  const authoredInsights=scaffold?scaffold.steps.filter(x=>x.why).length:0;
@@ -42,7 +43,8 @@ const guide=model.blocks.find(b=>b.type==='scaffold');
 const expectedChecks=guide.steps.filter(s=>s.check).length;
 const html=blocks(model.blocks);
 assert.equal((html.match(/class="scaffold-review"/g)||[]).length,expectedChecks);
-assert.match(html,/Baca terjemahan teks model/);
+assert.match(html,/class="lesson-translation"/);
+assert.match(html,/Taman sekolah berada di belakang ruang sains/);
 assert.match(html,/Periksa jawaban/);
 assert(!html.includes('Coba pahami:'),'Old Grade 9 instructional label is visible');
 // All learner-controlled instructional text must remain safely escaped.

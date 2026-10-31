@@ -196,7 +196,7 @@
       "type": "checkpoint",
       "id": "guided-sentence-structure",
       "prompt": "Which sentence has a subject and a verb?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang memiliki subjek dan kata kerja?",
       "choices": [
         "Because the book.",
         "Birds sing.",

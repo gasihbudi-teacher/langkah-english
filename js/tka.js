@@ -35,7 +35,7 @@ const published={
  'TKA-10':['tka-question-formats-independent-practice','tka-question-formats-independent-practice-practice'],
 };
 let items=[],tkaLessons=[],tkaQuizzes=[];
-const card=(r,type,done=false)=>`<li class="simple-resource"><div><h3><a href="${link(r.id,type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(r.difficulty)}</small>${done?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,type)}" aria-label="${esc(t('tkaStudy'))}: ${esc(r.title)}">↗</a></li>`;
+const card=(r,type,done=false)=>`<li class="simple-resource"><div><h3><a href="${link(r.id,type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(t('difficulty'+r.difficulty))}</small>${done?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,type)}" aria-label="${esc(t('tkaStudy'))}: ${esc(r.title)}">↗</a></li>`;
 function draw(){
  const p=progress.read();
  const groups=[...new Set(tkaModules.map(m=>m[3]))];

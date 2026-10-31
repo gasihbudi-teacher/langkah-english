@@ -140,7 +140,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-discussion-text",
       "prompt": "Which sentence means “Tidak semua siswa tinggal dekat sekolah.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Tidak semua siswa tinggal dekat sekolah.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Tidak semua siswa tinggal dekat sekolah.”?",
       "choices": [
         "Cycling can reduce fuel use.",
         "Not all students live near school.",

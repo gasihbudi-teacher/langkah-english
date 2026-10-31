@@ -86,7 +86,7 @@ async def main():
   expected_practices=len(lesson_data.get('practice',[]))
   assert (steps,checks,examples,practices)==(expected_steps,expected_checks,expected_examples,expected_practices),(steps,checks,examples,practices)
   assert steps>0 and practices>0
-  assert 'Our School Garden' in model and 'science room' in model
+  assert 'Taman Sekolah Kami' in model and 'science room' in model
   assert await desktop.locator('.scaffold-heading h2').inner_text()=='Membaca teks model dengan bukti'
   assert await desktop.locator('.scaffold-model-note').count()==1
   assert await desktop.locator('.scaffold-total, .scaffold-next').count()==0
@@ -94,7 +94,7 @@ async def main():
    first_reveal=desktop.locator('.scaffold-review details').first
    await first_reveal.locator('summary').click()
    feedback=await first_reveal.locator('p').inner_text()
-   assert 'school garden' in feedback.lower() and 'science room' in feedback.lower(),feedback
+   assert 'taman sekolah' in feedback.lower() and 'ruang sains' in feedback.lower(),feedback
   await desktop.locator('#practice [data-answer="0"]').first.click()
   practice_feedback=await desktop.locator('#practice .inline-feedback').first.inner_text()
   assert 'Benar' in practice_feedback,practice_feedback

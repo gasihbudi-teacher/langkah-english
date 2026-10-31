@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-advanced-narrative",
       "prompt": "Which sentence means “Nara terus bekerja dekat jendela.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Nara terus bekerja dekat jendela.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Nara terus bekerja dekat jendela.”?",
       "choices": [
         "The lights went out.",
         "Nara kept working by the window.",

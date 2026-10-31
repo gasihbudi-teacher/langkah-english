@@ -150,7 +150,7 @@
       "type": "checkpoint",
       "id": "guided-modal-verbs",
       "prompt": "Which sentence expresses an obligation correctly?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang menyatakan kewajiban dengan benar?",
       "choices": [
         "You must wearing a helmet.",
         "You must wears a helmet.",

@@ -7,7 +7,7 @@ const sorted=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.tit
 try{
  const c=await getCatalog(),p=progress.read();
  const resources=c.resources.filter(r=>r.placements.some(x=>x.pathway===pathway));
- function card(r){return `<li class="simple-resource"><div><h3><a href="${link(r.id,r.type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(r.difficulty)} · ${t(r.type==='lesson'?'studyMaterials':r.kind==='test'?'topicTests':'practiceExercises')}</small>${p.lessons?.[r.id]?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,r.type)}" aria-label="${t(r.type==='lesson'?'openLesson':'openQuiz')}: ${esc(r.title)}">↗</a></li>`}
+ function card(r){return `<li class="simple-resource"><div><h3><a href="${link(r.id,r.type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(t('difficulty'+r.difficulty))} · ${t(r.type==='lesson'?'studyMaterials':r.kind==='test'?'topicTests':'practiceExercises')}</small>${p.lessons?.[r.id]?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,r.type)}" aria-label="${t(r.type==='lesson'?'openLesson':'openQuiz')}: ${esc(r.title)}">↗</a></li>`}
  function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(sorted).map(card).join('')}</ul>`:`<p>${t('gradeEmpty')}</p>`}</div></details>`}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
@@ -16,10 +16,10 @@ try{
   let html='';
   if(pathway==='grammar'){
    for(const level of ['Beginner','Intermediate','Advanced']){
-    const id=level.toLowerCase(); const here=resources.filter(r=>r.difficulty===level);
-    html+=`<h2 class="topic-divider" id="${id}">${esc(level)}</h2>`;
-    html+=group(id+'-materi',level+' · Materi',here.filter(r=>r.type==='lesson'));
-    html+=group(id+'-latihan',level+' · Latihan',here.filter(r=>r.type==='quiz'));
+    const id=level.toLowerCase(),label=t('level'+level); const here=resources.filter(r=>r.difficulty===level);
+    html+=`<h2 class="topic-divider" id="${id}">${esc(label)}</h2>`;
+    html+=group(id+'-materi',label+' · Materi',here.filter(r=>r.type==='lesson'));
+    html+=group(id+'-latihan',label+' · Latihan',here.filter(r=>r.type==='quiz'));
    }
   }else if(pathway==='school'){
    for(const grade of [9,10,11,12]){

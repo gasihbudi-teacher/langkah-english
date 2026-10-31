@@ -163,7 +163,7 @@
       "type": "checkpoint",
       "id": "guided-advanced-grammar-analysis",
       "prompt": "Which words form the main subject and verb?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kata-kata mana yang membentuk subjek inti dan kata kerja utama?",
       "choices": [
         "The boy / is",
         "who waved / is",

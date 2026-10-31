@@ -119,7 +119,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-noun-groups",
       "prompt": "Which sentence means “seekor burung kecil”?",
-      "translation": "Pilih kalimat Inggris yang berarti “seekor burung kecil”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “seekor burung kecil”?",
       "choices": [
         "a bird",
         "a small bird",

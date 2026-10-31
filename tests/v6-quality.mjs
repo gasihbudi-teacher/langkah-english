@@ -54,7 +54,8 @@ assert.match(read('js/lesson.js'),/formatIdText\(q.explanation\)/,'Practice feed
 assert.match(read('css/style.css'),/\.english-term/);
 const core=read('js/core.js');
 const excerpt=core.slice(core.indexOf('// V6: explicit'));
-const esc=`const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
+const esc=`const t=key=>key;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
 const {formatIdText,blocks}=await import('data:text/javascript;base64,'+Buffer.from(esc+excerpt).toString('base64'));
 assert.equal(formatIdText('Pakai [[verb]] yang tepat.'),'Pakai <span class="english-term" lang="en">verb</span> yang tepat.');
 const escaped=formatIdText('Baca [[<img src=x onerror=alert(1)>]] & lanjut');

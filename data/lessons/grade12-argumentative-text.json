@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-argumentative-text",
       "prompt": "Which sentence means “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”?",
       "choices": [
         "Digital payments can be convenient.",
         "They can reduce the need to carry cash.",

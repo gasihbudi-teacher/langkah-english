@@ -1,6 +1,6 @@
 import {resource,params,esc,score,progress,time,error} from './core.js';
 import {questionType,isAnswered,isCorrect,validResponse} from './question-types.mjs';
-import {t,initI18n,onLanguageChange} from './i18n.js';
+import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
 initI18n();
 try{
@@ -50,9 +50,9 @@ try{
   if(type==='single'||type==='multiple'){
    const correct=new Set(type==='single'?[q.answer]:q.answers),chosen=new Set(type==='single'?[a]:a);
    rows=`<p><strong>${t('correctAnswer')}:</strong> ${q.choices.filter((_,i)=>correct.has(i)).map(esc).join(' · ')}</p>`;
-   if(q.choiceExplanations)rows+=`<ul class="feedback-rows">${q.choices.map((v,i)=>`<li>${String.fromCharCode(65+i)}. ${esc(v)} ${correct.has(i)?'✓':''}${chosen.has(i)?' · '+t('yourChoice'):''}<br>${esc(q.choiceExplanations[i])}</li>`).join('')}</ul>`;
-  }else rows=`<ul class="feedback-rows">${q.statements.map((s,j)=>`<li>${esc(s.text)}<br><strong>${t('correctAnswer')}:</strong> ${esc(s.answerCategory)} · <strong>${t('yourChoice')}:</strong> ${esc(a[j])}${s.explanation?`<br>${esc(s.explanation)}`:''}</li>`).join('')}</ul>`;
-  return `<div class="inline-feedback"><strong>${isCorrect(q,a)?t('correct'):t('notQuite')}</strong>${rows}<p>${esc(q.explanation)}</p>${q.evidence?`<blockquote>${t('textEvidence')}: ${esc(q.evidence)}</blockquote>`:''}</div>`;
+   if(q.choiceExplanations&&language()==='en')rows+=`<ul class="feedback-rows">${q.choices.map((v,i)=>`<li>${String.fromCharCode(65+i)}. ${esc(v)} ${correct.has(i)?'✓':''}${chosen.has(i)?' · '+t('yourChoice'):''}<br>${esc(q.choiceExplanations[i])}</li>`).join('')}</ul>`;
+  }else rows=`<ul class="feedback-rows">${q.statements.map((s,j)=>`<li>${esc(s.text)}<br><strong>${t('correctAnswer')}:</strong> ${esc(s.answerCategory)} · <strong>${t('yourChoice')}:</strong> ${esc(a[j])}${s.explanation&&language()==='en'?`<br>${esc(s.explanation)}`:''}</li>`).join('')}</ul>`;
+  return `<div class="inline-feedback"><strong>${isCorrect(q,a)?t('correct'):t('notQuite')}</strong>${rows}<h4>${t('explanationHeading')}</h4><p>${esc(q.explanation)}</p>${q.evidence?`<blockquote>${t('textEvidence')}: ${esc(q.evidence)}</blockquote>`:''}</div>`;
  }
  function renderQuestion(){const q=d.questions[index],a=answers[index],passage=d.passages?.find(p=>p.id===q.passageId),complete=isAnswered(q,a);
   document.querySelector('#position').textContent=`${t('question')} ${index+1} / ${count} · ${answeredCount()} ${t('answered')}`;document.querySelector('#progress').value=answeredCount();

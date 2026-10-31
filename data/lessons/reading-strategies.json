@@ -217,7 +217,7 @@
       "type": "checkpoint",
       "id": "guided-reading-strategies",
       "prompt": "Which answer is best supported by a text?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Jawaban mana yang paling kuat didukung oleh teks?",
       "choices": [
         "A guess based on your experience.",
         "A statement supported by a sentence in the text.",

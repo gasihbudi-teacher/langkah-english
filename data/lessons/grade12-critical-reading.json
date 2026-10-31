@@ -154,7 +154,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-critical-reading",
       "prompt": "Which information is evidence?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Informasi mana yang merupakan bukti?",
       "choices": [
         "Fifteen out of twenty students preferred the new schedule.",
         "Everyone definitely likes the schedule.",

@@ -56,7 +56,8 @@ assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).dig
 // Test renderer: V7 markup must escape input, keep terms in English and hide solutions until answered.
 const excerpt=read('js/core.js').split('// V6: explicit')[1];
 assert.ok(excerpt);
-const esc=`const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
+const esc=`const t=key=>key;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
 const {blocks}=await import('data:text/javascript;base64,'+Buffer.from(esc+'// V6: explicit'+excerpt).toString('base64'));
 const rendered=blocks([
  {type:'scaffold',intro:'Mulai [[verb]] satu per satu.',steps:[{title:'Satu',explanation:'Kenali subjek.'},{title:'Dua',explanation:'Coba contoh.',english:'She reads.',indonesian:'Dia membaca.',why:'[[She]] adalah subjek.'},{title:'Tiga',explanation:'Bandingkan.',english:'They read.',indonesian:'Mereka membaca.',why:'[[They]] adalah subjek.'}]},

@@ -171,7 +171,7 @@
       "type": "checkpoint",
       "id": "guided-conditional-sentences",
       "prompt": "Which sentence states a future possibility?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang menyatakan kemungkinan di masa depan?",
       "choices": [
         "If it rains, we will stay home.",
         "If it will rain, we stay home.",

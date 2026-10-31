@@ -157,7 +157,7 @@
           "phase": "Menentukan genre dengan bukti yang cukup"
         }
       ],
-      "modelTitle": "Five Ways to Read a School Noticeboard · Model lima genre dalam satu bacaan",
+      "modelTitle": "Lima Cara Membaca Papan Pengumuman Sekolah · Model lima genre dalam satu bacaan",
       "modelEnglish": "A school noticeboard can contain several kinds of text. A descriptive text helps readers picture a place: “The courtyard has a wide stone path, three shady trees, and bright pots beside the library.” It focuses on characteristics rather than a sequence of events.\n\nA recount tells what happened in time order. “Last Friday, our class collected fallen leaves. First, we filled four bags. After lunch, the gardener showed us how to use the leaves as compost.” A narrative also has events, but it usually develops a problem involving characters: “Mira found a small bird beside the path. She called the school caretaker and waited until it was safe.”\n\nA procedure gives a goal and steps: “To make a leaf label, cut a card, write the plant’s name, and attach the card to a stick.” The instructions use action verbs and a clear order.\n\nAn analytical exposition presents a position and reasons. “The school should keep the garden because it gives students a calm place to learn and supports local insects. The school can protect it by setting a simple care schedule.” The writer is trying to persuade readers through reasons.\n\nThe topic alone does not decide the genre. A garden may appear in all five texts. Readers should ask what the writer is trying to do, how the information is organised, and which language clues support that purpose.",
       "modelIndonesian": "Papan pengumuman sekolah dapat memuat beberapa jenis teks. Teks deskriptif membantu pembaca membayangkan suatu tempat: “Halaman memiliki jalan batu yang lebar, tiga pohon rindang, dan pot-pot cerah di samping perpustakaan.” Teks ini berfokus pada ciri-ciri, bukan urutan peristiwa.\n\nRecount menceritakan apa yang terjadi secara berurutan. “Jumat lalu, kelas kami mengumpulkan daun-daun yang jatuh. Pertama, kami mengisi empat kantong. Setelah makan siang, penjaga kebun menunjukkan cara menggunakan daun sebagai kompos.” Teks naratif juga memiliki peristiwa, tetapi biasanya mengembangkan masalah yang melibatkan tokoh: “Mira menemukan seekor burung kecil di samping jalan. Ia memanggil penjaga sekolah dan menunggu sampai burung itu aman.”\n\nTeks prosedur memberikan tujuan dan langkah-langkah: “Untuk membuat label daun, potong kartu, tulis nama tanaman, lalu pasang kartu pada tongkat.” Instruksi menggunakan kata kerja tindakan dan urutan yang jelas.\n\nEksposisi analitis menyampaikan posisi dan alasan. “Sekolah sebaiknya mempertahankan kebun karena tempat itu memberi siswa ruang belajar yang tenang dan mendukung serangga lokal. Sekolah dapat melindunginya dengan membuat jadwal perawatan sederhana.” Penulis berusaha meyakinkan pembaca melalui alasan.\n\nTopik saja tidak menentukan jenis teks. Kebun dapat muncul dalam kelima jenis teks. Pembaca perlu bertanya apa tujuan penulis, bagaimana informasi disusun, dan petunjuk bahasa apa yang mendukung tujuan tersebut.",
       "modelPosition": "after"
@@ -210,7 +210,7 @@
     },
     {
       "type": "heading",
-      "text": "Worked examples · mengenali lima genre"
+      "text": "Contoh beralasan · mengenali lima genre"
     },
     {
       "type": "text",
@@ -245,7 +245,7 @@
     },
     {
       "type": "example_group",
-      "title": "2. Narrative and procedure",
+      "title": "2. Teks naratif dan prosedur",
       "collapsed": false,
       "items": [
         {
@@ -314,7 +314,7 @@
     },
     {
       "type": "summary",
-      "title": "Remember these genre clues",
+      "title": "Ingat petunjuk setiap genre",
       "items": [
         "Tentukan tujuan komunikatif sebelum memberi label genre.",
         "Descriptive menggambarkan; recount menceritakan kejadian lampau.",
@@ -325,8 +325,8 @@
     },
     {
       "type": "self_check",
-      "title": "Independent transfer · compare five text purposes",
-      "prompt": "Read five short extracts from a school noticeboard. Identify the dominant genre of each, state its likely audience or purpose, and quote one structural or language clue. If an extract combines two functions, explain which one is dominant and why.",
+      "title": "Latihan mandiri · membandingkan lima tujuan teks",
+      "prompt": "Baca lima kutipan singkat dari papan pengumuman sekolah. Tentukan genre yang paling dominan pada setiap kutipan, sebutkan kemungkinan pembaca atau tujuannya, lalu kutip satu petunjuk struktur atau bahasa. Jika sebuah kutipan menggabungkan dua fungsi, jelaskan fungsi mana yang paling dominan dan alasannya.",
       "model": "A paragraph listing the courtyard’s colours and features is descriptive because it builds a picture. A paragraph beginning “Last Friday” and recounting the clean-up is recount because it reports past events in sequence. A story about a student rescuing a bird is narrative because it develops a character and problem. Numbered actions for planting a seed are procedure. A statement that the school should protect the garden followed by reasons is analytical exposition.",
       "modelTranslation": "Paragraf yang menyebut warna dan ciri halaman bersifat deskriptif karena membangun gambaran. Paragraf yang diawali “Jumat lalu” dan menceritakan kegiatan bersih-bersih adalah recount karena melaporkan kejadian lampau secara berurutan. Cerita tentang siswa yang menyelamatkan burung adalah narrative karena mengembangkan tokoh dan masalah. Langkah bernomor untuk menanam benih merupakan procedure. Pernyataan bahwa sekolah harus melindungi kebun yang diikuti alasan merupakan analytical exposition.",
       "criteria": "Jawaban menyebut tujuan dominan, memakai struktur atau petunjuk bahasa yang relevan, dan tidak menentukan genre hanya dari topik atau satu kata."

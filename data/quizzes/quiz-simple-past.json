@@ -28,7 +28,7 @@
         "She did not eat."
       ],
       "answer": 3,
-      "explanation": "Setelah did not, gunakan bentuk dasar eat.",
+      "explanation": "Setelah [[did not]], gunakan kata kerja bentuk dasar, yaitu [[eat]].",
       "translationId": {
         "prompt": "Pilih kalimat negatif yang benar."
       }
@@ -73,7 +73,7 @@
         "You was"
       ],
       "answer": 1,
-      "explanation": "She menggunakan was; they/you menggunakan were.",
+      "explanation": "Subjek [[she]] menggunakan [[was]], sedangkan [[they]] dan [[you]] menggunakan [[were]].",
       "translationId": {
         "prompt": "Pilih pasangan was/were yang benar."
       }
@@ -103,7 +103,7 @@
         "Was Lina see the film?"
       ],
       "answer": 1,
-      "explanation": "Did diikuti verb dasar see.",
+      "explanation": "Setelah [[did]], gunakan kata kerja bentuk dasar, yaitu [[see]].",
       "translationId": {
         "prompt": "Pilih kalimat tanya yang benar."
       }

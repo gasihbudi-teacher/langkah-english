@@ -140,7 +140,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-upcycling-procedure",
       "prompt": "Which sentence means “Keringkan dengan kain bersih.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Keringkan dengan kain bersih.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Keringkan dengan kain bersih.”?",
       "choices": [
         "Wash the empty jar.",
         "Dry it with a clean cloth.",

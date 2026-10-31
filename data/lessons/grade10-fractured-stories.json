@@ -140,7 +140,7 @@
       "type": "checkpoint",
       "id": "guided-grade10-fractured-stories",
       "prompt": "Which sentence means “Saya takut pada rubah itu.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Saya takut pada rubah itu.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Saya takut pada rubah itu.”?",
       "choices": [
         "The fox ran into the forest.",
         "I was afraid of the fox.",

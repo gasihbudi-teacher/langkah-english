@@ -453,7 +453,7 @@
         "Journey times are always longer during holidays."
       ],
       "answer": 2,
-      "explanation": "Perubahan volume mobil bisa memengaruhi kecepatan tanpa seluruhnya disebabkan lajur prioritas.",
+      "explanation": "Perubahan volume mobil dapat memengaruhi kecepatan, tetapi perubahan tersebut tidak seluruhnya disebabkan oleh lajur prioritas.",
       "skill": "Critical Reading",
       "evidence": "the second measurement period included a school holiday, when fewer cars were on the road",
       "passageId": "bus-priority",

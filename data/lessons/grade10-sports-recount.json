@@ -119,7 +119,7 @@
       "type": "checkpoint",
       "id": "guided-grade10-sports-recount",
       "prompt": "Which sentence means “Tim kami mencetak skor lebih dulu.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Tim kami mencetak skor lebih dulu.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Tim kami mencetak skor lebih dulu.”?",
       "choices": [
         "The match began at three.",
         "Our team scored first.",

@@ -140,7 +140,7 @@
       "type": "checkpoint",
       "id": "guided-grade10-opinions-reasons",
       "prompt": "Which sentence means “Karena beberapa siswa datang lebih awal.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Karena beberapa siswa datang lebih awal.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Karena beberapa siswa datang lebih awal.”?",
       "choices": [
         "I think the library should open earlier.",
         "Because some students arrive early.",

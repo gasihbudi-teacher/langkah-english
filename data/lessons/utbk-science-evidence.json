@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-utbk-science-evidence",
       "prompt": "Which sentence means “Kelompok B memakai lebih sedikit air.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Kelompok B memakai lebih sedikit air.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Kelompok B memakai lebih sedikit air.”?",
       "choices": [
         "Group A used more water.",
         "Group B used less water.",

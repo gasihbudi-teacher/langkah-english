@@ -170,7 +170,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-academic-vocab",
       "prompt": "Which word suggests an interpretation, not certainty?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kata mana yang menunjukkan penafsiran, bukan kepastian?",
       "choices": [
         "proves",
         "suggests",

@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade11-exposition-evidence",
       "prompt": "Which sentence means “Tempat itu dapat memudahkan akses air minum.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Tempat itu dapat memudahkan akses air minum.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Tempat itu dapat memudahkan akses air minum.”?",
       "choices": [
         "Schools should offer water stations.",
         "They can make drinking water easier to access.",

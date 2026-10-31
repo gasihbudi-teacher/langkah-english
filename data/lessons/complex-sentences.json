@@ -164,7 +164,7 @@
       "type": "checkpoint",
       "id": "guided-complex-sentences",
       "prompt": "Which word introduces a reason?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kata mana yang memperkenalkan alasan?",
       "choices": [
         "although",
         "because",

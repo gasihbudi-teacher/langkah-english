@@ -140,7 +140,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-report-animals",
       "prompt": "Which sentence means “Mereka hidup di beberapa pulau Indonesia.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Mereka hidup di beberapa pulau Indonesia.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Mereka hidup di beberapa pulau Indonesia.”?",
       "choices": [
         "Komodo dragons are large lizards.",
         "They live on several Indonesian islands.",

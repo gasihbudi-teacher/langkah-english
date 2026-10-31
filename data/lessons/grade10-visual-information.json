@@ -149,7 +149,7 @@
       "type": "checkpoint",
       "id": "guided-grade10-visual-information",
       "prompt": "Which sentence means “Bawalah botol minum yang dapat dipakai ulang.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Bawalah botol minum yang dapat dipakai ulang.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Bawalah botol minum yang dapat dipakai ulang.”?",
       "choices": [
         "The event starts at 8 a.m.",
         "Bring a reusable bottle.",

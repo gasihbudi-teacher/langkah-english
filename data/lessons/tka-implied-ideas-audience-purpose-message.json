@@ -127,7 +127,7 @@
           "phase": "Menguji tafsir pada bacaan lengkap"
         }
       ],
-      "modelTitle": "A Guide for First-Time Visitors · Model bacaan tiga paragraf",
+      "modelTitle": "Panduan untuk Pengunjung Baru · Model bacaan tiga paragraf",
       "modelEnglish": "At the opening of the new community centre, staff noticed that many visitors stopped at the entrance and looked around before choosing where to go. Some were looking for the health desk, while others needed the evening language class or the bus information board. The building had several rooms, and the signs were small. A group of student volunteers offered to prepare a simple visitor guide.\n\nThey walked through the centre with a caretaker and listed the places that people asked about most often. The guide uses large print, short sentences, and small pictures. It also shows the lift and the step-free entrance. The volunteers tested the first version with two visitors who had never used the building. One visitor said the pictures made the route easier to follow. The other suggested adding a symbol for the quiet waiting area. The students added it before printing more copies.\n\nThe guide is now available near the entrance and at the nearby market desk. It does not list every office or private business; it focuses on services that visitors may need during a first visit. The centre plans to ask users for suggestions after one month. Staff hope the guide will reduce repeated questions, but they know that clear signs cannot replace a helpful person. The project shows that small changes can make a shared place easier to use and more welcoming.",
       "modelIndonesian": "Saat pusat komunitas baru dibuka, para petugas melihat banyak pengunjung berhenti di pintu masuk dan melihat sekeliling sebelum menentukan tujuan. Sebagian mencari meja layanan kesehatan, sedangkan yang lain membutuhkan kelas bahasa sore atau papan informasi bus. Gedung itu memiliki beberapa ruangan dan tanda petunjuknya berukuran kecil. Sekelompok relawan siswa menawarkan diri untuk membuat panduan pengunjung sederhana.\n\nMereka berkeliling pusat komunitas bersama seorang petugas pemeliharaan dan mencatat tempat-tempat yang paling sering ditanyakan. Panduan tersebut menggunakan huruf besar, kalimat pendek, dan gambar kecil. Panduan itu juga menunjukkan lift dan pintu masuk tanpa tangga. Para relawan menguji versi pertama kepada dua pengunjung yang belum pernah menggunakan gedung tersebut. Seorang pengunjung mengatakan gambar membuat rute lebih mudah diikuti. Pengunjung lainnya menyarankan penambahan simbol untuk ruang tunggu yang tenang. Para siswa menambahkannya sebelum mencetak lebih banyak salinan.\n\nKini panduan tersedia di dekat pintu masuk dan meja informasi pasar terdekat. Panduan itu tidak mencantumkan setiap kantor atau usaha pribadi; isinya berfokus pada layanan yang mungkin dibutuhkan pengunjung saat pertama kali datang. Pusat komunitas berencana meminta saran pengguna setelah satu bulan. Petugas berharap panduan mengurangi pertanyaan berulang, tetapi mereka memahami bahwa tanda yang jelas tidak dapat menggantikan bantuan seseorang. Proyek ini menunjukkan bahwa perubahan kecil dapat membuat tempat bersama lebih mudah digunakan dan lebih ramah bagi pengunjung.",
       "modelPosition": "after"
@@ -177,7 +177,7 @@
     },
     {
       "type": "example_group",
-      "title": "1. Implied ideas and evidence",
+      "title": "1. Gagasan tersirat dan bukti",
       "collapsed": false,
       "items": [
         {
@@ -204,7 +204,7 @@
     },
     {
       "type": "example_group",
-      "title": "2. Audience and author purpose",
+      "title": "2. Pembaca sasaran dan tujuan penulis",
       "collapsed": false,
       "items": [
         {
@@ -226,7 +226,7 @@
     },
     {
       "type": "example_group",
-      "title": "3. Purpose, message, and limits",
+      "title": "3. Tujuan, pesan, dan batas penafsiran",
       "collapsed": false,
       "items": [
         {
@@ -284,8 +284,8 @@
     },
     {
       "type": "self_check",
-      "title": "Independent transfer · infer from the complete model",
-      "prompt": "Read “A Guide for First-Time Visitors”. Write (1) one implied idea about why visitors needed the guide, (2) the main intended audience, (3) the author’s purpose, and (4) one broader message. For each answer, quote or identify a clue from at least two different paragraphs where possible.",
+      "title": "Latihan mandiri · menarik simpulan dari teks lengkap",
+      "prompt": "Baca teks “A Guide for First-Time Visitors”. Tuliskan (1) satu gagasan tersirat tentang alasan pengunjung membutuhkan panduan tersebut, (2) pembaca utama yang dituju, (3) tujuan penulis, dan (4) satu pesan yang lebih luas. Untuk setiap jawaban, kutip atau tunjukkan petunjuk dari setidaknya dua paragraf yang berbeda jika memungkinkan.",
       "model": "Implied idea: Some visitors were unsure where to find services because the building had several rooms and small signs. Audience: People visiting the community centre for the first time, especially those who need clear directions. Purpose: To guide visitors to useful rooms and services. Message: Small, user-tested changes can make a shared place easier to use, while personal help remains important. Evidence includes visitors stopping at the entrance, the guide’s large print and pictures, and the final note that signs cannot replace a helpful person.",
       "modelTranslation": "Ide tersirat: Sebagian pengunjung belum yakin tempat menemukan layanan karena gedung memiliki beberapa ruangan dan tanda berukuran kecil. Pembaca: Orang yang pertama kali datang ke pusat komunitas, terutama mereka yang membutuhkan petunjuk jelas. Tujuan: Memandu pengunjung menuju ruangan dan layanan yang berguna. Pesan: Perubahan kecil yang diuji bersama pengguna dapat membuat tempat bersama lebih mudah digunakan, sementara bantuan manusia tetap penting. Buktinya antara lain pengunjung yang berhenti di pintu masuk, huruf besar dan gambar pada panduan, serta penjelasan akhir bahwa tanda tidak dapat menggantikan bantuan seseorang.",
       "criteria": "Jawaban menyebut empat unsur secara berbeda; menggunakan petunjuk dari lebih dari satu paragraf; tidak menganggap semua pengunjung memiliki kebutuhan yang sama; dan tidak menyatakan bahwa panduan menggantikan petugas."

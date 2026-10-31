@@ -159,7 +159,7 @@
       "type": "checkpoint",
       "id": "guided-advanced-conditionals",
       "prompt": "Which sentence imagines a different past?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang membayangkan keadaan masa lalu yang berbeda dari kenyataan?",
       "choices": [
         "If I knew, I call.",
         "If I have known, I call.",

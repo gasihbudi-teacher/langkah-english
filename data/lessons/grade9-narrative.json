@@ -154,7 +154,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-narrative",
       "prompt": "Which event is a problem in a story?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Peristiwa mana yang menjadi masalah dalam sebuah cerita?",
       "choices": [
         "The child finds the key.",
         "The child loses the key.",

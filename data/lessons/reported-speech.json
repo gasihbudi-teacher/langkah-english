@@ -166,7 +166,7 @@
       "type": "checkpoint",
       "id": "guided-reported-speech",
       "prompt": "Which sentence reports a past statement?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang melaporkan pernyataan yang disampaikan pada masa lalu?",
       "choices": [
         "She said that she was tired.",
         "She said that she am tired.",

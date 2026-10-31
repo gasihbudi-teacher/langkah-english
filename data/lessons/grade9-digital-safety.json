@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-digital-safety",
       "prompt": "Which sentence means “Situs sekolah memberikan jadwal baru.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Situs sekolah memberikan jadwal baru.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Situs sekolah memberikan jadwal baru.”?",
       "choices": [
         "The message has no date.",
         "The school website gives the new schedule.",

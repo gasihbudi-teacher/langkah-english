@@ -126,7 +126,7 @@
       "type": "checkpoint",
       "id": "guided-grade11-environmental-biography",
       "prompt": "Which sentence means “Ia mengundang relawan setempat.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Ia mengundang relawan setempat.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Ia mengundang relawan setempat.”?",
       "choices": [
         "Maya started a reading club.",
         "She invited local volunteers.",

@@ -156,7 +156,7 @@
       "type": "checkpoint",
       "id": "guided-inversion",
       "prompt": "Which sentence uses inversion correctly?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang menggunakan inversi dengan benar?",
       "choices": [
         "Never have I seen that painting.",
         "Never I have seen that painting.",

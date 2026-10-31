@@ -107,7 +107,7 @@
           "phase": "Menyelesaikan semua format secara mandiri"
         }
       ],
-      "modelTitle": "A Community Repair Morning · Model membaca dan memilih bukti",
+      "modelTitle": "Pagi Perbaikan Bersama Warga · Model membaca dan memilih bukti",
       "modelEnglish": "On Saturday, the community centre held a repair morning for small household items. The event began at nine o’clock and ended at noon. Twelve volunteers worked at three tables: one for clothes, one for bicycles, and one for simple electrical checks. Visitors were asked to bring only safe, unplugged items. A notice at the entrance explained that the volunteers could refuse an item if it was damaged beyond their training.\n\nMaya brought a school bag with a broken strap. A volunteer showed her how to stitch the loose edge and asked her to practise the final knot. The repair took fifteen minutes. At the next table, two volunteers adjusted a bicycle brake, then tested it in the courtyard. A small sign reminded visitors to check the brakes before riding home.\n\nBy noon, the team had helped 19 visitors. The centre recorded 23 items because some visitors brought more than one. A short feedback card showed that 16 respondents wanted another event. The organiser said the morning was useful, but the team did not calculate the money saved or follow up to see whether every repair lasted. The centre will review the feedback before setting another date.\n\nWhen answering questions about this report, read the task carefully. A question asking for one detail needs one answer; a question asking for all reasons needs every supported choice; a classification task requires a decision for each statement.",
       "modelIndonesian": "Pada hari Sabtu, pusat komunitas mengadakan kegiatan perbaikan barang rumah tangga kecil. Acara dimulai pukul sembilan dan berakhir tengah hari. Dua belas relawan bekerja di tiga meja: satu untuk pakaian, satu untuk sepeda, dan satu untuk pemeriksaan listrik sederhana. Pengunjung diminta hanya membawa barang yang aman dan tidak tersambung ke listrik. Pengumuman di pintu masuk menjelaskan bahwa relawan dapat menolak barang yang kerusakannya melampaui pelatihan mereka.\n\nMaya membawa tas sekolah dengan tali yang putus. Seorang relawan menunjukkan cara menjahit bagian yang lepas dan memintanya berlatih membuat simpul terakhir. Perbaikan memerlukan waktu lima belas menit. Di meja berikutnya, dua relawan menyesuaikan rem sepeda, lalu mengujinya di halaman. Papan kecil mengingatkan pengunjung untuk memeriksa rem sebelum pulang berkendara.\n\nMenjelang tengah hari, tim telah membantu 19 pengunjung. Pusat komunitas mencatat 23 barang karena beberapa pengunjung membawa lebih dari satu barang. Kartu tanggapan singkat menunjukkan bahwa 16 responden menginginkan kegiatan lain. Penyelenggara mengatakan pagi itu bermanfaat, tetapi tim tidak menghitung uang yang dihemat atau menindaklanjuti apakah setiap perbaikan bertahan. Pusat komunitas akan meninjau tanggapan sebelum menentukan tanggal berikutnya.\n\nSaat menjawab pertanyaan tentang laporan ini, bacalah tugas dengan teliti. Pertanyaan yang meminta satu rincian membutuhkan satu jawaban; pertanyaan yang meminta semua alasan membutuhkan setiap pilihan yang didukung; tugas klasifikasi memerlukan keputusan untuk setiap pernyataan.",
       "modelPosition": "after"
@@ -152,7 +152,7 @@
     },
     {
       "type": "example_group",
-      "title": "1. Single-answer and evidence location",
+      "title": "1. Soal pilihan tunggal dan pencarian bukti",
       "collapsed": false,
       "items": [
         {
@@ -179,7 +179,7 @@
     },
     {
       "type": "example_group",
-      "title": "2. Multiple-answer and careful elimination",
+      "title": "2. Soal pilihan jamak dan eliminasi pilihan dengan cermat",
       "collapsed": false,
       "items": [
         {
@@ -248,7 +248,7 @@
     },
     {
       "type": "summary",
-      "title": "Remember these independent-work moves",
+      "title": "Ingat strategi mengerjakan soal secara mandiri",
       "items": [
         "Tandai kata tugas sebelum melihat opsi.",
         "Single meminta satu jawaban terbaik; multiple meminta semua pilihan yang didukung.",
@@ -259,8 +259,8 @@
     },
     {
       "type": "self_check",
-      "title": "Independent transfer · solve a mixed-format set",
-      "prompt": "Read a new A2/B1 passage and answer one single-answer question, one select-all question, and one category task. For each response, write the instruction word, quote the supporting evidence, and explain why one tempting distractor is not supported.",
+      "title": "Latihan mandiri · mengerjakan soal dengan berbagai format",
+      "prompt": "Baca satu bacaan baru pada tingkat A2/B1, lalu kerjakan satu soal pilihan tunggal, satu soal pilih-semua-jawaban, dan satu soal klasifikasi. Untuk setiap jawaban, tuliskan kata tugas pada instruksi, kutip bukti pendukung, dan jelaskan mengapa satu pengecoh yang tampak meyakinkan tidak didukung oleh bacaan.",
       "model": "Single: choose one answer that matches a direct sentence. Multiple: test every option and select all details that the passage supports. Category: classify each statement separately as directly stated, reasonable inference, or not supported. For each task, quote a relevant line and explain why an alternative adds information that the text does not provide.",
       "modelTranslation": "Single: pilih satu jawaban yang sesuai dengan kalimat langsung. Multiple: uji setiap opsi dan pilih semua rincian yang didukung bacaan. Category: klasifikasikan setiap pernyataan secara terpisah sebagai dinyatakan langsung, inferensi wajar, atau tidak didukung. Untuk setiap tugas, kutip baris yang relevan dan jelaskan mengapa pilihan lain menambahkan informasi yang tidak diberikan teks.",
       "criteria": "Jawaban mengikuti kata tugas, jumlah respons sesuai format, setiap pilihan atau kategori memiliki bukti, dan distraktor ditolak berdasarkan isi bacaan."

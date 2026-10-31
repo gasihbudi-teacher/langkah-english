@@ -30,7 +30,7 @@
         "did"
       ],
       "answer": 3,
-      "explanation": "Not until fronted memicu did + team + leave untuk past.",
+      "explanation": "Ketika frasa [[Not until]] diletakkan di awal kalimat, terjadi inversi: gunakan [[did]] sebelum subjek [[team]], lalu pakai kata kerja dasar [[leave]] untuk menyatakan kejadian lampau.",
       "skill": "Inversion",
       "translationId": {
         "prompt": "Baru setelah rapat selesai ___ tim itu pergi."
@@ -46,7 +46,7 @@
         "which repairing"
       ],
       "answer": 0,
-      "explanation": "Mesin menerima aksi diperbaiki → repaired.",
+      "explanation": "Mesin menerima tindakan perbaikan, sehingga bentuk pasif yang digunakan adalah [[repaired]].",
       "skill": "Reduced Relative Clauses",
       "translationId": {
         "prompt": "Mesin-mesin yang ___ minggu lalu kini berfungsi."
@@ -78,7 +78,7 @@
         "assessing"
       ],
       "answer": 1,
-      "explanation": "Infinitive paralel: to teach, to practise, to assess.",
+      "explanation": "Ketiga unsur menggunakan bentuk infinitif yang sejajar: [[to teach]], [[to practise]], dan [[to assess]].",
       "skill": "Parallel Structures",
       "translationId": {
         "prompt": "Program itu bertujuan mengajar, berlatih, dan ___."
@@ -110,7 +110,7 @@
         "It never rains."
       ],
       "answer": 2,
-      "explanation": "Unless berarti if not.",
+      "explanation": "[[Unless]] berarti “kecuali jika” dan setara dengan [[if ... not]].",
       "skill": "Advanced Grammar Analysis",
       "translationId": {
         "prompt": "“Unless the rainfall increases, the reservoir will remain low.” Arti paling tepat?",

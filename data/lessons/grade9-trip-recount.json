@@ -119,7 +119,7 @@
       "type": "checkpoint",
       "id": "guided-grade9-trip-recount",
       "prompt": "Which sentence means “Pertama, kami bertemu pemandu.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Pertama, kami bertemu pemandu.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Pertama, kami bertemu pemandu.”?",
       "choices": [
         "Our class visited a museum.",
         "First, we met our guide.",

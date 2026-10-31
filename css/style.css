@@ -684,3 +684,17 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 .scaffold-heading h2{margin:0 0 8px!important;font-size:clamp(21px,2.8vw,28px)}
 .scaffold-heading p,.scaffold-intro{margin:0 0 16px;line-height:1.7}
 .scaffold-model-note{margin:12px 0 0;padding-top:10px;border-top:1px solid #e7e2d4;color:#475569}
+
+/* V13-E1-R4: Indonesian-first teaching support, paired with target-language examples. */
+.lesson-translation{margin:9px 0 11px;padding:10px 13px;border-left:3px solid #79ad9c;border-radius:0 8px 8px 0;background:#f0f7f4;color:#284d43;font-size:14px;line-height:1.75;overflow-wrap:anywhere}
+.lesson-translation .translation-label{font-weight:750;color:#285e50}
+.scaffold-sample .lesson-translation{margin:10px 0 12px;background:#f1f8f6}
+.scaffold-model .lesson-translation{margin:12px 0;padding:12px 14px;background:#f2f8f5}
+.worked-example .lesson-translation{margin:10px 0 8px}
+.checkpoint-instruction{margin:8px 0 10px;color:#4d5a64;line-height:1.7}
+.checkpoint-prompt-id{margin:10px 0 13px;padding:12px 14px;border-radius:9px;background:#f2f7fb;color:#183f5b;font-size:17px;font-weight:720;line-height:1.65}
+.checkpoint-choice-help{margin-top:10px}
+.checkpoint-choice-help ol{margin:9px 0 3px;padding-left:25px}
+.checkpoint-choice-help li{margin:6px 0;line-height:1.6}
+.reflection-question{margin:9px 0 13px;color:#244b3d;font-weight:650;line-height:1.75}
+.lesson-practice-instruction{margin:0 0 15px;padding:11px 14px;border-left:3px solid #82ad9e;background:#f2f8f5;border-radius:0 8px 8px 0;color:#31554a;line-height:1.7}

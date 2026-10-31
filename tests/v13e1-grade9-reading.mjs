@@ -33,10 +33,10 @@ assert(guide.title&&guide.intro,'The scaffold has its own authored purpose and i
 assert(guide.steps.length>0,'The lesson should include only as many guided moves as the objectives require');
 assert(guide.steps.every(s=>s.english&&s.indonesian&&s.why));
 assert(guide.steps.every(s=>(!!s.check)===(!!s.checkAnswer)),'Checks and answers must be paired');
-assert(guide.steps.some(s=>/which words identify the place/i.test(s.check||'')),'Explicit identification/location evidence must be practised');
-assert(guide.steps.some(s=>/learner says|claim/i.test(s.check||'')),'Supported statements and assumptions must be distinguished');
-assert(guide.steps.some(s=>/what does .narrow.|context/i.test(s.check||'')),'Vocabulary-in-context inference must be practised');
-assert(guide.steps.some(s=>/what can you conclude|purpose/i.test(s.check||'')),'The place purpose/use objective must be practised');
+assert(guide.steps.some(s=>/kata-kata mana yang menunjukkan tempat/i.test(s.check||'')),'Explicit identification/location evidence must be practised');
+assert(guide.steps.some(s=>/seorang siswa berkata|pernyataan/i.test(s.check||'')),'Supported statements and assumptions must be distinguished');
+assert(guide.steps.some(s=>/apa arti kata .narrow.|petunjuk/i.test(s.check||'')),'Vocabulary-in-context inference must be practised');
+assert(guide.steps.some(s=>/apa yang dapat kamu simpulkan|penggunaan/i.test(s.check||'')),'The place purpose/use objective must be practised');
 const modelWords=guide.modelEnglish.trim().split(/\s+/).length;
 assert(modelWords>=120&&modelWords<=140,`Connected model passage length: ${modelWords}`);
 assert(guide.modelIndonesian.length>500);
@@ -44,7 +44,7 @@ assert(guide.modelNote.length>20,'The model note must explain why this text is b
 assert(!lesson.blocks.some(b=>b.type==='example_group'&&b.items.some(x=>guide.modelEnglish.includes(x.english))), 'Worked examples must not simply duplicate the connected model passage');
 const selfCheck=lesson.blocks.find(b=>b.type==='self_check');
 assert(selfCheck,'The lesson must include an independent transfer task');
-assert.match(selfCheck.prompt,/place you know/i);
+assert.match(selfCheck.prompt,/tempat yang kamu kenal/i);
 assert(lesson.practice.length>0,'Guided practice should be present where it adds value');
 assert.equal(new Set(lesson.practice.map(q=>q.id)).size,lesson.practice.length);
 assert(lesson.practice.every(q=>q.prompt&&q.choices.length>=2&&Number.isInteger(q.answer)&&q.translationId?.prompt));
@@ -73,11 +73,16 @@ const key=quiz.questions.map(q=>q.answer);
 assert.deepEqual(score(quiz.questions,key),{correct:quiz.questions.length,incorrect:0,unanswered:0,total:quiz.questions.length,percentage:100});
 assert(quiz.questions.every(q=>isAnswered(q,q.answer)&&isCorrect(q,q.answer)));
 
-// Protect the shared cross-grade reading resources; they are outside this lesson revision.
-const protectedHashes={
- 'data/quizzes/school-reading-check.json':'ab3404f02d50848032ae98c829e89cdd61323d26f99fc5637dff6379c66332ff',
- 'data/quizzes/school-reading-practice.json':'fc77507ce859f87c64c2881edaab028c0b39acc1124b844ae8f8144386d93b8a'
+// R4 may localise the shared reading feedback, but must preserve every question, choice, key and evidence field.
+function withoutExplanation(value){
+ if(Array.isArray(value))return value.map(withoutExplanation);
+ if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).filter(k=>k!=='explanation').sort().map(k=>[k,withoutExplanation(value[k])]));
+ return value;
+}
+const protectedContentHashes={
+ 'data/quizzes/school-reading-check.json':'90e554166c6c1e8aea072d60d1e76f222b2a0f4c2590159468176fb3e97b5d97',
+ 'data/quizzes/school-reading-practice.json':'3ec624f74b66920df369091f18e5093c7dc659ad4191e2be6463ccf2a6db2f8f'
 };
-for(const [file,digest] of Object.entries(protectedHashes))assert.equal(crypto.createHash('sha256').update(read(file)).digest('hex'),digest,`${file} must remain unchanged`);
+for(const [file,digest] of Object.entries(protectedContentHashes))assert.equal(crypto.createHash('sha256').update(JSON.stringify(withoutExplanation(load(file)))).digest('hex'),digest,`${file} question content, answer keys and evidence must remain unchanged`);
 
 console.log(`PASS Grade 9 Lesson 1 editorial contract: objective-led scaffold, optional checks, connected model, independent transfer, and evidence-based assessment; no fixed example/check/card quota is enforced.`);

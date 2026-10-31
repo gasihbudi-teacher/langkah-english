@@ -28,7 +28,7 @@
         "cooks"
       ],
       "answer": 0,
-      "explanation": "They memakai are cooking; at the moment menunjukkan kegiatan saat ini.",
+      "explanation": "Subjek [[they]] menggunakan [[are cooking]]. Ungkapan [[at the moment]] menunjukkan bahwa kegiatan sedang berlangsung sekarang.",
       "translationId": {
         "prompt": "Mereka ___ makan malam saat ini."
       }
@@ -118,7 +118,7 @@
         "We are learning English."
       ],
       "answer": 3,
-      "explanation": "We memerlukan are diikuti learning.",
+      "explanation": "Subjek [[we]] menggunakan [[are]] sebelum kata kerja berakhiran [[-ing]], yaitu [[learning]].",
       "translationId": {
         "prompt": "Manakah kalimat present continuous yang tepat?"
       }

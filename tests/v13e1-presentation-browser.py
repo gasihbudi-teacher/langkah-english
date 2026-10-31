@@ -26,18 +26,15 @@ async def main():
    scaffold_text=await page.locator('.scaffold-guide').inner_text()
    for boilerplate in ['Mulai dari dasar, pelan-pelan','langkah bertahap · Boleh dibaca','Jika masih bingung, baca kembali contoh']:
     assert boilerplate not in scaffold_text,(lesson_id,boilerplate)
-   aids=page.locator('.scaffold-step .lesson-translation-help')
+   aids=page.locator('.scaffold-step .lesson-translation')
    lesson_data=json.loads((original.ROOT/'data/lessons'/f'{lesson_id}.json').read_text())
    guide=next((b for b in lesson_data['blocks'] if b['type']=='scaffold'),None)
    expected_aids=sum(bool(step.get('english') and step.get('indonesian')) for step in guide['steps']) if guide else 0
    assert await aids.count()==expected_aids,(lesson_id,await aids.count(),expected_aids)
    if expected_aids:
     first=aids.first
-    assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Translation should be optional')
-    await first.locator('summary').focus()
-    await first.locator('summary').press('Enter')
-    assert await first.evaluate('(el)=>el.open'),(lesson_id,'Keyboard activation should open translation')
-    assert len((await first.locator('p').inner_text()).strip())>5,lesson_id
+    assert await first.is_visible(),(lesson_id,'Indonesian translation should be visible by default')
+    assert len((await first.inner_text()).strip())>5,lesson_id
    checks=page.locator('.scaffold-review details')
    if await checks.count():
     first_check=checks.first
@@ -57,7 +54,7 @@ async def main():
     assert await checks.count()==1,(lesson_id,'Only the purposeful object-contrast check should remain')
     assert 'direct object' in (await page.locator('.scaffold-review').inner_text()).lower()
    assert not errors,(lesson_id,errors)
-   results.append({'lesson':lesson_id,'optional_translations':await aids.count(),'authored_checks':await checks.count(),'overflow_px':overflow,'errors':errors})
+   results.append({'lesson':lesson_id,'visible_indonesian_translations':await aids.count(),'authored_checks':await checks.count(),'overflow_px':overflow,'errors':errors})
    await page.close()
   await browser.close()
  print(json.dumps({'status':'PASS','pages':results},ensure_ascii=False,indent=2))

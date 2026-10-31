@@ -28,7 +28,7 @@
         "They not play."
       ],
       "answer": 1,
-      "explanation": "They menggunakan do not + verb dasar play.",
+      "explanation": "Subjek [[they]] menggunakan pola [[do not + verb dasar]], sehingga bentuk yang tepat adalah [[do not play]].",
       "translationId": {
         "prompt": "Kalimat negatif “They play” yang tepat adalah …"
       }
@@ -103,7 +103,7 @@
         "Where she studies?"
       ],
       "answer": 0,
-      "explanation": "Urutannya Where + does + she + study.",
+      "explanation": "Urutan kata untuk membentuk pertanyaan tersebut adalah [[Where + does + she + study]].",
       "translationId": {
         "prompt": "Pilih pertanyaan yang tepat."
       }
@@ -118,7 +118,7 @@
         "He does not went."
       ],
       "answer": 2,
-      "explanation": "Did not diikuti verb dasar go.",
+      "explanation": "Setelah [[did not]], kata kerja harus kembali ke bentuk dasar, yaitu [[go]].",
       "translationId": {
         "prompt": "Manakah kalimat negatif simple past yang benar?"
       }

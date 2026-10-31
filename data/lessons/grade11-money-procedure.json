@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade11-money-procedure",
       "prompt": "Which sentence means “Daftar biaya transportasi yang diperlukan.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Daftar biaya transportasi yang diperlukan.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Daftar biaya transportasi yang diperlukan.”?",
       "choices": [
         "Write down your weekly allowance.",
         "List necessary transport costs.",

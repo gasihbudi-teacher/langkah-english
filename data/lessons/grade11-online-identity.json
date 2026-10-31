@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade11-online-identity",
       "prompt": "Which sentence means “Saya akan mengirim tautan kelas resmi.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Saya akan mengirim tautan kelas resmi.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Saya akan mengirim tautan kelas resmi.”?",
       "choices": [
         "Could you send the assignment link?",
         "I will send the official class link.",

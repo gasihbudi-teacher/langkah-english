@@ -166,7 +166,7 @@
       "type": "checkpoint",
       "id": "guided-perfect-tenses",
       "prompt": "Which sentence uses the present perfect correctly?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang menggunakan bentuk present perfect dengan benar?",
       "choices": [
         "She has finished her work.",
         "She have finished her work.",

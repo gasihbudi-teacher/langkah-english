@@ -28,7 +28,7 @@
         "S–V–O"
       ],
       "answer": 3,
-      "explanation": "Lina = subject, eats = verb, rice = object.",
+      "explanation": "Pada kalimat ini, [[Lina]] berfungsi sebagai subjek, [[eats]] sebagai verba, dan [[rice]] sebagai objek.",
       "translationId": {
         "prompt": "Pilih pola yang sesuai untuk “Lina eats rice.”"
       }

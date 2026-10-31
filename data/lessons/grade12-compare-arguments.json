@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-grade12-compare-arguments",
       "prompt": "Which sentence means “Sumber B menghitung kehadiran.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Sumber B menghitung kehadiran.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Sumber B menghitung kehadiran.”?",
       "choices": [
         "Source A counts registrations.",
         "Source B counts attendance.",

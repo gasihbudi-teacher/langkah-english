@@ -212,7 +212,7 @@
       "type": "checkpoint",
       "id": "guided-basic-questions-negatives",
       "prompt": "Which question is correct?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Pertanyaan mana yang benar?",
       "choices": [
         "Does she likes music?",
         "Do she like music?",

@@ -142,7 +142,7 @@
       "type": "checkpoint",
       "id": "guided-reduced-relative-clauses",
       "prompt": "Which sentence has a reduced relative clause?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang memiliki relative clause (klausa relatif) yang dipersingkat?",
       "choices": [
         "The girl who is reading is my friend.",
         "The girl reading is my friend.",

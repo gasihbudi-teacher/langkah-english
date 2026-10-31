@@ -147,7 +147,7 @@
       "type": "checkpoint",
       "id": "guided-utbk-critical-inference",
       "prompt": "Which sentence means “Ia kembali melihat waktu.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Ia kembali melihat waktu.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Ia kembali melihat waktu.”?",
       "choices": [
         "Riko looked at the empty chair.",
         "He checked the time again.",

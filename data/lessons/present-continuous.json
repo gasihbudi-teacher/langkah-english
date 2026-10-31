@@ -183,7 +183,7 @@
       "type": "checkpoint",
       "id": "guided-present-continuous",
       "prompt": "Which sentence describes an action happening now?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Kalimat mana yang menggambarkan tindakan yang sedang berlangsung sekarang?",
       "choices": [
         "He drawing now.",
         "He is drawing now.",

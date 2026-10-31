@@ -41,8 +41,8 @@
           "english": "The bus left at seven. It reached the park at eight.",
           "indonesian": "Bus berangkat pukul tujuh. Bus tiba di taman pukul delapan.",
           "why": "Pertanyaan tentang arrival membutuhkan kalimat kedua, bukan kalimat pertama tentang departure.",
-          "check": "When did the bus reach the park, and which sentence gives the arrival time?",
-          "checkAnswer": "At eight. Bukti langsung: It reached the park at eight. Angka seven merupakan waktu berangkat.",
+          "check": "Kapan bus tiba di taman, dan kalimat mana yang menunjukkan waktu kedatangannya?",
+          "checkAnswer": "Pada pukul delapan. Bukti langsung: “It reached the park at eight” berarti bus tiba di taman pada pukul delapan. Angka seven menunjukkan waktu keberangkatan.",
           "phase": "Fondasi: baca pertanyaannya"
         },
         {
@@ -61,8 +61,8 @@
           "english": "Lina joined the clean-up event.",
           "indonesian": "Lina mengikuti kegiatan bersih-bersih.",
           "why": "Joined bermakna took part in atau participated in dalam konteks ini. Kalimat parafrasa tidak harus menyalin joined.",
-          "check": "Which option matches joined: took part in atau watched from home?",
-          "checkAnswer": "Took part in. Watched from home mengubah tindakan aktif menjadi menonton; maknanya tidak setara.",
+          "check": "Pilihan mana yang maknanya sesuai dengan kata “joined”: “took part in” (ikut serta) atau “watched from home” (menonton dari rumah)?",
+          "checkAnswer": "Jawaban yang sesuai adalah “took part in” (ikut serta). “Watched from home” berarti menonton dari rumah, sehingga maknanya tidak sama.",
           "phase": "Membandingkan: makna dan pembatas"
         },
         {
@@ -81,8 +81,8 @@
           "english": "Mr Dedi teaches art. His class meets on Thursdays.",
           "indonesian": "Pak Dedi mengajar seni. Kelasnya bertemu pada hari Kamis.",
           "why": "His mengacu kepada Mr Dedi sehingga kelas seni yang diasuhnya bertemu Kamis. Kedua potongan diperlukan.",
-          "check": "On what day does Mr Dedi’s class meet, and what does his refer to?",
-          "checkAnswer": "On Thursdays. Gabungkan Mr Dedi dengan his class; jangan menciptakan hari lain dari kebiasaan sekolah.",
+          "check": "Pada hari apa kelas Pak Dedi bertemu, dan kata “his” merujuk kepada siapa atau apa?",
+          "checkAnswer": "Pada hari Kamis. Kata “his” merujuk pada kelas milik Pak Dedi. Gabungkan informasi tentang Pak Dedi dengan frasa “his class”; jangan menyimpulkan hari lain hanya dari kebiasaan sekolah.",
           "phase": "Menerapkan: verifikasi bukti"
         },
         {
@@ -91,8 +91,8 @@
           "english": "All ten plants survived. The report did not mention their height.",
           "indonesian": "Kesepuluh tanaman bertahan hidup. Laporan tidak menyebut tinggi tanaman.",
           "why": "“Ten survived” didukung; “some died” bertentangan; “each was 20 cm tall” tidak disebut. Keduanya berbeda alasan penolakannya.",
-          "check": "Klasifikasikan: Five plants died; Each plant was 20 cm tall.",
-          "checkAnswer": "Five plants died = contradicted karena semua sepuluh bertahan; each plant was 20 cm tall = not mentioned karena tinggi tidak dilaporkan.",
+          "check": "Klasifikasikan dua pernyataan berikut: “Five plants died” (lima tanaman mati) dan “Each plant was 20 cm tall” (setiap tanaman tingginya 20 cm).",
+          "checkAnswer": "“Five plants died” bertentangan dengan bacaan (contradicted) karena kesepuluh tanaman tetap hidup. “Each plant was 20 cm tall” tidak disebutkan (not mentioned) karena bacaan tidak melaporkan tinggi setiap tanaman.",
           "phase": "Menerapkan: verifikasi bukti"
         },
         {
@@ -101,8 +101,8 @@
           "english": "The community library added a weekend reading class. It takes place every Saturday at nine. The class is free, but visitors must register before Friday.",
           "indonesian": "Perpustakaan komunitas menambah kelas membaca akhir pekan. Kelas berlangsung setiap Sabtu pukul sembilan. Kelas gratis, tetapi pengunjung harus mendaftar sebelum Jumat.",
           "why": "Every Saturday at nine menjawab waktu; free menjawab biaya; must register before Friday menandai syarat. “Siapa gurunya?” tetap belum terjawab.",
-          "check": "Is registration optional because the class is free?",
-          "checkAnswer": "Tidak. Free hanya menjelaskan biaya; must register menyatakan pendaftaran wajib. Jawaban yang masuk akal secara umum tetap harus diuji dengan kata-kata teks.",
+          "check": "Apakah pendaftaran bersifat opsional hanya karena kelas tersebut gratis?",
+          "checkAnswer": "Tidak. Kata “free” hanya menjelaskan bahwa kelas tidak dipungut biaya, sedangkan frasa “must register” menyatakan bahwa peserta tetap wajib mendaftar. Jadi, kelas gratis tidak berarti pendaftaran bersifat opsional.",
           "phase": "Menerapkan: verifikasi bukti"
         }
       ],
@@ -233,7 +233,7 @@
     {
       "type": "self_check",
       "title": "Coba secara mandiri · tanpa nilai",
-      "prompt": "Baca model museum. Jawab: On which days does the tour run? What must students bring? What does the notice say about the tour length? Sertakan bukti untuk setiap jawaban.",
+      "prompt": "Baca teks model tentang museum. Jawab tiga pertanyaan berikut: (1) Pada hari apa tur diadakan? (*On which days does the tour run?*) (2) Apa yang harus dibawa siswa? (*What must students bring?*) (3) Berapa lama durasi tur menurut pengumuman? (*What does the notice say about the tour length?*) Sertakan bukti untuk setiap jawaban.",
       "model": "It runs on Tuesday and Thursday afternoons (evidence: “on Tuesday and Thursday afternoons”). Students must bring pencils (evidence: “must bring their own pencils”). The length is not stated (evidence: “does not state how long the tour lasts”).",
       "modelTranslation": "Tur berlangsung Selasa dan Kamis sore. Siswa wajib membawa pensil. Lama tur tidak disebut. Semua jawaban memiliki frasa bukti pada model.",
       "criteria": "Menjawab tiga pertanyaan berdasarkan kalimat yang relevan. · Membedakan kewajiban bring pencils dari worksheet yang disediakan. · Tidak mengarang lama tur."

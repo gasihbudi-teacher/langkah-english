@@ -30,7 +30,7 @@
         "finishing"
       ],
       "answer": 0,
-      "explanation": "Yesterday → simple past finished.",
+      "explanation": "Kata [[yesterday]] menunjukkan waktu lampau, sehingga bentuk yang digunakan adalah [[simple past]].",
       "skill": "Sentence foundations",
       "translationId": {
         "prompt": "Kemarin kelas itu ___ lebih awal."
@@ -62,7 +62,7 @@
         "is"
       ],
       "answer": 1,
-      "explanation": "They + were pada past continuous.",
+      "explanation": "Subjek [[they]] menggunakan [[were]] dalam pola [[past continuous]].",
       "skill": "Sentence foundations",
       "translationId": {
         "prompt": "Mereka ___ sedang bermain ketika aku tiba."
@@ -78,7 +78,7 @@
         "are submit"
       ],
       "answer": 2,
-      "explanation": "Past passive: were + submitted.",
+      "explanation": "Pola [[past passive]] untuk subjek jamak menggunakan [[were + past participle]], sehingga bentuknya adalah [[were submitted]].",
       "skill": "Sentence foundations",
       "translationId": {
         "prompt": "Laporan-laporan itu ___ kemarin."
@@ -94,7 +94,7 @@
         "readed"
       ],
       "answer": 1,
-      "explanation": "First conditional: if + present, will + dasar.",
+      "explanation": "Pola [[first conditional]] menggunakan [[if + simple present]], kemudian [[will + verb dasar]] untuk menyatakan kemungkinan di masa depan.",
       "skill": "Sentence foundations",
       "translationId": {
         "prompt": "Jika aku punya waktu, aku ___ artikelnya."

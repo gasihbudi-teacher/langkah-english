@@ -115,7 +115,7 @@
         "Despite the limited time"
       ],
       "answer": 0,
-      "explanation": "Bagian [[Because the auditorium was being repaired]] menerangkan alasan dan memiliki subjek [[the auditorium]] serta verba finit [[was being repaired]].",
+      "explanation": "Bagian [[Because the auditorium was being repaired]] menjelaskan alasan. Bagian itu memiliki subjek [[the auditorium]] dan verba finit [[was being repaired]].",
       "translationId": {
         "prompt": "Dalam bacaan pertama, ungkapan mana yang merupakan klausa adverbial alasan?",
         "choices": [
@@ -187,7 +187,7 @@
         "Although time was limited"
       ],
       "answer": 3,
-      "explanation": "[[Although time was limited]] menyatakan pertentangan dengan klausa finit (subjek [[time]], verba [[was]]). Ini mempertahankan hubungan makna [[despite]].",
+      "explanation": "Klausa [[Although time was limited]] menyatakan pertentangan. Subjeknya adalah [[time]] dan verba finitnya [[was]]. Hubungan maknanya serupa dengan penggunaan [[despite]].",
       "translationId": {
         "prompt": "Klausa mana yang dapat menggantikan “Despite the limited time” sambil mempertahankan makna pertentangan?",
         "choices": [

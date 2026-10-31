@@ -138,7 +138,7 @@
       "type": "checkpoint",
       "id": "guided-grade10-recount",
       "prompt": "Which phrase usually marks the first event?",
-      "translation": "Pilih jawaban bahasa Inggris yang paling tepat berdasarkan contoh dan penjelasan di atas.",
+      "translation": "Ungkapan mana yang biasanya menandai peristiwa pertama?",
       "choices": [
         "First, we bought tickets.",
         "Finally, we went home.",

@@ -117,7 +117,7 @@
           "phase": "Mendukung apresiasi dengan bukti cerita"
         }
       ],
-      "modelTitle": "The Paper Moon · Model bacaan naratif tiga paragraf",
+      "modelTitle": "Bulan Kertas · Model bacaan naratif tiga paragraf",
       "modelEnglish": "On the afternoon of the school fair, Dito found a paper moon under a table. His younger sister, Aya, had made it for their book stall. A strong wind had torn one side, and a strip of silver paper hung loose. Dito wanted to replace it with a bright decoration from the shop. Aya shook her head. She had made the moon with their father on a rainy Sunday, and she wanted to keep it.\n\nDito carried the moon to the library corner and placed it on a clean desk. He used thin paper strips to join the torn edge. The repair was not straight, and he almost removed it. Then he noticed that the tear looked like a narrow river across the paper. He added a small blue line beside it instead of hiding the mark. When the fair lights came on, the paper moon turned slowly above the books.\n\nA little girl stopped at the stall and asked who had drawn the blue river. Aya explained the repair, and Dito told her how the wind had damaged the moon. The girl smiled and chose a book about the night sky. Dito looked at the uneven edge again. It no longer seemed like a mistake that had to disappear. The moon was still useful and beautiful to the people who knew its story. Before the fair ended, Dito promised to help Aya make another one for next year.",
       "modelIndonesian": "Pada sore hari saat bazar sekolah, Dito menemukan sebuah bulan dari kertas di bawah meja. Adik perempuannya, Aya, membuatnya untuk stan buku mereka. Angin kencang merobek salah satu sisinya, dan selembar kertas perak menggantung lepas. Dito ingin menggantinya dengan hiasan cerah dari toko. Aya menggeleng. Ia membuat bulan itu bersama ayah mereka pada hari Minggu yang hujan, dan ia ingin mempertahankannya.\n\nDito membawa bulan itu ke sudut perpustakaan dan meletakkannya di meja yang bersih. Ia menggunakan potongan kertas tipis untuk menyambungkan tepi yang robek. Hasil perbaikannya tidak lurus, dan ia hampir melepasnya. Kemudian ia melihat bahwa robekan itu tampak seperti sungai sempit di atas kertas. Ia menambahkan garis biru kecil di sampingnya alih-alih menyembunyikan bekas tersebut. Ketika lampu bazar dinyalakan, bulan kertas itu berputar perlahan di atas buku-buku.\n\nSeorang anak perempuan berhenti di stan dan bertanya siapa yang menggambar sungai biru itu. Aya menjelaskan perbaikannya, dan Dito menceritakan bagaimana angin merusak bulan tersebut. Anak itu tersenyum dan memilih buku tentang langit malam. Dito kembali melihat tepi yang tidak rata. Bagian itu tidak lagi tampak seperti kesalahan yang harus dihilangkan. Bulan tersebut tetap berguna dan indah bagi orang-orang yang mengetahui ceritanya. Sebelum bazar berakhir, Dito berjanji membantu Aya membuat bulan lain untuk tahun depan.",
       "modelPosition": "after"
@@ -167,7 +167,7 @@
     },
     {
       "type": "example_group",
-      "title": "1. Character, conflict and change",
+      "title": "1. Tokoh, konflik, dan perubahan",
       "collapsed": false,
       "items": [
         {
@@ -263,7 +263,7 @@
     },
     {
       "type": "summary",
-      "title": "Remember these narrative-reading moves",
+      "title": "Ingat strategi membaca teks naratif",
       "items": [
         "Kenali narator, tokoh, latar, dan konflik sebelum menafsirkan tema.",
         "Gunakan tindakan dan dialog untuk memahami sifat serta perubahan tokoh.",
@@ -274,8 +274,8 @@
     },
     {
       "type": "self_check",
-      "title": "Independent transfer · appreciate a narrative",
-      "prompt": "Read a short narrative of your choice. Write (1) its narrator and setting, (2) the central conflict, (3) one character trait supported by two actions, (4) a theme statement, and (5) the effect of one important image or phrase. Quote or identify a detail for every interpretation.",
+      "title": "Latihan mandiri · mengapresiasi teks naratif",
+      "prompt": "Baca sebuah teks naratif pilihanmu. Tuliskan (1) narator dan latarnya, (2) konflik utama, (3) satu sifat tokoh yang didukung oleh dua tindakan, (4) pernyataan tema, dan (5) pengaruh satu gambar atau frasa penting. Kutip atau tunjukkan satu rincian untuk setiap penafsiran.",
       "model": "A complete response should identify who tells the story and where it happens, explain the problem that drives the events, and support a character trait with two actions rather than a single label. The theme should express a broader idea that emerges from the character’s choices and the ending. For language, explain what an image makes the reader picture or feel and connect that effect to the scene.",
       "modelTranslation": "Jawaban lengkap perlu menyebut siapa yang menceritakan kisah dan di mana peristiwa berlangsung, menjelaskan masalah yang menggerakkan kejadian, serta mendukung sifat tokoh dengan dua tindakan, bukan satu label. Tema harus menyampaikan gagasan lebih luas yang muncul dari pilihan tokoh dan akhir cerita. Untuk bahasa, jelaskan gambaran atau perasaan yang dibangun oleh suatu ungkapan dan hubungkan efeknya dengan adegan.",
       "criteria": "Tafsir didukung detail yang benar-benar ada; sifat tokoh didasarkan pada tindakan; tema lebih luas daripada topik; efek bahasa dijelaskan melalui konteks, bukan sekadar diberi label."

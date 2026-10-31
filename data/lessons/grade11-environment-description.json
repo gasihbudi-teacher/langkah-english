@@ -119,7 +119,7 @@
       "type": "checkpoint",
       "id": "guided-grade11-environment-description",
       "prompt": "Which sentence means “Kantong plastik mengapung di dekat jembatan.”?",
-      "translation": "Pilih kalimat Inggris yang berarti “Kantong plastik mengapung di dekat jembatan.”.",
+      "translation": "Kalimat bahasa Inggris mana yang berarti “Kantong plastik mengapung di dekat jembatan.”?",
       "choices": [
         "The river is narrow.",
         "Plastic bags float near the bridge.",
