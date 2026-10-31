@@ -11,10 +11,10 @@ const cat=load('data/catalog.json');
 const historical=load('tests/fixtures/v13c1-v13b-content-sha256.json');
 for(const [p,digest] of Object.entries(historical))assert.equal(crypto.createHash('sha256').update(file(p)).digest('hex'),digest,`Legacy content changed: ${p}`);
 assert.equal(Object.keys(historical).length,97,'Expected original V13-B content manifest');
-assert.equal(cat.resources.length,101);
-assert.equal(cat.resources.filter(x=>x.type==='lesson').length,58);
-assert.equal(cat.resources.filter(x=>x.type==='quiz').length,43);
-assert.equal(new Set(cat.resources.map(r=>r.id)).size,101);
+assert.ok(cat.resources.length>=101,'V13-C1 catalogue resources missing');
+assert.ok(cat.resources.filter(x=>x.type==='lesson').length>=58);
+assert.ok(cat.resources.filter(x=>x.type==='quiz').length>=43);
+assert.equal(new Set(cat.resources.map(r=>r.id)).size,cat.resources.length);
 const ids=['tka-reading-foundations','tka-explicit-information'];
 let cards=0,steps=0,items=0;
 for(const [n,id] of ids.entries()){

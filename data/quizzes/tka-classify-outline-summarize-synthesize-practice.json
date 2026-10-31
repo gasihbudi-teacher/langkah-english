@@ -1,0 +1,495 @@
+{
+  "id": "tka-classify-outline-summarize-synthesize-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka3-seed-library",
+      "title": "A School Seed Library · Original A2 Practice Text",
+      "text": "At Merdeka Junior High School, students started a seed library to make gardening easier for families. The science teacher noticed that several students wanted to grow vegetables but did not know where to find suitable seeds. The class asked local families to donate extra packets instead of buying a large supply. The project also gives students a chance to learn how plants grow.\n\nThe seed library is kept in a cabinet beside the science room. Each packet shows the plant name and a simple growing tip. A student may borrow up to three packets and writes a name in the borrowing notebook. Unused seeds should be returned after two weeks. The service is free. Students are also encouraged to bring back seeds from healthy plants, although this is not required for borrowing.\n\nIn its first month, the library served twenty-six students. Spinach and beans were the most popular choices because they can grow in small spaces. The class received several photographs of new leaves, but it did not measure the amount of food produced. For that reason, the school has not reported a harvest total. Next term, students plan to prepare a short guide about watering and sunlight. The project combines shared resources with practical learning."
+    },
+    {
+      "id": "tka3-repair-week",
+      "title": "Repair and Reuse Week · Original B1 Practice Text",
+      "text": "Riverside Vocational School organised a Repair and Reuse Week to help students understand how everyday objects can be used for longer. The event was planned by the technology department and the student council. Their first task was to collect information about the items that families most often threw away. A short survey showed that bags, bicycles, and small household objects were common examples. The organisers used these results to select activities, but they did not promise to repair every item brought to school.\n\nBefore the event, volunteers prepared three work areas. One table was for checking bicycles, another was for sewing bags, and the third was for examining small household objects. Teachers checked the tools and explained safety rules. Students also made signs showing which items each area could accept. This preparation helped visitors choose the correct table and reduced waiting time.\n\nDuring the week, thirty-eight visitors brought items for examination. Volunteers completed twenty-one repairs. Some objects needed replacement parts, so their owners received advice instead of an immediate repair. The school recorded the number of visitors and completed jobs, but it did not calculate the total weight of materials saved.\n\nAfter the event, the student council reviewed the records with the technology teachers. They found that clear signs and separate work areas helped the event run smoothly. The school plans to repeat the activity next term and invite a local repair worker to demonstrate safe techniques. The report presents the event as a learning activity, not as proof that all waste can be eliminated."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka3-seed-library",
+      "skill": "Main idea",
+      "prompt": "What is the main purpose of the seed library?",
+      "choices": [
+        "To help students access seeds and learn about growing plants",
+        "To sell vegetables to local families",
+        "To measure the amount of food produced by every student",
+        "To replace the school science room"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the opening paragraph states that the project makes gardening easier and helps students learn how plants grow.",
+        "The text says the service is free; it does not describe selling vegetables.",
+        "The school has not measured the amount of food produced.",
+        "The seed library is kept beside the science room; it does not replace it."
+      ],
+      "translationId": {
+        "prompt": "Apa tujuan utama perpustakaan benih?",
+        "choices": [
+          "Membantu siswa memperoleh benih dan belajar menanam",
+          "Menjual sayuran kepada keluarga setempat",
+          "Mengukur jumlah makanan yang dihasilkan setiap siswa",
+          "Menggantikan ruang IPA sekolah"
+        ]
+      },
+      "evidence": "The project also gives students a chance to learn how plants grow",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Gagasan utama harus mewakili tujuan proyek, bukan satu aturan atau rincian. Paragraf pertama menyebut akses benih dan kesempatan belajar menanam; pilihan lain bertentangan atau tidak didukung bacaan."
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka3-seed-library",
+      "skill": "Outline details",
+      "prompt": "Which details belong under an outline heading called “How the library works”? Select ALL.",
+      "choices": [
+        "Packets show the plant name and a growing tip",
+        "Students may borrow up to three packets",
+        "The project began because families wanted to sell vegetables",
+        "Unused seeds should be returned after two weeks"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: labels are part of the way the service is organised.",
+        "Correct: the borrowing limit is a direct service rule.",
+        "The passage says families donated extra packets; it does not say they wanted to sell vegetables.",
+        "Correct: the return period is one of the borrowing rules."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang masuk ke bagian kerangka “Cara perpustakaan bekerja”? Pilih SEMUA.",
+        "choices": [
+          "Kemasan menunjukkan nama tanaman dan petunjuk menanam",
+          "Siswa boleh meminjam paling banyak tiga kemasan",
+          "Proyek dimulai karena keluarga ingin menjual sayuran",
+          "Benih yang tidak digunakan dikembalikan setelah dua minggu"
+        ]
+      },
+      "evidence": "Unused seeds should be returned after two weeks",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Untuk membuat kerangka, tempatkan aturan label, jumlah pinjaman, dan pengembalian di bawah bagian cara kerja. Jangan menambahkan tujuan penjualan yang tidak disebut."
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka3-seed-library",
+      "skill": "Classifying paragraph details",
+      "prompt": "Classify each statement about the seed-library text.",
+      "categories": [
+        "Main idea",
+        "Supporting detail",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The project helps students obtain seeds and learn about growing plants.",
+          "answerCategory": "Main idea",
+          "explanation": "Pernyataan ini merangkum tujuan umum yang diperkenalkan pada paragraf pertama."
+        },
+        {
+          "text": "Students may borrow up to three packets at a time.",
+          "answerCategory": "Supporting detail",
+          "explanation": "Batas tiga kemasan menjelaskan salah satu aturan layanan, bukan tujuan seluruh proyek."
+        },
+        {
+          "text": "The library has already produced one hundred kilograms of vegetables.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Bacaan menyatakan hasil panen belum diukur dan tidak memberikan jumlah kilogram."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang bacaan perpustakaan benih.",
+        "categories": [
+          "Gagasan utama",
+          "Rincian pendukung",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Proyek membantu siswa memperoleh benih dan belajar menanam.",
+          "Siswa boleh meminjam paling banyak tiga kemasan sekaligus.",
+          "Perpustakaan sudah menghasilkan seratus kilogram sayuran."
+        ]
+      },
+      "evidence": "it did not measure the amount of food produced",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Pernyataan pertama merangkum tujuan umum, pernyataan kedua adalah aturan khusus, dan klaim hasil seratus kilogram tidak disebut. Klasifikasi harus mengikuti fungsi dan bukti, bukan dugaan."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka3-seed-library",
+      "skill": "Paragraph function",
+      "prompt": "What is the main role of the third paragraph?",
+      "choices": [
+        "To explain why the teacher first suggested the project",
+        "To describe the cabinet and packet labels",
+        "To report early use, explain a limit in the data, and mention a future plan",
+        "To list all the families who donated seeds"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The reason the project began appears in paragraph one.",
+        "The cabinet and packet labels are described in paragraph two.",
+        "Correct: paragraph three reports borrowers, popular seeds, the unmeasured harvest, and a next-term guide.",
+        "The text does not list individual donor families."
+      ],
+      "translationId": {
+        "prompt": "Apa fungsi utama paragraf ketiga?",
+        "choices": [
+          "Menjelaskan alasan guru pertama kali mengusulkan proyek",
+          "Menggambarkan lemari dan label kemasan",
+          "Melaporkan penggunaan awal, batas data, dan rencana berikutnya",
+          "Mencantumkan semua keluarga yang menyumbangkan benih"
+        ]
+      },
+      "evidence": "Next term, students plan to prepare a short guide",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Fungsi paragraf ditentukan oleh keseluruhan isinya. Paragraf ketiga menggabungkan hasil awal, batas informasi tentang panen, dan rencana berikutnya."
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka3-seed-library",
+      "skill": "Summary selection",
+      "prompt": "Which points should be included in a concise summary of the whole text? Select ALL.",
+      "choices": [
+        "The project shares seeds and teaches students about growing plants",
+        "Students use a free service with borrowing and return rules",
+        "Spinach was chosen by every student",
+        "The school has not measured the harvest total"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: this states the broad purpose of the project.",
+        "Correct: the service process is a central part of the text.",
+        "The passage says spinach and beans were popular, not that every student chose spinach.",
+        "Correct: the unmeasured harvest is an important limit on what the report can claim."
+      ],
+      "translationId": {
+        "prompt": "Poin mana yang perlu dimasukkan ke ringkasan singkat seluruh bacaan? Pilih SEMUA.",
+        "choices": [
+          "Proyek berbagi benih dan mengajari siswa menanam",
+          "Siswa menggunakan layanan gratis dengan aturan pinjam dan kembali",
+          "Semua siswa memilih bayam",
+          "Sekolah belum mengukur total panen"
+        ]
+      },
+      "evidence": "The project combines shared resources with practical learning",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Ringkasan mempertahankan tujuan, cara kerja, dan batas penting yang dinyatakan penulis. Klaim bahwa semua siswa memilih bayam terlalu luas dan tidak didukung."
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka3-seed-library",
+      "skill": "Evidence boundaries",
+      "prompt": "Classify the statements using the passage.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The service is free.",
+          "answerCategory": "Supported",
+          "explanation": "Paragraf kedua secara langsung menyatakan bahwa layanan tersebut gratis."
+        },
+        {
+          "text": "The school has published a measured harvest total.",
+          "answerCategory": "Contradicted",
+          "explanation": "Bacaan menyatakan kelas belum mengukur jumlah makanan yang dihasilkan sehingga belum melaporkan total panen."
+        },
+        {
+          "text": "A student named Riko borrowed the first packet.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Teks menyebut jumlah peminjam, tetapi tidak menyebut nama siswa yang meminjam pertama."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan pernyataan berdasarkan bukti bacaan.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Layanan tersebut gratis.",
+          "Sekolah telah menerbitkan total panen yang diukur.",
+          "Siswa bernama Riko meminjam kemasan pertama."
+        ]
+      },
+      "evidence": "it did not measure the amount of food produced",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bedakan fakta yang tertulis, klaim yang dibantah oleh teks, dan rincian yang tidak disebut sama sekali. Tidak disebutkan bukan berarti pasti salah."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka3-repair-week",
+      "skill": "Paragraph role",
+      "prompt": "Which heading best represents the second paragraph?",
+      "choices": [
+        "The reasons families throw objects away",
+        "Preparing work areas, tools, and safety guidance",
+        "The final number of completed repairs",
+        "Plans for the next school term"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The first paragraph describes the project background and survey.",
+        "Correct: the paragraph describes three work areas, checked tools, safety rules, and signs.",
+        "The repair totals appear in paragraph three.",
+        "The next-term plan appears in the final paragraph."
+      ],
+      "translationId": {
+        "prompt": "Judul mana yang paling tepat mewakili paragraf kedua?",
+        "choices": [
+          "Alasan keluarga membuang barang",
+          "Menyiapkan area kerja, alat, dan panduan keselamatan",
+          "Jumlah akhir perbaikan yang selesai",
+          "Rencana untuk semester berikutnya"
+        ]
+      },
+      "evidence": "Before the event, volunteers prepared three work areas",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Judul paragraf harus mewakili seluruh kelompok kalimat. Paragraf kedua berfokus pada persiapan area kerja dan keselamatan, bukan hasil atau rencana akhir."
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka3-repair-week",
+      "skill": "Synthesis across paragraphs",
+      "prompt": "Which statements combine information from different parts of the report to describe how the event was organised and evaluated? Select ALL.",
+      "choices": [
+        "The survey helped organisers choose activities, and signs helped visitors select work areas",
+        "The event repaired every item that visitors brought",
+        "The school recorded visitors and completed repairs but did not measure material weight",
+        "The student council reviewed records with technology teachers after the event"
+      ],
+      "answers": [
+        0,
+        2,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: the survey and signs are separate preparation decisions that explain how the event was organised.",
+        "The report says some objects needed parts and did not receive immediate repairs.",
+        "Correct: this combines reported results with a clear limit in the data.",
+        "Correct: the final paragraph describes a review of the recorded information."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana yang menggabungkan informasi dari bagian berbeda untuk menjelaskan pengaturan dan evaluasi kegiatan? Pilih SEMUA.",
+        "choices": [
+          "Survei membantu panitia memilih kegiatan, dan tanda membantu pengunjung memilih area kerja",
+          "Kegiatan memperbaiki semua barang yang dibawa pengunjung",
+          "Sekolah mencatat pengunjung dan perbaikan selesai, tetapi tidak mengukur berat bahan",
+          "OSIS meninjau catatan bersama guru teknologi setelah kegiatan"
+        ]
+      },
+      "evidence": "The school recorded the number of visitors and completed jobs",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Sintesis menghubungkan persiapan, pelaksanaan, dan evaluasi. Jangan menyimpulkan semua barang diperbaiki karena laporan menyebut beberapa pengunjung hanya menerima saran."
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka3-repair-week",
+      "skill": "Classifying report claims",
+      "prompt": "Classify each statement about Repair and Reuse Week.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The survey identified bags, bicycles, and small household objects as common discarded items.",
+          "answerCategory": "Supported",
+          "explanation": "Paragraf pertama menyebut ketiga kategori tersebut sebagai hasil survei singkat."
+        },
+        {
+          "text": "Every visitor received an immediate repair.",
+          "answerCategory": "Contradicted",
+          "explanation": "Beberapa benda memerlukan suku cadang sehingga pemiliknya menerima saran, bukan perbaikan langsung."
+        },
+        {
+          "text": "The event saved exactly 150 kilograms of material.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Laporan menyatakan berat material yang dihemat tidak dihitung, sehingga angka 150 kilogram tidak tersedia."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang Repair and Reuse Week.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Survei mengidentifikasi tas, sepeda, dan benda rumah tangga kecil sebagai barang yang sering dibuang.",
+          "Setiap pengunjung langsung menerima perbaikan.",
+          "Kegiatan menghemat tepat 150 kilogram bahan."
+        ]
+      },
+      "evidence": "it did not calculate the total weight of materials saved",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Pernyataan kedua bertentangan dengan adanya barang yang membutuhkan suku cadang. Berat material tidak dihitung, jadi angka tertentu tidak boleh dibuat-buat."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka3-repair-week",
+      "skill": "Whole-text summary",
+      "prompt": "Which sentence is the best summary of the whole report?",
+      "choices": [
+        "The school proved that all waste can be eliminated through one event.",
+        "The event collected only bicycles and repaired all of them.",
+        "The student council cancelled the event after the survey.",
+        "The school organised a repair event, recorded its results and limits, and planned a future activity."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The report explicitly says the event is not proof that all waste can be eliminated.",
+        "The event accepted several types of items, not only bicycles, and not all were repaired.",
+        "The event took place; the council reviewed records afterwards.",
+        "Correct: this includes the purpose, organisation, evaluation limits, and future plan."
+      ],
+      "translationId": {
+        "prompt": "Kalimat mana ringkasan terbaik untuk seluruh laporan?",
+        "choices": [
+          "Sekolah membuktikan semua sampah dapat dihilangkan melalui satu kegiatan.",
+          "Kegiatan hanya mengumpulkan sepeda dan memperbaiki semuanya.",
+          "OSIS membatalkan kegiatan setelah survei.",
+          "Sekolah menyelenggarakan kegiatan perbaikan, mencatat hasil dan batasnya, serta merencanakan kegiatan berikutnya."
+        ]
+      },
+      "evidence": "The school plans to repeat the activity next term",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Ringkasan yang baik mencakup keseluruhan alur dan tidak mengubah batas laporan. Pilihan ketiga menyatukan tujuan, pelaksanaan, evaluasi, dan rencana tanpa membuat klaim berlebihan."
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka3-repair-week",
+      "skill": "Outline hierarchy",
+      "prompt": "Which details belong under an outline section called “Event preparation”? Select ALL.",
+      "choices": [
+        "Volunteers prepared three separate work areas",
+        "Teachers checked tools and explained safety rules",
+        "Thirty-eight visitors brought items during the week",
+        "Students made signs to show which items each area accepted"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: preparing three work areas is an event-preparation action.",
+        "Correct: tool checks and safety instructions happened before the event.",
+        "This is a result from the event itself, not preparation.",
+        "Correct: signs were prepared to guide visitors to the right area."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang masuk ke bagian kerangka “Persiapan kegiatan”? Pilih SEMUA.",
+        "choices": [
+          "Relawan menyiapkan tiga area kerja terpisah",
+          "Guru memeriksa alat dan menjelaskan aturan keselamatan",
+          "Tiga puluh delapan pengunjung membawa barang selama kegiatan",
+          "Siswa membuat tanda untuk menunjukkan barang yang diterima setiap area"
+        ]
+      },
+      "evidence": "Before the event, volunteers prepared three work areas",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Kerangka mengikuti waktu dan fungsi informasi. Tiga area, pemeriksaan alat, aturan keselamatan, dan tanda dibuat sebelum kegiatan; jumlah pengunjung adalah hasil pelaksanaan."
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka3-repair-week",
+      "skill": "Paragraph function",
+      "prompt": "Classify the role of each information item in the report.",
+      "categories": [
+        "Background and purpose",
+        "Supporting evidence",
+        "Future plan"
+      ],
+      "statements": [
+        {
+          "text": "The school organised the week to help students understand reuse.",
+          "answerCategory": "Background and purpose",
+          "explanation": "Pernyataan ini menjelaskan alasan dan tujuan utama kegiatan pada paragraf pembuka."
+        },
+        {
+          "text": "Volunteers completed twenty-one repairs.",
+          "answerCategory": "Supporting evidence",
+          "explanation": "Angka perbaikan merupakan bukti hasil kegiatan, bukan tujuan atau rencana masa depan."
+        },
+        {
+          "text": "The school plans to invite a local repair worker next term.",
+          "answerCategory": "Future plan",
+          "explanation": "Pernyataan ini secara langsung menyebut rencana untuk semester berikutnya."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan fungsi setiap informasi dalam laporan.",
+        "categories": [
+          "Latar belakang dan tujuan",
+          "Bukti pendukung",
+          "Rencana masa depan"
+        ],
+        "statements": [
+          "Sekolah menyelenggarakan pekan kegiatan untuk membantu siswa memahami penggunaan kembali.",
+          "Relawan menyelesaikan dua puluh satu perbaikan.",
+          "Sekolah berencana mengundang pekerja perbaikan setempat semester depan."
+        ]
+      },
+      "evidence": "The school plans to repeat the activity next term",
+      "proficiencyTarget": "B1",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Tentukan peran berdasarkan posisi dan makna: tujuan memperkenalkan kegiatan, jumlah perbaikan menjadi bukti, dan rencana semester depan mengarah ke masa depan."
+    }
+  ]
+}

@@ -220,3 +220,14 @@ All fields above are **optional**. Adding any new lesson or test continues to re
 **Deployment:** With the GitHub repository root containing `index.html`, Cloudflare **Pages** requires no framework, build command `exit 0` and output directory `.`. Push all updated files to the existing repository to redeploy. Do not upload the ZIP itself into the repository. Back up or tag the previous working commit before replacing files.
 
 **Testing:** Run `python tools/validate.py` and `node tests/scoring.mjs` locally. Preview with `python -m http.server 8000` from the project root to allow JSON to load via `fetch`. An interactive browser check of lesson/quiz flows is recommended before deploying. See `docs/V2-CHANGES.md` for changes.
+
+
+## Current TKA content · V13-C2 (31 October 2026)
+
+TKA-01 through TKA-04 now have published lesson and topic-practice resources. V13-C2 adds TKA-03 (classifying, outlining, summarising and synthesising) and TKA-04 (vocabulary in context, reference and connectors). TKA-05–10 and dedicated full TKA simulations remain planned. See `docs/V13-C2-TKA-03-04.md` for scope, counts, QA and installation notes.
+
+## V13-C2 combined release note (31 October 2026)
+
+The V13-C2 combined snapshot includes both the separately supplied V13-C1 homepage redesign and the TKA-03/TKA-04 content release. The homepage redesign contributes the revised `index.html`, `css/style.css`, `js/home.js`, bilingual homepage translations, preview documentation, and its regression checks. These were integrated with the C2 TKA pathway updates rather than treating the original V13-C1 complete-site archive as if it already contained the redesign.
+
+The combined incremental package is `langkah-english-v13c2-combined-update-from-v13c1.zip`. It is designed to overlay the accepted V13-C1 repository whether or not the standalone homepage redesign patch was previously applied. It includes the integrated homepage files and C2 content. The complete-site archive is for a separate preview/restoration copy, not for extraction over an existing Git repository.

@@ -1,0 +1,400 @@
+{
+  "id": "tka-classify-outline-summarize-synthesize",
+  "objectives": [
+    "Membedakan topik, gagasan utama, rincian pendukung, dan fungsi paragraf dalam bacaan lengkap.",
+    "Menyusun kerangka yang menunjukkan hubungan antara gagasan utama dan rincian penting.",
+    "Meringkas bacaan secara singkat tanpa mengubah fakta atau menambahkan opini.",
+    "Mensintesis gagasan dari beberapa paragraf dengan menunjukkan hubungan yang didukung teks."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu mengelompokkan, membuat kerangka, meringkas, dan mensintesis?",
+      "text": "Keempat keterampilan ini membantu pembaca mengatur informasi dalam bacaan panjang. [[Mengelompokkan]] berarti mengenali fungsi informasi; [[kerangka]] menata gagasan dari umum ke khusus; [[ringkasan]] menyampaikan inti secara singkat; dan [[sintesis]] menghubungkan gagasan dari beberapa bagian untuk membentuk pemahaman yang lebih utuh. Semua hasil harus tetap didukung teks."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Pelajari satu keputusan membaca pada satu waktu. Setiap langkah memberi contoh bahasa Inggris, arti, alasan, dan pertanyaan tanpa nilai. Setelah langkah-langkah dasar, baca model multi-paragraf lengkap, petakan fungsinya, lalu coba ringkasan dan sintesis sendiri.",
+      "steps": [
+        {
+          "title": "Mulai dengan topik keseluruhan",
+          "explanation": "Sebelum memberi label pada rincian, baca judul dan seluruh bacaan secara cepat. Tanyakan: teks ini terutama membicarakan siapa atau apa? Topik biasanya dapat disebut dalam beberapa kata; topik belum sama dengan gagasan utama.",
+          "english": "The school opened a seed library for students.",
+          "indonesian": "Sekolah membuka perpustakaan benih untuk siswa.",
+          "why": "Topiknya ialah seed library. Kalimat itu memberi gambaran awal, tetapi gagasan utama yang lengkap juga menjelaskan tujuan atau hal penting tentang perpustakaan tersebut.",
+          "check": "Jika topiknya seed library, apakah topik itu sendiri sudah menjelaskan tujuan proyek?",
+          "checkAnswer": "Belum. Topik hanya menyebut hal yang dibicarakan. Tujuan proyek harus dicari dari informasi lain dalam bacaan.",
+          "phase": "Mengenali dan mengelompokkan informasi"
+        },
+        {
+          "title": "Bedakan topik dan gagasan utama",
+          "explanation": "[[Main idea]] atau gagasan utama menyatakan hal terpenting yang ingin disampaikan penulis tentang topik. Gagasan utama dapat muncul di awal, akhir, atau terbentuk dari beberapa kalimat. Jangan memilih satu contoh kecil sebagai gagasan utama seluruh bacaan.",
+          "english": "The seed library helps students share seeds and learn to grow plants.",
+          "indonesian": "Perpustakaan benih membantu siswa berbagi benih dan belajar menanam.",
+          "why": "Kalimat ini menyebut topik sekaligus pesan utamanya: berbagi benih dan belajar menanam. Angka jumlah peminjam hanyalah rincian pendukung.",
+          "check": "Mana yang lebih mungkin menjadi gagasan utama: tujuan perpustakaan benih atau jumlah siswa yang meminjam pada bulan pertama?",
+          "checkAnswer": "Tujuan perpustakaan benih. Jumlah peminjam mendukung cerita, tetapi tidak mewakili seluruh isi bacaan.",
+          "phase": "Mengenali dan mengelompokkan informasi"
+        },
+        {
+          "title": "Pisahkan gagasan utama dan rincian pendukung",
+          "explanation": "Rincian pendukung menjelaskan, membuktikan, atau memberi contoh bagi gagasan utama. Rincian dapat berupa angka, waktu, tempat, alasan, atau tindakan. Rincian penting untuk bukti, tetapi tidak semuanya harus masuk ke ringkasan.",
+          "english": "Students may borrow up to three packets at a time.",
+          "indonesian": "Siswa boleh meminjam paling banyak tiga kemasan sekaligus.",
+          "why": "Informasi batas tiga kemasan menjelaskan cara layanan bekerja. Itu merupakan rincian pendukung, bukan gagasan utama proyek.",
+          "check": "Apakah batas tiga kemasan menjelaskan seluruh tujuan proyek atau hanya satu aturan layanan?",
+          "checkAnswer": "Hanya satu aturan layanan. Letakkan sebagai rincian di bawah gagasan tentang cara perpustakaan digunakan.",
+          "phase": "Mengenali dan mengelompokkan informasi"
+        },
+        {
+          "title": "Tentukan fungsi setiap paragraf",
+          "explanation": "Setiap paragraf dalam bacaan panjang biasanya memiliki peran. Paragraf dapat memperkenalkan topik, menjelaskan proses, memberi bukti, menunjukkan hasil, atau menyampaikan langkah berikutnya. Gunakan isi seluruh paragraf, bukan hanya kata pertama.",
+          "english": "The first paragraph introduces the project and explains why it began.",
+          "indonesian": "Paragraf pertama memperkenalkan proyek dan menjelaskan alasan proyek dimulai.",
+          "why": "Peran paragraf pertama adalah pengenalan dan latar belakang. Paragraf kedua beralih ke cara layanan berjalan, sedangkan paragraf ketiga membahas penggunaan dan rencana.",
+          "check": "Jika sebuah paragraf menjelaskan cara meminjam dan mengembalikan benih, peran apa yang paling tepat?",
+          "checkAnswer": "Penjelasan proses atau cara kerja. Peran paragraf harus merangkum fungsi beberapa kalimat di dalamnya.",
+          "phase": "Menyusun kerangka bacaan"
+        },
+        {
+          "title": "Susun kerangka dari umum ke khusus",
+          "explanation": "[[Outline]] atau kerangka menata gagasan utama sebagai judul besar, lalu menempatkan gagasan paragraf dan rincian di bawahnya. Gunakan indentasi atau nomor agar hubungan tingkat informasi terlihat. Jangan membuat semua angka dan contoh menjadi judul utama.",
+          "english": "1. Seed library project\n   a. Purpose and beginning\n   b. Borrowing rules\n   c. Early use and next plan",
+          "indonesian": "1. Proyek perpustakaan benih\n   a. Tujuan dan awal proyek\n   b. Aturan peminjaman\n   c. Penggunaan awal dan rencana berikutnya",
+          "why": "Kerangka mempertahankan urutan isi dan menunjukkan bahwa tiga bagian merupakan penjelas dari satu topik besar.",
+          "check": "Dalam kerangka tersebut, apakah “borrow up to three packets” sebaiknya menjadi judul utama atau rincian di bawah borrowing rules?",
+          "checkAnswer": "Rincian di bawah borrowing rules. Informasi itu menjelaskan salah satu aturan, bukan keseluruhan proyek.",
+          "phase": "Menyusun kerangka bacaan"
+        },
+        {
+          "title": "Pilih rincian yang benar-benar mendukung",
+          "explanation": "Saat membuat kerangka, pilih rincian yang membantu pembaca memahami gagasan paragraf. Hindari memasukkan informasi yang tidak berkaitan, pengulangan, atau tebakan. Kerangka yang baik ringkas, tetapi tetap menunjukkan hubungan antargagasan.",
+          "english": "The cabinet is near the science room, and each packet has a plant label.",
+          "indonesian": "Lemari berada dekat ruang IPA, dan setiap kemasan memiliki label tanaman.",
+          "why": "Lokasi lemari dan label menjelaskan pengaturan layanan. Detail ini relevan di bawah bagian “cara perpustakaan bekerja”, sedangkan warna baju siswa tidak relevan jika tidak dibahas.",
+          "check": "Apakah informasi tentang lokasi lemari lebih cocok di bagian tujuan proyek atau cara layanan bekerja?",
+          "checkAnswer": "Cara layanan bekerja. Pilih bagian berdasarkan fungsi informasi, bukan karena kata yang sama muncul di judul.",
+          "phase": "Menyusun kerangka bacaan"
+        },
+        {
+          "title": "Ringkas dengan mempertahankan inti",
+          "explanation": "[[Summary]] atau ringkasan menyampaikan gagasan penting dengan lebih singkat. Pertahankan topik, tujuan, proses utama, dan hasil yang benar-benar dilaporkan. Gunakan kata-katamu sendiri tanpa mengubah fakta atau urutan penting.",
+          "english": "The project shares seeds and teaches students about growing plants.",
+          "indonesian": "Proyek itu berbagi benih dan mengajari siswa tentang cara menanam.",
+          "why": "Ringkasan ini menggabungkan dua gagasan utama. Ringkasan tidak perlu menyalin setiap nama tanaman atau setiap aturan peminjaman.",
+          "check": "Jika ringkasan hanya menyebut “Students chose spinach”, apakah itu mewakili seluruh bacaan?",
+          "checkAnswer": "Tidak. Itu hanya satu contoh pilihan tanaman. Ringkasan perlu mencakup gagasan yang lebih luas.",
+          "phase": "Meringkas tanpa mengubah makna"
+        },
+        {
+          "title": "Buang pengulangan dan rincian terlalu kecil",
+          "explanation": "Ringkasan bukan salinan pendek dari setiap kalimat. Gabungkan rincian yang serupa, hilangkan contoh yang tidak wajib, dan jangan memasukkan angka kecil kecuali angka itu penting bagi pesan. Namun, jangan membuang fakta yang mengubah makna.",
+          "english": "Several students sent photos of their first leaves.",
+          "indonesian": "Beberapa siswa mengirim foto daun pertama mereka.",
+          "why": "Ini contoh kegiatan yang menarik, tetapi tidak harus masuk ringkasan umum tentang tujuan dan cara kerja perpustakaan benih.",
+          "check": "Untuk ringkasan satu kalimat, apakah foto daun pertama harus disebut jika fokusnya tujuan proyek?",
+          "checkAnswer": "Tidak harus. Pilih informasi yang mewakili gagasan utama, bukan setiap kejadian kecil.",
+          "phase": "Meringkas tanpa mengubah makna"
+        },
+        {
+          "title": "Jangan menambahkan opini atau hasil yang tidak dilaporkan",
+          "explanation": "Ringkasan harus setia pada teks. Jangan mengubah rencana menjadi hasil yang sudah terjadi, dan jangan menambahkan penilaian seperti “sangat sukses” bila penulis tidak menyatakannya. Perhatikan batas informasi yang diakui penulis.",
+          "english": "The class has not measured the harvest total.",
+          "indonesian": "Kelas belum mengukur jumlah total panen.",
+          "why": "Kita tidak boleh menulis bahwa proyek menghasilkan panen besar. Teks justru menyatakan hasil panen belum diukur.",
+          "check": "Bolehkah ringkasan menyatakan bahwa siswa telah menghasilkan banyak sayuran?",
+          "checkAnswer": "Tidak. Bacaan tidak memberikan ukuran panen dan secara jelas mengatakan totalnya belum diukur.",
+          "phase": "Meringkas tanpa mengubah makna"
+        },
+        {
+          "title": "Sintesis: hubungkan informasi dari beberapa bagian",
+          "explanation": "[[Synthesis]] atau sintesis menggabungkan gagasan relevan dari dua atau lebih bagian untuk membentuk pemahaman yang lebih utuh. Sintesis bukan sekadar menyalin kalimat. Tunjukkan hubungan, misalnya tujuan proyek, cara sumber daya dibagikan, dan manfaat pembelajaran.",
+          "english": "The service is free, and students are encouraged to return healthy seeds.",
+          "indonesian": "Layanan ini gratis, dan siswa dianjurkan mengembalikan benih yang sehat.",
+          "why": "Jika digabung dengan tujuan berbagi sumber daya pada paragraf pertama, dua fakta ini mendukung pemahaman bahwa proyek dirancang agar benih dapat digunakan bersama secara berkelanjutan.",
+          "check": "Bagaimana fakta bahwa layanan gratis dan benih dapat dikembalikan saling mendukung?",
+          "checkAnswer": "Keduanya menunjukkan bahwa proyek berusaha membuat benih dapat diakses dan digunakan kembali oleh komunitas sekolah.",
+          "phase": "Mensintesis gagasan lintas paragraf"
+        },
+        {
+          "title": "Baca satu teks utuh, lalu uji hasil pemahaman",
+          "explanation": "Untuk bacaan multi-paragraf, lakukan empat putaran: baca keseluruhan untuk topik, beri label fungsi setiap paragraf, pilih rincian pendukung, lalu tulis ringkasan dan sintesis. Kembali ke kalimat bukti sebelum menyelesaikan jawaban. Model lengkap berikut menjadi latihan terbimbing, bukan kejutan saat kuis.",
+          "english": "Read the whole text. Label each paragraph. Select key details. Then write a short summary.",
+          "indonesian": "Baca seluruh teks. Beri label setiap paragraf. Pilih rincian utama. Lalu tulis ringkasan singkat.",
+          "why": "Urutan ini menghubungkan latihan kalimat dengan tugas membaca mandiri. Kamu perlu memahami hubungan antarbagiannya, bukan hanya menjawab dari satu kalimat.",
+          "check": "Setelah membaca tiga paragraf tentang seed library, bukti apa yang perlu dicari sebelum menyusun sintesis?",
+          "checkAnswer": "Cari sekurang-kurangnya dua gagasan dari bagian berbeda, misalnya tujuan berbagi benih dan aturan mengembalikan benih. Jelaskan hubungan keduanya tanpa menambah fakta.",
+          "phase": "Mensintesis gagasan lintas paragraf"
+        }
+      ],
+      "modelTitle": "Guided full passage · The School Seed Library",
+      "modelEnglish": "At Merdeka Junior High School, a group of students started a seed library in March. They wanted classmates to grow simple plants at home and learn where food comes from. The project began when the science teacher noticed that many students were interested in gardening but did not know where to get seeds. Instead of buying a large supply, the class asked families to share extra seeds.\n\nThe seed library is kept in a wooden cabinet near the science room. Each packet has a label with the plant name, the date it was packed, and basic growing advice. Students may borrow up to three packets at a time. They write their names in a notebook and return unused seeds after two weeks. The service is free, but students are asked to save seeds from healthy plants and bring them back when possible. This helps the library continue without depending on regular purchases.\n\nDuring the first month, twenty-six students borrowed seeds. Most chose spinach, beans, or chili because these plants can grow in small spaces. A few students sent photos of their first leaves to the science teacher. The class has not measured how much food the plants produced, so it cannot report a harvest total. Next term, the students plan to add a short guide about watering and sunlight. The seed library is a small school project that shares resources and encourages practical learning.",
+      "modelIndonesian": "Di SMP Merdeka, sekelompok siswa memulai perpustakaan benih pada bulan Maret. Mereka ingin teman-teman sekelas menanam tanaman sederhana di rumah dan belajar dari mana makanan berasal. Proyek ini dimulai ketika guru IPA melihat bahwa banyak siswa tertarik berkebun, tetapi tidak tahu tempat memperoleh benih. Alih-alih membeli persediaan dalam jumlah besar, kelas meminta keluarga untuk berbagi benih yang berlebih.\n\nPerpustakaan benih disimpan di lemari kayu dekat ruang IPA. Setiap kemasan memiliki label berisi nama tanaman, tanggal pengemasan, dan petunjuk dasar menanam. Siswa boleh meminjam paling banyak tiga kemasan sekaligus. Mereka menulis nama di buku catatan dan mengembalikan benih yang tidak digunakan setelah dua minggu. Layanan ini gratis, tetapi siswa diminta menyimpan benih dari tanaman yang sehat dan membawanya kembali jika memungkinkan. Hal ini membantu perpustakaan terus berjalan tanpa bergantung pada pembelian rutin.\n\nSelama bulan pertama, dua puluh enam siswa meminjam benih. Sebagian besar memilih bayam, kacang-kacangan, atau cabai karena tanaman tersebut dapat tumbuh di tempat kecil. Beberapa siswa mengirim foto daun pertama kepada guru IPA. Kelas belum mengukur jumlah makanan yang dihasilkan tanaman, sehingga belum dapat melaporkan total panen. Semester depan, para siswa berencana menambahkan panduan singkat tentang penyiraman dan sinar matahari. Perpustakaan benih merupakan proyek sekolah sederhana yang berbagi sumber daya dan mendorong pembelajaran praktis.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Peta kerja dari bacaan ke pemahaman",
+      "text": "Urutan kerja: **topik → gagasan utama → fungsi paragraf → rincian pendukung → kerangka → ringkasan → sintesis**. Gunakan topik untuk menentukan fokus, fungsi paragraf untuk menata isi, dan bukti dari beberapa bagian untuk menghubungkan gagasan. Ringkasan memadatkan isi; sintesis menjelaskan hubungan antargagasan. Keduanya tidak boleh menambah fakta."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bagian model",
+        "Fungsi paragraf",
+        "Isi yang masuk kerangka"
+      ],
+      "rows": [
+        [
+          "Paragraph 1",
+          "Pengenalan dan alasan proyek",
+          "Seed library began; students needed access to seeds; families shared extra seeds"
+        ],
+        [
+          "Paragraph 2",
+          "Cara layanan bekerja",
+          "Cabinet and labels; borrowing limit; return rule; free service"
+        ],
+        [
+          "Paragraph 3",
+          "Penggunaan, batas data, dan rencana",
+          "26 borrowers; common plant choices; harvest not measured; next guide planned"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · lihat cara mengatur gagasan"
+    },
+    {
+      "type": "text",
+      "text": "Setiap contoh memperlihatkan satu keputusan. Perhatikan mengapa suatu rincian masuk ke kerangka, perlu dipertahankan dalam ringkasan, atau baru bermakna ketika digabung dengan bagian lain."
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Topik, gagasan utama, dan rincian",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The school opened a seed library to share seeds.",
+          "indonesian": "Sekolah membuka perpustakaan benih untuk berbagi benih.",
+          "note": "Topik ialah seed library; gagasan utamanya menjelaskan tindakan dan tujuan. Kalimat ini lebih luas daripada satu angka peminjam."
+        },
+        {
+          "english": "Twenty-six students borrowed seeds in the first month.",
+          "indonesian": "Dua puluh enam siswa meminjam benih pada bulan pertama.",
+          "note": "Ini rincian pendukung yang menunjukkan penggunaan awal. Angka tersebut tidak boleh menggantikan gagasan utama seluruh bacaan."
+        },
+        {
+          "english": "Families shared extra seeds with the class.",
+          "indonesian": "Keluarga berbagi benih berlebih dengan kelas.",
+          "note": "Detail ini menjelaskan sumber benih dan mendukung bagian tentang bagaimana proyek dimulai."
+        },
+        {
+          "english": "Paragraph 2 explains the borrowing rules.",
+          "indonesian": "Paragraf 2 menjelaskan aturan peminjaman.",
+          "note": "Label fungsi paragraf merangkum peran keseluruhan paragraf, bukan sekadar menyalin kalimat pertama."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Kerangka dan ringkasan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "1. Seed library project  2. Borrowing process  3. Early use",
+          "indonesian": "1. Proyek perpustakaan benih  2. Proses peminjaman  3. Penggunaan awal",
+          "note": "Kerangka mempertahankan urutan gagasan besar. Rincian seperti batas tiga kemasan diletakkan di bawah proses peminjaman."
+        },
+        {
+          "english": "Students can borrow three packets and return unused seeds.",
+          "indonesian": "Siswa dapat meminjam tiga kemasan dan mengembalikan benih yang tidak digunakan.",
+          "note": "Dua aturan yang saling berkaitan dapat diringkas bersama jika batas jumlah dan pengembalian penting bagi tujuan ringkasan."
+        },
+        {
+          "english": "The project is a useful way to share seeds and learn gardening.",
+          "indonesian": "Proyek itu merupakan cara bermanfaat untuk berbagi benih dan belajar berkebun.",
+          "note": "Ringkasan ini menangkap tujuan utama. Jangan menambahkan klaim bahwa semua siswa berhasil memanen sayuran."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Sintesis dan batas bukti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The service is free. Students can return healthy seeds.",
+          "indonesian": "Layanan ini gratis. Siswa dapat mengembalikan benih yang sehat.",
+          "note": "Ketika digabung, kedua fakta mendukung gagasan bahwa proyek membuat benih dapat diakses dan digunakan kembali."
+        },
+        {
+          "english": "The class has not measured the harvest total.",
+          "indonesian": "Kelas belum mengukur jumlah total panen.",
+          "note": "Fakta ini membatasi kesimpulan. Pembaca tidak boleh menyebut jumlah hasil panen atau menyatakan proyek menghasilkan panen besar."
+        },
+        {
+          "english": "The project shares resources and encourages practical learning.",
+          "indonesian": "Proyek ini berbagi sumber daya dan mendorong pembelajaran praktis.",
+          "note": "Ini sintesis yang menggabungkan tujuan berbagi dengan kegiatan menanam. Hubungannya harus dapat ditelusuri ke beberapa paragraf."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka03-outline",
+      "prompt": "Which outline best represents the three paragraphs of the seed-library text?",
+      "translation": "Kerangka mana yang paling tepat mewakili tiga paragraf bacaan perpustakaan benih?",
+      "choices": [
+        "1. Project purpose  2. Borrowing system  3. Use, limits and next plan",
+        "1. Twenty-six students  2. Spinach  3. Photos",
+        "1. The science room  2. A cabinet  3. A notebook"
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "1. Tujuan proyek  2. Sistem peminjaman  3. Penggunaan, batas, dan rencana berikutnya",
+        "1. Dua puluh enam siswa  2. Bayam  3. Foto",
+        "1. Ruang IPA  2. Lemari  3. Buku catatan"
+      ],
+      "explanation": "Pilihan pertama mengikuti fungsi paragraf dan mempertahankan urutan gagasan besar. Pilihan lain hanya mengumpulkan rincian yang tidak mewakili struktur keseluruhan bacaan.",
+      "hint": "Lihat apa yang dilakukan setiap paragraf, bukan hanya kata benda yang muncul."
+    },
+    {
+      "type": "reflection",
+      "prompt": "How is a summary different from a synthesis?",
+      "translation": "Apa perbedaan ringkasan dan sintesis?",
+      "answer": "Ringkasan memadatkan gagasan penting bacaan. Sintesis menghubungkan gagasan dari dua atau lebih bagian untuk menjelaskan hubungan atau pemahaman yang lebih utuh. Keduanya harus tetap didukung teks."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these reading moves",
+      "items": [
+        "Topik menyebut hal yang dibahas; gagasan utama menyatakan pesan terpenting tentang topik.",
+        "Fungsi paragraf membantu membuat kerangka dari umum ke khusus.",
+        "Ringkasan mempertahankan inti dan menghapus pengulangan atau contoh kecil yang tidak diperlukan.",
+        "Sintesis menghubungkan gagasan dari beberapa bagian tanpa menambahkan fakta baru."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · use the complete model",
+      "prompt": "Read all three paragraphs of “The School Seed Library”. Write (1) a three-part outline, (2) a two-sentence summary, and (3) one synthesis sentence connecting the project purpose with the borrowing and return system. Underline or quote one supporting detail for each response.",
+      "model": "Outline: 1. Why the seed library began; 2. How students borrow and return seeds; 3. Early use, unmeasured harvest, and the next guide. Summary: The school created a free seed library so students could obtain seeds and learn to grow plants. Students borrow labelled packets and are encouraged to return healthy seeds; early participation was recorded, but the harvest was not measured. Synthesis: By sharing extra seeds, keeping the service free, and encouraging returns, the school makes gardening resources easier to access and reuse.",
+      "modelTranslation": "Kerangka: 1. Alasan perpustakaan benih dimulai; 2. Cara siswa meminjam dan mengembalikan benih; 3. Penggunaan awal, hasil panen yang belum diukur, dan panduan berikutnya. Ringkasan: Sekolah membuat perpustakaan benih gratis agar siswa memperoleh benih dan belajar menanam. Siswa meminjam kemasan berlabel dan dianjurkan mengembalikan benih sehat; partisipasi awal tercatat, tetapi hasil panen belum diukur. Sintesis: Dengan berbagi benih berlebih, menyediakan layanan gratis, dan mendorong pengembalian, sekolah mempermudah akses dan penggunaan kembali sumber daya berkebun.",
+      "criteria": "Kerangka mengikuti urutan tiga paragraf. Ringkasan mencakup tujuan dan cara kerja tanpa rincian kecil yang tidak penting. Sintesis menggabungkan setidaknya dua bagian bacaan. Tidak ada klaim hasil panen yang tidak diukur."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "classify",
+          "indonesian": "mengelompokkan / mengklasifikasikan"
+        },
+        {
+          "english": "main idea",
+          "indonesian": "gagasan utama"
+        },
+        {
+          "english": "supporting detail",
+          "indonesian": "rincian pendukung"
+        },
+        {
+          "english": "outline",
+          "indonesian": "kerangka bacaan"
+        },
+        {
+          "english": "paragraph role",
+          "indonesian": "fungsi paragraf"
+        },
+        {
+          "english": "summary",
+          "indonesian": "ringkasan"
+        },
+        {
+          "english": "synthesis",
+          "indonesian": "sintesis / penggabungan gagasan"
+        },
+        {
+          "english": "relevant",
+          "indonesian": "relevan / berkaitan"
+        },
+        {
+          "english": "omit",
+          "indonesian": "menghilangkan / tidak menyertakan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "harvest",
+          "indonesian": "hasil panen"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "A paragraph explains why a school project began. What is its main role?",
+      "choices": [
+        "To introduce the project and its reason",
+        "To list every small result",
+        "To describe an unrelated event"
+      ],
+      "answer": 0,
+      "explanation": "Paragraf yang menjelaskan awal dan alasan proyek berfungsi sebagai pengenalan atau latar belakang. Rincian hasil dan kejadian lain tidak menggambarkan fungsi tersebut.",
+      "translationId": {
+        "prompt": "Sebuah paragraf menjelaskan alasan proyek sekolah dimulai. Apa fungsi utamanya?",
+        "choices": [
+          "Memperkenalkan proyek dan alasannya",
+          "Mencantumkan setiap hasil kecil",
+          "Menggambarkan peristiwa yang tidak berkaitan"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which sentence is the best concise summary? “The club is free. Students may borrow two books. They return them next week.”",
+      "choices": [
+        "The club offers a free book-borrowing service.",
+        "Students return books next week.",
+        "The club has two students."
+      ],
+      "answer": 0,
+      "explanation": "Pilihan pertama menggabungkan gagasan layanan secara ringkas. Pilihan kedua hanya mengambil satu rincian, sedangkan pilihan ketiga mengubah makna jumlah buku menjadi jumlah siswa.",
+      "translationId": {
+        "prompt": "Kalimat mana ringkasan paling singkat dan tepat? “Klub gratis. Siswa boleh meminjam dua buku. Mereka mengembalikannya minggu depan.”",
+        "choices": [
+          "Klub menyediakan layanan peminjaman buku gratis.",
+          "Siswa mengembalikan buku minggu depan.",
+          "Klub memiliki dua siswa."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A text says the project is free and uses returned materials. Which synthesis is supported?",
+      "choices": [
+        "The project encourages shared use of resources.",
+        "The project earns a large profit.",
+        "Every student owns new materials."
+      ],
+      "answer": 0,
+      "explanation": "Layanan gratis dan penggunaan kembali bahan mendukung gagasan berbagi sumber daya. Teks tidak menyebut keuntungan besar atau kepemilikan pribadi setiap siswa.",
+      "translationId": {
+        "prompt": "Teks menyebut proyek gratis dan menggunakan bahan yang dikembalikan. Sintesis mana yang didukung?",
+        "choices": [
+          "Proyek mendorong penggunaan sumber daya bersama.",
+          "Proyek memperoleh keuntungan besar.",
+          "Setiap siswa memiliki bahan baru."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-classify-outline-summarize-synthesize-practice"
+  ]
+}

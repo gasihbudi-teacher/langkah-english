@@ -1,0 +1,390 @@
+{
+  "id": "tka-context-vocabulary-reference-connectors",
+  "objectives": [
+    "Memperkirakan arti kosakata berdasarkan definisi, contoh, kontras, dan hubungan sebab-akibat dalam bacaan.",
+    "Mengidentifikasi acuan pronoun, demonstrative, dan frasa pengganti termasuk rujukan lintas kalimat.",
+    "Menafsirkan konektor penambahan, kontras, alasan, hasil, syarat, dan urutan.",
+    "Menggunakan petunjuk kosakata, rujukan, dan konektor untuk memahami bacaan multi-paragraf."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu kosakata, kata rujukan, dan konektor dalam konteks?",
+      "text": "Pembaca tidak harus mengetahui setiap kata untuk memahami bacaan. [[Kosakata dalam konteks]] dipahami melalui petunjuk di sekitarnya; [[kata rujukan]] menghubungkan pronoun atau frasa dengan orang, benda, atau gagasan yang disebut sebelumnya; dan [[konektor]] menunjukkan hubungan seperti penambahan, kontras, alasan, hasil, syarat, atau urutan. Ketiganya membantu kita mengikuti makna dari satu kalimat ke kalimat lain."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Mulailah dari satu kata dan satu hubungan, lalu ikuti rujukan dalam kalimat berurutan. Setiap langkah memiliki contoh, arti, alasan, dan pemeriksaan tanpa nilai. Setelah itu, baca model lengkap tiga paragraf dan tandai petunjuk kosakata, acuan, serta konektornya.",
+      "steps": [
+        {
+          "title": "Tebak arti kata dari konteks, bukan dari bentuknya saja",
+          "explanation": "Saat menemukan kata asing, baca kalimat sebelum dan sesudahnya. Cari petunjuk tentang tindakan, benda, atau akibat. Jangan langsung memilih arti yang mirip dalam bahasa Indonesia jika konteks tidak mendukungnya.",
+          "english": "Students borrow a bicycle and return it before afternoon activities.",
+          "indonesian": "Siswa meminjam sepeda dan mengembalikannya sebelum kegiatan sore.",
+          "why": "Kata borrow dapat dipahami dari pasangan tindakan meminjam dan mengembalikan. Konteks memberi petunjuk bahwa sepeda digunakan sementara, bukan dimiliki.",
+          "check": "Apa arti borrow yang paling sesuai dengan konteks return it?",
+          "checkAnswer": "Meminjam untuk digunakan sementara. Kata return menunjukkan barang harus dikembalikan.",
+          "phase": "Kosakata dalam konteks"
+        },
+        {
+          "title": "Gunakan definisi atau penjelasan di sekitar kata",
+          "explanation": "Penulis terkadang menjelaskan kata sulit secara langsung, dengan frasa seperti means, that is, atau penjelasan setelah koma. Petunjuk definisi membantu mempersempit arti.",
+          "english": "A maintenance book records repairs and checks.",
+          "indonesian": "Buku perawatan mencatat perbaikan dan pemeriksaan.",
+          "why": "Frasa records repairs and checks menjelaskan fungsi maintenance book. Maintenance berkaitan dengan perawatan agar benda tetap berfungsi.",
+          "check": "Jika sebuah buku mencatat pemeriksaan dan perbaikan, apa makna maintenance yang paling cocok?",
+          "checkAnswer": "Perawatan atau pemeliharaan. Maknanya didukung oleh kegiatan memeriksa dan memperbaiki.",
+          "phase": "Kosakata dalam konteks"
+        },
+        {
+          "title": "Cari contoh, kategori, atau anggota kelompok",
+          "explanation": "Contoh konkret dapat menjelaskan kata umum. Perhatikan kata such as, including, for example, atau daftar benda setelah kata yang belum dikenal.",
+          "english": "The volunteer checks safety parts, such as brakes, tyres, and lights.",
+          "indonesian": "Relawan memeriksa bagian keselamatan, seperti rem, ban, dan lampu.",
+          "why": "Daftar brakes, tyres, and lights memberi contoh bagian sepeda yang diperiksa. Safety parts berarti bagian yang berkaitan dengan keselamatan.",
+          "check": "Apa petunjuk yang membantu memahami safety parts pada kalimat ini?",
+          "checkAnswer": "Contoh rem, ban, dan lampu. Daftar itu menunjukkan jenis bagian yang dimaksud.",
+          "phase": "Kosakata dalam konteks"
+        },
+        {
+          "title": "Gunakan kontras dan sebab-akibat, lalu uji dugaan arti",
+          "explanation": "Kata seperti but, however, although, because, dan so dapat memperjelas arti. Kontras menunjukkan perbedaan; sebab-akibat menunjukkan alasan atau hasil. Setelah membuat dugaan, gantilah kata asing dengan arti yang dipilih dan baca ulang kalimat. Jika maknanya tidak cocok dengan petunjuk, periksa kembali.",
+          "english": "The bicycle is small; however, it is strong enough for the trip.",
+          "indonesian": "Sepedanya kecil; namun, sepeda itu cukup kuat untuk perjalanan.",
+          "why": "However memberi kontras antara ukuran kecil dan kekuatan. Dugaan arti juga harus tetap cocok ketika kata asing diganti dengan makna yang kamu pilih.",
+          "check": "Hubungan apa yang ditandai however, dan bagaimana kamu menguji dugaan arti kata yang belum dikenal?",
+          "checkAnswer": "However menandai kontras. Untuk menguji arti kata, gantilah dengan dugaan makna lalu baca ulang; makna yang tepat harus cocok dengan kedua bagian kalimat.",
+          "phase": "Kosakata dalam konteks"
+        },
+        {
+          "title": "Temukan kata rujukan dan calon acuannya",
+          "explanation": "[[Reference words]] seperti he, she, it, they, this, these, dan those merujuk pada orang, benda, atau gagasan yang telah disebut. Cari calon acuan yang cocok dalam jumlah dan makna.",
+          "english": "The school bought six bicycles. They are kept near the library.",
+          "indonesian": "Sekolah membeli enam sepeda. Sepeda-sepeda itu disimpan dekat perpustakaan.",
+          "why": "They merujuk pada six bicycles karena jumlahnya jamak. Acuan tidak selalu kata benda terdekat jika maknanya tidak cocok.",
+          "check": "Dalam kalimat kedua, kata they merujuk pada siapa atau apa?",
+          "checkAnswer": "Six bicycles. Kata they berbentuk jamak dan menggantikan enam sepeda.",
+          "phase": "Kata rujukan dan rantainya"
+        },
+        {
+          "title": "Ikuti rantai rujukan lintas kalimat",
+          "explanation": "Satu benda dapat disebut dengan nama, pronoun, lalu frasa pengganti seperti the service atau this system. Ikuti rantai itu agar tidak kehilangan topik ketika paragraf berkembang.",
+          "english": "A volunteer checks each bicycle. The worker records any problem in a book.",
+          "indonesian": "Seorang relawan memeriksa setiap sepeda. Petugas itu mencatat masalah apa pun di sebuah buku.",
+          "why": "The worker mengacu pada volunteer. Kedua frasa menyebut orang yang sama dengan ungkapan berbeda.",
+          "check": "Apakah the worker memperkenalkan orang baru atau menyebut kembali volunteer?",
+          "checkAnswer": "Menyebut kembali volunteer. Makna kalimat dan kesinambungan tindakan menunjukkan acuan yang sama.",
+          "phase": "Kata rujukan dan rantainya"
+        },
+        {
+          "title": "Bedakan rujukan it, this, dan they",
+          "explanation": "It biasanya mengganti satu benda atau gagasan tunggal; they mengganti bentuk jamak; this dapat menunjuk satu hal atau seluruh gagasan sebelumnya. Periksa bentuk dan makna, bukan hanya jarak kata.",
+          "english": "The school repairs a damaged bicycle. This keeps the service safe.",
+          "indonesian": "Sekolah memperbaiki sepeda yang rusak. Hal ini menjaga layanan tetap aman.",
+          "why": "This merujuk pada tindakan memperbaiki sepeda, bukan hanya kata bicycle. Rujukan dapat berupa seluruh gagasan sebelumnya.",
+          "check": "Dalam contoh, apakah this menunjuk sepeda atau tindakan memperbaikinya?",
+          "checkAnswer": "Tindakan memperbaiki sepeda. Hasil “keamanan layanan” berasal dari tindakan tersebut.",
+          "phase": "Kata rujukan dan rantainya"
+        },
+        {
+          "title": "Kenali fungsi konektor dalam hubungan gagasan",
+          "explanation": "[[Connectors]] menghubungkan ide. And/additionally menambah informasi; but/however menunjukkan kontras; because memberi alasan; so/therefore menunjukkan hasil; before/after/then mengatur urutan. Tentukan hubungan sebelum menafsirkan kalimat berikutnya.",
+          "english": "The brakes were checked, so the bicycle was ready to use.",
+          "indonesian": "Rem diperiksa, sehingga sepeda siap digunakan.",
+          "why": "So menandai hasil dari pemeriksaan. Jangan menafsirkannya sebagai alasan atau pertentangan.",
+          "check": "Dalam contoh, apakah so menunjukkan sebab atau hasil?",
+          "checkAnswer": "Hasil. Kesiapan sepeda dinyatakan sebagai akibat dari pemeriksaan rem.",
+          "phase": "Konektor dan hubungan antargagasan"
+        },
+        {
+          "title": "Baca konektor bersama kalimat sebelum dan sesudahnya",
+          "explanation": "Satu konektor dapat mengubah arah argumen atau urutan peristiwa. Baca kedua sisi penghubung. However tidak berarti because; although memperkenalkan kontras; if memperkenalkan syarat.",
+          "english": "The school has six bicycles. However, students must bring their own helmets.",
+          "indonesian": "Sekolah memiliki enam sepeda. Namun, siswa harus membawa helm sendiri.",
+          "why": "However memperlihatkan batas layanan: sepeda disediakan, tetapi helm tidak. Kedua kalimat sama-sama benar dan tidak saling membatalkan.",
+          "check": "Apa kontras yang dibangun however pada contoh?",
+          "checkAnswer": "Sepeda disediakan oleh sekolah, sedangkan helm harus dibawa sendiri oleh siswa.",
+          "phase": "Konektor dan hubungan antargagasan"
+        },
+        {
+          "title": "Gabungkan kosakata, rujukan, dan konektor pada bacaan utuh",
+          "explanation": "Saat membaca teks multi-paragraf, tandai kata yang maknanya belum pasti, tarik garis ke acuannya, dan lingkari konektor. Lalu jelaskan bagaimana ketiganya membantu hubungan antargagasan. Jangan menafsirkan satu kata terpisah dari paragrafnya.",
+          "english": "Because the bicycles are shared, users must return them on time.",
+          "indonesian": "Karena sepeda digunakan bersama, peminjam harus mengembalikannya tepat waktu.",
+          "why": "Because menjelaskan alasan, them merujuk pada bicycles, dan shared memberi konteks bahwa sepeda dipakai bergantian. Tiga petunjuk bekerja bersama.",
+          "check": "Dalam kalimat ini, apa alasan pengembalian tepat waktu, dan them merujuk pada apa?",
+          "checkAnswer": "Sepeda digunakan bersama, dan them merujuk pada bicycles. Because memperkenalkan alasan untuk aturan pengembalian.",
+          "phase": "Menerapkan pada bacaan lengkap"
+        }
+      ],
+      "modelTitle": "Guided full passage · The Bicycle Library",
+      "modelEnglish": "Cendana School has a bicycle library for students who live near the campus. The school bought six bicycles with support from a local community group. Students can borrow one for the journey to school and return it before the afternoon activities begin. To use the service, a student completes a short form and shows a school card. The bicycle is available for one day, so it cannot be kept overnight.\n\nBefore each bicycle is borrowed, a volunteer checks its brakes, tyres, and lights. These checks help keep riders safe. If a problem appears, the volunteer writes it in a maintenance book and gives the bicycle to the school technician. The technician repairs it before another student can use it. However, the library does not provide helmets, so students must bring their own.\n\nThe project has made the morning journey easier for some students, especially those whose homes are too far to walk comfortably. It has also encouraged students to discuss road safety. Because the bicycles are shared, users must return them on time and report any damage. The school plans to add two more bicycles if it receives enough donations. It has not announced when that change will happen. The volunteer records each check before the school day begins.",
+      "modelIndonesian": "Sekolah Cendana memiliki perpustakaan sepeda bagi siswa yang tinggal dekat kampus. Sekolah membeli enam sepeda dengan dukungan kelompok masyarakat setempat. Siswa dapat meminjam satu sepeda untuk perjalanan ke sekolah dan mengembalikannya sebelum kegiatan sore dimulai. Untuk menggunakan layanan, siswa mengisi formulir singkat dan menunjukkan kartu sekolah. Sepeda tersedia selama satu hari, sehingga tidak boleh disimpan semalaman.\n\nSebelum setiap sepeda dipinjam, seorang relawan memeriksa rem, ban, dan lampunya. Pemeriksaan ini membantu menjaga keselamatan pengendara. Jika muncul masalah, relawan menuliskannya di buku perawatan dan menyerahkan sepeda kepada teknisi sekolah. Teknisi memperbaikinya sebelum siswa lain dapat menggunakannya. Namun, perpustakaan tidak menyediakan helm, sehingga siswa harus membawa helm sendiri.\n\nProyek ini membuat perjalanan pagi lebih mudah bagi beberapa siswa, terutama mereka yang rumahnya terlalu jauh untuk ditempuh dengan berjalan kaki secara nyaman. Proyek ini juga mendorong siswa membicarakan keselamatan jalan. Karena sepeda digunakan bersama, peminjam harus mengembalikannya tepat waktu dan melaporkan kerusakan. Sekolah berencana menambah dua sepeda jika menerima cukup banyak sumbangan. Sekolah belum mengumumkan kapan perubahan itu akan terjadi. Keran diperiksa setiap hari. Relawan mencatat setiap pemeriksaan sebelum hari sekolah dimulai.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Tiga petunjuk yang bekerja bersama",
+      "text": "Saat membaca, tanyakan: **What does the word mean here?** (gunakan konteks); **What does this word refer to?** (ikuti acuan); dan **How are the ideas connected?** (tafsirkan konektor). Jangan berhenti pada padanan kamus. Arti kata harus cocok dengan konteks, acuan harus cocok secara bentuk dan makna, dan konektor harus sesuai dengan hubungan dua bagian kalimat."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Petunjuk",
+        "Pertanyaan pembaca",
+        "Contoh fungsi"
+      ],
+      "rows": [
+        [
+          "Context clue",
+          "What meaning fits the surrounding sentence?",
+          "Contoh, definisi, kontras, atau akibat mempersempit arti kata"
+        ],
+        [
+          "Reference chain",
+          "Who or what does it / they / this refer to?",
+          "Pronoun atau frasa pengganti menjaga topik tetap terhubung"
+        ],
+        [
+          "Connector",
+          "What relationship links the two ideas?",
+          "Addition, contrast, cause, result, condition, or sequence"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · ikuti kata dan hubungan"
+    },
+    {
+      "type": "text",
+      "text": "Contoh berikut memperlihatkan cara menguji arti kata, menemukan acuan, dan membaca hubungan antarkalimat. Perhatikan bahwa petunjuk paling kuat sering berasal dari lebih dari satu kata."
+    },
+    {
+      "type": "example_group",
+      "title": "1 · Kosakata melalui petunjuk konteks",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The path was slippery, so the cyclist moved slowly.",
+          "indonesian": "Jalurnya licin, sehingga pesepeda bergerak perlahan.",
+          "note": "So dan moved slowly memberi petunjuk bahwa slippery berarti licin, bukan lebar atau ramai."
+        },
+        {
+          "english": "The notice says the service is free; students do not pay a fee.",
+          "indonesian": "Pengumuman menyebut layanan gratis; siswa tidak membayar biaya.",
+          "note": "Klausa setelah titik koma menjelaskan free. Penjelasan langsung lebih kuat daripada menebak dari bentuk kata."
+        },
+        {
+          "english": "The box is fragile, so volunteers carry it carefully.",
+          "indonesian": "Kotak itu mudah pecah, sehingga relawan membawanya dengan hati-hati.",
+          "note": "Akibat carry it carefully membantu menafsirkan fragile sebagai mudah rusak atau pecah."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2 · Acuan dan kesinambungan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Mira borrowed a helmet. She returned it after class.",
+          "indonesian": "Mira meminjam helm. Ia mengembalikannya setelah kelas.",
+          "note": "She merujuk Mira; it merujuk helmet. Bentuk tunggal membantu mencocokkan acuannya."
+        },
+        {
+          "english": "The volunteers checked the tyres. They were in good condition.",
+          "indonesian": "Para relawan memeriksa ban. Ban-ban itu dalam kondisi baik.",
+          "note": "They merujuk pada tyres, bukan volunteers, karena kondisi yang baik menjelaskan ban."
+        },
+        {
+          "english": "The school repaired the bicycle. This made it safe again.",
+          "indonesian": "Sekolah memperbaiki sepeda itu. Hal ini membuatnya aman kembali.",
+          "note": "This merujuk pada tindakan memperbaiki; it merujuk pada bicycle. Dua kata rujukan memiliki acuan berbeda."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3 · Konektor dan hubungan gagasan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The bicycle was old, but it was still safe.",
+          "indonesian": "Sepeda itu tua, tetapi masih aman.",
+          "note": "But menunjukkan kontras antara usia sepeda dan kondisinya; kata but tidak menunjukkan akibat."
+        },
+        {
+          "english": "The road was wet, so the group rode slowly.",
+          "indonesian": "Jalan basah, sehingga kelompok itu bersepeda perlahan.",
+          "note": "So memperkenalkan hasil. Jalan basah menjadi alasan untuk bergerak lebih perlahan."
+        },
+        {
+          "english": "Students may borrow a bicycle if they show a school card.",
+          "indonesian": "Siswa boleh meminjam sepeda jika menunjukkan kartu sekolah.",
+          "note": "If memperkenalkan syarat. Menunjukkan kartu merupakan kondisi untuk meminjam."
+        },
+        {
+          "english": "The volunteer checked the brakes before the student left.",
+          "indonesian": "Relawan memeriksa rem sebelum siswa berangkat.",
+          "note": "Before menata urutan waktu: pemeriksaan terjadi lebih dahulu daripada keberangkatan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka04-reference",
+      "prompt": "“The technician repaired the bicycle. This made it safe again.” What does “This” refer to?",
+      "translation": "“Teknisi memperbaiki sepeda itu. Hal ini membuatnya aman kembali.” Apa yang dirujuk oleh “This”?",
+      "choices": [
+        "The act of repairing the bicycle",
+        "The technician’s name",
+        "A new bicycle"
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Tindakan memperbaiki sepeda",
+        "Nama teknisi",
+        "Sepeda baru"
+      ],
+      "explanation": "This merujuk pada gagasan atau tindakan yang baru disebut, yaitu teknisi memperbaiki sepeda. It merujuk pada bicycle. Perhatikan bahwa dua kata rujukan dapat memiliki acuan berbeda.",
+      "hint": "This dapat menunjuk seluruh tindakan pada kalimat sebelumnya, bukan hanya satu kata benda."
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why should you read a connector together with the sentences around it?",
+      "translation": "Mengapa konektor perlu dibaca bersama kalimat di sekitarnya?",
+      "answer": "Karena konektor menunjukkan hubungan antara dua gagasan. Maknanya baru jelas setelah pembaca mengetahui informasi sebelum dan sesudahnya, misalnya kontras, alasan, hasil, syarat, atau urutan."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these reading moves",
+      "items": [
+        "Gunakan definisi, contoh, kontras, dan akibat untuk menebak arti kata secara hati-hati.",
+        "Cocokkan kata rujukan dengan calon acuan berdasarkan bentuk dan makna.",
+        "Telusuri rujukan lintas kalimat; this dapat menunjuk satu tindakan atau seluruh gagasan sebelumnya.",
+        "Tafsirkan konektor berdasarkan hubungan dua bagian teks, bukan dengan menghafal terjemahannya saja."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · use the complete model",
+      "prompt": "Read all three paragraphs of “The Bicycle Library”. Identify (1) the meaning of “maintenance” using its context, (2) the referent of “These checks”, “it”, and “them”, and (3) the relationships signalled by “However”, “Because”, and “if”. Quote the relevant words from the passage.",
+      "model": "“Maintenance” means care or upkeep; the next sentence mentions checking and repairing bicycles. “These checks” refers to checking the brakes, tyres, and lights. In “the technician repairs it”, it refers to the bicycle. In “users must return them”, them refers to the shared bicycles. “However” introduces the limit that helmets are not provided; “Because” gives the reason for returning shared bicycles on time; “if” introduces the condition for adding two bicycles.",
+      "modelTranslation": "“Maintenance” berarti perawatan atau pemeliharaan; kalimat berikutnya menyebut pemeriksaan dan perbaikan sepeda. “These checks” merujuk pada pemeriksaan rem, ban, dan lampu. Dalam “the technician repairs it”, it merujuk pada sepeda. Dalam “users must return them”, them merujuk pada sepeda yang digunakan bersama. “However” memperkenalkan batas bahwa helm tidak disediakan; “Because” memberi alasan pengembalian sepeda bersama tepat waktu; “if” memperkenalkan syarat penambahan dua sepeda.",
+      "criteria": "Arti kata dijelaskan dengan petunjuk konteks. Setiap rujukan dipasangkan dengan acuan yang tepat. Setiap konektor dijelaskan sebagai hubungan antargagasan. Jawaban menyertakan bukti kata dari bacaan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "context clue",
+          "indonesian": "petunjuk konteks"
+        },
+        {
+          "english": "reference word",
+          "indonesian": "kata rujukan"
+        },
+        {
+          "english": "referent",
+          "indonesian": "acuan"
+        },
+        {
+          "english": "pronoun",
+          "indonesian": "kata ganti"
+        },
+        {
+          "english": "demonstrative",
+          "indonesian": "kata penunjuk"
+        },
+        {
+          "english": "connector",
+          "indonesian": "kata penghubung"
+        },
+        {
+          "english": "contrast",
+          "indonesian": "pertentangan / kontras"
+        },
+        {
+          "english": "cause",
+          "indonesian": "sebab / alasan"
+        },
+        {
+          "english": "result",
+          "indonesian": "hasil / akibat"
+        },
+        {
+          "english": "condition",
+          "indonesian": "syarat"
+        },
+        {
+          "english": "maintenance",
+          "indonesian": "perawatan / pemeliharaan"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "“The glass is fragile, so the worker holds it carefully.” What does fragile mean here?",
+      "choices": [
+        "Easy to break",
+        "Very heavy",
+        "New and expensive"
+      ],
+      "answer": 0,
+      "explanation": "Kata so memperlihatkan akibat: pekerja memegang benda dengan hati-hati. Konteks ini mendukung makna mudah pecah, bukan berat atau mahal.",
+      "translationId": {
+        "prompt": "“Gelas itu fragile, sehingga pekerja memegangnya dengan hati-hati.” Apa arti fragile di sini?",
+        "choices": [
+          "Mudah pecah",
+          "Sangat berat",
+          "Baru dan mahal"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "“The students found a map. They used it to find the hall.” What does “it” refer to?",
+      "choices": [
+        "The students",
+        "The map",
+        "The hall"
+      ],
+      "answer": 1,
+      "explanation": "It menggantikan benda tunggal yang disebut sebelumnya, yaitu a map. The students berbentuk jamak dan the hall merupakan tujuan pencarian.",
+      "translationId": {
+        "prompt": "“Para siswa menemukan peta. Mereka menggunakannya untuk menemukan aula.” Apa acuan “it”?",
+        "choices": [
+          "Para siswa",
+          "Peta",
+          "Aula"
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "“The bus was late, so the students waited.” What relationship does so show?",
+      "choices": [
+        "Contrast",
+        "Condition",
+        "Result"
+      ],
+      "answer": 2,
+      "explanation": "So menghubungkan bus yang terlambat dengan akibatnya, yaitu siswa menunggu. But menunjukkan kontras dan if biasanya memperkenalkan syarat.",
+      "translationId": {
+        "prompt": "“Bus terlambat, sehingga para siswa menunggu.” Hubungan apa yang ditunjukkan so?",
+        "choices": [
+          "Kontras",
+          "Syarat",
+          "Akibat"
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-context-vocabulary-reference-connectors-practice"
+  ]
+}

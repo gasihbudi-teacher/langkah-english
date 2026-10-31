@@ -1,0 +1,495 @@
+{
+  "id": "tka-context-vocabulary-reference-connectors-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka4-refill-station",
+      "title": "The School Refill Station · Original A2 Practice Text",
+      "text": "Suka Jaya School opened a refill station beside the library. Students can fill a reusable bottle with drinking water before class or during the break. The station is available from seven in the morning until three in the afternoon. A small sign explains how to use the tap and reminds students to close it after filling a bottle. The tap is easy to reach.\n\nThe school chose a refill station because many students used single-use plastic bottles. These bottles were often thrown away after lunch. The new station gives students another choice. A reusable bottle can be washed and used again, so it may reduce the number of plastic bottles in the school bins. However, students must bring their own bottles because the station does not provide cups.\n\nA student volunteer checks the area twice a day. If the floor becomes wet, the volunteer places a warning sign nearby and tells the school office. This helps prevent people from slipping. The station is cleaned every afternoon by the school staff. During the first month, the school counted 140 refills, but it did not calculate how many plastic bottles were avoided. The project team plans to review the numbers at the end of the term."
+    },
+    {
+      "id": "tka4-river-watch",
+      "title": "The River Watch Team · Original B1 Practice Text",
+      "text": "The River Watch Team at Harapan Senior High School collects information about a stream that passes behind the sports field. The team began after residents reported that the water sometimes looked cloudy following heavy rain. A science teacher explained that a single observation cannot show whether water quality is changing. Therefore, students agreed to record the same features at regular times and compare their notes.\n\nEach Friday, four students visit two marked points along the stream. They observe the water colour, note any unusual smell, and measure its temperature with a simple thermometer. These readings are written on a shared form. The word “consistent” in the team's guide means that students should use the same method each week. This makes the records easier to compare, although it does not turn the school activity into a laboratory test.\n\nThe team also takes photographs from the same positions. This allows members to compare visible changes without relying only on memory. If the water looks unusually cloudy, they inform the teacher, who contacts the local environmental office when necessary. The students do not touch the water or collect samples because they have not received the equipment and training for that work.\n\nAfter eight weeks, the students noticed that the stream was often clearer on dry days than after heavy rain. However, their notes do not prove what caused every change. The team plans to continue recording observations during the next term and share a short report with residents. Its main contribution is a regular record that can help the community ask better questions, not a formal scientific conclusion about the stream."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka4-refill-station",
+      "skill": "Vocabulary in context",
+      "prompt": "What does “reusable” mean in the passage?",
+      "choices": [
+        "Able to be used again",
+        "Made to be thrown away immediately",
+        "Filled only by school staff",
+        "Too large to carry"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the next sentence says the bottle can be washed and used again.",
+        "The passage contrasts reusable bottles with single-use bottles, so this is the opposite meaning.",
+        "Students bring and use their own bottles; staff do not fill every bottle.",
+        "The text gives no information about bottle size."
+      ],
+      "translationId": {
+        "prompt": "Apa arti “reusable” dalam bacaan?",
+        "choices": [
+          "Dapat digunakan kembali",
+          "Dibuat untuk langsung dibuang",
+          "Hanya diisi oleh petugas sekolah",
+          "Terlalu besar untuk dibawa"
+        ]
+      },
+      "evidence": "A reusable bottle can be washed and used again",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Petunjuk makna muncul langsung setelah istilah: botol dapat dicuci dan digunakan lagi. Gunakan kalimat penjelas itu, bukan tebakan dari bentuk kata."
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka4-refill-station",
+      "skill": "Reference words",
+      "prompt": "Which statements correctly identify the references in the passage? Select ALL.",
+      "choices": [
+        "“These bottles” refers to single-use plastic bottles",
+        "“This” in “This helps prevent people from slipping” refers to placing a warning sign and telling the office when the floor is wet",
+        "“It” in “close it after filling a bottle” refers to the library",
+        "“The station” in “the station does not provide cups” refers to the refill station"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: the previous sentence names single-use plastic bottles, which are the referent.",
+        "Correct: the warning sign and report are the actions that help prevent slipping.",
+        "The word it refers to the tap, not the library.",
+        "Correct: “the station” refers to the refill station introduced in the first paragraph."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana yang tepat mengidentifikasi acuan dalam bacaan? Pilih SEMUA.",
+        "choices": [
+          "“These bottles” merujuk pada botol plastik sekali pakai",
+          "“This” pada “This helps prevent people from slipping” merujuk pada pemasangan tanda peringatan dan pemberitahuan ke kantor saat lantai basah",
+          "“It” pada “close it after filling a bottle” merujuk pada perpustakaan",
+          "“The station” pada “the station does not provide cups” merujuk pada stasiun isi ulang"
+        ]
+      },
+      "evidence": "These bottles were often thrown away after lunch",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Ikuti kata yang disebut sebelumnya dan cocokkan makna. These bottles mengulang botol plastik sekali pakai; this merangkum tindakan pencegahan; it pada instruksi keran merujuk pada tap; the station mengulang refill station."
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka4-refill-station",
+      "skill": "Connector functions",
+      "prompt": "Classify the function of each connector as used in the passage.",
+      "categories": [
+        "Cause",
+        "Contrast",
+        "Result"
+      ],
+      "statements": [
+        {
+          "text": "“because” in “The school chose a refill station because many students used single-use plastic bottles”",
+          "answerCategory": "Cause",
+          "explanation": "Because memperkenalkan alasan sekolah memilih stasiun isi ulang."
+        },
+        {
+          "text": "“However” in “However, students must bring their own bottles”",
+          "answerCategory": "Contrast",
+          "explanation": "However memperlihatkan batas layanan setelah informasi tentang pilihan botol yang dapat digunakan kembali."
+        },
+        {
+          "text": "“so” in “so it may reduce the number of plastic bottles”",
+          "answerCategory": "Result",
+          "explanation": "So memperkenalkan kemungkinan hasil dari penggunaan botol yang dapat dicuci dan dipakai lagi."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan fungsi konektor sebagaimana digunakan dalam bacaan.",
+        "categories": [
+          "Sebab",
+          "Kontras",
+          "Akibat"
+        ],
+        "statements": [
+          "“because” pada kalimat “The school chose a refill station because many students used single-use plastic bottles”",
+          "“However” pada kalimat “However, students must bring their own bottles”",
+          "“so” pada kalimat “so it may reduce the number of plastic bottles”"
+        ]
+      },
+      "evidence": "The school chose a refill station because many students used single-use plastic bottles",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Because memberi alasan, however menandai batas atau kontras, dan so menunjukkan hasil. Tafsirkan konektor dari hubungan kalimat lengkap."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka4-refill-station",
+      "skill": "Vocabulary in context",
+      "prompt": "What does “nearby” mean in the sentence about the warning sign?",
+      "choices": [
+        "Far from the wet floor",
+        "Close to the wet floor",
+        "Inside the library office",
+        "Under the water tap"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The sign is placed to warn people about the wet area, so far away would not fit the purpose.",
+        "Correct: nearby means close to the place being discussed.",
+        "The passage does not say the sign is inside the office.",
+        "The sign is placed on the floor area, not under the tap."
+      ],
+      "translationId": {
+        "prompt": "Apa arti “nearby” dalam kalimat tentang tanda peringatan?",
+        "choices": [
+          "Jauh dari lantai basah",
+          "Dekat dengan lantai basah",
+          "Di dalam kantor perpustakaan",
+          "Di bawah keran air"
+        ]
+      },
+      "evidence": "the volunteer places a warning sign nearby",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Fungsi tanda peringatan membantu memahami nearby: tanda harus diletakkan dekat area basah agar orang melihatnya."
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka4-refill-station",
+      "skill": "Connector relationships",
+      "prompt": "Which statements about connector meanings are correct? Select ALL.",
+      "choices": [
+        "“because” introduces the reason for choosing the station",
+        "“However” introduces a limitation about bringing bottles",
+        "“If” introduces the condition under which the volunteer acts",
+        "“During” signals a contrast between two opinions"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: because introduces the reason students used single-use bottles.",
+        "Correct: however introduces the limit that students must bring their own bottles.",
+        "Correct: if introduces the condition that the floor becomes wet.",
+        "During marks a time period, not a contrast between opinions."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana tentang makna konektor yang benar? Pilih SEMUA.",
+        "choices": [
+          "“because” memperkenalkan alasan memilih stasiun",
+          "“However” memperkenalkan batas bahwa siswa harus membawa botol sendiri",
+          "“If” memperkenalkan kondisi ketika relawan bertindak",
+          "“During” menandai kontras antara dua pendapat"
+        ]
+      },
+      "evidence": "If the floor becomes wet, the volunteer places a warning sign nearby",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Periksa hubungan yang diperkenalkan setiap konektor. Because = alasan, however = kontras/batas, if = syarat, sedangkan during = waktu."
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka4-refill-station",
+      "skill": "Reference chain",
+      "prompt": "Classify each reference by what it points to.",
+      "categories": [
+        "A physical object",
+        "An action or idea",
+        "A person"
+      ],
+      "statements": [
+        {
+          "text": "“it” in “close it after filling a bottle”",
+          "answerCategory": "A physical object",
+          "explanation": "It merujuk pada keran atau tap yang harus ditutup setelah digunakan."
+        },
+        {
+          "text": "“This” in “This helps prevent people from slipping”",
+          "answerCategory": "An action or idea",
+          "explanation": "This merangkum tindakan menaruh tanda peringatan dan memberi tahu kantor sekolah."
+        },
+        {
+          "text": "“the volunteer” in the paragraph about checking the area",
+          "answerCategory": "A person",
+          "explanation": "Volunteer menunjuk orang yang menjalankan tugas relawan; kategori ini mengelompokkan rujukan manusia, bukan benda atau tindakan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap rujukan berdasarkan hal yang ditunjuk.",
+        "categories": [
+          "Benda fisik",
+          "Tindakan atau gagasan",
+          "Seseorang"
+        ],
+        "statements": [
+          "“it” pada “close it after filling a bottle”",
+          "“This” pada “This helps prevent people from slipping”",
+          "“the volunteer” pada paragraf tentang pemeriksaan area"
+        ]
+      },
+      "evidence": "This helps prevent people from slipping",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "It menunjuk keran, this menunjuk tindakan pencegahan, dan volunteer menunjuk orang. Periksa apakah kata merujuk pada benda, tindakan, atau manusia."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka4-river-watch",
+      "skill": "Vocabulary in context",
+      "prompt": "What does “consistent” mean in the team’s guide?",
+      "choices": [
+        "Using a different method every week",
+        "Recording only unusual events",
+        "Using the same method each week",
+        "Working without a written form"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The passage says students should not change the method every week.",
+        "The team records regular observations, not only unusual events.",
+        "Correct: the guide defines consistent as using the same method each week.",
+        "The students use a shared form to record readings."
+      ],
+      "translationId": {
+        "prompt": "Apa arti “consistent” dalam panduan tim?",
+        "choices": [
+          "Menggunakan metode berbeda setiap minggu",
+          "Hanya mencatat peristiwa tidak biasa",
+          "Menggunakan metode yang sama setiap minggu",
+          "Bekerja tanpa formulir tertulis"
+        ]
+      },
+      "evidence": "students should use the same method each week",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bacaan memberikan definisi langsung setelah kata consistent. Maknanya ialah memakai metode yang sama agar catatan dapat dibandingkan."
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka4-river-watch",
+      "skill": "Reference across paragraphs",
+      "prompt": "Which reference matches are correct? Select ALL.",
+      "choices": [
+        "“These readings” refers to the observations and measurements recorded on the shared form",
+        "“This” in “This allows members to compare visible changes” refers to taking photographs from the same positions",
+        "“they” in “they inform the teacher” refers to the students who notice unusually cloudy water",
+        "“Its” in the final sentence refers to the local environmental office"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: readings refers to the recorded observations and temperature measurements.",
+        "Correct: photographs from the same positions allow visual comparison.",
+        "Correct: students are the team members who inform the teacher when they notice unusual cloudiness.",
+        "Its refers to the River Watch Team, whose contribution is described in the final paragraph."
+      ],
+      "translationId": {
+        "prompt": "Pasangan rujukan mana yang benar? Pilih SEMUA.",
+        "choices": [
+          "“These readings” merujuk pada pengamatan dan pengukuran yang dicatat di formulir bersama",
+          "“This” pada “This allows members to compare visible changes” merujuk pada pengambilan foto dari posisi yang sama",
+          "“they” pada “they inform the teacher” merujuk pada siswa yang melihat air sangat keruh",
+          "“Its” pada kalimat terakhir merujuk pada kantor lingkungan setempat"
+        ]
+      },
+      "evidence": "These readings are written on a shared form",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Rujukan harus cocok dengan makna dan urutan. These readings merangkum hasil pengamatan; this menunjuk tindakan memotret; they menunjuk anggota tim; its menunjuk tim."
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka4-river-watch",
+      "skill": "Connector functions",
+      "prompt": "Classify the relationship expressed by each connector.",
+      "categories": [
+        "Time sequence",
+        "Contrast",
+        "Condition"
+      ],
+      "statements": [
+        {
+          "text": "“following” in “following heavy rain”",
+          "answerCategory": "Time sequence",
+          "explanation": "Following menandai urutan waktu: pengamatan air keruh dilaporkan terjadi setelah hujan lebat."
+        },
+        {
+          "text": "“However” in “However, their notes do not prove what caused every change.”",
+          "answerCategory": "Contrast",
+          "explanation": "However membatasi kesimpulan setelah pengamatan yang tampak lebih jernih pada hari kering."
+        },
+        {
+          "text": "“If” in “If the water looks unusually cloudy, they inform the teacher.”",
+          "answerCategory": "Condition",
+          "explanation": "If memperkenalkan syarat yang harus terjadi sebelum siswa memberi tahu guru."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan hubungan yang dinyatakan oleh setiap konektor.",
+        "categories": [
+          "Urutan waktu",
+          "Kontras",
+          "Syarat"
+        ],
+        "statements": [
+          "“following” pada frasa “following heavy rain”",
+          "“However” dalam “However, their notes do not prove what caused every change.”",
+          "“If” dalam “If the water looks unusually cloudy, they inform the teacher.”"
+        ]
+      },
+      "evidence": "However, their notes do not prove what caused every change",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "After menata urutan waktu dan konteks hubungan pengamatan dengan hujan, however menandai batas kesimpulan, dan if menyatakan syarat tindakan."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka4-river-watch",
+      "skill": "Connector meaning",
+      "prompt": "What does “Therefore” show in the first paragraph?",
+      "choices": [
+        "An example of the stream’s colour",
+        "A contrast with the residents’ report",
+        "A condition for visiting the stream",
+        "A result or decision based on the teacher’s explanation"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The stream colour is not given as an example after therefore.",
+        "The sentence does not contrast two different colours or opinions.",
+        "Therefore does not introduce a condition; if is used for that purpose.",
+        "Correct: the teacher explains the limits of one observation, so students decide to record features regularly."
+      ],
+      "translationId": {
+        "prompt": "Apa yang ditunjukkan oleh “Therefore” pada paragraf pertama?",
+        "choices": [
+          "Contoh warna sungai",
+          "Kontras dengan laporan warga",
+          "Syarat untuk mengunjungi sungai",
+          "Hasil atau keputusan berdasarkan penjelasan guru"
+        ]
+      },
+      "evidence": "Therefore, students agreed to record the same features at regular times",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Therefore memperkenalkan keputusan yang mengikuti penjelasan guru. Siswa memilih pengamatan berkala agar dapat membandingkan catatan."
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka4-river-watch",
+      "skill": "Vocabulary in context",
+      "prompt": "Which context clues help explain the meaning of “cloudy” in the passage? Select ALL.",
+      "choices": [
+        "The water sometimes looked cloudy after heavy rain",
+        "Students record water colour and compare observations",
+        "The team has a shared form",
+        "The word is used to describe a change in how the water looks"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: the timing after heavy rain helps the reader picture a change in water appearance.",
+        "Correct: recording water colour is directly relevant to understanding cloudy.",
+        "The shared form explains how data are recorded, not the meaning of cloudy.",
+        "Correct: the sentence uses cloudy to describe the visible appearance of the water."
+      ],
+      "translationId": {
+        "prompt": "Petunjuk konteks mana yang membantu menjelaskan arti “cloudy”? Pilih SEMUA.",
+        "choices": [
+          "Air kadang tampak keruh setelah hujan lebat",
+          "Siswa mencatat warna air dan membandingkan pengamatan",
+          "Tim memiliki formulir bersama",
+          "Kata tersebut digunakan untuk menggambarkan perubahan tampilan air"
+        ]
+      },
+      "evidence": "residents reported that the water sometimes looked cloudy following heavy rain",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Makna cloudy didukung oleh konteks tampilan air, warna yang diamati, dan hubungannya dengan hujan. Formulir hanya menjelaskan cara pencatatan."
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka4-river-watch",
+      "skill": "Reference and connector review",
+      "prompt": "Classify each item by its role in the passage.",
+      "categories": [
+        "Reference to a group",
+        "Reference to an action",
+        "Connector showing contrast"
+      ],
+      "statements": [
+        {
+          "text": "“they” in “they inform the teacher”",
+          "answerCategory": "Reference to a group",
+          "explanation": "They menggantikan anggota River Watch Team yang melihat air sangat keruh."
+        },
+        {
+          "text": "“This” in “This allows members to compare visible changes”",
+          "answerCategory": "Reference to an action",
+          "explanation": "This menunjuk tindakan mengambil foto dari posisi yang sama."
+        },
+        {
+          "text": "“However” in the final paragraph",
+          "answerCategory": "Connector showing contrast",
+          "explanation": "However memperlihatkan batas antara pola pengamatan dan kesimpulan sebab yang belum dapat dibuktikan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap unsur berdasarkan fungsinya dalam bacaan.",
+        "categories": [
+          "Rujukan pada kelompok",
+          "Rujukan pada tindakan",
+          "Konektor yang menunjukkan kontras"
+        ],
+        "statements": [
+          "“they” pada “they inform the teacher”",
+          "“This” pada “This allows members to compare visible changes”",
+          "“However” pada paragraf terakhir"
+        ]
+      },
+      "evidence": "However, their notes do not prove what caused every change",
+      "proficiencyTarget": "B1",
+      "genre": "report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "They menunjuk anggota tim, this menunjuk tindakan memotret, dan however membatasi kesimpulan. Ketiganya membantu mengikuti kesinambungan dan hubungan antargagasan."
+    }
+  ]
+}

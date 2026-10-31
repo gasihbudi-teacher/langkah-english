@@ -3966,6 +3966,186 @@
       },
       "kind": "practice",
       "examFormat": "topic"
+    },
+    {
+      "id": "tka-classify-outline-summarize-synthesize",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-classify-outline-summarize-synthesize-practice",
+        "tka-explicit-information",
+        "tka-reading-foundations"
+      ],
+      "file": "data/lessons/tka-classify-outline-summarize-synthesize.json",
+      "order": 605,
+      "title": "TKA-03 · Mengelompokkan, Membuat Kerangka, Meringkas, dan Mensintesis",
+      "description": "11 langkah untuk memetakan gagasan utama, fungsi paragraf, rincian, ringkasan, dan sintesis melalui bacaan lengkap; 10 contoh beralasan dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Classifying information",
+        "Outlining",
+        "Summarising",
+        "Synthesising"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C2"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive and recount",
+        "theme": "school projects and community learning",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 50,
+      "prerequisites": [
+        "tka-reading-foundations",
+        "tka-explicit-information"
+      ]
+    },
+    {
+      "id": "tka-classify-outline-summarize-synthesize-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-classify-outline-summarize-synthesize"
+      ],
+      "file": "data/quizzes/tka-classify-outline-summarize-synthesize-practice.json",
+      "order": 606,
+      "title": "Latihan TKA-03 · Kerangka, Ringkasan, dan Sintesis",
+      "description": "12 soal asli pada bacaan A2/B1 multi-paragraf; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Classifying information",
+        "Outlining",
+        "Summarising",
+        "Synthesising"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C2"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive and recount",
+        "theme": "school projects and community learning",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
+    },
+    {
+      "id": "tka-context-vocabulary-reference-connectors",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-context-vocabulary-reference-connectors-practice",
+        "tka-explicit-information",
+        "tka-classify-outline-summarize-synthesize"
+      ],
+      "file": "data/lessons/tka-context-vocabulary-reference-connectors.json",
+      "order": 607,
+      "title": "TKA-04 · Kosakata, Kata Rujukan, dan Penghubung dalam Konteks",
+      "description": "10 langkah membaca petunjuk kosakata, melacak kata rujukan, dan memahami konektor dalam bacaan multi-paragraf; 10 contoh beralasan dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Vocabulary in context",
+        "Reference",
+        "Connectors"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C2"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive and report",
+        "theme": "school services and community environment",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 45,
+      "prerequisites": [
+        "tka-reading-foundations",
+        "tka-explicit-information"
+      ]
+    },
+    {
+      "id": "tka-context-vocabulary-reference-connectors-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-context-vocabulary-reference-connectors"
+      ],
+      "file": "data/quizzes/tka-context-vocabulary-reference-connectors-practice.json",
+      "order": 608,
+      "title": "Latihan TKA-04 · Kosakata, Rujukan, dan Konektor",
+      "description": "12 soal asli pada bacaan A2/B1 multi-paragraf; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Vocabulary in context",
+        "Reference",
+        "Connectors"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C2"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 descriptive and report",
+        "theme": "school services and community environment",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

@@ -1,7 +1,7 @@
 import {getCatalog,esc,link,progress} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
-// Planned sequence from the 2026-10-26 blueprint. TKA-01 and TKA-02 are published in V13-C1.
+// Planned sequence from the 2026-10-26 blueprint. V13-C2 publishes TKA-01 through TKA-04.
 export const tkaModules=[
  ['TKA-01','Jembatan TKA: Dari Kalimat ke Bacaan',12,'tkaFoundations'],
  ['TKA-02','Menemukan Informasi Tersurat dan Parafrasa',9,'tkaTextual'],
@@ -22,6 +22,8 @@ const newQuizzes=document.querySelector('#tka-new-quizzes');
 const published={
  'TKA-01':['tka-reading-foundations','tka-reading-foundations-practice'],
  'TKA-02':['tka-explicit-information','tka-explicit-information-practice'],
+ 'TKA-03':['tka-classify-outline-summarize-synthesize','tka-classify-outline-summarize-synthesize-practice'],
+ 'TKA-04':['tka-context-vocabulary-reference-connectors','tka-context-vocabulary-reference-connectors-practice'],
 };
 let items=[],tkaLessons=[],tkaQuizzes=[];
 const card=(r,type,done=false)=>`<li class="simple-resource"><div><h3><a href="${link(r.id,type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(r.difficulty)}</small>${done?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,type)}" aria-label="${esc(t('tkaStudy'))}: ${esc(r.title)}">↗</a></li>`;

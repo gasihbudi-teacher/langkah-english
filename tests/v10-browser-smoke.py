@@ -146,7 +146,7 @@ async def run():
   print(json.dumps(test_counts,ensure_ascii=False,indent=2))
   print('ERRORS',errors)
   await browser.close()
-  return not errors and test_counts['home_stats']==4 and test_counts['home_path_cards']==4 and test_counts['home_duplicate_sections']==0 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']==101 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
+  return not errors and test_counts['home_stats']==4 and test_counts['home_path_cards']==4 and test_counts['home_duplicate_sections']==0 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']==105 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
 if __name__=='__main__':
  ok=asyncio.run(run())
  if not ok:raise SystemExit(1)
