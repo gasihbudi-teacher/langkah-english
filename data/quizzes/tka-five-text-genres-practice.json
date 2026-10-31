@@ -1,0 +1,509 @@
+{
+  "id": "tka-five-text-genres-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka9-green-week",
+      "title": "Five Texts for Green Week · Original A2 Practice",
+      "text": "The school’s Green Week folder contains five short texts about the courtyard. The first says: “The courtyard is a bright space with a stone path, two benches, and yellow flowers beside the gate.” It helps visitors picture the place.\n\nAnother text begins, “Last Tuesday, Class 10B cleaned the courtyard. First, students collected paper. Then they watered the plants.” It reports an event that has already happened.\n\nA story tells how Sari found a lost key near the flowers. She asked the caretaker for help, and together they returned it to the owner. The problem and its solution make the text a short narrative.\n\nA card gives instructions: “To plant a seed, fill a small pot with soil, make a hole, place the seed inside, and water it gently.” The steps tell readers what to do.\n\nThe final text states, “The school should keep the courtyard garden because it gives students a calm place to read and attracts butterflies. A weekly care plan can keep it healthy.” It gives a position and reasons. The five texts share one topic, but they have different purposes and structures. A student can use the folder to learn about the place, remember an event, enjoy a story, follow a task, or consider a proposal."
+    },
+    {
+      "id": "tka9-community-open-day",
+      "title": "The Community Centre Noticeboard · Original B1 Practice",
+      "text": "The community centre prepared a noticeboard for its annual open day. Visitors first saw a descriptive panel about the building: “The centre stands beside the river. Its wide windows face a small garden, and a wooden ramp leads to the main room.” The panel uses details to help people imagine the place.\n\nA volunteer’s recount described last year’s event. “On 14 June, we opened the doors at eight. By nine, families had arrived. After the welcome speech, the repair team demonstrated how to mend a torn bag.” The sequence of dated events tells readers what happened.\n\nA short narrative on the next panel followed a child named Bima. He lost his notebook during the event, searched the reading room, and finally found it beside the sign-in desk. The small problem and its resolution give the text a story structure.\n\nThe noticeboard also included a procedure for borrowing sports equipment: “Choose an item, show your membership card, write your name in the log, and return the equipment before closing.” These ordered instructions guide an action.\n\nThe final panel argued that the centre should extend its Saturday opening time. It stated that many families work on weekdays and that a later closing time would give them more access. The writer added that the centre could test the change for one month and review visitor numbers. This text presents a position, reasons, and a possible evaluation. A reader should identify the dominant purpose of each panel rather than classify all five as the same genre because they appear on one noticeboard. The date, audience, and organisation of information help readers make a careful decision."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka9-green-week",
+      "skill": "Descriptive purpose",
+      "prompt": "What is the main purpose of the first text about the courtyard?",
+      "evidence": "The courtyard is a bright space with a stone path, two benches, and yellow flowers beside the gate.",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Teks pertama menyebut ciri tempat—jalan batu, bangku, dan bunga—agar pembaca dapat membayangkannya. Tidak ada langkah, rangkaian kejadian lampau, atau posisi yang didukung alasan.",
+      "choices": [
+        "To help visitors picture the courtyard.",
+        "To explain how to plant flowers.",
+        "To retell a past clean-up event.",
+        "To persuade the school to close the gate."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: it lists features of the place.",
+        "It gives no planting instructions.",
+        "It does not recount a completed event.",
+        "It does not argue for closing the gate."
+      ],
+      "translationId": {
+        "prompt": "Apa tujuan utama teks pertama tentang halaman sekolah?",
+        "choices": [
+          "Membantu pengunjung membayangkan halaman sekolah.",
+          "Menjelaskan cara menanam bunga.",
+          "Menceritakan kembali kegiatan bersih-bersih lampau.",
+          "Meyakinkan sekolah untuk menutup gerbang."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka9-green-week",
+      "skill": "Descriptive language cues",
+      "prompt": "Which details help the first text create a picture of the courtyard? Select ALL that apply.",
+      "evidence": "The courtyard is a bright space with a stone path, two benches, and yellow flowers beside the gate.",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Dua pilihan pertama merupakan rincian ciri fisik. Kejadian Class 10B termasuk recount, sedangkan urutan menanam termasuk procedure.",
+      "choices": [
+        "It names the stone path.",
+        "It mentions two benches.",
+        "It reports that Class 10B cleaned the area last Tuesday.",
+        "It gives a sequence for planting a seed."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: the path is a physical feature.",
+        "Correct: the benches are a descriptive detail.",
+        "This belongs to the recount text.",
+        "This belongs to the procedure text."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang membantu teks pertama membangun gambaran halaman sekolah? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Teks menyebut jalan batu.",
+          "Teks menyebut dua bangku.",
+          "Teks melaporkan bahwa kelas 10B membersihkan area Selasa lalu.",
+          "Teks memberi urutan menanam benih."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka9-green-week",
+      "skill": "Genre classification",
+      "prompt": "Classify each text feature by its dominant genre.",
+      "evidence": "To plant a seed, fill a small pot with soil, make a hole, place the seed inside, and water it gently.",
+      "proficiencyTarget": "A2",
+      "genre": "mixed text types",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Setiap pernyataan memiliki fungsi dominan yang berbeda. Ciri fisik menunjukkan descriptive, kejadian lampau menunjukkan recount, dan instruksi tindakan menunjukkan procedure.",
+      "categories": [
+        "Descriptive",
+        "Recount",
+        "Narrative",
+        "Procedure",
+        "Analytical exposition"
+      ],
+      "statements": [
+        {
+          "text": "Lists colours, shapes, and physical features of the courtyard.",
+          "answerCategory": "Descriptive",
+          "explanation": "Teks berfokus pada ciri fisik untuk membangun gambaran."
+        },
+        {
+          "text": "Reports what Class 10B did last Tuesday in time order.",
+          "answerCategory": "Recount",
+          "explanation": "Teks menceritakan kembali kejadian lampau secara berurutan."
+        },
+        {
+          "text": "Gives actions for planting a seed.",
+          "answerCategory": "Procedure",
+          "explanation": "Teks memandu pembaca melakukan tugas melalui langkah."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap ciri teks berdasarkan genre dominannya.",
+        "categories": [
+          "Deskriptif",
+          "Recount",
+          "Naratif",
+          "Prosedur",
+          "Eksposisi analitis"
+        ],
+        "statements": [
+          "Menyebut warna, bentuk, dan ciri fisik halaman.",
+          "Melaporkan tindakan kelas 10B Selasa lalu secara berurutan.",
+          "Memberi tindakan untuk menanam benih."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "tka9-green-week",
+      "skill": "Recount structure",
+      "prompt": "Which detail most clearly shows that the second text is a recount?",
+      "evidence": "Last Tuesday, Class 10B cleaned the courtyard. First, students collected paper. Then they watered the plants.",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "“Last Tuesday” menetapkan waktu lampau, sedangkan first dan then mengurutkan kegiatan yang telah dilakukan. Ini mendukung recount.",
+      "choices": [
+        "It describes the colour of the flowers.",
+        "It reports a dated event in a sequence.",
+        "It gives a list of materials for planting.",
+        "It asks the school to change a policy."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The passage does not focus on flower colours.",
+        "Correct: a past event is reported in chronological order.",
+        "It does not provide materials or instructions.",
+        "It does not present a policy argument."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang paling jelas menunjukkan bahwa teks kedua merupakan recount?",
+        "choices": [
+          "Teks menggambarkan warna bunga.",
+          "Teks melaporkan kejadian bertanggal secara berurutan.",
+          "Teks memberi daftar bahan untuk menanam.",
+          "Teks meminta sekolah mengubah kebijakan."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "multiple",
+      "passageId": "tka9-green-week",
+      "skill": "Recount cues",
+      "prompt": "Which features support the second text as a recount? Select ALL that apply.",
+      "evidence": "Last Tuesday, Class 10B cleaned the courtyard. First, students collected paper. Then they watered the plants.",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Teks menyebut waktu lampau dan mengurutkan tindakan yang sudah dilakukan. Tidak ada instruksi untuk pembaca atau argumen yang hendak dibuktikan.",
+      "choices": [
+        "It refers to a past day.",
+        "It orders completed actions.",
+        "It gives commands for a future task.",
+        "It presents a thesis and supporting reasons."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: “Last Tuesday” locates the event in the past.",
+        "Correct: first and then order completed actions.",
+        "Commands for a future task signal a procedure.",
+        "A thesis with reasons signals analytical exposition."
+      ],
+      "translationId": {
+        "prompt": "Ciri mana yang mendukung teks kedua sebagai recount? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Teks merujuk pada hari lampau.",
+          "Teks mengurutkan tindakan yang telah selesai.",
+          "Teks memberi perintah untuk tugas mendatang.",
+          "Teks menyajikan tesis dan alasan pendukung."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "category",
+      "passageId": "tka9-community-open-day",
+      "skill": "Genre classification",
+      "prompt": "Classify each panel by its dominant purpose.",
+      "evidence": "The panel uses details to help people imagine the place.",
+      "proficiencyTarget": "B1",
+      "genre": "mixed text types",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Tujuan dominan membedakan ketiga panel: menggambarkan tempat, menceritakan kejadian lampau, dan meyakinkan pembaca melalui argumen.",
+      "categories": [
+        "Descriptive",
+        "Recount",
+        "Narrative",
+        "Procedure",
+        "Analytical exposition"
+      ],
+      "statements": [
+        {
+          "text": "The panel describes the centre’s windows, garden, and ramp.",
+          "answerCategory": "Descriptive",
+          "explanation": "Rincian bangunan membantu pembaca membayangkan tempat."
+        },
+        {
+          "text": "The volunteer reports the events of 14 June in sequence.",
+          "answerCategory": "Recount",
+          "explanation": "Tanggal dan urutan kejadian menunjukkan recount."
+        },
+        {
+          "text": "The panel asks readers to support longer Saturday opening hours and gives reasons.",
+          "answerCategory": "Analytical exposition",
+          "explanation": "Posisi dan alasan bertujuan meyakinkan pembaca."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap panel berdasarkan tujuan dominannya.",
+        "categories": [
+          "Deskriptif",
+          "Recount",
+          "Naratif",
+          "Prosedur",
+          "Eksposisi analitis"
+        ],
+        "statements": [
+          "Panel menggambarkan jendela, kebun, dan jalur landai pusat komunitas.",
+          "Relawan melaporkan kejadian tanggal 14 Juni secara berurutan.",
+          "Panel meminta pembaca mendukung jam buka Sabtu yang lebih lama dan memberikan alasan."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "tka9-community-open-day",
+      "skill": "Analytical exposition purpose",
+      "prompt": "Why does the final panel recommend a later Saturday closing time?",
+      "evidence": "The writer added that the centre could test the change for one month and review visitor numbers.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Panel terakhir mengajukan posisi, memberikan alasan tentang keluarga yang bekerja pada hari kerja, dan mengusulkan uji coba yang dapat dievaluasi. Fungsinya meyakinkan pembaca.",
+      "choices": [
+        "To describe the centre’s windows.",
+        "To retell the opening speech.",
+        "To support a position with reasons and a possible evaluation.",
+        "To give step-by-step borrowing instructions."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Window details belong to the descriptive panel.",
+        "The opening speech is part of the recount.",
+        "Correct: it gives a position, reasons, and a way to review the proposal.",
+        "Borrowing steps appear in the procedure panel."
+      ],
+      "translationId": {
+        "prompt": "Mengapa panel terakhir merekomendasikan jam tutup Sabtu yang lebih lambat?",
+        "choices": [
+          "Untuk menggambarkan jendela pusat komunitas.",
+          "Untuk menceritakan kembali pidato pembukaan.",
+          "Untuk mendukung posisi dengan alasan dan evaluasi yang mungkin dilakukan.",
+          "Untuk memberi instruksi peminjaman langkah demi langkah."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "multiple",
+      "passageId": "tka9-community-open-day",
+      "skill": "Narrative structure",
+      "prompt": "Which details help the Bima panel function as a narrative? Select ALL that apply.",
+      "evidence": "He lost his notebook during the event, searched the reading room, and finally found it beside the sign-in desk.",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bima adalah tokoh; kehilangan buku catatan menjadi masalah; penemuan buku menjadi penyelesaian. Instruksi peminjaman berada pada panel lain.",
+      "choices": [
+        "Bima is a character in the events.",
+        "The lost notebook creates a small problem.",
+        "The notebook is found, resolving the problem.",
+        "The panel gives numbered instructions for borrowing equipment."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: Bima is the character.",
+        "Correct: the lost notebook creates the problem.",
+        "Correct: finding it resolves the problem.",
+        "This describes the separate procedure panel."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang membuat panel Bima berfungsi sebagai narrative? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Bima merupakan tokoh dalam peristiwa.",
+          "Buku catatan yang hilang menimbulkan masalah kecil.",
+          "Buku catatan ditemukan sehingga masalah selesai.",
+          "Panel memberi instruksi bernomor untuk meminjam peralatan."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "category",
+      "passageId": "tka9-green-week",
+      "skill": "Genre classification",
+      "prompt": "Classify the purpose of each extract.",
+      "evidence": "The problem and its solution make the text a short narrative.",
+      "proficiencyTarget": "A2",
+      "genre": "mixed text types",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Kalimat pertama menggambarkan, kalimat kedua membangun kejadian dengan tokoh dan masalah, sedangkan kalimat ketiga menyatakan posisi dan alasan.",
+      "categories": [
+        "Descriptive",
+        "Recount",
+        "Narrative",
+        "Procedure",
+        "Analytical exposition"
+      ],
+      "statements": [
+        {
+          "text": "“The courtyard is a bright space with a stone path.”",
+          "answerCategory": "Descriptive",
+          "explanation": "Kalimat menggambarkan karakteristik tempat."
+        },
+        {
+          "text": "“Sari found a lost key and asked the caretaker for help.”",
+          "answerCategory": "Narrative",
+          "explanation": "Tokoh menghadapi masalah dan mengambil tindakan dalam cerita."
+        },
+        {
+          "text": "“The school should keep the courtyard garden because it gives students a calm place to read.”",
+          "answerCategory": "Analytical exposition",
+          "explanation": "Pernyataan posisi disertai alasan untuk meyakinkan pembaca."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan tujuan setiap kutipan.",
+        "categories": [
+          "Deskriptif",
+          "Recount",
+          "Naratif",
+          "Prosedur",
+          "Eksposisi analitis"
+        ],
+        "statements": [
+          "“Halaman adalah tempat cerah dengan jalan batu.”",
+          "“Sari menemukan kunci yang hilang dan meminta bantuan penjaga.”",
+          "“Sekolah sebaiknya mempertahankan kebun halaman karena memberi siswa tempat tenang untuk membaca.”"
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka9-community-open-day",
+      "skill": "Procedure structure",
+      "prompt": "Which feature makes the equipment-borrowing panel a procedure?",
+      "evidence": "Choose an item, show your membership card, write your name in the log, and return the equipment before closing.",
+      "proficiencyTarget": "B1",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Panel tersebut memberi serangkaian tindakan berurutan yang harus dilakukan untuk meminjam alat. Itulah fungsi procedure.",
+      "choices": [
+        "It describes the centre’s appearance.",
+        "It tells a story about Bima.",
+        "It reports last year’s event.",
+        "It gives ordered actions for completing a task."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "It does not describe the building.",
+        "Bima’s lost notebook appears in the narrative.",
+        "Last year’s events are in the recount.",
+        "Correct: the instructions guide readers through a task."
+      ],
+      "translationId": {
+        "prompt": "Ciri mana yang membuat panel peminjaman peralatan termasuk procedure?",
+        "choices": [
+          "Teks menggambarkan penampilan pusat komunitas.",
+          "Teks menceritakan Bima.",
+          "Teks melaporkan acara tahun lalu.",
+          "Teks memberi tindakan berurutan untuk menyelesaikan tugas."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka9-community-open-day",
+      "skill": "Analytical exposition structure",
+      "prompt": "Which elements support the final panel as analytical exposition? Select ALL that apply.",
+      "evidence": "The final panel argued that the centre should extend its Saturday opening time.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Panel terakhir menyatakan posisi, memberi alasan, dan mengusulkan evaluasi. Rincian fisik bangunan bukan fungsi dominannya.",
+      "choices": [
+        "It states a position about opening hours.",
+        "It gives a reason about families working on weekdays.",
+        "It proposes a one-month trial and review of visitor numbers.",
+        "It mainly lists the centre’s physical features."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the panel argues for longer Saturday hours.",
+        "Correct: it supports the position with a reason.",
+        "Correct: it proposes a test and review.",
+        "Physical features belong to descriptive writing."
+      ],
+      "translationId": {
+        "prompt": "Unsur mana yang mendukung panel terakhir sebagai analytical exposition? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Teks menyatakan posisi tentang jam buka.",
+          "Teks memberi alasan bahwa keluarga bekerja pada hari kerja.",
+          "Teks mengusulkan uji coba satu bulan dan peninjauan jumlah pengunjung.",
+          "Teks terutama menyebut ciri fisik pusat komunitas."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka9-community-open-day",
+      "skill": "Genre classification",
+      "prompt": "Classify each text structure.",
+      "evidence": "The sequence of dated events tells readers what happened.",
+      "proficiencyTarget": "B1",
+      "genre": "mixed text types",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Struktur teks merupakan petunjuk penting: urutan kejadian lampau, langkah untuk mencapai hasil, dan posisi dengan alasan memiliki fungsi berbeda.",
+      "categories": [
+        "Descriptive",
+        "Recount",
+        "Narrative",
+        "Procedure",
+        "Analytical exposition"
+      ],
+      "statements": [
+        {
+          "text": "Orientation followed by ordered past events and a closing comment.",
+          "answerCategory": "Recount",
+          "explanation": "Struktur tersebut menceritakan kembali pengalaman atau kejadian lampau."
+        },
+        {
+          "text": "A goal followed by imperative steps.",
+          "answerCategory": "Procedure",
+          "explanation": "Tujuan dan langkah perintah merupakan pola procedure."
+        },
+        {
+          "text": "A position supported by reasons and a possible restatement.",
+          "answerCategory": "Analytical exposition",
+          "explanation": "Tesis, argumen, dan penegasan ulang mendukung tujuan persuasif."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap struktur teks.",
+        "categories": [
+          "Deskriptif",
+          "Recount",
+          "Naratif",
+          "Prosedur",
+          "Eksposisi analitis"
+        ],
+        "statements": [
+          "Orientasi diikuti urutan kejadian lampau dan komentar penutup.",
+          "Tujuan diikuti langkah-langkah perintah.",
+          "Posisi didukung alasan dan kemungkinan penegasan ulang."
+        ]
+      }
+    }
+  ]
+}

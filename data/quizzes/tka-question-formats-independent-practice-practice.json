@@ -1,0 +1,495 @@
+{
+  "id": "tka-question-formats-independent-practice-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka10-repair-table",
+      "title": "The School Repair Table · Original A2 Practice",
+      "text": "On Wednesday, the school opened a repair table in the library hall. Students could bring a torn bag, a loose button, or a bicycle with a small problem. The table was open from ten until one. Three volunteers helped visitors, and a teacher checked that each item was safe to handle. Items with broken batteries or exposed wires were not accepted.\n\nRina brought a bag with a loose strap. A volunteer showed her how to make a strong stitch. She finished the repair with a little help and took the bag home. Another student brought a bicycle with a loose bell. The volunteer tightened the bell and asked the student to test it before leaving.\n\nBy the end of the day, 14 students had visited the table. They repaired 17 items because some students brought two things. A short note asked visitors whether they would come again. Eleven students answered yes. The school plans to repeat the event, but it has not yet checked whether the repairs lasted for several weeks.\n\nThe report gives several details directly. Readers may also make careful inferences, such as thinking that students found the service useful. However, the report does not say that every student attended or that all repaired items stayed in good condition. Students should separate a likely conclusion from a fact that the report actually records."
+    },
+    {
+      "id": "tka10-reading-bus",
+      "title": "The Neighbourhood Reading Bus · Original B1 Practice",
+      "text": "A neighbourhood library started a Saturday reading bus to reach families who lived far from the main building. The bus stopped at three community locations between nine in the morning and two in the afternoon. It carried picture books, short novels, large-print titles, and a small table for registration. A librarian and two trained volunteers travelled with it.\n\nDuring the first six Saturdays, the team recorded 186 book loans. The figure counted loans, not individual readers, because one family could borrow several books. The busiest stop was the market square, where the bus stayed for forty minutes. At the housing estate, fewer people visited during heavy rain. The team changed its sign so that the timetable could be read from a greater distance.\n\nA feedback card asked visitors what they wanted next. Thirty-one of the forty respondents requested more books for younger readers, while nine asked for longer visits. The librarian said the bus made borrowing easier for some families. The team has not yet compared reading habits before and after the service, and it has not interviewed families who did not visit any stop.\n\nThe library plans to keep the bus for another term and review the route. The loan record can show how often books were borrowed at the stops, while the feedback cards describe the views of people who responded. Neither source alone proves that reading skills improved across the neighbourhood. A later review will need broader participation and a way to measure change over time. It should also record visits consistently at each stop and explain which groups are still missing from the feedback."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka10-repair-table",
+      "skill": "Direct detail",
+      "prompt": "When was the school repair table open?",
+      "evidence": "The table was open from ten until one.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Bacaan menyebut jam buka secara langsung, yaitu dari pukul sepuluh sampai pukul satu. Pilihan lain tidak sesuai dengan waktu yang dicatat.",
+      "choices": [
+        "From eight until ten.",
+        "From nine until noon.",
+        "From ten until one.",
+        "From one until four."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The passage does not give this time.",
+        "The passage does not give this time.",
+        "Correct: the stated hours are ten until one.",
+        "The event had already closed by one."
+      ],
+      "translationId": {
+        "prompt": "Kapan meja perbaikan sekolah dibuka?",
+        "choices": [
+          "Dari pukul delapan sampai sepuluh.",
+          "Dari pukul sembilan sampai tengah hari.",
+          "Dari pukul sepuluh sampai pukul satu.",
+          "Dari pukul satu sampai empat."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka10-repair-table",
+      "skill": "Direct details",
+      "prompt": "Which items were specifically mentioned as suitable examples to bring? Select ALL that apply.",
+      "evidence": "Students could bring a torn bag, a loose button, or a bicycle with a small problem.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Tiga barang pertama disebut sebagai contoh barang yang dapat dibawa. Barang dengan kabel terbuka tidak diterima karena alasan keselamatan.",
+      "choices": [
+        "A torn bag.",
+        "A loose button.",
+        "A bicycle with a small problem.",
+        "A television with exposed wires."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: a torn bag is listed as an item visitors may bring.",
+        "Correct: a loose button is listed.",
+        "Correct: a bicycle with a small problem is listed.",
+        "Exposed wires are specifically excluded."
+      ],
+      "translationId": {
+        "prompt": "Barang mana yang secara khusus disebut sebagai contoh barang yang boleh dibawa? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Tas yang robek.",
+          "Kancing yang longgar.",
+          "Sepeda dengan masalah kecil.",
+          "Televisi dengan kabel terbuka."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka10-repair-table",
+      "skill": "Evidence classification",
+      "prompt": "Classify each statement using the passage.",
+      "evidence": "By the end of the day, 14 students had visited the table.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Hari pembukaan dan bantuan kepada Rina disebut langsung. Klaim bahwa semua siswa menggunakan layanan tidak didukung oleh jumlah pengunjung yang terbatas.",
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The repair table opened on Wednesday.",
+          "answerCategory": "Directly stated",
+          "explanation": "Hari pembukaan disebut secara langsung pada kalimat pertama."
+        },
+        {
+          "text": "Rina received help while repairing her bag.",
+          "answerCategory": "Directly stated",
+          "explanation": "Bacaan menyebut relawan membantu Rina membuat jahitan yang kuat."
+        },
+        {
+          "text": "Every student in the school used the repair table.",
+          "answerCategory": "Not supported",
+          "explanation": "Bacaan hanya menyebut 14 pengunjung, bukan seluruh siswa."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan bacaan.",
+        "categories": [
+          "Dinyatakan langsung",
+          "Inferensi wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Meja perbaikan dibuka pada hari Rabu.",
+          "Rina menerima bantuan saat memperbaiki tasnya.",
+          "Setiap siswa di sekolah menggunakan meja perbaikan."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "tka10-repair-table",
+      "skill": "Reasonable inference",
+      "prompt": "What can be reasonably inferred about the teacher at the repair table?",
+      "evidence": "a teacher checked that each item was safe to handle.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Bacaan menyebut guru memeriksa keamanan barang. Dapat disimpulkan bahwa pemeriksaan dilakukan untuk memastikan barang aman ditangani; rincian lain tidak disebutkan atau bertentangan.",
+      "choices": [
+        "The teacher checked safety before volunteers worked on items.",
+        "The teacher repaired every bicycle alone.",
+        "The teacher allowed items with exposed wires.",
+        "The teacher counted every visitor twice."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the safety check is stated before the item-handling description.",
+        "The passage mentions volunteers helping with repairs, not the teacher repairing every bicycle.",
+        "Items with exposed wires were not accepted.",
+        "No double-counting of visitors is described."
+      ],
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan secara wajar tentang guru di meja perbaikan?",
+        "choices": [
+          "Guru memeriksa keamanan sebelum relawan menangani barang.",
+          "Guru memperbaiki semua sepeda sendirian.",
+          "Guru mengizinkan barang dengan kabel terbuka.",
+          "Guru menghitung setiap pengunjung dua kali."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "multiple",
+      "passageId": "tka10-repair-table",
+      "skill": "Limits and scope",
+      "prompt": "Which statements are supported by the repair-table report? Select ALL that apply.",
+      "evidence": "They repaired 17 items because some students brought two things.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Laporan menyebut 14 siswa dan 17 barang karena beberapa siswa membawa dua barang. Tidak ada tindak lanjut beberapa minggu kemudian; hal itu justru disebut belum diperiksa.",
+      "choices": [
+        "Fourteen students visited the table.",
+        "Seventeen items were repaired.",
+        "Some students brought more than one item.",
+        "Every repair was checked again several weeks later."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the report states that 14 students visited the table.",
+        "Correct: 17 items were repaired.",
+        "Correct: some visitors brought two things.",
+        "The report says the school has not checked whether repairs lasted."
+      ],
+      "translationId": {
+        "prompt": "Pernyataan mana yang didukung laporan meja perbaikan? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Empat belas siswa mengunjungi meja.",
+          "Tujuh belas barang diperbaiki.",
+          "Beberapa siswa membawa lebih dari satu barang.",
+          "Setiap perbaikan diperiksa kembali beberapa minggu kemudian."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "category",
+      "passageId": "tka10-repair-table",
+      "skill": "Evidence classification",
+      "prompt": "Classify each statement as directly stated, a reasonable inference, or not supported.",
+      "evidence": "The school plans to repeat the event, but it has not yet checked whether the repairs lasted for several weeks.",
+      "proficiencyTarget": "A2",
+      "genre": "informational report",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Rencana acara berikutnya disebut langsung. Kebutuhan informasi tambahan merupakan inferensi wajar, sedangkan daya tahan semua barang tidak dibuktikan.",
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The school plans to hold another repair event.",
+          "answerCategory": "Directly stated",
+          "explanation": "Rencana mengulang acara dinyatakan secara langsung."
+        },
+        {
+          "text": "The organisers may want more information before making improvements.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Rencana mengulang acara dan belum adanya pemeriksaan daya tahan mendukung inferensi bahwa informasi tambahan dapat berguna."
+        },
+        {
+          "text": "All repaired items remained in good condition for a month.",
+          "answerCategory": "Not supported",
+          "explanation": "Laporan menyatakan bahwa daya tahan perbaikan belum diperiksa."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan sebagai dinyatakan langsung, inferensi wajar, atau tidak didukung.",
+        "categories": [
+          "Dinyatakan langsung",
+          "Inferensi wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Sekolah berencana mengadakan kegiatan perbaikan lagi.",
+          "Penyelenggara mungkin menginginkan informasi lebih banyak sebelum melakukan perbaikan.",
+          "Semua barang yang diperbaiki tetap dalam kondisi baik selama satu bulan."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "tka10-reading-bus",
+      "skill": "Evidence and scope",
+      "prompt": "What does the figure of 186 represent?",
+      "evidence": "the team recorded 186 book loans.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual",
+      "explanation": "Angka 186 menghitung peminjaman buku selama enam Sabtu, bukan keluarga atau seluruh pengunjung. Bacaan secara eksplisit membedakan loans dari individual readers.",
+      "choices": [
+        "The number of different families in the neighbourhood.",
+        "The number of book loans recorded during six Saturdays.",
+        "The number of books owned by the library.",
+        "The number of visitors at the market square only."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The passage says the figure counted loans, not individual readers.",
+        "Correct: 186 loans were recorded during the first six Saturdays.",
+        "The figure is about loans, not the library collection.",
+        "It covers all stops, not only the market square."
+      ],
+      "translationId": {
+        "prompt": "Apa yang diwakili angka 186?",
+        "choices": [
+          "Jumlah keluarga berbeda di lingkungan itu.",
+          "Jumlah peminjaman buku yang dicatat selama enam hari Sabtu.",
+          "Jumlah buku milik perpustakaan.",
+          "Jumlah pengunjung di alun-alun pasar saja."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "multiple",
+      "passageId": "tka10-reading-bus",
+      "skill": "Feedback and sampling",
+      "prompt": "Which details describe limitations of the reading-bus evidence? Select ALL that apply.",
+      "evidence": "it has not interviewed families who did not visit any stop.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Jumlah pinjaman bukan jumlah pembaca unik, kartu tanggapan hanya berasal dari responden, dan keluarga yang tidak datang belum diwawancarai. Tiga lokasi merupakan deskripsi rute, bukan keterbatasan bukti itu sendiri.",
+      "choices": [
+        "The loan count does not identify the number of individual readers.",
+        "The feedback cards represent only people who responded.",
+        "Families who did not visit any stop were not interviewed.",
+        "The bus stopped at three community locations."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: several loans may belong to one reader or family.",
+        "Correct: only 40 people returned feedback cards.",
+        "Correct: non-visiting families were not interviewed.",
+        "The three stops describe the service route."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang menggambarkan keterbatasan bukti bus baca? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Jumlah peminjaman tidak menunjukkan jumlah pembaca individu.",
+          "Kartu tanggapan hanya mewakili orang yang menjawab.",
+          "Keluarga yang tidak mengunjungi titik pemberhentian tidak diwawancarai.",
+          "Bus berhenti di tiga lokasi komunitas."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "category",
+      "passageId": "tka10-reading-bus",
+      "skill": "Evidence classification",
+      "prompt": "Classify each statement according to the reading-bus report.",
+      "evidence": "Thirty-one of the forty respondents requested more books for younger readers, while nine asked for longer visits.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Jumlah responden dinyatakan langsung. Rencana mempertimbangkan buku tambahan merupakan inferensi yang wajar, sedangkan klaim tentang semua keluarga terlalu luas.",
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "Thirty-one respondents requested more books for younger readers.",
+          "answerCategory": "Directly stated",
+          "explanation": "Jumlah 31 dari 40 responden dinyatakan secara langsung."
+        },
+        {
+          "text": "The team may consider adding books for younger readers.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Permintaan 31 responden memberi alasan bagi tim untuk mempertimbangkan tambahan buku."
+        },
+        {
+          "text": "All families in the neighbourhood requested longer visits.",
+          "answerCategory": "Not supported",
+          "explanation": "Hanya sembilan dari 40 responden meminta kunjungan lebih lama; tidak ada survei terhadap semua keluarga."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan laporan bus baca.",
+        "categories": [
+          "Dinyatakan langsung",
+          "Inferensi wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Tiga puluh satu responden meminta lebih banyak buku untuk pembaca muda.",
+          "Tim mungkin mempertimbangkan menambah buku untuk pembaca muda.",
+          "Semua keluarga di lingkungan itu meminta kunjungan lebih lama."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka10-reading-bus",
+      "skill": "Proportional conclusion",
+      "prompt": "Which conclusion is best supported by the reading-bus report?",
+      "evidence": "Neither source alone proves that reading skills improved across the neighbourhood.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Catatan peminjaman menunjukkan penggunaan layanan dan kartu tanggapan menunjukkan pandangan responden. Tidak ada pengukuran kemampuan membaca sebelum-sesudah atau data dari keluarga yang tidak datang.",
+      "choices": [
+        "The bus improved every child’s reading skills.",
+        "Every family used the bus at least once.",
+        "The service was equally busy at all three stops.",
+        "The records describe borrowing and respondent views, but do not prove neighbourhood-wide skill gains."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The report does not measure every child’s reading skills.",
+        "It does not state that every family used the bus.",
+        "Visitor numbers differed by location and weather.",
+        "Correct: this conclusion respects what the evidence does and does not show."
+      ],
+      "translationId": {
+        "prompt": "Kesimpulan mana yang paling didukung oleh laporan bus baca?",
+        "choices": [
+          "Bus meningkatkan kemampuan membaca setiap anak.",
+          "Setiap keluarga menggunakan bus setidaknya sekali.",
+          "Layanan sama ramainya di ketiga lokasi.",
+          "Catatan menggambarkan peminjaman dan pandangan responden, tetapi tidak membuktikan peningkatan kemampuan membaca seluruh lingkungan."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka10-reading-bus",
+      "skill": "Reasonable inferences",
+      "prompt": "Which inferences are reasonable from the reading-bus report? Select ALL that apply.",
+      "evidence": "The team changed its sign so that the timetable could be read from a greater distance.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Tim mengubah tanda agar jadwal lebih mudah dibaca, alun-alun pasar paling ramai, dan hujan berkaitan dengan lebih sedikit pengunjung di kawasan perumahan. Tidak ada bukti bahwa setiap keluarga menginginkan kunjungan lebih lama.",
+      "choices": [
+        "The team used feedback or observation to improve how visitors saw the timetable.",
+        "The market square was the busiest stop during the first six Saturdays.",
+        "Every family preferred longer visits.",
+        "The bus route may need to consider weather conditions at the housing estate."
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: the sign was changed to improve visibility.",
+        "Correct: the market square is explicitly called the busiest stop.",
+        "Only nine of forty respondents asked for longer visits; this does not represent every family.",
+        "Correct: heavy rain coincided with fewer visits at that stop, so weather is relevant to route planning."
+      ],
+      "translationId": {
+        "prompt": "Inferensi mana yang wajar dari laporan bus baca? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Tim menggunakan tanggapan atau pengamatan untuk memperbaiki keterbacaan jadwal.",
+          "Alun-alun pasar merupakan titik paling ramai selama enam Sabtu pertama.",
+          "Setiap keluarga lebih menyukai kunjungan yang lebih lama.",
+          "Rute bus mungkin perlu mempertimbangkan kondisi cuaca di kawasan perumahan."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka10-reading-bus",
+      "skill": "Evidence classification",
+      "prompt": "Classify each conclusion by the evidence available.",
+      "evidence": "Neither source alone proves that reading skills improved across the neighbourhood.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Data peminjaman disebut langsung. Pertimbangan mempertahankan titik ramai merupakan inferensi, sedangkan dampak terhadap kemampuan semua anak tidak didukung.",
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The bus recorded 186 loans during the first six Saturdays.",
+          "answerCategory": "Directly stated",
+          "explanation": "Angka peminjaman dan periode enam Sabtu disebut langsung."
+        },
+        {
+          "text": "The market square may be a useful stop for future visits.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Titik tersebut disebut paling ramai, sehingga dapat dipertimbangkan untuk rute berikutnya."
+        },
+        {
+          "text": "The bus caused reading skills to improve for every child.",
+          "answerCategory": "Not supported",
+          "explanation": "Tidak ada pengukuran keterampilan sebelum-sesudah atau data yang mencakup setiap anak."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan berdasarkan bukti yang tersedia.",
+        "categories": [
+          "Dinyatakan langsung",
+          "Inferensi wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Bus mencatat 186 peminjaman selama enam Sabtu pertama.",
+          "Alun-alun pasar mungkin merupakan titik yang berguna untuk kunjungan mendatang.",
+          "Bus menyebabkan kemampuan membaca setiap anak meningkat."
+        ]
+      }
+    }
+  ]
+}

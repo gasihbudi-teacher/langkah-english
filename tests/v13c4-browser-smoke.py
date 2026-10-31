@@ -71,7 +71,7 @@ async def check_lesson(page,lesson_id,expected_steps):
  assert (steps,examples)==(expected_steps,10) and 200<=words<=300,(lesson_id,steps,examples,words)
  return {'steps':steps,'examples':examples,'model_words':words}
 
-async def check_quiz(page,quiz_id):
+async def check_quiz(page,quiz_id,expected_category=9):
  await setup(page,'quiz.html','quiz.js','?id='+quiz_id)
  await page.locator('#practice').click()
  await page.wait_for_selector('#question .choice')
@@ -80,7 +80,7 @@ async def check_quiz(page,quiz_id):
  multi=await page.locator('#question [data-multi]').count()
  await page.locator('#next').click()
  category=await page.locator('#question [data-row]').count()
- assert (single,multi,category)==(4,4,9),(quiz_id,single,multi,category)
+ assert (single,multi,category)==(4,4,expected_category),(quiz_id,single,multi,category)
  return [single,multi,category]
 
 async def main():
@@ -95,8 +95,8 @@ async def main():
   modules=await page.locator('#tka-module-list .tka-module').count()
   stage=await page.locator('.tka-stage').inner_text()
   overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
-  assert (lessons,quizzes,modules)==(8,8,10),(lessons,quizzes,modules,errors)
-  assert 'V13-C4' in stage and overflow==0,(stage,overflow)
+  assert (lessons,quizzes,modules)==(10,10,10),(lessons,quizzes,modules,errors)
+  assert 'V13-C5' in stage and overflow==0,(stage,overflow)
   l05=await check_lesson(page,'tka-implied-ideas-audience-purpose-message',11)
   l06=await check_lesson(page,'tka-inference-cause-character-prediction',14)
   q05=await check_quiz(page,'tka-implied-ideas-audience-purpose-message-practice')
@@ -105,8 +105,12 @@ async def main():
   l08=await check_lesson(page,'tka-narrative-appreciation',10)
   q07=await check_quiz(page,'tka-evaluating-facts-opinions-evidence-practice')
   q08=await check_quiz(page,'tka-narrative-appreciation-practice')
+  l09=await check_lesson(page,'tka-five-text-genres',14)
+  l10=await check_lesson(page,'tka-question-formats-independent-practice',9)
+  q09=await check_quiz(page,'tka-five-text-genres-practice',15)
+  q10=await check_quiz(page,'tka-question-formats-independent-practice-practice')
   assert not errors,errors
-  print(json.dumps({'tka_lessons':lessons,'tka_quizzes':quizzes,'roadmap_modules':modules,'mobile_overflow':overflow,'tka05_lesson':l05,'tka06_lesson':l06,'tka05_quiz_controls':q05,'tka06_quiz_controls':q06,'tka07_lesson':l07,'tka08_lesson':l08,'tka07_quiz_controls':q07,'tka08_quiz_controls':q08,'page_errors':errors},ensure_ascii=False,indent=2))
+  print(json.dumps({'tka_lessons':lessons,'tka_quizzes':quizzes,'roadmap_modules':modules,'mobile_overflow':overflow,'tka05_lesson':l05,'tka06_lesson':l06,'tka05_quiz_controls':q05,'tka06_quiz_controls':q06,'tka07_lesson':l07,'tka08_lesson':l08,'tka07_quiz_controls':q07,'tka08_quiz_controls':q08,'tka09_lesson':l09,'tka10_lesson':l10,'tka09_quiz_controls':q09,'tka10_quiz_controls':q10,'page_errors':errors},ensure_ascii=False,indent=2))
   await browser.close()
 
 asyncio.run(main())

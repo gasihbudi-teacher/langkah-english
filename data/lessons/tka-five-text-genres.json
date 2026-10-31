@@ -1,0 +1,451 @@
+{
+  "id": "tka-five-text-genres",
+  "objectives": [
+    "Mengenali tujuan komunikatif descriptive, recount, narrative, procedure, dan analytical exposition.",
+    "Membandingkan struktur serta fungsi paragraf pada lima genre teks TKA.",
+    "Menggunakan ciri bahasa, audiens, dan konteks sebagai petunjuk tanpa bergantung pada satu kata kunci.",
+    "Menentukan genre dominan dan mendukung jawaban dengan bukti dari teks."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa yang dimaksud dengan genre teks?",
+      "text": "[[Genre]] adalah jenis teks yang dikenali melalui tujuan komunikatif, organisasi informasi, dan pilihan bahasa. Lima genre yang dipelajari di sini ialah descriptive, recount, narrative, procedure, dan analytical exposition. Topik tidak menentukan genre: satu topik dapat dibahas melalui beberapa tujuan yang berbeda."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Pelajari lima genre dengan menanyakan apa yang ingin dilakukan penulis kepada pembaca. Bacalah model yang memuat lima contoh singkat, lalu bandingkan tujuan, struktur, dan petunjuk bahasa. Jangan menetapkan genre hanya dari satu kata atau topik.",
+      "steps": [
+        {
+          "title": "Mulai dari tujuan komunikatif",
+          "explanation": "Genre adalah jenis teks yang dikenali melalui tujuan komunikatif, organisasi informasi, dan pilihan bahasa. Jangan menebak genre hanya dari topik. Teks tentang kebun dapat mendeskripsikan tempat, menceritakan kejadian, memberi instruksi, atau menyampaikan argumen.",
+          "english": "The writer describes the garden so readers can picture it.",
+          "indonesian": "Penulis mendeskripsikan kebun agar pembaca dapat membayangkannya.",
+          "why": "Tujuan menggambarkan ciri-ciri menunjukkan fungsi deskriptif. Topik kebun saja belum cukup untuk menetapkan genre.",
+          "check": "Pertanyaan apa yang sebaiknya diajukan sebelum menentukan genre sebuah teks?",
+          "checkAnswer": "Tanyakan apa yang ingin dilakukan penulis kepada pembaca: menggambarkan, menceritakan, mengarahkan, atau meyakinkan. ",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Kenali teks deskriptif",
+          "explanation": "Descriptive text menggambarkan orang, tempat, hewan, atau benda melalui ciri yang relatif menetap. Perhatikan kata sifat, rincian bagian, ukuran, warna, lokasi, dan simple present. Tujuannya membantu pembaca membentuk gambaran.",
+          "english": "The courtyard has a wide path and three shady trees.",
+          "indonesian": "Halaman memiliki jalan yang lebar dan tiga pohon rindang.",
+          "why": "Kalimat menyebut karakteristik halaman, bukan peristiwa yang bergerak dari awal ke akhir.",
+          "check": "Apa yang membuat kalimat ini bersifat deskriptif, bukan recount?",
+          "checkAnswer": "Kalimat menggambarkan ciri halaman dan tidak menceritakan rangkaian kejadian pada waktu tertentu.",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Kenali recount melalui urutan kejadian",
+          "explanation": "Recount menceritakan kembali peristiwa yang telah terjadi. Susunannya sering bergerak dari pengenalan waktu atau peserta ke rangkaian kejadian, lalu penutup atau komentar. Kata kerja lampau dan penanda waktu dapat membantu, tetapi bukan satu-satunya dasar.",
+          "english": "Last Friday, our class collected leaves and filled four bags.",
+          "indonesian": "Jumat lalu, kelas kami mengumpulkan daun dan mengisi empat kantong.",
+          "why": "Penanda waktu lampau dan rangkaian kegiatan menunjukkan kejadian yang sudah berlangsung.",
+          "check": "Petunjuk apa yang menunjukkan bahwa penulis sedang menceritakan kembali pengalaman?",
+          "checkAnswer": "Ada waktu lampau “Last Friday” dan rangkaian tindakan yang sudah dilakukan.",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Bedakan narrative dari recount",
+          "explanation": "Narrative biasanya mengembangkan tokoh, masalah atau konflik, rangkaian tindakan, dan penyelesaian. Recount dapat berisi kejadian berurutan tanpa konflik cerita. Periksa apakah peristiwa disusun untuk membangun ketegangan atau perubahan tokoh.",
+          "english": "Mira found a bird and waited until it was safe.",
+          "indonesian": "Mira menemukan seekor burung dan menunggu sampai burung itu aman.",
+          "why": "Tokoh menghadapi situasi yang perlu ditanggapi. Jika cerita mengembangkan masalah dan penyelesaian, fungsi naratif lebih kuat daripada laporan pengalaman biasa.",
+          "check": "Apa yang perlu dicari agar sebuah rangkaian kejadian dapat dikenali sebagai narrative?",
+          "checkAnswer": "Cari tokoh, masalah atau konflik, tindakan untuk menghadapinya, dan penyelesaian atau perubahan.",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Kenali procedure melalui tujuan dan langkah",
+          "explanation": "Procedure menjelaskan cara mencapai hasil. Struktur umum dapat memuat tujuan, bahan atau alat jika diperlukan, lalu langkah berurutan. Perhatikan kata kerja perintah seperti cut, mix, attach, dan penanda urutan.",
+          "english": "To make a leaf label, cut a card and write the plant’s name.",
+          "indonesian": "Untuk membuat label daun, potong kartu dan tulis nama tanaman.",
+          "why": "Kalimat menetapkan hasil yang ingin dibuat lalu memberi tindakan yang harus dilakukan pembaca.",
+          "check": "Apa fungsi kata kerja cut dan write dalam teks prosedur?",
+          "checkAnswer": "Keduanya merupakan kata kerja perintah yang memberi tahu pembaca tindakan yang harus dilakukan.",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Kenali analytical exposition",
+          "explanation": "Analytical exposition menyampaikan tesis atau posisi, kemudian alasan atau bukti untuk mendukungnya, dan dapat diakhiri penegasan ulang. Tujuannya meyakinkan pembaca. Perhatikan klaim, alasan, dan hubungan logisnya, bukan hanya kata should.",
+          "english": "The school should keep the garden because it supports local insects.",
+          "indonesian": "Sekolah sebaiknya mempertahankan kebun karena mendukung serangga lokal.",
+          "why": "Ada posisi yang disampaikan dan alasan yang mendukungnya. Itulah pola argumentatif, bukan sekadar deskripsi.",
+          "check": "Apa dua bagian penting yang tampak dalam contoh tersebut?",
+          "checkAnswer": "Posisi bahwa sekolah sebaiknya mempertahankan kebun dan alasan bahwa kebun mendukung serangga lokal.",
+          "phase": "Mengenali tujuan dan ciri teks"
+        },
+        {
+          "title": "Bandingkan struktur lima genre",
+          "explanation": "Descriptive mengelompokkan ciri; recount mengurutkan kejadian lampau; narrative membangun konflik dan penyelesaian; procedure menyusun langkah; analytical exposition menyajikan posisi dan alasan. Struktur ini merupakan pola umum, bukan cetakan yang harus selalu identik.",
+          "english": "A recount tells what happened; a procedure tells how to do something.",
+          "indonesian": "Recount menceritakan apa yang terjadi; procedure menjelaskan cara melakukan sesuatu.",
+          "why": "Perbedaan utamanya terletak pada tujuan dan organisasi: pengalaman lampau dibandingkan petunjuk untuk menghasilkan sesuatu.",
+          "check": "Mengapa teks dengan banyak kata kerja lampau belum tentu narrative?",
+          "checkAnswer": "Karena teks itu mungkin hanya menceritakan kembali kejadian tanpa tokoh, konflik, dan penyelesaian cerita.",
+          "phase": "Membandingkan struktur dan urutan informasi"
+        },
+        {
+          "title": "Periksa fungsi setiap paragraf",
+          "explanation": "Paragraf pembuka dapat memperkenalkan objek, peserta, waktu, tujuan, atau posisi. Paragraf berikutnya dapat mengembangkan rincian, kejadian, langkah, atau alasan. Baca hubungan antarparagraf sebelum memberi label genre.",
+          "english": "The first paragraph introduces the event; the next paragraphs explain the steps.",
+          "indonesian": "Paragraf pertama memperkenalkan kegiatan; paragraf berikutnya menjelaskan langkah-langkah.",
+          "why": "Fungsi paragraf membantu pembaca melihat struktur keseluruhan, bukan hanya satu kalimat yang kebetulan memakai kata tertentu.",
+          "check": "Bagaimana cara mengetahui apakah sebuah paragraf berisi alasan atau langkah?",
+          "checkAnswer": "Periksa apakah kalimat menjawab “mengapa posisi itu benar” atau memberi tindakan berurutan untuk mencapai hasil.",
+          "phase": "Membandingkan struktur dan urutan informasi"
+        },
+        {
+          "title": "Gunakan ciri bahasa sebagai petunjuk",
+          "explanation": "Simple present sering muncul pada deskripsi dan pernyataan umum; simple past sering muncul pada recount dan narrative; imperative sering muncul pada procedure; modal verbs dan connectors dapat mendukung argumen. Ciri tersebut membantu, tetapi tidak boleh menjadi satu-satunya penentu.",
+          "english": "First, rinse the leaves. Then place them in the basket.",
+          "indonesian": "Pertama, bilas daun. Kemudian letakkan daun di dalam keranjang.",
+          "why": "First dan then bersama kata kerja perintah menunjukkan urutan tindakan. Namun, pembaca tetap perlu memeriksa tujuan teks.",
+          "check": "Mengapa kata kerja lampau saja tidak cukup untuk membedakan recount dan narrative?",
+          "checkAnswer": "Keduanya dapat menggunakan bentuk lampau; pembaca harus memeriksa apakah ada konflik, tokoh, dan penyelesaian.",
+          "phase": "Menggunakan ciri bahasa sebagai petunjuk"
+        },
+        {
+          "title": "Perhatikan pembaca sasaran dan konteks",
+          "explanation": "Teks yang sama-sama membahas kebun dapat ditujukan kepada pengunjung, peserta kegiatan, siswa yang akan melakukan tugas, atau warga yang diminta mendukung kebijakan. Audiens dan konteks membantu menjelaskan pilihan informasi dan nada.",
+          "english": "Visitors can follow the signs to the garden entrance.",
+          "indonesian": "Pengunjung dapat mengikuti tanda menuju pintu masuk kebun.",
+          "why": "Kalimat memberi informasi praktis bagi pengunjung. Audiens membantu menjelaskan mengapa lokasi dan petunjuk arah dipilih.",
+          "check": "Siapa pembaca yang mungkin dituju oleh petunjuk arah tersebut?",
+          "checkAnswer": "Pengunjung yang perlu menemukan pintu masuk kebun.",
+          "phase": "Menggunakan ciri bahasa sebagai petunjuk"
+        },
+        {
+          "title": "Jangan terpaku pada satu kata kunci",
+          "explanation": "Satu kata seperti first, beautiful, atau should dapat muncul pada berbagai konteks. Tentukan fungsi keseluruhan: apakah first mengurutkan langkah atau kejadian; apakah should memberi saran atau menjadi bagian argumen; apakah beautiful sekadar rincian atau penilaian.",
+          "english": "First, we arrived at the hall; first, wash the fruit.",
+          "indonesian": "Pertama, kami tiba di aula; pertama, cuci buah.",
+          "why": "Kata first pada contoh pertama mengurutkan recount, sedangkan contoh kedua mengurutkan procedure. Maknanya ditentukan oleh fungsi kalimat.",
+          "check": "Apa yang perlu diperiksa ketika kata first muncul?",
+          "checkAnswer": "Periksa apakah kata itu mengurutkan kejadian yang telah terjadi atau langkah yang harus dilakukan.",
+          "phase": "Menggunakan ciri bahasa sebagai petunjuk"
+        },
+        {
+          "title": "Kenali teks yang memuat lebih dari satu fungsi",
+          "explanation": "Sebuah teks panjang dapat memuat deskripsi singkat di dalam recount atau alasan di dalam laporan kegiatan. Tetapkan genre dominan berdasarkan tujuan utama dan struktur keseluruhan; sebutkan fungsi tambahan jika relevan.",
+          "english": "The report describes the hall before recounting the event.",
+          "indonesian": "Laporan itu mendeskripsikan aula sebelum menceritakan kegiatan.",
+          "why": "Deskripsi dapat menjadi bagian dari teks recount. Kehadiran satu bagian deskriptif tidak otomatis mengubah tujuan dominan teks.",
+          "check": "Jika recount memuat satu paragraf deskripsi, apakah seluruh teks otomatis menjadi descriptive text?",
+          "checkAnswer": "Tidak. Tentukan tujuan dan struktur dominan seluruh teks, bukan hanya satu paragraf.",
+          "phase": "Menentukan genre dengan bukti yang cukup"
+        },
+        {
+          "title": "Bandingkan dua teks dengan topik yang sama",
+          "explanation": "Dua teks tentang kegiatan yang sama dapat memiliki genre berbeda. Satu teks dapat menceritakan pengalaman peserta, sedangkan teks lain memberi instruksi atau mengajukan alasan. Bandingkan tujuan, urutan informasi, dan pilihan bahasa.",
+          "english": "One text tells what happened at the fair; another explains how to prepare a stall.",
+          "indonesian": "Satu teks menceritakan apa yang terjadi di bazar; teks lain menjelaskan cara menyiapkan stan.",
+          "why": "Topiknya sama-sama bazar, tetapi teks pertama berfungsi sebagai recount dan teks kedua sebagai procedure.",
+          "check": "Apa bukti terkuat bahwa dua teks bertopik sama dapat memiliki genre berbeda?",
+          "checkAnswer": "Tujuan komunikatif dan organisasi informasinya berbeda: satu menceritakan kejadian, satu memberi langkah.",
+          "phase": "Menentukan genre dengan bukti yang cukup"
+        },
+        {
+          "title": "Tetapkan genre dengan beberapa bukti",
+          "explanation": "Sebelum menjawab, cocokkan tujuan, struktur, dan sedikitnya dua ciri bahasa atau isi. Jika petunjuk bertentangan, tanyakan fungsi dominan dan bagian mana yang paling banyak dikembangkan. Jelaskan pilihan dengan bukti dari teks.",
+          "english": "The writer gives a position, supports it with reasons, and restates the view.",
+          "indonesian": "Penulis menyampaikan posisi, mendukungnya dengan alasan, dan menegaskan kembali pandangannya.",
+          "why": "Tiga petunjuk tersebut bersama-sama mendukung analytical exposition. Jawaban tidak hanya bergantung pada satu kata modal.",
+          "check": "Bagaimana cara membuktikan bahwa suatu teks termasuk analytical exposition?",
+          "checkAnswer": "Tunjukkan posisi atau tesis, alasan yang mendukung, dan penegasan atau kesimpulan yang mengarahkan pembaca untuk menerima posisi itu.",
+          "phase": "Menentukan genre dengan bukti yang cukup"
+        }
+      ],
+      "modelTitle": "Five Ways to Read a School Noticeboard · Model lima genre dalam satu bacaan",
+      "modelEnglish": "A school noticeboard can contain several kinds of text. A descriptive text helps readers picture a place: “The courtyard has a wide stone path, three shady trees, and bright pots beside the library.” It focuses on characteristics rather than a sequence of events.\n\nA recount tells what happened in time order. “Last Friday, our class collected fallen leaves. First, we filled four bags. After lunch, the gardener showed us how to use the leaves as compost.” A narrative also has events, but it usually develops a problem involving characters: “Mira found a small bird beside the path. She called the school caretaker and waited until it was safe.”\n\nA procedure gives a goal and steps: “To make a leaf label, cut a card, write the plant’s name, and attach the card to a stick.” The instructions use action verbs and a clear order.\n\nAn analytical exposition presents a position and reasons. “The school should keep the garden because it gives students a calm place to learn and supports local insects. The school can protect it by setting a simple care schedule.” The writer is trying to persuade readers through reasons.\n\nThe topic alone does not decide the genre. A garden may appear in all five texts. Readers should ask what the writer is trying to do, how the information is organised, and which language clues support that purpose.",
+      "modelIndonesian": "Papan pengumuman sekolah dapat memuat beberapa jenis teks. Teks deskriptif membantu pembaca membayangkan suatu tempat: “Halaman memiliki jalan batu yang lebar, tiga pohon rindang, dan pot-pot cerah di samping perpustakaan.” Teks ini berfokus pada ciri-ciri, bukan urutan peristiwa.\n\nRecount menceritakan apa yang terjadi secara berurutan. “Jumat lalu, kelas kami mengumpulkan daun-daun yang jatuh. Pertama, kami mengisi empat kantong. Setelah makan siang, penjaga kebun menunjukkan cara menggunakan daun sebagai kompos.” Teks naratif juga memiliki peristiwa, tetapi biasanya mengembangkan masalah yang melibatkan tokoh: “Mira menemukan seekor burung kecil di samping jalan. Ia memanggil penjaga sekolah dan menunggu sampai burung itu aman.”\n\nTeks prosedur memberikan tujuan dan langkah-langkah: “Untuk membuat label daun, potong kartu, tulis nama tanaman, lalu pasang kartu pada tongkat.” Instruksi menggunakan kata kerja tindakan dan urutan yang jelas.\n\nEksposisi analitis menyampaikan posisi dan alasan. “Sekolah sebaiknya mempertahankan kebun karena tempat itu memberi siswa ruang belajar yang tenang dan mendukung serangga lokal. Sekolah dapat melindunginya dengan membuat jadwal perawatan sederhana.” Penulis berusaha meyakinkan pembaca melalui alasan.\n\nTopik saja tidak menentukan jenis teks. Kebun dapat muncul dalam kelima jenis teks. Pembaca perlu bertanya apa tujuan penulis, bagaimana informasi disusun, dan petunjuk bahasa apa yang mendukung tujuan tersebut.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Peta ringkas lima genre",
+      "text": "**Descriptive:** menggambarkan ciri. **Recount:** menceritakan kembali kejadian lampau. **Narrative:** mengembangkan tokoh, konflik, dan penyelesaian. **Procedure:** menjelaskan tujuan dan langkah. **Analytical exposition:** menyampaikan posisi dan alasan untuk meyakinkan. Selalu cocokkan tujuan, struktur, dan bahasa."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Genre",
+        "Tujuan dominan",
+        "Struktur umum",
+        "Petunjuk bahasa"
+      ],
+      "rows": [
+        [
+          "Descriptive",
+          "Membantu pembaca membayangkan objek atau tempat",
+          "Pengenalan objek lalu rincian ciri",
+          "Adjectives, bagian, lokasi, simple present"
+        ],
+        [
+          "Recount",
+          "Menceritakan kejadian yang telah berlangsung",
+          "Orientasi lalu urutan kejadian dan penutup",
+          "Simple past, penanda waktu, urutan peristiwa"
+        ],
+        [
+          "Narrative",
+          "Menghibur atau melibatkan pembaca melalui cerita",
+          "Orientasi, konflik, tindakan, penyelesaian",
+          "Tokoh, dialog, tindakan, ketegangan, past tense"
+        ],
+        [
+          "Procedure",
+          "Memandu pembaca mencapai hasil",
+          "Tujuan, bahan/alat bila perlu, langkah",
+          "Imperatives, urutan, istilah tindakan"
+        ],
+        [
+          "Analytical exposition",
+          "Meyakinkan pembaca terhadap suatu posisi",
+          "Tesis, argumen, penegasan ulang",
+          "Claim, reasons, evidence, logical connectors, modals"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · mengenali lima genre"
+    },
+    {
+      "type": "text",
+      "text": "Setiap contoh berikut dipasangkan dengan tujuan dan alasan. Perhatikan bahwa satu topik dapat muncul dalam genre yang berbeda."
+    },
+    {
+      "type": "example_group",
+      "title": "1. Descriptive and recount",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The science room has two long benches, bright windows, and a cabinet of models.",
+          "indonesian": "Ruang sains memiliki dua meja panjang, jendela terang, dan lemari berisi model.",
+          "note": "Rincian ciri ruang membantu pembaca membayangkan tempat; tidak ada rangkaian kejadian yang diceritakan."
+        },
+        {
+          "english": "Yesterday, our class visited the science room and tested three paper bridges.",
+          "indonesian": "Kemarin, kelas kami mengunjungi ruang sains dan menguji tiga jembatan kertas.",
+          "note": "Waktu lampau dan kegiatan yang telah terjadi menunjukkan recount."
+        },
+        {
+          "english": "After the test, we wrote the results in our notebooks.",
+          "indonesian": "Setelah pengujian, kami menulis hasilnya di buku catatan.",
+          "note": "Kalimat melanjutkan urutan kejadian yang telah dilakukan."
+        },
+        {
+          "english": "The room is quiet, with a wide window facing the garden.",
+          "indonesian": "Ruangan itu tenang, dengan jendela lebar yang menghadap kebun.",
+          "note": "Fokus pada karakteristik ruang merupakan fungsi deskriptif."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Narrative and procedure",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Rafi found a wet kitten and searched for its owner before sunset.",
+          "indonesian": "Rafi menemukan anak kucing basah dan mencari pemiliknya sebelum matahari terbenam.",
+          "note": "Tokoh menghadapi masalah dan mengambil tindakan; dalam konteks cerita yang lebih luas, ini dapat membangun narrative."
+        },
+        {
+          "english": "To make a safe paper bridge, fold the card and test it with small coins.",
+          "indonesian": "Untuk membuat jembatan kertas yang aman, lipat kartu dan uji dengan koin kecil.",
+          "note": "Tujuan dan kata kerja perintah memberi langkah untuk mencapai hasil."
+        },
+        {
+          "english": "First, place the dry leaves in a clean basket.",
+          "indonesian": "Pertama, letakkan daun kering di keranjang bersih.",
+          "note": "Kata kerja perintah dan urutan tindakan mendukung procedure."
+        },
+        {
+          "english": "When the kitten finally purred, Rafi knew it was no longer afraid.",
+          "indonesian": "Ketika anak kucing akhirnya mendengkur, Rafi tahu hewan itu tidak lagi takut.",
+          "note": "Perubahan keadaan tokoh dan penyelesaian masalah mendukung fungsi naratif."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Analytical exposition and mixed clues",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The school should add more shade because students need a comfortable place to read outdoors.",
+          "indonesian": "Sekolah sebaiknya menambah tempat teduh karena siswa membutuhkan tempat nyaman untuk membaca di luar.",
+          "note": "Posisi disertai alasan bertujuan meyakinkan pembaca."
+        },
+        {
+          "english": "The garden has six benches beneath the old trees.",
+          "indonesian": "Kebun memiliki enam bangku di bawah pohon-pohon tua.",
+          "note": "Kalimat ini bersifat deskriptif walaupun dapat muncul sebagai bukti dalam teks argumentatif."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka09-genre",
+      "prompt": "A text explains how to prepare a seed tray using numbered actions and imperative verbs. Which genre is dominant?",
+      "translation": "Sebuah teks menjelaskan cara menyiapkan baki semai dengan tindakan bernomor dan kata kerja perintah. Genre dominan apa yang digunakan?",
+      "choices": [
+        "Descriptive",
+        "Procedure",
+        "Analytical exposition"
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Deskriptif",
+        "Prosedur",
+        "Eksposisi analitis"
+      ],
+      "explanation": "Tujuan teks adalah memandu pembaca mencapai hasil melalui langkah-langkah. Urutan tindakan dan kata kerja perintah mendukung genre procedure.",
+      "hint": "Tanyakan apakah penulis menggambarkan sesuatu, memberi langkah, atau meyakinkan pembaca."
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why is the topic alone not enough to identify a text genre?",
+      "translation": "Mengapa topik saja tidak cukup untuk menentukan genre sebuah teks?",
+      "answer": "Karena topik yang sama dapat dibahas dengan tujuan berbeda. Kebun dapat dideskripsikan, diceritakan sebagai pengalaman, dijadikan latar cerita, digunakan dalam instruksi, atau menjadi dasar argumen. Genre ditentukan oleh tujuan dan organisasi teks."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these genre clues",
+      "items": [
+        "Tentukan tujuan komunikatif sebelum memberi label genre.",
+        "Descriptive menggambarkan; recount menceritakan kejadian lampau.",
+        "Narrative mengembangkan tokoh dan konflik; procedure memberi langkah.",
+        "Analytical exposition menyampaikan posisi dan alasan.",
+        "Gunakan struktur serta beberapa petunjuk bahasa; jangan mengandalkan satu kata kunci."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · compare five text purposes",
+      "prompt": "Read five short extracts from a school noticeboard. Identify the dominant genre of each, state its likely audience or purpose, and quote one structural or language clue. If an extract combines two functions, explain which one is dominant and why.",
+      "model": "A paragraph listing the courtyard’s colours and features is descriptive because it builds a picture. A paragraph beginning “Last Friday” and recounting the clean-up is recount because it reports past events in sequence. A story about a student rescuing a bird is narrative because it develops a character and problem. Numbered actions for planting a seed are procedure. A statement that the school should protect the garden followed by reasons is analytical exposition.",
+      "modelTranslation": "Paragraf yang menyebut warna dan ciri halaman bersifat deskriptif karena membangun gambaran. Paragraf yang diawali “Jumat lalu” dan menceritakan kegiatan bersih-bersih adalah recount karena melaporkan kejadian lampau secara berurutan. Cerita tentang siswa yang menyelamatkan burung adalah narrative karena mengembangkan tokoh dan masalah. Langkah bernomor untuk menanam benih merupakan procedure. Pernyataan bahwa sekolah harus melindungi kebun yang diikuti alasan merupakan analytical exposition.",
+      "criteria": "Jawaban menyebut tujuan dominan, memakai struktur atau petunjuk bahasa yang relevan, dan tidak menentukan genre hanya dari topik atau satu kata."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "genre",
+          "indonesian": "jenis atau ragam teks"
+        },
+        {
+          "english": "purpose",
+          "indonesian": "tujuan komunikatif"
+        },
+        {
+          "english": "descriptive",
+          "indonesian": "deskriptif / menggambarkan"
+        },
+        {
+          "english": "recount",
+          "indonesian": "menceritakan kembali kejadian"
+        },
+        {
+          "english": "narrative",
+          "indonesian": "naratif / teks cerita"
+        },
+        {
+          "english": "procedure",
+          "indonesian": "prosedur / langkah kerja"
+        },
+        {
+          "english": "analytical exposition",
+          "indonesian": "eksposisi analitis / argumen"
+        },
+        {
+          "english": "orientation",
+          "indonesian": "pengenalan latar dan peserta"
+        },
+        {
+          "english": "sequence",
+          "indonesian": "urutan"
+        },
+        {
+          "english": "imperative",
+          "indonesian": "kata kerja perintah"
+        },
+        {
+          "english": "thesis",
+          "indonesian": "tesis / posisi utama"
+        },
+        {
+          "english": "audience",
+          "indonesian": "pembaca sasaran"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "A text says, “The hall has four tall windows and a polished wooden floor.” Which genre is most likely dominant?",
+      "choices": [
+        "Descriptive",
+        "Recount",
+        "Procedure"
+      ],
+      "answer": 0,
+      "explanation": "Kalimat menyebut ciri fisik aula agar pembaca dapat membayangkan tempat. Tidak ada urutan kejadian atau langkah kerja.",
+      "translationId": {
+        "prompt": "Sebuah teks menyebut, “Aula memiliki empat jendela tinggi dan lantai kayu yang mengilap.” Genre dominan apa yang paling mungkin?",
+        "choices": [
+          "Deskriptif",
+          "Recount",
+          "Prosedur"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which feature most strongly signals a procedure?",
+      "choices": [
+        "A sequence of past events",
+        "A goal followed by imperative steps",
+        "A character facing a conflict"
+      ],
+      "answer": 1,
+      "explanation": "Procedure memandu pembaca mencapai hasil melalui langkah. Tujuan dan kata kerja perintah merupakan petunjuk utama.",
+      "translationId": {
+        "prompt": "Ciri mana yang paling kuat menunjukkan teks prosedur?",
+        "choices": [
+          "Urutan kejadian lampau",
+          "Tujuan yang diikuti langkah perintah",
+          "Tokoh yang menghadapi konflik"
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A text argues that the school should keep its garden and gives two reasons. What is its dominant purpose?",
+      "choices": [
+        "To describe the garden",
+        "To retell a past event",
+        "To persuade readers to accept a position"
+      ],
+      "answer": 2,
+      "explanation": "Teks menyampaikan posisi dan alasan untuk meyakinkan pembaca. Itu merupakan tujuan analytical exposition.",
+      "translationId": {
+        "prompt": "Sebuah teks berargumen bahwa sekolah harus mempertahankan kebunnya dan memberikan dua alasan. Apa tujuan dominannya?",
+        "choices": [
+          "Menggambarkan kebun",
+          "Menceritakan kejadian lampau",
+          "Meyakinkan pembaca agar menerima suatu posisi"
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-five-text-genres-practice"
+  ]
+}

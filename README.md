@@ -1,18 +1,19 @@
-# Langkah English V13-C4 — TKA-07 and TKA-08 (31 October 2026)
+# Langkah English V13-C5 — TKA-09 and TKA-10 (31 October 2026)
 
-**Current source version: V13-C4, built on the user-accepted corrected combined V13-C3 baseline.** The baseline includes the separately supplied homepage redesign, TKA-01 through TKA-06, the original three UTBK mocks, the three-format assessment engine, browser-local progress and backup features. V13-C4 adds TKA-07 (evaluating facts, opinions and sufficient evidence) and TKA-08 (narrative appreciation).
+**Current source: V13-C5, built on the user-accepted corrected combined V13-C4 baseline.** The integrated baseline retains the redesigned homepage, all prior lessons and quizzes, all three assessment formats, local progress/backup features and the three original UTBK mocks. V13-C5 completes the ten-module TKA content pathway.
 
-- **TKA-07:** 12 scaffold steps, 10 explained bilingual examples, three embedded practices, one guided 200–300-word model and a 12-question A2/B1 topic quiz.
-- **TKA-08:** 10 scaffold steps, 10 explained bilingual examples, three embedded practices, one guided 200–300-word model and a 12-question A2/B1 topic quiz.
-- Each new quiz uses two original full passages, four single-answer items, four multiple-answer items and four category items. Questions include exact evidence quotes and explained bilingual feedback.
-- **Current totals:** 64 lesson files, 49 quiz files, 113 catalogue resources, 585 scaffold steps, 651 explained cards, 539 scored/embedded items, and the original three timed UTBK mocks unchanged. Eight of ten TKA modules are now published.
-- All 109 V13-C3 lesson/quiz JSON files are protected by a SHA-256 preservation test. The redesigned homepage, progress panel, backup features, assessment engine, legacy resource IDs and browser-local progress format remain part of the integrated source.
+- **TKA-09:** 14 scaffold steps, 10 bilingual worked examples, three embedded practices, a guided 200–300-word model and a 12-question A2/B1 quiz covering five genres.
+- **TKA-10:** 9 scaffold steps, 10 bilingual worked examples, three embedded practices, a guided 200–300-word model and a 12-question A2/B1 quiz on question formats and independent response strategy.
+- Each quiz has two original full passages, four single-answer, four multiple-answer and four category items, with evidence quotations and bilingual explanations.
+- **Current totals:** 66 lesson files, 51 quiz files, 117 catalogue resources, 608 scaffold steps, 671 explained cards, 569 scored/embedded items and three unchanged timed UTBK mocks. All ten TKA modules and 120 TKA topic questions are published.
+- All 113 V13-C4 lesson/quiz files and the homepage redesign core are SHA-256 protected.
 
-See [V13-C4 release notes](docs/V13-C4-TKA-07-08.md) for scope, QA and installation. All new content is original, AI-assisted and unofficial. A bilingual teacher review and learner pilot remain advisable; editorial A2/B1 word counts are targets, not external CEFR certification.
+See [V13-C5 release notes](docs/V13-C5-TKA-09-10.md) for scope, QA and installation. Materials are original and unofficial; editorial A2/B1 targets are not external CEFR certification.
 
-**Release packages:** `langkah-english-v13c4-combined-complete-site.zip` is a separate preview/restoration snapshot. `langkah-english-v13c4-combined-update-from-v13c3.zip` is the incremental update for the user-accepted corrected combined V13-C3 repository. Do not extract a complete-site ZIP over an existing Git repository.
+**Release packages:** `langkah-english-v13c5-combined-complete-site.zip` is for a separate preview/restoration copy. `langkah-english-v13c5-combined-update-from-v13c4.zip` is the incremental update for the accepted corrected combined V13-C4 repository. Never extract the complete-site ZIP over an existing Git repository.
 
 ---
+
 
 
 # Langkah English V11 — Gradual teaching scaffold redesign (26 October 2026)

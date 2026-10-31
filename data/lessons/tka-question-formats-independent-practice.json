@@ -1,0 +1,385 @@
+{
+  "id": "tka-question-formats-independent-practice",
+  "objectives": [
+    "Mengenali kata tugas pada pertanyaan dan menentukan bentuk respons yang diminta.",
+    "Menjawab soal pilihan tunggal, pilihan jamak, dan klasifikasi dengan strategi yang sesuai.",
+    "Menemukan bukti tekstual dan membedakan informasi langsung, inferensi wajar, serta pernyataan yang tidak didukung.",
+    "Melakukan pemeriksaan mandiri tanpa menyamakan aturan skor latihan lokal dengan kebijakan resmi TKA."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa yang perlu dipahami tentang format soal?",
+      "text": "Pertanyaan membaca dapat meminta satu jawaban terbaik, semua pilihan yang didukung, atau klasifikasi beberapa pernyataan. Bentuk tugas menentukan cara menjawab. Langkah yang selalu berguna ialah membaca instruksi, menemukan bukti, menguji setiap pilihan, dan memeriksa kelengkapan. Aturan skor yang dijelaskan pada modul ini berlaku untuk latihan lokal Langkah English, bukan klaim tentang kebijakan resmi TKA."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Baca model laporan komunitas, kemudian perhatikan bagaimana satu bacaan dapat menghasilkan pertanyaan dengan tugas yang berbeda. Gunakan kata tugas untuk menentukan jumlah jawaban, temukan bukti, dan periksa setiap pilihan atau baris sebelum mengirim respons.",
+      "steps": [
+        {
+          "title": "Baca kata tugas sebelum membaca pilihan",
+          "explanation": "Kata tugas menunjukkan pekerjaan yang diminta. Identify atau which detail meminta identifikasi; select all meminta semua pilihan yang benar; classify meminta pengelompokan setiap pernyataan; infer meminta kesimpulan yang didukung petunjuk.",
+          "english": "Which detail is directly stated in paragraph two?",
+          "indonesian": "Rincian mana yang dinyatakan secara langsung pada paragraf dua?",
+          "why": "Frasa directly stated meminta informasi eksplisit, bukan tebakan atau penilaian pribadi.",
+          "check": "Apa yang perlu dilakukan sebelum melihat pilihan jawaban?",
+          "checkAnswer": "Tandai kata tugas dan tentukan apakah pertanyaan meminta satu rincian, beberapa pilihan, klasifikasi, atau inferensi.",
+          "phase": "Memahami instruksi dan bentuk soal"
+        },
+        {
+          "title": "Kenali soal single-answer",
+          "explanation": "Soal pilihan tunggal meminta satu jawaban terbaik. Baca seluruh pilihan, cocokkan dengan bukti, lalu pastikan tidak ada pilihan lain yang lebih tepat. Jangan memilih hanya karena satu kata tampak sama dengan bacaan.",
+          "english": "How long did Maya’s repair take?",
+          "indonesian": "Berapa lama perbaikan tas Maya berlangsung?",
+          "why": "Pertanyaan meminta satu informasi spesifik. Satu jawaban yang tepat didukung oleh rincian waktu dalam teks.",
+          "check": "Jika soal meminta “Which one”, berapa jawaban yang harus dipilih?",
+          "checkAnswer": "Pilih satu jawaban terbaik setelah memeriksa seluruh pilihan dan bukti.",
+          "phase": "Memahami instruksi dan bentuk soal"
+        },
+        {
+          "title": "Kenali soal multiple-answer",
+          "explanation": "Soal multiple-answer menggunakan instruksi seperti select all that apply. Periksa setiap pilihan secara terpisah dan pilih semua yang didukung. Jangan berhenti setelah menemukan satu jawaban benar; jangan menambahkan pilihan yang hanya terdengar masuk akal.",
+          "english": "Which services were offered? Select ALL that apply.",
+          "indonesian": "Layanan apa saja yang ditawarkan? Pilih SEMUA jawaban yang tepat.",
+          "why": "Kata ALL berarti setiap pilihan perlu diuji. Satu pilihan benar tidak membuat pilihan lain otomatis benar.",
+          "check": "Apa kesalahan umum saat menjawab select ALL?",
+          "checkAnswer": "Berhenti setelah menemukan satu jawaban benar atau memilih opsi yang tidak didukung oleh bacaan.",
+          "phase": "Memahami instruksi dan bentuk soal"
+        },
+        {
+          "title": "Kenali soal category",
+          "explanation": "Soal category meminta setiap pernyataan dipasangkan dengan kategori. Baca definisi kategori lebih dahulu, lalu nilai satu baris pada satu waktu. Jangan menganggap seluruh kelompok benar hanya karena satu baris cocok.",
+          "english": "Classify each statement as directly stated, inferred, or not supported.",
+          "indonesian": "Kelompokkan setiap pernyataan sebagai dinyatakan langsung, disimpulkan, atau tidak didukung.",
+          "why": "Setiap pernyataan harus diperiksa secara mandiri dan ditempatkan pada kategori yang paling sesuai.",
+          "check": "Apa yang harus dilakukan jika sebuah pernyataan tidak disebutkan dan juga tidak dapat disimpulkan?",
+          "checkAnswer": "Masukkan ke kategori not supported atau tidak didukung, sesuai definisi kategori dalam soal.",
+          "phase": "Memahami instruksi dan bentuk soal"
+        },
+        {
+          "title": "Temukan bagian bacaan yang menjawab",
+          "explanation": "Sebelum memilih, cari kata kunci dari pertanyaan dan temukan kalimat atau bagian yang relevan. Baca satu atau dua kalimat di sekitarnya agar tidak mengubah makna. Untuk inferensi, gabungkan petunjuk, bukan menyalin satu kata.",
+          "english": "The repair took fifteen minutes.",
+          "indonesian": "Perbaikan memerlukan waktu lima belas menit.",
+          "why": "Kalimat tersebut langsung menjawab pertanyaan tentang durasi perbaikan Maya. Bukti yang tepat lebih penting daripada kemiripan kata pada opsi.",
+          "check": "Mengapa kalimat di sekitar bukti juga perlu dibaca?",
+          "checkAnswer": "Konteks dapat membatasi siapa atau kejadian yang sedang dibahas sehingga kutipan tidak disalahartikan.",
+          "phase": "Menemukan bukti dan menilai pilihan"
+        },
+        {
+          "title": "Uji setiap pilihan dengan bukti",
+          "explanation": "Untuk setiap pilihan, tanyakan: didukung langsung, dapat disimpulkan secara wajar, bertentangan dengan bacaan, atau tidak disebutkan? Tolak pilihan yang menambah kata seperti all, always, atau never jika cakupan itu tidak didukung.",
+          "english": "The team helped 19 visitors, not 23 different visitors.",
+          "indonesian": "Tim membantu 19 pengunjung, bukan 23 pengunjung yang berbeda.",
+          "why": "Teks membedakan jumlah pengunjung dan jumlah barang. Pilihan yang menyamakan keduanya bertentangan dengan informasi.",
+          "check": "Apa yang harus diperiksa ketika pilihan menggunakan kata every atau always?",
+          "checkAnswer": "Periksa apakah bacaan benar-benar mendukung cakupan mutlak tersebut. Jika tidak, pilihan terlalu luas.",
+          "phase": "Menemukan bukti dan menilai pilihan"
+        },
+        {
+          "title": "Terapkan aturan kelengkapan untuk multiple-answer",
+          "explanation": "Pada latihan lokal Langkah English, jawaban multiple dinilai benar jika seluruh pilihan benar dipilih dan tidak ada pilihan salah yang ikut dipilih. Ini adalah aturan penilaian pada latihan situs, bukan pernyataan tentang kebijakan skor resmi TKA.",
+          "english": "Choose both services that the passage actually describes.",
+          "indonesian": "Pilih kedua layanan yang benar-benar dijelaskan oleh bacaan.",
+          "why": "Aturan exact-set pada latihan membantu siswa memeriksa ketelitian. Jangan menganggap mekanisme skor situs sebagai aturan resmi ujian.",
+          "check": "Apakah aturan penilaian multiple-answer di situs otomatis merupakan aturan resmi TKA?",
+          "checkAnswer": "Tidak. Itu aturan penilaian latihan lokal Langkah English; kebijakan resmi harus merujuk pada ketentuan penyelenggara.",
+          "phase": "Menemukan bukti dan menilai pilihan"
+        },
+        {
+          "title": "Periksa setiap baris pada soal kategori",
+          "explanation": "Pada latihan kategori lokal, semua baris harus dipasangkan dengan kategori yang tepat agar jawaban lengkap dinilai benar. Baca kategori, cocokkan satu per satu, dan kembali ke bukti untuk baris yang meragukan.",
+          "english": "The centre recorded 23 items because some visitors brought more than one.",
+          "indonesian": "Pusat komunitas mencatat 23 barang karena beberapa pengunjung membawa lebih dari satu barang.",
+          "why": "Pernyataan ini dinyatakan langsung. Pernyataan bahwa setiap perbaikan bertahan tidak didukung karena tidak ada tindak lanjut.",
+          "check": "Mengapa satu baris kosong membuat tugas klasifikasi belum lengkap?",
+          "checkAnswer": "Karena tugas meminta keputusan untuk setiap pernyataan; semua baris harus diperiksa dan diisi.",
+          "phase": "Menyelesaikan semua format secara mandiri"
+        },
+        {
+          "title": "Lakukan pemeriksaan akhir secara mandiri",
+          "explanation": "Sebelum mengirim jawaban, cocokkan kembali jumlah pilihan dengan kata tugas, pastikan setiap kategori terisi, dan periksa bukti. Jika waktu terbatas, tandai soal yang memerlukan pembacaan ulang lalu kembali setelah menyelesaikan soal yang lebih jelas.",
+          "english": "I selected two answers because the question asked for all supported reasons.",
+          "indonesian": "Saya memilih dua jawaban karena pertanyaannya meminta semua alasan yang didukung.",
+          "why": "Penjelasan ini menghubungkan kata tugas dengan jumlah jawaban dan menunjukkan bahwa pilihan dibuat berdasarkan bukti, bukan tebakan.",
+          "check": "Sebutkan tiga hal yang harus diperiksa sebelum mengirim jawaban.",
+          "checkAnswer": "Periksa kata tugas dan jumlah jawaban, bukti untuk setiap pilihan, serta kelengkapan setiap baris klasifikasi.",
+          "phase": "Menyelesaikan semua format secara mandiri"
+        }
+      ],
+      "modelTitle": "A Community Repair Morning · Model membaca dan memilih bukti",
+      "modelEnglish": "On Saturday, the community centre held a repair morning for small household items. The event began at nine o’clock and ended at noon. Twelve volunteers worked at three tables: one for clothes, one for bicycles, and one for simple electrical checks. Visitors were asked to bring only safe, unplugged items. A notice at the entrance explained that the volunteers could refuse an item if it was damaged beyond their training.\n\nMaya brought a school bag with a broken strap. A volunteer showed her how to stitch the loose edge and asked her to practise the final knot. The repair took fifteen minutes. At the next table, two volunteers adjusted a bicycle brake, then tested it in the courtyard. A small sign reminded visitors to check the brakes before riding home.\n\nBy noon, the team had helped 19 visitors. The centre recorded 23 items because some visitors brought more than one. A short feedback card showed that 16 respondents wanted another event. The organiser said the morning was useful, but the team did not calculate the money saved or follow up to see whether every repair lasted. The centre will review the feedback before setting another date.\n\nWhen answering questions about this report, read the task carefully. A question asking for one detail needs one answer; a question asking for all reasons needs every supported choice; a classification task requires a decision for each statement.",
+      "modelIndonesian": "Pada hari Sabtu, pusat komunitas mengadakan kegiatan perbaikan barang rumah tangga kecil. Acara dimulai pukul sembilan dan berakhir tengah hari. Dua belas relawan bekerja di tiga meja: satu untuk pakaian, satu untuk sepeda, dan satu untuk pemeriksaan listrik sederhana. Pengunjung diminta hanya membawa barang yang aman dan tidak tersambung ke listrik. Pengumuman di pintu masuk menjelaskan bahwa relawan dapat menolak barang yang kerusakannya melampaui pelatihan mereka.\n\nMaya membawa tas sekolah dengan tali yang putus. Seorang relawan menunjukkan cara menjahit bagian yang lepas dan memintanya berlatih membuat simpul terakhir. Perbaikan memerlukan waktu lima belas menit. Di meja berikutnya, dua relawan menyesuaikan rem sepeda, lalu mengujinya di halaman. Papan kecil mengingatkan pengunjung untuk memeriksa rem sebelum pulang berkendara.\n\nMenjelang tengah hari, tim telah membantu 19 pengunjung. Pusat komunitas mencatat 23 barang karena beberapa pengunjung membawa lebih dari satu barang. Kartu tanggapan singkat menunjukkan bahwa 16 responden menginginkan kegiatan lain. Penyelenggara mengatakan pagi itu bermanfaat, tetapi tim tidak menghitung uang yang dihemat atau menindaklanjuti apakah setiap perbaikan bertahan. Pusat komunitas akan meninjau tanggapan sebelum menentukan tanggal berikutnya.\n\nSaat menjawab pertanyaan tentang laporan ini, bacalah tugas dengan teliti. Pertanyaan yang meminta satu rincian membutuhkan satu jawaban; pertanyaan yang meminta semua alasan membutuhkan setiap pilihan yang didukung; tugas klasifikasi memerlukan keputusan untuk setiap pernyataan.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Alur mandiri untuk tiga format",
+      "text": "**Baca instruksi → tentukan format → temukan bukti → uji setiap opsi/baris → cek kelengkapan → kirim.** Single: satu jawaban terbaik. Multiple: semua pilihan yang didukung. Category: satu kategori untuk setiap pernyataan. Penilaian exact-set dan seluruh-baris-benar adalah mekanisme latihan lokal, bukan ketentuan resmi ujian."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Format latihan",
+        "Instruksi umum",
+        "Cara memeriksa"
+      ],
+      "rows": [
+        [
+          "Single-answer",
+          "Which one / Choose the best answer",
+          "Pilih satu opsi terbaik dan bandingkan dengan bukti."
+        ],
+        [
+          "Multiple-answer",
+          "Select ALL that apply",
+          "Uji setiap opsi; pilih semua yang didukung dan jangan menambah yang salah."
+        ],
+        [
+          "Category",
+          "Classify each statement",
+          "Nilai setiap baris secara terpisah dan pastikan tidak ada yang kosong."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · memilih respons secara cermat"
+    },
+    {
+      "type": "text",
+      "text": "Contoh berikut menggunakan format yang berbeda. Pembahasan menunjukkan hubungan antara instruksi, bukti, dan kelengkapan jawaban."
+    },
+    {
+      "type": "example_group",
+      "title": "1. Single-answer and evidence location",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "How long did Maya’s repair take?",
+          "indonesian": "Berapa lama perbaikan tas Maya berlangsung?",
+          "note": "Instruksi meminta satu rincian. Bukti “The repair took fifteen minutes” langsung menjawabnya."
+        },
+        {
+          "english": "Which table checked bicycle brakes?",
+          "indonesian": "Meja mana yang memeriksa rem sepeda?",
+          "note": "Cari kalimat yang menyebut bicycle brake; jangan memilih meja pakaian hanya karena juga disebut."
+        },
+        {
+          "english": "The event ended at noon.",
+          "indonesian": "Acara berakhir pada tengah hari.",
+          "note": "Ini merupakan informasi eksplisit yang dapat dicocokkan dengan pertanyaan tentang waktu."
+        },
+        {
+          "english": "The repair was free for every visitor.",
+          "indonesian": "Perbaikan gratis bagi setiap pengunjung.",
+          "note": "Bacaan tidak menyebut biaya. Jangan mengubah ketiadaan informasi menjadi fakta."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Multiple-answer and careful elimination",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Which services were offered? Select ALL that apply.",
+          "indonesian": "Layanan apa saja yang ditawarkan? Pilih SEMUA jawaban yang tepat.",
+          "note": "Periksa meja pakaian, sepeda, dan pemeriksaan listrik. Pilih hanya layanan yang benar-benar disebut."
+        },
+        {
+          "english": "The team helped 19 visitors and recorded 23 items.",
+          "indonesian": "Tim membantu 19 pengunjung dan mencatat 23 barang.",
+          "note": "Kedua angka menjawab hal berbeda. Jangan menyamakan jumlah barang dengan jumlah orang."
+        },
+        {
+          "english": "The team did not calculate money saved or follow up every repair.",
+          "indonesian": "Tim tidak menghitung uang yang dihemat atau menindaklanjuti setiap perbaikan.",
+          "note": "Dua keterbatasan dapat dipilih pada soal multiple jika pertanyaannya meminta semua batasan."
+        },
+        {
+          "english": "The organiser promised that all repairs would last for years.",
+          "indonesian": "Penyelenggara berjanji bahwa semua perbaikan akan bertahan selama bertahun-tahun.",
+          "note": "Pernyataan ini tidak didukung. Penyelenggara justru belum melakukan tindak lanjut."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Category and final review",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Classify: “The event began at nine o’clock.”",
+          "indonesian": "Klasifikasikan: “Acara dimulai pukul sembilan.”",
+          "note": "Informasi waktu disebut langsung, sehingga masuk kategori directly stated."
+        },
+        {
+          "english": "Classify: “Maya learned a new sewing skill.”",
+          "indonesian": "Klasifikasikan: “Maya mempelajari keterampilan menjahit baru.”",
+          "note": "Teks menyebut relawan menunjukkan cara menjahit dan Maya berlatih simpul; kesimpulan belajar keterampilan baru dapat menjadi inferensi wajar."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka10-format",
+      "prompt": "The instruction says “Select ALL details that show a limitation.” Which response method should you use?",
+      "translation": "Instruksi menyebut “Pilih SEMUA rincian yang menunjukkan keterbatasan.” Metode respons apa yang harus digunakan?",
+      "choices": [
+        "Choose one option only.",
+        "Test every option and select all supported limitations.",
+        "Assign a category to each statement."
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Pilih satu opsi saja.",
+        "Uji setiap opsi dan pilih semua keterbatasan yang didukung.",
+        "Berikan kategori untuk setiap pernyataan."
+      ],
+      "explanation": "Kata ALL menunjukkan soal multiple-answer. Setiap opsi perlu diperiksa secara terpisah; pilih semua yang didukung dan jangan memilih opsi yang tidak relevan.",
+      "hint": "Cari kata ALL pada instruksi."
+    },
+    {
+      "type": "reflection",
+      "prompt": "How can you avoid confusing a correct-looking option with an answer that is actually supported?",
+      "translation": "Bagaimana cara menghindari pilihan yang tampak benar tetapi sebenarnya tidak didukung bacaan?",
+      "answer": "Temukan kalimat bukti, baca konteks di sekitarnya, dan uji apakah setiap bagian pilihan sesuai dengan bacaan. Tolak pilihan yang menambahkan cakupan atau sebab yang tidak disebutkan."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these independent-work moves",
+      "items": [
+        "Tandai kata tugas sebelum melihat opsi.",
+        "Single meminta satu jawaban terbaik; multiple meminta semua pilihan yang didukung.",
+        "Category meminta keputusan untuk setiap pernyataan.",
+        "Cari bukti dan baca konteksnya; jangan tertipu oleh kata yang mirip.",
+        "Aturan skor exact-set dan semua-baris-benar berlaku pada latihan lokal, bukan klaim tentang skor resmi TKA."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · solve a mixed-format set",
+      "prompt": "Read a new A2/B1 passage and answer one single-answer question, one select-all question, and one category task. For each response, write the instruction word, quote the supporting evidence, and explain why one tempting distractor is not supported.",
+      "model": "Single: choose one answer that matches a direct sentence. Multiple: test every option and select all details that the passage supports. Category: classify each statement separately as directly stated, reasonable inference, or not supported. For each task, quote a relevant line and explain why an alternative adds information that the text does not provide.",
+      "modelTranslation": "Single: pilih satu jawaban yang sesuai dengan kalimat langsung. Multiple: uji setiap opsi dan pilih semua rincian yang didukung bacaan. Category: klasifikasikan setiap pernyataan secara terpisah sebagai dinyatakan langsung, inferensi wajar, atau tidak didukung. Untuk setiap tugas, kutip baris yang relevan dan jelaskan mengapa pilihan lain menambahkan informasi yang tidak diberikan teks.",
+      "criteria": "Jawaban mengikuti kata tugas, jumlah respons sesuai format, setiap pilihan atau kategori memiliki bukti, dan distraktor ditolak berdasarkan isi bacaan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "instruction",
+          "indonesian": "instruksi"
+        },
+        {
+          "english": "single-answer",
+          "indonesian": "pilihan tunggal"
+        },
+        {
+          "english": "multiple-answer",
+          "indonesian": "pilihan jamak"
+        },
+        {
+          "english": "category",
+          "indonesian": "kategori"
+        },
+        {
+          "english": "classify",
+          "indonesian": "mengelompokkan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "directly stated",
+          "indonesian": "dinyatakan secara langsung"
+        },
+        {
+          "english": "reasonable inference",
+          "indonesian": "inferensi yang wajar"
+        },
+        {
+          "english": "not supported",
+          "indonesian": "tidak didukung"
+        },
+        {
+          "english": "distractor",
+          "indonesian": "pilihan pengecoh"
+        },
+        {
+          "english": "complete response",
+          "indonesian": "jawaban lengkap"
+        },
+        {
+          "english": "exact set",
+          "indonesian": "himpunan jawaban yang tepat"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "The instruction says “Which ONE reason is given?” What response format is required?",
+      "choices": [
+        "Single-answer",
+        "Multiple-answer",
+        "Category"
+      ],
+      "answer": 0,
+      "explanation": "Kata ONE menunjukkan satu jawaban. Pilih satu alasan yang secara langsung didukung bacaan.",
+      "translationId": {
+        "prompt": "Instruksi menyebut “Alasan SATU mana yang diberikan?” Format respons apa yang diminta?",
+        "choices": [
+          "Pilihan tunggal",
+          "Pilihan jamak",
+          "Kategori"
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "The instruction says “Select ALL details that apply.” What should you do?",
+      "choices": [
+        "Stop after finding the first true option.",
+        "Check every option and select all supported details.",
+        "Choose a category for each row."
+      ],
+      "answer": 1,
+      "explanation": "ALL meminta semua pilihan yang benar. Setiap opsi harus diperiksa, termasuk yang tampak mirip tetapi tidak didukung.",
+      "translationId": {
+        "prompt": "Instruksi menyebut “Pilih SEMUA rincian yang sesuai.” Apa yang harus dilakukan?",
+        "choices": [
+          "Berhenti setelah menemukan opsi benar pertama.",
+          "Periksa setiap opsi dan pilih semua rincian yang didukung.",
+          "Pilih kategori untuk setiap baris."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A category task contains four statements. How should you complete it?",
+      "choices": [
+        "Classify only the first statement.",
+        "Choose one category for the whole passage.",
+        "Assign the best category to each statement."
+      ],
+      "answer": 2,
+      "explanation": "Tugas klasifikasi meminta keputusan per pernyataan. Setiap baris perlu dinilai secara mandiri dan diisi.",
+      "translationId": {
+        "prompt": "Sebuah tugas kategori berisi empat pernyataan. Bagaimana cara menyelesaikannya?",
+        "choices": [
+          "Klasifikasikan pernyataan pertama saja.",
+          "Pilih satu kategori untuk seluruh bacaan.",
+          "Berikan kategori paling tepat untuk setiap pernyataan."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-question-formats-independent-practice-practice"
+  ]
+}

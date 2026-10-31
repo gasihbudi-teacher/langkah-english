@@ -4510,6 +4510,188 @@
       },
       "kind": "practice",
       "examFormat": "topic"
+    },
+    {
+      "id": "tka-five-text-genres",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-five-text-genres-practice",
+        "tka-reading-foundations",
+        "tka-context-vocabulary-reference-connectors"
+      ],
+      "file": "data/lessons/tka-five-text-genres.json",
+      "order": 617,
+      "title": "TKA-09 · Mengenali Lima Genre Teks",
+      "description": "14 langkah mengenali tujuan, struktur, dan ciri bahasa descriptive, recount, narrative, procedure, dan analytical exposition; 10 contoh dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Text genres",
+        "Communicative purpose",
+        "Text structure",
+        "Language features"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C5"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "descriptive, recount, narrative, procedure, analytical exposition",
+        "theme": "school garden and community activities",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Modul genre orisinal yang memetakan lima jenis teks dalam kerangka latihan TKA; bukan soal atau materi resmi yang diterbitkan penyelenggara."
+      },
+      "estimatedMinutes": 60,
+      "prerequisites": [
+        "tka-reading-foundations",
+        "tka-context-vocabulary-reference-connectors"
+      ]
+    },
+    {
+      "id": "tka-five-text-genres-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-five-text-genres"
+      ],
+      "file": "data/quizzes/tka-five-text-genres-practice.json",
+      "order": 618,
+      "title": "Latihan TKA-09 · Lima Genre Teks",
+      "description": "12 soal orisinal dari bacaan A2 dan B1 yang mencakup descriptive, recount, narrative, procedure, dan analytical exposition; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Text genres",
+        "Communicative purpose",
+        "Text structure",
+        "Language features"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C5"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "five TKA text genres",
+        "theme": "school and community notices",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Tekstual",
+        "mappingNote": "Latihan orisinal dan tidak resmi; pengelompokan genre didasarkan pada tujuan dominan dan bukti teks."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
+    },
+    {
+      "id": "tka-question-formats-independent-practice",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-question-formats-independent-practice-practice",
+        "tka-evaluating-facts-opinions-evidence",
+        "tka-five-text-genres"
+      ],
+      "file": "data/lessons/tka-question-formats-independent-practice.json",
+      "order": 619,
+      "title": "TKA-10 · Format Soal dan Latihan Mandiri",
+      "description": "9 langkah memahami instruksi pilihan tunggal, pilihan jamak, dan klasifikasi; menemukan bukti, menguji distraktor, serta memeriksa jawaban secara mandiri.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Question formats",
+        "Evidence retrieval",
+        "Independent reading",
+        "Answer checking"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C5"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 informational reports",
+        "theme": "community services and independent reading practice",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Strategi Menjawab",
+        "mappingNote": "Modul strategi untuk latihan lokal. Mekanisme skor situs tidak diklaim sebagai kebijakan resmi TKA."
+      },
+      "estimatedMinutes": 45,
+      "prerequisites": [
+        "tka-evaluating-facts-opinions-evidence",
+        "tka-five-text-genres"
+      ]
+    },
+    {
+      "id": "tka-question-formats-independent-practice-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-question-formats-independent-practice"
+      ],
+      "file": "data/quizzes/tka-question-formats-independent-practice-practice.json",
+      "order": 620,
+      "title": "Latihan TKA-10 · Format Soal dan Kemandirian",
+      "description": "12 soal orisinal pada dua bacaan informasional A2/B1; kombinasi pilihan tunggal, pilihan jamak, dan klasifikasi dengan bukti dan pembahasan bilingual.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Question formats",
+        "Evidence retrieval",
+        "Independent reading",
+        "Answer checking"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C5"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 informational reports",
+        "theme": "community services and independent reading practice",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Strategi Menjawab",
+        "mappingNote": "Latihan orisinal dan tidak resmi; skor lokal hanya mengukur respons pada latihan ini."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
