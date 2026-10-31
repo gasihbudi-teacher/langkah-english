@@ -1,0 +1,406 @@
+{
+  "id": "tka-implied-ideas-audience-purpose-message",
+  "objectives": [
+    "Menyimpulkan ide yang tidak dinyatakan langsung dengan menggabungkan petunjuk dari beberapa bagian teks.",
+    "Mengenali pembaca yang dituju melalui kebutuhan, pilihan bahasa, bentuk, dan konteks penyebaran teks.",
+    "Membedakan topik, tujuan penulis, dan pesan yang didukung oleh isi bacaan.",
+    "Menjelaskan inferensi dengan bukti yang relevan serta menghindari asumsi yang tidak didukung."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu ide tersirat, pembaca, tujuan, dan pesan?",
+      "text": "[[Ide tersirat]] adalah kesimpulan yang tidak ditulis secara langsung, tetapi didukung oleh petunjuk dalam teks. [[Pembaca yang dituju]] adalah kelompok yang paling mungkin dibantu oleh teks. [[Tujuan penulis]] menjelaskan alasan teks dibuat, sedangkan [[pesan]] adalah gagasan lebih luas yang dapat dipahami pembaca. Keempatnya harus ditafsirkan dari bukti, bukan dari tebakan."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Pelajari satu keputusan membaca pada satu waktu. Setiap langkah memberi contoh bahasa Inggris, arti, alasan, dan pertanyaan tanpa nilai. Setelah itu, baca model tiga paragraf dan telusuri bagaimana masalah, pilihan desain, dan hasil membantu kita menyimpulkan pembaca, tujuan, serta pesan teks.",
+      "steps": [
+        {
+          "title": "Bedakan fakta tertulis dan ide tersirat",
+          "explanation": "[[Informasi tersurat]] dinyatakan langsung. [[Ide tersirat]] tidak ditulis sebagai satu kalimat, tetapi dapat disimpulkan dari petunjuk yang tersedia. Mulailah dengan mencatat apa yang benar-benar dikatakan sebelum menarik kesimpulan.",
+          "english": "Visitors stopped at the entrance and looked around.",
+          "indonesian": "Pengunjung berhenti di pintu masuk dan melihat sekeliling.",
+          "why": "Kalimat itu menyatakan tindakan pengunjung. Kita dapat menduga mereka belum yakin harus pergi ke mana, tetapi teks tidak mengatakan bahwa mereka tersesat atau tidak bisa membaca.",
+          "check": "Apa inferensi paling hati-hati dari pengunjung yang berhenti dan melihat sekeliling?",
+          "checkAnswer": "Mereka mungkin belum yakin ke mana harus pergi. Jangan menyimpulkan bahwa mereka tersesat atau membutuhkan bantuan medis.",
+          "phase": "Menyimpulkan ide yang tidak dinyatakan langsung"
+        },
+        {
+          "title": "Gabungkan lebih dari satu petunjuk",
+          "explanation": "Ide tersirat yang kuat biasanya didukung oleh beberapa petunjuk, bukan satu kata saja. Hubungkan tindakan, alasan, dan hasil dari kalimat yang berbeda. Jika petunjuk saling menguatkan, kesimpulan menjadi lebih masuk akal.",
+          "english": "The signs were small, and visitors often asked where to go.",
+          "indonesian": "Tanda petunjuknya kecil, dan pengunjung sering bertanya ke mana harus pergi.",
+          "why": "Ukuran tanda dan pertanyaan berulang bersama-sama menunjukkan bahwa petunjuk arah sebelumnya belum cukup membantu pengunjung.",
+          "check": "Mengapa dua rincian ini lebih kuat jika dibaca bersama?",
+          "checkAnswer": "Keduanya menunjukkan masalah navigasi: tanda sulit diperhatikan dan pengunjung masih perlu bertanya.",
+          "phase": "Menyimpulkan ide yang tidak dinyatakan langsung"
+        },
+        {
+          "title": "Tolak tebakan yang tidak didukung",
+          "explanation": "Inferensi bukan kesempatan untuk menambahkan cerita sendiri. Pilih kesimpulan yang paling dekat dengan bukti. Hindari kata mutlak seperti everyone, always, atau never jika teks hanya memberi contoh terbatas.",
+          "english": "Two visitors tested the first guide.",
+          "indonesian": "Dua pengunjung menguji panduan pertama.",
+          "why": "Teks hanya menyebut dua orang penguji. Kita tidak dapat menyimpulkan bahwa semua pengunjung menyukai panduan atau bahwa panduan sudah sempurna.",
+          "check": "Apakah dua orang yang menguji panduan membuktikan semua pengunjung menyukainya?",
+          "checkAnswer": "Tidak. Itu hanya memberi masukan awal dari dua orang; tanggapan seluruh pengunjung belum diketahui.",
+          "phase": "Menyimpulkan ide yang tidak dinyatakan langsung"
+        },
+        {
+          "title": "Tebak pembaca dari kebutuhan yang disebut",
+          "explanation": "[[Intended audience]] adalah pembaca yang paling mungkin dibantu oleh teks. Perhatikan masalah yang ingin dijawab, tempat teks digunakan, dan kebutuhan orang yang disebut. Jangan hanya menebak usia atau pekerjaan tanpa petunjuk.",
+          "english": "The guide focuses on services needed during a first visit.",
+          "indonesian": "Panduan berfokus pada layanan yang dibutuhkan saat kunjungan pertama.",
+          "why": "Frasa first visit menunjukkan bahwa panduan terutama membantu orang yang belum mengenal gedung atau layanannya.",
+          "check": "Siapa pembaca utama panduan yang berfokus pada kunjungan pertama?",
+          "checkAnswer": "Pengunjung baru atau orang yang belum mengenal pusat komunitas. Teks tidak membatasi pembaca pada satu kelompok usia.",
+          "phase": "Mengenali pembaca yang dituju"
+        },
+        {
+          "title": "Perhatikan pilihan bahasa dan bentuk teks",
+          "explanation": "Huruf besar, kalimat pendek, gambar, istilah teknis, atau rincian khusus memberi petunjuk tentang pembaca. Bentuk yang sederhana dapat membantu banyak orang, tetapi simpulkan hanya kebutuhan yang benar-benar didukung oleh teks.",
+          "english": "The guide uses large print, short sentences, and small pictures.",
+          "indonesian": "Panduan menggunakan huruf besar, kalimat pendek, dan gambar kecil.",
+          "why": "Pilihan desain menunjukkan bahwa pembuatnya ingin informasi mudah dilihat dan dipahami. Kita tidak boleh langsung menyimpulkan bahwa semua pembaca memiliki gangguan penglihatan atau bahasa.",
+          "check": "Apa yang paling aman disimpulkan dari huruf besar, kalimat pendek, dan gambar?",
+          "checkAnswer": "Panduan dirancang agar mudah dibaca dan diikuti oleh beragam pengunjung. Kondisi khusus setiap pembaca tidak disebutkan.",
+          "phase": "Mengenali pembaca yang dituju"
+        },
+        {
+          "title": "Tentukan kelompok utama, bukan semua kemungkinan",
+          "explanation": "Satu teks dapat berguna bagi banyak orang. Saat soal meminta intended audience, pilih kelompok yang paling langsung berkaitan dengan masalah, informasi, dan tempat penyebaran teks. Bedakan pembaca utama dari pembaca lain yang juga mungkin mendapat manfaat.",
+          "english": "Copies are placed near the entrance and at the market information desk.",
+          "indonesian": "Salinan tersedia dekat pintu masuk dan meja informasi pasar.",
+          "why": "Lokasi tersebut mendukung pengunjung pusat komunitas dan orang yang sedang mencari informasi layanan. Teks tidak menunjukkan bahwa panduan dibuat khusus untuk pegawai pusat komunitas.",
+          "check": "Mengapa pegawai bukan jawaban paling kuat untuk pembaca utama?",
+          "checkAnswer": "Isi dan lokasi panduan membantu pengunjung menemukan layanan. Pegawai mungkin membacanya juga, tetapi bukan kelompok yang paling jelas dituju.",
+          "phase": "Mengenali pembaca yang dituju"
+        },
+        {
+          "title": "Cari tujuan melalui tindakan penulis",
+          "explanation": "[[Author’s purpose]] menjelaskan alasan teks dibuat, misalnya memberi informasi, menjelaskan cara, membujuk, memperingatkan, atau menghibur. Periksa apa yang dilakukan teks kepada pembaca, bukan hanya topik yang dibicarakan.",
+          "english": "The guide shows the lift, the step-free entrance, and the health desk.",
+          "indonesian": "Panduan menunjukkan lift, pintu masuk tanpa tangga, dan meja layanan kesehatan.",
+          "why": "Rincian praktis tersebut membantu pengunjung menemukan tempat dan memilih rute. Tujuan utamanya adalah memandu, bukan menjual layanan.",
+          "check": "Apa tujuan paling mungkin dari panduan yang menunjukkan lokasi layanan dan rute?",
+          "checkAnswer": "Membantu pengunjung menemukan layanan dan bergerak di dalam gedung. Topiknya adalah pusat komunitas, sedangkan tujuannya adalah memandu.",
+          "phase": "Menentukan tujuan dan pesan"
+        },
+        {
+          "title": "Bedakan topik, tujuan, dan pesan",
+          "explanation": "Topik menyebut hal yang dibahas. Tujuan menjelaskan apa yang ingin dilakukan penulis melalui teks. [[Message]] atau pesan menyampaikan pemahaman lebih luas yang dapat dibawa pembaca setelah membaca. Ketiganya berkaitan, tetapi tidak sama.",
+          "english": "Topic: a visitor guide. Purpose: help people find services. Message: clear information can make a shared place more welcoming.",
+          "indonesian": "Topik: panduan pengunjung. Tujuan: membantu orang menemukan layanan. Pesan: informasi yang jelas dapat membuat tempat bersama lebih ramah.",
+          "why": "Ketiga pernyataan bergerak dari nama bahasan, tindakan teks, lalu gagasan lebih luas. Mengganti satu dengan yang lain membuat jawaban terlalu umum atau terlalu sempit.",
+          "check": "Jika ditanya message, apakah cukup menjawab “a visitor guide”?",
+          "checkAnswer": "Tidak. Itu hanya topik. Pesan perlu menyatakan gagasan yang lebih luas, misalnya informasi yang mudah diakses membantu orang menggunakan ruang bersama.",
+          "phase": "Menentukan tujuan dan pesan"
+        },
+        {
+          "title": "Simpulkan pesan dari pola dan hasil",
+          "explanation": "Pesan sering terbentuk dari pola yang berulang atau hasil yang ditekankan penulis. Perhatikan masalah awal, perubahan yang dilakukan, dan hasilnya. Hindari mengubah pesan menjadi nasihat mutlak jika teks hanya menunjukkan satu contoh.",
+          "english": "A clear guide can help, but it cannot replace a helpful person.",
+          "indonesian": "Panduan yang jelas dapat membantu, tetapi tidak dapat menggantikan bantuan seseorang.",
+          "why": "Kalimat ini menyeimbangkan manfaat informasi tertulis dengan pentingnya bantuan manusia. Pesannya bukan bahwa tanda petunjuk menyelesaikan semua masalah.",
+          "check": "Pesan mana yang lebih sesuai: “signs solve every problem” atau “clear signs and human help can work together”?",
+          "checkAnswer": "“Clear signs and human help can work together.” Kalimat akhir menegaskan manfaat panduan sekaligus batasnya.",
+          "phase": "Menentukan tujuan dan pesan"
+        },
+        {
+          "title": "Periksa petunjuk lintas paragraf",
+          "explanation": "Untuk bacaan lengkap, jangan berhenti pada satu kalimat. Hubungkan masalah pada paragraf awal, pilihan desain atau tindakan di bagian tengah, dan hasil atau rencana pada bagian akhir. Ide tersirat harus menjelaskan keseluruhan pola tersebut.",
+          "english": "Small signs caused questions; the guide was tested; users suggested one change.",
+          "indonesian": "Tanda kecil menimbulkan pertanyaan; panduan diuji; pengguna menyarankan satu perubahan.",
+          "why": "Ketiga bagian menunjukkan proses memperbaiki akses informasi dengan mendengarkan pengguna. Kesimpulan itu lebih kuat daripada menilai panduan hanya dari tampilannya.",
+          "check": "Apa hubungan antara masalah awal, uji coba, dan perubahan pada panduan?",
+          "checkAnswer": "Panduan dikembangkan untuk menjawab kesulitan pengunjung dan diperbaiki berdasarkan pengalaman pengguna.",
+          "phase": "Menguji tafsir pada bacaan lengkap"
+        },
+        {
+          "title": "Jawab dengan inferensi dan bukti",
+          "explanation": "Jawaban inferensial yang baik menyebut kesimpulan lalu menjelaskan petunjuk yang mendukungnya. Gunakan pola “The text suggests … because …”. Periksa apakah kesimpulan sesuai dengan semua bagian penting dan tidak bertentangan dengan kalimat lain.",
+          "english": "The text suggests that the guide is for first-time visitors because it focuses on services needed during a first visit.",
+          "indonesian": "Teks menyiratkan bahwa panduan ditujukan bagi pengunjung baru karena berfokus pada layanan yang dibutuhkan saat kunjungan pertama.",
+          "why": "Jawaban menyatakan inferensi dan alasan yang dapat ditelusuri ke teks. Ini lebih dapat dipertanggungjawabkan daripada sekadar menulis “for everyone”.",
+          "check": "Apa dua bagian yang sebaiknya ada dalam jawaban inferensial?",
+          "checkAnswer": "Kesimpulan yang masuk akal dan bukti atau petunjuk teks yang mendukungnya. Jangan menambahkan alasan dari pengalaman pribadi.",
+          "phase": "Menguji tafsir pada bacaan lengkap"
+        }
+      ],
+      "modelTitle": "A Guide for First-Time Visitors · Model bacaan tiga paragraf",
+      "modelEnglish": "At the opening of the new community centre, staff noticed that many visitors stopped at the entrance and looked around before choosing where to go. Some were looking for the health desk, while others needed the evening language class or the bus information board. The building had several rooms, and the signs were small. A group of student volunteers offered to prepare a simple visitor guide.\n\nThey walked through the centre with a caretaker and listed the places that people asked about most often. The guide uses large print, short sentences, and small pictures. It also shows the lift and the step-free entrance. The volunteers tested the first version with two visitors who had never used the building. One visitor said the pictures made the route easier to follow. The other suggested adding a symbol for the quiet waiting area. The students added it before printing more copies.\n\nThe guide is now available near the entrance and at the nearby market desk. It does not list every office or private business; it focuses on services that visitors may need during a first visit. The centre plans to ask users for suggestions after one month. Staff hope the guide will reduce repeated questions, but they know that clear signs cannot replace a helpful person. The project shows that small changes can make a shared place easier to use and more welcoming.",
+      "modelIndonesian": "Saat pusat komunitas baru dibuka, para petugas melihat banyak pengunjung berhenti di pintu masuk dan melihat sekeliling sebelum menentukan tujuan. Sebagian mencari meja layanan kesehatan, sedangkan yang lain membutuhkan kelas bahasa sore atau papan informasi bus. Gedung itu memiliki beberapa ruangan dan tanda petunjuknya berukuran kecil. Sekelompok relawan siswa menawarkan diri untuk membuat panduan pengunjung sederhana.\n\nMereka berkeliling pusat komunitas bersama seorang petugas pemeliharaan dan mencatat tempat-tempat yang paling sering ditanyakan. Panduan tersebut menggunakan huruf besar, kalimat pendek, dan gambar kecil. Panduan itu juga menunjukkan lift dan pintu masuk tanpa tangga. Para relawan menguji versi pertama kepada dua pengunjung yang belum pernah menggunakan gedung tersebut. Seorang pengunjung mengatakan gambar membuat rute lebih mudah diikuti. Pengunjung lainnya menyarankan penambahan simbol untuk ruang tunggu yang tenang. Para siswa menambahkannya sebelum mencetak lebih banyak salinan.\n\nKini panduan tersedia di dekat pintu masuk dan meja informasi pasar terdekat. Panduan itu tidak mencantumkan setiap kantor atau usaha pribadi; isinya berfokus pada layanan yang mungkin dibutuhkan pengunjung saat pertama kali datang. Pusat komunitas berencana meminta saran pengguna setelah satu bulan. Petugas berharap panduan mengurangi pertanyaan berulang, tetapi mereka memahami bahwa tanda yang jelas tidak dapat menggantikan bantuan seseorang. Proyek ini menunjukkan bahwa perubahan kecil dapat membuat tempat bersama lebih mudah digunakan dan lebih ramah bagi pengunjung.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Peta kerja untuk memahami makna yang tersirat",
+      "text": "**Petunjuk tertulis → gabungkan beberapa petunjuk → tentukan inferensi → periksa pembaca → cari tindakan teks → rumuskan pesan.** Topik menjawab “tentang apa”; tujuan menjawab “untuk melakukan apa”; pesan menjawab “gagasan apa yang lebih luas”. Setiap kesimpulan harus dapat ditunjukkan kembali ke bagian teks yang mendukungnya."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Unsur yang dicari",
+        "Pertanyaan pembaca",
+        "Petunjuk dalam model"
+      ],
+      "rows": [
+        [
+          "Ide tersirat",
+          "Apa yang mungkin dialami pengunjung?",
+          "Mereka berhenti dan melihat sekeliling; tanda awal berukuran kecil."
+        ],
+        [
+          "Pembaca yang dituju",
+          "Siapa yang paling membutuhkan panduan?",
+          "Panduan berfokus pada layanan untuk kunjungan pertama dan tersedia dekat pintu masuk."
+        ],
+        [
+          "Tujuan penulis",
+          "Apa yang ingin dibantu oleh panduan?",
+          "Panduan menunjukkan lift, pintu masuk, layanan kesehatan, dan ruang kelas."
+        ],
+        [
+          "Pesan",
+          "Apa gagasan lebih luas yang ditekankan?",
+          "Informasi yang jelas membantu tempat bersama terasa lebih mudah digunakan dan ramah."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · membaca petunjuk dan menyimpulkan"
+    },
+    {
+      "type": "text",
+      "text": "Setiap contoh menunjukkan cara bergerak dari petunjuk ke kesimpulan. Perhatikan batasnya: inferensi yang baik masuk akal, tetapi tidak mengklaim lebih banyak daripada yang didukung bacaan."
+    },
+    {
+      "type": "example_group",
+      "title": "1. Implied ideas and evidence",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Visitors stopped at the entrance and looked around.",
+          "indonesian": "Pengunjung berhenti di pintu masuk dan melihat sekeliling.",
+          "note": "Dapat disimpulkan bahwa sebagian pengunjung belum yakin ke mana harus pergi. Teks tidak menyebut mereka tersesat."
+        },
+        {
+          "english": "The signs were small, and visitors often asked where to go.",
+          "indonesian": "Tanda petunjuknya kecil, dan pengunjung sering bertanya ke mana harus pergi.",
+          "note": "Dua petunjuk menguatkan inferensi bahwa informasi arah sebelumnya belum cukup jelas."
+        },
+        {
+          "english": "Two visitors tested the first version of the guide.",
+          "indonesian": "Dua pengunjung menguji versi pertama panduan.",
+          "note": "Uji coba menunjukkan pembuat panduan mencari masukan pengguna; ini belum membuktikan semua orang menyukainya."
+        },
+        {
+          "english": "The students added a symbol after a visitor suggested it.",
+          "indonesian": "Para siswa menambahkan simbol setelah seorang pengunjung menyarankannya.",
+          "note": "Dapat disimpulkan bahwa masukan pengguna memengaruhi revisi. Jangan menganggap semua saran pasti diterima."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Audience and author purpose",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The guide uses large print, short sentences, and small pictures.",
+          "indonesian": "Panduan menggunakan huruf besar, kalimat pendek, dan gambar kecil.",
+          "note": "Pilihan desain menunjukkan tujuan membuat petunjuk mudah dilihat dan diikuti oleh beragam pengunjung."
+        },
+        {
+          "english": "It focuses on services that visitors may need during a first visit.",
+          "indonesian": "Isinya berfokus pada layanan yang mungkin dibutuhkan saat kunjungan pertama.",
+          "note": "Frasa first visit menjadi petunjuk kuat bahwa pembaca utamanya adalah pengunjung baru."
+        },
+        {
+          "english": "The guide shows the lift and the step-free entrance.",
+          "indonesian": "Panduan menunjukkan lift dan pintu masuk tanpa tangga.",
+          "note": "Rincian tersebut mendukung tujuan memandu rute yang dapat digunakan pengunjung dengan kebutuhan berbeda."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Purpose, message, and limits",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The guide is available near the entrance and at the market desk.",
+          "indonesian": "Panduan tersedia dekat pintu masuk dan meja informasi pasar.",
+          "note": "Penyebaran di tempat yang mudah dijangkau mendukung tujuan memberi informasi kepada pengunjung."
+        },
+        {
+          "english": "Clear signs cannot replace a helpful person.",
+          "indonesian": "Tanda yang jelas tidak dapat menggantikan bantuan seseorang.",
+          "note": "Pesan penulis seimbang: informasi mandiri berguna, tetapi bantuan manusia tetap penting."
+        },
+        {
+          "english": "The project shows that small changes can make a shared place easier to use.",
+          "indonesian": "Proyek ini menunjukkan bahwa perubahan kecil dapat membuat tempat bersama lebih mudah digunakan.",
+          "note": "Kalimat akhir merumuskan pesan lebih luas, bukan sekadar mengulang topik panduan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka05-audience",
+      "prompt": "Which clue most strongly suggests that the guide is intended for first-time visitors?",
+      "translation": "Petunjuk mana yang paling kuat menunjukkan bahwa panduan ditujukan bagi pengunjung baru?",
+      "choices": [
+        "It focuses on services needed during a first visit.",
+        "It was prepared by student volunteers.",
+        "It is available at a nearby market desk."
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Panduan berfokus pada layanan yang dibutuhkan saat kunjungan pertama.",
+        "Panduan dibuat oleh relawan siswa.",
+        "Panduan tersedia di meja informasi pasar terdekat."
+      ],
+      "explanation": "Frasa “during a first visit” secara langsung menghubungkan isi panduan dengan kebutuhan orang yang belum mengenal pusat komunitas. Pembuat dan lokasi penyebaran memberi konteks, tetapi bukan petunjuk sekuat itu.",
+      "hint": "Cari petunjuk yang menyebut kebutuhan pembaca, bukan identitas pembuat."
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why is an inference different from a guess?",
+      "translation": "Mengapa inferensi berbeda dari tebakan?",
+      "answer": "Inferensi menggabungkan satu atau lebih petunjuk yang benar-benar ada dalam teks. Tebakan dapat berasal dari asumsi pribadi tanpa bukti. Kesimpulan inferensial juga harus dibatasi agar tidak melebihi informasi yang tersedia."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these reading moves",
+      "items": [
+        "Pisahkan informasi yang tertulis langsung dari kesimpulan yang harus ditarik pembaca.",
+        "Gabungkan petunjuk dari beberapa kalimat atau paragraf; jangan bergantung pada satu kata saja.",
+        "Tentukan pembaca melalui kebutuhan, bahasa, bentuk, dan konteks teks.",
+        "Bedakan topik, tujuan penulis, dan pesan yang lebih luas.",
+        "Jelaskan inferensi dengan bukti dan hindari klaim mutlak yang tidak didukung."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · infer from the complete model",
+      "prompt": "Read “A Guide for First-Time Visitors”. Write (1) one implied idea about why visitors needed the guide, (2) the main intended audience, (3) the author’s purpose, and (4) one broader message. For each answer, quote or identify a clue from at least two different paragraphs where possible.",
+      "model": "Implied idea: Some visitors were unsure where to find services because the building had several rooms and small signs. Audience: People visiting the community centre for the first time, especially those who need clear directions. Purpose: To guide visitors to useful rooms and services. Message: Small, user-tested changes can make a shared place easier to use, while personal help remains important. Evidence includes visitors stopping at the entrance, the guide’s large print and pictures, and the final note that signs cannot replace a helpful person.",
+      "modelTranslation": "Ide tersirat: Sebagian pengunjung belum yakin tempat menemukan layanan karena gedung memiliki beberapa ruangan dan tanda berukuran kecil. Pembaca: Orang yang pertama kali datang ke pusat komunitas, terutama mereka yang membutuhkan petunjuk jelas. Tujuan: Memandu pengunjung menuju ruangan dan layanan yang berguna. Pesan: Perubahan kecil yang diuji bersama pengguna dapat membuat tempat bersama lebih mudah digunakan, sementara bantuan manusia tetap penting. Buktinya antara lain pengunjung yang berhenti di pintu masuk, huruf besar dan gambar pada panduan, serta penjelasan akhir bahwa tanda tidak dapat menggantikan bantuan seseorang.",
+      "criteria": "Jawaban menyebut empat unsur secara berbeda; menggunakan petunjuk dari lebih dari satu paragraf; tidak menganggap semua pengunjung memiliki kebutuhan yang sama; dan tidak menyatakan bahwa panduan menggantikan petugas."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "implied idea",
+          "indonesian": "ide tersirat"
+        },
+        {
+          "english": "intended audience",
+          "indonesian": "pembaca yang dituju"
+        },
+        {
+          "english": "author’s purpose",
+          "indonesian": "tujuan penulis"
+        },
+        {
+          "english": "message",
+          "indonesian": "pesan / gagasan yang disampaikan"
+        },
+        {
+          "english": "clue",
+          "indonesian": "petunjuk"
+        },
+        {
+          "english": "infer",
+          "indonesian": "menyimpulkan berdasarkan petunjuk"
+        },
+        {
+          "english": "assumption",
+          "indonesian": "asumsi / anggapan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "accessible",
+          "indonesian": "mudah diakses / digunakan"
+        },
+        {
+          "english": "welcoming",
+          "indonesian": "ramah / menyambut"
+        },
+        {
+          "english": "purpose",
+          "indonesian": "tujuan"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "A text says that new visitors often stop at the entrance, and its guide uses large print and pictures. What is the strongest inference?",
+      "choices": [
+        "The guide is meant to make directions easier for unfamiliar visitors.",
+        "Every visitor has a visual disability.",
+        "The centre plans to remove all staff."
+      ],
+      "answer": 0,
+      "explanation": "Pengunjung baru yang ragu di pintu masuk dan panduan dengan huruf besar serta gambar mendukung inferensi bahwa petunjuk dibuat agar mudah digunakan. Teks tidak menyebut kondisi semua pengunjung atau penghapusan petugas.",
+      "translationId": {
+        "prompt": "Teks menyebut pengunjung baru sering berhenti di pintu masuk dan panduannya memakai huruf besar serta gambar. Apa inferensi terkuat?",
+        "choices": [
+          "Panduan dibuat agar petunjuk lebih mudah digunakan pengunjung yang belum mengenal gedung.",
+          "Setiap pengunjung memiliki gangguan penglihatan.",
+          "Pusat komunitas berencana menghapus semua petugas."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "A short notice explains where to find a free evening class and how to enter the building. What is its most likely purpose?",
+      "choices": [
+        "To guide visitors to useful services",
+        "To entertain readers with a story",
+        "To compare different language schools"
+      ],
+      "answer": 0,
+      "explanation": "Informasi lokasi dan cara masuk merupakan petunjuk bahwa teks ingin membantu pembaca menemukan layanan. Tidak ada cerita hiburan atau perbandingan sekolah bahasa.",
+      "translationId": {
+        "prompt": "Pengumuman singkat menjelaskan lokasi kelas sore gratis dan cara masuk gedung. Apa tujuan yang paling mungkin?",
+        "choices": [
+          "Memandu pengunjung menuju layanan yang berguna",
+          "Menghibur pembaca dengan cerita",
+          "Membandingkan sekolah bahasa yang berbeda"
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A writer explains that clear signs help people move independently, but staff are still available. Which message is supported?",
+      "choices": [
+        "Written directions and human help can support each other.",
+        "Signs can solve every visitor problem.",
+        "Visitors should never ask staff for help."
+      ],
+      "answer": 0,
+      "explanation": "Pesan yang didukung mempertahankan dua sisi teks: tanda membantu pengunjung bergerak mandiri, sementara petugas tetap memberi bantuan. Dua pilihan lain terlalu mutlak dan bertentangan dengan isi.",
+      "translationId": {
+        "prompt": "Penulis menjelaskan bahwa tanda yang jelas membantu orang bergerak mandiri, tetapi petugas tetap tersedia. Pesan mana yang didukung?",
+        "choices": [
+          "Petunjuk tertulis dan bantuan manusia dapat saling melengkapi.",
+          "Tanda dapat menyelesaikan setiap masalah pengunjung.",
+          "Pengunjung tidak boleh meminta bantuan petugas."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-implied-ideas-audience-purpose-message-practice"
+  ]
+}

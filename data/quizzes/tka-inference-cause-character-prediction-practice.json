@@ -1,0 +1,495 @@
+{
+  "id": "tka-inference-cause-character-prediction-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka6-running-club",
+      "title": "A Rainy Practice · Original A2 Practice Text",
+      "text": "On Wednesday, the school running club planned to practise on the outdoor track. Dark clouds appeared before the lesson, but the coach decided to wait because the rain had not started. While the students warmed up, wind pushed dry leaves across the track. A few minutes later, rain began and the surface became slippery. The coach moved the group to the covered hall. The hall was smaller, so students could not run in long lines. Dani suggested using short relay steps and leaving space between groups. The coach tried the plan with six students first. It worked, and the rest of the club followed.\n\nDani usually waited for others to speak before sharing an idea. That day, she noticed that two younger runners were standing near the wet entrance. She asked another member to guide them to the hall. After practice, Dani put the cones back and checked that the entrance was dry. The coach thanked her for noticing both the training problem and the safety issue.\n\nThe next week, the weather forecast showed more rain. The club planned to prepare the hall before practice and keep the outdoor track as an option for dry days. Dani offered to bring a simple floor sign. The coach said they would first check whether the hall was free. The group had learned to make a backup plan rather than assume the weather would stay clear."
+    },
+    {
+      "id": "tka6-library-bench",
+      "title": "The Library Bench Repair · Original B1 Practice Text",
+      "text": "At the town library, a team of volunteers built a small wooden bench for visitors waiting for the mobile book van. The first bench looked finished, but after two days one side began to wobble. The team leader, Farid, initially thought the ground was uneven. Instead of adding another board immediately, he asked two volunteers to remove the seat and inspect the joints. They found that one screw had been placed too close to the edge, where the wood had started to split.\n\nFarid asked the team to compare the damaged joint with the plan. The drawing showed a wider distance between the screw and the edge, but the team had rushed because the van was due that afternoon. A volunteer suggested using a thicker screw. Farid disagreed; the split wood might crack further. He proposed replacing the damaged side piece and drilling a pilot hole before fixing the new screw. The team tested the method on a spare piece first. It held firmly, so they repaired the bench.\n\nWhen the book van arrived again, visitors used the bench without difficulty. Farid wrote down the repair steps and added a note to the team’s checklist: inspect the wood before drilling and allow enough time for each joint. He also asked the volunteers to report any movement after a week. The bench did not prove that every future project would be easy. It showed the team why checking a cause is more useful than covering a visible symptom. The volunteers planned to use the revised checklist on their next build."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka6-running-club",
+      "skill": "Cause and effect",
+      "prompt": "Why did the coach move the running club to the covered hall?",
+      "choices": [
+        "Rain made the outdoor track slippery.",
+        "The club had finished its practice early.",
+        "The hall had a longer running track.",
+        "The students wanted to avoid the coach."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: rain began and the outdoor surface became slippery, so the coach moved the group.",
+        "The practice continued in the hall; it had not finished.",
+        "The passage says the hall was smaller, not longer.",
+        "No student is described as avoiding the coach."
+      ],
+      "translationId": {
+        "prompt": "Mengapa pelatih memindahkan klub lari ke aula tertutup?",
+        "choices": [
+          "Hujan membuat lintasan luar menjadi licin.",
+          "Klub telah menyelesaikan latihan lebih awal.",
+          "Aula memiliki lintasan lari yang lebih panjang.",
+          "Para siswa ingin menghindari pelatih."
+        ]
+      },
+      "evidence": "rain began and the surface became slippery",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Hujan membuat permukaan lintasan licin. Itulah sebab yang dinyatakan sebelum pelatih memindahkan kelompok ke aula."
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka6-running-club",
+      "skill": "Character inference",
+      "prompt": "Which details suggest that Dani is observant and responsible? Select ALL.",
+      "choices": [
+        "She noticed younger runners near the wet entrance",
+        "She asked another member to guide them to the hall",
+        "She put the cones back and checked that the entrance was dry",
+        "She had won every race at the school"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: Dani noticed a safety concern involving younger runners.",
+        "Correct: she acted to help them reach the hall safely.",
+        "Correct: she helped restore the area and checked the wet entrance after practice.",
+        "The passage gives no information about Dani winning races."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang menunjukkan bahwa Dani teliti dan bertanggung jawab? Pilih SEMUA.",
+        "choices": [
+          "Ia melihat pelari yang lebih muda berada dekat pintu masuk yang basah.",
+          "Ia meminta anggota lain mengantar mereka ke aula.",
+          "Ia mengembalikan kerucut penanda dan memeriksa apakah pintu masuk sudah kering.",
+          "Ia telah memenangkan setiap perlombaan di sekolah."
+        ]
+      },
+      "evidence": "she noticed that two younger runners were standing near the wet entrance",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Dani memperhatikan risiko, membantu pelari yang lebih muda, dan memeriksa area setelah latihan. Tidak ada bukti tentang prestasi lombanya."
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka6-running-club",
+      "skill": "Cause, character and prediction",
+      "prompt": "Classify each detail by its role in the passage.",
+      "categories": [
+        "Cause",
+        "Character evidence",
+        "Future plan"
+      ],
+      "statements": [
+        {
+          "text": "Rain made the outdoor track slippery.",
+          "answerCategory": "Cause",
+          "explanation": "Hujan menyebabkan permukaan lintasan menjadi licin dan mendorong pelatih memindahkan kelompok."
+        },
+        {
+          "text": "Dani checked that the entrance was dry after practice.",
+          "answerCategory": "Character evidence",
+          "explanation": "Tindakan memeriksa area menunjukkan perhatian pada keselamatan dan tanggung jawab."
+        },
+        {
+          "text": "The club planned to prepare the hall before the next practice.",
+          "answerCategory": "Future plan",
+          "explanation": "Rencana tersebut menjelaskan tindakan yang akan dilakukan pada latihan berikutnya."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap rincian berdasarkan perannya dalam bacaan.",
+        "categories": [
+          "Sebab",
+          "Bukti karakter",
+          "Rencana berikutnya"
+        ],
+        "statements": [
+          "Hujan membuat lintasan luar menjadi licin.",
+          "Dani memeriksa bahwa pintu masuk sudah kering setelah latihan.",
+          "Klub berencana menyiapkan aula sebelum latihan berikutnya."
+        ]
+      },
+      "evidence": "The club planned to prepare the hall before practice",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Sebab menjelaskan pemicu kejadian, bukti karakter menunjukkan sifat melalui tindakan, dan rencana berikutnya memberi dasar untuk prediksi."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka6-running-club",
+      "skill": "Character trait",
+      "prompt": "Which trait is best supported by Dani’s actions?",
+      "choices": [
+        "Careless and impatient",
+        "Observant and considerate",
+        "Uninterested in the safety of others",
+        "Competitive at all costs"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Her actions show attention and care, not carelessness or impatience.",
+        "Correct: she notices the younger runners near a wet entrance and helps them reach the hall.",
+        "She responds to a safety issue and checks the entrance after practice.",
+        "The passage does not describe her competing or trying to win at any cost."
+      ],
+      "translationId": {
+        "prompt": "Sifat mana yang paling didukung oleh tindakan Dani?",
+        "choices": [
+          "Ceroboh dan tidak sabar",
+          "Teliti dan peduli",
+          "Tidak peduli pada keselamatan orang lain",
+          "Selalu ingin menang dalam persaingan"
+        ]
+      },
+      "evidence": "She asked another member to guide them to the hall",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Dani memperhatikan pelari yang lebih muda dan membantu mereka menuju aula. Tindakan ini mendukung sifat teliti serta peduli."
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka6-running-club",
+      "skill": "Prediction",
+      "prompt": "Which actions are likely to be part of the club’s next rainy practice? Select ALL.",
+      "choices": [
+        "Checking whether the hall is available before practice",
+        "Preparing the hall if it is free",
+        "Keeping the outdoor track as an option for dry days",
+        "Cancelling the club for the rest of the term"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the coach says they will first check whether the hall is free.",
+        "Correct: the club plans to prepare the hall before practice.",
+        "Correct: the outdoor track remains an option when the weather is dry.",
+        "The passage describes a backup plan, not cancelling the club."
+      ],
+      "translationId": {
+        "prompt": "Tindakan mana yang mungkin dilakukan klub pada latihan berikutnya saat hujan? Pilih SEMUA.",
+        "choices": [
+          "Memeriksa apakah aula tersedia sebelum latihan",
+          "Menyiapkan aula jika ruangan kosong",
+          "Mempertahankan lintasan luar sebagai pilihan saat hari kering",
+          "Membatalkan klub sampai akhir semester"
+        ]
+      },
+      "evidence": "The coach said they would first check whether the hall was free",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Rencana klub menyebut pemeriksaan ketersediaan aula dan penggunaan aula sebagai pilihan saat hujan. Lintasan tetap dapat dipakai pada hari kering; pembatalan klub tidak didukung."
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka6-running-club",
+      "skill": "Evidence boundaries",
+      "prompt": "Classify each statement about the running club.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The coach guaranteed that the hall would be free every week.",
+          "answerCategory": "Contradicted",
+          "explanation": "Pelatih mengatakan klub harus memeriksa dahulu apakah aula kosong; ketersediaannya tidak dijamin."
+        },
+        {
+          "text": "The club used short relay steps in the smaller hall.",
+          "answerCategory": "Supported",
+          "explanation": "Dani mengusulkan langkah estafet pendek karena aula lebih kecil, dan pelatih mencoba rencana tersebut."
+        },
+        {
+          "text": "Dani had trained with the running club for five years.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Teks tidak memberikan lama pengalaman Dani mengikuti klub lari."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang klub lari.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Pelatih menjamin aula akan kosong setiap minggu.",
+          "Klub menggunakan langkah estafet pendek di aula yang lebih kecil.",
+          "Dani telah berlatih dengan klub lari selama lima tahun."
+        ]
+      },
+      "evidence": "The coach said they would first check whether the hall was free",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Ketersediaan aula harus diperiksa, bukan dijamin. Langkah estafet pendek dinyatakan dalam bacaan, sedangkan lama pengalaman Dani tidak disebutkan."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka6-library-bench",
+      "skill": "Cause inference",
+      "prompt": "What most directly caused one side of the first bench to wobble?",
+      "choices": [
+        "The mobile book van arrived later than planned.",
+        "Visitors used the bench before it was painted.",
+        "A screw was placed too close to the edge, and the wood began to split.",
+        "The ground was definitely uneven."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The van schedule explains why the team rushed, but the passage identifies the damaged joint as the direct cause.",
+        "The passage does not connect paint or visitor use to the wobble.",
+        "Correct: inspection found a screw near the edge where the wood had started to split.",
+        "Farid first considered the ground, but the team inspected the joint and found the split wood."
+      ],
+      "translationId": {
+        "prompt": "Apa penyebab paling langsung salah satu sisi bangku pertama menjadi goyah?",
+        "choices": [
+          "Mobil perpustakaan keliling datang lebih lambat dari rencana.",
+          "Pengunjung menggunakan bangku sebelum dicat.",
+          "Sekrup dipasang terlalu dekat tepi sehingga kayu mulai terbelah.",
+          "Tanah dipastikan tidak rata."
+        ]
+      },
+      "evidence": "one screw had been placed too close to the edge, where the wood had started to split",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Pemeriksaan menemukan sekrup terlalu dekat tepi dan kayu mulai terbelah. Jadwal mobil perpustakaan menjelaskan mengapa tim terburu-buru, tetapi bukan kerusakan fisik yang paling langsung."
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka6-library-bench",
+      "skill": "Character inference",
+      "prompt": "Which traits are supported by Farid’s decisions? Select ALL.",
+      "choices": [
+        "He is careful to inspect evidence before choosing a repair.",
+        "He is willing to reject a quick fix that may cause more damage.",
+        "He uses a test on spare material before repairing the bench.",
+        "He blames the volunteers without checking what happened."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: he asks the team to inspect the joint and compare it with the plan.",
+        "Correct: he rejects a thicker screw because it might make the split worse.",
+        "Correct: the team tests the method on a spare piece before using it on the bench.",
+        "The passage shows investigation and testing, not blame without evidence."
+      ],
+      "translationId": {
+        "prompt": "Sifat mana yang didukung oleh keputusan Farid? Pilih SEMUA.",
+        "choices": [
+          "Ia berhati-hati memeriksa bukti sebelum memilih perbaikan.",
+          "Ia bersedia menolak perbaikan cepat yang mungkin menambah kerusakan.",
+          "Ia menguji metode pada bahan cadangan sebelum memperbaiki bangku.",
+          "Ia menyalahkan relawan tanpa memeriksa apa yang terjadi."
+        ]
+      },
+      "evidence": "Instead of adding another board immediately, he asked two volunteers to remove the seat and inspect the joints",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Farid memeriksa sambungan, mempertimbangkan risiko sekrup lebih tebal, dan menguji metode pada bahan cadangan. Tindakan ini mendukung sifat teliti dan berhati-hati."
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka6-library-bench",
+      "skill": "Cause–effect chain",
+      "prompt": "Classify each detail by its role in the bench problem and repair.",
+      "categories": [
+        "Contributing cause",
+        "Effect",
+        "Repair response"
+      ],
+      "statements": [
+        {
+          "text": "The team rushed because the book van was due that afternoon.",
+          "answerCategory": "Contributing cause",
+          "explanation": "Tekanan waktu menjadi kondisi yang ikut mendorong tim terburu-buru saat merakit bangku."
+        },
+        {
+          "text": "The wood started to split near the screw.",
+          "answerCategory": "Effect",
+          "explanation": "Kayu yang terbelah merupakan akibat dari pemasangan sekrup terlalu dekat tepi."
+        },
+        {
+          "text": "The team replaced the damaged side piece and drilled a pilot hole.",
+          "answerCategory": "Repair response",
+          "explanation": "Mengganti bagian yang rusak dan membuat lubang awal merupakan tindakan perbaikan yang dipilih."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap rincian berdasarkan perannya dalam masalah dan perbaikan bangku.",
+        "categories": [
+          "Faktor penyebab",
+          "Akibat",
+          "Tindakan perbaikan"
+        ],
+        "statements": [
+          "Tim terburu-buru karena mobil perpustakaan akan datang sore itu.",
+          "Kayu mulai terbelah di dekat sekrup.",
+          "Tim mengganti bagian samping yang rusak dan mengebor lubang awal."
+        ]
+      },
+      "evidence": "the team had rushed because the van was due that afternoon",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Tekanan waktu merupakan faktor yang berkontribusi, kayu terbelah adalah akibat, dan penggantian bagian serta lubang awal merupakan respons perbaikan."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka6-library-bench",
+      "skill": "Prediction",
+      "prompt": "What is the team most likely to do on its next building project?",
+      "choices": [
+        "Place every screw close to the edge to save time.",
+        "Stop checking materials because the bench was repaired.",
+        "Build only metal benches from now on.",
+        "Use the revised checklist to inspect the wood and allow enough time for each joint."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The checklist warns against placing screws too close to the edge.",
+        "The team adds inspection steps after learning from the problem.",
+        "The passage does not mention changing to metal benches.",
+        "Correct: the volunteers plan to use the revised checklist on their next build, and it includes inspection and enough time."
+      ],
+      "translationId": {
+        "prompt": "Apa yang paling mungkin dilakukan tim pada proyek pembangunan berikutnya?",
+        "choices": [
+          "Memasang setiap sekrup dekat tepi agar lebih cepat.",
+          "Berhenti memeriksa bahan karena bangku sudah diperbaiki.",
+          "Mulai sekarang hanya membuat bangku logam.",
+          "Menggunakan daftar periksa yang diperbarui untuk memeriksa kayu dan menyediakan cukup waktu bagi setiap sambungan."
+        ]
+      },
+      "evidence": "The volunteers planned to use the revised checklist on their next build",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Rencana akhir menyatakan bahwa tim akan menggunakan daftar periksa yang diperbarui. Isinya menekankan pemeriksaan kayu dan waktu yang cukup untuk setiap sambungan."
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka6-library-bench",
+      "skill": "Multiple causes",
+      "prompt": "Which details form the evidence-based explanation for the bench’s wobble? Select ALL.",
+      "choices": [
+        "The team rushed because the van was due that afternoon.",
+        "A screw was placed too close to the edge.",
+        "The wood near the screw began to split.",
+        "The team used a metal frame that was too heavy."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the team’s time pressure is identified as a contributing condition.",
+        "Correct: the screw position is identified as a construction error.",
+        "Correct: the split wood is the physical damage connected to the wobble.",
+        "The bench is described as wooden; no metal frame is mentioned."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang membentuk penjelasan berbasis bukti tentang bangku yang goyah? Pilih SEMUA.",
+        "choices": [
+          "Tim terburu-buru karena mobil perpustakaan akan datang sore itu.",
+          "Sekrup dipasang terlalu dekat tepi.",
+          "Kayu di dekat sekrup mulai terbelah.",
+          "Tim menggunakan rangka logam yang terlalu berat."
+        ]
+      },
+      "evidence": "where the wood had started to split",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Tekanan waktu dan posisi sekrup menjelaskan kesalahan perakitan; kayu yang terbelah merupakan bukti kerusakan fisik yang berkaitan dengan bangku goyah. Rangka logam tidak disebutkan dan bertentangan dengan deskripsi bangku kayu."
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka6-library-bench",
+      "skill": "Evidence boundaries",
+      "prompt": "Classify each statement about the repair.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The team tested the repair method on a spare piece before using it on the bench.",
+          "answerCategory": "Supported",
+          "explanation": "Bacaan menyatakan metode diuji pada bahan cadangan dan hasilnya kuat sebelum bangku diperbaiki."
+        },
+        {
+          "text": "Farid added another board immediately without inspecting the joint.",
+          "answerCategory": "Contradicted",
+          "explanation": "Farid justru meminta tim melepas dudukan dan memeriksa sambungan sebelum memilih perbaikan."
+        },
+        {
+          "text": "The repaired bench was painted bright red.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Teks menjelaskan perbaikan dan penggunaan bangku, tetapi tidak menyebut warna cat."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang perbaikan.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Tim menguji metode perbaikan pada bahan cadangan sebelum menggunakannya pada bangku.",
+          "Farid langsung menambahkan papan lain tanpa memeriksa sambungan.",
+          "Bangku yang diperbaiki dicat merah terang."
+        ]
+      },
+      "evidence": "The team tested the method on a spare piece first",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Uji coba pada bahan cadangan dinyatakan langsung. Klaim bahwa Farid langsung menambah papan bertentangan dengan langkah pemeriksaan, sedangkan warna cat tidak disebut."
+    }
+  ]
+}

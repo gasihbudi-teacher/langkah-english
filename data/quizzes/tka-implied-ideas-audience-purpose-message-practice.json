@@ -1,0 +1,495 @@
+{
+  "id": "tka-implied-ideas-audience-purpose-message-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka5-health-post-sign",
+      "title": "A Clearer Sign at the Health Post · Original A2 Practice Text",
+      "text": "At the entrance of the Tunas Health Post, visitors often asked the same questions. Some wanted to know where to wait, while others needed to find the blood-pressure room or the child-care desk. During busy mornings, staff wrote down the three places people asked about most often. They then placed a new sign beside the door. It uses large letters, simple arrows, and pictures of a chair, a heart, and a small child. The words are short, and the sign is printed in two languages.\n\nA volunteer tested the sign with three people who had not visited the health post before. Two found the waiting area without asking for help. The third person followed an arrow to the wrong corridor because the sign was too close to the entrance. The volunteer moved it to a place where visitors could see it before choosing a hallway. The team kept the pictures because the first two visitors had used them to check their direction.\n\nThe health post now keeps a paper copy at the reception desk and plans to check the sign again after one month. Staff still answer questions and help visitors who need more support. The sign is not meant to replace the staff. It gives people a first clue so they can move around with more confidence."
+    },
+    {
+      "id": "tka5-museum-routes",
+      "title": "Why the Museum Changed Its Tour · Original B1 Practice Text",
+      "text": "Last year, the small Hill Street Museum offered one long guided tour each afternoon. Visitors followed a guide through every room, and the guide explained dates, names, and details about each object. The tour worked well for people who had enough time, but some visitors left before the final room. Others said they remembered a few objects but found it difficult to connect them with the town's history.\n\nThe museum team reviewed visitor comments and watched where groups slowed down. They found that many people wanted a shorter route that explained how ordinary families had used the objects. The team therefore created three short routes: home life, local work, and public celebrations. Each route uses fewer objects but asks one question at each stop. Visitors can read the question alone or discuss it with a friend before moving on. A volunteer is available to answer questions, but the card lets visitors explore at their own pace. A small card gives extra dates for visitors who want more detail. The guides still offer the longer tour on selected days.\n\nThe change is not simply an attempt to make the museum easier. The team wants visitors to connect an object with a real part of community life. A cooking pot, for example, is introduced through the meals families prepared together, not only through its age. The museum will compare visitor comments after six months before deciding whether to keep all three routes. The team believes that a useful visit depends on the questions people take away, not on how many objects they pass."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Intended audience",
+      "prompt": "Who is the new sign mainly designed to help?",
+      "choices": [
+        "Visitors who are unfamiliar with the health post",
+        "Doctors who already work in the building",
+        "People who want to buy medical equipment",
+        "Tourists looking for local restaurants"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the sign was tested with people who had not visited the health post before, and it helps visitors find key areas.",
+        "The passage describes visitors and their routes, not a staff reference for doctors.",
+        "The sign identifies rooms and services; it does not advertise medical equipment for sale.",
+        "The text concerns directions inside a health post, not local tourism or restaurants."
+      ],
+      "translationId": {
+        "prompt": "Siapa yang terutama dibantu oleh tanda baru tersebut?",
+        "choices": [
+          "Pengunjung yang belum mengenal pos kesehatan",
+          "Dokter yang sudah bekerja di gedung tersebut",
+          "Orang yang ingin membeli peralatan medis",
+          "Wisatawan yang mencari restoran setempat"
+        ]
+      },
+      "evidence": "people who had not visited the health post before",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Petunjuk tentang uji coba kepada pengunjung baru dan isi panduan menunjukkan pembaca utamanya adalah orang yang belum mengenal gedung. Teks tidak membatasi mereka pada dokter, pembeli alat, atau wisatawan."
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Audience clues",
+      "prompt": "Which features suggest that the sign is designed to make directions easier to understand? Select ALL.",
+      "choices": [
+        "It uses large letters, simple arrows, and pictures",
+        "It uses short words and two languages",
+        "It includes private patient records",
+        "It focuses on places visitors ask about most often"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: large letters, arrows, and pictures make locations easier to recognise.",
+        "Correct: short wording and two languages help visitors follow the information.",
+        "The passage does not say that private medical records appear on a public sign.",
+        "Correct: the team selected the places visitors most often asked about."
+      ],
+      "translationId": {
+        "prompt": "Fitur mana yang menunjukkan bahwa tanda dibuat agar petunjuk lebih mudah dipahami? Pilih SEMUA.",
+        "choices": [
+          "Tanda menggunakan huruf besar, panah sederhana, dan gambar",
+          "Tanda menggunakan kata-kata singkat dan dua bahasa",
+          "Tanda memuat catatan pasien pribadi",
+          "Tanda berfokus pada tempat yang paling sering ditanyakan pengunjung"
+        ]
+      },
+      "evidence": "It uses large letters, simple arrows, and pictures",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Huruf besar, panah, gambar, kata singkat, dua bahasa, dan pemilihan lokasi yang sering ditanyakan mendukung tujuan memudahkan navigasi. Catatan pasien pribadi tidak disebut dan tidak sesuai fungsi tanda umum."
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Purpose and evidence boundaries",
+      "prompt": "Classify each statement about the sign.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The sign is intended to replace reception staff.",
+          "answerCategory": "Contradicted",
+          "explanation": "Teks secara jelas menyatakan bahwa tanda tidak dimaksudkan untuk menggantikan petugas."
+        },
+        {
+          "text": "The staff selected places that visitors asked about most often.",
+          "answerCategory": "Supported",
+          "explanation": "Petugas mencatat tiga tempat yang paling sering ditanyakan saat pagi sibuk dan memasukkannya ke tanda."
+        },
+        {
+          "text": "The sign gives the opening hours of every room.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Bacaan menyebut arah dan lokasi layanan, tetapi tidak memberikan jam buka setiap ruangan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang tanda tersebut.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Tanda dimaksudkan untuk menggantikan petugas penerima tamu.",
+          "Petugas memilih tempat yang paling sering ditanyakan pengunjung.",
+          "Tanda mencantumkan jam buka setiap ruangan."
+        ]
+      },
+      "evidence": "The sign is not meant to replace the staff",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Bedakan informasi yang dinyatakan, klaim yang dibantah, dan rincian yang tidak disebut. Tanda membantu navigasi, tetapi petugas tetap memberi bantuan; jam buka setiap ruangan tidak dibahas."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Implied idea",
+      "prompt": "Why did the volunteer move the sign after the first test?",
+      "choices": [
+        "To hide the sign from people entering the building",
+        "To make it visible before visitors choose a corridor",
+        "To show that the health post had closed",
+        "To make the sign available only to staff"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The purpose was to improve visibility, not to hide information.",
+        "Correct: one visitor followed an arrow to the wrong corridor, so the volunteer moved the sign to a place visible before a choice was made.",
+        "The health post remained open and kept a copy at reception.",
+        "The sign is intended to help visitors, not to restrict it to staff."
+      ],
+      "translationId": {
+        "prompt": "Mengapa relawan memindahkan tanda setelah uji coba pertama?",
+        "choices": [
+          "Untuk menyembunyikan tanda dari orang yang masuk",
+          "Agar tanda terlihat sebelum pengunjung memilih koridor",
+          "Untuk menunjukkan bahwa pos kesehatan telah tutup",
+          "Agar tanda hanya tersedia bagi petugas"
+        ]
+      },
+      "evidence": "moved it to a place where visitors could see it before choosing a hallway",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Relawan mengubah posisi setelah satu pengunjung mengikuti panah ke koridor yang salah. Tujuannya memperlihatkan arah lebih awal, bukan menutup akses atau membatasi pembaca."
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Implied purpose",
+      "prompt": "Which ideas about the health-post team are supported? Select ALL.",
+      "choices": [
+        "They tested the sign with people who were new to the building",
+        "They used feedback to improve the sign’s position",
+        "They still provide personal help when visitors need it",
+        "They expect the sign to answer every question"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the volunteers tested the guide with three people who had not visited before.",
+        "Correct: the sign was moved after a visitor followed an arrow to the wrong corridor.",
+        "Correct: staff still answer questions and help visitors who need more support.",
+        "The final paragraph says the sign is not a replacement for staff, so it is not expected to answer every question."
+      ],
+      "translationId": {
+        "prompt": "Gagasan mana tentang tim pos kesehatan yang didukung? Pilih SEMUA.",
+        "choices": [
+          "Mereka menguji tanda kepada orang yang baru mengenal gedung",
+          "Mereka menggunakan masukan untuk memperbaiki posisi tanda",
+          "Mereka tetap memberikan bantuan langsung saat pengunjung membutuhkannya",
+          "Mereka berharap tanda dapat menjawab setiap pertanyaan"
+        ]
+      },
+      "evidence": "The volunteer moved it to a place where visitors could see it before choosing a hallway",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Uji coba, perubahan posisi, dan keberlanjutan bantuan petugas menunjukkan pendekatan yang berorientasi pada pengguna. Tanda membantu, tetapi tidak menggantikan komunikasi langsung."
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka5-health-post-sign",
+      "skill": "Topic, purpose and message",
+      "prompt": "Classify each description by its role in the text.",
+      "categories": [
+        "Topic",
+        "Purpose",
+        "Implied message"
+      ],
+      "statements": [
+        {
+          "text": "The new sign at the Tunas Health Post.",
+          "answerCategory": "Topic",
+          "explanation": "Pernyataan ini hanya menyebut hal yang dibahas, yaitu tanda baru di pos kesehatan."
+        },
+        {
+          "text": "To help visitors find important areas more easily.",
+          "answerCategory": "Purpose",
+          "explanation": "Tujuan menjelaskan tindakan yang ingin dilakukan teks atau tanda bagi pembacanya."
+        },
+        {
+          "text": "Clear information can support confidence, while personal help remains important.",
+          "answerCategory": "Implied message",
+          "explanation": "Pesan yang lebih luas terlihat dari manfaat petunjuk dan penegasan bahwa petugas tetap membantu."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap deskripsi berdasarkan perannya dalam bacaan.",
+        "categories": [
+          "Topik",
+          "Tujuan",
+          "Pesan tersirat"
+        ],
+        "statements": [
+          "Tanda baru di Tunas Health Post.",
+          "Membantu pengunjung menemukan area penting dengan lebih mudah.",
+          "Informasi yang jelas dapat meningkatkan kepercayaan diri, sementara bantuan langsung tetap penting."
+        ]
+      },
+      "evidence": "The sign is not meant to replace the staff",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Topik menamai bahasan, tujuan menyebut fungsi tanda, dan pesan menyampaikan gagasan lebih luas bahwa informasi yang jelas melengkapi bantuan manusia."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka5-museum-routes",
+      "skill": "Intended audience",
+      "prompt": "Which visitors are most likely to benefit from the museum’s shorter routes?",
+      "choices": [
+        "Only professional historians who need a complete list of dates",
+        "Museum workers who repair the objects",
+        "Visitors who want a focused visit and a clearer connection to local life",
+        "Visitors who want to see every object in one long tour"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The text says extra dates remain available on small cards; the new routes are not designed only for professional historians.",
+        "The passage discusses interpretation for visitors, not repair instructions for museum workers.",
+        "Correct: the shorter routes respond to visitors who left early or struggled to connect objects with local history.",
+        "The shorter routes use fewer objects; the longer tour remains a separate option on selected days."
+      ],
+      "translationId": {
+        "prompt": "Pengunjung mana yang paling mungkin terbantu oleh rute museum yang lebih singkat?",
+        "choices": [
+          "Hanya sejarawan profesional yang membutuhkan daftar tanggal lengkap",
+          "Petugas museum yang memperbaiki benda koleksi",
+          "Pengunjung yang menginginkan kunjungan terarah dan hubungan lebih jelas dengan kehidupan setempat",
+          "Pengunjung yang ingin melihat setiap benda dalam satu tur panjang"
+        ]
+      },
+      "evidence": "some visitors left before the final room",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Komentar pengunjung dan masalah menghubungkan benda dengan sejarah kota mendorong rute yang lebih terarah. Teks tetap menyediakan tur panjang pada hari tertentu, sehingga rute singkat bukan untuk orang yang ingin melihat semuanya sekaligus."
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka5-museum-routes",
+      "skill": "Implied priorities",
+      "prompt": "Which priorities can be inferred from the museum team’s decisions? Select ALL.",
+      "choices": [
+        "Connecting objects with ordinary community life",
+        "Using visitor comments to revise the tour",
+        "Maximising the number of objects in every route",
+        "Keeping different visit options available"
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: the team introduces objects through how families used them in daily life.",
+        "Correct: the team reviewed comments and watched where groups slowed down.",
+        "The new routes use fewer objects, so maximising the number is not the stated priority.",
+        "Correct: the longer tour remains available on selected days while shorter routes are added."
+      ],
+      "translationId": {
+        "prompt": "Prioritas mana yang dapat disimpulkan dari keputusan tim museum? Pilih SEMUA.",
+        "choices": [
+          "Menghubungkan benda koleksi dengan kehidupan masyarakat biasa",
+          "Menggunakan komentar pengunjung untuk memperbaiki tur",
+          "Memaksimalkan jumlah benda dalam setiap rute",
+          "Mempertahankan pilihan kunjungan yang berbeda"
+        ]
+      },
+      "evidence": "The guides still offer the longer tour on selected days",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Keputusan tim menunjukkan perhatian pada hubungan bermakna, masukan pengunjung, dan pilihan rute. Jumlah benda bukan prioritas utama karena rute baru justru menggunakan lebih sedikit benda."
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka5-museum-routes",
+      "skill": "Evidence boundaries",
+      "prompt": "Classify each statement about the museum’s tour.",
+      "categories": [
+        "Supported",
+        "Contradicted",
+        "Not mentioned"
+      ],
+      "statements": [
+        {
+          "text": "The longer guided tour is still offered on selected days.",
+          "answerCategory": "Supported",
+          "explanation": "Paragraf kedua menyatakan bahwa pemandu tetap menawarkan tur panjang pada hari-hari tertentu."
+        },
+        {
+          "text": "The museum removed every date and object detail from the visitor experience.",
+          "answerCategory": "Contradicted",
+          "explanation": "Kartu kecil masih memberikan tanggal tambahan bagi pengunjung yang menginginkan rincian lebih banyak."
+        },
+        {
+          "text": "Each short route takes exactly twenty minutes.",
+          "answerCategory": "Not mentioned",
+          "explanation": "Bacaan menyebut rute singkat, tetapi tidak memberikan durasi pasti untuk masing-masing rute."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang tur museum.",
+        "categories": [
+          "Didukung",
+          "Bertentangan",
+          "Tidak disebutkan"
+        ],
+        "statements": [
+          "Tur berpemandu yang lebih panjang tetap ditawarkan pada hari tertentu.",
+          "Museum menghapus semua tanggal dan rincian benda dari pengalaman pengunjung.",
+          "Setiap rute singkat berlangsung tepat dua puluh menit."
+        ]
+      },
+      "evidence": "The guides still offer the longer tour on selected days",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Kartu tanggal tambahan membantah klaim bahwa semua rincian dihapus. Durasi tepat tiap rute tidak disebutkan, sehingga tidak boleh ditebak."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka5-museum-routes",
+      "skill": "Implied message",
+      "prompt": "What broader message does the writer suggest?",
+      "choices": [
+        "A museum should remove all historical information to make visits shorter.",
+        "Every visitor prefers the same route and level of detail.",
+        "A guided tour is useful only when it covers every room.",
+        "A meaningful visit depends on connections and questions, not simply on the number of objects seen."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The museum still provides dates and additional detail for visitors who want them.",
+        "The museum keeps several route options, which recognises different visitor preferences.",
+        "The longer tour remains available, but the text does not say every useful visit must cover every room.",
+        "Correct: the final paragraph contrasts meaningful questions and connections with the number of objects passed."
+      ],
+      "translationId": {
+        "prompt": "Pesan lebih luas apa yang disiratkan penulis?",
+        "choices": [
+          "Museum harus menghapus semua informasi sejarah agar kunjungan lebih singkat.",
+          "Setiap pengunjung menyukai rute dan tingkat rincian yang sama.",
+          "Tur berpemandu hanya berguna jika mencakup setiap ruangan.",
+          "Kunjungan bermakna bergantung pada hubungan dan pertanyaan, bukan sekadar jumlah benda yang dilihat."
+        ]
+      },
+      "evidence": "a useful visit depends on the questions people take away, not on how many objects they pass",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Kalimat penutup menyatakan gagasan utama yang lebih luas: kualitas pemahaman lebih penting daripada jumlah objek. Pilihan lain bertentangan dengan keberadaan kartu informasi, beberapa rute, dan tur panjang."
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka5-museum-routes",
+      "skill": "Evaluating the author’s reasoning",
+      "prompt": "Which details show that the museum team is evaluating the change rather than claiming guaranteed success? Select ALL.",
+      "choices": [
+        "The team reviewed visitor comments and observed where groups slowed down",
+        "The museum will compare comments again after six months",
+        "The longer tour remains available on selected days",
+        "The team says every visitor will understand local history perfectly"
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the team used comments and observations to identify a problem before changing the tour.",
+        "Correct: the six-month review shows that the team will assess the results before deciding what to keep.",
+        "Correct: retaining the longer tour allows different needs to be served while the new routes are evaluated.",
+        "The passage makes no guarantee of perfect understanding; it describes a plan to review visitor responses."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang menunjukkan tim museum sedang mengevaluasi perubahan, bukan menjamin keberhasilannya? Pilih SEMUA.",
+        "choices": [
+          "Tim meninjau komentar pengunjung dan mengamati bagian tempat kelompok melambat",
+          "Museum akan membandingkan komentar lagi setelah enam bulan",
+          "Tur yang lebih panjang tetap tersedia pada hari tertentu",
+          "Tim menyatakan setiap pengunjung akan memahami sejarah setempat dengan sempurna"
+        ]
+      },
+      "evidence": "The museum will compare visitor comments after six months before deciding whether to keep all three routes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Pengamatan awal, evaluasi enam bulan, dan pilihan tur yang tetap tersedia menunjukkan sikap terbuka terhadap hasil. Penulis tidak menjanjikan bahwa setiap pengunjung akan memahami semuanya dengan sempurna."
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka5-museum-routes",
+      "skill": "Topic, purpose and message",
+      "prompt": "Classify each description by its role in the passage.",
+      "categories": [
+        "Topic",
+        "Purpose",
+        "Implied message"
+      ],
+      "statements": [
+        {
+          "text": "The museum’s redesigned visitor tours.",
+          "answerCategory": "Topic",
+          "explanation": "Ini menyebut pokok bahasan teks, yaitu perubahan rute tur museum."
+        },
+        {
+          "text": "To explain why the museum introduced shorter routes and what they are intended to achieve.",
+          "answerCategory": "Purpose",
+          "explanation": "Teks menjelaskan alasan perubahan dan tujuan menghubungkan koleksi dengan kehidupan masyarakat."
+        },
+        {
+          "text": "People may understand history more deeply when objects are connected to everyday community life.",
+          "answerCategory": "Implied message",
+          "explanation": "Pesan tersebut disimpulkan dari cara benda diperkenalkan melalui pengalaman keluarga dan kehidupan sehari-hari."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap deskripsi berdasarkan perannya dalam bacaan.",
+        "categories": [
+          "Topik",
+          "Tujuan",
+          "Pesan tersirat"
+        ],
+        "statements": [
+          "Rute tur pengunjung museum yang dirancang ulang.",
+          "Menjelaskan alasan museum memperkenalkan rute yang lebih singkat dan tujuan yang ingin dicapai.",
+          "Orang dapat memahami sejarah lebih dalam ketika benda dihubungkan dengan kehidupan masyarakat sehari-hari."
+        ]
+      },
+      "evidence": "A cooking pot, for example, is introduced through the meals families prepared together, not only through its age",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Inferensial",
+      "explanation": "Topik menamai bahasan, tujuan menjelaskan perubahan tur, dan pesan menyimpulkan manfaat menghubungkan benda dengan pengalaman sehari-hari."
+    }
+  ]
+}

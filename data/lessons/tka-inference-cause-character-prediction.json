@@ -1,0 +1,436 @@
+{
+  "id": "tka-inference-cause-character-prediction",
+  "objectives": [
+    "Menyusun inferensi dari beberapa petunjuk dan membedakan fakta tertulis dari asumsi.",
+    "Menelusuri sebab, akibat, dan rantai kejadian tanpa menyamakan urutan dengan hubungan kausal.",
+    "Menyimpulkan sifat dan motivasi tokoh berdasarkan pola tindakan, ucapan, dan keputusan.",
+    "Membuat prediksi yang masuk akal dengan mempertahankan syarat dan batas informasi dalam teks."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu inferensi, sebab-akibat, karakter, dan prediksi?",
+      "text": "[[Inferensi]] adalah kesimpulan yang dibangun dari petunjuk teks. [[Sebab]] menjelaskan mengapa suatu kejadian terjadi, sedangkan [[akibat]] adalah hasilnya. [[Karakter]] dapat dipahami melalui pola tindakan dan ucapan tokoh. [[Prediksi]] memperkirakan hal yang mungkin terjadi berikutnya berdasarkan pola, rencana, dan kondisi yang disebutkan. Semua jawaban tetap harus berakar pada bukti."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Pelajari cara menafsirkan kejadian, sebab, sifat tokoh, dan kemungkinan berikutnya. Setiap langkah memberi contoh, alasan, dan pertanyaan tanpa nilai. Setelah itu, baca model naratif tiga paragraf dan petakan hubungan masalah, pilihan, karakter, serta rencana kelompok.",
+      "steps": [
+        {
+          "title": "Pisahkan kejadian tertulis dan inferensi",
+          "explanation": "Kejadian tertulis menyebut apa yang terjadi. Inferensi menjelaskan hal yang masuk akal di balik kejadian itu, misalnya alasan seseorang bertindak atau keadaan yang tidak disebut langsung. Tandai dulu fakta sebelum menafsirkan.",
+          "english": "The usual room was closed because workers were painting it.",
+          "indonesian": "Ruangan yang biasa digunakan ditutup karena sedang dicat.",
+          "why": "Kalimat tersebut menyatakan alasan penutupan secara langsung. Inferensi lain, seperti klub tidak memiliki ruangan sendiri, tidak didukung.",
+          "check": "Apa yang tertulis langsung dan apa yang belum boleh disimpulkan dari kalimat ini?",
+          "checkAnswer": "Tertulis: ruangan ditutup karena dicat. Belum dapat disimpulkan bahwa sekolah tidak memiliki ruangan lain.",
+          "phase": "Membangun inferensi berbasis bukti"
+        },
+        {
+          "title": "Gabungkan petunjuk sebelum menyimpulkan",
+          "explanation": "Inferensi yang kuat dapat menghubungkan tindakan, kondisi, dan hasil dari beberapa kalimat. Jangan mengambil satu tindakan sebagai bukti tunggal untuk sifat atau niat seseorang.",
+          "english": "Rani checked the timetable and noticed that the art room was empty.",
+          "indonesian": "Rani memeriksa jadwal dan melihat bahwa ruang seni kosong.",
+          "why": "Memeriksa jadwal dan mencari ruangan kosong menunjukkan bahwa Rani sedang mencari pilihan yang dapat digunakan, bukan sekadar memilih tempat secara acak.",
+          "check": "Petunjuk apa yang mendukung kesimpulan bahwa Rani mencari solusi yang memungkinkan?",
+          "checkAnswer": "Ia memeriksa jadwal lalu melihat ketersediaan ruang seni. Kedua tindakan itu saling mendukung.",
+          "phase": "Membangun inferensi berbasis bukti"
+        },
+        {
+          "title": "Pilih inferensi yang paling dekat dengan bukti",
+          "explanation": "Jika beberapa pilihan tampak mungkin, pilih yang memerlukan asumsi paling sedikit. Kesimpulan yang baik menjelaskan petunjuk penting tanpa menambahkan riwayat, perasaan, atau kemampuan yang tidak disebutkan.",
+          "english": "The sound was clear enough, and the next class was not disturbed.",
+          "indonesian": "Suaranya cukup jelas dan kelas berikutnya tidak terganggu.",
+          "why": "Kita dapat menyimpulkan bahwa pengaturan baru cukup berhasil untuk latihan itu. Kita tidak dapat menyimpulkan bahwa semua kelas menyukai musik atau bahwa ruangan selalu tersedia.",
+          "check": "Kesimpulan mana yang lebih aman: pengaturan berhasil pada latihan itu atau semua kelas menyukai pengaturan tersebut?",
+          "checkAnswer": "Pengaturan berhasil pada latihan itu. Teks hanya melaporkan hasil yang diamati pada kesempatan tersebut.",
+          "phase": "Membangun inferensi berbasis bukti"
+        },
+        {
+          "title": "Bedakan penyebab utama dan pemicu langsung",
+          "explanation": "[[Cause]] adalah alasan atau kondisi yang menghasilkan suatu kejadian; [[effect]] adalah hasilnya. Sebuah teks dapat memberi sebab yang jelas atau beberapa kondisi yang bersama-sama memicu hasil. Perhatikan kata because, since, so, dan urutan peristiwa.",
+          "english": "The courtyard was noisy because a delivery truck stopped outside.",
+          "indonesian": "Halaman menjadi bising karena sebuah truk pengiriman berhenti di luar.",
+          "why": "Truk yang berhenti adalah sebab langsung suara mesin menutupi musik. Ruangan yang sedang dicat adalah sebab awal klub harus mencari tempat lain.",
+          "check": "Apa sebab langsung anggota klub tidak dapat mendengar irama dengan jelas?",
+          "checkAnswer": "Suara mesin truk di luar menutupi musik. Penutupan ruang biasa menjelaskan mengapa mereka berlatih di halaman, bukan sebab langsung kebisingan.",
+          "phase": "Menelusuri hubungan sebab dan akibat"
+        },
+        {
+          "title": "Susun rantai sebab-akibat",
+          "explanation": "Dalam bacaan panjang, satu akibat dapat menjadi sebab bagi kejadian berikutnya. Susun rantai dengan kata “karena” dan “akibatnya”. Pastikan setiap hubungan didukung teks, bukan hanya terjadi berurutan.",
+          "english": "The usual room was closed; the club tried the courtyard; truck noise covered the music.",
+          "indonesian": "Ruangan biasa ditutup; klub mencoba halaman; suara truk menutupi musik.",
+          "why": "Rantai ini menjelaskan mengapa klub berpindah dari ruangan biasa ke halaman, lalu membutuhkan lokasi lain. Urutan kejadian membantu memahami masalah.",
+          "check": "Apa rantai yang paling tepat dari penutupan ruang sampai klub mencari tempat baru?",
+          "checkAnswer": "Ruangan biasa dicat dan ditutup, klub mencoba halaman, lalu suara truk mengganggu latihan sehingga mereka mencari pilihan lain.",
+          "phase": "Menelusuri hubungan sebab dan akibat"
+        },
+        {
+          "title": "Jangan samakan urutan dengan sebab",
+          "explanation": "Dua kejadian yang terjadi berurutan belum tentu memiliki hubungan sebab-akibat. Cari penjelasan, kondisi, atau hasil yang menghubungkannya. Jika teks tidak menjelaskan sebab, nyatakan bahwa penyebabnya belum diketahui.",
+          "english": "The club used the art room again on Friday because the courtyard was being cleaned.",
+          "indonesian": "Klub kembali menggunakan ruang seni pada hari Jumat karena halaman sedang dibersihkan.",
+          "why": "Kata because menghubungkan pembersihan halaman dengan pilihan ruang seni. Kedatangan Rani lebih awal adalah tindakan berikutnya, bukan penyebab halaman dibersihkan.",
+          "check": "Apakah kedatangan Rani lebih awal menyebabkan halaman dibersihkan?",
+          "checkAnswer": "Tidak. Teks menyebut halaman sedang dibersihkan sebagai alasan klub menggunakan ruang seni; kedatangan Rani adalah tindakan persiapan.",
+          "phase": "Menelusuri hubungan sebab dan akibat"
+        },
+        {
+          "title": "Gunakan tindakan untuk membaca karakter",
+          "explanation": "[[Character trait]] adalah sifat yang terlihat dari pola tindakan, pilihan, dan ucapan. Jangan memberi label hanya dari satu emosi sesaat. Cari tindakan yang menunjukkan cara tokoh menghadapi masalah.",
+          "english": "Rani checked the timetable before asking to use the art room.",
+          "indonesian": "Rani memeriksa jadwal sebelum meminta menggunakan ruang seni.",
+          "why": "Urutan tindakan menunjukkan bahwa Rani mempertimbangkan ketersediaan sebelum mengusulkan solusi. Ini mendukung sifat teliti dan praktis.",
+          "check": "Sifat apa yang paling didukung oleh tindakan Rani memeriksa jadwal terlebih dahulu?",
+          "checkAnswer": "Teliti atau praktis. Teks menunjukkan ia memeriksa informasi sebelum mengajukan pilihan.",
+          "phase": "Membaca karakter dan motivasi"
+        },
+        {
+          "title": "Baca motivasi dari tujuan dan tindakan",
+          "explanation": "Motivasi menjelaskan alasan tokoh melakukan sesuatu. Hubungkan masalah yang dihadapi dengan tindakan yang dipilih dan hasil yang ingin dicapai. Jangan menganggap tokoh mengejar pujian atau keuntungan jika teks tidak menyebutnya.",
+          "english": "Rani wrote down the arrangement so the group could repeat it if the room remained free.",
+          "indonesian": "Rani mencatat pengaturan itu agar kelompok dapat mengulanginya jika ruangan masih tersedia.",
+          "why": "Frasa so the group could repeat it menunjukkan motivasi membantu kelompok memiliki rencana yang dapat digunakan lagi.",
+          "check": "Apa motivasi paling mungkin Rani mencatat pengaturan ruang?",
+          "checkAnswer": "Agar kelompok dapat mengulang pengaturan yang berhasil jika ruangan tersedia. Teks tidak menyebut bahwa ia ingin mendapat pujian.",
+          "phase": "Membaca karakter dan motivasi"
+        },
+        {
+          "title": "Gunakan beberapa tindakan untuk menilai sifat",
+          "explanation": "Sifat tokoh lebih kuat jika terlihat melalui beberapa tindakan yang konsisten. Periksa apakah tokoh mengamati masalah, mempertimbangkan pilihan, meminta izin, atau memikirkan orang lain. Hindari menyimpulkan sifat permanen dari satu kejadian saja.",
+          "english": "Rani moved the chairs, checked the timetable, and kept a second option.",
+          "indonesian": "Rani memindahkan kursi, memeriksa jadwal, dan mempertahankan pilihan kedua.",
+          "why": "Tindakan berulang menunjukkan persiapan dan tanggung jawab. Kita tidak perlu menyebutnya selalu sempurna atau tidak pernah melakukan kesalahan.",
+          "check": "Mengapa tiga tindakan tersebut mendukung sifat bertanggung jawab?",
+          "checkAnswer": "Ia menyiapkan tempat, memeriksa ketersediaan, dan membantu kelompok memiliki rencana cadangan.",
+          "phase": "Membaca karakter dan motivasi"
+        },
+        {
+          "title": "Bedakan sifat, perasaan, dan fakta",
+          "explanation": "Sifat adalah kecenderungan perilaku; perasaan adalah keadaan sementara; fakta adalah hal yang dinyatakan. “Rani was worried” tidak boleh dipilih jika teks hanya menyebut ia memeriksa jadwal. Gunakan label karakter yang benar-benar terlihat.",
+          "english": "Another member suggested keeping the arrangement for the whole month.",
+          "indonesian": "Anggota lain menyarankan agar pengaturan itu dipakai selama satu bulan penuh.",
+          "why": "Kalimat tersebut menyatakan usulan anggota lain, bukan bukti bahwa Rani merasa senang atau bahwa guru sudah menyetujuinya.",
+          "check": "Apakah kalimat itu membuktikan guru menyetujui penggunaan ruang seni selama sebulan?",
+          "checkAnswer": "Tidak. Itu hanya usulan seorang anggota; guru mengatakan keputusan bergantung pada jadwal pengecatan dan kelas lain.",
+          "phase": "Membaca karakter dan motivasi"
+        },
+        {
+          "title": "Prediksi dari pola yang sudah terlihat",
+          "explanation": "[[Prediction]] adalah perkiraan tentang hal yang mungkin terjadi berikutnya. Gunakan pola tindakan, rencana, dan keadaan yang belum selesai. Prediksi bukan kepastian dan tidak boleh bertentangan dengan informasi sebelumnya.",
+          "english": "The club agreed to check the room each week.",
+          "indonesian": "Klub sepakat memeriksa ruangan setiap minggu.",
+          "why": "Rencana tersebut membuat masuk akal jika klub akan memeriksa jadwal sebelum menentukan lokasi latihan berikutnya.",
+          "check": "Apa tindakan berikutnya yang paling mungkin dilakukan klub sebelum latihan?",
+          "checkAnswer": "Memeriksa apakah ruang seni tersedia dan menyiapkan halaman sebagai pilihan kedua.",
+          "phase": "Membuat prediksi yang masuk akal"
+        },
+        {
+          "title": "Perhatikan syarat yang membatasi prediksi",
+          "explanation": "Prediksi perlu mempertahankan kata pembatas seperti if, when, unless, atau depends on. Jika suatu rencana bergantung pada jadwal, jangan menyatakan hasilnya pasti terjadi.",
+          "english": "The teacher said the plan depended on the painting schedule and other classes.",
+          "indonesian": "Guru mengatakan bahwa rencana itu bergantung pada jadwal pengecatan dan kelas lain.",
+          "why": "Kalimat ini membatasi kemungkinan penggunaan ruang seni. Prediksi yang tepat harus menyebut ketersediaan, bukan memastikan ruangan selalu dapat dipakai.",
+          "check": "Mengapa “The club will use the art room every week” terlalu pasti?",
+          "checkAnswer": "Karena penggunaan ruang bergantung pada jadwal pengecatan dan kelas lain. Teks belum menjamin ruang itu selalu kosong.",
+          "phase": "Membuat prediksi yang masuk akal"
+        },
+        {
+          "title": "Buat prediksi alternatif yang tetap masuk akal",
+          "explanation": "Kadang teks mendukung lebih dari satu kemungkinan. Pilih prediksi yang paling dekat dengan rencana dan bukti, atau sebutkan kondisi yang membuat pilihan lain mungkin. Jangan mengubah satu kemungkinan menjadi satu-satunya hasil.",
+          "english": "The courtyard remained a second choice.",
+          "indonesian": "Halaman tetap menjadi pilihan kedua.",
+          "why": "Jika ruang seni tidak tersedia, klub mungkin kembali ke halaman ketika kondisinya memungkinkan. Ini prediksi bersyarat, bukan kepastian.",
+          "check": "Dalam kondisi apa klub mungkin kembali berlatih di halaman?",
+          "checkAnswer": "Jika ruang seni tidak tersedia dan halaman dapat digunakan. Teks menetapkan halaman sebagai pilihan kedua.",
+          "phase": "Membuat prediksi yang masuk akal"
+        },
+        {
+          "title": "Uji prediksi terhadap seluruh bacaan",
+          "explanation": "Sebelum memilih jawaban, cocokkan prediksi dengan sebab, karakter, dan rencana yang telah dibaca. Prediksi yang baik menjelaskan petunjuk sebelumnya dan tetap menghormati hal yang belum diketahui.",
+          "english": "The group learned to make a backup plan rather than assume the weather would stay clear.",
+          "indonesian": "Kelompok belajar membuat rencana cadangan daripada menganggap cuaca akan tetap cerah.",
+          "why": "Pesan akhir mendukung prediksi bahwa klub akan memeriksa kondisi dan menyiapkan alternatif. Teks tidak menjamin cuaca atau ruangan akan selalu sesuai harapan.",
+          "check": "Apa yang membuat prediksi tentang rencana cadangan lebih kuat daripada prediksi bahwa cuaca pasti cerah?",
+          "checkAnswer": "Rencana cadangan dinyatakan sebagai pelajaran dan tindakan klub, sedangkan cuaca cerah tidak dijamin oleh teks.",
+          "phase": "Membuat prediksi yang masuk akal"
+        }
+      ],
+      "modelTitle": "A Quieter Room for Music Practice · Model bacaan tiga paragraf",
+      "modelEnglish": "On Tuesday, the school music club planned to practise in the courtyard. Their usual room was closed because workers were painting it. At first, the group tried to use a corner near the gate, but a delivery truck stopped outside. Its engine covered the music, and the members could not hear the beat clearly. Rani checked the weekly timetable and noticed that the art room was empty.\n\nShe asked the teacher whether the club could move there. The teacher agreed for that afternoon, although the room had no speakers. Rani placed the phone with the piano app on a desk near the group and asked everyone to stand in a half circle. They tried a short song at a low volume. The sound was clear enough, and the next class was not disturbed. Rani wrote down the arrangement so the group could repeat it if the room remained free.\n\nOn Friday, the courtyard was being cleaned, so the club used the art room again. Rani arrived early to move the chairs and check the timetable. Another member suggested keeping the arrangement for the whole month. The teacher said the plan depended on the painting schedule and other classes. The club agreed to check the room each week and keep the courtyard as a second choice. The experience showed that a small change, made after checking the cause of a problem, can help a group continue its work.",
+      "modelIndonesian": "Pada hari Selasa, klub musik sekolah berencana berlatih di halaman. Ruangan yang biasa mereka gunakan ditutup karena sedang dicat oleh para pekerja. Awalnya, kelompok itu mencoba menggunakan sudut dekat gerbang, tetapi sebuah truk pengiriman berhenti di luar. Suara mesinnya menutupi musik sehingga para anggota tidak dapat mendengar irama dengan jelas. Rani memeriksa jadwal mingguan dan melihat bahwa ruang seni sedang kosong.\n\nIa bertanya kepada guru apakah klub boleh pindah ke sana. Guru mengizinkan untuk sore itu, meskipun ruangan tersebut tidak memiliki pengeras suara. Rani meletakkan telepon yang berisi aplikasi piano di atas meja dekat kelompok dan meminta semua orang berdiri setengah lingkaran. Mereka mencoba sebuah lagu pendek dengan volume rendah. Suaranya cukup jelas dan kelas berikutnya tidak terganggu. Rani mencatat pengaturan tersebut agar kelompok dapat mengulanginya jika ruangan masih tersedia.\n\nPada hari Jumat, halaman sedang dibersihkan sehingga klub kembali menggunakan ruang seni. Rani datang lebih awal untuk memindahkan kursi dan memeriksa jadwal. Anggota lain menyarankan agar pengaturan itu dipakai selama satu bulan penuh. Guru mengatakan hal itu bergantung pada jadwal pengecatan dan kelas lain. Klub sepakat memeriksa ruangan setiap minggu dan tetap menjadikan halaman sebagai pilihan kedua. Pengalaman itu menunjukkan bahwa perubahan kecil, setelah penyebab masalah diperiksa, dapat membantu kelompok melanjutkan pekerjaannya.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Rantai berpikir untuk inferensi dan prediksi",
+      "text": "**Kejadian → petunjuk → sebab dan akibat → tindakan tokoh → sifat atau motivasi → prediksi bersyarat.** Bedakan sebab langsung dari latar masalah; dukung sifat dengan pola tindakan; dan gunakan rencana atau kondisi yang belum selesai untuk membuat prediksi. Kata “mungkin” sering lebih akurat daripada “pasti”."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bagian model",
+        "Petunjuk",
+        "Kesimpulan yang didukung"
+      ],
+      "rows": [
+        [
+          "Masalah awal",
+          "Ruangan biasa ditutup karena dicat.",
+          "Klub harus mencari tempat latihan lain."
+        ],
+        [
+          "Sebab langsung",
+          "Mesin truk menutupi suara musik di halaman.",
+          "Kelompok sulit mendengar irama."
+        ],
+        [
+          "Karakter Rani",
+          "Ia memeriksa jadwal, menyiapkan kursi, dan mencatat pengaturan.",
+          "Rani tampak teliti dan membantu kelompok."
+        ],
+        [
+          "Prediksi",
+          "Klub memeriksa ruang seni setiap minggu dan menyimpan halaman sebagai pilihan kedua.",
+          "Lokasi latihan berikutnya akan dipilih setelah memeriksa ketersediaan."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · dari kejadian ke kesimpulan"
+    },
+    {
+      "type": "text",
+      "text": "Contoh berikut melatih pembaca untuk tidak melompat dari satu kejadian ke kesimpulan besar. Tanyakan: apa buktinya, hubungan apa yang ditunjukkan, dan bagian mana yang masih belum pasti?"
+    },
+    {
+      "type": "example_group",
+      "title": "1. Inference and cause–effect",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The usual room was closed because workers were painting it.",
+          "indonesian": "Ruangan biasa ditutup karena sedang dicat.",
+          "note": "Because menunjukkan sebab yang dinyatakan langsung. Jangan menebak bahwa sekolah tidak memiliki ruang lain."
+        },
+        {
+          "english": "A delivery truck stopped outside, and its engine covered the music.",
+          "indonesian": "Sebuah truk pengiriman berhenti di luar dan mesinnya menutupi musik.",
+          "note": "Truk adalah sebab langsung gangguan suara; sulit mendengar irama adalah akibatnya."
+        },
+        {
+          "english": "The courtyard was being cleaned, so the club used the art room again.",
+          "indonesian": "Halaman sedang dibersihkan sehingga klub kembali menggunakan ruang seni.",
+          "note": "So menghubungkan kondisi halaman dengan keputusan memilih lokasi lain."
+        },
+        {
+          "english": "The group checked the room each week.",
+          "indonesian": "Kelompok memeriksa ruangan setiap minggu.",
+          "note": "Kebiasaan ini mendukung inferensi bahwa ketersediaan ruangan dapat berubah dan perlu diperiksa."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Character and motivation",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Rani checked the weekly timetable before asking to move.",
+          "indonesian": "Rani memeriksa jadwal mingguan sebelum meminta pindah.",
+          "note": "Tindakan ini mendukung sifat teliti dan praktis, bukan sekadar keberuntungan."
+        },
+        {
+          "english": "She wrote down the arrangement so the group could repeat it.",
+          "indonesian": "Ia mencatat pengaturan itu agar kelompok dapat mengulanginya.",
+          "note": "Tujuan yang disebut menunjukkan motivasi membantu kelompok memiliki rencana yang dapat digunakan lagi."
+        },
+        {
+          "english": "Rani arrived early to move the chairs and check the timetable.",
+          "indonesian": "Rani datang lebih awal untuk memindahkan kursi dan memeriksa jadwal.",
+          "note": "Tindakan persiapan memperkuat inferensi tentang tanggung jawab dan perhatian pada kebutuhan kelompok."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Prediction and limits",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The teacher said the room depended on the painting schedule and other classes.",
+          "indonesian": "Guru mengatakan penggunaan ruang bergantung pada jadwal pengecatan dan kelas lain.",
+          "note": "Prediksi harus bersyarat. Jangan menyatakan ruang seni pasti tersedia setiap minggu."
+        },
+        {
+          "english": "The courtyard remained a second choice.",
+          "indonesian": "Halaman tetap menjadi pilihan kedua.",
+          "note": "Jika ruang seni tidak tersedia dan halaman aman digunakan, kelompok mungkin kembali ke sana."
+        },
+        {
+          "english": "The group agreed to check the room each week.",
+          "indonesian": "Kelompok sepakat memeriksa ruangan setiap minggu.",
+          "note": "Ini bukti kuat bahwa mereka akan memeriksa jadwal sebelum menentukan lokasi latihan berikutnya."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka06-cause",
+      "prompt": "Why could the music club not hear the beat clearly in the courtyard?",
+      "translation": "Mengapa klub musik tidak dapat mendengar irama dengan jelas di halaman?",
+      "choices": [
+        "A delivery truck’s engine covered the music.",
+        "The art room had no speakers.",
+        "The teacher moved the chairs."
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Suara mesin truk menutupi musik.",
+        "Ruang seni tidak memiliki pengeras suara.",
+        "Guru memindahkan kursi."
+      ],
+      "explanation": "Bacaan menyebut truk berhenti di luar dan suara mesinnya menutupi musik. Ruang seni dan kursi berkaitan dengan solusi, bukan penyebab gangguan di halaman.",
+      "hint": "Cari kalimat yang menjelaskan apa yang menutupi musik."
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why should a prediction include conditions when the text says a plan depends on availability?",
+      "translation": "Mengapa prediksi perlu menyebut syarat ketika teks mengatakan suatu rencana bergantung pada ketersediaan?",
+      "answer": "Karena kondisi yang belum pasti dapat mengubah kejadian berikutnya. Prediksi yang menyebut syarat tetap setia pada bukti, sedangkan pernyataan mutlak dapat melampaui informasi teks."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these reading moves",
+      "items": [
+        "Pisahkan kejadian tertulis dari inferensi yang dibangun melalui beberapa petunjuk.",
+        "Telusuri sebab dan akibat; jangan menganggap semua kejadian berurutan pasti saling menyebabkan.",
+        "Simpulkan sifat tokoh dari pola tindakan dan ucapan, bukan satu emosi atau asumsi.",
+        "Baca motivasi melalui tujuan tindakan yang didukung teks.",
+        "Buat prediksi berdasarkan pola dan rencana, sambil mempertahankan syarat serta ketidakpastian."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · explain a character and predict",
+      "prompt": "Read “A Quieter Room for Music Practice”. Write (1) the chain that caused the club to leave the courtyard, (2) two character traits supported by Rani’s actions, (3) her likely motivation for recording the arrangement, and (4) one careful prediction about the next practice. Include at least one clue for each answer and state any condition that remains uncertain.",
+      "model": "Cause–effect chain: The usual room was closed for painting, so the club tried the courtyard; a delivery truck covered the music, so the group looked for another room. Character: Rani appears observant and responsible because she checked the timetable, prepared the room, and kept a backup option. Motivation: She wanted the group to repeat a workable arrangement if the room remained free. Prediction: The club will probably check the art-room timetable before the next practice and use the courtyard if the room is unavailable and the courtyard is usable.",
+      "modelTranslation": "Rantai sebab-akibat: Ruangan biasa ditutup untuk pengecatan sehingga klub mencoba halaman; suara truk menutupi musik sehingga kelompok mencari ruangan lain. Karakter: Rani tampak teliti dan bertanggung jawab karena memeriksa jadwal, menyiapkan ruangan, dan mempertahankan pilihan cadangan. Motivasi: Ia ingin kelompok dapat mengulang pengaturan yang berhasil jika ruangan masih tersedia. Prediksi: Klub kemungkinan memeriksa jadwal ruang seni sebelum latihan berikutnya dan menggunakan halaman jika ruang seni tidak tersedia serta halaman dapat digunakan.",
+      "criteria": "Rantai sebab-akibat mengikuti urutan dan hubungan yang dinyatakan; sifat tokoh didukung lebih dari satu tindakan; motivasi tidak menambahkan tujuan yang tidak disebut; prediksi menggunakan kata kemungkinan dan mempertahankan syarat ketersediaan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "inference",
+          "indonesian": "inferensi / kesimpulan berdasarkan petunjuk"
+        },
+        {
+          "english": "cause",
+          "indonesian": "sebab"
+        },
+        {
+          "english": "effect",
+          "indonesian": "akibat"
+        },
+        {
+          "english": "chain of events",
+          "indonesian": "rantai kejadian"
+        },
+        {
+          "english": "character trait",
+          "indonesian": "sifat tokoh"
+        },
+        {
+          "english": "motivation",
+          "indonesian": "motivasi / alasan bertindak"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "prediction",
+          "indonesian": "prediksi / perkiraan"
+        },
+        {
+          "english": "condition",
+          "indonesian": "syarat / kondisi"
+        },
+        {
+          "english": "likely",
+          "indonesian": "mungkin / berkemungkinan"
+        },
+        {
+          "english": "backup plan",
+          "indonesian": "rencana cadangan"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "The school room is closed for painting. A truck then makes the courtyard too noisy. Why does the club look for another place?",
+      "choices": [
+        "The truck noise makes the music difficult to hear.",
+        "The club wants to stop practising.",
+        "The art room is already full."
+      ],
+      "answer": 0,
+      "explanation": "Penutupan ruang biasa membuat klub mencoba halaman, tetapi suara truk menutupi musik. Gangguan itulah alasan langsung mereka mencari tempat lain.",
+      "translationId": {
+        "prompt": "Ruangan sekolah ditutup untuk pengecatan. Kemudian truk membuat halaman terlalu bising. Mengapa klub mencari tempat lain?",
+        "choices": [
+          "Suara truk membuat musik sulit didengar.",
+          "Klub ingin berhenti berlatih.",
+          "Ruang seni sudah penuh."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "A student checks the timetable, prepares chairs, and records a plan so the group can use it again. Which trait is best supported?",
+      "choices": [
+        "Careful and responsible",
+        "Careless and impatient",
+        "Uninterested in the group"
+      ],
+      "answer": 0,
+      "explanation": "Memeriksa jadwal, menyiapkan tempat, dan mencatat rencana merupakan beberapa tindakan yang mendukung sifat teliti serta bertanggung jawab.",
+      "translationId": {
+        "prompt": "Seorang siswa memeriksa jadwal, menyiapkan kursi, dan mencatat rencana agar kelompok dapat menggunakannya lagi. Sifat apa yang paling didukung?",
+        "choices": [
+          "Teliti dan bertanggung jawab",
+          "Ceroboh dan tidak sabar",
+          "Tidak peduli pada kelompok"
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A plan can be used only if a room is free. Which prediction is most careful?",
+      "choices": [
+        "The group will check the room before deciding where to practise.",
+        "The room will certainly be empty every week.",
+        "The group will never practise outdoors again."
+      ],
+      "answer": 0,
+      "explanation": "Prediksi pertama sesuai dengan syarat ketersediaan. Dua pilihan lain mengubah kemungkinan menjadi kepastian dan mengabaikan informasi bahwa halaman tetap menjadi pilihan kedua.",
+      "translationId": {
+        "prompt": "Sebuah rencana hanya dapat digunakan jika ruangan kosong. Prediksi mana yang paling hati-hati?",
+        "choices": [
+          "Kelompok akan memeriksa ruangan sebelum menentukan tempat latihan.",
+          "Ruangan pasti kosong setiap minggu.",
+          "Kelompok tidak akan pernah berlatih di luar ruangan lagi."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-inference-cause-character-prediction-practice"
+  ]
+}

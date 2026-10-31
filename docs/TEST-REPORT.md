@@ -1,21 +1,10 @@
-# Acceptance test report
+# V13-C3 current acceptance report
 
-Tested with headless Chromium through Playwright over a local HTTP server.
-
-- PASS: Homepage loads all 9 resources
-- PASS: Grade 11 honest empty state
-- PASS: Search and reset filters
-- PASS: Lesson rendering, bilingual toggle, inline practice, persistent completion
-- PASS: Practice feedback, flags, navigation, refresh/resume, partial submission and 20% scoring
-- PASS: Simulation passage, hidden feedback, perfect score and evidence review
-- PASS: Expired absolute deadline auto-submits resumed attempt
-- PASS: Unknown-resource error handling
-- PASS: 390px mobile layout: homepage, lesson, and simulation have no horizontal page overflow
-- PASS: No uncaught JavaScript browser errors during acceptance checks
-
-- PASS: Python authoring validator: 9 resources, 25 questions including embedded practice; JSON parsing, IDs, paths, related links, answer ranges and exact evidence quotations.
-- PASS: JSON Schema validation of catalog and every educational file.
-- PASS: Node syntax validation for all five JavaScript modules.
-- PASS: Tests of the actual scoring function for correct, incorrect, mixed and unanswered responses, and rejection of invalid quiz counts, timers and keys.
-
-Content review: answer keys checked against the sample grammar patterns and original passage evidence; not independently certified. Browser testing is a representative functional acceptance pass, not exhaustive cross-browser, security or WCAG certification.
+- Current source: corrected combined V13-C2 baseline plus TKA-05 and TKA-06.
+- Catalogue: 109 resources (62 lessons, 47 quizzes).
+- TKA-05/TKA-06: 25 new scaffold steps, 20 explained cards, 6 embedded practice items, and 24 quiz questions.
+- Current aggregate: 563 scaffold steps, 631 explained cards, 509 scored/embedded items; three original UTBK mocks unchanged.
+- Content tests require A2 (200–300 words) and B1 (250–350 words) passages, exact evidence quotes, 4/4/4 response formats, balanced single-answer keys, Indonesian explanations and translated prompts/options.
+- `tests/v13c3-content.mjs` verifies SHA-256 preservation of all 105 V13-C2 lesson/quiz files.
+- `tests/v13c3-browser-smoke.py` exercises all six published TKA lessons/quizzes, the two new lesson renderers, all three response formats and 390px mobile layout.
+- The automated checks do not certify external CEFR levels, teacher approval, classroom outcomes, WCAG compliance, live deployment or real-device behaviour.

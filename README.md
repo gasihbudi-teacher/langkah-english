@@ -1,3 +1,19 @@
+# Langkah English V13-C3 — TKA-05 and TKA-06 (31 October 2026)
+
+**Current source version: V13-C3, built on the corrected combined V13-C2 baseline.** The combined baseline includes the separately supplied V13-C1 homepage redesign and the TKA-03/TKA-04 content release. V13-C3 adds TKA-05 (implied ideas, intended audience, author purpose and message) and TKA-06 (inference, cause and effect, character and prediction).
+
+- **TKA-05:** 11 scaffold steps, 10 explained bilingual examples, three embedded practices, one guided 230-word model and a 12-question A2/B1 topic quiz.
+- **TKA-06:** 14 scaffold steps, 10 explained bilingual examples, three embedded practices, one guided 236-word model and a 12-question A2/B1 topic quiz.
+- Each new quiz uses two original full passages, four single-answer items, four multiple-answer items and four category items. Every question includes a text-grounded evidence quote and explanation.
+- **Current totals:** 62 lesson files, 47 quiz files, 109 catalogue resources, 563 scaffold steps, 631 explained cards, 509 scored/embedded items, and the original three timed UTBK mocks unchanged. Six of ten TKA modules are now published.
+- All 105 V13-C2 lesson/quiz JSON files are protected by a SHA-256 preservation test. The redesigned homepage, progress panel, backup features, assessment engine, legacy resource IDs and browser-local progress format remain part of the integrated source.
+
+See [V13-C3 release notes](docs/V13-C3-TKA-05-06.md) for scope, QA and installation. All new content is original, AI-assisted and unofficial. A bilingual teacher review and learner pilot remain advisable; editorial A2/B1 word counts are targets, not external CEFR certification.
+
+**Release packages:** `langkah-english-v13c3-combined-complete-site.zip` is a separate preview/restoration snapshot. `langkah-english-v13c3-combined-update-from-v13c2.zip` is the incremental update for the corrected combined V13-C2 repository. Do not extract a complete-site ZIP over an existing Git repository.
+
+---
+
 # Langkah English V11 — Gradual teaching scaffold redesign (26 October 2026)
 
 **V11 revises the learning scaffolds in all 54 lessons** from the original V10 redesign source. Instead of applying three/four generic moves to every subject, each lesson now has **5–10 topic-specific teaching steps** (469 in total), with patient Indonesian explanations, bilingual example and reasoning, and an ungraded revealable understanding check. **34 lessons** also provide a connected bilingual model text; Grade 10 visual-information reading adds an original accessible poster graphic. All V10 visual/navigation features remain.
@@ -222,7 +238,7 @@ All fields above are **optional**. Adding any new lesson or test continues to re
 **Testing:** Run `python tools/validate.py` and `node tests/scoring.mjs` locally. Preview with `python -m http.server 8000` from the project root to allow JSON to load via `fetch`. An interactive browser check of lesson/quiz flows is recommended before deploying. See `docs/V2-CHANGES.md` for changes.
 
 
-## Current TKA content · V13-C2 (31 October 2026)
+## V13-C2 TKA content checkpoint · historical (31 October 2026)
 
 TKA-01 through TKA-04 now have published lesson and topic-practice resources. V13-C2 adds TKA-03 (classifying, outlining, summarising and synthesising) and TKA-04 (vocabulary in context, reference and connectors). TKA-05–10 and dedicated full TKA simulations remain planned. See `docs/V13-C2-TKA-03-04.md` for scope, counts, QA and installation notes.
 

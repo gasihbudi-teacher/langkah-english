@@ -4146,6 +4146,188 @@
       },
       "kind": "practice",
       "examFormat": "topic"
+    },
+    {
+      "id": "tka-implied-ideas-audience-purpose-message",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-implied-ideas-audience-purpose-message-practice",
+        "tka-context-vocabulary-reference-connectors",
+        "tka-classify-outline-summarize-synthesize"
+      ],
+      "file": "data/lessons/tka-implied-ideas-audience-purpose-message.json",
+      "order": 609,
+      "title": "TKA-05 · Ide Tersirat, Pembaca, Tujuan, dan Pesan",
+      "description": "11 langkah untuk menyimpulkan ide tersirat, mengenali pembaca, membedakan tujuan dan pesan, serta menguji tafsir dengan bukti lintas paragraf; 10 contoh dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Implied ideas",
+        "Intended audience",
+        "Author purpose",
+        "Text message"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C3"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2 descriptive and B1 analytical exposition",
+        "theme": "community information and museum learning",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Inferensial",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 50,
+      "prerequisites": [
+        "tka-explicit-information",
+        "tka-context-vocabulary-reference-connectors"
+      ]
+    },
+    {
+      "id": "tka-implied-ideas-audience-purpose-message-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-implied-ideas-audience-purpose-message"
+      ],
+      "file": "data/quizzes/tka-implied-ideas-audience-purpose-message-practice.json",
+      "order": 610,
+      "title": "Latihan TKA-05 · Ide Tersirat, Pembaca, Tujuan, dan Pesan",
+      "description": "12 soal orisinal pada bacaan A2/B1 multi-paragraf; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Implied ideas",
+        "Intended audience",
+        "Author purpose",
+        "Text message"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C3"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2 descriptive and B1 analytical exposition",
+        "theme": "community information and museum learning",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Inferensial",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
+    },
+    {
+      "id": "tka-inference-cause-character-prediction",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-inference-cause-character-prediction-practice",
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-classify-outline-summarize-synthesize"
+      ],
+      "file": "data/lessons/tka-inference-cause-character-prediction.json",
+      "order": 611,
+      "title": "TKA-06 · Inferensi, Sebab-Akibat, Karakter, dan Prediksi",
+      "description": "14 langkah menelusuri inferensi dan rantai sebab-akibat, membaca karakter melalui tindakan, serta membuat prediksi bersyarat; 10 contoh dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Inference",
+        "Cause and effect",
+        "Character inference",
+        "Prediction"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C3"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 narrative",
+        "theme": "school teamwork and practical problem solving",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Inferensial",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 55,
+      "prerequisites": [
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-explicit-information"
+      ]
+    },
+    {
+      "id": "tka-inference-cause-character-prediction-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-inference-cause-character-prediction"
+      ],
+      "file": "data/quizzes/tka-inference-cause-character-prediction-practice.json",
+      "order": 612,
+      "title": "Latihan TKA-06 · Inferensi, Sebab-Akibat, Karakter, dan Prediksi",
+      "description": "12 soal orisinal pada bacaan naratif A2/B1; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Inference",
+        "Cause and effect",
+        "Character inference",
+        "Prediction"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C3"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 narrative",
+        "theme": "school teamwork and practical problem solving",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Inferensial",
+        "mappingNote": "Modul editorial, bukan bab wajib atau soal resmi TKA; latihan dan penilaian lokal tidak memprediksi nilai resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

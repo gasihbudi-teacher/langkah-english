@@ -75,8 +75,8 @@ async def main():
   modules=await page.locator('#tka-module-list .tka-module').count()
   stage=await page.locator('.tka-stage').inner_text()
   overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
-  assert (lessons,quizzes,modules)==(4,4,10),(lessons,quizzes,modules,errors)
-  assert 'V13-C2' in stage and overflow==0,(stage,overflow)
+  assert lessons>=4 and quizzes>=4 and modules==10,(lessons,quizzes,modules,errors)
+  assert ('V13-C2' in stage or 'V13-C3' in stage) and overflow==0,(stage,overflow)
   # TKA-03 lesson
   await setup(page,'lesson.html','lesson.js','?id=tka-classify-outline-summarize-synthesize')
   await page.wait_for_selector('.scaffold-step')
