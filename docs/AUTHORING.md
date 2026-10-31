@@ -203,3 +203,15 @@ Write `[[simple present]]`, `[[subject]]`, `[[have been]]`, or `[[will]]`. The r
 Do not add on-page filters. The generic `js/pathway.js` groups resources from `data/catalog.json` into native HTML `<details>` lists. Grade navigation links should point to `#grade-9-materi` or `#grade-9-latihan`, etc., or the older `#grade-9` anchor (supported). Keep data IDs and progress storage keys stable.
 
 Run the full Python validator and all Node `.mjs` tests, including `tests/v7-quality.mjs`. Preview the static site over HTTP in a **normal mobile browser** to verify the guide, checkpoint answers and language switch, accordion sections, and existing quizzes. Do not claim an independent teacher/real-browser review unless it has happened.
+
+
+## Flexible scaffold presentation (V13-E1 renderer update)
+
+Scaffold presentation is content-led rather than label-led:
+- An English example is shown directly.
+- A translation is optional and appears under a neutral, collapsible `Lihat terjemahan` control.
+- A rationale is rendered as ordinary explanatory prose, without a mandatory `Mengapa?` label.
+- A reflection/check is optional. Its authored prompt is shown as written; do not prepend a generic question label.
+- A reveal is optional and uses the neutral `Tampilkan pembahasan` label.
+- Do not add generic `Artinya`, `Mengapa?`, `Coba pahami`, or `Lihat penjelasan setelah mencoba sendiri` text to lesson content or renderer templates.
+- Include a check only when it performs a distinct learning action. If it merely repeats the preceding explanation, omit it.

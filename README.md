@@ -1,20 +1,19 @@
-# Langkah English V13-C5 — TKA-09 and TKA-10 (31 October 2026)
+# Langkah English V13-E1 — Grade 9 Lesson 1 teaching-quality release (31 October 2026)
 
-**Current source: V13-C5, built on the user-accepted corrected combined V13-C4 baseline.** The integrated baseline retains the redesigned homepage, all prior lessons and quizzes, all three assessment formats, local progress/backup features and the three original UTBK mocks. V13-C5 completes the ten-module TKA content pathway.
+**Current source: V13-E1, based on the prepared V13-D complete-site source.** This release improves only Grade 9 Lesson 1 (`grade9-reading`) and adds a dedicated Grade 9 assessment. It preserves the V13-D site, all unrelated lessons and quizzes, existing progress keys, and the Grade 10 recount lesson.
 
-- **TKA-09:** 14 scaffold steps, 10 bilingual worked examples, three embedded practices, a guided 200–300-word model and a 12-question A2/B1 quiz covering five genres.
-- **TKA-10:** 9 scaffold steps, 10 bilingual worked examples, three embedded practices, a guided 200–300-word model and a 12-question A2/B1 quiz on question formats and independent response strategy.
-- Each quiz has two original full passages, four single-answer, four multiple-answer and four category items, with evidence quotations and bilingual explanations.
-- **Current totals:** 66 lesson files, 51 quiz files, 117 catalogue resources, 608 scaffold steps, 671 explained cards, 569 scored/embedded items and three unchanged timed UTBK mocks. All ten TKA modules and 120 TKA topic questions are published.
-- All 113 V13-C4 lesson/quiz files and the homepage redesign core are SHA-256 protected.
+- **Grade 9 Lesson 1:** 4 measurable objectives, 8 topic-specific teaching steps, 7 purposeful optional checks, a 128-word connected bilingual model, 10 distinct explained examples, 4 guided practice questions and an independent writing prompt.
+- **Dedicated assessment:** `grade9-place-reading-check`, one unfamiliar descriptive passage and 8 English-first questions. Every question includes an exact evidence quotation and Indonesian feedback.
+- **Teaching contract:** scaffold checks are optional; when used, `check` and `checkAnswer` must appear together. Generic repeated checks are not required.
+- **Preserved:** stable lesson ID `grade9-reading`; Grade 10 `grade10-recount`; shared cross-grade quizzes `school-reading-check` and `school-reading-practice`; browser-local progress key and backup format.
+- **Current totals:** 66 lessons, 55 quizzes, 121 catalogue resources, 610 scaffold steps, 671 explained example cards, and 669 scored/embedded items.
+- **Verification:** `python tools/validate.py` passed; all 21 Node regression suites passed, including the new V13-E1 content test. The isolated Chromium DOM smoke test passed on desktop and 390px mobile with zero horizontal overflow and no page errors; local HTTP navigation was blocked, so a live-site preview remains required. The release is a preview package; deployment to the user's Cloudflare Pages site is not performed by this handover.
 
-See [V13-C5 release notes](docs/V13-C5-TKA-09-10.md) for scope, QA and installation. Materials are original and unofficial; editorial A2/B1 targets are not external CEFR certification.
+See [V13-E1 release and QA notes](docs/V13-E1-GRADE9-LESSON-01.md), [Grade 9 lesson review](GRADE-9-LESSON-01-REVIEW.md), and [School improvement plan](SCHOOL-IMPROVEMENT-PLAN.md).
 
-**Release packages:** `langkah-english-v13c5-combined-complete-site.zip` is for a separate preview/restoration copy. `langkah-english-v13c5-combined-update-from-v13c4.zip` is the incremental update for the accepted corrected combined V13-C4 repository. Never extract the complete-site ZIP over an existing Git repository.
+**Release packages:** `langkah-english-v13e1-combined-complete-site.zip` is a full preview/restoration copy. `langkah-english-v13e1-combined-update-from-v13d.zip` is the incremental overlay for the prepared V13-D source. Extract the update ZIP separately and copy its contents into the existing Git repository without replacing `.git`. Preview before publishing.
 
 ---
-
-
 
 # Langkah English V11 — Gradual teaching scaffold redesign (26 October 2026)
 

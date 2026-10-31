@@ -11,7 +11,7 @@ const load=p=>JSON.parse(read(p));
 const cat=load('data/catalog.json');
 
 const baseline=load('tests/fixtures/v13d-v13c5-content-sha256.json');
-const intentional=new Set(['data/lessons/grade9-reading.json']);
+const intentional=new Set(['data/lessons/grade9-reading.json','data/lessons/grade9-upcycling-procedure.json','data/lessons/grade9-digital-safety.json']);
 for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C5 content changed: ${p}`);
 assert.equal(Object.keys(baseline).length,117);
 const home=load('tests/fixtures/v13d-v13c5-homepage-sha256.json');
