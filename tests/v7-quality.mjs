@@ -14,7 +14,10 @@ const fingerprint=[];
 for(const m of catalog.resources){
  const d=JSON.parse(read(m.file));
  const questions=m.type==='lesson'?d.practice:d.questions;
- for(const q of questions)fingerprint.push({resource:m.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
+ for(const q of questions){
+  if(m.id==='grade9-reading')continue; // Re-authored in V13-E1; covered by the dedicated E1 regression.
+  fingerprint.push({resource:m.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
+ }
  if(m.type!=='lesson')continue;
  lessonCount++;
  const [scaffold]=d.blocks.filter(b=>b.type==='scaffold');
@@ -47,8 +50,8 @@ for(const m of catalog.resources){
  checkpointCount++;answerItems+=check.translationChoices.length;
 }
 assert.equal(lessonCount,30);assert.equal(checkpointCount,30);assert.equal(answerItems,90);
-assert.equal(fingerprint.length,234);
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'1ab63451338726dd62859906adf15bb0cdb41ca8dfe58f816f4c935961219c94');
+assert.equal(fingerprint.length,232);
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'582f4dd18eabeead8ab70100b9fd56a0bddde726c0617829b0a5996730de5291');
 // Test renderer: V7 markup must escape input, keep terms in English and hide solutions until answered.
 const excerpt=read('js/core.js').split('// V6: explicit')[1];
 assert.ok(excerpt);
@@ -76,4 +79,4 @@ assert.match(lesson,/const guidedAnswers=new Map\(\)/);
 assert.match(lesson,/d\.blocks\.filter\(b=>b\.type==='definition'\)/);
 assert.match(lesson,/guidedAnswers\.set/);
 assert.match(lesson,/formatIdText\(q.explanation\)/);
-console.log(`PASS V7: ${lessonCount} new slow-start lesson guides, ${checkpointCount} English formative checks with ${answerItems} Indonesian option glosses, 30 reflections, expandable study/practice lists, quoted terms; ${marked} markers; 234 graded questions unchanged.`);
+console.log(`PASS V7: ${lessonCount} new slow-start lesson guides, ${checkpointCount} English formative checks with ${answerItems} Indonesian option glosses, 30 reflections, expandable study/practice lists, quoted terms; ${marked} markers; 232 unaffected baseline questions unchanged.`);

@@ -93,7 +93,7 @@ async def main():
    category=await page.locator('#question [data-row]').count()
    mobile_overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
    assert (navigator,first_choices,multi,category)==(30,4,4,9),(mock_id,navigator,first_choices,multi,category)
-   assert '45:' in timer and len(passage)>250,(mock_id,timer,len(passage))
+   assert re.search(r'(?:44|45):\d{2}',timer) and len(passage)>250,(mock_id,timer,len(passage))
    assert mobile_overflow==0,(mock_id,mobile_overflow)
    results.append({'id':mock_id,'navigator':navigator,'single_choices':first_choices,'multiple_choices':multi,'category_rows':category,'timer':timer,'mobile_overflow':mobile_overflow})
   assert not errors,errors

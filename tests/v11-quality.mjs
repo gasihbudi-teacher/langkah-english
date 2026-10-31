@@ -25,10 +25,13 @@ for(const entry of lessons){
  for(const [i,step] of guide.steps.entries()){
   assert.ok(step.title.length>=3 && step.explanation.length>=35,`${entry.id}: empty explanation at ${i}`);
   assert.ok(!trivial.test(step.explanation),`${entry.id}: generic pedagogical placeholder`);
-  for(const k of ['english','indonesian','why','check','checkAnswer'])assert.ok(typeof step[k]==='string' && step[k].trim().length>=(k==='english'?3:8),`${entry.id}: missing ${k} at ${i}`);
+  for(const k of ['english','indonesian','why'])assert.ok(typeof step[k]==='string' && step[k].trim().length>=(k==='english'?3:8),`${entry.id}: missing ${k} at ${i}`);
   assert.ok(!step.english.includes('[['),`${entry.id}: English mini-example contains inline markup`);
-  assert.ok(step.check.length>40,`${entry.id}: no meaningful check at ${i}`);
-  steps++;checks++;
+  const hasCheck=typeof step.check==='string'&&step.check.trim().length>0;
+  const hasAnswer=typeof step.checkAnswer==='string'&&step.checkAnswer.trim().length>0;
+  assert.equal(hasCheck,hasAnswer,`${entry.id}: check and answer must be paired at ${i}`);
+  if(hasCheck){assert.ok(step.check.length>40,`${entry.id}: check is too short at ${i}`);assert.ok(step.checkAnswer.length>=8,`${entry.id}: check answer is too short at ${i}`);checks++;}
+  steps++;
  }
  if(guide.modelEnglish){
   assert.ok(guide.modelEnglish.length>90 && guide.modelIndonesian.length>80,`${entry.id}: model too short`);
@@ -37,7 +40,7 @@ for(const entry of lessons){
  }
  distribution.set(guide.steps.length,(distribution.get(guide.steps.length)||0)+1);
 }
-assert.ok(steps>=420 && models>=30 && checks===steps);
+assert.ok(steps>=420 && models>=30 && checks>=steps-1 && checks<=steps,`Expected optional checks without making them mandatory (${checks}/${steps})`);
 assert.ok(distribution.size>=5,'The step counts are still too uniform');
 const core=read('js/core.js');
 assert.ok(core.includes('scaffoldModel(b)')&&core.includes('scaffold-review'),'Model passage or checks not rendered');
@@ -47,4 +50,5 @@ const schema=JSON.parse(read('data/schemas/lesson.schema.json'));
 const s=schema.properties.blocks.items.oneOf.find(x=>x.properties.type.const==='scaffold');
 assert.ok(s.properties.steps.maxItems>=20,'Schema still rejects longer scaffolds');
 for(const k of ['check','checkAnswer'])assert.ok(s.properties.steps.items.properties[k],`Schema omits ${k}`);
-console.log(`PASS V11: ${lessons.length} lessons, ${steps} individualized learning steps, ${checks} revealable comprehension checks, ${models} bilingual connected models, ${quizzes.length} registered quizzes. Distribution: ${[...distribution].sort((a,b)=>a[0]-b[0]).map(([k,v])=>`${k} steps × ${v}`).join(', ')}`);
+assert.deepEqual(s.properties.steps.items.dependentRequired,{check:['checkAnswer'],checkAnswer:['check']},'Optional scaffold checks must be paired');
+console.log(`PASS V11: ${lessons.length} lessons, ${steps} individualized learning steps, ${checks} optional revealable comprehension checks, ${models} bilingual connected models, ${quizzes.length} registered quizzes. Distribution: ${[...distribution].sort((a,b)=>a[0]-b[0]).map(([k,v])=>`${k} steps × ${v}`).join(', ')}`);

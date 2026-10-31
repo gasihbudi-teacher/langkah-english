@@ -364,7 +364,15 @@
                       "minLength": 4
                     }
                   },
-                  "additionalProperties": false
+                  "additionalProperties": false,
+                  "dependentRequired": {
+                    "check": [
+                      "checkAnswer"
+                    ],
+                    "checkAnswer": [
+                      "check"
+                    ]
+                  }
                 }
               },
               "modelTitle": {

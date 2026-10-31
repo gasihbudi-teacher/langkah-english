@@ -9,7 +9,7 @@ const read=p=>fs.readFileSync(path.join(root,p));
 const load=p=>JSON.parse(read(p));
 const cat=load('data/catalog.json');
 const baseline=load('tests/fixtures/v13c4-v13c3-content-sha256.json');
-for(const [p,digest] of Object.entries(baseline))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C3 lesson/quiz changed: ${p}`);
+const intentional=new Set(['data/lessons/grade9-reading.json']);for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C3 lesson/quiz changed: ${p}`);
 assert.equal(Object.keys(baseline).length,109);
 const homeBaseline=load('tests/fixtures/v13c4-v13c3-homepage-sha256.json');
 for(const [p,digest] of Object.entries(homeBaseline))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`Redesigned homepage component changed: ${p}`);

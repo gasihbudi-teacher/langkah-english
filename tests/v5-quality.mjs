@@ -12,6 +12,7 @@ const rxIndonesian=/\b(apa|manakah|pilih|kalimat|yang|adalah|karena|menurut|sete
 let all=0,fullTranslated=0,promptTranslated=0;
 for(const resource of cat.resources){
  const data=JSON.parse(read(resource.file));const questions=resource.type==='lesson'?data.practice:data.questions;
+ if(resource.id==='grade9-reading')continue; // Intentionally revised in V13-E1; covered by tests/v13e1-grade9-reading.mjs.
  for(const q of questions){
   all++;
   assert.ok(!rxIndonesian.test(q.prompt),`Non-English question ${resource.id}/${q.id}: ${q.prompt}`);
@@ -29,7 +30,7 @@ for(const resource of cat.resources){
   assert.ok(Math.max(...totals)-Math.min(...totals)<=1,`Answers clumped: ${resource.id}, ${totals.join(',')}`);
  }
 }
-assert.equal(all,234);
+assert.equal(all,232);
 assert.equal(promptTranslated,all);
 for(const id of ['utbk-mock-a','utbk-mock-b','utbk-mock-c','utbk-reading-lab']){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));
@@ -80,4 +81,4 @@ const dictSource=read('js/i18n.js')+'\nexport {dictionary};';
 const {dictionary}=await import('data:text/javascript;base64,'+Buffer.from(dictSource).toString('base64'));
 assert.deepEqual(Object.keys(dictionary.en).sort(),Object.keys(dictionary.id).sort());
 for(const p of pages)for(const m of read(p).matchAll(/data-i18n="([\w]+)"/g))assert.ok(dictionary.id[m[1]],`Missing i18n: ${m[1]}`);
-console.log(`PASS V5: 8 HTML pages; all ${all} questions and choices are English; ${promptTranslated} Indonesian question glosses; ${fullTranslated} sets of choice translations; 70 full UTBK bilingual questions; balanced answers; safe expandable translations; no page filters.`);
+console.log(`PASS V5: 8 HTML pages; all ${all} unchanged baseline questions and choices are English; ${promptTranslated} Indonesian question glosses; ${fullTranslated} sets of choice translations; 70 full UTBK bilingual questions; balanced answers; safe expandable translations; no page filters.`);

@@ -40,7 +40,13 @@ for r in resources:
             assert all(k in b for k in required[b['type']])
             if b['type']=='scaffold':
                 assert 3 <= len(b['steps']) <= 20 and all(x['title'] and x['explanation'] for x in b['steps'])
-                assert all(x.get('english') and x.get('indonesian') and x.get('why') and x.get('check') and x.get('checkAnswer') for x in b['steps'])
+                assert all(x.get('english') and x.get('indonesian') and x.get('why') for x in b['steps'])
+                for step in b['steps']:
+                    has_check = bool(step.get('check'))
+                    has_answer = bool(step.get('checkAnswer'))
+                    assert has_check == has_answer, ('Scaffold check and answer must appear together', d['id'], step.get('title'))
+                    if has_check:
+                        assert len(step['check'].strip()) >= 20 and len(step['checkAnswer'].strip()) >= 10, ('Scaffold check too short', d['id'], step.get('title'))
                 assert (not b.get('modelEnglish')) or (b.get('modelIndonesian') and b.get('modelTitle'))
             if b['type']=='checkpoint':
                 assert len(b['choices']) == len(b['translationChoices']) == 3 and 0 <= b['answer'] < 3

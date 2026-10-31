@@ -16,6 +16,7 @@ const fingerprintInputs=[];
 for(const r of cat.resources){
  const d=JSON.parse(read(r.file));
  for(const q of r.type==='lesson'?d.practice:d.questions){
+   if(r.id==='grade9-reading')continue; // Re-authored in V13-E1; covered by the dedicated E1 regression.
    fingerprintInputs.push({resource:r.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(r.type!=='lesson')continue;
@@ -26,7 +27,7 @@ for(const r of cat.resources){
  assert.ok(groups.every(g=>g.items.every(x=>!x.english.includes('[['))),`${r.id}: English example has Indonesian markup`);
  const vocab=d.blocks.filter(b=>b.type==='vocabulary');
  assert.equal(vocab.length,1,`${r.id}: missing vocabulary`);
- assert.equal(vocab[0].items.length,4,`${r.id}: 4 vocabulary definitions required`);
+ assert.equal(vocab[0].items.length,r.id==='grade9-reading'?8:4,`${r.id}: unexpected vocabulary count`);
  assert.ok(vocab[0].items.every(x=>x.english&&x.indonesian));
  const breakdown=d.blocks.filter(b=>b.type==='breakdown');
  assert.equal(breakdown.length,1,`${r.id}: missing sentence breakdown`);
@@ -45,9 +46,9 @@ for(const r of cat.resources){
 }
 assert.ok(additions>=300);assert.equal(groupsCount,90);
 assert.ok(markedTerms>=300);
-assert.equal(fingerprintInputs.length,234);
+assert.equal(fingerprintInputs.length,232);
 const fingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintInputs)).digest('hex');
-assert.equal(fingerprint,'1ab63451338726dd62859906adf15bb0cdb41ca8dfe58f816f4c935961219c94','V5 questions or English answer positions changed');
+assert.equal(fingerprint,'582f4dd18eabeead8ab70100b9fd56a0bddde726c0617829b0a5996730de5291','V5 questions or English answer positions changed');
 assert.match(read('js/lesson.js'),/formatIdText\(q.explanation\)/,'Practice feedback must render safe highlighted terms');
 assert.match(read('css/style.css'),/\.english-term/);
 const core=read('js/core.js');
@@ -59,4 +60,4 @@ const escaped=formatIdText('Baca [[<img src=x onerror=alert(1)>]] & lanjut');
 assert.ok(escaped.includes('&lt;img')&&escaped.includes('&amp;')&&!escaped.includes('<img'));
 const rendered=blocks([{type:'example_group',title:'Contoh',collapsed:true,items:[{english:'She reads.',indonesian:'Dia membaca.',note:'[[She]] diikuti verb.'},{english:'He reads.',indonesian:'Dia membaca.',note:'Juga benar.'}]},{type:'summary',title:'Ringkasan',items:['[[verb]] benar','Pelajari ulang']}]);
 assert.match(rendered,/<details/);assert.match(rendered,/<summary/);assert.match(rendered,/lang="en"/);assert.match(rendered,/Dia membaca/);assert.match(rendered,/<aside/);
-console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 234 V5 questions unchanged; renderer escapes HTML.`);
+console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 232 unaffected V5 baseline questions unchanged; renderer escapes HTML.`);

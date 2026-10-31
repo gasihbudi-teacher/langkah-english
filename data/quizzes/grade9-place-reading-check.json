@@ -1,0 +1,182 @@
+{
+  "id": "grade9-place-reading-check",
+  "questionCount": 8,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "village-reading-hut",
+      "title": "The village reading hut",
+      "text": "At the edge of the village park, a small reading hut stands under two large trees. The hut has a red roof and a wide front window. Inside, two shelves hold storybooks and magazines. A long table stands near the window, and four chairs are arranged around it. A notice on the door asks visitors to return books after reading. On weekdays, a few children read there after school. The hut is busier on Saturday mornings, when families visit the park and use the reading space."
+    }
+  ],
+  "questions": [
+    {
+      "id": "g9pr1",
+      "prompt": "What place is mainly described in the passage?",
+      "choices": [
+        "A small reading hut",
+        "The village park",
+        "A school classroom"
+      ],
+      "answer": 0,
+      "explanation": "Kalimat pertama mengenalkan a small reading hut sebagai objek utama. Kalimat berikutnya menjelaskan ciri dan penggunaannya.",
+      "passageId": "village-reading-hut",
+      "evidence": "At the edge of the village park, a small reading hut stands under two large trees.",
+      "translationId": {
+        "prompt": "Tempat apa yang terutama dideskripsikan dalam bacaan?",
+        "choices": [
+          "Sebuah pondok baca kecil",
+          "Taman desa",
+          "Ruang kelas sekolah"
+        ]
+      }
+    },
+    {
+      "id": "g9pr2",
+      "prompt": "Where does the reading hut stand?",
+      "choices": [
+        "Beside the school",
+        "At the edge of the village park",
+        "Near a river"
+      ],
+      "answer": 1,
+      "explanation": "Lokasi tertulis pada kalimat pertama: At the edge of the village park. Artinya pondok baca berada di tepi taman desa.",
+      "passageId": "village-reading-hut",
+      "evidence": "At the edge of the village park",
+      "translationId": {
+        "prompt": "Di mana pondok baca itu berada?",
+        "choices": [
+          "Di samping sekolah",
+          "Di tepi taman desa",
+          "Di dekat sungai"
+        ]
+      }
+    },
+    {
+      "id": "g9pr3",
+      "prompt": "What do the two shelves hold?",
+      "choices": [
+        "Sports equipment",
+        "Food and drinks",
+        "Storybooks and magazines"
+      ],
+      "answer": 2,
+      "explanation": "Kalimat ketiga menyatakan bahwa dua rak menyimpan storybooks and magazines, yaitu buku cerita dan majalah.",
+      "passageId": "village-reading-hut",
+      "evidence": "Inside, two shelves hold storybooks and magazines.",
+      "translationId": {
+        "prompt": "Apa yang disimpan pada dua rak tersebut?",
+        "choices": [
+          "Peralatan olahraga",
+          "Makanan dan minuman",
+          "Buku cerita dan majalah"
+        ]
+      }
+    },
+    {
+      "id": "g9pr4",
+      "prompt": "Where is the long table?",
+      "choices": [
+        "Near the window",
+        "Beside the door",
+        "Under the trees"
+      ],
+      "answer": 0,
+      "explanation": "Bacaan menyebutkan secara langsung bahwa A long table stands near the window. Jadi, meja panjang berada di dekat jendela.",
+      "passageId": "village-reading-hut",
+      "evidence": "A long table stands near the window",
+      "translationId": {
+        "prompt": "Di mana letak meja panjang?",
+        "choices": [
+          "Di dekat jendela",
+          "Di samping pintu",
+          "Di bawah pepohonan"
+        ]
+      }
+    },
+    {
+      "id": "g9pr5",
+      "prompt": "In “four chairs are arranged around it”, what does “it” refer to?",
+      "choices": [
+        "The red roof",
+        "The long table",
+        "The front window"
+      ],
+      "answer": 1,
+      "explanation": "Kata it merujuk pada benda yang disebut tepat sebelumnya, yaitu a long table. Empat kursi disusun mengelilingi meja tersebut.",
+      "passageId": "village-reading-hut",
+      "evidence": "A long table stands near the window, and four chairs are arranged around it.",
+      "translationId": {
+        "prompt": "Dalam kalimat “four chairs are arranged around it”, kata “it” merujuk pada apa?",
+        "choices": [
+          "Atap merah",
+          "Meja panjang",
+          "Jendela depan"
+        ]
+      }
+    },
+    {
+      "id": "g9pr6",
+      "prompt": "What does “busier” most nearly mean in the passage?",
+      "choices": [
+        "Being quieter than usual",
+        "Closing earlier than usual",
+        "Having more people or activity"
+      ],
+      "answer": 2,
+      "explanation": "Konteks menyebutkan keluarga datang ke taman dan menggunakan ruang baca pada Sabtu pagi. Karena itu, busier berarti lebih ramai atau memiliki lebih banyak kegiatan.",
+      "passageId": "village-reading-hut",
+      "evidence": "The hut is busier on Saturday mornings, when families visit the park and use the reading space.",
+      "translationId": {
+        "prompt": "Apa arti paling dekat dari kata “busier” dalam bacaan?",
+        "choices": [
+          "Lebih tenang dari biasanya",
+          "Tutup lebih awal dari biasanya",
+          "Lebih ramai atau memiliki lebih banyak kegiatan"
+        ]
+      }
+    },
+    {
+      "id": "g9pr7",
+      "prompt": "Which statement is directly supported by the passage?",
+      "choices": [
+        "The hut is busier on Saturday mornings.",
+        "The hut is closed on weekdays.",
+        "The hut opens before sunrise every day."
+      ],
+      "answer": 0,
+      "explanation": "Pernyataan pertama didukung langsung oleh kalimat yang menyebutkan pondok baca lebih ramai pada Sabtu pagi. Dua pilihan lain tidak dinyatakan oleh bacaan.",
+      "passageId": "village-reading-hut",
+      "evidence": "The hut is busier on Saturday mornings",
+      "translationId": {
+        "prompt": "Pernyataan manakah yang didukung secara langsung oleh bacaan?",
+        "choices": [
+          "Pondok baca lebih ramai pada Sabtu pagi.",
+          "Pondok baca tutup pada hari kerja.",
+          "Pondok baca buka sebelum matahari terbit setiap hari."
+        ]
+      }
+    },
+    {
+      "id": "g9pr8",
+      "prompt": "What conclusion is best supported by the passage?",
+      "choices": [
+        "Only adults use the reading hut.",
+        "The hut is used by children and families.",
+        "Visitors use the hut only for sports."
+      ],
+      "answer": 1,
+      "explanation": "Bacaan menyebutkan anak-anak membaca di sana pada hari kerja dan keluarga menggunakan ruang baca pada Sabtu pagi. Dua informasi itu mendukung simpulan bahwa tempat tersebut digunakan oleh anak-anak dan keluarga.",
+      "passageId": "village-reading-hut",
+      "evidence": "On weekdays, a few children read there after school. The hut is busier on Saturday mornings, when families visit the park and use the reading space.",
+      "translationId": {
+        "prompt": "Simpulan manakah yang paling didukung oleh bacaan?",
+        "choices": [
+          "Hanya orang dewasa yang menggunakan pondok baca.",
+          "Pondok baca digunakan oleh anak-anak dan keluarga.",
+          "Pengunjung menggunakan pondok baca hanya untuk berolahraga."
+        ]
+      }
+    }
+  ]
+}

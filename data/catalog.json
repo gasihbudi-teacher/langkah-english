@@ -302,8 +302,8 @@
     },
     {
       "id": "grade9-reading",
-      "title": "Grade 9: picture a place through reading",
-      "description": "Kenali teks deskriptif serta latihan menemukan detail dan konteks kosakata.",
+      "title": "Grade 9: Reading a Place — Descriptive Text",
+      "description": "Pelajari cara memahami deskripsi tempat, menemukan bukti, menafsirkan kosakata, dan membuat simpulan yang didukung bacaan.",
       "type": "lesson",
       "placements": [
         {
@@ -314,13 +314,17 @@
       "difficulty": "Beginner",
       "grammarTopics": [],
       "readingSkills": [
+        "Main Idea",
         "Supporting Details",
-        "Vocabulary in Context"
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions"
       ],
       "tags": [
-        "descriptive and narrative texts",
+        "descriptive text",
         "reading comprehension",
-        "vocabulary development"
+        "text evidence",
+        "vocabulary in context"
       ],
       "relatedLessons": [
         "grade10-recount"
@@ -329,7 +333,43 @@
       "aiGenerated": true,
       "unofficial": true,
       "order": 10,
-      "estimatedMinutes": 25
+      "estimatedMinutes": 35
+    },
+    {
+      "id": "grade9-place-reading-check",
+      "title": "Grade 9 Reading Check: Describing a Place",
+      "description": "Delapan soal untuk mengukur pemahaman gagasan utama, detail, rujukan kata, kosakata, dan simpulan berdasarkan teks deskriptif baru.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions"
+      ],
+      "tags": [
+        "descriptive text",
+        "reading comprehension",
+        "independent transfer",
+        "text evidence"
+      ],
+      "relatedLessons": [
+        "grade9-reading"
+      ],
+      "file": "data/quizzes/grade9-place-reading-check.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 11
     },
     {
       "id": "grade10-recount",
