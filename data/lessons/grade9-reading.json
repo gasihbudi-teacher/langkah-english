@@ -14,276 +14,123 @@
     },
     {
       "type": "scaffold",
-      "intro": "Baca teks model terlebih dahulu. Setelah itu, ikuti langkah untuk menemukan tempat yang dibahas, mencari detail, menghubungkan informasi, dan menafsirkan kata melalui konteks. Pertanyaan kecil hanya muncul pada langkah yang memang perlu diperiksa. Cobalah menjawab sebelum membuka penjelasan.",
+      "title": "Membaca teks model dengan bukti",
+      "intro": "Baca teks model secara utuh untuk memahami gambaran tempat. Langkah berikut menyoroti cara menghubungkan rincian, memeriksa sebuah klaim, dan menafsirkan kosakata melalui konteks.",
+      "modelTitle": "Our School Garden",
+      "modelEnglish": "The school garden is behind the science room, next to the basketball court. A narrow stone path, just wide enough for one student, leads from the hall to a wooden gate. Inside the garden, six benches stand around a small pond. Several herb pots stand in rows along the wall. Each row forms a straight line. Tall trees grow along the fence. Their branches create shade over the benches, so the seats stay cool at midday. A notice beside the pond asks visitors not to feed the fish. During the morning break, a few students read on the benches while others water the plants. The garden is usually quiet, but it becomes busier after the final lesson. Students use this small space to rest and learn about plants.",
+      "modelIndonesian": "Taman sekolah berada di belakang ruang sains, di sebelah lapangan basket. Jalan setapak batu yang sempit, hanya cukup lebar untuk satu siswa, menghubungkan aula dengan gerbang kayu. Di dalam taman, enam bangku berdiri mengelilingi kolam kecil. Beberapa pot tanaman herbal tersusun dalam beberapa baris di sepanjang dinding. Setiap baris membentuk satu garis lurus. Pohon-pohon tinggi tumbuh di sepanjang pagar. Cabang-cabangnya memberikan keteduhan di atas bangku, sehingga tempat duduk tetap sejuk pada tengah hari. Sebuah papan pemberitahuan di samping kolam meminta pengunjung untuk tidak memberi makan ikan. Saat istirahat pagi, beberapa siswa membaca di bangku, sedangkan siswa lainnya menyiram tanaman. Taman itu biasanya tenang, tetapi menjadi lebih ramai setelah pelajaran terakhir. Siswa menggunakan ruang kecil ini untuk beristirahat dan belajar tentang tanaman.",
+      "modelNote": "Perhatikan bagaimana teks bergerak dari lokasi ke ciri fisik, suasana, lalu kegiatan siswa. Rincian-rincian itu bersama-sama membentuk gambaran satu tempat.",
       "steps": [
         {
-          "title": "Kenali tempat yang dibahas",
-          "explanation": "Mulailah dengan mencari nama atau frasa yang menunjukkan objek utama. Jangan langsung menyimpulkan fungsi tempat sebelum menemukan objeknya.",
-          "english": "The school garden is behind the science room.",
-          "indonesian": "Taman sekolah berada di belakang ruang sains.",
-          "why": "Frasa [[The school garden]] menunjukkan tempat yang menjadi fokus bacaan.",
-          "check": "Tempat apa yang menjadi fokus teks model?",
-          "checkAnswer": "Teks model membahas taman sekolah ([[the school garden]])."
-        },
-        {
-          "title": "Temukan letak tempat",
-          "explanation": "Cari frasa lokasi yang menunjukkan posisi tempat dibandingkan dengan bangunan atau area lain. Perhatikan kata depan lokasi.",
-          "english": "The garden is behind the science room, next to the basketball court.",
-          "indonesian": "Taman berada di belakang ruang sains, di sebelah lapangan basket.",
-          "why": "Frasa [[behind]] dan [[next to]] memberi dua petunjuk lokasi yang tertulis langsung.",
-          "check": "Menurut teks model, taman sekolah berada di mana?",
-          "checkAnswer": "Taman berada di belakang ruang sains dan di sebelah lapangan basket."
-        },
-        {
-          "title": "Ambil detail fisik yang tertulis",
-          "explanation": "Catat benda, jumlah, bentuk, dan letaknya sesuai kalimat. Jangan mengubah jumlah atau menambahkan benda yang tidak disebutkan.",
-          "english": "Six benches stand around a small pond.",
-          "indonesian": "Enam bangku berdiri mengelilingi kolam kecil.",
-          "why": "[[Six]] menunjukkan jumlah yang pasti; [[around a small pond]] menjelaskan susunan bangku.",
-          "check": "Berapa bangku yang disebutkan dalam teks model?",
-          "checkAnswer": "Teks menyebutkan enam bangku ([[six benches]])."
+          "title": "Temukan fokus dan detail utama",
+          "explanation": "Tentukan tempat yang dibahas. Setelah itu, perhatikan frasa yang menunjukkan letaknya dan satu ciri fisik yang membantu pembaca membayangkan tempat tersebut.",
+          "english": "The school garden is behind the science room, next to the basketball court. Six benches stand around a small pond.",
+          "indonesian": "Taman sekolah berada di belakang ruang sains, di sebelah lapangan basket. Enam bangku berdiri mengelilingi kolam kecil.",
+          "why": "Satu bagian kalimat mengenalkan objek, frasa lain menunjukkan posisi, dan kalimat berikutnya menambahkan ciri fisik. Gunakan kata-kata yang benar-benar muncul sebagai bukti.",
+          "check": "Which words identify the place and show its location? Add one physical detail from the same passage.",
+          "checkAnswer": "The place is “the school garden”. It is “behind the science room” and “next to the basketball court”. One physical detail is “six benches stand around a small pond”."
         },
         {
           "title": "Hubungkan detail antar kalimat",
-          "explanation": "Kalimat berikutnya dapat memakai kata ganti atau hubungan sebab-akibat untuk menjelaskan detail sebelumnya. Hubungkan kata itu dengan rujukan yang tepat.",
-          "english": "Tall trees grow along the fence. Their branches create shade over the benches.",
-          "indonesian": "Pohon-pohon tinggi tumbuh di sepanjang pagar. Cabang-cabangnya memberi keteduhan di atas bangku.",
-          "why": "[[Their]] merujuk pada [[tall trees]], sedangkan [[create shade]] menjelaskan fungsi cabang."
+          "explanation": "Deskripsi tidak selalu menjelaskan satu rincian dalam satu kalimat. Perhatikan kata ganti dan hubungan sebab-akibat agar kamu memahami bagaimana beberapa kalimat saling melengkapi.",
+          "english": "Tall trees grow along the fence. Their branches create shade over the benches, so the seats stay cool at midday.",
+          "indonesian": "Pohon-pohon tinggi tumbuh di sepanjang pagar. Cabang-cabangnya memberi keteduhan di atas bangku, sehingga tempat duduk tetap sejuk pada tengah hari.",
+          "why": "[[Their]] merujuk pada [[tall trees]], sedangkan [[so]] menghubungkan keteduhan dengan keadaan bangku yang tetap sejuk. Kedua hubungan itu membuat rincian antarkalimat saling terhubung."
         },
         {
-          "title": "Pisahkan fakta dan dugaan",
-          "explanation": "Pernyataan yang benar harus didukung oleh kalimat dalam bacaan. Informasi yang mungkin benar di dunia nyata belum tentu dinyatakan oleh teks.",
+          "title": "Bedakan pernyataan dari asumsi",
+          "explanation": "Jangan mengubah keterangan yang terbatas menjadi pernyataan mutlak. Kata seperti [[usually]] menunjukkan keadaan yang umum, bukan sesuatu yang selalu terjadi. Periksa juga kegiatan yang disebut pada bagian lain.",
           "english": "The garden is usually quiet, but it becomes busier after the final lesson.",
           "indonesian": "Taman biasanya tenang, tetapi menjadi lebih ramai setelah pelajaran terakhir.",
-          "why": "Teks menyebutkan keadaan pada waktu tertentu; teks tidak menyatakan taman selalu kosong atau selalu ramai.",
-          "check": "Apakah teks menyatakan bahwa taman kosong sepanjang hari? Jelaskan berdasarkan bacaan.",
-          "checkAnswer": "Tidak. Teks menyebut beberapa siswa membaca dan siswa lain menyiram tanaman saat istirahat pagi. Taman juga lebih ramai setelah pelajaran terakhir."
+          "why": "[[Usually]] tidak berarti [[always]]. Kata [[but]] menandai perbedaan keadaan; bandingkan klaim dengan rincian waktu dan kegiatan lain dalam bacaan.",
+          "check": "A learner says, “The garden is empty all day.” Is this statement supported by the passage? Give two details as evidence.",
+          "checkAnswer": "No. During the morning break, a few students read on the benches while others water the plants. The garden also becomes busier after the final lesson. These details show that it is not empty all day."
         },
         {
-          "title": "Tebak makna kata dari petunjuk konteks",
-          "explanation": "Jika kata baru muncul, baca keterangan di dekatnya. Keterangan itu dapat menjelaskan atau membatasi makna kata.",
+          "title": "Gunakan petunjuk konteks untuk menafsirkan kata",
+          "explanation": "Saat menemukan kata yang belum dikenal, cari rincian di dekatnya yang menjelaskan ukuran, bentuk, atau fungsinya. Jangan menebak hanya dari bentuk kata.",
           "english": "A narrow stone path, just wide enough for one student, leads from the hall to a wooden gate.",
           "indonesian": "Jalan setapak batu yang sempit, hanya cukup lebar untuk satu siswa, menghubungkan aula dengan gerbang kayu.",
-          "why": "Keterangan [[just wide enough for one student]] memberi petunjuk bahwa [[narrow]] berarti sempit atau tidak lebar.",
-          "check": "Apa arti paling dekat dari kata narrow pada kalimat tersebut?",
-          "checkAnswer": "[[Narrow]] berarti sempit atau tidak lebar, karena jalan hanya cukup lebar untuk satu siswa."
+          "why": "Frasa setelah koma memberikan gambaran konkret tentang lebar jalan. Gunakan rincian itu sebagai petunjuk untuk menafsirkan kata yang belum dikenal.",
+          "check": "What does “narrow” mean in this sentence? Quote the words that support your interpretation.",
+          "checkAnswer": "“Narrow” means not wide or “sempit”. The clue is “just wide enough for one student”, which describes the limited width of the path."
         },
         {
-          "title": "Pahami susunan melalui kalimat penjelas",
-          "explanation": "Kalimat setelah kata baru kadang memberi penjelasan yang lebih mudah. Baca dua kalimat bersama, bukan satu kata secara terpisah.",
+          "title": "Perhatikan kalimat yang menjelaskan ulang",
+          "explanation": "Kadang-kadang kalimat berikutnya menyampaikan kembali makna kata dengan bahasa yang lebih mudah. Bandingkan kedua kalimat untuk menemukan hubungan tersebut.",
           "english": "Several herb pots stand in rows along the wall. Each row forms a straight line.",
           "indonesian": "Beberapa pot tanaman herbal tersusun dalam beberapa baris di sepanjang dinding. Setiap baris membentuk satu garis lurus.",
-          "why": "Kalimat kedua menjelaskan [[rows]] sebagai susunan yang membentuk garis lurus.",
-          "check": "Dalam teks, bagaimana pot-pot tanaman disusun?",
-          "checkAnswer": "Pot-pot disusun dalam barisan; setiap baris membentuk satu garis lurus."
+          "why": "Kalimat kedua menjelaskan susunan yang dimaksud oleh [[rows]]: pot-pot ditempatkan dalam barisan yang membentuk garis lurus."
         },
         {
-          "title": "Buat simpulan dengan bukti",
-          "explanation": "Simpulan yang baik merangkum beberapa detail penting tanpa menambah informasi. Pilih bukti yang saling melengkapi.",
-          "english": "Some students read on the benches while others water the plants.",
-          "indonesian": "Beberapa siswa membaca di bangku, sedangkan siswa lainnya menyiram tanaman.",
-          "why": "Dua kegiatan yang disebut langsung mendukung simpulan bahwa taman digunakan untuk beberapa kegiatan siswa.",
-          "check": "Sebutkan dua kegiatan siswa di taman yang disebutkan dalam teks model.",
-          "checkAnswer": "Beberapa siswa membaca di bangku, sedangkan siswa lainnya menyiram tanaman."
+          "title": "Simpulkan bagaimana tempat digunakan",
+          "explanation": "Untuk menyimpulkan kegunaan tempat, hubungkan beberapa kegiatan atau ciri yang disebutkan. Jangan menjadikan satu kegiatan sebagai satu-satunya tujuan jika bacaan memberi bukti yang lebih luas.",
+          "english": "Some students read on the benches while others water the plants. Students use this small space to rest and learn about plants.",
+          "indonesian": "Beberapa siswa membaca di bangku, sedangkan siswa lainnya menyiram tanaman. Siswa menggunakan ruang kecil ini untuk beristirahat dan belajar tentang tanaman.",
+          "why": "Kalimat pertama memberikan bukti tentang kegiatan siswa. Kalimat terakhir menyatakan kegunaan yang lebih luas; hubungkan keduanya untuk menyusun simpulan.",
+          "check": "What can you conclude about how the garden is used? Support your conclusion with two details from the passage.",
+          "checkAnswer": "The garden is used as a place to rest and learn about plants. Students read on the benches and water the plants; the final sentence confirms these purposes."
         }
-      ],
-      "modelTitle": "Teks model · Our School Garden",
-      "modelEnglish": "The school garden is behind the science room, next to the basketball court. A narrow stone path, just wide enough for one student, leads from the hall to a wooden gate. Inside the garden, six benches stand around a small pond. Several herb pots stand in rows along the wall. Each row forms a straight line. Tall trees grow along the fence. Their branches create shade over the benches, so the seats stay cool at midday. A notice beside the pond asks visitors not to feed the fish. During the morning break, a few students read on the benches while others water the plants. The garden is usually quiet, but it becomes busier after the final lesson. Students use this small space to rest and learn about plants.",
-      "modelIndonesian": "Taman sekolah berada di belakang ruang sains, di sebelah lapangan basket. Jalan setapak batu yang sempit, hanya cukup lebar untuk satu siswa, menghubungkan aula dengan gerbang kayu. Di dalam taman, enam bangku berdiri mengelilingi kolam kecil. Beberapa pot tanaman herbal tersusun dalam beberapa baris di sepanjang dinding. Setiap baris membentuk satu garis lurus. Pohon-pohon tinggi tumbuh di sepanjang pagar. Cabang-cabangnya memberikan keteduhan di atas bangku, sehingga tempat duduk tetap sejuk pada tengah hari. Sebuah papan pemberitahuan di samping kolam meminta pengunjung untuk tidak memberi makan ikan. Saat istirahat pagi, beberapa siswa membaca di bangku, sedangkan siswa lainnya menyiram tanaman. Taman itu biasanya tenang, tetapi menjadi lebih ramai setelah pelajaran terakhir. Siswa menggunakan ruang kecil ini untuk beristirahat dan belajar tentang tanaman."
-    },
-    {
-      "type": "synthesis",
-      "title": "Jadi, apa inti membaca deskripsi tempat?",
-      "text": "Kenali tempat yang dibahas, kumpulkan detail yang benar-benar tertulis, lalu hubungkan informasi tersebut. Jika menemukan kata baru, gunakan kalimat di sekitarnya. Setiap jawaban dan simpulan harus memiliki bukti dalam bacaan."
+      ]
     },
     {
       "type": "heading",
-      "text": "Memahami struktur teks deskriptif"
+      "text": "How a descriptive text is organised"
     },
     {
       "type": "text",
-      "text": "Teks deskriptif tentang tempat sering dimulai dengan bagian [[identification]], yaitu pengenalan tempat yang dibahas. Setelah itu, bagian [[description]] memberikan rincian seperti lokasi, benda, ciri fisik, suasana, atau kegunaan tempat. Dalam teks model, kalimat pertama mengenalkan taman sekolah dan lokasinya. Kalimat berikutnya menjelaskan jalan setapak, bangku, kolam, tanaman, pepohonan, suasana, dan kegiatan siswa."
+      "text": "Descriptive texts about places often introduce the place before developing its details. The introduction is commonly called [[identification]], while the details are called [[description]]. This is a useful reading guide, not a rule that every text must follow in exactly the same way."
     },
     {
       "type": "table",
       "headers": [
-        "Bagian",
-        "Fungsi",
-        "Contoh dari teks model"
+        "Part",
+        "What it does",
+        "Example from the passage"
       ],
       "rows": [
         [
           "Identification",
-          "Mengenalkan tempat yang menjadi fokus.",
+          "Introduces the place being described, often with its location.",
           "The school garden is behind the science room..."
         ],
         [
           "Description",
-          "Menjelaskan ciri dan rincian tempat.",
+          "Develops the picture through physical features, atmosphere, activities, and other details.",
           "Six benches stand around a small pond."
         ]
       ]
     },
     {
       "type": "heading",
-      "text": "Baca detail, jangan menambahkan dugaan"
+      "text": "Check whether a claim goes beyond the text"
     },
     {
       "type": "text",
-      "text": "Saat mencari informasi, cocokkan jawaban dengan frasa yang benar-benar muncul dalam bacaan. Misalnya, teks menyebutkan [[six benches]], sehingga jawaban yang tepat adalah enam bangku, bukan lima atau delapan. Teks juga menyebutkan bahwa siswa membaca dan menyiram tanaman; teks tidak mengatakan bahwa siswa memberi makan ikan."
-    },
-    {
-      "type": "rule",
-      "text": "Sebelum memilih jawaban, tanyakan: kalimat mana yang membuktikan informasi ini? Jika tidak ada bukti, jangan menganggapnya sebagai fakta dalam teks."
+      "text": "A statement may sound reasonable but still be unsupported. Compare it with the passage and preserve limiting words such as [[usually]], [[some]], and time phrases such as [[during the morning break]]. These words affect how strong a conclusion can be."
     },
     {
       "type": "mistake",
       "incorrect": "The garden is empty all day.",
       "correct": "The garden is usually quiet, but it becomes busier after the final lesson.",
-      "explanation": "Pernyataan pertama terlalu mutlak. Bacaan menyebutkan kegiatan siswa saat istirahat pagi dan keadaan taman setelah pelajaran terakhir. Kata [[usually]] juga tidak berarti selalu."
-    },
-    {
-      "type": "heading",
-      "text": "Contoh tambahan: amati cara detail bekerja"
-    },
-    {
-      "type": "text",
-      "text": "Contoh berikut menunjukkan bagaimana kata lokasi, jumlah, perbandingan, petunjuk konteks, dan hubungan antarkalimat membantu pembaca membentuk gambaran sebuah tempat. Baca arti dan alasan setiap contoh, bukan hanya terjemahannya."
-    },
-    {
-      "type": "example_group",
-      "title": "1 · Mengenali tempat dan rincian fisik",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Their branches create shade over the benches, so the seats stay cool at midday.",
-          "indonesian": "Cabang-cabangnya memberi keteduhan di atas bangku, sehingga tempat duduk tetap sejuk pada tengah hari.",
-          "note": "Kata [[Their]] merujuk pada pohon-pohon yang disebut sebelumnya. Hubungan [[create shade]] dan [[so the seats stay cool]] menunjukkan sebab dan akibat dalam satu deskripsi."
-        },
-        {
-          "english": "The reading hut stands near the park entrance.",
-          "indonesian": "Pondok baca berdiri dekat pintu masuk taman.",
-          "note": "Frasa [[The reading hut]] mengenalkan tempat yang dibahas, sedangkan [[near the park entrance]] memberi tahu letaknya."
-        },
-        {
-          "english": "Four chairs are placed beside the window.",
-          "indonesian": "Empat kursi diletakkan di samping jendela.",
-          "note": "Kata [[Four]] memberi jumlah yang spesifik, sementara [[beside the window]] menjelaskan posisi kursi."
-        }
-      ]
-    },
-    {
-      "type": "checkpoint",
-      "id": "guided-grade9-reading",
-      "prompt": "Which detail tells us that the path is narrow?",
-      "translation": "Detail manakah yang menunjukkan bahwa jalan setapak itu sempit?",
-      "choices": [
-        "It is just wide enough for one student.",
-        "It leads to the wooden gate.",
-        "It is next to the basketball court."
-      ],
-      "answer": 0,
-      "explanation": "Frasa [[just wide enough for one student]] menjelaskan lebar jalan secara langsung. Karena hanya cukup untuk satu siswa, jalan itu tergolong sempit.",
-      "hint": "Cari keterangan yang menjelaskan lebar jalan, bukan arah atau tujuan jalan.",
-      "translationChoices": [
-        "Lebarnya hanya cukup untuk satu siswa.",
-        "Jalan itu menuju gerbang kayu.",
-        "Jalan itu berada di sebelah lapangan basket."
-      ]
-    },
-    {
-      "type": "breakdown",
-      "sentence": "Their branches create shade over the benches, so the seats stay cool at midday.",
-      "parts": [
-        {
-          "english": "Their branches",
-          "meaning": "cabang-cabang pohon yang disebut pada kalimat sebelumnya"
-        },
-        {
-          "english": "create shade",
-          "meaning": "memberikan keteduhan"
-        },
-        {
-          "english": "so the seats stay cool",
-          "meaning": "akibatnya, bangku tetap sejuk"
-        },
-        {
-          "english": "at midday",
-          "meaning": "pada tengah hari"
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Membandingkan dan menghubungkan detail",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "A low wall surrounds the flower bed.",
-          "indonesian": "Dinding rendah mengelilingi petak bunga.",
-          "note": "Kata [[low]] dan [[surrounds]] membantu pembaca membayangkan tinggi dinding serta susunannya terhadap petak bunga."
-        },
-        {
-          "english": "The path is narrow, but the road is wide.",
-          "indonesian": "Jalan setapak itu sempit, tetapi jalan raya itu lebar.",
-          "note": "Kata [[but]] memperkenalkan perbandingan yang berlawanan antara lebar jalan setapak dan jalan raya."
-        },
-        {
-          "english": "The garden is quiet in the morning, but busy at lunchtime.",
-          "indonesian": "Taman itu tenang pada pagi hari, tetapi ramai saat makan siang.",
-          "note": "Keterangan waktu menunjukkan bahwa suasana tempat dapat berubah. Jangan menyimpulkan bahwa tempat itu selalu tenang."
-        }
-      ]
-    },
-    {
-      "type": "reflection",
-      "prompt": "Which details help you picture the school garden?",
-      "translation": "Detail apa yang membantumu membayangkan taman sekolah?",
-      "answer": "Kamu dapat menyebutkan letak taman, jalan setapak yang sempit, enam bangku, kolam kecil, pot tanaman, pepohonan yang memberi keteduhan, serta kegiatan siswa. Pilih detail yang benar-benar tertulis dalam teks model."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Menafsirkan kosakata dan membuat simpulan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "The gate is in front of the library, not behind it.",
-          "indonesian": "Gerbang berada di depan perpustakaan, bukan di belakangnya.",
-          "note": "Frasa [[in front of]] dan [[behind]] menunjukkan posisi yang berbeda. Perhatikan kata lokasi dengan teliti agar tidak tertukar."
-        },
-        {
-          "english": "The narrow path is only wide enough for one person.",
-          "indonesian": "Jalan setapak yang sempit itu hanya cukup lebar untuk satu orang.",
-          "note": "Bagian [[only wide enough for one person]] menjadi petunjuk konteks yang menjelaskan bahwa [[narrow]] berarti tidak lebar."
-        },
-        {
-          "english": "The pots are arranged in rows: one straight line after another.",
-          "indonesian": "Pot-pot itu disusun dalam beberapa baris: satu garis lurus setelah garis lainnya.",
-          "note": "Penjelasan setelah tanda titik dua memperjelas makna [[rows]], yaitu susunan dalam barisan atau deret."
-        },
-        {
-          "english": "Children read inside the hut after school, and families visit on Saturdays.",
-          "indonesian": "Anak-anak membaca di dalam pondok setelah sekolah, dan keluarga berkunjung pada hari Sabtu.",
-          "note": "Dua rincian kegiatan dan pengunjung mendukung simpulan bahwa tempat itu digunakan oleh kelompok pengunjung yang berbeda pada waktu yang berbeda."
-        }
-      ]
+      "explanation": "The word [[usually]] does not mean [[always]]. The passage also says that a few students read on the benches and others water the plants during the morning break. The original claim ignores those details."
     },
     {
       "type": "summary",
-      "title": "Yang perlu kamu ingat",
+      "title": "Key ideas",
       "items": [
-        "Kenali tempat yang dibahas dan tujuan deskripsinya.",
-        "Cari rincian lokasi, ciri fisik, suasana, dan kegunaan yang tertulis dalam bacaan.",
-        "Gunakan konteks untuk memahami kosakata dan selalu dukung jawaban dengan bukti teks."
+        "A description introduces a place and develops the picture with relevant details.",
+        "Connect location, physical features, time, activities, and references across sentences.",
+        "Use context to interpret unfamiliar words and exact text evidence to support conclusions."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Write two or three English sentences about the school garden. Include its location and at least one physical detail or activity from the model text.",
-      "model": "The school garden is behind the science room and next to the basketball court. It has six benches around a small pond. Students read and water the plants there.",
-      "modelTranslation": "Taman sekolah berada di belakang ruang sains dan di sebelah lapangan basket. Taman itu memiliki enam bangku yang mengelilingi kolam kecil. Siswa membaca dan menyiram tanaman di sana.",
-      "criteria": "Pastikan kalimat menyebutkan lokasi dan setidaknya satu rincian yang benar-benar ada dalam teks. Jangan menambahkan informasi yang tidak disebutkan."
+      "title": "Describe a place you know",
+      "prompt": "Choose a place you know. Write two or three English sentences that identify it, give its location, and describe one physical feature or activity. Use details you can accurately describe.",
+      "model": "The school library is beside the main office. It has two reading tables, and students borrow books there after class.",
+      "modelTranslation": "Perpustakaan sekolah berada di samping kantor utama. Tempat itu memiliki dua meja baca, dan siswa meminjam buku di sana setelah kelas.",
+      "criteria": "Kalimat pertama mengenalkan tempat dan lokasinya. Kalimat berikutnya menambahkan rincian fisik atau kegiatan. Pastikan rincian sesuai dengan tempat yang kamu pilih."
     },
     {
       "type": "vocabulary",

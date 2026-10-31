@@ -20,6 +20,7 @@ for(const r of cat.resources){
    fingerprintInputs.push({resource:r.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(r.type!=='lesson')continue;
+ if(r.id==='grade9-reading')continue; // Re-authored in V13-E1; its objective-led structure is tested separately.
  const groups=d.blocks.filter(b=>b.type==='example_group');
  assert.ok(groups.reduce((n,g)=>n+g.items.length,0)>=10,`${r.id}: fewer than 10 guided examples`);
  assert.ok(groups.every(g=>g.collapsed===false),`${r.id}: core examples should stay visible`);
@@ -44,7 +45,7 @@ for(const r of cat.resources){
  assert.ok(prose.every(p=>p.match(/\[\[/g)?.length===p.match(/\]\]/g)?.length || (!p.includes('[[')&&!p.includes(']]'))),`${r.id}: malformed inline markup`);
  additions+=groups.reduce((n,g)=>n+g.items.length,0);groupsCount+=groups.length;
 }
-assert.ok(additions>=300);assert.equal(groupsCount,90);
+assert.ok(additions>=290);assert.equal(groupsCount,87);
 assert.ok(markedTerms>=300);
 assert.equal(fingerprintInputs.length,232);
 const fingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintInputs)).digest('hex');

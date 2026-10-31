@@ -12,10 +12,12 @@ const promptLocations=new Map();
 let steps=0,checks=0,explanationOnly=0;
 for(const meta of lessons){
  const lesson=JSON.parse(read(meta.file));
- const guide=lesson.blocks.find(b=>b.type==='scaffold');
- assert(guide,`${meta.id}: scaffold missing`);
- for(const [index,step] of guide.steps.entries()){
+ const guides=lesson.blocks.filter(b=>b.type==='scaffold');
+ assert.ok(guides.length<=1,`${meta.id}: duplicate scaffold container`);
+ if(!guides.length)continue;
+ for(const [index,step] of guides[0].steps.entries()){
   steps++;
+  assert(step.title?.trim()&&step.explanation?.trim(),`${meta.id}[${index}]: missing authored title/explanation`);
   const hasCheck=typeof step.check==='string'&&step.check.trim().length>0;
   const hasAnswer=typeof step.checkAnswer==='string'&&step.checkAnswer.trim().length>0;
   assert.equal(hasCheck,hasAnswer,`${meta.id}[${index}]: check and answer must be paired`);
@@ -23,21 +25,15 @@ for(const meta of lessons){
   checks++;
   assert(!/^Pada contoh tersebut\b/i.test(step.check.trim()),`${meta.id}[${index}]: generic placeholder check returned`);
   const answer=norm(step.checkAnswer);
-  for(const field of ['why','explanation']){
-   if(step[field])assert.notEqual(answer,norm(step[field]),`${meta.id}[${index}]: answer repeats visible ${field}`);
-  }
+  for(const field of ['why','explanation'])if(step[field])assert.notEqual(answer,norm(step[field]),`${meta.id}[${index}]: answer repeats visible ${field}`);
   const key=norm(step.check);
-  const previous=promptLocations.get(key)||[];
-  previous.push(`${meta.id}[${index}]`);
-  promptLocations.set(key,previous);
+  const previous=promptLocations.get(key)||[];previous.push(`${meta.id}[${index}]`);promptLocations.set(key,previous);
  }
 }
-for(const [prompt,locations] of promptLocations){
- assert.equal(locations.length,1,`Identical scaffold prompt reused: ${locations.join(', ')}`);
-}
-assert.equal(steps,610,'Scaffold inventory changed unexpectedly');
-assert.equal(checks,147,'Release-specific purposeful check inventory changed unexpectedly');
-assert.equal(explanationOnly,463,'Explanation-only scaffold inventory changed unexpectedly');
+for(const [prompt,locations] of promptLocations)assert.equal(locations.length,1,`Identical scaffold prompt reused: ${locations.join(', ')}`);
+assert.equal(steps,608,'Release inventory changed; update only after reviewing the source diff');
+assert.equal(checks,144,'Release inventory changed; update only after reviewing the source diff');
+assert.equal(explanationOnly,464,'Release inventory changed; update only after reviewing the source diff');
 
 const grammar=JSON.parse(read('data/lessons/sentence-structure.json'));
 const grammarSteps=grammar.blocks.find(b=>b.type==='scaffold').steps;
@@ -58,4 +54,4 @@ const inferenceWhy=inference.blocks.find(b=>b.type==='scaffold').steps[9].why;
 assert.match(inferenceWhy,/Persetujuan guru belum diberikan/);
 assert.doesNotMatch(inferenceWhy,/Rani merasa senang/);
 
-console.log(`PASS V13-E1-R2 scaffold quality: ${lessons.length} lessons, ${steps} steps, ${checks} purposeful optional checks, ${explanationOnly} explanation-only steps; no generic prompts, exact feedback duplicates, or repeated prompt strings.`);
+console.log(`PASS V13-E1-R3 scaffold quality: ${lessons.length} lessons, ${steps} scaffold steps, ${checks} optional purposeful checks, ${explanationOnly} explanation-only steps; no generic prompts, exact feedback duplicates, or repeated prompt strings.`);

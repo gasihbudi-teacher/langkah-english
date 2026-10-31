@@ -678,3 +678,9 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 .worked-example .lesson-translation-help{margin-top:12px}
 @media(max-width:650px){.lesson-translation-help{padding:9px 10px}}
 @media(forced-colors:active){.lesson-translation-help{border-color:currentColor}}
+
+/* V13-E1-R3: scaffold presentation follows authored lesson structure; no compulsory boilerplate. */
+.scaffold-heading{display:block;margin-bottom:16px}
+.scaffold-heading h2{margin:0 0 8px!important;font-size:clamp(21px,2.8vw,28px)}
+.scaffold-heading p,.scaffold-intro{margin:0 0 16px;line-height:1.7}
+.scaffold-model-note{margin:12px 0 0;padding-top:10px;border-top:1px solid #e7e2d4;color:#475569}

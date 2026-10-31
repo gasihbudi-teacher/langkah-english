@@ -87,7 +87,7 @@ for(const r of cat.resources){
   allScored+=d.practice?.length||0;
  }else allScored+=d.questions.length;
 }
-assert.ok(allSteps>=608);assert.ok(allCards>=671);assert.ok(allScored>=569);
+assert.ok(allSteps>=608);assert.ok(allCards>=661);assert.ok(allScored>=569);
 const tka=read('js/tka.js').toString(),page=read('tka.html').toString(),i18n=read('js/i18n.js').toString();
 assert.match(page,/ROADMAP \/ 10 RELEASED · 0 PLANNED/);
 assert.match(page,/120 ORIGINAL QUESTIONS/);

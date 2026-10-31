@@ -1,6 +1,7 @@
 """Browser-level regression: no compulsory labels and optional bilingual aids across pathways."""
 import asyncio
 import json
+from pathlib import Path
 from playwright.async_api import async_playwright
 from importlib import import_module
 
@@ -22,14 +23,21 @@ async def main():
     assert label not in generic,(lesson_id,label)
    summaries=await page.locator('.scaffold-guide summary').all_inner_texts()
    assert 'Lihat penjelasan setelah mencoba sendiri' not in summaries,lesson_id
+   scaffold_text=await page.locator('.scaffold-guide').inner_text()
+   for boilerplate in ['Mulai dari dasar, pelan-pelan','langkah bertahap · Boleh dibaca','Jika masih bingung, baca kembali contoh']:
+    assert boilerplate not in scaffold_text,(lesson_id,boilerplate)
    aids=page.locator('.scaffold-step .lesson-translation-help')
-   assert await aids.count()>=5,lesson_id
-   first=aids.first
-   assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Translation should be optional')
-   await first.locator('summary').focus()
-   await first.locator('summary').press('Enter')
-   assert await first.evaluate('(el)=>el.open'),(lesson_id,'Keyboard activation should open translation')
-   assert len((await first.locator('p').inner_text()).strip())>5,lesson_id
+   lesson_data=json.loads((original.ROOT/'data/lessons'/f'{lesson_id}.json').read_text())
+   guide=next((b for b in lesson_data['blocks'] if b['type']=='scaffold'),None)
+   expected_aids=sum(bool(step.get('english') and step.get('indonesian')) for step in guide['steps']) if guide else 0
+   assert await aids.count()==expected_aids,(lesson_id,await aids.count(),expected_aids)
+   if expected_aids:
+    first=aids.first
+    assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Translation should be optional')
+    await first.locator('summary').focus()
+    await first.locator('summary').press('Enter')
+    assert await first.evaluate('(el)=>el.open'),(lesson_id,'Keyboard activation should open translation')
+    assert len((await first.locator('p').inner_text()).strip())>5,lesson_id
    checks=page.locator('.scaffold-review details')
    if await checks.count():
     first_check=checks.first
@@ -41,8 +49,8 @@ async def main():
    overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
    assert overflow==0,(lesson_id,overflow)
    if lesson_id=='grade9-reading':
-    assert await page.locator('#belajar-langkah-4 .scaffold-review').count()==0
-    await page.screenshot(path='/mnt/data/langkah-renderer-grade9-mobile.png',full_page=False)
+    assert await page.locator('#belajar-langkah-2 .scaffold-review').count()==0
+    await page.screenshot(path='/mnt/data/langkah-r3-grade9-mobile.png',full_page=False)
    if lesson_id in ['grade10-descriptive','grade12-critical-reading','utbk-critical-inference']:
     assert await checks.count()==0,(lesson_id,'Explanation-only pilot should not show an answer disclosure')
    if lesson_id=='sentence-structure':

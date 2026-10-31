@@ -159,22 +159,22 @@
     },
     {
       "id": "g9pr8",
-      "prompt": "What conclusion is best supported by the passage?",
+      "prompt": "What is the main purpose of the reading hut?",
       "choices": [
-        "Only adults use the reading hut.",
-        "The hut is used by children and families.",
-        "Visitors use the hut only for sports."
+        "To store sports equipment.",
+        "To provide a place for children and families to read.",
+        "To hold school lessons every weekday."
       ],
       "answer": 1,
-      "explanation": "Bacaan menyebutkan anak-anak membaca di sana pada hari kerja dan keluarga menggunakan ruang baca pada Sabtu pagi. Dua informasi itu mendukung simpulan bahwa tempat tersebut digunakan oleh anak-anak dan keluarga.",
+      "explanation": "Children read there after school on weekdays, and families visit the park and use the reading space on Saturday mornings. Together, those details show that the hut provides a reading place for both groups.",
       "passageId": "village-reading-hut",
       "evidence": "On weekdays, a few children read there after school. The hut is busier on Saturday mornings, when families visit the park and use the reading space.",
       "translationId": {
-        "prompt": "Simpulan manakah yang paling didukung oleh bacaan?",
+        "prompt": "Apa tujuan utama pondok baca tersebut?",
         "choices": [
-          "Hanya orang dewasa yang menggunakan pondok baca.",
-          "Pondok baca digunakan oleh anak-anak dan keluarga.",
-          "Pengunjung menggunakan pondok baca hanya untuk berolahraga."
+          "Menyimpan peralatan olahraga.",
+          "Menyediakan tempat membaca bagi anak-anak dan keluarga.",
+          "Menyelenggarakan pelajaran sekolah setiap hari kerja."
         ]
       }
     }

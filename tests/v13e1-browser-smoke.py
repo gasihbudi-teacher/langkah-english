@@ -78,17 +78,29 @@ async def main():
   practices=await desktop.locator('#practice .panel').count()
   model=await desktop.locator('.scaffold-model').inner_text()
   assert 'Reading a Place' in title,title
-  assert (steps,checks,examples,practices)==(8,7,10,4),(steps,checks,examples,practices)
+  lesson_data=json.loads((ROOT/'data/lessons/grade9-reading.json').read_text())
+  guide=next(b for b in lesson_data['blocks'] if b['type']=='scaffold')
+  expected_steps=len(guide['steps'])
+  expected_checks=sum(bool(s.get('check')) for s in guide['steps'])
+  expected_examples=sum(len(b.get('items',[])) for b in lesson_data['blocks'] if b['type']=='example_group')
+  expected_practices=len(lesson_data.get('practice',[]))
+  assert (steps,checks,examples,practices)==(expected_steps,expected_checks,expected_examples,expected_practices),(steps,checks,examples,practices)
+  assert steps>0 and practices>0
   assert 'Our School Garden' in model and 'science room' in model
-  await desktop.locator('[data-guided-check="guided-grade9-reading"] [data-check-choice="0"]').click()
-  feedback=await desktop.locator('[data-guided-check="guided-grade9-reading"] .checkpoint-result').inner_text()
-  assert 'Benar' in feedback,feedback
+  assert await desktop.locator('.scaffold-heading h2').inner_text()=='Membaca teks model dengan bukti'
+  assert await desktop.locator('.scaffold-model-note').count()==1
+  assert await desktop.locator('.scaffold-total, .scaffold-next').count()==0
+  if checks:
+   first_reveal=desktop.locator('.scaffold-review details').first
+   await first_reveal.locator('summary').click()
+   feedback=await first_reveal.locator('p').inner_text()
+   assert 'school garden' in feedback.lower() and 'science room' in feedback.lower(),feedback
   await desktop.locator('#practice [data-answer="0"]').first.click()
   practice_feedback=await desktop.locator('#practice .inline-feedback').first.inner_text()
   assert 'Benar' in practice_feedback,practice_feedback
   lesson_overflow=await desktop.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert lesson_overflow==0,lesson_overflow
-  await desktop.screenshot(path='/mnt/data/v13e1-grade9-lesson-desktop.png',full_page=True)
+  await desktop.screenshot(path='/mnt/data/v13e1-r3-grade9-lesson-desktop.png',full_page=True)
 
   quiz_page=await browser.new_page(viewport={'width':1440,'height':1000})
   quiz_errors=[]
@@ -101,14 +113,15 @@ async def main():
   passage=await quiz_page.locator('#passage').inner_text()
   qcount=await quiz_page.locator('#numbers button').count()
   assert 'village reading hut' in passage.lower()
-  assert qcount==8,qcount
+  quiz_data=json.loads((ROOT/'data/quizzes/grade9-place-reading-check.json').read_text())
+  assert qcount==quiz_data['questionCount'],qcount
   await quiz_page.locator('#question [data-answer="0"]').click()
   await quiz_page.locator('#explain').click()
   quiz_feedback=await quiz_page.locator('#feedback').inner_text()
   assert 'Benar' in quiz_feedback and 'small reading hut' in quiz_feedback.lower(),quiz_feedback
   quiz_overflow=await quiz_page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert quiz_overflow==0,quiz_overflow
-  await quiz_page.screenshot(path='/mnt/data/v13e1-grade9-assessment-desktop.png',full_page=True)
+  await quiz_page.screenshot(path='/mnt/data/v13e1-r3-grade9-assessment-desktop.png',full_page=True)
 
   mobile=await browser.new_page(viewport={'width':390,'height':844})
   mobile_errors=[]
@@ -117,7 +130,7 @@ async def main():
   await mobile.locator('.scaffold-guide').wait_for()
   mobile_overflow=await mobile.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert mobile_overflow==0,mobile_overflow
-  await mobile.screenshot(path='/mnt/data/v13e1-grade9-lesson-mobile.png',full_page=True)
+  await mobile.screenshot(path='/mnt/data/v13e1-r3-grade9-lesson-mobile.png',full_page=True)
   assert not errors,errors
   assert not quiz_errors,quiz_errors
   assert not mobile_errors,mobile_errors
@@ -134,7 +147,7 @@ async def main():
    'quiz_horizontal_overflow_px':quiz_overflow,
    'mobile_horizontal_overflow_px':mobile_overflow,
    'page_errors':errors+quiz_errors+mobile_errors,
-   'screenshots':['v13e1-grade9-lesson-desktop.png','v13e1-grade9-assessment-desktop.png','v13e1-grade9-lesson-mobile.png']
+   'screenshots':['v13e1-r3-grade9-lesson-desktop.png','v13e1-r3-grade9-assessment-desktop.png','v13e1-r3-grade9-lesson-mobile.png']
   },ensure_ascii=False,indent=2))
   await browser.close()
 

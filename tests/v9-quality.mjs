@@ -10,39 +10,46 @@ const quizzes=c.resources.filter(x=>x.type==='quiz');
 assert.ok(lessons.length>=54,'V9/V11 lessons missing');
 assert.ok(quizzes.length>=39,'V9/V11 quizzes missing');
 assert.equal(new Set(c.resources.map(x=>x.id)).size,c.resources.length,'Duplicate resources');
-const uniqueScaffolds=new Set();
-let totalCards=0,totalSelfChecks=0,totalScaffolds=0;
+let totalScaffolds=0,totalSteps=0,totalChecks=0,totalExamples=0,totalSelfChecks=0;
+const prompts=new Set();
 for(const m of lessons){
  const d=JSON.parse(read(m.file));
  const bs=d.blocks;
- assert.equal(bs[0]?.type,'definition',m.id+': missing opening definition');
- assert.equal(bs[1]?.type,'scaffold',m.id+': missing guided scaffold');
- assert.equal(bs[2]?.type,'synthesis',m.id+': missing visible detailed synthesis');
- assert.equal(bs[bs.length-1]?.type,'vocabulary',m.id+': vocabulary must be last');
- assert.ok(bs[0].text.trim().length>=70&&bs[2].text.trim().length>=150,m.id+': insufficient definitions');
- assert.notEqual(bs[0].text,bs[2].text,m.id+': summary is a repeated definition');
- const guided=bs[1];assert.ok(guided.steps.length>=2&&guided.steps.length<=20);
- assert.ok(guided.steps.filter(s=>s.english&&s.indonesian&&s.why).length>=2,m.id+': missing worked mini-examples');
- assert.ok(guided.steps.every(s=>s.title&&s.explanation),m.id+': incomplete guided step');
- uniqueScaffolds.add(guided.steps[0].title);totalScaffolds++;
- const groups=bs.filter(b=>b.type==='example_group');
- const examples=groups.flatMap(g=>g.items);totalCards+=examples.length;
- assert.ok(groups.length>=3&&examples.length>=10,m.id+': fewer than ten explained cards');
- assert.ok(groups.every(g=>g.collapsed===false),m.id+': a core example is hidden');
- assert.equal(new Set(examples.map(e=>e.english.trim().toLowerCase())).size,examples.length,m.id+': duplicate example');
- assert.ok(examples.every(e=>e.english&&e.indonesian&&e.note),m.id+': card missing explanation');
- assert.ok(examples.every(e=>!e.english.includes('[[')),m.id+': English example contains inline markup');
- assert.equal(bs.filter(b=>b.type==='self_check').length,1,m.id+': ungraded production practice missing');
- totalSelfChecks++;
- const write=bs.find(b=>b.type==='self_check');
- assert.ok(write.prompt.length>40&&write.model&&write.modelTranslation&&write.criteria,m.id+': open-response model incomplete');
- assert.equal(bs.filter(b=>b.type==='vocabulary').length,1);
- assert.equal(bs.filter(b=>b.type==='checkpoint').length,1);
- assert.ok(bs.indexOf(bs.find(b=>b.type==='self_check'))>bs.findIndex(b=>b.type==='summary'),m.id+': write task before recap');
+ assert.ok(Array.isArray(bs)&&bs.length>0,m.id+': lesson content is empty');
+ const vocab=bs.filter(b=>b.type==='vocabulary');
+ assert.ok(vocab.length<=1,m.id+': duplicate vocabulary sections');
+ if(vocab.length)assert.equal(bs.at(-1),vocab[0],m.id+': vocabulary should remain at the end when included');
+ const guided=bs.filter(b=>b.type==='scaffold');
+ assert.ok(guided.length<=1,m.id+': duplicate scaffold containers');
+ if(guided.length){
+  totalScaffolds++;
+  for(const [i,step] of guided[0].steps.entries()){
+   totalSteps++;
+   assert.ok(step.title?.trim()&&step.explanation?.trim(),m.id+': incomplete authored learning move '+i);
+   const hasCheck=Boolean(step.check?.trim()),hasAnswer=Boolean(step.checkAnswer?.trim());
+   assert.equal(hasCheck,hasAnswer,m.id+': check/answer must be paired '+i);
+   if(hasCheck){
+    totalChecks++;
+    const key=step.check.replace(/\s+/g,' ').trim().toLowerCase();
+    assert(!prompts.has(key),m.id+': repeated generic prompt '+key);prompts.add(key);
+    const norm=x=>String(x??'').replace(/\s+/g,' ').trim().toLowerCase();
+    for(const field of ['why','explanation'])if(step[field])assert.notEqual(norm(step.checkAnswer),norm(step[field]),m.id+': answer repeats teaching explanation '+i);
+   }
+   if(step.indonesian)assert.ok(step.english,m.id+': translation without English sample '+i);
+  }
+ }
+ for(const group of bs.filter(b=>b.type==='example_group')){
+  const examples=group.items||[];totalExamples+=examples.length;
+  const unique=new Set(examples.map(e=>(e.english||'').trim().toLowerCase()));
+  assert.equal(unique.size,examples.length,m.id+': duplicate examples within a group');
+  assert(examples.every(e=>e.english&&e.note),m.id+': example without a learning point');
+ }
+ for(const task of bs.filter(b=>b.type==='self_check')){
+  totalSelfChecks++;
+  assert.ok(task.prompt&&task.criteria,m.id+': incomplete independent task');
+ }
+ for(const cp of bs.filter(b=>b.type==='checkpoint'))assert.ok(cp.prompt&&cp.explanation&&cp.choices?.length>=2,m.id+': incomplete guided checkpoint');
 }
-assert.ok(uniqueScaffolds.size>=6,'Scaffold is still too uniform');
-assert.ok(totalCards>=540,'Insufficient total explained examples');
-assert.equal(totalScaffolds,lessons.length);assert.equal(totalSelfChecks,lessons.length);
 const lessonJs=read('js/lesson.js');
 assert.doesNotMatch(lessonJs,/const marker=items\.findIndex/,'Essential theory still auto-collapsed');
 assert.ok(lessonJs.indexOf('id="practice"')<lessonJs.indexOf('lesson-vocabulary'),'Vocabulary should render after scored practice');
@@ -50,7 +57,7 @@ const core=read('js/core.js');
 for(const s of ["case 'definition'","case 'synthesis'","case 'self_check'","formatIdText(b.text)"])assert.ok(core.includes(s),'Missing safe renderer '+s);
 const schema=JSON.parse(read('data/schemas/lesson.schema.json'));
 const variants=schema.properties.blocks.items.oneOf;
-for(const k of ['definition','synthesis','self_check'])assert.ok(variants.some(x=>x.properties.type.const===k),'Missing new JSON Schema block '+k);
+for(const k of ['definition','synthesis','self_check'])assert.ok(variants.some(x=>x.properties.type.const===k),'Missing lesson block '+k);
 for(const [id,expected] of [['grade9-trip-recount-practice','A class visit to a history museum'],['grade9-upcycling-procedure-practice','To show how to make a pencil holder']]){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));
  assert.equal(d.questions[0].choices[d.questions[0].answer],expected,id+': original wrong answer was not corrected');
@@ -61,5 +68,5 @@ for(const id of ['utbk-mock-a','utbk-mock-b','utbk-mock-c']){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));
  assert.equal(d.questionCount,20);assert.equal(d.durationSeconds,1200);
 }
-assert.ok(read('js/core.js').includes("'langkah.progress.v1'"),'Student progress key altered');
-console.log(`PASS V9-structure regression: ${lessons.length} lessons, ${totalCards} unique bilingual cards, ${uniqueScaffolds.size} scaffold families, ${totalSelfChecks} ungraded open responses, vocab last, key repairs and compatible UTBK mocks.`);
+assert.ok(core.includes("'langkah.progress.v1'"),'Student progress key altered');
+console.log(`PASS V9 flexible structure regression: ${lessons.length} lessons; ${totalScaffolds} scaffold containers, ${totalSteps} authored steps, ${totalChecks} optional checks, ${totalExamples} authored examples, ${totalSelfChecks} independent tasks. No fixed block/check/example quota is imposed.`);

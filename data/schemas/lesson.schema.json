@@ -314,7 +314,6 @@
             "type": "object",
             "required": [
               "type",
-              "intro",
               "steps"
             ],
             "properties": {
@@ -327,8 +326,7 @@
               },
               "steps": {
                 "type": "array",
-                "minItems": 3,
-                "maxItems": 20,
+                "minItems": 1,
                 "items": {
                   "type": "object",
                   "required": [
@@ -400,6 +398,14 @@
                   "before",
                   "after"
                 ]
+              },
+              "title": {
+                "type": "string",
+                "minLength": 4
+              },
+              "modelNote": {
+                "type": "string",
+                "minLength": 10
               }
             },
             "additionalProperties": false
