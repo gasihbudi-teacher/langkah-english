@@ -22,7 +22,7 @@ for(const page of fs.readdirSync(root).filter(n=>n.endsWith('.html'))){
  const ids=[...content.matchAll(/\bid="([a-z0-9-]+)"/gi)].map(x=>x[1]);
  assert.equal(ids.length,new Set(ids).size,`Duplicate id in ${page}`);
 }
-assert.match(read('index.html'),/path-card path-tka/);
+assert.match(read('index.html'),/class="choice-card" href="tka\.html"/); // TKA remains a first-class homepage destination after the simplified redesign.
 const plan=read('js/tka.js');
 const modules=[...plan.matchAll(/\['(TKA-\d\d)','([^']+)',(\d+),'(\w+)'\]/g)];
 assert.equal(modules.length,10);

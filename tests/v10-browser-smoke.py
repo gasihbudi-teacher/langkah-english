@@ -7,13 +7,13 @@ from urllib.parse import urlparse
 from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parent.parent
 JS=ROOT/'js'
-mods=['i18n.js','backup-format.mjs','core.js','translations.js','backup.js']
+mods=['i18n.js','question-types.mjs','backup-format.mjs','core.js','translations.js','backup.js']
 
 def module_wrap(name):
  raw=(JS/name).read_text()
  imports=[]
  def rewrite_import(match):
-  members=match.group(1);src=match.group(2).split('/')[-1]
+  members=re.sub(r'\b(\w+)\s+as\s+(\w+)\b',r'\1: \2',match.group(1));src=match.group(2).split('/')[-1]
   return f"const {{{members}}}=window.__testModules[{json.dumps(src)}];"
  raw=re.sub(r'^import \{([^}]+)\} from [\'"]([^\'"]+)[\'"];',rewrite_import,raw,flags=re.M)
  exports=re.findall(r'^export (?:const|function|async function|class|let)\s+(\w+)',raw,re.M)
@@ -30,7 +30,8 @@ def module_wrap(name):
 def bundle(entry):
  imports=[]
  def rewrite_import(match):
-  return f"const {{{match.group(1)}}}=window.__testModules[{json.dumps(match.group(2).split('/')[-1])}];"
+  members=re.sub(r'\b(\w+)\s+as\s+(\w+)\b',r'\1: \2',match.group(1))
+  return f"const {{{members}}}=window.__testModules[{json.dumps(match.group(2).split('/')[-1])}];"
  raw=(JS/entry).read_text()
  raw=re.sub(r'^import \{([^}]+)\} from [\'"]([^\'"]+)[\'"];',rewrite_import,raw,flags=re.M)
  assert not re.search(r'^import ',raw,re.M),entry
@@ -85,7 +86,8 @@ async def run():
   test_counts={}
   await setup(page,'index.html','home.js',screenshot='/tmp/langkah_v10_home_browser.png')
   test_counts['home_stats']=await page.locator('#stats .stat').count()
-  test_counts['home_roadmap']=await page.locator('#roadmap .roadmap-card').count()
+  test_counts['home_path_cards']=await page.locator('.home-choice-section .choice-card').count()
+  test_counts['home_duplicate_sections']=await page.locator('.path-section,.journey-section,.grade-section,.roadmap-section').count()
   test_counts['home_continue']=await page.locator('#continue .button').count()
   await page.locator('.lang-button[data-lang="en"]').click(timeout=4000)
   test_counts['english_toggle']=await page.locator('#hero-title').inner_text()
@@ -144,7 +146,7 @@ async def run():
   print(json.dumps(test_counts,ensure_ascii=False,indent=2))
   print('ERRORS',errors)
   await browser.close()
-  return not errors and test_counts['home_stats']==4 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']==93 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
+  return not errors and test_counts['home_stats']==4 and test_counts['home_path_cards']==4 and test_counts['home_duplicate_sections']==0 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']==101 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
 if __name__=='__main__':
  ok=asyncio.run(run())
  if not ok:raise SystemExit(1)

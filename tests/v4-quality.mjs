@@ -32,7 +32,7 @@ for(const html of ['index.html','grammar.html','school.html','utbk.html','lesson
  assert.equal(els.length,new Set(els).size,`${html}: duplicate ID`);
  for(const m of s.matchAll(/(?:href|src)="([^#?" ]+)/g))if(!m[1].includes('://'))assert.ok(fs.existsSync(path.join(root,m[1])),`${html}: missing ${m[1]}`);
 }
-assert.match(read('index.html'),/backup-import/);assert.match(read('index.html'),/utbk-mock-a/);
+assert.match(read('index.html'),/backup-import/);assert.match(read('utbk.html'),/utbk-mocks/); // Full mocks now live in the UTBK pathway, not the simplified homepage.
 assert.ok(read('js/core.js').includes("'langkah.progress.v1'"));
 assert.ok(read('js/quiz.js').includes("'langkah.draft.'"));
 const i18nSource=read('js/i18n.js')+'\nexport {dictionary};';

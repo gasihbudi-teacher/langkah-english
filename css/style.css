@@ -565,3 +565,104 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 .scaffold-phase .scaffold-step{scroll-margin-top:75px}
 .scaffold-phase-check,.scaffold-phase-guide{color:#53677b;font-size:13px}
 @media(forced-colors:active){.scaffold-phase,.scaffold-phase-links a{border-color:currentColor}}
+
+
+/* V13-C2 proposal: a quieter homepage with one clear decision and optional progress. */
+.home-page .home-main{padding-bottom:8px}
+.home-page .home-hero{
+  display:block;grid-template-columns:none;gap:0;min-height:0;margin:26px 0 0;padding:clamp(28px,5vw,58px);
+  border:1px solid #dcece4;border-radius:24px;box-shadow:none;overflow:hidden;position:relative;
+  background:linear-gradient(125deg,#edf8f2 0%,#f8fbf8 70%,#f8f3eb 100%);
+}
+.home-page .home-hero:before{content:"";position:absolute;right:-85px;bottom:-185px;width:350px;height:350px;border-radius:50%;background:#d9eee4;opacity:.62;pointer-events:none}
+.home-page .home-hero:after{content:"";position:absolute;right:100px;bottom:-70px;width:145px;height:145px;border:1px solid #c7e4d7;border-radius:50%;pointer-events:none}
+.home-page .home-hero .hero-copy{padding:0;max-width:720px;position:relative;z-index:1}
+.home-page .home-hero .pill-overline{font-size:11px;color:#286e5b;background:#ffffffc9;border-color:#d2e7dc}
+.home-page .home-hero h1{max-width:650px;margin:19px 0 13px;font-size:clamp(37px,5.2vw,58px);line-height:1.1;letter-spacing:-.052em;color:#1b3837}
+.home-page .home-hero h1 em{color:#267563;background:linear-gradient(transparent 78%,#b7e4d2 78%)}
+.home-page .home-hero .hero-lead{max-width:565px;margin:0;color:#536b67;font-size:16px;line-height:1.75}
+.home-page .home-hero .hero-actions{margin:23px 0 13px}
+.home-page .home-hero .hero-actions .button{min-height:47px;padding:12px 18px}
+.home-page .home-hero .hero-footnote{margin:0;color:#71877e;font-size:12px}
+.home-page .home-hero .hero-footnote>span:first-child{color:#319b76;font-size:8px;margin-right:5px}
+.home-page .continue-section{margin:22px 0 0}
+.home-page .continue-section[hidden]{display:none!important}
+.home-page .continue-section .continue-wrap{margin:0}
+.home-page .continue-section .continue-panel{border:1px solid #d9e9e1;border-radius:15px;background:#fff;padding:17px 20px;gap:16px;box-shadow:none}
+.home-page .continue-section .continue-panel strong{font-size:17px;line-height:1.4;color:#24433e}
+.home-page .continue-section .continue-panel p{font-size:13px;line-height:1.6;margin-top:5px}
+.home-page .continue-section .continue-panel .button{white-space:nowrap;min-height:43px}
+.home-page .home-choice-section{margin-top:43px}
+.home-page .home-choice-section .section-intro{margin-bottom:19px}
+.home-page .home-choice-section .section-intro h2{margin:7px 0;font-size:clamp(28px,3.4vw,36px);color:#1d353a}
+.home-page .home-choice-section .section-intro p{font-size:14px;line-height:1.65}
+.home-page .home-choice-section .choice-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.home-page .home-choice-section .choice-card{min-height:157px;position:relative;align-items:flex-start;gap:11px;padding:18px 16px;background:#fff;border:1px solid #e0eae5;border-radius:16px;box-shadow:none;transition:transform .16s,border-color .16s,background .16s}
+.home-page .home-choice-section .choice-card:hover{background:#fbfefc;border-color:#9bcbb6;box-shadow:0 8px 22px #235f430d;transform:translateY(-2px)}
+.home-page .home-choice-section .choice-icon{width:42px;min-width:42px;height:42px;border-radius:12px;font-size:18px}
+.home-page .home-choice-section .choice-card>span:nth-child(2){display:block;padding-right:3px}
+.home-page .home-choice-section .choice-card strong{font-size:15px;line-height:1.4;color:#27413d}
+.home-page .home-choice-section .choice-card small{font-size:12px;line-height:1.55;color:#71817d;margin-top:5px}
+.home-page .home-choice-section .choice-arrow{position:absolute;right:14px;top:15px;font-size:16px;color:#43816c}
+.home-page .home-search-hint{margin:15px 0 0;color:#74837f;font-size:12px}
+.home-page .home-search-hint a{margin-left:5px;color:#226b5b;font-weight:750;text-underline-offset:3px}
+.home-page .home-progress-details{margin-top:40px;border:1px solid #e0eae5;border-radius:16px;background:#fff;overflow:hidden}
+.home-page .progress-summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:19px 22px;cursor:pointer;list-style:none}
+.home-page .progress-summary::-webkit-details-marker{display:none}
+.home-page .progress-summary-copy{display:block}
+.home-page .progress-summary-copy strong{display:block;color:#25413b;font-size:16px;line-height:1.4}
+.home-page .progress-summary-copy small{display:block;margin-top:4px;color:#74837e;font-size:12px;line-height:1.5}
+.home-page .summary-chevron{display:grid;place-items:center;flex:none;width:32px;height:32px;border:1px solid #dce8e2;border-radius:10px;color:#2f7563;font-size:20px;line-height:1;transition:transform .16s}
+.home-page .home-progress-details[open] .summary-chevron{transform:rotate(45deg)}
+.home-page .progress-details-content{padding:0 22px 22px;border-top:1px solid #edf2ee}
+.home-page .progress-details-content .stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:20px}
+.home-page .progress-details-content .stat{min-height:88px;padding:14px 16px;background:#f6faf8;border-color:#e6efea;border-radius:12px}
+.home-page .progress-details-content .stat strong{font-size:26px;color:#245b4f}
+.home-page .progress-details-content .stat span{font-size:11px;line-height:1.5}
+.home-page .progress-fineprint{font-size:11px;color:#82918b;margin:10px 0 20px}
+.home-page .progress-details-content .history-layout{grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:18px}
+.home-page .progress-details-content .history-layout h3{font-size:19px;margin:0 0 5px;color:#28433d}
+.home-page .progress-details-content .history-layout .muted{font-size:12px;margin:0}
+.home-page .progress-details-content .activity-list{margin-top:13px;padding:4px 15px;border-radius:12px}
+.home-page .progress-details-content .backup-panel{padding:19px;border-radius:14px}
+.home-page .progress-details-content .backup-panel p{font-size:12px;line-height:1.65}
+.home-page .site-footer{margin-top:48px}
+@media(max-width:1050px){
+ .home-page .home-choice-section .choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-page .home-choice-section .choice-card{min-height:135px}
+}
+@media(max-width:810px){
+ .home-page .home-hero{margin-top:18px;padding:34px 30px}
+ .home-page .home-hero:before{right:-135px;bottom:-190px;width:300px;height:300px}
+ .home-page .home-hero:after{right:45px;bottom:-75px}
+ .home-page .home-choice-section{margin-top:34px}
+ .home-page .progress-details-content .history-layout{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+ .home-page .home-hero{padding:28px 22px;border-radius:19px}
+ .home-page .home-hero h1{font-size:clamp(35px,9vw,43px);margin:17px 0 12px}
+ .home-page .home-hero .hero-lead{font-size:14px;line-height:1.7}
+ .home-page .home-hero .hero-actions{margin:19px 0 11px}
+ .home-page .home-hero .hero-actions .button{width:100%;justify-content:space-between}
+ .home-page .home-hero:before{width:220px;height:220px;right:-115px;bottom:-155px}
+ .home-page .home-hero:after{width:95px;height:95px;right:20px;bottom:-48px}
+ .home-page .home-choice-section{margin-top:30px}
+ .home-page .home-choice-section .section-intro h2{font-size:28px}
+ .home-page .home-choice-section .choice-grid{grid-template-columns:1fr;gap:9px}
+ .home-page .home-choice-section .choice-card{min-height:0;flex-direction:row;align-items:center;gap:13px;padding:13px 15px}
+ .home-page .home-choice-section .choice-icon{width:43px;min-width:43px;height:43px}
+ .home-page .home-choice-section .choice-card>span:nth-child(2){padding-right:14px}
+ .home-page .home-choice-section .choice-card strong{font-size:15px}
+ .home-page .home-choice-section .choice-card small{font-size:12px;margin-top:3px}
+ .home-page .home-choice-section .choice-arrow{top:50%;right:12px;transform:translateY(-50%)}
+ .home-page .home-search-hint{line-height:1.7}
+ .home-page .home-progress-details{margin-top:31px}
+ .home-page .progress-summary{padding:16px}
+ .home-page .progress-details-content{padding:0 15px 16px}
+ .home-page .progress-details-content .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .home-page .progress-details-content .stat{padding:12px}
+ .home-page .progress-details-content .stat strong{font-size:24px}
+ .home-page .progress-details-content .history-layout{gap:17px}
+ .home-page .progress-details-content .backup-actions .button{font-size:12px;padding:9px 11px}
+ .home-page .site-footer{margin-top:38px}
+}
