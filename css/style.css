@@ -666,3 +666,15 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
  .home-page .progress-details-content .backup-actions .button{font-size:12px;padding:9px 11px}
  .home-page .site-footer{margin-top:38px}
 }
+
+/* V13-E1 renderer correction: optional translations and objective-led reading checks. */
+.lesson-translation-help{margin:12px 0 3px;padding:9px 13px;border:1px solid #d3e2dc;background:#fafdfb;border-radius:9px;max-width:100%}
+.lesson-translation-help>summary{cursor:pointer;color:#286253;font-weight:680;line-height:1.6}
+.lesson-translation-help>summary:focus-visible{outline:2px solid #286253;outline-offset:3px}
+.lesson-translation-help[open]>summary{margin-bottom:8px}
+.lesson-translation-help p{font-weight:400;color:#355362;margin:8px 0;line-height:1.7;overflow-wrap:anywhere}
+.scaffold-insight{color:#3b4b64;line-height:1.75}
+.scaffold-review .scaffold-question{font-weight:700;color:#174d59;margin:0 0 10px;line-height:1.7}
+.worked-example .lesson-translation-help{margin-top:12px}
+@media(max-width:650px){.lesson-translation-help{padding:9px 10px}}
+@media(forced-colors:active){.lesson-translation-help{border-color:currentColor}}
