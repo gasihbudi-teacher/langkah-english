@@ -4328,6 +4328,188 @@
       },
       "kind": "practice",
       "examFormat": "topic"
+    },
+    {
+      "id": "tka-evaluating-facts-opinions-evidence",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-evaluating-facts-opinions-evidence-practice",
+        "tka-classify-outline-summarize-synthesize",
+        "tka-context-vocabulary-reference-connectors"
+      ],
+      "file": "data/lessons/tka-evaluating-facts-opinions-evidence.json",
+      "order": 613,
+      "title": "TKA-07 · Mengevaluasi Fakta, Opini, dan Kecukupan Bukti",
+      "description": "12 langkah membedakan fakta dan opini, menilai relevansi serta sumber bukti, menguji kecukupan sampel, dan menyusun kesimpulan proporsional; 10 contoh dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Fact and opinion",
+        "Evidence evaluation",
+        "Sufficiency of evidence",
+        "Critical reading"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C4"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 informational and analytical exposition",
+        "theme": "school facilities and food-waste evaluation",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Evaluatif",
+        "mappingNote": "Modul editorial orisinal, bukan bab wajib atau soal resmi TKA; latihan lokal tidak memprediksi nilai resmi."
+      },
+      "estimatedMinutes": 55,
+      "prerequisites": [
+        "tka-classify-outline-summarize-synthesize",
+        "tka-context-vocabulary-reference-connectors"
+      ]
+    },
+    {
+      "id": "tka-evaluating-facts-opinions-evidence-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-evaluating-facts-opinions-evidence"
+      ],
+      "file": "data/quizzes/tka-evaluating-facts-opinions-evidence-practice.json",
+      "order": 614,
+      "title": "Latihan TKA-07 · Fakta, Opini, dan Kecukupan Bukti",
+      "description": "12 soal orisinal pada bacaan informasional A2 dan eksposisi analitis B1; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Fact and opinion",
+        "Evidence evaluation",
+        "Sufficiency of evidence",
+        "Critical reading"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C4"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 informational and analytical exposition",
+        "theme": "school facilities and food-waste evaluation",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Pemahaman Evaluatif",
+        "mappingNote": "Latihan orisinal dan tidak resmi; skor lokal bukan nilai TKA resmi."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
+    },
+    {
+      "id": "tka-narrative-appreciation",
+      "type": "lesson",
+      "relatedLessons": [
+        "tka-narrative-appreciation-practice",
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-inference-cause-character-prediction"
+      ],
+      "file": "data/lessons/tka-narrative-appreciation.json",
+      "order": 615,
+      "title": "TKA-08 · Apresiasi Tokoh, Makna, dan Pilihan Bahasa",
+      "description": "10 langkah mengapresiasi narasi melalui tokoh, konflik, tema, suasana, sudut pandang, dan bahasa kiasan; 10 contoh dan 3 latihan kecil.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Materi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Narrative appreciation",
+        "Character development",
+        "Theme",
+        "Mood and figurative language"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C4"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 narrative",
+        "theme": "family memory, perseverance and community responsibility",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Apresiasi Teks Naratif",
+        "mappingNote": "Modul apresiasi naratif orisinal, bukan soal resmi TKA; tafsir harus didukung bukti tekstual."
+      },
+      "estimatedMinutes": 50,
+      "prerequisites": [
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-inference-cause-character-prediction"
+      ]
+    },
+    {
+      "id": "tka-narrative-appreciation-practice",
+      "type": "quiz",
+      "relatedLessons": [
+        "tka-narrative-appreciation"
+      ],
+      "file": "data/quizzes/tka-narrative-appreciation-practice.json",
+      "order": 616,
+      "title": "Latihan TKA-08 · Apresiasi Naratif",
+      "description": "12 soal orisinal pada dua bacaan naratif A2/B1; 4 pilihan tunggal, 4 pilihan jamak, dan 4 klasifikasi dengan bukti serta pembahasan.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Latihan"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Narrative appreciation",
+        "Character development",
+        "Theme",
+        "Mood and figurative language"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "original practice",
+        "full-passage reading",
+        "V13-C4"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "A2/B1 narrative",
+        "theme": "family memory, perseverance and community responsibility",
+        "curriculumElement": "TKA Bahasa Inggris Wajib · Apresiasi Teks Naratif",
+        "mappingNote": "Latihan orisinal dan tidak resmi; interpretasi harus didukung bukti tekstual."
+      },
+      "kind": "practice",
+      "examFormat": "topic"
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

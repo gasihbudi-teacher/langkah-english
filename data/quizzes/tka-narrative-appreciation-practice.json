@@ -1,0 +1,495 @@
+{
+  "id": "tka-narrative-appreciation-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka8-blue-chair",
+      "title": "The Blue Chair · Original A2 Narrative",
+      "text": "Before the library's story afternoon, Nisa placed a blue chair near the front row. It was for her grandmother, who had taught her to read but could not attend because her ankle was healing. Nisa had promised to read a story aloud. When the room filled, she looked at the empty chair and held her book too tightly.\n\nThe first sentence came out in a whisper. A little boy in the front row leaned forward, but Nisa lost her place. She stopped. The clock ticked, and rain tapped the windows like small fingers. For a moment, the silence seemed longer than the story. Then Nisa noticed a girl turning the book cover toward her younger brother. The girl smiled and pointed to the picture. Nisa took a breath and began again, this time describing the picture before reading the next line. The children moved closer. Soon they were guessing what the character would do.\n\nAfter the reading, the little boy placed a paper star on the blue chair. “For the reader,” he said. Nisa smiled. Her grandmother had not heard the story, but Nisa had kept her promise in a different way. On the way home, she decided to read at the next library afternoon too. The blue chair remained empty, yet it reminded her that support can stay with us even when someone is not in the room."
+    },
+    {
+      "id": "tka8-lantern-keeper",
+      "title": "The Lantern Keeper’s Notebook · Original B1 Narrative",
+      "text": "At the edge of a coastal village stood an old signal tower. Mira used to think that her uncle Danu had a simple job: he switched on the lamp before evening and switched it off after sunrise. One autumn night, she asked to visit the tower because she wanted to take photographs of the sea. Danu agreed, but he asked her to bring a notebook and a small torch.\n\nA storm arrived earlier than the forecast suggested. Rain struck the windows, and the sea disappeared behind a grey wall of water. The signal lamp suddenly went dark. Mira expected her uncle to panic, but he checked the fuse, tested the backup battery, and called the harbour station to report the problem. While he worked, Mira opened the notebook. It contained dates, wind directions, repair notes, and short records of boats that had needed extra guidance in fog. The pages showed years of small observations rather than one dramatic rescue.\n\nThe backup battery brought the lamp back to life. Its beam drew a pale road across the water, and a fishing boat changed direction toward the safer channel. Mira took no photograph of the storm. Instead, she copied the time of the repair into the notebook and asked Danu how he knew which checks to make first. He showed her a list that he reviewed every week. On the walk home, Mira understood that the tower's light depended on quiet work long before darkness arrived. She asked to return next month, not for a better photograph, but to help update the records."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka8-blue-chair",
+      "skill": "Character trait and action",
+      "prompt": "Which trait is best supported by Nisa’s response after she loses her place?",
+      "evidence": "Nisa took a breath and began again",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Nisa tidak menyerah setelah kehilangan tempat. Ia mengambil napas, memulai kembali, dan mengubah cara membaca dengan menjelaskan gambar. Tindakan itu mendukung sifat tekun serta mampu menyesuaikan diri.",
+      "choices": [
+        "She is persistent and adapts her approach.",
+        "She is careless about the audience.",
+        "She refuses to continue the story.",
+        "She wants the children to leave."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: she takes a breath, begins again, and uses the picture to reconnect with the children.",
+        "Her actions show attention to the audience rather than carelessness.",
+        "She continues reading after the pause.",
+        "The children move closer and become involved in the story."
+      ],
+      "translationId": {
+        "prompt": "Sifat mana yang paling didukung oleh respons Nisa setelah ia kehilangan bagian bacaannya?",
+        "choices": [
+          "Ia tekun dan menyesuaikan caranya.",
+          "Ia tidak peduli pada pendengar.",
+          "Ia menolak melanjutkan cerita.",
+          "Ia ingin anak-anak pergi."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka8-blue-chair",
+      "skill": "Mood and setting details",
+      "prompt": "Which details help create the tense mood before Nisa begins again? Select ALL that apply.",
+      "evidence": "The clock ticked, and rain tapped the windows like small fingers.",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Ruangan yang penuh, pegangan buku yang terlalu erat, suara berbisik, serta bunyi jam dan hujan membangun ketegangan. Anak-anak justru terlibat setelah Nisa memulai kembali, bukan meminta buku lain.",
+      "choices": [
+        "The room filled and Nisa held her book too tightly.",
+        "Her first sentence came out in a whisper.",
+        "The clock ticked while rain tapped the windows.",
+        "The children immediately asked for another book."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the full room and tight grip suggest pressure before the reading.",
+        "Correct: the whisper shows Nisa’s nervousness.",
+        "Correct: the ticking clock and tapping rain lengthen the quiet pause.",
+        "This happens neither before the restart nor in the passage; the children become engaged with the current story."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang membantu membangun suasana tegang sebelum Nisa mulai membaca kembali? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Ruangan terisi dan Nisa memegang bukunya terlalu erat.",
+          "Kalimat pertamanya keluar dengan suara berbisik.",
+          "Jam berdetak ketika hujan mengetuk jendela.",
+          "Anak-anak langsung meminta buku lain."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka8-blue-chair",
+      "skill": "Narrative detail and effect",
+      "prompt": "Classify the function of each detail in the story.",
+      "evidence": "the silence seemed longer than the story.",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Nisa mengambil napas adalah tindakan tokoh. Hujan mengetuk jendela membangun latar dan suasana. Ungkapan keheningan yang terasa lebih panjang merupakan bahasa figuratif yang menekankan ketegangan.",
+      "categories": [
+        "Character action",
+        "Setting or mood",
+        "Figurative language"
+      ],
+      "statements": [
+        {
+          "text": "Nisa took a breath and began again.",
+          "answerCategory": "Character action",
+          "explanation": "Tindakan tersebut memperlihatkan respons Nisa terhadap kesulitan saat membaca."
+        },
+        {
+          "text": "Rain tapped the windows during the pause.",
+          "answerCategory": "Setting or mood",
+          "explanation": "Bunyi hujan menjadi detail latar yang memperkuat suasana hening dan tegang."
+        },
+        {
+          "text": "the silence seemed longer than the story.",
+          "answerCategory": "Figurative language",
+          "explanation": "Ungkapan ini melebihkan kesan lamanya jeda untuk menunjukkan ketegangan yang dirasakan Nisa."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan fungsi setiap rincian dalam cerita.",
+        "categories": [
+          "Tindakan tokoh",
+          "Latar atau suasana",
+          "Bahasa kiasan"
+        ],
+        "statements": [
+          "Nisa mengambil napas dan mulai kembali.",
+          "Hujan mengetuk jendela selama jeda.",
+          "Keheningan terasa lebih panjang daripada cerita."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka8-blue-chair",
+      "skill": "Symbolic meaning",
+      "prompt": "What does the empty blue chair most strongly represent at the end?",
+      "evidence": "The blue chair remained empty, yet it reminded her that support can stay with us",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Kursi disiapkan untuk nenek yang mengajari Nisa membaca. Pada akhir cerita, kursi itu mengingatkan Nisa bahwa dukungan dapat tetap terasa meskipun orangnya tidak hadir secara fisik.",
+      "choices": [
+        "The library has no other chairs.",
+        "Nisa’s grandmother’s support and the memory connected to her.",
+        "Nisa has decided to stop reading.",
+        "The story takes place outside the library."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The passage says a chair was placed for the grandmother and later links it to remembered support.",
+        "Correct: the chair recalls the grandmother’s teaching and support even though she cannot attend.",
+        "Nisa decides to read at the next library afternoon.",
+        "The story is set in the library."
+      ],
+      "translationId": {
+        "prompt": "Apa yang paling kuat dilambangkan oleh kursi biru yang kosong pada akhir cerita?",
+        "choices": [
+          "Perpustakaan tidak memiliki kursi lain.",
+          "Dukungan nenek Nisa dan kenangan yang terhubung dengannya.",
+          "Nisa memutuskan berhenti membaca.",
+          "Cerita berlangsung di luar perpustakaan."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka8-blue-chair",
+      "skill": "Character development",
+      "prompt": "Which details show that Nisa changes how she responds to the difficult reading moment? Select ALL that apply.",
+      "evidence": "The children moved closer. Soon they were guessing what the character would do.",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Nisa kembali membaca, menggunakan gambar untuk membantu pendengar, dan melihat anak-anak mulai terlibat. Rangkaian ini menunjukkan perubahan respons, bukan bahwa ia meninggalkan ruangan.",
+      "choices": [
+        "She takes a breath and begins again.",
+        "She describes the picture before reading the next line.",
+        "The children move closer and begin guessing what the character will do.",
+        "She leaves the room before finishing the story."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the restart marks a change from stopping to continuing.",
+        "Correct: she adjusts her approach by using the illustration.",
+        "Correct: the audience’s response shows that her new approach helps them engage.",
+        "The passage says she completes the reading and decides to return."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang menunjukkan bahwa Nisa mengubah cara menghadapi kesulitan saat membaca? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Ia mengambil napas dan mulai kembali.",
+          "Ia menjelaskan gambar sebelum membaca baris berikutnya.",
+          "Anak-anak mendekat dan mulai menebak tindakan tokoh.",
+          "Ia meninggalkan ruangan sebelum menyelesaikan cerita."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka8-blue-chair",
+      "skill": "Conflict, turning point and resolution",
+      "prompt": "Classify each event by its role in the narrative.",
+      "evidence": "Nisa took a breath and began again",
+      "proficiencyTarget": "A2",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Kehilangan tempat membaca merupakan konflik. Keputusan untuk memulai kembali setelah memperhatikan gambar menjadi titik perubahan. Keputusan untuk kembali pada kegiatan berikutnya menunjukkan penyelesaian.",
+      "categories": [
+        "Conflict",
+        "Turning point",
+        "Resolution"
+      ],
+      "statements": [
+        {
+          "text": "Nisa loses her place while reading aloud.",
+          "answerCategory": "Conflict",
+          "explanation": "Kehilangan tempat membaca memperlihatkan masalah yang menghambat Nisa."
+        },
+        {
+          "text": "Nisa notices the girl pointing to the picture and starts again.",
+          "answerCategory": "Turning point",
+          "explanation": "Perhatian pada gambar dan pendengar membantu Nisa menemukan cara untuk melanjutkan."
+        },
+        {
+          "text": "Nisa decides to read at the next library afternoon.",
+          "answerCategory": "Resolution",
+          "explanation": "Keputusan untuk kembali menunjukkan bahwa Nisa telah melewati kesulitan dan ingin melanjutkan kegiatan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap peristiwa berdasarkan perannya dalam cerita.",
+        "categories": [
+          "Konflik",
+          "Titik perubahan",
+          "Penyelesaian"
+        ],
+        "statements": [
+          "Nisa kehilangan tempat saat membaca nyaring.",
+          "Nisa melihat anak perempuan menunjuk gambar dan mulai kembali.",
+          "Nisa memutuskan membaca pada kegiatan perpustakaan berikutnya."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Figurative language and effect",
+      "prompt": "What does the image “Its beam drew a pale road across the water” help the reader understand?",
+      "evidence": "Its beam drew a pale road across the water",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Ungkapan jalan pucat merupakan metafora untuk berkas cahaya yang memberi arah di atas air. Gambaran tersebut membantu pembaca memahami fungsi lampu sebagai panduan, bukan sebagai jalan fisik.",
+      "choices": [
+        "The tower built a real road across the sea.",
+        "The boat was travelling on a road.",
+        "The light provided a visible guide across the dark water.",
+        "The storm had completely stopped."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The passage describes a beam of light, not construction of a physical road.",
+        "The boat is on the water, not on a road.",
+        "Correct: the metaphor presents the beam as a path that helps guide a boat toward a safer channel.",
+        "The passage does not say the storm ended when the lamp returned."
+      ],
+      "translationId": {
+        "prompt": "Apa yang dibantu untuk dipahami pembaca melalui gambaran “Cahayanya menggambar jalan pucat melintasi air”?",
+        "choices": [
+          "Menara membangun jalan sungguhan melintasi laut.",
+          "Perahu sedang berjalan di atas jalan.",
+          "Cahaya memberi panduan yang terlihat melintasi air yang gelap.",
+          "Badai telah sepenuhnya berhenti."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Character development and evidence",
+      "prompt": "Which details help explain why Mira changes her view of Uncle Danu’s work? Select ALL that apply.",
+      "evidence": "It contained dates, wind directions, repair notes, and short records of boats",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Catatan bertahun-tahun, pemeriksaan sistematis saat badai, dan daftar mingguan memperlihatkan bahwa pekerjaan Danu membutuhkan pengamatan serta persiapan yang konsisten. Ia tidak melarang Mira masuk; ia justru mengizinkannya berkunjung.",
+      "choices": [
+        "His notebook records dates, wind directions, repairs and boats needing guidance.",
+        "He checks the fuse, tests the backup battery and reports the problem.",
+        "He reviews a list of checks every week.",
+        "He refuses to let Mira enter the tower."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the notebook reveals years of careful observation and preparation.",
+        "Correct: his actions during the storm show calm and systematic work.",
+        "Correct: regular checks show that the work continues before an emergency occurs.",
+        "He agrees to Mira’s visit and asks her to bring a notebook and torch."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang membantu menjelaskan mengapa pandangan Mira terhadap pekerjaan Paman Danu berubah? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Buku catatannya memuat tanggal, arah angin, perbaikan, dan perahu yang membutuhkan panduan.",
+          "Ia memeriksa sekring, menguji baterai cadangan, dan melaporkan masalah.",
+          "Ia meninjau daftar pemeriksaan setiap minggu.",
+          "Ia menolak mengizinkan Mira masuk ke menara."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Character, setting and figurative language",
+      "prompt": "Classify the role of each detail in the narrative.",
+      "evidence": "the tower's light depended on quiet work long before darkness arrived",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Permintaan Mira untuk membantu memperbarui catatan menunjukkan perkembangan tokoh. Hujan dan laut yang tertutup membangun suasana badai. Gambaran cahaya sebagai jalan merupakan bahasa kiasan yang menekankan fungsi panduan.",
+      "categories": [
+        "Character development",
+        "Setting or mood",
+        "Figurative language"
+      ],
+      "statements": [
+        {
+          "text": "Mira asks to return and help update the records.",
+          "answerCategory": "Character development",
+          "explanation": "Keputusan Mira menunjukkan perubahan dari pengunjung yang hanya ingin memotret menjadi seseorang yang ingin ikut membantu."
+        },
+        {
+          "text": "Rain struck the windows, and the sea disappeared behind a grey wall of water.",
+          "answerCategory": "Setting or mood",
+          "explanation": "Cuaca dan laut yang tertutup membangun latar badai serta suasana tegang."
+        },
+        {
+          "text": "The beam drew a pale road across the water.",
+          "answerCategory": "Figurative language",
+          "explanation": "Cahaya dibandingkan dengan jalan untuk menggambarkan fungsi pemandu lampu di atas air."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan peran setiap rincian dalam cerita.",
+        "categories": [
+          "Perkembangan tokoh",
+          "Latar atau suasana",
+          "Bahasa kiasan"
+        ],
+        "statements": [
+          "Mira meminta kembali dan membantu memperbarui catatan.",
+          "Hujan menghantam jendela, dan laut menghilang di balik dinding air kelabu.",
+          "Cahaya menggambar jalan pucat melintasi air."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Theme and narrative meaning",
+      "prompt": "Which theme is most strongly supported by the story?",
+      "evidence": "the tower's light depended on quiet work long before darkness arrived",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Tema tersebut didukung oleh buku catatan, pemeriksaan mingguan, dan respons Danu yang tenang. Cerita menekankan bahwa keselamatan bergantung pada pekerjaan kecil yang dilakukan sebelum keadaan darurat, bukan hanya tindakan dramatis saat badai.",
+      "choices": [
+        "Photographs are always more useful than written records.",
+        "A storm can be avoided if people stay indoors.",
+        "A person should never ask questions about another person’s work.",
+        "Reliable care often depends on quiet preparation and repeated attention."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Mira chooses to keep records rather than take a photograph; the story does not rank all photographs below records.",
+        "The story does not suggest that staying indoors prevents a storm.",
+        "Mira learns by asking questions and observing her uncle.",
+        "Correct: the notebook, weekly checks and calm response show the value of steady preparation before a crisis."
+      ],
+      "translationId": {
+        "prompt": "Tema mana yang paling kuat didukung oleh cerita?",
+        "choices": [
+          "Foto selalu lebih berguna daripada catatan tertulis.",
+          "Badai dapat dihindari jika orang tetap berada di dalam ruangan.",
+          "Seseorang tidak boleh bertanya tentang pekerjaan orang lain.",
+          "Kepedulian yang dapat diandalkan sering bergantung pada persiapan tenang dan perhatian berulang."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Tension and atmosphere",
+      "prompt": "Which details contribute to the tension during the storm? Select ALL that apply.",
+      "evidence": "The signal lamp suddenly went dark.",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Hujan, laut yang tertutup, dan lampu yang padam membangun suasana badai serta masalah utama. Rencana Mira untuk memotret menjelaskan motivasi awalnya, bukan sumber ketegangan saat badai.",
+      "choices": [
+        "Rain struck the windows.",
+        "The sea disappeared behind a grey wall of water.",
+        "The signal lamp suddenly went dark.",
+        "Mira had already planned to take photographs of the sea."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the sound of heavy rain strengthens the storm setting.",
+        "Correct: the obscured sea makes the situation feel less visible and more uncertain.",
+        "Correct: the lamp going dark creates the central immediate problem.",
+        "This explains why Mira visits the tower, but it does not itself create the storm tension."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang menambah ketegangan selama badai? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Hujan menghantam jendela.",
+          "Laut menghilang di balik dinding air kelabu.",
+          "Lampu sinyal tiba-tiba padam.",
+          "Mira sebelumnya sudah merencanakan untuk memotret laut."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka8-lantern-keeper",
+      "skill": "Literal detail, image and theme",
+      "prompt": "Classify each statement by how it functions in the story.",
+      "evidence": "He showed her a list that he reviewed every week.",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif",
+      "explanation": "Pengujian baterai adalah peristiwa yang dinyatakan langsung. Cahaya sebagai jalan merupakan gambaran kiasan. Gagasan tentang kepedulian melalui persiapan merupakan tema yang disimpulkan dari pola tindakan dalam cerita.",
+      "categories": [
+        "Literal event",
+        "Figurative image",
+        "Theme interpretation"
+      ],
+      "statements": [
+        {
+          "text": "Danu tested the backup battery after the lamp went dark.",
+          "answerCategory": "Literal event",
+          "explanation": "Tindakan tersebut dinyatakan langsung sebagai bagian dari respons Danu terhadap lampu yang padam."
+        },
+        {
+          "text": "The beam drew a pale road across the water.",
+          "answerCategory": "Figurative image",
+          "explanation": "Cahaya digambarkan seperti jalan untuk membantu pembaca membayangkan arah yang diberikannya."
+        },
+        {
+          "text": "Care can be built through small tasks completed before a crisis.",
+          "answerCategory": "Theme interpretation",
+          "explanation": "Gagasan ini disimpulkan dari catatan, pemeriksaan rutin, dan tindakan Danu sebelum serta selama badai."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan fungsinya dalam cerita.",
+        "categories": [
+          "Peristiwa harfiah",
+          "Gambaran kiasan",
+          "Tafsiran tema"
+        ],
+        "statements": [
+          "Danu menguji baterai cadangan setelah lampu padam.",
+          "Cahaya menggambar jalan pucat melintasi air.",
+          "Kepedulian dapat dibangun melalui tugas kecil yang dilakukan sebelum krisis."
+        ]
+      }
+    }
+  ]
+}

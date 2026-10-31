@@ -1,0 +1,396 @@
+{
+  "id": "tka-narrative-appreciation",
+  "objectives": [
+    "Mengenali narator, tokoh, latar, konflik, dan urutan peristiwa dalam teks naratif.",
+    "Menafsirkan sifat serta perubahan tokoh melalui tindakan, dialog, dan pilihan yang dibuat.",
+    "Menemukan tema, suasana, sudut pandang, serta efek pilihan bahasa berdasarkan konteks cerita.",
+    "Menyampaikan apresiasi atau tafsir cerita dengan bukti tekstual yang relevan."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu apresiasi teks naratif?",
+      "text": "[[Apresiasi naratif]] adalah kegiatan memahami bagaimana cerita membangun tokoh, latar, konflik, suasana, dan makna. Pembaca memperhatikan pilihan kata, sudut pandang, serta detail yang menonjol. Tafsir tidak harus sama persis bagi setiap pembaca, tetapi tetap harus masuk akal dan didukung oleh cerita."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Baca cerita dengan memperhatikan siapa yang bercerita, siapa yang mengalami masalah, dan bagaimana tokoh meresponsnya. Setelah memahami alur, telusuri tema, suasana, dan bahasa kiasan. Model tiga paragraf berikut menunjukkan bagaimana satu benda dapat menghubungkan konflik, kenangan, dan perubahan tokoh.",
+      "steps": [
+        {
+          "title": "Kenali narator, tokoh, dan latar",
+          "explanation": "Narator adalah suara yang menceritakan peristiwa; tokoh adalah pihak yang terlibat; latar menunjukkan waktu, tempat, dan keadaan. Ketiganya membentuk cara pembaca menerima cerita. Jangan menyamakan narator dengan penulis tanpa petunjuk.",
+          "english": "Dito found a paper moon under a table at the school fair.",
+          "indonesian": "Dito menemukan bulan kertas di bawah meja saat bazar sekolah.",
+          "why": "Kalimat memperkenalkan tokoh Dito dan latar bazar sekolah. Narator menyebut Dito dengan nama, sehingga cerita disampaikan dari sudut pandang orang ketiga.",
+          "check": "Siapa tokoh yang diperkenalkan dan di mana peristiwa awal berlangsung?",
+          "checkAnswer": "Tokohnya Dito; peristiwa awal berlangsung di bazar sekolah. Cerita disampaikan oleh narator orang ketiga.",
+          "phase": "Mengenali dunia cerita dan konflik"
+        },
+        {
+          "title": "Temukan masalah yang menggerakkan cerita",
+          "explanation": "Konflik adalah masalah atau ketegangan yang mendorong tokoh mengambil tindakan. Konflik dapat berupa masalah luar, pertentangan pilihan, atau perasaan tokoh. Cari keadaan yang membuat tokoh perlu memutuskan sesuatu.",
+          "english": "A strong wind had torn one side of the paper moon.",
+          "indonesian": "Angin kencang merobek salah satu sisi bulan kertas.",
+          "why": "Kerusakan hiasan menjadi masalah awal. Dito dan Aya berbeda pendapat tentang apakah hiasan itu harus diganti atau dipertahankan.",
+          "check": "Apa masalah yang harus dihadapi Dito dan Aya pada awal cerita?",
+          "checkAnswer": "Bulan kertas rusak karena angin, dan Dito ingin menggantinya sedangkan Aya ingin mempertahankannya.",
+          "phase": "Mengenali dunia cerita dan konflik"
+        },
+        {
+          "title": "Baca sifat tokoh melalui pilihan dan tindakan",
+          "explanation": "Sifat tokoh lebih kuat jika disimpulkan dari tindakan atau ucapan yang berulang dan relevan. Hindari memberi label hanya dari penampilan atau satu emosi. Perhatikan cara tokoh merespons masalah dan orang lain.",
+          "english": "Dito used thin paper strips to repair the torn edge.",
+          "indonesian": "Dito menggunakan potongan kertas tipis untuk memperbaiki tepi yang robek.",
+          "why": "Tindakan memperbaiki menunjukkan usaha mencari solusi. Ia tidak langsung membuang hiasan meskipun hasilnya tidak sempurna.",
+          "check": "Sifat apa yang didukung oleh keputusan Dito mencoba memperbaiki bulan kertas?",
+          "checkAnswer": "Dito tampak tekun dan mau mencoba solusi. Kesimpulan ini didukung tindakannya memperbaiki, bukan hanya oleh dugaan tentang kepribadiannya.",
+          "phase": "Membaca tokoh melalui tindakan dan perubahan"
+        },
+        {
+          "title": "Perhatikan perubahan tokoh",
+          "explanation": "Perkembangan tokoh terlihat ketika cara berpikir atau tindakannya berubah setelah mengalami peristiwa. Bandingkan sikap di awal dan akhir cerita. Perubahan tidak harus besar, tetapi perlu didukung bagian cerita.",
+          "english": "At first, Dito wanted to replace the moon; later, he accepted its repaired edge.",
+          "indonesian": "Awalnya Dito ingin mengganti bulan itu; kemudian ia menerima tepinya yang telah diperbaiki.",
+          "why": "Perubahan ini menunjukkan bahwa Dito mulai menghargai cerita dan usaha di balik hiasan, bukan hanya tampilan yang sempurna.",
+          "check": "Apa perubahan sikap Dito dari awal sampai akhir cerita?",
+          "checkAnswer": "Ia berubah dari ingin mengganti hiasan yang rusak menjadi menerima dan menghargai hasil perbaikan yang memiliki cerita.",
+          "phase": "Membaca tokoh melalui tindakan dan perubahan"
+        },
+        {
+          "title": "Bedakan topik dan tema cerita",
+          "explanation": "Topik menyebut hal yang dibicarakan, sedangkan [[tema]] menyampaikan gagasan lebih luas tentang pengalaman manusia. Tema harus dirumuskan dari konflik, pilihan tokoh, dan penyelesaian; jangan hanya mengulang nama benda atau tempat.",
+          "english": "The moon was still useful and beautiful to the people who knew its story.",
+          "indonesian": "Bulan itu tetap berguna dan indah bagi orang-orang yang mengetahui ceritanya.",
+          "why": "Kalimat akhir mendukung tema bahwa nilai suatu benda tidak hanya berasal dari kesempurnaan bentuk, tetapi juga dari kenangan dan makna yang menyertainya.",
+          "check": "Mana yang merupakan tema lebih luas: “paper decorations” atau “memories can give meaning to imperfect things”?",
+          "checkAnswer": "“Memories can give meaning to imperfect things” merupakan tema. “Paper decorations” hanya menyebut topik cerita.",
+          "phase": "Menafsirkan tema dan pilihan bahasa"
+        },
+        {
+          "title": "Tafsirkan bahasa kiasan melalui konteks",
+          "explanation": "Bahasa kiasan menggunakan gambaran untuk membuat makna lebih hidup. Tafsirkan perbandingan atau metafora dengan melihat benda yang digambarkan, suasana, dan kejadian di sekitarnya. Jangan memaksakan simbol yang tidak didukung konteks.",
+          "english": "The tear looked like a narrow river across the paper.",
+          "indonesian": "Robekan itu tampak seperti sungai sempit di atas kertas.",
+          "why": "Perbandingan tersebut membantu pembaca membayangkan bentuk robekan dan menjelaskan mengapa Dito memilih menambahkan garis biru. Itu bukan sungai sungguhan.",
+          "check": "Apa efek perbandingan robekan dengan sungai sempit?",
+          "checkAnswer": "Perbandingan itu menciptakan gambaran visual dan mengubah bekas kerusakan menjadi bagian desain yang bermakna.",
+          "phase": "Menafsirkan tema dan pilihan bahasa"
+        },
+        {
+          "title": "Kenali suasana melalui pilihan kata dan detail",
+          "explanation": "Suasana atau [[mood]] adalah perasaan yang dibangun cerita bagi pembaca. Perhatikan kata, bunyi, cuaca, cahaya, dan tindakan tokoh. Satu detail dapat memberi kesan tegang, tenang, sedih, atau penuh harapan jika dibaca bersama konteksnya.",
+          "english": "The fair lights came on, and the paper moon turned slowly above the books.",
+          "indonesian": "Lampu bazar dinyalakan, dan bulan kertas berputar perlahan di atas buku-buku.",
+          "why": "Cahaya dan gerakan perlahan memberi suasana hangat serta menenangkan setelah masalah hiasan diperbaiki.",
+          "check": "Detail mana yang membantu membangun suasana hangat pada akhir cerita?",
+          "checkAnswer": "Lampu bazar yang menyala dan bulan kertas yang berputar perlahan membentuk gambaran akhir yang hangat dan tenang.",
+          "phase": "Menafsirkan tema dan pilihan bahasa"
+        },
+        {
+          "title": "Perhatikan sudut pandang dan informasi pembaca",
+          "explanation": "Sudut pandang menentukan informasi yang disampaikan narator. Narator orang pertama menggunakan I atau we; orang ketiga menyebut nama atau he/she/they. Sudut pandang dapat membatasi atau memperluas informasi yang diketahui pembaca.",
+          "english": "Dito looked at the uneven edge again.",
+          "indonesian": "Dito kembali melihat tepi yang tidak rata.",
+          "why": "Narator orang ketiga mengikuti tindakan Dito. Pembaca dapat mengamati perubahan sikapnya, tetapi tidak otomatis mengetahui pikiran semua pengunjung bazar.",
+          "check": "Apa petunjuk bahwa cerita menggunakan sudut pandang orang ketiga?",
+          "checkAnswer": "Narator menyebut “Dito” dan tidak menceritakan peristiwa dengan kata “I” sebagai tokoh utama.",
+          "phase": "Mendukung apresiasi dengan bukti cerita"
+        },
+        {
+          "title": "Hubungkan detail dengan makna cerita",
+          "explanation": "Detail yang berulang atau menonjol dapat membawa makna lebih luas. Hubungkan benda, tindakan, atau kalimat akhir dengan konflik dan perubahan tokoh. Tafsir yang baik menjelaskan bagaimana detail tersebut bekerja dalam keseluruhan cerita.",
+          "english": "The repaired moon remained above the books after the fair lights came on.",
+          "indonesian": "Bulan yang telah diperbaiki tetap tergantung di atas buku-buku setelah lampu bazar menyala.",
+          "why": "Bulan kertas menghubungkan kenangan Aya, usaha Dito, dan respons pengunjung. Maknanya muncul dari peran benda itu dalam konflik dan penyelesaian.",
+          "check": "Mengapa bulan kertas lebih dari sekadar hiasan dalam cerita?",
+          "checkAnswer": "Benda itu menyimpan kenangan, memicu konflik, memperlihatkan perubahan sikap Dito, dan menjadi bagian dari penyelesaian.",
+          "phase": "Mendukung apresiasi dengan bukti cerita"
+        },
+        {
+          "title": "Dukung apresiasi dengan bukti tekstual",
+          "explanation": "Jawaban apresiatif menyebut tafsir lalu menunjukkan detail yang mendukungnya. Gunakan pola “This detail suggests … because …”. Bedakan bukti yang tertulis dari penafsiran pembaca dan akui jika ada lebih dari satu tafsir yang masuk akal.",
+          "english": "Dito promised to help Aya make another moon for next year.",
+          "indonesian": "Dito berjanji membantu Aya membuat bulan lain untuk tahun depan.",
+          "why": "Janji tersebut mendukung kesimpulan bahwa Dito kini menghargai kegiatan bersama Aya. Tafsir ini lebih kuat daripada mengatakan ia pasti akan menjadi seniman terkenal.",
+          "check": "Bagaimana cara menjelaskan tema dengan bukti dari cerita?",
+          "checkAnswer": "Nyatakan tema atau tafsir, lalu tunjukkan tindakan, dialog, atau detail cerita yang mendukungnya. Jangan menambahkan masa depan tokoh yang tidak disebutkan.",
+          "phase": "Mendukung apresiasi dengan bukti cerita"
+        }
+      ],
+      "modelTitle": "The Paper Moon · Model bacaan naratif tiga paragraf",
+      "modelEnglish": "On the afternoon of the school fair, Dito found a paper moon under a table. His younger sister, Aya, had made it for their book stall. A strong wind had torn one side, and a strip of silver paper hung loose. Dito wanted to replace it with a bright decoration from the shop. Aya shook her head. She had made the moon with their father on a rainy Sunday, and she wanted to keep it.\n\nDito carried the moon to the library corner and placed it on a clean desk. He used thin paper strips to join the torn edge. The repair was not straight, and he almost removed it. Then he noticed that the tear looked like a narrow river across the paper. He added a small blue line beside it instead of hiding the mark. When the fair lights came on, the paper moon turned slowly above the books.\n\nA little girl stopped at the stall and asked who had drawn the blue river. Aya explained the repair, and Dito told her how the wind had damaged the moon. The girl smiled and chose a book about the night sky. Dito looked at the uneven edge again. It no longer seemed like a mistake that had to disappear. The moon was still useful and beautiful to the people who knew its story. Before the fair ended, Dito promised to help Aya make another one for next year.",
+      "modelIndonesian": "Pada sore hari saat bazar sekolah, Dito menemukan sebuah bulan dari kertas di bawah meja. Adik perempuannya, Aya, membuatnya untuk stan buku mereka. Angin kencang merobek salah satu sisinya, dan selembar kertas perak menggantung lepas. Dito ingin menggantinya dengan hiasan cerah dari toko. Aya menggeleng. Ia membuat bulan itu bersama ayah mereka pada hari Minggu yang hujan, dan ia ingin mempertahankannya.\n\nDito membawa bulan itu ke sudut perpustakaan dan meletakkannya di meja yang bersih. Ia menggunakan potongan kertas tipis untuk menyambungkan tepi yang robek. Hasil perbaikannya tidak lurus, dan ia hampir melepasnya. Kemudian ia melihat bahwa robekan itu tampak seperti sungai sempit di atas kertas. Ia menambahkan garis biru kecil di sampingnya alih-alih menyembunyikan bekas tersebut. Ketika lampu bazar dinyalakan, bulan kertas itu berputar perlahan di atas buku-buku.\n\nSeorang anak perempuan berhenti di stan dan bertanya siapa yang menggambar sungai biru itu. Aya menjelaskan perbaikannya, dan Dito menceritakan bagaimana angin merusak bulan tersebut. Anak itu tersenyum dan memilih buku tentang langit malam. Dito kembali melihat tepi yang tidak rata. Bagian itu tidak lagi tampak seperti kesalahan yang harus dihilangkan. Bulan tersebut tetap berguna dan indah bagi orang-orang yang mengetahui ceritanya. Sebelum bazar berakhir, Dito berjanji membantu Aya membuat bulan lain untuk tahun depan.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Peta apresiasi cerita",
+      "text": "**Narator dan latar → konflik → tindakan dan perubahan tokoh → tema → suasana dan pilihan bahasa → tafsir dengan bukti.** Topik menyebut apa yang dibahas; tema menyatakan gagasan lebih luas. Bahasa kiasan dan simbol ditafsirkan melalui konteks, bukan ditebak secara bebas."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Unsur cerita",
+        "Pertanyaan pembaca",
+        "Petunjuk dalam model"
+      ],
+      "rows": [
+        [
+          "Tokoh dan karakter",
+          "Apa yang dilakukan tokoh ketika menghadapi masalah?",
+          "Dito memperbaiki bulan kertas dan akhirnya menerima bekas robekan."
+        ],
+        [
+          "Konflik dan perubahan",
+          "Masalah apa yang muncul dan bagaimana sikap berubah?",
+          "Dito ingin mengganti hiasan, lalu menghargai hasil perbaikan."
+        ],
+        [
+          "Tema dan simbol",
+          "Gagasan lebih luas apa yang dibangun oleh benda atau tindakan?",
+          "Bulan kertas menghubungkan kenangan keluarga dan makna ketidaksempurnaan."
+        ],
+        [
+          "Bahasa dan suasana",
+          "Gambaran atau pilihan kata apa yang memengaruhi pembaca?",
+          "Robekan dibandingkan dengan sungai sempit; lampu bazar menciptakan akhir hangat."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · membaca tokoh, tema, dan bahasa"
+    },
+    {
+      "type": "text",
+      "text": "Setiap contoh menghubungkan satu detail dengan efek atau makna yang didukung cerita. Perhatikan bahwa apresiasi bukan sekadar menyebut “bagus” atau “sedih”; pembaca perlu menjelaskan alasannya."
+    },
+    {
+      "type": "example_group",
+      "title": "1. Character, conflict and change",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Mira returned the borrowed key before the caretaker asked for it.",
+          "indonesian": "Mira mengembalikan kunci pinjaman sebelum petugas memintanya.",
+          "note": "Tindakan ini mendukung sifat bertanggung jawab. Kesimpulan lebih kuat jika perilaku serupa muncul lagi dalam cerita."
+        },
+        {
+          "english": "The boy hid the broken cup, then admitted what had happened.",
+          "indonesian": "Anak laki-laki itu menyembunyikan cangkir yang pecah, lalu mengakui apa yang terjadi.",
+          "note": "Dua tindakan menunjukkan konflik batin dan perubahan menuju kejujuran, bukan satu sifat yang sederhana."
+        },
+        {
+          "english": "After listening to her friend, Lina changed her plan.",
+          "indonesian": "Setelah mendengarkan temannya, Lina mengubah rencananya.",
+          "note": "Perubahan keputusan menunjukkan bahwa tokoh mempertimbangkan sudut pandang orang lain."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Theme, setting and point of view",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The empty station became quiet after the last bus left.",
+          "indonesian": "Terminal yang kosong menjadi sunyi setelah bus terakhir pergi.",
+          "note": "Detail latar dan waktu membangun suasana sepi. Kalimat ini belum cukup untuk menyimpulkan tokoh merasa kesepian."
+        },
+        {
+          "english": "The story follows Rudi and describes what he notices.",
+          "indonesian": "Cerita mengikuti Rudi dan menggambarkan apa yang ia perhatikan.",
+          "note": "Pola ini mengarah pada sudut pandang orang ketiga yang mengikuti pengalaman Rudi."
+        },
+        {
+          "english": "A neighbour shares a meal with someone who once helped her.",
+          "indonesian": "Seorang tetangga berbagi makanan dengan orang yang dahulu membantunya.",
+          "note": "Tindakan dapat mendukung tema saling membantu, tetapi tema perlu dilihat dari keseluruhan cerita."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Language choices and supported interpretation",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The wind knocked on the shutters all night.",
+          "indonesian": "Angin mengetuk daun jendela sepanjang malam.",
+          "note": "Personifikasi memberi kesan bahwa angin bertindak seperti manusia dan dapat memperkuat suasana malam yang gelisah."
+        },
+        {
+          "english": "A narrow line of sunlight crossed the dark room.",
+          "indonesian": "Garis tipis cahaya matahari melintasi ruangan gelap.",
+          "note": "Kontras cahaya dan gelap dapat menandai harapan atau perubahan, jika peristiwa lain mendukung tafsir itu."
+        },
+        {
+          "english": "“I waited for the right moment,” she said, looking at the unopened letter.",
+          "indonesian": "“Aku menunggu saat yang tepat,” katanya sambil melihat surat yang belum dibuka.",
+          "note": "Dialog dan benda yang belum dibuka menciptakan ketegangan. Pembaca belum boleh memastikan isi surat."
+        },
+        {
+          "english": "The narrator calls the old bridge “a patient friend”.",
+          "indonesian": "Narator menyebut jembatan tua itu “teman yang sabar”.",
+          "note": "Ungkapan kiasan memberi jembatan sifat manusia dan menunjukkan kedekatan tokoh dengan tempat tersebut."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka08-theme",
+      "prompt": "Which interpretation best explains the blue line added to the repaired paper moon?",
+      "translation": "Tafsiran mana yang paling tepat menjelaskan garis biru yang ditambahkan pada bulan kertas yang diperbaiki?",
+      "choices": [
+        "It turns the visible repair into part of the design and the story.",
+        "It proves that the moon was made by a professional artist.",
+        "It shows that Aya no longer likes the decoration."
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Garis itu menjadikan bekas perbaikan sebagai bagian dari desain dan cerita.",
+        "Garis itu membuktikan bahwa bulan dibuat oleh seniman profesional.",
+        "Garis itu menunjukkan bahwa Aya tidak lagi menyukai hiasan tersebut."
+      ],
+      "explanation": "Dito melihat robekan seperti sungai dan menambahkan garis biru di sampingnya. Tindakan itu mengubah bekas kerusakan menjadi detail desain. Tidak ada informasi bahwa pembuatnya seniman profesional atau Aya tidak menyukai hiasan tersebut.",
+      "hint": "Hubungkan gambaran sungai dengan keputusan Dito setelah memperbaiki kertas."
+    },
+    {
+      "type": "reflection",
+      "prompt": "How can a reader explain a theme without turning a personal guess into a fact about the story?",
+      "translation": "Bagaimana pembaca menjelaskan tema tanpa mengubah dugaan pribadi menjadi fakta tentang cerita?",
+      "answer": "Nyatakan tema sebagai tafsir, lalu hubungkan dengan konflik, pilihan tokoh, dialog, atau penyelesaian. Jika bukti terbatas, gunakan bahasa seperti “the story suggests” dan jangan menambahkan kejadian yang tidak diceritakan."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these narrative-reading moves",
+      "items": [
+        "Kenali narator, tokoh, latar, dan konflik sebelum menafsirkan tema.",
+        "Gunakan tindakan dan dialog untuk memahami sifat serta perubahan tokoh.",
+        "Bedakan topik cerita dari tema yang lebih luas.",
+        "Tafsirkan suasana, sudut pandang, dan bahasa kiasan melalui konteks.",
+        "Dukung apresiasi dengan detail cerita dan hindari tafsir yang tidak memiliki dasar."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · appreciate a narrative",
+      "prompt": "Read a short narrative of your choice. Write (1) its narrator and setting, (2) the central conflict, (3) one character trait supported by two actions, (4) a theme statement, and (5) the effect of one important image or phrase. Quote or identify a detail for every interpretation.",
+      "model": "A complete response should identify who tells the story and where it happens, explain the problem that drives the events, and support a character trait with two actions rather than a single label. The theme should express a broader idea that emerges from the character’s choices and the ending. For language, explain what an image makes the reader picture or feel and connect that effect to the scene.",
+      "modelTranslation": "Jawaban lengkap perlu menyebut siapa yang menceritakan kisah dan di mana peristiwa berlangsung, menjelaskan masalah yang menggerakkan kejadian, serta mendukung sifat tokoh dengan dua tindakan, bukan satu label. Tema harus menyampaikan gagasan lebih luas yang muncul dari pilihan tokoh dan akhir cerita. Untuk bahasa, jelaskan gambaran atau perasaan yang dibangun oleh suatu ungkapan dan hubungkan efeknya dengan adegan.",
+      "criteria": "Tafsir didukung detail yang benar-benar ada; sifat tokoh didasarkan pada tindakan; tema lebih luas daripada topik; efek bahasa dijelaskan melalui konteks, bukan sekadar diberi label."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "narrator",
+          "indonesian": "narator / pencerita"
+        },
+        {
+          "english": "setting",
+          "indonesian": "latar waktu dan tempat"
+        },
+        {
+          "english": "conflict",
+          "indonesian": "konflik / masalah cerita"
+        },
+        {
+          "english": "character trait",
+          "indonesian": "sifat tokoh"
+        },
+        {
+          "english": "character development",
+          "indonesian": "perkembangan tokoh"
+        },
+        {
+          "english": "theme",
+          "indonesian": "tema / gagasan lebih luas"
+        },
+        {
+          "english": "mood",
+          "indonesian": "suasana yang dirasakan pembaca"
+        },
+        {
+          "english": "point of view",
+          "indonesian": "sudut pandang"
+        },
+        {
+          "english": "imagery",
+          "indonesian": "citraan / gambaran bahasa"
+        },
+        {
+          "english": "figurative language",
+          "indonesian": "bahasa kiasan"
+        },
+        {
+          "english": "symbol",
+          "indonesian": "simbol / lambang"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "A character first refuses help but later accepts it after listening to a friend. What does this change most clearly show?",
+      "choices": [
+        "The character has reconsidered the situation.",
+        "The narrator has changed into a different person.",
+        "The setting has become a new place."
+      ],
+      "answer": 0,
+      "explanation": "Perubahan sikap setelah mendengarkan teman menunjukkan bahwa tokoh mempertimbangkan kembali keadaan. Hal itu tidak otomatis mengubah narator atau latar cerita.",
+      "translationId": {
+        "prompt": "Seorang tokoh awalnya menolak bantuan, tetapi kemudian menerimanya setelah mendengarkan teman. Apa yang paling jelas ditunjukkan perubahan ini?",
+        "choices": [
+          "Tokoh telah mempertimbangkan kembali situasinya.",
+          "Narator berubah menjadi orang yang berbeda.",
+          "Latar cerita berubah menjadi tempat baru."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "A story describes rain tapping the roof while a character waits alone. What can this detail help create?",
+      "choices": [
+        "A setting and mood for the scene.",
+        "A proven fact about the writer.",
+        "The complete history of the character."
+      ],
+      "answer": 0,
+      "explanation": "Bunyi hujan dan tokoh yang menunggu sendirian membantu membangun latar serta suasana adegan. Detail itu tidak memberikan riwayat lengkap tokoh atau fakta tentang penulis.",
+      "translationId": {
+        "prompt": "Sebuah cerita menggambarkan hujan mengetuk atap ketika tokoh menunggu sendirian. Apa yang dapat dibangun oleh detail ini?",
+        "choices": [
+          "Latar dan suasana adegan.",
+          "Fakta yang terbukti tentang penulis.",
+          "Seluruh riwayat tokoh."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "A narrator compares a small lamp to “a warm star beside the door”. What should a reader do first?",
+      "choices": [
+        "Assume a real star is inside the house.",
+        "Use the scene to explain the image and its effect.",
+        "Ignore the comparison because it is not literal."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan itu merupakan perbandingan kiasan. Pembaca perlu melihat fungsi lampu dalam adegan dan efek gambaran “warm star”, bukan menafsirkannya secara harfiah.",
+      "translationId": {
+        "prompt": "Narator membandingkan lampu kecil dengan “bintang hangat di samping pintu”. Apa yang sebaiknya dilakukan pembaca terlebih dahulu?",
+        "choices": [
+          "Menganggap ada bintang sungguhan di dalam rumah.",
+          "Menggunakan adegan untuk menjelaskan gambaran dan efek ungkapan itu.",
+          "Mengabaikan perbandingan karena tidak bermakna harfiah."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-narrative-appreciation-practice"
+  ]
+}

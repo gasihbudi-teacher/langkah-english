@@ -1,0 +1,494 @@
+{
+  "id": "tka-evaluating-facts-opinions-evidence-practice",
+  "questionCount": 12,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "tka7-reading-corner",
+      "title": "The Reading Corner Survey · Original A2 Practice Text",
+      "text": "At the start of May, Greenhill School opened a quiet reading corner beside its library. The area has six chairs, two tables, and a shelf of donated books. During the first four weeks, the librarian recorded an average of 18 visits each school day. The record counts visits, not different students, because some students came more than once. On Fridays, the average was lower when several classes left early.\n\nAt the end of the month, the library team invited 24 students who were using the corner to answer a short survey. Twenty students said the area was comfortable, while four asked for more chairs. One student wrote, “It is the best place in the whole school.” The principal also called the corner a useful addition. These comments show personal views, not measured opinions from every student.\n\nThe records show that students used the corner and that most surveyed visitors found it comfortable. However, the team did not ask students who never visit the library or compare reading time before and after May. The evidence is enough to describe early use, but not enough to prove that the corner improved reading habits across the whole school. The team plans to survey more classes next term."
+    },
+    {
+      "id": "tka7-food-waste-trial",
+      "title": "A School Food-Waste Trial · Original B1 Practice Text",
+      "text": "Westbridge Secondary School began a four-week food-waste trial in its canteen. Before the trial, kitchen staff weighed leftover food at the end of each day for three weeks. The average was 42 kilograms per week. During the trial, the school placed clearly labelled bins near the return area and asked student volunteers to remind classmates to separate unopened food from other waste. Staff continued weighing the leftovers in the same way. The average fell to 29 kilograms per week. The number of mixed waste bags also fell from 18 to 7 each week.\n\nThe principal described the result as promising and said the school should consider continuing the programme. Several students said the labels made the bins easier to use. However, the trial took place during a period when attendance was lower because some classes were preparing for examinations. The canteen also changed its menu for two weeks and served smaller rice portions after students reported that the usual portions were too large. Both changes could have affected the amount of food left on plates.\n\nThe measurements show that the recorded waste was lower during the trial than during the earlier weeks. They also show fewer mixed bags. Yet the school did not compare its results with another canteen, measure each student's behaviour, or separate the effect of the bins from the changes in attendance and menu. The evidence supports a possible benefit and justifies another careful trial. It does not prove that the bins alone caused the entire reduction or that every student changed a habit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "tka7-reading-corner",
+      "skill": "Verifiable fact",
+      "prompt": "Which sentence reports a detail that can be checked in the school records?",
+      "evidence": "The area has six chairs, two tables, and a shelf of donated books.",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Jumlah kursi dan meja merupakan rincian yang dapat diperiksa melalui pengamatan atau inventaris. Pernyataan tentang tempat terbaik adalah opini, sedangkan kesukaan setiap siswa dan ketenangan sepanjang waktu tidak dibuktikan oleh bacaan.",
+      "choices": [
+        "The area has six chairs and two tables.",
+        "The corner is the best place in the school.",
+        "Every student enjoys reading there.",
+        "The corner will always be quiet."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the number of chairs and tables can be checked by observing the area or its inventory.",
+        "“Best” is a personal evaluation and needs criteria for comparison.",
+        "The passage does not survey every student or report that all students enjoy reading there.",
+        "The passage does not promise that the area will always be quiet."
+      ],
+      "translationId": {
+        "prompt": "Kalimat mana yang melaporkan rincian yang dapat diperiksa melalui catatan sekolah?",
+        "choices": [
+          "Area itu memiliki enam kursi dan dua meja.",
+          "Sudut baca itu adalah tempat terbaik di sekolah.",
+          "Setiap siswa senang membaca di sana.",
+          "Sudut baca itu akan selalu tenang."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "multiple",
+      "passageId": "tka7-reading-corner",
+      "skill": "Evidence for early use and response",
+      "prompt": "Which details are direct records or survey results? Select ALL that apply.",
+      "evidence": "Twenty students said the area was comfortable, while four asked for more chairs.",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Catatan kunjungan dan jawaban survei merupakan data yang dapat diperiksa. Pernyataan kepala sekolah dan satu siswa adalah penilaian pribadi; keduanya dapat memberi konteks, tetapi tidak setara dengan pengukuran.",
+      "choices": [
+        "the librarian recorded an average of 18 visits each school day.",
+        "Twenty of the 24 surveyed students said the area was comfortable.",
+        "The principal called the corner a useful addition.",
+        "One student called it the best place in the whole school."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: the librarian’s count is a recorded measure of visits.",
+        "Correct: this is a reported survey result from a defined group of respondents.",
+        "This is the principal’s evaluation, not a measured result.",
+        "This is one student’s opinion, not a record of general preference."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang merupakan catatan langsung atau hasil survei? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Pustakawan mencatat rata-rata 18 kunjungan setiap hari sekolah.",
+          "Dua puluh dari 24 siswa yang disurvei mengatakan area itu nyaman.",
+          "Kepala sekolah menyebut sudut baca sebagai tambahan yang bermanfaat.",
+          "Seorang siswa menyebutnya tempat terbaik di seluruh sekolah."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "category",
+      "passageId": "tka7-reading-corner",
+      "skill": "Fact, opinion and unsupported conclusion",
+      "prompt": "Classify each statement according to the passage.",
+      "evidence": "the librarian recorded an average of 18 visits each school day.",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Angka kunjungan merupakan fakta yang tercatat; “tempat terbaik” merupakan opini; peningkatan kebiasaan seluruh siswa belum terbukti karena sampel dan pengukuran tidak mencakup seluruh sekolah.",
+      "categories": [
+        "Recorded fact",
+        "Opinion",
+        "Not established"
+      ],
+      "statements": [
+        {
+          "text": "the librarian recorded an average of 18 visits each school day.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Bacaan menyebut angka tersebut sebagai hasil pencatatan pustakawan selama empat minggu pertama."
+        },
+        {
+          "text": "The reading corner is the best place in the whole school.",
+          "answerCategory": "Opinion",
+          "explanation": "Ungkapan “best place” adalah penilaian seorang responden, bukan hasil pengukuran."
+        },
+        {
+          "text": "Reading habits improved for every student in the school.",
+          "answerCategory": "Not established",
+          "explanation": "Bacaan tidak mengukur kebiasaan membaca setiap siswa dan tidak memiliki perbandingan sebelum-sesudah."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan bacaan.",
+        "categories": [
+          "Fakta tercatat",
+          "Opini",
+          "Belum terbukti"
+        ],
+        "statements": [
+          "Pustakawan mencatat rata-rata 18 kunjungan setiap hari sekolah.",
+          "Sudut baca adalah tempat terbaik di seluruh sekolah.",
+          "Kebiasaan membaca meningkat bagi setiap siswa di sekolah."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "tka7-reading-corner",
+      "skill": "Proportional conclusion",
+      "prompt": "Which conclusion is best supported by the survey?",
+      "evidence": "Twenty students said the area was comfortable",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Dua puluh dari 24 responden yang sedang menggunakan sudut baca mengatakan area itu nyaman. Kesimpulan harus tetap dibatasi pada responden tersebut; bacaan tidak mengukur kemampuan membaca atau penggunaan oleh setiap siswa.",
+      "choices": [
+        "Every student prefers the reading corner.",
+        "Most surveyed current visitors said the area was comfortable.",
+        "The corner has improved reading ability across the school.",
+        "The corner is used by every student each day."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The survey did not include every student, so this statement is too broad.",
+        "Correct: 20 of the 24 surveyed visitors reported that the area was comfortable.",
+        "No reading ability test or before-and-after comparison is reported.",
+        "The visit count is not a count of different students and does not cover every student."
+      ],
+      "translationId": {
+        "prompt": "Kesimpulan mana yang paling didukung oleh survei?",
+        "choices": [
+          "Setiap siswa lebih menyukai sudut baca.",
+          "Sebagian besar pengunjung saat ini yang disurvei mengatakan area itu nyaman.",
+          "Sudut baca telah meningkatkan kemampuan membaca di seluruh sekolah.",
+          "Setiap siswa menggunakan sudut baca setiap hari."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "multiple",
+      "passageId": "tka7-reading-corner",
+      "skill": "Evidence limitations",
+      "prompt": "Which limitations prevent a school-wide conclusion? Select ALL that apply.",
+      "evidence": "the team did not ask students who never visit the library or compare reading time before and after May.",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Survei hanya mencakup pengguna saat ini, catatan menghitung kunjungan berulang, dan tidak ada pengukuran sebelum-sesudah. Jumlah kursi dan meja adalah deskripsi fasilitas, bukan alasan utama untuk menolak seluruh data.",
+      "choices": [
+        "The survey included students who were already using the corner.",
+        "The visit record counted visits rather than different students.",
+        "The team did not compare reading time before and after the corner opened.",
+        "The area had six chairs and two tables."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: non-users were not included, so their views are unknown.",
+        "Correct: repeat visits mean the total does not show how many different students came.",
+        "Correct: there is no baseline measure to show whether reading time changed.",
+        "The number of chairs and tables describes the facility; it is not a limitation on the survey’s sample or comparison."
+      ],
+      "translationId": {
+        "prompt": "Keterbatasan mana yang menghalangi kesimpulan untuk seluruh sekolah? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Survei melibatkan siswa yang sudah menggunakan sudut baca.",
+          "Catatan menghitung kunjungan, bukan siswa yang berbeda.",
+          "Tim tidak membandingkan waktu membaca sebelum dan sesudah sudut baca dibuka.",
+          "Area tersebut memiliki enam kursi dan dua meja."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "category",
+      "passageId": "tka7-reading-corner",
+      "skill": "Evidence boundaries",
+      "prompt": "Classify each statement about the reading corner.",
+      "evidence": "the library team invited 24 students who were using the corner",
+      "proficiencyTarget": "A2",
+      "genre": "informational",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Jumlah responden adalah fakta yang tercatat. Penilaian bahwa keputusan itu terbaik adalah opini. Dukungan dari nonpengguna belum diketahui karena kelompok tersebut tidak disurvei.",
+      "categories": [
+        "Recorded fact",
+        "Opinion",
+        "Not established"
+      ],
+      "statements": [
+        {
+          "text": "Twenty-four current users answered the survey.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Jumlah responden dan kelompok yang disurvei disebutkan secara langsung dalam bacaan."
+        },
+        {
+          "text": "Keeping the corner is obviously the best decision.",
+          "answerCategory": "Opinion",
+          "explanation": "Kata “best” menunjukkan penilaian. Bacaan belum memberikan perbandingan biaya atau hasil jangka panjang."
+        },
+        {
+          "text": "Students who never visit the library also support the corner.",
+          "answerCategory": "Not established",
+          "explanation": "Tim belum meminta pendapat siswa yang tidak pernah mengunjungi perpustakaan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang sudut baca.",
+        "categories": [
+          "Fakta tercatat",
+          "Opini",
+          "Belum terbukti"
+        ],
+        "statements": [
+          "Dua puluh empat pengguna saat ini menjawab survei.",
+          "Mempertahankan sudut baca jelas merupakan keputusan terbaik.",
+          "Siswa yang tidak pernah mengunjungi perpustakaan juga mendukung sudut baca."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Interpreting measured change",
+      "prompt": "What do the recorded measurements show during the trial?",
+      "evidence": "The average fell to 29 kilograms per week.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Catatan menunjukkan penurunan rata-rata sisa makanan dari 42 menjadi 29 kilogram per minggu. Namun, data tersebut hanya menggambarkan perubahan terukur selama uji coba dan tidak membuktikan bahwa setiap siswa mengubah kebiasaan.",
+      "choices": [
+        "Food waste increased from 29 to 42 kilograms per week.",
+        "The school proved that every student changed a habit.",
+        "Average recorded leftovers fell from 42 to 29 kilograms per week.",
+        "The menu and attendance stayed exactly the same."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The figures show a decrease, not an increase.",
+        "The trial did not measure every student’s individual behaviour.",
+        "Correct: the recorded weekly average fell during the four-week trial.",
+        "The passage says attendance and the menu changed during the trial."
+      ],
+      "translationId": {
+        "prompt": "Apa yang ditunjukkan oleh hasil pengukuran selama uji coba?",
+        "choices": [
+          "Sisa makanan meningkat dari 29 menjadi 42 kilogram per minggu.",
+          "Sekolah membuktikan bahwa setiap siswa mengubah kebiasaan.",
+          "Rata-rata sisa makanan yang tercatat turun dari 42 menjadi 29 kilogram per minggu.",
+          "Menu dan kehadiran tetap sama persis."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "multiple",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Alternative explanations and limitations",
+      "prompt": "Which factors limit the claim that the labelled bins alone caused the reduction? Select ALL that apply.",
+      "evidence": "The canteen also changed its menu for two weeks and served smaller rice portions",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Kehadiran yang lebih rendah dan porsi yang lebih kecil merupakan penjelasan alternatif. Tidak adanya kantin pembanding juga membatasi klaim sebab-akibat. Metode penimbangan yang sama justru membantu konsistensi pengukuran.",
+      "choices": [
+        "Attendance was lower during the trial.",
+        "The canteen served smaller rice portions for two weeks.",
+        "The school did not compare results with another canteen.",
+        "The staff weighed leftovers using the same method."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: fewer students may produce less leftover food independently of the bins.",
+        "Correct: smaller portions could reduce the amount left on plates.",
+        "Correct: without a comparison site, other changes are harder to separate from the programme effect.",
+        "Using the same weighing method improves consistency; it is not a limitation of the causal claim."
+      ],
+      "translationId": {
+        "prompt": "Faktor mana yang membatasi klaim bahwa tempat sampah berlabel saja menyebabkan penurunan? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Kehadiran lebih rendah selama uji coba.",
+          "Kantin menyajikan porsi nasi yang lebih kecil selama dua minggu.",
+          "Sekolah tidak membandingkan hasil dengan kantin lain.",
+          "Petugas menimbang sisa makanan dengan metode yang sama."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "category",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Fact, opinion and causal claim",
+      "prompt": "Classify each statement from the report.",
+      "evidence": "The number of mixed waste bags also fell from 18 to 7 each week.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Jumlah kantong adalah hasil pengukuran. Penilaian bahwa program sempurna merupakan opini. Klaim bahwa tempat sampah menjadi satu-satunya penyebab belum terbukti karena beberapa kondisi lain ikut berubah.",
+      "categories": [
+        "Measured fact",
+        "Opinion",
+        "Causal claim not established"
+      ],
+      "statements": [
+        {
+          "text": "Mixed waste bags fell from 18 to 7 each week.",
+          "answerCategory": "Measured fact",
+          "explanation": "Angka tersebut dilaporkan sebagai hasil pencatatan selama periode sebelum dan selama uji coba."
+        },
+        {
+          "text": "The result was brilliant and the programme is perfect.",
+          "answerCategory": "Opinion",
+          "explanation": "“Brilliant” dan “perfect” adalah penilaian, bukan ukuran hasil yang dilaporkan."
+        },
+        {
+          "text": "The labelled bins alone caused the entire reduction in food waste.",
+          "answerCategory": "Causal claim not established",
+          "explanation": "Kehadiran dan ukuran porsi juga berubah, sehingga pengaruh tempat sampah belum dapat dipisahkan dari faktor lain."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan dari laporan.",
+        "categories": [
+          "Fakta terukur",
+          "Opini",
+          "Klaim sebab-akibat belum terbukti"
+        ],
+        "statements": [
+          "Jumlah kantong sampah campuran turun dari 18 menjadi 7 setiap minggu.",
+          "Hasilnya luar biasa dan program itu sempurna.",
+          "Tempat sampah berlabel saja menyebabkan seluruh penurunan sisa makanan."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Sufficient evidence and cautious judgment",
+      "prompt": "Which conclusion is the most careful evaluation of the trial?",
+      "evidence": "The measurements show that the recorded waste was lower during the trial than during the earlier weeks.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Penilaian yang seimbang mengakui bahwa hasil pengukuran menurun, tetapi tidak menyatakan bahwa tempat sampah adalah satu-satunya penyebab. Perubahan kehadiran dan menu merupakan faktor lain yang perlu diuji.",
+      "choices": [
+        "The bins alone caused every student to waste less food.",
+        "The school has proved that the programme will work in every canteen.",
+        "The result is only an opinion because it contains no measurements.",
+        "Recorded waste was lower during the trial, but other changes mean the bins’ separate effect is not yet proven."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The report does not isolate the bins from other changes or measure every student.",
+        "One school trial cannot establish that the programme works in every canteen.",
+        "The report includes measured weights and mixed-bag counts, so it is not only opinion.",
+        "Correct: this statement accepts the measured decrease while acknowledging alternative explanations and the limits of the trial."
+      ],
+      "translationId": {
+        "prompt": "Kesimpulan mana yang merupakan evaluasi paling hati-hati terhadap uji coba?",
+        "choices": [
+          "Tempat sampah saja menyebabkan setiap siswa membuang lebih sedikit makanan.",
+          "Sekolah membuktikan program itu akan berhasil di setiap kantin.",
+          "Hasilnya hanya opini karena tidak memuat pengukuran.",
+          "Sisa makanan yang tercatat lebih rendah selama uji coba, tetapi perubahan lain membuat pengaruh khusus tempat sampah belum terbukti."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "multiple",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Evidence supporting the reported change",
+      "prompt": "Which details strengthen the comparison between the baseline and trial period? Select ALL that apply.",
+      "evidence": "Staff continued weighing the leftovers in the same way.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Penurunan berat sisa makanan dan jumlah kantong campuran adalah dua hasil terukur. Metode penimbangan yang konsisten membantu perbandingan. Penilaian kepala sekolah memberi pendapat, bukan bukti pengukuran langsung.",
+      "choices": [
+        "Average leftover food fell from 42 to 29 kilograms per week.",
+        "Mixed waste bags fell from 18 to 7 each week.",
+        "Staff continued weighing leftovers in the same way.",
+        "The principal said the result was promising."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: this is a measured comparison of weekly leftover weight.",
+        "Correct: this is another recorded measure of waste sorting outcomes.",
+        "Correct: a consistent method helps show that the before-and-during measurements are comparable.",
+        "This is an evaluation by the principal, not a direct measurement."
+      ],
+      "translationId": {
+        "prompt": "Rincian mana yang memperkuat perbandingan antara periode awal dan periode uji coba? Pilih SEMUA jawaban yang tepat.",
+        "choices": [
+          "Rata-rata sisa makanan turun dari 42 menjadi 29 kilogram per minggu.",
+          "Kantong sampah campuran turun dari 18 menjadi 7 setiap minggu.",
+          "Petugas tetap menimbang sisa makanan dengan cara yang sama.",
+          "Kepala sekolah mengatakan hasilnya menjanjikan."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "category",
+      "passageId": "tka7-food-waste-trial",
+      "skill": "Evidence, opinion and alternative explanation",
+      "prompt": "Classify the role of each statement in evaluating the trial.",
+      "evidence": "attendance was lower because some classes were preparing for examinations",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif",
+      "explanation": "Pernyataan pertama adalah hasil pengukuran. Pernyataan kedua adalah rekomendasi. Pernyataan ketiga merupakan penjelasan alternatif yang dapat memengaruhi hasil dan perlu dipertimbangkan dalam evaluasi.",
+      "categories": [
+        "Measured outcome",
+        "Opinion or recommendation",
+        "Alternative explanation"
+      ],
+      "statements": [
+        {
+          "text": "Average recorded leftovers fell from 42 to 29 kilograms per week.",
+          "answerCategory": "Measured outcome",
+          "explanation": "Angka tersebut merupakan perubahan hasil penimbangan yang dicatat selama dua periode."
+        },
+        {
+          "text": "The school should continue the programme permanently.",
+          "answerCategory": "Opinion or recommendation",
+          "explanation": "Pernyataan ini merekomendasikan keputusan ke depan; keputusan tersebut belum menjadi hasil pengukuran."
+        },
+        {
+          "text": "Lower attendance may also have reduced the amount of food left.",
+          "answerCategory": "Alternative explanation",
+          "explanation": "Kehadiran yang lebih rendah dapat mengurangi jumlah makanan yang disiapkan dan tersisa, sehingga menjadi faktor lain yang perlu diperhitungkan."
+        }
+      ],
+      "translationId": {
+        "prompt": "Kelompokkan peran setiap pernyataan dalam evaluasi uji coba.",
+        "categories": [
+          "Hasil pengukuran",
+          "Opini atau rekomendasi",
+          "Penjelasan alternatif"
+        ],
+        "statements": [
+          "Rata-rata sisa makanan yang tercatat turun dari 42 menjadi 29 kilogram per minggu.",
+          "Sekolah sebaiknya melanjutkan program secara permanen.",
+          "Kehadiran yang lebih rendah mungkin juga mengurangi jumlah makanan yang tersisa."
+        ]
+      }
+    }
+  ]
+}

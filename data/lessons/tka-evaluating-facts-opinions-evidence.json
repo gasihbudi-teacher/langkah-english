@@ -1,0 +1,416 @@
+{
+  "id": "tka-evaluating-facts-opinions-evidence",
+  "objectives": [
+    "Membedakan pernyataan faktual yang dapat diperiksa dari opini atau penilaian penulis.",
+    "Menilai relevansi, sumber, cara pengumpulan, dan keterwakilan bukti terhadap suatu klaim.",
+    "Menentukan apakah bukti cukup untuk mendukung kesimpulan dengan mempertimbangkan batasan dan informasi yang berlawanan.",
+    "Menyusun penilaian yang seimbang dengan menyebutkan bukti dan batas kesimpulannya."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu fakta, opini, klaim, dan bukti yang cukup?",
+      "text": "[[Fakta]] adalah pernyataan tentang sesuatu yang dapat diperiksa melalui sumber atau pengukuran. [[Opini]] menyampaikan penilaian atau keyakinan. [[Klaim]] adalah kesimpulan yang ingin didukung penulis, sedangkan [[bukti]] adalah data, catatan, pengamatan, atau sumber yang digunakan untuk mendukungnya. Bukti yang [[cukup]] harus relevan, dapat dipercaya, dan sebanding dengan luas klaim."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Mulailah dengan memisahkan fakta yang dapat diperiksa dari penilaian. Setelah itu, temukan klaim, telusuri sumber dan sampel, lalu uji apakah bukti cukup untuk kesimpulan yang dibuat. Bacalah model lengkap dan perhatikan batas data sebelum menilai klaim yang lebih luas.",
+      "steps": [
+        {
+          "title": "Kenali pernyataan yang dapat diperiksa",
+          "explanation": "Pernyataan faktual menyampaikan sesuatu yang dapat diperiksa melalui catatan, pengamatan, dokumen, atau pengukuran. Kata-kata yang terdengar pasti belum otomatis membuktikan bahwa pernyataan itu benar; kita tetap perlu memeriksa sumbernya.",
+          "english": "The library recorded 18 visits on an average school day.",
+          "indonesian": "Perpustakaan mencatat rata-rata 18 kunjungan pada setiap hari sekolah.",
+          "why": "Jumlah kunjungan dapat diperiksa melalui catatan perpustakaan. Untuk memastikan kebenarannya, pembaca masih perlu mengetahui cara pencatatan dan periode pengukuran.",
+          "check": "Mengapa angka 18 dapat diperiksa, tetapi tetap perlu dilihat sumber dan cara pencatatannya?",
+          "checkAnswer": "Karena angka itu dapat dibandingkan dengan catatan kunjungan, tetapi pembaca perlu memastikan siapa yang mencatat, kapan, dan apa yang dihitung.",
+          "phase": "Membedakan fakta dan opini"
+        },
+        {
+          "title": "Bedakan pendapat dari catatan",
+          "explanation": "Opini berisi penilaian, keyakinan, atau preferensi. Ungkapan seperti best, useful, beautiful, atau too expensive sering menunjukkan penilaian. Opini dapat masuk akal, tetapi tidak sama dengan hasil pengukuran.",
+          "english": "The reading corner is the best place in the whole school.",
+          "indonesian": "Sudut baca itu merupakan tempat terbaik di seluruh sekolah.",
+          "why": "Kata best menunjukkan penilaian pribadi. Tanpa kriteria dan perbandingan yang jelas, kalimat tersebut tidak dapat diperlakukan sebagai fakta terukur.",
+          "check": "Bagian mana yang menunjukkan bahwa kalimat tersebut merupakan opini, bukan hasil pengukuran?",
+          "checkAnswer": "Kata “best” menyatakan penilaian. Kalimat itu tidak menyebut ukuran atau metode untuk membandingkan semua tempat di sekolah.",
+          "phase": "Membedakan fakta dan opini"
+        },
+        {
+          "title": "Pisahkan fakta dan penilaian dalam satu kalimat",
+          "explanation": "Satu kalimat dapat memuat catatan yang dapat diperiksa sekaligus pendapat. Pisahkan bagian yang melaporkan kejadian dari bagian yang menilainya agar bukti tidak tertukar dengan kesimpulan.",
+          "english": "Twenty students chose the corner, so it is clearly the most successful room.",
+          "indonesian": "Dua puluh siswa memilih sudut baca itu, jadi tempat tersebut jelas merupakan ruangan paling berhasil.",
+          "why": "Jumlah dua puluh dapat diperiksa jika tersedia data survei. Frasa most successful adalah penilaian yang membutuhkan ukuran keberhasilan dan pembanding.",
+          "check": "Bagian mana yang dapat diperiksa sebagai data, dan bagian mana yang merupakan penilaian?",
+          "checkAnswer": "“Twenty students chose the corner” adalah data yang dapat diperiksa. “Most successful room” adalah penilaian yang membutuhkan definisi dan bukti tambahan.",
+          "phase": "Membedakan fakta dan opini"
+        },
+        {
+          "title": "Temukan klaim yang sedang dinilai",
+          "explanation": "Klaim adalah pernyataan utama yang ingin didukung penulis. Sebelum menilai bukti, rumuskan klaim dengan jelas. Klaim yang luas seperti “program berhasil untuk semua siswa” membutuhkan bukti lebih banyak daripada klaim terbatas seperti “sebagian pengunjung merasa nyaman”.",
+          "english": "The survey suggests that most current visitors find the corner comfortable.",
+          "indonesian": "Survei menunjukkan bahwa sebagian besar pengunjung saat ini merasa sudut baca itu nyaman.",
+          "why": "Klaim ini terbatas pada responden yang sedang menggunakan sudut baca. Batas tersebut penting ketika menilai apakah data benar-benar sesuai dengan kesimpulan.",
+          "check": "Apa kelompok yang secara khusus dicakup oleh klaim tersebut?",
+          "checkAnswer": "Klaim hanya membahas pengunjung yang sedang menggunakan sudut baca dan menjawab survei, bukan seluruh siswa sekolah.",
+          "phase": "Menilai relevansi dan sumber bukti"
+        },
+        {
+          "title": "Periksa apakah bukti relevan dengan klaim",
+          "explanation": "Bukti relevan jika secara langsung membantu menjawab klaim. Data jumlah kunjungan relevan untuk menunjukkan penggunaan tempat, tetapi tidak dengan sendirinya membuktikan peningkatan kemampuan membaca.",
+          "english": "Visit records show how often the reading corner was used.",
+          "indonesian": "Catatan kunjungan menunjukkan seberapa sering sudut baca digunakan.",
+          "why": "Data kunjungan cocok untuk klaim tentang penggunaan ruang. Jika klaimnya tentang peningkatan kemampuan membaca, diperlukan ukuran kemampuan atau kebiasaan membaca yang berbeda.",
+          "check": "Apakah jumlah kunjungan cukup untuk membuktikan kemampuan membaca siswa meningkat? Mengapa?",
+          "checkAnswer": "Tidak. Jumlah kunjungan menunjukkan penggunaan ruang, bukan perubahan kemampuan membaca. Klaim tersebut membutuhkan data yang mengukur kemampuan atau kebiasaan membaca.",
+          "phase": "Menilai relevansi dan sumber bukti"
+        },
+        {
+          "title": "Telusuri sumber dan cara pengumpulan",
+          "explanation": "Bukti lebih dapat dinilai jika sumber, waktu, kelompok, dan cara pengumpulan dijelaskan. Catatan langsung, survei, wawancara, dan pendapat ahli memiliki kegunaan berbeda. Periksa pula apakah pertanyaannya netral dan pencatatannya konsisten.",
+          "english": "The librarian counted visits each school day for four weeks.",
+          "indonesian": "Pustakawan menghitung kunjungan setiap hari sekolah selama empat minggu.",
+          "why": "Pembaca mengetahui siapa yang mencatat, apa yang dihitung, dan berapa lama pengamatan berlangsung. Informasi ini membantu menilai kekuatan sekaligus batas data.",
+          "check": "Informasi apa yang perlu diketahui untuk menilai apakah catatan kunjungan dapat dipercaya?",
+          "checkAnswer": "Perlu diketahui siapa pencatatnya, definisi kunjungan, periode pengamatan, serta apakah pencatatan dilakukan dengan cara yang sama setiap hari.",
+          "phase": "Menilai relevansi dan sumber bukti"
+        },
+        {
+          "title": "Perhatikan siapa yang menjadi sampel",
+          "explanation": "Sampel adalah kelompok yang datanya dikumpulkan. Sampel yang hanya berisi pengguna layanan mungkin tidak mewakili orang yang tidak menggunakan layanan. Jangan memperluas kesimpulan melebihi kelompok yang benar-benar diteliti.",
+          "english": "The team surveyed 24 students who were already using the corner.",
+          "indonesian": "Tim menyurvei 24 siswa yang memang sedang menggunakan sudut baca.",
+          "why": "Responden dapat memberi informasi tentang pengalaman pengguna saat ini. Mereka belum tentu mewakili siswa yang tidak datang ke perpustakaan atau belum mengetahui fasilitas itu.",
+          "check": "Mengapa survei terhadap pengguna saat ini belum tentu mewakili seluruh siswa?",
+          "checkAnswer": "Karena siswa yang tidak menggunakan sudut baca tidak masuk sampel. Pengalaman dan pendapat kelompok itu belum diketahui.",
+          "phase": "Menguji kecukupan dan batas bukti"
+        },
+        {
+          "title": "Tentukan apakah jumlah dan jenis bukti memadai",
+          "explanation": "Kecukupan bukti bergantung pada luas klaim, mutu data, ukuran sampel, dan apakah beberapa sumber saling menguatkan. Satu survei kecil mungkin cukup untuk gambaran awal, tetapi tidak selalu cukup untuk keputusan besar atau kesimpulan umum.",
+          "english": "A short survey can describe early reactions, but it may not explain long-term reading habits.",
+          "indonesian": "Survei singkat dapat menggambarkan tanggapan awal, tetapi mungkin belum menjelaskan kebiasaan membaca jangka panjang.",
+          "why": "Tujuan dan waktu pengukuran harus cocok. Tanggapan pada akhir bulan tidak otomatis menunjukkan perubahan kebiasaan dalam jangka panjang.",
+          "check": "Apa yang dapat dan belum dapat disimpulkan dari survei singkat pada akhir bulan pertama?",
+          "checkAnswer": "Survei dapat menggambarkan tanggapan responden saat itu. Survei tersebut belum cukup untuk menyimpulkan perubahan kebiasaan membaca jangka panjang.",
+          "phase": "Menguji kecukupan dan batas bukti"
+        },
+        {
+          "title": "Cari bukti yang berlawanan atau batasan",
+          "explanation": "Evaluasi yang adil juga mencari informasi yang membatasi klaim. Hasil yang tidak sesuai harapan, kelompok yang belum diteliti, atau perubahan lain selama pengamatan dapat mengubah penafsiran.",
+          "english": "The team did not compare reading time before and after the corner opened.",
+          "indonesian": "Tim tidak membandingkan waktu membaca sebelum dan sesudah sudut baca dibuka.",
+          "why": "Tanpa perbandingan sebelum dan sesudah, klaim bahwa sudut baca menyebabkan peningkatan kebiasaan membaca belum dapat dibuktikan.",
+          "check": "Mengapa tidak adanya data sebelum pembukaan menjadi batas penting bagi klaim peningkatan kebiasaan membaca?",
+          "checkAnswer": "Karena tidak ada ukuran awal untuk dibandingkan. Penggunaan ruang saat ini tidak menunjukkan apakah kebiasaan membaca berubah setelah fasilitas dibuka.",
+          "phase": "Menguji kecukupan dan batas bukti"
+        },
+        {
+          "title": "Jangan menyamakan hubungan dengan sebab",
+          "explanation": "Dua hal dapat muncul bersamaan tanpa satu hal pasti menyebabkan yang lain. Untuk menyatakan sebab-akibat, pertimbangkan urutan waktu, penjelasan alternatif, dan bukti yang menyingkirkan kemungkinan lain.",
+          "english": "More students visited the library during the same month that the corner opened.",
+          "indonesian": "Lebih banyak siswa mengunjungi perpustakaan pada bulan yang sama ketika sudut baca dibuka.",
+          "why": "Kedua kejadian berlangsung pada periode yang sama. Tanpa pembanding dan pemeriksaan faktor lain, pembukaan sudut baca belum terbukti sebagai satu-satunya penyebab kenaikan kunjungan.",
+          "check": "Apakah dua kejadian yang berlangsung pada bulan yang sama otomatis membuktikan hubungan sebab-akibat?",
+          "checkAnswer": "Tidak. Keduanya dapat berkaitan, tetapi perlu bukti tambahan dan pemeriksaan penjelasan lain sebelum menyatakan bahwa satu kejadian menyebabkan yang lain.",
+          "phase": "Menguji kecukupan dan batas bukti"
+        },
+        {
+          "title": "Sesuaikan luas kesimpulan dengan bukti",
+          "explanation": "Kesimpulan yang baik tidak lebih luas daripada data. Gunakan batas seperti among surveyed visitors, during the first month, atau in this sample jika kelompok dan waktunya terbatas.",
+          "english": "Most surveyed visitors said the corner was comfortable.",
+          "indonesian": "Sebagian besar pengunjung yang disurvei mengatakan sudut baca itu nyaman.",
+          "why": "Frasa surveyed visitors menjaga kesimpulan tetap sesuai dengan sampel. Menghapus batas itu dan menyebut all students akan melampaui bukti.",
+          "check": "Mengapa frasa “pengunjung yang disurvei” perlu dipertahankan dalam kesimpulan?",
+          "checkAnswer": "Karena data hanya berasal dari kelompok itu. Frasa tersebut mencegah pembaca mengira bahwa semua siswa sudah diteliti.",
+          "phase": "Menyusun penilaian yang seimbang"
+        },
+        {
+          "title": "Tulis penilaian beserta alasan dan keterbatasan",
+          "explanation": "Jawaban evaluatif yang kuat menyatakan penilaian, menunjuk bukti yang relevan, lalu menjelaskan batas yang masih ada. Gunakan pola “The evidence supports …, but it does not yet show …”.",
+          "english": "The records support early use, but they do not prove a school-wide change in reading habits.",
+          "indonesian": "Catatan mendukung adanya penggunaan awal, tetapi belum membuktikan perubahan kebiasaan membaca di seluruh sekolah.",
+          "why": "Pernyataan ini mengakui hal yang ditunjukkan data sekaligus menahan kesimpulan yang belum didukung. Itulah bentuk penilaian yang seimbang.",
+          "check": "Apa dua bagian yang perlu ada dalam jawaban evaluatif yang seimbang?",
+          "checkAnswer": "Sebutkan kesimpulan yang didukung bukti dan jelaskan batas atau hal yang belum dapat dibuktikan oleh data tersebut.",
+          "phase": "Menyusun penilaian yang seimbang"
+        }
+      ],
+      "modelTitle": "Should the School Keep the Reading Corner? · Model bacaan tiga paragraf",
+      "modelEnglish": "At the start of May, Greenhill School opened a quiet reading corner beside its library. The area contains six chairs, two tables, and a shelf of donated books. During the first four weeks, the librarian recorded an average of 18 visits each school day. The record counts visits, not individual students, because some students came more than once. On Fridays, the average was lower when several classes left early.\n\nAt the end of the month, the library team invited 24 students who were using the corner to complete a short survey. Twenty students said the area was comfortable, while four asked for more chairs. One student wrote, “It is the best place in the whole school.” That sentence is an opinion from one respondent; it cannot represent every student's view. The principal called the corner a useful addition and suggested keeping it.\n\nThe records show that students used the corner and that most surveyed visitors found it comfortable. However, the team did not ask students who never visit the library, compare reading time before and after May, or observe use during exam week. The evidence is enough to describe early use, but not enough to prove that the corner improved reading habits across the whole school. The team plans to survey more classes next term.",
+      "modelIndonesian": "Pada awal Mei, Greenhill School membuka sudut baca yang tenang di samping perpustakaan. Area itu memiliki enam kursi, dua meja, dan satu rak buku sumbangan. Selama empat minggu pertama, pustakawan mencatat rata-rata 18 kunjungan setiap hari sekolah. Catatan tersebut menghitung jumlah kunjungan, bukan jumlah siswa yang berbeda, karena beberapa siswa datang lebih dari sekali. Pada hari Jumat, rata-ratanya lebih rendah ketika beberapa kelas pulang lebih awal.\n\nPada akhir bulan, tim perpustakaan mengundang 24 siswa yang sedang menggunakan sudut baca untuk mengisi survei singkat. Dua puluh siswa mengatakan tempat itu nyaman, sedangkan empat siswa meminta tambahan kursi. Seorang siswa menulis, “Ini tempat terbaik di seluruh sekolah.” Kalimat itu merupakan pendapat seorang responden; kalimat tersebut tidak mewakili pandangan setiap siswa. Kepala sekolah menyebut sudut baca itu sebagai tambahan yang bermanfaat dan menyarankan agar tempat tersebut dipertahankan.\n\nCatatan menunjukkan bahwa siswa menggunakan sudut baca dan sebagian besar pengunjung yang disurvei merasa nyaman. Namun, tim belum bertanya kepada siswa yang tidak pernah mengunjungi perpustakaan, membandingkan waktu membaca sebelum dan sesudah Mei, atau mengamati penggunaan selama pekan ujian. Bukti tersebut cukup untuk menggambarkan penggunaan awal, tetapi belum cukup untuk membuktikan bahwa sudut baca meningkatkan kebiasaan membaca seluruh siswa. Tim berencana menyurvei lebih banyak kelas pada semester berikutnya.",
+      "modelPosition": "after"
+    },
+    {
+      "type": "synthesis",
+      "title": "Urutan kerja mengevaluasi bukti",
+      "text": "**Klaim → jenis pernyataan → sumber dan metode → relevansi → sampel dan kecukupan → batasan atau bukti berlawanan → kesimpulan yang proporsional.** Jangan menilai kekuatan bukti hanya dari angka yang terlihat meyakinkan; periksa apakah angka itu benar-benar menjawab klaim."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pertanyaan evaluasi",
+        "Yang diperiksa",
+        "Contoh dari model"
+      ],
+      "rows": [
+        [
+          "Apakah ini fakta atau opini?",
+          "Dapatkah pernyataan diperiksa, ataukah berisi penilaian?",
+          "18 kunjungan rata-rata adalah catatan; “tempat terbaik” adalah opini."
+        ],
+        [
+          "Apakah bukti relevan?",
+          "Apakah data langsung menjawab klaim?",
+          "Jumlah kunjungan menunjukkan penggunaan, bukan peningkatan kemampuan membaca."
+        ],
+        [
+          "Apakah sampelnya mewakili?",
+          "Siapa yang ditanya atau diamati?",
+          "Survei hanya melibatkan 24 pengguna sudut baca."
+        ],
+        [
+          "Apakah bukti cukup?",
+          "Apakah ada data pembanding, waktu, dan sumber lain?",
+          "Belum ada perbandingan sebelum-sesudah atau data dari siswa nonpengguna."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked examples · menguji pernyataan dan bukti"
+    },
+    {
+      "type": "text",
+      "text": "Setiap contoh mengajak pembaca menilai apa yang benar-benar dapat diperiksa. Perhatikan perbedaan antara data yang relevan, opini yang wajar, dan kesimpulan yang masih terlalu luas."
+    },
+    {
+      "type": "example_group",
+      "title": "1. Facts, opinions and claims",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The school opened the reading corner in May.",
+          "indonesian": "Sekolah membuka sudut baca pada bulan Mei.",
+          "note": "Pernyataan waktu pembukaan dapat diperiksa melalui pengumuman atau catatan sekolah. Sumber tetap perlu ditelusuri."
+        },
+        {
+          "english": "The new corner is the most beautiful room in the building.",
+          "indonesian": "Sudut baru itu merupakan ruangan paling indah di gedung.",
+          "note": "Kata most beautiful merupakan penilaian estetis. Tanpa kriteria dan pembanding, kalimat ini adalah opini."
+        },
+        {
+          "english": "Twenty of the 24 surveyed visitors described the area as comfortable.",
+          "indonesian": "Dua puluh dari 24 pengunjung yang disurvei menyebut area itu nyaman.",
+          "note": "Jumlah responden dan jawabannya dapat diperiksa melalui data survei; kesimpulan tetap dibatasi pada responden tersebut."
+        },
+        {
+          "english": "Every student now reads more because the corner exists.",
+          "indonesian": "Sekarang setiap siswa membaca lebih banyak karena sudut baca itu ada.",
+          "note": "Klaim ini terlalu luas: data hanya mencakup pengunjung tertentu dan tidak membandingkan kebiasaan membaca sebelum-sesudah."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "2. Relevance, sources and samples",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "A visit count is evidence of how often a place is used.",
+          "indonesian": "Jumlah kunjungan merupakan bukti seberapa sering suatu tempat digunakan.",
+          "note": "Jenis data cocok dengan klaim penggunaan ruang, tetapi tidak otomatis menjawab klaim tentang hasil belajar."
+        },
+        {
+          "english": "A survey of current users may miss the views of non-users.",
+          "indonesian": "Survei terhadap pengguna saat ini dapat melewatkan pandangan orang yang tidak menggunakan fasilitas.",
+          "note": "Kelompok yang tidak terjangkau sampel dapat memiliki pengalaman atau kebutuhan yang berbeda."
+        },
+        {
+          "english": "The report names the recorder, period, and counting method.",
+          "indonesian": "Laporan menyebut pencatat, periode, dan metode penghitungan.",
+          "note": "Rincian metode membantu pembaca menilai bagaimana data diperoleh dan apakah pencatatan dapat diulang."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "3. Sufficiency and fair conclusions",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "One month of feedback describes early reactions, not long-term effects.",
+          "indonesian": "Masukan selama satu bulan menggambarkan tanggapan awal, bukan dampak jangka panjang.",
+          "note": "Durasi bukti perlu sebanding dengan klaim tentang perubahan yang bertahan lama."
+        },
+        {
+          "english": "The number of visits rose while the school also changed its timetable.",
+          "indonesian": "Jumlah kunjungan meningkat ketika sekolah juga mengubah jadwal.",
+          "note": "Perubahan jadwal merupakan penjelasan alternatif yang perlu diperiksa sebelum menyatakan sebab tunggal."
+        },
+        {
+          "english": "The evidence supports a cautious conclusion about surveyed visitors.",
+          "indonesian": "Bukti mendukung kesimpulan hati-hati tentang pengunjung yang disurvei.",
+          "note": "Batas kelompok dan waktu harus dipertahankan agar kesimpulan tidak melampaui data."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-tka07-evidence",
+      "prompt": "Which conclusion is best supported by the model survey?",
+      "translation": "Kesimpulan mana yang paling didukung oleh survei dalam model bacaan?",
+      "choices": [
+        "Most surveyed visitors found the corner comfortable.",
+        "Every student prefers the corner.",
+        "The corner has improved reading ability across the school."
+      ],
+      "answer": 0,
+      "translationChoices": [
+        "Sebagian besar pengunjung yang disurvei merasa sudut baca itu nyaman.",
+        "Setiap siswa menyukai sudut baca itu.",
+        "Sudut baca telah meningkatkan kemampuan membaca di seluruh sekolah."
+      ],
+      "explanation": "Dua puluh dari 24 responden yang sedang menggunakan sudut baca menyebut area itu nyaman. Survei tidak melibatkan semua siswa dan tidak mengukur kemampuan membaca, sehingga dua kesimpulan lain terlalu luas.",
+      "hint": "Perhatikan siapa yang menjawab survei dan apa yang sebenarnya ditanyakan."
+    },
+    {
+      "type": "reflection",
+      "prompt": "Why can a survey be useful evidence for one claim but insufficient for a broader claim?",
+      "translation": "Mengapa survei dapat menjadi bukti yang berguna untuk satu klaim, tetapi belum cukup untuk klaim yang lebih luas?",
+      "answer": "Karena relevansi bukti bergantung pada pertanyaan yang ingin dijawab. Survei pengguna dapat menggambarkan pengalaman responden, tetapi belum tentu mewakili nonpengguna atau membuktikan perubahan jangka panjang."
+    },
+    {
+      "type": "summary",
+      "title": "Remember these evaluation moves",
+      "items": [
+        "Pisahkan pernyataan yang dapat diperiksa dari opini dan penilaian.",
+        "Rumuskan klaim secara jelas sebelum menilai bukti.",
+        "Periksa relevansi, sumber, metode, periode, dan kelompok sampel.",
+        "Cari batasan, penjelasan alternatif, serta bukti yang berlawanan.",
+        "Batasi kesimpulan sesuai dengan hal yang benar-benar ditunjukkan data."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Independent transfer · evaluate a school claim",
+      "prompt": "A school report says that a new reading corner improved reading habits. Use the model to write (1) two facts that can be checked, (2) one opinion, (3) one piece of evidence relevant to use of the corner, (4) two limits that prevent a school-wide conclusion, and (5) a careful final judgment.",
+      "model": "Checkable facts: the corner has six chairs and two tables; the librarian recorded an average of 18 visits each school day. Opinion: one student called it the best place in the school. Relevant evidence: 20 of 24 surveyed current visitors said the area was comfortable. Limits: the survey did not include non-users, and there was no before-and-after measure of reading time. Judgment: the records support early use and positive reactions among surveyed visitors, but they do not prove that reading habits improved across the whole school.",
+      "modelTranslation": "Fakta yang dapat diperiksa: sudut baca memiliki enam kursi dan dua meja; pustakawan mencatat rata-rata 18 kunjungan setiap hari sekolah. Opini: seorang siswa menyebutnya tempat terbaik di sekolah. Bukti yang relevan: 20 dari 24 pengunjung yang disurvei mengatakan area itu nyaman. Batasan: survei tidak melibatkan nonpengguna dan tidak ada pengukuran waktu membaca sebelum-sesudah. Penilaian: catatan mendukung adanya penggunaan awal dan tanggapan positif dari pengunjung yang disurvei, tetapi belum membuktikan peningkatan kebiasaan membaca seluruh sekolah.",
+      "criteria": "Jawaban membedakan fakta dan opini, memilih bukti yang sesuai dengan klaim, menyebutkan keterbatasan sampel atau pengukuran, dan tidak membuat kesimpulan lebih luas daripada data."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal Kosakata",
+      "items": [
+        {
+          "english": "verifiable",
+          "indonesian": "dapat diperiksa / diverifikasi"
+        },
+        {
+          "english": "opinion",
+          "indonesian": "opini / pendapat"
+        },
+        {
+          "english": "claim",
+          "indonesian": "klaim / pernyataan yang hendak dibuktikan"
+        },
+        {
+          "english": "evidence",
+          "indonesian": "bukti"
+        },
+        {
+          "english": "relevant",
+          "indonesian": "relevan / berkaitan langsung"
+        },
+        {
+          "english": "sample",
+          "indonesian": "sampel / kelompok yang diteliti"
+        },
+        {
+          "english": "representative",
+          "indonesian": "mewakili kelompok yang lebih luas"
+        },
+        {
+          "english": "sufficient",
+          "indonesian": "cukup / memadai"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
+        },
+        {
+          "english": "counterevidence",
+          "indonesian": "bukti yang berlawanan"
+        },
+        {
+          "english": "alternative explanation",
+          "indonesian": "penjelasan alternatif"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "A report states that 18 visits were recorded each day. It then calls the corner “the best room”. Which part is an opinion?",
+      "choices": [
+        "18 visits were recorded each day.",
+        "The corner is the best room.",
+        "The report was written in May."
+      ],
+      "answer": 1,
+      "explanation": "Ungkapan “the best room” merupakan penilaian. Angka kunjungan dan waktu laporan dapat diperiksa melalui catatan, sedangkan penilaian terbaik membutuhkan kriteria yang jelas.",
+      "translationId": {
+        "prompt": "Sebuah laporan menyebut 18 kunjungan dicatat setiap hari. Laporan itu kemudian menyebut sudut baca sebagai “ruangan terbaik”. Bagian mana yang merupakan opini?",
+        "choices": [
+          "18 kunjungan dicatat setiap hari.",
+          "Sudut baca adalah ruangan terbaik.",
+          "Laporan ditulis pada bulan Mei."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "A survey of 20 current users is used to claim that every student likes the corner. What is the main weakness?",
+      "choices": [
+        "The sample does not include every student.",
+        "The survey contains a number.",
+        "The corner is beside the library."
+      ],
+      "answer": 0,
+      "explanation": "Sampel hanya mencakup 20 pengguna saat ini. Pendapat siswa yang tidak menggunakan sudut baca belum diketahui, sehingga klaim untuk setiap siswa tidak didukung.",
+      "translationId": {
+        "prompt": "Survei terhadap 20 pengguna saat ini dipakai untuk menyatakan bahwa setiap siswa menyukai sudut baca. Apa kelemahan utamanya?",
+        "choices": [
+          "Sampel tidak mencakup setiap siswa.",
+          "Survei memuat angka.",
+          "Sudut baca berada di samping perpustakaan."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "The number of visits increased during the month the corner opened. Which judgment is most careful?",
+      "choices": [
+        "The corner certainly caused the increase.",
+        "The increase proves that every student reads more.",
+        "The two events occurred together, but other explanations should be checked."
+      ],
+      "answer": 2,
+      "explanation": "Kenaikan kunjungan dan pembukaan sudut baca terjadi pada periode yang sama. Hubungan sebab-akibat belum terbukti karena perubahan jadwal atau faktor lain mungkin ikut memengaruhi.",
+      "translationId": {
+        "prompt": "Jumlah kunjungan meningkat pada bulan ketika sudut baca dibuka. Penilaian mana yang paling hati-hati?",
+        "choices": [
+          "Sudut baca pasti menyebabkan kenaikan.",
+          "Kenaikan membuktikan bahwa setiap siswa membaca lebih banyak.",
+          "Kedua kejadian berlangsung bersamaan, tetapi penjelasan lain perlu diperiksa."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "tka-evaluating-facts-opinions-evidence-practice"
+  ]
+}
