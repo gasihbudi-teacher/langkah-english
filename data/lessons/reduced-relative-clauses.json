@@ -13,70 +13,56 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Memendekkan beberapa [[relative clause]] tanpa mengubah hubungan makna dasar antara [[noun]] dan [[verb]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Ingat relative clause",
           "explanation": "Klausa relatif menerangkan kata benda; tentukan kata yang diterangkan sebelum mencoba memendekkannya.",
           "english": "The girl who is reading is my friend.",
           "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
-          "why": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]].",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ingat relative clause»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
+          "why": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
         },
         {
           "title": "Temukan bentuk lengkap",
           "explanation": "Dalam [[students who are waiting]], perhatikan klausa yang menerangkan [[students]].",
           "english": "The books that were donated are useful.",
           "indonesian": "Buku-buku yang disumbangkan itu bermanfaat.",
-          "why": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]].",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan bentuk lengkap»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]]."
+          "why": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]]."
         },
         {
           "title": "Mengapa dipersingkat?",
           "explanation": "Penulis dapat memakai frasa partisipel untuk memadatkan informasi tanpa mengubah rujukan.",
           "english": "The books donated yesterday are useful.",
           "indonesian": "Buku-buku yang disumbangkan kemarin itu bermanfaat.",
-          "why": "[[Donated]] [[yesterday]] adalah bentuk relatif pasif yang dipendekkan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa dipersingkat?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Donated]] [[yesterday]] adalah bentuk relatif pasif yang dipendekkan."
+          "why": "[[Donated]] [[yesterday]] adalah bentuk relatif pasif yang dipendekkan."
         },
         {
           "title": "Pola aktif -ing",
           "explanation": "Dalam konteks tepat, [[who are waiting]] dapat menjadi [[waiting]] jika hubungan aktif dan maknanya terjaga.",
           "english": "The students who are waiting outside are nervous.",
           "indonesian": "Siswa yang sedang menunggu di luar merasa gugup.",
-          "why": "[[Who]] [[are]] [[waiting]] menunjukkan bentuk lengkap.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pola aktif -ing»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Who]] [[are]] [[waiting]] menunjukkan bentuk lengkap."
+          "why": "[[Who]] [[are]] [[waiting]] menunjukkan bentuk lengkap."
         },
         {
           "title": "Pola pasif V3",
           "explanation": "Dalam konteks tepat, [[which was repaired]] dapat menjadi [[repaired]] untuk hubungan pasif.",
           "english": "The documents signed yesterday are on the desk.",
           "indonesian": "Dokumen yang ditandatangani kemarin berada di atas meja.",
-          "why": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]].",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pola pasif v3»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
+          "why": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
         },
         {
           "title": "Bandingkan hasil",
           "explanation": "Baca bentuk lengkap dan pendek berdampingan; cari kata benda yang sama dan hubungan tindakan yang sama.",
           "english": "The reports submitted before Friday will be reviewed first.",
           "indonesian": "Laporan yang dikumpulkan sebelum Jumat akan ditinjau lebih dahulu.",
-          "why": "[[Submitted]] adalah bentuk [[V3]] pasif yang menerangkan [[reports]].",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan hasil»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Submitted]] adalah bentuk [[V3]] pasif yang menerangkan [[reports]]."
+          "why": "[[Submitted]] adalah bentuk [[V3]] pasif yang menerangkan [[reports]]."
         },
         {
           "title": "Jangan sembarang menghapus",
           "explanation": "Tidak semua relative clause dapat direduksi dengan cara mekanis; cek waktu, makna, kejelasan, dan kelaziman bentuknya.",
           "english": "The volunteers carrying water bottles walked toward the crowded hall.",
           "indonesian": "Para relawan yang membawa botol air berjalan menuju aula yang ramai.",
-          "why": "[[Carrying]] [[water]] [[bottles]] menerangkan [[volunteers]] sebagai pelaku.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jangan sembarang menghapus»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Carrying]] [[water]] [[bottles]] menerangkan [[volunteers]] sebagai pelaku."
+          "why": "[[Carrying]] [[water]] [[bottles]] menerangkan [[volunteers]] sebagai pelaku."
         }
       ]
     },

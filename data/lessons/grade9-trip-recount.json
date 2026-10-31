@@ -13,61 +13,49 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Tujuan recount",
           "explanation": "[[Recount]] menceritakan kembali pengalaman nyata yang sudah berlangsung; bukan petunjuk cara melakukan sesuatu.",
           "english": "Our class visited a museum.",
           "indonesian": "Kelas kami mengunjungi museum.",
-          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tujuan recount»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
         },
         {
           "title": "Orientasi: siapa dan di mana?",
           "explanation": "Temukan peserta, tujuan perjalanan, dan waktu terjadinya sebelum membaca daftar kejadian.",
           "english": "Our class visited a museum.",
           "indonesian": "Kelas kami mengunjungi museum.",
-          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «orientasi: siapa dan di mana?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
         },
         {
           "title": "Kenali bentuk lampau",
           "explanation": "Verba seperti [[visited]] atau [[went]] menandai tindakan yang telah terjadi.",
           "english": "First, we met our guide.",
           "indonesian": "Pertama, kami bertemu pemandu.",
-          "why": "“First” menyatakan urutan awal.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali bentuk lampau»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“First” menyatakan urutan awal."
+          "why": "“First” menyatakan urutan awal."
         },
         {
           "title": "Urutkan dengan penanda waktu",
           "explanation": "[[First]], [[then]], dan [[finally]] membantu menempatkan peristiwa secara kronologis.",
           "english": "Finally, we wrote a short report.",
           "indonesian": "Terakhir, kami menulis laporan singkat.",
-          "why": "“Finally” menandai tahap akhir kegiatan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutkan dengan penanda waktu»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“Finally” menandai tahap akhir kegiatan."
+          "why": "“Finally” menandai tahap akhir kegiatan."
         },
         {
           "title": "Kejadian atau kesan?",
           "explanation": "Pisahkan kegiatan yang benar-benar dilakukan dari perasaan penulis tentang kegiatan itu.",
           "english": "I learned to ask better questions.",
           "indonesian": "Saya belajar mengajukan pertanyaan yang lebih baik.",
-          "why": "Ini refleksi: pelajaran yang didapat penulis.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kejadian atau kesan?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini refleksi: pelajaran yang didapat penulis."
+          "why": "Ini refleksi: pelajaran yang didapat penulis."
         },
         {
           "title": "Ceritakan ulang",
           "explanation": "Sampaikan orientasi, urutan kejadian, dan kesan akhir dalam paragraf singkat tanpa mengubah faktanya.",
           "english": "Although the bus was late, we still completed all the activities.",
           "indonesian": "Meskipun bus terlambat, kami tetap menyelesaikan semua kegiatan.",
-          "why": "“Although” menghubungkan hambatan dengan hasil kegiatan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ceritakan ulang»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“Although” menghubungkan hambatan dengan hasil kegiatan."
+          "why": "“Although” menghubungkan hambatan dengan hasil kegiatan."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

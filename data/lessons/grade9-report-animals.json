@@ -13,88 +13,70 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Laporan bukan cerita pribadi",
           "explanation": "[[Report text]] menyampaikan fakta umum mengenai sekelompok hewan, bukan pengalaman satu hewan pada hari tertentu.",
           "english": "Komodo dragons are large lizards.",
           "indonesian": "Komodo adalah kadal berukuran besar.",
-          "why": "Kalimat ini menjelaskan jenis hewan secara umum.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «laporan bukan cerita pribadi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat ini menjelaskan jenis hewan secara umum."
+          "why": "Kalimat ini menjelaskan jenis hewan secara umum."
         },
         {
           "title": "Hewan apa yang dibahas?",
           "explanation": "Kenali nama spesies atau kelompok dan klasifikasi umumnya.",
           "english": "They live on several Indonesian islands.",
           "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
-          "why": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hewan apa yang dibahas?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
+          "why": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
         },
         {
           "title": "Ciri fisik",
           "explanation": "Cari detail bentuk, ukuran, warna, atau bagian tubuh yang secara eksplisit disebut.",
           "english": "Adult komodos can eat large prey.",
           "indonesian": "Komodo dewasa dapat memakan mangsa berukuran besar.",
-          "why": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «ciri fisik»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin."
+          "why": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin."
         },
         {
           "title": "Habitat",
           "explanation": "Tentukan di mana hewan itu biasanya hidup menurut teks, bukan berdasarkan tebakan.",
           "english": "A komodo has strong legs.",
           "indonesian": "Seekor komodo mempunyai kaki yang kuat.",
-          "why": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «habitat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang."
+          "why": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang."
         },
         {
           "title": "Perilaku",
           "explanation": "Kenali tindakan atau kebiasaan umum hewan dari informasi yang didukung teks.",
           "english": "I saw a komodo yesterday.",
           "indonesian": "Saya melihat komodo kemarin.",
-          "why": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perilaku»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
+          "why": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
         },
         {
           "title": "Makanan",
           "explanation": "Bedakan apa yang dimakan hewan dari perkiraan pembaca mengenai kebiasaannya.",
           "english": "Many sea turtles return to nesting beaches to lay eggs.",
           "indonesian": "Banyak penyu laut kembali ke pantai tempat bertelur untuk meletakkan telur.",
-          "why": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «makanan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus."
+          "why": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus."
         },
         {
           "title": "Kalimat fakta umum",
           "explanation": "Perhatikan bagaimana [[simple present]] sering menjelaskan ciri dan kebiasaan spesies.",
           "english": "Orangutans build nests in trees where they rest.",
           "indonesian": "Orangutan membangun sarang di pohon sebagai tempat beristirahat.",
-          "why": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kalimat fakta umum»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu."
+          "why": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu."
         },
         {
           "title": "Saring klaim berlebihan",
           "explanation": "Satu ciri yang disebut tidak membuktikan bahwa semua individu selalu memiliki ciri tersebut tanpa pengecualian.",
           "english": "Although komodos are heavy, they can move quickly over short distances.",
           "indonesian": "Meskipun berat, komodo dapat bergerak cepat dalam jarak pendek.",
-          "why": "“Although” memperkenalkan dua fakta yang tampak berlawanan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «saring klaim berlebihan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“Although” memperkenalkan dua fakta yang tampak berlawanan."
+          "why": "“Although” memperkenalkan dua fakta yang tampak berlawanan."
         },
         {
           "title": "Susun laporan ringkas",
           "explanation": "Gabungkan klasifikasi, ciri, habitat, dan perilaku menjadi laporan pendek yang hanya memuat informasi yang didukung.",
           "english": "Protected habitats help these animals survive when food sources change.",
           "indonesian": "Habitat yang dilindungi membantu hewan-hewan ini bertahan saat sumber makanan berubah.",
-          "why": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «susun laporan ringkas»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita."
+          "why": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

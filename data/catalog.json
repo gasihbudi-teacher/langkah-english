@@ -303,7 +303,7 @@
     {
       "id": "grade9-reading",
       "title": "Grade 9: Reading a Place — Descriptive Text",
-      "description": "Pelajari tujuan teks deskriptif, cara memahami deskripsi tempat, menemukan bukti, menafsirkan kosakata, dan membuat simpulan yang didukung bacaan.",
+      "description": "Pelajari cara memahami deskripsi tempat, menemukan bukti, menafsirkan kosakata, dan membuat simpulan yang didukung bacaan.",
       "type": "lesson",
       "placements": [
         {
@@ -338,7 +338,7 @@
     {
       "id": "grade9-place-reading-check",
       "title": "Grade 9 Reading Check: Describing a Place",
-      "description": "Delapan soal untuk mengukur pemahaman tujuan teks, gagasan utama, detail, rujukan kata, kosakata, dan simpulan berdasarkan teks deskriptif baru.",
+      "description": "Delapan soal untuk mengukur pemahaman gagasan utama, detail, rujukan kata, kosakata, dan simpulan berdasarkan teks deskriptif baru.",
       "type": "quiz",
       "placements": [
         {

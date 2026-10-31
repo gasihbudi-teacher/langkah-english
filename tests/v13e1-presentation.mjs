@@ -48,4 +48,4 @@ const adversarial=blocks([{type:'scaffold',intro:'Baca',steps:[{
  }]}]);
 for(const fragment of ['&lt;script&gt;','&lt;img src=x&gt;','&lt;b&gt;','&lt;svg','&lt;iframe'])assert(adversarial.includes(fragment),`Unsafe or lost escaping: ${fragment}`);
 assert.doesNotMatch(adversarial,/<(?:script|img|iframe|svg|b)(?:\s|>)/i);
-console.log(`PASS V13-E1 presentation: ${validated} lessons rendered, including all ${schoolChecked} core School lessons; no compulsory four-label scaffold; authored checks preserved; optional translations and explanations accessible; HTML escaped.`);
+console.log(`PASS V13-E1 presentation: ${validated} lessons rendered, including all ${schoolChecked} core School lessons; no compulsory four-label scaffold; authored checks rendered only when present; optional translations and explanations accessible; HTML escaped.`);

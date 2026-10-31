@@ -18,12 +18,12 @@
       "steps": [
         {
           "title": "Kenali tempat yang dibahas",
-          "explanation": "Mulailah dengan mencari nama atau frasa yang menunjukkan objek utama. Setelah itu, tentukan tujuan penulis: apakah teks membantu pembaca membayangkan tempat melalui lokasi, ciri, dan kegiatannya?",
+          "explanation": "Mulailah dengan mencari nama atau frasa yang menunjukkan objek utama. Jangan langsung menyimpulkan fungsi tempat sebelum menemukan objeknya.",
           "english": "The school garden is behind the science room.",
           "indonesian": "Taman sekolah berada di belakang ruang sains.",
-          "why": "Frasa [[The school garden]] menunjukkan tempat yang menjadi fokus. Rincian lokasi, benda, dan kegiatan menunjukkan bahwa penulis ingin membantu pembaca membayangkan taman tersebut.",
-          "check": "Tempat apa yang dideskripsikan, dan apa tujuan utama teks model?",
-          "checkAnswer": "Teks mendeskripsikan taman sekolah. Tujuannya membantu pembaca membayangkan taman melalui lokasi, ciri fisik, dan kegiatan yang ada di sana."
+          "why": "Frasa [[The school garden]] menunjukkan tempat yang menjadi fokus bacaan.",
+          "check": "Tempat apa yang menjadi fokus teks model?",
+          "checkAnswer": "Teks model membahas taman sekolah ([[the school garden]])."
         },
         {
           "title": "Temukan letak tempat",
@@ -156,9 +156,9 @@
       "collapsed": false,
       "items": [
         {
-          "english": "A roof covers the bench, so visitors can wait there when it rains.",
-          "indonesian": "Sebuah atap melindungi bangku itu, sehingga pengunjung dapat menunggu di sana ketika hujan turun.",
-          "note": "Frasa [[A roof covers the bench]] menunjukkan ciri fisik tempat. Kata [[so]] menghubungkan keberadaan atap dengan kegunaan bangku saat hujan."
+          "english": "Their branches create shade over the benches, so the seats stay cool at midday.",
+          "indonesian": "Cabang-cabangnya memberi keteduhan di atas bangku, sehingga tempat duduk tetap sejuk pada tengah hari.",
+          "note": "Kata [[Their]] merujuk pada pohon-pohon yang disebut sebelumnya. Hubungan [[create shade]] dan [[so the seats stay cool]] menunjukkan sebab dan akibat dalam satu deskripsi."
         },
         {
           "english": "The reading hut stands near the park entrance.",
@@ -193,19 +193,23 @@
     },
     {
       "type": "breakdown",
-      "sentence": "A roof covers the bench, so visitors can wait there when it rains.",
+      "sentence": "Their branches create shade over the benches, so the seats stay cool at midday.",
       "parts": [
         {
-          "english": "A roof covers the bench",
-          "meaning": "sebuah atap melindungi bangku itu"
+          "english": "Their branches",
+          "meaning": "cabang-cabang pohon yang disebut pada kalimat sebelumnya"
         },
         {
-          "english": "so visitors can wait there",
-          "meaning": "sehingga pengunjung dapat menunggu di sana"
+          "english": "create shade",
+          "meaning": "memberikan keteduhan"
         },
         {
-          "english": "when it rains",
-          "meaning": "ketika hujan turun"
+          "english": "so the seats stay cool",
+          "meaning": "akibatnya, bangku tetap sejuk"
+        },
+        {
+          "english": "at midday",
+          "meaning": "pada tengah hari"
         }
       ]
     },
@@ -248,14 +252,14 @@
           "note": "Frasa [[in front of]] dan [[behind]] menunjukkan posisi yang berbeda. Perhatikan kata lokasi dengan teliti agar tidak tertukar."
         },
         {
-          "english": "The spacious hall has room for several students to sit in groups.",
-          "indonesian": "Aula yang luas memiliki ruang bagi beberapa siswa untuk duduk berkelompok.",
-          "note": "Frasa [[room for several students to sit in groups]] menjadi petunjuk konteks bahwa [[spacious]] berarti luas atau lega."
+          "english": "The narrow path is only wide enough for one person.",
+          "indonesian": "Jalan setapak yang sempit itu hanya cukup lebar untuk satu orang.",
+          "note": "Bagian [[only wide enough for one person]] menjadi petunjuk konteks yang menjelaskan bahwa [[narrow]] berarti tidak lebar."
         },
         {
-          "english": "A fountain stands at the centre of the square, with four paths leading towards it.",
-          "indonesian": "Sebuah air mancur berada di tengah alun-alun, dengan empat jalan setapak yang mengarah ke sana.",
-          "note": "Frasa [[at the centre]] dan [[leading towards it]] membantu pembaca memahami posisi air mancur terhadap jalan setapak."
+          "english": "The pots are arranged in rows: one straight line after another.",
+          "indonesian": "Pot-pot itu disusun dalam beberapa baris: satu garis lurus setelah garis lainnya.",
+          "note": "Penjelasan setelah tanda titik dua memperjelas makna [[rows]], yaitu susunan dalam barisan atau deret."
         },
         {
           "english": "Children read inside the hut after school, and families visit on Saturdays.",
@@ -316,10 +320,6 @@
         {
           "english": "herb",
           "indonesian": "tanaman herbal"
-        },
-        {
-          "english": "spacious",
-          "indonesian": "luas; lega"
         }
       ]
     }
@@ -327,20 +327,20 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What does the notice beside the pond ask visitors not to do?",
+      "prompt": "What is beside the pond?",
       "choices": [
-        "Feed the fish.",
-        "Pick the herb plants.",
-        "Move the benches."
+        "A notice",
+        "A wooden gate",
+        "A herb pot"
       ],
       "answer": 0,
-      "explanation": "Papan pemberitahuan di samping kolam meminta pengunjung untuk tidak memberi makan ikan.",
+      "explanation": "Teks menyebutkan [[A notice beside the pond]], sehingga benda di samping kolam adalah papan pemberitahuan.",
       "translationId": {
-        "prompt": "Apa yang diminta oleh papan pemberitahuan di samping kolam agar tidak dilakukan pengunjung?",
+        "prompt": "Apa yang berada di samping kolam?",
         "choices": [
-          "Memberi makan ikan.",
-          "Memetik tanaman herbal.",
-          "Memindahkan bangku."
+          "Papan pemberitahuan",
+          "Gerbang kayu",
+          "Pot tanaman herbal"
         ]
       }
     },

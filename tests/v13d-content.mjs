@@ -11,7 +11,7 @@ const load=p=>JSON.parse(read(p));
 const cat=load('data/catalog.json');
 
 const baseline=load('tests/fixtures/v13d-v13c5-content-sha256.json');
-const intentional=new Set(['data/lessons/grade9-reading.json']);
+const intentional=new Set([...load('tests/fixtures/v13e1-r2-intentional-content.json'),'data/lessons/grade9-reading.json']);
 for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C5 content changed: ${p}`);
 assert.equal(Object.keys(baseline).length,117);
 const home=load('tests/fixtures/v13d-v13c5-homepage-sha256.json');
@@ -51,5 +51,5 @@ for(const r of cat.resources){const d=load(r.file);if(r.type==='lesson'){steps+=
 assert.equal(steps,610);assert.equal(cards,671);assert.equal(scored,669);assert.equal(quizItems,496);
 const page=read('tka.html').toString(),tka=read('js/tka.js').toString(),i18n=read('js/i18n.js').toString();
 assert.match(page,/id="tka-mock-list"/);assert.match(page,/V13-D \/ THREE ORIGINAL SIMULATIONS/);assert.match(page,/30 soal, enam bacaan, dan timer 45 menit/);assert.match(tka,/mockIds=\['tka-mock-a','tka-mock-b','tka-mock-c'\]/);for(const id of ids)assert(tka.includes(id),`TKA page does not publish ${id}`);assert.match(i18n,/Three original, unofficial simulations/);assert.match(i18n,/Tiga simulasi orisinal dan tidak resmi/);assert.match(i18n,/V13-D · Ten TKA modules and three full practice simulations are available/);assert.match(i18n,/V13-D · Sepuluh modul TKA dan tiga simulasi latihan lengkap sudah tersedia/);
-for(const f of ['index.html','css/style.css','js/home.js','docs/HOMEPAGE-REDESIGN-PREVIEW.md','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage component missing: ${f}`);
-console.log('PASS V13-D: three original 30-question/45-minute unofficial simulations; 18 original A2/B1 passages; 90 mixed-format items; exact evidence, Indonesian feedback, balanced single-answer keys, scoring; all 116 unaffected V13-C5 lesson/quiz files and redesigned homepage core SHA-identical; 121 resources / 610 steps / 671 cards / 669 scored items.');
+for(const f of ['index.html','css/style.css','js/home.js','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage component missing: ${f}`);
+console.log('PASS V13-D: three original 30-question/45-minute unofficial simulations; 18 original A2/B1 passages; 90 mixed-format items; exact evidence, Indonesian feedback, balanced single-answer keys, scoring; all non-remediated V13-C5 lesson/quiz files and redesigned homepage core SHA-identical; 121 resources / 610 steps / 671 cards / 669 scored items.');

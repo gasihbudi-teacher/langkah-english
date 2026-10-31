@@ -75,22 +75,22 @@
     },
     {
       "id": "g9pr4",
-      "prompt": "What is the main purpose of the passage?",
+      "prompt": "Where is the long table?",
       "choices": [
-        "To describe a village reading hut.",
-        "To explain how to build a reading hut.",
-        "To persuade families to visit the park."
+        "Near the window",
+        "Beside the door",
+        "Under the trees"
       ],
       "answer": 0,
-      "explanation": "Bacaan menyebutkan letak, ciri fisik, isi, dan penggunaan pondok baca. Rincian tersebut membantu pembaca membayangkan tempat itu, sehingga tujuan utamanya adalah mendeskripsikan pondok baca.",
+      "explanation": "Bacaan menyebutkan secara langsung bahwa A long table stands near the window. Jadi, meja panjang berada di dekat jendela.",
       "passageId": "village-reading-hut",
-      "evidence": "At the edge of the village park, a small reading hut stands under two large trees. The hut has a red roof and a wide front window.",
+      "evidence": "A long table stands near the window",
       "translationId": {
-        "prompt": "Apa tujuan utama bacaan tersebut?",
+        "prompt": "Di mana letak meja panjang?",
         "choices": [
-          "Untuk mendeskripsikan sebuah pondok baca di desa.",
-          "Untuk menjelaskan cara membangun pondok baca.",
-          "Untuk membujuk keluarga agar mengunjungi taman."
+          "Di dekat jendela",
+          "Di samping pintu",
+          "Di bawah pepohonan"
         ]
       }
     },

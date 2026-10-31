@@ -13,61 +13,49 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Tempat yang diamati",
           "explanation": "Tentukan lokasi dan kondisi lingkungan yang menjadi fokus deskripsi.",
           "english": "The river is narrow.",
           "indonesian": "Sungai itu sempit.",
-          "why": "Kata “narrow” menerangkan ukuran.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tempat yang diamati»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “narrow” menerangkan ukuran."
+          "why": "Kata “narrow” menerangkan ukuran."
         },
         {
           "title": "Cari pengamatan konkret",
           "explanation": "Kumpulkan detail yang benar-benar terlihat, terukur, atau disebut di teks.",
           "english": "The river is narrow.",
           "indonesian": "Sungai itu sempit.",
-          "why": "Kata “narrow” menerangkan ukuran.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «cari pengamatan konkret»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “narrow” menerangkan ukuran."
+          "why": "Kata “narrow” menerangkan ukuran."
         },
         {
           "title": "Kosakata kondisi",
           "explanation": "Kenali kata seperti [[polluted]], [[clean]], [[dry]], atau [[crowded]] dalam konteks.",
           "english": "Plastic bags float near the bridge.",
           "indonesian": "Kantong plastik mengapung di dekat jembatan.",
-          "why": "Ini pengamatan yang dapat dilihat.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kosakata kondisi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini pengamatan yang dapat dilihat."
+          "why": "Ini pengamatan yang dapat dilihat."
         },
         {
           "title": "Lokasi dan tingkat perubahan",
           "explanation": "Ungkapan tempat dan derajat membantu memperjelas lokasi dan berat-ringannya kondisi.",
           "english": "The water smells unpleasant.",
           "indonesian": "Airnya berbau tidak sedap.",
-          "why": "Kalimat mendeskripsikan keadaan air.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «lokasi dan tingkat perubahan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat mendeskripsikan keadaan air."
+          "why": "Kalimat mendeskripsikan keadaan air."
         },
         {
           "title": "Fakta vs dugaan penyebab",
           "explanation": "Air keruh adalah pengamatan; menyalahkan pabrik tertentu tanpa bukti adalah kesimpulan tambahan.",
           "english": "Several plastic bottles were visible near the riverbank.",
           "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
-          "why": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta vs dugaan penyebab»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+          "why": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
         },
         {
           "title": "Gabungkan dalam paragraf",
           "explanation": "Susun kondisi dan lokasi menjadi deskripsi yang jelas dengan klaim sesuai informasi yang tersedia.",
           "english": "Students recorded the colour of the water at three locations rather than making conclusions from one photograph.",
           "indonesian": "Siswa mencatat warna air di tiga lokasi daripada menyimpulkan dari satu foto.",
-          "why": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan dalam paragraf»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
+          "why": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

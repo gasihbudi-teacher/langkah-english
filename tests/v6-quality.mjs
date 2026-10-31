@@ -27,7 +27,7 @@ for(const r of cat.resources){
  assert.ok(groups.every(g=>g.items.every(x=>!x.english.includes('[['))),`${r.id}: English example has Indonesian markup`);
  const vocab=d.blocks.filter(b=>b.type==='vocabulary');
  assert.equal(vocab.length,1,`${r.id}: missing vocabulary`);
- assert.equal(vocab[0].items.length,r.id==='grade9-reading'?9:4,`${r.id}: unexpected vocabulary count`);
+ assert.equal(vocab[0].items.length,r.id==='grade9-reading'?8:4,`${r.id}: unexpected vocabulary count`);
  assert.ok(vocab[0].items.every(x=>x.english&&x.indonesian));
  const breakdown=d.blocks.filter(b=>b.type==='breakdown');
  assert.equal(breakdown.length,1,`${r.id}: missing sentence breakdown`);

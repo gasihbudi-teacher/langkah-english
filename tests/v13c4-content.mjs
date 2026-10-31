@@ -9,7 +9,7 @@ const read=p=>fs.readFileSync(path.join(root,p));
 const load=p=>JSON.parse(read(p));
 const cat=load('data/catalog.json');
 const baseline=load('tests/fixtures/v13c4-v13c3-content-sha256.json');
-const intentional=new Set(['data/lessons/grade9-reading.json']);for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C3 lesson/quiz changed: ${p}`);
+const intentional=new Set([...load('tests/fixtures/v13e1-r2-intentional-content.json'),'data/lessons/grade9-reading.json']);for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C3 lesson/quiz changed: ${p}`);
 assert.equal(Object.keys(baseline).length,109);
 const homeBaseline=load('tests/fixtures/v13c4-v13c3-homepage-sha256.json');
 // V13-E1 presentation patch intentionally appends lesson-only CSS, preserving all V13-C3 homepage rules byte-for-byte.
@@ -40,7 +40,7 @@ for(let i=0;i<ids.length;i++){
  const modelWords=sc.modelEnglish.trim().split(/\s+/).length;assert(modelWords>=200&&modelWords<=300,`${id} guided model length ${modelWords}`);
  assert(sc.modelIndonesian.length>500);
  assert.equal(new Set(sc.steps.map(x=>x.phase)).size,4);
- assert(sc.steps.every(x=>x.title.length>8&&x.explanation.length>50&&x.english.length>8&&x.indonesian.length>8&&x.why.length>30&&x.check.length>40&&x.checkAnswer.length>25));
+ assert(sc.steps.every(x=>x.title.length>8&&x.explanation.length>50&&x.english.length>8&&x.indonesian.length>8&&x.why.length>30));assert(sc.steps.every(x=>(!!x.check)===(!!x.checkAnswer)));
  const examples=lesson.blocks.filter(x=>x.type==='example_group').flatMap(x=>x.items);cards+=examples.length;
  assert.equal(examples.length,10);assert.equal(new Set(examples.map(x=>x.english)).size,10);
  assert(examples.every(x=>x.note.length>50&&x.indonesian.length>8));
@@ -95,5 +95,5 @@ assert.match(page,/V13-D · Sepuluh modul TKA dan tiga simulasi mandiri/);
 assert.match(i18n,/V13-D · Ten TKA modules and three full practice simulations are available/);
 assert.match(i18n,/Sepuluh modul TKA dan tiga simulasi latihan lengkap sudah tersedia/);
 for(const id of [...ids,'tka-classify-outline-summarize-synthesize','tka-context-vocabulary-reference-connectors','tka-implied-ideas-audience-purpose-message','tka-inference-cause-character-prediction'])assert(tka.includes(id),`TKA page does not publish ${id}`);
-for(const f of ['css/style.css','js/home.js','docs/HOMEPAGE-REDESIGN-PREVIEW.md','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage redesign component missing: ${f}`);
-console.log('PASS V13-C4: TKA-07/TKA-08 add 22 steps, 20 explained cards, 6 embedded practices and 24 mixed-format questions; A2/B1 full passages, exact evidence, balanced answer keys, bilingual QA, scoring, all 109 V13-C3 lesson/quiz files and historical homepage rules preserved; 113 resources / 585 steps / 651 cards / 539 scored items.');
+for(const f of ['css/style.css','js/home.js','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage redesign component missing: ${f}`);
+console.log('PASS V13-C4: TKA-07/TKA-08 add 22 steps, 20 explained cards, 6 embedded practices and 24 mixed-format questions; A2/B1 full passages, exact evidence, balanced answer keys, bilingual QA, scoring, all non-remediated V13-C3 lesson/quiz files and historical homepage rules preserved; 113 resources / 585 steps / 651 cards / 539 scored items.');

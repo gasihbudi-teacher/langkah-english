@@ -13,97 +13,77 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Membaca laporan sosial dan membedakan perubahan jumlah dari perubahan persentase. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Topik laporan sosial",
           "explanation": "Tentukan perilaku atau kondisi masyarakat apa yang sedang diamati.",
           "english": "The survey asked students about cycling to school.",
           "indonesian": "Survei menanyai siswa tentang bersepeda ke sekolah.",
-          "why": "Topik survei adalah moda transportasi siswa ke sekolah.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «topik laporan sosial»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Topik survei adalah moda transportasi siswa ke sekolah."
+          "why": "Topik survei adalah moda transportasi siswa ke sekolah."
         },
         {
           "title": "Kelompok yang diteliti",
           "explanation": "Tanyakan orang atau wilayah mana yang termasuk dalam data.",
           "english": "School A surveyed 100 students; School B surveyed 50.",
           "indonesian": "Sekolah A menyurvei 100 siswa; Sekolah B menyurvei 50.",
-          "why": "Responden berasal dari dua sekolah tertentu, bukan seluruh siswa di kota.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kelompok yang diteliti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Responden berasal dari dua sekolah tertentu, bukan seluruh siswa di kota."
+          "why": "Responden berasal dari dua sekolah tertentu, bukan seluruh siswa di kota."
         },
         {
           "title": "Periode pengamatan",
           "explanation": "Hasil tahun berbeda tidak selalu dapat dibandingkan tanpa konteks.",
           "english": "The survey results describe one study period.",
           "indonesian": "Hasil survei menggambarkan satu periode pengamatan.",
-          "why": "Tanpa data periode lain, kita tidak dapat menyimpulkan tren dari tahun ke tahun.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «periode pengamatan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Tanpa data periode lain, kita tidak dapat menyimpulkan tren dari tahun ke tahun."
+          "why": "Tanpa data periode lain, kita tidak dapat menyimpulkan tren dari tahun ke tahun."
         },
         {
           "title": "Variabel dan kategori",
           "explanation": "Kenali hal yang diukur serta kelompok yang dipisahkan dalam tabel atau teks.",
           "english": "Students were grouped by school and cycling response.",
           "indonesian": "Siswa dikelompokkan berdasarkan sekolah dan jawaban bersepeda.",
-          "why": "Kelompok sekolah dan jawaban ya/tidak adalah kategori yang dibandingkan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «variabel dan kategori»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kelompok sekolah dan jawaban ya/tidak adalah kategori yang dibandingkan."
+          "why": "Kelompok sekolah dan jawaban ya/tidak adalah kategori yang dibandingkan."
         },
         {
           "title": "Angka mentah",
           "explanation": "Baca jumlah responden atau kejadian secara tepat.",
           "english": "At School A, 40 students cycled.",
           "indonesian": "Di Sekolah A, 40 siswa bersepeda.",
-          "why": "[[40]] adalah jumlah orang, bukan persentase dari seluruh penduduk kota.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «angka mentah»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[40]] adalah jumlah orang, bukan persentase dari seluruh penduduk kota."
+          "why": "[[40]] adalah jumlah orang, bukan persentase dari seluruh penduduk kota."
         },
         {
           "title": "Arti persentase",
           "explanation": "Persentase selalu membutuhkan total acuan; 40% dari 50 berbeda dari 40% dari 500.",
           "english": "At School B, 25 of 50 students cycled (50%).",
           "indonesian": "Di Sekolah B, 25 dari 50 siswa bersepeda (50%).",
-          "why": "[[25 ÷ 50]] = 50%; persentase harus punya penyebut.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «arti persentase»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[25 ÷ 50]] = 50%; persentase harus punya penyebut."
+          "why": "[[25 ÷ 50]] = 50%; persentase harus punya penyebut."
         },
         {
           "title": "Kenali denominator",
           "explanation": "Temukan penyebut atau jumlah keseluruhan sebelum menyatakan kelompok mana lebih besar.",
           "english": "At School A, 40 of 100 students cycled; at School B, 25 of 50 did.",
           "indonesian": "Di Sekolah A, 40 dari 100 siswa bersepeda; di Sekolah B, 25 dari 50 siswa bersepeda.",
-          "why": "Penyebut 100 dan 50 berbeda; perbandingan proporsi harus memakai penyebut masing-masing.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali denominator»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Penyebut 100 dan 50 berbeda; perbandingan proporsi harus memakai penyebut masing-masing."
+          "why": "Penyebut 100 dan 50 berbeda; perbandingan proporsi harus memakai penyebut masing-masing."
         },
         {
           "title": "Bandingkan ukuran sepadan",
           "explanation": "Bedakan selisih persentase poin dan perubahan persentase relatif; gunakan kategori dan periode yang cocok.",
           "english": "40 of 100 at School A versus 25 of 50 at School B.",
           "indonesian": "40 dari 100 di Sekolah A dibanding 25 dari 50 di Sekolah B.",
-          "why": "Sekolah A punya jumlah lebih banyak (40 > 25), tetapi persentasenya lebih kecil (40% < 50%).",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan ukuran sepadan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Sekolah A punya jumlah lebih banyak (40 > 25), tetapi persentasenya lebih kecil (40% < 50%)."
+          "why": "Sekolah A punya jumlah lebih banyak (40 > 25), tetapi persentasenya lebih kecil (40% < 50%)."
         },
         {
           "title": "Batas sampel",
           "explanation": "Sampel kecil atau tidak mewakili kelompok luas membatasi generalisasi.",
           "english": "The survey did not include students at other schools.",
           "indonesian": "Survei tidak mencakup siswa di sekolah lain.",
-          "why": "Hasilnya tidak boleh dianggap mewakili seluruh kota.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «batas sampel»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Hasilnya tidak boleh dianggap mewakili seluruh kota."
+          "why": "Hasilnya tidak boleh dianggap mewakili seluruh kota."
         },
         {
           "title": "Pilih tafsir terkuat",
           "explanation": "Jawab sesuai populasi, waktu, dan ukuran data yang benar; tolak pilihan yang mengubah korelasi menjadi sebab.",
           "english": "School B had a higher share of cycling students.",
           "indonesian": "Sekolah B memiliki proporsi siswa bersepeda lebih tinggi.",
-          "why": "[[50%]] lebih tinggi daripada [[40%]], tetapi jumlah pesepeda Sekolah B lebih kecil.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pilih tafsir terkuat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[50%]] lebih tinggi daripada [[40%]], tetapi jumlah pesepeda Sekolah B lebih kecil."
+          "why": "[[50%]] lebih tinggi daripada [[40%]], tetapi jumlah pesepeda Sekolah B lebih kecil."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

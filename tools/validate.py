@@ -47,6 +47,12 @@ for r in resources:
                     assert has_check == has_answer, ('Scaffold check and answer must appear together', d['id'], step.get('title'))
                     if has_check:
                         assert len(step['check'].strip()) >= 20 and len(step['checkAnswer'].strip()) >= 10, ('Scaffold check too short', d['id'], step.get('title'))
+                        assert not re.match(r'^Pada contoh tersebut\b', step['check'].strip(), re.I), ('Generic scaffold check is not allowed', d['id'], step.get('title'))
+                        normalize = lambda value: re.sub(r'\s+', ' ', value).strip().casefold()
+                        answer = normalize(step['checkAnswer'])
+                        for displayed in ('why', 'explanation'):
+                            if step.get(displayed):
+                                assert answer != normalize(step[displayed]), ('Scaffold answer repeats visible teaching text', d['id'], step.get('title'), displayed)
                 assert (not b.get('modelEnglish')) or (b.get('modelIndonesian') and b.get('modelTitle'))
             if b['type']=='checkpoint':
                 assert len(b['choices']) == len(b['translationChoices']) == 3 and 0 <= b['answer'] < 3

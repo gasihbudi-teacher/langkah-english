@@ -13,70 +13,56 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Biografi berbasis fakta",
           "explanation": "Biografi melaporkan kehidupan tokoh nyata; bedakan dari cerita imajinatif.",
           "english": "Maya started a reading club.",
           "indonesian": "Maya memulai klub membaca.",
-          "why": "Ini tindakan tokoh di masa lalu.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «biografi berbasis fakta»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini tindakan tokoh di masa lalu."
+          "why": "Ini tindakan tokoh di masa lalu."
         },
         {
           "title": "Siapa tokohnya?",
           "explanation": "Kenali nama, latar, dan bidang kontribusi orang yang dibahas.",
           "english": "Maya started a reading club.",
           "indonesian": "Maya memulai klub membaca.",
-          "why": "Ini tindakan tokoh di masa lalu.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «siapa tokohnya?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini tindakan tokoh di masa lalu."
+          "why": "Ini tindakan tokoh di masa lalu."
         },
         {
           "title": "Keadaan awal",
           "explanation": "Baca pengalaman atau masalah awal yang membentuk fokus kegiatan tokoh.",
           "english": "She invited local volunteers.",
           "indonesian": "Ia mengundang relawan setempat.",
-          "why": "Kata “She” merujuk pada Maya.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «keadaan awal»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata “She” merujuk pada Maya."
+          "why": "Kata “She” merujuk pada Maya."
         },
         {
           "title": "Urutkan waktu hidup",
           "explanation": "Gunakan penanda waktu untuk menyusun perkembangan hidup secara kronologis.",
           "english": "The club later cleaned a riverbank.",
           "indonesian": "Klub itu kemudian membersihkan tepi sungai.",
-          "why": "“later” menandai perkembangan kegiatan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «urutkan waktu hidup»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“later” menandai perkembangan kegiatan."
+          "why": "“later” menandai perkembangan kegiatan."
         },
         {
           "title": "Tindakan nyata",
           "explanation": "Identifikasi proyek, kampanye, penelitian, atau pekerjaan yang benar-benar dilakukan tokoh.",
           "english": "She organised ten clean-ups.",
           "indonesian": "Ia menyelenggarakan sepuluh kegiatan bersih-bersih.",
-          "why": "Ini pencapaian yang dapat dihitung.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tindakan nyata»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini pencapaian yang dapat dihitung."
+          "why": "Ini pencapaian yang dapat dihitung."
         },
         {
           "title": "Hasil yang tercatat",
           "explanation": "Bedakan capaian yang disebutkan dari pujian umum yang tidak disertai bukti.",
           "english": "She was the greatest leader ever.",
           "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
-          "why": "Ini penilaian yang memerlukan kriteria.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hasil yang tercatat»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Ini penilaian yang memerlukan kriteria."
+          "why": "Ini penilaian yang memerlukan kriteria."
         },
         {
           "title": "Pengaruh secara proporsional",
           "explanation": "Jelaskan hubungan tindakan dengan dampaknya tanpa mengklaim seluruh perubahan disebabkan satu orang.",
           "english": "Although early meetings attracted only a few people, the group gradually gained more volunteers.",
           "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit orang, kelompok itu perlahan memperoleh lebih banyak relawan.",
-          "why": "Kalimat menunjukkan perkembangan kerja tokoh.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pengaruh secara proporsional»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kalimat menunjukkan perkembangan kerja tokoh."
+          "why": "Kalimat menunjukkan perkembangan kerja tokoh."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

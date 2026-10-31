@@ -13,61 +13,49 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Kata benda utama",
           "explanation": "Dalam kelompok kata, cari nomina yang menjadi inti rujukan sebelum mengenali kata penjelas.",
           "english": "a bird",
           "indonesian": "seekor burung",
-          "why": "“bird” adalah kata benda inti.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kata benda utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“bird” adalah kata benda inti."
+          "why": "“bird” adalah kata benda inti."
         },
         {
           "title": "Determiner",
           "explanation": "[[A]], [[the]], dan [[these]] membantu menunjukkan rujukan nomina tetapi bukan kepala frasa.",
           "english": "a bird",
           "indonesian": "seekor burung",
-          "why": "“bird” adalah kata benda inti.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «determiner»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“bird” adalah kata benda inti."
+          "why": "“bird” adalah kata benda inti."
         },
         {
           "title": "Adjective",
           "explanation": "Kata sifat seperti [[small]] menjelaskan sifat nomina; tanyakan kata mana yang diterangkan.",
           "english": "a small bird",
           "indonesian": "seekor burung kecil",
-          "why": "“small” menerangkan ukuran.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «adjective»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“small” menerangkan ukuran."
+          "why": "“small” menerangkan ukuran."
         },
         {
           "title": "Perluas dengan detail",
           "explanation": "Tambahkan lebih dari satu penjelas yang relevan tanpa kehilangan nomina utamanya.",
           "english": "a small brown bird",
           "indonesian": "seekor burung kecil berwarna cokelat",
-          "why": "“brown” menambah informasi warna.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «perluas dengan detail»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "“brown” menambah informasi warna."
+          "why": "“brown” menambah informasi warna."
         },
         {
           "title": "Penjelas sesudah noun",
           "explanation": "Frasa seperti [[with a long tail]] memberikan detail tambahan mengenai nomina yang mendahuluinya.",
           "english": "a box for recycled paper",
           "indonesian": "sebuah kotak untuk kertas daur ulang",
-          "why": "Keterangan setelah “box” menjelaskan fungsi kotak.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «penjelas sesudah noun»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Keterangan setelah “box” menjelaskan fungsi kotak."
+          "why": "Keterangan setelah “box” menjelaskan fungsi kotak."
         },
         {
           "title": "Bandingkan rujukan",
           "explanation": "[[The red bottle]] dan [[the blue bottle]] dapat menunjuk benda berbeda; jelaskan bagian yang membatasi makna.",
           "english": "The small grey bird near the window has a bright yellow tail.",
           "indonesian": "Burung kecil berwarna abu-abu dekat jendela memiliki ekor kuning terang.",
-          "why": "Temukan inti “bird” sebelum membaca keterangan lainnya.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan rujukan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Temukan inti “bird” sebelum membaca keterangan lainnya."
+          "why": "Temukan inti “bird” sebelum membaca keterangan lainnya."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

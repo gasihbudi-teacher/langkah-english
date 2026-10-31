@@ -11,7 +11,7 @@ async def main():
  results=[]
  async with async_playwright() as p:
   browser=await p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
-  for lesson_id in ['grade9-reading','grade10-descriptive','grade12-caption-text','tka-reading-foundations']:
+  for lesson_id in ['sentence-structure','grade9-reading','grade10-descriptive','grade12-critical-reading','grade12-caption-text','utbk-critical-inference','tka-evaluating-facts-opinions-evidence','tka-reading-foundations']:
    page=await browser.new_page(viewport={'width':390,'height':844})
    errors=[]
    page.on('pageerror',lambda e:errors.append(str(e)))
@@ -26,14 +26,16 @@ async def main():
    assert await aids.count()>=5,lesson_id
    first=aids.first
    assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Translation should be optional')
-   await first.locator('summary').click()
-   assert await first.evaluate('(el)=>el.open'),(lesson_id,'Translation should open')
+   await first.locator('summary').focus()
+   await first.locator('summary').press('Enter')
+   assert await first.evaluate('(el)=>el.open'),(lesson_id,'Keyboard activation should open translation')
    assert len((await first.locator('p').inner_text()).strip())>5,lesson_id
    checks=page.locator('.scaffold-review details')
    if await checks.count():
     first_check=checks.first
     assert not await first_check.evaluate('(el)=>el.open')
-    await first_check.locator('summary').click()
+    await first_check.locator('summary').focus()
+    await first_check.locator('summary').press('Enter')
     assert await first_check.evaluate('(el)=>el.open')
     assert len((await first_check.locator('p').inner_text()).strip())>=10
    overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
@@ -41,6 +43,11 @@ async def main():
    if lesson_id=='grade9-reading':
     assert await page.locator('#belajar-langkah-4 .scaffold-review').count()==0
     await page.screenshot(path='/mnt/data/langkah-renderer-grade9-mobile.png',full_page=False)
+   if lesson_id in ['grade10-descriptive','grade12-critical-reading','utbk-critical-inference']:
+    assert await checks.count()==0,(lesson_id,'Explanation-only pilot should not show an answer disclosure')
+   if lesson_id=='sentence-structure':
+    assert await checks.count()==1,(lesson_id,'Only the purposeful object-contrast check should remain')
+    assert 'direct object' in (await page.locator('.scaffold-review').inner_text()).lower()
    assert not errors,(lesson_id,errors)
    results.append({'lesson':lesson_id,'optional_translations':await aids.count(),'authored_checks':await checks.count(),'overflow_px':overflow,'errors':errors})
    await page.close()

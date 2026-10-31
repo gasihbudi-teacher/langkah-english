@@ -91,7 +91,7 @@
           "explanation": "Pada latihan kategori lokal, semua baris harus dipasangkan dengan kategori yang tepat agar jawaban lengkap dinilai benar. Baca kategori, cocokkan satu per satu, dan kembali ke bukti untuk baris yang meragukan.",
           "english": "The centre recorded 23 items because some visitors brought more than one.",
           "indonesian": "Pusat komunitas mencatat 23 barang karena beberapa pengunjung membawa lebih dari satu barang.",
-          "why": "Pernyataan ini dinyatakan langsung. Pernyataan bahwa setiap perbaikan bertahan tidak didukung karena tidak ada tindak lanjut.",
+          "why": "Setiap pernyataan pada soal kategori harus dipasangkan dengan kategori yang tepat. Baris kosong berarti ada pernyataan yang belum dinilai, sehingga respons belum lengkap.",
           "check": "Mengapa satu baris kosong membuat tugas klasifikasi belum lengkap?",
           "checkAnswer": "Karena tugas meminta keputusan untuk setiap pernyataan; semua baris harus diperiksa dan diisi.",
           "phase": "Menyelesaikan semua format secara mandiri"

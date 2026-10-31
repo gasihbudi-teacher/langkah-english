@@ -13,97 +13,77 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Bukan sekadar memahami isi",
           "explanation": "Membaca kritis berarti memeriksa apakah alasan dan kesimpulan penulis benar-benar didukung informasi.",
           "english": "Twenty students answered the survey.",
           "indonesian": "Dua puluh siswa menjawab survei.",
-          "why": "Kenali ukuran sampel, bukan hanya hasilnya.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bukan sekadar memahami isi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kenali ukuran sampel, bukan hanya hasilnya."
+          "why": "Kenali ukuran sampel, bukan hanya hasilnya."
         },
         {
           "title": "Kenali topik persoalan",
           "explanation": "Tentukan pertanyaan yang diperdebatkan sebelum menilai kesimpulan.",
           "english": "Twenty students answered the survey.",
           "indonesian": "Dua puluh siswa menjawab survei.",
-          "why": "Kenali ukuran sampel, bukan hanya hasilnya.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «kenali topik persoalan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kenali ukuran sampel, bukan hanya hasilnya."
+          "why": "Kenali ukuran sampel, bukan hanya hasilnya."
         },
         {
           "title": "Tandai klaim utama",
           "explanation": "Cari pendapat atau interpretasi yang ingin diterima pembaca.",
           "english": "All students love the new schedule.",
           "indonesian": "Semua siswa menyukai jadwal baru.",
-          "why": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «tandai klaim utama»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil."
+          "why": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil."
         },
         {
           "title": "Pisahkan alasan",
           "explanation": "Alasan menjelaskan mengapa klaim diajukan, tetapi belum tentu membuktikannya.",
           "english": "The results suggest interest among respondents.",
           "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
-          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «pisahkan alasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
+          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
         },
         {
           "title": "Temukan bukti",
           "explanation": "Cari data, contoh, atau kutipan yang benar-benar ada di teks.",
           "english": "Fifteen preferred the new schedule.",
           "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
-          "why": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «temukan bukti»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+          "why": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
         },
         {
           "title": "Hubungkan bukti dan klaim",
           "explanation": "Periksa apakah bukti mendukung kesimpulan tersebut secara langsung atau hanya berkaitan longgar.",
           "english": "Most surveyed students preferred the new schedule.",
           "indonesian": "Sebagian besar siswa yang disurvei lebih menyukai jadwal baru.",
-          "why": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «hubungkan bukti dan klaim»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh."
+          "why": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh."
         },
         {
           "title": "Fakta dan tafsir",
           "explanation": "Pernyataan hasil pengamatan berbeda dari tafsiran penulis terhadap hasil itu.",
           "english": "The results suggest interest among respondents.",
           "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
-          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «fakta dan tafsir»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
+          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
         },
         {
           "title": "Asumsi dan keterbatasan",
           "explanation": "Cari hal yang dianggap benar tanpa bukti atau kelompok yang tidak tercakup dalam data.",
           "english": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
           "indonesian": "Artikel itu melaporkan tiga percobaan berhasil, tetapi tidak menyebutkan percobaan yang gagal.",
-          "why": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «asumsi dan keterbatasan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
+          "why": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
         },
         {
           "title": "Nilai simpulan",
           "explanation": "Bandingkan simpulan yang sesuai data dengan simpulan yang terlalu pasti atau bertentangan.",
           "english": "A headline says the method always works, yet the article tested it only twice.",
           "indonesian": "Judul menyatakan metode itu selalu berhasil, padahal artikel hanya mengujinya dua kali.",
-          "why": "Kata mutlak [[always]] melampaui jangkauan bukti berupa dua pengujian.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «nilai simpulan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kata mutlak [[always]] melampaui jangkauan bukti berupa dua pengujian."
+          "why": "Kata mutlak [[always]] melampaui jangkauan bukti berupa dua pengujian."
         },
         {
           "title": "Beri alasan dari teks",
           "explanation": "Sampaikan penilaian dengan menunjuk kalimat, angka, dan batas informasi secara tepat.",
           "english": "The author cites responses from five volunteers and concludes that those volunteers valued the new library hours.",
           "indonesian": "Penulis mengutip tanggapan lima relawan dan menyimpulkan bahwa mereka menghargai jam buka perpustakaan yang baru.",
-          "why": "Kesimpulan dibatasi pada responden sehingga tidak menggeneralisasi berlebihan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «beri alasan dari teks»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kesimpulan dibatasi pada responden sehingga tidak menggeneralisasi berlebihan."
+          "why": "Kesimpulan dibatasi pada responden sehingga tidak menggeneralisasi berlebihan."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

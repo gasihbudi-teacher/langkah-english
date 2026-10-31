@@ -13,97 +13,77 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari setiap bagian secara berurutan. Di tiap langkah, baca penjelasan bahasa Indonesia, amati contoh bahasa Inggris dan artinya, kemudian jawab pertanyaan kecil untuk memeriksa pemahaman. Tidak perlu terburu-buru; kamu boleh mengulang langkah mana pun.",
+      "intro": "Fokus materi: Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
       "steps": [
         {
           "title": "Mengapa memakai visual?",
           "explanation": "Poster dan infografik menyatukan teks, angka, dan gambar untuk menyampaikan pesan tertentu.",
           "english": "The event starts at 8 a.m.",
           "indonesian": "Acara dimulai pukul delapan pagi.",
-          "why": "Waktu adalah informasi faktual.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «mengapa memakai visual?»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Waktu adalah informasi faktual."
+          "why": "Waktu adalah informasi faktual."
         },
         {
           "title": "Baca judul dan tujuan",
           "explanation": "Judul membantu mengetahui pertanyaan apa yang sedang dijawab sebuah visual.",
           "english": "SCHOOL READING WEEK — Monday: book exchange.",
           "indonesian": "PEKAN MEMBACA SEKOLAH — Senin: tukar buku.",
-          "why": "Judul memberi tema umum, sedangkan baris hari Senin menyebut salah satu kegiatan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca judul dan tujuan»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Judul memberi tema umum, sedangkan baris hari Senin menyebut salah satu kegiatan."
+          "why": "Judul memberi tema umum, sedangkan baris hari Senin menyebut salah satu kegiatan."
         },
         {
           "title": "Judul kecil dan label",
           "explanation": "Label menunjukkan arti tiap bagian; jangan membaca angka tanpa labelnya.",
           "english": "Thirty students registered.",
           "indonesian": "Tiga puluh siswa telah mendaftar.",
-          "why": "Angka perlu dihubungkan dengan apa yang dihitung.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «judul kecil dan label»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Angka perlu dihubungkan dengan apa yang dihitung."
+          "why": "Angka perlu dihubungkan dengan apa yang dihitung."
         },
         {
           "title": "Simbol dan legenda",
           "explanation": "Warna atau ikon hanya bermakna jika dipahami menurut legenda atau penjelasan yang disediakan.",
           "english": "♻ = recycling point; ✓ = registration completed.",
           "indonesian": "♻ = titik daur ulang; ✓ = pendaftaran selesai.",
-          "why": "Makna ikon harus mengikuti legenda yang diberikan pada visual, bukan selalu makna pribadi pembaca.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «simbol dan legenda»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Makna ikon harus mengikuti legenda yang diberikan pada visual, bukan selalu makna pribadi pembaca."
+          "why": "Makna ikon harus mengikuti legenda yang diberikan pada visual, bukan selalu makna pribadi pembaca."
         },
         {
           "title": "Baca angka",
           "explanation": "Identifikasi angka mentah dan pastikan terkait dengan kategori yang benar.",
           "english": "20 students joined on Monday.",
           "indonesian": "Dua puluh siswa ikut pada hari Senin.",
-          "why": "Angka ini menghitung orang.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «baca angka»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Angka ini menghitung orang."
+          "why": "Angka ini menghitung orang."
         },
         {
           "title": "Satuan dan persentase",
           "explanation": "[[30%]] berbeda dari [[30 people]]; pahami total acuan dan satuannya.",
           "english": "30% of 100 students chose Friday.",
           "indonesian": "30% dari 100 siswa memilih Jumat.",
-          "why": "[[30%]] menyatakan 30 dari setiap 100; pahami total acuan sebelum membandingkan angka.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «satuan dan persentase»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[30%]] menyatakan 30 dari setiap 100; pahami total acuan sebelum membandingkan angka."
+          "why": "[[30%]] menyatakan 30 dari setiap 100; pahami total acuan sebelum membandingkan angka."
         },
         {
           "title": "Gabungkan dengan kategori",
           "explanation": "Hubungkan angka dengan kelompok dan periode waktu yang dimaksud.",
           "english": "The chart compares percentages, so the bars do not represent the number of students directly.",
           "indonesian": "Grafik itu membandingkan persentase, sehingga batangnya tidak langsung menunjukkan jumlah siswa.",
-          "why": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «gabungkan dengan kategori»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan."
+          "why": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan."
         },
         {
           "title": "Bandingkan informasi",
           "explanation": "Bandingkan bagian yang memang menggunakan satuan dan ukuran sebanding.",
           "english": "According to the timetable, the second workshop lasts forty-five minutes.",
           "indonesian": "Menurut jadwal, lokakarya kedua berlangsung empat puluh lima menit.",
-          "why": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «bandingkan informasi»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai."
+          "why": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai."
         },
         {
           "title": "Simpulan yang dibatasi data",
           "explanation": "Visual tidak otomatis menjelaskan sebab suatu perubahan; jangan menambah hasil yang tidak ditampilkan.",
           "english": "The poster reports more registrations on Wednesday, but it does not show how many people actually attended.",
           "indonesian": "Poster melaporkan lebih banyak pendaftaran hari Rabu, tetapi tidak menampilkan jumlah kehadiran sebenarnya.",
-          "why": "Pendaftaran dan kehadiran bukan ukuran yang sama.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «simpulan yang dibatasi data»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Pendaftaran dan kehadiran bukan ukuran yang sama."
+          "why": "Pendaftaran dan kehadiran bukan ukuran yang sama."
         },
         {
           "title": "Jelaskan pesan utuh",
           "explanation": "Jawab pertanyaan tentang poster dengan bukti dari judul, label, angka, dan konteksnya.",
           "english": "Because the chart shows only three days, we cannot conclude that interest rose throughout the month.",
           "indonesian": "Karena grafik hanya menunjukkan tiga hari, kita tidak bisa menyimpulkan minat terus naik sepanjang bulan.",
-          "why": "Kesimpulan harus sesuai cakupan data.",
-          "check": "Pada contoh tersebut, apa petunjuk yang perlu kamu perhatikan untuk memahami «jelaskan pesan utuh»? Coba jelaskan dengan kata-katamu sendiri sebelum membuka jawaban.",
-          "checkAnswer": "Kesimpulan harus sesuai cakupan data."
+          "why": "Kesimpulan harus sesuai cakupan data."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

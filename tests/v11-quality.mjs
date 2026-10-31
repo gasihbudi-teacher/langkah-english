@@ -40,7 +40,7 @@ for(const entry of lessons){
  }
  distribution.set(guide.steps.length,(distribution.get(guide.steps.length)||0)+1);
 }
-assert.ok(steps>=420 && models>=30 && checks>=steps-1 && checks<=steps,`Expected optional checks without making them mandatory (${checks}/${steps})`);
+assert.ok(steps>=420 && models>=30 && checks>0 && checks<steps,`Expected meaningful optional checks, not a per-step quota (${checks}/${steps})`);
 assert.ok(distribution.size>=5,'The step counts are still too uniform');
 const core=read('js/core.js');
 assert.ok(core.includes('scaffoldModel(b)')&&core.includes('scaffold-review'),'Model passage or checks not rendered');
@@ -51,4 +51,4 @@ const s=schema.properties.blocks.items.oneOf.find(x=>x.properties.type.const==='
 assert.ok(s.properties.steps.maxItems>=20,'Schema still rejects longer scaffolds');
 for(const k of ['check','checkAnswer'])assert.ok(s.properties.steps.items.properties[k],`Schema omits ${k}`);
 assert.deepEqual(s.properties.steps.items.dependentRequired,{check:['checkAnswer'],checkAnswer:['check']},'Optional scaffold checks must be paired');
-console.log(`PASS V11: ${lessons.length} lessons, ${steps} individualized learning steps, ${checks} optional revealable comprehension checks, ${models} bilingual connected models, ${quizzes.length} registered quizzes. Distribution: ${[...distribution].sort((a,b)=>a[0]-b[0]).map(([k,v])=>`${k} steps × ${v}`).join(', ')}`);
+console.log(`PASS V11: ${lessons.length} lessons, ${steps} individualized learning steps, ${checks} purposeful optional comprehension checks, ${models} bilingual connected models, ${quizzes.length} registered quizzes. Distribution: ${[...distribution].sort((a,b)=>a[0]-b[0]).map(([k,v])=>`${k} steps × ${v}`).join(', ')}`);
