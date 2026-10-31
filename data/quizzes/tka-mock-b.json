@@ -1,0 +1,1241 @@
+{
+  "id": "tka-mock-b",
+  "questionCount": 30,
+  "durationSeconds": 2700,
+  "passages": [
+    {
+      "id": "market-square",
+      "title": "The Old Market Square · Original A2 Practice Text",
+      "text": "The old market square stands between the bus station and the river road. It is a wide paved area with a clock tower in the centre, four covered seating areas and a line of small shops along its northern edge. A public noticeboard beside the clock tower displays market hours, cleaning dates and community announcements. Two rubbish bins stand beside the seating area, and a drinking-water tap is located near the bus stop. On weekday mornings, sellers place baskets of fruit and vegetables near the entrances.\n\nA narrow path runs from the western gate to the river road. People who use wheelchairs can enter the square through a level ramp at the southern gate, although the path near the flower stall becomes crowded at lunchtime. The square is busiest on Saturday mornings, when families visit the market and musicians sometimes perform near the clock tower.\n\nThe town office has prepared a visitor map showing the entrances, toilets, seating areas and bus stops. The map does not show every temporary stall because their positions change from week to week. It is intended to help visitors find basic facilities, not to promise that every path will remain clear throughout the day. The square is a shared public place, and its appearance changes as sellers, visitors and cleaners use it.",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive"
+    },
+    {
+      "id": "radio-project",
+      "title": "The Student Radio Project · Original A2 Practice Text",
+      "text": "In August, students at Riverbank School helped the community radio station prepare a weekly programme for local families. The project began when the station asked the school to make short announcements about library events, health services and changes to bus times. Twelve students volunteered, and a teacher helped them plan the first recording session.\n\nAt the beginning, the students wrote long announcements and read them quickly. The station manager explained that listeners needed time to understand dates, addresses and instructions. The group then divided each announcement into shorter sentences and repeated important times once. They also asked the library and bus office to check the information before recording it. The first programme was broadcast on Friday at six in the evening. A printed schedule was placed at the school gate for people who did not listen to the radio.\n\nAfter four weeks, the station received nine messages from listeners. Six asked for more information about library activities, while three requested a slower reading speed. The students changed the programme order and added a short pause between topics. They did not survey every listener, so the messages cannot represent the views of the whole community. Still, the project taught students that clear communication requires accurate information, suitable language and attention to the audience. The station invited the group to continue for another month.",
+      "proficiencyTarget": "A2",
+      "genre": "recount"
+    },
+    {
+      "id": "mapmakers-promise",
+      "title": "The Mapmaker’s Promise · Original B1 Practice Text",
+      "text": "Every afternoon, Dina visited her aunt's small map shop after school. The shop was crowded with rolled charts, old travel guides and boxes of coloured pencils. Her aunt made maps for walking groups and local history projects. Dina enjoyed drawing roads, but she disliked checking names and distances because the work seemed slow.\n\nOne day, a visitor asked for a map showing the safest walking route to the village clinic. Dina quickly marked the shortest road and handed over the paper. Her aunt looked at it carefully. The route crossed a bridge that had been closed for repairs. Dina felt embarrassed when the visitor explained that she had almost used the map the previous week. Her aunt did not scold her. Instead, she asked Dina to visit the road with a notebook and check each crossing, sign and temporary barrier.\n\nDina returned the next afternoon with new notes. She had found a longer route with a level pavement and a clear crossing near the clinic. She also wrote the date of the inspection at the bottom of the map. Her aunt explained that a map is not simply a picture of a place; it is a promise that the information has been checked for the person who will use it. Dina began to understand why careful details mattered. The new map took longer to finish, but she was proud that it could help someone make a safer choice. From then on, she treated every name and route as something that deserved attention.",
+      "proficiencyTarget": "B1",
+      "genre": "narrative"
+    },
+    {
+      "id": "field-interview",
+      "title": "Preparing a Safe Field Interview · Original A2 Practice Text",
+      "text": "A short field interview can help students learn how people use a public service. Before leaving school, choose one clear question, such as how visitors find the community library. Ask the teacher to approve the plan and prepare a notebook, two pens and a school identification card. Students should work in pairs and remain in the agreed public area.\n\nFirst, introduce yourselves and explain the school project in one or two sentences. Ask whether the person has time to answer a few questions. If the person says no, thank them and move away. Next, ask the prepared question and listen without interrupting. Write down the main points rather than trying to record every word. Do not ask for private information such as a home address, phone number or account details. If you want to record a voice, ask for clear permission before turning on the device. Do not publish a person's name or photograph without permission.\n\nAfter the interview, thank the participant and check that your notes are readable. Back at school, compare the answers with those from other participants and explain how many people took part. A small interview group can offer useful examples, but it cannot represent every visitor. Students should report the limits of their sample and avoid presenting one person's view as the opinion of the whole community.",
+      "proficiencyTarget": "A2",
+      "genre": "procedure"
+    },
+    {
+      "id": "repair-cafes",
+      "title": "Why Repair Cafés Matter · Original B1 Practice Text",
+      "text": "Community repair cafés give people a place to learn how to maintain everyday objects instead of throwing them away immediately. At a typical event, volunteers with practical experience help visitors inspect a loose chair, a torn bag or a bicycle with a simple problem. The visitor remains involved in the repair, so the event is also a learning activity.\n\nThese cafés can offer three benefits. They may extend the useful life of objects, reduce the amount of material sent to waste facilities and help neighbours share skills. They can also make repair feel less intimidating because visitors can ask questions while working. A local group may begin with one monthly session in a library or community hall, using donated tools and a clear safety policy. Items that require specialist knowledge should be referred to qualified repair services. A sign at each table can explain which tasks are suitable for volunteers and which require a trained technician.\n\nHowever, repair cafés cannot solve every waste problem. Some products are difficult to open, spare parts may be unavailable and electrical faults can be unsafe for volunteers. Attendance figures alone do not show how much waste was prevented, because an item might have been repaired elsewhere or replaced later. Organisers should record the types of items inspected, the repairs completed and the cases referred to professionals. A repair café is best understood as one useful part of a wider approach to responsible consumption. Its value lies in practical learning and shared responsibility, not in a claim that every object can or should be repaired.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition"
+    },
+    {
+      "id": "bus-pilot",
+      "title": "A Public Bus Pilot · Original B1 Practice Text",
+      "text": "The town transport office tested a new bus route for eight weeks between the railway station, the health centre and two residential areas. The pilot used one small bus on weekdays and a larger vehicle on Saturday mornings. Staff recorded passenger numbers at each stop, arrival times and comments submitted through paper forms. The aim was to understand whether the route connected places that residents often needed to visit.\n\nDuring the pilot, the bus carried an average of 74 passenger trips each weekday. This number counts trips, not individual people, because some passengers used the service more than once. The health-centre stop had the highest number of recorded boardings. The office did not measure whether residents stopped using private vehicles or whether town-wide traffic changed. On rainy afternoons, the bus was sometimes delayed near the market road. The transport office received 32 feedback forms: 21 respondents asked for an earlier first service, while 11 requested a later evening bus. The forms were voluntary, so they may not represent all passengers.\n\nThe pilot also took place during a school holiday, when normal travel patterns may have changed. The office has not yet compared travel times with other routes or measured whether residents stopped using private vehicles. The office concluded that the route was used and that the health-centre connection was important to many respondents. It plans to repeat the measurements during a regular school term and publish the method used to count passenger trips. The early figures can guide further planning, but they are not enough to prove that the new route has reduced traffic across the town.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report"
+    }
+  ],
+  "questions": [
+    {
+      "questionType": "single",
+      "prompt": "What is the passage mainly describing?",
+      "translationId": {
+        "prompt": "Apa yang terutama digambarkan dalam bacaan?",
+        "choices": [
+          "Tata letak dan fasilitas alun-alun pasar lama.",
+          "Sejarah menara jam.",
+          "Langkah membangun kios pasar.",
+          "Survei terhadap seluruh pengunjung pasar."
+        ]
+      },
+      "choices": [
+        "The layout and facilities of the old market square.",
+        "The history of the clock tower.",
+        "The steps for building a market stall.",
+        "A survey of all market visitors."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the whole text describes the square and its facilities.",
+        "The clock tower is mentioned but its history is not given.",
+        "No construction procedure is described. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No survey of all visitors is reported. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "The old market square stands between the bus station and the river road.",
+      "explanation": "Bacaan menyatakan: “The old market square stands between the bus station and the river road.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Main idea",
+      "id": "q01",
+      "passageId": "market-square",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which facilities are mentioned in the square? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Fasilitas apa saja yang disebutkan di alun-alun? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Empat area duduk beratap.",
+          "Papan pengumuman umum.",
+          "Keran air minum.",
+          "Bioskop dalam ruangan permanen."
+        ]
+      },
+      "choices": [
+        "Four covered seating areas.",
+        "A public noticeboard.",
+        "A drinking-water tap.",
+        "A permanent indoor cinema."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: four covered seating areas are described.",
+        "Correct: the noticeboard is beside the clock tower.",
+        "Correct: a drinking-water tap is near the bus stop.",
+        "The passage does not mention a cinema. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "It is a wide paved area with a clock tower in the centre, four covered seating areas and a line of small shops along its northern edge. A public noticeboard beside the clock tower displays market hours, cleaning dates and community announcements. Two rubbish bins stand beside the seating area, and a drinking-water tap is located near the bus stop.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “It is a wide paved area with a clock tower in the centre, four covered seating areas and a line of small shops along its northern edge. A public noticeboard beside the clock tower displays market hours, cleaning dates and community announcements. Two rubbish bins stand beside the seating area, and a drinking-water tap is located near the bus stop.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Finding descriptive details",
+      "id": "q02",
+      "passageId": "market-square",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the market square.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang alun-alun pasar.",
+        "categories": [
+          "Disebutkan langsung",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Alun-alun paling ramai pada Sabtu pagi.",
+          "Pengunjung mungkin perlu memeriksa papan pengumuman untuk kegiatan terbaru.",
+          "Setiap kios sementara tercantum pada peta pengunjung."
+        ]
+      },
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The square is busiest on Saturday mornings.",
+          "answerCategory": "Directly stated",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Visitors may need to check the noticeboard for current activities.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "Every temporary stall appears on the visitor map.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "The map does not show every temporary stall because their positions change from week to week.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “The map does not show every temporary stall because their positions change from week to week.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evidence and inference",
+      "id": "q03",
+      "passageId": "market-square",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "Why might the path near the flower stall become difficult to use at lunchtime?",
+      "translationId": {
+        "prompt": "Mengapa jalur dekat kios bunga mungkin sulit digunakan saat makan siang?",
+        "choices": [
+          "Jalur tersebut selalu ditutup.",
+          "Jalur tersebut menjadi ramai.",
+          "Jalur landai dipindahkan.",
+          "Sungai membanjiri alun-alun."
+        ]
+      },
+      "choices": [
+        "It is always closed.",
+        "It becomes crowded.",
+        "The ramp is removed.",
+        "The river floods the square."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "No permanent closure is mentioned. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: crowding is stated. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The ramp remains at the southern gate. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Flooding is not discussed. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "the path near the flower stall becomes crowded at lunchtime",
+      "explanation": "Bacaan menyatakan: “the path near the flower stall becomes crowded at lunchtime”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Cause and effect",
+      "id": "q04",
+      "passageId": "market-square",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Inferensial"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which information does the visitor map provide? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Informasi apa saja yang diberikan peta pengunjung? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Pintu masuk dan toilet.",
+          "Area duduk dan halte bus.",
+          "Setiap kios sementara.",
+          "Penjualan harian setiap pedagang."
+        ]
+      },
+      "choices": [
+        "Entrances and toilets.",
+        "Seating areas and bus stops.",
+        "Every temporary stall.",
+        "Every seller’s daily sales."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: entrances and toilets are listed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: seating areas and bus stops are listed.",
+        "The map is not described as showing water points.",
+        "Correct: the passage says temporary stall positions are not all shown."
+      ],
+      "evidence": "The town office has prepared a visitor map showing the entrances, toilets, seating areas and bus stops.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The town office has prepared a visitor map showing the entrances, toilets, seating areas and bus stops.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Map information",
+      "id": "q05",
+      "passageId": "market-square",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "Why did the students change their announcements?",
+      "translationId": {
+        "prompt": "Mengapa siswa mengubah pengumuman mereka?",
+        "choices": [
+          "Stasiun radio menginginkan program yang lebih panjang.",
+          "Sekolah membatalkan acara perpustakaan.",
+          "Pendengar membutuhkan lebih banyak waktu untuk memahami rincian penting.",
+          "Siswa ingin menghapus semua informasi bus."
+        ]
+      },
+      "choices": [
+        "The radio station wanted longer programmes.",
+        "The school cancelled the library events.",
+        "Listeners needed more time to understand important details.",
+        "The students wanted to remove all bus information."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "No request for longer programmes is mentioned.",
+        "The library events remained part of the announcements.",
+        "Correct: the manager identified the need for more time.",
+        "Bus times were among the information being shared."
+      ],
+      "evidence": "The station manager explained that listeners needed time to understand dates, addresses and instructions.",
+      "explanation": "Bacaan menyatakan: “The station manager explained that listeners needed time to understand dates, addresses and instructions.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Understanding motivation",
+      "id": "q06",
+      "passageId": "radio-project",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the radio project.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang proyek radio.",
+        "categories": [
+          "Fakta tercatat",
+          "Masukan pendengar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Dua belas siswa menjadi relawan.",
+          "Tiga pesan meminta kecepatan membaca yang lebih lambat.",
+          "Setiap pendengar menyukai urutan program yang baru."
+        ]
+      },
+      "categories": [
+        "Recorded fact",
+        "Listener feedback",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "Twelve students volunteered.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Three messages requested a slower reading speed.",
+          "answerCategory": "Listener feedback",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Every listener preferred the new programme order.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "After four weeks, the station received nine messages from listeners. Six asked for more information about library activities, while three requested a slower reading speed.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “After four weeks, the station received nine messages from listeners. Six asked for more information about library activities, while three requested a slower reading speed.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Fact and feedback distinction",
+      "id": "q07",
+      "passageId": "radio-project",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What did the students do before recording the announcements?",
+      "translationId": {
+        "prompt": "Apa yang dilakukan siswa sebelum merekam pengumuman?",
+        "choices": [
+          "Mereka menghapus semua tanggal dan alamat.",
+          "Mereka mengundang setiap pendengar ke studio.",
+          "Mereka mengubah waktu siaran stasiun.",
+          "Mereka meminta perpustakaan dan kantor bus memeriksa informasi."
+        ]
+      },
+      "choices": [
+        "They removed all dates and addresses.",
+        "They invited every listener to the studio.",
+        "They changed the station’s broadcasting time.",
+        "They asked the library and bus office to check the information."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Dates and addresses were important details, not removed.",
+        "No studio invitation is mentioned. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The programme was broadcast on Friday at six.",
+        "Correct: the information was checked before recording."
+      ],
+      "evidence": "They also asked the library and bus office to check the information before recording it.",
+      "explanation": "Bacaan menyatakan: “They also asked the library and bus office to check the information before recording it.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Sequencing and verification",
+      "id": "q08",
+      "passageId": "radio-project",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which changes did the students make to the announcements before recording? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Perubahan apa saja yang dilakukan siswa pada pengumuman sebelum merekam? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Mereka membagi pengumuman panjang menjadi kalimat lebih pendek.",
+          "Mereka mengulang waktu penting satu kali.",
+          "Mereka menghapus tanggal dan alamat.",
+          "Mereka menghapus jadwal cetak."
+        ]
+      },
+      "choices": [
+        "They divided long announcements into shorter sentences.",
+        "They repeated important times once.",
+        "They removed dates and addresses.",
+        "They removed the printed schedule."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: shorter sentences were introduced. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: important times were repeated once. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Dates and addresses were retained as important details.",
+        "A printed schedule was provided for people who did not listen to the radio."
+      ],
+      "evidence": "The group then divided each announcement into shorter sentences and repeated important times once.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The group then divided each announcement into shorter sentences and repeated important times once.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying improvements",
+      "id": "q09",
+      "passageId": "radio-project",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each conclusion about the listeners.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan tentang pendengar.",
+        "categories": [
+          "Didukung",
+          "Belum terbukti"
+        ],
+        "statements": [
+          "Sebagian pendengar meminta informasi perpustakaan tambahan.",
+          "Pesan tersebut mewakili pandangan seluruh masyarakat.",
+          "Sebagian pendengar meminta pembacaan lebih lambat."
+        ]
+      },
+      "categories": [
+        "Supported",
+        "Not established"
+      ],
+      "statements": [
+        {
+          "text": "Some listeners asked for more library information.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The messages represent the views of the whole community.",
+          "answerCategory": "Not established",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        },
+        {
+          "text": "Some listeners requested slower reading.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        }
+      ],
+      "evidence": "They did not survey every listener, so the messages cannot represent the views of the whole community.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “They did not survey every listener, so the messages cannot represent the views of the whole community.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evaluating sample limits",
+      "id": "q10",
+      "passageId": "radio-project",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about Dina’s learning.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang pembelajaran Dina.",
+        "categories": [
+          "Disebutkan langsung",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Dina pada awalnya tidak suka memeriksa nama dan jarak.",
+          "Dina menjadi lebih teliti dalam memeriksa informasi rute.",
+          "Dina sudah mengunjungi jembatan yang ditutup sebelum pengunjung meminta peta."
+        ]
+      },
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "Dina initially disliked checking names and distances.",
+          "answerCategory": "Directly stated",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Dina became more careful about checking route information.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "Dina had already visited the closed bridge before the visitor asked for a map.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "Dina quickly marked the shortest road and handed over the paper. Her aunt looked at it carefully.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Dina quickly marked the shortest road and handed over the paper. Her aunt looked at it carefully.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Character development",
+      "id": "q11",
+      "passageId": "mapmakers-promise",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which details made the first map unsuitable for the visitor? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Rincian apa saja yang membuat peta pertama tidak sesuai bagi pengunjung? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Peta menunjukkan jalan yang melewati jembatan yang ditutup untuk perbaikan.",
+          "Peta didasarkan pada rute terpendek, bukan rute yang telah diperiksa.",
+          "Peta memuat terlalu banyak halte bus.",
+          "Peta sama sekali tidak memiliki warna."
+        ]
+      },
+      "choices": [
+        "It showed a road crossing a bridge closed for repairs.",
+        "It was based on the shortest route rather than a checked route.",
+        "It included too many bus stops.",
+        "It had no colour at all."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: the route crossed a closed bridge. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: Dina had marked the shortest route quickly without checking it.",
+        "No bus-stop problem is mentioned. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The passage does not discuss map colours. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "The route crossed a bridge that had been closed for repairs.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The route crossed a bridge that had been closed for repairs.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying the central problem",
+      "id": "q12",
+      "passageId": "mapmakers-promise",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What does the aunt mean by saying a map is “a promise”?",
+      "translationId": {
+        "prompt": "Apa maksud bibi ketika mengatakan bahwa peta adalah “sebuah janji”?",
+        "choices": [
+          "Pembuat peta harus memeriksa informasi bagi orang yang akan menggunakannya.",
+          "Peta harus selalu menunjukkan jalan terpendek.",
+          "Pengunjung harus berjanji membeli peta lain.",
+          "Peta tidak boleh mencantumkan penghalang sementara."
+        ]
+      },
+      "choices": [
+        "The mapmaker must check information for the person who will use it.",
+        "The map should always show the shortest possible road.",
+        "The visitor must promise to buy another map.",
+        "A map should never include temporary barriers."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the sentence explains that the information must be checked for the user.",
+        "The shortest road may be unsafe or closed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No purchase promise is discussed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The map should include relevant checked details, including barriers."
+      ],
+      "evidence": "a map is not simply a picture of a place; it is a promise that the information has been checked for the person who will use it.",
+      "explanation": "Bacaan menyatakan: “a map is not simply a picture of a place; it is a promise that the information has been checked for the person who will use it.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Figurative meaning and message",
+      "id": "q13",
+      "passageId": "mapmakers-promise",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each detail according to its role in the story.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap rincian berdasarkan perannya dalam cerita.",
+        "categories": [
+          "Masalah awal",
+          "Tindakan perbaikan",
+          "Pelajaran atau pesan"
+        ],
+        "statements": [
+          "Rute pertama melewati jembatan yang ditutup.",
+          "Dina memeriksa setiap penyeberangan, rambu dan penghalang sementara.",
+          "Rincian yang teliti penting bagi orang yang menggunakan peta."
+        ]
+      },
+      "categories": [
+        "Initial problem",
+        "Corrective action",
+        "Lesson or message"
+      ],
+      "statements": [
+        {
+          "text": "The first route crossed a closed bridge.",
+          "answerCategory": "Initial problem",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Dina checked each crossing, sign and temporary barrier.",
+          "answerCategory": "Corrective action",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Careful details matter to the person using a map.",
+          "answerCategory": "Lesson or message",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        }
+      ],
+      "evidence": "Her aunt explained that a map is not simply a picture of a place; it is a promise that the information has been checked for the person who will use it.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Her aunt explained that a map is not simply a picture of a place; it is a promise that the information has been checked for the person who will use it.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Narrative structure and message",
+      "id": "q14",
+      "passageId": "mapmakers-promise",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which actions show Dina’s improved responsibility? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Tindakan apa saja yang menunjukkan tanggung jawab Dina yang meningkat? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Ia memeriksa penyeberangan dan rambu secara langsung.",
+          "Ia mencatat tanggal pemeriksaan pada peta.",
+          "Ia mengabaikan kekhawatiran pengunjung.",
+          "Ia menyertakan rute yang lebih aman dengan trotoar rata."
+        ]
+      },
+      "choices": [
+        "She checked crossings and signs in person.",
+        "She noted the inspection date on the map.",
+        "She ignored the visitor’s concern.",
+        "She included a safer route with a level pavement."
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: she checked each crossing, sign and barrier.",
+        "Correct: she added the inspection date. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "She responded to the concern by checking the route.",
+        "Correct: she found a longer route with level pavement and a clear crossing."
+      ],
+      "evidence": "She had found a longer route with a level pavement and a clear crossing near the clinic. She also wrote the date of the inspection at the bottom of the map.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “She had found a longer route with a level pavement and a clear crossing near the clinic. She also wrote the date of the inspection at the bottom of the map.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Character development",
+      "id": "q15",
+      "passageId": "mapmakers-promise",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What should students do if a person does not want to be interviewed?",
+      "translationId": {
+        "prompt": "Apa yang harus dilakukan siswa jika seseorang tidak ingin diwawancarai?",
+        "choices": [
+          "Meminta alamat rumah orang tersebut.",
+          "Berterima kasih kepada orang tersebut lalu menjauh.",
+          "Mulai merekam tanpa izin.",
+          "Mengajukan pertanyaan yang sama berulang kali."
+        ]
+      },
+      "choices": [
+        "Ask for the person’s home address.",
+        "Thank the person and move away.",
+        "Start recording without permission.",
+        "Ask the same question repeatedly."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Private information should not be requested. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the procedure says to thank the person and move away.",
+        "Recording requires clear permission. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The procedure does not advise repeated pressure."
+      ],
+      "evidence": "If the person says no, thank them and move away.",
+      "explanation": "Bacaan menyatakan: “If the person says no, thank them and move away.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Following ethical procedure",
+      "id": "q16",
+      "passageId": "field-interview",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which items should students prepare? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Barang apa saja yang harus disiapkan siswa? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Buku catatan.",
+          "Dua pena.",
+          "Kartu identitas sekolah.",
+          "Daftar kata sandi peserta."
+        ]
+      },
+      "choices": [
+        "A notebook.",
+        "Two pens.",
+        "A school identification card.",
+        "A list of participants’ passwords."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: a notebook is listed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: two pens are listed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: a school ID card is listed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The procedure warns against collecting private account details."
+      ],
+      "evidence": "prepare a notebook, two pens and a school identification card",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “prepare a notebook, two pens and a school identification card”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying materials",
+      "id": "q17",
+      "passageId": "field-interview",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What working arrangement does the procedure require?",
+      "translationId": {
+        "prompt": "Pengaturan kerja apa yang diwajibkan oleh prosedur?",
+        "choices": [
+          "Bekerja sendiri di luar area yang disepakati.",
+          "Mewawancarai setiap pengunjung di gedung.",
+          "Bekerja berpasangan dan tetap berada di area publik yang disepakati.",
+          "Merekam setiap jawaban tanpa meminta izin terlebih dahulu."
+        ]
+      },
+      "choices": [
+        "Work alone outside the agreed area.",
+        "Interview every visitor in the building.",
+        "Work in pairs and remain in the agreed public area.",
+        "Record every answer without asking first."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "A pair does not represent every visitor. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Recording still requires permission. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: this is the stated arrangement. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No interview duration is specified. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "Students should work in pairs and remain in the agreed public area.",
+      "explanation": "Bacaan menyatakan: “Students should work in pairs and remain in the agreed public area.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Understanding a procedure detail",
+      "id": "q18",
+      "passageId": "field-interview",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Inferensial"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which practices protect participants’ privacy? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Praktik apa saja yang melindungi privasi peserta? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Jangan meminta alamat rumah atau rincian akun.",
+          "Minta izin yang jelas sebelum merekam suara.",
+          "Jangan menerbitkan nama atau foto tanpa izin.",
+          "Bagikan semua catatan wawancara secara publik dengan nama lengkap."
+        ]
+      },
+      "choices": [
+        "Do not ask for a home address or account details.",
+        "Ask for clear permission before recording a voice.",
+        "Do not publish a name or photograph without permission.",
+        "Share every interview note publicly with full names."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: private addresses and account details should not be collected.",
+        "Correct: recording requires clear permission.",
+        "Correct: names and photographs require permission before publication.",
+        "This contradicts the privacy instructions. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "Do not ask for private information such as a home address, phone number or account details. If you want to record a voice, ask for clear permission before turning on the device. Do not publish a person's name or photograph without permission.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Do not ask for private information such as a home address, phone number or account details. If you want to record a voice, ask for clear permission before turning on the device. Do not publish a person's name or photograph without permission.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Privacy and consent",
+      "id": "q19",
+      "passageId": "field-interview",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each instruction by its stage in the process.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap instruksi berdasarkan tahap prosesnya.",
+        "categories": [
+          "Sebelum wawancara",
+          "Selama wawancara",
+          "Setelah wawancara"
+        ],
+        "statements": [
+          "Minta guru menyetujui rencana.",
+          "Dengarkan tanpa menyela.",
+          "Bandingkan jawaban dengan jawaban peserta lain."
+        ]
+      },
+      "categories": [
+        "Before the interview",
+        "During the interview",
+        "After the interview"
+      ],
+      "statements": [
+        {
+          "text": "Ask the teacher to approve the plan.",
+          "answerCategory": "Before the interview",
+          "explanation": "Pernyataan ini merupakan langkah persiapan yang dilakukan sebelum wawancara."
+        },
+        {
+          "text": "Listen without interrupting.",
+          "answerCategory": "During the interview",
+          "explanation": "Pernyataan ini merupakan tindakan yang dilakukan ketika wawancara berlangsung."
+        },
+        {
+          "text": "Compare the answers with those from other participants.",
+          "answerCategory": "After the interview",
+          "explanation": "Pernyataan ini merupakan langkah lanjutan setelah wawancara selesai."
+        }
+      ],
+      "evidence": "Back at school, compare the answers with those from other participants and explain how many people took part.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Back at school, compare the answers with those from other participants and explain how many people took part.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Sequencing procedure stages",
+      "id": "q20",
+      "passageId": "field-interview",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement by its role in the argument.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan perannya dalam argumen.",
+        "categories": [
+          "Klaim utama",
+          "Manfaat pendukung",
+          "Keterbatasan"
+        ],
+        "statements": [
+          "Kafe perbaikan komunitas memberi tempat bagi orang untuk belajar merawat benda sehari-hari.",
+          "Kegiatan tersebut dapat memperpanjang masa guna benda.",
+          "Beberapa kerusakan listrik dapat membahayakan relawan."
+        ]
+      },
+      "categories": [
+        "Main claim",
+        "Supporting benefit",
+        "Limitation"
+      ],
+      "statements": [
+        {
+          "text": "Community repair cafés give people a place to learn how to maintain everyday objects.",
+          "answerCategory": "Main claim",
+          "explanation": "Pernyataan ini menyampaikan posisi atau rekomendasi utama yang ingin ditegaskan penulis."
+        },
+        {
+          "text": "They may extend the useful life of objects.",
+          "answerCategory": "Supporting benefit",
+          "explanation": "Pernyataan ini memberikan alasan atau manfaat yang mendukung klaim utama penulis."
+        },
+        {
+          "text": "Some electrical faults can be unsafe for volunteers.",
+          "answerCategory": "Limitation",
+          "explanation": "Pernyataan ini menunjukkan batasan atau hal yang masih memerlukan pengukuran lebih lanjut."
+        }
+      ],
+      "evidence": "Community repair cafés give people a place to learn how to maintain everyday objects instead of throwing them away immediately.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Community repair cafés give people a place to learn how to maintain everyday objects instead of throwing them away immediately.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Argument structure",
+      "id": "q21",
+      "passageId": "repair-cafes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which benefits of repair cafés are mentioned? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Manfaat kafe perbaikan apa saja yang disebutkan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Dapat mengurangi bahan yang dikirim ke fasilitas limbah.",
+          "Membantu tetangga berbagi keterampilan praktis.",
+          "Dapat membuat kegiatan memperbaiki terasa tidak terlalu menakutkan.",
+          "Menjamin bahwa setiap barang dapat diperbaiki."
+        ]
+      },
+      "choices": [
+        "They may reduce material sent to waste facilities.",
+        "They help neighbours share practical skills.",
+        "They can make repair feel less intimidating.",
+        "They guarantee that every item can be repaired."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: reducing waste is one of the listed benefits.",
+        "Correct: sharing skills is listed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: visitors can ask questions while working.",
+        "The text does not guarantee that every item can be repaired."
+      ],
+      "evidence": "They may extend the useful life of objects, reduce the amount of material sent to waste facilities and help neighbours share skills.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “They may extend the useful life of objects, reduce the amount of material sent to waste facilities and help neighbours share skills.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Supporting evidence",
+      "id": "q22",
+      "passageId": "repair-cafes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What should organisers do with items that need specialist knowledge?",
+      "translationId": {
+        "prompt": "Apa yang sebaiknya dilakukan penyelenggara terhadap barang yang membutuhkan keahlian khusus?",
+        "choices": [
+          "Meminta pengunjung yang tidak terlatih untuk membongkarnya.",
+          "Langsung membuangnya ke tempat sampah.",
+          "Berjanji memperbaikinya pada acara berikutnya.",
+          "Merujuknya ke layanan perbaikan yang berkualifikasi."
+        ]
+      },
+      "choices": [
+        "Ask untrained visitors to open them.",
+        "Place them in the waste bin immediately.",
+        "Promise to repair them at the next event.",
+        "Refer them to qualified repair services."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The text does not recommend untrained repairs.",
+        "Immediate disposal is not advised. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No promise to repair every item is made. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: specialist items should be referred to qualified services."
+      ],
+      "evidence": "Items that require specialist knowledge should be referred to qualified repair services.",
+      "explanation": "Bacaan menyatakan: “Items that require specialist knowledge should be referred to qualified repair services.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Author recommendation",
+      "id": "q23",
+      "passageId": "repair-cafes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about evidence.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang bukti.",
+        "categories": [
+          "Diukur melalui kehadiran atau catatan",
+          "Memerlukan pengukuran lebih lanjut",
+          "Generalisasi yang tidak didukung"
+        ],
+        "statements": [
+          "Jumlah barang yang diperiksa dapat dicatat.",
+          "Jumlah pasti limbah yang dicegah diketahui hanya dari jumlah kehadiran.",
+          "Kondisi jangka panjang barang yang diperbaiki mungkin memerlukan tindak lanjut."
+        ]
+      },
+      "categories": [
+        "Measured by attendance or records",
+        "Needs further measurement",
+        "Unsupported generalisation"
+      ],
+      "statements": [
+        {
+          "text": "The number of items inspected can be recorded.",
+          "answerCategory": "Measured by attendance or records",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The exact amount of waste prevented is known from attendance alone.",
+          "answerCategory": "Unsupported generalisation",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        },
+        {
+          "text": "The long-term condition of repaired items may need follow-up.",
+          "answerCategory": "Needs further measurement",
+          "explanation": "Pernyataan ini menunjukkan batasan atau hal yang masih memerlukan pengukuran lebih lanjut."
+        }
+      ],
+      "evidence": "Attendance figures alone do not show how much waste was prevented, because an item might have been repaired elsewhere or replaced later.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Attendance figures alone do not show how much waste was prevented, because an item might have been repaired elsewhere or replaced later.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evaluating evidence sufficiency",
+      "id": "q24",
+      "passageId": "repair-cafes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which records would make a future review more useful? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Catatan apa saja yang akan membuat tinjauan berikutnya lebih bermanfaat? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Jenis barang yang diperiksa.",
+          "Perbaikan yang diselesaikan.",
+          "Kasus yang dirujuk kepada profesional.",
+          "Kata sandi akun pribadi pengunjung."
+        ]
+      },
+      "choices": [
+        "Types of items inspected.",
+        "Repairs completed.",
+        "Cases referred to professionals.",
+        "Visitors’ private account passwords."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: item types should be recorded. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: completed repairs should be recorded.",
+        "Correct: professional referrals should be recorded.",
+        "The passage contains no reason to collect passwords."
+      ],
+      "evidence": "Organisers should record the types of items inspected, the repairs completed and the cases referred to professionals.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Organisers should record the types of items inspected, the repairs completed and the cases referred to professionals.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Evidence collection and method",
+      "id": "q25",
+      "passageId": "repair-cafes",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What was the main aim of the bus pilot?",
+      "translationId": {
+        "prompt": "Apa tujuan utama uji coba bus tersebut?",
+        "choices": [
+          "Memahami apakah rute menghubungkan tempat yang perlu dikunjungi warga.",
+          "Menggantikan setiap kendaraan pribadi di kota.",
+          "Mengukur biaya pembangunan stasiun baru.",
+          "Menyurvei semua orang yang tinggal dekat rel kereta."
+        ]
+      },
+      "choices": [
+        "To understand whether the route connected places residents needed to visit.",
+        "To replace every private vehicle in the town.",
+        "To measure the cost of building a new station.",
+        "To survey all people who lived near the railway."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: this is the stated purpose. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The pilot did not claim to replace all private vehicles.",
+        "No station-building cost was measured. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The office did not survey every nearby resident."
+      ],
+      "evidence": "The aim was to understand whether the route connected places that residents often needed to visit.",
+      "explanation": "Bacaan menyatakan: “The aim was to understand whether the route connected places that residents often needed to visit.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Report purpose",
+      "id": "q26",
+      "passageId": "bus-pilot",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the passenger data.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang data penumpang.",
+        "categories": [
+          "Fakta tercatat",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Bus mengangkut rata-rata 74 perjalanan penumpang setiap hari kerja.",
+          "Halte pusat kesehatan penting bagi banyak pengguna uji coba.",
+          "Tepat 74 orang berbeda bepergian setiap hari kerja."
+        ]
+      },
+      "categories": [
+        "Recorded fact",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The bus carried an average of 74 passenger trips each weekday.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The health-centre stop was important to many users of the pilot.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "Exactly 74 different people travelled each weekday.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "During the pilot, the bus carried an average of 74 passenger trips each weekday. This number counts trips, not individual people, because some passengers used the service more than once. The health-centre stop had the highest number of recorded boardings.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “During the pilot, the bus carried an average of 74 passenger trips each weekday. This number counts trips, not individual people, because some passengers used the service more than once. The health-centre stop had the highest number of recorded boardings.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Interpreting numerical evidence",
+      "id": "q27",
+      "passageId": "bus-pilot",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "How many feedback forms requested an earlier first service?",
+      "translationId": {
+        "prompt": "Berapa formulir masukan yang meminta layanan pertama lebih awal?",
+        "choices": [
+          "Sebelas.",
+          "Dua puluh satu.",
+          "Tiga puluh dua.",
+          "Tujuh puluh empat."
+        ]
+      },
+      "choices": [
+        "Eleven.",
+        "Twenty-one.",
+        "Thirty-two.",
+        "Seventy-four."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Eleven respondents asked for a later evening bus.",
+        "Correct: 21 respondents requested an earlier first service.",
+        "Thirty-two is the total number of feedback forms.",
+        "Seventy-four is the average weekday passenger trips."
+      ],
+      "evidence": "21 respondents asked for an earlier first service",
+      "explanation": "Bacaan menyatakan: “21 respondents asked for an earlier first service”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Finding a numerical detail",
+      "id": "q28",
+      "passageId": "bus-pilot",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which limitations of the pilot are mentioned? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Keterbatasan apa saja dari uji coba yang disebutkan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Uji coba berlangsung selama libur sekolah.",
+          "Waktu perjalanan tidak dibandingkan dengan rute lain.",
+          "Penggunaan kendaraan pribadi tidak diukur.",
+          "Setiap penumpang diwawancarai secara langsung."
+        ]
+      },
+      "choices": [
+        "It took place during a school holiday.",
+        "Travel times were not compared with other routes.",
+        "Private vehicle use was not measured.",
+        "Every passenger was interviewed in person."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the timing may have affected travel patterns.",
+        "Correct: the forms were voluntary. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: other routes were not compared. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The office collected paper forms; universal interviews are not reported."
+      ],
+      "evidence": "The pilot also took place during a school holiday, when normal travel patterns may have changed. The office has not yet compared travel times with other routes or measured whether residents stopped using private vehicles.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The pilot also took place during a school holiday, when normal travel patterns may have changed. The office has not yet compared travel times with other routes or measured whether residents stopped using private vehicles.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Evaluating study limitations",
+      "id": "q29",
+      "passageId": "bus-pilot",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each conclusion about the route.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan tentang rute tersebut.",
+        "categories": [
+          "Didukung uji coba",
+          "Memerlukan bukti tambahan",
+          "Bertentangan dengan laporan"
+        ],
+        "statements": [
+          "Laporan mencatat rata-rata 74 perjalanan penumpang setiap hari kerja.",
+          "Uji coba membuktikan bahwa kemacetan di seluruh kota berkurang.",
+          "Angka 74 menghitung orang yang berbeda, bukan perjalanan."
+        ]
+      },
+      "categories": [
+        "Supported by the report",
+        "Requires more evidence",
+        "Contradicted by the report"
+      ],
+      "statements": [
+        {
+          "text": "The report recorded an average of 74 passenger trips each weekday.",
+          "answerCategory": "Supported by the report",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The pilot proves that town-wide traffic was reduced.",
+          "answerCategory": "Requires more evidence",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "The 74 figure counts individual people, not trips.",
+          "answerCategory": "Contradicted by the report",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "The office did not measure whether residents stopped using private vehicles or whether town-wide traffic changed.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “The office did not measure whether residents stopped using private vehicles or whether town-wide traffic changed.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evidence-based conclusion",
+      "id": "q30",
+      "passageId": "bus-pilot",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif"
+    }
+  ],
+  "referenceFormat": {
+    "questionCount": 30,
+    "durationSeconds": 2700,
+    "source": "Langkah English V13-D editorial practice specification; unofficial and not an official TKA format."
+  }
+}

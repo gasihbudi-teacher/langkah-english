@@ -1,0 +1,1241 @@
+{
+  "id": "tka-mock-c",
+  "questionCount": 30,
+  "durationSeconds": 2700,
+  "passages": [
+    {
+      "id": "coastal-library",
+      "title": "The Coastal Library · Original A2 Practice Text",
+      "text": "The coastal library is a small building near the fishing harbour. Its blue doors face a public garden, and three wide windows look towards the sea. Inside, visitors can find shelves of storybooks, local history books and large-print titles. A ramp beside the main steps provides an alternative entrance for wheelchair users. A reading table stands beside the windows, while a noticeboard near the entrance displays opening hours and weekly activities.\n\nThe library opens from eight in the morning until four in the afternoon on weekdays. On Saturday, it closes at noon. The children's corner has floor cushions and a low shelf, while the quiet reading area is located at the back of the building. Visitors can borrow up to three books for two weeks by showing a library card.\n\nThe librarian has placed a map near the door to help new visitors find the different areas. The map also shows the nearest bus stop and the public drinking-water point in the garden. It does not include the temporary book table used during special events. The library is more than a place to borrow books: it is also a meeting point for reading groups and local history talks. Its weekly programme changes, so visitors should check the noticeboard for current information.",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive"
+    },
+    {
+      "id": "seed-exchange",
+      "title": "A Day at the Seed Exchange · Original A2 Practice Text",
+      "text": "On the first Sunday of September, the village community centre held a seed exchange for local gardeners. The event began at eight thirty in the morning. Volunteers placed labelled envelopes on long tables and prepared a small area where visitors could ask questions about planting seasons. People were invited to bring seeds that had been stored in clean, dry containers.\n\nMira arrived with her uncle and a packet of bean seeds from their garden. At the entrance, a volunteer asked them to write the plant name and the month when the seeds had been collected. They then visited three tables. One displayed leafy vegetable seeds, another had flowers, and the last contained local fruit varieties. Mira exchanged her beans for two packets of spinach seeds. A gardener explained that the packets should be labelled clearly and stored away from damp places.\n\nBy eleven o'clock, the organisers had counted forty-two visitors and recorded thirty-one exchanges. The figures described the event, but they did not show how many seeds would grow successfully. Some visitors took information sheets without exchanging anything. Before leaving, Mira wrote the date on her new packets and thanked the volunteers. She learned that sharing seeds also requires sharing accurate information about their names and storage. The community centre plans another exchange after the next harvest.",
+      "proficiencyTarget": "A2",
+      "genre": "recount"
+    },
+    {
+      "id": "attic-lantern",
+      "title": "The Lantern in the Attic · Original B1 Practice Text",
+      "text": "When Arman helped his grandmother clear the attic, he found a small paper lantern inside a wooden box. Its red sides were faded, and one corner had been carefully repaired with a strip of green paper. Arman wanted to throw it away because the frame looked weak. His grandmother asked him to wait until she had told him where it came from.\n\nYears earlier, the family had used the lantern during a neighbourhood evening walk. Arman's grandmother had made it with her younger sister, who later moved to another island. The green repair was the sister's work. Each year, the family had kept the lantern in the same box, although nobody had taken it outside for a long time. The grandmother kept a small photograph of the walk in the same box, but she had never written the names on its back. Arman listened quietly. He had assumed the object was only old paper, but it carried a memory that mattered to his grandmother.\n\nThey decided not to light the lantern because its paper was dry and fragile. Instead, Arman photographed it and wrote a short label describing its history. His grandmother added the year and the names of the two sisters. They placed the lantern in a clear display case away from direct sunlight. Arman realised that preserving an object does not always mean using it again. Sometimes care means changing how we keep something so that its story can be shared safely. The lantern remained in the attic, but it was no longer an object waiting to be discarded.",
+      "proficiencyTarget": "B1",
+      "genre": "narrative"
+    },
+    {
+      "id": "rain-gauge",
+      "title": "Making a Simple Rain Gauge · Original A2 Practice Text",
+      "text": "A simple rain gauge can help a class compare rainfall on different days. To make one, prepare a clear straight-sided plastic bottle, a ruler, a marker, scissors and a few small stones. The teacher should cut the top from the bottle before the activity. Students must not use sharp tools without adult supervision.\n\nFirst, place the stones at the bottom of the bottle to keep it steady. Turn the cut top upside down and place it inside the lower part to make a funnel. Use the ruler and marker to draw a scale on the side, starting above the stones. Put the gauge in an open place away from roofs and large trees. Check that it stands upright and cannot easily fall over.\n\nAfter rainfall, read the water level at the same time each day and write the result in a table. Empty the bottle after recording the measurement. If the gauge moves or fills with leaves, clean it and note the problem in the record. A class can compare measurements from different days, but one homemade gauge may not give perfectly accurate results. Students should use the same location and method each time. The activity is for learning about measurement; it should not be used as an official weather warning system.",
+      "proficiencyTarget": "A2",
+      "genre": "procedure"
+    },
+    {
+      "id": "local-stories",
+      "title": "Why Local Stories Belong in School · Original B1 Practice Text",
+      "text": "Schools should include local stories alongside books from other places. Stories about a neighbourhood, a river, a market or a family tradition can help students connect reading with the world they know. They can also introduce different voices and experiences that may be missing from a general textbook.\n\nLocal stories offer several learning opportunities. Students can compare how people describe the same place, ask whose perspective is included and investigate how a community has changed. A teacher can guide the discussion by asking students to compare the language and point of view in each account. A story may lead to a history interview, a map-making activity or a discussion about how language changes between generations. Teachers can invite students to bring a family story, but participation should be voluntary because not every learner wishes to share private experiences. A collection can also include public legends and stories contributed with permission.\n\nSome critics worry that local material may take time away from wider literature. This risk can be managed by using local stories as a starting point for comparison rather than as a replacement for other reading. Teachers should check sources, explain when a story has different versions and avoid presenting one family's memory as the only account of an event. The purpose is not to claim that local stories are always more accurate or more important. It is to help students read with curiosity, recognise perspective and understand that literature can reflect many communities. A balanced reading programme can make room for both local and international voices.",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition"
+    },
+    {
+      "id": "mangrove-project",
+      "title": "A Community Mangrove Project · Original B1 Practice Text",
+      "text": "A coastal community group has monitored a small mangrove planting project for six months. Volunteers planted seedlings along two sections of a tidal channel after local residents reported that the bank was losing soil during heavy rain. The group marked each planting area and recorded the number of seedlings at the beginning of the project. It also noted the dates of high tides and major storms and recorded broken stems and exposed roots after storms. The team also photographed each section from a marked point so that later visits could use similar views over time.\n\nAt the first check, volunteers counted 120 seedlings in the northern section and 100 in the southern section. Six months later, 86 seedlings remained in the northern area and 79 in the southern area. Volunteers replaced some missing markers, but they did not plant new seedlings during the monitoring period. A nearby school helped prepare a sign explaining why the group was collecting data.\n\nThe counts show that fewer seedlings were present at the final check than at the beginning. They do not, by themselves, explain why each seedling disappeared or prove that the project has reduced erosion. The team did not measure changes in the channel bank with the same instrument before and after planting, and there was no untreated comparison area. The group plans to continue monitoring and ask a local university for advice on a consistent measurement method. Its report describes survival counts and weather events, while the long-term environmental effect remains uncertain.",
+      "proficiencyTarget": "B1",
+      "genre": "informational report"
+    }
+  ],
+  "questions": [
+    {
+      "questionType": "single",
+      "prompt": "What is the passage mainly about?",
+      "translationId": {
+        "prompt": "Apa isi utama bacaan tersebut?",
+        "choices": [
+          "Lokasi, fasilitas dan layanan perpustakaan pesisir.",
+          "Sejarah pelabuhan nelayan.",
+          "Cara melamar pekerjaan sebagai pustakawan.",
+          "Laporan jumlah buku yang terjual."
+        ]
+      },
+      "choices": [
+        "The location, facilities and services of a coastal library.",
+        "The history of the fishing harbour.",
+        "How to apply for a job as a librarian.",
+        "A report on the number of books sold."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the passage describes the library and its services.",
+        "The harbour is only a location reference. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No job application instructions appear. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Book sales are not discussed. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "The coastal library is a small building near the fishing harbour.",
+      "explanation": "Bacaan menyatakan: “The coastal library is a small building near the fishing harbour.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Main idea",
+      "id": "q01",
+      "passageId": "coastal-library",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which services or facilities are mentioned? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Layanan atau fasilitas apa saja yang disebutkan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Buku berhuruf besar.",
+          "Area membaca yang tenang.",
+          "Jalur landai di samping tangga utama.",
+          "Kafe yang buka pada malam hari."
+        ]
+      },
+      "choices": [
+        "Large-print titles.",
+        "A quiet reading area.",
+        "A ramp beside the main steps.",
+        "A café that stays open at night."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: large-print titles are available. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the quiet reading area is at the back.",
+        "Correct: the ramp provides an alternative entrance.",
+        "The passage does not mention a café. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "Inside, visitors can find shelves of storybooks, local history books and large-print titles. A ramp beside the main steps provides an alternative entrance for wheelchair users.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Inside, visitors can find shelves of storybooks, local history books and large-print titles. A ramp beside the main steps provides an alternative entrance for wheelchair users.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying descriptive details",
+      "id": "q02",
+      "passageId": "coastal-library",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about library use.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang penggunaan perpustakaan.",
+        "categories": [
+          "Disebutkan langsung",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Pengunjung dapat meminjam hingga tiga buku selama dua minggu.",
+          "Pengunjung yang tertarik pada kegiatan terbaru sebaiknya memeriksa papan pengumuman.",
+          "Perpustakaan buka setiap Minggu pagi."
+        ]
+      },
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "Visitors may borrow up to three books for two weeks.",
+          "answerCategory": "Directly stated",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "A visitor interested in a current activity should check the noticeboard.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "The library opens every Sunday morning.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "Its weekly programme changes, so visitors should check the noticeboard for current information.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Its weekly programme changes, so visitors should check the noticeboard for current information.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Using text clues",
+      "id": "q03",
+      "passageId": "coastal-library",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "Where is the quiet reading area located?",
+      "translationId": {
+        "prompt": "Di mana area membaca tenang berada?",
+        "choices": [
+          "Dekat pintu masuk.",
+          "Di bagian belakang gedung.",
+          "Di samping halte bus.",
+          "Di dalam area anak-anak."
+        ]
+      },
+      "choices": [
+        "Near the entrance.",
+        "At the back of the building.",
+        "Beside the bus stop.",
+        "Inside the children’s corner."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The noticeboard is near the entrance. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the quiet area is at the back. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The bus stop appears on the map outside the library.",
+        "The children’s corner is a separate area. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "the quiet reading area is located at the back of the building",
+      "explanation": "Bacaan menyatakan: “the quiet reading area is located at the back of the building”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Finding a direct detail",
+      "id": "q04",
+      "passageId": "coastal-library",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which information appears on the map near the door? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Informasi apa saja yang terdapat pada peta dekat pintu? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Halte bus terdekat.",
+          "Titik air minum umum di taman.",
+          "Berbagai area perpustakaan.",
+          "Setiap meja buku sementara pada acara khusus."
+        ]
+      },
+      "choices": [
+        "The nearest bus stop.",
+        "The public drinking-water point in the garden.",
+        "The different library areas.",
+        "Every temporary book table used at special events."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the map shows the nearest bus stop. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: it shows the public water point. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: it helps visitors find library areas.",
+        "The passage says the temporary book table is not included."
+      ],
+      "evidence": "The librarian has placed a map near the door to help new visitors find the different areas. The map also shows the nearest bus stop and the public drinking-water point in the garden.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The librarian has placed a map near the door to help new visitors find the different areas. The map also shows the nearest bus stop and the public drinking-water point in the garden.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Map reading",
+      "id": "q05",
+      "passageId": "coastal-library",
+      "proficiencyTarget": "A2",
+      "genre": "descriptive",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "When did the seed exchange begin?",
+      "translationId": {
+        "prompt": "Kapan kegiatan pertukaran benih dimulai?",
+        "choices": [
+          "Pukul tujuh tiga puluh.",
+          "Pukul sembilan tiga puluh.",
+          "Pukul delapan tiga puluh.",
+          "Pukul sebelas."
+        ]
+      },
+      "choices": [
+        "At seven thirty.",
+        "At nine thirty.",
+        "At eight thirty.",
+        "At eleven o’clock."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "The passage does not give seven thirty. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Nine thirty is not the stated time. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: it began at eight thirty. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Eleven is before the event ended, not its start."
+      ],
+      "evidence": "The event began at eight thirty in the morning.",
+      "explanation": "Bacaan menyatakan: “The event began at eight thirty in the morning.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Finding a direct detail",
+      "id": "q06",
+      "passageId": "seed-exchange",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the seed exchange.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang pertukaran benih.",
+        "categories": [
+          "Fakta tercatat",
+          "Tindakan peserta",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Penyelenggara menghitung empat puluh dua pengunjung.",
+          "Mira menukar benih kacang dengan benih bayam.",
+          "Semua benih yang ditukar kemudian tumbuh dengan baik."
+        ]
+      },
+      "categories": [
+        "Recorded fact",
+        "Participant action",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The organisers counted forty-two visitors.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Mira exchanged bean seeds for spinach seeds.",
+          "answerCategory": "Participant action",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "All exchanged seeds later grew successfully.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "By eleven o'clock, the organisers had counted forty-two visitors and recorded thirty-one exchanges.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “By eleven o'clock, the organisers had counted forty-two visitors and recorded thirty-one exchanges.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Separating event records and outcomes",
+      "id": "q07",
+      "passageId": "seed-exchange",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "Why did the volunteer ask Mira to label the packet?",
+      "translationId": {
+        "prompt": "Mengapa relawan meminta Mira memberi label pada paket?",
+        "choices": [
+          "Untuk menunjukkan harga pasar paket.",
+          "Untuk mengidentifikasi orang yang akan menyiramnya.",
+          "Untuk membuktikan bahwa benih telah tumbuh.",
+          "Untuk mencatat nama tanaman dan bulan pengumpulan."
+        ]
+      },
+      "choices": [
+        "To show the packet’s market price.",
+        "To identify the person who would water it.",
+        "To prove that the seeds had already grown.",
+        "To record the plant name and collection month."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "No market price is requested. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The packet is for storage and exchange, not a watering schedule.",
+        "The seeds have not yet been planted. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the label records the plant and collection month."
+      ],
+      "evidence": "write the plant name and the month when the seeds had been collected",
+      "explanation": "Bacaan menyatakan: “write the plant name and the month when the seeds had been collected”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Purpose of an instruction",
+      "id": "q08",
+      "passageId": "seed-exchange",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Inferensial"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which details about Mira’s arrival are stated? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Rincian apa saja tentang kedatangan Mira yang disebutkan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Ia datang bersama pamannya.",
+          "Ia membawa benih kacang dari kebun mereka.",
+          "Ia datang sendirian.",
+          "Ia membawa benih bunga impor."
+        ]
+      },
+      "choices": [
+        "She arrived with her uncle.",
+        "She brought bean seeds from their garden.",
+        "She arrived alone.",
+        "She brought imported flower seeds."
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "choiceExplanations": [
+        "Correct: she arrived with her uncle. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: she brought a packet of bean seeds from their garden.",
+        "The passage says she arrived with her uncle, not alone.",
+        "The passage describes an exchange, not a purchase of imported flowers."
+      ],
+      "evidence": "Mira arrived with her uncle and a packet of bean seeds from their garden.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Mira arrived with her uncle and a packet of bean seeds from their garden.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Tracing event details",
+      "id": "q09",
+      "passageId": "seed-exchange",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each conclusion about the event data.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan tentang data kegiatan.",
+        "categories": [
+          "Didukung",
+          "Belum terbukti"
+        ],
+        "statements": [
+          "Penyelenggara mencatat tiga puluh satu pertukaran.",
+          "Jumlah pengunjung membuktikan bahwa setiap pekebun desa hadir.",
+          "Sebagian pengunjung mengambil lembar informasi tanpa menukar benih."
+        ]
+      },
+      "categories": [
+        "Supported",
+        "Not established"
+      ],
+      "statements": [
+        {
+          "text": "The organisers recorded thirty-one exchanges.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The visitor count proves that every village gardener attended.",
+          "answerCategory": "Not established",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        },
+        {
+          "text": "Some visitors took information sheets without exchanging seeds.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        }
+      ],
+      "evidence": "Some visitors took information sheets without exchanging anything.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Some visitors took information sheets without exchanging anything.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evaluating scope of data",
+      "id": "q10",
+      "passageId": "seed-exchange",
+      "proficiencyTarget": "A2",
+      "genre": "recount",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the lantern.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang lentera.",
+        "categories": [
+          "Disebutkan langsung",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Lentera itu memiliki potongan kertas hijau pada salah satu sudutnya.",
+          "Lentera itu memiliki arti emosional bagi sang nenek.",
+          "Arman memutuskan menyalakan lentera pada jalan sore berikutnya."
+        ]
+      },
+      "categories": [
+        "Directly stated",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The lantern had a strip of green paper on one corner.",
+          "answerCategory": "Directly stated",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The lantern was emotionally important to the grandmother.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "Arman decided to light the lantern during the next evening walk.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "They decided not to light the lantern because its paper was dry and fragile.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “They decided not to light the lantern because its paper was dry and fragile.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Narrative evidence",
+      "id": "q11",
+      "passageId": "attic-lantern",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which details explain the lantern’s family history? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Rincian apa saja yang menjelaskan sejarah lentera dalam keluarga? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Keluarga menggunakannya saat jalan sore di lingkungan.",
+          "Nenek membuatnya bersama adik perempuannya.",
+          "Adiknya kemudian pindah ke pulau lain.",
+          "Lentera dibeli di pameran sains sekolah."
+        ]
+      },
+      "choices": [
+        "The family used it during a neighbourhood evening walk.",
+        "The grandmother made it with her younger sister.",
+        "The sister later moved to another island.",
+        "It was purchased at a school science fair."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the family used it on a neighbourhood walk.",
+        "Correct: the grandmother and sister made it. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the sister later moved away. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No science fair purchase is mentioned. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "Years earlier, the family had used the lantern during a neighbourhood evening walk. Arman's grandmother had made it with her younger sister, who later moved to another island. The green repair was the sister's work.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Years earlier, the family had used the lantern during a neighbourhood evening walk. Arman's grandmother had made it with her younger sister, who later moved to another island. The green repair was the sister's work.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Narrative background",
+      "id": "q12",
+      "passageId": "attic-lantern",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What is the most suitable theme of the story?",
+      "translationId": {
+        "prompt": "Apa tema cerita yang paling tepat?",
+        "choices": [
+          "Melestarikan benda juga dapat melestarikan kisah yang terkait dengannya.",
+          "Benda lama hanya bernilai jika digunakan setiap hari.",
+          "Keluarga tidak boleh mengubah tradisi.",
+          "Foto selalu lebih baik daripada catatan tertulis."
+        ]
+      },
+      "choices": [
+        "Preserving an object can also preserve the story connected to it.",
+        "Old objects are valuable only when they are used every day.",
+        "A family should never change its traditions.",
+        "Photographs are always better than written records."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: this captures the central message. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The lantern is no longer used because it is fragile, yet it remains meaningful.",
+        "The family changes how it stores the lantern.",
+        "The story uses both a photograph and a written label; it does not rank them."
+      ],
+      "evidence": "Sometimes care means changing how we keep something so that its story can be shared safely.",
+      "explanation": "Bacaan menyatakan: “Sometimes care means changing how we keep something so that its story can be shared safely.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Theme and appreciation",
+      "id": "q13",
+      "passageId": "attic-lantern",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each action according to its purpose in the story.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap tindakan berdasarkan tujuannya dalam cerita.",
+        "categories": [
+          "Melestarikan benda",
+          "Mencatat sejarahnya",
+          "Berisiko merusak benda"
+        ],
+        "statements": [
+          "Meletakkan lentera dalam kotak pajang bening jauh dari sinar matahari.",
+          "Menulis tahun dan nama kedua saudari pada label.",
+          "Menyalakan lentera kertas yang kering."
+        ]
+      },
+      "categories": [
+        "Preserving the object",
+        "Recording its history",
+        "Risking damage"
+      ],
+      "statements": [
+        {
+          "text": "Placing the lantern in a clear display case away from sunlight.",
+          "answerCategory": "Preserving the object",
+          "explanation": "Tindakan ini bertujuan menjaga benda agar tidak rusak."
+        },
+        {
+          "text": "Writing the year and the sisters’ names on a label.",
+          "answerCategory": "Recording its history",
+          "explanation": "Tindakan ini mencatat latar belakang dan sejarah benda tersebut."
+        },
+        {
+          "text": "Lighting the dry paper lantern.",
+          "answerCategory": "Risking damage",
+          "explanation": "Tindakan ini dapat merusak benda yang rapuh."
+        }
+      ],
+      "evidence": "They decided not to light the lantern because its paper was dry and fragile. Instead, Arman photographed it and wrote a short label describing its history. His grandmother added the year and the names of the two sisters. They placed the lantern in a clear display case away from direct sunlight.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “They decided not to light the lantern because its paper was dry and fragile. Instead, Arman photographed it and wrote a short label describing its history. His grandmother added the year and the names of the two sisters. They placed the lantern in a clear display case away from direct sunlight.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Narrative action and consequence",
+      "id": "q14",
+      "passageId": "attic-lantern",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which choices show that Arman has changed his view of the lantern? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Pilihan apa saja yang menunjukkan perubahan pandangan Arman terhadap lentera? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Ia membantu membuat label yang menjelaskan sejarahnya.",
+          "Ia setuju untuk tidak menyalakan kertas yang rapuh.",
+          "Ia memutuskan langsung membuang lentera.",
+          "Ia membantu melestarikannya dalam kotak pajang."
+        ]
+      },
+      "choices": [
+        "He helps make a label describing its history.",
+        "He agrees not to light the fragile paper.",
+        "He decides to throw the lantern away immediately.",
+        "He helps preserve it in a display case."
+      ],
+      "answers": [
+        0,
+        1,
+        3
+      ],
+      "choiceExplanations": [
+        "Correct: he helps record the history. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: he agrees to protect the fragile lantern.",
+        "He initially wants to throw it away but changes his mind.",
+        "Correct: they place it in a display case. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "They decided not to light the lantern because its paper was dry and fragile. Instead, Arman photographed it and wrote a short label describing its history.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “They decided not to light the lantern because its paper was dry and fragile. Instead, Arman photographed it and wrote a short label describing its history.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Character change",
+      "id": "q15",
+      "passageId": "attic-lantern",
+      "proficiencyTarget": "B1",
+      "genre": "narrative",
+      "competency": "Apresiasi Naratif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What is the main purpose of the rain gauge activity?",
+      "translationId": {
+        "prompt": "Apa tujuan utama kegiatan alat ukur hujan tersebut?",
+        "choices": [
+          "Mengeluarkan peringatan cuaca resmi.",
+          "Membandingkan pengukuran curah hujan pada hari berbeda.",
+          "Mengukur kedalaman laut.",
+          "Menguji kualitas air minum."
+        ]
+      },
+      "choices": [
+        "To issue official weather warnings.",
+        "To compare rainfall measurements on different days.",
+        "To measure the depth of the sea.",
+        "To test the quality of drinking water."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "The text says it should not be used for official weather warnings.",
+        "Correct: comparing rainfall is the stated purpose.",
+        "Sea depth is unrelated to the activity. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Drinking-water quality is not measured. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "A simple rain gauge can help a class compare rainfall on different days.",
+      "explanation": "Bacaan menyatakan: “A simple rain gauge can help a class compare rainfall on different days.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Procedure purpose",
+      "id": "q16",
+      "passageId": "rain-gauge",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which materials are needed? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Bahan apa saja yang diperlukan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Botol plastik bening berdinding lurus.",
+          "Penggaris dan spidol.",
+          "Beberapa batu kecil.",
+          "Termometer kaca."
+        ]
+      },
+      "choices": [
+        "A clear straight-sided plastic bottle.",
+        "A ruler and marker.",
+        "A few small stones.",
+        "A glass thermometer."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: the bottle is required. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: ruler and marker are required. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: small stones keep the gauge steady. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "No thermometer is required. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "prepare a clear straight-sided plastic bottle, a ruler, a marker, scissors and a few small stones.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “prepare a clear straight-sided plastic bottle, a ruler, a marker, scissors and a few small stones.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying materials",
+      "id": "q17",
+      "passageId": "rain-gauge",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "Why should the gauge be placed away from roofs and large trees?",
+      "translationId": {
+        "prompt": "Mengapa alat ukur harus diletakkan jauh dari atap dan pohon besar?",
+        "choices": [
+          "Untuk membuat air lebih hangat.",
+          "Untuk menyembunyikan botol dari kelas.",
+          "Untuk menghindari objek sekitar memengaruhi air hujan yang terkumpul.",
+          "Untuk mencegah penggaris basah."
+        ]
+      },
+      "choices": [
+        "To make the water warmer.",
+        "To keep the bottle hidden from the class.",
+        "To avoid nearby objects affecting the rainfall collected.",
+        "To prevent the ruler from getting wet."
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Temperature is not the stated reason. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The gauge should be available for regular readings.",
+        "Correct: the location should be open and away from objects that may block or redirect rain.",
+        "The ruler is used to read the water level and is not kept inside the rain."
+      ],
+      "evidence": "Put the gauge in an open place away from roofs and large trees.",
+      "explanation": "Bacaan menyatakan: “Put the gauge in an open place away from roofs and large trees.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Understanding placement",
+      "id": "q18",
+      "passageId": "rain-gauge",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Inferensial"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which actions are part of the daily measurement routine? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Tindakan apa saja yang termasuk rutinitas pengukuran harian? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Membaca tinggi air pada waktu yang sama setiap hari.",
+          "Menulis hasilnya dalam tabel.",
+          "Mengosongkan botol setelah mencatat pengukuran.",
+          "Memindahkan alat ke tempat baru setiap pagi."
+        ]
+      },
+      "choices": [
+        "Read the water level at the same time each day.",
+        "Write the result in a table.",
+        "Empty the bottle after recording the measurement.",
+        "Move the gauge to a new place every morning."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: readings should be taken at the same time.",
+        "Correct: results are recorded in a table. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: the bottle is emptied after recording.",
+        "The procedure says to use the same location and method each time."
+      ],
+      "evidence": "After rainfall, read the water level at the same time each day and write the result in a table. Empty the bottle after recording the measurement.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “After rainfall, read the water level at the same time each day and write the result in a table. Empty the bottle after recording the measurement.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Following measurement steps",
+      "id": "q19",
+      "passageId": "rain-gauge",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the rain gauge.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang alat ukur hujan.",
+        "categories": [
+          "Instruksi prosedur",
+          "Keterbatasan",
+          "Klaim yang tidak didukung"
+        ],
+        "statements": [
+          "Gunakan lokasi dan metode yang sama setiap kali.",
+          "Satu alat ukur buatan sendiri mungkin tidak menghasilkan data yang sepenuhnya akurat.",
+          "Alat tersebut dapat mengeluarkan peringatan badai resmi."
+        ]
+      },
+      "categories": [
+        "Procedure instruction",
+        "Limitation",
+        "Unsupported claim"
+      ],
+      "statements": [
+        {
+          "text": "Use the same location and method each time.",
+          "answerCategory": "Procedure instruction",
+          "explanation": "Pernyataan ini merupakan instruksi yang harus diikuti dalam prosedur."
+        },
+        {
+          "text": "One homemade gauge may not give perfectly accurate results.",
+          "answerCategory": "Limitation",
+          "explanation": "Pernyataan ini menunjukkan batasan atau hal yang masih memerlukan pengukuran lebih lanjut."
+        },
+        {
+          "text": "The gauge can issue official storm warnings.",
+          "answerCategory": "Unsupported claim",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "Students should use the same location and method each time. The activity is for learning about measurement; it should not be used as an official weather warning system.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Students should use the same location and method each time. The activity is for learning about measurement; it should not be used as an official weather warning system.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Procedure and limitations",
+      "id": "q20",
+      "passageId": "rain-gauge",
+      "proficiencyTarget": "A2",
+      "genre": "procedure",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement by its role in the argument.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan berdasarkan perannya dalam argumen.",
+        "categories": [
+          "Klaim utama",
+          "Alasan pendukung",
+          "Argumen tandingan"
+        ],
+        "statements": [
+          "Sekolah sebaiknya memasukkan cerita lokal bersama buku dari tempat lain.",
+          "Siswa dapat menyelidiki bagaimana suatu komunitas berubah.",
+          "Materi lokal mungkin mengurangi waktu untuk sastra yang lebih luas."
+        ]
+      },
+      "categories": [
+        "Main claim",
+        "Supporting reason",
+        "Counterargument"
+      ],
+      "statements": [
+        {
+          "text": "Schools should include local stories alongside books from other places.",
+          "answerCategory": "Main claim",
+          "explanation": "Pernyataan ini menyampaikan posisi atau rekomendasi utama yang ingin ditegaskan penulis."
+        },
+        {
+          "text": "Students can investigate how a community has changed.",
+          "answerCategory": "Supporting reason",
+          "explanation": "Pernyataan ini memberikan alasan atau manfaat yang mendukung klaim utama penulis."
+        },
+        {
+          "text": "Local material may take time away from wider literature.",
+          "answerCategory": "Counterargument",
+          "explanation": "Pernyataan ini menyajikan pandangan tandingan terhadap klaim utama penulis."
+        }
+      ],
+      "evidence": "Some critics worry that local material may take time away from wider literature.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “Some critics worry that local material may take time away from wider literature.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Argument structure",
+      "id": "q21",
+      "passageId": "local-stories",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which learning activities may grow from reading local stories? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Kegiatan belajar apa saja yang dapat berkembang dari membaca cerita lokal? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Wawancara sejarah.",
+          "Kegiatan membuat peta.",
+          "Diskusi tentang bahasa lintas generasi.",
+          "Menerbitkan cerita keluarga pribadi tanpa izin."
+        ]
+      },
+      "choices": [
+        "A history interview.",
+        "A map-making activity.",
+        "A discussion about language across generations.",
+        "Publishing a private family story without permission."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: a history interview is suggested. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: map-making is suggested. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: language change discussion is suggested.",
+        "The text requires voluntary sharing and permission; it does not support publishing private stories without consent."
+      ],
+      "evidence": "A story may lead to a history interview, a map-making activity or a discussion about how language changes between generations.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “A story may lead to a history interview, a map-making activity or a discussion about how language changes between generations.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Applying text details",
+      "id": "q22",
+      "passageId": "local-stories",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What does the author recommend when a story has different versions?",
+      "translationId": {
+        "prompt": "Apa yang disarankan penulis ketika sebuah cerita memiliki versi berbeda?",
+        "choices": [
+          "Memilih ingatan satu keluarga sebagai satu-satunya kisah.",
+          "Menghapus semua cerita lokal dari program membaca.",
+          "Menyajikan setiap versi sebagai fakta sejarah terverifikasi.",
+          "Jelaskan bahwa cerita tersebut memiliki versi berbeda."
+        ]
+      },
+      "choices": [
+        "Choose one family’s memory as the only account.",
+        "Remove all local stories from the reading programme.",
+        "Present every version as a verified historical fact.",
+        "Explain that the story has different versions."
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "The author warns against presenting one family’s memory as the only account.",
+        "The author argues for including local stories.",
+        "The text distinguishes stories and versions from verified historical fact.",
+        "Correct: the text says to explain different versions."
+      ],
+      "evidence": "Teachers should check sources, explain when a story has different versions",
+      "explanation": "Bacaan menyatakan: “Teachers should check sources, explain when a story has different versions”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Author recommendation",
+      "id": "q23",
+      "passageId": "local-stories",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each conclusion about the author’s position.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan tentang posisi penulis.",
+        "categories": [
+          "Didukung",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Cerita lokal sebaiknya melengkapi, bukan menggantikan, sastra yang lebih luas.",
+          "Cerita lokal sebaiknya menggantikan seluruh sastra internasional.",
+          "Program yang seimbang dapat mencakup suara lokal dan internasional."
+        ]
+      },
+      "categories": [
+        "Supported",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "Local stories should complement, not replace, wider literature.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "Local stories should replace all international literature.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        },
+        {
+          "text": "A balanced programme can include local and international voices.",
+          "answerCategory": "Supported",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        }
+      ],
+      "evidence": "A balanced reading programme can make room for both local and international voices.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “A balanced reading programme can make room for both local and international voices.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evaluating an argument",
+      "id": "q24",
+      "passageId": "local-stories",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which safeguards does the author recommend? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Perlindungan apa saja yang disarankan penulis? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Menjadikan partisipasi bersifat sukarela.",
+          "Memeriksa sumber.",
+          "Memperoleh izin untuk cerita yang disumbangkan.",
+          "Menganggap ingatan satu keluarga sebagai satu-satunya kisah."
+        ]
+      },
+      "choices": [
+        "Make participation voluntary.",
+        "Check sources.",
+        "Obtain permission for contributed stories.",
+        "Treat one family’s memory as the only account."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: participation should be voluntary. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: sources should be checked. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: stories should be contributed with permission.",
+        "The author says not to present one family’s memory as the only account."
+      ],
+      "evidence": "Teachers can invite students to bring a family story, but participation should be voluntary",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “Teachers can invite students to bring a family story, but participation should be voluntary”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Evidence and ethical safeguards",
+      "id": "q25",
+      "passageId": "local-stories",
+      "proficiencyTarget": "B1",
+      "genre": "analytical exposition",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "What did the community group monitor?",
+      "translationId": {
+        "prompt": "Apa yang dipantau kelompok masyarakat?",
+        "choices": [
+          "Proyek penanaman mangrove di sepanjang saluran pasang surut.",
+          "Jumlah ikan yang dijual di pelabuhan.",
+          "Biaya pembangunan sekolah baru.",
+          "Suhu laut setiap hari."
+        ]
+      },
+      "choices": [
+        "A mangrove planting project along a tidal channel.",
+        "The number of fish sold at the harbour.",
+        "The cost of building a new school.",
+        "The daily temperature of the sea."
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Correct: the project is the subject of the report.",
+        "Fish sales are not measured. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "School construction is not discussed. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Sea temperature is not part of the monitoring."
+      ],
+      "evidence": "A coastal community group has monitored a small mangrove planting project for six months.",
+      "explanation": "Bacaan menyatakan: “A coastal community group has monitored a small mangrove planting project for six months.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Report focus",
+      "id": "q26",
+      "passageId": "mangrove-project",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each statement about the monitoring.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap pernyataan tentang pemantauan.",
+        "categories": [
+          "Fakta tercatat",
+          "Inferensi yang wajar",
+          "Tidak didukung"
+        ],
+        "statements": [
+          "Bagian utara dimulai dengan 120 bibit.",
+          "Dua badai mungkin memengaruhi sebagian bibit.",
+          "Relawan menanam bibit baru selama masa pemantauan."
+        ]
+      },
+      "categories": [
+        "Recorded fact",
+        "Reasonable inference",
+        "Not supported"
+      ],
+      "statements": [
+        {
+          "text": "The northern section began with 120 seedlings.",
+          "answerCategory": "Recorded fact",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The two storms may have affected some seedlings.",
+          "answerCategory": "Reasonable inference",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "Volunteers planted new seedlings during the monitoring period.",
+          "answerCategory": "Not supported",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "The group marked each planting area and recorded the number of seedlings at the beginning of the project. It also noted the dates of high tides and major storms and recorded broken stems and exposed roots after storms.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “The group marked each planting area and recorded the number of seedlings at the beginning of the project. It also noted the dates of high tides and major storms and recorded broken stems and exposed roots after storms.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Reading evidence and inference",
+      "id": "q27",
+      "passageId": "mangrove-project",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif"
+    },
+    {
+      "questionType": "single",
+      "prompt": "How many seedlings remained in the southern area after six months?",
+      "translationId": {
+        "prompt": "Berapa bibit yang tersisa di area selatan setelah enam bulan?",
+        "choices": [
+          "86.",
+          "79.",
+          "100.",
+          "120."
+        ]
+      },
+      "choices": [
+        "86.",
+        "79.",
+        "100.",
+        "120."
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "86 is the northern final count. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: 79 is the final southern count. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "100 is the initial southern count. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "120 is the initial northern count. Penjelasan ini merujuk pada bukti khusus dalam bacaan."
+      ],
+      "evidence": "Six months later, 86 seedlings remained in the northern area and 79 in the southern area.",
+      "explanation": "Bacaan menyatakan: “Six months later, 86 seedlings remained in the northern area and 79 in the southern area.”. Pilih opsi yang paling tepat menjawab pertanyaan berdasarkan kutipan dan konteksnya. Opsi lain tidak sesuai dengan informasi yang dinyatakan atau menjawab hal yang berbeda.",
+      "skill": "Finding numerical information",
+      "id": "q28",
+      "passageId": "mangrove-project",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "multiple",
+      "prompt": "Which information did the volunteers record? Select ALL that apply.",
+      "translationId": {
+        "prompt": "Informasi apa saja yang dicatat relawan? Pilih SEMUA jawaban yang sesuai.",
+        "choices": [
+          "Jumlah bibit pada awal kegiatan.",
+          "Tanggal pasang tinggi dan badai besar.",
+          "Batang patah dan akar yang terbuka.",
+          "Pendapatan pasti setiap rumah tangga sekitar."
+        ]
+      },
+      "choices": [
+        "The number of seedlings at the beginning.",
+        "Dates of high tides and major storms.",
+        "Broken stems and exposed roots.",
+        "The exact income of every nearby household."
+      ],
+      "answers": [
+        0,
+        1,
+        2
+      ],
+      "choiceExplanations": [
+        "Correct: initial seedling numbers were recorded.",
+        "Correct: tides and storms were noted. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "Correct: damage signs were recorded. Penjelasan ini merujuk pada bukti khusus dalam bacaan.",
+        "The project did not collect household income data."
+      ],
+      "evidence": "The group marked each planting area and recorded the number of seedlings at the beginning of the project. It also noted the dates of high tides and major storms and recorded broken stems and exposed roots after storms. The team also photographed each section from a marked point so that later visits could use similar views over time.",
+      "explanation": "Bukti yang relevan terdapat pada kutipan berikut: “The group marked each planting area and recorded the number of seedlings at the beginning of the project. It also noted the dates of high tides and major storms and recorded broken stems and exposed roots after storms. The team also photographed each section from a marked point so that later visits could use similar views over time.”. Pilih seluruh opsi yang sesuai dengan informasi tersebut. Opsi yang tidak dipilih tidak didukung oleh rincian bacaan atau bertentangan dengan batasan yang dijelaskan penulis.",
+      "skill": "Identifying report measures",
+      "id": "q29",
+      "passageId": "mangrove-project",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Tekstual"
+    },
+    {
+      "questionType": "category",
+      "prompt": "Classify each conclusion about the project.",
+      "translationId": {
+        "prompt": "Kelompokkan setiap kesimpulan tentang proyek.",
+        "categories": [
+          "Didukung laporan",
+          "Memerlukan bukti tambahan",
+          "Bertentangan dengan laporan"
+        ],
+        "statements": [
+          "Bibit yang tersisa pada pemeriksaan akhir lebih sedikit daripada jumlah awal.",
+          "Proyek tersebut telah mengurangi erosi di sepanjang saluran.",
+          "Tidak ada bibit yang hilang selama enam bulan."
+        ]
+      },
+      "categories": [
+        "Supported by the report",
+        "Requires more evidence",
+        "Contradicted by the report"
+      ],
+      "statements": [
+        {
+          "text": "Fewer seedlings remained at the final check than at the beginning.",
+          "answerCategory": "Supported by the report",
+          "explanation": "Kategori ini sesuai dengan fungsi informasi tersebut dalam konteks bacaan."
+        },
+        {
+          "text": "The project has reduced erosion along the whole channel.",
+          "answerCategory": "Requires more evidence",
+          "explanation": "Kesimpulan ini dapat ditarik dari petunjuk bacaan, meskipun tidak dinyatakan secara langsung atau masih memerlukan bukti tambahan."
+        },
+        {
+          "text": "No seedlings were lost during the six months.",
+          "answerCategory": "Contradicted by the report",
+          "explanation": "Pernyataan ini tidak didukung atau bertentangan dengan informasi yang tersedia dalam bacaan."
+        }
+      ],
+      "evidence": "The counts show that fewer seedlings were present at the final check than at the beginning. They do not, by themselves, explain why each seedling disappeared or prove that the project has reduced erosion.",
+      "explanation": "Gunakan kutipan bacaan berikut sebagai dasar pengelompokan: “The counts show that fewer seedlings were present at the final check than at the beginning. They do not, by themselves, explain why each seedling disappeared or prove that the project has reduced erosion.”. Bedakan informasi yang dinyatakan secara langsung, kesimpulan yang dapat ditarik dari petunjuk, dan klaim yang tidak didukung. Jangan menambahkan asumsi dari luar bacaan.",
+      "skill": "Evaluating evidence and causal claims",
+      "id": "q30",
+      "passageId": "mangrove-project",
+      "proficiencyTarget": "B1",
+      "genre": "informational report",
+      "competency": "Pemahaman Evaluatif"
+    }
+  ],
+  "referenceFormat": {
+    "questionCount": 30,
+    "durationSeconds": 2700,
+    "source": "Langkah English V13-D editorial practice specification; unofficial and not an official TKA format."
+  }
+}

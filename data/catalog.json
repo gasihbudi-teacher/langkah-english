@@ -4692,6 +4692,153 @@
       },
       "kind": "practice",
       "examFormat": "topic"
+    },
+    {
+      "id": "tka-mock-a",
+      "type": "quiz",
+      "title": "TKA Practice Simulation 1 · Everyday Communities",
+      "description": "An original unofficial 30-question practice simulation with six new reading passages and a 45-minute timer. Covers textual, inferential, evaluative and narrative-appreciation skills. Langkah English practice design only; not an official TKA paper, format specification or score prediction.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Simulasi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Textual understanding",
+        "Inference",
+        "Vocabulary in context",
+        "Main idea and purpose",
+        "Evidence evaluation",
+        "Narrative appreciation",
+        "Genre recognition",
+        "Question formats"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "full practice simulation",
+        "original passages",
+        "V13-D",
+        "unofficial"
+      ],
+      "relatedLessons": [
+        "tka-reading-foundations",
+        "tka-explicit-information",
+        "tka-classify-outline-summarize-synthesize",
+        "tka-context-vocabulary-reference-connectors",
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-inference-cause-character-prediction",
+        "tka-evaluating-facts-opinions-evidence",
+        "tka-narrative-appreciation",
+        "tka-five-text-genres",
+        "tka-question-formats-independent-practice"
+      ],
+      "file": "data/quizzes/tka-mock-a.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full",
+      "estimatedMinutes": 45
+    },
+    {
+      "id": "tka-mock-b",
+      "type": "quiz",
+      "title": "TKA Practice Simulation 2 · Communication and Change",
+      "description": "An original unofficial 30-question practice simulation with six new reading passages and a 45-minute timer. Explores communication, local services, practical processes and evidence-based conclusions. This is a Langkah English practice design, not an official TKA paper or score prediction.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Simulasi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Textual understanding",
+        "Inference",
+        "Vocabulary in context",
+        "Main idea and purpose",
+        "Evidence evaluation",
+        "Narrative appreciation",
+        "Genre recognition",
+        "Question formats"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "full practice simulation",
+        "original passages",
+        "V13-D",
+        "unofficial"
+      ],
+      "relatedLessons": [
+        "tka-reading-foundations",
+        "tka-explicit-information",
+        "tka-classify-outline-summarize-synthesize",
+        "tka-context-vocabulary-reference-connectors",
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-inference-cause-character-prediction",
+        "tka-evaluating-facts-opinions-evidence",
+        "tka-narrative-appreciation",
+        "tka-five-text-genres",
+        "tka-question-formats-independent-practice"
+      ],
+      "file": "data/quizzes/tka-mock-b.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full",
+      "estimatedMinutes": 45
+    },
+    {
+      "id": "tka-mock-c",
+      "type": "quiz",
+      "title": "TKA Practice Simulation 3 · Stories, Science and Sustainability",
+      "description": "An original unofficial 30-question practice simulation with six new reading passages and a 45-minute timer. Integrates all ten TKA modules through descriptive, recount, narrative, procedure, argument and report reading. It is not an official TKA paper or score prediction.",
+      "placements": [
+        {
+          "pathway": "tka",
+          "section": "Simulasi"
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Textual understanding",
+        "Inference",
+        "Vocabulary in context",
+        "Main idea and purpose",
+        "Evidence evaluation",
+        "Narrative appreciation",
+        "Genre recognition",
+        "Question formats"
+      ],
+      "tags": [
+        "TKA Bahasa Inggris Wajib",
+        "full practice simulation",
+        "original passages",
+        "V13-D",
+        "unofficial"
+      ],
+      "relatedLessons": [
+        "tka-reading-foundations",
+        "tka-explicit-information",
+        "tka-classify-outline-summarize-synthesize",
+        "tka-context-vocabulary-reference-connectors",
+        "tka-implied-ideas-audience-purpose-message",
+        "tka-inference-cause-character-prediction",
+        "tka-evaluating-facts-opinions-evidence",
+        "tka-narrative-appreciation",
+        "tka-five-text-genres",
+        "tka-question-formats-independent-practice"
+      ],
+      "file": "data/quizzes/tka-mock-c.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "full",
+      "estimatedMinutes": 45
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

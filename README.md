@@ -249,3 +249,10 @@ TKA-01 through TKA-04 now have published lesson and topic-practice resources. V1
 The V13-C2 combined snapshot includes both the separately supplied V13-C1 homepage redesign and the TKA-03/TKA-04 content release. The homepage redesign contributes the revised `index.html`, `css/style.css`, `js/home.js`, bilingual homepage translations, preview documentation, and its regression checks. These were integrated with the C2 TKA pathway updates rather than treating the original V13-C1 complete-site archive as if it already contained the redesign.
 
 The combined incremental package is `langkah-english-v13c2-combined-update-from-v13c1.zip`. It is designed to overlay the accepted V13-C1 repository whether or not the standalone homepage redesign patch was previously applied. It includes the integrated homepage files and C2 content. The complete-site archive is for a separate preview/restoration copy, not for extraction over an existing Git repository.
+
+
+## V13-D · Full TKA practice simulations (31 October 2026)
+
+V13-D completes the ten-module TKA pathway with three original, unofficial full practice simulations: Everyday Communities, Communication and Change, and Stories, Science and Sustainability. Each contains 30 questions, six original passages (three A2-targeted and three B1-targeted), and a 45-minute timer in Simulation mode. Each simulation has ten single-answer, ten multiple-answer and ten category questions. The 30-question / 45-minute design is a Langkah English editorial practice specification, not an official TKA format, duration, scoring rule or score prediction. The simulations use the existing quiz engine and local progress system. See `docs/V13-D-TKA-SIMULATIONS.md` for passage targets, integration, totals, QA and installation.
+
+Current V13-D totals: 66 lessons, 54 quizzes, 120 catalogue resources, 608 scaffold steps, 671 explained cards, and 659 scored/embedded items. All ten TKA modules and the three legacy UTBK mocks remain available.

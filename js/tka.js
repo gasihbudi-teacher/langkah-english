@@ -1,7 +1,7 @@
 import {getCatalog,esc,link,progress} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
-// Planned sequence from the 2026-10-26 blueprint. V13-C5 publishes TKA-01 through TKA-10.
+// Planned sequence from the 2026-10-26 blueprint. V13-C5 publishes all ten modules; V13-D adds three full practice simulations.
 export const tkaModules=[
  ['TKA-01','Jembatan TKA: Dari Kalimat ke Bacaan',12,'tkaFoundations'],
  ['TKA-02','Menemukan Informasi Tersurat dan Parafrasa',9,'tkaTextual'],
@@ -19,6 +19,9 @@ const modules=document.querySelector('#tka-module-list');
 const target=document.querySelector('#tka-support-list');
 const newLessons=document.querySelector('#tka-new-lessons');
 const newQuizzes=document.querySelector('#tka-new-quizzes');
+const newMocks=document.querySelector('#tka-mock-list');
+const mockIds=['tka-mock-a','tka-mock-b','tka-mock-c'];
+let tkaMocks=[];
 const published={
  'TKA-01':['tka-reading-foundations','tka-reading-foundations-practice'],
  'TKA-02':['tka-explicit-information','tka-explicit-information-practice'],
@@ -46,6 +49,7 @@ function draw(){
  target.innerHTML=items.length?`<ul class="simple-resources tka-support-items">${items.map(r=>card(r,'lesson',!!p.lessons?.[r.id])).join('')}</ul>`:`<p class="notice" role="alert">${esc(t('tkaEmpty'))}</p>`;
  newLessons.innerHTML=`<ul class="simple-resources tka-support-items">${tkaLessons.map(r=>card(r,'lesson',!!p.lessons?.[r.id])).join('')}</ul>`;
  newQuizzes.innerHTML=`<ul class="simple-resources tka-support-items">${tkaQuizzes.map(r=>card(r,'quiz')).join('')}</ul>`;
+ newMocks.innerHTML=tkaMocks.length?`<ul class="simple-resources tka-support-items">${tkaMocks.map(r=>card(r,'quiz')).join('')}</ul>`:`<p class="notice">${esc(t('tkaMockEmpty'))}</p>`;
 }
 try{
  const c=await getCatalog();
@@ -53,5 +57,6 @@ try{
  items=order.map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
  tkaLessons=Object.values(published).map(([id])=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
  tkaQuizzes=Object.values(published).map(([,id])=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
+ tkaMocks=mockIds.map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
  draw();onLanguageChange(draw);
-}catch(e){target.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newLessons.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newQuizzes.innerHTML='';}
+}catch(e){target.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newLessons.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newQuizzes.innerHTML='';newMocks.innerHTML='';}

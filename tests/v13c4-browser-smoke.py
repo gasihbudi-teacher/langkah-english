@@ -96,7 +96,7 @@ async def main():
   stage=await page.locator('.tka-stage').inner_text()
   overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert (lessons,quizzes,modules)==(10,10,10),(lessons,quizzes,modules,errors)
-  assert 'V13-C5' in stage and overflow==0,(stage,overflow)
+  assert 'V13-D' in stage and overflow==0,(stage,overflow)
   l05=await check_lesson(page,'tka-implied-ideas-audience-purpose-message',11)
   l06=await check_lesson(page,'tka-inference-cause-character-prediction',14)
   q05=await check_quiz(page,'tka-implied-ideas-audience-purpose-message-practice')
