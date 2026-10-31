@@ -63,3 +63,31 @@ Generated previews: `v13e1-grade9-lesson-desktop-top.png`, `v13e1-grade9-assessm
 4. Run `python3 tools/validate.py` and `node tests/v13e1-grade9-reading.mjs`; preferably run all Node tests.
 5. Preview `school.html#grade-9-materi`, open `lesson.html?id=grade9-reading`, complete guided practice, and open the dedicated assessment.
 6. Review desktop and mobile layouts before committing and publishing.
+
+
+## V13-E1-R2 — Content refinement and acceptance QA
+
+**Date:** 31 October 2026  
+**Baseline:** V13-E1-R1-H1 complete-site source  
+**Scope:** Grade 9 Lesson 1 content and dedicated assessment only; shared renderer, scoring engine, storage format and unrelated lessons remain unchanged.
+
+### Refinements
+
+- Aligned the first scaffold check with Objective 1 by asking for the described place and the purpose of the text.
+- Reworded guided practice item 1 to ask what the notice tells visitors not to do.
+- Replaced three worked examples that duplicated reasoning already present in the model passage. The replacements teach cause/effect, context clues for *spacious*, and spatial arrangement.
+- Added *spacious* to the final vocabulary list.
+- Reworked independent assessment question 4 to assess the purpose of a descriptive passage. The answer remains choice A, and the question has exact passage evidence and Indonesian feedback.
+
+### Verification
+
+- Python authoring validator: PASS — 121 resources, 669 scored/embedded items.
+- All 22 Node regression suites: PASS.
+- Grade 9 content test: PASS with additional objective-alignment and non-duplication assertions.
+- Isolated Chromium desktop/mobile smoke test: PASS; lesson and assessment render, guided feedback works, no page errors, and no horizontal overflow.
+- Cross-grade renderer test: PASS on four selected lessons at 390px mobile width.
+- Supplied baseline ZIP integrity: PASS.
+
+### Limitations and status
+
+Local HTTP navigation was blocked by the environment. Browser evidence comes from an isolated DOM harness, not a production deployment or physical device. Bilingual teacher review, learner pilot, independent accessibility certification and user acceptance remain outstanding. This refinement does not authorize starting Grade 9 Lesson 2.

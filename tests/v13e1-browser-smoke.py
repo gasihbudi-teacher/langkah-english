@@ -85,7 +85,9 @@ async def main():
   assert 'Benar' in feedback,feedback
   await desktop.locator('#practice [data-answer="0"]').first.click()
   practice_feedback=await desktop.locator('#practice .inline-feedback').first.inner_text()
-  assert 'Benar' in practice_feedback,practice_feedback
+  practice_prompt=await desktop.locator('#practice .panel').first.inner_text()
+  assert 'notice beside the pond' in practice_prompt.lower(),practice_prompt
+  assert 'Benar' in practice_feedback and 'memberi makan ikan' in practice_feedback.lower(),practice_feedback
   lesson_overflow=await desktop.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert lesson_overflow==0,lesson_overflow
   await desktop.screenshot(path='/mnt/data/v13e1-grade9-lesson-desktop.png',full_page=True)
@@ -106,6 +108,13 @@ async def main():
   await quiz_page.locator('#explain').click()
   quiz_feedback=await quiz_page.locator('#feedback').inner_text()
   assert 'Benar' in quiz_feedback and 'small reading hut' in quiz_feedback.lower(),quiz_feedback
+  await quiz_page.locator('#numbers button').nth(3).click()
+  purpose_prompt=await quiz_page.locator('#question h2').inner_text()
+  assert 'main purpose' in purpose_prompt.lower(),purpose_prompt
+  await quiz_page.locator('#question [data-answer="0"]').click()
+  await quiz_page.locator('#explain').click()
+  purpose_feedback=await quiz_page.locator('#feedback').inner_text()
+  assert 'Benar' in purpose_feedback and 'mendeskripsikan pondok baca' in purpose_feedback.lower(),purpose_feedback
   quiz_overflow=await quiz_page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
   assert quiz_overflow==0,quiz_overflow
   await quiz_page.screenshot(path='/mnt/data/v13e1-grade9-assessment-desktop.png',full_page=True)
@@ -128,7 +137,9 @@ async def main():
    'optional_checks':checks,
    'worked_examples':examples,
    'guided_practices':practices,
+   'guided_notice_question':practice_prompt.splitlines()[0],
    'assessment_title':quiz_title,
+   'purpose_question':purpose_prompt,
    'assessment_questions':qcount,
    'desktop_horizontal_overflow_px':lesson_overflow,
    'quiz_horizontal_overflow_px':quiz_overflow,
