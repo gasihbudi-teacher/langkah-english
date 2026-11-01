@@ -1,265 +1,351 @@
 {
   "id": "grade9-noun-groups",
   "objectives": [
-    "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Menemukan nomina inti (head noun) dalam kelompok kata benda sederhana maupun yang diperluas.",
+    "Mengenali determiner dan angka atau kata kuantitas yang membatasi rujukan serta jumlah benda.",
+    "Menjelaskan bagaimana kata sifat dan kata bahan sebelum nomina menambahkan rincian.",
+    "Mengenali frasa setelah nomina yang menambahkan informasi tentang ciri, lokasi, atau tujuan.",
+    "Menggunakan struktur noun group untuk memahami deskripsi benda secara lebih tepat dalam kalimat dan teks."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Noun Groups: Describing Animals and Products?",
-      "text": "[[Noun group]] adalah kelompok kata yang berpusat pada sebuah nomina dan dapat diberi penjelas sebelum atau sesudahnya."
+      "title": "Memahami noun group dan nomina intinya",
+      "text": "[[Noun group]] (kelompok kata benda) adalah kelompok kata yang berpusat pada satu nomina inti atau [[head noun]]. Kata sebelum nomina inti dapat menunjukkan rujukan, jumlah, atau sifat. Keterangan setelahnya dapat menambahkan ciri, lokasi, atau tujuan. Tidak setiap noun group memiliki semua bagian tersebut. Saat membaca, temukan dahulu benda atau hal yang menjadi inti, kemudian gabungkan rincian yang mengikutinya."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Membaca rincian yang membentuk noun group",
+      "intro": "Bacaan berikut memperlihatkan bagaimana kelompok kata benda membantu pembaca mengenali benda dalam sebuah pajangan sekolah. Setelah membaca teks, amati kata inti, penjelas sebelum inti, dan keterangan setelah inti.",
+      "modelTitle": "A Display of Student Designs",
+      "modelEnglish": "Every month, the school library displays a small collection of student designs. This month, a wide table near the entrance holds three handmade objects. The first object is a small wooden clock with a round white face. Beside it, a blue cotton bag with two short handles hangs from a metal hook. A clear label under each object gives the maker’s name and a short description. At the back of the room, a large poster about local patterns covers part of the wall. Visitors can read the labels before choosing an object to study. One student likes the clock because its design is simple, while another prefers the bag with a deep front pocket. The librarian asks visitors to notice how descriptive word groups identify each object. Two students write short notes about the display. The notes use clear noun groups that help readers picture each item without seeing it. A noun group names a person, place, thing, or idea and adds details that make its meaning more precise.",
+      "modelIndonesian": "Setiap bulan, perpustakaan sekolah memajang koleksi kecil karya desain siswa. Bulan ini, sebuah meja lebar di dekat pintu masuk menampung tiga benda buatan tangan. Benda pertama adalah jam kayu kecil dengan permukaan bundar berwarna putih. Di sebelahnya, sebuah tas katun biru dengan dua pegangan pendek tergantung pada kait logam. Label yang jelas di bawah setiap benda mencantumkan nama pembuat dan deskripsi singkat. Di bagian belakang ruangan, sebuah poster besar tentang motif lokal menutupi sebagian dinding. Pengunjung dapat membaca label sebelum memilih benda untuk diamati. Seorang siswa menyukai jam itu karena desainnya sederhana, sedangkan siswa lain lebih menyukai tas dengan saku depan yang dalam. Pustakawan meminta pengunjung memperhatikan bagaimana kelompok kata deskriptif membantu mengidentifikasi setiap benda. Dua siswa menulis catatan singkat tentang pajangan tersebut. Catatan itu menggunakan kelompok kata benda yang jelas sehingga pembaca dapat membayangkan setiap benda tanpa melihatnya. Kelompok kata benda menamai orang, tempat, benda, atau gagasan serta menambahkan rincian agar maknanya lebih tepat.",
+      "modelNote": "Contoh noun group dalam bacaan antara lain “a wide table near the entrance” dan “a small wooden clock with a round white face”. Cari nomina intinya, lalu perhatikan bagaimana kata sebelum dan sesudahnya memperjelas benda tersebut.",
       "steps": [
         {
-          "title": "Kata benda utama",
-          "explanation": "Dalam kelompok kata, cari nomina yang menjadi inti rujukan sebelum mengenali kata penjelas.",
-          "english": "a bird",
-          "indonesian": "seekor burung",
-          "why": "“bird” adalah kata benda inti."
+          "phase": "Menemukan nomina inti",
+          "title": "Cari kata yang menamai benda utama",
+          "explanation": "Setiap noun group berpusat pada satu nomina inti atau head noun. Kata inti menunjukkan orang, tempat, benda, atau gagasan yang sedang dibicarakan. Mulailah dari kata tersebut sebelum membaca semua keterangannya.",
+          "english": "the display",
+          "indonesian": "pajangan itu",
+          "why": "“Display” adalah head noun karena kata itu menamai hal utama yang dibicarakan. “The” hanya membantu menunjukkan pajangan tertentu."
         },
         {
-          "title": "Determiner",
-          "explanation": "[[A]], [[the]], dan [[these]] membantu menunjukkan rujukan nomina tetapi bukan kepala frasa.",
-          "english": "a bird",
-          "indonesian": "seekor burung",
-          "why": "“bird” adalah kata benda inti."
+          "phase": "Membaca penjelas sebelum inti",
+          "title": "Perhatikan determiner",
+          "explanation": "Determiner berada sebelum nomina dan membantu pembaca memahami rujukannya. Dalam contoh sederhana, “a” memperkenalkan satu benda yang belum ditentukan secara khusus, sedangkan “the” menunjuk benda yang sudah diketahui atau sedang dibicarakan.",
+          "english": "a clock / the clock",
+          "indonesian": "sebuah jam / jam itu",
+          "why": "Kata “a” dan “the” bukan nomina inti. Keduanya memberi petunjuk apakah penulis memperkenalkan sebuah jam atau merujuk pada jam tertentu."
         },
         {
-          "title": "Adjective",
-          "explanation": "Kata sifat seperti [[small]] menjelaskan sifat nomina; tanyakan kata mana yang diterangkan.",
-          "english": "a small bird",
-          "indonesian": "seekor burung kecil",
-          "why": "“small” menerangkan ukuran."
+          "phase": "Membaca penjelas sebelum inti",
+          "title": "Kenali angka dan jumlah",
+          "explanation": "Angka dan kata kuantitas seperti “two”, “three”, “some”, atau “several” memberi tahu berapa banyak benda yang dimaksud. Perhatikan bahwa kata jumlah tidak menggantikan head noun; kata itu hanya membatasi jumlahnya.",
+          "english": "three handmade objects",
+          "indonesian": "tiga benda buatan tangan",
+          "why": "“Three” menunjukkan jumlah, “handmade” menerangkan jenis atau cara benda dibuat, dan “objects” tetap menjadi nomina inti.",
+          "check": "Dalam kelompok kata “three handmade objects”, kata mana yang menunjukkan jumlah benda?",
+          "checkAnswer": "Kata “three” menunjukkan jumlahnya. Nomina inti “objects” tetap menamai benda yang sedang dibicarakan."
         },
         {
-          "title": "Perluas dengan detail",
-          "explanation": "Tambahkan lebih dari satu penjelas yang relevan tanpa kehilangan nomina utamanya.",
-          "english": "a small brown bird",
-          "indonesian": "seekor burung kecil berwarna cokelat",
-          "why": "“brown” menambah informasi warna."
+          "phase": "Membaca penjelas sebelum inti",
+          "title": "Baca sifat sebelum nomina inti",
+          "explanation": "Adjective atau kata sifat dapat menjelaskan ukuran, warna, bentuk, atau kualitas. Kata yang menunjukkan bahan juga dapat muncul sebelum nomina, seperti “wooden” pada contoh berikut. Temukan head noun terlebih dahulu agar kamu tahu benda mana yang sedang dijelaskan.",
+          "english": "a small wooden clock",
+          "indonesian": "sebuah jam kayu kecil",
+          "why": "“Clock” menamai benda utama. “Small” memberi informasi ukuran, sedangkan “wooden” menjelaskan bahan jam tersebut."
         },
         {
-          "title": "Penjelas sesudah noun",
-          "explanation": "Frasa seperti [[with a long tail]] memberikan detail tambahan mengenai nomina yang mendahuluinya.",
-          "english": "a box for recycled paper",
-          "indonesian": "sebuah kotak untuk kertas daur ulang",
-          "why": "Keterangan setelah “box” menjelaskan fungsi kotak."
+          "phase": "Membaca penjelas sesudah inti",
+          "title": "Temukan keterangan setelah nomina",
+          "explanation": "Noun group dapat berlanjut setelah head noun. Frasa yang diawali preposisi, seperti “with”, “near”, “beside”, atau “for”, dapat menambahkan ciri, lokasi, atau tujuan. Keterangan itu membantu membedakan satu benda dari benda lain.",
+          "english": "a clock with a round white face",
+          "indonesian": "sebuah jam dengan permukaan bundar berwarna putih",
+          "why": "Head noun-nya tetap “clock”. Frasa “with a round white face” menambahkan ciri jam dan memperjelas jam yang dimaksud.",
+          "check": "Pada kelompok kata “the poster beside the door”, bagian mana yang menunjukkan lokasi poster?",
+          "checkAnswer": "Frasa “beside the door” menunjukkan lokasi poster. Kata inti tetap “poster”, bukan “door”."
         },
         {
-          "title": "Bandingkan rujukan",
-          "explanation": "[[The red bottle]] dan [[the blue bottle]] dapat menunjuk benda berbeda; jelaskan bagian yang membatasi makna.",
-          "english": "The small grey bird near the window has a bright yellow tail.",
-          "indonesian": "Burung kecil berwarna abu-abu dekat jendela memiliki ekor kuning terang.",
-          "why": "Temukan inti “bird” sebelum membaca keterangan lainnya."
+          "phase": "Menerapkan dalam kalimat",
+          "title": "Baca seluruh kelompok kata dalam kalimat",
+          "explanation": "Ketika noun group muncul dalam kalimat, pisahkan kelompok katanya dari kata kerja. Temukan nomina inti, lalu gabungkan informasi sebelum dan sesudahnya. Dengan cara ini, kamu dapat memahami benda yang dimaksud tanpa menerjemahkan setiap kata secara terpisah.",
+          "english": "The small wooden clock with a round white face stood on the wide table near the entrance.",
+          "indonesian": "Jam kayu kecil dengan permukaan bundar berwarna putih itu berdiri di atas meja lebar di dekat pintu masuk.",
+          "why": "Kelompok kata “The small wooden clock with a round white face” menjadi subjek kalimat dan berinti “clock”. Kata kerja “stood” berada di luar kelompok kata tersebut."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "A small green turtle rests on the sand. The turtle with a bright shell moves slowly. A nearby student sees the animal but does not touch it. The careful student watches from a distance.",
-      "modelIndonesian": "Seekor penyu kecil berwarna hijau beristirahat di pasir. Penyu dengan tempurung cerah itu bergerak perlahan. Seorang siswa di dekatnya melihat hewan itu tetapi tidak menyentuhnya. Siswa yang berhati-hati itu mengamati dari kejauhan."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, kata inti seperti [[bird]] bisa diperluas menjadi [[a small brown bird]]. Urutan dan jenis penjelas menentukan apakah frasa mudah dipahami. Temukan kata benda intinya sebelum menerjemahkan semua sifat."
+      "title": "Rangkai inti dan keterangannya",
+      "text": "Head noun menamai hal utama. Determiner dan angka membantu menentukan rujukan atau jumlah; kata sifat dan kata bahan sebelum head noun menambahkan ciri; sedangkan frasa setelahnya dapat memberi informasi lokasi, tujuan, atau bagian. Saat membaca noun group yang panjang, jangan menganggap semua kata sama penting: temukan intinya, lalu baca setiap keterangan sesuai fungsinya."
     },
     {
-      "type": "text",
-      "text": "Satu benda bisa dijelaskan dengan banyak kata. Jangan langsung menerjemahkan dari kiri ke kanan; temukan dahulu benda utamanya."
+      "type": "table",
+      "headers": [
+        "Bagian",
+        "Letak",
+        "Fungsi",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "Determiner",
+          "Sebelum head noun",
+          "Menandai rujukan umum atau tertentu.",
+          "a clock / the clock"
+        ],
+        [
+          "Angka atau kuantitas",
+          "Sebelum head noun",
+          "Menunjukkan jumlah benda.",
+          "three objects / several visitors"
+        ],
+        [
+          "Pre-modifier",
+          "Sebelum head noun",
+          "Menjelaskan ukuran, warna, kualitas, atau bahan.",
+          "small wooden clock"
+        ],
+        [
+          "Head noun",
+          "Inti kelompok kata",
+          "Menamai benda atau hal utama.",
+          "clock"
+        ],
+        [
+          "Post-modifier",
+          "Sesudah head noun",
+          "Menambahkan ciri, lokasi, atau tujuan.",
+          "clock with a silver frame / poster beside the door"
+        ]
+      ]
     },
     {
       "type": "rule",
-      "text": "Dalam [[noun group]], cari kata benda inti ([[head noun]]) lalu kata yang menjelaskannya. Misalnya [[a small brown bird]] memiliki inti [[bird]]."
+      "text": "Pola sederhana yang sering ditemukan: [[determiner atau jumlah + penjelas + head noun + keterangan tambahan]]. Bagian-bagian ini tidak wajib selalu muncul bersama. Contoh “a clock” sudah merupakan noun group; contoh “the small wooden clock with a round white face” memuat lebih banyak rincian."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Perhatikan urutan dan fungsi kata, bukan hanya jumlahnya"
     },
     {
       "type": "mistake",
-      "incorrect": "a bird small brown",
-      "correct": "a small brown bird",
-      "explanation": "Dalam kelompok kata benda ini, kata sifat diletakkan sebelum benda inti."
+      "incorrect": "a clock small wooden with a silver frame",
+      "correct": "a small wooden clock with a silver frame",
+      "explanation": "Dalam contoh ini, kata sifat dan kata bahan ditempatkan sebelum head noun “clock”. Keterangan “with a silver frame” muncul setelahnya untuk menambahkan ciri. Jangan memindahkan semua penjelas ke satu sisi nomina."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Sepuluh contoh dengan fungsi yang berbeda"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Bandingkan contoh berikut. Setiap kata tambahan memiliki tugas tertentu: memperkenalkan benda, menunjukkan jumlah, menjelaskan sifat atau bahan, atau membatasi benda yang dimaksud."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Rujukan dan jumlah sebelum nomina inti",
       "collapsed": false,
       "items": [
         {
-          "english": "a bird",
-          "indonesian": "seekor burung",
-          "note": "“bird” adalah kata benda inti."
+          "english": "the display",
+          "indonesian": "pajangan tersebut",
+          "note": "“Display” adalah head noun. Determiner “the” menunjukkan bahwa penulis merujuk pada pajangan tertentu yang sudah diketahui."
         },
         {
-          "english": "a small bird",
-          "indonesian": "seekor burung kecil",
-          "note": "“small” menerangkan ukuran."
+          "english": "a label",
+          "indonesian": "sebuah label",
+          "note": "“Label” menjadi nomina inti. “A” memperkenalkan satu label, tetapi belum menunjuk label tertentu."
         },
         {
-          "english": "a small brown bird",
-          "indonesian": "seekor burung kecil berwarna cokelat",
-          "note": "“brown” menambah informasi warna."
+          "english": "several visitors",
+          "indonesian": "beberapa pengunjung",
+          "note": "“Several” menunjukkan jumlah yang lebih dari satu tanpa menyebut angka pasti. Head noun-nya adalah “visitors”."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Sifat dan bahan sebelum nomina inti",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "a narrow glass vase",
+          "indonesian": "sebuah vas kaca yang ramping",
+          "note": "“Vase” menamai benda utama. “Narrow” menjelaskan bentuk atau ukuran, sedangkan “glass” menunjukkan bahan vas."
+        },
+        {
+          "english": "two colourful paper cards",
+          "indonesian": "dua kartu kertas berwarna-warni",
+          "note": "“Two” memberi tahu jumlah kartu. “Colourful” menjelaskan tampilannya dan “paper” menunjukkan bahan sebelum head noun “cards”."
+        },
+        {
+          "english": "a metal frame",
+          "indonesian": "sebuah bingkai logam",
+          "note": "“Frame” merupakan head noun. Kata “metal” menjelaskan bahan bingkai, bukan benda lain yang berdiri sendiri."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Keterangan setelah nomina dan gabungan rincian",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "the poster beside the door",
+          "indonesian": "poster di samping pintu itu",
+          "note": "Head noun “poster” diikuti keterangan lokasi “beside the door”. Keterangan ini membantu pembaca memilih poster yang dimaksud."
+        },
+        {
+          "english": "a box for art supplies",
+          "indonesian": "sebuah kotak untuk perlengkapan seni",
+          "note": "Frasa “for art supplies” berada setelah head noun “box” dan menjelaskan tujuan atau kegunaan kotak tersebut."
+        },
+        {
+          "english": "the visitors with blue tickets",
+          "indonesian": "para pengunjung yang memiliki tiket biru",
+          "note": "Frasa “with blue tickets” menjelaskan pengunjung yang dimaksud. Head noun pada kelompok kata utama adalah “visitors”."
+        },
+        {
+          "english": "the narrow wooden shelf with three open sections",
+          "indonesian": "rak kayu sempit dengan tiga bagian terbuka itu",
+          "note": "Head noun “shelf” diperjelas oleh “narrow” dan “wooden” sebelum nomina, lalu oleh “with three open sections” sesudahnya."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade9-noun-groups",
-      "prompt": "Which sentence means “seekor burung kecil”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “seekor burung kecil”?",
+      "prompt": "Which word is the head noun in “the narrow wooden shelf with three open sections”?",
+      "translation": "Kata mana yang menjadi nomina inti dalam kelompok kata “the narrow wooden shelf with three open sections”?",
       "choices": [
-        "a bird",
-        "a small bird",
-        "a small brown bird"
+        "narrow",
+        "wooden",
+        "shelf"
       ],
-      "answer": 1,
+      "answer": 2,
       "translationChoices": [
-        "seekor burung",
-        "seekor burung kecil",
-        "seekor burung kecil berwarna cokelat"
+        "sempit",
+        "berbahan kayu",
+        "rak"
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “small” menerangkan ukuran.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "“Shelf” menamai benda utama yang dibicarakan. “Narrow” dan “wooden” menjelaskan rak sebelum nomina, sedangkan “with three open sections” menambahkan rincian setelahnya.",
+      "hint": "Tanyakan: benda utama apa yang sedang dijelaskan oleh kata-kata lainnya?"
     },
     {
       "type": "breakdown",
-      "sentence": "a bird",
+      "sentence": "The narrow wooden shelf with three open sections stands near the door.",
       "parts": [
         {
-          "english": "a",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "The",
+          "meaning": "Determiner yang menunjukkan rak tertentu."
         },
         {
-          "english": "bird",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: seekor burung"
+          "english": "narrow wooden",
+          "meaning": "Pre-modifier: “narrow” menjelaskan ukuran dan “wooden” menjelaskan bahan."
+        },
+        {
+          "english": "shelf",
+          "meaning": "Head noun yang menamai benda utama."
+        },
+        {
+          "english": "with three open sections",
+          "meaning": "Post-modifier yang menambahkan rincian tentang rak."
+        },
+        {
+          "english": "stands",
+          "meaning": "Kata kerja; bagian ini berada di luar noun group."
         }
       ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "a wooden box",
-          "indonesian": "sebuah kotak kayu",
-          "note": "“wooden” menjelaskan bahan kotak."
-        },
-        {
-          "english": "a box for recycled paper",
-          "indonesian": "sebuah kotak untuk kertas daur ulang",
-          "note": "Keterangan setelah “box” menjelaskan fungsi kotak."
-        },
-        {
-          "english": "The three young sea turtles swam toward the beach.",
-          "indonesian": "Tiga anak penyu muda berenang menuju pantai.",
-          "note": "[[The three young sea turtles]] berpusat pada nomina [[turtles]]; angka dan sifat menerangkannya."
-        },
-        {
-          "english": "A brightly coloured reusable bag hung beside the door.",
-          "indonesian": "Tas pakai ulang yang berwarna cerah tergantung di samping pintu.",
-          "note": "Nomina inti [[bag]] diperjelas oleh frasa deskriptif; kata sifat tidak berdiri sebagai kalimat baru."
-        },
-        {
-          "english": "A pair of tiny green frogs sat on the wet rock.",
-          "indonesian": "Sepasang katak hijau kecil duduk di atas batu basah.",
-          "note": "Dalam [[a pair of tiny green frogs]], nomina inti pada tingkat frasa utama adalah [[pair]], sementara [[frogs]] menjelaskan isinya."
-        }
-      ]
-    },
-    {
-      "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. “wooden” menjelaskan bahan kotak. Keterangan setelah “box” menjelaskan fungsi kotak."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "The small grey bird near the window has a bright yellow tail.",
-          "indonesian": "Burung kecil berwarna abu-abu dekat jendela memiliki ekor kuning terang.",
-          "note": "Temukan inti “bird” sebelum membaca keterangan lainnya."
-        },
-        {
-          "english": "Students labelled the reusable blue containers in the science room.",
-          "indonesian": "Siswa memberi label pada wadah biru yang dapat dipakai ulang di ruang sains.",
-          "note": "Kata inti “containers” diterangkan oleh kata sifat dan keterangan tempat."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
-    },
-    {
-      "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
     },
     {
       "type": "example",
-      "text": "At the nature corner, students observed a small brown bird with a curved beak. Its short wings helped it move quickly between nearby trees. Beside the bird’s picture, a large wooden board showed simple facts about its food and habitat. The class also displayed two reusable blue containers for collecting paper. Students noticed that descriptive word groups helped visitors identify objects without reading a very long explanation.",
-      "note": "Ringkasan bantuan: Deskripsi benda dan hewan dengan kelompok kata terperinci. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+      "text": "A narrow blue folder with a clear label rested inside the top drawer. The folder held two folded maps of the school and a short list of room numbers. Beside the drawer, a small notice board showed a simple timetable for club meetings. A student looking for the art room used the clear label on the folder before checking the map.",
+      "note": "Sebuah map biru yang ramping dengan label jelas berada di dalam laci paling atas. Map itu berisi dua peta sekolah yang terlipat dan daftar singkat nomor ruangan. Di samping laci, sebuah papan pengumuman kecil menampilkan jadwal sederhana pertemuan klub. Seorang siswa yang mencari ruang seni menggunakan label yang jelas pada map sebelum memeriksa peta."
+    },
+    {
+      "type": "reflection",
+      "prompt": "How does “a vase” differ from “a narrow glass vase near the window”?",
+      "translation": "Apa perbedaan informasi yang diberikan oleh “a vase” dan “a narrow glass vase near the window”?",
+      "answer": "Kelompok kata pertama hanya memperkenalkan sebuah vas. Kelompok kata kedua memperjelas ukuran, bahan, dan lokasi vas, sehingga pembaca dapat membedakan vas yang dimaksud dari vas lainnya."
+    },
+    {
+      "type": "heading",
+      "text": "Gunakan noun group untuk membaca deskripsi"
     },
     {
       "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "text": "Ketika sebuah kalimat memuat beberapa noun group, temukan inti setiap kelompok secara terpisah. Perhatikan juga kata kerja agar kamu tidak memasukkan seluruh kalimat ke dalam satu kelompok kata benda."
+    },
+    {
+      "type": "example",
+      "text": "The small wooden clock with a round white face stood on the wide table near the entrance.",
+      "note": "Subjeknya adalah “The small wooden clock with a round white face”. Setelah kata kerja “stood”, terdapat kelompok kata lain, “the wide table near the entrance”, yang menjadi bagian dari keterangan tempat."
     },
     {
       "type": "summary",
-      "title": "Yang perlu kamu ingat",
+      "title": "Hal penting yang perlu diingat",
       "items": [
-        "Membaca kelompok kata benda dan menemukan kata inti beserta keterangannya.",
-        "Dalam [[noun group]], cari kata benda inti ([[head noun]]) lalu kata yang menjelaskannya. Misalnya [[a small brown bird]] memiliki inti [[bird]].",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Head noun menamai orang, tempat, benda, atau gagasan yang menjadi inti kelompok kata.",
+        "Determiner dan angka atau kata kuantitas membantu menunjukkan rujukan serta jumlah.",
+        "Pre-modifier sebelum head noun dapat menjelaskan ukuran, warna, kualitas, atau bahan.",
+        "Post-modifier setelah head noun dapat menambahkan ciri, lokasi, atau tujuan.",
+        "Temukan nomina inti lebih dahulu, lalu gabungkan rincian untuk memahami benda yang dimaksud."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Nomina mana yang menjadi inti, dan kata mana yang hanya menerangkannya?",
-      "model": "The three young sea turtles swam toward the beach.",
-      "modelTranslation": "Tiga anak penyu muda berenang menuju pantai.",
-      "criteria": "[[The three young sea turtles]] berpusat pada nomina [[turtles]]; angka dan sifat menerangkannya."
+      "title": "Buat dua noun group dari benda di sekitarmu",
+      "prompt": "Tulislah dua noun group bahasa Inggris untuk benda yang dapat kamu lihat di ruang kelas atau rumah. Setiap kelompok kata harus memiliki determiner atau angka, satu penjelas sebelum nomina, dan head noun. Jika sesuai, tambahkan keterangan setelah nomina.",
+      "model": "a wide wooden desk near the window; three small blue folders on the shelf",
+      "modelTranslation": "sebuah meja kayu lebar di dekat jendela; tiga map biru kecil di atas rak",
+      "criteria": "Periksa apakah setiap kelompok kata memiliki head noun yang jelas, apakah penjelas sebelum nomina berada pada posisi yang wajar, dan apakah keterangan setelah nomina benar-benar memperjelas benda yang dimaksud."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal Kosakata",
       "items": [
         {
-          "english": "noun",
-          "indonesian": "kata benda"
+          "english": "noun group",
+          "indonesian": "kelompok kata benda"
         },
         {
-          "english": "adjective",
-          "indonesian": "kata sifat"
+          "english": "head noun",
+          "indonesian": "nomina inti"
         },
         {
-          "english": "size",
-          "indonesian": "ukuran"
+          "english": "determiner",
+          "indonesian": "kata penentu rujukan, seperti a, the, atau this"
         },
         {
-          "english": "colour",
-          "indonesian": "warna"
+          "english": "quantity",
+          "indonesian": "jumlah atau kuantitas"
+        },
+        {
+          "english": "pre-modifier",
+          "indonesian": "penjelas yang terletak sebelum nomina inti"
+        },
+        {
+          "english": "post-modifier",
+          "indonesian": "penjelas yang terletak setelah nomina inti"
         },
         {
           "english": "material",
-          "indonesian": "bahan"
+          "indonesian": "bahan pembuat suatu benda"
+        },
+        {
+          "english": "refer to",
+          "indonesian": "merujuk pada atau menunjuk sesuatu"
+        },
+        {
+          "english": "label",
+          "indonesian": "label atau keterangan penanda"
+        },
+        {
+          "english": "handle",
+          "indonesian": "pegangan"
         }
       ]
     }
@@ -267,45 +353,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “a bird”?",
+      "prompt": "What is the head noun in “a blue cotton bag with two short handles”?",
       "choices": [
-        "a bird",
-        "a small bird",
-        "a small brown bird",
-        "a wooden box"
+        "blue",
+        "cotton",
+        "bag"
       ],
-      "answer": 0,
-      "explanation": "Ungkapan [[a bird]] muncul dalam kalimat [[a bird]]. “bird” adalah kata benda inti.",
+      "answer": 2,
+      "explanation": "“Bag” menamai benda utama. “Blue” menjelaskan warna, “cotton” menjelaskan bahan, dan “with two short handles” menambahkan rincian tentang tas tersebut.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “a bird”?",
+        "prompt": "Apa nomina inti dalam “a blue cotton bag with two short handles”?",
         "choices": [
-          "seekor burung",
-          "seekor burung kecil",
-          "seekor burung kecil berwarna cokelat",
-          "sebuah kotak kayu"
+          "biru",
+          "katun",
+          "tas"
         ]
-      }
+      },
+      "skill": "Head Noun"
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “brown”?",
+      "prompt": "Which part of “a box for art supplies” explains the box’s purpose?",
       "choices": [
-        "a bird",
-        "a small brown bird",
-        "a small bird",
-        "a wooden box"
+        "a",
+        "box",
+        "for art supplies"
       ],
-      "answer": 1,
-      "explanation": "Ungkapan [[brown]] muncul dalam kalimat [[a small brown bird]]. “brown” menambah informasi warna.",
+      "answer": 2,
+      "explanation": "Frasa “for art supplies” menjelaskan kegunaan kotak. “Box” adalah head noun, sedangkan “a” memperkenalkan satu kotak yang belum ditentukan secara khusus.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “brown”?",
+        "prompt": "Bagian mana dari “a box for art supplies” yang menjelaskan tujuan penggunaan kotak?",
         "choices": [
-          "seekor burung",
-          "seekor burung kecil berwarna cokelat",
-          "seekor burung kecil",
-          "sebuah kotak kayu"
+          "a",
+          "kotak",
+          "untuk perlengkapan seni"
         ]
-      }
+      },
+      "skill": "Post-modifier"
     }
   ],
   "assessments": [

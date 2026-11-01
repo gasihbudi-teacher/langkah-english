@@ -169,4 +169,58 @@ for(const q of reportQuiz.questions){
  assert(q.explanation&&q.explanation.length>40);
 }
 
+
+// Grade 9 Lesson 7: noun groups as a reading skill, with an unfamiliar transfer passage.
+const nounMeta=catalogue.resources.find(r=>r.id==='grade9-noun-groups');
+const nounQuizMeta=catalogue.resources.find(r=>r.id==='grade9-noun-groups-practice');
+assert(nounMeta&&nounQuizMeta,'Grade 9 Noun Groups lesson and independent practice must be registered');
+assert.deepEqual(nounMeta.placements[0],{pathway:'school',grade:9});
+assert.equal(nounMeta.order,340);
+assert.deepEqual(nounMeta.prerequisites,['parts-of-speech']);
+assert.deepEqual(nounMeta.relatedLessons,['grade9-noun-groups-practice','parts-of-speech']);
+assert.equal(nounQuizMeta.type,'quiz');
+assert.equal(nounQuizMeta.title,'Grade 9 Noun Groups Check: A New Reading Corner');
+assert.deepEqual(nounQuizMeta.placements[0],{pathway:'school',grade:9});
+assert.deepEqual(nounQuizMeta.relatedLessons,['grade9-noun-groups']);
+assert.equal(nounQuizMeta.kind,'practice');
+assert.equal(nounQuizMeta.examFormat,'topic');
+const noun=JSON.parse(read(nounMeta.file));
+assert.equal(noun.id,'grade9-noun-groups','The stable lesson ID must be preserved');
+assert.equal(noun.objectives.length,5);
+assert.deepEqual(noun.assessments,['grade9-noun-groups-practice']);
+assert.equal(noun.blocks[0].type,'definition');
+assert.equal(noun.blocks.at(-1).type,'vocabulary','Bekal Kosakata must remain at the end');
+const nounGuide=noun.blocks.find(b=>b.type==='scaffold');
+assert(nounGuide&&nounGuide.modelEnglish&&nounGuide.modelIndonesian);
+assert.equal(nounGuide.steps.length,6);
+assert.equal(new Set(nounGuide.steps.map(s=>s.phase)).size,4);
+assert(nounGuide.steps.every(s=>s.title&&s.explanation&&s.english&&s.indonesian&&s.why));
+assert(nounGuide.steps.every(s=>(!!s.check)===(!!s.checkAnswer)));
+assert.equal(nounGuide.steps.filter(s=>s.check).length,2);
+assert(noun.blocks.some(b=>b.type==='table'));
+assert(noun.blocks.some(b=>b.type==='mistake'));
+assert.equal(noun.blocks.filter(b=>b.type==='self_check').length,1);
+assert.equal(noun.blocks.filter(b=>b.type==='checkpoint').length,1);
+assert.equal(noun.blocks.filter(b=>b.type==='reflection').length,1);
+assert.equal(noun.blocks.filter(b=>b.type==='example_group').flatMap(b=>b.items).length,10);
+assert.equal(noun.practice.length,2);
+assert(noun.practice.every(q=>q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length));
+const nounHtml=blocks(noun.blocks);
+assert.match(nounHtml,/nomina inti/);
+assert.match(nounHtml,/a small wooden clock with a round white face/);
+assert.match(nounHtml,/Catatan itu menggunakan kelompok kata benda yang jelas/);
+assert.match(nounHtml,/class="lesson-translation"/);
+const nounQuiz=JSON.parse(read(nounQuizMeta.file));
+assert.equal(nounQuiz.id,'grade9-noun-groups-practice');
+assert.equal(nounQuiz.questionCount,7);
+assert.equal(nounQuiz.durationSeconds,420);
+assert.equal(nounQuiz.passages.length,1);
+assert.notEqual(nounQuiz.passages[0].text,nounGuide.modelEnglish,'The assessment must use an unfamiliar transfer passage');
+assert.deepEqual(nounQuiz.questions.map(q=>q.answer),[0,2,2,3,0,1,2]);
+for(const q of nounQuiz.questions){
+ assert(q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length);
+ assert(q.evidence&&nounQuiz.passages[0].text.includes(q.evidence),`Noun-group evidence must be exact: ${q.id}`);
+ assert(q.explanation&&q.explanation.length>40);
+}
+
 console.log(`PASS V13-E1-R3 presentation: ${validated} lessons rendered, including all ${schoolChecked} core School lessons; scaffold headings, model notes and phases follow authored lesson data; no compulsory scaffold boilerplate; authored checks rendered only when present; translations and explanations remain accessible; HTML escaped.`);

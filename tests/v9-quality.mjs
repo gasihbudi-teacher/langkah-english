@@ -58,12 +58,13 @@ for(const s of ["case 'definition'","case 'synthesis'","case 'self_check'","form
 const schema=JSON.parse(read('data/schemas/lesson.schema.json'));
 const variants=schema.properties.blocks.items.oneOf;
 for(const k of ['definition','synthesis','self_check'])assert.ok(variants.some(x=>x.properties.type.const===k),'Missing lesson block '+k);
-for(const [id,expected] of [['grade9-trip-recount-practice','To retell the English club’s visit to an art studio.'],['grade9-upcycling-procedure-practice','To explain how to make a reusable gift tag.']]){
+for(const [id,expected] of [['grade9-trip-recount-practice','To retell the English club’s visit to an art studio.'],['grade9-upcycling-procedure-practice','To explain how to make a reusable gift tag.'],['grade9-noun-groups-practice','A new reading corner and the details that make it useful.']]){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));
  assert.equal(d.questions[0].choices[d.questions[0].answer],expected,id+': original wrong answer was not corrected');
- if(id==='grade9-trip-recount-practice'||id==='grade9-upcycling-procedure-practice'){
+ if(id==='grade9-trip-recount-practice'||id==='grade9-upcycling-procedure-practice'||id==='grade9-noun-groups-practice'){
   assert.equal(d.questionCount,7);assert.equal(d.questions.length,7);assert.equal(d.durationSeconds,420);
-  assert.deepEqual(d.questions.map(x=>x.answer),[0,1,2,3,0,1,2]);
+  if(id==='grade9-noun-groups-practice')assert.deepEqual(d.questions.map(x=>x.answer),[0,2,2,3,0,1,2]);
+  else assert.deepEqual(d.questions.map(x=>x.answer),[0,1,2,3,0,1,2]);
   assert.equal(d.passages.length,1);assert.equal(d.passages[0].original,true);
   for(const q of d.questions){assert.equal(q.passageId,d.passages[0].id);assert(d.passages[0].text.includes(q.evidence),q.id+': evidence must be exact');}
  }else assert.deepEqual(d.questions.map(x=>x.answer).sort(),[0,1,2,3]);

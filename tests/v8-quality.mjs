@@ -136,6 +136,14 @@ for(const m of entries){
    assert.deepEqual(positions,[2,2,2,1]);
    nPassages++;newQuestions+=d.questions.length;continue;
   }
+  if(m.id==='grade9-noun-groups-practice'){
+   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.durationSeconds,420);assert.equal(d.passages.length,1);
+   assert.ok(d.passages[0].text.trim().split(/\s+/).length>=120);assert.equal(d.passages[0].original,true);
+   const positions=[0,0,0,0];
+   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);positions[q.answer]++;}
+   assert.deepEqual(positions,[2,1,3,1]);
+   nPassages++;newQuestions+=d.questions.length;continue;
+  }
   assert.equal(d.questions.length,4);
   assert.equal(d.questionCount,4);
   assert.equal(d.passages.length,1);
@@ -163,7 +171,7 @@ function checkQuestion(q,ctx){
  assert.ok(q.translationId.choices.every(x=>x.trim()),ctx+' empty Indonesian gloss');
  assert.ok(q.explanation.trim(),ctx+' missing explanation');
 }
-assert.equal(newQuestions,149);
+assert.equal(newQuestions,152);
 assert.equal(checks,23);
 assert.ok(exampleCount>=218,'Re-authored Grade 9 report and trip-recount lessons use objective-led example sets.');
 assert.equal(nPassages,23);

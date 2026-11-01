@@ -1,111 +1,183 @@
 {
   "id": "grade9-noun-groups-practice",
-  "questionCount": 4,
-  "durationSeconds": 360,
+  "questionCount": 7,
+  "durationSeconds": 420,
   "passages": [
     {
-      "id": "text-noun-groups",
-      "title": "Noun Groups: Describing Animals and Products",
-      "text": "At the nature corner, students observed a small brown bird with a curved beak. Its short wings helped it move quickly between nearby trees. Beside the bird’s picture, a large wooden board showed simple facts about its food and habitat. The class also displayed two reusable blue containers for collecting paper. Students noticed that descriptive word groups helped visitors identify objects without reading a very long explanation.",
+      "id": "reading-corner-description",
+      "title": "Noun Groups: A New Reading Corner",
+      "text": "Last month, the school library opened a new reading corner beside its tall windows. A low wooden shelf holds short story books, picture dictionaries, and several large-print guides. On the pale blue wall, a simple map of the library shows quiet study areas. Two soft floor cushions sit under a round table with a smooth surface. A small reading lamp with a flexible neck stands near the shelf. The librarian placed clear labels above each group of books, so younger students can find the right section. A narrow sign beside the entrance explains the quiet-reading rules. Many students now use the corner after lunch. Some read alone, while others choose a short book to share with a friend. At the end of the first week, the librarian asked visitors what they liked. Several students mentioned the soft cushions and the lamp with a flexible neck. One student suggested adding a second shelf for books about science. The librarian will consider the suggestion before changing the display. The new space gives the library a calm place for reading and study.",
       "original": true
     }
   ],
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the main focus of the passage?",
+      "prompt": "What is the passage mainly about?",
       "choices": [
-        "Instructions for building a new classroom",
-        "A description of objects and an animal using detailed word groups",
-        "The history of an old museum",
-        "A debate about banning paper"
+        "A new reading corner and the details that make it useful.",
+        "A plan to close the school library.",
+        "The history of a famous collection of books.",
+        "Instructions for making a reading lamp."
       ],
-      "answer": 1,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "answer": 0,
+      "explanation": "Bacaan menjelaskan sudut baca baru di perpustakaan, benda-benda yang tersedia, dan cara rincian tersebut membantu pengunjung. Teks tidak membahas penutupan perpustakaan, sejarah koleksi terkenal, atau petunjuk membuat lampu.",
       "translationId": {
-        "prompt": "Apa fokus utama bacaan?",
+        "prompt": "Apa pokok bahasan utama bacaan tersebut?",
         "choices": [
-          "Instruksi membangun ruang kelas baru",
-          "Deskripsi benda dan hewan dengan kelompok kata terperinci",
-          "Sejarah museum lama",
-          "Debat tentang larangan kertas"
+          "Sudut baca baru dan rincian yang membuatnya berguna.",
+          "Rencana untuk menutup perpustakaan sekolah.",
+          "Sejarah koleksi buku yang terkenal.",
+          "Petunjuk untuk membuat lampu baca."
         ]
       },
       "skill": "Main Idea",
-      "passageId": "text-noun-groups",
-      "evidence": "At the nature corner, students observed a small brown bird with a curved beak."
+      "passageId": "reading-corner-description",
+      "evidence": "The new space gives the library a calm place for reading and study."
     },
     {
       "id": "q2",
-      "prompt": "What colour was the bird?",
+      "prompt": "What is the head noun in the group “a low wooden shelf”?",
       "choices": [
-        "Bright green",
-        "Blue",
-        "Brown",
-        "Red"
+        "low",
+        "wooden",
+        "shelf",
+        "books"
       ],
       "answer": 2,
-      "explanation": "Frasa “small brown bird” menyatakan warna burung.",
+      "explanation": "“Shelf” menamai benda utama yang dibicarakan. “Low” menjelaskan ukuran rak, sedangkan “wooden” menunjukkan bahannya. “Books” muncul setelahnya sebagai benda yang disimpan di rak, bukan inti kelompok kata tersebut.",
       "translationId": {
-        "prompt": "Apa warna burung tersebut?",
+        "prompt": "Apa nomina inti dalam kelompok kata “a low wooden shelf”?",
         "choices": [
-          "Hijau terang",
-          "Biru",
-          "Cokelat",
-          "Merah"
+          "rendah",
+          "berbahan kayu",
+          "rak",
+          "buku-buku"
         ]
       },
-      "skill": "Supporting Details",
-      "passageId": "text-noun-groups",
-      "evidence": "a small brown bird"
+      "skill": "Head Noun",
+      "passageId": "reading-corner-description",
+      "evidence": "A low wooden shelf holds short story books, picture dictionaries, and several large-print guides."
     },
     {
       "id": "q3",
-      "prompt": "What is the head noun in “a large wooden board”?",
+      "prompt": "What does “with a flexible neck” add to the noun group about the lamp?",
       "choices": [
-        "large",
-        "wooden",
-        "a",
-        "board"
+        "It tells where the lamp is located.",
+        "It tells how many lamps are in the room.",
+        "It describes one feature of the lamp.",
+        "It names the person who owns the lamp."
       ],
-      "answer": 3,
-      "explanation": "Kata inti adalah benda yang dijelaskan oleh besar dan kayu.",
+      "answer": 2,
+      "explanation": "Frasa “with a flexible neck” berada setelah head noun “lamp” dan menjelaskan salah satu cirinya. Frasa itu tidak menunjukkan jumlah lampu, lokasi lampu, atau pemiliknya.",
       "translationId": {
-        "prompt": "Apa kata benda inti dalam “a large wooden board”?",
+        "prompt": "Apa informasi yang ditambahkan oleh “with a flexible neck” pada kelompok kata tentang lampu?",
         "choices": [
-          "large (kata sifat)",
-          "wooden (kata sifat)",
-          "a (artikel)",
-          "board (kata benda)"
+          "Frasa itu menunjukkan lokasi lampu.",
+          "Frasa itu menunjukkan jumlah lampu di ruangan.",
+          "Frasa itu menjelaskan salah satu ciri lampu.",
+          "Frasa itu menyebutkan orang yang memiliki lampu."
         ]
       },
-      "skill": "Grammar in Context",
-      "passageId": "text-noun-groups",
-      "evidence": "a large wooden board"
+      "skill": "Post-modifier",
+      "passageId": "reading-corner-description",
+      "evidence": "A small reading lamp with a flexible neck stands near the shelf."
     },
     {
       "id": "q4",
-      "prompt": "Why did students use descriptive word groups?",
+      "prompt": "What does “several” tell the reader in “several large-print guides”?",
       "choices": [
-        "To help visitors identify objects quickly",
-        "To confuse the visitors",
-        "To remove every picture",
-        "To avoid naming the objects"
+        "The colour of the guides",
+        "The location of the guides",
+        "The material of the guides",
+        "The quantity of the guides"
       ],
-      "answer": 0,
-      "explanation": "Paragraf terakhir menjelaskan fungsi kelompok kata deskriptif.",
+      "answer": 3,
+      "explanation": "“Several” menunjukkan jumlah yang lebih dari satu, tetapi tidak menyebut angka tertentu. Kata tersebut membatasi jumlah “guides”; kata itu bukan nomina inti dan bukan penjelas warna atau bahan.",
       "translationId": {
-        "prompt": "Mengapa siswa menggunakan kelompok kata deskriptif?",
+        "prompt": "Apa yang diberitahukan oleh “several” dalam “several large-print guides”?",
         "choices": [
-          "Untuk membantu pengunjung mengenali benda dengan cepat",
-          "Untuk membingungkan pengunjung",
-          "Untuk menghapus semua gambar",
-          "Untuk menghindari penamaan benda"
+          "Warna panduan",
+          "Lokasi panduan",
+          "Bahan panduan",
+          "Jumlah panduan"
         ]
       },
-      "skill": "Making Inferences",
-      "passageId": "text-noun-groups",
-      "evidence": "helped visitors identify objects"
+      "skill": "Determiners and Quantity",
+      "passageId": "reading-corner-description",
+      "evidence": "A low wooden shelf holds short story books, picture dictionaries, and several large-print guides."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which phrase tells where the new reading corner is located?",
+      "choices": [
+        "beside its tall windows",
+        "several large-print guides",
+        "a smooth surface",
+        "a flexible neck"
+      ],
+      "answer": 0,
+      "explanation": "Frasa “beside its tall windows” memberi informasi lokasi reading corner. Frasa lain menjelaskan benda di dalam ruangan, seperti panduan, permukaan meja, atau bagian lampu.",
+      "translationId": {
+        "prompt": "Frasa mana yang menunjukkan lokasi sudut baca baru?",
+        "choices": [
+          "di samping jendela-jendelanya yang tinggi",
+          "beberapa buku panduan berhuruf besar",
+          "permukaan yang halus",
+          "leher yang lentur"
+        ]
+      },
+      "skill": "Post-modifier and Location",
+      "passageId": "reading-corner-description",
+      "evidence": "Last month, the school library opened a new reading corner beside its tall windows."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which noun group refers to the cushions?",
+      "choices": [
+        "a round table",
+        "two soft floor cushions",
+        "a small reading lamp",
+        "a narrow sign"
+      ],
+      "answer": 1,
+      "explanation": "“Two soft floor cushions” adalah kelompok kata yang menamai bantal duduk. “Two” menunjukkan jumlah, “soft” menjelaskan sifatnya, dan “cushions” menjadi nomina inti.",
+      "translationId": {
+        "prompt": "Kelompok kata mana yang merujuk pada bantal duduk?",
+        "choices": [
+          "sebuah meja bundar",
+          "dua bantal lantai yang empuk",
+          "sebuah lampu baca kecil",
+          "sebuah papan tanda yang sempit"
+        ]
+      },
+      "skill": "Identifying Noun Groups",
+      "passageId": "reading-corner-description",
+      "evidence": "Two soft floor cushions sit under a round table with a smooth surface."
+    },
+    {
+      "id": "q7",
+      "prompt": "Why did the librarian place clear labels above each group of books?",
+      "choices": [
+        "To make the wall look colourful.",
+        "To stop students from borrowing books.",
+        "To help younger students find the right section.",
+        "To show where the cushions should be placed."
+      ],
+      "answer": 2,
+      "explanation": "Kalimat tersebut menyatakan bahwa label membantu siswa yang lebih muda menemukan bagian buku yang tepat. Tujuan ini berkaitan dengan kemudahan menemukan buku, bukan menghias dinding atau mengatur bantal.",
+      "translationId": {
+        "prompt": "Mengapa pustakawan meletakkan label yang jelas di atas setiap kelompok buku?",
+        "choices": [
+          "Untuk membuat dinding tampak berwarna-warni.",
+          "Untuk mencegah siswa meminjam buku.",
+          "Untuk membantu siswa yang lebih muda menemukan bagian yang tepat.",
+          "Untuk menunjukkan tempat bantal harus diletakkan."
+        ]
+      },
+      "skill": "Purpose and Supporting Detail",
+      "passageId": "reading-corner-description",
+      "evidence": "The librarian placed clear labels above each group of books, so younger students can find the right section."
     }
   ]
 }
