@@ -2361,16 +2361,17 @@
       "type": "lesson",
       "relatedLessons": [
         "grade10-healthy-procedure-practice",
-        "sentence-structure"
+        "grade9-upcycling-procedure",
+        "grade10-descriptive"
       ],
       "file": "data/lessons/grade10-healthy-procedure.json",
       "order": 350,
-      "estimatedMinutes": 28,
+      "estimatedMinutes": 35,
       "prerequisites": [
-        "sentence-structure"
+        "grade9-upcycling-procedure"
       ],
-      "title": "Procedure Text: Healthy Routines",
-      "description": "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
+      "title": "Grade 10: Healthy Procedure — Preparing a Safe Snack Box",
+      "description": "Menganalisis tujuan, langkah, modal, kondisi, alasan, dan peringatan dalam prosedur menyiapkan bekal sekolah secara aman.",
       "placements": [
         {
           "pathway": "school",
@@ -2378,11 +2379,25 @@
         }
       ],
       "difficulty": "Intermediate",
-      "grammarTopics": [],
-      "readingSkills": [],
+      "grammarTopics": [
+        "Imperatives",
+        "Modal verbs",
+        "Conditionals",
+        "Sequence markers"
+      ],
+      "readingSkills": [
+        "Following Instructions",
+        "Text Organization",
+        "Cause and Effect",
+        "Evaluating Instructions",
+        "Vocabulary in Context"
+      ],
       "tags": [
-        "sports and health",
-        "Procedure Text",
+        "healthy routines",
+        "food safety",
+        "procedure text",
+        "modal verbs",
+        "conditional instructions",
         "Grade 10"
       ],
       "aiGenerated": true,
@@ -2391,9 +2406,9 @@
         "grade": 10,
         "phase": "E",
         "genre": "Procedure Text",
-        "theme": "sports and health",
+        "theme": "safe school snack preparation",
         "curriculumElement": "Reading–Viewing",
-        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris Fase E; bukan urutan bab wajib nasional."
       }
     },
     {
@@ -2406,8 +2421,8 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 351,
-      "title": "Procedure Text: Healthy Routines",
-      "description": "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
+      "title": "Grade 10 Healthy Procedure: A Safe School Walk",
+      "description": "Latihan transfer untuk menganalisis tujuan, persiapan, larangan, kondisi, modal, dan alasan dalam panduan kegiatan jalan kaki sekolah.",
       "placements": [
         {
           "pathway": "school",
@@ -2415,12 +2430,23 @@
         }
       ],
       "difficulty": "Intermediate",
-      "grammarTopics": [],
-      "readingSkills": [],
+      "grammarTopics": [
+        "Imperatives",
+        "Modal verbs",
+        "Conditionals",
+        "Sequence markers"
+      ],
+      "readingSkills": [
+        "Following Instructions",
+        "Text Organization",
+        "Making Inferences",
+        "Evaluating Instructions"
+      ],
       "tags": [
-        "sports and health",
-        "Procedure Text",
-        "Grade 10"
+        "school walking routine",
+        "healthy procedure",
+        "safety instructions",
+        "independent transfer"
       ],
       "aiGenerated": true,
       "unofficial": true,

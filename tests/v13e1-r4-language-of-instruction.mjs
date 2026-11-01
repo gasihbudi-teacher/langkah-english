@@ -41,7 +41,7 @@ function walk(blocks){
  }
 }
 for(const r of lessons)walk(load(r.file).blocks);
-assert.equal(steps,601);assert.equal(stepTranslations,601,'Every scaffold English example must have visible Indonesian meaning');assert.equal(checks,165,'Purposeful scaffold questions remain optional, with no quota imposed');
+assert.equal(steps,601);assert.equal(stepTranslations,601,'Every scaffold English example must have visible Indonesian meaning');assert.equal(checks,168,'Purposeful scaffold questions remain optional, with no quota imposed');
 assert.equal(models,45);assert.equal(modelTranslations,45,'Every connected model passage must have Indonesian support');
 assert.equal(exampleItems,641);assert.equal(exampleTranslations,641,'Every worked-example card must have Indonesian meaning');
 assert.equal(checkpoints,65);assert.equal(checkpointTranslations,65);assert.equal(checkpointChoiceTranslations,65);
@@ -76,8 +76,8 @@ const idMarker=/\b(?:yang|dan|di|ke|dari|untuk|dengan|pada|adalah|ini|itu|kita|s
 let qCount=0,embeddedCount=0,untranslatedOverall=0;
 for(const r of lessons){const d=load(r.file);embeddedCount+=d.practice?.length||0;}
 for(const r of quizzes){const qz=load(r.file);for(const q of qz.questions){qCount++;if(!idMarker.test(q.explanation||''))untranslatedOverall++;}}
-assert.equal(qCount,529,'Standalone quiz question count must remain unchanged');
-assert.equal(qCount+embeddedCount,705,'Standalone and embedded practice inventory must remain unchanged');
+assert.equal(qCount,532,'Standalone quiz question count must remain unchanged');
+assert.equal(qCount+embeddedCount,708,'Standalone and embedded practice inventory must remain unchanged');
 assert.equal(untranslatedOverall,0,'Every main quiz explanation shown in Indonesian must be written in Indonesian');
 
 for(const page of ['grammar.html','school.html','search.html','tka.html','utbk.html','lesson.html','quiz.html','results.html']){

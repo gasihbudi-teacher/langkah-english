@@ -12,7 +12,7 @@ async def main():
  results=[]
  async with async_playwright() as p:
   browser=await p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
-  for lesson_id in ['sentence-structure','grade9-reading','grade10-descriptive','grade10-recount','grade12-critical-reading','grade12-caption-text','utbk-critical-inference','tka-evaluating-facts-opinions-evidence','tka-reading-foundations']:
+  for lesson_id in ['sentence-structure','grade9-reading','grade10-descriptive','grade10-healthy-procedure','grade10-recount','grade12-critical-reading','grade12-caption-text','utbk-critical-inference','tka-evaluating-facts-opinions-evidence','tka-reading-foundations']:
    page=await browser.new_page(viewport={'width':390,'height':844})
    errors=[]
    page.on('pageerror',lambda e:errors.append(str(e)))
@@ -63,6 +63,16 @@ async def main():
     assert white_space=='pre-line',('Grade 10 descriptive Indonesian translation must preserve paragraph breaks',white_space)
     rendered_translation=await model_translation.inner_text()
     assert rendered_translation.count('\n')>=3,('Descriptive translation paragraph breaks are not visible',repr(rendered_translation))
+   if lesson_id=='grade10-healthy-procedure':
+    assert await page.locator('.scaffold-step').count()==8
+    assert await checks.count()==3,(lesson_id,'Three authored healthy-procedure checks should be rendered')
+    assert await page.locator('.worked-example').count()==10
+    model_translation=page.locator('.scaffold-model .lesson-translation')
+    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert white_space=='pre-line',('Grade 10 healthy-procedure Indonesian translation must preserve paragraph breaks',white_space)
+    rendered_translation=await model_translation.inner_text()
+    assert rendered_translation.count('\n')>=3,('Healthy-procedure translation paragraph breaks are not visible',repr(rendered_translation))
+    assert 'must not' in scaffold_text.lower() and 'should' in scaffold_text.lower()
    if lesson_id=='sentence-structure':
     assert await checks.count()==1,(lesson_id,'Only the purposeful object-contrast check should remain')
     assert 'direct object' in (await page.locator('.scaffold-review').inner_text()).lower()
@@ -104,6 +114,21 @@ async def main():
   assert descriptive_overflow==0,descriptive_overflow
   assert not errors,errors
   results.append({'lesson':'grade10-descriptive-practice','visible_questions':7,'indonesian_question_support':await page.locator('.translation-detail').count(),'overflow_px':descriptive_overflow,'errors':errors})
+  await page.close()
+  # Grade 10 healthy-procedure transfer: a new supervised school-walk procedure and seven questions.
+  page=await browser.new_page(viewport={'width':390,'height':844})
+  errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+  await setup(page,'quiz.html','quiz.js','?id=grade10-healthy-procedure-practice')
+  assert 'Grade 10 Healthy Procedure' in (await page.locator('#content h1').inner_text())
+  await page.locator('#practice').click()
+  await page.locator('#question-title').wait_for()
+  assert 'Preparing for a Safe School Walk' in (await page.locator('#passage').inner_text())
+  assert await page.locator('#numbers button').count()==7
+  assert await page.locator('.translation-detail').count()>=1
+  procedure_overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
+  assert procedure_overflow==0,procedure_overflow
+  assert not errors,errors
+  results.append({'lesson':'grade10-healthy-procedure-practice','visible_questions':7,'indonesian_question_support':await page.locator('.translation-detail').count(),'overflow_px':procedure_overflow,'errors':errors})
   await page.close()
   await browser.close()
  print(json.dumps({'status':'PASS','pages':results},ensure_ascii=False,indent=2))

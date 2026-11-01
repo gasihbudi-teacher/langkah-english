@@ -1,279 +1,364 @@
 {
   "id": "grade10-healthy-procedure",
   "objectives": [
-    "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Menganalisis tujuan, sasaran pembaca, dan susunan langkah dalam [[healthy procedure text]].",
+    "Membedakan perintah, anjuran, kewajiban kuat, dan larangan melalui bentuk imperatif serta modal [[must]], [[should]], dan [[must not]].",
+    "Menafsirkan penanda urutan, prasyarat, kondisi, dan alasan untuk memahami hubungan antarlangkah.",
+    "Menilai apakah peringatan, alternatif, dan batas penggunaan instruksi dinyatakan dengan jelas.",
+    "Menerapkan ciri kebahasaan procedure text pada situasi baru tanpa menambahkan klaim kesehatan yang tidak didukung."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Procedure Text: Healthy Routines?",
-      "text": "[[Procedure text]] adalah teks petunjuk yang menjelaskan tujuan, perlengkapan, dan langkah-langkah untuk melakukan sesuatu dengan aman."
+      "title": "Procedure Text: instruksi, alasan, dan keselamatan",
+      "text": "[[Procedure text]] menjelaskan cara mencapai tujuan melalui langkah yang teratur. Dalam topik kesehatan dan kebiasaan sehari-hari, pembaca perlu memperhatikan lebih dari urutan. Periksa siapa sasaran panduan, tindakan apa yang diminta, seberapa kuat instruksinya, kondisi apa yang mengubah langkah, dan peringatan apa yang membatasi penggunaannya. Contoh pada pelajaran ini merupakan materi pembelajaran umum, bukan diagnosis, rencana diet, atau nasihat medis pribadi."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Dari tujuan menuju instruksi yang dapat dinilai",
+      "intro": "Ikuti bagaimana sebuah panduan menyiapkan kotak bekal sekolah. Kamu akan bergerak dari mengenali tujuan dan sasaran pembaca, membaca bentuk perintah, menafsirkan kekuatan modal, hingga menilai kondisi dan peringatan. Perhatikan bahwa setiap langkah memiliki fungsi; tidak semua kalimat dalam panduan memiliki tingkat kewajiban yang sama.",
+      "modelTitle": "Preparing a Snack Box for a School Day",
+      "modelPosition": "after",
+      "modelEnglish": "Preparing a snack box for a school day can be simple when you plan the items and handle them carefully. This guide is for students who prepare food at home, with adult help when needed. It offers general classroom guidance, not a personal diet plan. Follow family or school instructions about allergies and dietary needs.\n\nBefore you begin, clear a clean work surface. Wash your hands with soap and safe running water, then clean the container and utensils. Rinse fresh fruit or vegetables under safe running water. Check ingredient labels and expiry dates. If you are unsure whether an ingredient is suitable, ask an adult instead of guessing.\n\nChoose a variety of foods that are available at home. For example, you may include fruit or vegetables, a grain food such as bread, and a protein food such as beans, egg, or cheese. These are examples, not a fixed menu or portion rule. Put ready-to-eat items into separate sections with clean utensils. Keep raw food and its juices away from food that is ready to eat. If you need to cut an item, use a clean board and ask an adult for help with a knife.\n\nClose the box and store it safely. If it contains cooked or other perishable food, keep it cold until it is eaten; use an insulated bag with suitable cold sources or follow the school storage instructions. If you cannot keep it cold, choose a suitable shelf-stable option. Do not pack food beyond its expiry date. Finally, clean the work area and wash the utensils. A useful snack box depends on planning, cleanliness, and suitable storage, not on one perfect menu.",
+      "modelIndonesian": "Menyiapkan kotak bekal untuk hari sekolah dapat dilakukan dengan sederhana jika kamu merencanakan isinya dan menanganinya dengan cermat. Panduan ini ditujukan bagi siswa yang menyiapkan makanan di rumah, dengan bantuan orang dewasa jika diperlukan. Panduan ini merupakan petunjuk umum untuk pembelajaran, bukan rencana pola makan pribadi. Ikuti petunjuk keluarga atau sekolah mengenai alergi dan kebutuhan makanan.\n\nSebelum mulai, bersihkan permukaan kerja. Cuci tangan dengan sabun dan air mengalir yang aman, lalu bersihkan wadah dan peralatan makan. Bilas buah atau sayuran segar dengan air mengalir yang aman. Periksa label bahan dan tanggal kedaluwarsa. Jika kamu tidak yakin apakah suatu bahan sesuai, tanyakan kepada orang dewasa daripada menebak.\n\nPilih beragam makanan yang tersedia di rumah. Sebagai contoh, kamu dapat memasukkan buah atau sayuran, makanan berbahan serealia seperti roti, serta sumber protein seperti kacang-kacangan, telur, atau keju. Semua itu hanyalah contoh, bukan menu atau aturan porsi yang wajib. Letakkan makanan siap santap pada bagian yang terpisah dengan menggunakan peralatan bersih. Jauhkan makanan mentah dan cairannya dari makanan yang siap disantap. Jika perlu memotong bahan, gunakan talenan bersih dan mintalah bantuan orang dewasa saat menggunakan pisau.\n\nTutup kotak bekal dan simpan dengan aman. Jika isinya berupa makanan matang atau makanan lain yang mudah rusak, jaga agar tetap dingin sampai dimakan; gunakan tas berinsulasi dengan sumber pendingin yang sesuai atau ikuti petunjuk penyimpanan dari sekolah. Jika kamu tidak dapat menjaganya tetap dingin, pilih makanan yang sesuai dan tahan disimpan pada suhu ruang. Jangan mengemas makanan yang telah melewati tanggal kedaluwarsa. Terakhir, bersihkan area kerja dan cuci peralatannya. Kotak bekal yang baik bergantung pada perencanaan, kebersihan, dan penyimpanan yang sesuai, bukan pada satu menu yang dianggap sempurna.",
+      "modelNote": "Paragraf pertama menetapkan tujuan, sasaran pembaca, dan batas panduan. Paragraf kedua menjelaskan persiapan serta kebersihan. Paragraf ketiga menyusun pilihan dan penanganan bahan. Paragraf terakhir membahas penyimpanan, kondisi, alternatif, dan penutupan. Perintah langsung memberi tindakan; must, should, dan must not menunjukkan kekuatan instruksi yang berbeda; if memperkenalkan kondisi yang dapat mengubah tindakan.",
       "steps": [
         {
-          "title": "Tujuan rutinitas",
-          "explanation": "Kenali hasil praktis yang hendak dicapai; jangan menganggap setiap langkah sebagai nasihat medis untuk semua orang.",
-          "english": "Drink water before exercising.",
-          "indonesian": "Minum air sebelum berolahraga.",
-          "why": "“before” menunjukkan waktu."
+          "phase": "Menentukan tujuan dan pembaca",
+          "title": "Kenali tujuan dan siapa yang akan mengikuti panduan",
+          "explanation": "Mulailah dengan mencari hasil yang ingin dicapai dan orang yang menjadi sasaran. Tujuan memberi tahu apa yang akan disiapkan; sasaran pembaca membantu menentukan apakah instruksi perlu bantuan orang dewasa, aturan sekolah, atau penyesuaian tertentu. Jangan menganggap panduan umum cocok untuk setiap orang.",
+          "english": "This guide is for students who prepare food at home, with adult help when needed.",
+          "indonesian": "Panduan ini ditujukan bagi siswa yang menyiapkan makanan di rumah, dengan bantuan orang dewasa jika diperlukan.",
+          "why": "Kalimat ini menyebutkan sasaran pembaca dan kondisi bantuan. Panduan tidak ditujukan sebagai rencana makan pribadi atau instruksi untuk semua situasi."
         },
         {
-          "title": "Persiapan",
-          "explanation": "Kenali benda, waktu, atau kondisi yang perlu disiapkan sebelum memulai.",
-          "english": "Warm up slowly.",
-          "indonesian": "Lakukan pemanasan secara perlahan.",
-          "why": "Kata kerja di depan memberi instruksi."
+          "phase": "Mengenali persiapan",
+          "title": "Pisahkan persiapan dari langkah utama",
+          "explanation": "Sebelum melakukan tindakan inti, prosedur dapat meminta pembaca menyiapkan tempat, alat, atau bahan. Penanda seperti [[before you begin]] menunjukkan bahwa persiapan harus dilakukan lebih dahulu. Daftar persiapan bukan tujuan akhir, tetapi membantu langkah berikutnya dilakukan dengan benar.",
+          "english": "Before you begin, clear a clean work surface.",
+          "indonesian": "Sebelum mulai, bersihkan permukaan kerja.",
+          "why": "Klausa before you begin menempatkan tindakan membersihkan permukaan sebelum kegiatan menyiapkan bekal dimulai."
         },
         {
-          "title": "Baca kata kerja tindakan",
-          "explanation": "Pahami perintah seperti [[wash]], [[drink]], atau [[stretch]] beserta objeknya.",
-          "english": "You need comfortable shoes.",
-          "indonesian": "Kamu memerlukan sepatu yang nyaman.",
-          "why": "Ini persiapan sebelum tindakan."
+          "phase": "Membaca bentuk perintah",
+          "title": "Temukan kata kerja imperatif dan tindakan yang diminta",
+          "explanation": "Kalimat imperatif biasanya dimulai dengan kata kerja bentuk dasar dan tidak menuliskan subjek you secara langsung. Cari kata kerja, lalu tanyakan objek atau bagian yang dikenai tindakan. Bentuk ini berbeda dari kalimat yang hanya menjelaskan fakta.",
+          "english": "Wash your hands with soap and safe running water.",
+          "indonesian": "Cuci tangan dengan sabun dan air mengalir yang aman.",
+          "why": "Wash adalah kata kerja perintah. Subjek you dipahami meskipun tidak ditulis, sedangkan your hands menunjukkan bagian yang dibersihkan."
         },
         {
-          "title": "Ikuti instruksi pertama",
-          "explanation": "Tentukan apa yang benar-benar diminta, tidak sekadar menerjemahkan verba lepas konteks.",
-          "english": "Walk for five minutes.",
-          "indonesian": "Berjalanlah selama lima menit.",
-          "why": "Ini langkah yang harus dikerjakan."
+          "phase": "Mengikuti urutan dan prasyarat",
+          "title": "Hubungkan penanda urutan dengan tindakan sebelumnya",
+          "explanation": "Kata [[first]], [[next]], [[then]], dan [[finally]] membantu menelusuri urutan. Sementara itu, [[before]] dan [[after]] menunjukkan hubungan waktu atau prasyarat. Jangan menukar langkah hanya karena dua tindakan tampak dapat dilakukan kapan saja; ikuti hubungan yang dinyatakan teks.",
+          "english": "Finally, clean the work area and wash the utensils.",
+          "indonesian": "Terakhir, bersihkan area kerja dan cuci peralatannya.",
+          "why": "Finally menandai bagian penutup setelah makanan dikemas dan disimpan. Kalimat ini bukan langkah awal.",
+          "check": "Dalam model, tindakan apa yang dilakukan sebelum kotak bekal ditutup dan disimpan?",
+          "checkAnswer": "Makanan dipilih dan diletakkan pada bagian terpisah. Teks kemudian meminta pembaca menutup kotak dan menyimpannya dengan aman."
         },
         {
-          "title": "Hubungkan urutan",
-          "explanation": "Langkah yang berurutan harus dipahami hubungan dan ketergantungannya.",
-          "english": "First, wash your hands with soap for at least twenty seconds.",
-          "indonesian": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
-          "why": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+          "phase": "Menafsirkan kekuatan modal",
+          "title": "Bedakan kewajiban, anjuran, dan larangan",
+          "explanation": "[[Must]] menyatakan kewajiban atau keharusan yang kuat dalam panduan. [[Should]] biasanya menyampaikan anjuran. [[Must not]] menyatakan larangan. Ketiganya diikuti kata kerja bentuk dasar. Saat membaca, jangan mengubah anjuran menjadi kewajiban atau menganggap larangan sekadar pilihan.",
+          "english": "You should check ingredient labels and expiry dates.",
+          "indonesian": "Kamu sebaiknya memeriksa label bahan dan tanggal kedaluwarsa.",
+          "why": "Should menunjukkan saran atau anjuran dalam panduan. Bentuk ini lebih lunak daripada must, yang menyatakan keharusan kuat."
         },
         {
-          "title": "Kenali if dan when",
-          "explanation": "Kondisi seperti [[if you feel dizzy]] dapat mengubah tindakan yang tepat.",
-          "english": "After the activity, drink water and rest in a cool place.",
-          "indonesian": "Setelah kegiatan, minumlah air dan beristirahatlah di tempat yang sejuk.",
-          "why": "[[After the activity]] menandai waktu, dan dua verba perintah menunjukkan tindakan selanjutnya."
+          "phase": "Membaca kondisi dan alternatif",
+          "title": "Cari kondisi yang mengubah tindakan yang perlu dipilih",
+          "explanation": "Klausa yang diawali [[if]] menyatakan kondisi. Instruksi setelahnya menjelaskan tindakan yang sesuai jika kondisi itu terjadi. Panduan yang baik dapat menyediakan alternatif ketika langkah utama tidak dapat dilakukan; pembaca tidak boleh mengabaikan kondisi tersebut.",
+          "english": "If you cannot keep it cold, choose a suitable shelf-stable option.",
+          "indonesian": "Jika kamu tidak dapat menjaganya tetap dingin, pilih makanan yang sesuai dan tahan disimpan pada suhu ruang.",
+          "why": "If memperkenalkan kondisi bahwa makanan tidak dapat dijaga tetap dingin. Klausa utama memberikan alternatif, bukan menyuruh pembaca mengabaikan kebutuhan penyimpanan.",
+          "check": "Jika makanan mudah rusak tidak dapat dijaga tetap dingin, tindakan alternatif apa yang disebutkan dalam model?",
+          "checkAnswer": "Pilih makanan yang sesuai dan tahan disimpan pada suhu ruang. Model tidak menyarankan membiarkan makanan mudah rusak tanpa pendinginan."
         },
         {
-          "title": "Pertimbangkan kehati-hatian",
-          "explanation": "Baca peringatan dengan serius dan hindari generalisasi bahwa satu rutinitas cocok untuk semua orang.",
-          "english": "After a gentle warm-up, gradually increase your walking speed if you feel comfortable.",
-          "indonesian": "Setelah pemanasan ringan, tingkatkan kecepatan berjalan secara bertahap jika merasa nyaman.",
-          "why": "Urutan dan kondisi menjaga kegiatan tetap aman."
+          "phase": "Menghubungkan tindakan dan alasan",
+          "title": "Temukan alasan yang menjelaskan mengapa langkah diperlukan",
+          "explanation": "Kata [[because]] dapat memperkenalkan alasan, sedangkan [[so that]] dapat menjelaskan tujuan. Alasan membantu pembaca memahami fungsi suatu langkah. Namun, jangan menambahkan klaim ilmiah atau kesehatan yang tidak dinyatakan oleh sumber atau teks.",
+          "english": "Keep raw food and its juices away from food that is ready to eat.",
+          "indonesian": "Jauhkan makanan mentah dan cairannya dari makanan yang siap disantap.",
+          "why": "Instruksi ini menekankan pemisahan bahan mentah dan makanan siap santap. Prinsip tersebut sejalan dengan panduan keamanan pangan WHO tentang memisahkan bahan mentah dan makanan siap konsumsi."
         },
         {
-          "title": "Terangkan keseluruhan",
-          "explanation": "Susun rutinitas singkat dan jelaskan maksud setiap langkah serta urutannya.",
-          "english": "If you experience pain, stop the activity and ask a trusted adult for help.",
-          "indonesian": "Jika mengalami rasa sakit, hentikan kegiatan dan mintalah bantuan orang dewasa tepercaya.",
-          "why": "Kalimat ini menekankan keselamatan, bukan pencapaian waktu."
+          "phase": "Menilai batas dan peringatan",
+          "title": "Periksa larangan, pengecualian, dan batas penggunaan",
+          "explanation": "Baca kata seperti [[must not]], [[do not]], dan keterangan tentang bantuan orang dewasa atau kebutuhan khusus. Bagian ini membatasi tindakan yang tidak boleh dilakukan dan menjelaskan kapan pembaca perlu mengikuti arahan lain. Jangan menganggap satu contoh menu atau rutinitas berlaku bagi semua siswa.",
+          "english": "Do not pack food beyond its expiry date.",
+          "indonesian": "Jangan mengemas makanan yang telah melewati tanggal kedaluwarsa.",
+          "why": "Do not menyatakan larangan. Kalimat pembuka juga mengingatkan bahwa aturan keluarga, sekolah, alergi, dan kebutuhan makanan tetap perlu diperhatikan.",
+          "check": "Mengapa model meminta siswa mengikuti petunjuk keluarga atau sekolah tentang alergi dan kebutuhan makanan?",
+          "checkAnswer": "Karena kebutuhan dan batasan makanan dapat berbeda. Panduan ini bersifat umum, sehingga siswa tidak boleh menganggap semua bahan sesuai untuk setiap orang."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "For a simple classroom stretch, stand in a clear space. Move your shoulders gently for a few seconds. Next, raise your arms slowly. If you feel pain or dizziness, stop and tell your teacher. Do not force any movement.",
-      "modelIndonesian": "Untuk peregangan sederhana di kelas, berdirilah di area yang lapang. Gerakkan bahu dengan lembut selama beberapa detik. Selanjutnya, angkat tangan perlahan. Jika merasa sakit atau pusing, berhentilah dan beri tahu guru. Jangan memaksakan gerakan."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, [[imperative verb]] memerintahkan tindakan, sedangkan [[first]], [[next]], dan [[finally]] mengatur urutan. Dalam petunjuk kesehatan, peringatan dan kondisi khusus sama pentingnya dengan urutan biasa."
-    },
-    {
-      "type": "text",
-      "text": "Instruksi kesehatan harus dibaca secara urut. Kita pelajari cara mengenali tindakan, urutan, dan bagian yang bertujuan menjaga keselamatan."
-    },
-    {
-      "type": "rule",
-      "text": "Dalam instruksi, [[first]], [[next]], dan [[finally]] memberi urutan; [[before]] dan [[after]] menunjukkan kapan suatu tindakan dilakukan."
-    },
-    {
-      "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
-    },
-    {
-      "type": "mistake",
-      "incorrect": "Run faster even if you feel dizzy.",
-      "correct": "Stop and rest if you feel dizzy.",
-      "explanation": "Peringatan dalam prosedur harus dipatuhi, bukan diabaikan."
+      "title": "Apa yang membuat prosedur dapat diikuti dengan tepat?",
+      "text": "Procedure text yang jelas menghubungkan tujuan, persiapan, tindakan, urutan, kondisi, dan peringatan. Kata kerja imperatif memberi tindakan langsung. Must, should, dan must not menunjukkan tingkat kekuatan instruksi yang berbeda. Penanda waktu dan if membantu pembaca memilih langkah yang sesuai. Alasan menjelaskan fungsi tindakan, sedangkan batas panduan mencegah pembaca menerapkan instruksi secara sembarangan."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Membaca bentuk bahasa dalam instruksi"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Perhatikan perbedaan antara kalimat yang memerintahkan tindakan, kalimat yang memberi saran, dan kalimat yang melarang. Dalam topik kesehatan atau keamanan pangan, perbedaan ini penting: pembaca perlu tahu mana tindakan yang dinyatakan sebagai keharusan, mana yang berupa rekomendasi, dan kondisi apa yang membuat langkah tertentu tidak sesuai."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Penanda dalam teks",
+        "Fungsi",
+        "Contoh",
+        "Cara membacanya"
+      ],
+      "rows": [
+        [
+          "Imperative verb",
+          "Meminta pembaca melakukan tindakan.",
+          "Wash your hands.",
+          "Subjek you dipahami; wash adalah kata kerja bentuk dasar."
+        ],
+        [
+          "First / next / finally",
+          "Menandai urutan tindakan.",
+          "Finally, clean the work area.",
+          "Menunjukkan tahap penutup."
+        ],
+        [
+          "Must",
+          "Menyatakan keharusan atau kewajiban kuat dalam panduan.",
+          "You must wash your hands.",
+          "Bukan sekadar saran."
+        ],
+        [
+          "Should",
+          "Menyampaikan anjuran atau rekomendasi.",
+          "You should check the label.",
+          "Menyarankan tindakan yang baik dilakukan."
+        ],
+        [
+          "Must not / do not",
+          "Menyatakan larangan.",
+          "Do not use expired food.",
+          "Menunjukkan tindakan yang tidak boleh dilakukan."
+        ],
+        [
+          "If",
+          "Memperkenalkan kondisi yang memengaruhi langkah.",
+          "If you cannot keep it cold, choose another option.",
+          "Tindakan utama bergantung pada kondisi."
+        ],
+        [
+          "Because / so that",
+          "Menjelaskan alasan atau tujuan.",
+          "Keep foods separate because they need safe handling.",
+          "Menghubungkan tindakan dengan alasannya."
+        ]
+      ]
+    },
+    {
+      "type": "rule",
+      "text": "Pola umum: [[imperative]] = verb bentuk dasar + informasi tambahan; [[must / should / must not]] + verb bentuk dasar; [[if]] + kondisi, lalu tindakan yang sesuai. Contoh: “You should to check the label” tidak tepat karena modal should langsung diikuti kata kerja bentuk dasar. Gunakan “You should check the label.” Kekuatan must, should, dan must not perlu dipahami sesuai konteks panduan."
+    },
+    {
+      "type": "subheading",
+      "text": "Periksa apakah instruksi dan alasannya saling sesuai"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "You should to check the ingredient label.",
+      "correct": "You should check the ingredient label.",
+      "explanation": "Modal should langsung diikuti kata kerja bentuk dasar, tanpa to. Makna anjurannya tetap sama; yang diperbaiki adalah bentuk gramatikalnya."
+    },
+    {
+      "type": "heading",
+      "text": "Bandingkan kekuatan instruksi"
+    },
+    {
+      "type": "text",
+      "text": "Baca kalimat bahasa Inggris dan terjemahannya. Perhatikan apakah kalimat menyampaikan keharusan, anjuran, larangan, atau pilihan yang bergantung pada kondisi. Jangan menyimpulkan tingkat kewajiban hanya dari topik kalimat; lihat bentuk bahasa yang digunakan."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "1 · Perintah dan urutan tindakan",
       "collapsed": false,
       "items": [
         {
-          "english": "Drink water before exercising.",
-          "indonesian": "Minum air sebelum berolahraga.",
-          "note": "“before” menunjukkan waktu."
+          "english": "Wash your hands before handling food.",
+          "indonesian": "Cuci tangan sebelum menangani makanan.",
+          "note": "Wash adalah kata kerja imperatif. Before menunjukkan bahwa mencuci tangan dilakukan lebih dahulu."
         },
         {
-          "english": "Warm up slowly.",
-          "indonesian": "Lakukan pemanasan secara perlahan.",
-          "note": "Kata kerja di depan memberi instruksi."
+          "english": "Next, rinse the fruit under safe running water.",
+          "indonesian": "Selanjutnya, bilas buah dengan air mengalir yang aman.",
+          "note": "Next menghubungkan langkah ini dengan tindakan sebelumnya dan menandai urutan."
         },
         {
-          "english": "Stop if you feel dizzy.",
-          "indonesian": "Berhenti jika merasa pusing.",
-          "note": "“if” memperkenalkan peringatan kondisi."
+          "english": "Finally, place the items in a clean container.",
+          "indonesian": "Terakhir, letakkan bahan-bahan tersebut di dalam wadah yang bersih.",
+          "note": "Finally memperkenalkan langkah penutup dalam urutan prosedur."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade10-healthy-procedure",
-      "prompt": "Which sentence means “Lakukan pemanasan secara perlahan.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Lakukan pemanasan secara perlahan.”?",
+      "prompt": "Which sentence expresses a recommendation rather than a strong requirement?",
+      "translation": "Kalimat mana yang menyampaikan anjuran, bukan keharusan yang kuat?",
       "choices": [
-        "Drink water before exercising.",
-        "Warm up slowly.",
-        "Stop if you feel dizzy."
+        "You must wash your hands.",
+        "You should check the ingredient label.",
+        "You must not use expired food."
       ],
       "answer": 1,
       "translationChoices": [
-        "Minum air sebelum berolahraga.",
-        "Lakukan pemanasan secara perlahan.",
-        "Berhenti jika merasa pusing."
+        "Kamu harus mencuci tangan.",
+        "Kamu sebaiknya memeriksa label bahan.",
+        "Kamu tidak boleh menggunakan makanan kedaluwarsa."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata kerja di depan memberi instruksi.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Should biasanya digunakan untuk menyampaikan anjuran. Must menyatakan keharusan kuat, sedangkan must not menyatakan larangan.",
+      "hint": "Bandingkan fungsi must, should, dan must not pada tabel sebelum memilih."
     },
     {
       "type": "breakdown",
-      "sentence": "Drink water before exercising.",
+      "sentence": "If the snack box contains perishable food, keep it cold until it is eaten.",
       "parts": [
         {
-          "english": "Drink",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "If the snack box contains perishable food",
+          "meaning": "Klausa kondisi: jika kotak bekal berisi makanan yang mudah rusak."
         },
         {
-          "english": "water before exercising.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Minum air sebelum berolahraga."
+          "english": "keep it cold",
+          "meaning": "Instruksi utama yang harus dilakukan ketika kondisi tersebut terjadi."
+        },
+        {
+          "english": "until it is eaten",
+          "meaning": "Batas waktu penyimpanan dingin yang disebutkan dalam kalimat."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "2 · Anjuran, keharusan, larangan, dan alasan",
       "collapsed": false,
       "items": [
         {
-          "english": "You need comfortable shoes.",
-          "indonesian": "Kamu memerlukan sepatu yang nyaman.",
-          "note": "Ini persiapan sebelum tindakan."
+          "english": "You must wash your hands before preparing food.",
+          "indonesian": "Kamu harus mencuci tangan sebelum menyiapkan makanan.",
+          "note": "Must menyampaikan keharusan yang kuat dalam panduan. Setelah must digunakan kata kerja bentuk dasar wash."
         },
         {
-          "english": "Walk for five minutes.",
-          "indonesian": "Berjalanlah selama lima menit.",
-          "note": "Ini langkah yang harus dikerjakan."
+          "english": "You should check the ingredient labels.",
+          "indonesian": "Kamu sebaiknya memeriksa label bahan.",
+          "note": "Should menyampaikan anjuran. Kalimat ini tidak memiliki kekuatan yang sama dengan must."
         },
         {
-          "english": "First, wash your hands with soap for at least twenty seconds.",
-          "indonesian": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
-          "note": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+          "english": "You must not use food beyond its expiry date.",
+          "indonesian": "Kamu tidak boleh menggunakan makanan yang telah melewati tanggal kedaluwarsa.",
+          "note": "Must not menyatakan larangan, bukan pilihan atau saran."
         },
         {
-          "english": "After the activity, drink water and rest in a cool place.",
-          "indonesian": "Setelah kegiatan, minumlah air dan beristirahatlah di tempat yang sejuk.",
-          "note": "[[After the activity]] menandai waktu, dan dua verba perintah menunjukkan tindakan selanjutnya."
-        },
-        {
-          "english": "Next, stretch your shoulders gently without forcing the movement.",
-          "indonesian": "Selanjutnya, regangkan bahu perlahan tanpa memaksakan gerakan.",
-          "note": "[[Next]] menghubungkan urutan dengan langkah sebelumnya, sedangkan [[gently]] menjadi instruksi cara yang aman."
+          "english": "Keep raw food and ready-to-eat food separate because they require careful handling.",
+          "indonesian": "Pisahkan makanan mentah dan makanan siap santap karena keduanya memerlukan penanganan yang cermat.",
+          "note": "Because memperkenalkan alasan yang menjelaskan mengapa pemisahan perlu dilakukan."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini persiapan sebelum tindakan. Ini langkah yang harus dikerjakan."
+      "prompt": "Why does the model provide another option when a perishable snack cannot be kept cold?",
+      "translation": "Mengapa model memberikan pilihan lain ketika makanan mudah rusak tidak dapat dijaga tetap dingin?",
+      "answer": "Karena pembaca tetap memerlukan langkah yang sesuai dengan kondisi yang tersedia. Panduan tidak menyuruh siswa membiarkan makanan mudah rusak tanpa pendinginan; panduan menyarankan pilihan yang tahan disimpan pada suhu ruang atau mengikuti aturan penyimpanan sekolah."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "title": "3 · Kondisi, alternatif, dan batas panduan",
       "collapsed": false,
       "items": [
         {
-          "english": "After a gentle warm-up, gradually increase your walking speed if you feel comfortable.",
-          "indonesian": "Setelah pemanasan ringan, tingkatkan kecepatan berjalan secara bertahap jika merasa nyaman.",
-          "note": "Urutan dan kondisi menjaga kegiatan tetap aman."
+          "english": "If the snack contains perishable food, keep it cold until it is eaten.",
+          "indonesian": "Jika bekal berisi makanan yang mudah rusak, jaga agar tetap dingin sampai dimakan.",
+          "note": "If memperkenalkan kondisi. Instruksi keep it cold berlaku ketika kondisi tersebut terpenuhi."
         },
         {
-          "english": "If you experience pain, stop the activity and ask a trusted adult for help.",
-          "indonesian": "Jika mengalami rasa sakit, hentikan kegiatan dan mintalah bantuan orang dewasa tepercaya.",
-          "note": "Kalimat ini menekankan keselamatan, bukan pencapaian waktu."
+          "english": "If you cannot keep it cold, choose a suitable shelf-stable option.",
+          "indonesian": "Jika kamu tidak dapat menjaganya tetap dingin, pilih makanan yang sesuai dan tahan disimpan pada suhu ruang.",
+          "note": "Klausa kedua memberikan alternatif yang sesuai, bukan mengabaikan kondisi penyimpanan."
+        },
+        {
+          "english": "Ask an adult for help if you are unsure about an ingredient.",
+          "indonesian": "Mintalah bantuan orang dewasa jika kamu tidak yakin tentang suatu bahan.",
+          "note": "If menyatakan kondisi yang memicu tindakan meminta bantuan."
         }
       ]
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Uji kelengkapan sebuah prosedur"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
-    },
-    {
-      "type": "example",
-      "text": "A student health club prepared a guide for a short walking session. First, put on comfortable shoes and drink some water. Next, walk slowly for five minutes to warm up. Increase your pace only if you feel comfortable. After fifteen minutes, slow down and rest. The guide warns students to stop if they feel dizzy or unwell. It also reminds them that the plan is a general school activity, not advice for treating a medical condition.",
-      "note": "Ringkasan bantuan: Memberikan urutan kegiatan jalan kaki sekolah yang aman. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "text": "Sebelum mengikuti panduan, periksa apakah tujuannya jelas, langkahnya tersusun, kata kerja tindakannya dapat dipahami, dan kondisi khusus diberi respons yang sesuai. Perhatikan juga siapa yang menjadi sasaran. Jika suatu instruksi menyangkut alergi, kebutuhan makanan, atau penggunaan alat tajam, pembaca perlu mengikuti aturan keluarga atau sekolah dan meminta bantuan orang dewasa jika diperlukan."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Mengikuti langkah, tujuan, dan peringatan keselamatan pada teks kesehatan.",
-        "Dalam instruksi, [[first]], [[next]], dan [[finally]] memberi urutan; [[before]] dan [[after]] menunjukkan kapan suatu tindakan dilakukan.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Procedure text menghubungkan tujuan, persiapan, langkah, kondisi, alasan, dan peringatan.",
+        "Imperative verb memberi instruksi langsung; subjek you biasanya dipahami meskipun tidak ditulis.",
+        "Must menyatakan keharusan kuat, should menyampaikan anjuran, dan must not menyatakan larangan.",
+        "If memperkenalkan kondisi; pembaca harus mengikuti tindakan atau alternatif yang sesuai dengan kondisi tersebut.",
+        "Panduan umum tidak otomatis cocok untuk semua orang. Perhatikan sasaran, kebutuhan khusus, dan aturan yang berlaku."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Langkah mana harus dilakukan lebih dulu, dan kapan perlu berhenti?",
-      "model": "First, wash your hands with soap for at least twenty seconds.",
-      "modelTranslation": "Pertama, cuci tangan dengan sabun selama setidaknya dua puluh detik.",
-      "criteria": "Kata perintah [[wash]] menyebut tindakan, sedangkan [[first]] menentukan urutan dan frasa waktu memberi rincian."
+      "title": "Susun prosedur yang jelas dan bertanggung jawab",
+      "prompt": "Tulislah empat atau lima langkah bahasa Inggris untuk menyiapkan bekal sekolah yang aman. Sertakan satu kata penanda urutan, satu modal (must, should, atau must not), dan satu kondisi dengan if. Jangan menuliskan aturan porsi atau klaim kesehatan yang tidak didukung.",
+      "model": "First, wash your hands and clean the container. Next, choose suitable foods and check their labels. If the food is perishable, keep it cold until it is eaten. Finally, clean the work area.",
+      "modelTranslation": "Pertama, cuci tangan dan bersihkan wadah. Selanjutnya, pilih makanan yang sesuai dan periksa labelnya. Jika makanan mudah rusak, jaga agar tetap dingin sampai dimakan. Terakhir, bersihkan area kerja.",
+      "criteria": "Tulisan perlu memiliki tujuan yang jelas, langkah yang dapat diikuti, urutan yang masuk akal, satu bentuk modal dengan makna tepat, dan respons yang sesuai terhadap kondisi if. Instruksi harus tetap berada dalam batas panduan umum."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal Kosakata",
       "items": [
         {
-          "english": "warm-up",
-          "indonesian": "pemanasan"
+          "english": "perishable",
+          "indonesian": "mudah rusak atau basi"
         },
         {
-          "english": "gradually",
-          "indonesian": "secara bertahap"
+          "english": "shelf-stable",
+          "indonesian": "dapat disimpan pada suhu ruang sesuai petunjuk"
         },
         {
-          "english": "comfortable",
-          "indonesian": "nyaman"
+          "english": "utensil",
+          "indonesian": "peralatan makan atau alat yang digunakan"
         },
         {
-          "english": "dizzy",
-          "indonesian": "pusing"
+          "english": "ingredient",
+          "indonesian": "bahan makanan"
         },
         {
-          "english": "rest",
-          "indonesian": "istirahat"
+          "english": "expiry date",
+          "indonesian": "tanggal kedaluwarsa"
+        },
+        {
+          "english": "label",
+          "indonesian": "label atau keterangan pada kemasan"
+        },
+        {
+          "english": "rinse",
+          "indonesian": "membilas"
+        },
+        {
+          "english": "suitable",
+          "indonesian": "sesuai atau cocok"
         }
       ]
     }
@@ -281,43 +366,39 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “exercising”?",
+      "prompt": "Which modal usually expresses a recommendation?",
       "choices": [
-        "Warm up slowly.",
-        "Drink water before exercising.",
-        "Stop if you feel dizzy.",
-        "You need comfortable shoes."
+        "must",
+        "should",
+        "must not"
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[exercising]] muncul dalam kalimat [[Drink water before exercising.]]. “before” menunjukkan waktu.",
+      "explanation": "Should biasanya digunakan untuk menyampaikan anjuran. Must menunjukkan keharusan kuat, sedangkan must not menunjukkan larangan.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “exercising”?",
+        "prompt": "Modal mana yang biasanya menyampaikan anjuran?",
         "choices": [
-          "Lakukan pemanasan secara perlahan.",
-          "Minum air sebelum berolahraga.",
-          "Berhenti jika merasa pusing.",
-          "Kamu memerlukan sepatu yang nyaman."
+          "must (harus)",
+          "should (sebaiknya)",
+          "must not (tidak boleh)"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “dizzy”?",
+      "prompt": "What should a student do if a perishable snack cannot be kept cold?",
       "choices": [
-        "Drink water before exercising.",
-        "Warm up slowly.",
-        "Stop if you feel dizzy.",
-        "You need comfortable shoes."
+        "Leave it in a warm bag.",
+        "Ignore the storage condition.",
+        "Choose a suitable shelf-stable option or follow school storage instructions."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[dizzy]] muncul dalam kalimat [[Stop if you feel dizzy.]]. “if” memperkenalkan peringatan kondisi.",
+      "explanation": "Model memberikan alternatif yang sesuai jika makanan mudah rusak tidak dapat dijaga tetap dingin. Instruksi penyimpanan sekolah juga perlu diikuti.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “dizzy”?",
+        "prompt": "Apa yang sebaiknya dilakukan jika makanan mudah rusak tidak dapat dijaga tetap dingin?",
         "choices": [
-          "Minum air sebelum berolahraga.",
-          "Lakukan pemanasan secara perlahan.",
-          "Berhenti jika merasa pusing.",
-          "Kamu memerlukan sepatu yang nyaman."
+          "Membiarkannya di dalam tas yang hangat.",
+          "Mengabaikan kondisi penyimpanan.",
+          "Memilih makanan yang sesuai dan tahan disimpan pada suhu ruang atau mengikuti petunjuk penyimpanan sekolah."
         ]
       }
     }

@@ -112,6 +112,26 @@ for(const m of entries){
    assert.deepEqual(d.assessments,['grade10-recount-practice']);
    continue;
   }
+  if(m.id==='grade10-healthy-procedure'){
+   assert.equal(scaffold[0].steps.length,8);
+   assert.ok(scaffold[0].modelEnglish.trim().split(/\s+/).length>=200);
+   assert.ok(scaffold[0].modelIndonesian.length>700);
+   assert.equal(d.blocks.filter(b=>b.type==='vocabulary').length,1);
+   assert.equal(d.blocks.at(-1).type,'vocabulary');
+   const groups=d.blocks.filter(b=>b.type==='example_group');
+   assert.equal(groups.length,3);assert.deepEqual(groups.map(x=>x.collapsed),[false,false,false]);
+   assert.equal(groups.reduce((n,g)=>n+g.items.length,0),10);
+   assert(groups.every(g=>g.items.every(i=>i.english&&i.indonesian&&i.note)));
+   exampleCount+=10;
+   assert.equal(d.blocks.filter(b=>b.type==='checkpoint').length,1);checks++;
+   assert.equal(d.blocks.filter(b=>b.type==='breakdown').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='summary').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='reflection').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='self_check').length,1);
+   assert.equal(d.practice.length,2);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
+   assert.deepEqual(d.assessments,['grade10-healthy-procedure-practice']);
+   continue;
+  }
   if(m.id==='grade9-noun-groups'){
    assert.equal(scaffold[0].steps.length,6);
    assert.equal(scaffold[0].modelEnglish,undefined,'Noun Groups should use phrase-level models, not a reading passage.');
@@ -156,6 +176,15 @@ for(const m of entries){
   for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);
   newQuestions+=d.practice.length;
  }else{
+  if(m.id==='grade10-healthy-procedure-practice'){
+   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.durationSeconds,480);assert.equal(d.passages.length,1);
+   assert.ok(d.passages[0].text.trim().split(/\s+/).length>=130);
+   assert.equal(d.passages[0].original,true);
+   const positions=[0,0,0,0];
+   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);positions[q.answer]++;}
+   assert.deepEqual(positions,[2,2,2,1]);
+   nPassages++;newQuestions+=d.questions.length;continue;
+  }
   if(m.id==='grade9-report-animals-practice'){
    assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.passages.length,1);
    assert.ok(d.passages[0].text.trim().split(/\s+/).length>=65);
@@ -213,7 +242,7 @@ function checkQuestion(q,ctx){
  assert.ok(q.translationId.choices.every(x=>x.trim()),ctx+' empty Indonesian gloss');
  assert.ok(q.explanation.trim(),ctx+' missing explanation');
 }
-assert.equal(newQuestions,152);
+assert.equal(newQuestions,155);
 assert.equal(checks,23);
 assert.ok(exampleCount>=218,'Re-authored Grade 9 report and trip-recount lessons use objective-led example sets.');
 assert.equal(nPassages,22);

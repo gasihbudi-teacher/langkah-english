@@ -1,111 +1,183 @@
 {
   "id": "grade10-healthy-procedure-practice",
-  "questionCount": 4,
-  "durationSeconds": 360,
+  "questionCount": 7,
+  "durationSeconds": 480,
   "passages": [
     {
-      "id": "text-healthy-procedure",
-      "title": "Procedure Text: Healthy Routines",
-      "text": "A student health club prepared a guide for a short walking session. First, put on comfortable shoes and drink some water. Next, walk slowly for five minutes to warm up. Increase your pace only if you feel comfortable. After fifteen minutes, slow down and rest. The guide warns students to stop if they feel dizzy or unwell. It also reminds them that the plan is a general school activity, not advice for treating a medical condition.",
+      "id": "safe-school-walk",
+      "title": "Preparing for a Safe School Walk",
+      "text": "The school health club has prepared a short walking route for a supervised group. The guide is for a school activity; it is not a personal fitness or medical plan. Before leaving, check the weather and confirm the route with the teacher. Wear comfortable shoes and bring a refillable water bottle.\n\nFirst, meet at the marked starting point and listen to the instructions. Then walk at a comfortable pace, stay on the marked path, and remain with the group. Do not run through crowded areas or leave the group without permission.\n\nIf the path is wet or blocked, stop and tell the teacher. The group must use an alternative route approved by the school. If anyone feels dizzy or unwell, stop in a safe place and inform the teacher; do not pressure that student to continue.\n\nAt the end, slow down and return to the meeting point. The teacher checks that everyone has arrived before the group returns to class. Follow school directions and any individual support arrangements.",
       "original": true
     }
   ],
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the text mainly intended to do?",
+      "prompt": "What is the main purpose of the guide?",
       "choices": [
-        "Describe the history of competitive running",
-        "Advertise an expensive pair of shoes",
-        "Give a sequence for a safe school walking session",
-        "Prove every student has the same fitness level"
+        "To give steps for a supervised and safe school walk.",
+        "To describe the history of a sports club.",
+        "To compare different types of running shoes.",
+        "To create a personal fitness plan for every student."
       ],
-      "answer": 2,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "answer": 0,
+      "explanation": "Kalimat pembuka menyebutkan rute jalan kaki singkat untuk kelompok yang diawasi. Teks kemudian memberikan persiapan, urutan, dan respons terhadap kondisi tertentu.",
       "translationId": {
-        "prompt": "Apa tujuan utama bacaan?",
+        "prompt": "Apa tujuan utama panduan tersebut?",
         "choices": [
-          "Mendeskripsikan sejarah lomba lari",
-          "Mengiklankan sepatu mahal",
-          "Memberikan urutan kegiatan jalan kaki sekolah yang aman",
-          "Membuktikan semua siswa memiliki kebugaran sama"
+          "Memberikan langkah untuk kegiatan jalan kaki sekolah yang aman dan diawasi.",
+          "Mendeskripsikan sejarah sebuah klub olahraga.",
+          "Membandingkan berbagai jenis sepatu lari.",
+          "Membuat rencana kebugaran pribadi bagi setiap siswa."
         ]
       },
-      "skill": "Main Idea",
-      "passageId": "text-healthy-procedure",
-      "evidence": "A student health club prepared a guide for a short walking session."
+      "skill": "Purpose and audience",
+      "passageId": "safe-school-walk",
+      "evidence": "The school health club has prepared a short walking route for a supervised group."
     },
     {
       "id": "q2",
-      "prompt": "What should students do before increasing their pace?",
+      "prompt": "What should students do before leaving?",
       "choices": [
-        "Rest for an hour",
-        "Run as fast as possible",
-        "Skip drinking water",
-        "Walk slowly to warm up"
+        "Start walking before the teacher arrives.",
+        "Check the weather and confirm the route with the teacher.",
+        "Leave their water bottles in the classroom.",
+        "Choose an unmarked shortcut."
       ],
-      "answer": 3,
-      "explanation": "Pemanasan lima menit dilakukan sebelum menambah kecepatan.",
+      "answer": 1,
+      "explanation": "Dua tindakan tersebut dinyatakan setelah penanda before leaving. Siswa juga diminta memakai sepatu nyaman dan membawa botol minum.",
       "translationId": {
-        "prompt": "Apa yang dilakukan sebelum menambah kecepatan?",
+        "prompt": "Apa yang harus dilakukan siswa sebelum berangkat?",
         "choices": [
-          "Istirahat satu jam",
-          "Berlari sekencang mungkin",
-          "Melewatkan minum air",
-          "Berjalan pelan untuk pemanasan"
+          "Mulai berjalan sebelum guru tiba.",
+          "Memeriksa cuaca dan memastikan rute bersama guru.",
+          "Meninggalkan botol minum di kelas.",
+          "Memilih jalan pintas yang tidak ditandai."
         ]
       },
-      "skill": "Sequence",
-      "passageId": "text-healthy-procedure",
-      "evidence": "walk slowly for five minutes to warm up"
+      "skill": "Preparation and sequence",
+      "passageId": "safe-school-walk",
+      "evidence": "Before leaving, check the weather and confirm the route with the teacher."
     },
     {
       "id": "q3",
-      "prompt": "When should a student stop the activity?",
+      "prompt": "Which action is expressly prohibited by the guide?",
       "choices": [
-        "Whenever another student finishes",
-        "When feeling dizzy or unwell",
-        "When the shoes are new",
-        "Only after an hour"
+        "Walking at a comfortable pace.",
+        "Bringing a refillable water bottle.",
+        "Running through crowded areas or leaving the group without permission.",
+        "Listening to the teacher at the starting point."
       ],
-      "answer": 1,
-      "explanation": "Peringatan keselamatan disebut langsung.",
+      "answer": 2,
+      "explanation": "Kalimat menggunakan do not untuk melarang siswa berlari di area ramai atau meninggalkan kelompok tanpa izin.",
       "translationId": {
-        "prompt": "Kapan siswa harus berhenti melakukan kegiatan?",
+        "prompt": "Tindakan mana yang secara tegas dilarang oleh panduan?",
         "choices": [
-          "Ketika siswa lain selesai",
-          "Ketika merasa pusing atau kurang sehat",
-          "Ketika sepatu masih baru",
-          "Hanya setelah satu jam"
+          "Berjalan dengan kecepatan yang nyaman.",
+          "Membawa botol minum yang dapat diisi ulang.",
+          "Berlari di area ramai atau meninggalkan kelompok tanpa izin.",
+          "Mendengarkan guru di titik awal."
         ]
       },
-      "skill": "Following Instructions",
-      "passageId": "text-healthy-procedure",
-      "evidence": "stop if they feel dizzy or unwell"
+      "skill": "Warning and prohibition",
+      "passageId": "safe-school-walk",
+      "evidence": "Do not run through crowded areas or leave the group without permission."
     },
     {
       "id": "q4",
-      "prompt": "Why does the guide mention medical conditions?",
+      "prompt": "What should the group do if the path is wet or blocked?",
       "choices": [
-        "To limit how the instructions should be used",
-        "To claim the activity cures illnesses",
-        "To require everyone to run",
-        "To encourage students to skip rest"
+        "Continue without telling anyone.",
+        "Run to finish the walk quickly.",
+        "Separate and find different routes.",
+        "Stop, tell the teacher, and use an alternative route approved by the school."
       ],
-      "answer": 0,
-      "explanation": "Panduan menjelaskan bahwa kegiatan umum bukan nasihat pengobatan.",
+      "answer": 3,
+      "explanation": "Kondisi if the path is wet or blocked diikuti dua tindakan: berhenti dan memberi tahu guru. Kelompok kemudian harus menggunakan rute alternatif yang disetujui sekolah.",
       "translationId": {
-        "prompt": "Mengapa panduan menyebut kondisi medis?",
+        "prompt": "Apa yang harus dilakukan kelompok jika jalurnya basah atau terhalang?",
         "choices": [
-          "Untuk membatasi penggunaan instruksi",
-          "Untuk menyatakan kegiatan menyembuhkan penyakit",
-          "Untuk mewajibkan semua orang berlari",
-          "Untuk menganjurkan melewatkan istirahat"
+          "Melanjutkan tanpa memberi tahu siapa pun.",
+          "Berlari agar kegiatan cepat selesai.",
+          "Berpisah dan mencari rute masing-masing.",
+          "Berhenti, memberi tahu guru, dan menggunakan rute alternatif yang disetujui sekolah."
         ]
       },
-      "skill": "Purpose",
-      "passageId": "text-healthy-procedure",
-      "evidence": "not advice for treating a medical condition"
+      "skill": "Conditional instruction",
+      "passageId": "safe-school-walk",
+      "evidence": "If the path is wet or blocked, stop and tell the teacher."
+    },
+    {
+      "id": "q5",
+      "prompt": "What should happen if a student feels dizzy or unwell?",
+      "choices": [
+        "The student must continue to keep up with the group.",
+        "The student should stop in a safe place and inform the teacher.",
+        "Other students should pressure the student to finish.",
+        "The student should leave the school grounds alone."
+      ],
+      "answer": 1,
+      "explanation": "Panduan meminta siswa berhenti di tempat aman dan memberi tahu guru. Teks juga melarang orang lain menekan siswa tersebut untuk terus berjalan.",
+      "translationId": {
+        "prompt": "Apa yang harus dilakukan jika seorang siswa merasa pusing atau tidak sehat?",
+        "choices": [
+          "Siswa harus terus berjalan agar tidak tertinggal.",
+          "Siswa harus berhenti di tempat aman dan memberi tahu guru.",
+          "Siswa lain sebaiknya menekan siswa itu agar menyelesaikan kegiatan.",
+          "Siswa sebaiknya meninggalkan lingkungan sekolah sendirian."
+        ]
+      },
+      "skill": "Responding to a warning",
+      "passageId": "safe-school-walk",
+      "evidence": "If anyone feels dizzy or unwell, stop in a safe place and inform the teacher"
+    },
+    {
+      "id": "q6",
+      "prompt": "In “The group must use an alternative route”, what does must communicate?",
+      "choices": [
+        "A strong requirement within the guide.",
+        "A weak possibility.",
+        "A personal preference.",
+        "A past action."
+      ],
+      "answer": 0,
+      "explanation": "Must menyatakan keharusan yang kuat dalam konteks panduan. Kalimat tersebut bukan sekadar saran atau pilihan pribadi.",
+      "translationId": {
+        "prompt": "Dalam kalimat “The group must use an alternative route”, apa makna must?",
+        "choices": [
+          "Keharusan yang kuat dalam panduan.",
+          "Kemungkinan yang lemah.",
+          "Pilihan pribadi.",
+          "Tindakan pada masa lampau."
+        ]
+      },
+      "skill": "Modal strength",
+      "passageId": "safe-school-walk",
+      "evidence": "The group must use an alternative route approved by the school."
+    },
+    {
+      "id": "q7",
+      "prompt": "Why does the teacher check that everyone has arrived before the group returns to class?",
+      "choices": [
+        "To give students more time to run.",
+        "To change the walking route after the activity.",
+        "To make sure the supervised group is accounted for.",
+        "To compare the students’ water bottles."
+      ],
+      "answer": 2,
+      "explanation": "Teks menyebutkan bahwa kegiatan dilakukan oleh kelompok yang diawasi dan guru memeriksa bahwa semua orang telah tiba sebelum kembali ke kelas. Dari kedua rincian itu, pembaca dapat menyimpulkan bahwa guru memastikan seluruh anggota kelompok sudah kembali.",
+      "translationId": {
+        "prompt": "Mengapa guru memeriksa bahwa semua orang telah tiba sebelum kelompok kembali ke kelas?",
+        "choices": [
+          "Untuk memberi siswa lebih banyak waktu berlari.",
+          "Untuk mengubah rute setelah kegiatan.",
+          "Untuk memastikan seluruh anggota kelompok yang diawasi sudah kembali.",
+          "Untuk membandingkan botol minum siswa."
+        ]
+      },
+      "skill": "Inference and purpose of a step",
+      "passageId": "safe-school-walk",
+      "evidence": "The teacher checks that everyone has arrived before the group returns to class."
     }
   ]
 }
