@@ -1931,12 +1931,12 @@
       ],
       "file": "data/lessons/grade9-trip-recount.json",
       "order": 310,
-      "estimatedMinutes": 28,
+      "estimatedMinutes": 30,
       "prerequisites": [
         "simple-past"
       ],
-      "title": "Recount Text: A School Trip",
-      "description": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+      "title": "Grade 9: Recount Text — A School Trip",
+      "description": "Memahami orientasi, menyusun rangkaian peristiwa berdasarkan waktu, mengenali simple past, serta membedakan kejadian dan refleksi.",
       "placements": [
         {
           "pathway": "school",
@@ -1945,7 +1945,15 @@
       ],
       "difficulty": "Beginner",
       "grammarTopics": [],
-      "readingSkills": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Sequence",
+        "Text Organization",
+        "Time Relationships",
+        "Simple Past",
+        "Event vs Reflection"
+      ],
       "tags": [
         "school trip",
         "Recount Text",
@@ -1972,8 +1980,8 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 311,
-      "title": "Recount Text: A School Trip",
-      "description": "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
+      "title": "Grade 9 Recount Check: A Visit to the Art Studio",
+      "description": "Latihan mandiri dengan recount baru untuk menguji orientasi, urutan waktu, simple past, dan refleksi penulis.",
       "placements": [
         {
           "pathway": "school",
@@ -1982,7 +1990,15 @@
       ],
       "difficulty": "Beginner",
       "grammarTopics": [],
-      "readingSkills": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Sequence",
+        "Time Relationships",
+        "Simple Past",
+        "Event vs Reflection",
+        "Making Inferences"
+      ],
       "tags": [
         "school trip",
         "Recount Text",

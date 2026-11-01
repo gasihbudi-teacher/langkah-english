@@ -50,6 +50,24 @@ for(const m of entries){
    assert.equal(d.practice.length,3);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
    continue;
   }
+  if(m.id==='grade9-trip-recount'){
+   assert.equal(scaffold[0].steps.length,6);
+   assert.ok(scaffold[0].modelEnglish.trim().split(/\s+/).length>=130);
+   assert.ok(scaffold[0].modelIndonesian.length>500);
+   assert.equal(d.blocks.filter(b=>b.type==='vocabulary').length,1);
+   assert.equal(d.blocks.at(-1).type,'vocabulary');
+   const groups=d.blocks.filter(b=>b.type==='example_group');
+   assert.equal(groups.length,2);assert.deepEqual(groups.map(x=>x.collapsed),[false,false]);
+   assert.equal(groups.reduce((n,g)=>n+g.items.length,0),6);
+   assert(groups.every(g=>g.items.every(i=>i.english&&i.indonesian&&i.note)));
+   exampleCount+=6;
+   const checkpoint=d.blocks.filter(b=>b.type==='checkpoint');assert.equal(checkpoint.length,1);checks++;
+   assert.equal(d.blocks.filter(b=>b.type==='summary').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='reflection').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='self_check').length,1);
+   assert.equal(d.practice.length,3);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
+   continue;
+  }
   assert.ok(scaffold[0].steps.length>=2&&scaffold[0].steps.length<=20);
   assert.ok(scaffold[0].steps.filter(s=>s.english).length>=2&&scaffold[0].steps.filter(s=>s.english).every(s=>s.indonesian&&s.why));
   const groups=d.blocks.filter(b=>b.type==='example_group');
@@ -75,6 +93,14 @@ for(const m of entries){
    assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.passages.length,1);
    assert.ok(d.passages[0].text.trim().split(/\s+/).length>=65);
    for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);}
+   nPassages++;newQuestions+=d.questions.length;continue;
+  }
+  if(m.id==='grade9-trip-recount-practice'){
+   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.durationSeconds,420);assert.equal(d.passages.length,1);
+   assert.ok(d.passages[0].text.trim().split(/\s+/).length>=120);
+   const positions=[0,0,0,0];
+   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);positions[q.answer]++;}
+   assert.deepEqual(positions,[2,2,2,1]);
    nPassages++;newQuestions+=d.questions.length;continue;
   }
   assert.equal(d.questions.length,4);
@@ -104,9 +130,9 @@ function checkQuestion(q,ctx){
  assert.ok(q.translationId.choices.every(x=>x.trim()),ctx+' empty Indonesian gloss');
  assert.ok(q.explanation.trim(),ctx+' missing explanation');
 }
-assert.equal(newQuestions,142);
+assert.equal(newQuestions,146);
 assert.equal(checks,23);
-assert.ok(exampleCount>=222,'Re-authored Grade 9 report lesson has its own smaller, objective-led example set.');
+assert.ok(exampleCount>=218,'Re-authored Grade 9 report and trip-recount lessons use objective-led example sets.');
 assert.equal(nPassages,23);
 // V7 practice signatures are deliberately unchanged; historical tests verify the exact SHA-256.
 const scoring=read('js/quiz.js');

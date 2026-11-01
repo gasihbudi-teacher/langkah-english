@@ -32,8 +32,8 @@ for(const meta of lessons){
 }
 for(const [prompt,locations] of promptLocations)assert.equal(locations.length,1,`Identical scaffold prompt reused: ${locations.join(', ')}`);
 assert.equal(steps,600,'Release inventory changed; update only after reviewing the source diff');
-assert.equal(checks,150,'Release inventory changed; update only after reviewing the source diff');
-assert.equal(explanationOnly,450,'Release inventory changed; update only after reviewing the source diff');
+assert.equal(checks,156,'Release inventory changed; update only after reviewing the source diff');
+assert.equal(explanationOnly,444,'Release inventory changed; update only after reviewing the source diff');
 
 const grammar=JSON.parse(read('data/lessons/sentence-structure.json'));
 const grammarSteps=grammar.blocks.find(b=>b.type==='scaffold').steps;

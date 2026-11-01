@@ -1,111 +1,183 @@
 {
   "id": "grade9-trip-recount-practice",
-  "questionCount": 4,
-  "durationSeconds": 360,
+  "questionCount": 7,
+  "durationSeconds": 420,
   "passages": [
     {
-      "id": "text-trip-recount",
-      "title": "Recount Text: A School Trip",
-      "text": "Last Friday, Class 9B visited a small history museum. First, a guide welcomed the students and explained three old maps. Next, the class compared the maps with a present-day map of the town. After lunch, students interviewed a museum volunteer about the river that once ran through the market. The bus arrived twenty minutes late for the return trip, but everyone reached school safely. Before leaving, Nita wrote that she had learned how maps could tell stories about changes in a place.",
+      "id": "art-studio-recount",
+      "title": "Recount Text: A Visit to the Art Studio",
+      "text": "Last Monday, our English club visited a small art studio for a school project. We left school after the first lesson and arrived at 9:15. At the entrance, the instructor welcomed us and divided us into pairs. First, we looked at several posters and discussed their colours and shapes. Then, the instructor showed us how moving a title could change the way a poster looked. While my partner sketched a design, I wrote down three ideas for our own poster. After a short break, each pair created a draft and displayed it on the wall. Before we left, the instructor gave us one suggestion about making our message easier to read. We returned to school before lunch. I enjoyed the visit because I could test an idea instead of only reading about design. I also learned that small changes can make a poster clearer.",
       "original": true
     }
   ],
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the passage mainly about?",
+      "prompt": "What is the main purpose of the passage?",
       "choices": [
-        "A class visit to a history museum",
-        "A debate about public transport",
-        "Instructions for drawing a town map",
-        "A description of a school canteen"
+        "To retell the English club’s visit to an art studio.",
+        "To give instructions for opening an art studio.",
+        "To describe the history of a famous painting.",
+        "To report general facts about school clubs."
       ],
       "answer": 0,
-      "explanation": "Teks ini adalah [[recount]] kunjungan kelas ke museum sejarah; kalimat pembuka menyatakan kegiatan dan paragraf berikutnya menceritakan urutan kunjungan.",
+      "explanation": "Bacaan mengenalkan kunjungan English club, lalu menceritakan kegiatan yang dilakukan dari kedatangan hingga kembali ke sekolah. Fokusnya adalah pengalaman yang terjadi pada waktu tertentu, bukan petunjuk atau fakta umum.",
       "translationId": {
-        "prompt": "Bacaan ini terutama membahas apa?",
+        "prompt": "Apa tujuan utama bacaan tersebut?",
         "choices": [
-          "Kunjungan kelas ke museum sejarah",
-          "Debat tentang transportasi umum",
-          "Instruksi menggambar peta kota",
-          "Deskripsi kantin sekolah"
+          "Menceritakan kembali kunjungan English club ke sebuah studio seni.",
+          "Memberikan petunjuk untuk membuka studio seni.",
+          "Menggambarkan sejarah sebuah lukisan terkenal.",
+          "Menyajikan fakta umum tentang klub sekolah."
         ]
       },
       "skill": "Main Idea",
-      "passageId": "text-trip-recount",
-      "evidence": "Last Friday, Class 9B visited a small history museum."
+      "passageId": "art-studio-recount",
+      "evidence": "Last Monday, our English club visited a small art studio for a school project."
     },
     {
       "id": "q2",
-      "prompt": "What did the students do after the guide explained the maps?",
+      "prompt": "When did the English club arrive at the art studio?",
       "choices": [
-        "They went straight home",
-        "They missed the entire visit",
-        "They bought bus tickets",
-        "They compared old and modern maps"
+        "After lunch.",
+        "At 9:15.",
+        "Before the first lesson.",
+        "Just before dinner."
       ],
-      "answer": 3,
-      "explanation": "Kata “Next” menunjukkan kegiatan membandingkan peta setelah penjelasan pemandu.",
+      "answer": 1,
+      "explanation": "Kalimat kedua menyatakan bahwa kelompok tiba pukul 9:15. Waktu keberangkatan dan waktu kepulangan disebut secara terpisah.",
       "translationId": {
-        "prompt": "Apa yang dilakukan siswa setelah pemandu menjelaskan peta?",
+        "prompt": "Kapan English club tiba di studio seni?",
         "choices": [
-          "Mereka langsung pulang",
-          "Mereka melewatkan seluruh kunjungan",
-          "Mereka membeli tiket bus",
-          "Mereka membandingkan peta lama dan modern"
+          "Setelah makan siang.",
+          "Pukul 9:15.",
+          "Sebelum pelajaran pertama.",
+          "Tepat sebelum makan malam."
         ]
       },
-      "skill": "Sequence",
-      "passageId": "text-trip-recount",
-      "evidence": "Next, the class compared the maps with a present-day map of the town."
+      "skill": "Supporting Details",
+      "passageId": "art-studio-recount",
+      "evidence": "We left school after the first lesson and arrived at 9:15."
     },
     {
       "id": "q3",
-      "prompt": "Which detail is a reflection rather than an event?",
+      "prompt": "What did the students do first after they were divided into pairs?",
       "choices": [
-        "The guide welcomed students",
-        "The bus was late",
-        "Nita learned that maps tell stories of change",
-        "The class interviewed a volunteer"
+        "They created a draft and displayed it.",
+        "They returned to school before lunch.",
+        "They looked at posters and discussed their colours and shapes.",
+        "They interviewed the instructor about the studio."
       ],
       "answer": 2,
-      "explanation": "Nita menjelaskan pemahaman baru yang diperoleh.",
+      "explanation": "Kata “First” menandai kegiatan awal setelah siswa dibagi menjadi pasangan, yaitu melihat beberapa poster dan mendiskusikan warna serta bentuknya.",
       "translationId": {
-        "prompt": "Detail mana merupakan refleksi, bukan kejadian?",
+        "prompt": "Apa yang pertama kali dilakukan siswa setelah mereka dibagi menjadi pasangan?",
         "choices": [
-          "Pemandu menyambut siswa",
-          "Bus terlambat",
-          "Nita memahami bahwa peta menceritakan perubahan",
-          "Kelas mewawancarai relawan"
+          "Mereka membuat draf dan memajangnya.",
+          "Mereka kembali ke sekolah sebelum makan siang.",
+          "Mereka melihat poster dan mendiskusikan warna serta bentuknya.",
+          "Mereka mewawancarai instruktur tentang studio tersebut."
         ]
       },
-      "skill": "Inference",
-      "passageId": "text-trip-recount",
-      "evidence": "she had learned how maps could tell stories about changes in a place"
+      "skill": "Sequence",
+      "passageId": "art-studio-recount",
+      "evidence": "First, we looked at several posters and discussed their colours and shapes."
     },
     {
       "id": "q4",
-      "prompt": "What can be inferred about the late bus?",
+      "prompt": "What does “while” show in the sentence about the partner sketching?",
       "choices": [
-        "It prevented students from reaching school",
-        "It did not stop the group returning safely",
-        "It made the museum close early",
-        "It arrived before lunch"
+        "The sketch happened the day before the visit.",
+        "The writer completed the poster before the partner started.",
+        "The partner stopped sketching because the writer took notes.",
+        "The two activities happened at the same time."
+      ],
+      "answer": 3,
+      "explanation": "“While” menunjukkan bahwa teman membuat sketsa ketika penulis menuliskan ide. Kedua kegiatan berlangsung bersamaan, bukan berurutan.",
+      "translationId": {
+        "prompt": "Apa yang ditunjukkan oleh kata “while” dalam kalimat tentang teman yang membuat sketsa?",
+        "choices": [
+          "Sketsa dibuat sehari sebelum kunjungan.",
+          "Penulis menyelesaikan poster sebelum temannya mulai.",
+          "Teman berhenti membuat sketsa karena penulis mencatat.",
+          "Kedua kegiatan berlangsung pada waktu yang sama."
+        ]
+      },
+      "skill": "Time Relationships",
+      "passageId": "art-studio-recount",
+      "evidence": "While my partner sketched a design, I wrote down three ideas for our own poster."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which word is an irregular simple past verb in the passage?",
+      "choices": [
+        "left",
+        "visited",
+        "divided",
+        "created"
+      ],
+      "answer": 0,
+      "explanation": "“Left” adalah bentuk lampau irregular dari “leave”. Kata “visited”, “divided”, dan “created” merupakan bentuk regular yang memakai akhiran -ed.",
+      "translationId": {
+        "prompt": "Kata mana yang merupakan kata kerja simple past irregular dalam bacaan?",
+        "choices": [
+          "left",
+          "visited",
+          "divided",
+          "created"
+        ]
+      },
+      "skill": "Simple Past",
+      "passageId": "art-studio-recount",
+      "evidence": "We left school after the first lesson and arrived at 9:15."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence expresses the writer’s reflection rather than an event?",
+      "choices": [
+        "The instructor welcomed us and divided us into pairs.",
+        "I also learned that small changes can make a poster clearer.",
+        "Each pair created a draft and displayed it on the wall.",
+        "We returned to school before lunch."
       ],
       "answer": 1,
-      "explanation": "Teks menyatakan keterlambatan dan kepulangan aman dalam satu kalimat.",
+      "explanation": "Kalimat tersebut menyampaikan pemahaman yang diperoleh penulis setelah kunjungan. Pilihan lain menyebut tindakan yang terjadi selama kegiatan.",
       "translationId": {
-        "prompt": "Apa yang dapat disimpulkan tentang bus yang terlambat?",
+        "prompt": "Kalimat mana yang menyatakan refleksi penulis, bukan kejadian?",
         "choices": [
-          "Bus menghalangi siswa tiba di sekolah",
-          "Bus tidak menghalangi rombongan pulang dengan selamat",
-          "Bus membuat museum tutup lebih awal",
-          "Bus datang sebelum makan siang"
+          "Instruktur menyambut kami dan membagi kami menjadi pasangan.",
+          "Saya juga belajar bahwa perubahan kecil dapat membuat poster lebih jelas.",
+          "Setiap pasangan membuat draf dan memajangnya di dinding.",
+          "Kami kembali ke sekolah sebelum makan siang."
+        ]
+      },
+      "skill": "Event vs Reflection",
+      "passageId": "art-studio-recount",
+      "evidence": "I also learned that small changes can make a poster clearer."
+    },
+    {
+      "id": "q7",
+      "prompt": "Why did the writer enjoy the visit?",
+      "choices": [
+        "The instructor cancelled the school project.",
+        "The club did not have to return to school.",
+        "The writer could test an idea instead of only reading about design.",
+        "The writer received a new poster from the instructor."
+      ],
+      "answer": 2,
+      "explanation": "Penulis menyatakan alasan secara langsung: ia dapat mencoba sebuah ide, bukan hanya membaca tentang desain. Alasan ini menjelaskan tanggapan pribadi terhadap kunjungan.",
+      "translationId": {
+        "prompt": "Mengapa penulis menikmati kunjungan tersebut?",
+        "choices": [
+          "Instruktur membatalkan proyek sekolah.",
+          "Klub tidak perlu kembali ke sekolah.",
+          "Penulis dapat mencoba sebuah ide, bukan hanya membaca tentang desain.",
+          "Penulis menerima poster baru dari instruktur."
         ]
       },
       "skill": "Making Inferences",
-      "passageId": "text-trip-recount",
-      "evidence": "but everyone reached school safely"
+      "passageId": "art-studio-recount",
+      "evidence": "I enjoyed the visit because I could test an idea instead of only reading about design."
     }
   ]
 }

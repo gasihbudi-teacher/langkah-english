@@ -1,248 +1,337 @@
 {
   "id": "grade9-trip-recount",
   "objectives": [
-    "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi informasi orientasi: siapa yang terlibat, kapan dan di mana kegiatan berlangsung, serta tujuan kegiatan.",
+    "Menyusun rangkaian peristiwa sesuai urutan waktu dengan memperhatikan penanda seperti [[first]], [[then]], [[after]], dan [[before]].",
+    "Mengenali bentuk [[simple past]] regular dan irregular yang digunakan untuk menceritakan kejadian lampau.",
+    "Membedakan kejadian yang dialami penulis dari kesan atau refleksi setelah kegiatan.",
+    "Menyusun ringkasan recount yang mempertahankan urutan dan bukti tanpa menambahkan peristiwa yang tidak disebutkan."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Recount Text: A School Trip?",
-      "text": "[[Recount text]] adalah teks yang mengisahkan kembali perjalanan atau kegiatan yang sudah terjadi secara berurutan."
+      "title": "Memahami recount text sebagai cerita ulang pengalaman",
+      "text": "[[Recount text]] menceritakan kembali peristiwa yang telah terjadi dengan menempatkan kejadian dalam urutan waktu. Pada [[personal recount]], penulis biasanya menceritakan pengalaman dari sudut pandangnya sendiri. Pembaca perlu mengenali orientasi, mengikuti rangkaian peristiwa, lalu memperhatikan komentar atau refleksi penulis jika bagian itu disertakan. Tidak setiap recount harus berakhir dengan pelajaran atau refleksi."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Menelusuri satu kunjungan dari awal hingga akhir",
+      "intro": "Bacaan berikut merupakan contoh orisinal tentang kunjungan kelas. Baca seluruh teks terlebih dahulu, lalu telusuri informasi awal, urutan kegiatan, bentuk kata kerja, dan tanggapan penulis.",
+      "modelTitle": "Our Class Visit to the Town History Museum",
+      "modelEnglish": "Last Tuesday, our class travelled to the local history museum for a social studies project. We left school at eight in the morning and arrived about forty minutes later. At the entrance, our teacher divided us into groups and gave each group a worksheet.\n\nFirst, a guide showed us photographs of the town many years ago. Then, we looked at everyday objects, including an old radio and a woven basket. While my partner sketched the radio, I wrote notes about its buttons and shape. After lunch, we interviewed a museum volunteer about how the market area changed over time. Before we left, each group shared one detail it found interesting.\n\nWe returned to school at two o’clock. I enjoyed the visit because the objects helped me imagine how people lived in the past. I also realised that careful notes made it easier to remember what a guide explained.",
+      "modelIndonesian": "Selasa lalu, kelas kami pergi ke museum sejarah kota untuk proyek IPS. Kami meninggalkan sekolah pukul delapan pagi dan tiba sekitar empat puluh menit kemudian. Di pintu masuk, guru membagi kami menjadi beberapa kelompok dan memberikan lembar kerja kepada setiap kelompok.\n\nPertama, seorang pemandu menunjukkan foto-foto kota dari masa lampau. Kemudian, kami melihat benda-benda yang digunakan dalam kehidupan sehari-hari, termasuk radio tua dan keranjang anyaman. Saat teman kelompok saya membuat sketsa radio itu, saya mencatat tombol dan bentuknya. Setelah makan siang, kami mewawancarai seorang relawan museum tentang perubahan kawasan pasar dari waktu ke waktu. Sebelum pulang, setiap kelompok membagikan satu hal menarik yang mereka temukan.\n\nKami kembali ke sekolah pukul dua siang. Saya menikmati kunjungan itu karena benda-benda tersebut membantu saya membayangkan kehidupan orang pada masa lalu. Saya juga menyadari bahwa mencatat dengan cermat memudahkan saya mengingat penjelasan pemandu.",
+      "modelNote": "Paragraf pertama memberi orientasi tentang kelas, waktu, tempat, dan tujuan kunjungan. Paragraf kedua mengurutkan kegiatan selama kunjungan. Paragraf terakhir menyampaikan kepulangan dan refleksi penulis. Bagian refleksi seperti ini sering muncul sebagai reorientation, tetapi tidak wajib ada pada setiap recount.",
       "steps": [
         {
-          "title": "Tujuan recount",
-          "explanation": "[[Recount]] menceritakan kembali pengalaman nyata yang sudah berlangsung; bukan petunjuk cara melakukan sesuatu.",
-          "english": "Our class visited a museum.",
-          "indonesian": "Kelas kami mengunjungi museum.",
-          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+          "phase": "Orientasi",
+          "title": "Temukan siapa, kapan, di mana, dan untuk apa",
+          "explanation": "Bagian orientasi memperkenalkan konteks sebelum pembaca mengikuti kejadian. Cari pelaku atau kelompok, waktu, tempat, dan tujuan kegiatan. Informasi ini membantu pembaca memahami latar pengalaman tanpa harus menebak-nebak.",
+          "english": "Last Tuesday, our class travelled to the local history museum for a social studies project.",
+          "indonesian": "Selasa lalu, kelas kami pergi ke museum sejarah kota untuk proyek IPS.",
+          "why": "Kalimat ini menyebut pelaku (“our class”), waktu (“Last Tuesday”), tempat (“the local history museum”), dan tujuan (“for a social studies project”). Rincian tersebut membentuk orientasi sebelum rangkaian kegiatan dimulai.",
+          "check": "Sebutkan empat informasi yang dapat ditemukan pada kalimat pembuka: siapa yang pergi, kapan, ke mana, dan apa tujuan kunjungannya.",
+          "checkAnswer": "Yang pergi adalah kelas penulis; kunjungan berlangsung pada Selasa lalu; tujuannya adalah museum sejarah kota; kegiatan dilakukan untuk proyek IPS."
         },
         {
-          "title": "Orientasi: siapa dan di mana?",
-          "explanation": "Temukan peserta, tujuan perjalanan, dan waktu terjadinya sebelum membaca daftar kejadian.",
-          "english": "Our class visited a museum.",
-          "indonesian": "Kelas kami mengunjungi museum.",
-          "why": "Kata “visited” menunjukkan kejadian yang sudah selesai."
+          "phase": "Urutan peristiwa",
+          "title": "Susun kegiatan berdasarkan penanda waktu",
+          "explanation": "Ikuti perubahan kegiatan dari satu kalimat ke kalimat berikutnya. Penanda seperti [[first]], [[then]], dan [[after lunch]] membantu pembaca mengenali tahap yang lebih awal dan yang terjadi kemudian. Jangan menyusun urutan hanya berdasarkan kegiatan yang terasa paling penting.",
+          "english": "First, a guide showed us photographs of the town many years ago. Then, we looked at everyday objects, including an old radio and a woven basket. After lunch, we interviewed a museum volunteer.",
+          "indonesian": "Pertama, seorang pemandu menunjukkan foto-foto kota dari masa lampau. Kemudian, kami melihat benda-benda yang digunakan dalam kehidupan sehari-hari, termasuk radio tua dan keranjang anyaman. Setelah makan siang, kami mewawancarai seorang relawan museum.",
+          "why": "Urutannya adalah melihat foto, mengamati benda, lalu mewawancarai relawan setelah makan siang. Kata “First”, “Then”, dan “After lunch” menjadi petunjuk waktu yang berbeda.",
+          "check": "Sebelum makan siang, kegiatan apa yang dilakukan setelah pemandu menunjukkan foto-foto kota?",
+          "checkAnswer": "Kelas melihat benda-benda sehari-hari, termasuk radio tua dan keranjang anyaman."
         },
         {
-          "title": "Kenali bentuk lampau",
-          "explanation": "Verba seperti [[visited]] atau [[went]] menandai tindakan yang telah terjadi.",
-          "english": "First, we met our guide.",
-          "indonesian": "Pertama, kami bertemu pemandu.",
-          "why": "“First” menyatakan urutan awal."
+          "phase": "Bentuk kata kerja",
+          "title": "Kenali simple past, termasuk bentuk tidak beraturan",
+          "explanation": "Recount tentang pengalaman lampau umumnya memakai [[simple past]] untuk menyatakan tindakan yang telah terjadi. Kata kerja regular sering berakhiran -ed, seperti “arrived” dan “interviewed”. Kata kerja irregular berubah bentuk, seperti “left”, “gave”, dan “wrote”; bentuk lampau tidak selalu dibentuk dengan menambahkan -ed.",
+          "english": "We left school at eight in the morning and arrived about forty minutes later. Our teacher divided us into groups and gave each group a worksheet.",
+          "indonesian": "Kami meninggalkan sekolah pukul delapan pagi dan tiba sekitar empat puluh menit kemudian. Guru membagi kami menjadi beberapa kelompok dan memberikan lembar kerja kepada setiap kelompok.",
+          "why": "“Arrived” dan “divided” merupakan bentuk regular dengan akhiran -ed. “Left” dan “gave” merupakan bentuk irregular. Semuanya menyatakan tindakan yang terjadi selama kunjungan lampau.",
+          "check": "Dari kalimat contoh, pilih dua kata kerja yang bentuk lampaunya tidak memakai akhiran -ed dan sebutkan bentuk dasarnya.",
+          "checkAnswer": "“Left” berasal dari “leave”, sedangkan “gave” berasal dari “give”. Keduanya merupakan bentuk simple past irregular."
         },
         {
-          "title": "Urutkan dengan penanda waktu",
-          "explanation": "[[First]], [[then]], dan [[finally]] membantu menempatkan peristiwa secara kronologis.",
-          "english": "Finally, we wrote a short report.",
-          "indonesian": "Terakhir, kami menulis laporan singkat.",
-          "why": "“Finally” menandai tahap akhir kegiatan."
+          "phase": "Hubungan waktu",
+          "title": "Bedakan urutan, kejadian bersamaan, dan alasan",
+          "explanation": "Tidak semua penghubung memiliki fungsi yang sama. “After” dan “before” menempatkan kejadian dalam hubungan waktu. “While” menunjukkan dua kegiatan berlangsung bersamaan. “Because” menjelaskan alasan, bukan urutan waktu. Mengenali fungsinya membantu pembaca memahami hubungan antarkejadian secara tepat.",
+          "english": "While my partner sketched the radio, I wrote notes about its buttons and shape.",
+          "indonesian": "Saat teman kelompok saya membuat sketsa radio itu, saya mencatat tombol dan bentuknya.",
+          "why": "“While” menghubungkan dua tindakan yang berlangsung pada waktu yang sama: teman membuat sketsa, sedangkan penulis mencatat. Kata itu tidak berarti salah satu tindakan pasti selesai sebelum tindakan lainnya dimulai.",
+          "check": "Dalam kalimat tersebut, apakah penulis mencatat setelah temannya selesai membuat sketsa, atau kedua kegiatan berlangsung bersamaan? Jelaskan petunjuknya.",
+          "checkAnswer": "Kedua kegiatan berlangsung bersamaan. Kata “while” menghubungkan tindakan membuat sketsa dan mencatat sebagai kegiatan yang terjadi pada waktu yang sama."
         },
         {
-          "title": "Kejadian atau kesan?",
-          "explanation": "Pisahkan kegiatan yang benar-benar dilakukan dari perasaan penulis tentang kegiatan itu.",
-          "english": "I learned to ask better questions.",
-          "indonesian": "Saya belajar mengajukan pertanyaan yang lebih baik.",
-          "why": "Ini refleksi: pelajaran yang didapat penulis."
+          "phase": "Kejadian dan refleksi",
+          "title": "Pisahkan tindakan yang terjadi dari tanggapan penulis",
+          "explanation": "Kejadian menjelaskan apa yang dilakukan atau dialami selama kegiatan. Refleksi menyampaikan perasaan, penilaian, atau hal yang dipahami penulis setelah mengalaminya. Keduanya dapat muncul dalam recount, tetapi memiliki fungsi berbeda.",
+          "english": "We interviewed a museum volunteer about how the market area changed over time. I enjoyed the visit because the objects helped me imagine how people lived in the past.",
+          "indonesian": "Kami mewawancarai seorang relawan museum tentang perubahan kawasan pasar dari waktu ke waktu. Saya menikmati kunjungan itu karena benda-benda tersebut membantu saya membayangkan kehidupan orang pada masa lalu.",
+          "why": "Wawancara merupakan kejadian yang dilakukan selama kunjungan. Kalimat “I enjoyed the visit” menyampaikan tanggapan pribadi penulis terhadap pengalaman tersebut.",
+          "check": "Manakah yang merupakan refleksi penulis, bukan tindakan selama kunjungan: mewawancarai relawan atau menikmati kunjungan karena benda-benda membantu penulis membayangkan masa lalu?",
+          "checkAnswer": "Kalimat tentang menikmati kunjungan merupakan refleksi karena menyatakan perasaan dan alasan penulis. Mewawancarai relawan merupakan tindakan yang benar-benar dilakukan dalam rangkaian kegiatan."
         },
         {
-          "title": "Ceritakan ulang",
-          "explanation": "Sampaikan orientasi, urutan kejadian, dan kesan akhir dalam paragraf singkat tanpa mengubah faktanya.",
-          "english": "Although the bus was late, we still completed all the activities.",
-          "indonesian": "Meskipun bus terlambat, kami tetap menyelesaikan semua kegiatan.",
-          "why": "“Although” menghubungkan hambatan dengan hasil kegiatan."
+          "phase": "Menyusun kembali",
+          "title": "Ringkas pengalaman tanpa mengubah urutan atau menambah fakta",
+          "explanation": "Ringkasan recount memilih kejadian utama, bukan menyalin setiap rincian. Pertahankan urutan yang didukung teks dan jangan menambahkan kegiatan, tempat, atau alasan yang tidak disebutkan. Jika penulis menyertakan refleksi, gunakan sebagai penutup yang menjelaskan tanggapannya.",
+          "english": "We returned to school at two o’clock. I also realised that careful notes made it easier to remember what a guide explained.",
+          "indonesian": "Kami kembali ke sekolah pukul dua siang. Saya juga menyadari bahwa mencatat dengan cermat memudahkan saya mengingat penjelasan pemandu.",
+          "why": "Kalimat pertama menyampaikan kejadian terakhir dalam perjalanan pulang. Kalimat kedua memberi refleksi tentang hal yang dipelajari penulis. Ringkasan dapat mempertahankan keduanya tanpa mengarang kegiatan baru.",
+          "check": "Jika kamu merangkum bacaan dalam dua kalimat, informasi apa yang harus tetap ada agar pembaca mengetahui inti perjalanan dan tanggapan penulis?",
+          "checkAnswer": "Ringkasan perlu menyebut kunjungan kelas ke museum dan beberapa kegiatan utama secara berurutan, lalu dapat menyertakan tanggapan penulis bahwa kunjungan membantu memahami kehidupan masa lalu atau pentingnya mencatat."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Last Friday, our class visited a history museum. First, our teacher gave us tickets. Then, we studied old photographs and wrote short notes. After lunch, we returned to school. I felt excited because I learned something new.",
-      "modelIndonesian": "Jumat lalu, kelas kami mengunjungi museum sejarah. Pertama, guru kami membagikan tiket. Kemudian, kami mengamati foto-foto lama dan menulis catatan singkat. Setelah makan siang, kami kembali ke sekolah. Saya merasa senang karena belajar sesuatu yang baru."
-    },
-    {
-      "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, pembaca perlu tahu siapa yang pergi, kapan dan ke mana, lalu mengikuti kejadian sesuai waktu. Kata [[then]], [[later]], dan bentuk lampau memberi petunjuk; kesan penulis biasanya muncul di akhir."
-    },
-    {
-      "type": "text",
-      "text": "Kalau kamu menceritakan kegiatan kemarin, pendengar perlu tahu apa yang terjadi dulu, kemudian, dan akhirnya. Itulah awal [[recount text]]."
-    },
-    {
-      "type": "rule",
-      "text": "Dalam [[recount]], susun kejadian masa lampau dengan kata urutan seperti [[first]], [[then]], dan [[finally]]. Bagian akhir dapat berisi perasaan atau pelajaran."
-    },
-    {
-      "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
-    },
-    {
-      "type": "mistake",
-      "incorrect": "First we returned; then we arrived.",
-      "correct": "First we arrived; later we returned.",
-      "explanation": "Urutan dalam recount harus mengikuti waktu kejadian."
+      ]
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Mengenali bentuk dasar dan bentuk lampau"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bentuk dasar",
+        "Simple past",
+        "Jenis perubahan"
+      ],
+      "rows": [
+        [
+          "leave",
+          "left",
+          "Irregular"
+        ],
+        [
+          "give",
+          "gave",
+          "Irregular"
+        ],
+        [
+          "write",
+          "wrote",
+          "Irregular"
+        ],
+        [
+          "arrive",
+          "arrived",
+          "Regular (-ed)"
+        ],
+        [
+          "interview",
+          "interviewed",
+          "Regular (-ed)"
+        ],
+        [
+          "return",
+          "returned",
+          "Regular (-ed)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bagaimana recount text disusun?"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Banyak personal recount menggunakan tiga fungsi bagian: [[orientation]] untuk mengenalkan konteks, [[series of events]] untuk menceritakan kejadian sesuai urutan, dan [[reorientation]] untuk menutup dengan komentar atau refleksi jika penulis memerlukannya. Nama bagian ini menjelaskan fungsi isi, bukan aturan bahwa setiap teks harus memiliki jumlah paragraf tertentu."
     },
     {
-      "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Our class visited a museum.",
-          "indonesian": "Kelas kami mengunjungi museum.",
-          "note": "Kata “visited” menunjukkan kejadian yang sudah selesai."
-        },
-        {
-          "english": "First, we met our guide.",
-          "indonesian": "Pertama, kami bertemu pemandu.",
-          "note": "“First” menyatakan urutan awal."
-        },
-        {
-          "english": "Finally, we wrote a short report.",
-          "indonesian": "Terakhir, kami menulis laporan singkat.",
-          "note": "“Finally” menandai tahap akhir kegiatan."
-        }
+      "type": "table",
+      "headers": [
+        "Bagian",
+        "Fungsi",
+        "Bukti dari bacaan"
+      ],
+      "rows": [
+        [
+          "Orientation",
+          "Mengenalkan pelaku, waktu, tempat, dan tujuan.",
+          "“Last Tuesday, our class travelled to the local history museum...”"
+        ],
+        [
+          "Series of events",
+          "Menyampaikan kegiatan dan kejadian dalam urutan waktu.",
+          "“First, a guide showed us photographs... Then, we looked at everyday objects...”"
+        ],
+        [
+          "Reorientation (opsional)",
+          "Memberi komentar, perasaan, atau refleksi penulis sebagai penutup.",
+          "“I enjoyed the visit...” dan “I also realised...”"
+        ]
       ]
+    },
+    {
+      "type": "heading",
+      "text": "Bedakan recount, narrative, dan report"
+    },
+    {
+      "type": "text",
+      "text": "Ketiga genre dapat sama-sama memuat informasi yang saling berhubungan, tetapi tujuan utamanya berbeda. Perhatikan apakah teks sedang menceritakan pengalaman lampau, membangun alur cerita, atau menyampaikan fakta umum."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Genre",
+        "Fokus utama",
+        "Petunjuk yang dapat dikenali"
+      ],
+      "rows": [
+        [
+          "Recount",
+          "Menceritakan kembali peristiwa lampau secara berurutan.",
+          "Pelaku, waktu, tempat, kejadian berurutan, dan kadang refleksi penulis."
+        ],
+        [
+          "Narrative",
+          "Mengembangkan cerita melalui tokoh, masalah, tindakan, dan penyelesaian.",
+          "Tujuan tokoh, complication, perkembangan alur, dan resolution."
+        ],
+        [
+          "Report",
+          "Menyampaikan fakta umum tentang kelompok, spesies, atau fenomena.",
+          "General classification dan description; bukan pengalaman pribadi pada satu waktu tertentu."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Perhatikan fungsi kata penghubung"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kata atau frasa",
+        "Fungsi",
+        "Contoh makna"
+      ],
+      "rows": [
+        [
+          "First / then / later",
+          "Menunjukkan tahap dalam urutan waktu.",
+          "Pertama / kemudian / setelah itu."
+        ],
+        [
+          "After lunch / before we left",
+          "Menempatkan kejadian relatif terhadap waktu lain.",
+          "Setelah makan siang / sebelum kami pergi."
+        ],
+        [
+          "While",
+          "Menunjukkan dua kegiatan berlangsung bersamaan.",
+          "Saat satu kegiatan berlangsung, kegiatan lain juga terjadi."
+        ],
+        [
+          "Because",
+          "Menjelaskan alasan atau sebab, bukan urutan waktu.",
+          "Penulis menikmati kunjungan karena benda-benda membantu membayangkan masa lalu."
+        ]
+      ]
+    },
+    {
+      "type": "mistake",
+      "incorrect": "First, we returned to school. Then, we arrived at the museum.",
+      "correct": "First, we arrived at the museum. Later, we returned to school.",
+      "explanation": "Versi pertama membalik urutan yang masuk akal dalam bacaan kunjungan. Penanda waktu harus sesuai dengan kejadian: rombongan tiba di museum sebelum kembali ke sekolah."
     },
     {
       "type": "checkpoint",
-      "id": "guided-grade9-trip-recount",
-      "prompt": "Which sentence means “Pertama, kami bertemu pemandu.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Pertama, kami bertemu pemandu.”?",
+      "id": "guided-grade9-trip-recount-orientation",
+      "prompt": "Which detail belongs to the orientation of the recount?",
+      "translation": "Rincian mana yang termasuk bagian orientasi recount?",
       "choices": [
-        "Our class visited a museum.",
-        "First, we met our guide.",
-        "Finally, we wrote a short report."
+        "The class visited the local history museum for a social studies project.",
+        "A guide showed the class photographs of the town.",
+        "The writer realised that careful notes were useful."
       ],
-      "answer": 1,
+      "answer": 0,
       "translationChoices": [
-        "Kelas kami mengunjungi museum.",
-        "Pertama, kami bertemu pemandu.",
-        "Terakhir, kami menulis laporan singkat."
+        "Kelas mengunjungi museum sejarah kota untuk proyek IPS.",
+        "Seorang pemandu menunjukkan foto-foto kota kepada kelas.",
+        "Penulis menyadari bahwa catatan yang cermat bermanfaat."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “First” menyatakan urutan awal.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan pertama memperkenalkan siapa yang melakukan kegiatan, ke mana mereka pergi, dan tujuan kunjungan. Pilihan kedua merupakan kegiatan dalam rangkaian peristiwa, sedangkan pilihan ketiga merupakan refleksi penulis.",
+      "hint": "Cari informasi yang membuat pembaca mengenal konteks sebelum kejadian-kejadian perjalanan diceritakan."
     },
     {
-      "type": "breakdown",
-      "sentence": "Our class visited a museum.",
-      "parts": [
+      "type": "example_group",
+      "title": "Bedakan kejadian dan refleksi",
+      "collapsed": false,
+      "items": [
         {
-          "english": "Our",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "We interviewed a museum volunteer after lunch.",
+          "indonesian": "Kami mewawancarai seorang relawan museum setelah makan siang.",
+          "note": "Kalimat ini menyebut tindakan yang dilakukan pada waktu tertentu, sehingga termasuk kejadian dalam rangkaian recount."
         },
         {
-          "english": "class visited a museum.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Kelas kami mengunjungi museum."
+          "english": "I felt more confident after asking my question.",
+          "indonesian": "Saya merasa lebih percaya diri setelah mengajukan pertanyaan.",
+          "note": "Kalimat ini menyampaikan perasaan penulis setelah suatu pengalaman, sehingga berfungsi sebagai refleksi."
+        },
+        {
+          "english": "The group returned to school at two o’clock.",
+          "indonesian": "Kelompok itu kembali ke sekolah pukul dua siang.",
+          "note": "Kalimat ini mencatat kejadian dan waktu yang membantu pembaca menempatkan kegiatan menjelang akhir perjalanan."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Perhatikan bentuk lampau dan penghubungnya",
       "collapsed": false,
       "items": [
         {
-          "english": "We arrived at nine.",
-          "indonesian": "Kami tiba pukul sembilan.",
-          "note": "Ini kejadian yang dapat dicatat dalam urutan waktu."
+          "english": "We arrived at the museum at half past eight.",
+          "indonesian": "Kami tiba di museum pukul setengah sembilan.",
+          "note": "“Arrived” merupakan bentuk regular simple past dari “arrive”."
         },
         {
-          "english": "I learned to ask better questions.",
-          "indonesian": "Saya belajar mengajukan pertanyaan yang lebih baik.",
-          "note": "Ini refleksi: pelajaran yang didapat penulis."
+          "english": "Our teacher gave each group a worksheet.",
+          "indonesian": "Guru memberikan lembar kerja kepada setiap kelompok.",
+          "note": "“Gave” merupakan bentuk irregular simple past dari “give”; bentuk dasarnya tidak memakai akhiran -ed."
         },
         {
-          "english": "We reached the station at eight and boarded the train ten minutes later.",
-          "indonesian": "Kami tiba di stasiun pukul delapan dan naik kereta sepuluh menit kemudian.",
-          "note": "Dua penanda waktu memungkinkan pembaca menyusun urutan pengalaman."
-        },
-        {
-          "english": "At the end of the trip, I felt proud of our teamwork.",
-          "indonesian": "Pada akhir perjalanan, saya merasa bangga dengan kerja sama kami.",
-          "note": "Bagian ini merupakan kesan penutup setelah rangkaian peristiwa, bukan kejadian perjalanan baru."
-        },
-        {
-          "english": "On the way home, our bus stopped near a small fruit market.",
-          "indonesian": "Dalam perjalanan pulang, bus kami berhenti dekat pasar buah kecil.",
-          "note": "[[On the way home]] membantu pembaca menempatkan peristiwa menjelang akhir perjalanan."
+          "english": "After the visit, we shared our notes.",
+          "indonesian": "Setelah kunjungan, kami membagikan catatan.",
+          "note": "“After” menempatkan kegiatan berbagi catatan setelah kunjungan selesai."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini kejadian yang dapat dicatat dalam urutan waktu. Ini refleksi: pelajaran yang didapat penulis."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "After the guide explained the old maps, we compared them with a modern map.",
-          "indonesian": "Setelah pemandu menjelaskan peta lama, kami membandingkannya dengan peta modern.",
-          "note": "“After” menunjukkan hubungan urutan dua kejadian."
-        },
-        {
-          "english": "Although the bus was late, we still completed all the activities.",
-          "indonesian": "Meskipun bus terlambat, kami tetap menyelesaikan semua kegiatan.",
-          "note": "“Although” menghubungkan hambatan dengan hasil kegiatan."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
-    },
-    {
-      "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
-    },
-    {
-      "type": "example",
-      "text": "Last Friday, Class 9B visited a small history museum. First, a guide welcomed the students and explained three old maps. Next, the class compared the maps with a present-day map of the town. After lunch, students interviewed a museum volunteer about the river that once ran through the market. The bus arrived twenty minutes late for the return trip, but everyone reached school safely. Before leaving, Nita wrote that she had learned how maps could tell stories about changes in a place.",
-      "note": "Ringkasan bantuan: Instruksi menggambar peta kota. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "prompt": "Why does the writer include the final reflection about taking careful notes?",
+      "translation": "Mengapa penulis menyertakan refleksi terakhir tentang mencatat dengan cermat?",
+      "answer": "Refleksi itu menunjukkan hal yang dipahami penulis setelah kunjungan. Kegiatan mencatat bukan hanya salah satu kejadian, tetapi juga menjadi pengalaman yang membuat penulis menyadari cara mengingat penjelasan dengan lebih baik."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Mengurutkan peristiwa dan membedakan kejadian dengan refleksi pribadi.",
-        "Dalam [[recount]], susun kejadian masa lampau dengan kata urutan seperti [[first]], [[then]], dan [[finally]]. Bagian akhir dapat berisi perasaan atau pelajaran.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Orientation mengenalkan pelaku, waktu, tempat, dan tujuan kegiatan.",
+        "Series of events menyampaikan kejadian sesuai urutan waktu; penanda waktu membantu pembaca menelusurinya.",
+        "Recount lampau umumnya memakai simple past, termasuk bentuk regular dan irregular.",
+        "Kejadian berbeda dari refleksi: kejadian menyebut apa yang dilakukan, sedangkan refleksi menyampaikan perasaan atau pemahaman penulis.",
+        "Reorientation dapat menjadi penutup, tetapi tidak wajib muncul pada setiap recount."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa yang terjadi pertama, kemudian, dan terakhir?",
-      "model": "We reached the station at eight and boarded the train ten minutes later.",
-      "modelTranslation": "Kami tiba di stasiun pukul delapan dan naik kereta sepuluh menit kemudian.",
-      "criteria": "Dua penanda waktu memungkinkan pembaca menyusun urutan pengalaman."
+      "title": "Tulis recount singkat tentang sebuah kunjungan",
+      "prompt": "Ceritakan sebuah kunjungan atau perjalanan yang pernah kamu lakukan. Tulis 5–6 kalimat bahasa Inggris. Mulailah dengan siapa, kapan, ke mana, dan tujuan kegiatan; ceritakan setidaknya tiga kejadian sesuai urutan; lalu tambahkan satu perasaan atau hal yang kamu pelajari jika sesuai. Gunakan bentuk lampau dan penanda waktu yang tepat.",
+      "model": "Last Saturday, my family visited the town library. We arrived at ten o’clock and looked at a new exhibition. Then, I chose a book and read a short section. Before we left, I borrowed the book. I enjoyed the visit because I found a topic I wanted to learn more about.",
+      "modelTranslation": "Sabtu lalu, keluarga saya mengunjungi perpustakaan kota. Kami tiba pukul sepuluh dan melihat pameran baru. Kemudian, saya memilih sebuah buku dan membaca bagian singkat. Sebelum pulang, saya meminjam buku itu. Saya menikmati kunjungan tersebut karena menemukan topik yang ingin saya pelajari lebih lanjut.",
+      "criteria": "Tulisan memperkenalkan konteks perjalanan, menyajikan kejadian yang dapat diikuti urutannya, memakai bentuk lampau yang sesuai, dan tidak menambahkan rincian yang tidak benar-benar dialami atau tidak sesuai dengan tugas. Refleksi digunakan sebagai penutup jika relevan."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal kosakata",
       "items": [
         {
-          "english": "arrive",
+          "english": "travelled",
+          "indonesian": "bepergian atau melakukan perjalanan"
+        },
+        {
+          "english": "arrived",
           "indonesian": "tiba"
         },
         {
@@ -250,16 +339,24 @@
           "indonesian": "pemandu"
         },
         {
-          "english": "exhibit",
-          "indonesian": "benda pameran"
+          "english": "worksheet",
+          "indonesian": "lembar kerja"
         },
         {
-          "english": "compare",
-          "indonesian": "membandingkan"
+          "english": "sketched",
+          "indonesian": "membuat sketsa"
         },
         {
-          "english": "reflection",
-          "indonesian": "refleksi"
+          "english": "interviewed",
+          "indonesian": "mewawancarai"
+        },
+        {
+          "english": "realised",
+          "indonesian": "menyadari"
+        },
+        {
+          "english": "reorientation",
+          "indonesian": "bagian penutup berupa komentar atau refleksi (jika digunakan)"
         }
       ]
     }
@@ -267,45 +364,63 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “visited”?",
+      "prompt": "Which information is established in the opening sentence?",
       "choices": [
-        "First, we met our guide.",
-        "Our class visited a museum.",
-        "Finally, we wrote a short report.",
-        "We arrived at nine."
+        "The people, time, place, and purpose of the visit.",
+        "The final feeling of the writer.",
+        "The exact result of the class project."
       ],
-      "answer": 1,
-      "explanation": "Ungkapan [[visited]] muncul dalam kalimat [[Our class visited a museum.]]. Kata “visited” menunjukkan kejadian yang sudah selesai.",
+      "answer": 0,
+      "explanation": "Kalimat pembuka mengenalkan kelas sebagai pelaku, Selasa lalu sebagai waktu, museum sejarah kota sebagai tempat, dan proyek IPS sebagai tujuan.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “visited”?",
+        "prompt": "Informasi apa yang disampaikan dalam kalimat pembuka?",
         "choices": [
-          "Pertama, kami bertemu pemandu.",
-          "Kelas kami mengunjungi museum.",
-          "Terakhir, kami menulis laporan singkat.",
-          "Kami tiba pukul sembilan."
+          "Pelaku, waktu, tempat, dan tujuan kunjungan.",
+          "Perasaan akhir penulis.",
+          "Hasil pasti dari proyek kelas."
         ]
-      }
+      },
+      "skill": "Orientation"
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “Finally”?",
+      "prompt": "What did the class do after lunch?",
       "choices": [
-        "Our class visited a museum.",
-        "First, we met our guide.",
-        "Finally, we wrote a short report.",
-        "We arrived at nine."
+        "They returned to school immediately.",
+        "They interviewed a museum volunteer.",
+        "They left the museum before the guide arrived."
+      ],
+      "answer": 1,
+      "explanation": "Teks menyebut kegiatan wawancara setelah makan siang. Kepulangan ke sekolah terjadi kemudian, sehingga bukan jawaban untuk pertanyaan ini.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan kelas setelah makan siang?",
+        "choices": [
+          "Mereka langsung kembali ke sekolah.",
+          "Mereka mewawancarai seorang relawan museum.",
+          "Mereka meninggalkan museum sebelum pemandu tiba."
+        ]
+      },
+      "skill": "Sequence"
+    },
+    {
+      "id": "p3",
+      "prompt": "What does “while” show in the sentence about the partner sketching?",
+      "choices": [
+        "The writer finished taking notes before the partner arrived.",
+        "The partner sketched because the writer asked them to.",
+        "The two activities happened at the same time."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[Finally]] muncul dalam kalimat [[Finally, we wrote a short report.]]. “Finally” menandai tahap akhir kegiatan.",
+      "explanation": "“While” menghubungkan dua kegiatan yang berlangsung bersamaan: teman membuat sketsa dan penulis mencatat.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “Finally”?",
+        "prompt": "Apa yang ditunjukkan oleh kata “while” dalam kalimat tentang teman yang membuat sketsa?",
         "choices": [
-          "Kelas kami mengunjungi museum.",
-          "Pertama, kami bertemu pemandu.",
-          "Terakhir, kami menulis laporan singkat.",
-          "Kami tiba pukul sembilan."
+          "Penulis selesai mencatat sebelum temannya tiba.",
+          "Temannya membuat sketsa karena diminta oleh penulis.",
+          "Kedua kegiatan berlangsung pada waktu yang sama."
         ]
-      }
+      },
+      "skill": "Time Relationships"
     }
   ],
   "assessments": [
