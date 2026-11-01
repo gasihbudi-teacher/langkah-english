@@ -4,9 +4,9 @@
   "durationSeconds": 360,
   "passages": [
     {
-      "id": "text-digital-safety",
-      "title": "Digital Literacy: Checking Online Claims",
-      "text": "An image circulated in a class chat claiming that Monday’s examination had been cancelled. The image used the school logo but included no date and no link to an original notice. Several students immediately shared it. Dira checked the school’s official website and found a notice saying that the examination would begin one hour later, not that it was cancelled. She sent the official link to her classmates and reminded them to check dates and sources before forwarding urgent messages.",
+      "id": "game-reward-message",
+      "title": "Digital Safety: The Game Reward Message",
+      "text": "Rafi was playing an online game when a message appeared in the chat. It said he had won free game coins and needed to claim them before the offer ended. The message showed the game’s logo and included a shortened link. It asked Rafi to enter his full name, school, phone number, and account password. The sender’s account was unfamiliar. Rafi wanted the reward, but he did not open the link or send any details. Instead, he opened the game’s official website using a bookmark he had saved earlier. He found no announcement about a reward. He then showed the message to his older sister and used the game’s report tool. Rafi could not confirm that the offer was real, so he kept his information private.",
       "original": true
     }
   ],
@@ -15,97 +15,97 @@
       "id": "q1",
       "prompt": "What is the passage mainly about?",
       "choices": [
-        "How the school designed its logo",
-        "How to delete every group chat",
-        "Why examinations should never be rescheduled",
-        "How a student checked a misleading exam message"
+        "How Rafi responded safely to a suspicious game message.",
+        "How to earn more coins in an online game.",
+        "Why every game should offer free rewards.",
+        "How Rafi created a new game account."
       ],
-      "answer": 3,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "answer": 0,
+      "explanation": "Keseluruhan bacaan berfokus pada pesan hadiah yang mencurigakan dan keputusan Rafi untuk tidak memberikan data, memeriksa situs resmi, serta melaporkannya.",
       "translationId": {
-        "prompt": "Apa inti bacaan?",
+        "prompt": "Apa inti bacaan tersebut?",
         "choices": [
-          "Bagaimana sekolah merancang logonya",
-          "Cara menghapus semua grup percakapan",
-          "Mengapa ujian tidak boleh dijadwal ulang",
-          "Bagaimana siswa memeriksa pesan ujian yang menyesatkan"
+          "Bagaimana Rafi merespons pesan hadiah permainan yang mencurigakan dengan aman.",
+          "Cara memperoleh lebih banyak koin dalam permainan daring.",
+          "Mengapa setiap permainan harus menawarkan hadiah gratis.",
+          "Bagaimana Rafi membuat akun permainan baru."
         ]
       },
       "skill": "Main Idea",
-      "passageId": "text-digital-safety",
-      "evidence": "An image circulated in a class chat claiming that Monday’s examination had been cancelled."
+      "passageId": "game-reward-message",
+      "evidence": "Rafi wanted the reward, but he did not open the link or send any details."
     },
     {
       "id": "q2",
-      "prompt": "What did the official school notice actually say?",
+      "prompt": "Which combination is a warning sign in the message?",
       "choices": [
-        "The exam was cancelled",
-        "The school would close for a month",
-        "The exam would start one hour later",
-        "Students should ignore the timetable"
+        "A saved bookmark and an official website.",
+        "A shortened link, an unfamiliar sender, and a request for personal details.",
+        "A message from a known teacher.",
+        "A notice published on the game’s official website."
       ],
-      "answer": 2,
-      "explanation": "Pengumuman resmi menyatakan perubahan waktu, bukan pembatalan.",
+      "answer": 1,
+      "explanation": "Tautan yang dipersingkat, akun pengirim yang tidak dikenal, dan permintaan nama lengkap, sekolah, nomor telepon, serta kata sandi merupakan tanda yang patut dicurigai.",
       "translationId": {
-        "prompt": "Apa isi pengumuman resmi sekolah?",
+        "prompt": "Kombinasi mana yang menjadi tanda peringatan dalam pesan tersebut?",
         "choices": [
-          "Ujian dibatalkan",
-          "Sekolah tutup satu bulan",
-          "Ujian dimulai satu jam lebih lambat",
-          "Siswa harus mengabaikan jadwal"
+          "Penanda halaman yang tersimpan dan situs resmi.",
+          "Tautan yang dipersingkat, pengirim yang tidak dikenal, dan permintaan rincian pribadi.",
+          "Pesan dari guru yang dikenal.",
+          "Pengumuman yang diterbitkan di situs resmi permainan."
         ]
       },
-      "skill": "Supporting Details",
-      "passageId": "text-digital-safety",
-      "evidence": "the examination would begin one hour later, not that it was cancelled"
+      "skill": "Recognising Warning Signs",
+      "passageId": "game-reward-message",
+      "evidence": "The message showed the game’s logo and included a shortened link. It asked Rafi to enter his full name, school, phone number, and account password. The sender’s account was unfamiliar."
     },
     {
       "id": "q3",
-      "prompt": "Why was the screenshot unreliable?",
+      "prompt": "Why did Rafi use a saved bookmark to open the game’s official website?",
       "choices": [
-        "It lacked a date and original link",
-        "It contained a school logo",
-        "Many students saw it",
-        "It appeared in a class chat"
+        "To send his password to the sender.",
+        "To claim the reward before the offer ended.",
+        "To check the offer without using the message’s link.",
+        "To find the sender’s private account."
       ],
-      "answer": 0,
-      "explanation": "Ketiadaan tanggal dan sumber asli menghambat verifikasi.",
+      "answer": 2,
+      "explanation": "Penanda halaman yang telah disimpan membuka alamat yang sudah dikenal. Rafi dapat memeriksa pengumuman tanpa memakai tautan dari pesan yang belum terverifikasi.",
       "translationId": {
-        "prompt": "Mengapa tangkapan layar kurang dapat dipercaya?",
+        "prompt": "Mengapa Rafi menggunakan penanda halaman yang tersimpan untuk membuka situs resmi permainan?",
         "choices": [
-          "Tidak ada tanggal dan tautan asli",
-          "Memuat logo sekolah",
-          "Banyak siswa melihatnya",
-          "Muncul di percakapan kelas"
+          "Untuk mengirim kata sandinya kepada pengirim.",
+          "Untuk mengambil hadiah sebelum penawaran berakhir.",
+          "Untuk memeriksa penawaran tanpa menggunakan tautan dari pesan.",
+          "Untuk menemukan akun pribadi pengirim."
         ]
       },
-      "skill": "Critical Reading",
-      "passageId": "text-digital-safety",
-      "evidence": "included no date and no link to an original notice"
+      "skill": "Independent Verification",
+      "passageId": "game-reward-message",
+      "evidence": "Instead, he opened the game’s official website using a bookmark he had saved earlier."
     },
     {
       "id": "q4",
-      "prompt": "Which action best reflects the message of the text?",
+      "prompt": "What did Rafi do after he found no announcement about a reward?",
       "choices": [
-        "Forward an urgent image immediately",
-        "Check the issuing organisation before sharing",
-        "Assume popular messages are accurate",
-        "Believe all images with a logo"
+        "He entered his account password.",
+        "He forwarded the link to his classmates.",
+        "He replied to ask for more coins.",
+        "He showed the message to his sister and used the report tool."
       ],
-      "answer": 1,
-      "explanation": "Dira memeriksa situs resmi sebelum meneruskan informasi.",
+      "answer": 3,
+      "explanation": "Setelah tidak menemukan pengumuman, Rafi menunjukkan pesan kepada kakaknya dan menggunakan fitur pelaporan permainan. Ia tidak membagikan data atau meneruskan tautan.",
       "translationId": {
-        "prompt": "Tindakan mana paling sesuai dengan pesan teks?",
+        "prompt": "Apa yang dilakukan Rafi setelah tidak menemukan pengumuman tentang hadiah?",
         "choices": [
-          "Segera meneruskan gambar mendesak",
-          "Memeriksa organisasi penerbit sebelum membagikan",
-          "Menganggap pesan populer selalu benar",
-          "Mempercayai semua gambar berlogo"
+          "Ia memasukkan kata sandi akunnya.",
+          "Ia meneruskan tautan kepada teman sekelas.",
+          "Ia membalas pesan untuk meminta lebih banyak koin.",
+          "Ia menunjukkan pesan kepada kakaknya dan menggunakan fitur pelaporan."
         ]
       },
-      "skill": "Application",
-      "passageId": "text-digital-safety",
-      "evidence": "checked the school’s official website"
+      "skill": "Safe Response and Reporting",
+      "passageId": "game-reward-message",
+      "evidence": "He then showed the message to his older sister and used the game’s report tool."
     }
   ]
 }

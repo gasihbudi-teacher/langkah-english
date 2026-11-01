@@ -2101,12 +2101,12 @@
       ],
       "file": "data/lessons/grade9-digital-safety.json",
       "order": 330,
-      "estimatedMinutes": 28,
+      "estimatedMinutes": 30,
       "prerequisites": [
         "reading-bridge"
       ],
-      "title": "Digital Literacy: Checking Online Claims",
-      "description": "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+      "title": "Digital Safety: Protecting Personal Information",
+      "description": "Mengenali informasi pribadi, tanda pesan mencurigakan, dan langkah aman untuk melindungi akun serta melaporkan pesan berisiko.",
       "placements": [
         {
           "pathway": "school",
@@ -2117,8 +2117,9 @@
       "grammarTopics": [],
       "readingSkills": [],
       "tags": [
-        "digital life",
-        "Information Literacy",
+        "digital safety",
+        "personal information",
+        "phishing awareness",
         "Grade 9"
       ],
       "aiGenerated": true,
@@ -2126,8 +2127,8 @@
       "curriculumAlignment": {
         "grade": 9,
         "phase": "D",
-        "genre": "Information Literacy",
-        "theme": "digital life",
+        "genre": "Informational Text",
+        "theme": "online privacy and account safety",
         "curriculumElement": "Reading–Viewing",
         "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
       }
@@ -2142,8 +2143,8 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 331,
-      "title": "Digital Literacy: Checking Online Claims",
-      "description": "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
+      "title": "Digital Safety: Protecting Personal Information",
+      "description": "Latihan transfer membaca situasi digital baru: mengenali tanda pesan mencurigakan, melindungi informasi pribadi, memverifikasi pesan, dan melaporkan risiko.",
       "placements": [
         {
           "pathway": "school",
@@ -2154,8 +2155,9 @@
       "grammarTopics": [],
       "readingSkills": [],
       "tags": [
-        "digital life",
-        "Information Literacy",
+        "digital safety",
+        "personal information",
+        "phishing awareness",
         "Grade 9"
       ],
       "aiGenerated": true,
@@ -2163,8 +2165,8 @@
       "curriculumAlignment": {
         "grade": 9,
         "phase": "D",
-        "genre": "Information Literacy",
-        "theme": "digital life",
+        "genre": "Informational Text",
+        "theme": "online privacy and account safety",
         "curriculumElement": "Reading–Viewing",
         "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
       }

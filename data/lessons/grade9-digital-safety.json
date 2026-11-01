@@ -1,293 +1,310 @@
 {
   "id": "grade9-digital-safety",
   "objectives": [
-    "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengelompokkan contoh informasi pribadi yang perlu dilindungi dalam penggunaan layanan daring.",
+    "Mengenali tanda pesan mencurigakan, termasuk desakan waktu, pengirim yang tidak dikenal, tautan singkat, dan permintaan rincian pribadi.",
+    "Menentukan cara memeriksa pesan melalui saluran resmi yang sudah dikenal tanpa mengikuti tautan yang mencurigakan.",
+    "Menjelaskan tindakan aman untuk menjaga akun, meminta bantuan, dan melaporkan pesan berisiko.",
+    "Memahami perbedaan kekuatan aturan dan anjuran melalui must, should, dan must not dalam teks keselamatan digital."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Digital Literacy: Checking Online Claims?",
-      "text": "[[Digital literacy]] adalah kemampuan membaca informasi daring secara kritis dan mengambil keputusan aman sebelum mempercayai atau membagikannya."
+      "title": "Memahami keselamatan digital dan privasi akun",
+      "text": "[[Digital safety]] adalah kebiasaan menggunakan layanan daring dengan melindungi akun, perangkat, dan informasi pribadi. [[Personal information]] mencakup rincian yang dapat mengenali atau menghubungi seseorang, seperti alamat rumah dan nomor telepon. Salah satu risiko adalah [[phishing]], yaitu pesan yang menyamar sebagai pihak tepercaya untuk mendorong penerima membuka tautan atau memberikan informasi. Tujuan pelajaran ini bukan membuat siswa takut menggunakan internet, melainkan membantu mereka berhenti sejenak, memeriksa, dan memilih tindakan yang lebih aman."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membedakan klaim, sumber, dan bukti dalam pesan daring. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Baca cara melindungi akun sekolah",
+      "intro": "Bacaan berikut menjelaskan mengapa akun perlu dilindungi, bagaimana pesan mencurigakan dapat dikenali, dan langkah yang dapat dilakukan siswa. Perhatikan hubungan antara tanda peringatan dan tindakan yang lebih aman.",
+      "modelTitle": "A Safer Way to Use a School Account",
+      "modelEnglish": "Students use online accounts to read class notices, send homework, and join lessons. These accounts may contain names, messages, and schoolwork, so students should protect them. Keep your password and any one-time sign-in code private. Do not send them in a chat, even when a message uses the school logo. A suspicious message may say, “Your account will be closed in ten minutes. Click here and sign in now.” It may come from an address you do not recognise or ask for details that a school does not need. A school logo alone does not prove that the message is genuine. Do not click the link or download an unexpected file. Instead, open the school website using the address you already know, then check for a notice. If you are unsure, ask a teacher through the usual school channel. Show the message to a trusted adult or report it to the school’s IT contact. Do not reply or forward it. A pause gives you time to check before you act.",
+      "modelIndonesian": "Siswa menggunakan akun daring untuk membaca pengumuman kelas, mengirim tugas, dan mengikuti pelajaran. Akun tersebut dapat memuat nama, pesan, dan tugas sekolah, sehingga siswa perlu melindunginya. Jaga kata sandi dan setiap kode masuk sekali pakai agar tetap rahasia. Jangan mengirimkannya melalui percakapan, meskipun sebuah pesan memakai logo sekolah. Pesan mencurigakan mungkin berbunyi, “Akunmu akan ditutup dalam sepuluh menit. Klik di sini dan masuk sekarang.” Pesan itu dapat berasal dari alamat pengirim yang tidak kamu kenali atau meminta rincian yang tidak diperlukan sekolah. Logo sekolah saja tidak membuktikan bahwa pesan tersebut asli. Jangan klik tautan itu atau mengunduh berkas yang tidak kamu harapkan. Sebaliknya, buka situs sekolah melalui alamat yang sudah kamu ketahui, lalu periksa apakah ada pengumuman. Jika ragu, tanyakan kepada guru melalui saluran sekolah yang biasa digunakan. Tunjukkan pesan itu kepada orang dewasa tepercaya atau laporkan kepada petugas teknologi informasi sekolah. Jangan membalas atau meneruskannya. Berhenti sejenak memberimu waktu untuk memeriksa sebelum bertindak.",
+      "modelNote": "Teks dimulai dengan menjelaskan penggunaan akun, lalu memberi contoh pesan yang mencurigakan. Bagian akhir menyusun tindakan yang lebih aman: tidak mengikuti tautan, memeriksa situs yang dikenal, meminta bantuan, dan melaporkan pesan.",
       "steps": [
         {
-          "title": "Informasi daring belum tentu benar",
-          "explanation": "Sebuah unggahan bisa salah atau menyesatkan meskipun banyak dibagikan.",
-          "english": "The message has no date.",
-          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
-          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+          "title": "Bedakan informasi pribadi dari informasi umum",
+          "explanation": "Informasi pribadi dapat membantu orang lain mengenali, menghubungi, atau menemukan seseorang. Informasi seperti alamat rumah dan nomor telepon tidak seharusnya dipasang pada profil yang dapat dilihat semua orang. Pertimbangkan siapa yang meminta informasi dan apakah ada kebutuhan yang jelas.",
+          "english": "Your home address and phone number are personal information.",
+          "indonesian": "Alamat rumah dan nomor teleponmu merupakan informasi pribadi.",
+          "why": "Kedua rincian itu dapat menghubungkan informasi daring dengan kehidupan seseorang di luar internet. Karena itu, jangan membagikannya secara terbuka."
         },
         {
-          "title": "Tandai klaim",
-          "explanation": "Salin inti pernyataan yang dapat diperiksa; bedakan dari ajakan emosional.",
-          "english": "The message has no date.",
-          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
-          "why": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+          "title": "Jaga kata sandi dan kode masuk sekali pakai",
+          "explanation": "Kata sandi dan kode verifikasi sekali pakai digunakan untuk mengakses akun. Orang yang mendapatkannya dapat mencoba masuk sebagai pemilik akun. Jangan mengirimkan kode tersebut melalui pesan atau percakapan.",
+          "english": "Keep your password and one-time sign-in code private.",
+          "indonesian": "Jaga kata sandi dan kode masuk sekali pakaimu agar tetap rahasia.",
+          "why": "Kata “private” menegaskan bahwa rincian masuk tidak boleh dibagikan. Kode sekali pakai juga harus dijaga, bukan dianggap sebagai pesan biasa."
         },
         {
-          "title": "Fakta atau opini?",
-          "explanation": "Pertanyaan fakta dapat diperiksa dengan bukti; penilaian pribadi tidak diuji dengan cara sama.",
-          "english": "The school website gives the new schedule.",
-          "indonesian": "Situs sekolah memberikan jadwal baru.",
-          "why": "Sumber resmi lebih tepat untuk aturan sekolah."
+          "title": "Kenali pesan yang sengaja membuat panik",
+          "explanation": "Pesan mencurigakan dapat mendesak pembaca untuk bertindak sangat cepat, misalnya dengan ancaman akun akan ditutup. Bahasa mendesak merupakan tanda peringatan yang perlu diperiksa, bukan alasan untuk segera mengikuti instruksi.",
+          "english": "Your account will be closed in ten minutes. Click here and sign in now.",
+          "indonesian": "Akunmu akan ditutup dalam sepuluh menit. Klik di sini dan masuk sekarang.",
+          "why": "Batas waktu yang sangat singkat menekan pembaca agar tidak sempat memeriksa pesan. Desakan seperti ini patut dicurigai, terutama jika disertai tautan atau permintaan data."
         },
         {
-          "title": "Siapa sumbernya?",
-          "explanation": "Cari penulis atau lembaga asal, bukan sekadar nama akun yang meneruskan unggahan.",
-          "english": "Check the original announcement.",
-          "indonesian": "Periksa pengumuman aslinya.",
-          "why": "Perintah ini mengajak pembaca mencari sumber pertama."
+          "title": "Perhatikan alamat dan identitas pengirim",
+          "explanation": "Nama tampilan dapat dibuat menyerupai nama sekolah atau layanan yang dikenal. Periksa alamat pengirim dan jangan menyimpulkan bahwa pesan resmi hanya dari nama atau gambar profilnya.",
+          "english": "The sender’s address is not the one listed on the school website.",
+          "indonesian": "Alamat pengirim itu berbeda dari alamat yang tercantum di situs sekolah.",
+          "why": "Membandingkan alamat pengirim dengan informasi kontak yang sudah dikenal membantu menemukan ketidaksesuaian. Pemeriksaan ini tidak mengharuskan pembaca membuka tautan dalam pesan."
         },
         {
-          "title": "Kapan dan konteks apa?",
-          "explanation": "Informasi lama atau gambar dari peristiwa lain dapat membuat klaim baru menyesatkan.",
-          "english": "Many people shared the claim.",
-          "indonesian": "Banyak orang membagikan klaim itu.",
-          "why": "Kepopuleran belum membuktikan kebenaran."
+          "title": "Jangan menganggap logo sebagai bukti keaslian",
+          "explanation": "Gambar logo dapat disalin dan ditempelkan pada pesan apa pun. Logo yang tampak familier tidak membuktikan bahwa pesan benar-benar berasal dari organisasi tersebut.",
+          "english": "A school logo alone does not prove that the message is genuine.",
+          "indonesian": "Logo sekolah saja tidak membuktikan bahwa pesan tersebut asli.",
+          "why": "Kata “alone” membatasi arti logo: logo hanyalah satu gambar, bukan verifikasi pengirim atau isi pesan."
         },
         {
-          "title": "Apa buktinya?",
-          "explanation": "Cari dokumen, data, rekaman utuh, atau rujukan yang benar-benar relevan dengan klaim.",
-          "english": "The school confirmed the change.",
-          "indonesian": "Pihak sekolah mengonfirmasi perubahan itu.",
-          "why": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
+          "title": "Periksa melalui saluran resmi yang sudah dikenal",
+          "explanation": "Jika pesan mengaku berasal dari sekolah, buka situs sekolah melalui alamat yang sudah kamu ketahui atau gunakan saluran komunikasi yang biasa dipakai. Jangan memakai tautan yang disertakan dalam pesan mencurigakan untuk memeriksa pesan itu sendiri.",
+          "english": "Open the school website using the address you already know.",
+          "indonesian": "Buka situs sekolah menggunakan alamat yang sudah kamu ketahui.",
+          "why": "Cara ini memisahkan proses pemeriksaan dari tautan yang dikirim oleh pengirim yang belum terverifikasi. Informasi dapat dibandingkan dengan pengumuman yang benar-benar diterbitkan sekolah."
         },
         {
-          "title": "Bukti palsu atau tidak terkait",
-          "explanation": "Tangkapan layar dan kutipan tanpa konteks belum tentu membuktikan sesuatu; telusuri sumber asli bila mungkin.",
-          "english": "A message may look official even when its sender cannot be verified.",
-          "indonesian": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
-          "why": "Tampilan resmi tidak sama dengan bukti identitas sumber."
+          "title": "Hindari tautan dan berkas yang tidak diharapkan",
+          "explanation": "Jangan membuka tautan atau mengunduh lampiran yang datang tanpa diduga dari pengirim yang belum dapat dipastikan. Jika pesan tampak mencurigakan, berhenti sebelum melakukan tindakan yang diminta.",
+          "english": "Do not click the link or download an unexpected file.",
+          "indonesian": "Jangan klik tautan itu atau mengunduh berkas yang tidak kamu harapkan.",
+          "why": "Instruksi ini melarang dua tindakan yang dapat membawa pembaca ke halaman atau berkas berisiko. Berhenti sejenak memberi kesempatan untuk memeriksa sumbernya."
         },
         {
-          "title": "Bandingkan sumber lain",
-          "explanation": "Periksa kesesuaian informasi dengan sumber independen tepercaya yang relevan.",
-          "english": "Before sharing the image, check whether an older photograph is being presented as new.",
-          "indonesian": "Sebelum membagikan gambar itu, periksa apakah foto lama disajikan seolah-olah baru.",
-          "why": "Tanggal dan konteks foto dapat mengubah makna sebuah unggahan."
+          "title": "Jangan membalas atau meneruskan pesan mencurigakan",
+          "explanation": "Membalas pesan dapat membuka percakapan lebih jauh dengan pengirim yang belum dikenal. Meneruskannya juga dapat membuat teman sekelas ikut menerima pesan yang belum diperiksa.",
+          "english": "Do not reply to the message or forward it to classmates.",
+          "indonesian": "Jangan membalas pesan itu atau meneruskannya kepada teman sekelas.",
+          "why": "Kata “reply” berarti membalas, sedangkan “forward” berarti meneruskan. Keduanya bukan langkah verifikasi."
         },
         {
-          "title": "Hindari keyakinan palsu",
-          "explanation": "Kalimat sangat pasti tidak menjamin kebenaran; bedakan tidak terbukti dari pasti salah.",
-          "english": "Although the screenshot looked official, it did not include the school’s address or publication date.",
-          "indonesian": "Meskipun tangkapan layar tampak resmi, tidak ada alamat sekolah atau tanggal terbit.",
-          "why": "Kontras ini menunjukkan alasan penting untuk memeriksa detail."
+          "title": "Minta bantuan dan laporkan pesan yang berisiko",
+          "explanation": "Jika belum yakin, tunjukkan pesan kepada orang dewasa tepercaya, guru, atau petugas teknologi informasi sekolah. Gunakan fitur atau prosedur pelaporan yang disediakan oleh sekolah atau platform.",
+          "english": "Show the message to a trusted adult or report it to the school’s IT contact.",
+          "indonesian": "Tunjukkan pesan itu kepada orang dewasa tepercaya atau laporkan kepada petugas teknologi informasi sekolah.",
+          "why": "Tindakan ini mengarahkan masalah kepada orang atau saluran yang dapat membantu. Siswa tidak perlu menyelesaikannya sendirian atau menyebarkan pesan ke grup kelas."
         },
         {
-          "title": "Putuskan sebelum membagikan",
-          "explanation": "Nyatakan apa yang diketahui, apa yang masih belum pasti, dan pertimbangkan risiko privasi serta keselamatan.",
-          "english": "Before forwarding the message, Dira checked the notice on the school’s actual website.",
-          "indonesian": "Sebelum meneruskan pesan, Dira memeriksa pengumuman di situs sekolah yang sebenarnya.",
-          "why": "Tindakan ini memeriksa sumber sebelum menyebarkan informasi."
+          "title": "Pahami kekuatan aturan dan akibat tindakan",
+          "explanation": "Kata “must” menyatakan kewajiban kuat, “should” menyatakan saran, sedangkan “must not” menyatakan larangan. Perhatikan juga hubungan sebab-akibat: membuka tautan yang tidak dikenal dapat membuat informasi akun terekspos.",
+          "english": "You must keep your password private, and you should check unusual messages.",
+          "indonesian": "Kamu wajib menjaga kata sandi tetap rahasia dan sebaiknya memeriksa pesan yang tidak biasa.",
+          "why": "“Must” lebih kuat daripada “should”. Keduanya membantu pembaca memahami apakah kalimat menyatakan kewajiban atau anjuran sebelum mengambil keputusan."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "A post says: “All schools will close tomorrow.” The post gives no official source and shows a photo from last year. Sari checks the date and looks for an announcement from her school. She finds no confirmation, so she does not share the post as a fact.",
-      "modelIndonesian": "Sebuah unggahan mengatakan: “Semua sekolah akan tutup besok.” Unggahan itu tidak menyebut sumber resmi dan menampilkan foto dari tahun lalu. Sari memeriksa tanggal dan mencari pengumuman dari sekolahnya. Ia tidak menemukan konfirmasi, sehingga tidak membagikan unggahan itu sebagai fakta."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, unggahan yang viral belum tentu benar. Baca klaim, cari sumber yang dapat diperiksa, cek tanggal, dan bedakan fakta dari pendapat atau tebakan. Perlindungan data pribadi juga termasuk keamanan digital."
+      "title": "Keputusan aman dimulai dengan jeda",
+      "text": "Pesan yang mendesak, memakai logo, atau menjanjikan hadiah belum tentu berasal dari pihak yang benar. Lindungi kata sandi dan kode masuk, jangan membuka tautan atau berkas yang tidak diharapkan, lalu periksa melalui saluran resmi yang sudah dikenal. Jika masih ragu, mintalah bantuan dan gunakan jalur pelaporan."
     },
     {
       "type": "text",
-      "text": "Pesan yang terlihat meyakinkan belum tentu benar. Kita akan memeriksa siapa yang menulis, bukti yang diberikan, dan apakah informasi bisa diverifikasi."
+      "text": "Informasi pribadi tidak selalu harus dirahasiakan dari setiap orang. Namun, informasi itu perlu dibagikan secara terbatas, untuk alasan yang jelas, dan melalui layanan atau orang yang dapat dipercaya. Jangan memasukkannya ke formulir atau percakapan hanya karena sebuah pesan meminta."
     },
     {
       "type": "rule",
-      "text": "Saat membaca [[online claim]], periksa [[source]], [[date]], dan [[evidence]]. Banyak pengulangan pesan tidak sama dengan bukti yang kuat."
+      "text": "Urutan keputusan yang dapat digunakan: [[pause]] (berhenti sejenak), [[check]] (periksa pengirim dan isi), [[verify]] (cocokkan melalui saluran resmi yang sudah dikenal), lalu [[report]] (laporkan jika tetap mencurigakan). Jangan menjadikan logo, hadiah, atau desakan waktu sebagai satu-satunya dasar kepercayaan."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Kesalahan yang sering muncul saat membaca pesan daring"
     },
     {
       "type": "mistake",
-      "incorrect": "The message is true because it was shared widely.",
-      "correct": "The message needs verification from an official source.",
-      "explanation": "Jumlah penerusan tidak membuktikan sebuah klaim."
+      "incorrect": "The message has the school logo, so it must be safe.",
+      "correct": "A logo can be copied; verify the message through a known official channel.",
+      "explanation": "Gambar logo dapat digunakan ulang oleh siapa pun. Keaslian pesan perlu diperiksa melalui alamat situs atau saluran kontak resmi yang sudah diketahui, bukan dari tampilan pesan saja."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
-    },
-    {
-      "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Bandingkan beberapa bentuk informasi dan tindakan"
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Informasi pribadi dan tanda peringatan",
       "collapsed": false,
       "items": [
         {
-          "english": "The message has no date.",
-          "indonesian": "Pesan itu tidak mencantumkan tanggal.",
-          "note": "Tanggal penting untuk mengetahui apakah informasi masih berlaku."
+          "english": "Do not post your home address in a public profile.",
+          "indonesian": "Jangan memasang alamat rumahmu pada profil publik.",
+          "note": "Alamat rumah merupakan informasi pribadi yang dapat menghubungkan akun dengan lokasi seseorang."
         },
         {
-          "english": "The school website gives the new schedule.",
-          "indonesian": "Situs sekolah memberikan jadwal baru.",
-          "note": "Sumber resmi lebih tepat untuk aturan sekolah."
+          "english": "The message says, “Act now or lose your account.”",
+          "indonesian": "Pesan itu mengatakan, “Bertindaklah sekarang atau akunmu akan hilang.”",
+          "note": "Ancaman dengan batas waktu dapat menekan penerima agar bertindak tanpa memeriksa."
         },
         {
-          "english": "Check the original announcement.",
-          "indonesian": "Periksa pengumuman aslinya.",
-          "note": "Perintah ini mengajak pembaca mencari sumber pertama."
+          "english": "The sender’s address is different from the school’s known address.",
+          "indonesian": "Alamat pengirim berbeda dari alamat sekolah yang sudah dikenal.",
+          "note": "Ketidaksesuaian alamat merupakan alasan untuk memeriksa pesan melalui saluran lain."
+        },
+        {
+          "english": "A familiar logo appears beside an unknown link.",
+          "indonesian": "Logo yang familier muncul di samping tautan yang tidak dikenal.",
+          "note": "Logo tidak mengubah tautan yang tidak dikenal menjadi tautan tepercaya."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Tindakan untuk memeriksa dan melindungi akun",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Open the school website using a saved bookmark.",
+          "indonesian": "Buka situs sekolah menggunakan penanda halaman yang sudah disimpan.",
+          "note": "Penanda halaman yang telah disimpan membantu membuka alamat yang sebelumnya sudah diketahui."
+        },
+        {
+          "english": "Ask your teacher through the usual school channel.",
+          "indonesian": "Tanyakan kepada guru melalui saluran sekolah yang biasa digunakan.",
+          "note": "Saluran komunikasi yang sudah dikenal dapat digunakan untuk mengonfirmasi pengumuman."
+        },
+        {
+          "english": "Report the suspicious message to the school IT contact.",
+          "indonesian": "Laporkan pesan mencurigakan kepada petugas teknologi informasi sekolah.",
+          "note": "Pelaporan mengarahkan pesan berisiko kepada pihak yang dapat menindaklanjutinya."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Memahami aturan dalam bahasa Inggris",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "You must keep your password private.",
+          "indonesian": "Kamu wajib menjaga kata sandi tetap rahasia.",
+          "note": "“Must” menyatakan kewajiban yang kuat, bukan sekadar pilihan."
+        },
+        {
+          "english": "You should check an unexpected message.",
+          "indonesian": "Sebaiknya kamu memeriksa pesan yang tidak diharapkan.",
+          "note": "“Should” memberikan saran tentang tindakan yang dianjurkan."
+        },
+        {
+          "english": "You must not share a one-time sign-in code.",
+          "indonesian": "Kamu tidak boleh membagikan kode masuk sekali pakai.",
+          "note": "“Must not” menyatakan larangan yang tegas."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade9-digital-safety",
-      "prompt": "Which sentence means “Situs sekolah memberikan jadwal baru.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Situs sekolah memberikan jadwal baru.”?",
+      "prompt": "Which action is safest when an unexpected message asks for your password?",
+      "translation": "Tindakan mana yang paling aman ketika pesan yang tidak diharapkan meminta kata sandimu?",
       "choices": [
-        "The message has no date.",
-        "The school website gives the new schedule.",
-        "Check the original announcement."
+        "Reply and ask the sender to explain.",
+        "Open the link to check the message.",
+        "Use a known official website and ask a trusted adult if unsure."
       ],
-      "answer": 1,
+      "answer": 2,
       "translationChoices": [
-        "Pesan itu tidak mencantumkan tanggal.",
-        "Situs sekolah memberikan jadwal baru.",
-        "Periksa pengumuman aslinya."
+        "Balas dan minta pengirim menjelaskan.",
+        "Buka tautan untuk memeriksa pesan.",
+        "Gunakan situs resmi yang sudah dikenal dan tanyakan kepada orang dewasa tepercaya jika ragu."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Sumber resmi lebih tepat untuk aturan sekolah.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan ketiga tidak menggunakan tautan dari pesan yang belum terverifikasi. Siswa memeriksa melalui alamat resmi yang sudah dikenal dan dapat meminta bantuan jika belum yakin.",
+      "hint": "Pilih tindakan yang tidak membagikan kata sandi dan tidak bergantung pada tautan yang dikirim oleh pengirim tersebut."
     },
     {
       "type": "breakdown",
-      "sentence": "The message has no date.",
+      "sentence": "A school logo alone does not prove that the message is genuine.",
       "parts": [
         {
-          "english": "The",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "A school logo alone",
+          "meaning": "Sebuah logo sekolah saja"
         },
         {
-          "english": "message has no date.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Pesan itu tidak mencantumkan tanggal."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Many people shared the claim.",
-          "indonesian": "Banyak orang membagikan klaim itu.",
-          "note": "Kepopuleran belum membuktikan kebenaran."
+          "english": "does not prove",
+          "meaning": "tidak membuktikan"
         },
         {
-          "english": "The school confirmed the change.",
-          "indonesian": "Pihak sekolah mengonfirmasi perubahan itu.",
-          "note": "Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
-        },
-        {
-          "english": "A message may look official even when its sender cannot be verified.",
-          "indonesian": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
-          "note": "Tampilan resmi tidak sama dengan bukti identitas sumber."
-        },
-        {
-          "english": "Before sharing the image, check whether an older photograph is being presented as new.",
-          "indonesian": "Sebelum membagikan gambar itu, periksa apakah foto lama disajikan seolah-olah baru.",
-          "note": "Tanggal dan konteks foto dapat mengubah makna sebuah unggahan."
-        },
-        {
-          "english": "The post contains no date, so we should check when the event actually happened.",
-          "indonesian": "Unggahan itu tidak mencantumkan tanggal, sehingga kita perlu memeriksa kapan peristiwa itu sebenarnya terjadi.",
-          "note": "Tanggal merupakan salah satu unsur pemeriksaan konteks sebelum membagikan berita."
+          "english": "that the message is genuine.",
+          "meaning": "bahwa pesan tersebut asli."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Kepopuleran belum membuktikan kebenaran. Konfirmasi sumber yang berwenang merupakan bukti lebih kuat."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Although the screenshot looked official, it did not include the school’s address or publication date.",
-          "indonesian": "Meskipun tangkapan layar tampak resmi, tidak ada alamat sekolah atau tanggal terbit.",
-          "note": "Kontras ini menunjukkan alasan penting untuk memeriksa detail."
-        },
-        {
-          "english": "Before forwarding the message, Dira checked the notice on the school’s actual website.",
-          "indonesian": "Sebelum meneruskan pesan, Dira memeriksa pengumuman di situs sekolah yang sebenarnya.",
-          "note": "Tindakan ini memeriksa sumber sebelum menyebarkan informasi."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "prompt": "Why should a student report a suspicious message instead of forwarding it to classmates?",
+      "translation": "Mengapa siswa sebaiknya melaporkan pesan mencurigakan daripada meneruskannya kepada teman sekelas?",
+      "answer": "Pelaporan membantu pihak yang tepat memeriksa pesan tersebut. Meneruskannya dapat membuat lebih banyak siswa menerima tautan atau permintaan informasi yang belum diverifikasi."
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Saat menghadapi pesan yang tidak biasa, siswa tidak harus memastikan sendiri apakah pesan itu berbahaya. Langkah yang lebih aman adalah tidak mengikuti permintaan di dalamnya, menyimpan bukti seperlunya sesuai arahan sekolah, lalu meminta bantuan melalui saluran yang benar."
     },
     {
       "type": "example",
-      "text": "An image circulated in a class chat claiming that Monday’s examination had been cancelled. The image used the school logo but included no date and no link to an original notice. Several students immediately shared it. Dira checked the school’s official website and found a notice saying that the examination would begin one hour later, not that it was cancelled. She sent the official link to her classmates and reminded them to check dates and sources before forwarding urgent messages.",
-      "note": "Ringkasan bantuan: Bagaimana siswa memeriksa pesan ujian yang menyesatkan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "text": "During lunch, Maya receives a message that appears to come from the school office. It says that a new timetable is ready and asks her to open an unfamiliar link. The message also asks her to enter her school password. Maya does not use the link. She opens the school website from her saved bookmark and checks the notice board. There is no new timetable. She shows the message to her teacher, who reports it through the school’s usual IT channel. Maya does not forward the message to her class group.",
+      "note": "Terjemahan: Saat istirahat makan siang, Maya menerima pesan yang tampaknya berasal dari kantor sekolah. Pesan itu menyatakan bahwa jadwal baru telah tersedia dan memintanya membuka tautan yang tidak dikenal serta memasukkan kata sandi sekolah. Maya tidak memakai tautan tersebut. Ia membuka situs sekolah melalui penanda halaman yang telah disimpan dan memeriksa papan pengumuman. Tidak ada jadwal baru. Ia menunjukkan pesan itu kepada gurunya, yang melaporkannya melalui saluran teknologi informasi sekolah. Maya tidak meneruskan pesan tersebut ke grup kelas. Contoh ini memperlihatkan pemeriksaan melalui saluran yang sudah dikenal."
     },
     {
       "type": "summary",
-      "title": "Yang perlu kamu ingat",
+      "title": "Hal penting yang perlu diingat",
       "items": [
-        "Membedakan klaim, sumber, dan bukti dalam pesan daring.",
-        "Saat membaca [[online claim]], periksa [[source]], [[date]], dan [[evidence]]. Banyak pengulangan pesan tidak sama dengan bukti yang kuat.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Lindungi kata sandi, kode masuk, alamat rumah, nomor telepon, dan rincian pribadi lainnya.",
+        "Perhatikan desakan waktu, pengirim yang tidak dikenal, tautan singkat, serta permintaan data yang tidak diperlukan.",
+        "Jangan membalas, membuka tautan, mengunduh berkas, atau meneruskan pesan yang mencurigakan.",
+        "Periksa melalui saluran resmi yang sudah dikenal, lalu minta bantuan atau laporkan jika masih ragu."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apa sumbernya, kapan ditulis, dan bukti apa yang diberikan?",
-      "model": "A message may look official even when its sender cannot be verified.",
-      "modelTranslation": "Pesan dapat terlihat resmi meskipun pengirimnya tidak dapat diverifikasi.",
-      "criteria": "Tampilan resmi tidak sama dengan bukti identitas sumber."
+      "title": "Tulis saran keselamatan digital",
+      "prompt": "Tulislah tiga atau empat kalimat bahasa Inggris untuk membantu teman yang menerima pesan tak dikenal dan diminta memasukkan kata sandi. Gunakan setidaknya satu ungkapan larangan dan satu ungkapan saran.",
+      "model": "Keep your password private. Do not open an unexpected link. Check the message through the official school website. Tell a trusted adult or report it if it still looks suspicious.",
+      "modelTranslation": "Jaga kata sandimu tetap rahasia. Jangan membuka tautan yang tidak diharapkan. Periksa pesan melalui situs resmi sekolah. Beri tahu orang dewasa tepercaya atau laporkan jika pesan itu masih tampak mencurigakan.",
+      "criteria": "Pastikan saranmu menyebutkan perlindungan kata sandi, pemeriksaan melalui saluran yang dikenal, dan bantuan atau pelaporan. Gunakan bentuk perintah atau ungkapan must not/should dengan tepat."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal Kosakata",
       "items": [
         {
-          "english": "claim",
-          "indonesian": "klaim"
+          "english": "personal information",
+          "indonesian": "informasi pribadi"
         },
         {
-          "english": "source",
-          "indonesian": "sumber"
+          "english": "password",
+          "indonesian": "kata sandi"
         },
         {
-          "english": "evidence",
-          "indonesian": "bukti"
+          "english": "one-time sign-in code",
+          "indonesian": "kode masuk sekali pakai"
+        },
+        {
+          "english": "suspicious",
+          "indonesian": "mencurigakan"
+        },
+        {
+          "english": "sender",
+          "indonesian": "pengirim"
         },
         {
           "english": "verify",
-          "indonesian": "memverifikasi"
+          "indonesian": "memverifikasi atau memastikan melalui pemeriksaan"
         },
         {
           "english": "forward",
           "indonesian": "meneruskan pesan"
+        },
+        {
+          "english": "trusted adult",
+          "indonesian": "orang dewasa tepercaya"
+        },
+        {
+          "english": "report",
+          "indonesian": "melaporkan"
+        },
+        {
+          "english": "privacy",
+          "indonesian": "privasi atau perlindungan informasi pribadi"
         }
       ]
     }
@@ -295,43 +312,39 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “message”?",
+      "prompt": "Which detail is personal information?",
       "choices": [
-        "The school website gives the new schedule.",
-        "Check the original announcement.",
-        "Many people shared the claim.",
-        "The message has no date."
+        "A public weather report",
+        "A home address",
+        "A public sports result"
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[message]] muncul dalam kalimat [[The message has no date.]]. Tanggal penting untuk mengetahui apakah informasi masih berlaku.",
+      "answer": 1,
+      "explanation": "Alamat rumah dapat menunjukkan lokasi seseorang sehingga perlu dilindungi dan tidak dipasang pada profil publik.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “message”?",
+        "prompt": "Rincian mana yang termasuk informasi pribadi?",
         "choices": [
-          "Situs sekolah memberikan jadwal baru.",
-          "Periksa pengumuman aslinya.",
-          "Banyak orang membagikan klaim itu.",
-          "Pesan itu tidak mencantumkan tanggal."
+          "Laporan cuaca untuk umum",
+          "Alamat rumah",
+          "Hasil pertandingan olahraga yang dipublikasikan"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “announcement”?",
+      "prompt": "What does “must not” express in a safety rule?",
       "choices": [
-        "Check the original announcement.",
-        "The message has no date.",
-        "The school website gives the new schedule.",
-        "Many people shared the claim."
+        "A strong prohibition",
+        "A past action",
+        "A possibility"
       ],
       "answer": 0,
-      "explanation": "Ungkapan [[announcement]] muncul dalam kalimat [[Check the original announcement.]]. Perintah ini mengajak pembaca mencari sumber pertama.",
+      "explanation": "“Must not” digunakan untuk menyatakan larangan tegas. Ungkapan ini berbeda dari “should” yang menyampaikan saran.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “announcement”?",
+        "prompt": "Apa yang dinyatakan oleh “must not” dalam aturan keselamatan?",
         "choices": [
-          "Periksa pengumuman aslinya.",
-          "Pesan itu tidak mencantumkan tanggal.",
-          "Situs sekolah memberikan jadwal baru.",
-          "Banyak orang membagikan klaim itu."
+          "Larangan tegas",
+          "Tindakan pada masa lalu",
+          "Kemungkinan"
         ]
       }
     }

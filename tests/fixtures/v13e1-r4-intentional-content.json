@@ -65,9 +65,11 @@
   "data/quizzes/advanced-grammar-check.json",
   "data/quizzes/grade11-online-identity-practice.json",
   "data/quizzes/grade12-adverbial-phrase-vs-clause-practice.json",
+  "data/quizzes/grade9-digital-safety-practice.json",
   "data/quizzes/grade9-place-reading-check.json",
   "data/quizzes/grade9-report-animals-practice.json",
   "data/quizzes/grade9-trip-recount-practice.json",
+  "data/quizzes/grade9-upcycling-procedure-practice.json",
   "data/quizzes/grammar-diagnostic.json",
   "data/quizzes/quiz-basic-questions-negatives.json",
   "data/quizzes/quiz-parts-of-speech.json",
@@ -78,6 +80,5 @@
   "data/quizzes/school-reading-practice.json",
   "data/quizzes/tka-mock-b.json",
   "data/quizzes/tka-mock-c.json",
-  "data/quizzes/utbk-mock-c.json",
-  "data/quizzes/grade9-upcycling-procedure-practice.json"
+  "data/quizzes/utbk-mock-c.json"
 ]
