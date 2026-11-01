@@ -1,0 +1,183 @@
+{
+  "id": "grade10-descriptive-practice",
+  "questionCount": 7,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "school-theatre",
+      "title": "The School Theatre",
+      "text": "The school theatre sits behind the main hall. Its dark red doors open into a short lobby with a ticket desk on the left and a display case on the right. Posters from past performances cover the pale walls, but each poster has a small label showing the year and title. A line of floor lights marks the route from the lobby to the seating area.\n\nInside, rows of dark seats face a low stage. Two narrow aisles divide the seats into three sections, making the exits easy to see. Above the stage, a black curtain hangs beneath a simple lighting frame. The air carries a faint smell of wood and fabric. When the room is empty, footsteps sound clear against the floor.\n\nBehind the stage, a smaller room contains costume rails, labelled boxes, and a long mirror. A folding screen separates the changing area from the storage shelves. Although the theatre is not large, its rooms have distinct purposes. The lobby welcomes visitors, the seating area focuses attention on the performance, and the room behind the stage supports preparation. Together, these details make the theatre feel practical, organised, and ready for an event.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What overall impression does the writer create of the school theatre?",
+      "choices": [
+        "It is an enormous building with many unrelated rooms.",
+        "It is an old place that visitors cannot enter.",
+        "It is a compact place whose areas are arranged for different purposes.",
+        "It is mainly used as a storage building."
+      ],
+      "answer": 2,
+      "explanation": "Penutup menjelaskan bahwa setiap area memiliki fungsi berbeda: lobi menyambut pengunjung, area tempat duduk mengarahkan perhatian pada pertunjukan, dan ruang belakang mendukung persiapan. Karena itu, kesan keseluruhannya adalah tempat yang tidak besar tetapi tertata sesuai fungsi.",
+      "translationId": {
+        "prompt": "Kesan keseluruhan apa yang dibangun penulis tentang gedung teater sekolah?",
+        "choices": [
+          "Bangunan sangat besar dengan banyak ruangan yang tidak saling berkaitan.",
+          "Tempat tua yang tidak dapat dimasuki pengunjung.",
+          "Tempat yang tidak terlalu besar dengan area-area yang diatur untuk fungsi berbeda.",
+          "Bangunan yang terutama digunakan sebagai tempat penyimpanan."
+        ]
+      },
+      "skill": "Overall impression",
+      "passageId": "school-theatre",
+      "evidence": "The lobby welcomes visitors, the seating area focuses attention on the performance, and the room behind the stage supports preparation. Together, these details make the theatre feel practical, organised, and ready for an event."
+    },
+    {
+      "id": "q2",
+      "prompt": "How does the description move through the theatre?",
+      "choices": [
+        "From the lobby to the seating area, then behind the stage.",
+        "From the stage to the street, then to the ticket desk.",
+        "From the storage shelves to the entrance, then outside.",
+        "From the seating area to the roof, then to the main hall."
+      ],
+      "answer": 0,
+      "explanation": "Paragraf pertama memperkenalkan lobi, paragraf kedua menggambarkan area tempat duduk dan panggung, lalu paragraf ketiga berpindah ke ruang di belakang panggung. Urutan ini mengikuti susunan ruang.",
+      "translationId": {
+        "prompt": "Bagaimana deskripsi bergerak melalui gedung teater?",
+        "choices": [
+          "Dari lobi ke area tempat duduk, lalu ke belakang panggung.",
+          "Dari panggung ke jalan, lalu ke meja tiket.",
+          "Dari rak penyimpanan ke pintu masuk, lalu ke luar.",
+          "Dari area tempat duduk ke atap, lalu ke aula utama."
+        ]
+      },
+      "skill": "Spatial organization",
+      "passageId": "school-theatre",
+      "evidence": "The lobby welcomes visitors, the seating area focuses attention on the performance, and the room behind the stage supports preparation."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which detail appeals directly to the sense of smell?",
+      "choices": [
+        "A line of floor lights marks the route from the lobby to the seating area.",
+        "The air carries a faint smell of wood and fabric.",
+        "Two narrow aisles divide the seats into three sections.",
+        "A black curtain hangs beneath a simple lighting frame."
+      ],
+      "answer": 1,
+      "explanation": "Frasa “a faint smell of wood and fabric” secara langsung menyebut aroma, sehingga berkaitan dengan indera penciuman. Pilihan lain merupakan rincian visual atau tata letak.",
+      "translationId": {
+        "prompt": "Rincian mana yang secara langsung melibatkan indera penciuman?",
+        "choices": [
+          "Deretan lampu lantai menandai jalur dari lobi ke area tempat duduk.",
+          "Udara membawa aroma samar kayu dan kain.",
+          "Dua lorong sempit membagi tempat duduk menjadi tiga bagian.",
+          "Tirai hitam tergantung di bawah rangka lampu sederhana."
+        ]
+      },
+      "skill": "Sensory detail",
+      "passageId": "school-theatre",
+      "evidence": "The air carries a faint smell of wood and fabric."
+    },
+    {
+      "id": "q4",
+      "prompt": "In “Its dark red doors open into a short lobby”, what does “Its” refer to?",
+      "choices": [
+        "The main hall",
+        "The ticket desk",
+        "The display case",
+        "The school theatre"
+      ],
+      "answer": 3,
+      "explanation": "Kalimat pertama menyebut gedung teater sekolah sebagai objek utama. Kata its merujuk pada gedung tersebut dan menjelaskan pintu miliknya.",
+      "translationId": {
+        "prompt": "Dalam kalimat “Its dark red doors open into a short lobby”, kata “Its” merujuk pada apa?",
+        "choices": [
+          "Aula utama",
+          "Meja tiket",
+          "Kotak pajangan",
+          "Gedung teater sekolah"
+        ]
+      },
+      "skill": "Reference",
+      "passageId": "school-theatre",
+      "evidence": "The school theatre sits behind the main hall. Its dark red doors open into a short lobby with a ticket desk on the left and a display case on the right."
+    },
+    {
+      "id": "q5",
+      "prompt": "What is the function of the line of floor lights?",
+      "choices": [
+        "It marks the route from the lobby to the seating area.",
+        "It separates the changing area from the storage shelves.",
+        "It displays the titles of past performances.",
+        "It provides light for the ticket desk outside."
+      ],
+      "answer": 0,
+      "explanation": "Fungsi lampu lantai dinyatakan langsung: lampu tersebut menandai jalur dari lobi menuju area tempat duduk.",
+      "translationId": {
+        "prompt": "Apa fungsi deretan lampu lantai?",
+        "choices": [
+          "Menandai jalur dari lobi ke area tempat duduk.",
+          "Memisahkan area berganti pakaian dari rak penyimpanan.",
+          "Menampilkan judul pertunjukan sebelumnya.",
+          "Memberikan penerangan untuk meja tiket di luar."
+        ]
+      },
+      "skill": "Supporting detail and function",
+      "passageId": "school-theatre",
+      "evidence": "A line of floor lights marks the route from the lobby to the seating area."
+    },
+    {
+      "id": "q6",
+      "prompt": "What can the reader infer from the sentence about footsteps when the room is empty?",
+      "choices": [
+        "The theatre is always full of visitors.",
+        "The room is quiet enough for small sounds to be noticed clearly.",
+        "The stage is covered with thick carpet.",
+        "The theatre has no doors or windows."
+      ],
+      "answer": 1,
+      "explanation": "Jika langkah kaki terdengar jelas saat ruangan kosong, pembaca dapat menyimpulkan bahwa suasananya cukup tenang sehingga bunyi kecil mudah terdengar. Teks tidak menyatakan bahwa teater selalu penuh atau memiliki karpet tebal.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan pembaca dari kalimat tentang bunyi langkah kaki ketika ruangan kosong?",
+        "choices": [
+          "Teater selalu dipenuhi pengunjung.",
+          "Ruangan cukup tenang sehingga bunyi kecil dapat terdengar dengan jelas.",
+          "Panggung ditutupi karpet tebal.",
+          "Teater tidak memiliki pintu atau jendela."
+        ]
+      },
+      "skill": "Inference from sensory detail",
+      "passageId": "school-theatre",
+      "evidence": "When the room is empty, footsteps sound clear against the floor."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which statement is the writer’s interpretation rather than a directly observable feature?",
+      "choices": [
+        "Two narrow aisles divide the seats into three sections.",
+        "A folding screen separates the changing area from the storage shelves.",
+        "The theatre feels practical, organised, and ready for an event.",
+        "A black curtain hangs beneath a simple lighting frame."
+      ],
+      "answer": 2,
+      "explanation": "Pilihan ketiga merangkum penilaian atau kesan penulis terhadap tempat. Pilihan lain menyebutkan benda atau susunan yang dapat diamati secara langsung di dalam deskripsi.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang merupakan penafsiran penulis, bukan ciri yang dapat diamati secara langsung?",
+        "choices": [
+          "Dua lorong sempit membagi tempat duduk menjadi tiga bagian.",
+          "Sekat lipat memisahkan area berganti pakaian dari rak penyimpanan.",
+          "Teater itu terasa praktis, tertata, dan siap untuk sebuah acara.",
+          "Tirai hitam tergantung di bawah rangka lampu sederhana."
+        ]
+      },
+      "skill": "Observation versus interpretation",
+      "passageId": "school-theatre",
+      "evidence": "Together, these details make the theatre feel practical, organised, and ready for an event."
+    }
+  ]
+}

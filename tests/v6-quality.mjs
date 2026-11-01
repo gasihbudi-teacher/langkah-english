@@ -16,7 +16,7 @@ const fingerprintInputs=[];
 for(const r of cat.resources){
  const d=JSON.parse(read(r.file));
  for(const q of r.type==='lesson'?d.practice:d.questions){
-   if(r.id==='grade9-reading'||r.id==='grade9-narrative'||r.id==='grade10-recount')continue; // Both Grade 9 reading lessons are intentionally re-authored in V13-E1 and have dedicated regression coverage.
+   if(r.id==='grade9-reading'||r.id==='grade9-narrative'||r.id==='grade10-recount'||r.id==='grade10-descriptive')continue; // Grade 9 reading and Grade 10 descriptive lessons are intentionally re-authored and have dedicated regression coverage.
    fingerprintInputs.push({resource:r.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(r.type!=='lesson')continue;
@@ -47,9 +47,9 @@ for(const r of cat.resources){
 }
 assert.ok(additions>=280);assert.equal(groupsCount,84);
 assert.ok(markedTerms>=300);
-assert.equal(fingerprintInputs.length,227);
+assert.equal(fingerprintInputs.length,224);
 const fingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintInputs)).digest('hex');
-assert.equal(fingerprint,'4481a50df35f780066e3582bd2fae8b95e0d46830bd9693f0d5e953ae455af3f','V5 questions or English answer positions changed');
+assert.equal(fingerprint,'cbe9aecfde3c8b6ab9be4b6465bdbedcf226ca13482a3e8bf26fb12e58f7d62e','V5 questions or English answer positions changed');
 assert.match(read('js/lesson.js'),/formatIdText\(q.explanation\)/,'Practice feedback must render safe highlighted terms');
 assert.match(read('css/style.css'),/\.english-term/);
 const core=read('js/core.js');
@@ -62,4 +62,4 @@ const escaped=formatIdText('Baca [[<img src=x onerror=alert(1)>]] & lanjut');
 assert.ok(escaped.includes('&lt;img')&&escaped.includes('&amp;')&&!escaped.includes('<img'));
 const rendered=blocks([{type:'example_group',title:'Contoh',collapsed:true,items:[{english:'She reads.',indonesian:'Dia membaca.',note:'[[She]] diikuti verb.'},{english:'He reads.',indonesian:'Dia membaca.',note:'Juga benar.'}]},{type:'summary',title:'Ringkasan',items:['[[verb]] benar','Pelajari ulang']}]);
 assert.match(rendered,/<details/);assert.match(rendered,/<summary/);assert.match(rendered,/lang="en"/);assert.match(rendered,/Dia membaca/);assert.match(rendered,/<aside/);
-console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 227 unaffected V5 baseline questions unchanged; renderer escapes HTML.`);
+console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 224 unaffected V5 baseline question records unchanged; renderer escapes HTML.`);

@@ -1758,38 +1758,97 @@
     },
     {
       "id": "grade10-descriptive",
-      "title": "Descriptive texts · Kelas 10",
-      "description": "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada descriptive text.",
+      "title": "Grade 10: Descriptive Text — Details, Space, and Atmosphere",
+      "description": "Analisis susunan ruang, detail inderawi, pilihan kata, dan cara rincian membentuk kesan dalam descriptive text.",
       "type": "lesson",
       "placements": [
         {
-          "pathway": "grammar"
-        },
-        {
           "pathway": "school",
           "grade": 10
+        },
+        {
+          "pathway": "grammar"
         },
         {
           "pathway": "tka",
           "section": "Materi pendukung V12"
         }
       ],
-      "difficulty": "Beginner",
+      "difficulty": "Intermediate",
       "grammarTopics": [],
       "readingSkills": [
-        "Main Idea"
+        "Text Organization",
+        "Supporting Details",
+        "Making Inferences",
+        "Author’s Tone and Attitude",
+        "Reference Questions",
+        "Vocabulary in Context"
       ],
       "tags": [
-        "school English",
-        "kelas 10"
+        "descriptive text",
+        "spatial organization",
+        "sensory details",
+        "atmosphere",
+        "text evidence",
+        "Grade 10"
       ],
-      "relatedLessons": [],
+      "relatedLessons": [
+        "grade10-descriptive-practice",
+        "grade9-reading",
+        "grade10-recount"
+      ],
       "file": "data/lessons/grade10-descriptive.json",
       "aiGenerated": true,
       "unofficial": true,
       "order": 225,
-      "estimatedMinutes": 25,
-      "prerequisites": []
+      "estimatedMinutes": 35,
+      "prerequisites": [
+        "grade9-reading"
+      ],
+      "curriculumAlignment": {
+        "grade": 10,
+        "phase": "E",
+        "genre": "Descriptive Text",
+        "theme": "community art studio",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris Fase E; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade10-descriptive-practice",
+      "title": "Grade 10 descriptive: details, space, and atmosphere",
+      "description": "Latihan mandiri untuk menganalisis susunan ruang, detail inderawi, rujukan kata, bukti pendukung, dan kesan penulis dalam teks deskriptif baru.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Text Organization",
+        "Supporting Details",
+        "Making Inferences",
+        "Author’s Tone and Attitude",
+        "Reference Questions"
+      ],
+      "tags": [
+        "descriptive text",
+        "spatial organization",
+        "sensory details",
+        "independent transfer",
+        "text evidence"
+      ],
+      "relatedLessons": [
+        "grade10-descriptive"
+      ],
+      "file": "data/quizzes/grade10-descriptive-practice.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic"
     },
     {
       "id": "advanced-grammar-check",

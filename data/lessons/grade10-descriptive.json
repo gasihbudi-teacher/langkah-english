@@ -1,258 +1,329 @@
 {
   "id": "grade10-descriptive",
   "objectives": [
-    "Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada [[descriptive text]].",
-    "Mengenali struktur yang tepat dari beberapa contoh.",
-    "Menerapkan konsep pada latihan mandiri."
+    "Menganalisis bagaimana detail yang dipilih penulis membentuk kesan keseluruhan dalam [[descriptive text]].",
+    "Menelusuri susunan ruang dan hubungan antarrincian untuk membangun gambaran tempat secara utuh.",
+    "Menghubungkan detail visual, bunyi, dan aroma dengan suasana yang disampaikan penulis.",
+    "Membedakan pengamatan yang dapat dibuktikan dari kesan atau simpulan yang perlu didukung rincian teks.",
+    "Menafsirkan rujukan kata dan pilihan kosakata untuk menjelaskan sudut pandang serta efek deskripsi."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Descriptive texts · Kelas 10?",
-      "text": "[[Descriptive text]] adalah teks yang membantu pembaca membayangkan ciri khusus seseorang, benda, atau tempat."
+      "title": "Membaca deskripsi melalui pilihan detail dan kesan",
+      "text": "Di kelas 9, kamu telah berlatih menemukan objek yang dibahas, mengenali ciri yang dinyatakan, dan menggunakan bukti bacaan. Sekarang, keterampilan itu dikembangkan. Dalam [[descriptive text]], penulis tidak sekadar menyebutkan banyak sifat. Penulis memilih detail, mengaturnya, dan menghubungkannya agar pembaca membentuk gambaran serta [[overall impression]] tertentu. Perhatikan juga [[spatial order]] yang digunakan penulis. Saat membaca, perhatikan bukan hanya apa yang dijelaskan, tetapi juga mengapa detail itu dipilih dan bagaimana detail tersebut bekerja bersama."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali ciri objek, sifat, detail inderawi, dan ide utama pada [[descriptive text]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Teks model berikut menggambarkan sebuah studio seni dari bagian luar hingga halaman belakang. Ikuti cara penulis berpindah dari satu area ke area lain. Setelah itu, periksa bagaimana detail yang terlihat, terdengar, dan tercium membangun kesan tentang tempat tersebut.",
+      "modelTitle": "Inside the Riverside Art Studio",
+      "modelEnglish": "The Riverside Art Studio occupies a low brick building at the end of a narrow lane. A deep blue door faces the river, and three tall windows look onto a row of rain trees. From the street, the building appears modest, but a small sign beside the door identifies it as a shared workspace for local artists.\n\nInside, the front room is bright and orderly. Pale walls reflect daylight from the windows, while a long wooden counter separates the entrance from the work area. On the counter, jars of brushes stand beside folded cloths and small labelled boxes. The faint smell of paint mixes with the scent of polished wood.\n\nAt the centre, four wide tables form two parallel rows. Each table holds paper, pencils, and unfinished prints. A narrow shelf runs along the left wall; finished pieces rest there, arranged by size rather than colour. Soft tapping comes from a back room, where someone is preparing a frame. The sound is easy to hear, but it does not make the front room feel noisy.\n\nBeyond the work area, a small courtyard opens towards the river. Two clay pots sit beside a metal bench, and a canvas canopy covers half the paving. Visitors can pause there before looking at the displays again. The studio feels active without being crowded: its tools are visible, its spaces have clear purposes, and its quiet sounds suggest that work is taking place throughout the building.",
+      "modelIndonesian": "Studio Seni Riverside menempati bangunan bata rendah di ujung gang sempit. Sebuah pintu biru tua menghadap ke sungai, dan tiga jendela tinggi menghadap deretan pohon trembesi. Dari jalan, bangunan itu tampak sederhana, tetapi sebuah papan kecil di samping pintu menunjukkan bahwa tempat itu merupakan ruang kerja bersama bagi seniman setempat.\n\nDi dalam, ruang depan tampak terang dan tertata. Dinding berwarna pucat memantulkan cahaya siang dari jendela, sementara meja konter kayu panjang memisahkan pintu masuk dari area kerja. Di atas konter, stoples berisi kuas berdiri di samping kain terlipat dan kotak-kotak kecil berlabel. Aroma cat yang samar bercampur dengan aroma kayu yang dipoles.\n\nDi bagian tengah, empat meja lebar membentuk dua baris sejajar. Setiap meja berisi kertas, pensil, dan cetakan yang belum selesai. Rak sempit membentang di sepanjang dinding kiri; karya yang sudah selesai diletakkan di sana dan disusun berdasarkan ukuran, bukan warna. Bunyi ketukan pelan terdengar dari ruang belakang, tempat seseorang sedang menyiapkan sebuah bingkai. Suara itu terdengar jelas, tetapi tidak membuat ruang depan terasa bising.\n\nDi balik area kerja, sebuah halaman kecil terbuka ke arah sungai. Dua pot tanah liat berada di samping bangku logam, dan sebuah kanopi kain kanvas menutupi separuh area paving. Pengunjung dapat beristirahat di sana sebelum kembali melihat pajangan. Studio itu terasa aktif tanpa menjadi sesak: peralatannya terlihat, setiap ruang memiliki fungsi yang jelas, dan suara-suara pelan menunjukkan bahwa kegiatan berlangsung di seluruh bangunan.",
+      "modelNote": "Teks bergerak dari tampilan bangunan di jalan menuju ruang depan, area kerja, lalu halaman kecil. Detail visual memberi bentuk dan posisi; aroma serta bunyi menghadirkan pengalaman inderawi. Kesan “active without being crowded” bukan fakta tunggal yang berdiri sendiri, melainkan simpulan yang didukung oleh susunan meja, alat yang terlihat, fungsi tiap ruang, dan bunyi kegiatan yang pelan.",
       "steps": [
         {
-          "title": "Subjek dan tujuan deskripsi",
-          "explanation": "Tanyakan tempat atau benda apa yang ingin dibayangkan pembaca.",
-          "english": "The classroom is spacious.",
-          "indonesian": "Ruang kelas itu luas.",
-          "why": "[[Spacious]] menyatakan kualitas ruang."
+          "phase": "Menentukan fokus deskripsi",
+          "title": "Temukan objek utama dan sudut pandang penulis",
+          "explanation": "Bedakan objek utama dari rincian yang hanya menjadi bagian darinya. Tanyakan: tempat atau benda apa yang sedang digambarkan, dan bagian mana yang paling banyak mendapat perhatian? Jangan menyamakan setiap kata benda dalam teks dengan objek utama.",
+          "english": "The Riverside Art Studio occupies a low brick building at the end of a narrow lane.",
+          "indonesian": "Studio Seni Riverside menempati bangunan bata rendah di ujung gang sempit.",
+          "why": "Kalimat ini menetapkan studio sebagai objek utama. Bangunan bata dan gang menjadi informasi lokasi serta tampilan luar yang membantu pembaca mulai membayangkan studio."
         },
         {
-          "title": "Identifikasi umum",
-          "explanation": "Temukan kalimat pembuka yang memperkenalkan objek sebelum membaca sifat rinci.",
-          "english": "The classroom is spacious.",
-          "indonesian": "Ruang kelas itu luas.",
-          "why": "[[Spacious]] menyatakan kualitas ruang."
+          "phase": "Mengikuti susunan ruang",
+          "title": "Telusuri perpindahan dari satu area ke area lain",
+          "explanation": "Deskripsi tempat sering mengikuti susunan ruang. Penulis dapat bergerak dari luar ke dalam, dari dekat pintu ke bagian tengah, atau dari satu sisi ke sisi lain. Penanda seperti [[inside]], [[at the centre]], [[along the left wall]], dan [[beyond]] membantu pembaca mengikuti arah tersebut.",
+          "english": "Beyond the work area, a small courtyard opens towards the river.",
+          "indonesian": "Di balik area kerja, sebuah halaman kecil terbuka ke arah sungai.",
+          "why": "Kata beyond menandai perpindahan ke area setelah ruang kerja. Pembaca dapat menempatkan halaman sebagai bagian yang lebih jauh dari pintu masuk.",
+          "check": "Setelah penulis menggambarkan area kerja di bagian tengah, area apa yang diperkenalkan berikutnya?",
+          "checkAnswer": "Penulis berpindah ke halaman kecil yang terbuka ke arah sungai. Penanda beyond the work area menunjukkan bahwa halaman berada setelah area kerja dalam susunan deskripsi."
         },
         {
-          "title": "Ciri yang tampak",
-          "explanation": "Periksa adjektiva ukuran, warna, bahan, atau bentuk yang menggambarkan objek.",
-          "english": "A wooden desk stands near the window.",
-          "indonesian": "Meja kayu berada di dekat jendela.",
-          "why": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
+          "phase": "Mengelompokkan detail konkret",
+          "title": "Periksa detail visual dan posisi yang saling melengkapi",
+          "explanation": "Detail yang tepat membantu pembaca membangun gambaran yang lebih jelas daripada kata sifat umum seperti nice atau beautiful. Perhatikan ukuran, warna, bahan, jumlah, dan posisi. Rincian tersebut sebaiknya saling melengkapi, bukan sekadar menumpuk tanpa hubungan.",
+          "english": "At the centre, four wide tables form two parallel rows.",
+          "indonesian": "Di bagian tengah, empat meja lebar membentuk dua baris sejajar.",
+          "why": "Jumlah, ukuran, dan susunan meja memberi gambaran yang dapat dibayangkan. Kalimat ini juga menjelaskan tata letak area kerja, bukan hanya menyebut bahwa ada meja."
         },
         {
-          "title": "Detail inderawi dan lokasi",
-          "explanation": "Baca keterangan bau, suara, dan posisi sebagai bagian dari gambaran, bukan fakta yang diada-adakan.",
-          "english": "The air smells fresh after rain.",
-          "indonesian": "Udara berbau segar setelah hujan.",
-          "why": "[[Smells]] menggambarkan kesan inderawi."
+          "phase": "Menafsirkan detail inderawi",
+          "title": "Hubungkan bunyi dan aroma dengan suasana",
+          "explanation": "Detail inderawi dapat membangun suasana, tetapi simpulan harus tetap sebanding dengan bukti. Aroma cat dan kayu memberi petunjuk tentang kegiatan di studio; bunyi ketukan pelan menunjukkan adanya pekerjaan di ruang lain. Jangan mengubah satu bunyi menjadi klaim bahwa seluruh tempat selalu ramai.",
+          "english": "The faint smell of paint mixes with the scent of polished wood.",
+          "indonesian": "Aroma cat yang samar bercampur dengan aroma kayu yang dipoles.",
+          "why": "Kata smell dan scent menunjukkan bahwa penulis menggunakan indera penciuman. Detail itu membantu pembaca membayangkan lingkungan kerja studio.",
+          "check": "Detail mana yang secara langsung menggunakan indera penciuman, bukan penglihatan atau pendengaran?",
+          "checkAnswer": "Aroma cat dan aroma kayu yang dipoles. Kedua rincian itu berkaitan dengan bau, sehingga termasuk detail penciuman."
         },
         {
-          "title": "Susun detail yang berkaitan",
-          "explanation": "Kelompokkan ciri luar, keadaan, dan suasana agar paragraf lebih mudah diikuti.",
-          "english": "The reading room faces a small pond, and sunlight enters through two glass doors.",
-          "indonesian": "Ruang baca menghadap kolam kecil, dan sinar matahari masuk melalui dua pintu kaca.",
-          "why": "Keterangan tempat dan detail visual membantu pembaca membayangkan ruangan."
+          "phase": "Menguji kesan dengan bukti",
+          "title": "Pisahkan pengamatan dari kesan penulis",
+          "explanation": "Pernyataan seperti jumlah meja atau letak rak dapat diperiksa langsung di dalam teks. Pernyataan seperti “active without being crowded” merupakan kesan yang dirangkum penulis. Kesan bukan berarti salah, tetapi pembaca perlu menemukan rincian yang mendukungnya.",
+          "english": "The studio feels active without being crowded.",
+          "indonesian": "Studio itu terasa aktif tanpa menjadi sesak.",
+          "why": "Kata feels menandai kesan. Pembaca dapat menguji kesan itu dengan rincian tentang meja kerja, alat yang terlihat, ruang yang memiliki fungsi, serta bunyi pelan dari ruang belakang.",
+          "check": "Apakah kalimat “The studio feels active without being crowded” merupakan pengamatan langsung atau kesan yang perlu didukung rincian?",
+          "checkAnswer": "Kalimat itu menyampaikan kesan penulis. Kesan tersebut didukung oleh detail tentang kegiatan yang berlangsung dan tata ruang yang tetap teratur."
         },
         {
-          "title": "Tulis deskripsi akurat",
-          "explanation": "Buat deskripsi singkat dan gunakan informasi yang dinyatakan atau bisa diamati, tanpa menambah klaim tanpa dasar.",
-          "english": "During the afternoon, the market becomes lively with colourful stalls and the smell of fresh bread.",
-          "indonesian": "Pada sore hari, pasar menjadi ramai dengan kios berwarna-warni dan aroma roti segar.",
-          "why": "[[Lively]], [[colourful]], dan [[smell]] menghadirkan suasana dengan beberapa indera."
+          "phase": "Menghubungkan pilihan kata dan makna",
+          "title": "Perhatikan rujukan kata dan ketepatan pilihan bahasa",
+          "explanation": "Kata ganti seperti [[it]], [[its]], dan [[there]] menghubungkan kalimat dengan informasi sebelumnya. Pilihan kata yang tepat juga membuat gambaran lebih terukur. Bandingkan keterangan umum dengan rincian spesifik, lalu jelaskan informasi tambahan yang diberikan rincian tersebut.",
+          "english": "Visitors can pause there before looking at the displays again.",
+          "indonesian": "Pengunjung dapat beristirahat di sana sebelum kembali melihat pajangan.",
+          "why": "Kata there merujuk pada halaman kecil yang baru saja disebutkan. Rujukan ini menghindari pengulangan kata courtyard dan menjaga hubungan antarkalimat."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "The new school library stands beside a small garden. Its windows are wide, and sunlight fills the reading room. Wooden tables are arranged near the shelves. The room smells fresh after the morning rain. Students can read quietly there.",
-      "modelIndonesian": "Perpustakaan sekolah yang baru berdiri di samping taman kecil. Jendelanya lebar, dan sinar matahari memenuhi ruang baca. Meja kayu tertata di dekat rak. Ruangan berbau segar setelah hujan pagi. Siswa dapat membaca dengan tenang di sana."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, penulis memperkenalkan objek lalu menambahkan detail yang relevan, seperti ukuran, letak, warna, atau suasana. Pembaca harus bisa membedakan ciri yang terlihat dari penilaian pribadi penulis."
-    },
-    {
-      "type": "rule",
-      "text": "[[Descriptive text]] memperkenalkan objek lalu menggambarkan ciri, lokasi, fungsi, atau kesannya; detail harus mendukung objek utama."
-    },
-    {
-      "type": "subheading",
-      "text": "Contoh bertahap"
-    },
-    {
-      "type": "example",
-      "text": "The reading room is small but bright. Two wide windows face the garden, and a long table stands near the door.",
-      "note": "Ide utama: gambaran [[reading]] [[room]]; detail: ukuran, jendela, meja."
-    },
-    {
-      "type": "example",
-      "text": "It feels peaceful in the morning.",
-      "note": "[[Feels]] [[peaceful]] adalah kesan penulis terhadap objek."
-    },
-    {
-      "type": "subheading",
-      "text": "Perhatikan kesalahan berikut"
-    },
-    {
-      "type": "mistake",
-      "incorrect": "The library have two window.",
-      "correct": "The library has two windows.",
-      "explanation": "Subjek tunggal library memakai [[has]] dan angka two diikuti plural windows."
-    },
-    {
-      "type": "text",
-      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+      "title": "Bagaimana detail membentuk gambaran utuh?",
+      "text": "Pembaca membangun gambaran dengan menggabungkan posisi, ciri fisik, [[sensory details]], dan hubungan antarkalimat. Rincian yang tepat menjadi [[text evidence]] untuk mendukung penafsiran. Kesan akhir perlu ditopang oleh beberapa rincian yang relevan. Jika teks menyebut tempat itu teratur, misalnya, carilah bukti tentang susunan benda, pembagian ruang, atau cara area digunakan."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Ikuti susunan ruang yang dipilih penulis"
     },
     {
-      "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "type": "table",
+      "headers": [
+        "Penanda dalam teks",
+        "Area yang diperkenalkan",
+        "Fungsi dalam deskripsi"
+      ],
+      "rows": [
+        [
+          "At the end of a narrow lane",
+          "Bagian luar bangunan",
+          "Menempatkan studio di lingkungan sekitarnya."
+        ],
+        [
+          "Inside",
+          "Ruang depan",
+          "Memindahkan perhatian pembaca dari luar ke bagian dalam."
+        ],
+        [
+          "At the centre",
+          "Area kerja",
+          "Menjelaskan susunan meja dan kegiatan utama."
+        ],
+        [
+          "Along the left wall",
+          "Sisi kiri ruang",
+          "Menambahkan lokasi rak secara lebih tepat."
+        ],
+        [
+          "Beyond the work area",
+          "Halaman belakang",
+          "Mengakhiri perpindahan ruang menuju area yang lebih jauh."
+        ]
+      ]
+    },
+    {
+      "type": "rule",
+      "text": "[[Descriptive text]] yang efektif memilih rincian yang relevan, menyusunnya dengan [[spatial order]] atau tema yang jelas, lalu menggunakan bukti tersebut untuk membangun kesan yang dapat dipertanggungjawabkan."
+    },
+    {
+      "type": "heading",
+      "text": "Bedakan detail, jenis informasi, dan kesan"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Rincian",
+        "Jenis informasi",
+        "Apa yang dapat disimpulkan"
+      ],
+      "rows": [
+        [
+          "Three tall windows look onto a row of rain trees.",
+          "Visual dan posisi",
+          "Pembaca dapat membayangkan tampilan luar dan arah jendela."
+        ],
+        [
+          "The faint smell of paint mixes with the scent of polished wood.",
+          "Penciuman",
+          "Tempat tersebut memiliki aroma yang berkaitan dengan ruang kerja."
+        ],
+        [
+          "Soft tapping comes from a back room.",
+          "Pendengaran",
+          "Ada kegiatan di ruang belakang; teks tidak menyatakan seluruh studio bising."
+        ],
+        [
+          "Four wide tables form two parallel rows.",
+          "Tata letak",
+          "Area kerja tersusun dalam dua baris yang jelas."
+        ],
+        [
+          "The studio feels active without being crowded.",
+          "Kesan penulis",
+          "Simpulan ini perlu dihubungkan dengan beberapa detail sebelumnya."
+        ]
+      ]
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The studio is the most famous art centre in the city.",
+      "correct": "The studio is a shared workspace for local artists.",
+      "explanation": "Teks menyebut fungsi studio sebagai ruang kerja bersama bagi seniman setempat. Tidak ada perbandingan dengan tempat lain atau bukti tentang tingkat ketenarannya, sehingga klaim “the most famous” tidak didukung."
+    },
+    {
+      "type": "subheading",
+      "text": "Contoh bertahap: dari rincian ke gambaran"
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "1 · Pilih detail yang dapat dibayangkan",
       "collapsed": false,
       "items": [
         {
-          "english": "The classroom is spacious.",
-          "indonesian": "Ruang kelas itu luas.",
-          "note": "[[Spacious]] menyatakan kualitas ruang."
+          "english": "Three framed prints hang above the wooden counter.",
+          "indonesian": "Tiga karya cetak berbingkai tergantung di atas konter kayu.",
+          "note": "Jumlah, jenis benda, dan posisinya membentuk [[precise details]] memberi gambaran yang lebih jelas daripada kata umum seperti things."
         },
         {
-          "english": "A wooden desk stands near the window.",
-          "indonesian": "Meja kayu berada di dekat jendela.",
-          "note": "[[Wooden]] menjelaskan bahan; [[near]] [[the]] [[window]] menunjukkan lokasi."
+          "english": "There are some things on the wall.",
+          "indonesian": "Ada beberapa benda di dinding.",
+          "note": "Kalimat ini terlalu umum. Pembaca belum mengetahui benda apa yang dimaksud atau bagaimana susunannya."
         },
         {
-          "english": "The air smells fresh after rain.",
-          "indonesian": "Udara berbau segar setelah hujan.",
-          "note": "[[Smells]] menggambarkan kesan inderawi."
+          "english": "A narrow shelf runs along the left wall.",
+          "indonesian": "Rak sempit membentang di sepanjang dinding kiri.",
+          "note": "Runs along dan left wall menunjukkan posisi rak secara spesifik."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade10-descriptive",
-      "prompt": "Which detail helps readers picture a room?",
-      "translation": "Rincian mana yang membantu pembaca membayangkan sebuah ruangan?",
+      "prompt": "Which detail best supports the impression that the studio is active but not crowded?",
+      "translation": "Rincian mana yang paling mendukung kesan bahwa studio itu aktif tetapi tidak sesak?",
       "choices": [
-        "We studied yesterday.",
-        "The teacher arrived early.",
-        "A wooden desk stands near the window."
+        "A deep blue door faces the river.",
+        "Soft tapping comes from a back room, but the front room does not feel noisy.",
+        "Three tall windows look onto a row of rain trees."
       ],
-      "answer": 2,
-      "explanation": "Keterangan benda dan letaknya membantu pembaca membayangkan ruangan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "answer": 1,
       "translationChoices": [
-        "Kami belajar kemarin.",
-        "Guru tiba lebih awal.",
-        "Sebuah meja kayu berdiri di dekat jendela."
-      ]
+        "Pintu biru tua menghadap ke sungai.",
+        "Bunyi ketukan pelan terdengar dari ruang belakang, tetapi ruang depan tidak terasa bising.",
+        "Tiga jendela tinggi menghadap deretan pohon trembesi."
+      ],
+      "explanation": "Pilihan kedua menunjukkan adanya kegiatan melalui bunyi ketukan, sekaligus menyatakan bahwa ruang depan tidak terasa bising. Kedua bagian itu bersama-sama mendukung kesan aktif tetapi tidak sesak.",
+      "hint": "Cari pilihan yang memberi bukti tentang kegiatan sekaligus tingkat kebisingan, bukan hanya warna atau posisi benda."
     },
     {
-      "type": "breakdown",
-      "sentence": "The classroom is spacious.",
-      "parts": [
+      "type": "example_group",
+      "title": "2 · Gunakan detail inderawi secara tepat",
+      "collapsed": false,
+      "items": [
         {
-          "english": "The classroom",
-          "meaning": "yang dijelaskan"
+          "english": "A quiet fan turns above the central path.",
+          "indonesian": "Kipas yang berputar pelan berada di atas jalur tengah.",
+          "note": "Kalimat ini memberi detail visual tentang kipas dan posisinya. Kata quiet juga memberi petunjuk tentang tingkat bunyi."
         },
         {
-          "english": "is spacious",
-          "meaning": "ciri fisik"
+          "english": "The room carries the faint scent of fresh paper.",
+          "indonesian": "Ruangan itu memiliki aroma samar kertas baru.",
+          "note": "Scent mengarahkan pembaca pada indera penciuman, bukan penglihatan."
+        },
+        {
+          "english": "A low humming sound comes from the ceiling fan.",
+          "indonesian": "Suara dengung rendah berasal dari kipas langit-langit.",
+          "note": "Sound dan humming menggambarkan bunyi yang dapat didengar. Detail ini tidak otomatis berarti ruangan bising."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "title": "3 · Dukung kesan dengan beberapa rincian",
       "collapsed": false,
       "items": [
         {
-          "english": "The old building has high ceilings.",
-          "indonesian": "Bangunan tua itu memiliki langit-langit tinggi.",
-          "note": "[[Old]] dan [[high]] membentuk gambaran fisik."
+          "english": "The tables are arranged in two rows, and each tool has a labelled place.",
+          "indonesian": "Meja-meja ditata dalam dua baris, dan setiap alat memiliki tempat berlabel.",
+          "note": "Dua rincian tersebut mendukung kesan bahwa area kerja tertata."
         },
         {
-          "english": "The new building has lower ceilings but brighter rooms.",
-          "indonesian": "Bangunan baru itu memiliki langit-langit lebih rendah tetapi ruangan lebih terang.",
-          "note": "[[But]] membandingkan ciri bangunan."
+          "english": "The courtyard is quiet, although visitors can still hear the river.",
+          "indonesian": "Halaman itu tenang, meskipun pengunjung masih dapat mendengar sungai.",
+          "note": "Although menghubungkan suasana tenang dengan bunyi yang tetap terdengar; keduanya tidak saling meniadakan."
         },
         {
-          "english": "Both buildings have wide entrances.",
-          "indonesian": "Kedua bangunan memiliki pintu masuk lebar.",
-          "note": "[[Both]] menunjukkan persamaan dua objek."
+          "english": "Its open path makes the display area easy to cross.",
+          "indonesian": "Jalur terbukanya membuat area pajangan mudah dilalui.",
+          "note": "Its merujuk pada tempat yang sedang dijelaskan. Rincian tentang jalur mendukung simpulan mengenai kemudahan bergerak."
         },
         {
-          "english": "The stadium has a wide entrance and a bright blue roof.",
-          "indonesian": "Stadion itu memiliki pintu masuk yang lebar dan atap biru terang.",
-          "note": "[[Wide entrance]] dan [[bright blue roof]] membantu pembaca membayangkan ciri fisik stadion."
+          "english": "Each display has a small label with its title and maker.",
+          "indonesian": "Setiap pajangan memiliki label kecil yang memuat judul dan pembuatnya.",
+          "note": "Detail ini menjelaskan informasi yang tersedia pada pajangan. It/its dapat menghubungkan keterangan dengan benda yang telah disebutkan tanpa mengulang nama benda."
+        }
+      ]
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Three framed prints hang above the wooden counter.",
+      "parts": [
+        {
+          "english": "Three framed prints",
+          "meaning": "Objek yang dijelaskan beserta jumlah dan cirinya."
         },
         {
-          "english": "The old library stands beside a small garden filled with jasmine.",
-          "indonesian": "Perpustakaan tua itu berdiri di samping taman kecil yang dipenuhi melati.",
-          "note": "Letak, usia bangunan, dan isi taman memperkaya gambaran tempat secara konkret."
+          "english": "hang",
+          "meaning": "Kata kerja yang menyatakan posisi benda."
+        },
+        {
+          "english": "above the wooden counter",
+          "meaning": "Keterangan ruang yang menunjukkan letak karya cetak."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "The reading room faces a small pond, and sunlight enters through two glass doors.",
-          "indonesian": "Ruang baca menghadap kolam kecil, dan sinar matahari masuk melalui dua pintu kaca.",
-          "note": "Keterangan tempat dan detail visual membantu pembaca membayangkan ruangan."
-        },
-        {
-          "english": "During the afternoon, the market becomes lively with colourful stalls and the smell of fresh bread.",
-          "indonesian": "Pada sore hari, pasar menjadi ramai dengan kios berwarna-warni dan aroma roti segar.",
-          "note": "[[Lively]], [[colourful]], dan [[smell]] menghadirkan suasana dengan beberapa indera."
-        }
-      ]
+      "prompt": "How does the movement from the street to the work area and then to the courtyard help you picture the studio?",
+      "translation": "Bagaimana perpindahan deskripsi dari jalan, ke area kerja, lalu ke halaman membantu kamu membayangkan studio?",
+      "answer": "Urutan itu memberi arah yang jelas bagi pembaca. Pembaca membayangkan tampilan luar terlebih dahulu, lalu melihat ruang dan benda di bagian dalam, kemudian memahami hubungan area kerja dengan halaman. Susunan ruang membuat rincian tidak terasa seperti daftar yang acak."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Deskripsi dapat memakai rincian penglihatan, suara, bau, dan lokasi.",
-        "Kata sifat dan frasa tempat membantu membangun gambaran.",
-        "Ide utama berbeda dari rincian tunggal seperti jumlah jendela."
+        "Deskripsi yang kuat memilih rincian khusus dan relevan, bukan hanya kata sifat umum.",
+        "Penanda ruang dan detail inderawi membantu pembaca mengikuti susunan tempat serta membayangkan suasananya.",
+        "Kesan penulis perlu didukung oleh beberapa rincian; jangan mengubahnya menjadi klaim yang lebih luas daripada bukti teks."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Detail apa yang membuat objek ini berbeda dari yang lain?",
-      "model": "The stadium has a wide entrance and a bright blue roof.",
-      "modelTranslation": "Stadion itu memiliki pintu masuk yang lebar dan atap biru terang.",
-      "criteria": "[[Wide entrance]] dan [[bright blue roof]] membantu pembaca membayangkan ciri fisik stadion."
+      "title": "Buat deskripsi dengan gambaran yang terarah",
+      "prompt": "Pilih tempat yang kamu kenal. Tulis empat atau lima kalimat bahasa Inggris. Perkenalkan tempat itu, susun setidaknya dua rincian mengikuti arah ruang atau bagian, tambahkan satu detail inderawi, lalu tutup dengan kesan yang didukung oleh rincianmu.",
+      "model": "The school workshop is behind the science room. A long workbench stands beside the left wall, and labelled boxes sit under the windows. The room smells faintly of wood. Its clear layout makes the workshop feel ready for practical work.",
+      "modelTranslation": "Bengkel sekolah berada di belakang ruang sains. Sebuah meja kerja panjang berdiri di samping dinding kiri, dan kotak-kotak berlabel berada di bawah jendela. Ruangan itu sedikit beraroma kayu. Tata letaknya yang jelas membuat bengkel terasa siap digunakan untuk kegiatan praktik.",
+      "criteria": "Tulisanmu perlu memiliki satu objek utama, rincian yang tersusun dengan hubungan ruang atau bagian, satu detail inderawi yang relevan, dan kesan akhir yang didukung oleh bukti dalam kalimatmu."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata",
+      "title": "Bekal Kosakata",
       "items": [
         {
-          "english": "bright",
-          "indonesian": "terang"
+          "english": "occupy",
+          "indonesian": "menempati"
         },
         {
-          "english": "wide",
-          "indonesian": "lebar"
+          "english": "modest",
+          "indonesian": "sederhana; tidak mencolok"
         },
         {
-          "english": "peaceful",
-          "indonesian": "tenang"
+          "english": "orderly",
+          "indonesian": "tertata; rapi"
         },
         {
-          "english": "smell",
-          "indonesian": "aroma"
+          "english": "faint",
+          "indonesian": "samar; tidak kuat"
         }
       ]
     }
@@ -260,61 +331,66 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What physical feature does the reading room have in the example?",
+      "prompt": "Which area is described after the central work area?",
       "choices": [
-        "two wide windows",
-        "two busy streets",
-        "a tall mountain"
+        "The front room",
+        "The small courtyard",
+        "The street outside"
       ],
-      "answer": 0,
-      "explanation": "Jendela dijelaskan langsung dalam bacaan.",
+      "answer": 1,
+      "explanation": "Setelah area kerja, teks menggunakan penanda “Beyond the work area” untuk memperkenalkan halaman kecil yang terbuka ke arah sungai.",
+      "skill": "Spatial organization",
       "translationId": {
-        "prompt": "Ciri fisik reading room di contoh adalah …",
+        "prompt": "Area apa yang dideskripsikan setelah area kerja di bagian tengah?",
         "choices": [
-          "dua jendela lebar",
-          "dua jalan ramai",
-          "gunung tinggi"
+          "Ruang depan",
+          "Halaman kecil",
+          "Jalan di luar"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What is the main purpose of a descriptive text?",
+      "prompt": "Which sentence uses a detail related to the sense of smell?",
       "choices": [
-        "to describe something",
-        "to explain cooking steps",
-        "to prove a physics formula"
+        "A deep blue door faces the river.",
+        "The faint smell of paint mixes with the scent of polished wood.",
+        "Four wide tables form two parallel rows."
       ],
-      "answer": 0,
-      "explanation": "[[Descriptive text]] memberikan gambaran rinci.",
+      "answer": 1,
+      "explanation": "Smell dan scent secara langsung menyebut aroma. Pilihan lain menggambarkan warna, arah, jumlah, dan susunan benda yang dapat dilihat.",
+      "skill": "Sensory detail",
       "translationId": {
-        "prompt": "Tujuan utama descriptive text adalah …",
+        "prompt": "Kalimat mana yang menggunakan detail yang berkaitan dengan indera penciuman?",
         "choices": [
-          "menggambarkan suatu objek",
-          "menjelaskan langkah memasak",
-          "membuktikan rumus fisika"
+          "Pintu biru tua menghadap ke sungai.",
+          "Aroma cat yang samar bercampur dengan aroma kayu yang dipoles.",
+          "Empat meja lebar membentuk dua baris sejajar."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "Which word is closest in meaning to “peaceful”?",
+      "prompt": "In “Visitors can pause there”, what does “there” refer to?",
       "choices": [
-        "calm",
-        "noisy",
-        "expensive"
+        "The work area",
+        "The front room",
+        "The small courtyard"
       ],
-      "answer": 0,
-      "explanation": "Peaceful menggambarkan suasana yang tenang.",
+      "answer": 2,
+      "explanation": "Kalimat sebelumnya menyebutkan halaman kecil yang terbuka ke arah sungai. Kata there merujuk pada halaman tersebut.",
+      "skill": "Reference",
       "translationId": {
-        "prompt": "“Peaceful” paling dekat dengan …",
+        "prompt": "Dalam kalimat “Visitors can pause there”, kata “there” merujuk pada apa?",
         "choices": [
-          "tenang",
-          "bising",
-          "mahal"
+          "Area kerja",
+          "Ruang depan",
+          "Halaman kecil"
         ]
       }
     }
   ],
-  "assessments": []
+  "assessments": [
+    "grade10-descriptive-practice"
+  ]
 }

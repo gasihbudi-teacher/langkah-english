@@ -15,7 +15,7 @@ for(const m of catalog.resources){
  const d=JSON.parse(read(m.file));
  const questions=m.type==='lesson'?d.practice:d.questions;
  for(const q of questions){
-  if(m.id==='grade9-reading'||m.id==='grade9-narrative'||m.id==='grade10-recount')continue; // Both Grade 9 reading lessons are intentionally re-authored in V13-E1 and have dedicated regression coverage.
+  if(m.id==='grade9-reading'||m.id==='grade9-narrative'||m.id==='grade10-recount'||m.id==='grade10-descriptive')continue; // Grade 9 reading and Grade 10 descriptive lessons are intentionally re-authored and have dedicated regression coverage.
   fingerprint.push({resource:m.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(m.type!=='lesson')continue;
@@ -52,8 +52,8 @@ for(const m of catalog.resources){
  checkpointCount++;answerItems+=check.translationChoices.length;
 }
 assert.equal(lessonCount,30);assert.equal(checkpointCount,28);assert.equal(answerItems,84);
-assert.equal(fingerprint.length,227);
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'4481a50df35f780066e3582bd2fae8b95e0d46830bd9693f0d5e953ae455af3f');
+assert.equal(fingerprint.length,224);
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'cbe9aecfde3c8b6ab9be4b6465bdbedcf226ca13482a3e8bf26fb12e58f7d62e');
 // Test renderer: V7 markup must escape input, keep terms in English and hide solutions until answered.
 const excerpt=read('js/core.js').split('// V6: explicit')[1];
 assert.ok(excerpt);
@@ -82,4 +82,4 @@ assert.match(lesson,/const guidedAnswers=new Map\(\)/);
 assert.match(lesson,/d\.blocks\.filter\(b=>b\.type==='definition'\)/);
 assert.match(lesson,/guidedAnswers\.set/);
 assert.match(lesson,/formatIdText\(q.explanation\)/);
-console.log(`PASS V7 historical baseline: ${lessonCount-2} unchanged V7 lesson guides retain their original formative checks/reflections; re-authored Grade 9 lessons are verified by dedicated V13-E1 regressions; 227 unaffected baseline questions unchanged.`);
+console.log(`PASS V7 historical baseline: 27 unchanged V7 lesson guides retain their original formative checks/reflections; the re-authored Grade 10 descriptive lesson passes the compatible structural checks; re-authored Grade 9 lessons use dedicated V13-E1 regressions; 224 unaffected baseline question records unchanged.`);

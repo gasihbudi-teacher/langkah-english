@@ -54,8 +54,15 @@ async def main():
    if lesson_id=='grade9-reading':
     assert await page.locator('#belajar-langkah-2 .scaffold-review').count()==0
     await page.screenshot(path='/mnt/data/langkah-r3-grade9-mobile.png',full_page=False)
-   if lesson_id in ['grade10-descriptive','grade12-critical-reading','utbk-critical-inference']:
+   if lesson_id in ['grade12-critical-reading','utbk-critical-inference']:
     assert await checks.count()==0,(lesson_id,'Explanation-only pilot should not show an answer disclosure')
+   if lesson_id=='grade10-descriptive':
+    assert await checks.count()==3,(lesson_id,'Three authored descriptive-text checks should be rendered')
+    model_translation=page.locator('.scaffold-model .lesson-translation')
+    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert white_space=='pre-line',('Grade 10 descriptive Indonesian translation must preserve paragraph breaks',white_space)
+    rendered_translation=await model_translation.inner_text()
+    assert rendered_translation.count('\n')>=3,('Descriptive translation paragraph breaks are not visible',repr(rendered_translation))
    if lesson_id=='sentence-structure':
     assert await checks.count()==1,(lesson_id,'Only the purposeful object-contrast check should remain')
     assert 'direct object' in (await page.locator('.scaffold-review').inner_text()).lower()
@@ -82,6 +89,21 @@ async def main():
   assert quiz_overflow==0,quiz_overflow
   assert not errors,errors
   results.append({'lesson':'grade10-recount-practice','visible_questions':7,'indonesian_question_support':await page.locator('.translation-detail').count(),'overflow_px':quiz_overflow,'errors':errors})
+  await page.close()
+  # Grade 10 descriptive independent transfer: a new text and seven evidence-based questions.
+  page=await browser.new_page(viewport={'width':390,'height':844})
+  errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+  await setup(page,'quiz.html','quiz.js','?id=grade10-descriptive-practice')
+  assert 'Grade 10 descriptive' in (await page.locator('#content h1').inner_text())
+  await page.locator('#practice').click()
+  await page.locator('#question-title').wait_for()
+  assert 'The School Theatre' in (await page.locator('#passage').inner_text())
+  assert await page.locator('#numbers button').count()==7
+  assert await page.locator('.translation-detail').count()>=1
+  descriptive_overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
+  assert descriptive_overflow==0,descriptive_overflow
+  assert not errors,errors
+  results.append({'lesson':'grade10-descriptive-practice','visible_questions':7,'indonesian_question_support':await page.locator('.translation-detail').count(),'overflow_px':descriptive_overflow,'errors':errors})
   await page.close()
   await browser.close()
  print(json.dumps({'status':'PASS','pages':results},ensure_ascii=False,indent=2))
