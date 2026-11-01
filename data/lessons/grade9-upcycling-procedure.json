@@ -1,286 +1,291 @@
 {
   "id": "grade9-upcycling-procedure",
   "objectives": [
-    "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi tujuan, alat, dan bahan yang disebutkan dalam procedure text.",
+    "Mengenali kata kerja perintah dan objek tindakan dalam instruksi bahasa Inggris.",
+    "Mengikuti urutan langkah melalui penanda seperti [[first]], [[next]], [[then]], dan [[finally]].",
+    "Memahami hubungan prasyarat, kondisi, dan peringatan keselamatan dalam instruksi.",
+    "Menyusun kembali inti prosedur tanpa membalik urutan atau menambahkan langkah yang tidak disebutkan."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Procedure Text: Upcycling Materials?",
-      "text": "[[Upcycling procedure]] adalah petunjuk mengolah barang bekas menjadi benda baru yang lebih berguna."
+      "title": "Memahami procedure text melalui kegiatan upcycling",
+      "text": "[[Procedure text]] menjelaskan cara mencapai suatu hasil melalui instruksi yang dapat diikuti. Dalam contoh [[upcycling]], bahan bekas diubah menjadi benda yang masih berguna. Pembaca perlu menemukan [[goal]] atau tujuan, mengenali [[materials]] dan alat yang diperlukan, lalu mengikuti [[steps]] sesuai urutan. Instruksi yang baik juga dapat memuat syarat, peringatan, atau pemeriksaan agar langkah dilakukan dengan aman."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Ikuti cara membuat tempat alat tulis dari kardus bekas",
+      "intro": "Bacaan berikut merupakan contoh orisinal. Baca seluruh petunjuk, lalu perhatikan bagaimana tujuan, perlengkapan, kata kerja perintah, urutan, dan syarat keselamatan saling mendukung.",
+      "modelTitle": "Make a Desk Organiser from a Cardboard Box",
+      "modelEnglish": "Make a desk organiser from a clean, dry cardboard box. You need a small box, one piece of spare cardboard, a ruler, a pencil, glue, blunt scissors, and some used paper for decoration. First, remove the tape and check that the box has no staples or sharp edges. Next, measure the inside width and height of the box. Mark a divider on the spare cardboard, then cut it to fit. Ask an adult to help if the cardboard is too thick for the scissors. Place the divider inside the box. If it is too tall, trim it a little. Add a thin line of glue along the bottom edge and press the divider into place. If you want to decorate it, use a little glue to cover the outside with used paper. Leave the organiser to dry completely before putting pencils inside. Finally, place it on a dry desk.",
+      "modelIndonesian": "Buatlah tempat alat tulis dari kotak kardus yang bersih dan kering. Kamu memerlukan sebuah kotak kecil, selembar kardus sisa, penggaris, pensil, lem, gunting berujung tumpul, dan kertas bekas untuk hiasan. Pertama, lepaskan selotip dan pastikan tidak ada staples atau bagian tajam pada kotak. Selanjutnya, ukur lebar dan tinggi bagian dalam kotak. Tandai bentuk sekat pada kardus sisa, lalu potong hingga ukurannya sesuai. Mintalah bantuan orang dewasa jika kardus terlalu tebal untuk digunting. Letakkan sekat di dalam kotak. Jika sekat terlalu tinggi, potong sedikit. Oleskan sedikit lem pada sisi bawah sekat dan tekan hingga terpasang. Jika ingin menghiasnya, gunakan sedikit lem untuk menutupi bagian luar dengan kertas bekas. Biarkan tempat alat tulis benar-benar kering sebelum memasukkan pensil. Terakhir, letakkan di atas meja yang kering.",
+      "modelNote": "Kalimat pembuka menyebutkan benda yang akan dibuat. Kalimat berikutnya mencantumkan perlengkapan. Bagian tengah menjelaskan tindakan secara berurutan, termasuk pemeriksaan dan kondisi keselamatan. Bagian akhir memastikan lem mengering sebelum tempat alat tulis digunakan.",
       "steps": [
         {
-          "title": "Tujuan prosedur",
-          "explanation": "Prosedur memberi petunjuk untuk menghasilkan suatu benda; cari hasil akhirnya lebih dulu.",
-          "english": "Wash the empty jar.",
-          "indonesian": "Cuci stoples kosong itu.",
-          "why": "Kata kerja di awal kalimat adalah perintah."
+          "title": "Temukan hasil yang ingin dibuat",
+          "explanation": "Tujuan biasanya muncul pada judul atau kalimat pembuka. Tujuan memberi tahu pembaca hasil akhir yang akan dibuat, bukan menjelaskan semua tindakan sekaligus.",
+          "english": "Make a desk organiser from a clean, dry cardboard box.",
+          "indonesian": "Buatlah tempat alat tulis dari kotak kardus yang bersih dan kering.",
+          "why": "Kata kerja “Make” langsung mengarahkan pembaca pada hasil yang dituju, yaitu sebuah desk organiser. Frasa “from a clean, dry cardboard box” menyebut bahan utama."
         },
         {
-          "title": "Periksa hasil yang diinginkan",
-          "explanation": "Bayangkan bentuk produk yang akan dibuat agar setiap langkah punya tujuan jelas.",
-          "english": "Dry it with a clean cloth.",
-          "indonesian": "Keringkan dengan kain bersih.",
-          "why": "Kata “it” merujuk pada stoples."
+          "title": "Pisahkan perlengkapan dari langkah kerja",
+          "explanation": "Kalimat yang diawali “You need...” biasanya memperkenalkan alat dan bahan. Kalimat itu belum menyuruh pembaca melakukan suatu tindakan; kalimat tersebut memberi tahu apa yang perlu disiapkan.",
+          "english": "You need a small box, one piece of spare cardboard, a ruler, a pencil, glue, blunt scissors, and some used paper for decoration.",
+          "indonesian": "Kamu memerlukan sebuah kotak kecil, selembar kardus sisa, penggaris, pensil, lem, gunting berujung tumpul, dan kertas bekas untuk hiasan.",
+          "why": "Daftar tersebut memuat bahan yang akan digunakan dan alat untuk mengukur atau memotong. Pembaca dapat menyiapkannya sebelum mulai mengikuti langkah."
         },
         {
-          "title": "Bahan dan alat",
-          "explanation": "Bedakan benda yang diperlukan dari tindakan yang perlu dilakukan.",
-          "english": "Put small pencils inside.",
-          "indonesian": "Masukkan pensil kecil ke dalamnya.",
-          "why": "Tahap terakhir menunjukkan fungsi benda baru."
+          "title": "Kenali kata kerja perintah dan objeknya",
+          "explanation": "Instruksi sering dimulai dengan kata kerja bentuk dasar, misalnya “remove”, “check”, “measure”, atau “place”. Kata kerja menunjukkan tindakan; kata atau frasa setelahnya dapat menyebut benda yang dikenai tindakan.",
+          "english": "Remove the tape and check that the box has no staples or sharp edges.",
+          "indonesian": "Lepaskan selotip dan pastikan tidak ada staples atau bagian tajam pada kotak.",
+          "why": "“Remove” dan “check” merupakan kata kerja perintah. Objek “the tape” menjelaskan apa yang dilepaskan, sedangkan klausa setelah “check” menjelaskan hal yang harus diperiksa."
         },
         {
-          "title": "Kata kerja perintah",
-          "explanation": "[[Cut]], [[fold]], dan [[attach]] menyuruh pembaca melakukan sesuatu; kenali objek tindakannya.",
-          "english": "You need a clean jar.",
-          "indonesian": "Kamu memerlukan stoples bersih.",
-          "why": "Ini bahan yang diperlukan."
+          "title": "Ikuti penanda urutan",
+          "explanation": "Penanda seperti “first”, “next”, “then”, dan “finally” membantu pembaca mengikuti tahap kerja. Urutan harus dibaca bersama isi tindakannya, bukan hanya berdasarkan kata penghubung.",
+          "english": "First, remove the tape. Next, measure the inside width and height. Then, mark the divider on the spare cardboard.",
+          "indonesian": "Pertama, lepaskan selotip. Selanjutnya, ukur lebar dan tinggi bagian dalam kotak. Kemudian, tandai sekat pada kardus sisa.",
+          "why": "Ketiga penanda menempatkan tindakan dari tahap awal menuju tahap berikutnya. Mengukur kotak sebelum menandai sekat membantu pembaca menentukan ukuran yang sesuai."
         },
         {
-          "title": "Satu petunjuk sekali jalan",
-          "explanation": "Pahami apa yang harus dilakukan pada langkah pertama sebelum meneruskan langkah kedua.",
-          "english": "Decorate the jar with paper.",
-          "indonesian": "Hias stoples dengan kertas.",
-          "why": "Ini tindakan yang dilakukan."
+          "title": "Pahami ukuran dan kecocokan hasil",
+          "explanation": "Keterangan ukuran atau bentuk memberi batas yang perlu diperhatikan. Setelah suatu bagian dipotong, pembaca perlu memastikan bagian tersebut sesuai dengan tempatnya sebelum memasangnya.",
+          "english": "The divider should fit inside the box without bending.",
+          "indonesian": "Sekat seharusnya pas di dalam kotak tanpa tertekuk.",
+          "why": "Kalimat ini menggambarkan ukuran yang diharapkan. Memeriksa kecocokan sebelum memasang lem membantu mencegah sekat yang terlalu lebar atau terlalu tinggi."
         },
         {
-          "title": "Urutan dan ketergantungan",
-          "explanation": "Tentukan langkah yang harus selesai lebih dahulu agar langkah berikutnya bisa dilakukan.",
-          "english": "After the glue has dried, decorate the outside of the container.",
-          "indonesian": "Setelah lem mengering, hias bagian luar wadah tersebut.",
-          "why": "Langkah kedua bergantung pada kondisi di langkah sebelumnya, bukan sekadar pilihan urutan."
+          "title": "Baca kondisi yang mengubah tindakan",
+          "explanation": "Kata “if” memperkenalkan kondisi. Tindakan setelahnya berlaku ketika kondisi tersebut terjadi; pembaca tidak boleh mengabaikan syarat itu atau menganggapnya sebagai urutan waktu biasa.",
+          "english": "If it is too tall, trim it a little.",
+          "indonesian": "Jika sekat terlalu tinggi, potong sedikit.",
+          "why": "Kata “if” menyatakan syarat: sekat perlu dipotong sedikit hanya apabila tingginya melebihi ukuran kotak. Kedua kata “it” merujuk pada sekat."
         },
         {
-          "title": "Keselamatan",
-          "explanation": "Temukan petunjuk penggunaan benda tajam, lem, atau bahan tertentu sesuai tingkat risiko.",
-          "english": "Finally, test the holder with a light object before adding anything heavier.",
-          "indonesian": "Terakhir, uji tempat tersebut dengan benda ringan sebelum menambah benda yang lebih berat.",
-          "why": "[[Finally]] menunjukkan tahap terakhir; pengujian ringan berkaitan dengan keamanan hasil kerja."
+          "title": "Perhatikan peringatan keselamatan",
+          "explanation": "Peringatan memberi tahu pembaca kapan perlu meminta bantuan atau menghindari suatu tindakan. Petunjuk keselamatan merupakan bagian penting dari prosedur, bukan hiasan yang boleh dilewati.",
+          "english": "Ask an adult to help if the cardboard is too thick for the scissors.",
+          "indonesian": "Mintalah bantuan orang dewasa jika kardus terlalu tebal untuk digunting.",
+          "why": "Instruksi ini membatasi tindakan memotong ketika kardus terlalu tebal. Bantuan orang dewasa diperlukan agar pembaca tidak memaksakan gunting."
         },
         {
-          "title": "Jika langkah terlewat",
-          "explanation": "Prediksi dampak konkret dari melewatkan atau menukar urutan tindakan penting.",
-          "english": "Before attaching paper, make sure the outside of the jar is completely dry.",
-          "indonesian": "Sebelum menempelkan kertas, pastikan bagian luar stoples benar-benar kering.",
-          "why": "“Before” menunjukkan prasyarat untuk tindakan berikutnya."
+          "title": "Kenali langkah yang menjadi prasyarat",
+          "explanation": "Kata “before” menandai bahwa satu keadaan harus tercapai sebelum tindakan berikutnya dilakukan. Hubungan ini lebih penting daripada sekadar menghafal urutan kata.",
+          "english": "Leave the organiser to dry completely before putting pencils inside.",
+          "indonesian": "Biarkan tempat alat tulis benar-benar kering sebelum memasukkan pensil.",
+          "why": "Tempat alat tulis harus dibiarkan kering lebih dahulu. Memasukkan benda ketika lem belum mengering dapat mengganggu sekat yang sedang dipasang."
         },
         {
-          "title": "Coba jelaskan prosedur",
-          "explanation": "Urutkan kembali seluruh instruksi dan jelaskan mengapa hasil yang diharapkan dapat dicapai.",
-          "english": "If the jar has sharp edges, ask an adult to help before using it.",
-          "indonesian": "Jika stoples mempunyai tepi tajam, mintalah bantuan orang dewasa sebelum menggunakannya.",
-          "why": "Kalimat bersyarat ini memberikan peringatan keselamatan."
+          "title": "Periksa hasil akhir prosedur",
+          "explanation": "Langkah terakhir menunjukkan kapan pekerjaan selesai atau bagaimana hasil digunakan. Cocokkan hasil akhir dengan tujuan pada kalimat pembuka.",
+          "english": "Finally, place it on a dry desk.",
+          "indonesian": "Terakhir, letakkan di atas meja yang kering.",
+          "why": "“Finally” menandai tahap penutup. Kata “it” merujuk pada tempat alat tulis yang telah dibuat, sehingga hasil akhir sesuai dengan tujuan teks."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Make a pencil holder from a clean plastic bottle. First, wash the bottle and let it dry. Ask an adult to cut off the top safely. Next, cover the sharp edge with tape. Finally, decorate the holder and put your pencils inside.",
-      "modelIndonesian": "Buatlah tempat pensil dari botol plastik yang bersih. Pertama, cuci botol dan biarkan kering. Mintalah bantuan orang dewasa untuk memotong bagian atasnya dengan aman. Selanjutnya, tutupi tepi tajam dengan selotip. Terakhir, hias tempat pensil itu dan masukkan pensilmu."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, instruksi yang baik menyebut bahan, kata kerja perintah, urutan, dan peringatan keamanan. Jangan melompati langkah yang menjadi syarat keberhasilan langkah berikutnya."
+      "title": "Apa yang membuat instruksi dapat diikuti?",
+      "text": "Pembaca perlu menghubungkan tujuan dengan perlengkapan dan tindakan. Kata kerja perintah menunjukkan apa yang dilakukan, penanda urutan membantu menentukan kapan tindakan dilakukan, sedangkan kondisi dan peringatan menjelaskan kapan pembaca harus menyesuaikan langkah."
     },
     {
       "type": "text",
-      "text": "Teks prosedur membantu pembaca melakukan sesuatu. Kita belajar membedakan apa yang perlu disiapkan dan apa yang perlu dikerjakan."
+      "text": "Jangan menyamakan semua kalimat dalam procedure text. “You need...” memperkenalkan perlengkapan, sedangkan “Measure...” atau “Place...” memberi perintah. Kalimat dengan “if” dapat menetapkan kondisi, dan kalimat dengan “before” dapat menunjukkan prasyarat."
     },
     {
       "type": "rule",
-      "text": "[[Procedure text]] menyebut [[goal]], [[materials]], dan [[steps]]. Kata kerja perintah seperti [[wash]] dan [[cut]] menjelaskan tindakan; lakukan menurut urutan."
+      "text": "[[Goal]] menyebutkan hasil yang ingin dibuat. [[Materials]] atau tools menyebutkan perlengkapan. [[Imperative verbs]] seperti [[remove]], [[measure]], dan [[place]] menyatakan tindakan. Penanda [[first]], [[next]], dan [[finally]] membantu menjaga urutan; [[if]] dan [[before]] menjelaskan kondisi atau prasyarat."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Periksa urutan sebelum menganggap langkah sudah benar"
     },
     {
       "type": "mistake",
-      "incorrect": "Dry the jar before washing it.",
-      "correct": "Wash the jar before drying it.",
-      "explanation": "Urutan kerja yang benar dimulai dari mencuci lalu mengeringkan."
+      "incorrect": "Glue the divider in place. Measure and cut it to fit.",
+      "correct": "Measure and cut the divider to fit. Then glue it in place.",
+      "explanation": "Sekat perlu diukur dan dipotong agar sesuai sebelum direkatkan. Memasang lem lebih dahulu dapat membuat ukuran sulit diperbaiki."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh lain: lihat fungsi setiap kalimat"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Setiap contoh berikut memperlihatkan pekerjaan yang berbeda: mengenali tujuan, menyiapkan perlengkapan, membaca perintah, dan menafsirkan kondisi. Baca contoh bahasa Inggris bersama arti dan alasan penggunaannya."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Tujuan, perlengkapan, dan perintah",
       "collapsed": false,
       "items": [
         {
-          "english": "Wash the empty jar.",
-          "indonesian": "Cuci stoples kosong itu.",
-          "note": "Kata kerja di awal kalimat adalah perintah."
+          "english": "Make a tray from a clean cereal box.",
+          "indonesian": "Buatlah baki dari kotak sereal yang bersih.",
+          "note": "Kalimat ini menyatakan hasil yang ingin dibuat, sehingga berfungsi sebagai tujuan."
         },
         {
-          "english": "Dry it with a clean cloth.",
-          "indonesian": "Keringkan dengan kain bersih.",
-          "note": "Kata “it” merujuk pada stoples."
+          "english": "You need a ruler, glue, and scrap paper.",
+          "indonesian": "Kamu memerlukan penggaris, lem, dan kertas sisa.",
+          "note": "Kalimat ini menyebutkan perlengkapan yang harus disiapkan, bukan langkah tindakan."
         },
         {
-          "english": "Put small pencils inside.",
-          "indonesian": "Masukkan pensil kecil ke dalamnya.",
-          "note": "Tahap terakhir menunjukkan fungsi benda baru."
+          "english": "Fold the side panels inward.",
+          "indonesian": "Lipat panel sisi ke arah dalam.",
+          "note": "“Fold” merupakan kata kerja perintah; “the side panels” menyebut bagian yang dilipat."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade9-upcycling-procedure",
-      "prompt": "Which sentence means “Keringkan dengan kain bersih.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Keringkan dengan kain bersih.”?",
+      "prompt": "Which sentence lists the materials and tools?",
+      "translation": "Kalimat mana yang mencantumkan bahan dan alat?",
       "choices": [
-        "Wash the empty jar.",
-        "Dry it with a clean cloth.",
-        "Put small pencils inside."
+        "Place the divider inside the box.",
+        "You need a small box, spare cardboard, a ruler, a pencil, glue, blunt scissors, and used paper.",
+        "Finally, place it on a dry desk."
       ],
       "answer": 1,
       "translationChoices": [
-        "Cuci stoples kosong itu.",
-        "Keringkan dengan kain bersih.",
-        "Masukkan pensil kecil ke dalamnya."
+        "Letakkan sekat di dalam kotak.",
+        "Kamu memerlukan kotak kecil, kardus sisa, penggaris, pensil, lem, gunting berujung tumpul, dan kertas bekas.",
+        "Terakhir, letakkan di atas meja yang kering."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “it” merujuk pada stoples.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Kalimat kedua diawali “You need...” dan diikuti daftar benda yang harus disiapkan. Kalimat pertama dan ketiga merupakan instruksi tindakan.",
+      "hint": "Cari kalimat yang menyebutkan benda-benda yang diperlukan, bukan kalimat yang menyuruh pembaca melakukan sesuatu."
     },
     {
       "type": "breakdown",
-      "sentence": "Wash the empty jar.",
+      "sentence": "Place the divider inside the box.",
       "parts": [
         {
-          "english": "Wash",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Place",
+          "meaning": "Kata kerja perintah: letakkan."
         },
         {
-          "english": "the empty jar.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Cuci stoples kosong itu."
+          "english": "the divider",
+          "meaning": "Objek yang dikenai tindakan: sekat."
+        },
+        {
+          "english": "inside the box",
+          "meaning": "Keterangan tempat: di dalam kotak."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Bandingkan urutan, kondisi, dan keselamatan",
       "collapsed": false,
       "items": [
         {
-          "english": "You need a clean jar.",
-          "indonesian": "Kamu memerlukan stoples bersih.",
-          "note": "Ini bahan yang diperlukan."
+          "english": "Next, measure the inside width of the box.",
+          "indonesian": "Selanjutnya, ukur lebar bagian dalam kotak.",
+          "note": "“Next” menghubungkan tindakan ini dengan tahap sebelumnya."
         },
         {
-          "english": "Decorate the jar with paper.",
-          "indonesian": "Hias stoples dengan kertas.",
-          "note": "Ini tindakan yang dilakukan."
+          "english": "If it is too tall, trim it a little.",
+          "indonesian": "Jika sekat terlalu tinggi, potong sedikit.",
+          "note": "“If” menyatakan kondisi; “it” merujuk pada sekat yang sedang disesuaikan."
         },
         {
-          "english": "Cut the clean cardboard into four equal pieces.",
-          "indonesian": "Potong karton yang bersih menjadi empat bagian sama besar.",
-          "note": "[[Cut]] adalah perintah; kata [[clean]] dan [[equal]] menentukan bahan serta hasil yang dibutuhkan."
+          "english": "Leave the organiser to dry before putting pencils inside.",
+          "indonesian": "Biarkan tempat alat tulis mengering sebelum memasukkan pensil.",
+          "note": "“Before” menunjukkan bahwa pengeringan harus selesai lebih dahulu."
         },
         {
-          "english": "After the glue has dried, decorate the outside of the container.",
-          "indonesian": "Setelah lem mengering, hias bagian luar wadah tersebut.",
-          "note": "Langkah kedua bergantung pada kondisi di langkah sebelumnya, bukan sekadar pilihan urutan."
-        },
-        {
-          "english": "Finally, test the holder with a light object before adding anything heavier.",
-          "indonesian": "Terakhir, uji tempat tersebut dengan benda ringan sebelum menambah benda yang lebih berat.",
-          "note": "[[Finally]] menunjukkan tahap terakhir; pengujian ringan berkaitan dengan keamanan hasil kerja."
+          "english": "Ask an adult to help if the cardboard is too thick to cut safely.",
+          "indonesian": "Mintalah bantuan orang dewasa jika kardus terlalu tebal untuk dipotong dengan aman.",
+          "note": "Klausa dengan “if” memberi kondisi yang memicu peringatan keselamatan."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini bahan yang diperlukan. Ini tindakan yang dilakukan."
+      "prompt": "Why does the procedure ask the reader to check for staples or sharp edges before using the box?",
+      "translation": "Mengapa prosedur meminta pembaca memeriksa staples atau bagian tajam sebelum menggunakan kotak?",
+      "answer": "Pemeriksaan tersebut membantu memastikan wadah aman disentuh dan digunakan. Tujuannya bukan mengubah bentuk kotak, melainkan menghindari bagian yang dapat melukai pengguna."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "title": "Perhatikan rujukan dan hasil yang diharapkan",
       "collapsed": false,
       "items": [
         {
-          "english": "Before attaching paper, make sure the outside of the jar is completely dry.",
-          "indonesian": "Sebelum menempelkan kertas, pastikan bagian luar stoples benar-benar kering.",
-          "note": "“Before” menunjukkan prasyarat untuk tindakan berikutnya."
+          "english": "The divider should stand upright inside the box.",
+          "indonesian": "Sekat seharusnya berdiri tegak di dalam kotak.",
+          "note": "Kalimat ini menggambarkan keadaan yang diharapkan setelah ukuran sekat disesuaikan."
         },
         {
-          "english": "If the jar has sharp edges, ask an adult to help before using it.",
-          "indonesian": "Jika stoples mempunyai tepi tajam, mintalah bantuan orang dewasa sebelum menggunakannya.",
-          "note": "Kalimat bersyarat ini memberikan peringatan keselamatan."
+          "english": "Do not use a wet or damaged box.",
+          "indonesian": "Jangan gunakan kotak yang basah atau rusak.",
+          "note": "“Do not use” merupakan larangan atau peringatan dalam bentuk perintah negatif."
+        },
+        {
+          "english": "After the glue dries, put light stationery inside.",
+          "indonesian": "Setelah lem mengering, masukkan alat tulis yang ringan.",
+          "note": "“After” menempatkan penggunaan benda setelah lem mengering."
         }
       ]
-    },
-    {
-      "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
-    },
-    {
-      "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
-    },
-    {
-      "type": "example",
-      "text": "Make a pencil holder from an empty glass jar. You need one clean jar, a soft cloth, coloured paper, and glue. First, wash the jar and check that it has no sharp edges. Next, dry its outer surface with the cloth. Then attach the paper with a small amount of glue. Leave the holder to dry before placing pencils inside. If the glass is chipped, choose another container instead. The goal is to reuse a safe object rather than throw it away.",
-      "note": "Ringkasan bantuan: Menceritakan kisah menakutkan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Menemukan tujuan, alat/bahan, dan urutan instruksi dalam teks prosedur.",
-        "[[Procedure text]] menyebut [[goal]], [[materials]], dan [[steps]]. Kata kerja perintah seperti [[wash]] dan [[cut]] menjelaskan tindakan; lakukan menurut urutan.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Goal menyebutkan hasil yang ingin dibuat; materials dan tools menyebutkan perlengkapan yang perlu disiapkan.",
+        "Kata kerja perintah biasanya memakai bentuk dasar, misalnya remove, measure, fold, dan place.",
+        "First, next, then, dan finally membantu pembaca mengikuti urutan tindakan.",
+        "If memperkenalkan kondisi; before dan after menunjukkan hubungan waktu atau prasyarat.",
+        "Baca peringatan keselamatan dan periksa apakah hasil akhir sesuai dengan tujuan."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Perlengkapan dan urutan apa yang harus dipenuhi agar hasilnya aman?",
-      "model": "Cut the clean cardboard into four equal pieces.",
-      "modelTranslation": "Potong karton yang bersih menjadi empat bagian sama besar.",
-      "criteria": "[[Cut]] adalah perintah; kata [[clean]] dan [[equal]] menentukan bahan serta hasil yang dibutuhkan."
+      "title": "Tulis prosedur singkat untuk benda yang dapat digunakan kembali",
+      "prompt": "Pilih benda bersih yang aman untuk digunakan kembali, lalu tulis 5–6 kalimat bahasa Inggris tentang cara mengubahnya menjadi benda sederhana. Sebutkan tujuan dan perlengkapan, gunakan kata kerja perintah, susun langkah dengan penanda urutan, dan tambahkan satu syarat atau peringatan yang relevan. Jangan memasukkan langkah yang tidak diperlukan.",
+      "model": "Make a bookmark from a used greeting card. You need the card and blunt scissors. First, draw a long rectangle on the card. Next, cut it out with the scissors. Then, write a short title on one side. Finally, place the bookmark between the pages of a book.",
+      "modelTranslation": "Buatlah pembatas buku dari kartu ucapan bekas. Kamu memerlukan kartu tersebut dan gunting berujung tumpul. Pertama, gambar sebuah persegi panjang memanjang pada kartu. Selanjutnya, gunting bentuk tersebut dengan gunting itu. Kemudian, tulis judul singkat pada salah satu sisinya. Terakhir, letakkan pembatas buku di antara halaman buku.",
+      "criteria": "Tulisan menyebutkan tujuan dan perlengkapan, memakai kata kerja perintah yang sesuai, menyusun tindakan secara berurutan, dan memberi syarat atau peringatan hanya jika memang diperlukan."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal kosakata",
       "items": [
         {
-          "english": "jar",
-          "indonesian": "stoples"
+          "english": "upcycling",
+          "indonesian": "mengolah kembali barang bekas menjadi benda yang berguna"
         },
         {
-          "english": "cloth",
-          "indonesian": "kain"
+          "english": "cardboard",
+          "indonesian": "kardus atau karton tebal"
         },
         {
-          "english": "attach",
-          "indonesian": "menempelkan"
+          "english": "organiser",
+          "indonesian": "wadah untuk menata atau menyimpan barang"
         },
         {
-          "english": "decorate",
-          "indonesian": "menghias"
+          "english": "divider",
+          "indonesian": "sekat atau pembatas"
         },
         {
-          "english": "sharp",
-          "indonesian": "tajam"
+          "english": "blunt scissors",
+          "indonesian": "gunting tumpul"
+        },
+        {
+          "english": "trim",
+          "indonesian": "memotong sedikit untuk menyesuaikan ukuran"
+        },
+        {
+          "english": "fit",
+          "indonesian": "pas atau sesuai ukuran"
+        },
+        {
+          "english": "dry completely",
+          "indonesian": "mengering sepenuhnya"
         }
       ]
     }
@@ -288,43 +293,39 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “empty”?",
+      "prompt": "Which word gives a direct instruction?",
       "choices": [
-        "Dry it with a clean cloth.",
-        "Put small pencils inside.",
-        "Wash the empty jar.",
-        "You need a clean jar."
+        "organiser",
+        "measure",
+        "cardboard"
       ],
-      "answer": 2,
-      "explanation": "Ungkapan [[empty]] muncul dalam kalimat [[Wash the empty jar.]]. Kata kerja di awal kalimat adalah perintah.",
+      "answer": 1,
+      "explanation": "“Measure” merupakan kata kerja bentuk dasar yang digunakan untuk memerintahkan pembaca mengukur. “Organiser” dan “cardboard” merupakan kata benda.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “empty”?",
+        "prompt": "Kata mana yang memberikan instruksi langsung?",
         "choices": [
-          "Keringkan dengan kain bersih.",
-          "Masukkan pensil kecil ke dalamnya.",
-          "Cuci stoples kosong itu.",
-          "Kamu memerlukan stoples bersih."
+          "tempat alat tulis",
+          "ukur",
+          "kardus"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “pencils”?",
+      "prompt": "What should the reader do if the divider is too tall?",
       "choices": [
-        "Wash the empty jar.",
-        "Dry it with a clean cloth.",
-        "You need a clean jar.",
-        "Put small pencils inside."
+        "Use it without checking.",
+        "Trim it a little.",
+        "Add water to the box."
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[pencils]] muncul dalam kalimat [[Put small pencils inside.]]. Tahap terakhir menunjukkan fungsi benda baru.",
+      "answer": 1,
+      "explanation": "Kalimat “If it is too tall, trim it a little” menyatakan bahwa sekat perlu dipotong sedikit apabila terlalu tinggi.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “pencils”?",
+        "prompt": "Apa yang harus dilakukan jika sekat terlalu tinggi?",
         "choices": [
-          "Cuci stoples kosong itu.",
-          "Keringkan dengan kain bersih.",
-          "Kamu memerlukan stoples bersih.",
-          "Masukkan pensil kecil ke dalamnya."
+          "Gunakan tanpa memeriksa.",
+          "Potong sedikit agar sesuai.",
+          "Tambahkan air ke dalam kotak."
         ]
       }
     }

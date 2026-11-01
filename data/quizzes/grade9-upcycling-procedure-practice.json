@@ -1,111 +1,183 @@
 {
   "id": "grade9-upcycling-procedure-practice",
-  "questionCount": 4,
-  "durationSeconds": 360,
+  "questionCount": 7,
+  "durationSeconds": 420,
   "passages": [
     {
-      "id": "text-upcycling-procedure",
-      "title": "Procedure Text: Upcycling Materials",
-      "text": "Make a pencil holder from an empty glass jar. You need one clean jar, a soft cloth, coloured paper, and glue. First, wash the jar and check that it has no sharp edges. Next, dry its outer surface with the cloth. Then attach the paper with a small amount of glue. Leave the holder to dry before placing pencils inside. If the glass is chipped, choose another container instead. The goal is to reuse a safe object rather than throw it away.",
+      "id": "reusable-gift-tag-procedure",
+      "title": "Procedure Text: Make a Reusable Gift Tag",
+      "text": "Make a reusable gift tag from a clean piece of thin cardboard. Before you begin, remove any staples and check that the cardboard is dry and not torn. You will need a ruler, a pencil, blunt scissors, a hole punch, string, and coloured pens. First, place the cardboard on a flat table. Draw a rectangle about six centimetres long and four centimetres wide. Next, cut along the lines. Ask an adult to help if it is too thick to cut safely. Then, use the hole punch near one short end. Thread a short piece of string through the hole and tie it into a small loop. Finally, write a message on the front and the recipient’s name on the back. Wait until the ink is dry before attaching the tag to a gift. Keep unused tags in a dry envelope.",
       "original": true
     }
   ],
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the main purpose of the text?",
+      "prompt": "What is the main purpose of the passage?",
       "choices": [
-        "To describe one artist’s childhood",
-        "To show how to make a pencil holder",
-        "To tell a frightening story",
-        "To argue that jars should be banned"
+        "To explain how to make a reusable gift tag.",
+        "To describe the history of greeting cards.",
+        "To tell a story about a birthday party.",
+        "To compare different kinds of gift boxes."
       ],
-      "answer": 1,
-      "explanation": "Kalimat pertama langsung memberi tujuan: membuat tempat pensil dari stoples kosong. Daftar bahan dan urutan langkah membuktikan bahwa teks ini adalah [[procedure]], bukan cerita.",
+      "answer": 0,
+      "explanation": "Kalimat pertama langsung menyebutkan tindakan yang akan dijelaskan, yaitu membuat label hadiah yang dapat digunakan kembali. Daftar perlengkapan dan langkah-langkah berikutnya mendukung tujuan tersebut.",
       "translationId": {
-        "prompt": "Apa tujuan utama teks?",
+        "prompt": "Apa tujuan utama bacaan tersebut?",
         "choices": [
-          "Mendeskripsikan masa kecil seniman",
-          "Menjelaskan cara membuat tempat pensil",
-          "Menceritakan kisah menakutkan",
-          "Berargumen bahwa stoples harus dilarang"
+          "Menjelaskan cara membuat label hadiah yang dapat digunakan kembali.",
+          "Menggambarkan sejarah kartu ucapan.",
+          "Menceritakan pesta ulang tahun.",
+          "Membandingkan berbagai jenis kotak hadiah."
         ]
       },
       "skill": "Main Idea",
-      "passageId": "text-upcycling-procedure",
-      "evidence": "Make a pencil holder from an empty glass jar."
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Make a reusable gift tag from a clean piece of thin cardboard."
     },
     {
       "id": "q2",
-      "prompt": "Which material is NOT needed?",
+      "prompt": "Which item is NOT listed as a tool or material?",
       "choices": [
-        "Coloured paper",
-        "A soft cloth",
-        "Glue",
-        "Cooking oil"
+        "A ruler",
+        "A paintbrush",
+        "A hole punch",
+        "String"
       ],
-      "answer": 3,
-      "explanation": "Bahan yang diperlukan tercantum; minyak goreng tidak disebut.",
+      "answer": 1,
+      "explanation": "Bacaan mencantumkan penggaris, pelubang kertas, dan tali. Stapler tidak disebut sebagai perlengkapan untuk membuat label hadiah.",
       "translationId": {
-        "prompt": "Bahan mana yang tidak diperlukan?",
+        "prompt": "Benda mana yang TIDAK tercantum sebagai alat atau bahan?",
         "choices": [
-          "Kertas berwarna",
-          "Kain lembut",
-          "Lem",
-          "Minyak goreng"
+          "Penggaris",
+          "Kuas",
+          "Pelubang kertas",
+          "Tali"
         ]
       },
-      "skill": "Supporting Details",
-      "passageId": "text-upcycling-procedure",
-      "evidence": "a soft cloth, coloured paper, and glue"
+      "skill": "Materials and Tools",
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "You will need a ruler, a pencil, blunt scissors, a hole punch, string, and coloured pens."
     },
     {
       "id": "q3",
-      "prompt": "Why should the outside of the jar be dry?",
+      "prompt": "What should the reader do before cutting the cardboard?",
       "choices": [
-        "So the glass becomes heavier",
-        "So the pencils can be washed",
-        "So the paper can be attached properly",
-        "So the jar can break easily"
+        "Write the message.",
+        "Tie the string.",
+        "Remove staples and check the card.",
+        "Attach the tag to a gift."
       ],
       "answer": 2,
-      "explanation": "Mengeringkan permukaan dilakukan sebelum menempelkan kertas.",
+      "explanation": "Petunjuk “Before you begin” menempatkan pemeriksaan kondisi kartu sebelum langkah menggambar dan memotong. Kartu harus kering dan tidak sobek, serta staples perlu dilepas.",
       "translationId": {
-        "prompt": "Mengapa bagian luar stoples harus kering?",
+        "prompt": "Apa yang harus dilakukan pembaca sebelum memotong kardus?",
         "choices": [
-          "Agar kaca menjadi lebih berat",
-          "Agar pensil bisa dicuci",
-          "Agar kertas dapat menempel dengan baik",
-          "Agar stoples mudah pecah"
-        ]
-      },
-      "skill": "Making Inferences",
-      "passageId": "text-upcycling-procedure",
-      "evidence": "dry its outer surface with the cloth. Then attach the paper"
-    },
-    {
-      "id": "q4",
-      "prompt": "What should a reader do if the glass is chipped?",
-      "choices": [
-        "Choose another container",
-        "Use extra glue only",
-        "Fill it with water",
-        "Skip the safety check"
-      ],
-      "answer": 0,
-      "explanation": "Petunjuk keselamatan menyuruh mengganti wadah bila kaca rusak.",
-      "translationId": {
-        "prompt": "Apa yang harus dilakukan jika kaca retak/terkelupas?",
-        "choices": [
-          "Memilih wadah lain",
-          "Hanya menambah lem",
-          "Mengisinya dengan air",
-          "Melewati pemeriksaan keamanan"
+          "Menulis pesan.",
+          "Mengikat tali.",
+          "Melepas staples dan memeriksa kartu.",
+          "Memasang label pada hadiah."
         ]
       },
       "skill": "Following Instructions",
-      "passageId": "text-upcycling-procedure",
-      "evidence": "If the glass is chipped, choose another container instead."
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Before you begin, remove any staples and check that the cardboard is dry and not torn."
+    },
+    {
+      "id": "q4",
+      "prompt": "Why should an adult help if the cardboard is too thick?",
+      "choices": [
+        "To make the tag heavier.",
+        "To decorate the tag.",
+        "To save the string.",
+        "To make cutting safer."
+      ],
+      "answer": 3,
+      "explanation": "Bacaan menyebut bantuan orang dewasa ketika kardus terlalu tebal untuk dipotong dengan aman. Alasan yang didukung teks adalah keselamatan saat memotong, bukan hiasan atau penghematan bahan.",
+      "translationId": {
+        "prompt": "Mengapa orang dewasa perlu membantu jika kardus terlalu tebal?",
+        "choices": [
+          "Agar label menjadi lebih berat.",
+          "Untuk menghias label.",
+          "Untuk menghemat tali.",
+          "Agar kegiatan memotong lebih aman."
+        ]
+      },
+      "skill": "Safety Inference",
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Ask an adult to help if it is too thick to cut safely."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does “it” refer to in “if it is too thick to cut safely”?",
+      "choices": [
+        "The cardboard",
+        "The string",
+        "The gift",
+        "The envelope"
+      ],
+      "answer": 0,
+      "explanation": "Kata ganti “it” merujuk pada cardboard yang sedang dipotong. Rujukannya sudah diperkenalkan ketika bacaan menyebut bahan utama dan meminta pembaca menggambar bentuk pada bahan tersebut.",
+      "translationId": {
+        "prompt": "Apa yang dirujuk oleh kata “it” dalam “if it is too thick to cut safely”?",
+        "choices": [
+          "Kardus",
+          "Tali",
+          "Hadiah",
+          "Amplop"
+        ]
+      },
+      "skill": "Reference Words",
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Ask an adult to help if it is too thick to cut safely."
+    },
+    {
+      "id": "q6",
+      "prompt": "What should happen before the tag is attached to a gift?",
+      "choices": [
+        "The string must be removed.",
+        "The ink must dry.",
+        "The cardboard must be wet.",
+        "The tag must be folded twice."
+      ],
+      "answer": 1,
+      "explanation": "Kata “before” menunjukkan prasyarat: tinta harus kering terlebih dahulu sebelum label dipasang pada hadiah.",
+      "translationId": {
+        "prompt": "Apa yang harus terjadi sebelum label dipasang pada hadiah?",
+        "choices": [
+          "Tali harus dilepas.",
+          "Tinta harus mengering.",
+          "Kardus harus dibasahi.",
+          "Label harus dilipat dua kali."
+        ]
+      },
+      "skill": "Prerequisite and Time Relation",
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Wait until the ink is dry before attaching the tag to a gift."
+    },
+    {
+      "id": "q7",
+      "prompt": "What should the reader do immediately after using the hole punch?",
+      "choices": [
+        "Write the message on the front.",
+        "Wait until the ink is dry.",
+        "Thread a short piece of string through the hole.",
+        "Remove the staples from the cardboard."
+      ],
+      "answer": 2,
+      "explanation": "Kalimat setelah instruksi menggunakan hole punch menyuruh pembaca memasukkan seutas tali melalui lubang dan mengikatnya menjadi lingkaran kecil.",
+      "translationId": {
+        "prompt": "Apa yang harus dilakukan pembaca tepat setelah menggunakan pelubang kertas?",
+        "choices": [
+          "Menulis pesan pada bagian depan.",
+          "Menunggu sampai tinta mengering.",
+          "Memasukkan seutas tali melalui lubang.",
+          "Melepas staples dari kardus."
+        ]
+      },
+      "skill": "Sequencing",
+      "passageId": "reusable-gift-tag-procedure",
+      "evidence": "Then, use the hole punch near one short end. Thread a short piece of string through the hole and tie it into a small loop."
     }
   ]
 }

@@ -76,8 +76,8 @@ const idMarker=/\b(?:yang|dan|di|ke|dari|untuk|dengan|pada|adalah|ini|itu|kita|s
 let qCount=0,embeddedCount=0,untranslatedOverall=0;
 for(const r of lessons){const d=load(r.file);embeddedCount+=d.practice?.length||0;}
 for(const r of quizzes){const qz=load(r.file);for(const q of qz.questions){qCount++;if(!idMarker.test(q.explanation||''))untranslatedOverall++;}}
-assert.equal(qCount,509,'Standalone quiz question count must remain unchanged');
-assert.equal(qCount+embeddedCount,684,'Standalone and embedded practice inventory must remain unchanged');
+assert.equal(qCount,512,'Standalone quiz question count must remain unchanged');
+assert.equal(qCount+embeddedCount,687,'Standalone and embedded practice inventory must remain unchanged');
 assert.equal(untranslatedOverall,0,'Every main quiz explanation shown in Indonesian must be written in Indonesian');
 
 for(const page of ['grammar.html','school.html','search.html','tka.html','utbk.html','lesson.html','quiz.html','results.html']){

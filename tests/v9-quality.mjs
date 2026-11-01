@@ -58,10 +58,10 @@ for(const s of ["case 'definition'","case 'synthesis'","case 'self_check'","form
 const schema=JSON.parse(read('data/schemas/lesson.schema.json'));
 const variants=schema.properties.blocks.items.oneOf;
 for(const k of ['definition','synthesis','self_check'])assert.ok(variants.some(x=>x.properties.type.const===k),'Missing lesson block '+k);
-for(const [id,expected] of [['grade9-trip-recount-practice','To retell the English club’s visit to an art studio.'],['grade9-upcycling-procedure-practice','To show how to make a pencil holder']]){
+for(const [id,expected] of [['grade9-trip-recount-practice','To retell the English club’s visit to an art studio.'],['grade9-upcycling-procedure-practice','To explain how to make a reusable gift tag.']]){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));
  assert.equal(d.questions[0].choices[d.questions[0].answer],expected,id+': original wrong answer was not corrected');
- if(id==='grade9-trip-recount-practice'){
+ if(id==='grade9-trip-recount-practice'||id==='grade9-upcycling-procedure-practice'){
   assert.equal(d.questionCount,7);assert.equal(d.questions.length,7);assert.equal(d.durationSeconds,420);
   assert.deepEqual(d.questions.map(x=>x.answer),[0,1,2,3,0,1,2]);
   assert.equal(d.passages.length,1);assert.equal(d.passages[0].original,true);
