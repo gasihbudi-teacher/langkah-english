@@ -1,240 +1,247 @@
 {
   "id": "grade9-narrative",
   "objectives": [
-    "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam [[narrative text]].",
-    "Mengenali struktur yang tepat dari beberapa contoh.",
-    "Menerapkan konsep pada latihan mandiri."
+    "Mengidentifikasi tokoh utama, tokoh pendukung, serta latar waktu dan tempat dalam [[narrative text]].",
+    "Membedakan [[complication]] (masalah cerita) dari peristiwa biasa.",
+    "Mengurutkan peristiwa yang saling berhubungan dan mengidentifikasi [[resolution]] (penyelesaian).",
+    "Menyimpulkan pesan cerita berdasarkan tindakan dan hasil yang benar-benar didukung oleh teks."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Narrative texts · Kelas 9?",
-      "text": "[[Narrative text]] adalah teks cerita yang menghadirkan tokoh, masalah, rangkaian peristiwa, dan penyelesaian."
+      "title": "Mengenal Narrative Text · Kelas 9",
+      "text": "[[Narrative text]] adalah teks yang menceritakan rangkaian peristiwa yang dialami satu atau beberapa tokoh. Peristiwa-peristiwa itu saling berhubungan. Cerita biasanya mengenalkan tokoh dan latar, menghadirkan masalah, lalu menunjukkan bagaimana masalah tersebut berakhir. Pesan cerita dapat tersirat; tidak semua cerita menuliskan nasihat secara langsung."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam [[narrative text]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Membaca cerita dengan memahami alurnya",
+      "intro": "Kita akan membaca satu cerita pendek terlebih dahulu. Setelah itu, perhatikan cara mengenali tokoh dan latar, menemukan masalah, mengikuti urutan tindakan, serta memahami akhir cerita. Semua contoh bahasa Inggris disertai arti bahasa Indonesia.",
+      "modelTitle": "Teks model · The Lost Bag",
+      "modelEnglish": "One afternoon, Rani stayed after school to return a book to the library. Near the school gate, she found a small bag on a bench. Inside, she found a notebook with another student's name on it. The school bus was about to leave, and Rani did not want to miss it. She asked her friend Dito to tell the driver that she would be late. Then she took the bag to the teachers' room. A teacher called the student whose name was in the notebook. A few minutes later, the student came and collected the bag. Rani caught the next bus and went home. She felt glad that the bag had reached its owner.",
+      "modelIndonesian": "Pada suatu sore, Rani tinggal lebih lama di sekolah untuk mengembalikan buku ke perpustakaan. Di dekat gerbang sekolah, ia menemukan sebuah tas kecil di atas bangku. Di dalamnya, ia menemukan sebuah buku catatan yang memuat nama siswa lain. Bus sekolah akan segera berangkat, dan Rani tidak ingin ketinggalan. Ia meminta temannya, Dito, untuk memberi tahu sopir bahwa ia akan terlambat. Kemudian, ia membawa tas itu ke ruang guru. Seorang guru menelepon siswa yang namanya tertulis di buku catatan tersebut. Beberapa menit kemudian, siswa itu datang dan mengambil tasnya. Rani naik bus berikutnya dan pulang. Ia merasa senang karena tas itu telah kembali kepada pemiliknya.",
+      "modelNote": "Ikuti cerita dari pengenalan hingga penyelesaian. Rani adalah tokoh utama; Dito dan guru menjadi tokoh pendukung. Masalah muncul ketika Rani menemukan tas tertinggal saat bus akan berangkat. Tindakan setelahnya menunjukkan cara Rani menangani keadaan tersebut. Pesan cerita tidak ditulis sebagai nasihat langsung, sehingga perlu disimpulkan dari tindakan dan hasilnya.",
       "steps": [
         {
-          "title": "Cerita punya rangkaian kejadian",
-          "explanation": "Teks naratif menampilkan tokoh dan peristiwa yang saling berhubungan, bukan daftar ciri objek.",
-          "english": "A boy lost his key.",
-          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
-          "why": "Kehilangan kunci memperkenalkan masalah cerita."
+          "title": "Kenali bahwa cerita berisi peristiwa",
+          "explanation": "Narrative berfokus pada tokoh yang mengalami atau melakukan sesuatu. Perhatikan tindakan yang mengubah keadaan, bukan hanya daftar ciri suatu benda atau tempat.",
+          "english": "Rani found a small bag on a bench.",
+          "indonesian": "Rani menemukan sebuah tas kecil di atas bangku.",
+          "why": "Kalimat ini menyampaikan kejadian yang dialami tokoh. Kejadian tersebut membuat cerita bergerak ke masalah berikutnya."
         },
         {
-          "title": "Siapa tokohnya?",
-          "explanation": "Tentukan siapa yang bertindak dan siapa yang terpengaruh dalam cerita.",
-          "english": "A boy lost his key.",
-          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
-          "why": "Kehilangan kunci memperkenalkan masalah cerita."
+          "title": "Temukan tokoh utama dan tokoh pendukung",
+          "explanation": "Tokoh utama menjadi pusat cerita. Tokoh pendukung dapat membantu, menghalangi, atau memengaruhi tindakan tokoh utama.",
+          "english": "She asked her friend Dito to tell the driver that she would be late.",
+          "indonesian": "Ia meminta temannya, Dito, untuk memberi tahu sopir bahwa ia akan terlambat.",
+          "why": "Rani menjadi pusat tindakan dalam cerita. Dito membantu Rani, sehingga ia berperan sebagai tokoh pendukung."
         },
         {
-          "title": "Di mana dan kapan?",
-          "explanation": "Kenali latar tempat serta waktu agar tindakan tokoh mudah diikuti.",
-          "english": "He searched under the table.",
-          "indonesian": "Dia mencari di bawah meja.",
-          "why": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
+          "title": "Cari latar waktu dan tempat",
+          "explanation": "Latar menjelaskan kapan dan di mana peristiwa berlangsung. Informasi latar dapat muncul di awal cerita atau di bagian berikutnya.",
+          "english": "One afternoon, Rani stayed after school. Near the school gate, she found a small bag.",
+          "indonesian": "Pada suatu sore, Rani tinggal lebih lama di sekolah. Di dekat gerbang sekolah, ia menemukan sebuah tas kecil.",
+          "why": "“One afternoon” dan “after school” menunjukkan waktu. “Near the school gate” menunjukkan tempat kejadian."
         },
         {
-          "title": "Masalah awal",
-          "explanation": "Cari kejadian yang menimbulkan kesulitan atau konflik bagi tokoh.",
-          "english": "His sister found it in a bag.",
-          "indonesian": "Saudara perempuannya menemukan kunci itu di tas.",
-          "why": "Penemuan kunci menjadi penyelesaian."
+          "title": "Temukan complication atau masalah cerita",
+          "explanation": "Complication adalah masalah atau keadaan sulit yang mengubah situasi tokoh. Tidak setiap kejadian merupakan masalah utama; cari kejadian yang membuat tokoh harus mengambil tindakan.",
+          "english": "Inside, she found a notebook with another student's name on it. The school bus was about to leave, and Rani did not want to miss it.",
+          "indonesian": "Di dalamnya, ia menemukan buku catatan yang memuat nama siswa lain. Bus sekolah akan segera berangkat, dan Rani tidak ingin ketinggalan.",
+          "why": "Rani harus menangani tas yang tertinggal, tetapi busnya juga akan segera berangkat. Keadaan ini menciptakan kesulitan yang mendorong tindakannya."
         },
         {
-          "title": "Urutkan tindakan",
-          "explanation": "Ikuti apa yang dilakukan tokoh setelah masalah muncul, bukan hanya melompat ke akhir.",
-          "english": "At first, Deni was afraid to ask for help.",
-          "indonesian": "Awalnya, Deni takut meminta bantuan.",
-          "why": "[[At]] [[first]] memperkenalkan keadaan awal tokoh."
+          "title": "Ikuti urutan peristiwa",
+          "explanation": "Perhatikan penanda waktu seperti [[first]], [[then]], [[after that]], dan [[a few minutes later]]. Penanda ini membantu pembaca mengikuti kejadian dari awal ke akhir.",
+          "english": "She asked Dito to tell the driver. Then she took the bag to the teachers' room.",
+          "indonesian": "Ia meminta Dito memberi tahu sopir. Kemudian, ia membawa tas itu ke ruang guru.",
+          "why": "Kata “Then” menandai tindakan berikutnya. Urutan ini penting karena tindakan Rani dilakukan sebelum guru menghubungi pemilik tas."
         },
         {
-          "title": "Hubungkan tindakan dan akibat",
-          "explanation": "Tanyakan bagaimana satu pilihan tokoh memengaruhi kejadian berikutnya.",
-          "english": "Later, he asked his neighbour.",
-          "indonesian": "Kemudian, dia bertanya kepada tetangganya.",
-          "why": "[[Later]] menandai tahap berikutnya."
+          "title": "Hubungkan tindakan dengan alasan atau akibat",
+          "explanation": "Tanyakan mengapa tokoh melakukan suatu tindakan dan apa yang terjadi sesudahnya. Hubungan sebab-akibat membuat rangkaian peristiwa terasa masuk akal.",
+          "english": "A notebook showed the student's name, so a teacher could call the student.",
+          "indonesian": "Sebuah buku catatan menunjukkan nama siswa tersebut, sehingga guru dapat menelepon siswa itu.",
+          "why": "Nama pada buku catatan menjadi petunjuk yang memungkinkan guru menghubungi pemilik tas. Peristiwa sebelumnya membantu menjelaskan tindakan berikutnya."
         },
         {
-          "title": "Titik balik dan penyelesaian",
-          "explanation": "Temukan peristiwa penting yang mengubah situasi dan apa yang terjadi pada akhirnya.",
-          "english": "Finally, he reached home safely.",
-          "indonesian": "Akhirnya, dia sampai rumah dengan selamat.",
-          "why": "[[Finally]] menandai akhir rangkaian peristiwa."
+          "title": "Temukan resolution atau penyelesaian",
+          "explanation": "Resolution menunjukkan hasil dari masalah yang dihadapi tokoh. Cari peristiwa yang membuat masalah selesai atau menunjukkan keadaan tokoh setelah masalah ditangani.",
+          "english": "A few minutes later, the student came and collected the bag.",
+          "indonesian": "Beberapa menit kemudian, siswa itu datang dan mengambil tasnya.",
+          "why": "Tas yang tertinggal kembali kepada pemiliknya. Peristiwa ini menyelesaikan masalah utama dalam cerita."
         },
         {
-          "title": "Perasaan dan motif",
-          "explanation": "Simpulkan alasan tindakan tokoh dari dialog atau peristiwa yang benar-benar ditulis.",
-          "english": "With the bridge broken, the travellers had to find another way across the river.",
-          "indonesian": "Karena jembatan rusak, para pelancong harus mencari jalan lain menyeberangi sungai.",
-          "why": "Kerusakan jembatan menjadi masalah yang mendorong tindakan tokoh."
+          "title": "Simpulkan pesan dengan bukti",
+          "explanation": "Pesan atau gagasan cerita dapat tersirat. Hubungkan pilihan tokoh dengan hasil tindakannya. Jangan menambahkan nasihat yang tidak didukung oleh cerita.",
+          "english": "Rani stayed to return the bag and caught the next bus.",
+          "indonesian": "Rani tinggal lebih lama untuk mengembalikan tas itu dan naik bus berikutnya.",
+          "why": "Tindakan Rani menunjukkan tanggung jawab dan kepedulian. Pesan tentang mengembalikan barang yang bukan milik kita didukung oleh tindakannya."
         },
         {
-          "title": "Pesan berdasarkan cerita",
-          "explanation": "Jelaskan tema atau pesan yang wajar didukung rangkaian tindakan; jangan memilih moral yang tidak punya bukti.",
-          "english": "Although his first attempt failed, Arif tried again and solved the puzzle.",
-          "indonesian": "Walaupun usaha pertamanya gagal, Arif mencoba lagi dan memecahkan teka-teki.",
-          "why": "Perubahan dari masalah ke resolusi mendukung pesan tentang ketekunan."
+          "title": "Rangkai bagian-bagian cerita",
+          "explanation": "Orientation mengenalkan tokoh dan latar. Complication menghadirkan masalah. Rangkaian peristiwa menunjukkan usaha tokoh, sedangkan resolution memperlihatkan hasilnya. Bagian penutup dapat menunjukkan perasaan atau pesan, tetapi tidak selalu ada sebagai nasihat langsung.",
+          "english": "Rani stayed after school. The bus was about to leave while she was trying to return the lost bag. The student collected the bag.",
+          "indonesian": "Rani tinggal lebih lama di sekolah. Bus akan segera berangkat ketika ia sedang berusaha mengembalikan tas yang tertinggal. Siswa pemilik tas itu datang dan mengambilnya.",
+          "why": "Kalimat pertama mengenalkan situasi. Kalimat kedua menunjukkan masalah. Kalimat ketiga memperlihatkan penyelesaian. Ketiganya membentuk alur sederhana."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Nina found a lost kitten near the market. She wanted to keep it, but she saw a phone number on its collar. Nina called the number and waited with the kitten. Its owner arrived and thanked her. Nina was glad she had helped.",
-      "modelIndonesian": "Nina menemukan anak kucing yang tersesat di dekat pasar. Ia ingin memeliharanya, tetapi melihat nomor telepon pada kalungnya. Nina menelepon nomor itu dan menunggu bersama anak kucing tersebut. Pemiliknya datang dan berterima kasih. Nina senang karena telah membantu."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, [[orientation]] mengenalkan situasi, [[complication]] memunculkan masalah, dan [[resolution]] menunjukkan cara masalah ditangani. Urutan tindakan membantu kita mengenali sebab dan akibat dalam cerita."
+      "title": "Jadi, bagaimana cara memahami sebuah cerita?",
+      "text": "Mulailah dengan mengenali [[character]] (tokoh) dan [[setting]] (latar). Temukan [[complication]] yang membuat tokoh perlu bertindak. Ikuti urutan tindakan dan akibatnya sampai menemukan [[resolution]]. Jika diminta menyimpulkan pesan, gunakan bukti dari pilihan tokoh dan hasil cerita."
     },
     {
       "type": "rule",
-      "text": "[[Orientation]] memperkenalkan tokoh dan latar; [[complication]] menunjukkan masalah; [[resolution]] menjelaskan bagaimana masalah dihadapi."
+      "text": "[[Orientation]] mengenalkan tokoh dan latar; [[complication]] menghadirkan masalah; rangkaian peristiwa menunjukkan usaha tokoh; [[resolution]] memperlihatkan hasil penyelesaian. Pesan cerita harus didukung oleh bukti, bukan sekadar dugaan."
     },
     {
       "type": "subheading",
-      "text": "Contoh bertahap"
+      "text": "Lihat contoh penanda urutan"
     },
     {
       "type": "example",
-      "text": "Lala lost the map. She asked a shopkeeper for directions. At last, she found the station.",
-      "note": "[[Complication]]: [[lost]] [[the]] [[map]]; [[resolution]]: [[found]] [[the]] [[station]]."
+      "text": "First, Lila packed her lunch. Then, she noticed that her water bottle was missing. Finally, she borrowed a cup from the school canteen.",
+      "note": "“First”, “Then”, dan “Finally” membantu pembaca mengikuti urutan kejadian. Perhatikan bahwa setiap kalimat menambahkan peristiwa baru."
     },
     {
       "type": "example",
-      "text": "At first..., later..., finally...",
-      "note": "Kata transisi memberi urutan kejadian."
+      "text": "The team lost its map, so the members asked a guide for help.",
+      "note": "Kata “so” menghubungkan masalah dengan tindakan sebagai akibatnya. Hubungan ini membantu pembaca memahami alur."
     },
     {
       "type": "subheading",
-      "text": "Perhatikan kesalahan berikut"
+      "text": "Jangan tertukar antara masalah dan penyelesaian"
     },
     {
       "type": "mistake",
-      "incorrect": "Finally she lost the map, first she found it.",
-      "correct": "First she lost the map. Finally she found it.",
-      "explanation": "Urutan waktu harus masuk akal."
+      "incorrect": "The resolution is that Rani found the bag.",
+      "correct": "The student came and collected the bag; Rani then caught the next bus.",
+      "explanation": "Menemukan tas memperkenalkan masalah yang harus ditangani. Penyelesaian terlihat ketika tas kembali kepada pemiliknya dan Rani dapat melanjutkan perjalanan."
     },
     {
       "type": "text",
-      "text": "Saat menjawab soal, perhatikan subjek dan struktur klausa terlebih dahulu, baru tentukan bentuk yang sesuai. Jangan hanya memilih jawaban karena kedengarannya familier."
+      "text": "Saat menyimpulkan pesan, hindari memilih kalimat moral hanya karena terdengar baik. Tanyakan: tindakan apa yang benar-benar dilakukan tokoh, apa akibatnya, dan gagasan apa yang paling kuat didukung oleh hubungan keduanya?"
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Bandingkan contoh tokoh, masalah, dan penyelesaian"
     },
     {
       "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "text": "Baca contoh-contoh berikut. Setiap kalimat bahasa Inggris disertai arti bahasa Indonesia dan catatan tentang fungsinya dalam cerita."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "1 · Mengenali tokoh dan latar",
       "collapsed": false,
       "items": [
         {
-          "english": "A boy lost his key.",
-          "indonesian": "Seorang anak laki-laki kehilangan kuncinya.",
-          "note": "Kehilangan kunci memperkenalkan masalah cerita."
+          "english": "Rafi and his sister Sita visited a riverside park on Sunday.",
+          "indonesian": "Rafi dan saudara perempuannya, Sita, mengunjungi taman di tepi sungai pada hari Minggu.",
+          "note": "Rafi dan Sita adalah tokoh. Taman di tepi sungai menjadi latar tempat, sedangkan hari Minggu menunjukkan waktu."
         },
         {
-          "english": "He searched under the table.",
-          "indonesian": "Dia mencari di bawah meja.",
-          "note": "Tindakan ini menunjukkan usaha menyelesaikan masalah."
-        },
-        {
-          "english": "His sister found it in a bag.",
-          "indonesian": "Saudara perempuannya menemukan kunci itu di tas.",
-          "note": "Penemuan kunci menjadi penyelesaian."
+          "english": "They wanted to reach the bus stop before dark.",
+          "indonesian": "Mereka ingin mencapai halte sebelum hari gelap.",
+          "note": "Tujuan tokoh membantu pembaca memahami apa yang ingin mereka capai selama cerita berlangsung."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade9-narrative",
-      "prompt": "Which event is a problem in a story?",
-      "translation": "Peristiwa mana yang menjadi masalah dalam sebuah cerita?",
+      "prompt": "Which sequence correctly shows what happens after Rani finds the bag?",
+      "translation": "Urutan mana yang sesuai dengan kejadian setelah Rani menemukan tas?",
       "choices": [
-        "The child finds the key.",
-        "The child loses the key.",
-        "The child feels relieved."
+        "She asks Dito to tell the driver → takes the bag to the teachers' room → a teacher calls the student → the student collects the bag.",
+        "The student collects the bag → Rani finds it → Dito tells the driver → the teacher calls the student.",
+        "Rani catches the bus → leaves the bag at the gate → the teacher calls Dito → the owner looks for the bus."
       ],
-      "answer": 1,
-      "explanation": "Kunci yang hilang menjadi masalah yang perlu diselesaikan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "answer": 0,
+      "explanation": "Urutan yang benar dimulai ketika Rani meminta Dito memberi tahu sopir. Setelah itu, Rani membawa tas ke ruang guru, guru menghubungi siswa pemiliknya, lalu siswa tersebut mengambil tas. Dua kejadian terakhir menunjukkan penyelesaian masalah.",
+      "hint": "Perhatikan kata “Then” dan “A few minutes later” pada teks model. Cari pilihan yang mengikuti urutan waktu tersebut.",
       "translationChoices": [
-        "Anak itu menemukan kuncinya.",
-        "Anak itu kehilangan kuncinya.",
-        "Anak itu merasa lega."
+        "Ia meminta Dito memberi tahu sopir → membawa tas ke ruang guru → guru menelepon siswa → siswa itu mengambil tas.",
+        "Siswa itu mengambil tas → Rani menemukannya → Dito memberi tahu sopir → guru menelepon siswa.",
+        "Rani naik bus → meninggalkan tas di gerbang → guru menelepon Dito → pemilik mencari bus."
       ]
     },
     {
       "type": "breakdown",
-      "sentence": "A boy lost his key.",
+      "sentence": "She asked her friend Dito to tell the driver that she would be late.",
       "parts": [
         {
-          "english": "A boy",
-          "meaning": "tokoh"
+          "english": "She",
+          "meaning": "Rani, tokoh utama yang mengambil keputusan"
         },
         {
-          "english": "lost his key",
-          "meaning": "masalah awal cerita"
+          "english": "asked her friend Dito",
+          "meaning": "meminta bantuan tokoh pendukung"
+        },
+        {
+          "english": "to tell the driver that she would be late",
+          "meaning": "tujuan tindakan: memberi tahu sopir agar Rani dapat menangani tas yang tertinggal"
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "title": "2 · Mengikuti masalah hingga penyelesaian",
       "collapsed": false,
       "items": [
         {
-          "english": "At first, Deni was afraid to ask for help.",
-          "indonesian": "Awalnya, Deni takut meminta bantuan.",
-          "note": "[[At]] [[first]] memperkenalkan keadaan awal tokoh."
+          "english": "The bridge was closed, so the children could not cross the river.",
+          "indonesian": "Jembatan ditutup, sehingga anak-anak tidak dapat menyeberangi sungai.",
+          "note": "Jembatan yang ditutup menimbulkan masalah karena tujuan perjalanan anak-anak terhalang."
         },
         {
-          "english": "Later, he asked his neighbour.",
-          "indonesian": "Kemudian, dia bertanya kepada tetangganya.",
-          "note": "[[Later]] menandai tahap berikutnya."
+          "english": "Rafi looked for another path.",
+          "indonesian": "Rafi mencari jalan lain.",
+          "note": "Tindakan ini menunjukkan usaha tokoh untuk menghadapi masalah yang muncul."
         },
         {
-          "english": "Finally, he reached home safely.",
-          "indonesian": "Akhirnya, dia sampai rumah dengan selamat.",
-          "note": "[[Finally]] menandai akhir rangkaian peristiwa."
+          "english": "A park worker waited near the main gate.",
+          "indonesian": "Seorang petugas taman berada di dekat gerbang utama.",
+          "note": "Petugas taman diperkenalkan sebagai tokoh pendukung yang berada di lokasi. Perannya dalam membantu perjalanan akan terlihat pada peristiwa berikutnya."
         },
         {
-          "english": "The children lost their map just as the sky grew dark.",
-          "indonesian": "Anak-anak kehilangan peta tepat ketika langit mulai gelap.",
-          "note": "Kehilangan peta memunculkan [[complication]] yang memengaruhi tindakan tokoh berikutnya."
+          "english": "Sita asked a park worker for directions.",
+          "indonesian": "Sita meminta petunjuk arah kepada seorang petugas taman.",
+          "note": "Tokoh pendukung membantu menemukan cara untuk melanjutkan perjalanan."
         },
         {
-          "english": "With the bridge broken, the travellers had to find another way across the river.",
-          "indonesian": "Karena jembatan rusak, para pelancong harus mencari jalan lain menyeberangi sungai.",
-          "note": "Kerusakan jembatan menjadi masalah yang mendorong tindakan tokoh."
+          "english": "The worker showed them a safe path, and they reached the bus stop before dark.",
+          "indonesian": "Petugas itu menunjukkan jalan yang aman, dan mereka mencapai halte sebelum hari gelap.",
+          "note": "Petugas memberikan bantuan, lalu anak-anak mencapai tujuan. Rangkaian ini menunjukkan cara masalah diatasi dan hasil akhirnya."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "What changes between the beginning and the end of the short story?",
+      "translation": "Apa yang berubah dari awal hingga akhir cerita pendek tersebut?",
+      "answer": "Pada awalnya, anak-anak tidak dapat menyeberangi sungai karena jembatan ditutup. Setelah Rafi mencari jalan lain dan Sita meminta petunjuk, mereka berhasil mencapai halte sebelum gelap. Masalah perjalanan mereka akhirnya terselesaikan."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "title": "3 · Memahami urutan dan pesan cerita",
       "collapsed": false,
       "items": [
         {
-          "english": "Maya missed the bus, so she walked to school and arrived after the bell rang.",
-          "indonesian": "Maya ketinggalan bus, sehingga berjalan ke sekolah dan tiba setelah bel berbunyi.",
-          "note": "Urutan sebab dan akibat membentuk alur sederhana."
+          "english": "First, the class put up its posters.",
+          "indonesian": "Pertama, kelas memasang poster-poster mereka.",
+          "note": "“First” menandai peristiwa awal dan membantu pembaca mengetahui dari mana urutan cerita dimulai."
         },
         {
-          "english": "Although his first attempt failed, Arif tried again and solved the puzzle.",
-          "indonesian": "Walaupun usaha pertamanya gagal, Arif mencoba lagi dan memecahkan teka-teki.",
-          "note": "Perubahan dari masalah ke resolusi mendukung pesan tentang ketekunan."
+          "english": "Then, a strong wind blew one poster away.",
+          "indonesian": "Kemudian, angin kencang menerbangkan salah satu poster.",
+          "note": "“Then” memperkenalkan kejadian berikutnya. Poster yang terbang menimbulkan masalah baru bagi para siswa."
+        },
+        {
+          "english": "Finally, two students worked together to put it back.",
+          "indonesian": "Akhirnya, dua siswa bekerja sama untuk memasangnya kembali.",
+          "note": "“Finally” menandai hasil akhir. Kerja sama para siswa mendukung pesan bahwa bekerja bersama dapat membantu menyelesaikan masalah."
         }
       ]
     },
@@ -242,18 +249,18 @@
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Narrative memiliki tokoh, masalah, dan penyelesaian.",
-        "Penanda urutan seperti [[at]] [[first]], later, finally membantu mengikuti alur.",
-        "Pesan cerita perlu didukung peristiwa yang benar-benar terjadi."
+        "Tokoh adalah orang atau makhluk yang terlibat dalam cerita; latar menunjukkan waktu dan tempat.",
+        "Complication adalah masalah yang mendorong tokoh melakukan sesuatu. Ikuti urutan tindakan dan hubungan sebab-akibatnya.",
+        "Resolution menunjukkan hasil penanganan masalah. Pesan cerita harus didukung oleh tindakan dan hasil yang ada dalam teks."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa masalah yang mengubah keadaan tokoh, dan bagaimana akhirnya?",
-      "model": "The children lost their map just as the sky grew dark.",
-      "modelTranslation": "Anak-anak kehilangan peta tepat ketika langit mulai gelap.",
-      "criteria": "Kehilangan peta memunculkan [[complication]] yang memengaruhi tindakan tokoh berikutnya."
+      "title": "Tulis cerita mini sendiri · tanpa nilai",
+      "prompt": "Pilih kejadian sederhana yang pernah kamu alami. Tulis tiga atau empat kalimat bahasa Inggris: kenalkan tokoh dan latar, ceritakan satu masalah, urutkan tindakan, lalu jelaskan hasil akhirnya. Kamu tidak perlu menambahkan pesan moral jika ceritamu tidak memberi bukti yang cukup.",
+      "model": "Last Friday, I lost my pencil case at school. I asked my friend to help me look for it. We found it under a desk. I felt relieved.",
+      "modelTranslation": "Jumat lalu, saya kehilangan tempat pensil di sekolah. Saya meminta teman untuk membantu mencarinya. Kami menemukannya di bawah meja. Saya merasa lega.",
+      "criteria": "Cerita mengenalkan tokoh dan latar, menyampaikan masalah yang jelas, mengurutkan tindakan secara masuk akal, serta menunjukkan hasil akhirnya. Jika menuliskan pesan, pastikan pesan itu didukung oleh tindakan atau hasil cerita."
     },
     {
       "type": "vocabulary",
@@ -264,16 +271,40 @@
           "indonesian": "tokoh"
         },
         {
-          "english": "problem",
-          "indonesian": "masalah"
+          "english": "setting",
+          "indonesian": "latar waktu dan tempat"
         },
         {
-          "english": "finally",
-          "indonesian": "akhirnya"
+          "english": "complication",
+          "indonesian": "masalah atau konflik cerita"
         },
         {
-          "english": "solution",
-          "indonesian": "penyelesaian"
+          "english": "sequence",
+          "indonesian": "urutan peristiwa"
+        },
+        {
+          "english": "resolution",
+          "indonesian": "penyelesaian masalah"
+        },
+        {
+          "english": "owner",
+          "indonesian": "pemilik"
+        },
+        {
+          "english": "collect",
+          "indonesian": "mengambil atau mengumpulkan"
+        },
+        {
+          "english": "relieved",
+          "indonesian": "merasa lega"
+        },
+        {
+          "english": "orientation",
+          "indonesian": "pengenalan tokoh dan latar"
+        },
+        {
+          "english": "message",
+          "indonesian": "pesan atau gagasan cerita"
         }
       ]
     }
@@ -281,58 +312,58 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What is the complication in the short story?",
+      "prompt": "Who is the main character in the model story?",
       "choices": [
-        "Lala lost the map.",
-        "She found the station.",
-        "The sun was bright."
+        "Rani",
+        "Dito",
+        "The teacher"
       ],
       "answer": 0,
-      "explanation": "Kehilangan peta adalah masalah utama.",
+      "explanation": "Rani menjadi tokoh utama karena sebagian besar peristiwa berpusat pada keputusan dan tindakannya. Dito dan guru membantu sebagai tokoh pendukung.",
       "translationId": {
-        "prompt": "Dalam kisah pendek, apa complication?",
+        "prompt": "Siapa tokoh utama dalam cerita model?",
         "choices": [
-          "Lala kehilangan peta.",
-          "Dia menemukan stasiun.",
-          "Matahari bersinar cerah."
+          "Rani",
+          "Dito",
+          "Guru"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What does “finally” signal?",
+      "prompt": "Which event creates the main problem for Rani?",
       "choices": [
-        "the end of a sequence",
-        "a scientific cause",
-        "a contrast"
+        "She finds a lost bag while the school bus is about to leave.",
+        "Dito tells the driver that she will be late.",
+        "The student comes and collects the bag."
       ],
       "answer": 0,
-      "explanation": "Finally merujuk tahap akhir.",
+      "explanation": "Masalah muncul ketika Rani menemukan tas yang tertinggal, sementara bus sekolah akan segera berangkat. Keadaan ini membuat Rani harus menentukan tindakan.",
       "translationId": {
-        "prompt": "“Finally” menandakan …",
+        "prompt": "Peristiwa mana yang menimbulkan masalah utama bagi Rani?",
         "choices": [
-          "akhir peristiwa",
-          "sebab ilmiah",
-          "pertentangan"
+          "Ia menemukan tas tertinggal ketika bus sekolah akan segera berangkat.",
+          "Dito memberi tahu sopir bahwa ia akan terlambat.",
+          "Siswa pemilik tas datang dan mengambil tas tersebut."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "Which message is most strongly supported by the story?",
+      "prompt": "Which message is best supported by the model story?",
       "choices": [
-        "Asking for help can solve problems.",
-        "Every shop is closed.",
-        "The map was never used."
+        "Returning something that belongs to someone else is worth the effort.",
+        "Students should never take the school bus.",
+        "A lost bag should always be left where it is."
       ],
       "answer": 0,
-      "explanation": "Lala meminta petunjuk dan menemukan stasiun.",
+      "explanation": "Rani mengatur agar sopir mengetahui keterlambatannya, membawa tas ke ruang guru, dan menunggu sampai tas kembali kepada pemiliknya. Tindakannya mendukung pesan tentang tanggung jawab dan kepedulian.",
       "translationId": {
-        "prompt": "Pesan pembaca yang paling kuat?",
+        "prompt": "Pesan mana yang paling didukung oleh cerita model?",
         "choices": [
-          "Meminta bantuan dapat membantu menyelesaikan masalah.",
-          "Semua toko tutup.",
-          "Peta tidak pernah dipakai."
+          "Mengembalikan barang milik orang lain sepadan dengan usaha yang diperlukan.",
+          "Siswa tidak boleh naik bus sekolah.",
+          "Tas yang tertinggal harus selalu dibiarkan di tempatnya."
         ]
       }
     }
