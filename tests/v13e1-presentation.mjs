@@ -118,4 +118,55 @@ assert.doesNotMatch(untitledModel,/<h3[^>]*>Teks model<\/h3>/,'An unauthored mod
 const phased=blocks([{type:'scaffold',intro:'Ikuti bagian yang relevan.',steps:[{title:'One',explanation:'First.',english:'A.',indonesian:'A.',why:'A.',phase:'Read'},{title:'Two',explanation:'Next.',english:'B.',indonesian:'B.',why:'B.',phase:'Read'},{title:'Three',explanation:'Then.',english:'C.',indonesian:'C.',why:'C.',phase:'Apply'}]}]);
 assert.match(phased,/Read/);assert.match(phased,/Apply/);
 assert.doesNotMatch(phased,/Tahap dibagi menjadi bagian kecil|2 langkah|Lanjutkan saat sudah memahami/);
+
+// Grade 9 Lesson 3: report-text reading with an unfamiliar wildlife transfer passage.
+const reportMeta=catalogue.resources.find(r=>r.id==='grade9-report-animals');
+const reportQuizMeta=catalogue.resources.find(r=>r.id==='grade9-report-animals-practice');
+assert(reportMeta&&reportQuizMeta,'Grade 9 Report Text lesson and independent practice must be registered');
+assert.deepEqual(reportMeta.placements[0],{pathway:'school',grade:9});
+assert.equal(reportMeta.order,300);
+assert.equal(reportQuizMeta.type,'quiz');
+assert.equal(reportQuizMeta.title,'Grade 9 Report Text Check: The Bali Myna');
+assert.deepEqual(reportQuizMeta.placements[0],{pathway:'school',grade:9});
+assert.deepEqual(reportQuizMeta.relatedLessons,['grade9-report-animals']);
+assert.equal(reportQuizMeta.kind,'practice');
+assert.equal(reportQuizMeta.examFormat,'topic');
+const report=JSON.parse(read(reportMeta.file));
+assert.equal(report.id,'grade9-report-animals','The stable report lesson ID must be preserved');
+assert.equal(report.objectives.length,4);
+assert.deepEqual(report.assessments,['grade9-report-animals-practice']);
+assert.equal(report.blocks[0].type,'definition');
+assert.equal(report.blocks.at(-1).type,'vocabulary','Bekal Kosakata must remain at the end');
+const reportGuide=report.blocks.find(b=>b.type==='scaffold');
+assert(reportGuide&&reportGuide.modelEnglish&&reportGuide.modelIndonesian);
+assert.equal(reportGuide.steps.length,5);
+assert.equal(new Set(reportGuide.steps.map(s=>s.phase)).size,4);
+assert(reportGuide.steps.every(s=>s.title&&s.explanation&&s.english&&s.indonesian&&s.why));
+assert(reportGuide.steps.every(s=>(!!s.check)===(!!s.checkAnswer)));
+assert.equal(reportGuide.steps.filter(s=>s.check).length,3);
+assert(report.blocks.some(b=>b.type==='table'));
+assert(report.blocks.some(b=>b.type==='mistake'));
+assert.equal(report.blocks.filter(b=>b.type==='self_check').length,1);
+assert.equal(report.blocks.filter(b=>b.type==='checkpoint').length,1);
+assert.equal(report.blocks.filter(b=>b.type==='reflection').length,1);
+assert.equal(report.blocks.filter(b=>b.type==='example_group').flatMap(b=>b.items).length,2);
+assert.equal(report.practice.length,3);
+assert(report.practice.every(q=>q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length));
+const reportHtml=blocks(report.blocks);
+assert.match(reportHtml,/Orangutan Sumatra adalah kera besar/);
+assert.match(reportHtml,/mainly in the northern part of the island/);
+assert.match(reportHtml,/class="lesson-translation"/);
+const reportQuiz=JSON.parse(read(reportQuizMeta.file));
+assert.equal(reportQuiz.id,'grade9-report-animals-practice');
+assert.equal(reportQuiz.questionCount,7);
+assert.equal(reportQuiz.durationSeconds,420);
+assert.equal(reportQuiz.passages.length,1);
+assert.notEqual(reportQuiz.passages[0].text,reportGuide.modelEnglish,'The assessment must use an unfamiliar transfer report');
+assert.deepEqual(reportQuiz.questions.map(q=>q.answer),[0,3,1,2,1,3,2]);
+for(const q of reportQuiz.questions){
+ assert(q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length);
+ assert(q.evidence&&reportQuiz.passages[0].text.includes(q.evidence),`Report-text evidence must be exact: ${q.id}`);
+ assert(q.explanation&&q.explanation.length>40);
+}
+
 console.log(`PASS V13-E1-R3 presentation: ${validated} lessons rendered, including all ${schoolChecked} core School lessons; scaffold headings, model notes and phases follow authored lesson data; no compulsory scaffold boilerplate; authored checks rendered only when present; translations and explanations remain accessible; HTML escaped.`);

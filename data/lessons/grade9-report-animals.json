@@ -1,286 +1,195 @@
 {
   "id": "grade9-report-animals",
   "objectives": [
-    "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi [[general classification]] yang memperkenalkan spesies dan wilayah asalnya.",
+    "Mengelompokkan fakta pendukung tentang ciri fisik, habitat, makanan, perilaku, dan peran ekologis.",
+    "Menelusuri kata rujukan seperti [[they]], [[their]], dan [[it]] agar hubungan antarkalimat tetap jelas.",
+    "Menilai apakah suatu klaim sesuai dengan bukti yang benar-benar dinyatakan dalam report text."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Report Text: Indonesian Wildlife?",
-      "text": "[[Report text]] adalah teks yang menjelaskan suatu kelompok makhluk atau benda berdasarkan fakta umum, bukan satu pengalaman pribadi."
+      "title": "Membaca report text tentang satwa Indonesia",
+      "text": "[[Report text]] menyajikan informasi faktual yang bersifat umum tentang suatu kelompok atau spesies. Bagian awal biasanya berisi [[general classification]] untuk memperkenalkan apa yang dibahas. Bagian berikutnya memberikan [[description]] berupa ciri, habitat, makanan, perilaku, peran, atau ancaman. Fokusnya adalah fakta tentang spesies, bukan urutan pengalaman satu orang atau satu kejadian."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "title": "Membaca laporan dari klasifikasi hingga bukti",
+      "intro": "Baca laporan berikut secara utuh. Perhatikan bagaimana penulis memperkenalkan orangutan Sumatra, menambahkan rincian tentang kehidupannya, lalu menjelaskan ancaman terhadap spesies tersebut.",
+      "modelTitle": "The Sumatran Orangutan",
+      "modelEnglish": "Sumatran orangutans are great apes native to Sumatra, Indonesia. Today, they live mainly in the northern part of the island, including forest areas in Aceh and North Sumatra.\n\nThey have long arms and reddish-brown hair. They spend most of their time in trees, where their hands and feet help them move along branches. Sumatran orangutans build nests in trees for resting and sleeping. Their diet consists mainly of fruit, but they also eat leaves, flowers, and insects. By eating fruit and moving through the forest, they help spread seeds to new places.\n\nThe species is classified as Critically Endangered. Forest loss and illegal hunting threaten its survival. Protecting forest habitats and preventing wildlife trade are important ways to support the species.",
+      "modelIndonesian": "Orangutan Sumatra adalah kera besar yang berasal dari Pulau Sumatra, Indonesia. Saat ini, mereka hidup terutama di bagian utara pulau tersebut, termasuk kawasan hutan di Aceh dan Sumatra Utara.\n\nMereka memiliki lengan panjang dan rambut berwarna cokelat kemerahan. Mereka menghabiskan sebagian besar waktunya di pepohonan. Tangan dan kaki mereka membantu mereka bergerak di antara dahan. Orangutan Sumatra membangun sarang di pohon untuk beristirahat dan tidur. Makanan mereka terutama terdiri atas buah-buahan, tetapi mereka juga memakan daun, bunga, dan serangga. Dengan memakan buah dan bergerak di dalam hutan, mereka membantu menyebarkan biji ke tempat lain.\n\nSpesies ini dikategorikan Kritis (Critically Endangered). Hilangnya hutan dan perburuan ilegal mengancam kelangsungan hidupnya. Melindungi habitat hutan dan mencegah perdagangan satwa liar merupakan langkah penting untuk menjaga kelangsungan spesies ini.",
+      "modelNote": "Paragraf pertama memperkenalkan spesies dan wilayahnya. Paragraf kedua menjelaskan ciri serta kebiasaan. Paragraf terakhir menyampaikan status konservasi dan ancaman. Susunan ini bergerak dari klasifikasi umum menuju deskripsi yang lebih khusus.",
       "steps": [
         {
-          "title": "Laporan bukan cerita pribadi",
-          "explanation": "[[Report text]] menyampaikan fakta umum mengenai sekelompok hewan, bukan pengalaman satu hewan pada hari tertentu.",
-          "english": "Komodo dragons are large lizards.",
-          "indonesian": "Komodo adalah kadal berukuran besar.",
-          "why": "Kalimat ini menjelaskan jenis hewan secara umum."
+          "title": "Temukan spesies dan klasifikasi umum",
+          "phase": "Read",
+          "explanation": "Kalimat pembuka biasanya menyebut nama kelompok atau spesies dan menjelaskan kelompok hewan yang lebih luas. Cari juga wilayah asalnya agar kamu memahami batas topik yang sedang dibahas.",
+          "english": "Sumatran orangutans are great apes native to Sumatra, Indonesia.",
+          "indonesian": "Orangutan Sumatra adalah kera besar yang berasal dari Pulau Sumatra, Indonesia.",
+          "why": "“Sumatran orangutans” menyebut spesies yang dibahas, sedangkan “great apes” mengelompokkannya sebagai kera besar. Frasa “native to Sumatra, Indonesia” menunjukkan wilayah asal. Kalimat ini memperkenalkan spesies secara umum, bukan seekor orangutan tertentu.",
+          "check": "Bagian mana yang memperkenalkan nama spesies dan kelompok hewannya? Kutip frasa yang menjadi bukti.",
+          "checkAnswer": "Frasa “Sumatran orangutans” menyebut nama spesies, sedangkan “great apes” menunjukkan kelompok hewannya. Frasa “native to Sumatra, Indonesia” menunjukkan wilayah asal."
         },
         {
-          "title": "Hewan apa yang dibahas?",
-          "explanation": "Kenali nama spesies atau kelompok dan klasifikasi umumnya.",
-          "english": "They live on several Indonesian islands.",
-          "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
-          "why": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
+          "title": "Kelompokkan fakta dalam bagian deskripsi",
+          "phase": "Notice",
+          "explanation": "Setelah topik diperkenalkan, rincian dapat menjelaskan beberapa sisi kehidupan hewan. Bedakan ciri fisik dari tempat hidup, makanan, perilaku, dan peran ekologis. Satu kalimat dapat memuat lebih dari satu rincian.",
+          "english": "They have long arms and reddish-brown hair. They spend most of their time in trees. Their diet consists mainly of fruit, but they also eat leaves, flowers, and insects.",
+          "indonesian": "Mereka memiliki lengan panjang dan rambut berwarna cokelat kemerahan. Mereka menghabiskan sebagian besar waktunya di pepohonan. Makanan mereka terutama terdiri atas buah-buahan, tetapi mereka juga memakan daun, bunga, dan serangga.",
+          "why": "Lengan dan warna rambut merupakan ciri fisik. Pepohonan menunjukkan tempat mereka banyak beraktivitas, sedangkan daftar buah, daun, bunga, dan serangga menjelaskan makanan. Rincian yang berbeda ini bersama-sama membentuk deskripsi spesies."
         },
         {
-          "title": "Ciri fisik",
-          "explanation": "Cari detail bentuk, ukuran, warna, atau bagian tubuh yang secara eksplisit disebut.",
-          "english": "Adult komodos can eat large prey.",
-          "indonesian": "Komodo dewasa dapat memakan mangsa berukuran besar.",
-          "why": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin."
+          "title": "Telusuri kata rujukan antarkalimat",
+          "phase": "Connect",
+          "explanation": "Penulis tidak perlu mengulang nama spesies pada setiap kalimat. Kata ganti seperti [[they]], [[their]], dan [[it]] merujuk kembali pada topik yang sudah diperkenalkan. Temukan kata benda yang digantikannya agar hubungan antarkalimat tidak keliru.",
+          "english": "They spend most of their time in trees. Their diet consists mainly of fruit.",
+          "indonesian": "Mereka menghabiskan sebagian besar waktunya di pepohonan. Makanan mereka terutama terdiri atas buah-buahan.",
+          "why": "“They” dan “their” merujuk pada orangutan Sumatra. Kata rujukan membuat paragraf terasa padu karena pembaca dapat menghubungkan kalimat baru dengan spesies yang sama.",
+          "check": "Dalam kalimat “Their diet consists mainly of fruit,” kata “Their” merujuk pada apa? Jelaskan dengan melihat kalimat sebelumnya.",
+          "checkAnswer": "“Their” merujuk pada orangutan Sumatra. Kalimat sebelumnya membahas kelompok hewan tersebut, sehingga “their diet” berarti makanan orangutan Sumatra."
         },
         {
-          "title": "Habitat",
-          "explanation": "Tentukan di mana hewan itu biasanya hidup menurut teks, bukan berdasarkan tebakan.",
-          "english": "A komodo has strong legs.",
-          "indonesian": "Seekor komodo mempunyai kaki yang kuat.",
-          "why": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang."
+          "title": "Hubungkan perilaku dengan peran ekologis",
+          "phase": "Connect",
+          "explanation": "Report text dapat menjelaskan mengapa suatu kebiasaan hewan penting bagi lingkungan. Hubungkan informasi tentang makanan dan pergerakan hewan dengan akibat yang disebutkan penulis.",
+          "english": "By eating fruit and moving through the forest, they help spread seeds to new places.",
+          "indonesian": "Dengan memakan buah dan bergerak di dalam hutan, mereka membantu menyebarkan biji ke tempat lain.",
+          "why": "Kalimat ini menghubungkan kebiasaan makan buah dengan penyebaran biji. Peran tersebut membantu tumbuhan tumbuh di lokasi lain. Jadi, informasi makanan juga dapat menjelaskan fungsi hewan dalam ekosistem."
         },
         {
-          "title": "Perilaku",
-          "explanation": "Kenali tindakan atau kebiasaan umum hewan dari informasi yang didukung teks.",
-          "english": "I saw a komodo yesterday.",
-          "indonesian": "Saya melihat komodo kemarin.",
-          "why": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
-        },
-        {
-          "title": "Makanan",
-          "explanation": "Bedakan apa yang dimakan hewan dari perkiraan pembaca mengenai kebiasaannya.",
-          "english": "Many sea turtles return to nesting beaches to lay eggs.",
-          "indonesian": "Banyak penyu laut kembali ke pantai tempat bertelur untuk meletakkan telur.",
-          "why": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus."
-        },
-        {
-          "title": "Kalimat fakta umum",
-          "explanation": "Perhatikan bagaimana [[simple present]] sering menjelaskan ciri dan kebiasaan spesies.",
-          "english": "Orangutans build nests in trees where they rest.",
-          "indonesian": "Orangutan membangun sarang di pohon sebagai tempat beristirahat.",
-          "why": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu."
-        },
-        {
-          "title": "Saring klaim berlebihan",
-          "explanation": "Satu ciri yang disebut tidak membuktikan bahwa semua individu selalu memiliki ciri tersebut tanpa pengecualian.",
-          "english": "Although komodos are heavy, they can move quickly over short distances.",
-          "indonesian": "Meskipun berat, komodo dapat bergerak cepat dalam jarak pendek.",
-          "why": "“Although” memperkenalkan dua fakta yang tampak berlawanan."
-        },
-        {
-          "title": "Susun laporan ringkas",
-          "explanation": "Gabungkan klasifikasi, ciri, habitat, dan perilaku menjadi laporan pendek yang hanya memuat informasi yang didukung.",
-          "english": "Protected habitats help these animals survive when food sources change.",
-          "indonesian": "Habitat yang dilindungi membantu hewan-hewan ini bertahan saat sumber makanan berubah.",
-          "why": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita."
+          "title": "Periksa klaim berdasarkan bukti",
+          "phase": "Evaluate",
+          "explanation": "Jangan memperluas informasi melebihi yang dinyatakan teks. Kata seperti [[mainly]] membatasi cakupan pernyataan. Bandingkan setiap klaim dengan lokasi, ciri, atau ancaman yang benar-benar disebutkan.",
+          "english": "Today, they live mainly in the northern part of the island, including forest areas in Aceh and North Sumatra.",
+          "indonesian": "Saat ini, mereka hidup terutama di bagian utara pulau tersebut, termasuk kawasan hutan di Aceh dan Sumatra Utara.",
+          "why": "Kata “mainly” berarti terutama, bukan di seluruh wilayah. Teks memberikan wilayah yang lebih terbatas, sehingga pembaca tidak boleh mengubahnya menjadi klaim bahwa spesies ini hidup di semua bagian Indonesia.",
+          "check": "Seorang pembaca menyimpulkan bahwa orangutan Sumatra hidup di seluruh wilayah Indonesia. Apakah simpulan itu didukung teks? Gunakan bukti lokasi untuk menjelaskan.",
+          "checkAnswer": "Tidak. Teks menyebut bahwa orangutan Sumatra terutama hidup di bagian utara Pulau Sumatra, termasuk kawasan hutan di Aceh dan Sumatra Utara. Teks tidak menyatakan bahwa spesies ini hidup di seluruh wilayah Indonesia."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Komodo dragons are large reptiles found on several Indonesian islands. They have strong legs and sharp claws. They eat meat and can hunt other animals. They usually live in dry forests and grasslands. Their habitat needs protection.",
-      "modelIndonesian": "Komodo adalah reptil besar yang ditemukan di beberapa pulau Indonesia. Hewan ini memiliki kaki yang kuat dan cakar yang tajam. Komodo memakan daging dan dapat berburu hewan lain. Mereka biasanya hidup di hutan kering dan padang rumput. Habitat mereka perlu dilindungi."
-    },
-    {
-      "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, bagian awal mengidentifikasi kelompok yang dibahas, sedangkan bagian berikutnya menjelaskan ciri, habitat, atau kebiasaan yang umum. Jangan mencampur fakta spesies dengan kisah satu hewan tertentu."
-    },
-    {
-      "type": "text",
-      "text": "Bayangkan kamu menjelaskan komodo kepada teman yang belum pernah melihatnya. Kita mulai dari informasi umum, lalu menyebut cirinya, bukan pengalaman pribadi."
-    },
-    {
-      "type": "rule",
-      "text": "[[Report text]] menjelaskan kelompok atau jenis secara umum. Gunakan [[simple present]] untuk fakta yang biasanya berlaku, bukan cerita satu kejadian."
-    },
-    {
-      "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
-    },
-    {
-      "type": "mistake",
-      "incorrect": "All komodos live in one zoo.",
-      "correct": "Komodo dragons live on several Indonesian islands.",
-      "explanation": "Klaim pertama terlalu sempit dan bertentangan dengan fakta di teks."
+      ]
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Bagaimana report text disusun?"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Susunan umum report text membantu pembaca bergerak dari pengenalan topik ke rincian pendukung. Nama bagian dapat berbeda pada buku atau sumber lain, tetapi fungsi utamanya tetap memperkenalkan kelompok yang dibahas lalu menjelaskan fakta-fakta tentangnya."
     },
     {
-      "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Komodo dragons are large lizards.",
-          "indonesian": "Komodo adalah kadal berukuran besar.",
-          "note": "Kalimat ini menjelaskan jenis hewan secara umum."
-        },
-        {
-          "english": "They live on several Indonesian islands.",
-          "indonesian": "Mereka hidup di beberapa pulau Indonesia.",
-          "note": "Kata “They” merujuk pada kelompok hewan yang sedang dibahas."
-        },
-        {
-          "english": "Adult komodos can eat large prey.",
-          "indonesian": "Komodo dewasa dapat memakan mangsa berukuran besar.",
-          "note": "Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin."
-        }
+      "type": "table",
+      "headers": [
+        "Bagian teks",
+        "Fungsi",
+        "Contoh dari bacaan"
+      ],
+      "rows": [
+        [
+          "General classification",
+          "Memperkenalkan spesies atau kelompok serta wilayah asalnya.",
+          "“Sumatran orangutans are great apes native to Sumatra, Indonesia.”"
+        ],
+        [
+          "Description",
+          "Menjelaskan ciri, habitat, makanan, perilaku, peran, atau ancaman.",
+          "Lengan panjang, kehidupan di pepohonan, makanan, penyebaran biji, dan ancaman konservasi."
+        ]
       ]
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Sumatran orangutans live throughout Indonesia.",
+      "correct": "Sumatran orangutans live mainly in the northern part of Sumatra.",
+      "explanation": "Pernyataan pertama terlalu luas. Bacaan menyebut wilayah utara Sumatra, termasuk Aceh dan Sumatra Utara. Kata “mainly” juga menunjukkan bahwa informasi lokasi perlu dibaca secara cermat, bukan diubah menjadi klaim tanpa batas."
     },
     {
       "type": "checkpoint",
-      "id": "guided-grade9-report-animals",
-      "prompt": "Which sentence means “Mereka hidup di beberapa pulau Indonesia.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Mereka hidup di beberapa pulau Indonesia.”?",
+      "id": "guided-grade9-report-animals-classification",
+      "prompt": "Which sentence gives the general classification of the species?",
+      "translation": "Kalimat mana yang memberikan klasifikasi umum spesies tersebut?",
       "choices": [
-        "Komodo dragons are large lizards.",
-        "They live on several Indonesian islands.",
-        "Adult komodos can eat large prey."
+        "The species is classified as Critically Endangered.",
+        "Sumatran orangutans are great apes native to Sumatra, Indonesia.",
+        "They build nests in trees for resting and sleeping."
       ],
       "answer": 1,
       "translationChoices": [
-        "Komodo adalah kadal berukuran besar.",
-        "Mereka hidup di beberapa pulau Indonesia.",
-        "Komodo dewasa dapat memakan mangsa berukuran besar."
+        "Spesies ini dikategorikan Kritis (Critically Endangered).",
+        "Orangutan Sumatra adalah kera besar yang berasal dari Pulau Sumatra, Indonesia.",
+        "Mereka membangun sarang di pohon untuk beristirahat dan tidur."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “They” merujuk pada kelompok hewan yang sedang dibahas.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
-    },
-    {
-      "type": "breakdown",
-      "sentence": "Komodo dragons are large lizards.",
-      "parts": [
-        {
-          "english": "Komodo",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
-        },
-        {
-          "english": "dragons are large lizards.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Komodo adalah kadal berukuran besar."
-        }
-      ]
+      "explanation": "Kalimat kedua memperkenalkan spesies, kelompok hewan, dan wilayah asalnya. Kalimat pertama menyebut status konservasi, sedangkan kalimat ketiga merupakan rincian perilaku.",
+      "hint": "Cari kalimat yang menjawab “hewan apa yang dibahas?” sebelum mencari rincian tentang ciri atau ancamannya."
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Bedakan fakta umum dan pengalaman satu kali",
       "collapsed": false,
       "items": [
         {
-          "english": "A komodo has strong legs.",
-          "indonesian": "Seekor komodo mempunyai kaki yang kuat.",
-          "note": "Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang."
+          "english": "Sumatran orangutans build nests in trees.",
+          "indonesian": "Orangutan Sumatra membangun sarang di pohon.",
+          "note": "Kalimat ini menyampaikan kebiasaan umum spesies, sehingga sesuai dengan tujuan report text."
         },
         {
-          "english": "I saw a komodo yesterday.",
-          "indonesian": "Saya melihat komodo kemarin.",
-          "note": "Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
-        },
-        {
-          "english": "Komodo dragons are large reptiles that live on several Indonesian islands.",
-          "indonesian": "Komodo adalah reptil besar yang hidup di beberapa pulau Indonesia.",
-          "note": "Kalimat menjelaskan ciri kelompok hewan, bukan petualangan satu komodo."
-        },
-        {
-          "english": "Many sea turtles return to nesting beaches to lay eggs.",
-          "indonesian": "Banyak penyu laut kembali ke pantai tempat bertelur untuk meletakkan telur.",
-          "note": "[[Many sea turtles]] menunjukkan perilaku umum suatu kelompok, bukan satu kejadian khusus."
-        },
-        {
-          "english": "Orangutans build nests in trees where they rest.",
-          "indonesian": "Orangutan membangun sarang di pohon sebagai tempat beristirahat.",
-          "note": "Kalimat menjelaskan kebiasaan umum hewan, bukan kegiatan satu orangutan bernama tertentu."
+          "english": "We saw an orangutan at the zoo yesterday.",
+          "indonesian": "Kami melihat seekor orangutan di kebun binatang kemarin.",
+          "note": "Kalimat ini menceritakan satu pengalaman pada waktu tertentu. Isinya lebih sesuai dengan recount daripada laporan fakta umum tentang spesies."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Fakta jenis dapat dijelaskan dengan bentuk waktu sekarang. Kata “yesterday” menandai pengalaman pribadi, bukan isi utama laporan fakta."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Although komodos are heavy, they can move quickly over short distances.",
-          "indonesian": "Meskipun berat, komodo dapat bergerak cepat dalam jarak pendek.",
-          "note": "“Although” memperkenalkan dua fakta yang tampak berlawanan."
-        },
-        {
-          "english": "Protected habitats help these animals survive when food sources change.",
-          "indonesian": "Habitat yang dilindungi membantu hewan-hewan ini bertahan saat sumber makanan berubah.",
-          "note": "Kalimat menambahkan informasi lingkungan, bukan tokoh cerita."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
-    },
-    {
-      "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
-    },
-    {
-      "type": "example",
-      "text": "Komodo dragons are large lizards found on several islands in eastern Indonesia. They have powerful legs and a strong sense of smell. Komodos eat other animals, and adults may consume large prey. Their natural habitats include dry forests and grasslands. Protected areas help reduce human disturbance, but conservation also depends on caring for the wider environment. Unlike a story about one visit to a zoo, this report describes characteristics of the species.",
-      "note": "Ringkasan bantuan: Menjelaskan fakta umum tentang komodo. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "prompt": "Why does the report include the sentence about spreading seeds?",
+      "translation": "Mengapa laporan tersebut menyertakan kalimat tentang penyebaran biji?",
+      "answer": "Kalimat itu menjelaskan peran orangutan dalam ekosistem. Informasi tersebut menunjukkan bahwa kebiasaan makan buah dan pergerakan orangutan juga berpengaruh pada penyebaran tumbuhan, bukan sekadar menjadi daftar ciri hewan."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
-        "[[Report text]] menjelaskan kelompok atau jenis secara umum. Gunakan [[simple present]] untuk fakta yang biasanya berlaku, bukan cerita satu kejadian.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "General classification memperkenalkan spesies atau kelompok yang dibahas dan memberi batas topik.",
+        "Description menyajikan fakta pendukung tentang ciri, habitat, makanan, perilaku, peran, atau ancaman.",
+        "Kata rujukan seperti they dan their menghubungkan kalimat dengan topik yang sama.",
+        "Klaim harus sesuai dengan bukti; jangan memperluas lokasi atau sifat melebihi informasi dalam bacaan."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apakah kalimat menjelaskan kelompok hewan atau satu kejadian khusus?",
-      "model": "Komodo dragons are large reptiles that live on several Indonesian islands.",
-      "modelTranslation": "Komodo adalah reptil besar yang hidup di beberapa pulau Indonesia.",
-      "criteria": "Kalimat menjelaskan ciri kelompok hewan, bukan petualangan satu komodo."
+      "title": "Tulis laporan singkat tentang hewan",
+      "prompt": "Pilih satu hewan Indonesia yang kamu kenal. Tulis 3–4 kalimat bahasa Inggris: sebutkan kelompok atau spesiesnya, satu ciri, habitat atau makanannya, dan satu fakta umum lainnya. Pastikan setiap kalimat didukung sumber tepercaya dan jangan menambahkan klaim yang belum kamu periksa.",
+      "model": "Sumatran orangutans are great apes from Sumatra. They live mainly in northern forest areas. They eat fruit and build nests in trees.",
+      "modelTranslation": "Orangutan Sumatra adalah kera besar dari Sumatra. Mereka terutama hidup di kawasan hutan bagian utara. Mereka memakan buah dan membangun sarang di pohon.",
+      "criteria": "Tulisan dimulai dengan pengenalan hewan, lalu memuat rincian faktual yang relevan. Gunakan kalimat umum untuk menjelaskan spesies, periksa kebenaran informasi, dan hindari klaim mutlak yang tidak didukung sumber."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata penting",
+      "title": "Bekal kosakata",
       "items": [
         {
-          "english": "species",
-          "indonesian": "spesies"
+          "english": "great ape",
+          "indonesian": "kera besar"
+        },
+        {
+          "english": "native to",
+          "indonesian": "berasal dari"
         },
         {
           "english": "habitat",
-          "indonesian": "habitat"
+          "indonesian": "habitat atau tempat hidup alami"
         },
         {
-          "english": "prey",
-          "indonesian": "mangsa"
+          "english": "diet",
+          "indonesian": "pola atau jenis makanan"
         },
         {
-          "english": "protect",
-          "indonesian": "melindungi"
+          "english": "spread seeds",
+          "indonesian": "menyebarkan biji"
         },
         {
-          "english": "adult",
-          "indonesian": "dewasa"
+          "english": "Critically Endangered",
+          "indonesian": "Kritis, kategori risiko kepunahan yang sangat tinggi"
         }
       ]
     }
@@ -288,45 +197,63 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “dragons”?",
+      "prompt": "What information does the first sentence provide?",
       "choices": [
-        "Komodo dragons are large lizards.",
-        "They live on several Indonesian islands.",
-        "Adult komodos can eat large prey.",
-        "A komodo has strong legs."
+        "The species and the broad animal group it belongs to.",
+        "A personal event that happened yesterday.",
+        "A list of all forests in Indonesia."
       ],
       "answer": 0,
-      "explanation": "Ungkapan [[dragons]] muncul dalam kalimat [[Komodo dragons are large lizards.]]. Kalimat ini menjelaskan jenis hewan secara umum.",
+      "explanation": "Kalimat pertama menyebut orangutan Sumatra dan mengelompokkannya sebagai great apes atau kera besar. Kalimat itu juga menyebut Sumatra sebagai wilayah asal.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “dragons”?",
+        "prompt": "Informasi apa yang diberikan kalimat pertama?",
         "choices": [
-          "Komodo adalah kadal berukuran besar.",
-          "Mereka hidup di beberapa pulau Indonesia.",
-          "Komodo dewasa dapat memakan mangsa berukuran besar.",
-          "Seekor komodo mempunyai kaki yang kuat."
+          "Spesies dan kelompok hewan yang lebih luas tempatnya dikelompokkan.",
+          "Peristiwa pribadi yang terjadi kemarin.",
+          "Daftar semua hutan di Indonesia."
         ]
-      }
+      },
+      "skill": "General Classification"
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “komodos”?",
+      "prompt": "Which detail describes the orangutans’ diet?",
       "choices": [
-        "Komodo dragons are large lizards.",
-        "Adult komodos can eat large prey.",
-        "They live on several Indonesian islands.",
-        "A komodo has strong legs."
+        "They build nests in trees.",
+        "They eat fruit, leaves, flowers, and insects.",
+        "They live mainly in northern Sumatra."
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[komodos]] muncul dalam kalimat [[Adult komodos can eat large prey.]]. Kata “can” menunjukkan kemampuan, bukan peristiwa kemarin.",
+      "explanation": "Bagian tentang diet menyebut buah sebagai makanan utama, lalu menambahkan daun, bunga, dan serangga. Pilihan lain membahas perilaku bersarang atau wilayah hidup.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “komodos”?",
+        "prompt": "Rincian mana yang menjelaskan makanan orangutan?",
         "choices": [
-          "Komodo adalah kadal berukuran besar.",
-          "Komodo dewasa dapat memakan mangsa berukuran besar.",
-          "Mereka hidup di beberapa pulau Indonesia.",
-          "Seekor komodo mempunyai kaki yang kuat."
+          "Mereka membangun sarang di pohon.",
+          "Mereka memakan buah, daun, bunga, dan serangga.",
+          "Mereka terutama hidup di Sumatra bagian utara."
         ]
-      }
+      },
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "p3",
+      "prompt": "What can be inferred from the sentence about spreading seeds?",
+      "choices": [
+        "Orangutans help plants spread to different places.",
+        "Orangutans eat only one kind of fruit.",
+        "Orangutans never move between trees."
+      ],
+      "answer": 0,
+      "explanation": "Teks menghubungkan gerak orangutan dan kebiasaan makan buah dengan penyebaran biji. Dari hubungan itu, pembaca dapat menyimpulkan bahwa orangutan membantu tumbuhan menyebar ke lokasi berbeda.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari kalimat tentang penyebaran biji?",
+        "choices": [
+          "Orangutan membantu tumbuhan menyebar ke tempat yang berbeda.",
+          "Orangutan hanya memakan satu jenis buah.",
+          "Orangutan tidak pernah berpindah di antara pepohonan."
+        ]
+      },
+      "skill": "Making Inferences"
     }
   ],
   "assessments": [

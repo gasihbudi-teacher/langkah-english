@@ -1,12 +1,12 @@
 {
   "id": "grade9-report-animals-practice",
-  "questionCount": 4,
-  "durationSeconds": 360,
+  "questionCount": 7,
+  "durationSeconds": 420,
   "passages": [
     {
-      "id": "text-report-animals",
-      "title": "Report Text: Indonesian Wildlife",
-      "text": "Komodo dragons are large lizards found on several islands in eastern Indonesia. They have powerful legs and a strong sense of smell. Komodos eat other animals, and adults may consume large prey. Their natural habitats include dry forests and grasslands. Protected areas help reduce human disturbance, but conservation also depends on caring for the wider environment. Unlike a story about one visit to a zoo, this report describes characteristics of the species.",
+      "id": "bali-myna-report",
+      "title": "Report Text: The Bali Myna",
+      "text": "The Bali myna is a songbird native to Bali, Indonesia. It is known for its mostly white feathers, black tips on its wings and tail, and blue skin around its eyes. The bird lives in open forest areas in the north-west of Bali. It searches for food on the ground and eats fruit, seeds, and insects. Bali mynas build nests in holes in trees. Illegal trapping for the pet trade and habitat loss threaten the species. Conservation programmes include breeding Bali mynas and releasing some birds into the wild. These efforts support the species, but it remains Critically Endangered and still needs protection.",
       "original": true
     }
   ],
@@ -15,97 +15,169 @@
       "id": "q1",
       "prompt": "What is the main purpose of the passage?",
       "choices": [
-        "To describe common facts about komodo dragons",
-        "To recount a student’s visit to a zoo",
-        "To explain how to cook food for reptiles",
-        "To advertise a wildlife holiday"
+        "To present general facts about the Bali myna.",
+        "To tell a personal story about finding a bird.",
+        "To give instructions for building a bird nest.",
+        "To advertise a trip to Bali."
       ],
       "answer": 0,
-      "explanation": "Perhatikan keseluruhan teks; ringkasan paling tepat harus mencakup topik serta gagasan utamanya.",
+      "explanation": "Teks memperkenalkan spesies, lalu menjelaskan ciri fisik, habitat, makanan, ancaman, dan upaya konservasi. Susunan tersebut menunjukkan tujuan laporan fakta umum, bukan cerita pribadi atau petunjuk langkah kerja.",
       "translationId": {
-        "prompt": "Apa tujuan utama bacaan?",
+        "prompt": "Apa tujuan utama bacaan tersebut?",
         "choices": [
-          "Menjelaskan fakta umum tentang komodo",
-          "Menceritakan kunjungan seorang siswa ke kebun binatang",
-          "Menjelaskan cara memasak makanan reptil",
-          "Mengiklankan liburan wisata alam"
+          "Menyajikan fakta umum tentang jalak Bali.",
+          "Menceritakan pengalaman pribadi ketika menemukan seekor burung.",
+          "Memberikan petunjuk untuk membuat sarang burung.",
+          "Mengiklankan perjalanan wisata ke Bali."
         ]
       },
       "skill": "Main Idea",
-      "passageId": "text-report-animals",
-      "evidence": "Komodo dragons are large lizards found on several islands in eastern Indonesia."
+      "passageId": "bali-myna-report",
+      "evidence": "The Bali myna is a songbird native to Bali, Indonesia."
     },
     {
       "id": "q2",
-      "prompt": "Where can komodo dragons be found?",
+      "prompt": "Where does the Bali myna live in the wild?",
       "choices": [
-        "Only in large cities",
-        "In every country of the world",
-        "Only inside laboratories",
-        "On several eastern Indonesian islands"
+        "Across all Indonesian islands.",
+        "In large cities throughout Java.",
+        "Only inside wildlife laboratories.",
+        "In open forest areas in the north-west of Bali."
       ],
       "answer": 3,
-      "explanation": "Teks menyebut beberapa pulau di Indonesia bagian timur.",
+      "explanation": "Bacaan secara langsung menyebut kawasan hutan terbuka di bagian barat laut Bali. Pilihan lain memperluas wilayah hidup tanpa dukungan teks atau menyebut tempat yang tidak dinyatakan.",
       "translationId": {
-        "prompt": "Di mana komodo dapat ditemukan?",
+        "prompt": "Di mana jalak Bali hidup di alam liar?",
         "choices": [
-          "Hanya di kota besar",
-          "Di semua negara di dunia",
-          "Hanya di laboratorium",
-          "Di beberapa pulau Indonesia bagian timur"
+          "Di seluruh pulau di Indonesia.",
+          "Di kota-kota besar di seluruh Jawa.",
+          "Hanya di dalam laboratorium satwa liar.",
+          "Di kawasan hutan terbuka di bagian barat laut Bali."
         ]
       },
       "skill": "Supporting Details",
-      "passageId": "text-report-animals",
-      "evidence": "found on several islands in eastern Indonesia"
+      "passageId": "bali-myna-report",
+      "evidence": "The bird lives in open forest areas in the north-west of Bali."
     },
     {
       "id": "q3",
-      "prompt": "Why does the author mention a zoo visit?",
+      "prompt": "Which physical feature is mentioned in the passage?",
       "choices": [
-        "To prove that komodos live only in zoos",
-        "To show that reports and personal recounts have different purposes",
-        "To recommend a particular zoo",
-        "To say conservation is unnecessary"
+        "A long red tail.",
+        "Blue skin around its eyes.",
+        "A yellow body with green wings.",
+        "Black feathers covering its whole body."
       ],
       "answer": 1,
-      "explanation": "Kalimat terakhir membandingkan laporan fakta dengan cerita pengalaman pribadi.",
+      "explanation": "Bagian awal bacaan menyebut bulu yang sebagian besar putih, ujung sayap dan ekor berwarna hitam, serta kulit biru di sekitar mata. Pilihan kedua cocok dengan salah satu ciri yang dinyatakan secara langsung.",
       "translationId": {
-        "prompt": "Mengapa penulis menyebut kunjungan kebun binatang?",
+        "prompt": "Ciri fisik mana yang disebutkan dalam bacaan?",
         "choices": [
-          "Untuk membuktikan komodo hanya hidup di kebun binatang",
-          "Untuk membedakan tujuan report dan recount pribadi",
-          "Untuk merekomendasikan kebun binatang tertentu",
-          "Untuk menyatakan konservasi tidak diperlukan"
+          "Ekor panjang berwarna merah.",
+          "Kulit biru di sekitar matanya.",
+          "Tubuh kuning dengan sayap hijau.",
+          "Bulu hitam yang menutupi seluruh tubuhnya."
         ]
       },
-      "skill": "Text Organization",
-      "passageId": "text-report-animals",
-      "evidence": "Unlike a story about one visit to a zoo"
+      "skill": "Supporting Details",
+      "passageId": "bali-myna-report",
+      "evidence": "blue skin around its eyes"
     },
     {
       "id": "q4",
-      "prompt": "In the passage, what does “habitats” refer to?",
+      "prompt": "In the sentence “It searches for food on the ground,” what does “It” refer to?",
       "choices": [
-        "Types of food",
-        "The animals’ colours",
-        "The animals’ natural living places",
-        "Groups of tourists"
+        "The north-west of Bali.",
+        "The forest area.",
+        "The Bali myna.",
+        "The pet trade."
       ],
       "answer": 2,
-      "explanation": "Hutan kering dan padang rumput adalah tempat komodo hidup.",
+      "explanation": "Kata “It” menggantikan topik yang sedang dibahas, yaitu the Bali myna. Kata ganti tersebut membuat penulis tidak perlu mengulang nama burung pada setiap kalimat.",
       "translationId": {
-        "prompt": "Apa arti “habitats” dalam bacaan?",
+        "prompt": "Dalam kalimat “It searches for food on the ground,” kata “It” merujuk pada apa?",
         "choices": [
-          "Jenis makanan",
-          "Warna hewan",
-          "Tempat tinggal alami hewan",
-          "Kelompok wisatawan"
+          "Bagian barat laut Bali.",
+          "Kawasan hutan.",
+          "Jalak Bali.",
+          "Perdagangan hewan peliharaan."
+        ]
+      },
+      "skill": "Reference Questions",
+      "passageId": "bali-myna-report",
+      "evidence": "The bird lives in open forest areas in the north-west of Bali. It searches for food on the ground"
+    },
+    {
+      "id": "q5",
+      "prompt": "Which phrase is closest in meaning to “illegal trapping” in the passage?",
+      "choices": [
+        "Protecting birds in forests.",
+        "Catching birds against the law.",
+        "Feeding birds in zoos.",
+        "Counting birds in trees."
+      ],
+      "answer": 1,
+      "explanation": "“Illegal” berarti melanggar hukum, sedangkan “trapping” berarti menangkap atau menjebak. Dalam konteks bacaan, frasa itu menjelaskan penangkapan burung secara melanggar hukum untuk diperdagangkan sebagai hewan peliharaan.",
+      "translationId": {
+        "prompt": "Frasa mana yang paling dekat maknanya dengan “illegal trapping” dalam bacaan?",
+        "choices": [
+          "Melindungi burung di hutan.",
+          "Menangkap burung dengan cara yang melanggar hukum.",
+          "Memberi makan burung di kebun binatang.",
+          "Menghitung burung di pepohonan."
         ]
       },
       "skill": "Vocabulary in Context",
-      "passageId": "text-report-animals",
-      "evidence": "Their natural habitats include dry forests and grasslands."
+      "passageId": "bali-myna-report",
+      "evidence": "Illegal trapping for the pet trade"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which two threats are mentioned in the passage?",
+      "choices": [
+        "Heavy rain and cold weather.",
+        "Noise and road traffic.",
+        "Food shortages and long migration.",
+        "Illegal trapping and habitat loss."
+      ],
+      "answer": 3,
+      "explanation": "Teks menyebut dua ancaman secara langsung, yaitu penangkapan ilegal untuk perdagangan hewan peliharaan dan hilangnya habitat. Pilihan lain tidak disebutkan sebagai ancaman dalam bacaan.",
+      "translationId": {
+        "prompt": "Dua ancaman apa yang disebutkan dalam bacaan?",
+        "choices": [
+          "Hujan lebat dan cuaca dingin.",
+          "Kebisingan dan lalu lintas jalan.",
+          "Kekurangan makanan dan migrasi panjang.",
+          "Penangkapan ilegal dan hilangnya habitat."
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "bali-myna-report",
+      "evidence": "Illegal trapping for the pet trade and habitat loss threaten the species."
+    },
+    {
+      "id": "q7",
+      "prompt": "What can be inferred from the final sentence?",
+      "choices": [
+        "Breeding programmes have removed every threat.",
+        "The species no longer needs protection.",
+        "Conservation efforts help, but continued protection is still necessary.",
+        "The bird is now common across Indonesia."
+      ],
+      "answer": 2,
+      "explanation": "Kalimat terakhir menyatakan bahwa upaya konservasi mendukung spesies tersebut, tetapi jalak Bali masih berstatus Critically Endangered dan tetap membutuhkan perlindungan. Artinya, upaya yang sudah dilakukan belum menghilangkan seluruh risiko.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari kalimat terakhir?",
+        "choices": [
+          "Program penangkaran telah menghilangkan semua ancaman.",
+          "Spesies ini tidak lagi membutuhkan perlindungan.",
+          "Upaya konservasi membantu, tetapi perlindungan berkelanjutan masih diperlukan.",
+          "Burung ini sekarang umum ditemukan di seluruh Indonesia."
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "bali-myna-report",
+      "evidence": "These efforts support the species, but it remains Critically Endangered and still needs protection."
     }
   ]
 }

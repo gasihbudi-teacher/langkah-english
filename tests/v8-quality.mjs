@@ -8,7 +8,7 @@ const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const catalog=JSON.parse(read('data/catalog.json'));
 const v7=new Set(JSON.parse(read('data/v7-resource-ids.json')));
 // Historical V8 regression suite: validate ONLY the immutable V8 baseline.
-// Later authoring updates must not change the original V8 count assertions.
+// Later authoring updates must not change the original V8 resource inventory. Re-authored lessons use their dedicated V13-E1 editorial regressions.
 const v8Baseline=new Set(JSON.parse(read('data/v8-resource-ids.json')));
 assert.equal(v8Baseline.size,91,'Original V8 snapshot must contain 91 unique resource IDs');
 for(const id of v8Baseline)assert.ok(catalog.resources.some(r=>r.id===id),'Original V8 resource missing '+id);
@@ -39,6 +39,17 @@ for(const m of entries){
   assert.equal(d.assessments.length,1);
   assert.ok(m.prerequisites?.length>=1,'prerequisite missing '+m.id);
   const scaffold=d.blocks.filter(b=>b.type==='scaffold');assert.equal(scaffold.length,1);assert.equal(d.blocks[0].type,'definition');
+  if(m.id==='grade9-report-animals'){
+   assert.equal(scaffold[0].steps.length,5);
+   assert.equal(d.blocks.filter(b=>b.type==='vocabulary').length,1);
+   assert.equal(d.blocks.at(-1).type,'vocabulary');
+   const groups=d.blocks.filter(b=>b.type==='example_group');
+   assert.equal(groups.length,1);assert.equal(groups[0].collapsed,false);assert.equal(groups[0].items.length,2);
+   exampleCount+=2;
+   const checkpoint=d.blocks.filter(b=>b.type==='checkpoint');assert.equal(checkpoint.length,1);checks++;
+   assert.equal(d.practice.length,3);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
+   continue;
+  }
   assert.ok(scaffold[0].steps.length>=2&&scaffold[0].steps.length<=20);
   assert.ok(scaffold[0].steps.filter(s=>s.english).length>=2&&scaffold[0].steps.filter(s=>s.english).every(s=>s.indonesian&&s.why));
   const groups=d.blocks.filter(b=>b.type==='example_group');
@@ -60,6 +71,12 @@ for(const m of entries){
   for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);
   newQuestions+=d.practice.length;
  }else{
+  if(m.id==='grade9-report-animals-practice'){
+   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.passages.length,1);
+   assert.ok(d.passages[0].text.trim().split(/\s+/).length>=65);
+   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);}
+   nPassages++;newQuestions+=d.questions.length;continue;
+  }
   assert.equal(d.questions.length,4);
   assert.equal(d.questionCount,4);
   assert.equal(d.passages.length,1);
@@ -87,9 +104,9 @@ function checkQuestion(q,ctx){
  assert.ok(q.translationId.choices.every(x=>x.trim()),ctx+' empty Indonesian gloss');
  assert.ok(q.explanation.trim(),ctx+' missing explanation');
 }
-assert.equal(newQuestions,138);
+assert.equal(newQuestions,142);
 assert.equal(checks,23);
-assert.ok(exampleCount>=230);
+assert.ok(exampleCount>=222,'Re-authored Grade 9 report lesson has its own smaller, objective-led example set.');
 assert.equal(nPassages,23);
 // V7 practice signatures are deliberately unchanged; historical tests verify the exact SHA-256.
 const scoring=read('js/quiz.js');

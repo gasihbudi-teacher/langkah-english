@@ -1840,12 +1840,12 @@
       ],
       "file": "data/lessons/grade9-report-animals.json",
       "order": 300,
-      "estimatedMinutes": 28,
+      "estimatedMinutes": 30,
       "prerequisites": [
         "simple-present"
       ],
       "title": "Report Text: Indonesian Wildlife",
-      "description": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+      "description": "Mengenali klasifikasi umum, mengelompokkan fakta tentang ciri dan habitat, menelusuri kata rujukan, serta menilai klaim berdasarkan bukti.",
       "placements": [
         {
           "pathway": "school",
@@ -1854,7 +1854,15 @@
       ],
       "difficulty": "Beginner",
       "grammarTopics": [],
-      "readingSkills": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Reference Questions",
+        "Text Organization",
+        "Vocabulary in Context",
+        "Making Inferences",
+        "Fact vs Claim"
+      ],
       "tags": [
         "Indonesian wildlife",
         "Report Text",
@@ -1881,8 +1889,8 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 301,
-      "title": "Report Text: Indonesian Wildlife",
-      "description": "Membedakan fakta umum tentang spesies dari deskripsi satu hewan tertentu.",
+      "title": "Grade 9 Report Text Check: The Bali Myna",
+      "description": "Latihan mandiri dengan bacaan baru tentang jalak Bali untuk menguji pemahaman report text.",
       "placements": [
         {
           "pathway": "school",
@@ -1891,7 +1899,13 @@
       ],
       "difficulty": "Beginner",
       "grammarTopics": [],
-      "readingSkills": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Reference Questions",
+        "Vocabulary in Context",
+        "Making Inferences"
+      ],
       "tags": [
         "Indonesian wildlife",
         "Report Text",
