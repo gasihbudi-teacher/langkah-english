@@ -12,7 +12,7 @@ const rxIndonesian=/\b(apa|manakah|pilih|kalimat|yang|adalah|karena|menurut|sete
 let all=0,fullTranslated=0,promptTranslated=0;
 for(const resource of cat.resources){
  const data=JSON.parse(read(resource.file));const questions=resource.type==='lesson'?data.practice:data.questions;
- if(resource.id==='grade9-reading')continue; // Intentionally revised in V13-E1; covered by tests/v13e1-grade9-reading.mjs.
+ if(resource.id==='grade9-reading'||resource.id==='grade10-recount')continue; // Intentionally revised in V13-E1; covered by dedicated editorial regressions.
  for(const q of questions){
   all++;
   assert.ok(!rxIndonesian.test(q.prompt),`Non-English question ${resource.id}/${q.id}: ${q.prompt}`);
@@ -30,7 +30,7 @@ for(const resource of cat.resources){
   assert.ok(Math.max(...totals)-Math.min(...totals)<=1,`Answers clumped: ${resource.id}, ${totals.join(',')}`);
  }
 }
-assert.equal(all,232);
+assert.equal(all,230);
 assert.equal(promptTranslated,all);
 for(const id of ['utbk-mock-a','utbk-mock-b','utbk-mock-c','utbk-reading-lab']){
  const d=JSON.parse(read('data/quizzes/'+id+'.json'));

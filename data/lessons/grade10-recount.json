@@ -1,271 +1,380 @@
 {
   "id": "grade10-recount",
   "objectives": [
-    "Mengenali urutan kejadian dan tujuan [[recount text]].",
-    "Menemukan penanda waktu dan bentuk lampau.",
-    "Membedakan kejadian dari refleksi penulis."
+    "Menganalisis hubungan waktu ketika dua tindakan berlangsung bersamaan dalam [[recount text]].",
+    "Membedakan tindakan yang sedang berlangsung dengan kejadian yang muncul atau mengubah situasi melalui [[past continuous]] dan [[simple past]].",
+    "Menelusuri hubungan sebab, respons, dan hasil menggunakan petunjuk seperti [[because]], [[so]], [[before]], dan [[after]].",
+    "Menyusun kembali kronologi dari bukti teks serta membedakan kejadian, hasil, dan refleksi penulis.",
+    "Membuat ringkasan recount yang mempertahankan hubungan antarperistiwa tanpa menambahkan informasi yang tidak didukung teks."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Grade 10: follow the story in a recount?",
-      "text": "[[Recount text]] adalah teks yang menceritakan kembali pengalaman atau kejadian nyata yang sudah berlangsung."
+      "title": "Membaca recount lebih dalam: hubungan antarperistiwa",
+      "text": "[[Recount text]] menceritakan kembali peristiwa yang telah terjadi. Di kelas 9, kamu telah berlatih mengenali orientasi dan mengikuti urutan kejadian. Sekarang, fokusnya berkembang: pembaca perlu melihat tindakan yang berlangsung bersamaan, kejadian yang muncul ketika tindakan lain sedang berlangsung, serta alasan dan akibat dari respons tokoh. Struktur orientasi, rangkaian peristiwa, dan refleksi penutup tetap dapat digunakan, tetapi hubungan waktu di dalam rangkaian peristiwa perlu dibaca lebih cermat."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali urutan kejadian dan tujuan [[recount text]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Gunakan teks utuh berikut sebagai model. Kamu tidak hanya mencari kejadian pertama dan terakhir; kamu juga akan menelusuri tindakan yang bertumpang tindih, kejadian yang mengubah situasi, dan alasan di balik respons para peserta.",
+      "modelTitle": "A Community Art Market in the Rain",
+      "modelEnglish": "On Saturday morning, the neighbourhood youth group organised a small art market in the community hall to raise money for a mural project. Before the doors opened, volunteers were arranging paintings while two students were checking the price labels. The organisers placed the larger displays along the back wall and kept the entrance clear.\n\nAt ten o’clock, the first visitors arrived. While one volunteer was explaining a print, another was wrapping a small painting for a buyer. Near the side wall, two students recorded sales and answered questions about the artists. The room became busier as more visitors came in.\n\nShortly before noon, heavy rain began outside. Several visitors were looking at the photographs when water started to collect near the outdoor entrance. The organisers moved two display tables farther inside because visitors needed a clear path. One student explained the new arrangement while another helped move the frames. The rain did not stop the market, but it changed how the team used the hall.\n\nAfter the volunteers dried the floor near the entrance and rearranged the tables, the market continued. The volunteers checked the sales list before packing the remaining work. By late afternoon, the group finished the event and recorded the money raised. I expected the rain to end the market, but the volunteers responded calmly and kept visitors informed.",
+      "modelIndonesian": "Pada Sabtu pagi, kelompok pemuda setempat menyelenggarakan pasar seni kecil di balai warga untuk mengumpulkan dana bagi proyek mural. Sebelum pintu dibuka, para relawan sedang menata lukisan sementara dua siswa sedang memeriksa label harga. Panitia menempatkan pajangan berukuran besar di sepanjang dinding belakang dan menjaga pintu masuk tetap terbuka.\n\nPukul sepuluh, pengunjung pertama datang. Saat seorang relawan sedang menjelaskan sebuah karya cetak, relawan lain sedang membungkus sebuah lukisan kecil untuk pembeli. Di dekat dinding samping, dua siswa mencatat penjualan dan menjawab pertanyaan tentang para seniman. Ruangan menjadi semakin ramai ketika lebih banyak pengunjung datang.\n\nTidak lama sebelum tengah hari, hujan deras mulai turun di luar. Beberapa pengunjung sedang melihat foto-foto ketika air mulai menggenang di dekat pintu masuk luar. Panitia memindahkan dua meja pajangan lebih jauh ke dalam karena pengunjung membutuhkan jalur yang tidak terhalang. Seorang siswa menjelaskan penataan baru sementara siswa lain membantu memindahkan bingkai. Hujan tidak menghentikan pasar seni, tetapi mengubah cara tim menggunakan ruangan.\n\nSetelah para relawan mengeringkan lantai di dekat pintu masuk dan menata ulang meja, pasar seni berlanjut. Para relawan memeriksa daftar penjualan sebelum mengemas karya yang tersisa. Menjelang sore, kelompok itu menyelesaikan acara dan mencatat uang yang terkumpul. Saya semula mengira hujan akan mengakhiri pasar seni, tetapi para relawan menanggapinya dengan tenang dan terus memberi informasi kepada pengunjung.",
+      "modelNote": "Paragraf pertama memberi konteks kegiatan. Bagian berikutnya menunjukkan beberapa tindakan yang berlangsung bersamaan. Ketika hujan mulai menyebabkan air menggenang, situasi berubah dan panitia merespons dengan memindahkan meja. Penutup menyebut hasil kegiatan serta refleksi penulis. Bentuk past continuous membantu menggambarkan tindakan yang sedang berlangsung; simple past menyampaikan kejadian yang terjadi dalam rangkaian tersebut.",
       "steps": [
         {
-          "title": "Konteks pengalaman",
-          "explanation": "Cari kejadian utama, pelaku, lokasi, dan waktu dalam pembukaan recount.",
-          "english": "We visited the museum on Monday.",
-          "indonesian": "Kami mengunjungi museum pada hari Senin.",
-          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+          "phase": "Menetapkan konteks",
+          "title": "Gunakan orientasi sebagai titik awal",
+          "explanation": "Kenali pelaku, kegiatan, tempat, waktu, dan tujuan agar kamu tahu pengalaman apa yang sedang diceritakan. Ini mengingatkan kembali keterampilan kelas 9; tantangan berikutnya adalah membaca hubungan di antara kejadian setelah konteksnya jelas.",
+          "english": "On Saturday morning, the neighbourhood youth group organised a small art market in the community hall to raise money for a mural project.",
+          "indonesian": "Pada Sabtu pagi, kelompok pemuda setempat menyelenggarakan pasar seni kecil di balai warga untuk mengumpulkan dana bagi proyek mural.",
+          "why": "Kalimat ini mengenalkan siapa yang mengadakan kegiatan, kapan dan di mana kegiatan berlangsung, serta tujuannya. Informasi tersebut menjadi kerangka untuk memahami kejadian berikutnya."
         },
         {
-          "title": "Tindakan lampau",
-          "explanation": "Kenali verba masa lampau yang menyatakan apa yang dilakukan, bukan hanya menyebutkan ciri benda.",
-          "english": "We visited the museum on Monday.",
-          "indonesian": "Kami mengunjungi museum pada hari Senin.",
-          "why": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+          "phase": "Membaca tindakan bersamaan",
+          "title": "Kenali dua tindakan yang berlangsung pada waktu yang sama",
+          "explanation": "Bentuk [[past continuous]] digunakan untuk menggambarkan tindakan yang sedang berlangsung pada suatu waktu di masa lalu. Kata [[while]] sering menghubungkan dua tindakan yang berlangsung bersamaan. Jangan menganggap satu tindakan harus selesai sebelum tindakan lainnya dimulai.",
+          "english": "Before the doors opened, volunteers were arranging paintings while two students were checking the price labels.",
+          "indonesian": "Sebelum pintu dibuka, para relawan sedang menata lukisan sementara dua siswa sedang memeriksa label harga.",
+          "why": "Were arranging dan were checking sama-sama menunjukkan kegiatan yang sedang berlangsung. Kata while menghubungkan kedua kegiatan itu sebagai tindakan yang terjadi pada waktu yang beririsan.",
+          "check": "Apa dua kegiatan yang berlangsung bersamaan sebelum pintu pasar seni dibuka?",
+          "checkAnswer": "Para relawan sedang menata lukisan, sementara dua siswa sedang memeriksa label harga. Keduanya berlangsung sebelum pintu dibuka dan pada waktu yang beririsan."
         },
         {
-          "title": "Petunjuk kronologi",
-          "explanation": "Gunakan penanda waktu untuk menentukan kejadian yang terjadi dahulu dan kemudian.",
-          "english": "First, we bought tickets.",
-          "indonesian": "Pertama, kami membeli tiket.",
-          "why": "[[First]] memulai urutan kegiatan."
+          "phase": "Membaca perubahan situasi",
+          "title": "Bedakan latar yang sedang berlangsung dari kejadian yang muncul",
+          "explanation": "Dalam recount, past continuous dapat menunjukkan kegiatan yang sedang berlangsung, sedangkan simple past dapat menyebut kejadian yang muncul pada saat itu. Kata [[when]] membantu menghubungkan keduanya. Makna tepatnya tetap ditentukan oleh keseluruhan kalimat, bukan oleh satu kata saja.",
+          "english": "Several visitors were looking at the photographs when water started to collect near the outdoor entrance.",
+          "indonesian": "Beberapa pengunjung sedang melihat foto-foto ketika air mulai menggenang di dekat pintu masuk luar.",
+          "why": "Were looking menggambarkan kegiatan yang sedang berlangsung. Started menyatakan kejadian baru: air mulai menggenang. Peristiwa baru itu mengubah keadaan di sekitar pintu masuk.",
+          "check": "Kegiatan apa yang sedang berlangsung ketika air mulai menggenang di dekat pintu masuk?",
+          "checkAnswer": "Beberapa pengunjung sedang melihat foto-foto. Kegiatan itu sudah berlangsung ketika air mulai menggenang."
         },
         {
-          "title": "Sambungkan rangkaian",
-          "explanation": "Gabungkan beberapa kalimat menjadi satu alur tanpa membalik urutan sebenarnya.",
-          "english": "Then, we watched a short film.",
-          "indonesian": "Kemudian, kami menonton film pendek.",
-          "why": "[[Then]] menghubungkan kejadian berikutnya."
+          "phase": "Menelusuri sebab dan respons",
+          "title": "Hubungkan alasan dengan tindakan yang dilakukan",
+          "explanation": "Kejadian baru sering diikuti respons. Kata [[because]] memperkenalkan alasan, sedangkan [[so]] atau [[as a result]] dapat memperkenalkan akibat. Saat membaca, tanyakan: masalah apa yang muncul, tindakan apa yang dilakukan, dan alasan apa yang dinyatakan teks?",
+          "english": "The organisers moved two display tables farther inside because visitors needed a clear path.",
+          "indonesian": "Panitia memindahkan dua meja pajangan lebih jauh ke dalam karena pengunjung membutuhkan jalur yang tidak terhalang.",
+          "why": "Tindakan panitia adalah memindahkan meja. Klausa setelah because menjelaskan alasannya, yaitu agar pengunjung memiliki jalur yang jelas.",
+          "check": "Mengapa panitia memindahkan dua meja pajangan lebih jauh ke dalam ruangan?",
+          "checkAnswer": "Panitia melakukannya karena pengunjung membutuhkan jalur yang tidak terhalang. Alasan tersebut dinyatakan setelah kata because."
         },
         {
-          "title": "Bedakan refleksi",
-          "explanation": "Komentar seperti [[I felt proud]] menyatakan tanggapan penulis, bukan kejadian baru dalam kronologi.",
-          "english": "Finally, we returned to school.",
-          "indonesian": "Akhirnya, kami kembali ke sekolah.",
-          "why": "[[Finally]] menutup urutan kejadian."
+          "phase": "Merekonstruksi kronologi",
+          "title": "Susun kejadian berdasarkan petunjuk waktu dan bukti",
+          "explanation": "Kata [[before]] dan [[after]] membantu menempatkan satu tindakan relatif terhadap tindakan lain. Gabungkan petunjuk tersebut dengan informasi dalam kalimat. Jangan hanya menebak urutan berdasarkan posisi kalimat atau mengabaikan hubungan waktu yang dinyatakan.",
+          "english": "After the volunteers dried the floor near the entrance and rearranged the tables, the market continued.",
+          "indonesian": "Setelah para relawan mengeringkan lantai di dekat pintu masuk dan menata ulang meja, pasar seni berlanjut.",
+          "why": "Kata after menunjukkan bahwa lantai dikeringkan dan meja ditata ulang sebelum kegiatan dilanjutkan. Urutan ini menjelaskan respons terhadap perubahan situasi.",
+          "check": "Dua tindakan apa yang dilakukan sebelum pasar seni dilanjutkan kembali?",
+          "checkAnswer": "Para relawan mengeringkan lantai di dekat pintu masuk dan menata ulang meja. Kedua tindakan itu terjadi sebelum pasar seni berlanjut."
+        },
+        {
+          "phase": "Menafsirkan penutup",
+          "title": "Pisahkan hasil kegiatan dari refleksi penulis",
+          "explanation": "Hasil menjelaskan apa yang akhirnya terjadi atau diselesaikan. Refleksi menunjukkan perasaan, dugaan, atau pemahaman penulis setelah pengalaman. Keduanya dapat muncul berdekatan, tetapi memiliki fungsi berbeda ketika kamu menyusun ringkasan.",
+          "english": "I expected the rain to end the market, but the volunteers responded calmly and kept visitors informed.",
+          "indonesian": "Saya semula mengira hujan akan mengakhiri pasar seni, tetapi para relawan menanggapinya dengan tenang dan terus memberi informasi kepada pengunjung.",
+          "why": "Bagian “I expected...” menyampaikan dugaan penulis, bukan kejadian fisik. Bagian setelah but menyebut respons relawan yang benar-benar dilakukan dalam pengalaman tersebut."
         }
-      ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "On Monday, we attended a science fair. We arrived early and prepared our poster. Later, two visitors asked about our experiment. We explained our results and answered their questions. I felt nervous at first but proud afterward.",
-      "modelIndonesian": "Pada hari Senin, kami mengikuti pameran sains. Kami tiba lebih awal dan menyiapkan poster kami. Kemudian, dua pengunjung bertanya tentang eksperimen kami. Kami menjelaskan hasil dan menjawab pertanyaan mereka. Awalnya saya gugup, tetapi sesudahnya saya bangga."
+      ]
     },
     {
       "type": "synthesis",
-      "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, pembaca mengikuti orientasi (siapa, kapan, di mana), rangkaian peristiwa, dan kesan penutup. Kata waktu dan [[past tense]] menjaga urutan; jangan keliru menganggap komentar penulis sebagai kejadian baru."
+      "title": "Apa perkembangan keterampilan di kelas 10?",
+      "text": "Kamu tetap menggunakan orientasi dan urutan kejadian yang telah dipelajari di kelas 9. Sekarang, kamu juga membaca tindakan yang berlangsung bersamaan, kejadian yang muncul di tengah tindakan lain, alasan suatu respons, dan hasilnya. Past continuous memberi gambaran tindakan yang sedang berlangsung; simple past menyampaikan kejadian dalam rangkaian; penghubung waktu dan sebab-akibat membantu menyatukan semuanya."
     },
     {
       "type": "heading",
-      "text": "Mengikuti urutan kejadian dalam recount"
+      "text": "Membaca hubungan waktu dan sebab-akibat"
     },
     {
       "type": "text",
-      "text": "[[Recount text]] menceritakan kembali peristiwa masa lalu. Sering kali susunannya terdiri atas [[orientation]] (siapa, di mana, kapan), urutan kejadian, dan komentar atau refleksi penutup. Ini pola yang membantu membaca, bukan aturan mutlak untuk semua teks."
-    },
-    {
-      "type": "example",
-      "text": "Last Saturday, our class visited a community library near the river. First, a volunteer showed us how donated books were sorted. Then we repaired torn covers and placed labels on the shelves. Before we left, each group recommended one book for younger readers. I had expected a quiet morning, but I discovered how much teamwork a small library needs.",
-      "note": "Contoh teks asli: “A [[morning]] [[at]] [[the]] [[community]] [[library]].”"
+      "text": "Banyak recount menggunakan orientasi, rangkaian peristiwa, dan reorientasi atau refleksi jika penulis ingin menutup dengan tanggapan. Di kelas 10, perhatikan bukan hanya bagian-bagian tersebut, tetapi juga hubungan antarklausa: apakah dua tindakan berlangsung bersamaan, apakah satu kejadian muncul saat tindakan lain sedang berlangsung, atau apakah satu tindakan dilakukan karena alasan tertentu?"
     },
     {
       "type": "table",
       "headers": [
-        "Bagian",
-        "Bukti dalam teks"
+        "Petunjuk bahasa",
+        "Fungsi dalam recount",
+        "Contoh",
+        "Cara membacanya"
       ],
       "rows": [
         [
-          "Orientation",
-          "Last Saturday; our class; a community library"
+          "Past continuous",
+          "Menggambarkan tindakan yang sedang berlangsung pada waktu lampau.",
+          "Volunteers were arranging paintings.",
+          "Kegiatan menata lukisan sedang berlangsung."
         ],
         [
-          "Urutan kejadian",
-          "First → Then → Before we left"
+          "Simple past",
+          "Menyampaikan kejadian atau tindakan lampau yang dilihat sebagai satu peristiwa.",
+          "The first visitors arrived.",
+          "Pengunjung pertama datang."
         ],
         [
-          "Refleksi",
-          "I discovered how much teamwork a small library needs."
+          "While",
+          "Menghubungkan tindakan yang berlangsung bersamaan atau beririsan.",
+          "...while two students were checking the price labels.",
+          "Pemeriksaan label berlangsung saat relawan menata lukisan."
+        ],
+        [
+          "When",
+          "Menempatkan suatu kejadian pada saat tindakan lain sedang berlangsung.",
+          "...when water started to collect...",
+          "Air mulai menggenang saat pengunjung sedang melihat foto."
+        ],
+        [
+          "Because / so",
+          "Menjelaskan alasan atau akibat.",
+          "...because visitors needed a clear path.",
+          "Kebutuhan akan jalur yang jelas menjadi alasan meja dipindahkan."
+        ],
+        [
+          "Before / after",
+          "Menunjukkan urutan relatif antara dua tindakan.",
+          "After the volunteers dried the floor...",
+          "Lantai dikeringkan sebelum pasar seni dilanjutkan."
         ]
       ]
     },
     {
-      "type": "text",
-      "text": "[[Visited]], showed, repaired, dan recommended adalah [[verb]] lampau yang menjelaskan kejadian. Kalimat terakhir menunjukkan perubahan pemahaman narator, bukan klaim bahwa semua perpustakaan bekerja dengan cara yang sama."
-    },
-    {
-      "type": "mistake",
-      "incorrect": "Siswa merekomendasikan buku sebelum memperbaiki sampul.",
-      "correct": "Siswa memperbaiki sampul sebelum merekomendasikan buku.",
-      "explanation": "[[Then]] menandai kegiatan memperbaiki sampul. [[Before]] [[we]] [[left]] memperkenalkan kegiatan merekomendasikan buku setelahnya."
+      "type": "rule",
+      "text": "Bentuk [[past continuous]]: subject + was/were + verb-ing. Gunakan was dengan I/he/she/it dan were dengan you/we/they. [[Simple past]] menggunakan verb-2. Perbedaan ini membantu pembaca mengenali tindakan yang sedang berlangsung dan kejadian yang terjadi dalam rangkaian. Recount tidak harus memakai past continuous pada setiap kalimat; pilihannya bergantung pada makna yang ingin disampaikan."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Bangun kembali alur dari bukti teks"
     },
     {
-      "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "type": "table",
+      "headers": [
+        "Petunjuk waktu",
+        "Kejadian atau hubungan",
+        "Bukti yang perlu diperhatikan"
+      ],
+      "rows": [
+        [
+          "Before the doors opened",
+          "Relawan menata lukisan; siswa memeriksa label.",
+          "Dua kegiatan berlangsung bersamaan."
+        ],
+        [
+          "At ten o’clock",
+          "Pengunjung pertama tiba dan pasar mulai ramai.",
+          "Waktu yang menandai perkembangan kegiatan."
+        ],
+        [
+          "Shortly before noon",
+          "Hujan mulai turun dan air menggenang dekat pintu masuk.",
+          "Kejadian baru mengubah situasi."
+        ],
+        [
+          "Because visitors needed a clear path",
+          "Panitia memindahkan meja pajangan.",
+          "Alasan diikuti tindakan sebagai respons."
+        ],
+        [
+          "After the floor was dried and tables rearranged",
+          "Pasar seni berlanjut.",
+          "Respons dilakukan sebelum kegiatan dilanjutkan."
+        ],
+        [
+          "By late afternoon",
+          "Acara selesai dan uang yang terkumpul dicatat.",
+          "Hasil kegiatan."
+        ]
+      ]
+    },
+    {
+      "type": "mistake",
+      "incorrect": "The market continued before the volunteers dried the floor and rearranged the tables.",
+      "correct": "The market continued after the volunteers dried the floor and rearranged the tables.",
+      "explanation": "Mengganti after dengan before membalik hubungan waktu. Dalam model, lantai dikeringkan dan meja ditata ulang terlebih dahulu; setelah itu pasar seni berlanjut."
+    },
+    {
+      "type": "heading",
+      "text": "Bandingkan hubungan antarkalimat"
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "Tindakan bersamaan dan kejadian yang muncul",
       "collapsed": false,
       "items": [
         {
-          "english": "We visited the museum on Monday.",
-          "indonesian": "Kami mengunjungi museum pada hari Senin.",
-          "note": "[[Visited]] dan [[on]] [[Monday]] menetapkan pengalaman lampau."
+          "english": "Several visitors were looking at the photographs when water started to collect near the outdoor entrance.",
+          "indonesian": "Beberapa pengunjung sedang melihat foto-foto ketika air mulai menggenang di dekat pintu masuk.",
+          "note": "Kegiatan melihat foto sedang berlangsung saat kejadian baru muncul. Perhatikan perbedaan were looking dan started."
         },
         {
-          "english": "First, we bought tickets.",
-          "indonesian": "Pertama, kami membeli tiket.",
-          "note": "[[First]] memulai urutan kegiatan."
+          "english": "While one volunteer was explaining a print, another was wrapping a small painting.",
+          "indonesian": "Saat seorang relawan sedang menjelaskan sebuah karya cetak, relawan lain sedang membungkus lukisan kecil.",
+          "note": "Kedua kegiatan berlangsung pada waktu yang beririsan. Past continuous membantu pembaca membayangkan dua tindakan yang sedang berjalan."
         },
         {
-          "english": "Then, we watched a short film.",
-          "indonesian": "Kemudian, kami menonton film pendek.",
-          "note": "[[Then]] menghubungkan kejadian berikutnya."
+          "english": "One student explained the new arrangement while another helped move the frames.",
+          "indonesian": "Seorang siswa menjelaskan penataan baru sementara siswa lain membantu memindahkan bingkai.",
+          "note": "While menghubungkan dua tindakan yang dilakukan pada waktu yang sama sebagai bagian dari respons panitia."
+        },
+        {
+          "english": "At ten o’clock, the first visitors arrived.",
+          "indonesian": "Pukul sepuluh, pengunjung pertama datang.",
+          "note": "Simple past arrived menyampaikan kejadian yang terjadi pada waktu tertentu, bukan tindakan yang sedang berlangsung."
+        },
+        {
+          "english": "The room became busier as more visitors came in.",
+          "indonesian": "Ruangan menjadi semakin ramai ketika lebih banyak pengunjung datang.",
+          "note": "As menghubungkan perubahan suasana ruangan dengan bertambahnya pengunjung; pembaca melihat dua perkembangan yang berkaitan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Alasan dan urutan tindakan",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "The organisers moved the tables because visitors needed a clear path.",
+          "indonesian": "Panitia memindahkan meja karena pengunjung membutuhkan jalur yang tidak terhalang.",
+          "note": "Because memperkenalkan alasan tindakan, bukan penanda bahwa tindakan itu berlangsung bersamaan."
+        },
+        {
+          "english": "The volunteers checked the sales list before packing the remaining work.",
+          "indonesian": "Para relawan memeriksa daftar penjualan sebelum mengemas karya yang tersisa.",
+          "note": "Before menempatkan pemeriksaan daftar lebih dahulu daripada kegiatan mengemas karya."
+        },
+        {
+          "english": "After the volunteers dried the floor and rearranged the tables, the market continued.",
+          "indonesian": "Setelah para relawan mengeringkan lantai dan menata ulang meja, pasar seni berlanjut.",
+          "note": "After menunjukkan bahwa pengeringan lantai dan penataan ulang dilakukan sebelum pasar seni dilanjutkan."
+        }
+      ]
+    },
+    {
+      "type": "example_group",
+      "title": "Hasil kegiatan dan refleksi",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "By late afternoon, the group finished the event and recorded the money raised.",
+          "indonesian": "Menjelang sore, kelompok itu menyelesaikan acara dan mencatat uang yang terkumpul.",
+          "note": "Kalimat ini merangkum hasil kegiatan, bukan menjelaskan alasan hujan turun atau cara meja dipindahkan."
+        },
+        {
+          "english": "I expected the rain to end the market, but the volunteers responded calmly and kept visitors informed.",
+          "indonesian": "Saya semula mengira hujan akan mengakhiri pasar seni, tetapi para relawan menanggapinya dengan tenang dan terus memberi informasi kepada pengunjung.",
+          "note": "Bagian pertama menyampaikan dugaan penulis, sedangkan bagian berikutnya menyatakan respons relawan. Keduanya membantu membedakan refleksi dari urutan tindakan."
         }
       ]
     },
     {
       "type": "checkpoint",
-      "id": "guided-grade10-recount",
-      "prompt": "Which phrase usually marks the first event?",
-      "translation": "Ungkapan mana yang biasanya menandai peristiwa pertama?",
+      "id": "guided-grade10-recount-temporal-relationship",
+      "prompt": "Which sentence shows an action in progress when another event happened?",
+      "translation": "Kalimat mana yang menunjukkan suatu tindakan sedang berlangsung ketika kejadian lain muncul?",
       "choices": [
-        "First, we bought tickets.",
-        "Finally, we went home.",
-        "As a result, we were tired."
+        "The group finished the event by late afternoon.",
+        "Several visitors were looking at the photographs when water started to collect.",
+        "I expected the rain to end the market."
       ],
-      "answer": 0,
-      "explanation": "[[First]] menandai kejadian awal dalam urutan peristiwa.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "answer": 1,
       "translationChoices": [
-        "Pertama, kami membeli tiket.",
-        "Akhirnya, kami pulang.",
-        "Akibatnya, kami lelah."
-      ]
+        "Kelompok itu menyelesaikan acara menjelang sore.",
+        "Beberapa pengunjung sedang melihat foto-foto ketika air mulai menggenang.",
+        "Saya semula mengira hujan akan mengakhiri pasar seni."
+      ],
+      "explanation": "Pilihan kedua memadukan were looking sebagai tindakan yang sedang berlangsung dan started sebagai kejadian yang muncul pada saat itu. Pilihan pertama menyampaikan hasil; pilihan ketiga menyampaikan dugaan penulis.",
+      "hint": "Cari kalimat yang memiliki bentuk tindakan sedang berlangsung dan kejadian lain yang muncul di tengahnya."
     },
     {
       "type": "breakdown",
-      "sentence": "We visited the museum on Monday.",
+      "sentence": "Several visitors were looking at the photographs when water started to collect near the outdoor entrance.",
       "parts": [
         {
-          "english": "We",
-          "meaning": "pelaku"
+          "english": "Several visitors",
+          "meaning": "Pelaku yang melakukan kegiatan."
         },
         {
-          "english": "visited",
-          "meaning": "[[verb-2]]"
+          "english": "were looking",
+          "meaning": "Tindakan yang sedang berlangsung pada masa lalu (past continuous)."
         },
         {
-          "english": "the museum",
-          "meaning": "tujuan kunjungan"
+          "english": "at the photographs",
+          "meaning": "Hal yang sedang dilihat pengunjung."
         },
         {
-          "english": "on Monday",
-          "meaning": "waktu lampau"
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "We saw a painting before lunch.",
-          "indonesian": "Kami melihat lukisan sebelum makan siang.",
-          "note": "[[Before]] menandai urutan waktu."
+          "english": "when",
+          "meaning": "Penghubung yang menempatkan kejadian berikutnya pada saat kegiatan itu berlangsung."
         },
         {
-          "english": "After lunch, we joined a workshop.",
-          "indonesian": "Setelah makan siang, kami mengikuti lokakarya.",
-          "note": "[[After]] menunjukkan tahapan berikutnya."
+          "english": "water started to collect",
+          "meaning": "Kejadian baru yang muncul (simple past)."
         },
         {
-          "english": "Finally, we returned to school.",
-          "indonesian": "Akhirnya, kami kembali ke sekolah.",
-          "note": "[[Finally]] menutup urutan kejadian."
-        },
-        {
-          "english": "After we bought the tickets, we entered the science museum.",
-          "indonesian": "Setelah membeli tiket, kami masuk ke museum sains.",
-          "note": "[[After]] menghubungkan dua tindakan lampau dan memperjelas urutan peristiwa."
-        },
-        {
-          "english": "Later that afternoon, our guide showed us a collection of old photographs.",
-          "indonesian": "Sore harinya, pemandu menunjukkan kumpulan foto lama kepada kami.",
-          "note": "[[Later that afternoon]] menandai kelanjutan urutan pengalaman; [[showed]] adalah verba lampau."
+          "english": "near the outdoor entrance",
+          "meaning": "Lokasi tempat air mulai menggenang."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Last Friday, our class cleaned the beach. We collected plastic bottles and separated recyclable waste.",
-          "indonesian": "Jumat lalu, kelas kami membersihkan pantai. Kami mengumpulkan botol plastik dan memisahkan limbah yang dapat didaur ulang.",
-          "note": "Rangkaian tindakan lampau dijelaskan dengan [[verb-2]]."
-        },
-        {
-          "english": "I expected the trip to be boring, but I learned how volunteers protect sea turtles.",
-          "indonesian": "Saya mengira perjalanan itu membosankan, tetapi saya belajar cara relawan melindungi penyu.",
-          "note": "Kalimat refleksi menyampaikan perubahan pandangan penulis."
-        }
-      ]
+      "prompt": "How does the past continuous help you picture the moment when the rain changed the market?",
+      "translation": "Bagaimana past continuous membantumu membayangkan keadaan ketika hujan mengubah jalannya pasar seni?",
+      "answer": "Past continuous menunjukkan kegiatan yang sedang berlangsung sebelum atau saat kejadian baru muncul. Dalam contoh, pengunjung sedang melihat foto ketika air mulai menggenang. Dengan begitu, pembaca dapat membayangkan latar kegiatan dan perubahan yang terjadi tanpa menganggap kedua kejadian berlangsung secara berurutan."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Recount menceritakan kejadian lampau berdasarkan urutan waktu.",
-        "[[First]], then, [[after]], dan finally menandai alur.",
-        "Bagian penutup dapat menyampaikan refleksi, bukan sekadar kejadian."
+        "Past continuous menggambarkan tindakan yang sedang berlangsung; simple past menyampaikan kejadian dalam rangkaian.",
+        "While, when, because, before, dan after membantu pembaca memahami hubungan waktu, alasan, dan respons.",
+        "Ringkasan yang baik mempertahankan hubungan antarperistiwa dan hanya menggunakan informasi yang didukung teks."
       ]
     },
     {
       "type": "self_check",
-      "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Peristiwa mana terjadi lebih dulu, dan apa reaksi penulis setelahnya?",
-      "model": "After we bought the tickets, we entered the science museum.",
-      "modelTranslation": "Setelah membeli tiket, kami masuk ke museum sains.",
-      "criteria": "[[After]] menghubungkan dua tindakan lampau dan memperjelas urutan peristiwa."
+      "title": "Terapkan pada pengalaman lain",
+      "prompt": "Pilih satu kegiatan yang pernah kamu ikuti atau saksikan. Tulis tiga atau empat kalimat recount. Sertakan satu tindakan yang sedang berlangsung, satu kejadian yang mengubah situasi, dan respons setelahnya. Gunakan while atau when, lalu jelaskan alasan atau akibat dengan because atau so.",
+      "model": "While the volunteers were preparing the hall, the rain started. They moved the chairs inside because the entrance became wet.",
+      "modelTranslation": "Saat para relawan sedang menyiapkan aula, hujan mulai turun. Mereka memindahkan kursi ke dalam karena pintu masuk menjadi basah.",
+      "criteria": "Tulisanmu perlu menunjukkan hubungan waktu dengan jelas, menggunakan past continuous untuk tindakan yang sedang berlangsung dan simple past untuk kejadian, serta menyatakan alasan atau akibat yang masuk akal dan sesuai pengalaman."
     },
     {
       "type": "vocabulary",
       "title": "Bekal kosakata",
       "items": [
         {
-          "english": "first",
-          "indonesian": "pertama"
+          "english": "while",
+          "indonesian": "sementara; saat dua hal berlangsung bersamaan"
         },
         {
-          "english": "then",
-          "indonesian": "kemudian"
+          "english": "collect",
+          "indonesian": "mengumpul; dalam konteks ini, mulai menggenang"
         },
         {
-          "english": "after",
-          "indonesian": "setelah"
+          "english": "arrange",
+          "indonesian": "menata; menyusun"
         },
         {
-          "english": "reflection",
-          "indonesian": "refleksi"
+          "english": "rearrange",
+          "indonesian": "menata ulang"
+        },
+        {
+          "english": "clear path",
+          "indonesian": "jalur yang tidak terhalang"
+        },
+        {
+          "english": "response",
+          "indonesian": "tanggapan; tindakan sebagai respons"
+        },
+        {
+          "english": "outcome",
+          "indonesian": "hasil akhir"
+        },
+        {
+          "english": "mural",
+          "indonesian": "lukisan atau gambar pada dinding"
         }
       ]
     }
@@ -273,44 +382,66 @@
   "practice": [
     {
       "id": "t1",
-      "prompt": "What did the class do first at the library?",
+      "prompt": "Which two activities were happening before the doors opened?",
       "choices": [
-        "Recommended books",
-        "Learned how donated books were sorted",
-        "Repaired covers"
+        "Visitors were looking at photographs and buying paintings.",
+        "Volunteers were arranging paintings and students were checking price labels.",
+        "The organisers were recording the money raised and packing the remaining work."
       ],
       "answer": 1,
-      "explanation": "[[First]] menjelaskan bahwa relawan menunjukkan cara buku donasi dipilah.",
+      "explanation": "Kalimat pembuka menyebut dua kegiatan yang berlangsung sebelum pintu dibuka: relawan menata lukisan dan siswa memeriksa label harga.",
+      "skill": "Simultaneous actions",
       "translationId": {
-        "prompt": "Apa kegiatan pertama kelas di perpustakaan?",
+        "prompt": "Dua kegiatan apa yang berlangsung sebelum pintu dibuka?",
         "choices": [
-          "Merekomendasikan buku",
-          "Mempelajari cara menyortir buku sumbangan",
-          "Memperbaiki sampul"
+          "Pengunjung sedang melihat foto dan membeli lukisan.",
+          "Relawan sedang menata lukisan dan siswa sedang memeriksa label harga.",
+          "Panitia sedang mencatat uang yang terkumpul dan mengemas karya yang tersisa."
         ]
       }
     },
     {
       "id": "t2",
-      "prompt": "What did the narrator learn?",
+      "prompt": "What happened while several visitors were looking at the photographs?",
       "choices": [
-        "Small libraries need teamwork.",
-        "Libraries never need volunteers.",
-        "All books need new covers."
+        "The market ended for the day.",
+        "The volunteers packed all the remaining work.",
+        "Water started to collect near the outdoor entrance."
       ],
-      "answer": 0,
-      "explanation": "Kalimat terakhir menyatakan narator menyadari pentingnya kerja sama dalam perpustakaan kecil.",
+      "answer": 2,
+      "explanation": "Teks menyatakan bahwa air mulai menggenang ketika beberapa pengunjung sedang melihat foto. Kedua informasi itu muncul dalam satu kalimat yang dihubungkan oleh when.",
+      "skill": "Event during an ongoing action",
       "translationId": {
-        "prompt": "Apa yang dipelajari narator?",
+        "prompt": "Apa yang terjadi ketika beberapa pengunjung sedang melihat foto?",
         "choices": [
-          "Perpustakaan kecil memerlukan kerja sama.",
-          "Perpustakaan tidak pernah memerlukan relawan.",
-          "Semua buku memerlukan sampul baru."
+          "Pasar seni berakhir pada hari itu.",
+          "Para relawan mengemas semua karya yang tersisa.",
+          "Air mulai menggenang di dekat pintu masuk luar."
+        ]
+      }
+    },
+    {
+      "id": "t3",
+      "prompt": "Why did the organisers move the display tables farther inside?",
+      "choices": [
+        "The artists asked them to change the display.",
+        "Visitors needed a clear path.",
+        "The market had already finished."
+      ],
+      "answer": 1,
+      "explanation": "Klausa setelah because menyatakan alasan tindakan panitia, yaitu pengunjung membutuhkan jalur yang tidak terhalang.",
+      "skill": "Cause and reason",
+      "translationId": {
+        "prompt": "Mengapa panitia memindahkan meja pajangan lebih jauh ke dalam?",
+        "choices": [
+          "Para seniman meminta mereka mengubah pajangan.",
+          "Pengunjung membutuhkan jalur yang tidak terhalang.",
+          "Pasar seni sudah selesai."
         ]
       }
     }
   ],
   "assessments": [
-    "school-reading-check"
+    "grade10-recount-practice"
   ]
 }

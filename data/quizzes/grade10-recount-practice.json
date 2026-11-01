@@ -1,0 +1,183 @@
+{
+  "id": "grade10-recount-practice",
+  "questionCount": 7,
+  "durationSeconds": 480,
+  "passages": [
+    {
+      "id": "community-repair-workshop",
+      "title": "A Community Repair Workshop",
+      "text": "On Sunday morning, the community centre hosted a repair workshop for residents. Before the doors opened, volunteers were arranging the tables while the coordinator was checking the sign-in sheets. At nine o’clock, the first visitors arrived with small household items. While one volunteer was recording a visitor’s request, another was showing a resident where to wait.\n\nA little later, the presenter was explaining the workshop schedule when the projector suddenly stopped working. The team paused the presentation because the schedule was no longer visible on the screen. While a technician checked the equipment, the coordinator handed out printed copies of the programme. The presentation continued after the projector worked again.\n\nBy midday, visitors spoke with the volunteers and collected their items. The coordinator thanked everyone for waiting. I worried that the interruption might delay the workshop, but the team adjusted the plan and completed the activities.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What event does the passage mainly recount?",
+      "choices": [
+        "A school sports competition",
+        "A guide to repairing household equipment",
+        "A community repair workshop and an interruption during it",
+        "The history of the community centre"
+      ],
+      "answer": 2,
+      "explanation": "Teks menceritakan kegiatan lokakarya perbaikan di balai warga, termasuk gangguan pada proyektor dan cara panitia menyesuaikan kegiatan.",
+      "translationId": {
+        "prompt": "Peristiwa apa yang terutama diceritakan dalam teks?",
+        "choices": [
+          "Kompetisi olahraga sekolah",
+          "Panduan memperbaiki peralatan rumah tangga",
+          "Lokakarya perbaikan di lingkungan warga dan gangguan yang terjadi selama kegiatan",
+          "Sejarah balai warga"
+        ]
+      },
+      "skill": "Main idea",
+      "passageId": "community-repair-workshop",
+      "evidence": "On Sunday morning, the community centre hosted a repair workshop for residents."
+    },
+    {
+      "id": "q2",
+      "prompt": "What were the volunteers and the coordinator doing before the doors opened?",
+      "choices": [
+        "The volunteers were arranging tables while the coordinator was checking sign-in sheets.",
+        "The volunteers were collecting items while the coordinator was repairing the projector.",
+        "The volunteers were welcoming visitors while the coordinator was closing the centre.",
+        "The volunteers were presenting the schedule while the coordinator was handing out programmes."
+      ],
+      "answer": 0,
+      "explanation": "Kedua kegiatan disebut dalam kalimat yang diawali Before the doors opened. Bentuk were arranging dan was checking menunjukkan kegiatan yang sedang berlangsung pada waktu yang sama.",
+      "translationId": {
+        "prompt": "Apa yang sedang dilakukan para relawan dan koordinator sebelum pintu dibuka?",
+        "choices": [
+          "Para relawan sedang menata meja sementara koordinator memeriksa lembar pendaftaran.",
+          "Para relawan sedang mengumpulkan barang sementara koordinator memperbaiki proyektor.",
+          "Para relawan sedang menyambut pengunjung sementara koordinator menutup balai warga.",
+          "Para relawan sedang menyampaikan jadwal sementara koordinator membagikan program."
+        ]
+      },
+      "skill": "Simultaneous actions",
+      "passageId": "community-repair-workshop",
+      "evidence": "Before the doors opened, volunteers were arranging the tables while the coordinator was checking the sign-in sheets."
+    },
+    {
+      "id": "q3",
+      "prompt": "What was the presenter doing when the projector stopped working?",
+      "choices": [
+        "Handing out printed copies of the programme",
+        "Explaining the workshop schedule",
+        "Collecting visitors’ household items",
+        "Checking the sign-in sheets"
+      ],
+      "answer": 1,
+      "explanation": "Tindakan yang sedang berlangsung adalah menjelaskan jadwal lokakarya. Kejadian yang muncul di tengahnya adalah proyektor berhenti bekerja.",
+      "translationId": {
+        "prompt": "Apa yang sedang dilakukan pemateri ketika proyektor berhenti bekerja?",
+        "choices": [
+          "Membagikan salinan cetak program kegiatan",
+          "Menjelaskan jadwal lokakarya",
+          "Mengumpulkan barang rumah tangga milik pengunjung",
+          "Memeriksa lembar pendaftaran"
+        ]
+      },
+      "skill": "Background action and event",
+      "passageId": "community-repair-workshop",
+      "evidence": "the presenter was explaining the workshop schedule when the projector suddenly stopped working."
+    },
+    {
+      "id": "q4",
+      "prompt": "Why did the team pause the presentation?",
+      "choices": [
+        "The visitors had already left.",
+        "The coordinator needed to close the centre.",
+        "The technician asked everyone to go home.",
+        "The schedule was no longer visible on the screen."
+      ],
+      "answer": 3,
+      "explanation": "Alasan jeda dinyatakan langsung setelah because: jadwal tidak lagi terlihat pada layar.",
+      "translationId": {
+        "prompt": "Mengapa tim menghentikan presentasi untuk sementara?",
+        "choices": [
+          "Para pengunjung sudah pulang.",
+          "Koordinator perlu menutup balai warga.",
+          "Teknisi meminta semua orang pulang.",
+          "Jadwal tidak lagi terlihat pada layar."
+        ]
+      },
+      "skill": "Cause and reason",
+      "passageId": "community-repair-workshop",
+      "evidence": "The team paused the presentation because the schedule was no longer visible on the screen."
+    },
+    {
+      "id": "q5",
+      "prompt": "What did the coordinator do while the technician checked the equipment?",
+      "choices": [
+        "The coordinator cancelled the workshop.",
+        "The coordinator handed out printed copies of the programme.",
+        "The coordinator moved all the tables outside.",
+        "The coordinator asked visitors to repair the projector."
+      ],
+      "answer": 1,
+      "explanation": "Ketika teknisi memeriksa peralatan, koordinator membagikan salinan cetak program. Teks menunjukkan kedua tindakan berlangsung pada rentang waktu yang sama.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan koordinator ketika teknisi memeriksa peralatan?",
+        "choices": [
+          "Koordinator membatalkan lokakarya.",
+          "Koordinator membagikan salinan cetak program kegiatan.",
+          "Koordinator memindahkan semua meja ke luar.",
+          "Koordinator meminta pengunjung memperbaiki proyektor."
+        ]
+      },
+      "skill": "Concurrent response",
+      "passageId": "community-repair-workshop",
+      "evidence": "While a technician checked the equipment, the coordinator handed out printed copies of the programme."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which event happened after the projector worked again?",
+      "choices": [
+        "The doors opened for the first visitors.",
+        "The presenter began explaining the schedule for the first time.",
+        "The presentation continued.",
+        "The coordinator checked the sign-in sheets."
+      ],
+      "answer": 2,
+      "explanation": "Kata after menempatkan kelanjutan presentasi sesudah proyektor kembali berfungsi.",
+      "translationId": {
+        "prompt": "Peristiwa apa yang terjadi setelah proyektor kembali berfungsi?",
+        "choices": [
+          "Pintu dibuka untuk pengunjung pertama.",
+          "Pemateri mulai menjelaskan jadwal untuk pertama kalinya.",
+          "Presentasi dilanjutkan.",
+          "Koordinator memeriksa lembar pendaftaran."
+        ]
+      },
+      "skill": "Chronological relationship",
+      "passageId": "community-repair-workshop",
+      "evidence": "The presentation continued after the projector worked again."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does the narrator’s final comment suggest about the team?",
+      "choices": [
+        "The team adjusted its plan and completed the activities despite the interruption.",
+        "The team ignored the visitors during the interruption.",
+        "The team stopped the workshop before midday.",
+        "The team expected the projector to fail again."
+      ],
+      "answer": 0,
+      "explanation": "Komentar akhir menunjukkan bahwa narator sempat khawatir, tetapi tim menyesuaikan rencana dan menyelesaikan kegiatan. Ini merupakan simpulan yang didukung kalimat terakhir, bukan informasi baru di luar teks.",
+      "translationId": {
+        "prompt": "Apa yang disiratkan komentar terakhir narator tentang tim tersebut?",
+        "choices": [
+          "Tim menyesuaikan rencana dan menyelesaikan kegiatan meskipun terjadi gangguan.",
+          "Tim mengabaikan pengunjung selama gangguan.",
+          "Tim menghentikan lokakarya sebelum tengah hari.",
+          "Tim memperkirakan proyektor akan kembali rusak."
+        ]
+      },
+      "skill": "Inference from reflection",
+      "passageId": "community-repair-workshop",
+      "evidence": "I worried that the interruption might delay the workshop, but the team adjusted the plan and completed the activities."
+    }
+  ]
+}

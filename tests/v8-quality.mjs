@@ -92,6 +92,26 @@ for(const m of entries){
    assert.equal(d.assessments[0],'grade9-upcycling-procedure-practice');
    continue;
   }
+  if(m.id==='grade10-recount'){
+   assert.equal(scaffold[0].steps.length,6);
+   assert.ok(scaffold[0].modelEnglish.trim().split(/\s+/).length>=190);
+   assert.ok(scaffold[0].modelIndonesian.length>500);
+   assert.equal(d.blocks.filter(b=>b.type==='vocabulary').length,1);
+   assert.equal(d.blocks.at(-1).type,'vocabulary');
+   const groups=d.blocks.filter(b=>b.type==='example_group');
+   assert.equal(groups.length,3);assert.deepEqual(groups.map(x=>x.collapsed),[false,false,false]);
+   assert.equal(groups.reduce((n,g)=>n+g.items.length,0),10);
+   assert(groups.every(g=>g.items.every(i=>i.english&&i.indonesian&&i.note)));
+   exampleCount+=10;
+   const checkpoint=d.blocks.filter(b=>b.type==='checkpoint');assert.equal(checkpoint.length,1);checks++;
+   assert.equal(d.blocks.filter(b=>b.type==='breakdown').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='summary').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='reflection').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='self_check').length,1);
+   assert.equal(d.practice.length,3);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
+   assert.deepEqual(d.assessments,['grade10-recount-practice']);
+   continue;
+  }
   if(m.id==='grade9-noun-groups'){
    assert.equal(scaffold[0].steps.length,6);
    assert.equal(scaffold[0].modelEnglish,undefined,'Noun Groups should use phrase-level models, not a reading passage.');

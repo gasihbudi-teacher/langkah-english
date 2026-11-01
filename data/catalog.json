@@ -373,8 +373,8 @@
     },
     {
       "id": "grade10-recount",
-      "title": "Grade 10: follow the story in a recount",
-      "description": "Ikuti urutan peristiwa, penanda waktu, dan refleksi dalam recount text.",
+      "title": "Grade 10: Recounting Events and Time Relationships",
+      "description": "Analisis tindakan yang berlangsung bersamaan, kejadian yang mengubah situasi, hubungan sebab-akibat, dan refleksi dalam recount text.",
       "type": "lesson",
       "placements": [
         {
@@ -382,31 +382,72 @@
           "grade": 10
         }
       ],
-      "difficulty": "Beginner",
+      "difficulty": "Intermediate",
       "grammarTopics": [
-        "Simple Past Tense"
+        "Simple Past Tense",
+        "Past Continuous Tense"
       ],
       "readingSkills": [
         "Text Organization",
-        "Supporting Details"
+        "Supporting Details",
+        "Making Inferences"
       ],
       "tags": [
-        "recount and descriptive texts",
-        "reading strategies",
-        "vocabulary practice"
+        "recount text",
+        "temporal relationships",
+        "past continuous",
+        "cause and effect",
+        "event sequence"
       ],
       "relatedLessons": [
-        "grade9-reading",
-        "reading-strategies"
+        "grade10-recount-practice",
+        "simple-past",
+        "grade9-trip-recount"
       ],
       "file": "data/lessons/grade10-recount.json",
       "aiGenerated": true,
       "unofficial": true,
       "order": 20,
-      "estimatedMinutes": 25,
+      "estimatedMinutes": 35,
       "prerequisites": [
-        "grade9-reading"
+        "grade9-trip-recount"
       ]
+    },
+    {
+      "id": "grade10-recount-practice",
+      "title": "Grade 10 recount: overlapping actions and cause–effect",
+      "description": "Latihan mandiri untuk menelusuri tindakan bersamaan, kejadian yang muncul di tengah tindakan lain, alasan, urutan, dan refleksi.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 10
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Simple Past Tense",
+        "Past Continuous Tense"
+      ],
+      "readingSkills": [
+        "Text Organization",
+        "Supporting Details",
+        "Making Inferences"
+      ],
+      "tags": [
+        "recount text",
+        "temporal relationships",
+        "past continuous",
+        "cause and effect"
+      ],
+      "relatedLessons": [
+        "grade10-recount"
+      ],
+      "file": "data/quizzes/grade10-recount-practice.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic"
     },
     {
       "id": "school-reading-check",

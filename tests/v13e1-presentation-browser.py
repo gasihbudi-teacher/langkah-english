@@ -12,7 +12,7 @@ async def main():
  results=[]
  async with async_playwright() as p:
   browser=await p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
-  for lesson_id in ['sentence-structure','grade9-reading','grade10-descriptive','grade12-critical-reading','grade12-caption-text','utbk-critical-inference','tka-evaluating-facts-opinions-evidence','tka-reading-foundations']:
+  for lesson_id in ['sentence-structure','grade9-reading','grade10-descriptive','grade10-recount','grade12-critical-reading','grade12-caption-text','utbk-critical-inference','tka-evaluating-facts-opinions-evidence','tka-reading-foundations']:
    page=await browser.new_page(viewport={'width':390,'height':844})
    errors=[]
    page.on('pageerror',lambda e:errors.append(str(e)))
@@ -53,9 +53,30 @@ async def main():
    if lesson_id=='sentence-structure':
     assert await checks.count()==1,(lesson_id,'Only the purposeful object-contrast check should remain')
     assert 'direct object' in (await page.locator('.scaffold-review').inner_text()).lower()
+   if lesson_id=='grade10-recount':
+    assert await page.locator('.scaffold-step').count()==6
+    assert await checks.count()==4
+    assert await page.locator('.worked-example').count()==10
+    assert 'A Community Art Market in the Rain' in (await page.locator('.scaffold-model').inner_text())
+    assert 'past continuous' in scaffold_text.lower()
    assert not errors,(lesson_id,errors)
    results.append({'lesson':lesson_id,'visible_indonesian_translations':await aids.count(),'authored_checks':await checks.count(),'overflow_px':overflow,'errors':errors})
    await page.close()
+  # Grade 10 independent transfer quiz: load the separate passage and all seven questions in practice mode.
+  page=await browser.new_page(viewport={'width':390,'height':844})
+  errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+  await setup(page,'quiz.html','quiz.js','?id=grade10-recount-practice')
+  assert 'Grade 10 recount' in (await page.locator('#content h1').inner_text())
+  await page.locator('#practice').click()
+  await page.locator('#question-title').wait_for()
+  assert 'A Community Repair Workshop' in (await page.locator('#passage').inner_text())
+  assert await page.locator('#numbers button').count()==7
+  assert await page.locator('.translation-detail').count()>=1
+  quiz_overflow=await page.evaluate('Math.max(document.body.scrollWidth,document.documentElement.scrollWidth)-innerWidth')
+  assert quiz_overflow==0,quiz_overflow
+  assert not errors,errors
+  results.append({'lesson':'grade10-recount-practice','visible_questions':7,'indonesian_question_support':await page.locator('.translation-detail').count(),'overflow_px':quiz_overflow,'errors':errors})
+  await page.close()
   await browser.close()
  print(json.dumps({'status':'PASS','pages':results},ensure_ascii=False,indent=2))
 
