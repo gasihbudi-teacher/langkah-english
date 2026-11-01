@@ -92,6 +92,29 @@ for(const m of entries){
    assert.equal(d.assessments[0],'grade9-upcycling-procedure-practice');
    continue;
   }
+  if(m.id==='grade9-noun-groups'){
+   assert.equal(scaffold[0].steps.length,6);
+   assert.equal(scaffold[0].modelEnglish,undefined,'Noun Groups should use phrase-level models, not a reading passage.');
+   assert(scaffold[0].steps.every(s=>s.english&&s.indonesian&&s.why));
+   assert.equal(scaffold[0].steps.filter(s=>s.check).length,2);
+   assert.equal(d.blocks.filter(b=>b.type==='vocabulary').length,1);
+   assert.equal(d.blocks.at(-1).type,'vocabulary');
+   const groups=d.blocks.filter(b=>b.type==='example_group');
+   assert.equal(groups.length,3);assert.deepEqual(groups.map(x=>x.collapsed),[false,false,false]);
+   assert.equal(groups.reduce((n,g)=>n+g.items.length,0),10);
+   assert(groups.every(g=>g.items.every(i=>i.english&&i.indonesian&&i.note)));
+   exampleCount+=10;
+   assert.equal(d.blocks.filter(b=>b.type==='checkpoint').length,1);checks++;
+   assert.equal(d.blocks.filter(b=>b.type==='breakdown').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='summary').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='reflection').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='self_check').length,1);
+   assert.equal(d.blocks.filter(b=>b.type==='example').length,1);
+   assert(d.blocks.filter(b=>b.type==='example').every(b=>b.text.trim().split(/\s+/).length<30));
+   assert.equal(d.practice.length,2);for(const q of d.practice)checkQuestion(q,`${m.id}/${q.id}`);newQuestions+=d.practice.length;
+   assert.equal(d.assessments[0],'grade9-noun-groups-practice');
+   continue;
+  }
   assert.ok(scaffold[0].steps.length>=2&&scaffold[0].steps.length<=20);
   assert.ok(scaffold[0].steps.filter(s=>s.english).length>=2&&scaffold[0].steps.filter(s=>s.english).every(s=>s.indonesian&&s.why));
   const groups=d.blocks.filter(b=>b.type==='example_group');
@@ -137,12 +160,11 @@ for(const m of entries){
    nPassages++;newQuestions+=d.questions.length;continue;
   }
   if(m.id==='grade9-noun-groups-practice'){
-   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.durationSeconds,420);assert.equal(d.passages.length,1);
-   assert.ok(d.passages[0].text.trim().split(/\s+/).length>=120);assert.equal(d.passages[0].original,true);
+   assert.equal(d.questions.length,7);assert.equal(d.questionCount,7);assert.equal(d.durationSeconds,420);assert.deepEqual(d.passages,[]);
    const positions=[0,0,0,0];
-   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.passageId);const passage=d.passages.find(x=>x.id===q.passageId);assert.ok(passage&&q.evidence&&passage.text.includes(q.evidence));assert.ok(q.skill);positions[q.answer]++;}
-   assert.deepEqual(positions,[2,1,3,1]);
-   nPassages++;newQuestions+=d.questions.length;continue;
+   for(const q of d.questions){checkQuestion(q,`${m.id}/${q.id}`);assert.ok(q.skill);assert.equal(q.passageId,undefined);assert.equal(q.evidence,undefined);positions[q.answer]++;}
+   assert.deepEqual(positions,[2,2,2,1]);
+   newQuestions+=d.questions.length;continue;
   }
   assert.equal(d.questions.length,4);
   assert.equal(d.questionCount,4);
@@ -174,7 +196,7 @@ function checkQuestion(q,ctx){
 assert.equal(newQuestions,152);
 assert.equal(checks,23);
 assert.ok(exampleCount>=218,'Re-authored Grade 9 report and trip-recount lessons use objective-led example sets.');
-assert.equal(nPassages,23);
+assert.equal(nPassages,22);
 // V7 practice signatures are deliberately unchanged; historical tests verify the exact SHA-256.
 const scoring=read('js/quiz.js');
 assert.ok(scoring.includes("mode==='practice'?translationDetails(q):''"),'Timed tests should not expose translation help');
@@ -183,4 +205,4 @@ assert.ok(read('js/i18n.js').match(/simulationLanguageNote:/g).length===2);
 for(const page of ['school.html','utbk.html'])assert.match(read(page),/id="pathway-resources"/);
 assert.match(read('js/pathway.js'),/topic-fold/);
 const sourceNote=path.join(root,'docs/V8-SOURCES-AND-MAPPING.md');if(fs.existsSync(sourceNote)){const note=fs.readFileSync(sourceNote,'utf8');for(const source of ['https://snpmb.id/fr/','https://repositori.kemendikdasmen.go.id/33628/'])assert.ok(note.includes(source));}
-console.log(`PASS V8: 20 grade lessons and 20 matching quizzes, 3 UTBK guided modules and 3 quizzes; ${exampleCount} original worked examples, 23 original passages, ${checks} low-stakes checks, ${newQuestions} new assessed/lesson practice questions; complete glosses, 4-key balance, evidentiary support, unchanged V7 lessons and separate simulation translation policy.`);
+console.log(`PASS V8: 20 grade lessons and 20 matching quizzes, 3 UTBK guided modules and 3 quizzes; ${exampleCount} original worked examples, ${nPassages} original passages, ${checks} low-stakes checks, ${newQuestions} new assessed/lesson practice questions; complete glosses, 4-key balance, evidentiary support, unchanged V7 lessons and separate simulation translation policy.`);

@@ -2180,12 +2180,12 @@
       ],
       "file": "data/lessons/grade9-noun-groups.json",
       "order": 340,
-      "estimatedMinutes": 30,
+      "estimatedMinutes": 25,
       "prerequisites": [
         "parts-of-speech"
       ],
-      "title": "Noun Groups: Reading Detailed Descriptions",
-      "description": "Mengenali nomina inti, penjelas sebelum dan sesudah nomina, serta cara rincian membentuk makna kelompok kata benda.",
+      "title": "Noun Groups: Build and Describe",
+      "description": "Mengenali head noun, menambahkan penentu, jumlah, sifat, bahan, dan keterangan untuk membentuk noun group dalam kalimat.",
       "placements": [
         {
           "pathway": "school",
@@ -2193,12 +2193,15 @@
         }
       ],
       "difficulty": "Beginner",
-      "grammarTopics": [],
+      "grammarTopics": [
+        "Noun Groups"
+      ],
       "readingSkills": [],
       "tags": [
         "noun groups",
+        "noun phrase",
         "head noun",
-        "Language in Text",
+        "grammar",
         "Grade 9"
       ],
       "aiGenerated": true,
@@ -2207,9 +2210,9 @@
         "grade": 9,
         "phase": "D",
         "genre": "Language in Text",
-        "theme": "reading detailed descriptions",
-        "curriculumElement": "Reading–Viewing",
-        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+        "theme": "describing people and things with noun groups",
+        "curriculumElement": "Reading–Viewing / Writing–Presenting",
+        "mappingNote": "Materi kebahasaan pendukung untuk memahami dan menyusun deskripsi; bukan unit wajib tersendiri yang ditetapkan secara eksplisit dalam CP Fase D, dan tidak mewajibkan bacaan khusus."
       }
     },
     {
@@ -2222,8 +2225,8 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 341,
-      "title": "Grade 9 Noun Groups Check: A New Reading Corner",
-      "description": "Latihan mandiri untuk mengenali nomina inti, jumlah, pre-modifier, post-modifier, dan rincian pendukung dalam teks deskriptif.",
+      "title": "Noun Groups Check: Build and Identify",
+      "description": "Latihan grammar untuk mengenali head noun, determiner, jumlah, pre-modifier, post-modifier, dan batas noun group dalam kalimat.",
       "placements": [
         {
           "pathway": "school",
@@ -2231,12 +2234,15 @@
         }
       ],
       "difficulty": "Beginner",
-      "grammarTopics": [],
+      "grammarTopics": [
+        "Noun Groups"
+      ],
       "readingSkills": [],
       "tags": [
         "noun groups",
+        "noun phrase",
         "head noun",
-        "Language in Text",
+        "grammar",
         "Grade 9"
       ],
       "aiGenerated": true,
@@ -2245,9 +2251,9 @@
         "grade": 9,
         "phase": "D",
         "genre": "Language in Text",
-        "theme": "reading detailed descriptions",
-        "curriculumElement": "Reading–Viewing",
-        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+        "theme": "building and identifying noun groups",
+        "curriculumElement": "Reading–Viewing / Writing–Presenting",
+        "mappingNote": "Latihan kebahasaan untuk menerapkan noun groups dalam frasa dan kalimat; bukan tes membaca teks panjang atau klaim materi wajib tersendiri dalam CP."
       }
     },
     {

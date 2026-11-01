@@ -1,91 +1,81 @@
 {
   "id": "grade9-noun-groups",
   "objectives": [
-    "Menemukan nomina inti (head noun) dalam kelompok kata benda sederhana maupun yang diperluas.",
-    "Mengenali determiner dan angka atau kata kuantitas yang membatasi rujukan serta jumlah benda.",
-    "Menjelaskan bagaimana kata sifat dan kata bahan sebelum nomina menambahkan rincian.",
-    "Mengenali frasa setelah nomina yang menambahkan informasi tentang ciri, lokasi, atau tujuan.",
-    "Menggunakan struktur noun group untuk memahami deskripsi benda secara lebih tepat dalam kalimat dan teks."
+    "Menemukan head noun dan membedakan noun group dari kata kerja atau bagian lain dalam kalimat.",
+    "Menggunakan determiner dan angka atau kata kuantitas untuk memperjelas rujukan serta jumlah benda.",
+    "Menambahkan kata sifat dan kata bahan sebelum head noun dengan urutan yang wajar.",
+    "Mengenali frasa setelah head noun yang menambahkan ciri, lokasi, atau tujuan.",
+    "Membentuk noun group sederhana untuk mendeskripsikan benda dalam kalimat sendiri."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Memahami noun group dan nomina intinya",
-      "text": "[[Noun group]] (kelompok kata benda) adalah kelompok kata yang berpusat pada satu nomina inti atau [[head noun]]. Kata sebelum nomina inti dapat menunjukkan rujukan, jumlah, atau sifat. Keterangan setelahnya dapat menambahkan ciri, lokasi, atau tujuan. Tidak setiap noun group memiliki semua bagian tersebut. Saat membaca, temukan dahulu benda atau hal yang menjadi inti, kemudian gabungkan rincian yang mengikutinya."
+      "title": "Apa itu noun group?",
+      "text": "[[Noun group]] (kelompok kata benda), yang juga sering disebut [[noun phrase]], adalah kelompok kata yang berpusat pada satu nomina inti atau [[head noun]]. Bentuknya dapat sederhana, seperti “a bag”, atau lebih terperinci, seperti “the three small blue bags with two pockets”. Determiner, jumlah, kata sifat, bahan, dan frasa setelah nomina dapat menambahkan informasi. Noun group bukan kalimat lengkap karena tidak memiliki kata kerja utama sendiri."
     },
     {
       "type": "scaffold",
-      "title": "Membaca rincian yang membentuk noun group",
-      "intro": "Bacaan berikut memperlihatkan bagaimana kelompok kata benda membantu pembaca mengenali benda dalam sebuah pajangan sekolah. Setelah membaca teks, amati kata inti, penjelas sebelum inti, dan keterangan setelah inti.",
-      "modelTitle": "A Display of Student Designs",
-      "modelEnglish": "Every month, the school library displays a small collection of student designs. This month, a wide table near the entrance holds three handmade objects. The first object is a small wooden clock with a round white face. Beside it, a blue cotton bag with two short handles hangs from a metal hook. A clear label under each object gives the maker’s name and a short description. At the back of the room, a large poster about local patterns covers part of the wall. Visitors can read the labels before choosing an object to study. One student likes the clock because its design is simple, while another prefers the bag with a deep front pocket. The librarian asks visitors to notice how descriptive word groups identify each object. Two students write short notes about the display. The notes use clear noun groups that help readers picture each item without seeing it. A noun group names a person, place, thing, or idea and adds details that make its meaning more precise.",
-      "modelIndonesian": "Setiap bulan, perpustakaan sekolah memajang koleksi kecil karya desain siswa. Bulan ini, sebuah meja lebar di dekat pintu masuk menampung tiga benda buatan tangan. Benda pertama adalah jam kayu kecil dengan permukaan bundar berwarna putih. Di sebelahnya, sebuah tas katun biru dengan dua pegangan pendek tergantung pada kait logam. Label yang jelas di bawah setiap benda mencantumkan nama pembuat dan deskripsi singkat. Di bagian belakang ruangan, sebuah poster besar tentang motif lokal menutupi sebagian dinding. Pengunjung dapat membaca label sebelum memilih benda untuk diamati. Seorang siswa menyukai jam itu karena desainnya sederhana, sedangkan siswa lain lebih menyukai tas dengan saku depan yang dalam. Pustakawan meminta pengunjung memperhatikan bagaimana kelompok kata deskriptif membantu mengidentifikasi setiap benda. Dua siswa menulis catatan singkat tentang pajangan tersebut. Catatan itu menggunakan kelompok kata benda yang jelas sehingga pembaca dapat membayangkan setiap benda tanpa melihatnya. Kelompok kata benda menamai orang, tempat, benda, atau gagasan serta menambahkan rincian agar maknanya lebih tepat.",
-      "modelNote": "Contoh noun group dalam bacaan antara lain “a wide table near the entrance” dan “a small wooden clock with a round white face”. Cari nomina intinya, lalu perhatikan bagaimana kata sebelum dan sesudahnya memperjelas benda tersebut.",
+      "title": "Bangun noun group selangkah demi selangkah",
+      "intro": "Ikuti satu benda, “bag”, dari kata inti hingga menjadi kelompok kata yang lebih terperinci. Setiap langkah menambahkan satu jenis informasi. Perhatikan tugas setiap kata, bukan sekadar panjang kelompok katanya.",
       "steps": [
         {
-          "phase": "Menemukan nomina inti",
-          "title": "Cari kata yang menamai benda utama",
-          "explanation": "Setiap noun group berpusat pada satu nomina inti atau head noun. Kata inti menunjukkan orang, tempat, benda, atau gagasan yang sedang dibicarakan. Mulailah dari kata tersebut sebelum membaca semua keterangannya.",
-          "english": "the display",
-          "indonesian": "pajangan itu",
-          "why": "“Display” adalah head noun karena kata itu menamai hal utama yang dibicarakan. “The” hanya membantu menunjukkan pajangan tertentu."
+          "title": "Mulai dari nomina inti",
+          "explanation": "Nomina inti atau head noun adalah kata yang menamai orang, tempat, benda, atau gagasan utama. Kata lain dalam noun group akan memberi informasi tentang nomina inti itu. Mulailah dengan menemukan nama bendanya.",
+          "english": "bag",
+          "indonesian": "tas",
+          "why": "“Bag” adalah head noun karena kata ini menamai benda utama. Noun group dapat sesingkat satu nomina; rincian tambahan belum wajib ada."
         },
         {
-          "phase": "Membaca penjelas sebelum inti",
-          "title": "Perhatikan determiner",
-          "explanation": "Determiner berada sebelum nomina dan membantu pembaca memahami rujukannya. Dalam contoh sederhana, “a” memperkenalkan satu benda yang belum ditentukan secara khusus, sedangkan “the” menunjuk benda yang sudah diketahui atau sedang dibicarakan.",
-          "english": "a clock / the clock",
-          "indonesian": "sebuah jam / jam itu",
-          "why": "Kata “a” dan “the” bukan nomina inti. Keduanya memberi petunjuk apakah penulis memperkenalkan sebuah jam atau merujuk pada jam tertentu."
+          "title": "Tambahkan determiner untuk memperjelas rujukan",
+          "explanation": "Determiner berada sebelum head noun. “A” memperkenalkan satu benda yang belum ditentukan secara khusus, sedangkan “the” merujuk pada benda tertentu yang sudah diketahui dari konteks.",
+          "english": "a bag / the bag",
+          "indonesian": "sebuah tas / tas itu",
+          "why": "“Bag” tetap menjadi head noun. “A” dan “the” memberi petunjuk tentang rujukan tas, bukan menjelaskan warna atau bahan tas."
         },
         {
-          "phase": "Membaca penjelas sebelum inti",
-          "title": "Kenali angka dan jumlah",
-          "explanation": "Angka dan kata kuantitas seperti “two”, “three”, “some”, atau “several” memberi tahu berapa banyak benda yang dimaksud. Perhatikan bahwa kata jumlah tidak menggantikan head noun; kata itu hanya membatasi jumlahnya.",
-          "english": "three handmade objects",
-          "indonesian": "tiga benda buatan tangan",
-          "why": "“Three” menunjukkan jumlah, “handmade” menerangkan jenis atau cara benda dibuat, dan “objects” tetap menjadi nomina inti.",
-          "check": "Dalam kelompok kata “three handmade objects”, kata mana yang menunjukkan jumlah benda?",
-          "checkAnswer": "Kata “three” menunjukkan jumlahnya. Nomina inti “objects” tetap menamai benda yang sedang dibicarakan."
+          "title": "Tunjukkan jumlah benda",
+          "explanation": "Angka atau kata kuantitas seperti “two”, “three”, “some”, dan “several” dapat muncul sebelum head noun. Jika jumlahnya lebih dari satu pada nomina yang dapat dihitung, gunakan bentuk jamak.",
+          "english": "three bags / several bags",
+          "indonesian": "tiga tas / beberapa tas",
+          "why": "“Three” dan “several” menunjukkan jumlah. “Bags” adalah head noun dan memakai bentuk jamak karena jumlahnya lebih dari satu.",
+          "check": "Dalam noun group “three small notebooks”, kata mana yang menunjukkan jumlah benda?",
+          "checkAnswer": "Kata “three” menunjukkan jumlah. “Notebooks” tetap menjadi head noun dan berbentuk jamak karena jumlahnya lebih dari satu."
         },
         {
-          "phase": "Membaca penjelas sebelum inti",
-          "title": "Baca sifat sebelum nomina inti",
-          "explanation": "Adjective atau kata sifat dapat menjelaskan ukuran, warna, bentuk, atau kualitas. Kata yang menunjukkan bahan juga dapat muncul sebelum nomina, seperti “wooden” pada contoh berikut. Temukan head noun terlebih dahulu agar kamu tahu benda mana yang sedang dijelaskan.",
-          "english": "a small wooden clock",
-          "indonesian": "sebuah jam kayu kecil",
-          "why": "“Clock” menamai benda utama. “Small” memberi informasi ukuran, sedangkan “wooden” menjelaskan bahan jam tersebut."
+          "title": "Tambahkan sifat sebelum head noun",
+          "explanation": "Adjective atau kata sifat biasanya diletakkan sebelum nomina dalam noun group. Kata sifat dapat menjelaskan ukuran, warna, bentuk, atau kualitas benda.",
+          "english": "a small blue bag",
+          "indonesian": "sebuah tas kecil berwarna biru",
+          "why": "“Bag” adalah head noun. “Small” menjelaskan ukuran dan “blue” menjelaskan warna; kedua kata itu memberi rincian tentang tas yang sama."
         },
         {
-          "phase": "Membaca penjelas sesudah inti",
-          "title": "Temukan keterangan setelah nomina",
-          "explanation": "Noun group dapat berlanjut setelah head noun. Frasa yang diawali preposisi, seperti “with”, “near”, “beside”, atau “for”, dapat menambahkan ciri, lokasi, atau tujuan. Keterangan itu membantu membedakan satu benda dari benda lain.",
-          "english": "a clock with a round white face",
-          "indonesian": "sebuah jam dengan permukaan bundar berwarna putih",
-          "why": "Head noun-nya tetap “clock”. Frasa “with a round white face” menambahkan ciri jam dan memperjelas jam yang dimaksud.",
-          "check": "Pada kelompok kata “the poster beside the door”, bagian mana yang menunjukkan lokasi poster?",
-          "checkAnswer": "Frasa “beside the door” menunjukkan lokasi poster. Kata inti tetap “poster”, bukan “door”."
+          "title": "Tambahkan bahan dan keterangan setelah nomina",
+          "explanation": "Kata bahan seperti “cotton” dapat muncul sebelum head noun. Setelah head noun, frasa yang diawali preposisi seperti “with” atau “near” dapat menambahkan ciri atau lokasi.",
+          "english": "a small blue cotton bag with two pockets",
+          "indonesian": "sebuah tas katun kecil berwarna biru dengan dua saku",
+          "why": "“Bag” tetap menjadi head noun. “Small”, “blue”, dan “cotton” memberi rincian sebelum nomina; “with two pockets” menambahkan ciri setelahnya.",
+          "check": "Pada “a small blue cotton bag with two pockets”, bagian mana yang menambahkan ciri setelah head noun?",
+          "checkAnswer": "Frasa “with two pockets” menambahkan ciri setelah head noun “bag”. Frasa itu menjelaskan tas, bukan menjadi nomina inti kelompok utama."
         },
         {
-          "phase": "Menerapkan dalam kalimat",
-          "title": "Baca seluruh kelompok kata dalam kalimat",
-          "explanation": "Ketika noun group muncul dalam kalimat, pisahkan kelompok katanya dari kata kerja. Temukan nomina inti, lalu gabungkan informasi sebelum dan sesudahnya. Dengan cara ini, kamu dapat memahami benda yang dimaksud tanpa menerjemahkan setiap kata secara terpisah.",
-          "english": "The small wooden clock with a round white face stood on the wide table near the entrance.",
-          "indonesian": "Jam kayu kecil dengan permukaan bundar berwarna putih itu berdiri di atas meja lebar di dekat pintu masuk.",
-          "why": "Kelompok kata “The small wooden clock with a round white face” menjadi subjek kalimat dan berinti “clock”. Kata kerja “stood” berada di luar kelompok kata tersebut."
+          "title": "Temukan batas noun group dalam kalimat",
+          "explanation": "Noun group dapat menjadi subjek atau objek dalam kalimat. Kelompok itu dapat berakhir sebelum kata kerja. Jangan memasukkan kata kerja atau keterangan tempat setelah kata kerja ke dalam noun group.",
+          "english": "A small blue cotton bag with two pockets is on the desk.",
+          "indonesian": "Sebuah tas katun kecil berwarna biru dengan dua saku berada di atas meja.",
+          "why": "Noun group sebagai subjek adalah “A small blue cotton bag with two pockets”. Kata kerja “is” dan keterangan tempat “on the desk” berada di luar kelompok kata tersebut."
         }
       ]
     },
     {
       "type": "synthesis",
-      "title": "Rangkai inti dan keterangannya",
-      "text": "Head noun menamai hal utama. Determiner dan angka membantu menentukan rujukan atau jumlah; kata sifat dan kata bahan sebelum head noun menambahkan ciri; sedangkan frasa setelahnya dapat memberi informasi lokasi, tujuan, atau bagian. Saat membaca noun group yang panjang, jangan menganggap semua kata sama penting: temukan intinya, lalu baca setiap keterangan sesuai fungsinya."
+      "title": "Bagaimana noun group dibentuk?",
+      "text": "Temukan head noun terlebih dahulu. Setelah itu, periksa apakah ada determiner atau penunjuk jumlah, kata sifat atau bahan sebelum nomina, dan frasa tambahan setelah nomina. Tidak semua bagian harus muncul sekaligus. “A bag” sudah merupakan noun group; “three small blue cotton bags with two pockets” memberi rincian lebih banyak."
     },
     {
       "type": "table",
       "headers": [
         "Bagian",
-        "Letak",
+        "Posisi",
         "Fungsi",
         "Contoh"
       ],
@@ -93,222 +83,205 @@
         [
           "Determiner",
           "Sebelum head noun",
-          "Menandai rujukan umum atau tertentu.",
-          "a clock / the clock"
+          "Memperkenalkan atau menunjukkan benda tertentu.",
+          "a bag / the bag / this bag"
         ],
         [
           "Angka atau kuantitas",
           "Sebelum head noun",
           "Menunjukkan jumlah benda.",
-          "three objects / several visitors"
+          "three bags / several books"
         ],
         [
           "Pre-modifier",
           "Sebelum head noun",
           "Menjelaskan ukuran, warna, kualitas, atau bahan.",
-          "small wooden clock"
+          "small blue cotton bag"
         ],
         [
           "Head noun",
-          "Inti kelompok kata",
+          "Inti noun group",
           "Menamai benda atau hal utama.",
-          "clock"
+          "bag"
         ],
         [
           "Post-modifier",
-          "Sesudah head noun",
+          "Setelah head noun",
           "Menambahkan ciri, lokasi, atau tujuan.",
-          "clock with a silver frame / poster beside the door"
+          "bag with two pockets / chair near the window"
         ]
       ]
     },
     {
       "type": "rule",
-      "text": "Pola sederhana yang sering ditemukan: [[determiner atau jumlah + penjelas + head noun + keterangan tambahan]]. Bagian-bagian ini tidak wajib selalu muncul bersama. Contoh “a clock” sudah merupakan noun group; contoh “the small wooden clock with a round white face” memuat lebih banyak rincian."
-    },
-    {
-      "type": "subheading",
-      "text": "Perhatikan urutan dan fungsi kata, bukan hanya jumlahnya"
+      "text": "Pola yang sering digunakan: [[determiner (opsional) + angka/kuantitas (jika diperlukan) + kata sifat/bahan + HEAD NOUN + frasa tambahan (opsional)]]. Tidak semua bagian harus muncul. Contoh: “a small bag”, “three small bags”, dan “the three small bags with two pockets”. Determiner dapat muncul bersama angka, seperti “the three bags”; tetapi artikel tunggal “a” tidak digunakan bersama angka yang sudah menunjukkan jumlah, seperti “a three bags”."
     },
     {
       "type": "mistake",
-      "incorrect": "a clock small wooden with a silver frame",
-      "correct": "a small wooden clock with a silver frame",
-      "explanation": "Dalam contoh ini, kata sifat dan kata bahan ditempatkan sebelum head noun “clock”. Keterangan “with a silver frame” muncul setelahnya untuk menambahkan ciri. Jangan memindahkan semua penjelas ke satu sisi nomina."
-    },
-    {
-      "type": "heading",
-      "text": "Sepuluh contoh dengan fungsi yang berbeda"
-    },
-    {
-      "type": "text",
-      "text": "Bandingkan contoh berikut. Setiap kata tambahan memiliki tugas tertentu: memperkenalkan benda, menunjukkan jumlah, menjelaskan sifat atau bahan, atau membatasi benda yang dimaksud."
+      "incorrect": "three small blue bag",
+      "correct": "three small blue bags",
+      "explanation": "Angka “three” menunjukkan lebih dari satu benda. Karena “bag” adalah nomina yang dapat dihitung, bentuknya harus jamak, yaitu “bags”."
     },
     {
       "type": "example_group",
-      "title": "Rujukan dan jumlah sebelum nomina inti",
+      "title": "Kenali head noun pada kelompok sederhana",
       "collapsed": false,
       "items": [
         {
-          "english": "the display",
-          "indonesian": "pajangan tersebut",
-          "note": "“Display” adalah head noun. Determiner “the” menunjukkan bahwa penulis merujuk pada pajangan tertentu yang sudah diketahui."
+          "english": "the window",
+          "indonesian": "jendela itu",
+          "note": "“Window” adalah head noun yang menamai benda utama. “The” menunjukkan jendela tertentu."
         },
         {
-          "english": "a label",
-          "indonesian": "sebuah label",
-          "note": "“Label” menjadi nomina inti. “A” memperkenalkan satu label, tetapi belum menunjuk label tertentu."
+          "english": "a pencil",
+          "indonesian": "sebuah pensil",
+          "note": "“Pencil” adalah head noun. “A” memperkenalkan satu pensil yang belum ditentukan secara khusus."
         },
         {
-          "english": "several visitors",
-          "indonesian": "beberapa pengunjung",
-          "note": "“Several” menunjukkan jumlah yang lebih dari satu tanpa menyebut angka pasti. Head noun-nya adalah “visitors”."
+          "english": "those books",
+          "indonesian": "buku-buku itu",
+          "note": "“Books” adalah head noun. “Those” menunjukkan buku-buku tertentu yang letaknya lebih jauh dari pembicara."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "Sifat dan bahan sebelum nomina inti",
+      "title": "Tambahkan jumlah, sifat, dan bahan",
       "collapsed": false,
       "items": [
         {
-          "english": "a narrow glass vase",
-          "indonesian": "sebuah vas kaca yang ramping",
-          "note": "“Vase” menamai benda utama. “Narrow” menjelaskan bentuk atau ukuran, sedangkan “glass” menunjukkan bahan vas."
+          "english": "three clean notebooks",
+          "indonesian": "tiga buku catatan yang bersih",
+          "note": "“Three” menunjukkan jumlah, “clean” menjelaskan keadaan, dan “notebooks” menjadi head noun."
         },
         {
-          "english": "two colourful paper cards",
-          "indonesian": "dua kartu kertas berwarna-warni",
-          "note": "“Two” memberi tahu jumlah kartu. “Colourful” menjelaskan tampilannya dan “paper” menunjukkan bahan sebelum head noun “cards”."
+          "english": "a small red box",
+          "indonesian": "sebuah kotak merah kecil",
+          "note": "“Box” adalah head noun. “Small” menjelaskan ukuran dan “red” menjelaskan warna."
         },
         {
-          "english": "a metal frame",
-          "indonesian": "sebuah bingkai logam",
-          "note": "“Frame” merupakan head noun. Kata “metal” menjelaskan bahan bingkai, bukan benda lain yang berdiri sendiri."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "Keterangan setelah nomina dan gabungan rincian",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "the poster beside the door",
-          "indonesian": "poster di samping pintu itu",
-          "note": "Head noun “poster” diikuti keterangan lokasi “beside the door”. Keterangan ini membantu pembaca memilih poster yang dimaksud."
-        },
-        {
-          "english": "a box for art supplies",
-          "indonesian": "sebuah kotak untuk perlengkapan seni",
-          "note": "Frasa “for art supplies” berada setelah head noun “box” dan menjelaskan tujuan atau kegunaan kotak tersebut."
-        },
-        {
-          "english": "the visitors with blue tickets",
-          "indonesian": "para pengunjung yang memiliki tiket biru",
-          "note": "Frasa “with blue tickets” menjelaskan pengunjung yang dimaksud. Head noun pada kelompok kata utama adalah “visitors”."
-        },
-        {
-          "english": "the narrow wooden shelf with three open sections",
-          "indonesian": "rak kayu sempit dengan tiga bagian terbuka itu",
-          "note": "Head noun “shelf” diperjelas oleh “narrow” dan “wooden” sebelum nomina, lalu oleh “with three open sections” sesudahnya."
+          "english": "two cotton shirts",
+          "indonesian": "dua kemeja katun",
+          "note": "“Two” menunjukkan jumlah, “cotton” menunjukkan bahan, dan “shirts” adalah head noun."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade9-noun-groups",
-      "prompt": "Which word is the head noun in “the narrow wooden shelf with three open sections”?",
-      "translation": "Kata mana yang menjadi nomina inti dalam kelompok kata “the narrow wooden shelf with three open sections”?",
+      "prompt": "Which word is the head noun in “three small blue bags”?",
+      "translation": "Kata mana yang menjadi head noun dalam “three small blue bags”?",
       "choices": [
-        "narrow",
-        "wooden",
-        "shelf"
+        "three",
+        "small",
+        "bags"
       ],
       "answer": 2,
       "translationChoices": [
-        "sempit",
-        "berbahan kayu",
-        "rak"
+        "tiga",
+        "kecil",
+        "tas-tas"
       ],
-      "explanation": "“Shelf” menamai benda utama yang dibicarakan. “Narrow” dan “wooden” menjelaskan rak sebelum nomina, sedangkan “with three open sections” menambahkan rincian setelahnya.",
-      "hint": "Tanyakan: benda utama apa yang sedang dijelaskan oleh kata-kata lainnya?"
+      "explanation": "“Bags” menamai benda utama yang sedang dibicarakan. “Three” menunjukkan jumlah dan “small” menjelaskan ukuran tas.",
+      "hint": "Cari kata yang menamai benda, bukan kata yang menunjukkan jumlah atau sifat."
     },
     {
-      "type": "breakdown",
-      "sentence": "The narrow wooden shelf with three open sections stands near the door.",
-      "parts": [
+      "type": "example_group",
+      "title": "Tambahkan keterangan setelah head noun",
+      "collapsed": false,
+      "items": [
         {
-          "english": "The",
-          "meaning": "Determiner yang menunjukkan rak tertentu."
+          "english": "the chair near the window",
+          "indonesian": "kursi di dekat jendela itu",
+          "note": "“Chair” adalah head noun. “Near the window” menambahkan informasi lokasi tentang kursi."
         },
         {
-          "english": "narrow wooden",
-          "meaning": "Pre-modifier: “narrow” menjelaskan ukuran dan “wooden” menjelaskan bahan."
+          "english": "a bottle of water",
+          "indonesian": "sebotol air",
+          "note": "“Bottle” adalah head noun. “Of water” menjelaskan isi botol yang dimaksud."
         },
         {
-          "english": "shelf",
-          "meaning": "Head noun yang menamai benda utama."
+          "english": "a bag with two pockets",
+          "indonesian": "sebuah tas dengan dua saku",
+          "note": "“Bag” adalah head noun. “With two pockets” menambahkan ciri yang membantu membedakan tas tersebut."
         },
         {
-          "english": "with three open sections",
-          "meaning": "Post-modifier yang menambahkan rincian tentang rak."
-        },
-        {
-          "english": "stands",
-          "meaning": "Kata kerja; bagian ini berada di luar noun group."
+          "english": "the student in the blue jacket",
+          "indonesian": "siswa yang mengenakan jaket biru itu",
+          "note": "“Student” adalah head noun. “In the blue jacket” membantu mengidentifikasi siswa yang dimaksud."
         }
       ]
     },
     {
-      "type": "example",
-      "text": "A narrow blue folder with a clear label rested inside the top drawer. The folder held two folded maps of the school and a short list of room numbers. Beside the drawer, a small notice board showed a simple timetable for club meetings. A student looking for the art room used the clear label on the folder before checking the map.",
-      "note": "Sebuah map biru yang ramping dengan label jelas berada di dalam laci paling atas. Map itu berisi dua peta sekolah yang terlipat dan daftar singkat nomor ruangan. Di samping laci, sebuah papan pengumuman kecil menampilkan jadwal sederhana pertemuan klub. Seorang siswa yang mencari ruang seni menggunakan label yang jelas pada map sebelum memeriksa peta."
+      "type": "breakdown",
+      "sentence": "Three small blue bags with two pockets are on the table.",
+      "parts": [
+        {
+          "english": "Three",
+          "meaning": "Angka yang menunjukkan jumlah tas."
+        },
+        {
+          "english": "small blue",
+          "meaning": "Pre-modifier: “small” menjelaskan ukuran dan “blue” menjelaskan warna."
+        },
+        {
+          "english": "bags",
+          "meaning": "Head noun yang menamai benda utama; bentuk jamak sesuai dengan “three”."
+        },
+        {
+          "english": "with two pockets",
+          "meaning": "Post-modifier yang menambahkan ciri pada tas."
+        },
+        {
+          "english": "are",
+          "meaning": "Kata kerja utama; berada di luar noun group."
+        },
+        {
+          "english": "on the table",
+          "meaning": "Keterangan tempat setelah kata kerja; bukan bagian dari noun group subjek."
+        }
+      ]
     },
     {
       "type": "reflection",
-      "prompt": "How does “a vase” differ from “a narrow glass vase near the window”?",
-      "translation": "Apa perbedaan informasi yang diberikan oleh “a vase” dan “a narrow glass vase near the window”?",
-      "answer": "Kelompok kata pertama hanya memperkenalkan sebuah vas. Kelompok kata kedua memperjelas ukuran, bahan, dan lokasi vas, sehingga pembaca dapat membedakan vas yang dimaksud dari vas lainnya."
+      "prompt": "What extra information does “three small blue cotton bags with two pockets” give compared with “bags”?",
+      "translation": "Informasi tambahan apa yang diberikan oleh “three small blue cotton bags with two pockets” dibandingkan dengan “bags”?",
+      "answer": "Kelompok kata yang lebih panjang memberi tahu jumlah tas, ukuran, warna, bahan, dan ciri tas. Head noun-nya tetap “bags”; kata-kata lainnya memperjelas benda yang dimaksud."
     },
     {
       "type": "heading",
-      "text": "Gunakan noun group untuk membaca deskripsi"
-    },
-    {
-      "type": "text",
-      "text": "Ketika sebuah kalimat memuat beberapa noun group, temukan inti setiap kelompok secara terpisah. Perhatikan juga kata kerja agar kamu tidak memasukkan seluruh kalimat ke dalam satu kelompok kata benda."
+      "text": "Gunakan pola yang sama pada benda lain"
     },
     {
       "type": "example",
-      "text": "The small wooden clock with a round white face stood on the wide table near the entrance.",
-      "note": "Subjeknya adalah “The small wooden clock with a round white face”. Setelah kata kerja “stood”, terdapat kelompok kata lain, “the wide table near the entrance”, yang menjadi bagian dari keterangan tempat."
+      "text": "Three small blue bags with two pockets are on the table.",
+      "note": "Artinya: Tiga tas kecil berwarna biru dengan dua saku berada di atas meja. Noun group subjeknya adalah “Three small blue bags with two pockets”; “are” merupakan kata kerja, sedangkan “on the table” adalah keterangan tempat setelah kata kerja."
     },
     {
       "type": "summary",
       "title": "Hal penting yang perlu diingat",
       "items": [
-        "Head noun menamai orang, tempat, benda, atau gagasan yang menjadi inti kelompok kata.",
+        "Head noun menamai orang, tempat, benda, atau gagasan yang menjadi inti noun group.",
         "Determiner dan angka atau kata kuantitas membantu menunjukkan rujukan serta jumlah.",
-        "Pre-modifier sebelum head noun dapat menjelaskan ukuran, warna, kualitas, atau bahan.",
-        "Post-modifier setelah head noun dapat menambahkan ciri, lokasi, atau tujuan.",
-        "Temukan nomina inti lebih dahulu, lalu gabungkan rincian untuk memahami benda yang dimaksud."
+        "Kata sifat dan bahan dapat muncul sebelum head noun untuk menambahkan rincian.",
+        "Frasa setelah head noun dapat menambahkan ciri, lokasi, atau tujuan.",
+        "Kata kerja utama dan keterangan setelah kata kerja tidak otomatis menjadi bagian dari noun group."
       ]
     },
     {
       "type": "self_check",
-      "title": "Buat dua noun group dari benda di sekitarmu",
-      "prompt": "Tulislah dua noun group bahasa Inggris untuk benda yang dapat kamu lihat di ruang kelas atau rumah. Setiap kelompok kata harus memiliki determiner atau angka, satu penjelas sebelum nomina, dan head noun. Jika sesuai, tambahkan keterangan setelah nomina.",
-      "model": "a wide wooden desk near the window; three small blue folders on the shelf",
-      "modelTranslation": "sebuah meja kayu lebar di dekat jendela; tiga map biru kecil di atas rak",
-      "criteria": "Periksa apakah setiap kelompok kata memiliki head noun yang jelas, apakah penjelas sebelum nomina berada pada posisi yang wajar, dan apakah keterangan setelah nomina benar-benar memperjelas benda yang dimaksud."
+      "title": "Bangun noun group dari benda di sekitarmu",
+      "prompt": "Pilih dua benda di ruang kelas atau rumah. Untuk setiap benda, tulis head noun, lalu kembangkan menjadi noun group dengan determiner atau angka, setidaknya satu kata sifat atau bahan, dan satu frasa tambahan jika sesuai. Gunakan salah satu noun group dalam satu kalimat lengkap.",
+      "model": "a clear plastic bottle with a blue cap",
+      "modelTranslation": "sebuah botol plastik bening dengan tutup biru",
+      "criteria": "Periksa apakah head noun menamai benda utama, determiner atau jumlah digunakan dengan tepat, nomina jamak sesuai dengan angka, kata sifat/bahan berada pada posisi yang wajar, dan frasa tambahan benar-benar menjelaskan head noun."
     },
     {
       "type": "vocabulary",
       "title": "Bekal Kosakata",
       "items": [
         {
-          "english": "noun group",
+          "english": "noun group / noun phrase",
           "indonesian": "kelompok kata benda"
         },
         {
@@ -317,35 +290,35 @@
         },
         {
           "english": "determiner",
-          "indonesian": "kata penentu rujukan, seperti a, the, atau this"
+          "indonesian": "kata penentu rujukan, seperti a, the, atau those"
         },
         {
           "english": "quantity",
           "indonesian": "jumlah atau kuantitas"
         },
         {
-          "english": "pre-modifier",
-          "indonesian": "penjelas yang terletak sebelum nomina inti"
-        },
-        {
-          "english": "post-modifier",
-          "indonesian": "penjelas yang terletak setelah nomina inti"
+          "english": "adjective",
+          "indonesian": "kata sifat"
         },
         {
           "english": "material",
           "indonesian": "bahan pembuat suatu benda"
         },
         {
+          "english": "pre-modifier",
+          "indonesian": "penjelas yang berada sebelum nomina inti"
+        },
+        {
+          "english": "post-modifier",
+          "indonesian": "penjelas yang berada setelah nomina inti"
+        },
+        {
+          "english": "plural",
+          "indonesian": "bentuk jamak atau lebih dari satu"
+        },
+        {
           "english": "refer to",
           "indonesian": "merujuk pada atau menunjuk sesuatu"
-        },
-        {
-          "english": "label",
-          "indonesian": "label atau keterangan penanda"
-        },
-        {
-          "english": "handle",
-          "indonesian": "pegangan"
         }
       ]
     }
@@ -353,43 +326,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What is the head noun in “a blue cotton bag with two short handles”?",
+      "prompt": "What is the head noun in “the two small wooden boxes near the door”?",
       "choices": [
-        "blue",
-        "cotton",
-        "bag"
+        "two",
+        "small",
+        "boxes"
       ],
       "answer": 2,
-      "explanation": "“Bag” menamai benda utama. “Blue” menjelaskan warna, “cotton” menjelaskan bahan, dan “with two short handles” menambahkan rincian tentang tas tersebut.",
+      "explanation": "“Boxes” menamai benda utama. “The” menunjukkan rujukan, “two” menunjukkan jumlah, “small” menjelaskan ukuran, “wooden” menunjukkan bahan, dan “near the door” memberi lokasi.",
       "translationId": {
-        "prompt": "Apa nomina inti dalam “a blue cotton bag with two short handles”?",
+        "prompt": "Apa head noun dalam “the two small wooden boxes near the door”?",
         "choices": [
-          "biru",
-          "katun",
-          "tas"
+          "dua",
+          "kecil",
+          "kotak-kotak"
         ]
       },
       "skill": "Head Noun"
     },
     {
       "id": "p2",
-      "prompt": "Which part of “a box for art supplies” explains the box’s purpose?",
+      "prompt": "Choose the noun group with a natural word order.",
       "choices": [
-        "a",
-        "box",
-        "for art supplies"
+        "a blue small bag",
+        "a small blue bag",
+        "small a blue bag"
       ],
-      "answer": 2,
-      "explanation": "Frasa “for art supplies” menjelaskan kegunaan kotak. “Box” adalah head noun, sedangkan “a” memperkenalkan satu kotak yang belum ditentukan secara khusus.",
+      "answer": 1,
+      "explanation": "“A small blue bag” memiliki urutan determiner, ukuran, warna, lalu head noun. Dalam contoh dasar ini, kata yang menjelaskan ukuran ditempatkan sebelum warna.",
       "translationId": {
-        "prompt": "Bagian mana dari “a box for art supplies” yang menjelaskan tujuan penggunaan kotak?",
+        "prompt": "Pilih noun group dengan urutan kata yang wajar.",
         "choices": [
-          "a",
-          "kotak",
-          "untuk perlengkapan seni"
+          "sebuah tas biru kecil",
+          "sebuah tas kecil berwarna biru",
+          "kecil sebuah tas biru"
         ]
       },
-      "skill": "Post-modifier"
+      "skill": "Pre-modifier Order"
     }
   ],
   "assessments": [

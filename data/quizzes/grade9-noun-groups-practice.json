@@ -2,182 +2,161 @@
   "id": "grade9-noun-groups-practice",
   "questionCount": 7,
   "durationSeconds": 420,
-  "passages": [
-    {
-      "id": "reading-corner-description",
-      "title": "Noun Groups: A New Reading Corner",
-      "text": "Last month, the school library opened a new reading corner beside its tall windows. A low wooden shelf holds short story books, picture dictionaries, and several large-print guides. On the pale blue wall, a simple map of the library shows quiet study areas. Two soft floor cushions sit under a round table with a smooth surface. A small reading lamp with a flexible neck stands near the shelf. The librarian placed clear labels above each group of books, so younger students can find the right section. A narrow sign beside the entrance explains the quiet-reading rules. Many students now use the corner after lunch. Some read alone, while others choose a short book to share with a friend. At the end of the first week, the librarian asked visitors what they liked. Several students mentioned the soft cushions and the lamp with a flexible neck. One student suggested adding a second shelf for books about science. The librarian will consider the suggestion before changing the display. The new space gives the library a calm place for reading and study.",
-      "original": true
-    }
-  ],
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the passage mainly about?",
+      "prompt": "What is the head noun in “a small blue bag”?",
       "choices": [
-        "A new reading corner and the details that make it useful.",
-        "A plan to close the school library.",
-        "The history of a famous collection of books.",
-        "Instructions for making a reading lamp."
+        "small",
+        "blue",
+        "bag",
+        "a"
       ],
-      "answer": 0,
-      "explanation": "Bacaan menjelaskan sudut baca baru di perpustakaan, benda-benda yang tersedia, dan cara rincian tersebut membantu pengunjung. Teks tidak membahas penutupan perpustakaan, sejarah koleksi terkenal, atau petunjuk membuat lampu.",
+      "answer": 2,
+      "explanation": "“Bag” menamai benda utama sehingga menjadi head noun. “A” memperkenalkan benda, sedangkan “small” dan “blue” menjelaskan ukuran serta warna.",
       "translationId": {
-        "prompt": "Apa pokok bahasan utama bacaan tersebut?",
+        "prompt": "Apa head noun dalam “a small blue bag”?",
         "choices": [
-          "Sudut baca baru dan rincian yang membuatnya berguna.",
-          "Rencana untuk menutup perpustakaan sekolah.",
-          "Sejarah koleksi buku yang terkenal.",
-          "Petunjuk untuk membuat lampu baca."
+          "kecil",
+          "biru",
+          "tas",
+          "sebuah"
         ]
       },
-      "skill": "Main Idea",
-      "passageId": "reading-corner-description",
-      "evidence": "The new space gives the library a calm place for reading and study."
+      "skill": "Head Noun"
     },
     {
       "id": "q2",
-      "prompt": "What is the head noun in the group “a low wooden shelf”?",
+      "prompt": "Which word is the determiner in “the old bicycle”?",
       "choices": [
-        "low",
-        "wooden",
-        "shelf",
-        "books"
+        "the",
+        "old",
+        "bicycle",
+        "wheel"
       ],
-      "answer": 2,
-      "explanation": "“Shelf” menamai benda utama yang dibicarakan. “Low” menjelaskan ukuran rak, sedangkan “wooden” menunjukkan bahannya. “Books” muncul setelahnya sebagai benda yang disimpan di rak, bukan inti kelompok kata tersebut.",
+      "answer": 0,
+      "explanation": "“The” adalah determiner yang menunjukkan sepeda tertentu. “Bicycle” merupakan head noun dan “old” menjelaskan keadaan sepeda.",
       "translationId": {
-        "prompt": "Apa nomina inti dalam kelompok kata “a low wooden shelf”?",
+        "prompt": "Kata mana yang menjadi determiner dalam “the old bicycle”?",
         "choices": [
-          "rendah",
-          "berbahan kayu",
-          "rak",
-          "buku-buku"
+          "the (itu)",
+          "tua",
+          "sepeda",
+          "roda"
         ]
       },
-      "skill": "Head Noun",
-      "passageId": "reading-corner-description",
-      "evidence": "A low wooden shelf holds short story books, picture dictionaries, and several large-print guides."
+      "skill": "Determiner"
     },
     {
       "id": "q3",
-      "prompt": "What does “with a flexible neck” add to the noun group about the lamp?",
+      "prompt": "Which noun group correctly shows a quantity greater than one?",
       "choices": [
-        "It tells where the lamp is located.",
-        "It tells how many lamps are in the room.",
-        "It describes one feature of the lamp.",
-        "It names the person who owns the lamp."
+        "a notebook",
+        "three notebook",
+        "three notebooks",
+        "notebooks three"
       ],
       "answer": 2,
-      "explanation": "Frasa “with a flexible neck” berada setelah head noun “lamp” dan menjelaskan salah satu cirinya. Frasa itu tidak menunjukkan jumlah lampu, lokasi lampu, atau pemiliknya.",
+      "explanation": "“Three” menunjukkan jumlah lebih dari satu, sehingga nomina yang dapat dihitung menggunakan bentuk jamak “notebooks”.",
       "translationId": {
-        "prompt": "Apa informasi yang ditambahkan oleh “with a flexible neck” pada kelompok kata tentang lampu?",
+        "prompt": "Kelompok kata mana yang menunjukkan jumlah lebih dari satu dengan benar?",
         "choices": [
-          "Frasa itu menunjukkan lokasi lampu.",
-          "Frasa itu menunjukkan jumlah lampu di ruangan.",
-          "Frasa itu menjelaskan salah satu ciri lampu.",
-          "Frasa itu menyebutkan orang yang memiliki lampu."
+          "sebuah buku catatan",
+          "tiga notebook",
+          "tiga buku catatan",
+          "buku catatan tiga"
         ]
       },
-      "skill": "Post-modifier",
-      "passageId": "reading-corner-description",
-      "evidence": "A small reading lamp with a flexible neck stands near the shelf."
+      "skill": "Quantity and Plural Nouns"
     },
     {
       "id": "q4",
-      "prompt": "What does “several” tell the reader in “several large-print guides”?",
+      "prompt": "Which phrase has a natural order for size and colour?",
       "choices": [
-        "The colour of the guides",
-        "The location of the guides",
-        "The material of the guides",
-        "The quantity of the guides"
+        "a blue small box",
+        "a small blue box",
+        "a box small blue",
+        "small a blue box"
       ],
-      "answer": 3,
-      "explanation": "“Several” menunjukkan jumlah yang lebih dari satu, tetapi tidak menyebut angka tertentu. Kata tersebut membatasi jumlah “guides”; kata itu bukan nomina inti dan bukan penjelas warna atau bahan.",
+      "answer": 1,
+      "explanation": "“A small blue box” menempatkan determiner lebih dahulu, kemudian ukuran, warna, dan head noun. Dalam contoh ini, ukuran mendahului warna.",
       "translationId": {
-        "prompt": "Apa yang diberitahukan oleh “several” dalam “several large-print guides”?",
+        "prompt": "Frasa mana yang memiliki urutan wajar untuk ukuran dan warna?",
         "choices": [
-          "Warna panduan",
-          "Lokasi panduan",
-          "Bahan panduan",
-          "Jumlah panduan"
+          "sebuah kotak kecil berwarna biru",
+          "sebuah kotak kecil berwarna biru",
+          "sebuah kotak kecil berwarna biru",
+          "sebuah kotak kecil berwarna biru"
         ]
       },
-      "skill": "Determiners and Quantity",
-      "passageId": "reading-corner-description",
-      "evidence": "A low wooden shelf holds short story books, picture dictionaries, and several large-print guides."
+      "skill": "Pre-modifier Order"
     },
     {
       "id": "q5",
-      "prompt": "Which phrase tells where the new reading corner is located?",
+      "prompt": "What does “cotton” describe in “two cotton shirts”?",
       "choices": [
-        "beside its tall windows",
-        "several large-print guides",
-        "a smooth surface",
-        "a flexible neck"
+        "colour",
+        "material",
+        "quantity",
+        "head noun"
       ],
-      "answer": 0,
-      "explanation": "Frasa “beside its tall windows” memberi informasi lokasi reading corner. Frasa lain menjelaskan benda di dalam ruangan, seperti panduan, permukaan meja, atau bagian lampu.",
+      "answer": 1,
+      "explanation": "“Cotton” menunjukkan bahan kemeja. “Two” menunjukkan jumlah, sedangkan “shirts” adalah head noun yang menamai benda utama.",
       "translationId": {
-        "prompt": "Frasa mana yang menunjukkan lokasi sudut baca baru?",
+        "prompt": "Apa yang dijelaskan oleh “cotton” dalam “two cotton shirts”?",
         "choices": [
-          "di samping jendela-jendelanya yang tinggi",
-          "beberapa buku panduan berhuruf besar",
-          "permukaan yang halus",
-          "leher yang lentur"
+          "warna",
+          "bahan",
+          "jumlah",
+          "nomina inti"
         ]
       },
-      "skill": "Post-modifier and Location",
-      "passageId": "reading-corner-description",
-      "evidence": "Last month, the school library opened a new reading corner beside its tall windows."
+      "skill": "Material Modifier"
     },
     {
       "id": "q6",
-      "prompt": "Which noun group refers to the cushions?",
+      "prompt": "Which part is the post-modifier in “the chair near the window”?",
       "choices": [
-        "a round table",
-        "two soft floor cushions",
-        "a small reading lamp",
-        "a narrow sign"
+        "near the window",
+        "the chair",
+        "chair",
+        "window"
       ],
-      "answer": 1,
-      "explanation": "“Two soft floor cushions” adalah kelompok kata yang menamai bantal duduk. “Two” menunjukkan jumlah, “soft” menjelaskan sifatnya, dan “cushions” menjadi nomina inti.",
+      "answer": 0,
+      "explanation": "“Near the window” berada setelah head noun “chair” dan menambahkan informasi lokasi. Seluruh noun group adalah “the chair near the window”.",
       "translationId": {
-        "prompt": "Kelompok kata mana yang merujuk pada bantal duduk?",
+        "prompt": "Bagian mana yang menjadi post-modifier dalam “the chair near the window”?",
         "choices": [
-          "sebuah meja bundar",
-          "dua bantal lantai yang empuk",
-          "sebuah lampu baca kecil",
-          "sebuah papan tanda yang sempit"
+          "di dekat jendela",
+          "kursi itu",
+          "kursi",
+          "jendela"
         ]
       },
-      "skill": "Identifying Noun Groups",
-      "passageId": "reading-corner-description",
-      "evidence": "Two soft floor cushions sit under a round table with a smooth surface."
+      "skill": "Post-modifier"
     },
     {
       "id": "q7",
-      "prompt": "Why did the librarian place clear labels above each group of books?",
+      "prompt": "Which words form the complete noun group in “The three small bags with red labels are on the desk”?",
       "choices": [
-        "To make the wall look colourful.",
-        "To stop students from borrowing books.",
-        "To help younger students find the right section.",
-        "To show where the cushions should be placed."
+        "are on the desk",
+        "with red labels",
+        "on the desk",
+        "The three small bags with red labels"
       ],
-      "answer": 2,
-      "explanation": "Kalimat tersebut menyatakan bahwa label membantu siswa yang lebih muda menemukan bagian buku yang tepat. Tujuan ini berkaitan dengan kemudahan menemukan buku, bukan menghias dinding atau mengatur bantal.",
+      "answer": 3,
+      "explanation": "Noun group subjeknya adalah “The three small bags with red labels”. Kata kerja “are” dan keterangan tempat “on the desk” berada di luar noun group tersebut.",
       "translationId": {
-        "prompt": "Mengapa pustakawan meletakkan label yang jelas di atas setiap kelompok buku?",
+        "prompt": "Kata-kata mana yang membentuk noun group lengkap dalam “The three small bags with red labels are on the desk”?",
         "choices": [
-          "Untuk membuat dinding tampak berwarna-warni.",
-          "Untuk mencegah siswa meminjam buku.",
-          "Untuk membantu siswa yang lebih muda menemukan bagian yang tepat.",
-          "Untuk menunjukkan tempat bantal harus diletakkan."
+          "berada di atas meja",
+          "dengan label merah",
+          "di atas meja",
+          "tiga tas kecil dengan label merah itu"
         ]
       },
-      "skill": "Purpose and Supporting Detail",
-      "passageId": "reading-corner-description",
-      "evidence": "The librarian placed clear labels above each group of books, so younger students can find the right section."
+      "skill": "Noun Group Boundaries"
     }
-  ]
+  ],
+  "passages": []
 }

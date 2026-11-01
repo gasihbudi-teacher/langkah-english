@@ -42,7 +42,7 @@ function walk(blocks){
 }
 for(const r of lessons)walk(load(r.file).blocks);
 assert.equal(steps,600);assert.equal(stepTranslations,600,'Every scaffold English example must have visible Indonesian meaning');assert.equal(checks,158,'Purposeful scaffold questions remain optional, with no quota imposed');
-assert.equal(models,46);assert.equal(modelTranslations,46,'Every connected model passage must have Indonesian support');
+assert.equal(models,45);assert.equal(modelTranslations,45,'Every connected model passage must have Indonesian support');
 assert.equal(exampleItems,641);assert.equal(exampleTranslations,641,'Every worked-example card must have Indonesian meaning');
 assert.equal(checkpoints,65);assert.equal(checkpointTranslations,65);assert.equal(checkpointChoiceTranslations,65);
 assert.equal(reflections,65);assert.equal(reflectionTranslations,65);
