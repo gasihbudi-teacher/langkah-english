@@ -47,6 +47,57 @@ assert.match(html,/class="lesson-translation"/);
 assert.match(html,/Taman sekolah berada di belakang ruang sains/);
 assert.match(html,/Periksa jawaban/);
 assert(!html.includes('Coba pahami:'),'Old Grade 9 instructional label is visible');
+
+
+// Grade 9 Lesson 2: a distinct narrative-reading progression and unfamiliar transfer text.
+const narrativeMeta=catalogue.resources.find(r=>r.id==='grade9-narrative');
+const narrativeQuizMeta=catalogue.resources.find(r=>r.id==='grade9-narrative-practice');
+assert(narrativeMeta&&narrativeQuizMeta,'Grade 9 Narrative lesson and independent practice must be registered');
+assert.deepEqual(narrativeMeta.placements[0],{pathway:'school',grade:9});
+assert(narrativeMeta.placements.some(p=>p.pathway==='grammar')&&narrativeMeta.placements.some(p=>p.pathway==='tka'),'Existing cross-listings must remain available');
+assert.equal(narrativeMeta.order,215);
+assert.equal(narrativeQuizMeta.type,'quiz');
+assert.equal(narrativeQuizMeta.title,'Grade 9 Narrative Check: The Missing Exhibition Lantern');
+assert.deepEqual(narrativeQuizMeta.placements[0],{pathway:'school',grade:9});
+assert.deepEqual(narrativeQuizMeta.relatedLessons,['grade9-narrative']);
+assert.equal(narrativeQuizMeta.kind,'practice');
+assert.equal(narrativeQuizMeta.examFormat,'topic');
+const narrative=JSON.parse(read(narrativeMeta.file));
+assert.equal(narrative.id,'grade9-narrative','The stable lesson ID must be preserved');
+assert.equal(narrative.objectives.length,5,'The five narrative-reading objectives must remain explicit');
+assert.deepEqual(narrative.assessments,['grade9-narrative-practice']);
+assert.equal(narrative.blocks[0].type,'definition');
+assert.equal(narrative.blocks.at(-1).type,'vocabulary');
+const narrativeGuide=narrative.blocks.find(b=>b.type==='scaffold');
+assert(narrativeGuide&&narrativeGuide.modelEnglish&&narrativeGuide.modelIndonesian);
+assert.equal(narrativeGuide.steps.length,5);
+assert.equal(new Set(narrativeGuide.steps.map(s=>s.phase)).size,4);
+assert(narrativeGuide.steps.every(s=>s.title&&s.explanation&&s.english&&s.indonesian&&s.why));
+assert(narrativeGuide.steps.every(s=>(!!s.check)===(!!s.checkAnswer)));
+assert.equal(narrativeGuide.steps.filter(s=>s.check).length,3);
+assert(narrative.blocks.some(b=>b.type==='table'));
+assert(narrative.blocks.some(b=>b.type==='mistake'));
+assert.equal(narrative.blocks.filter(b=>b.type==='self_check').length,1);
+assert.equal(narrative.blocks.filter(b=>b.type==='checkpoint').length,1);
+assert.equal(narrative.blocks.filter(b=>b.type==='reflection').length,1);
+assert.equal(narrative.practice.length,3);
+assert(narrative.practice.every(q=>q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length));
+const narrativeHtml=blocks(narrative.blocks);
+assert.match(narrativeHtml,/Maya membawa sekotak benih kacang/);
+assert.match(narrativeHtml,/Hilangnya kotak benih/);
+assert.match(narrativeHtml,/class="lesson-translation"/);
+const narrativeQuiz=JSON.parse(read(narrativeQuizMeta.file));
+assert.equal(narrativeQuiz.id,'grade9-narrative-practice');
+assert.equal(narrativeQuiz.questionCount,7);
+assert.equal(narrativeQuiz.durationSeconds,420);
+assert.equal(narrativeQuiz.passages.length,1);
+assert.notEqual(narrativeQuiz.passages[0].text,narrativeGuide.modelEnglish,'The assessment must use an unfamiliar transfer story');
+assert.deepEqual(narrativeQuiz.questions.map(q=>q.answer),[0,1,2,3,0,1,2]);
+for(const q of narrativeQuiz.questions){
+ assert(q.translationId?.prompt&&q.translationId.choices?.length===q.choices.length);
+ assert(q.evidence&&narrativeQuiz.passages[0].text.includes(q.evidence),`Narrative evidence must be exact: ${q.id}`);
+ assert(q.explanation&&q.explanation.length>40);
+}
 // All learner-controlled instructional text must remain safely escaped.
 const adversarial=blocks([{type:'scaffold',intro:'Baca',steps:[{
  title:'<script>alert(1)</script>',explanation:'& observe',english:'<img src=x>',

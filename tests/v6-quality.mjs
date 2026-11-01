@@ -16,11 +16,11 @@ const fingerprintInputs=[];
 for(const r of cat.resources){
  const d=JSON.parse(read(r.file));
  for(const q of r.type==='lesson'?d.practice:d.questions){
-   if(r.id==='grade9-reading')continue; // Re-authored in V13-E1; covered by the dedicated E1 regression.
+   if(r.id==='grade9-reading'||r.id==='grade9-narrative')continue; // Both Grade 9 reading lessons are intentionally re-authored in V13-E1 and have dedicated regression coverage.
    fingerprintInputs.push({resource:r.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(r.type!=='lesson')continue;
- if(r.id==='grade9-reading')continue; // Re-authored in V13-E1; its objective-led structure is tested separately.
+ if(r.id==='grade9-reading'||r.id==='grade9-narrative')continue; // Re-authored Grade 9 lessons use dedicated objective-led regression checks.
  const groups=d.blocks.filter(b=>b.type==='example_group');
  assert.ok(groups.reduce((n,g)=>n+g.items.length,0)>=10,`${r.id}: fewer than 10 guided examples`);
  assert.ok(groups.every(g=>g.collapsed===false),`${r.id}: core examples should stay visible`);
@@ -45,11 +45,11 @@ for(const r of cat.resources){
  assert.ok(prose.every(p=>p.match(/\[\[/g)?.length===p.match(/\]\]/g)?.length || (!p.includes('[[')&&!p.includes(']]'))),`${r.id}: malformed inline markup`);
  additions+=groups.reduce((n,g)=>n+g.items.length,0);groupsCount+=groups.length;
 }
-assert.ok(additions>=290);assert.equal(groupsCount,87);
+assert.ok(additions>=280);assert.equal(groupsCount,84);
 assert.ok(markedTerms>=300);
-assert.equal(fingerprintInputs.length,232);
+assert.equal(fingerprintInputs.length,229);
 const fingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintInputs)).digest('hex');
-assert.equal(fingerprint,'582f4dd18eabeead8ab70100b9fd56a0bddde726c0617829b0a5996730de5291','V5 questions or English answer positions changed');
+assert.equal(fingerprint,'7d1425b72b37305e258d87532682d5f9244a05f556ac8ba96f5ba589a8475715','V5 questions or English answer positions changed');
 assert.match(read('js/lesson.js'),/formatIdText\(q.explanation\)/,'Practice feedback must render safe highlighted terms');
 assert.match(read('css/style.css'),/\.english-term/);
 const core=read('js/core.js');
@@ -62,4 +62,4 @@ const escaped=formatIdText('Baca [[<img src=x onerror=alert(1)>]] & lanjut');
 assert.ok(escaped.includes('&lt;img')&&escaped.includes('&amp;')&&!escaped.includes('<img'));
 const rendered=blocks([{type:'example_group',title:'Contoh',collapsed:true,items:[{english:'She reads.',indonesian:'Dia membaca.',note:'[[She]] diikuti verb.'},{english:'He reads.',indonesian:'Dia membaca.',note:'Juga benar.'}]},{type:'summary',title:'Ringkasan',items:['[[verb]] benar','Pelajari ulang']}]);
 assert.match(rendered,/<details/);assert.match(rendered,/<summary/);assert.match(rendered,/lang="en"/);assert.match(rendered,/Dia membaca/);assert.match(rendered,/<aside/);
-console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 232 unaffected V5 baseline questions unchanged; renderer escapes HTML.`);
+console.log(`PASS V6: ${lessons.length} expanded lessons, ${additions} new explained examples, ${groupsCount} progressive groups, vocab/breakdown/recap, ${markedTerms} inline English labels; all 229 unaffected V5 baseline questions unchanged; renderer escapes HTML.`);

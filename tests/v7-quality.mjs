@@ -15,12 +15,12 @@ for(const m of catalog.resources){
  const d=JSON.parse(read(m.file));
  const questions=m.type==='lesson'?d.practice:d.questions;
  for(const q of questions){
-  if(m.id==='grade9-reading')continue; // Re-authored in V13-E1; covered by the dedicated E1 regression.
+  if(m.id==='grade9-reading'||m.id==='grade9-narrative')continue; // Both Grade 9 reading lessons are intentionally re-authored in V13-E1 and have dedicated regression coverage.
   fingerprint.push({resource:m.id,id:q.id,prompt:q.prompt,choices:q.choices,answer:q.answer,translationId:q.translationId??null});
  }
  if(m.type!=='lesson')continue;
  lessonCount++;
- if(m.id==='grade9-reading')continue; // V13-E1/R3 has its own objective-led lesson regression; do not enforce the retired V7 template.
+ if(m.id==='grade9-reading'||m.id==='grade9-narrative')continue; // Re-authored Grade 9 lessons have objective-led regression coverage; do not enforce the retired V7 template.
  const [scaffold]=d.blocks.filter(b=>b.type==='scaffold');
  assert.ok(scaffold,`${m.id}: missing scaffold`);
  assert.equal(d.blocks[0].type,'definition',`${m.id}: definition must introduce lesson`);
@@ -50,9 +50,9 @@ for(const m of catalog.resources){
  marked+=markerCount;assert.ok(markerCount>=5,`${m.id}: missing labelled terminology`);
  checkpointCount++;answerItems+=check.translationChoices.length;
 }
-assert.equal(lessonCount,30);assert.equal(checkpointCount,29);assert.equal(answerItems,87);
-assert.equal(fingerprint.length,232);
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'582f4dd18eabeead8ab70100b9fd56a0bddde726c0617829b0a5996730de5291');
+assert.equal(lessonCount,30);assert.equal(checkpointCount,28);assert.equal(answerItems,84);
+assert.equal(fingerprint.length,229);
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(fingerprint)).digest('hex'),'7d1425b72b37305e258d87532682d5f9244a05f556ac8ba96f5ba589a8475715');
 // Test renderer: V7 markup must escape input, keep terms in English and hide solutions until answered.
 const excerpt=read('js/core.js').split('// V6: explicit')[1];
 assert.ok(excerpt);
@@ -81,4 +81,4 @@ assert.match(lesson,/const guidedAnswers=new Map\(\)/);
 assert.match(lesson,/d\.blocks\.filter\(b=>b\.type==='definition'\)/);
 assert.match(lesson,/guidedAnswers\.set/);
 assert.match(lesson,/formatIdText\(q.explanation\)/);
-console.log(`PASS V7 historical baseline: ${lessonCount-1} unchanged V7 lesson guides retain their original formative checks/reflections; re-authored grade9-reading is verified by the dedicated V13-E1 regression; 232 unaffected baseline questions unchanged.`);
+console.log(`PASS V7 historical baseline: ${lessonCount-2} unchanged V7 lesson guides retain their original formative checks/reflections; re-authored Grade 9 lessons are verified by dedicated V13-E1 regressions; 229 unaffected baseline questions unchanged.`);

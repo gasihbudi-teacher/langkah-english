@@ -1633,16 +1633,16 @@
     },
     {
       "id": "grade9-narrative",
-      "title": "Narrative texts · Kelas 9",
-      "description": "Mengenal tokoh, masalah, urutan peristiwa, serta pesan dalam narrative text.",
+      "title": "Grade 9: Understanding a Narrative — Characters and Plot",
+      "description": "Pelajari cara mengenali tokoh dan tujuannya, menemukan masalah, mengikuti urutan peristiwa, serta memahami penyelesaian dan pesan cerita.",
       "type": "lesson",
       "placements": [
         {
-          "pathway": "grammar"
-        },
-        {
           "pathway": "school",
           "grade": 9
+        },
+        {
+          "pathway": "grammar"
         },
         {
           "pathway": "tka",
@@ -1652,19 +1652,68 @@
       "difficulty": "Beginner",
       "grammarTopics": [],
       "readingSkills": [
-        "Main Idea"
+        "Character Analysis",
+        "Sequence",
+        "Text Organization",
+        "Making Inferences",
+        "Theme and Message"
       ],
       "tags": [
-        "school English",
-        "kelas 9"
+        "narrative text",
+        "reading comprehension",
+        "character and plot",
+        "Grade 9"
       ],
       "relatedLessons": [],
       "file": "data/lessons/grade9-narrative.json",
       "aiGenerated": true,
       "unofficial": true,
       "order": 215,
-      "estimatedMinutes": 25,
+      "estimatedMinutes": 30,
       "prerequisites": []
+    },
+    {
+      "id": "grade9-narrative-practice",
+      "title": "Grade 9 Narrative Check: The Missing Exhibition Lantern",
+      "description": "Latihan mandiri untuk mengidentifikasi tokoh, masalah, urutan peristiwa, penyelesaian, dan pesan berdasarkan cerita baru.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 9
+        },
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "tka",
+          "section": "Materi pendukung V12"
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Character Analysis",
+        "Sequence",
+        "Text Organization",
+        "Making Inferences",
+        "Theme and Message"
+      ],
+      "tags": [
+        "narrative text",
+        "reading comprehension",
+        "independent transfer",
+        "Grade 9"
+      ],
+      "relatedLessons": [
+        "grade9-narrative"
+      ],
+      "file": "data/quizzes/grade9-narrative-practice.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 216
     },
     {
       "id": "grade10-descriptive",

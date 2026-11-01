@@ -1,0 +1,183 @@
+{
+  "id": "grade9-narrative-practice",
+  "questionCount": 7,
+  "durationSeconds": 420,
+  "passages": [
+    {
+      "id": "missing-lantern",
+      "title": "The Missing Exhibition Lantern",
+      "text": "On Tuesday morning, Dimas arrived at the school hall with a paper lantern for the school exhibition. His group had made it from recycled paper. Dimas had to put it on display before visitors arrived. He placed it beside the notice board and went to get some tape. When he returned, the lantern was gone. A few minutes later, he saw Sari carrying a cardboard box toward the side room. Dimas wondered if she had taken the lantern, but he decided to ask before blaming her. He checked the display table and spoke to the event helper. The helper remembered that a strong wind had blown several light objects off the table.\n\nDimas and Sari looked in the side room. They found the lantern inside the box. It was not damaged. Sari explained that she had picked it up from the floor and put it in a safe place. Dimas thanked her. Together, they fixed the lantern to the table with tape before the visitors arrived. Dimas learned that checking the facts first could stop him from blaming someone unfairly.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "g9n1",
+      "prompt": "Who is the main character in the story?",
+      "choices": [
+        "Dimas",
+        "Sari",
+        "The event helper",
+        "One of the visitors"
+      ],
+      "answer": 0,
+      "explanation": "Dimas menjadi tokoh utama karena cerita mengikuti tanggung jawab, keputusan, dan tindakannya ketika lantern tidak ditemukan.",
+      "translationId": {
+        "prompt": "Siapa tokoh utama dalam cerita?",
+        "choices": [
+          "Dimas",
+          "Sari",
+          "Petugas acara",
+          "Salah satu pengunjung"
+        ]
+      },
+      "skill": "Character Analysis",
+      "passageId": "missing-lantern",
+      "evidence": "On Tuesday morning, Dimas arrived at the school hall with a paper lantern for the school exhibition."
+    },
+    {
+      "id": "g9n2",
+      "prompt": "What role does Sari play in the story?",
+      "choices": [
+        "She organises the school exhibition.",
+        "She finds the lantern and puts it somewhere safe.",
+        "She makes the lantern alone.",
+        "She arrives as a visitor."
+      ],
+      "answer": 1,
+      "explanation": "Sari adalah tokoh pendukung. Ia menemukan lentera di lantai dan meletakkannya di tempat yang aman, lalu membantu Dimas mengamankannya.",
+      "translationId": {
+        "prompt": "Apa peran Sari dalam cerita?",
+        "choices": [
+          "Ia mengatur pameran sekolah.",
+          "Ia menemukan lentera dan meletakkannya di tempat yang aman.",
+          "Ia membuat lentera sendirian.",
+          "Ia datang sebagai pengunjung."
+        ]
+      },
+      "skill": "Character Roles",
+      "passageId": "missing-lantern",
+      "evidence": "Sari explained that she had picked it up from the floor and put it in a safe place."
+    },
+    {
+      "id": "g9n3",
+      "prompt": "What is the main complication in the story?",
+      "choices": [
+        "The visitors arrive earlier than expected.",
+        "The event helper cannot find the notice board.",
+        "The lantern disappears before it can be displayed.",
+        "The group forgets how to make recycled paper."
+      ],
+      "answer": 2,
+      "explanation": "Hilangnya lentera menghambat tugas Dimas untuk memajangnya sebelum pengunjung datang. Itulah masalah yang mendorong tindakan berikutnya.",
+      "translationId": {
+        "prompt": "Apa masalah utama (complication) dalam cerita?",
+        "choices": [
+          "Para pengunjung datang lebih awal dari perkiraan.",
+          "Petugas acara tidak dapat menemukan papan pengumuman.",
+          "Lentera hilang sebelum sempat dipajang.",
+          "Kelompok itu lupa cara membuat kertas daur ulang."
+        ]
+      },
+      "skill": "Complication",
+      "passageId": "missing-lantern",
+      "evidence": "When he returned, the lantern was gone."
+    },
+    {
+      "id": "g9n4",
+      "prompt": "What does Dimas do after he sees Sari carrying a cardboard box?",
+      "choices": [
+        "He asks the visitors to leave the hall.",
+        "He follows Sari without speaking to anyone.",
+        "He makes another lantern immediately.",
+        "He checks the display table and speaks to the event helper."
+      ],
+      "answer": 3,
+      "explanation": "Setelah melihat Sari membawa kotak, Dimas tidak langsung menuduhnya. Ia memeriksa meja pajangan dan berbicara dengan petugas acara untuk mencari informasi.",
+      "translationId": {
+        "prompt": "Apa yang dilakukan Dimas setelah melihat Sari membawa kotak kardus?",
+        "choices": [
+          "Ia meminta pengunjung meninggalkan aula.",
+          "Ia mengikuti Sari tanpa berbicara kepada siapa pun.",
+          "Ia langsung membuat lentera lain.",
+          "Ia memeriksa meja pajangan dan berbicara dengan petugas acara."
+        ]
+      },
+      "skill": "Sequence",
+      "passageId": "missing-lantern",
+      "evidence": "He checked the display table and spoke to the event helper. The helper remembered that a strong wind had blown several light objects off the table."
+    },
+    {
+      "id": "g9n5",
+      "prompt": "How is the main problem resolved?",
+      "choices": [
+        "Dimas and Sari find the lantern in the side room and fix it to the table.",
+        "The visitors bring a replacement lantern.",
+        "The event helper cancels the exhibition.",
+        "Dimas takes the lantern home."
+      ],
+      "answer": 0,
+      "explanation": "Dimas dan Sari menemukan lentera di dalam kotak di ruang samping. Setelah mengetahui Sari menyimpannya agar aman, mereka memasang kembali lentera pada meja dengan selotip sebelum pengunjung datang.",
+      "translationId": {
+        "prompt": "Bagaimana masalah utama diselesaikan?",
+        "choices": [
+          "Dimas dan Sari menemukan lentera di ruang samping lalu memasangnya pada meja.",
+          "Para pengunjung membawa lentera pengganti.",
+          "Petugas acara membatalkan pameran.",
+          "Dimas membawa lentera pulang."
+        ]
+      },
+      "skill": "Resolution",
+      "passageId": "missing-lantern",
+      "evidence": "They found the lantern inside the box. It was not damaged. Sari explained that she had picked it up from the floor and put it in a safe place."
+    },
+    {
+      "id": "g9n6",
+      "prompt": "What can be inferred from Dimas's decision to ask questions before making an accusation?",
+      "choices": [
+        "He is certain that Sari took the lantern.",
+        "He wants to understand what happened before blaming someone.",
+        "He does not want the lantern to be displayed.",
+        "He thinks the event helper caused the problem."
+      ],
+      "answer": 1,
+      "explanation": "Dimas melihat Sari membawa kotak, tetapi memilih mencari informasi terlebih dahulu. Tindakan itu menunjukkan bahwa ia ingin memahami kejadian sebelum menyalahkan seseorang.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari keputusan Dimas untuk bertanya sebelum menuduh?",
+        "choices": [
+          "Ia yakin Sari mengambil lentera.",
+          "Ia ingin memahami apa yang terjadi sebelum menyalahkan seseorang.",
+          "Ia tidak ingin lentera dipajang.",
+          "Ia menganggap petugas acara menyebabkan masalah."
+        ]
+      },
+      "skill": "Making Inferences",
+      "passageId": "missing-lantern",
+      "evidence": "Dimas wondered if she had taken the lantern, but he decided to ask before blaming her."
+    },
+    {
+      "id": "g9n7",
+      "prompt": "Which message is best supported by the story?",
+      "choices": [
+        "People should avoid asking for help.",
+        "A missing object should always be replaced.",
+        "Check the facts before blaming someone.",
+        "Never use paper objects at an exhibition."
+      ],
+      "answer": 2,
+      "explanation": "Dimas memeriksa keadaan dan bertanya kepada petugas sebelum menyimpulkan bahwa Sari mengambil lentera. Peristiwa itu mendukung pesan untuk memeriksa fakta sebelum menyalahkan orang lain.",
+      "translationId": {
+        "prompt": "Pesan manakah yang paling didukung oleh cerita?",
+        "choices": [
+          "Orang sebaiknya menghindari meminta bantuan.",
+          "Benda yang hilang harus selalu diganti.",
+          "Periksa fakta sebelum menyalahkan seseorang.",
+          "Jangan pernah menggunakan benda kertas dalam pameran."
+        ]
+      },
+      "skill": "Theme and Message",
+      "passageId": "missing-lantern",
+      "evidence": "Dimas learned that checking the facts first could stop him from blaming someone unfairly."
+    }
+  ]
+}
