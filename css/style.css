@@ -698,3 +698,5 @@ button:hover:not(:disabled),.button:hover{transform:translateY(-1px)}
 .checkpoint-choice-help li{margin:6px 0;line-height:1.6}
 .reflection-question{margin:9px 0 13px;color:#244b3d;font-weight:650;line-height:1.75}
 .lesson-practice-instruction{margin:0 0 15px;padding:11px 14px;border-left:3px solid #82ad9e;background:#f2f8f5;border-radius:0 8px 8px 0;color:#31554a;line-height:1.7}
+/* V13-E1-R4.1: preserve authored paragraph breaks in Indonesian translations. */
+.lesson-translation{white-space:pre-line}

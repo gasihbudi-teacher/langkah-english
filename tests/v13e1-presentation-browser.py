@@ -35,6 +35,12 @@ async def main():
     first=aids.first
     assert await first.is_visible(),(lesson_id,'Indonesian translation should be visible by default')
     assert len((await first.inner_text()).strip())>5,lesson_id
+   if lesson_id=='grade10-recount':
+    model_translation=page.locator('.scaffold-model .lesson-translation')
+    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert white_space=='pre-line',('Grade 10 Indonesian translation must preserve authored newlines',white_space)
+    rendered_translation=await model_translation.inner_text()
+    assert rendered_translation.count('\n')>=3,('Indonesian model paragraph breaks are not visible',repr(rendered_translation))
    checks=page.locator('.scaffold-review details')
    if await checks.count():
     first_check=checks.first
