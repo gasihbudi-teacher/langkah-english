@@ -45,9 +45,10 @@ function lessonExampleCard(item,index){
 }
 /** Each step teaches its own skill. No automatic translation/reason/check headings. */
 function scaffoldCard(step,i){
+ const title=step.title.replace(/^\s*(?:[0-9]+[.)]|\([0-9]+\))\s+/,'');
  const sample=step.english?`<div class="scaffold-sample"><p lang="en" class="example-english">${esc(step.english)}</p>${pairedTranslation(step.indonesian)}${step.why?`<p class="scaffold-insight" lang="id">${formatIdText(step.why)}</p>`:''}</div>`:'';
  const check=step.check?`<div class="scaffold-review"><p class="scaffold-question" lang="id">${formatIdText(step.check)}</p><details><summary lang="id">Periksa jawaban</summary><p lang="id">${formatIdText(step.checkAnswer)}</p></details></div>`:'';
- return `<section class="scaffold-step" id="belajar-langkah-${i+1}"><h3 lang="id"><span class="scaffold-count">${i+1}</span>${esc(step.title)}</h3><p lang="id">${formatIdText(step.explanation)}</p>${sample}${check}</section>`;
+ return `<section class="scaffold-step" id="belajar-langkah-${i+1}"><h3 lang="id"><span class="scaffold-count">${i+1}</span>${esc(title)}</h3><p lang="id">${formatIdText(step.explanation)}</p>${sample}${check}</section>`;
 }
 function phasedScaffold(b){
  if(!b.steps.some(s=>s.phase))return b.steps.map(scaffoldCard).join('');
