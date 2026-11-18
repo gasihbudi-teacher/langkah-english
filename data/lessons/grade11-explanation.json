@@ -16,42 +16,42 @@
       "intro": "Ikuti enam tahap berikut pada satu proses yang sama—terbentuknya hujan—untuk melihat bagaimana setiap tahap terhubung secara logis dari awal hingga akhir.",
       "steps": [
         {
-          "title": "1. Kenali fenomena yang dijelaskan",
+          "title": "Kenali fenomena yang dijelaskan",
           "explanation": "Bagian pembuka memperkenalkan peristiwa atau fenomena yang akan diuraikan prosesnya.",
           "english": "Rain forms through a continuous cycle of heating, cooling, and condensation.",
           "indonesian": "Hujan terbentuk melalui siklus pemanasan, pendinginan, dan pengembunan yang berkelanjutan.",
           "why": "Kalimat ini menyatakan fenomena utama (terbentuknya hujan) beserta gambaran singkat mekanismenya."
         },
         {
-          "title": "2. Identifikasi kondisi awal proses (Evaporation)",
+          "title": "Identifikasi kondisi awal proses (Evaporation)",
           "explanation": "Proses selalu dimulai dari keadaan atau pemicu awal sebelum perubahan berikutnya terjadi.",
           "english": "First, heat from the sun causes water from oceans and rivers to evaporate into water vapour.",
           "indonesian": "Pertama, panas matahari menyebabkan air dari laut dan sungai menguap menjadi uap air.",
           "why": "Kata [[First]] dan [[causes]] menunjukkan pemicu awal perubahan wujud air."
         },
         {
-          "title": "3. Lacak tahap pergerakan berikutnya",
+          "title": "Lacak tahap pergerakan berikutnya",
           "explanation": "Gunakan penanda waktu seperti [[when]] atau [[as]] untuk melihat perubahan keadaan setelah tahap pertama.",
           "english": "When warm, moist air rises higher into the atmosphere, it begins to cool.",
           "indonesian": "Ketika udara hangat dan lembap naik lebih tinggi ke atmosfer, udara itu mulai mendingin.",
           "why": "Kata [[When]] menghubungkan dua peristiwa berurutan: udara naik lalu mendingin."
         },
         {
-          "title": "4. Temukan mekanisme sebab-akibat inti (Condensation)",
+          "title": "Temukan mekanisme sebab-akibat inti (Condensation)",
           "explanation": "Kata penghubung seperti [[because]] menjelaskan mengapa perubahan fisik terjadi pada tahap ini.",
           "english": "Because cool air holds less moisture than warm air, the water vapour condenses into tiny droplets.",
           "indonesian": "Karena udara dingin menampung lebih sedikit kelembapan daripada udara hangat, uap air mengembun menjadi tetesan kecil.",
           "why": "Kata [[Because]] menjelaskan alasan ilmiah terjadinya pengembunan ([[condenses]])."
         },
         {
-          "title": "5. Hubungkan tahap menengah ke hasil (As a result)",
+          "title": "Hubungkan tahap menengah ke hasil (As a result)",
           "explanation": "Ungkapan seperti [[as a result]] atau [[therefore]] menandai dampak dari gabungan tahap sebelumnya.",
           "english": "Millions of tiny droplets gather around dust particles; as a result, visible clouds form.",
           "indonesian": "Jutaan tetesan kecil berkumpul di sekitar partikel debu; akibatnya, awan yang tampak pun terbentuk.",
           "why": "[[As a result]] menandai akibat langsung dari berkumpulnya tetesan air."
         },
         {
-          "title": "6. Tutup dengan hasil akhir siklus (Precipitation)",
+          "title": "Tutup dengan hasil akhir siklus (Precipitation)",
           "explanation": "Tahap akhir menjawab bagaimana fenomena awal benar-benar terwujud.",
           "english": "When the water droplets combine and grow too heavy to stay suspended in the air, they fall to the ground as rain.",
           "indonesian": "Ketika tetesan air bergabung dan menjadi terlalu berat untuk tetap melayang di udara, tetesan itu jatuh ke tanah sebagai hujan.",

@@ -16,51 +16,51 @@
       "intro": "Ikuti enam langkah berikut pada satu usulan yang sama—penyediaan tempat isi ulang air minum di sekolah—untuk melihat bagaimana klaim diuji dengan bukti dan batasannya.",
       "steps": [
         {
-          "title": "1. Identifikasi klaim atau usulan utama (Claim)",
+          "title": "Identifikasi klaim atau usulan utama (Claim)",
           "explanation": "Temukan pernyataan pendapat atau usulan tindakan yang ingin dibuktikan oleh penulis.",
           "english": "Schools should install refillable drinking-water stations for students.",
           "indonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum bagi siswa.",
           "why": "Ini adalah [[claim]] (usulan utama) yang membutuhkan alasan dan bukti pendukung."
         },
         {
-          "title": "2. Temukan alasan logisnya (Reason)",
+          "title": "Temukan alasan logisnya (Reason)",
           "explanation": "Cari penjelasan mengapa penulis menganggap usulan tersebut bermanfaat atau masuk akal.",
           "english": "Refill stations can reduce single-use plastic bottles and help students stay hydrated.",
           "indonesian": "Tempat isi ulang dapat mengurangi botol plastik sekali pakai dan membantu siswa tetap terhidrasi.",
           "why": "Kalimat ini menjelaskan hubungan logis antara fasilitas air dan manfaatnya, tetapi belum berupa data."
         },
         {
-          "title": "3. Periksa bukti yang disajikan (Evidence)",
+          "title": "Periksa bukti yang disajikan (Evidence)",
           "explanation": "Bukti adalah informasi yang dapat diperiksa—seperti hasil survei, catatan pengamatan, atau angka uji coba.",
           "english": "In a school survey, 48 out of 60 students from two classes said they would bring reusable bottles if water stations were available.",
           "indonesian": "Dalam survei sekolah, 48 dari 60 siswa dari dua kelas mengatakan mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air.",
           "why": "Angka 48 dari 60 siswa merupakan bukti konkret dari survei."
         },
         {
-          "title": "4. Uji relevansi dan metode bukti",
+          "title": "Uji relevansi dan metode bukti",
           "explanation": "Pastikan bukti berkaitan langsung dengan klaim dan jelaskan bagaimana data diperoleh.",
           "english": "Asking students about their daily water habits is relevant, though self-reported answers may differ from actual behaviour.",
           "indonesian": "Menanyakan kebiasaan minum harian siswa memang relevan, meskipun jawaban survei bisa berbeda dari perilaku nyata.",
           "why": "Pembaca kritis membedakan niat yang dilaporkan dalam survei dari tindakan nyata di lapangan."
         },
         {
-          "title": "5. Temukan keterbatasan sampel (Limitation)",
+          "title": "Temukan keterbatasan sampel (Limitation)",
           "explanation": "Periksa siapa yang diamati dan apakah sampel kecil boleh digeneralisasikan ke seluruh populasi.",
           "english": "Although the survey found strong support, two classes do not represent the entire school.",
           "indonesian": "Meskipun survei tersebut menemukan dukungan kuat, dua kelas belum mewakili seluruh sekolah.",
           "why": "Ukuran sampel (hanya dua kelas) membatasi seberapa luas kesimpulan dapat ditarik."
         },
         {
-          "title": "6. Rumuskan kesimpulan yang proporsional",
+          "title": "Rumuskan kesimpulan yang proporsional",
           "explanation": "Sesuaikan kekuatan klaim dengan bukti yang ada—gunakan kata hati-hati seperti [[may]] atau usulkan uji coba.",
           "english": "Therefore, the school should run a one-month trial before deciding whether to install more stations.",
           "indonesian": "Oleh karena itu, sekolah sebaiknya menjalankan uji coba selama satu bulan sebelum memutuskan apakah akan memasang lebih banyak tempat isi ulang.",
           "why": "Uji coba singkat mengumpulkan bukti tambahan sebelum mengambil keputusan berskala besar."
         }
       ],
-      "modelTitle": "Teks model utuh: Menilai klaim berdasarkan ukuran sampel",
-      "modelEnglish": "A writer claims that every student learns better in online classes. Her only evidence is a survey of ten students from one class, in which seven preferred online lessons. That survey shows a preference within one small group, but ten students cannot prove how every learner performs or measure actual test outcomes.",
-      "modelIndonesian": "Seorang penulis mengklaim bahwa setiap siswa belajar lebih baik di kelas daring. Satu-satunya buktinya adalah survei terhadap sepuluh siswa dari satu kelas, di mana tujuh orang lebih menyukai pelajaran daring. Survei tersebut menunjukkan preferensi dalam satu kelompok kecil, tetapi sepuluh siswa tidak dapat membuktikan bagaimana capaian belajar setiap siswa maupun mengukur hasil ujian yang sebenarnya."
+      "modelTitle": "Teks model utuh: Menguji klaim tempat isi ulang air minum dengan bukti",
+      "modelEnglish": "Schools should install refillable drinking-water stations because they can reduce single-use plastic bottles and help students stay hydrated. In a school survey, 48 out of 60 students from two classes said they would bring reusable bottles if water stations were available. Although the survey found strong support, two classes do not represent the entire school. Therefore, the school should run a one-month trial before deciding whether to install more stations.",
+      "modelIndonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum karena fasilitas tersebut dapat mengurangi botol plastik sekali pakai dan membantu siswa tetap terhidrasi. Dalam survei sekolah, 48 dari 60 siswa dari dua kelas mengatakan mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air. Meskipun survei tersebut menemukan dukungan kuat, dua kelas belum mewakili seluruh sekolah. Oleh karena itu, sekolah sebaiknya menjalankan uji coba selama satu bulan sebelum memutuskan apakah akan memasang lebih banyak tempat isi ulang."
     },
     {
       "type": "synthesis",

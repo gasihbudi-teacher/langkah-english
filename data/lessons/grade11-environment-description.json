@@ -16,51 +16,51 @@
       "intro": "Ikuti enam langkah berikut pada satu lokasi yang sama—pengamatan kondisi sungai di belakang sekolah—untuk membedakan fakta lapangan dari dugaan penyebab.",
       "steps": [
         {
-          "title": "1. Tentukan objek dan ciri dasar tempat",
+          "title": "Tentukan objek dan ciri dasar tempat",
           "explanation": "Mulailah dengan mengenali lokasi yang diamati serta ukuran atau bentuk dasarnya.",
           "english": "The river behind the school is narrow and shallow.",
           "indonesian": "Sungai di belakang sekolah itu sempit dan dangkal.",
           "why": "Kata sifat [[narrow]] dan [[shallow]] menjelaskan ciri fisik yang dapat diukur."
         },
         {
-          "title": "2. Catat pengamatan di bagian pertama (Upstream)",
+          "title": "Catat pengamatan di bagian pertama (Upstream)",
           "explanation": "Kumpulkan detail yang benar-benar terlihat di titik pengamatan pertama.",
           "english": "Upstream, the water appears clear and small fish are visible near the stones.",
           "indonesian": "Di bagian hulu, air tampak jernih dan ikan-ikan kecil terlihat di dekat bebatuan.",
           "why": "Ini laporan pengamatan visual langsung di lokasi tertentu ([[Upstream]])."
         },
         {
-          "title": "3. Catat perubahan kondisi di titik kedua (Bridge)",
+          "title": "Catat perubahan kondisi di titik kedua (Bridge)",
           "explanation": "Perhatikan penanda lokasi untuk membandingkan kondisi antarbagian tempat.",
           "english": "Beside the pedestrian bridge, floating plastic bags collect against the steps.",
           "indonesian": "Di samping jembatan pejalan kaki, kantong plastik yang mengapung terkumpul di dekat tangga.",
           "why": "Frasa [[Beside the pedestrian bridge]] menunjukkan letak spesifik sampah yang terlihat."
         },
         {
-          "title": "4. Deskripsikan kondisi di titik ketiga (Downstream)",
+          "title": "Deskripsikan kondisi di titik ketiga (Downstream)",
           "explanation": "Gunakan kata sifat kondisi seperti [[cloudy]], [[polluted]], atau [[unpleasant]] sesuai pengamatan.",
           "english": "Downstream, the water looks cloudy and smells unpleasant after heavy rain.",
           "indonesian": "Di bagian hilir, air tampak keruh dan berbau tidak sedap setelah hujan deras.",
           "why": "Warna keruh dan bau adalah pengamatan indrawi, bukan kesimpulan penyebab."
         },
         {
-          "title": "5. Pisahkan fakta pengamatan dari dugaan penyebab",
+          "title": "Pisahkan fakta pengamatan dari dugaan penyebab",
           "explanation": "Melihat air keruh adalah fakta; menyalahkan satu pabrik atau pihak tertentu tanpa bukti adalah dugaan.",
           "english": "Cloudy water after rain is an observation, not proof that one factory caused the pollution.",
           "indonesian": "Air keruh setelah hujan adalah pengamatan, bukan bukti bahwa satu pabrik menyebabkan pencemaran tersebut.",
           "why": "Pengamatan warna air belum cukup untuk memastikan sumber pencemarannya."
         },
         {
-          "title": "6. Tarik kesimpulan sesuai batas data",
+          "title": "Tarik kesimpulan sesuai batas data",
           "explanation": "Deskripsi yang cermat mencatat perbedaan antarlokasi dan menyarankan pengujian jika ingin mengetahui penyebabnya.",
           "english": "Students recorded water colour at three spots instead of judging the whole river from one photo.",
           "indonesian": "Siswa mencatat warna air di tiga titik alih-alih menilai seluruh sungai dari satu foto.",
           "why": "Membandingkan beberapa titik mencegah kesimpulan yang terburu-buru."
         }
       ],
-      "modelTitle": "Teks model utuh: Pengamatan lingkungan yang objektif",
-      "modelEnglish": "The river near the market looks brown after heavy rain. Plastic bottles are visible along the bank, and fewer trees grow near the bridge than in the upstream area. These sentences report direct observations; the text does not prove who caused the pollution.",
-      "modelIndonesian": "Sungai di dekat pasar terlihat cokelat setelah hujan deras. Botol-botol plastik terlihat di sepanjang tepi sungai, dan pohon yang tumbuh di dekat jembatan lebih sedikit daripada di kawasan hulu. Kalimat-kalimat ini melaporkan pengamatan langsung; teks tidak membuktikan siapa penyebab pencemarannya."
+      "modelTitle": "Teks model utuh: Pengamatan kondisi sungai di belakang sekolah",
+      "modelEnglish": "The river behind the school is narrow and shallow. Upstream, the water appears clear and small fish are visible near the stones. Beside the pedestrian bridge, floating plastic bags collect against the steps. Downstream, the water looks cloudy and smells unpleasant after heavy rain, so further testing is needed to identify the exact cause.",
+      "modelIndonesian": "Sungai di belakang sekolah itu sempit dan dangkal. Di bagian hulu, air tampak jernih dan ikan-ikan kecil terlihat di dekat bebatuan. Di samping jembatan pejalan kaki, kantong plastik yang mengapung terkumpul di dekat tangga. Di bagian hilir, air tampak keruh dan berbau tidak sedap setelah hujan deras, sehingga pengujian lebih lanjut diperlukan untuk memastikan penyebab pastinya."
     },
     {
       "type": "synthesis",

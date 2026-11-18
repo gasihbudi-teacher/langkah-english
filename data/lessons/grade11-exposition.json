@@ -16,42 +16,42 @@
       "intro": "Ikuti enam langkah berikut pada satu topik yang sama—memperpanjang jam buka ruang baca sekolah setelah jam pelajaran—untuk melihat bagaimana kerangka argumen dibangun secara utuh.",
       "steps": [
         {
-          "title": "1. Nyatakan posisi utama penulis (Thesis)",
+          "title": "Nyatakan posisi utama penulis (Thesis)",
           "explanation": "Bagian pembuka langsung memperkenalkan pendapat yang ingin dipertahankan penulis mengenai suatu isu.",
           "english": "Schools should keep the reading room open for one hour after regular classes end.",
           "indonesian": "Sekolah sebaiknya tetap membuka ruang baca selama satu jam setelah jam pelajaran reguler berakhir.",
           "why": "Kalimat ini adalah [[thesis]] karena menyatakan sikap atau usulan utama penulis."
         },
         {
-          "title": "2. Berikan alasan pertama (Argument 1)",
+          "title": "Berikan alasan pertama (Argument 1)",
           "explanation": "Penulis menjelaskan alasan logis pertama mengapa posisi tersebut layak diterima.",
           "english": "First, a quiet space helps students focus on homework without household distractions.",
           "indonesian": "Pertama, tempat yang tenang membantu siswa fokus mengerjakan tugas tanpa gangguan di rumah.",
           "why": "Kata [[First]] menandai alasan pendukung pertama yang menjawab pertanyaan 'mengapa?'."
         },
         {
-          "title": "3. Tambahkan alasan kedua untuk kelompok tertentu (Argument 2)",
+          "title": "Tambahkan alasan kedua untuk kelompok tertentu (Argument 2)",
           "explanation": "Argumen tambahan memperluas sudut pandang dengan menyasar kebutuhan nyata siswa lain.",
           "english": "Second, students who share a small room at home often lack a quiet desk to study.",
           "indonesian": "Kedua, siswa yang berbagi kamar sempit di rumah sering kali tidak memiliki meja belajar yang tenang.",
           "why": "Kata [[Second]] memperkenalkan alasan kedua yang spesifik dan realistis."
         },
         {
-          "title": "4. Sertakan dukungan atau bukti yang proporsional",
+          "title": "Sertakan dukungan atau bukti yang proporsional",
           "explanation": "Contoh, pengamatan, atau hasil survei memperkuat alasan tanpa melebih-lebihkan hasilnya.",
           "english": "In a recent student survey, forty percent of respondents said they needed a quiet study space after school.",
           "indonesian": "Dalam survei siswa baru-baru ini, empat puluh persen responden mengatakan mereka membutuhkan ruang belajar yang tenang sepulang sekolah.",
           "why": "Data survei memberi dukungan terukur sekaligus menunjukkan bahwa kebutuhan itu dialami sebagian siswa (40%), bukan semua."
         },
         {
-          "title": "5. Akui batasan atau syarat penerapan",
+          "title": "Akui batasan atau syarat penerapan",
           "explanation": "Argumen yang matang mengakui kendala praktis agar pendapat tidak terdengar sepihak.",
           "english": "Although supervision is needed, a rotating schedule of teachers or senior prefects can manage the room safely.",
           "indonesian": "Meskipun pengawasan diperlukan, jadwal bergilir guru atau pengurus siswa senior dapat mengelola ruangan dengan aman.",
           "why": "Kata [[Although]] menjawab keberatan yang mungkin muncul dari pembaca."
         },
         {
-          "title": "6. Tegaskan kembali posisi di akhir (Reiteration)",
+          "title": "Tegaskan kembali posisi di akhir (Reiteration)",
           "explanation": "Penutup merangkum kembali posisi awal berdasarkan alasan yang telah dipaparkan tanpa menambah topik baru.",
           "english": "For these reasons, extending reading room hours after school is a practical step worth considering.",
           "indonesian": "Karena alasan-alasan tersebut, memperpanjang jam buka ruang baca sepulang sekolah merupakan langkah praktis yang layak dipertimbangkan.",
@@ -59,8 +59,8 @@
         }
       ],
       "modelTitle": "Teks model utuh: Thesis → Arguments → Reiteration",
-      "modelEnglish": "Schools should provide access to a reading room for one hour after classes. First, a quiet space helps students concentrate on assignments before going home. Second, students who share a room with younger siblings need a calm place to study. For these reasons, keeping the reading room open a little longer is worth considering.",
-      "modelIndonesian": "Sekolah sebaiknya menyediakan akses ke ruang baca selama satu jam setelah jam pelajaran berakhir. Pertama, tempat yang tenang membantu siswa berkonsentrasi pada tugas sebelum pulang. Kedua, siswa yang berbagi kamar dengan adik membutuhkan tempat yang tenang untuk belajar. Karena alasan-alasan tersebut, membuka ruang baca sedikit lebih lama layak dipertimbangkan."
+      "modelEnglish": "Schools should keep the reading room open for one hour after regular classes end. First, a quiet space helps students focus on homework without household distractions. Second, students who share a small room at home often lack a quiet desk, and forty percent of respondents in a recent survey said they needed a quiet study space after school. Although supervision is needed, a rotating schedule of teachers can manage the room safely. For these reasons, extending reading room hours after school is a practical step worth considering.",
+      "modelIndonesian": "Sekolah sebaiknya tetap membuka ruang baca selama satu jam setelah jam pelajaran reguler berakhir. Pertama, tempat yang tenang membantu siswa fokus mengerjakan tugas tanpa gangguan di rumah. Kedua, siswa yang berbagi kamar sempit di rumah sering kali tidak memiliki meja belajar yang tenang, dan empat puluh persen responden dalam survei baru-baru ini mengatakan mereka membutuhkan ruang belajar yang tenang sepulang sekolah. Meskipun pengawasan diperlukan, jadwal bergilir guru dapat mengelola ruangan dengan aman. Karena alasan-alasan tersebut, memperpanjang jam buka ruang baca sepulang sekolah merupakan langkah praktis yang layak dipertimbangkan."
     },
     {
       "type": "synthesis",

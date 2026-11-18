@@ -16,42 +16,42 @@
       "intro": "Amati enam langkah berikut pada satu kisah yang sama—inisiatif kebersihan sungai oleh seorang siswa bernama Maya—untuk membedakan fakta tindakan dari penilaian pembaca.",
       "steps": [
         {
-          "title": "1. Kenali tokoh dan latar masalah awal",
+          "title": "Kenali tokoh dan latar masalah awal",
           "explanation": "Bagian pembuka memperkenalkan siapa tokohnya dan situasi awal yang mendorongnya bertindak.",
           "english": "Maya noticed heavy litter along the river near her school.",
           "indonesian": "Maya melihat banyak sampah di sepanjang sungai dekat sekolahnya.",
           "why": "Kalimat ini memperkenalkan tokoh (Maya) dan masalah nyata yang ia amati."
         },
         {
-          "title": "2. Catat tindakan pertama dengan penanda waktu",
+          "title": "Catat tindakan pertama dengan penanda waktu",
           "explanation": "Biografi memakai [[past tense]] dan keterangan waktu untuk menunjukkan kapan sebuah langkah dimulai.",
           "english": "In 2022, she invited five classmates to record the types of waste on the riverbank.",
           "indonesian": "Pada tahun 2022, ia mengajak lima teman sekelasnya mencatat jenis-jenis sampah di tepi sungai.",
           "why": "Frasa [[In 2022]] dan kata kerja [[invited]] menunjukkan tindakan awal yang dapat diverifikasi."
         },
         {
-          "title": "3. Lacak perkembangan kegiatan secara kronologis",
+          "title": "Lacak perkembangan kegiatan secara kronologis",
           "explanation": "Kata penghubung waktu seperti [[later]] atau [[a year later]] menunjukkan urutan tahap berikutnya.",
           "english": "The small team later organised monthly clean-ups with local residents.",
           "indonesian": "Tim kecil tersebut kemudian menyelenggarakan kegiatan bersih-bersih bulanan bersama warga setempat.",
           "why": "Kata [[later]] menghubungkan pencatatan awal dengan aksi rutin berikutnya."
         },
         {
-          "title": "4. Identifikasi perluasan kerja sama dan capaian terukur",
+          "title": "Identifikasi perluasan kerja sama dan capaian terukur",
           "explanation": "Perhatikan proyek, kemitraan, atau hasil konkret yang benar-benar disebutkan dalam teks.",
           "english": "A year later, they partnered with a local library to hold workshops on reusing plastic.",
           "indonesian": "Setahun kemudian, mereka bermitra dengan perpustakaan setempat untuk mengadakan lokakarya penggunaan ulang plastik.",
           "why": "Ini adalah pencapaian spesifik yang tercatat, bukan sekadar pujian umum."
         },
         {
-          "title": "5. Bedakan fakta pencapaian dari opini berlebihan",
+          "title": "Bedakan fakta pencapaian dari opini berlebihan",
           "explanation": "Pernyataan seperti 'pemimpin terhebat' atau 'menyelesaikan semua masalah' bersifat penilaian, bukan fakta biografis.",
           "english": "Their reports helped the community plan new waste bins, though they did not stop all river pollution.",
           "indonesian": "Laporan mereka membantu warga merencanakan tempat sampah baru, meskipun tidak menghentikan seluruh pencemaran sungai.",
           "why": "Kalimat ini mengakui dampak nyata sekaligus membatasi klaim agar tetap sesuai bukti."
         },
         {
-          "title": "6. Nilai pengaruh tokoh secara proporsional",
+          "title": "Nilai pengaruh tokoh secara proporsional",
           "explanation": "Tunjukkan bagaimana kerja tokoh berkembang dari waktu ke waktu tanpa mengabaikan peran orang lain.",
           "english": "Although early meetings attracted only a few students, the group gradually gained wider community support.",
           "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit siswa, kelompok itu perlahan memperoleh dukungan warga yang lebih luas.",
@@ -59,8 +59,8 @@
         }
       ],
       "modelTitle": "Teks model utuh: Urutan tindakan dan dampak",
-      "modelEnglish": "Maya grew up near a polluted river. In 2022, she organised small clean-up days with five friends. Later, she worked with local residents to record waste along the riverbank. Her group shared its findings and helped the community plan more waste bins. The biography documents these actions without claiming that one group solved every environmental problem.",
-      "modelIndonesian": "Maya tumbuh besar di dekat sungai yang tercemar. Pada tahun 2022, ia menyelenggarakan hari bersih-bersih kecil bersama lima temannya. Belakangan, ia bekerja sama dengan warga setempat untuk mencatat sampah di tepi sungai. Kelompoknya membagikan hasil temuan tersebut dan membantu warga merencanakan lebih banyak tempat sampah. Biografi ini mencatat tindakan tersebut tanpa mengklaim bahwa satu kelompok saja telah menyelesaikan semua masalah lingkungan."
+      "modelEnglish": "Maya noticed heavy litter along the river near her school. In 2022, she invited five classmates to record the types of waste on the riverbank, and the small team later organised monthly clean-ups with local residents. A year later, they partnered with a local library to hold workshops on reusing plastic. Although early meetings attracted only a few students, the group gradually gained wider support and its reports helped the community plan new waste bins.",
+      "modelIndonesian": "Maya melihat banyak sampah di sepanjang sungai dekat sekolahnya. Pada tahun 2022, ia mengajak lima teman sekelasnya mencatat jenis-jenis sampah di tepi sungai, dan tim kecil tersebut kemudian menyelenggarakan kegiatan bersih-bersih bulanan bersama warga setempat. Setahun kemudian, mereka bermitra dengan perpustakaan setempat untuk mengadakan lokakarya penggunaan ulang plastik. Walaupun pertemuan awal hanya dihadiri sedikit siswa, kelompok itu perlahan memperoleh dukungan yang lebih luas dan laporan mereka membantu warga merencanakan tempat sampah baru."
     },
     {
       "type": "synthesis",
