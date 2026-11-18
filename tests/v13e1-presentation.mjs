@@ -12,6 +12,21 @@ const esc=`const t=key=>key;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));\n`;
 const {blocks}=await import('data:text/javascript;base64,'+Buffer.from(esc+excerpt).toString('base64'));
 
+// A numbered badge supplies the list position. Numbers within a title carry meaning.
+for (const [title, expected] of [
+  ['1. Read the notice', 'Read the notice'],
+  ['2) Find the date', 'Find the date'],
+  ['(2) Find the date', 'Find the date'],
+  ['Read the notice', 'Read the notice'],
+  ['3.14 in English', '3.14 in English'],
+  ['2 ways to compare', '2 ways to compare'],
+  ['1945 in context', '1945 in context']
+]) {
+  const rendered = blocks([{type:'scaffold', steps:[{title, explanation:'Baca.'}]}]);
+  assert.ok(rendered.includes(`<span class="scaffold-count">1</span>${expected}</h3>`), title);
+}
+assert.ok(blocks([{type:'heading',text:'1. Read the notice'}]).includes('>1. Read the notice</h2>'));
+
 const schoolIds=new Set(catalogue.resources.filter(r=>r.type==='lesson'&&/^grade(?:9|10|11|12)-/.test(r.id)).map(r=>r.id));
 assert.equal(schoolIds.size,31,'All 31 School English lessons must still be present');
 let validated=0,schoolChecked=0;
