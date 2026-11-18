@@ -1,4 +1,4 @@
-import {resource,params,esc,blocks,formatIdText,link,progress,error} from './core.js';
+import {resource,params,esc,blocks,formatIdText,link,progress,error,icon,pathIllustration} from './core.js';
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
 initI18n();
@@ -9,6 +9,9 @@ try{
   const guidedAnswers=new Map();
   const sort=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title);
   const primary=m.placements[0];
+  const pathLabels={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka'};
+  const pathUrl=Object.hasOwn(pathLabels,primary.pathway) ? primary.pathway+'.html' : 'index.html';
+  const backUrl=pathUrl+(primary.pathway==='school' && primary.grade ? '#grade-'+encodeURIComponent(primary.grade) : '');
   const same=c.resources.filter(r=>r.type==='lesson'&&r.placements.some(x=>x.pathway===primary.pathway&&(primary.pathway!=='school'||x.grade===primary.grade))).sort(sort);
   const here=same.findIndex(x=>x.id===m.id);
   const previous=here>0?same[here-1]:null;
@@ -17,20 +20,26 @@ try{
   const related=(m.relatedLessons||[]).map(id=>c.resources.find(r=>r.id===id)).filter(Boolean);
   const prerequisite=(m.prerequisites||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson')).filter(Boolean);
   function render(){
-    document.querySelector('#content').innerHTML=`<article class="reading">
-    <a href="${({grammar:"grammar.html",utbk:"utbk.html",school:"school.html"})[m.placements[0].pathway]}" class="page-back">← ${t('backPath')}</a>
-    <div class="reading-intro"><span class="section-kicker">${t('lessonType')} · ${esc(m.difficulty)}</span><h1>${esc(m.title)}</h1><p>${esc(m.description)}</p><div class="learning-meta"><span class="badge">${esc(m.difficulty)}</span>${m.estimatedMinutes?`<span class="badge badge-sun">◷ ${m.estimatedMinutes} ${t('minute')}</span>`:''}<span class="badge badge-mint">${t('unofficial')}</span></div></div>
+    const oldIndex = document.querySelector('.reader-index');
+    const showIndex = oldIndex ? oldIndex.open : matchMedia('(min-width: 760px)').matches;
+    document.querySelector('#content').innerHTML=`<article class="reading" data-track="${esc(primary.pathway)}">
+    <a href="${esc(backUrl)}" class="page-back">← ${t('backPath')}</a>
+    <div class="reading-intro">
+      <div class="reading-path">${pathIllustration(primary.pathway)}<span>${t(pathLabels[primary.pathway])}${primary.grade ? ' · '+t('grade')+' '+esc(primary.grade) : ''}</span></div>
+      <h1>${esc(m.title)}</h1><p>${esc(m.description)}</p>
+      <div class="learning-meta"><span>${esc(t('difficulty'+m.difficulty))}</span>${m.estimatedMinutes?`<span>${icon('clock')} ${esc(m.estimatedMinutes)} ${t('minute')}</span>`:''}<span>${t('unofficial')}</span></div>
+    </div>
     <div class="article-body lesson-opening">${blocks(d.blocks.filter(b=>b.type==='definition'))}</div>
-    <details class="panel objectives-panel"><summary lang="id">${t('objectives')} · lihat jika diperlukan</summary><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></details>
+    <details class="panel objectives-panel"><summary>${t('objectives')}</summary><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></details>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
     <p class="language-legend" lang="id">Istilah bahasa Inggris, seperti ${formatIdText("[[verb]]")}, ditandai dengan warna khusus. Contoh kalimat bahasa Inggris ditampilkan terpisah dari arti dan penjelasannya dalam bahasa Indonesia.</p>
     <div class="article-body">${blocks(d.blocks.filter(b=>b.type!=='definition'&&b.type!=='vocabulary'))}</div>
     <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><p class="lesson-practice-instruction" lang="id">${t('lessonPracticeInstruction')}</p><div id="practice"></div></section>
     <div class="article-body lesson-vocabulary">${blocks(d.blocks.filter(b=>b.type==='vocabulary'))}</div>
-    <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ↗</a></p>`).join('')}
-    <div class="toolbar"><button type="button" id="complete">✓ ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
+    <section class="panel complete-box"><h2>${t('nextStep')}</h2>${assessments.map(r=>`<p><a class="button button-outline" href="${link(r.id,'quiz')}">${esc(r.title)} ${icon('arrow')}</a></p>`).join('')}
+    <div class="toolbar"><button type="button" id="complete">${icon('check')} ${t('completeLesson')}</button></div><p id="completion" role="status" class="muted"></p></section>
     <nav class="lesson-links" aria-label="${t('related')}">${previous?`<a href="${link(previous.id)}" class="button button-outline">← ${t('previousLesson')}</a>`:'<span></span>'}${following?`<a href="${link(following.id)}" class="button button-outline">${t('nextLesson')} →</a>`:''}</nav>
-    ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ↗</a></p>`).join('')}</section>`:''}</article>`;
+    ${related.length?`<section class="panel"><h2>${t('related')}</h2>${related.map(r=>`<p><a href="${link(r.id,r.type)}">${esc(r.title)} ${icon('arrow')}</a></p>`).join('')}</section>`:''}</article>`;
 
 
     // V10 reader tools operate on the rendered V9 blocks without changing lesson content.
@@ -47,11 +56,11 @@ try{
     for(const [key,element] of targets)if(!element.id)element.id='read-'+key;
     const tools=document.createElement('nav');tools.className='lesson-tools';
     tools.setAttribute('aria-label',t('readingContents'));
-    tools.innerHTML=`<span class="lesson-tools-text">${t('readingContents')}</span><div class="lesson-toc">${targets.map(([key,element])=>`<a href="#${element.id}">${t(key)}</a>`).join('')}</div><button class="focus-button" type="button" aria-pressed="false"></button>`;
+    tools.innerHTML=`<details class="reader-index" ${showIndex?'open':''}><summary><span class="lesson-tools-text">${t('readingContents')}</span></summary><div class="lesson-toc">${targets.map(([key,element])=>`<a href="#${element.id}">${t(key)}</a>`).join('')}</div></details><button class="focus-button" type="button" aria-pressed="false"></button>`;
     intro.insertAdjacentElement('afterend',tools);
     const focusButton=tools.querySelector('.focus-button');
     const activeFocus=()=>{
-      focusButton.textContent=document.body.classList.contains('focus-reading')?`✕ ${t('exitFocus')}`:`◎ ${t('focusMode')}`;
+      focusButton.textContent=document.body.classList.contains('focus-reading')?t('exitFocus'):t('focusMode');
       focusButton.setAttribute('aria-pressed',String(document.body.classList.contains('focus-reading')));
     };
     activeFocus();focusButton.addEventListener('click',()=>{document.body.classList.toggle('focus-reading');activeFocus();});
@@ -76,7 +85,7 @@ try{
       const showAnswer=(choice)=>{
         box.querySelectorAll('[data-check-choice]').forEach(other=>other.setAttribute('aria-pressed',String(Number(other.dataset.checkChoice)===choice)));
         output.hidden=false;output.dataset.correct=String(choice===correct);
-        output.innerHTML=`<strong>${choice===correct?'Benar! Bagus, kamu sudah menangkap idenya.':'Belum tepat. Tidak apa-apa, mari lihat alasannya.'}</strong> ${box.querySelector('.checkpoint-solution').innerHTML}`;
+        output.innerHTML=`<strong>${t(choice===correct?'guidedRight':'guidedRetry')}</strong> ${box.querySelector('.checkpoint-solution').innerHTML}`;
       };
       box.querySelectorAll('[data-check-choice]').forEach(button=>button.addEventListener('click',()=>{
         const choice=Number(button.dataset.checkChoice);
@@ -89,7 +98,7 @@ try{
     const target=document.querySelector('#practice');
     if(!(d.practice||[]).length)target.innerHTML=`<p class="muted">${t('noPractice')}</p>`;
     (d.practice||[]).forEach((q,i)=>{const section=document.createElement('div');section.className='panel';section.innerHTML=`<h3>${i+1}. ${esc(q.prompt)}</h3>${translationDetails(q)}<div class="choices" role="group" aria-label="${t('question')} ${i+1}">${q.choices.map((v,n)=>`<button type="button" class="choice" data-answer="${n}" aria-pressed="${practiceAnswers.get(q.id)===n}">${esc(v)}</button>`).join('')}</div><p class="inline-feedback" role="status" hidden></p>`;
-      const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);if(!feedback.hidden)feedback.innerHTML='<strong>'+esc(value===q.answer?t('correct'):t('notQuite'))+'</strong> '+formatIdText(q.explanation)};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
+      const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);feedback.dataset.correct=String(value===q.answer);if(!feedback.hidden)feedback.innerHTML='<strong>'+esc(value===q.answer?t('correct'):t('notQuite'))+'</strong> '+formatIdText(q.explanation)};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
     const completion=document.querySelector('#completion');function status(){if(progress.read().lessons?.[m.id])completion.textContent=t('alreadyComplete');else completion.textContent=''}status();document.querySelector('#complete').onclick=()=>{if(!progress.read().lessons?.[m.id])progress.complete(m.id,m.title);completion.textContent=t('justComplete')};
   }
   render();onLanguageChange(render);

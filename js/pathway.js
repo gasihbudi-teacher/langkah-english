@@ -1,4 +1,4 @@
-import {getCatalog,esc,link,progress} from './core.js';
+import {getCatalog,esc,progress,quizDrafts,resourceRow} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 const pathway=document.body.dataset.pathway;
@@ -7,7 +7,9 @@ const sorted=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.tit
 try{
  const c=await getCatalog(),p=progress.read();
  const resources=c.resources.filter(r=>r.placements.some(x=>x.pathway===pathway));
- function card(r){return `<li class="simple-resource"><div><h3><a href="${link(r.id,r.type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(t('difficulty'+r.difficulty))} · ${t(r.type==='lesson'?'studyMaterials':r.kind==='test'?'topicTests':'practiceExercises')}</small>${p.lessons?.[r.id]?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,r.type)}" aria-label="${t(r.type==='lesson'?'openLesson':'openQuiz')}: ${esc(r.title)}">↗</a></li>`}
+ const drafts=quizDrafts();
+ const card=r=>resourceRow(r,p,drafts,pathway,t('difficulty'+r.difficulty));
+ let firstDraw=true;
  function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(sorted).map(card).join('')}</ul>`:`<p>${t('gradeEmpty')}</p>`}</div></details>`}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
@@ -18,25 +20,26 @@ try{
    for(const level of ['Beginner','Intermediate','Advanced']){
     const id=level.toLowerCase(),label=t('level'+level); const here=resources.filter(r=>r.difficulty===level);
     html+=`<h2 class="topic-divider" id="${id}">${esc(label)}</h2>`;
-    html+=group(id+'-materi',label+' · Materi',here.filter(r=>r.type==='lesson'));
-    html+=group(id+'-latihan',label+' · Latihan',here.filter(r=>r.type==='quiz'));
+    html+=group(id+'-materi',label+' · '+t('groupLessons'),here.filter(r=>r.type==='lesson'));
+    html+=group(id+'-latihan',label+' · '+t('groupPractice'),here.filter(r=>r.type==='quiz'));
    }
   }else if(pathway==='school'){
    for(const grade of [9,10,11,12]){
     const here=resources.filter(r=>r.placements.some(p=>p.pathway==='school'&&p.grade===grade));
     html+=`<h2 class="topic-divider" id="grade-${grade}">${t('grade')} ${grade}</h2>`;
-    html+=group('grade-'+grade+'-materi',t('grade')+' '+grade+' · Materi',here.filter(r=>r.type==='lesson'));
-    html+=group('grade-'+grade+'-latihan',t('grade')+' '+grade+' · Latihan',here.filter(r=>r.type==='quiz'));
+    html+=group('grade-'+grade+'-materi',t('grade')+' '+grade+' · '+t('groupLessons'),here.filter(r=>r.type==='lesson'));
+    html+=group('grade-'+grade+'-latihan',t('grade')+' '+grade+' · '+t('groupPractice'),here.filter(r=>r.type==='quiz'));
    }
   }else{
    const lessons=resources.filter(r=>r.type==='lesson');const quizzes=resources.filter(r=>r.type==='quiz');
-   html+=group('utbk-lessons','UTBK · Materi',lessons);
-   html+=group('utbk-practice','UTBK · Latihan',quizzes.filter(r=>r.examFormat!=='full'));
-   html+=group('utbk-mocks','UTBK · Simulasi',quizzes.filter(r=>r.examFormat==='full'));
+   html+=group('utbk-lessons','UTBK · '+t('groupLessons'),lessons);
+   html+=group('utbk-practice','UTBK · '+t('groupPractice'),quizzes.filter(r=>r.examFormat!=='full'));
+   html+=group('utbk-mocks','UTBK · '+t('groupMocks'),quizzes.filter(r=>r.examFormat==='full'));
   }
   target.innerHTML=html;
   const firstGroup=pathway==='grammar'?'beginner-materi':pathway==='school'?'grade-9-materi':'utbk-lessons';
-  if(!previousOpen.size && !location.hash){const first=document.getElementById(firstGroup);if(first)first.open=true;}
+  if(firstDraw && !location.hash){const first=document.getElementById(firstGroup);if(first)first.open=true;}
+  firstDraw=false;
   const relevant=resources.filter(r=>r.type==='lesson');
   const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
   const hero=document.querySelector('.pathway-hero');
@@ -55,6 +58,9 @@ try{
   if(shouldScroll)requestAnimationFrame(()=>node?.scrollIntoView({block:'start'}));
  }
  draw();onLanguageChange(draw);
+ document.querySelector('.pathway-hero-links').addEventListener('click',event=>{
+  if(event.target.closest('a')?.hash===location.hash)openForHash();
+ });
  requestAnimationFrame(()=>openForHash());addEventListener('hashchange',()=>openForHash());
  // Preserve older URL parameters and #grade-X / #beginner anchors.
  const legacy=new URLSearchParams(location.search);

@@ -1,74 +1,87 @@
 <!doctype html>
 <html lang="id">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
-<meta name="description" content="Langkah English: tempat belajar bahasa Inggris dengan penjelasan sabar, latihan, dan persiapan UTBK untuk pelajar Indonesia.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf9f5">
+<meta name="description" content="Langkah English: tempat belajar bahasa Inggris dengan penjelasan sabar, latihan, dan persiapan UTBK dan TKA untuk pelajar Indonesia.">
 <title>Langkah English — Mulai dari yang kamu pahami</title>
 <link rel="stylesheet" href="css/style.css"><script type="module" src="js/home.js"></script><script type="module" src="js/shell.js"></script>
 </head>
 <body class="home-page"><a class="skip" href="#main" data-i18n="skip">Lewati ke konten</a>
 <!-- Navigation is shared by every page. -->
-<header class="site-header"><nav class="nav shell" aria-label="Main navigation"><a class="logo" href="index.html" aria-label="Langkah English home"><span class="logo-mark">L<span class="mark-dot">.</span></span><span>langkah<span class="logo-light">english</span><span class="logo-punct">.</span></span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span data-i18n="menuTitle">Menu</span></button><div class="nav-links" id="primary-navigation"><a data-i18n="navGrammar" href="grammar.html">Grammar</a><a data-i18n="navUtbk" href="utbk.html">UTBK Prep</a><a data-i18n="navTka" href="tka.html">TKA Wajib</a><a data-i18n="navSchool" href="school.html">School English</a><a data-i18n="navSearch" href="search.html">Cari Materi</a><a class="mobile-progress-link" href="index.html#my-progress" data-i18n="myProgress">Progresku</a></div><div class="nav-actions"><a class="nav-progress" href="index.html#my-progress"><span aria-hidden="true">◉</span> <span data-i18n="myProgress">Progresku</span></a><div class="lang-switch" role="group" aria-label="Interface language"><button class="lang-button" type="button" data-lang="en" aria-pressed="false">EN</button><button class="lang-button" type="button" data-lang="id" aria-pressed="true">ID</button></div></div></nav></header>
+<header class="site-header">
+  <nav class="nav shell" data-i18n-aria="mainNavigation" aria-label="Navigasi utama">
+    <a class="logo" href="index.html" data-i18n-aria="homeLink" aria-label="Beranda Langkah English"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><use href="assets/icons.svg#mark"/></svg></span><span class="brand-type">Langkah <em>English</em></span></a>
+    <button type="button" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span data-i18n="menuTitle">Menu</span></button>
+    <div class="nav-links" id="primary-navigation">
+      <a href="index.html" data-i18n="homeNav">Beranda</a>
+      <div class="route-picker">
+        <button class="route-toggle" type="button" aria-controls="route-menu" aria-expanded="false"><span data-i18n="pathNav">Jalur belajar</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#chevron"/></svg></button>
+        <ul class="route-menu" id="route-menu">
+            <li><svg class="menu-path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#grammar"/></svg><a data-i18n="navGrammar" href="grammar.html">Tata bahasa</a></li>
+            <li><svg class="menu-path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#school"/></svg><a data-i18n="navSchool" href="school.html">Pelajaran sekolah</a></li>
+            <li><svg class="menu-path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#utbk"/></svg><a data-i18n="navUtbk" href="utbk.html">Persiapan UTBK</a></li>
+            <li><svg class="menu-path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#tka"/></svg><a data-i18n="navTka" href="tka.html">Persiapan TKA</a></li>
+        </ul>
+      </div>
+      <a href="search.html" class="nav-search"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#search"/></svg><span data-i18n="navSearch">Cari materi</span></a>
+      <a class="mobile-progress-link" href="index.html#my-progress"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#progress"/></svg><span data-i18n="progressNav">Progresku</span></a>
+    </div>
+    <div class="nav-actions">
+      <a class="nav-progress" href="index.html#my-progress"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#progress"/></svg><span data-i18n="progressNav">Progresku</span></a>
+      <div class="lang-switch" role="group" data-i18n-aria="interfaceLanguage" aria-label="Bahasa tampilan"><button class="lang-button" type="button" data-lang="id" aria-pressed="true" lang="id" aria-label="Bahasa Indonesia">ID</button><button class="lang-button" type="button" data-lang="en" aria-pressed="false" lang="en" aria-label="English">EN</button></div>
+    </div>
+  </nav>
+</header>
 <main id="main" class="shell home-main">
-<section class="hero home-hero" aria-labelledby="hero-title">
- <div class="hero-copy">
-  <span class="pill pill-overline"><span class="pulse-dot" aria-hidden="true"></span><span data-i18n="heroOverline">Belajar sesuai ritmemu</span></span>
-  <h1 id="hero-title" data-i18n="heroTitle">Bahasa Inggris, <em>satu langkah</em> dulu.</h1>
-  <p class="hero-lead" data-i18n="heroBody">Pilih yang kamu butuhkan. Belajar pelan-pelan dengan penjelasan yang jelas dalam Bahasa Indonesia.</p>
-  <div class="hero-actions"><a class="button" href="#learning-choices"><span data-i18n="heroPrimary">Pilih tujuan belajar</span><span aria-hidden="true">↓</span></a></div>
-  <p class="hero-footnote"><span aria-hidden="true">●</span> <span data-i18n="heroNote">Gratis digunakan · Penjelasan dalam Bahasa Indonesia</span></p>
- </div>
-</section>
 <section id="continue-section" class="continue-section" aria-labelledby="continue-heading" hidden>
- <h2 id="continue-heading" class="visually-hidden" data-i18n="continueKicker">Lanjutkan belajarmu</h2>
- <div id="continue" class="continue-wrap" aria-live="polite"></div>
+  <h1 id="continue-heading" class="visually-hidden" data-i18n="continueKicker">Lanjutkan belajarmu</h1>
+  <div id="continue" class="continue-wrap"></div>
+  <svg class="study-art" viewBox="0 0 540 320" width="540" height="320" aria-hidden="true"><use href="assets/study.svg#desk"/></svg>
+</section>
+<section class="hero home-hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="hero-overline"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#book"/></svg><span data-i18n="heroOverline">Ruang belajar kelas 9–12</span></p>
+    <h1 id="hero-title" data-i18n="heroTitle">Bahasa Inggris,<em>satu langkah dulu.</em></h1>
+    <p class="hero-lead" data-i18n="heroBody">Pahami contoh bahasa Inggris dengan penjelasan dalam bahasa Indonesia. Mulailah dengan mengenal jenis kata.</p>
+    <div class="hero-actions"><a class="button" href="lesson.html?id=parts-of-speech"><span data-i18n="heroPrimary">Mulai dari dasar</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></a></div>
+  </div>
+  <svg class="study-art" viewBox="0 0 540 320" width="540" height="320" aria-hidden="true"><use href="assets/study.svg#desk"/></svg>
 </section>
 <section class="section choice-section home-choice-section" id="learning-choices" aria-labelledby="choices-title">
- <div class="section-intro">
-  <span class="section-kicker" data-i18n="choiceKicker">Mulai dari sini</span>
-  <h2 id="choices-title" data-i18n="choiceTitle">Mau belajar apa hari ini?</h2>
-  <p data-i18n="choiceBody">Pilih satu tujuan. Kamu bisa berganti jalur kapan saja.</p>
- </div>
- <div class="choice-grid">
-  <a class="choice-card" href="grammar.html#beginner">
-   <span class="choice-icon icon-lime" aria-hidden="true">Aa</span>
-   <span><strong data-i18n="choiceOne">Tata bahasa</strong><small data-i18n="choiceOneDesc">Mulai dari dasar dan susun kalimat</small></span>
-   <span class="choice-arrow" aria-hidden="true">↗</span>
-  </a>
-  <a class="choice-card" href="school.html">
-   <span class="choice-icon icon-pink" aria-hidden="true">▤</span>
-   <span><strong data-i18n="choiceTwo">Pelajaran sekolah</strong><small data-i18n="choiceTwoDesc">Cari materi untuk kelas 9–12</small></span>
-   <span class="choice-arrow" aria-hidden="true">↗</span>
-  </a>
-  <a class="choice-card" href="utbk.html">
-   <span class="choice-icon icon-blue" aria-hidden="true">◎</span>
-   <span><strong data-i18n="choiceThree">Persiapan UTBK</strong><small data-i18n="choiceThreeDesc">Latihan memahami bacaan</small></span>
-   <span class="choice-arrow" aria-hidden="true">↗</span>
-  </a>
-  <a class="choice-card" href="tka.html">
-   <span class="choice-icon icon-sun" aria-hidden="true">▧</span>
-   <span><strong data-i18n="choiceFour">Persiapan TKA</strong><small data-i18n="choiceFourDesc">Belajar membaca untuk TKA</small></span>
-   <span class="choice-arrow" aria-hidden="true">↗</span>
-  </a>
- </div>
- <p class="home-search-hint"><span data-i18n="homeSearchHint">Sudah tahu topiknya?</span> <a href="search.html" data-i18n="homeSearchLink">Cari materi di sini ↗</a></p>
+  <div class="section-intro"><h2 id="choices-title" data-i18n="choiceTitle">Pilih jalur belajarmu</h2></div>
+  <div class="choice-grid">
+    <a class="choice-card" href="grammar.html#beginner" data-track="grammar">
+      <span class="choice-visual"><svg class="card-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#grammar"/></svg></span>
+      <span class="choice-copy"><strong data-i18n="choiceOne">Tata bahasa</strong><span class="choice-desc" data-i18n="choiceOneDesc">Untuk pemula yang ingin menyusun kalimat bahasa Inggris.</span><span class="choice-action"><span data-i18n="startGrammar">Buka tingkat pemula</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></span></span>
+    </a>
+    <a class="choice-card" href="school.html" data-track="school">
+      <span class="choice-visual"><svg class="card-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#school"/></svg></span>
+      <span class="choice-copy"><strong data-i18n="choiceTwo">Pelajaran sekolah</strong><span class="choice-desc" data-i18n="choiceTwoDesc">Materi dan latihan untuk mengikuti pelajaran kelas 9–12.</span><span class="choice-action"><span data-i18n="startSchool">Pilih kelas</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></span></span>
+    </a>
+    <a class="choice-card" href="utbk.html" data-track="utbk">
+      <span class="choice-visual"><svg class="card-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#utbk"/></svg></span>
+      <span class="choice-copy"><strong data-i18n="choiceThree">Persiapan UTBK</strong><span class="choice-desc" data-i18n="choiceThreeDesc">Latihan memahami bacaan untuk seleksi masuk perguruan tinggi.</span><span class="choice-action"><span data-i18n="startUtbk">Pelajari strategi membaca</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></span></span>
+    </a>
+    <a class="choice-card" href="tka.html" data-track="tka">
+      <span class="choice-visual"><svg class="card-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#tka"/></svg></span>
+      <span class="choice-copy"><strong data-i18n="choiceFour">Persiapan TKA</strong><span class="choice-desc" data-i18n="choiceFourDesc">Modul membaca untuk Tes Kemampuan Akademik bahasa Inggris wajib.</span><span class="choice-action"><span data-i18n="startTka">Lihat modul TKA</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></span></span>
+    </a>
+  </div>
 </section>
 <details class="section home-progress-details" id="my-progress">
  <summary class="progress-summary">
-  <span class="progress-summary-copy"><strong data-i18n="progressTitle">Progres belajarku</strong><small data-i18n="progressDesc">Progres disimpan di perangkat ini.</small></span>
-  <span class="summary-chevron" aria-hidden="true">＋</span>
+  <svg class="progress-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#progress"/></svg><span class="progress-summary-copy"><strong data-i18n="progressTitle">Progres belajarku</strong><small data-i18n="progressDesc">Progres disimpan di perangkat ini.</small></span>
+  <svg class="summary-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#chevron"/></svg>
  </summary>
  <div class="progress-details-content">
   <div id="stats" class="stats" aria-live="polite"></div>
-  <p class="progress-fineprint" data-i18n="progressDesc">Progres disimpan di perangkat ini.</p>
   <div class="history-layout">
    <div>
     <h3 data-i18n="activityTitle">Aktivitas terbaru</h3>
-    <p class="muted" data-i18n="historyNote">Kamu bisa kembali lagi kapan pun.</p>
     <div id="activity" class="activity-list" aria-live="polite"></div>
    </div>
    <div class="backup-panel panel">
-    <div class="backup-symbol" aria-hidden="true">⇣</div>
+    
     <strong data-i18n="backupTitle">Simpan riwayat belajarmu</strong>
     <p data-i18n="backupHelp">Unduh cadangan atau pulihkan di perangkat lain. File mencakup jawaban dan riwayat kuis; simpan secara pribadi.</p>
     <div class="backup-actions">
@@ -81,5 +94,8 @@
   </div>
  </div>
 </details>
-</main><footer class="site-footer"><div class="shell footer-layout"><div><div class="footer-brand">langkah<span>english.</span></div><p data-i18n="footerTagline">One step forward, every day.</p></div><div class="footer-note"><p data-i18n="footerPrivacy">Progres disimpan di browser ini, tidak tersinkron antar-perangkat.</p><p data-i18n="footerUnofficial">Latihan dibuat dengan bantuan AI, bukan materi resmi SNPMB.</p></div></div></footer>
+</main><footer class="site-footer"><div class="shell footer-layout">
+  <a class="footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><use href="assets/icons.svg#mark"/></svg></span><span class="brand-type">Langkah <em>English</em></span></a>
+  <div class="footer-note"><p data-i18n="footerPrivacy">Progres tersimpan di peramban perangkat ini.</p><p data-i18n="footerUnofficial">Latihan berbantuan AI ini tidak resmi dan tidak berafiliasi dengan SNPMB.</p></div>
+</div></footer>
 </body></html>

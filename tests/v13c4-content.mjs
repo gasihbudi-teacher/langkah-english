@@ -11,14 +11,13 @@ const cat=load('data/catalog.json');
 const baseline=load('tests/fixtures/v13c4-v13c3-content-sha256.json');
 const intentional=new Set([...load('tests/fixtures/v13e1-r4-intentional-content.json'),'data/lessons/grade9-reading.json']);for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C3 lesson/quiz changed: ${p}`);
 assert.equal(Object.keys(baseline).length,109);
-const homeBaseline=load('tests/fixtures/v13c4-v13c3-homepage-sha256.json');
-// V13-E1 presentation patch intentionally appends lesson-only CSS, preserving all V13-C3 homepage rules byte-for-byte.
-for(const [p,digest] of Object.entries(homeBaseline)){
- const data=read(p);
- const historic=p==='css/style.css'?Buffer.from(data.toString().split('\n/* V13-E1 renderer correction:')[0]):data;
- assert.equal(crypto.createHash('sha256').update(historic).digest('hex'),digest,`Redesigned homepage component changed: ${p}`);
- if(p==='css/style.css')assert.match(data.toString(),/\/\* V13-E1 renderer correction:/,'Expected documented lesson-only CSS extension');
+// The design release records the complete stylesheet and both homepage sources.
+const home=load('tests/fixtures/design-r1-homepage-sha256.json');
+assert.deepEqual(Object.keys(home).sort(),['css/style.css','index.html','js/home.js']);
+for(const [file,digest] of Object.entries(home)){
+ assert.equal(crypto.createHash('sha256').update(read(file)).digest('hex'),digest,`Design R1 component changed: ${file}`);
 }
+assert.match(read('css/style.css').toString(),/\/\* V13-E1 renderer correction:/,'Expected documented lesson-only CSS extension');
 assert.ok(cat.resources.length>=117);
 assert.ok(cat.resources.filter(x=>x.type==='lesson').length>=66);
 assert.ok(cat.resources.filter(x=>x.type==='quiz').length>=51);
@@ -96,4 +95,4 @@ assert.match(i18n,/Ten TKA modules and three practice simulations are available/
 assert.match(i18n,/Sepuluh modul TKA dan tiga simulasi latihan tersedia/);
 for(const id of [...ids,'tka-classify-outline-summarize-synthesize','tka-context-vocabulary-reference-connectors','tka-implied-ideas-audience-purpose-message','tka-inference-cause-character-prediction'])assert(tka.includes(id),`TKA page does not publish ${id}`);
 for(const f of ['css/style.css','js/home.js','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage redesign component missing: ${f}`);
-console.log('PASS V13-C4: TKA-07/TKA-08 add 22 steps, 20 explained cards, 6 embedded practices and 24 mixed-format questions; A2/B1 full passages, exact evidence, balanced answer keys, bilingual QA, scoring, all non-remediated V13-C3 lesson/quiz files and historical homepage rules preserved; 113 resources / 585 steps / 651 cards / 539 scored items.');
+console.log('PASS V13-C4: TKA-07/TKA-08 add 22 steps, 20 explained cards, 6 embedded practices and 24 mixed-format questions; A2/B1 full passages, exact evidence, balanced answer keys, bilingual QA, scoring, all non-remediated V13-C3 lesson/quiz files and full Design R1 homepage fingerprints verified; 113 resources / 585 steps / 651 cards / 539 scored items.');

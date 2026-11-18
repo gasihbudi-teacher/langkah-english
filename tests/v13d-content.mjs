@@ -14,11 +14,11 @@ const baseline=load('tests/fixtures/v13d-v13c5-content-sha256.json');
 const intentional=new Set([...load('tests/fixtures/v13e1-r4-intentional-content.json'),'data/lessons/grade9-reading.json']);
 for(const [p,digest] of Object.entries(baseline))if(!intentional.has(p))assert.equal(crypto.createHash('sha256').update(read(p)).digest('hex'),digest,`V13-C5 content changed: ${p}`);
 assert.equal(Object.keys(baseline).length,117);
-const home=load('tests/fixtures/v13d-v13c5-homepage-sha256.json');
-for(const [p,digest] of Object.entries(home)){
- const source=read(p).toString();
- const historical=p==='css/style.css'?source.split('\n/* V13-E1 renderer correction:')[0]:source;
- assert.equal(crypto.createHash('sha256').update(historical).digest('hex'),digest,`Homepage core changed: ${p}`);
+// The design release records the complete stylesheet and both homepage sources.
+const home=load('tests/fixtures/design-r1-homepage-sha256.json');
+assert.deepEqual(Object.keys(home).sort(),['css/style.css','index.html','js/home.js']);
+for(const [file,digest] of Object.entries(home)){
+ assert.equal(crypto.createHash('sha256').update(read(file)).digest('hex'),digest,`Design R1 component changed: ${file}`);
 }
 
 assert.equal(cat.resources.length,124);
@@ -52,4 +52,4 @@ assert.equal(steps,601);assert.equal(cards,641);assert.equal(scored,708);assert.
 const page=read('tka.html').toString(),tka=read('js/tka.js').toString(),i18n=read('js/i18n.js').toString();
 assert.match(page,/id="tka-mock-list"/);assert.match(page,/data-i18n="tkaSimulationsKicker"/);assert.match(page,/30 soal, enam bacaan, dan timer 45 menit/);assert.match(tka,/mockIds=\['tka-mock-a','tka-mock-b','tka-mock-c'\]/);for(const id of ids)assert(tka.includes(id),`TKA page does not publish ${id}`);assert.match(i18n,/Three original, unofficial simulations/);assert.match(i18n,/Tiga simulasi orisinal dan tidak resmi/);assert.match(i18n,/Ten TKA modules and three practice simulations are available/);assert.match(i18n,/Sepuluh modul TKA dan tiga simulasi latihan tersedia/);
 for(const f of ['index.html','css/style.css','js/home.js','tests/v13-homepage-redesign.mjs'])assert(fs.existsSync(path.join(root,f)),`Homepage component missing: ${f}`);
-console.log('PASS V13-D: three original 30-question/45-minute unofficial simulations; 18 original A2/B1 passages; 90 mixed-format items; exact evidence, Indonesian feedback, balanced single-answer keys, scoring; all non-remediated V13-C5 lesson/quiz files and redesigned homepage core SHA-identical; 124 resources / 601 steps / 641 example cards / 708 scored items.');
+console.log('PASS V13-D: three original 30-question/45-minute unofficial simulations; 18 original A2/B1 passages; 90 mixed-format items; exact evidence, Indonesian feedback, balanced single-answer keys, scoring; all non-remediated V13-C5 lesson/quiz files and full Design R1 homepage fingerprints verified; 124 resources / 601 steps / 641 example cards / 708 scored items.');

@@ -1,4 +1,4 @@
-import {getCatalog,esc,link,progress} from './core.js';
+import {getCatalog,esc,link,progress,quizDrafts,resourceRow,icon} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 // Planned sequence from the 2026-10-26 blueprint. V13-C5 publishes all ten modules; V13-D adds three full practice simulations.
@@ -35,21 +35,21 @@ const published={
  'TKA-10':['tka-question-formats-independent-practice','tka-question-formats-independent-practice-practice'],
 };
 let items=[],tkaLessons=[],tkaQuizzes=[];
-const card=(r,type,done=false)=>`<li class="simple-resource"><div><h3><a href="${link(r.id,type)}">${esc(r.title)}</a></h3><p>${esc(r.description)}</p><span class="resource-meta"><small>${esc(t('difficulty'+r.difficulty))}</small>${done?`<span class="badge badge-mint">✓ ${t('completed')}</span>`:''}</span></div><a class="simple-arrow" href="${link(r.id,type)}" aria-label="${esc(t('tkaStudy'))}: ${esc(r.title)}">↗</a></li>`;
 function draw(){
- const p=progress.read();
+ const p=progress.read(),drafts=quizDrafts();
+ const card=r=>resourceRow(r,p,drafts,'tka',t('difficulty'+r.difficulty));
  const groups=[...new Set(tkaModules.map(m=>m[3]))];
- modules.innerHTML=groups.map(key=>`<section class="tka-module-group"><h3>${esc(t(key))}</h3><ol class="tka-module-grid">${tkaModules.filter(m=>m[3]===key).map(([id,title,steps])=>{
+ modules.innerHTML=groups.map(key=>`<section class="tka-module-group"><h3>${esc(t(key))}</h3><ol class="tka-module-grid">${tkaModules.filter(m=>m[3]===key).map(([id,title])=>{
   const paths=published[id];
   const lesson=paths?tkaLessons.find(x=>x.id===paths[0]):null;
   const quiz=paths?tkaQuizzes.find(x=>x.id===paths[1]):null;
-  return `<li class="tka-module"><span class="tka-module-code">${esc(id)}</span><strong>${esc(title)}</strong><small>${esc(t('tkaSteps',{n:steps}))}</small>${lesson&&quiz?`<div class="tka-available"><a href="${link(lesson.id,'lesson')}">${esc(t('tkaOpenLesson'))} ↗</a><a href="${link(quiz.id,'quiz')}">${esc(t('tkaOpenQuiz'))} ↗</a></div><span class="tka-released">✓ ${esc(t('tkaPublished'))}</span>`:`<span class="tka-pending">${esc(t('tkaComing'))}</span>`}</li>`;
+  return `<li class="tka-module"><span class="tka-module-code">${esc(id)}</span><strong>${esc(title)}</strong>${lesson&&quiz?`<div class="tka-available"><a href="${link(lesson.id,'lesson')}">${esc(t('tkaOpenLesson'))} ${icon('arrow')}</a><a href="${link(quiz.id,'quiz')}">${esc(t('tkaOpenQuiz'))} ${icon('arrow')}</a></div><span class="tka-released">✓ ${esc(t('tkaPublished'))}</span>`:`<span class="tka-pending">${esc(t('tkaComing'))}</span>`}</li>`;
  }).join('')}</ol></section>`).join('');
  document.querySelector('#tka-support-progress').textContent=t('tkaSupportCount',{done:items.filter(r=>p.lessons?.[r.id]).length,total:items.length});
- target.innerHTML=items.length?`<ul class="simple-resources tka-support-items">${items.map(r=>card(r,'lesson',!!p.lessons?.[r.id])).join('')}</ul>`:`<p class="notice" role="alert">${esc(t('tkaEmpty'))}</p>`;
- newLessons.innerHTML=`<ul class="simple-resources tka-support-items">${tkaLessons.map(r=>card(r,'lesson',!!p.lessons?.[r.id])).join('')}</ul>`;
- newQuizzes.innerHTML=`<ul class="simple-resources tka-support-items">${tkaQuizzes.map(r=>card(r,'quiz')).join('')}</ul>`;
- newMocks.innerHTML=tkaMocks.length?`<ul class="simple-resources tka-support-items">${tkaMocks.map(r=>card(r,'quiz')).join('')}</ul>`:`<p class="notice">${esc(t('tkaMockEmpty'))}</p>`;
+ target.innerHTML=items.length?`<ul class="simple-resources tka-support-items">${items.map(card).join('')}</ul>`:`<p class="notice" role="alert">${esc(t('tkaEmpty'))}</p>`;
+ newLessons.innerHTML=`<ul class="simple-resources tka-support-items">${tkaLessons.map(card).join('')}</ul>`;
+ newQuizzes.innerHTML=`<ul class="simple-resources tka-support-items">${tkaQuizzes.map(card).join('')}</ul>`;
+ newMocks.innerHTML=tkaMocks.length?`<ul class="simple-resources tka-support-items">${tkaMocks.map(card).join('')}</ul>`:`<p class="notice">${esc(t('tkaMockEmpty'))}</p>`;
 }
 try{
  const c=await getCatalog();
@@ -59,4 +59,15 @@ try{
  tkaQuizzes=Object.values(published).map(([,id])=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
  tkaMocks=mockIds.map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
  draw();onLanguageChange(draw);
+ function revealGroup(){
+  const group=document.getElementById(location.hash.slice(1));
+  if(group?.matches('details.tka-directory'))group.open=true;
+ }
+ revealGroup();
+ addEventListener('hashchange',revealGroup);
+ document.querySelector('.pathway-hero-links').addEventListener('click',event=>{
+  const anchor=event.target.closest('a');
+  const group=anchor && document.getElementById(anchor.hash.slice(1));
+  if(group?.matches('details.tka-directory'))group.open=true;
+ });
 }catch(e){target.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newLessons.innerHTML=`<p class="error" role="alert">${esc(e.message)}</p>`;newQuizzes.innerHTML='';newMocks.innerHTML='';}

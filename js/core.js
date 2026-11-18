@@ -90,3 +90,51 @@ function lessonBlock(b,context){switch(b.type){
  default:throw Error(`Jenis blok pelajaran tidak didukung: ${b.type}`);
 }}
 export function blocks(items){const context={counter:0};return items.map(item=>lessonBlock(item,context)).join('')}
+
+// Read the existing draft records for navigation. A corrupt record must not hide other drafts.
+export function quizDrafts() {
+  const drafts = new Map();
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (!key?.startsWith('langkah.draft.')) continue;
+      try {
+        const draft = JSON.parse(localStorage.getItem(key));
+        if (Array.isArray(draft?.answers) && draft.answers.length && Number.isFinite(draft.start)) {
+          drafts.set(key.slice('langkah.draft.'.length), draft);
+        }
+      } catch { /* Ignore this unreadable draft. */ }
+    }
+  } catch { /* Storage can be unavailable in a private browser. */ }
+  return drafts;
+}
+
+export function icon(name) {
+  return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#${esc(name)}"/></svg>`;
+}
+
+export function pathIllustration(path) {
+  return `<svg class="path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#${esc(path)}"/></svg>`;
+}
+
+export function resourceStatus(resource, record, drafts) {
+  let key;
+  if (resource.type === 'lesson') {
+    key = record.lessons?.[resource.id] ? 'statusComplete' : 'statusIncomplete';
+  } else if (drafts.has(resource.id)) {
+    key = 'statusDraft';
+  } else {
+    key = record.attempts?.some(attempt => attempt.resourceId === resource.id) ? 'statusAttempted' : 'statusUnanswered';
+  }
+  return `<span class="status-chip ${key}"><span class="status-mark" aria-hidden="true"></span>${t(key)}</span>`;
+}
+
+export function resourceRow(resource, record, drafts, path, difficulty) {
+  const type = resource.type === 'lesson' ? 'studyMaterials' : resource.kind === 'test' ? 'topicTests' : 'practiceExercises';
+  return `<li class="simple-resource" data-track="${esc(path)}">
+    <a class="resource-link" href="${link(resource.id, resource.type)}">
+      <div class="resource-copy"><h3>${esc(resource.title)}</h3><p>${esc(resource.description)}</p>
+        <div class="resource-meta"><small>${esc(difficulty)} · ${t(type)}</small>${resourceStatus(resource,record,drafts)}</div>
+      </div>${icon('arrow')}
+    </a></li>`;
+}
