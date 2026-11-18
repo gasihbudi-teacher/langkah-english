@@ -1,235 +1,158 @@
 {
   "id": "grade12-compare-arguments",
   "objectives": [
-    "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi perbedaan klaim, jenis bukti, dan definisi ukuran antara dua sumber yang membahas topik yang sama.",
+    "Mengevaluasi apakah bukti suatu argumen relevan, sebanding, dan cukup untuk mendukung kesimpulannya.",
+    "Menerapkan strategi perbandingan sumber pada bacaan utuh dan soal pemahaman."
   ],
   "blocks": [
     {
       "type": "definition",
       "title": "Apa itu Comparing Arguments and Evaluating Evidence?",
-      "text": "[[Comparing arguments]] berarti menilai dua pendapat berdasarkan klaim, alasan, bukti, dan batasan masing-masing."
+      "text": "[[Comparing arguments]] adalah keterampilan membandingkan dua pendapat atau laporan tentang topik yang sama dengan memeriksa klaim, jenis bukti, cara pengukuran ([[measure]]), dan keterbatasan masing-masing sumber."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti enam langkah berikut pada satu kasus yang sama—dua laporan mengenai jumlah peserta pameran sains sekolah—untuk melihat mengapa dua angka yang berbeda belum tentu saling bertentangan.",
       "steps": [
         {
-          "title": "Dua pendapat bisa berbeda",
-          "explanation": "Penulis dapat memakai informasi berbeda untuk menjawab persoalan sama.",
-          "english": "Both sources discuss the same event.",
-          "indonesian": "Kedua sumber membahas acara sama.",
-          "why": "Topik sama tidak berarti ukuran sama."
+          "title": "1. Pastikan kedua sumber membahas isu yang sama",
+          "explanation": "Sebelum membandingkan angka atau pendapat, pastikan kedua sumber membicarakan peristiwa atau persoalan yang sama.",
+          "english": "Both reports discuss student participation in the school science fair.",
+          "indonesian": "Kedua laporan membahas partisipasi siswa dalam pameran sains sekolah.",
+          "why": "Topik utamanya sama, tetapi kita tetap perlu memeriksa apa yang diukur masing-masing laporan."
         },
         {
-          "title": "Pertanyaan pembanding",
-          "explanation": "Tentukan isu persis yang dibahas kedua sumber agar tidak membandingkan topik yang berlainan.",
-          "english": "Both sources discuss the same event.",
-          "indonesian": "Kedua sumber membahas acara sama.",
-          "why": "Topik sama tidak berarti ukuran sama."
+          "title": "2. Identifikasi klaim dan bukti sumber pertama",
+          "explanation": "Catat kesimpulan sumber pertama beserta cara mereka mengumpulkan datanya.",
+          "english": "Report A states that 180 students participated because it counted online registrations.",
+          "indonesian": "Laporan A menyatakan bahwa 180 siswa berpartisipasi karena laporan itu menghitung pendaftaran daring.",
+          "why": "Angka 180 berasal dari daftar pendaftar, bukan orang yang benar-benar datang."
         },
         {
-          "title": "Klaim teks pertama",
-          "explanation": "Nyatakan posisi penulis pertama dengan bahasa sederhana tanpa menambah maksud.",
-          "english": "Source A counts registrations.",
-          "indonesian": "Sumber A menghitung pendaftaran.",
-          "why": "Pendaftaran tidak sama dengan kehadiran."
+          "title": "3. Identifikasi klaim dan bukti sumber kedua",
+          "explanation": "Lakukan pemeriksaan yang sama pada sumber kedua dengan ketelitian yang setara.",
+          "english": "Report B records 142 participants by counting students who entered the hall.",
+          "indonesian": "Laporan B mencatat 142 peserta dengan menghitung siswa yang masuk ke aula.",
+          "why": "Sumber B mengukur kehadiran fisik di lokasi acara."
         },
         {
-          "title": "Klaim teks kedua",
-          "explanation": "Nyatakan posisi penulis kedua dengan ketelitian yang sama.",
-          "english": "Source B counts attendance.",
-          "indonesian": "Sumber B menghitung kehadiran.",
-          "why": "Ini ukuran yang berbeda."
+          "title": "4. Periksa kesetaraan ukuran (measure)",
+          "explanation": "Bandingkan apakah kedua sumber memakai definisi atau alat ukur yang sepadan.",
+          "english": "Online registration is not the same measure as physical attendance.",
+          "indonesian": "Pendaftaran daring bukanlah ukuran yang sama dengan kehadiran fisik.",
+          "why": "Sebagian pendaftar bisa saja batal hadir, sehingga perbedaan angka masuk akal."
         },
         {
-          "title": "Alasan setiap posisi",
-          "explanation": "Pisahkan alasan masing-masing argumen sebelum menilai buktinya.",
-          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
-          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
-          "why": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+          "title": "5. Nilai relevansi dan keandalan bukti",
+          "explanation": "Pilih bukti yang paling sesuai dengan pertanyaan yang ingin dijawab dan periksa batasannya.",
+          "english": "A headcount at the entrance is stronger evidence of actual attendance than a sign-up form.",
+          "indonesian": "Penghitungan langsung di pintu masuk adalah bukti kehadiran nyata yang lebih kuat daripada formulir pendaftaran.",
+          "why": "Bukti harus relevan dengan klaim yang sedang diuji."
         },
         {
-          "title": "Bukti yang dipakai",
-          "explanation": "Tentukan angka, pengamatan, atau sumber spesifik yang mendukung masing-masing klaim.",
-          "english": "Fifty students signed up.",
-          "indonesian": "Lima puluh siswa mendaftar.",
-          "why": "Ini jumlah pendaftar."
-        },
-        {
-          "title": "Relevansi dan kesetaraan",
-          "explanation": "Bandingkan bukti dengan ukuran, kelompok, dan pertanyaan yang sepadan.",
-          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
-          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
-          "why": "Definisi ukuran menjelaskan sebagian perbedaan."
-        },
-        {
-          "title": "Keandalan dan batas",
-          "explanation": "Periksa cakupan, metode, dan informasi yang tidak tersedia sebelum mempercayai klaim.",
-          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
-          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
-          "why": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
-        },
-        {
-          "title": "Hindari simpulan berlebihan",
-          "explanation": "Sampel kecil atau data berbeda periode tidak cukup untuk kesimpulan mutlak.",
-          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
-          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
-          "why": "Definisi ukuran menjelaskan sebagian perbedaan."
-        },
-        {
-          "title": "Putuskan secara proporsional",
-          "explanation": "Pilih argumen dengan bukti lebih kuat atau akui bila data tidak cukup, dan sebut alasan eksplisitnya.",
-          "english": "Before judging which claim is stronger, readers need to ask whether the sources describe the same group and time period.",
-          "indonesian": "Sebelum menilai klaim mana lebih kuat, pembaca perlu memeriksa apakah sumber membahas kelompok dan periode waktu sama.",
-          "why": "Perbandingan memerlukan kesesuaian dasar data."
+          "title": "6. Tarik kesimpulan secara proporsional",
+          "explanation": "Hindari menyimpulkan bahwa salah satu sumber berbohong jika perbedaan dapat dijelaskan oleh perbedaan metode.",
+          "english": "Before judging which claim is stronger, readers must check whether both sources measure the same group and time period.",
+          "indonesian": "Sebelum menilai klaim mana yang lebih kuat, pembaca harus memeriksa apakah kedua sumber mengukur kelompok dan periode waktu yang sama.",
+          "why": "Perbandingan yang adil membutuhkan dasar data yang sebanding."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Writer A says the new bus route is effective because 80 passengers used it on Monday. Writer B notes that 80 passengers alone is not enough to judge its effectiveness because no previous figure, cost, or passenger target is provided. The writers evaluate the same route but use different standards of evidence.",
-      "modelIndonesian": "Penulis A mengatakan rute bus baru efektif karena 80 penumpang menggunakannya pada hari Senin. Penulis B mencatat bahwa angka 80 penumpang saja tidak cukup untuk menilai efektivitasnya karena tidak ada angka sebelumnya, biaya, atau target penumpang. Kedua penulis menilai rute sama tetapi menggunakan standar bukti berbeda."
+      "modelTitle": "Teks model utuh: Membandingkan dua evaluasi rute bus",
+      "modelEnglish": "Writer A claims the new school bus route is successful because 80 passengers used it on Monday. Writer B argues that 80 passengers alone is not enough to prove success because no previous data, operating cost, or passenger target is provided. Both writers examine the same bus route, yet Writer B shows why a single number needs context before we draw a conclusion.",
+      "modelIndonesian": "Penulis A mengklaim rute bus sekolah yang baru berhasil karena 80 penumpang menggunakannya pada hari Senin. Penulis B berpendapat bahwa angka 80 penumpang saja tidak cukup untuk membuktikan keberhasilan karena tidak ada data sebelumnya, biaya operasional, atau target penumpang yang disertakan. Kedua penulis membahas rute bus yang sama, tetapi Penulis B menunjukkan mengapa satu angka membutuhkan konteks sebelum kita menarik kesimpulan."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, argumen yang lebih yakin belum tentu lebih kuat. Bandingkan apakah kedua teks membahas masalah yang sama, menggunakan bukti yang sebanding, dan mengakui kelemahan datanya."
-    },
-    {
-      "type": "text",
-      "text": "Dua tulisan dapat membahas topik sama dan mencapai kesimpulan berbeda. Kita baca apa yang mereka ukur, siapa respondennya, lalu baru membandingkan."
+      "text": "Jadi intinya, argumen yang terdengar lebih yakin belum tentu memiliki bukti yang lebih kuat. Selalu periksa apakah kedua teks memakai [[measure]] dan [[sample]] yang sebanding serta mengakui [[limitation]] datanya."
     },
     {
       "type": "rule",
-      "text": "Dalam [[source comparison]], periksa [[claim]], [[sample]], [[measure]], dan [[limitation]]. Dua angka yang berbeda belum tentu bertentangan bila hal yang diukur berbeda."
+      "text": "Dalam [[source comparison]], periksa empat unsur: [[claim]] (pendapat utama), [[sample]] (kelompok yang diamati), [[measure]] (apa yang dihitung), dan [[limitation]] (kekurangan data)."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Kesalahan berpikir yang sering terjadi"
     },
     {
       "type": "mistake",
-      "incorrect": "Different numbers mean one source is lying.",
-      "correct": "Different numbers may reflect different measures and methods.",
-      "explanation": "Periksa definisi, sumber, dan cara penghitungan lebih dahulu."
+      "incorrect": "Two reports have different numbers, so one of them must be false.",
+      "correct": "Two reports may show different numbers because they define and measure the event differently.",
+      "explanation": "Periksa definisi dan cara penghitungan terlebih dahulu sebelum menyimpulkan adanya kesalahan data."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh perbandingan bukti dalam konteks berbeda"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Amati bagaimana jenis bukti dan sudut pandang memengaruhi kekuatan suatu argumen."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Membandingkan jenis dan cakupan bukti",
       "collapsed": false,
       "items": [
         {
-          "english": "Source A counts registrations.",
-          "indonesian": "Sumber A menghitung pendaftaran.",
-          "note": "Pendaftaran tidak sama dengan kehadiran."
+          "english": "Writer A cites a national survey of 2,000 students, while Writer B relies on one personal story.",
+          "indonesian": "Penulis A mengutip survei nasional terhadap 2.000 siswa, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
+          "note": "Survei bersampel besar lebih kuat untuk mendukung klaim umum dibandingkan satu pengalaman pribadi."
         },
         {
-          "english": "Source B counts attendance.",
-          "indonesian": "Sumber B menghitung kehadiran.",
-          "note": "Ini ukuran yang berbeda."
+          "english": "The first report measures program costs, whereas the second focuses on environmental benefits.",
+          "indonesian": "Laporan pertama mengukur biaya program, sedangkan laporan kedua berfokus pada manfaat lingkungan.",
+          "note": "Kedua sumber menilai aspek yang berbeda dari kebijakan yang sama; pembaca perlu menentukan kriteria penilaiannya."
         },
         {
-          "english": "Both sources discuss the same event.",
-          "indonesian": "Kedua sumber membahas acara sama.",
-          "note": "Topik sama tidak berarti ukuran sama."
+          "english": "Although both authors agree that library access matters, they propose different solutions.",
+          "indonesian": "Meskipun kedua penulis sepakat bahwa akses perpustakaan itu penting, mereka mengusulkan solusi yang berbeda.",
+          "note": "Membandingkan argumen membantu kita memisahkan titik kesepakatan dari perbedaan rekomendasi."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade12-compare-arguments",
-      "prompt": "Which sentence means “Sumber B menghitung kehadiran.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Sumber B menghitung kehadiran.”?",
+      "prompt": "Report A says 180 students joined the science fair (based on online sign-ups), while Report B says 142 students joined (counted at the door). Why do these two numbers differ?",
+      "translation": "Laporan A menyebut 180 siswa mengikuti pameran sains (berdasarkan pendaftaran daring), sedangkan Laporan B menyebut 142 siswa hadir (dihitung di pintu masuk). Mengapa kedua angka ini berbeda?",
       "choices": [
-        "Source A counts registrations.",
-        "Source B counts attendance.",
-        "Both sources discuss the same event."
+        "Because Report B forgot to count students who arrived in the morning.",
+        "Because the two reports measured different things: registration versus physical attendance.",
+        "Because online registration forms always double every student's name."
       ],
       "answer": 1,
       "translationChoices": [
-        "Sumber A menghitung pendaftaran.",
-        "Sumber B menghitung kehadiran.",
-        "Kedua sumber membahas acara sama."
+        "Karena Laporan B lupa menghitung siswa yang datang pada pagi hari.",
+        "Karena kedua laporan mengukur hal yang berbeda: pendaftaran dibandingkan kehadiran fisik.",
+        "Karena formulir pendaftaran daring selalu menggandakan nama setiap siswa."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini ukuran yang berbeda.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Laporan A menghitung [[registrations]] (pendaftaran), sedangkan Laporan B menghitung [[attendance]] (kehadiran fisik di aula). Perbedaan definisi inilah yang menjelaskan selisih angka tersebut.",
+      "hint": "Bandingkan cara pengumpulan data Laporan A dan Laporan B pada Langkah 2 dan Langkah 3."
     },
     {
       "type": "breakdown",
-      "sentence": "Source A counts registrations.",
+      "sentence": "Although Report A showed higher numbers, it counted online registrations rather than students entering the hall.",
       "parts": [
         {
-          "english": "Source",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Although Report A showed higher numbers,",
+          "meaning": "Klausa konsesif ('Meskipun Laporan A menunjukkan angka lebih tinggi') yang mengakui temuan pertama."
         },
         {
-          "english": "A counts registrations.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Sumber A menghitung pendaftaran."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Fifty students signed up.",
-          "indonesian": "Lima puluh siswa mendaftar.",
-          "note": "Ini jumlah pendaftar."
+          "english": "it counted online registrations",
+          "meaning": "Penjelasan tentang apa yang sebenarnya diukur oleh Laporan A."
         },
         {
-          "english": "Forty students attended.",
-          "indonesian": "Empat puluh siswa hadir.",
-          "note": "Jumlah hadir dapat lebih kecil tanpa ada kesalahan data."
-        },
-        {
-          "english": "Writer A cites a national survey, while Writer B relies on one personal story.",
-          "indonesian": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
-          "note": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
-        },
-        {
-          "english": "Both authors agree that access matters, but they recommend different solutions.",
-          "indonesian": "Kedua penulis sepakat bahwa akses penting, tetapi mereka menganjurkan solusi yang berbeda.",
-          "note": "Membandingkan argumen memisahkan titik persamaan dari perbedaan rekomendasi."
-        },
-        {
-          "english": "The first report describes costs, whereas the second focuses on environmental benefits.",
-          "indonesian": "Laporan pertama membahas biaya, sedangkan laporan kedua berfokus pada manfaat lingkungan.",
-          "note": "Kedua argumen bisa menilai aspek berbeda dari kebijakan yang sama, sehingga kriteria harus dibuat jelas."
+          "english": "rather than students entering the hall.",
+          "meaning": "Pembanding ('bukan siswa yang masuk ke aula') yang menunjukkan perbedaan ukuran dengan Laporan B."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini jumlah pendaftar. Jumlah hadir dapat lebih kecil tanpa ada kesalahan data."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Although one report showed higher numbers, it counted online registrations rather than students entering the hall.",
-          "indonesian": "Meskipun satu laporan menunjukkan angka lebih tinggi, laporan itu menghitung pendaftaran daring, bukan siswa yang masuk aula.",
-          "note": "Definisi ukuran menjelaskan sebagian perbedaan."
-        },
-        {
-          "english": "Before judging which claim is stronger, readers need to ask whether the sources describe the same group and time period.",
-          "indonesian": "Sebelum menilai klaim mana lebih kuat, pembaca perlu memeriksa apakah sumber membahas kelompok dan periode waktu sama.",
-          "note": "Perbandingan memerlukan kesesuaian dasar data."
-        }
-      ]
+      "prompt": "Compare: (A) “50 students signed up for the workshop.” vs. (B) “40 students attended the workshop.” What must a reader check before calling this a contradiction?",
+      "translation": "Bandingkan: (A) “50 siswa mendaftar lokakarya.” vs. (B) “40 siswa menghadiri lokakarya.” Apa yang harus diperiksa pembaca sebelum menyebutnya bertentangan?",
+      "answer": "Pembaca perlu memeriksa perbedaan definisi antara 'signed up' (mendaftar) dan 'attended' (hadir). Sepuluh pendaftar bisa saja tidak hadir, sehingga kedua fakta tersebut dapat sama-sama benar."
     },
     {
       "type": "heading",
@@ -237,57 +160,57 @@
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Bacalah paragraf berikut secara utuh. Perhatikan bagaimana penulis menjelaskan alasan perbedaan angka antara Laporan A dan Laporan B."
     },
     {
       "type": "example",
       "text": "Two reports described the school’s science fair. Report A said participation reached 180 because it counted online registrations, including students who later stayed home. Report B recorded 142 participants because volunteers counted the people who entered the hall. A social media post claimed that one report must be false. However, the two reports measured different things. The organiser explained that both numbers could be accurate while answering different questions. A careful reader should compare the definitions before deciding whether the figures disagree.",
-      "note": "Ringkasan bantuan: Laporan bisa berbeda karena mengukur hal berbeda. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "note": "Pemetaan bacaan: Klaim & bukti Report A = 180 pendaftar daring; Klaim & bukti Report B = 142 pengunjung aula; Kesimpulan = Kedua angka bisa akurat karena menjawab pertanyaan dan definisi yang berbeda."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Membandingkan dua klaim serta menilai apakah bukti yang tersedia benar-benar memadai.",
-        "Dalam [[source comparison]], periksa [[claim]], [[sample]], [[measure]], dan [[limitation]]. Dua angka yang berbeda belum tentu bertentangan bila hal yang diukur berbeda.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Dua sumber dengan angka atau kesimpulan berbeda belum tentu saling bertentangan jika mengukur aspek yang berbeda.",
+        "Gunakan empat pemeriksaan utama: [[claim]], [[sample]], [[measure]], dan [[limitation]].",
+        "Pilih argumen yang didukung bukti paling relevan dengan pertanyaan yang sedang dibahas."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Argumen mana didukung bukti lebih relevan, bukan bahasa lebih keras?",
-      "model": "Writer A cites a national survey, while Writer B relies on one personal story.",
-      "modelTranslation": "Penulis A mengutip survei nasional, sedangkan Penulis B bertumpu pada satu kisah pribadi.",
-      "criteria": "Jenis bukti berbeda; pembaca perlu menilai apakah keduanya mendukung klaim umum yang sama."
+      "prompt": "Tulis satu atau dua kalimat bahasa Inggris yang menjelaskan mengapa dua laporan tentang acara sekolah bisa memiliki jumlah peserta yang berbeda namun tetap akurat.",
+      "model": "Two reports can show different numbers and still be accurate if one counts online sign-ups while the other counts people at the door.",
+      "modelTranslation": "Dua laporan dapat menunjukkan angka yang berbeda dan tetap akurat jika yang satu menghitung pendaftaran daring sedangkan yang lain menghitung orang di pintu masuk.",
+      "criteria": "Menyebutkan perbedaan hal yang diukur (misalnya pendaftaran vs. kehadiran) untuk menjelaskan perbedaan angka."
     },
     {
       "type": "vocabulary",
       "title": "Bekal kosakata penting",
       "items": [
         {
-          "english": "sample",
-          "indonesian": "sampel"
-        },
-        {
-          "english": "measure",
-          "indonesian": "ukuran"
-        },
-        {
-          "english": "attendance",
-          "indonesian": "kehadiran"
+          "english": "participation",
+          "indonesian": "partisipasi / keikutsertaan"
         },
         {
           "english": "registration",
           "indonesian": "pendaftaran"
         },
         {
-          "english": "reliable",
-          "indonesian": "andal"
+          "english": "attendance",
+          "indonesian": "kehadiran"
+        },
+        {
+          "english": "measure",
+          "indonesian": "ukuran / tolok ukur"
+        },
+        {
+          "english": "accurate",
+          "indonesian": "akurat / tepat"
+        },
+        {
+          "english": "limitation",
+          "indonesian": "keterbatasan"
         }
       ]
     }
@@ -295,43 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “registrations”?",
+      "prompt": "Based on the sample passage, why did Report A and Report B state different numbers of participants?",
       "choices": [
-        "Source B counts attendance.",
-        "Both sources discuss the same event.",
-        "Fifty students signed up.",
-        "Source A counts registrations."
+        "Report A counted online registrations, whereas Report B counted people entering the hall.",
+        "Report B only counted teachers and volunteers instead of students.",
+        "Report A included students from two different school years.",
+        "One of the reports guessed the number without counting."
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[registrations]] muncul dalam kalimat [[Source A counts registrations.]]. Pendaftaran tidak sama dengan kehadiran.",
+      "answer": 0,
+      "explanation": "Laporan A menghitung [[online registrations]] (180), sedangkan Laporan B menghitung [[people who entered the hall]] (142). Keduanya memakai ukuran yang berbeda.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “registrations”?",
+        "prompt": "Berdasarkan bacaan contoh, mengapa Laporan A dan Laporan B mencantumkan jumlah peserta yang berbeda?",
         "choices": [
-          "Sumber B menghitung kehadiran.",
-          "Kedua sumber membahas acara sama.",
-          "Lima puluh siswa mendaftar.",
-          "Sumber A menghitung pendaftaran."
+          "Laporan A menghitung pendaftaran daring, sedangkan Laporan B menghitung orang yang masuk ke aula.",
+          "Laporan B hanya menghitung guru dan sukarelawan, bukan siswa.",
+          "Laporan A memasukkan siswa dari dua tahun ajaran yang berbeda.",
+          "Salah satu laporan menebak angka tanpa menghitung."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “sources”?",
+      "prompt": "Which evidence is stronger if you want to know how many students actually attended an event in person?",
       "choices": [
-        "Both sources discuss the same event.",
-        "Source A counts registrations.",
-        "Source B counts attendance.",
-        "Fifty students signed up."
+        "A social media post saying the room looked very crowded.",
+        "An online sign-up list collected three days before the event.",
+        "A volunteer headcount recorded at the entrance door during the event.",
+        "One student's opinion that most classmates planned to come."
       ],
-      "answer": 0,
-      "explanation": "Ungkapan [[sources]] muncul dalam kalimat [[Both sources discuss the same event.]]. Topik sama tidak berarti ukuran sama.",
+      "answer": 2,
+      "explanation": "Penghitungan langsung di pintu masuk saat acara berlangsung mengukur kehadiran fisik secara langsung, sehingga paling relevan dengan pertanyaan tersebut.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “sources”?",
+        "prompt": "Bukti mana yang lebih kuat jika kamu ingin mengetahui berapa banyak siswa yang benar-benar hadir secara langsung di suatu acara?",
         "choices": [
-          "Kedua sumber membahas acara sama.",
-          "Sumber A menghitung pendaftaran.",
-          "Sumber B menghitung kehadiran.",
-          "Lima puluh siswa mendaftar."
+          "Unggahan media sosial yang menyebut ruangan tampak sangat ramai.",
+          "Daftar pendaftaran daring yang dikumpulkan tiga hari sebelum acara.",
+          "Penghitungan langsung oleh panitia di pintu masuk selama acara berlangsung.",
+          "Pendapat satu siswa bahwa sebagian besar teman sekelas berencana datang."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "What should a careful reader do before deciding which of two conflicting claims is stronger?",
+      "choices": [
+        "Choose whichever writer uses stronger and more emotional words.",
+        "Assume the report with the larger number is always more reliable.",
+        "Check whether both sources examine the same group, time period, and definition.",
+        "Reject both sources immediately because their numbers do not match."
+      ],
+      "answer": 2,
+      "explanation": "Perbandingan yang adil mengharuskan pembaca memeriksa kesamaan kelompok ([[sample]]), periode waktu, dan definisi ukuran ([[measure]]) sebelum menilai kekuatan klaim.",
+      "translationId": {
+        "prompt": "Apa yang sebaiknya dilakukan pembaca yang cermat sebelum memutuskan klaim mana yang lebih kuat di antara dua pendapat yang tampak bertentangan?",
+        "choices": [
+          "Memilih penulis mana pun yang memakai kata-kata lebih keras dan emosional.",
+          "Menganggap laporan dengan angka lebih besar selalu lebih dapat dipercaya.",
+          "Memeriksa apakah kedua sumber mengamati kelompok, periode waktu, dan definisi yang sama.",
+          "Menolak kedua sumber sekaligus karena angkanya tidak cocok."
         ]
       }
     }

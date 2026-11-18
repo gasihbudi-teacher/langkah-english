@@ -1,228 +1,158 @@
 {
   "id": "grade12-discussion-text",
   "objectives": [
-    "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi isu utama serta argumen pendukung (for) dan penentang (against) secara seimbang.",
+    "Mengenali kata penghubung kontras seperti while dan however yang menandai pergeseran sudut pandang.",
+    "Mengevaluasi apakah bagian kesimpulan (conclusion) mempertimbangkan manfaat sekaligus keterbatasan kedua sisi."
   ],
   "blocks": [
     {
       "type": "definition",
       "title": "Apa itu Discussion Text: Weighing Two Sides?",
-      "text": "[[Discussion text]] adalah teks yang menyajikan alasan mendukung dan menentang suatu persoalan sebelum mempertimbangkan kesimpulan."
+      "text": "[[Discussion text]] adalah teks yang membahas suatu persoalan kontroversial dari dua sudut pandang—argumen pendukung ([[for]]) dan argumen penentang ([[against]])—sebelum menarik kesimpulan yang proporsional."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Amati enam langkah berikut pada satu isu yang sama—kebijakan mengurangi penggunaan kendaraan pribadi ke sekolah—untuk melihat bagaimana dua sisi argumen disusun secara adil.",
       "steps": [
         {
-          "title": "Satu isu, beberapa sudut",
-          "explanation": "[[Discussion text]] memeriksa lebih dari satu pandangan terhadap suatu persoalan.",
-          "english": "Cycling can reduce fuel use.",
-          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "why": "Ini alasan pendukung bersepeda."
+          "title": "1. Rumuskan isu yang diperdebatkan (Issue)",
+          "explanation": "Bagian pembuka memperkenalkan persoalan yang memicu perbedaan pendapat tanpa langsung memihak.",
+          "english": "Should high schools discourage students from commuting by private car?",
+          "indonesian": "Haruskah sekolah menengah mengurangi kebiasaan siswa berangkat menggunakan mobil pribadi?",
+          "why": "Pertanyaan terbuka ini memperkenalkan isu yang memiliki pro dan kontra."
         },
         {
-          "title": "Rumusan pertanyaan",
-          "explanation": "Tentukan persoalan yang diperdebatkan tanpa langsung memilih pihak.",
-          "english": "Cycling can reduce fuel use.",
-          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "why": "Ini alasan pendukung bersepeda."
+          "title": "2. Sajikan argumen pendukung pertama (Arguments For)",
+          "explanation": "Penulis memaparkan alasan utama mengapa sebagian orang mendukung gagasan tersebut.",
+          "english": "Supporters say walking and cycling reduce traffic congestion near school gates.",
+          "indonesian": "Para pendukung mengatakan berjalan kaki dan bersepeda mengurangi kemacetan di dekat gerbang sekolah.",
+          "why": "Kata [[Supporters say]] menandai sudut pandang pertama beserta manfaat nyatanya."
         },
         {
-          "title": "Pandangan pertama",
-          "explanation": "Identifikasi argumen yang mendukung sisi pertama.",
-          "english": "Cycling can reduce fuel use.",
-          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "why": "Ini alasan pendukung bersepeda."
+          "title": "3. Tambahkan bukti atau manfaat pendukung",
+          "explanation": "Sisi pertama diperkuat dengan dampak positif tambahan yang relevan.",
+          "english": "Lower car use can also reduce transport emissions around the neighbourhood.",
+          "indonesian": "Penggunaan mobil yang lebih rendah juga dapat mengurangi emisi transportasi di lingkungan sekitar.",
+          "why": "Alasan ini memperjelas manfaat lingkungan dari sisi pendukung."
         },
         {
-          "title": "Alasan sisi pertama",
-          "explanation": "Temukan contoh dan bukti yang dipakai untuk memperkuat pandangan itu.",
-          "english": "Cycling can reduce fuel use.",
-          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "why": "Ini alasan pendukung bersepeda."
+          "title": "4. Hadirkan sudut pandang berbeda (Arguments Against)",
+          "explanation": "Penulis berpindah ke sisi lawan menggunakan penanda kontras tanpa meremehkan argumennya.",
+          "english": "However, critics point out that not all students live near school.",
+          "indonesian": "Namun, para pengkritik menunjukkan bahwa tidak semua siswa tinggal dekat sekolah.",
+          "why": "Kata [[However]] dan [[critics point out]] menandai masuknya argumen sisi kedua."
         },
         {
-          "title": "Pandangan berbeda",
-          "explanation": "Kenali sisi lawan tanpa mengejek atau membuatnya tampak lebih lemah dari yang sebenarnya.",
-          "english": "Not all students live near school.",
-          "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
-          "why": "Ini keterbatasan solusi untuk semua siswa."
+          "title": "5. Jelaskan alasan dan keterbatasan sisi kedua",
+          "explanation": "Penulis menguraikan hambatan praktis yang membuat solusi tunggal sulit diterapkan bagi semua orang.",
+          "english": "Long distances, heavy rain, and unsafe roads make cycling difficult for many families.",
+          "indonesian": "Jarak yang jauh, hujan lebat, dan jalan yang kurang aman membuat bersepeda sulit bagi banyak keluarga.",
+          "why": "Alasan ini menjelaskan keterbatasan nyata di lapangan secara objektif."
         },
         {
-          "title": "Alasan sisi kedua",
-          "explanation": "Pahami alasan dan bukti yang mendukung posisi berbeda tersebut.",
-          "english": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
-          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
-          "why": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
-        },
-        {
-          "title": "Bandingkan setara",
-          "explanation": "Nilai kedua pandangan dengan kriteria sama: bukti, relevansi, dan keterbatasan.",
-          "english": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
-          "indonesian": "Walaupun bersepeda memiliki manfaat lingkungan, siswa yang tinggal jauh mungkin memerlukan transportasi umum andal.",
-          "why": "Dua alasan ditempatkan berdampingan."
-        },
-        {
-          "title": "Kesimpulan hati-hati",
-          "explanation": "Simpulan bisa condong ke salah satu sisi atau mengakui kondisi tertentu, asal dibenarkan oleh pembahasan.",
-          "english": "The decision should consider both flexibility and access to reliable devices.",
-          "indonesian": "Keputusan itu perlu mempertimbangkan fleksibilitas dan akses terhadap perangkat yang andal.",
-          "why": "Penutup yang seimbang menggabungkan kriteria dari kedua sisi."
-        },
-        {
-          "title": "Susun discussion",
-          "explanation": "Tulis isu, dua pandangan beserta alasan, lalu simpulan yang mencerminkan perbandingan.",
-          "english": "A balanced plan could combine bicycle parking, safe walking routes, and better information about buses.",
-          "indonesian": "Rencana seimbang dapat menggabungkan parkir sepeda, jalur jalan kaki aman, dan informasi bus yang lebih baik.",
-          "why": "Simpulan mencoba merespons kebutuhan beragam."
+          "title": "6. Tulis kesimpulan yang mempertimbangkan kedua sisi (Conclusion)",
+          "explanation": "Bagian akhir merangkum jalan tengah atau syarat penerapan yang adil berdasarkan kedua argumen.",
+          "english": "A balanced plan should improve bicycle parking and bus routes while allowing flexibility for distant students.",
+          "indonesian": "Rencana yang seimbang sebaiknya memperbaiki parkir sepeda dan rute bus sambil memberikan fleksibilitas bagi siswa yang tinggal jauh.",
+          "why": "Kesimpulan mengakui manfaat sisi pendukung sekaligus menjawab kekhawatiran sisi penentang."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Should homework be reduced? Supporters say less homework gives students more rest and family time. Opponents say short assignments help students review lessons independently. A fair decision depends on the workload, age group, and learning goals.",
-      "modelIndonesian": "Haruskah pekerjaan rumah dikurangi? Pendukungnya mengatakan bahwa pekerjaan rumah yang lebih sedikit memberi siswa lebih banyak waktu istirahat dan keluarga. Penentangnya mengatakan bahwa tugas singkat membantu siswa mengulang pelajaran secara mandiri. Keputusan yang adil bergantung pada beban tugas, kelompok usia, dan tujuan belajar."
+      "modelTitle": "Teks model utuh: Issue → For → Against → Conclusion",
+      "modelEnglish": "Should homework be reduced? Supporters say less homework gives students more rest and family time after school. Opponents argue that short assignments help students review lessons independently. A fair decision depends on students' age, total workload, and clear learning goals.",
+      "modelIndonesian": "Haruskah pekerjaan rumah dikurangi? Pendukungnya mengatakan pekerjaan rumah yang lebih sedikit memberi siswa lebih banyak waktu istirahat dan waktu bersama keluarga sepulang sekolah. Penentangnya berpendapat bahwa tugas singkat membantu siswa mengulang pelajaran secara mandiri. Keputusan yang adil bergantung pada usia siswa, total beban tugas, dan tujuan belajar yang jelas."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, bagian [[for]] dan [[against]] harus mewakili sudut pandang masing-masing dengan adil. Penutup boleh memilih posisi, tetapi pembaca harus tetap dapat melihat kelebihan dan keterbatasan kedua sisi."
-    },
-    {
-      "type": "text",
-      "text": "Dalam sebuah perdebatan lingkungan, dua pihak bisa mempunyai alasan yang masuk akal. Kita belajar melihat keduanya sebelum mengambil kesimpulan."
+      "text": "Jadi intinya, [[discussion text]] tidak menyembunyikan kelemahan suatu ide. Bagian [[for]] dan [[against]] harus sama-sama masuk akal, dan bagian [[conclusion]] boleh memilih posisi selama tetap mempertimbangkan kedua sisi."
     },
     {
       "type": "rule",
-      "text": "[[Discussion text]] menghadirkan [[issue]], argumen [[for]] dan [[against]], lalu [[conclusion]]. Jangan menganggap semua pendapat sama kuat tanpa memeriksa bukti."
+      "text": "Struktur [[discussion text]] terdiri atas [[issue]] (topik perdebatan), [[arguments for]] (alasan mendukung), [[arguments against]] (alasan menentang), dan [[conclusion]] (simpulan atau rekomendasi seimbang)."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Kesalahan berpikir yang sering terjadi"
     },
     {
       "type": "mistake",
-      "incorrect": "The critics are wrong because walking is good.",
-      "correct": "Both the benefits and practical limitations must be considered.",
-      "explanation": "Diskusi yang baik menimbang argumen serta kondisi penerapannya."
+      "incorrect": "Critics of cycling are completely wrong because exercise is healthy.",
+      "correct": "Although cycling is healthy, practical barriers such as distance and road safety must also be considered.",
+      "explanation": "Diskusi yang baik menjawab keberatan pihak lain dengan bukti dan pertimbangan kondisi, bukan mengabaikannya."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh membandingkan dua sudut pandang"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Perhatikan bagaimana penulis menggabungkan alasan pendukung dan keterbatasan dalam kalimat yang seimbang."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Kalimat seimbang vs. kalimat sepihak",
       "collapsed": false,
       "items": [
         {
-          "english": "Cycling can reduce fuel use.",
-          "indonesian": "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "note": "Ini alasan pendukung bersepeda."
+          "english": "Supporters say online lessons save travel time, while critics worry about unreliable internet connections.",
+          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik mengkhawatirkan koneksi internet yang tidak stabil.",
+          "note": "Kata penghubung [[while]] menempatkan manfaat dan risiko secara berdampingan."
         },
         {
-          "english": "Not all students live near school.",
-          "indonesian": "Tidak semua siswa tinggal dekat sekolah.",
-          "note": "Ini keterbatasan solusi untuk semua siswa."
+          "english": "A balanced review acknowledges convenience without ignoring privacy concerns.",
+          "indonesian": "Ulasan yang seimbang mengakui kepraktisan tanpa mengabaikan kekhawatiran privasi.",
+          "note": "Kesimpulan yang adil tetap mencatat risiko meskipun melihat manfaat."
         },
         {
-          "english": "Schools could support several travel options.",
-          "indonesian": "Sekolah dapat mendukung beberapa pilihan perjalanan.",
-          "note": "Simpulan mempertimbangkan situasi berbeda."
+          "english": "The school decision should consider both flexibility and equal access to devices.",
+          "indonesian": "Keputusan sekolah perlu mempertimbangkan fleksibilitas sekaligus akses yang setara terhadap perangkat.",
+          "note": "Penutup menggabungkan kriteria penting dari kedua pihak."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade12-discussion-text",
-      "prompt": "Which sentence means “Tidak semua siswa tinggal dekat sekolah.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Tidak semua siswa tinggal dekat sekolah.”?",
+      "prompt": "Which sentence presents an argument AGAINST requiring all students to cycle to school?",
+      "translation": "Kalimat mana yang menyajikan argumen PENENTANG (keterbatasan) terhadap kewajiban semua siswa bersepeda ke sekolah?",
       "choices": [
-        "Cycling can reduce fuel use.",
-        "Not all students live near school.",
-        "Schools could support several travel options."
+        "Cycling can reduce fuel use and traffic near school gates.",
+        "Not all students live close to school or have safe cycling routes.",
+        "Bicycle parking can be built near the main school entrance."
       ],
       "answer": 1,
       "translationChoices": [
-        "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-        "Tidak semua siswa tinggal dekat sekolah.",
-        "Sekolah dapat mendukung beberapa pilihan perjalanan."
+        "Bersepeda dapat mengurangi pemakaian bahan bakar dan kemacetan di dekat gerbang sekolah.",
+        "Tidak semua siswa tinggal dekat sekolah atau memiliki jalur sepeda yang aman.",
+        "Parkir sepeda dapat dibangun di dekat pintu masuk utama sekolah."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini keterbatasan solusi untuk semua siswa.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan kedua menunjukkan hambatan praktis (jarak dan keamanan jalur) yang membuat aturan seragam sulit diterapkan bagi semua siswa.",
+      "hint": "Cari kalimat yang menjelaskan mengapa kebijakan tersebut tidak cocok untuk semua siswa."
     },
     {
       "type": "breakdown",
-      "sentence": "Cycling can reduce fuel use.",
+      "sentence": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
       "parts": [
         {
-          "english": "Cycling",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "While cycling has environmental benefits,",
+          "meaning": "Klausa konsesif ('Walaupun bersepeda memiliki manfaat lingkungan') yang mengakui argumen pendukung."
         },
         {
-          "english": "can reduce fuel use.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Bersepeda dapat mengurangi pemakaian bahan bakar."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Everyone must cycle to school.",
-          "indonesian": "Semua orang harus bersepeda ke sekolah.",
-          "note": "Saran mutlak mengabaikan kondisi berbeda."
+          "english": "students who travel long distances",
+          "meaning": "Kelompok siswa dengan kondisi khusus yang menjadi dasar argumen penentang."
         },
         {
-          "english": "Cycling could be encouraged where routes are safe.",
-          "indonesian": "Bersepeda dapat didorong jika jalurnya aman.",
-          "note": "Saran bersyarat lebih memperhatikan konteks."
-        },
-        {
-          "english": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
-          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
-          "note": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
-        },
-        {
-          "english": "The decision should consider both flexibility and access to reliable devices.",
-          "indonesian": "Keputusan itu perlu mempertimbangkan fleksibilitas dan akses terhadap perangkat yang andal.",
-          "note": "Penutup yang seimbang menggabungkan kriteria dari kedua sisi."
-        },
-        {
-          "english": "A balanced review acknowledges convenience without ignoring privacy concerns.",
-          "indonesian": "Ulasan yang seimbang mengakui kepraktisan tanpa mengabaikan kekhawatiran privasi.",
-          "note": "Kesimpulan adil mempertimbangkan manfaat dan risiko dengan jelas."
+          "english": "may need reliable public transport.",
+          "meaning": "Kebutuhan alternatif yang menunjukkan perlunya solusi yang fleksibel."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Saran mutlak mengabaikan kondisi berbeda. Saran bersyarat lebih memperhatikan konteks."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
-          "indonesian": "Walaupun bersepeda memiliki manfaat lingkungan, siswa yang tinggal jauh mungkin memerlukan transportasi umum andal.",
-          "note": "Dua alasan ditempatkan berdampingan."
-        },
-        {
-          "english": "A balanced plan could combine bicycle parking, safe walking routes, and better information about buses.",
-          "indonesian": "Rencana seimbang dapat menggabungkan parkir sepeda, jalur jalan kaki aman, dan informasi bus yang lebih baik.",
-          "note": "Simpulan mencoba merespons kebutuhan beragam."
-        }
-      ]
+      "prompt": "Compare: (A) “Every student must cycle to school.” vs. (B) “Cycling should be encouraged where safe routes are available.” What changes in the writer's conclusion?",
+      "translation": "Bandingkan: (A) “Setiap siswa wajib bersepeda ke sekolah.” vs. (B) “Bersepeda sebaiknya didorong jika tersedia jalur yang aman.” Apa yang berubah dalam kesimpulan penulis?",
+      "answer": "Kalimat (A) memaksakan aturan mutlak ('must') tanpa melihat perbedaan kondisi siswa, sedangkan kalimat (B) memakai saran bersyarat ('should ... where') yang mempertimbangkan faktor keamanan."
     },
     {
       "type": "heading",
@@ -230,49 +160,41 @@
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Bacalah paragraf berikut secara utuh. Identifikasi kalimat isu, alasan pendukung, alasan penentang, dan kesimpulan akhirnya."
     },
     {
       "type": "example",
-      "text": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward.",
-      "note": "Ringkasan bantuan: Perjalanan dengan emisi lebih rendah bermanfaat, tetapi situasi siswa berbeda. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "text": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward.",
+      "note": "Struktur bacaan: Kalimat 1 = Issue; Kalimat 2 = Arguments For (mengurangi emisi & kemacetan); Kalimat 3–4 = Arguments Against (jarak jauh, cuaca buruk, rute tidak aman); Kalimat 5 = Balanced Conclusion."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
-        "[[Discussion text]] menghadirkan [[issue]], argumen [[for]] dan [[against]], lalu [[conclusion]]. Jangan menganggap semua pendapat sama kuat tanpa memeriksa bukti.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "[[Discussion text]] menimbang dua sisi persoalan secara adil: [[arguments for]] dan [[arguments against]].",
+        "Gunakan kata penghubung seperti [[however]], [[while]], dan [[on the other hand]] untuk mengenali perpindahan sudut pandang.",
+        "Kesimpulan yang baik tidak mengabaikan keberatan, melainkan merumuskan solusi atau posisi yang mempertimbangkan kedua sisi."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apakah kedua pihak mendapat alasan yang jelas dan seimbang?",
-      "model": "Supporters say online lessons save travel time, while critics worry about unreliable connections.",
-      "modelTranslation": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik khawatir akan koneksi yang tidak andal.",
-      "criteria": "Dua alasan mewakili pandangan berbeda tanpa otomatis menyatakan salah satunya benar."
+      "prompt": "Tulis dua kalimat bahasa Inggris tentang penggunaan ponsel di sekolah: kalimat pertama berisi satu alasan pendukung (for), dan kalimat kedua berisi satu alasan penentang (against) menggunakan kata 'However'.",
+      "model": "Supporters say smartphones help students check dictionaries quickly during lessons. However, critics argue that phones can distract students from classroom discussions.",
+      "modelTranslation": "Pendukung mengatakan ponsel pintar membantu siswa memeriksa kamus dengan cepat saat pelajaran. Namun, pengkritik berpendapat bahwa ponsel dapat mengalihkan perhatian siswa dari diskusi kelas.",
+      "criteria": "Memuat satu argumen pendukung dan satu argumen penentang yang dihubungkan secara jelas dengan 'However'."
     },
     {
       "type": "vocabulary",
       "title": "Bekal kosakata penting",
       "items": [
         {
-          "english": "footprint",
-          "indonesian": "jejak dampak"
-        },
-        {
           "english": "emission",
-          "indonesian": "emisi"
+          "indonesian": "emisi / gas buang"
         },
         {
           "english": "route",
-          "indonesian": "rute"
+          "indonesian": "rute / jalur perjalanan"
         },
         {
           "english": "benefit",
@@ -280,7 +202,15 @@
         },
         {
           "english": "limitation",
-          "indonesian": "keterbatasan"
+          "indonesian": "keterbatasan / hambatan"
+        },
+        {
+          "english": "proposal",
+          "indonesian": "usulan / rancangan solusi"
+        },
+        {
+          "english": "flexibility",
+          "indonesian": "fleksibilitas / keluwesan"
         }
       ]
     }
@@ -288,43 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “Cycling”?",
+      "prompt": "In the sample passage, why do critics oppose a single rule requiring all students to walk or cycle?",
       "choices": [
-        "Not all students live near school.",
-        "Cycling can reduce fuel use.",
-        "Schools could support several travel options.",
-        "Everyone must cycle to school."
+        "Because walking and cycling always increase traffic near school gates.",
+        "Because long distances, bad weather, and unsafe routes create barriers for some students.",
+        "Because schools already have too many bicycle parking spaces.",
+        "Because public transport is completely free for every family."
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[Cycling]] muncul dalam kalimat [[Cycling can reduce fuel use.]]. Ini alasan pendukung bersepeda.",
+      "explanation": "Para pengkritik ([[critics]]) menjelaskan bahwa jarak jauh, cuaca buruk, dan rute yang tidak aman membuat satu aturan tunggal tidak cocok untuk semua keluarga.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “Cycling”?",
+        "prompt": "Dalam bacaan contoh, mengapa para pengkritik menolak satu aturan tunggal yang mewajibkan semua siswa berjalan kaki atau bersepeda?",
         "choices": [
-          "Tidak semua siswa tinggal dekat sekolah.",
-          "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "Sekolah dapat mendukung beberapa pilihan perjalanan.",
-          "Semua orang harus bersepeda ke sekolah."
+          "Karena berjalan kaki dan bersepeda selalu menambah kemacetan di gerbang sekolah.",
+          "Karena jarak yang jauh, cuaca buruk, dan rute yang tidak aman menjadi hambatan bagi sebagian siswa.",
+          "Karena sekolah sudah memiliki terlalu banyak tempat parkir sepeda.",
+          "Karena transportasi umum sepenuhnya gratis bagi setiap keluarga."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “Schools”?",
+      "prompt": "Which sentence best introduces an opposing viewpoint in a discussion text?",
       "choices": [
-        "Cycling can reduce fuel use.",
-        "Not all students live near school.",
-        "Schools could support several travel options.",
-        "Everyone must cycle to school."
+        "Furthermore, cycling helps students arrive at school feeling active.",
+        "However, students who live ten kilometres away need reliable bus services.",
+        "For example, many students enjoy riding bicycles with their friends.",
+        "In addition, lower car use reduces noise around the school."
+      ],
+      "answer": 1,
+      "explanation": "Kata penghubung [[However]] menandai pergeseran dari manfaat bersepeda menuju sudut pandang penentang (kebutuhan transportasi bagi siswa yang tinggal jauh).",
+      "translationId": {
+        "prompt": "Kalimat mana yang paling tepat memperkenalkan sudut pandang yang berlawanan dalam teks diskusi?",
+        "choices": [
+          "Selain itu, bersepeda membantu siswa tiba di sekolah dengan tubuh bugar.",
+          "Namun, siswa yang tinggal sepuluh kilometer jauhnya memerlukan layanan bus yang andal.",
+          "Sebagai contoh, banyak siswa senang bersepeda bersama teman-teman mereka.",
+          "Di samping itu, berkurangnya penggunaan mobil menurunkan kebisingan di sekitar sekolah."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "What makes the final sentence of the sample passage a balanced conclusion?",
+      "choices": [
+        "It bans all private cars immediately without offering alternatives.",
+        "It ignores environmental benefits and supports private cars only.",
+        "It improves cycling and bus facilities while keeping flexibility for difficult journeys.",
+        "It asks students to choose their own school starting hours."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[Schools]] muncul dalam kalimat [[Schools could support several travel options.]]. Simpulan mempertimbangkan situasi berbeda.",
+      "explanation": "Kesimpulan tersebut menggabungkan dukungan terhadap fasilitas sepeda dan bus (sisi pendukung) dengan keluwesan bagi siswa yang perjalanannya sulit (sisi penentang).",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “Schools”?",
+        "prompt": "Apa yang membuat kalimat terakhir dalam bacaan contoh menjadi kesimpulan yang seimbang?",
         "choices": [
-          "Bersepeda dapat mengurangi pemakaian bahan bakar.",
-          "Tidak semua siswa tinggal dekat sekolah.",
-          "Sekolah dapat mendukung beberapa pilihan perjalanan.",
-          "Semua orang harus bersepeda ke sekolah."
+          "Kalimat itu langsung melarang semua mobil pribadi tanpa memberi alternatif.",
+          "Kalimat itu mengabaikan manfaat lingkungan dan hanya mendukung mobil pribadi.",
+          "Kalimat itu memperbaiki fasilitas sepeda dan bus sekaligus memberi fleksibilitas bagi perjalanan yang sulit.",
+          "Kalimat itu meminta siswa memilih jam masuk sekolah mereka sendiri."
         ]
       }
     }
