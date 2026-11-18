@@ -1,293 +1,240 @@
 {
   "id": "grade11-explanation",
   "objectives": [
-    "Menemukan proses sebab-akibat dan kata penghubung dalam explanation texts.",
-    "Menerapkan materi melalui contoh dan latihan singkat.",
-    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+    "Mengidentifikasi urutan tahapan dan hubungan sebab-akibat dalam teks eksplanasi (explanation text).",
+    "Membedakan kata penghubung urutan waktu (when, after) dari penanda sebab-akibat (because, as a result, therefore).",
+    "Menganalisis mekanisme suatu fenomena alam pada bacaan utuh dan soal pemahaman."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Explanation texts · Kelas 11?",
-      "text": "[[Explanation text]] adalah teks yang menjelaskan bagaimana atau mengapa suatu proses atau fenomena terjadi."
+      "title": "Apa itu Explanation Texts?",
+      "text": "[[Explanation text]] adalah teks nonfiksi yang menjelaskan bagaimana ([[how]]) atau mengapa ([[why]]) suatu proses alam, ilmiah, atau sosial terjadi secara berurutan."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menemukan proses sebab-akibat dan kata penghubung dalam explanation texts. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti enam tahap berikut pada satu proses yang sama—terbentuknya hujan—untuk melihat bagaimana setiap tahap terhubung secara logis dari awal hingga akhir.",
       "steps": [
         {
-          "title": "Menjelaskan bagaimana/mengapa",
-          "explanation": "[[Explanation text]] menyampaikan proses atau sebab fenomena, bukan hanya mencatat urutan aktivitas seseorang.",
-          "english": "Warm air rises.",
-          "indonesian": "Udara hangat naik.",
-          "why": "Ini tahap awal sebuah proses alam."
+          "title": "1. Kenali fenomena yang dijelaskan",
+          "explanation": "Bagian pembuka memperkenalkan peristiwa atau fenomena yang akan diuraikan prosesnya.",
+          "english": "Rain forms through a continuous cycle of heating, cooling, and condensation.",
+          "indonesian": "Hujan terbentuk melalui siklus pemanasan, pendinginan, dan pengembunan yang berkelanjutan.",
+          "why": "Kalimat ini menyatakan fenomena utama (terbentuknya hujan) beserta gambaran singkat mekanismenya."
         },
         {
-          "title": "Fenomena inti",
-          "explanation": "Tentukan peristiwa alam atau sosial yang memerlukan penjelasan.",
-          "english": "Rising air cools.",
-          "indonesian": "Udara yang naik mengalami pendinginan.",
-          "why": "Kalimat menyatakan tahap berikutnya."
+          "title": "2. Identifikasi kondisi awal proses (Evaporation)",
+          "explanation": "Proses selalu dimulai dari keadaan atau pemicu awal sebelum perubahan berikutnya terjadi.",
+          "english": "First, heat from the sun causes water from oceans and rivers to evaporate into water vapour.",
+          "indonesian": "Pertama, panas matahari menyebabkan air dari laut dan sungai menguap menjadi uap air.",
+          "why": "Kata [[First]] dan [[causes]] menunjukkan pemicu awal perubahan wujud air."
         },
         {
-          "title": "Kondisi awal",
-          "explanation": "Cari keadaan yang memungkinkan proses dimulai, bukan langsung melompat ke hasil.",
-          "english": "Water vapour condenses into droplets.",
-          "indonesian": "Uap air mengembun menjadi tetesan.",
-          "why": "[[Condenses]] menjelaskan perubahan keadaan."
+          "title": "3. Lacak tahap pergerakan berikutnya",
+          "explanation": "Gunakan penanda waktu seperti [[when]] atau [[as]] untuk melihat perubahan keadaan setelah tahap pertama.",
+          "english": "When warm, moist air rises higher into the atmosphere, it begins to cool.",
+          "indonesian": "Ketika udara hangat dan lembap naik lebih tinggi ke atmosfer, udara itu mulai mendingin.",
+          "why": "Kata [[When]] menghubungkan dua peristiwa berurutan: udara naik lalu mendingin."
         },
         {
-          "title": "Tahap pertama",
-          "explanation": "Pahami perubahan awal dan unsur apa yang terlibat.",
-          "english": "Plants need sunlight to make food.",
-          "indonesian": "Tumbuhan membutuhkan sinar matahari untuk membuat makanan.",
-          "why": "Menyatakan kondisi yang diperlukan suatu proses."
+          "title": "4. Temukan mekanisme sebab-akibat inti (Condensation)",
+          "explanation": "Kata penghubung seperti [[because]] menjelaskan mengapa perubahan fisik terjadi pada tahap ini.",
+          "english": "Because cool air holds less moisture than warm air, the water vapour condenses into tiny droplets.",
+          "indonesian": "Karena udara dingin menampung lebih sedikit kelembapan daripada udara hangat, uap air mengembun menjadi tetesan kecil.",
+          "why": "Kata [[Because]] menjelaskan alasan ilmiah terjadinya pengembunan ([[condenses]])."
         },
         {
-          "title": "Tahap lanjutan",
-          "explanation": "Hubungkan perubahan berikutnya dengan kondisi yang dihasilkan tahap sebelumnya.",
-          "english": "As sunlight reaches the leaves, photosynthesis begins.",
-          "indonesian": "Ketika sinar matahari mencapai daun, fotosintesis dimulai.",
-          "why": "[[As]] menandai hubungan waktu dalam mekanisme."
+          "title": "5. Hubungkan tahap menengah ke hasil (As a result)",
+          "explanation": "Ungkapan seperti [[as a result]] atau [[therefore]] menandai dampak dari gabungan tahap sebelumnya.",
+          "english": "Millions of tiny droplets gather around dust particles; as a result, visible clouds form.",
+          "indonesian": "Jutaan tetesan kecil berkumpul di sekitar partikel debu; akibatnya, awan yang tampak pun terbentuk.",
+          "why": "[[As a result]] menandai akibat langsung dari berkumpulnya tetesan air."
         },
         {
-          "title": "Petunjuk sebab",
-          "explanation": "[[Because]], [[therefore]], atau kata sejenis membantu menyatakan hubungan penyebab dengan akibat.",
-          "english": "When warm air cools, water vapour can condense into droplets.",
-          "indonesian": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
-          "why": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
-        },
-        {
-          "title": "Urutan bukan sebab",
-          "explanation": "Dua peristiwa yang terjadi berurutan belum tentu saling menyebabkan.",
-          "english": "As the temperature falls, the metal contracts slightly.",
-          "indonesian": "Ketika suhu turun, logam sedikit menyusut.",
-          "why": "Kalimat menjelaskan proses fisik melalui hubungan antara perubahan suhu dan hasilnya."
-        },
-        {
-          "title": "Rangkaian utuh",
-          "explanation": "Jelaskan bagaimana tiap tahap menjawab pertanyaan tentang fenomena awal.",
-          "english": "When rainwater enters the soil, some of it moves downward through tiny spaces between particles.",
-          "indonesian": "Ketika air hujan masuk ke tanah, sebagian bergerak turun melalui celah kecil antarpartikel.",
-          "why": "[[When]] menunjukkan urutan; [[through]] menunjukkan jalur gerak."
-        },
-        {
-          "title": "Periksa penjelasan",
-          "explanation": "Temukan tahap yang hilang atau hubungan kausal yang belum memiliki penjelasan memadai.",
-          "english": "Because the surface cools overnight, moisture in the air may turn into small drops of water.",
-          "indonesian": "Karena permukaan mendingin pada malam hari, kelembapan udara dapat berubah menjadi tetesan air kecil.",
-          "why": "[[Because]] menjelaskan sebab dalam proses kondensasi."
+          "title": "6. Tutup dengan hasil akhir siklus (Precipitation)",
+          "explanation": "Tahap akhir menjawab bagaimana fenomena awal benar-benar terwujud.",
+          "english": "When the water droplets combine and grow too heavy to stay suspended in the air, they fall to the ground as rain.",
+          "indonesian": "Ketika tetesan air bergabung dan menjadi terlalu berat untuk tetap melayang di udara, tetesan itu jatuh ke tanah sebagai hujan.",
+          "why": "Menjelaskan syarat akhir (terlalu berat) sebelum hujan turun."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Rain forms when water evaporates from oceans, rivers, or lakes. The water vapour rises and cools. As it cools, tiny droplets form clouds. When droplets become heavy enough, they fall as rain.",
-      "modelIndonesian": "Hujan terbentuk ketika air menguap dari laut, sungai, atau danau. Uap air naik dan mendingin. Saat mendingin, tetesan kecil membentuk awan. Ketika tetesan cukup berat, tetesan itu jatuh sebagai hujan."
+      "modelTitle": "Teks model utuh: Urutan proses terbentuknya hujan",
+      "modelEnglish": "Rain forms when sunlight warms water in oceans, rivers, and lakes. The heated water evaporates into water vapour and rises into the air. As the warm air rises, it cools, and the vapour condenses into tiny droplets that form clouds. When these droplets combine and become too heavy, they fall as rain.",
+      "modelIndonesian": "Hujan terbentuk ketika sinar matahari menghangatkan air di laut, sungai, dan danau. Air yang memanas menguap menjadi uap air dan naik ke udara. Saat udara hangat naik, udara itu mendingin, dan uap air mengembun menjadi tetesan kecil yang membentuk awan. Ketika tetesan-tetesan ini bergabung dan menjadi terlalu berat, semuanya jatuh sebagai hujan."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, penjelasan menghubungkan penyebab, proses, dan hasil. Kata [[because]] dapat menunjukkan sebab, sedangkan [[after]] hanya menunjukkan urutan waktu. Jangan langsung menyamakan dua hubungan ini."
-    },
-    {
-      "type": "heading",
-      "text": "Bagaimana [[explanation text]] bekerja?"
-    },
-    {
-      "type": "text",
-      "text": "[[Explanation text]] menjelaskan mengapa atau bagaimana proses terjadi. Perhatikan urutan langkah, sebab-akibat, dan istilah yang diulang. Teks ini menjelaskan mekanisme, bukan membujuk pembaca."
-    },
-    {
-      "type": "example",
-      "text": "When moist air rises, it cools. Some water vapor then condenses into droplets. As droplets combine, they may fall as rain.",
-      "note": "Urutan proses: udara naik → mendingin → kondensasi → kemungkinan hujan."
+      "text": "Jadi intinya, [[explanation text]] memetakan rangkaian sebab, proses, dan hasil secara objektif tanpa membujuk pembaca. Perhatikan perbedaan antara [[when]]/[[after]] (urutan waktu) dan [[because]]/[[as a result]] (hubungan sebab-akibat)."
     },
     {
       "type": "subheading",
-      "text": "Petunjuk hubungan"
+      "text": "Kata penghubung proses dan sebab-akibat"
     },
     {
       "type": "table",
       "headers": [
         "Kata penghubung",
-        "Fungsi"
+        "Fungsi dalam teks",
+        "Contoh singkat"
       ],
       "rows": [
         [
           "because",
-          "sebab"
+          "Menjelaskan sebab",
+          "Droplets form because warm air cools."
         ],
         [
-          "therefore",
-          "akibat/simpulan"
+          "as a result / therefore",
+          "Menunjukkan akibat atau hasil",
+          "The droplets grow heavy; as a result, rain falls."
         ],
         [
-          "as a result",
-          "hasil"
+          "when / as",
+          "Menandai waktu atau syarat proses",
+          "When moist air rises, it cools."
         ],
         [
-          "when",
-          "waktu atau kondisi"
+          "after",
+          "Menunjukkan urutan waktu (belum tentu sebab)",
+          "After rain falls, some water enters the soil."
         ]
       ]
     },
     {
       "type": "rule",
-      "text": "Jangan tertukar antara urutan waktu dan sebab-akibat: “[[after]]” tidak selalu berarti “[[because]]”."
+      "text": "Jangan menyamakan urutan waktu dengan sebab-akibat: kata [[after]] hanya menunjukkan peristiwa yang terjadi lebih dulu, sedangkan [[because]] dan [[as a result]] menyatakan hubungan penyebab dan dampaknya."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh memahami tahap proses dalam konteks lain"
     },
     {
       "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "text": "Amati bagaimana penanda waktu dan sebab-akibat bekerja dalam penjelasan proses biologi dan fisika sederhana."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "Membedakan syarat, proses, dan hasil",
       "collapsed": false,
       "items": [
         {
-          "english": "Warm air rises.",
-          "indonesian": "Udara hangat naik.",
-          "note": "Ini tahap awal sebuah proses alam."
+          "english": "As sunlight reaches green leaves, photosynthesis begins inside the plant cells.",
+          "indonesian": "Ketika sinar matahari mencapai daun hijau, fotosintesis dimulai di dalam sel tumbuhan.",
+          "note": "Kata [[As]] menunjukkan waktu dimulainya mekanisme."
         },
         {
-          "english": "Rising air cools.",
-          "indonesian": "Udara yang naik mengalami pendinginan.",
-          "note": "Kalimat menyatakan tahap berikutnya."
+          "english": "Because the ground surface cools overnight, moisture in the air condenses into dew on grass.",
+          "indonesian": "Karena permukaan tanah mendingin pada malam hari, kelembapan di udara mengembun menjadi embun di atas rumput.",
+          "note": "Kata [[Because]] menghubungkan penyebab (pendinginan permukaan) dengan hasilnya (embun)."
         },
         {
-          "english": "Water vapour condenses into droplets.",
-          "indonesian": "Uap air mengembun menjadi tetesan.",
-          "note": "[[Condenses]] menjelaskan perubahan keadaan."
+          "english": "When rainwater enters porous soil, some of it moves downward through tiny spaces between particles.",
+          "indonesian": "Ketika air hujan masuk ke tanah yang berpori, sebagian bergerak turun melalui celah kecil antarpartikel.",
+          "note": "Menjelaskan jalur dan cara pergerakan air secara objektif."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-explanation",
-      "prompt": "Which sentence explains a process?",
-      "translation": "Kalimat mana yang menjelaskan suatu proses?",
+      "prompt": "Which sentence explains a cause-and-effect process rather than a personal memory or opinion?",
+      "translation": "Kalimat mana yang menjelaskan proses sebab-akibat, bukan kenangan pribadi atau opini?",
       "choices": [
-        "We saw the clouds yesterday.",
-        "The clouds were beautiful.",
-        "Warm air rises and cools at higher altitudes."
+        "We watched dark rain clouds from our classroom window yesterday.",
+        "Rainy afternoons always feel much more relaxing than sunny days.",
+        "When warm, moist air rises, it cools and condenses into cloud droplets."
       ],
       "answer": 2,
-      "explanation": "Kalimat ini menunjukkan hubungan proses antara udara hangat dan pendinginan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
       "translationChoices": [
-        "Kami melihat awan kemarin.",
-        "Awan itu indah.",
-        "Udara hangat naik dan mendingin di tempat yang lebih tinggi."
-      ]
+        "Kami melihat awan hujan yang gelap dari jendela kelas kemarin.",
+        "Sore yang hujan selalu terasa jauh lebih menenangkan daripada hari yang cerah.",
+        "Ketika udara hangat dan lembap naik, udara itu mendingin dan mengembun menjadi tetesan awan."
+      ],
+      "explanation": "Pilihan ketiga menguraikan tahapan mekanisme fisik (udara naik → mendingin → mengembun). Pilihan pertama adalah pengalaman pribadi, sedangkan pilihan kedua adalah pendapat.",
+      "hint": "Cari kalimat yang menjelaskan bagaimana suatu perubahan alam terjadi secara berurutan."
     },
     {
       "type": "breakdown",
-      "sentence": "Warm air rises.",
+      "sentence": "Because cool air holds less moisture, water vapour condenses into tiny droplets.",
       "parts": [
         {
-          "english": "Warm air",
-          "meaning": "yang mengalami proses"
+          "english": "Because cool air holds less moisture,",
+          "meaning": "Klausa penyebab ('Karena udara dingin menampung lebih sedikit kelembapan')."
         },
         {
-          "english": "rises",
-          "meaning": "langkah dalam proses"
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Plants need sunlight to make food.",
-          "indonesian": "Tumbuhan membutuhkan sinar matahari untuk membuat makanan.",
-          "note": "Menyatakan kondisi yang diperlukan suatu proses."
+          "english": "water vapour condenses",
+          "meaning": "Perubahan utama yang terjadi ('uap air mengembun')."
         },
         {
-          "english": "As sunlight reaches the leaves, photosynthesis begins.",
-          "indonesian": "Ketika sinar matahari mencapai daun, fotosintesis dimulai.",
-          "note": "[[As]] menandai hubungan waktu dalam mekanisme."
-        },
-        {
-          "english": "As a result, the plant produces sugars.",
-          "indonesian": "Akibatnya, tumbuhan menghasilkan gula.",
-          "note": "[[As a result]] menandai hasil proses."
-        },
-        {
-          "english": "When warm air cools, water vapour can condense into droplets.",
-          "indonesian": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
-          "note": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
-        },
-        {
-          "english": "As the temperature falls, the metal contracts slightly.",
-          "indonesian": "Ketika suhu turun, logam sedikit menyusut.",
-          "note": "Kalimat menjelaskan proses fisik melalui hubungan antara perubahan suhu dan hasilnya."
+          "english": "into tiny droplets.",
+          "meaning": "Wujud hasil dari proses pengembunan ('menjadi tetesan-tetesan kecil')."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "Compare: (A) “After the sun set, the grass became wet.” vs. (B) “Because the ground cooled overnight, water vapour condensed on the grass.” How do these two sentences differ?",
+      "translation": "Bandingkan: (A) “Setelah matahari terbenam, rumput menjadi basah.” vs. (B) “Karena tanah mendingin pada malam hari, uap air mengembun di atas rumput.” Apa perbedaan kedua kalimat ini?",
+      "answer": "Kalimat (A) hanya mencatat urutan waktu menggunakan 'After' tanpa menjelaskan mekanismenya, sedangkan kalimat (B) memakai 'Because' untuk menjelaskan penyebab fisik terbentuknya embun."
     },
     {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "When rainwater enters the soil, some of it moves downward through tiny spaces between particles.",
-          "indonesian": "Ketika air hujan masuk ke tanah, sebagian bergerak turun melalui celah kecil antarpartikel.",
-          "note": "[[When]] menunjukkan urutan; [[through]] menunjukkan jalur gerak."
-        },
-        {
-          "english": "Because the surface cools overnight, moisture in the air may turn into small drops of water.",
-          "indonesian": "Karena permukaan mendingin pada malam hari, kelembapan udara dapat berubah menjadi tetesan air kecil.",
-          "note": "[[Because]] menjelaskan sebab dalam proses kondensasi."
-        }
-      ]
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf berikut secara utuh. Ikuti urutan tahap prosesnya dari awal sampai akhir."
+    },
+    {
+      "type": "example",
+      "text": "Dew often appears on grass early in the morning even when it has not rained overnight. During the day, the ground and plants absorb heat from the sun. After sunset, the ground loses heat quickly and becomes cooler than the air just above it. Because cool air cannot hold as much water vapour as warm air, the excess moisture near the surface condenses into tiny liquid drops on leaves and blades of grass. As a result, the grass feels wet at dawn and dries again once morning sunlight warms the air.",
+      "note": "Urutan mekanisme embun: Siang hari = tanah menyerap panas → Setelah matahari terbenam = tanah cepat mendingin → Sebab = udara dingin menampung lebih sedikit uap air → Hasil = uap air mengembun menjadi embun di rumput."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "[[Explanation text]] menerangkan bagaimana atau mengapa sesuatu terjadi.",
-        "Baca hubungan proses, sebab-akibat, dan urutan tahap secara tepat.",
-        "Bedakan proses objektif dari anjuran/opini penulis."
+        "[[Explanation text]] menjelaskan bagaimana atau mengapa suatu proses terjadi secara berurutan dan objektif.",
+        "Gunakan kata penghubung seperti [[because]], [[as a result]], dan [[when]] untuk melacak hubungan antar-tahap.",
+        "Bedakan urutan waktu ([[after]]) dari penjelasan sebab-akibat yang sebenarnya."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa penyebabnya, bagaimana prosesnya, dan apa hasilnya?",
-      "model": "When warm air cools, water vapour can condense into droplets.",
-      "modelTranslation": "Ketika udara hangat mendingin, uap air dapat mengembun menjadi tetesan.",
-      "criteria": "Dua tahap proses terhubung: pendinginan mendahului pengembunan dalam kondisi yang sesuai."
+      "prompt": "Tulis dua kalimat bahasa Inggris yang menjelaskan satu proses sederhana di alam (misalnya penguapan air atau terbentuknya embun) menggunakan kata 'When' dan 'Because' atau 'As a result'.",
+      "model": "When sunlight heats a puddle, the liquid water slowly turns into water vapour. As a result, the puddle dries up on a warm afternoon.",
+      "modelTranslation": "Ketika sinar matahari memanaskan genangan air, air cair perlahan berubah menjadi uap air. Akibatnya, genangan itu mengering pada sore yang hangat.",
+      "criteria": "Menjelaskan tahap proses secara berurutan dan menggunakan kata penghubung waktu atau sebab-akibat dengan tepat."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata",
+      "title": "Bekal kosakata penting",
       "items": [
         {
-          "english": "process",
-          "indonesian": "proses"
+          "english": "evaporate",
+          "indonesian": "menguap"
         },
         {
           "english": "vapour",
-          "indonesian": "uap"
+          "indonesian": "uap (gas dari cairan)"
         },
         {
           "english": "condense",
           "indonesian": "mengembun"
         },
         {
-          "english": "result",
-          "indonesian": "hasil"
+          "english": "moisture",
+          "indonesian": "kelembapan / kandungan uap air"
+        },
+        {
+          "english": "absorb",
+          "indonesian": "menyerap"
+        },
+        {
+          "english": "as a result",
+          "indonesian": "akibatnya / sebagai hasilnya"
         }
       ]
     }
@@ -295,58 +242,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What is the main purpose of an explanation text?",
+      "prompt": "According to the sample passage about dew, why does water vapour condense on the grass overnight?",
       "choices": [
-        "to explain a process",
-        "to tell a joke",
-        "to offer a discount"
+        "Because plants release rainwater through their roots at midnight.",
+        "Because cool air near the ground cannot hold as much water vapour as warm air.",
+        "Because morning sunlight freezes the air above the grass.",
+        "Because heavy rain always falls right before sunrise."
       ],
-      "answer": 0,
-      "explanation": "Genre explanation menguraikan bagaimana/mengapa sesuatu terjadi.",
+      "answer": 1,
+      "explanation": "Bacaan menjelaskan bahwa setelah matahari terbenam tanah mendingin, dan udara dingin tidak dapat menampung uap air sebanyak udara hangat ([[Because cool air cannot hold as much water vapour as warm air]]), sehingga kelembapan berlebih mengembun menjadi tetesan air.",
       "translationId": {
-        "prompt": "Tujuan utama explanation text adalah …",
+        "prompt": "Berdasarkan bacaan contoh tentang embun, mengapa uap air mengembun di atas rumput pada malam hari?",
         "choices": [
-          "menjelaskan proses",
-          "menceritakan lelucon",
-          "menawarkan diskon"
+          "Karena tumbuhan mengeluarkan air hujan melalui akarnya pada tengah malam.",
+          "Karena udara dingin di dekat tanah tidak dapat menampung uap air sebanyak udara hangat.",
+          "Karena sinar matahari pagi membekukan udara di atas rumput.",
+          "Karena hujan deras selalu turun tepat sebelum matahari terbit."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What does “as a result” signal?",
+      "prompt": "Which connective best signals a consequence or outcome in an explanation text?",
       "choices": [
-        "a result",
-        "an equal comparison",
-        "a pronoun"
+        "As a result",
+        "Although",
+        "For example",
+        "Meanwhile"
       ],
       "answer": 0,
-      "explanation": "[[As a result]] memperkenalkan konsekuensi.",
+      "explanation": "Ungkapan [[As a result]] (seperti halnya [[therefore]]) digunakan untuk menunjukkan akibat atau hasil langsung dari tahapan proses sebelumnya.",
       "translationId": {
-        "prompt": "“As a result” menunjukkan …",
+        "prompt": "Kata penghubung mana yang paling tepat menandai akibat atau hasil dalam teks eksplanasi?",
         "choices": [
-          "akibat",
-          "perbandingan setara",
-          "kata ganti"
+          "As a result (Akibatnya)",
+          "Although (Meskipun)",
+          "For example (Sebagai contoh)",
+          "Meanwhile (Sementara itu)"
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "According to the example, what happens after moist air rises?",
+      "prompt": "In the rain formation model text, what happens right after warm water vapour rises into the air?",
       "choices": [
-        "The air cools.",
-        "Water instantly turns into ice.",
-        "The sky definitely becomes clear."
+        "It immediately turns into solid hailstones.",
+        "It cools and condenses into tiny droplets that form clouds.",
+        "It sinks back into the ocean without forming clouds.",
+        "It stops moving until the next summer."
       ],
-      "answer": 0,
-      "explanation": "Kalimat kedua dari contoh menyebut cooling setelah rising.",
+      "answer": 1,
+      "explanation": "Dalam teks model pembentukan hujan, setelah uap air hangat naik ke udara, udara tersebut mendingin dan mengembun menjadi tetesan kecil yang membentuk awan ([[it cools, and the vapour condenses into tiny droplets that form clouds]]).",
       "translationId": {
-        "prompt": "Dari contoh, apa yang terjadi setelah udara lembap naik?",
+        "prompt": "Dalam teks model pembentukan hujan, apa yang terjadi tepat setelah uap air hangat naik ke udara?",
         "choices": [
-          "Udara mendingin.",
-          "Air langsung menjadi es.",
-          "Langit pasti cerah."
+          "Uap air langsung berubah menjadi batu es padat.",
+          "Udara mendingin dan uap air mengembun menjadi tetesan kecil yang membentuk awan.",
+          "Uap air turun kembali ke laut tanpa membentuk awan.",
+          "Uap air berhenti bergerak hingga musim panas berikutnya."
         ]
       }
     }

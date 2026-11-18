@@ -1,276 +1,216 @@
 {
   "id": "grade11-exposition",
   "objectives": [
-    "Membaca tesis, alasan, dan penegasan ulang dalam teks argumentatif.",
-    "Menerapkan materi melalui contoh dan latihan singkat.",
-    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+    "Mengidentifikasi struktur utama analytical exposition: thesis, arguments, dan reiteration.",
+    "Membedakan pernyataan posisi (thesis) dari alasan pendukung (arguments) serta memeriksa keluasan klaimnya.",
+    "Menerapkan pemahaman struktur dan kekuatan argumen pada bacaan utuh dan soal latihan."
   ],
   "blocks": [
     {
       "type": "definition",
-      "title": "Apa itu Analytical exposition · Kelas 11?",
-      "text": "[[Analytical exposition]] adalah teks yang menyampaikan pendapat utama dan menyusun alasan untuk meyakinkan pembaca."
+      "title": "Apa itu Analytical Exposition?",
+      "text": "[[Analytical exposition]] adalah teks argumentatif yang menyatakan pendapat atau posisi penulis tentang suatu isu ([[thesis]]), menyusun alasan pendukung ([[arguments]]), dan menegaskan kembali posisi tersebut di bagian akhir ([[reiteration]])."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membaca tesis, alasan, dan penegasan ulang dalam teks argumentatif. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti enam langkah berikut pada satu topik yang sama—memperpanjang jam buka ruang baca sekolah setelah jam pelajaran—untuk melihat bagaimana kerangka argumen dibangun secara utuh.",
       "steps": [
         {
-          "title": "Mengapa penulis berargumen?",
-          "explanation": "[[Analytical exposition]] bertujuan meyakinkan pembaca mengenai suatu posisi melalui alasan.",
-          "english": "Students should read daily.",
-          "indonesian": "Siswa sebaiknya membaca setiap hari.",
-          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+          "title": "1. Nyatakan posisi utama penulis (Thesis)",
+          "explanation": "Bagian pembuka langsung memperkenalkan pendapat yang ingin dipertahankan penulis mengenai suatu isu.",
+          "english": "Schools should keep the reading room open for one hour after regular classes end.",
+          "indonesian": "Sekolah sebaiknya tetap membuka ruang baca selama satu jam setelah jam pelajaran reguler berakhir.",
+          "why": "Kalimat ini adalah [[thesis]] karena menyatakan sikap atau usulan utama penulis."
         },
         {
-          "title": "Isu utamanya",
-          "explanation": "Tentukan masalah atau topik yang sedang diperdebatkan sebelum menilai pandangan penulis.",
-          "english": "Students should read daily.",
-          "indonesian": "Siswa sebaiknya membaca setiap hari.",
-          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+          "title": "2. Berikan alasan pertama (Argument 1)",
+          "explanation": "Penulis menjelaskan alasan logis pertama mengapa posisi tersebut layak diterima.",
+          "english": "First, a quiet space helps students focus on homework without household distractions.",
+          "indonesian": "Pertama, tempat yang tenang membantu siswa fokus mengerjakan tugas tanpa gangguan di rumah.",
+          "why": "Kata [[First]] menandai alasan pendukung pertama yang menjawab pertanyaan 'mengapa?'."
         },
         {
-          "title": "Temukan thesis",
-          "explanation": "Cari pernyataan posisi utama yang ingin penulis pertahankan.",
-          "english": "Students should read daily.",
-          "indonesian": "Siswa sebaiknya membaca setiap hari.",
-          "why": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+          "title": "3. Tambahkan alasan kedua untuk kelompok tertentu (Argument 2)",
+          "explanation": "Argumen tambahan memperluas sudut pandang dengan menyasar kebutuhan nyata siswa lain.",
+          "english": "Second, students who share a small room at home often lack a quiet desk to study.",
+          "indonesian": "Kedua, siswa yang berbagi kamar sempit di rumah sering kali tidak memiliki meja belajar yang tenang.",
+          "why": "Kata [[Second]] memperkenalkan alasan kedua yang spesifik dan realistis."
         },
         {
-          "title": "Thesis bukan alasan",
-          "explanation": "Pernyataan posisi mengatakan apa yang diyakini, sedangkan alasan menjawab mengapa posisi itu layak diterima.",
-          "english": "Reading develops vocabulary.",
-          "indonesian": "Membaca mengembangkan kosakata.",
-          "why": "Ini alasan yang dapat mendukung [[thesis]]."
+          "title": "4. Sertakan dukungan atau bukti yang proporsional",
+          "explanation": "Contoh, pengamatan, atau hasil survei memperkuat alasan tanpa melebih-lebihkan hasilnya.",
+          "english": "In a recent student survey, forty percent of respondents said they needed a quiet study space after school.",
+          "indonesian": "Dalam survei siswa baru-baru ini, empat puluh persen responden mengatakan mereka membutuhkan ruang belajar yang tenang sepulang sekolah.",
+          "why": "Data survei memberi dukungan terukur sekaligus menunjukkan bahwa kebutuhan itu dialami sebagian siswa (40%), bukan semua."
         },
         {
-          "title": "Argumen pertama",
-          "explanation": "Uraikan satu alasan secara utuh sebelum menambahkan alasan lainnya.",
-          "english": "Reading develops vocabulary.",
-          "indonesian": "Membaca mengembangkan kosakata.",
-          "why": "Ini alasan yang dapat mendukung [[thesis]]."
+          "title": "5. Akui batasan atau syarat penerapan",
+          "explanation": "Argumen yang matang mengakui kendala praktis agar pendapat tidak terdengar sepihak.",
+          "english": "Although supervision is needed, a rotating schedule of teachers or senior prefects can manage the room safely.",
+          "indonesian": "Meskipun pengawasan diperlukan, jadwal bergilir guru atau pengurus siswa senior dapat mengelola ruangan dengan aman.",
+          "why": "Kata [[Although]] menjawab keberatan yang mungkin muncul dari pembaca."
         },
         {
-          "title": "Argumen berikutnya",
-          "explanation": "Hubungkan alasan tambahan dengan thesis, bukan dengan topik baru yang tidak relevan.",
-          "english": "Schools should provide drinking-water stations because they can reduce plastic waste.",
-          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
-          "why": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
-        },
-        {
-          "title": "Bukti pendukung",
-          "explanation": "Contoh, fakta, dan data dapat memperjelas alasan; bedakan ketiganya dari pendapat tanpa dukungan.",
-          "english": "A longer lunch break may help students recharge, according to the school survey.",
-          "indonesian": "Istirahat makan siang yang lebih lama mungkin membantu siswa memulihkan tenaga, menurut survei sekolah.",
-          "why": "Ungkapan [[may]] memberi klaim yang terbatas, sementara sumber bukti dinyatakan."
-        },
-        {
-          "title": "Reiteration",
-          "explanation": "Bagian akhir menguatkan posisi awal tanpa menyisipkan klaim baru yang tidak dijelaskan.",
-          "english": "For these reasons, keeping the reading room open for one extra hour is worth considering.",
-          "indonesian": "Karena alasan-alasan tersebut, membuka ruang baca satu jam lebih lama layak dipertimbangkan.",
-          "why": "[[For these reasons]] merujuk kembali pada argumen yang sudah dikemukakan sebelum penutup."
-        },
-        {
-          "title": "Susun exposition lengkap",
-          "explanation": "Tandai thesis, tiap argumen, bukti, dan reiteration di satu teks utuh sebelum menulis kerangkanya.",
-          "english": "Students need a quiet place to study. A school reading room can help, so extending its hours is worth considering.",
-          "indonesian": "Siswa memerlukan tempat tenang untuk belajar. Ruang baca sekolah dapat membantu, jadi memperpanjang jam bukanya layak dipertimbangkan.",
-          "why": "Kalimat pertama menyatakan kebutuhan, yang kedua menghubungkan alasan dengan posisi penulis dalam satu alur argumentasi."
+          "title": "6. Tegaskan kembali posisi di akhir (Reiteration)",
+          "explanation": "Penutup merangkum kembali posisi awal berdasarkan alasan yang telah dipaparkan tanpa menambah topik baru.",
+          "english": "For these reasons, extending reading room hours after school is a practical step worth considering.",
+          "indonesian": "Karena alasan-alasan tersebut, memperpanjang jam buka ruang baca sepulang sekolah merupakan langkah praktis yang layak dipertimbangkan.",
+          "why": "Frasa [[For these reasons]] merujuk kembali pada argumen sebelumnya dan menguatkan [[thesis]]."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Students should have access to a school reading room after classes. First, a quiet space helps them concentrate on assignments. Second, students who share a room at home may need a place to study. For these reasons, keeping the reading room open for one extra hour is worth considering.",
-      "modelIndonesian": "Siswa sebaiknya dapat menggunakan ruang baca sekolah setelah pelajaran berakhir. Pertama, tempat tenang membantu mereka berkonsentrasi pada tugas. Kedua, siswa yang berbagi kamar di rumah mungkin memerlukan tempat belajar. Karena alasan tersebut, membuka ruang baca satu jam lebih lama layak dipertimbangkan."
+      "modelTitle": "Teks model utuh: Thesis → Arguments → Reiteration",
+      "modelEnglish": "Schools should provide access to a reading room for one hour after classes. First, a quiet space helps students concentrate on assignments before going home. Second, students who share a room with younger siblings need a calm place to study. For these reasons, keeping the reading room open a little longer is worth considering.",
+      "modelIndonesian": "Sekolah sebaiknya menyediakan akses ke ruang baca selama satu jam setelah jam pelajaran berakhir. Pertama, tempat yang tenang membantu siswa berkonsentrasi pada tugas sebelum pulang. Kedua, siswa yang berbagi kamar dengan adik membutuhkan tempat yang tenang untuk belajar. Karena alasan-alasan tersebut, membuka ruang baca sedikit lebih lama layak dipertimbangkan."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, [[thesis]] menyatakan posisi penulis, setiap argumen memberi alasan atau bukti, lalu penutup menegaskan posisi tersebut. Pernyataan tegas belum tentu menjadi bukti; cari alasan yang bisa diperiksa."
-    },
-    {
-      "type": "heading",
-      "text": "Susunan teks exposition"
-    },
-    {
-      "type": "text",
-      "text": "[[Analytical exposition]] menyampaikan sebuah pendapat ([[thesis]]), alasan pendukung ([[arguments]]), lalu penegasan kembali ([[reiteration]]). Pembaca harus memeriksa kekuatan bukti, bukan hanya kata yang terdengar yakin."
-    },
-    {
-      "type": "example",
-      "text": "Schools should provide more shaded outdoor spaces. Shade can make break times more comfortable, and greenery may support biodiversity. Therefore, planners should consider shaded spaces when improving campuses.",
-      "note": "[[Thesis]]: [[shaded]] [[spaces]]; [[arguments]]: comfort [[and]] [[biodiversity]]; [[reiteration]]: [[planners]] [[should]] [[consider]]."
-    },
-    {
-      "type": "subheading",
-      "text": "Bukti dan pendapat"
-    },
-    {
-      "type": "text",
-      "text": "Kalimat “shade [[can]] [[make]] breaks more comfortable” adalah klaim yang perlu didukung pengukuran atau kesaksian relevan. Kata [[should]] menunjukkan rekomendasi, bukan fakta yang sudah terbukti."
+      "text": "Jadi intinya, [[analytical exposition]] meyakinkan pembaca lewat struktur [[thesis]] → [[arguments]] → [[reiteration]]. Pembaca yang kritis selalu memeriksa apakah alasan penulis didukung bukti yang sepadan atau hanya memakai kata yang terdengar yakin seperti [[should]] dan [[definitely]]."
     },
     {
       "type": "rule",
-      "text": "Pertanyaan berpikir kritis: bukti apa yang disediakan, seberapa luas cakupannya, dan apakah ada penjelasan alternatif?"
+      "text": "[[Thesis]] menyatakan pendapat utama penulis; [[arguments]] memberi alasan dan bukti; [[reiteration]] menegaskan kembali posisi di akhir teks. Gunakan kata pembatas seperti [[some]], [[many]], atau [[may]] agar klaim tidak melampaui bukti."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan berpikir yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Opening the reading room after school will guarantee top grades for every student.",
+      "correct": "Opening the reading room after school may help students who lack a quiet study space at home.",
+      "explanation": "Kata 'guarantee' dan 'every student' adalah klaim mutlak yang sulit dibuktikan; kata 'may' membatasi klaim agar tetap masuk akal."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh membatasi klaim dan menghubungkan alasan"
     },
     {
       "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "text": "Perhatikan bagaimana kata penghubung ([[because]], [[although]], [[however]]) dan kata pembatas ([[some]], [[may]]) membuat argumen lebih kuat dan jujur."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "Argumen terukur vs. generalisasi berlebihan",
       "collapsed": false,
       "items": [
         {
-          "english": "Students should read daily.",
-          "indonesian": "Siswa sebaiknya membaca setiap hari.",
-          "note": "Ini [[thesis]]: posisi yang perlu didukung alasan."
+          "english": "Schools should provide drinking-water stations because they can help reduce single-use plastic bottles.",
+          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air minum karena hal itu dapat membantu mengurangi botol plastik sekali pakai.",
+          "note": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan logis."
         },
         {
-          "english": "Reading develops vocabulary.",
-          "indonesian": "Membaca mengembangkan kosakata.",
-          "note": "Ini alasan yang dapat mendukung [[thesis]]."
+          "english": "A longer lunch break may help students recharge, according to a survey of two classes.",
+          "indonesian": "Istirahat makan siang yang lebih lama mungkin membantu siswa memulihkan tenaga, menurut survei terhadap dua kelas.",
+          "note": "Kata [[may]] menjaga klaim tetap proporsional dengan sumber buktinya."
         },
         {
-          "english": "Therefore, schools should provide reading time.",
-          "indonesian": "Karena itu, sekolah sebaiknya menyediakan waktu membaca.",
-          "note": "[[Therefore]] mengantar rekomendasi atau kesimpulan."
+          "english": "Although digital articles are convenient, students without stable internet still need printed books.",
+          "indonesian": "Walaupun artikel digital praktis, siswa tanpa internet stabil tetap membutuhkan buku cetak.",
+          "note": "[[Although]] mengakui sisi positif teknologi sambil menunjukkan alasan perlunya buku cetak."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-exposition",
-      "prompt": "Which statement is a claim?",
-      "translation": "Pernyataan mana yang merupakan klaim?",
+      "prompt": "Which sentence states a writer's position (thesis) rather than a supporting fact or reason?",
+      "translation": "Kalimat mana yang menyatakan posisi utama penulis (thesis), bukan sekadar fakta atau alasan pendukung?",
       "choices": [
-        "Ten students joined the club.",
-        "Students should read every day.",
-        "The survey included 100 students."
+        "Forty students used the school library yesterday afternoon.",
+        "Schools should keep the reading room open for one extra hour after classes.",
+        "Noise at home can make it harder to finish reading assignments."
       ],
       "answer": 1,
-      "explanation": "[[Should]] menyatakan pendapat atau anjuran yang memerlukan dukungan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
       "translationChoices": [
-        "Sepuluh siswa bergabung dengan klub.",
-        "Siswa sebaiknya membaca setiap hari.",
-        "Survei itu melibatkan 100 siswa."
-      ]
+        "Empat puluh siswa menggunakan perpustakaan sekolah kemarin sore.",
+        "Sekolah sebaiknya tetap membuka ruang baca selama satu jam tambahan setelah pelajaran.",
+        "Kebisingan di rumah dapat mempersulit penyelesaian tugas membaca."
+      ],
+      "explanation": "Pilihan kedua menggunakan [[should]] untuk mengajukan pendapat atau usulan utama yang perlu didukung alasan. Pilihan pertama adalah fakta angka, dan pilihan ketiga adalah alasan pendukung.",
+      "hint": "Cari kalimat yang menyatakan apa yang diyakini atau diusulkan penulis untuk dilakukan."
     },
     {
       "type": "breakdown",
-      "sentence": "Students should read daily.",
+      "sentence": "Schools should extend reading room hours because many students lack a quiet study space at home.",
       "parts": [
         {
-          "english": "Students",
-          "meaning": "kelompok yang dibicarakan"
+          "english": "Schools should extend reading room hours",
+          "meaning": "Posisi atau usulan utama penulis (Thesis)."
         },
         {
-          "english": "should read",
-          "meaning": "saran atau posisi"
+          "english": "because",
+          "meaning": "Kata penghubung yang memperkenalkan alasan logis."
         },
         {
-          "english": "daily",
-          "meaning": "frekuensi"
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Some students prefer printed books.",
-          "indonesian": "Sebagian siswa lebih menyukai buku cetak.",
-          "note": "[[Some]] membatasi klaim: bukan semua siswa."
-        },
-        {
-          "english": "A small survey found mixed preferences.",
-          "indonesian": "Survei kecil menemukan preferensi yang beragam.",
-          "note": "Bukti terbatas tidak boleh diterapkan ke semua sekolah."
-        },
-        {
-          "english": "However, access to books remains important.",
-          "indonesian": "Namun, akses ke buku tetap penting.",
-          "note": "[[However]] menunjukkan kontras dengan informasi sebelumnya."
-        },
-        {
-          "english": "Schools should provide drinking-water stations because they can reduce plastic waste.",
-          "indonesian": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
-          "note": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
-        },
-        {
-          "english": "A longer lunch break may help students recharge, according to the school survey.",
-          "indonesian": "Istirahat makan siang yang lebih lama mungkin membantu siswa memulihkan tenaga, menurut survei sekolah.",
-          "note": "Ungkapan [[may]] memberi klaim yang terbatas, sementara sumber bukti dinyatakan."
+          "english": "many students lack a quiet study space at home.",
+          "meaning": "Alasan pendukung yang dibatasi dengan kata 'many' (bukan 'all')."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "Compare: (A) “Every student prefers printed books.” vs. (B) “Some students prefer printed books, according to our class survey.” What changes in the strength and accuracy of the claim?",
+      "translation": "Bandingkan: (A) “Setiap siswa lebih menyukai buku cetak.” vs. (B) “Sebagian siswa lebih menyukai buku cetak, menurut survei kelas kami.” Apa yang berubah dalam kekuatan dan ketepatan klaim tersebut?",
+      "answer": "Kalimat (A) memakai 'Every' yang terlalu luas dan mudah dipatahkan oleh satu pengecualian saja, sedangkan kalimat (B) memakai 'Some' dan menyebut sumber survei sehingga klaimnya jauh lebih akurat dan dapat dipertahankan."
     },
     {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Schools should create quiet reading corners because noise can make sustained reading difficult.",
-          "indonesian": "Sekolah sebaiknya membuat sudut baca yang tenang karena kebisingan dapat menyulitkan membaca berkelanjutan.",
-          "note": "Pernyataan pendapat diikuti alasan yang masih memerlukan bukti relevan."
-        },
-        {
-          "english": "Although online materials can be convenient, students without stable internet may need printed alternatives.",
-          "indonesian": "Walaupun materi daring bisa praktis, siswa tanpa internet stabil mungkin membutuhkan bahan cetak.",
-          "note": "[[Although]] memperkenalkan keberatan atau batasan agar argumen lebih seimbang."
-        }
-      ]
+      "type": "heading",
+      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+    },
+    {
+      "type": "text",
+      "text": "Bacalah paragraf berikut secara utuh. Identifikasi bagian thesis, dua argumen pendukung, dan kalimat reiteration di akhir paragraf."
+    },
+    {
+      "type": "example",
+      "text": "Schools should provide more shaded outdoor seating areas on campus. First, shade makes break times more comfortable during hot afternoons, allowing students to rest between classes. Second, planting trees around seating areas can cool the surrounding air and support local birds and insects. Although building shaded benches requires initial maintenance, the long-term comfort for students is clear. Therefore, school planners should include shaded spaces when improving campus facilities.",
+      "note": "Struktur bacaan: Kalimat 1 = Thesis (sekolah sebaiknya menyediakan area duduk teduh); Kalimat 2 = Argument 1 (kenyamanan istirahat); Kalimat 3 = Argument 2 (menyejukkan udara & mendukung keanekaragaman hayati); Kalimat 5 = Reiteration (penegasan kembali dengan 'Therefore')."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "[[Analytical exposition]] memiliki posisi, alasan, dan penegasan kesimpulan.",
-        "Periksa apakah alasan didukung bukti relevan.",
-        "Bedakan kata pendapat seperti [[should]] dari fakta yang telah terbukti."
+        "[[Analytical exposition]] disusun dalam tiga bagian utama: [[thesis]] (posisi), [[arguments]] (alasan), dan [[reiteration]] (penegasan ulang).",
+        "Gunakan kata penghubung seperti [[first]], [[second]], [[because]], dan [[therefore]] untuk mengikuti alur logika penulis.",
+        "Periksa apakah klaim penulis proporsional dengan bukti yang disajikan, terutama saat penulis memakai kata mutlak seperti [[every]] atau [[all]]."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa pendapat penulis, dan bukti apa yang mendukungnya?",
-      "model": "Schools should provide drinking-water stations because they can reduce plastic waste.",
-      "modelTranslation": "Sekolah sebaiknya menyediakan tempat isi ulang air karena hal itu dapat mengurangi sampah plastik.",
-      "criteria": "[[Should]] menyatakan posisi penulis, sedangkan [[because]] menghubungkannya dengan alasan."
+      "prompt": "Tulis dua kalimat bahasa Inggris: kalimat pertama berisi posisi penulis (thesis) menggunakan 'Schools should...', dan kalimat kedua berisi satu alasan pendukung menggunakan 'First,' atau 'because'.",
+      "model": "Schools should provide labelled recycling bins in every corridor. First, clear labels help students separate plastic and paper waste quickly during break times.",
+      "modelTranslation": "Sekolah sebaiknya menyediakan tempat sampah daur ulang berlabel di setiap koridor. Pertama, label yang jelas membantu siswa memisahkan sampah plastik dan kertas dengan cepat saat jam istirahat.",
+      "criteria": "Memuat pernyataan posisi (thesis) dan satu alasan logis yang mendukung posisi tersebut secara langsung."
     },
     {
       "type": "vocabulary",
-      "title": "Bekal kosakata",
+      "title": "Bekal kosakata penting",
       "items": [
         {
           "english": "thesis",
-          "indonesian": "pendapat utama"
+          "indonesian": "pernyataan posisi / pendapat utama"
         },
         {
           "english": "argument",
           "indonesian": "alasan pendukung"
         },
         {
-          "english": "should",
-          "indonesian": "sebaiknya"
+          "english": "reiteration",
+          "indonesian": "penegasan kembali di akhir teks"
         },
         {
-          "english": "however",
-          "indonesian": "namun"
+          "english": "therefore",
+          "indonesian": "oleh karena itu"
+        },
+        {
+          "english": "shaded",
+          "indonesian": "teduh / terlindung dari panas matahari"
+        },
+        {
+          "english": "facility",
+          "indonesian": "fasilitas / sarana"
         }
       ]
     }
@@ -278,53 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "What is the sentence presenting the writer’s position called?",
+      "prompt": "In an analytical exposition text, what is the role of the thesis?",
       "choices": [
-        "Thesis",
-        "Argument",
-        "Reiteration"
+        "To introduce the writer's main position or opinion on an issue.",
+        "To list unrelated stories from the writer's childhood.",
+        "To describe the physical appearance of a place without taking a stand.",
+        "To tell readers step-by-step how to assemble a machine."
       ],
       "answer": 0,
-      "explanation": "[[Thesis]] menyatakan posisi di awal teks.",
+      "explanation": "[[Thesis]] muncul di bagian awal [[analytical exposition]] untuk menyatakan posisi atau pendapat utama yang akan dipertahankan oleh penulis melalui argumen.",
       "translationId": {
-        "prompt": "Kalimat yang memperkenalkan posisi penulis disebut …"
+        "prompt": "Dalam teks analytical exposition, apa peran dari bagian thesis?",
+        "choices": [
+          "Memperkenalkan posisi atau pendapat utama penulis mengenai suatu isu.",
+          "Mencantumkan cerita masa kecil penulis yang tidak berkaitan.",
+          "Menggambarkan tampilan fisik suatu tempat tanpa mengambil sikap.",
+          "Memberi tahu pembaca langkah demi langkah cara merakit mesin."
+        ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What does “therefore” usually introduce?",
+      "prompt": "According to the sample passage, what are the two main reasons for adding shaded outdoor seating?",
       "choices": [
-        "a conclusion or restatement",
-        "a random example",
-        "a new character"
+        "It replaces all indoor classrooms and shortens the school day.",
+        "It makes break times more comfortable and supports local greenery and wildlife.",
+        "It increases cafeteria food prices and reduces break duration.",
+        "It prevents students from talking to each other during breaks."
       ],
-      "answer": 0,
-      "explanation": "[[Therefore]] menandai simpulan dari argumen.",
+      "answer": 1,
+      "explanation": "Bacaan contoh menyebutkan dua alasan utama: membuat waktu istirahat lebih nyaman saat siang panas ([[makes break times more comfortable]]) dan menanam pohon untuk menyejukkan udara serta mendukung burung dan serangga lokal.",
       "translationId": {
-        "prompt": "“Therefore” paling sering memperkenalkan …",
+        "prompt": "Berdasarkan bacaan contoh, apa dua alasan utama untuk menambah tempat duduk luar ruang yang teduh?",
         "choices": [
-          "kesimpulan atau penegasan",
-          "contoh yang acak",
-          "tokoh baru"
+          "Menggantikan semua ruang kelas dalam ruangan dan memperpendek jam sekolah.",
+          "Membuat waktu istirahat lebih nyaman serta mendukung penghijauan dan satwa lokal.",
+          "Menaikkan harga makanan kantin dan mengurangi durasi istirahat.",
+          "Mencegah siswa berbicara satu sama lain selama jam istirahat."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "Which claim requires supporting evidence?",
+      "prompt": "Which claim is most reasonable and easiest to defend with evidence?",
       "choices": [
-        "The word shade has five letters.",
-        "Adding trees will improve every school.",
-        "This paragraph has three sentences."
+        "Adding shaded benches will make every single student score 100% in exams.",
+        "Shaded seating areas may make outdoor break times more comfortable on hot days.",
+        "No student in the country ever enjoys sitting inside a classroom.",
+        "Trees around schools completely stop rain from falling."
       ],
       "answer": 1,
-      "explanation": "Klaim dampak luas perlu data, bukan sekadar keyakinan.",
+      "explanation": "Klaim kedua menggunakan kata pembatas [[may]] dan menghubungkan tempat teduh dengan kenyamanan saat hari panas—hubungan yang logis dan dapat diuji lewat survei siswa.",
       "translationId": {
-        "prompt": "Pernyataan mana yang membutuhkan bukti?",
+        "prompt": "Klaim mana yang paling masuk akal dan paling mudah dipertahankan dengan bukti?",
         "choices": [
-          "Kata shade terdiri dari lima huruf.",
-          "Menambahkan pepohonan akan meningkatkan kondisi setiap sekolah.",
-          "Paragraf ini terdiri atas tiga kalimat."
+          "Menambah bangku teduh akan membuat setiap siswa mendapat nilai 100% dalam ujian.",
+          "Area duduk yang teduh mungkin membuat waktu istirahat di luar ruangan lebih nyaman pada hari panas.",
+          "Tidak ada satu pun siswa di negara ini yang pernah suka duduk di dalam kelas.",
+          "Pepohonan di sekitar sekolah menghentikan hujan turun sepenuhnya."
         ]
       }
     }

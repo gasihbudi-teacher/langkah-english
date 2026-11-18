@@ -1,214 +1,158 @@
 {
   "id": "grade11-environmental-biography",
   "objectives": [
-    "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengurutkan peristiwa dan kontribusi tokoh secara kronologis menggunakan penanda waktu dan past tense.",
+    "Membedakan pencapaian tokoh yang tercatat dalam teks dari pujian umum atau kesimpulan yang berlebihan.",
+    "Menerapkan keterampilan membaca biografi pada bacaan utuh dan latihan pemahaman."
   ],
   "blocks": [
     {
       "type": "definition",
       "title": "Apa itu Biography: Environmental Changemakers?",
-      "text": "[[Biography]] adalah teks yang menceritakan perjalanan hidup seseorang berdasarkan peristiwa, tindakan, dan dampaknya."
+      "text": "[[Biography]] adalah teks nonfiksi yang menceritakan perjalanan hidup seseorang secara kronologis berdasarkan peristiwa nyata, tindakan yang dilakukan, dan dampak yang tercatat."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Amati enam langkah berikut pada satu kisah yang sama—inisiatif kebersihan sungai oleh seorang siswa bernama Maya—untuk membedakan fakta tindakan dari penilaian pembaca.",
       "steps": [
         {
-          "title": "Biografi berbasis fakta",
-          "explanation": "Biografi melaporkan kehidupan tokoh nyata; bedakan dari cerita imajinatif.",
-          "english": "Maya started a reading club.",
-          "indonesian": "Maya memulai klub membaca.",
-          "why": "Ini tindakan tokoh di masa lalu."
+          "title": "1. Kenali tokoh dan latar masalah awal",
+          "explanation": "Bagian pembuka memperkenalkan siapa tokohnya dan situasi awal yang mendorongnya bertindak.",
+          "english": "Maya noticed heavy litter along the river near her school.",
+          "indonesian": "Maya melihat banyak sampah di sepanjang sungai dekat sekolahnya.",
+          "why": "Kalimat ini memperkenalkan tokoh (Maya) dan masalah nyata yang ia amati."
         },
         {
-          "title": "Siapa tokohnya?",
-          "explanation": "Kenali nama, latar, dan bidang kontribusi orang yang dibahas.",
-          "english": "Maya started a reading club.",
-          "indonesian": "Maya memulai klub membaca.",
-          "why": "Ini tindakan tokoh di masa lalu."
+          "title": "2. Catat tindakan pertama dengan penanda waktu",
+          "explanation": "Biografi memakai [[past tense]] dan keterangan waktu untuk menunjukkan kapan sebuah langkah dimulai.",
+          "english": "In 2022, she invited five classmates to record the types of waste on the riverbank.",
+          "indonesian": "Pada tahun 2022, ia mengajak lima teman sekelasnya mencatat jenis-jenis sampah di tepi sungai.",
+          "why": "Frasa [[In 2022]] dan kata kerja [[invited]] menunjukkan tindakan awal yang dapat diverifikasi."
         },
         {
-          "title": "Keadaan awal",
-          "explanation": "Baca pengalaman atau masalah awal yang membentuk fokus kegiatan tokoh.",
-          "english": "She invited local volunteers.",
-          "indonesian": "Ia mengundang relawan setempat.",
-          "why": "Kata “She” merujuk pada Maya."
+          "title": "3. Lacak perkembangan kegiatan secara kronologis",
+          "explanation": "Kata penghubung waktu seperti [[later]] atau [[a year later]] menunjukkan urutan tahap berikutnya.",
+          "english": "The small team later organised monthly clean-ups with local residents.",
+          "indonesian": "Tim kecil tersebut kemudian menyelenggarakan kegiatan bersih-bersih bulanan bersama warga setempat.",
+          "why": "Kata [[later]] menghubungkan pencatatan awal dengan aksi rutin berikutnya."
         },
         {
-          "title": "Urutkan waktu hidup",
-          "explanation": "Gunakan penanda waktu untuk menyusun perkembangan hidup secara kronologis.",
-          "english": "The club later cleaned a riverbank.",
-          "indonesian": "Klub itu kemudian membersihkan tepi sungai.",
-          "why": "“later” menandai perkembangan kegiatan."
+          "title": "4. Identifikasi perluasan kerja sama dan capaian terukur",
+          "explanation": "Perhatikan proyek, kemitraan, atau hasil konkret yang benar-benar disebutkan dalam teks.",
+          "english": "A year later, they partnered with a local library to hold workshops on reusing plastic.",
+          "indonesian": "Setahun kemudian, mereka bermitra dengan perpustakaan setempat untuk mengadakan lokakarya penggunaan ulang plastik.",
+          "why": "Ini adalah pencapaian spesifik yang tercatat, bukan sekadar pujian umum."
         },
         {
-          "title": "Tindakan nyata",
-          "explanation": "Identifikasi proyek, kampanye, penelitian, atau pekerjaan yang benar-benar dilakukan tokoh.",
-          "english": "She organised ten clean-ups.",
-          "indonesian": "Ia menyelenggarakan sepuluh kegiatan bersih-bersih.",
-          "why": "Ini pencapaian yang dapat dihitung."
+          "title": "5. Bedakan fakta pencapaian dari opini berlebihan",
+          "explanation": "Pernyataan seperti 'pemimpin terhebat' atau 'menyelesaikan semua masalah' bersifat penilaian, bukan fakta biografis.",
+          "english": "Their reports helped the community plan new waste bins, though they did not stop all river pollution.",
+          "indonesian": "Laporan mereka membantu warga merencanakan tempat sampah baru, meskipun tidak menghentikan seluruh pencemaran sungai.",
+          "why": "Kalimat ini mengakui dampak nyata sekaligus membatasi klaim agar tetap sesuai bukti."
         },
         {
-          "title": "Hasil yang tercatat",
-          "explanation": "Bedakan capaian yang disebutkan dari pujian umum yang tidak disertai bukti.",
-          "english": "She was the greatest leader ever.",
-          "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
-          "why": "Ini penilaian yang memerlukan kriteria."
-        },
-        {
-          "title": "Pengaruh secara proporsional",
-          "explanation": "Jelaskan hubungan tindakan dengan dampaknya tanpa mengklaim seluruh perubahan disebabkan satu orang.",
-          "english": "Although early meetings attracted only a few people, the group gradually gained more volunteers.",
-          "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit orang, kelompok itu perlahan memperoleh lebih banyak relawan.",
-          "why": "Kalimat menunjukkan perkembangan kerja tokoh."
+          "title": "6. Nilai pengaruh tokoh secara proporsional",
+          "explanation": "Tunjukkan bagaimana kerja tokoh berkembang dari waktu ke waktu tanpa mengabaikan peran orang lain.",
+          "english": "Although early meetings attracted only a few students, the group gradually gained wider community support.",
+          "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit siswa, kelompok itu perlahan memperoleh dukungan warga yang lebih luas.",
+          "why": "Kata [[Although]] dan [[gradually]] menggambarkan proses perkembangan yang realistis."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Maya grew up near a polluted river. As a student, she organised small clean-up days with friends. Later, she worked with local residents to record waste along the riverbank. Her group published its findings and requested more bins. The report describes these actions but does not prove they solved every problem.",
-      "modelIndonesian": "Maya tumbuh besar dekat sungai yang tercemar. Saat menjadi siswa, ia mengorganisasi kegiatan bersih-bersih kecil bersama teman-temannya. Belakangan, ia bekerja dengan warga untuk mencatat sampah di tepi sungai. Kelompoknya menerbitkan hasil pengamatan dan meminta lebih banyak tempat sampah. Laporan ini menggambarkan tindakan tersebut tetapi tidak membuktikan bahwa semua masalah telah teratasi."
+      "modelTitle": "Teks model utuh: Urutan tindakan dan dampak",
+      "modelEnglish": "Maya grew up near a polluted river. In 2022, she organised small clean-up days with five friends. Later, she worked with local residents to record waste along the riverbank. Her group shared its findings and helped the community plan more waste bins. The biography documents these actions without claiming that one group solved every environmental problem.",
+      "modelIndonesian": "Maya tumbuh besar di dekat sungai yang tercemar. Pada tahun 2022, ia menyelenggarakan hari bersih-bersih kecil bersama lima temannya. Belakangan, ia bekerja sama dengan warga setempat untuk mencatat sampah di tepi sungai. Kelompoknya membagikan hasil temuan tersebut dan membantu warga merencanakan lebih banyak tempat sampah. Biografi ini mencatat tindakan tersebut tanpa mengklaim bahwa satu kelompok saja telah menyelesaikan semua masalah lingkungan."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, tanggal, kegiatan, dan hasil membantu pembaca mengikuti kehidupan tokoh. Kalimat [[she founded a club]] menyatakan tindakan; [[she was the greatest leader]] merupakan penilaian yang perlu dasar."
-    },
-    {
-      "type": "text",
-      "text": "Biografi menceritakan kehidupan orang nyata. Kita mulai dari waktu, tindakan, dan dampak yang disebut jelas sebelum menilai pengaruh tokoh."
+      "text": "Jadi intinya, membaca [[biography]] berarti melacak urutan waktu, tindakan nyata ([[past tense]]), dan hasil yang terbukti. Bedakan kalimat fakta seperti [[she organised monthly clean-ups]] dari opini atau pujian seperti [[she was the greatest leader ever]]."
     },
     {
       "type": "rule",
-      "text": "[[Biography]] sering memakai [[past tense]], tanggal, dan urutan peristiwa. Bedakan pencapaian yang tercatat dengan pujian yang bersifat opini."
+      "text": "[[Biography]] menggunakan [[past tense]] ([[noticed]], [[invited]], [[organised]]) dan penanda waktu ([[in 2022]], [[later]], [[a year later]]) untuk menyusun peristiwa secara kronologis. Jangan menyamakan kontribusi terukur dengan klaim mutlak."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Kesalahan berpikir yang sering terjadi"
     },
     {
       "type": "mistake",
-      "incorrect": "Maya solved all river pollution immediately.",
-      "correct": "Maya helped her community plan steps to address litter.",
-      "explanation": "Biografi harus membedakan kontribusi terukur dari klaim berlebihan."
+      "incorrect": "Maya solved all river pollution in her town forever.",
+      "correct": "Maya organised regular clean-ups and waste records that helped her community plan new bins.",
+      "explanation": "Biografi yang akurat melaporkan kontribusi spesifik berdasarkan bukti di dalam teks, bukan melebih-lebihkan hasilnya."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh membedakan fakta biografis dan penilaian"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Bandingkan kalimat yang melaporkan tindakan terukur dengan kalimat yang berisi penilaian atau klaim tanpa bukti."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Fakta tindakan vs. penilaian atau klaim berlebihan",
       "collapsed": false,
       "items": [
         {
-          "english": "Maya started a reading club.",
-          "indonesian": "Maya memulai klub membaca.",
-          "note": "Ini tindakan tokoh di masa lalu."
+          "english": "In 2018, Arif organised volunteers to clean the village stream.",
+          "indonesian": "Pada tahun 2018, Arif mengorganisasi relawan untuk membersihkan sungai kecil di desa.",
+          "note": "Fakta biografis: menyebut tahun, tokoh, dan tindakan nyata."
         },
         {
-          "english": "She invited local volunteers.",
-          "indonesian": "Ia mengundang relawan setempat.",
-          "note": "Kata “She” merujuk pada Maya."
+          "english": "Her team planted fifty trees, but the report does not state how many survived.",
+          "indonesian": "Timnya menanam lima puluh pohon, tetapi laporan itu tidak menyebutkan berapa banyak yang bertahan hidup.",
+          "note": "Memisahkan hasil yang tercatat (menanam 50 pohon) dari hal yang belum dipastikan."
         },
         {
-          "english": "The club later cleaned a riverbank.",
-          "indonesian": "Klub itu kemudian membersihkan tepi sungai.",
-          "note": "“later” menandai perkembangan kegiatan."
+          "english": "After graduating, Hasan taught local students how to measure rainfall.",
+          "indonesian": "Setelah lulus, Hasan mengajari siswa setempat cara mengukur curah hujan.",
+          "note": "Penanda waktu [[After graduating]] menunjukkan urutan tahap kehidupan tokoh."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-environmental-biography",
-      "prompt": "Which sentence means “Ia mengundang relawan setempat.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Ia mengundang relawan setempat.”?",
+      "prompt": "Which sentence states a verifiable action rather than an exaggerated opinion?",
+      "translation": "Kalimat mana yang menyatakan tindakan nyata yang dapat diverifikasi, bukan opini yang dilebih-lebihkan?",
       "choices": [
-        "Maya started a reading club.",
-        "She invited local volunteers.",
-        "The club later cleaned a riverbank."
+        "Maya was the greatest environmental hero in history.",
+        "In 2022, Maya invited five classmates to record waste near the river.",
+        "Maya instantly fixed every pollution problem in her town."
       ],
       "answer": 1,
       "translationChoices": [
-        "Maya memulai klub membaca.",
-        "Ia mengundang relawan setempat.",
-        "Klub itu kemudian membersihkan tepi sungai."
+        "Maya adalah pahlawan lingkungan terhebat sepanjang sejarah.",
+        "Pada tahun 2022, Maya mengajak lima teman sekelasnya mencatat sampah di dekat sungai.",
+        "Maya langsung menyelesaikan setiap masalah pencemaran di kotanya."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kata “She” merujuk pada Maya.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan kedua memuat tahun, pelaku, dan tindakan konkret yang dapat diperiksa. Dua pilihan lainnya merupakan pujian berlebihan dan klaim mutlak tanpa bukti.",
+      "hint": "Cari kalimat yang menyebut waktu dan kegiatan spesifik yang benar-benar dilakukan tokoh."
     },
     {
       "type": "breakdown",
-      "sentence": "Maya started a reading club.",
+      "sentence": "A year later, the team partnered with a local library to hold workshops.",
       "parts": [
         {
-          "english": "Maya",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "A year later,",
+          "meaning": "Penanda waktu ('Setahun kemudian') yang menunjukkan urutan kronologis dari peristiwa sebelumnya."
         },
         {
-          "english": "started a reading club.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Maya memulai klub membaca."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "She organised ten clean-ups.",
-          "indonesian": "Ia menyelenggarakan sepuluh kegiatan bersih-bersih.",
-          "note": "Ini pencapaian yang dapat dihitung."
+          "english": "the team partnered with a local library",
+          "meaning": "Subjek dan tindakan utama dalam bentuk past tense ('tim itu bermitra dengan perpustakaan setempat')."
         },
         {
-          "english": "She was the greatest leader ever.",
-          "indonesian": "Ia adalah pemimpin terhebat sepanjang masa.",
-          "note": "Ini penilaian yang memerlukan kriteria."
-        },
-        {
-          "english": "In 2018, Arif organised volunteers to clean the village stream.",
-          "indonesian": "Pada 2018, Arif mengorganisasi relawan untuk membersihkan sungai kecil di desa.",
-          "note": "Tahun dan tindakan yang spesifik membantu menyusun urutan kehidupan tokoh fiktif."
-        },
-        {
-          "english": "Her team planted fifty trees, but the biography does not claim that every tree survived.",
-          "indonesian": "Timnya menanam lima puluh pohon, tetapi biografi itu tidak menyatakan bahwa semua pohon bertahan hidup.",
-          "note": "Bedakan hasil tindakan yang dinyatakan dengan keberhasilan tambahan yang belum dibuktikan."
-        },
-        {
-          "english": "After graduating, Hasan taught local students how to measure rainfall.",
-          "indonesian": "Setelah lulus, Hasan mengajari siswa setempat cara mengukur curah hujan.",
-          "note": "Keterangan waktu menghubungkan tahap hidup tokoh dengan tindakan nyata."
+          "english": "to hold workshops.",
+          "meaning": "Tujuan kerja sama ('untuk mengadakan lokakarya')."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini pencapaian yang dapat dihitung. Ini penilaian yang memerlukan kriteria."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "After noticing waste near the school, Maya asked neighbours to record litter at the riverbank each weekend.",
-          "indonesian": "Setelah melihat sampah dekat sekolah, Maya meminta tetangga mencatat sampah di tepi sungai setiap akhir pekan.",
-          "note": "Tindakan dimulai dari masalah yang diamati."
-        },
-        {
-          "english": "Although early meetings attracted only a few people, the group gradually gained more volunteers.",
-          "indonesian": "Walaupun pertemuan awal hanya dihadiri sedikit orang, kelompok itu perlahan memperoleh lebih banyak relawan.",
-          "note": "Kalimat menunjukkan perkembangan kerja tokoh."
-        }
-      ]
+      "prompt": "Compare: (A) “She organised ten riverbank clean-ups.” vs. (B) “She was the greatest leader ever.” What is the difference between these two statements?",
+      "translation": "Bandingkan: (A) “Ia menyelenggarakan sepuluh kegiatan bersih-bersih tepi sungai.” vs. (B) “Ia adalah pemimpin terhebat sepanjang masa.” Apa perbedaan antara kedua pernyataan ini?",
+      "answer": "Kalimat (A) adalah fakta terukur yang dapat dihitung dan diverifikasi, sedangkan kalimat (B) adalah opini subjektif yang memerlukan kriteria jelas dan tidak dapat dibuktikan hanya dari satu kegiatan."
     },
     {
       "type": "heading",
@@ -216,57 +160,57 @@
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Bacalah paragraf biografi berikut secara utuh. Tandai urutan waktunya dan perhatikan bagaimana penulis membatasi klaim keberhasilan tokoh."
     },
     {
       "type": "example",
       "text": "Maya Putri, a fictional student leader in this practice biography, noticed litter near the river in her town. In 2022, she invited five classmates to record the types of waste they found. They began monthly clean-ups and shared the results with residents. A year later, the team partnered with a local library to hold workshops about reusing materials. The workshops attracted more volunteers, but Maya reminded the team that keeping records mattered more than claiming instant success. Their reports helped the community plan new waste bins.",
-      "note": "Ringkasan bantuan: Bagaimana pemimpin siswa mengorganisasi kegiatan lingkungan berbasis catatan. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "note": "Urutan kronologis: Awal = melihat sampah di sungai → 2022 = mencatat jenis sampah & bersih-bersih bulanan → 2023 (A year later) = lokakarya bersama perpustakaan → Dampak terukur = membantu warga merencanakan tempat sampah baru."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Mengurutkan kontribusi tokoh serta membedakan pencapaian dari kesimpulan pembaca.",
-        "[[Biography]] sering memakai [[past tense]], tanggal, dan urutan peristiwa. Bedakan pencapaian yang tercatat dengan pujian yang bersifat opini.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Gunakan penanda waktu ([[in 2022]], [[later]], [[a year later]]) dan kata kerja [[past tense]] untuk menyusun urutan hidup tokoh.",
+        "Bedakan pencapaian yang tercatat dalam teks dari pujian subjektif atau kesimpulan berlebihan.",
+        "Kembali ke kalimat bukti di dalam bacaan sebelum menjawab soal pemahaman."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Peristiwa mana yang bisa diverifikasi, dan mana yang hanya pujian?",
-      "model": "In 2018, Arif organised volunteers to clean the village stream.",
-      "modelTranslation": "Pada 2018, Arif mengorganisasi relawan untuk membersihkan sungai kecil di desa.",
-      "criteria": "Tahun dan tindakan yang spesifik membantu menyusun urutan kehidupan tokoh fiktif."
+      "prompt": "Tulis dua kalimat bahasa Inggris tentang kegiatan lingkungan seorang tokoh (nyata atau fiktif): kalimat pertama menyebut tahun dan tindakan awalnya, dan kalimat kedua menyebut perkembangan berikutnya menggunakan 'Later'.",
+      "model": "In 2021, Rina started a school composting project with three friends. Later, she trained younger students to sort organic waste every Friday.",
+      "modelTranslation": "Pada tahun 2021, Rina memulai proyek pengomposan sekolah bersama tiga temannya. Belakangan, ia melatih adik kelas untuk memilah sampah organik setiap hari Jumat.",
+      "criteria": "Menggunakan past tense, menyebut tindakan konkret yang dapat diverifikasi, dan memakai penanda waktu kronologis."
     },
     {
       "type": "vocabulary",
       "title": "Bekal kosakata penting",
       "items": [
         {
+          "english": "litter",
+          "indonesian": "sampah berserakan"
+        },
+        {
+          "english": "record",
+          "indonesian": "mencatat / catatan data"
+        },
+        {
+          "english": "monthly",
+          "indonesian": "bulanan / setiap bulan"
+        },
+        {
+          "english": "resident",
+          "indonesian": "warga / penduduk setempat"
+        },
+        {
+          "english": "reuse",
+          "indonesian": "menggunakan kembali"
+        },
+        {
           "english": "volunteer",
           "indonesian": "relawan"
-        },
-        {
-          "english": "organise",
-          "indonesian": "mengorganisasi"
-        },
-        {
-          "english": "achievement",
-          "indonesian": "pencapaian"
-        },
-        {
-          "english": "community",
-          "indonesian": "komunitas"
-        },
-        {
-          "english": "impact",
-          "indonesian": "dampak"
         }
       ]
     }
@@ -274,43 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “started”?",
+      "prompt": "According to the sample biography, what did Maya and her classmates do first in 2022?",
       "choices": [
-        "Maya started a reading club.",
-        "She invited local volunteers.",
-        "The club later cleaned a riverbank.",
-        "She organised ten clean-ups."
+        "They built new waste bins across the entire town.",
+        "They recorded the types of waste they found near the river.",
+        "They held workshops at a local library about reusing materials.",
+        "They solved all water pollution problems in the community."
       ],
-      "answer": 0,
-      "explanation": "Ungkapan [[started]] muncul dalam kalimat [[Maya started a reading club.]]. Ini tindakan tokoh di masa lalu.",
+      "answer": 1,
+      "explanation": "Pada kalimat kedua bacaan contoh, pada tahun 2022 Maya mengajak lima teman sekelasnya untuk mencatat jenis-jenis sampah ([[record the types of waste]]) yang mereka temukan di dekat sungai.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “started”?",
+        "prompt": "Berdasarkan biografi contoh, apa yang pertama kali dilakukan Maya dan teman-teman sekelasnya pada tahun 2022?",
         "choices": [
-          "Maya memulai klub membaca.",
-          "Ia mengundang relawan setempat.",
-          "Klub itu kemudian membersihkan tepi sungai.",
-          "Ia menyelenggarakan sepuluh kegiatan bersih-bersih."
+          "Mereka membangun tempat sampah baru di seluruh kota.",
+          "Mereka mencatat jenis-jenis sampah yang ditemukan di dekat sungai.",
+          "Mereka mengadakan lokakarya di perpustakaan setempat tentang penggunaan ulang bahan.",
+          "Mereka menyelesaikan seluruh masalah pencemaran air di masyarakat."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “riverbank”?",
+      "prompt": "Which statement is supported by evidence in the passage?",
       "choices": [
-        "Maya started a reading club.",
-        "The club later cleaned a riverbank.",
-        "She invited local volunteers.",
-        "She organised ten clean-ups."
+        "Maya's workshops permanently ended all littering in her town.",
+        "The team's waste reports helped the community plan new waste bins.",
+        "Maya worked completely alone without any help from classmates or residents.",
+        "The local library funded every clean-up activity since 2020."
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[riverbank]] muncul dalam kalimat [[The club later cleaned a riverbank.]]. “later” menandai perkembangan kegiatan.",
+      "explanation": "Kalimat terakhir bacaan secara eksplisit menyatakan bahwa laporan mereka membantu warga merencanakan tempat sampah baru ([[helped the community plan new waste bins]]).",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “riverbank”?",
+        "prompt": "Pernyataan mana yang didukung oleh bukti dalam bacaan?",
         "choices": [
-          "Maya memulai klub membaca.",
-          "Klub itu kemudian membersihkan tepi sungai.",
-          "Ia mengundang relawan setempat.",
-          "Ia menyelenggarakan sepuluh kegiatan bersih-bersih."
+          "Lokakarya Maya menghentikan kebiasaan membuang sampah sembarangan untuk selamanya.",
+          "Laporan sampah tim tersebut membantu warga merencanakan tempat sampah baru.",
+          "Maya bekerja sepenuhnya sendirian tanpa bantuan teman sekelas atau warga.",
+          "Perpustakaan setempat mendanai seluruh kegiatan bersih-bersih sejak tahun 2020."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "Why did Maya remind her team that keeping records mattered more than claiming instant success?",
+      "choices": [
+        "Because accurate records show real progress without exaggerating what has been achieved.",
+        "Because she wanted to stop residents from joining the monthly clean-ups.",
+        "Because the local library forbade students from talking about the river.",
+        "Because keeping records meant they no longer needed to clean the riverbank."
+      ],
+      "answer": 0,
+      "explanation": "Mencatat data secara konsisten membantu tim melihat perkembangan nyata dan menghindari klaim keberhasilan instan yang belum terbukti.",
+      "translationId": {
+        "prompt": "Mengapa Maya mengingatkan timnya bahwa mencatat data lebih penting daripada mengklaim keberhasilan instan?",
+        "choices": [
+          "Karena catatan yang akurat menunjukkan perkembangan nyata tanpa melebih-lebihkan capaian.",
+          "Karena ia ingin menghentikan warga agar tidak ikut bersih-bersih bulanan.",
+          "Karena perpustakaan setempat melarang siswa membicarakan sungai.",
+          "Karena mencatat data berarti mereka tidak perlu lagi membersihkan tepi sungai."
         ]
       }
     }

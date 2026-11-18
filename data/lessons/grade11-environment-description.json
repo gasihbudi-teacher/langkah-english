@@ -1,207 +1,158 @@
 {
   "id": "grade11-environment-description",
   "objectives": [
-    "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Mengidentifikasi detail pengamatan lingkungan berdasarkan lokasi dan ciri yang dapat dilihat atau diukur.",
+    "Membedakan laporan kondisi lingkungan (observation) dari dugaan penyebab yang belum terbukti (inference).",
+    "Menerapkan strategi membaca teks deskriptif lingkungan pada bacaan utuh dan soal pemahaman."
   ],
   "blocks": [
     {
       "type": "definition",
       "title": "Apa itu Describing Environmental Conditions?",
-      "text": "[[Environmental descriptive text]] adalah teks yang menggambarkan keadaan suatu lingkungan melalui ciri yang dapat diamati."
+      "text": "[[Environmental descriptive text]] adalah teks yang menggambarkan keadaan suatu tempat atau ekosistem melalui ciri fisik yang dapat diamati secara langsung—seperti warna, ukuran, jumlah, bau, dan letaknya."
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti enam langkah berikut pada satu lokasi yang sama—pengamatan kondisi sungai di belakang sekolah—untuk membedakan fakta lapangan dari dugaan penyebab.",
       "steps": [
         {
-          "title": "Tempat yang diamati",
-          "explanation": "Tentukan lokasi dan kondisi lingkungan yang menjadi fokus deskripsi.",
-          "english": "The river is narrow.",
-          "indonesian": "Sungai itu sempit.",
-          "why": "Kata “narrow” menerangkan ukuran."
+          "title": "1. Tentukan objek dan ciri dasar tempat",
+          "explanation": "Mulailah dengan mengenali lokasi yang diamati serta ukuran atau bentuk dasarnya.",
+          "english": "The river behind the school is narrow and shallow.",
+          "indonesian": "Sungai di belakang sekolah itu sempit dan dangkal.",
+          "why": "Kata sifat [[narrow]] dan [[shallow]] menjelaskan ciri fisik yang dapat diukur."
         },
         {
-          "title": "Cari pengamatan konkret",
-          "explanation": "Kumpulkan detail yang benar-benar terlihat, terukur, atau disebut di teks.",
-          "english": "The river is narrow.",
-          "indonesian": "Sungai itu sempit.",
-          "why": "Kata “narrow” menerangkan ukuran."
+          "title": "2. Catat pengamatan di bagian pertama (Upstream)",
+          "explanation": "Kumpulkan detail yang benar-benar terlihat di titik pengamatan pertama.",
+          "english": "Upstream, the water appears clear and small fish are visible near the stones.",
+          "indonesian": "Di bagian hulu, air tampak jernih dan ikan-ikan kecil terlihat di dekat bebatuan.",
+          "why": "Ini laporan pengamatan visual langsung di lokasi tertentu ([[Upstream]])."
         },
         {
-          "title": "Kosakata kondisi",
-          "explanation": "Kenali kata seperti [[polluted]], [[clean]], [[dry]], atau [[crowded]] dalam konteks.",
-          "english": "Plastic bags float near the bridge.",
-          "indonesian": "Kantong plastik mengapung di dekat jembatan.",
-          "why": "Ini pengamatan yang dapat dilihat."
+          "title": "3. Catat perubahan kondisi di titik kedua (Bridge)",
+          "explanation": "Perhatikan penanda lokasi untuk membandingkan kondisi antarbagian tempat.",
+          "english": "Beside the pedestrian bridge, floating plastic bags collect against the steps.",
+          "indonesian": "Di samping jembatan pejalan kaki, kantong plastik yang mengapung terkumpul di dekat tangga.",
+          "why": "Frasa [[Beside the pedestrian bridge]] menunjukkan letak spesifik sampah yang terlihat."
         },
         {
-          "title": "Lokasi dan tingkat perubahan",
-          "explanation": "Ungkapan tempat dan derajat membantu memperjelas lokasi dan berat-ringannya kondisi.",
-          "english": "The water smells unpleasant.",
-          "indonesian": "Airnya berbau tidak sedap.",
-          "why": "Kalimat mendeskripsikan keadaan air."
+          "title": "4. Deskripsikan kondisi di titik ketiga (Downstream)",
+          "explanation": "Gunakan kata sifat kondisi seperti [[cloudy]], [[polluted]], atau [[unpleasant]] sesuai pengamatan.",
+          "english": "Downstream, the water looks cloudy and smells unpleasant after heavy rain.",
+          "indonesian": "Di bagian hilir, air tampak keruh dan berbau tidak sedap setelah hujan deras.",
+          "why": "Warna keruh dan bau adalah pengamatan indrawi, bukan kesimpulan penyebab."
         },
         {
-          "title": "Fakta vs dugaan penyebab",
-          "explanation": "Air keruh adalah pengamatan; menyalahkan pabrik tertentu tanpa bukti adalah kesimpulan tambahan.",
-          "english": "Several plastic bottles were visible near the riverbank.",
-          "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
-          "why": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+          "title": "5. Pisahkan fakta pengamatan dari dugaan penyebab",
+          "explanation": "Melihat air keruh adalah fakta; menyalahkan satu pabrik atau pihak tertentu tanpa bukti adalah dugaan.",
+          "english": "Cloudy water after rain is an observation, not proof that one factory caused the pollution.",
+          "indonesian": "Air keruh setelah hujan adalah pengamatan, bukan bukti bahwa satu pabrik menyebabkan pencemaran tersebut.",
+          "why": "Pengamatan warna air belum cukup untuk memastikan sumber pencemarannya."
         },
         {
-          "title": "Gabungkan dalam paragraf",
-          "explanation": "Susun kondisi dan lokasi menjadi deskripsi yang jelas dengan klaim sesuai informasi yang tersedia.",
-          "english": "Students recorded the colour of the water at three locations rather than making conclusions from one photograph.",
-          "indonesian": "Siswa mencatat warna air di tiga lokasi daripada menyimpulkan dari satu foto.",
-          "why": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
+          "title": "6. Tarik kesimpulan sesuai batas data",
+          "explanation": "Deskripsi yang cermat mencatat perbedaan antarlokasi dan menyarankan pengujian jika ingin mengetahui penyebabnya.",
+          "english": "Students recorded water colour at three spots instead of judging the whole river from one photo.",
+          "indonesian": "Siswa mencatat warna air di tiga titik alih-alih menilai seluruh sungai dari satu foto.",
+          "why": "Membandingkan beberapa titik mencegah kesimpulan yang terburu-buru."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "The river near the market looks brown after heavy rain. Plastic waste is visible along the bank. There are fewer trees near the bridge than in the upstream area. These are observations; the text does not establish who caused the pollution.",
-      "modelIndonesian": "Sungai dekat pasar terlihat cokelat setelah hujan deras. Sampah plastik terlihat di sepanjang tepinya. Pohon di dekat jembatan lebih sedikit daripada di kawasan hulu. Ini adalah pengamatan; teks tidak memastikan siapa penyebab pencemarannya."
+      "modelTitle": "Teks model utuh: Pengamatan lingkungan yang objektif",
+      "modelEnglish": "The river near the market looks brown after heavy rain. Plastic bottles are visible along the bank, and fewer trees grow near the bridge than in the upstream area. These sentences report direct observations; the text does not prove who caused the pollution.",
+      "modelIndonesian": "Sungai di dekat pasar terlihat cokelat setelah hujan deras. Botol-botol plastik terlihat di sepanjang tepi sungai, dan pohon yang tumbuh di dekat jembatan lebih sedikit daripada di kawasan hulu. Kalimat-kalimat ini melaporkan pengamatan langsung; teks tidak membuktikan siapa penyebab pencemarannya."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "Jadi intinya, penjelasan tentang warna air, bau, dan sampah merupakan pengamatan; pernyataan tentang penyebab pencemaran masih memerlukan bukti. Pilih kata sifat yang menggambarkan objek dengan tepat."
-    },
-    {
-      "type": "text",
-      "text": "Ketika seseorang mendeskripsikan sungai, kita mulai dari hal yang dapat diamati: warna air, sampah, bau, dan tempat. Dugaan penyebab perlu bukti tambahan."
+      "text": "Jadi intinya, teks deskriptif lingkungan melaporkan apa yang terlihat, tercium, atau terukur di lokasi tertentu ([[clear]], [[cloudy]], [[narrow]]). Jangan mengubah pengamatan kondisi menjadi tuduhan penyebab tanpa bukti pengujian."
     },
     {
       "type": "rule",
-      "text": "[[Descriptive text]] menunjukkan ciri tempat; kata seperti [[clear]], [[narrow]], dan [[polluted]] memberi detail. Jangan mengubah pengamatan menjadi klaim penyebab tanpa data."
+      "text": "[[Environmental description]] menggabungkan keterangan lokasi ([[upstream]], [[near the bridge]], [[downstream]]) dengan kata sifat pengamatan ([[clear]], [[cloudy]], [[floating]]). Bedakan [[observation]] (fakta teramati) dari [[cause claim]] (dugaan penyebab)."
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Kesalahan berpikir yang sering terjadi"
     },
     {
       "type": "mistake",
-      "incorrect": "Cloudy water proves one factory caused the problem.",
-      "correct": "Cloudy water is an observation; its cause needs more evidence.",
-      "explanation": "Pengamatan tidak otomatis membuktikan penyebab tertentu."
+      "incorrect": "The water looks cloudy, which proves a nearby factory dumped waste into the river.",
+      "correct": "The water looks cloudy after heavy rain, so further testing is needed to find the cause.",
+      "explanation": "Air keruh bisa disebabkan oleh tanah terbawa hujan maupun limbah; pengamatan visual saja tidak membuktikan satu penyebab tertentu."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Contoh membedakan pengamatan dan dugaan penyebab"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Amati bagaimana penanda lokasi dan bahasa hati-hati menjaga deskripsi tetap akurat."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Laporan pengamatan vs. kesimpulan tanpa bukti",
       "collapsed": false,
       "items": [
         {
-          "english": "The river is narrow.",
-          "indonesian": "Sungai itu sempit.",
-          "note": "Kata “narrow” menerangkan ukuran."
+          "english": "Several plastic bottles were visible near the riverbank.",
+          "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
+          "note": "Pengamatan objektif: melaporkan benda dan lokasinya tanpa menuduh siapa yang membuang."
         },
         {
-          "english": "Plastic bags float near the bridge.",
-          "indonesian": "Kantong plastik mengapung di dekat jembatan.",
-          "note": "Ini pengamatan yang dapat dilihat."
+          "english": "The water looked cloudy after the storm, but the exact cause was not confirmed.",
+          "indonesian": "Air tampak keruh setelah badai, tetapi penyebab pastinya belum dipastikan.",
+          "note": "Urutan waktu [[after the storm]] dicatat secara jujur tanpa menyimpulkan penyebab tunggal."
         },
         {
-          "english": "The water smells unpleasant.",
-          "indonesian": "Airnya berbau tidak sedap.",
-          "note": "Kalimat mendeskripsikan keadaan air."
+          "english": "Near the footbridge, the bank was covered with grass, whereas plastic waste collected beside the steps.",
+          "indonesian": "Di dekat jembatan pejalan kaki, tepi sungai ditumbuhi rumput, sedangkan sampah plastik terkumpul di samping tangga.",
+          "note": "Kata [[whereas]] membandingkan dua kondisi nyata pada bagian tempat yang berbeda."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-environment-description",
-      "prompt": "Which sentence means “Kantong plastik mengapung di dekat jembatan.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Kantong plastik mengapung di dekat jembatan.”?",
+      "prompt": "Which sentence reports a direct observation rather than an unproven claim about cause?",
+      "translation": "Kalimat mana yang melaporkan pengamatan langsung, bukan dugaan penyebab yang belum terbukti?",
       "choices": [
-        "The river is narrow.",
-        "Plastic bags float near the bridge.",
-        "The water smells unpleasant."
+        "A nearby factory definitely poisoned all the fish last night.",
+        "Floating plastic waste collected beside the pedestrian bridge steps.",
+        "Local shopkeepers are the only people who litter in the river."
       ],
       "answer": 1,
       "translationChoices": [
-        "Sungai itu sempit.",
-        "Kantong plastik mengapung di dekat jembatan.",
-        "Airnya berbau tidak sedap."
+        "Sebuah pabrik di dekat situ pasti meracuni semua ikan tadi malam.",
+        "Sampah plastik yang mengapung terkumpul di samping tangga jembatan pejalan kaki.",
+        "Pemilik toko setempat adalah satu-satunya pihak yang membuang sampah ke sungai."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini pengamatan yang dapat dilihat.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan kedua menyebutkan benda ([[floating plastic waste]]) dan lokasi spesifik ([[beside the pedestrian bridge steps]]) yang dapat dilihat langsung. Dua pilihan lainnya menuduh pelaku tanpa bukti.",
+      "hint": "Pilih kalimat yang hanya menjelaskan apa yang terlihat di lokasi, tanpa menebak pelakunya."
     },
     {
       "type": "breakdown",
-      "sentence": "The river is narrow.",
+      "sentence": "Upstream, the water appeared clear, whereas downstream it looked cloudy after heavy rain.",
       "parts": [
         {
-          "english": "The",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Upstream, the water appeared clear,",
+          "meaning": "Pengamatan pertama di lokasi hulu ('Di bagian hulu, air tampak jernih')."
         },
         {
-          "english": "river is narrow.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Sungai itu sempit."
-        }
-      ]
-    },
-    {
-      "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "The water looked cloudy after rain.",
-          "indonesian": "Air tampak keruh setelah hujan.",
-          "note": "Ini laporan kondisi yang terlihat."
+          "english": "whereas downstream",
+          "meaning": "Penanda kontras lokasi ('sedangkan di bagian hilir')."
         },
         {
-          "english": "The factory caused all the pollution.",
-          "indonesian": "Pabrik menyebabkan seluruh polusi.",
-          "note": "Ini klaim sebab yang memerlukan bukti."
-        },
-        {
-          "english": "Several plastic bottles were visible near the riverbank.",
-          "indonesian": "Beberapa botol plastik terlihat di dekat tepi sungai.",
-          "note": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
-        },
-        {
-          "english": "The water looked cloudy after the storm, but the cause was not confirmed.",
-          "indonesian": "Air tampak keruh setelah badai, tetapi penyebabnya belum dipastikan.",
-          "note": "Hubungan waktu [[after the storm]] tidak otomatis membuktikan penyebab perubahan warna."
-        },
-        {
-          "english": "A thin layer of foam covered the water near the bridge.",
-          "indonesian": "Lapisan tipis busa menutupi air di dekat jembatan.",
-          "note": "Deskripsi menyebut lokasi dan ciri yang bisa diamati tanpa memastikan penyebab busa."
+          "english": "it looked cloudy after heavy rain.",
+          "meaning": "Pengamatan kedua beserta keterangan waktu ('air tampak keruh setelah hujan deras')."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini laporan kondisi yang terlihat. Ini klaim sebab yang memerlukan bukti."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Near the footbridge, the riverbanks were covered with grass, but plastic waste collected beside the steps.",
-          "indonesian": "Di dekat jembatan pejalan kaki, tepian sungai ditumbuhi rumput, tetapi sampah plastik terkumpul di samping tangga.",
-          "note": "Kata “but” memperlihatkan kontras kondisi dua lokasi."
-        },
-        {
-          "english": "Students recorded the colour of the water at three locations rather than making conclusions from one photograph.",
-          "indonesian": "Siswa mencatat warna air di tiga lokasi daripada menyimpulkan dari satu foto.",
-          "note": "Pengamatan beberapa lokasi lebih informatif daripada satu gambar."
-        }
-      ]
+      "prompt": "Compare: (A) “The water looked cloudy after rain.” vs. (B) “The factory caused all the pollution.” Why is sentence (A) safer in a descriptive report?",
+      "translation": "Bandingkan: (A) “Air tampak keruh setelah hujan.” vs. (B) “Pabrik itu menyebabkan seluruh polusi.” Mengapa kalimat (A) lebih tepat dalam laporan deskriptif?",
+      "answer": "Kalimat (A) hanya melaporkan ciri visual yang benar-benar terlihat dan kapan itu terjadi, sedangkan kalimat (B) membuat tuduhan penyebab yang luas tanpa data pendukung."
     },
     {
       "type": "heading",
@@ -209,57 +160,57 @@
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Bacalah paragraf berikut secara utuh. Perhatikan bagaimana siswa membedakan kondisi di tiga titik sungai dan menjaga kesimpulan tetap hati-hati."
     },
     {
       "type": "example",
       "text": "Students described the river behind their school during a community project. Upstream, the water appeared clear and small fish could be seen near the stones. Beside the pedestrian bridge, floating plastic collected against the steps. Downstream, the water looked cloudy after heavy rain. The students recorded these observations at three locations but avoided blaming one source for the changes. They proposed collecting samples with a local environmental group before making stronger claims about water quality.",
-      "note": "Ringkasan bantuan: Siswa dengan hati-hati mendeskripsikan kondisi sungai di beberapa tempat. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
-    },
-    {
-      "type": "text",
-      "text": "Sebelum latihan mandiri, coba jelaskan dengan bahasa Indonesia: topiknya apa, bagian mana merupakan bukti, dan hal apa yang belum bisa kita pastikan dari bacaan?"
+      "note": "Pemetaan lokasi: Upstream = air jernih & ikan kecil terlihat; Pedestrian bridge = plastik mengapung di tangga; Downstream = air keruh setelah hujan; Sikap ilmiah = tidak menuduh satu sumber sebelum pengambilan sampel."
     },
     {
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Membaca pengamatan lingkungan dan membedakan kondisi dari dugaan penyebabnya.",
-        "[[Descriptive text]] menunjukkan ciri tempat; kata seperti [[clear]], [[narrow]], dan [[polluted]] memberi detail. Jangan mengubah pengamatan menjadi klaim penyebab tanpa data.",
-        "Saat berlatih, kembali ke kalimat bukti sebelum menentukan jawaban. Kamu boleh membuka bantuan terjemahan."
+        "Gunakan kata sifat kondisi ([[clear]], [[cloudy]], [[narrow]]) dan penanda tempat ([[upstream]], [[downstream]]) untuk mendeskripsikan lingkungan secara rinci.",
+        "Pisahkan apa yang langsung diamati ([[observation]]) dari dugaan penyebab yang belum diuji.",
+        "Pengamatan dari beberapa titik memberikan gambaran yang lebih akurat daripada satu sudut pandang saja."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Apa yang benar-benar terlihat, dan apa yang baru dugaan?",
-      "model": "Several plastic bottles were visible near the riverbank.",
-      "modelTranslation": "Beberapa botol plastik terlihat di dekat tepi sungai.",
-      "criteria": "Kalimat ini melaporkan benda yang tampak; belum menuduh siapa yang membuangnya."
+      "prompt": "Tulis dua kalimat bahasa Inggris yang mendeskripsikan kondisi taman atau selokan di sekitar sekolah tanpa menebak penyebabnya. Gunakan penanda lokasi (misalnya 'Near the gate' atau 'Behind the canteen').",
+      "model": "Near the school gate, the drain water looks dark and leaves cover the metal grate. Behind the canteen, several plastic cups lie beside the bin.",
+      "modelTranslation": "Di dekat gerbang sekolah, air selokan tampak gelap dan dedaunan menutupi jeruji besi. Di belakang kantin, beberapa gelas plastik tergeletak di samping tempat sampah.",
+      "criteria": "Menyebutkan lokasi spesifik dan ciri yang dapat diamati langsung tanpa membuat tuduhan penyebab."
     },
     {
       "type": "vocabulary",
       "title": "Bekal kosakata penting",
       "items": [
         {
-          "english": "riverbank",
-          "indonesian": "tepi sungai"
+          "english": "upstream",
+          "indonesian": "bagian hulu (arah asal aliran)"
+        },
+        {
+          "english": "downstream",
+          "indonesian": "bagian hilir (arah aliran menuju muara)"
         },
         {
           "english": "cloudy",
-          "indonesian": "keruh"
+          "indonesian": "keruh / tidak jernih"
         },
         {
-          "english": "waste",
-          "indonesian": "sampah"
+          "english": "floating",
+          "indonesian": "mengapung"
         },
         {
-          "english": "observe",
-          "indonesian": "mengamati"
+          "english": "observation",
+          "indonesian": "pengamatan langsung"
         },
         {
-          "english": "location",
-          "indonesian": "lokasi"
+          "english": "sample",
+          "indonesian": "sampel / contoh uji"
         }
       ]
     }
@@ -267,43 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “narrow”?",
+      "prompt": "According to the sample passage, where did students see floating plastic?",
       "choices": [
-        "Plastic bags float near the bridge.",
-        "The water smells unpleasant.",
-        "The water looked cloudy after rain.",
-        "The river is narrow."
+        "Upstream near the stones where small fish were swimming.",
+        "Beside the pedestrian bridge against the steps.",
+        "Inside the school science laboratory.",
+        "Along the main road in front of the school."
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[narrow]] muncul dalam kalimat [[The river is narrow.]]. Kata “narrow” menerangkan ukuran.",
+      "answer": 1,
+      "explanation": "Kalimat ketiga bacaan menyebutkan bahwa sampah plastik yang mengapung terkumpul di samping tangga jembatan pejalan kaki ([[Beside the pedestrian bridge, floating plastic collected against the steps]]).",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “narrow”?",
+        "prompt": "Berdasarkan bacaan contoh, di mana siswa melihat sampah plastik yang mengapung?",
         "choices": [
-          "Kantong plastik mengapung di dekat jembatan.",
-          "Airnya berbau tidak sedap.",
-          "Air tampak keruh setelah hujan.",
-          "Sungai itu sempit."
+          "Di bagian hulu dekat bebatuan tempat ikan kecil berenang.",
+          "Di samping jembatan pejalan kaki menumpuk pada tangga.",
+          "Di dalam laboratorium sains sekolah.",
+          "Di sepanjang jalan utama di depan sekolah."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “unpleasant”?",
+      "prompt": "Why did the students avoid blaming one source for the cloudy water downstream?",
       "choices": [
-        "The water smells unpleasant.",
-        "The river is narrow.",
-        "Plastic bags float near the bridge.",
-        "The water looked cloudy after rain."
+        "Because they did not visit the downstream area during their project.",
+        "Because visual observation alone cannot prove the exact cause without testing samples.",
+        "Because cloudy water always means the river is completely clean.",
+        "Because they had already proved that heavy rain never affects rivers."
       ],
-      "answer": 0,
-      "explanation": "Ungkapan [[unpleasant]] muncul dalam kalimat [[The water smells unpleasant.]]. Kalimat mendeskripsikan keadaan air.",
+      "answer": 1,
+      "explanation": "Pengamatan warna air hanya menunjukkan kondisi fisik; untuk memastikan penyebab perubahan kualitas air diperlukan pengambilan dan pengujian sampel bersama kelompok lingkungan.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “unpleasant”?",
+        "prompt": "Mengapa para siswa menghindari menyalahkan satu sumber atas air yang keruh di bagian hilir?",
         "choices": [
-          "Airnya berbau tidak sedap.",
-          "Sungai itu sempit.",
-          "Kantong plastik mengapung di dekat jembatan.",
-          "Air tampak keruh setelah hujan."
+          "Karena mereka tidak mengunjungi bagian hilir selama proyek berlangsung.",
+          "Karena pengamatan visual saja tidak dapat membuktikan penyebab pasti tanpa pengujian sampel.",
+          "Karena air keruh selalu berarti sungai tersebut sepenuhnya bersih.",
+          "Karena mereka sudah membuktikan bahwa hujan deras tidak pernah memengaruhi sungai."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "Which sentence is purely an environmental observation?",
+      "choices": [
+        "Careless factory workers ruined this river last week.",
+        "The water upstream appeared clear and small fish were visible near the stones.",
+        "Everyone in the neighbourhood ignores river cleanliness.",
+        "The river will never recover unless all shops close."
+      ],
+      "answer": 1,
+      "explanation": "Kalimat ini hanya melaporkan ciri air dan keberadaan ikan kecil yang tampak secara langsung di bagian hulu tanpa membuat tuduhan.",
+      "translationId": {
+        "prompt": "Kalimat mana yang murni merupakan pengamatan lingkungan?",
+        "choices": [
+          "Pekerja pabrik yang ceroboh merusak sungai ini minggu lalu.",
+          "Air di bagian hulu tampak jernih dan ikan-ikan kecil terlihat di dekat bebatuan.",
+          "Semua orang di lingkungan ini mengabaikan kebersihan sungai.",
+          "Sungai ini tidak akan pernah pulih kecuali semua toko ditutup."
         ]
       }
     }
