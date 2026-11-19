@@ -3360,7 +3360,7 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 471,
-      "title": "Discussion Text: Weighing Two Sides",
+      "title": "Discussion Text · Cek singkat (4 soal)",
       "description": "Mengidentifikasi dua sudut pandang, alasan masing-masing, dan simpulan yang proporsional.",
       "placements": [
         {
@@ -3383,6 +3383,154 @@
         "phase": "F",
         "genre": "Discussion Text",
         "theme": "carbon footprints",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text-practice-1",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-discussion-text"
+      ],
+      "file": "data/quizzes/grade12-discussion-text-practice-1.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 472,
+      "title": "Discussion Text · Latihan 1/4 · Memahami dua sudut pandang",
+      "description": "Kenali isu, pendapat, alasan, dan titik temu dalam dua diskusi sekolah.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Discussion Text",
+        "Grade 12",
+        "school travel and quiet spaces"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "school travel and quiet spaces",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text-practice-2",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-discussion-text"
+      ],
+      "file": "data/quizzes/grade12-discussion-text-practice-2.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 473,
+      "title": "Discussion Text · Latihan 2/4 · Menilai bukti",
+      "description": "Tentukan siapa yang diamati, apa yang diukur, dan bukti yang masih diperlukan.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Discussion Text",
+        "Grade 12",
+        "school trials and surveys"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "school trials and surveys",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text-practice-3",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-discussion-text"
+      ],
+      "file": "data/quizzes/grade12-discussion-text-practice-3.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 474,
+      "title": "Discussion Text · Latihan 3/4 · Menimbang rekomendasi",
+      "description": "Nilai usulan dengan mempertimbangkan kebutuhan kedua pihak, syarat, dan keterbatasannya.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Discussion Text",
+        "Grade 12",
+        "shared school resources"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "shared school resources",
+        "curriculumElement": "Reading–Viewing",
+        "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
+      }
+    },
+    {
+      "id": "grade12-discussion-text-practice-4",
+      "type": "quiz",
+      "relatedLessons": [
+        "grade12-discussion-text"
+      ],
+      "file": "data/quizzes/grade12-discussion-text-practice-4.json",
+      "kind": "practice",
+      "examFormat": "topic",
+      "order": 475,
+      "title": "Discussion Text · Latihan 4/4 · Membandingkan dua sumber",
+      "description": "Gunakan dua sumber untuk memilih dan membela simpulan pada topik baru.",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "Discussion Text",
+        "Grade 12",
+        "oral history and canteen decisions"
+      ],
+      "aiGenerated": true,
+      "unofficial": true,
+      "curriculumAlignment": {
+        "grade": 12,
+        "phase": "F",
+        "genre": "Discussion Text",
+        "theme": "oral history and canteen decisions",
         "curriculumElement": "Reading–Viewing",
         "mappingNote": "Selaras secara tematik dengan CP bahasa Inggris dan buku pemerintah; bukan urutan bab wajib nasional."
       }
