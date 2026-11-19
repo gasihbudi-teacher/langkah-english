@@ -13,54 +13,56 @@
     },
     {
       "type": "scaffold",
-      "intro": "Amati enam langkah berikut pada satu isu yang sama—kebijakan mengurangi penggunaan kendaraan pribadi ke sekolah—untuk melihat bagaimana dua sisi argumen disusun secara adil.",
+      "intro": "Baca empat kalimat tentang perjalanan ke sekolah. Saat membaca, pikirkan dua hal: siapa yang bisa terbantu oleh ajakan sekolah, dan siapa yang mungkin kesulitan mengikutinya?",
       "steps": [
         {
-          "title": "Rumuskan isu yang diperdebatkan (Issue)",
-          "explanation": "Bagian pembuka memperkenalkan persoalan yang memicu perbedaan pendapat tanpa langsung memihak.",
-          "english": "Should high schools discourage students from commuting by private car?",
-          "indonesian": "Haruskah sekolah menengah mengurangi kebiasaan siswa berangkat menggunakan mobil pribadi?",
-          "why": "Pertanyaan terbuka ini memperkenalkan isu yang memiliki pro dan kontra."
+          "title": "Kenali keputusan yang masih terbuka",
+          "explanation": "Apa yang sedang dipertimbangkan sekolah? Perhatikan kata kerja sesudah [[schools]].",
+          "english": "Should schools encourage students to leave private cars at home?",
+          "indonesian": "Perlukah sekolah mengajak siswa untuk meninggalkan mobil pribadi di rumah?",
+          "why": "Kata [[encourage]] berarti mengajak. Pertanyaannya adalah apakah sekolah perlu mengajak siswa memakai cara lain untuk berangkat. Keluarga masih punya pilihan."
         },
         {
-          "title": "Sajikan argumen pendukung pertama (Arguments For)",
-          "explanation": "Penulis memaparkan alasan utama mengapa sebagian orang mendukung gagasan tersebut.",
+          "title": "Temukan manfaat yang diharapkan",
+          "explanation": "Jika lebih banyak siswa berjalan kaki atau bersepeda, apa yang mungkin berubah di gerbang sekolah?",
           "english": "Walking or cycling could ease congestion at the school gate.",
           "indonesian": "Berjalan kaki atau bersepeda bisa mengurangi kemacetan di gerbang sekolah.",
-          "why": "Frasa [[could ease]] menyatakan manfaat yang mungkin terjadi. Bacaan tidak mengklaim kemacetan sudah berkurang."
+          "why": "Yang dibahas adalah kemacetan di gerbang. Kata [[could]] penting di sini. Penulis memperkirakan kemacetan bisa berkurang, tetapi belum melaporkan bahwa gerbang sudah lebih sepi."
         },
         {
-          "title": "Timbang kekuatan alasan pendukung",
-          "explanation": "Lihat lagi kata sebelum [[ease]]. Apakah penulis melaporkan hasil pengukuran atau menyampaikan kemungkinan?",
-          "english": "could ease congestion",
-          "indonesian": "bisa mengurangi kemacetan",
-          "why": "Penulis memberi alasan untuk mencoba kebijakan, tetapi tidak menyebut data lalu lintas. Kita belum bisa menentukan seberapa besar dampaknya."
+          "title": "Ikuti perubahan sudut pandang",
+          "explanation": "Sesudah membaca manfaatnya, cari siswa yang keadaannya membuat ajakan tadi sulit diikuti.",
+          "english": "However, students who live far away may have no safe route.",
+          "indonesian": "Namun, siswa yang tinggal jauh mungkin tidak punya jalur yang aman.",
+          "why": "Kata [[However]] mengalihkan perhatian kita dari keadaan di gerbang ke perjalanan siswa dari rumah. Walaupun gerbang bisa lebih lengang, siswa tetap perlu jalur yang aman untuk berjalan kaki atau bersepeda."
         },
         {
-          "title": "Hadirkan sudut pandang berbeda (Arguments Against)",
-          "explanation": "Penulis berpindah ke sisi lawan menggunakan penanda kontras tanpa meremehkan argumennya.",
-          "english": "However, critics point out that not all students live near school.",
-          "indonesian": "Namun, para pengkritik menunjukkan bahwa tidak semua siswa tinggal dekat sekolah.",
-          "why": "Kata [[However]] dan [[critics point out]] menandai masuknya argumen sisi kedua."
-        },
-        {
-          "title": "Jelaskan alasan dan keterbatasan sisi kedua",
-          "explanation": "Penulis menguraikan hambatan praktis yang membuat solusi tunggal sulit diterapkan bagi semua orang.",
+          "title": "Periksa seberapa luas keberatan itu berlaku",
+          "explanation": "Baca kembali bagian sesudah [[However]]. Apakah penulis tahu pasti bahwa setiap siswa yang tinggal jauh menghadapi kendala ini?",
           "english": "students who live far away may have no safe route.",
-          "indonesian": "siswa yang tinggal jauh mungkin tidak memiliki rute yang aman.",
-          "why": "Jarak dan keamanan menjelaskan mengapa pilihan perjalanan yang sama belum tentu cocok untuk semua keluarga."
+          "indonesian": "siswa yang tinggal jauh mungkin tidak punya jalur yang aman.",
+          "why": "[[Who live far away]] menunjukkan siswa yang sedang dibicarakan. Kata [[may]] berarti mungkin. Jadi, penulis mengingatkan kita pada risiko yang perlu diperhitungkan tanpa menyamaratakan perjalanan mereka."
         },
         {
-          "title": "Tulis kesimpulan yang mempertimbangkan kedua sisi (Conclusion)",
-          "explanation": "Bagian akhir merangkum jalan tengah atau syarat penerapan yang adil berdasarkan kedua argumen.",
-          "english": "The school could improve bicycle parking and share information about bus routes while allowing families to choose another option when their journey is difficult.",
-          "indonesian": "Sekolah dapat memperbaiki parkir sepeda dan membagikan informasi rute bus sambil memberi keluarga pilihan lain jika perjalanan mereka sulit.",
-          "why": "Kesimpulan mengakui manfaat sisi pendukung sekaligus menjawab kekhawatiran sisi penentang."
+          "title": "Hubungkan usulan sekolah dengan manfaatnya",
+          "explanation": "Pada awal kalimat terakhir, temukan dua hal yang bisa dilakukan sekolah agar siswa lebih mudah memilih cara lain untuk berangkat.",
+          "english": "The school could improve bicycle parking and share information about bus routes",
+          "indonesian": "Sekolah bisa memperbaiki tempat parkir sepeda dan membagikan informasi tentang rute bus",
+          "why": "Tempat parkir membantu siswa yang bisa bersepeda. Informasi rute membantu keluarga mencari tahu apakah bus bisa menjadi pilihan. Keduanya mendukung ajakan mengurangi perjalanan dengan mobil."
+        },
+        {
+          "title": "Uji apakah simpulannya menanggapi kedua sisi",
+          "explanation": "Baca akhir kalimat terakhir. Setelah sekolah menawarkan dukungan tadi, keputusan apa yang tetap bisa diambil keluarga?",
+          "english": "while allowing families to choose another option when their journey is difficult.",
+          "indonesian": "sambil tetap membolehkan keluarga memilih cara lain jika perjalanan mereka sulit.",
+          "why": "Di sini [[while allowing]] menghubungkan dua bagian dari satu usulan. Sekolah memudahkan perjalanan tanpa mobil sekaligus memberi ruang bagi keluarga yang perjalanannya sulit.",
+          "check": "Bayangkan kalimat terakhir berhenti tepat setelah [[bus routes]]. Keberatan mana yang masih perlu dijawab sekolah? Jelaskan dengan mengacu pada bacaan.",
+          "checkAnswer": "Siswa yang tinggal jauh mungkin tidak punya jalur yang aman untuk berjalan kaki atau bersepeda. Informasi bus dan tempat parkir belum tentu mengatasi kesulitan itu. Bagian akhir kalimat memastikan keluarga mereka tetap boleh memilih cara lain."
         }
       ],
-      "modelTitle": "Teks model utuh: Issue → For → Against → Conclusion",
+      "modelTitle": "Perlukah sekolah mengajak siswa bepergian tanpa mobil pribadi?",
       "modelEnglish": "Should schools encourage students to leave private cars at home? Walking or cycling could ease congestion at the school gate. However, students who live far away may have no safe route. The school could improve bicycle parking and share information about bus routes while allowing families to choose another option when their journey is difficult.",
-      "modelIndonesian": "Haruskah sekolah mendorong siswa untuk mengurangi penggunaan mobil pribadi? Berjalan kaki atau bersepeda bisa mengurangi kemacetan di gerbang sekolah. Namun, siswa yang tinggal jauh mungkin tidak memiliki rute yang aman. Sekolah dapat memperbaiki parkir sepeda dan membagikan informasi rute bus sambil memberi keluarga pilihan lain jika perjalanan mereka sulit."
+      "modelIndonesian": "Perlukah sekolah mengajak siswa untuk meninggalkan mobil pribadi di rumah? Berjalan kaki atau bersepeda bisa mengurangi kemacetan di gerbang sekolah. Namun, siswa yang tinggal jauh mungkin tidak punya jalur yang aman. Sekolah bisa memperbaiki tempat parkir sepeda dan membagikan informasi tentang rute bus sambil tetap membolehkan keluarga memilih cara lain jika perjalanan mereka sulit."
     },
     {
       "type": "synthesis",
@@ -77,37 +79,32 @@
     },
     {
       "type": "mistake",
-      "incorrect": "Critics of cycling are completely wrong because exercise is healthy.",
-      "correct": "Although cycling is healthy, practical barriers such as distance and road safety must also be considered.",
-      "explanation": "Diskusi yang baik menjawab keberatan pihak lain dengan bukti dan pertimbangan kondisi, bukan mengabaikannya."
+      "incorrect": "Walking could ease congestion, so everyone should walk to school.",
+      "correct": "Walking could ease congestion, but students without a safe route need another option.",
+      "explanation": "Kalimat pertama memakai manfaat di gerbang untuk menarik simpulan tentang semua siswa. Kalimat kedua juga memperhitungkan keamanan perjalanan dari rumah."
     },
     {
       "type": "heading",
-      "text": "Contoh membandingkan dua sudut pandang"
+      "text": "Bandingkan dua ringkasan bacaan pembuka"
     },
     {
       "type": "text",
-      "text": "Perhatikan bagaimana penulis menggabungkan alasan pendukung dan keterbatasan dalam kalimat yang seimbang."
+      "text": "Dua siswa menulis ringkasan tentang usulan sekolah. Baca keduanya. Ringkasan mana yang masih memperhitungkan keluarga yang perjalanannya sulit?"
     },
     {
       "type": "example_group",
-      "title": "Kalimat seimbang vs. kalimat sepihak",
+      "title": "Dua cara merangkum usulan sekolah",
       "collapsed": false,
       "items": [
         {
-          "english": "Supporters say online lessons save travel time, while critics worry about unreliable internet connections.",
-          "indonesian": "Pendukung menyatakan pembelajaran daring menghemat waktu perjalanan, sementara pengkritik mengkhawatirkan koneksi internet yang tidak stabil.",
-          "note": "Kata penghubung [[while]] menempatkan manfaat dan risiko secara berdampingan."
+          "english": "The school could help more students cycle to reduce traffic at the gate.",
+          "indonesian": "Sekolah bisa membantu lebih banyak siswa bersepeda untuk mengurangi kemacetan di gerbang.",
+          "note": "Ringkasan ini menangkap satu manfaat. Kalau hanya membaca kalimat ini, kita belum tahu mengapa sebagian keluarga perlu pilihan lain."
         },
         {
-          "english": "A balanced review acknowledges convenience without ignoring privacy concerns.",
-          "indonesian": "Ulasan yang seimbang mengakui kepraktisan tanpa mengabaikan kekhawatiran privasi.",
-          "note": "Kesimpulan yang adil tetap mencatat risiko meskipun melihat manfaat."
-        },
-        {
-          "english": "The school decision should consider both flexibility and equal access to devices.",
-          "indonesian": "Keputusan sekolah perlu mempertimbangkan fleksibilitas sekaligus akses yang setara terhadap perangkat.",
-          "note": "Penutup menggabungkan kriteria penting dari kedua pihak."
+          "english": "The school could support cycling and bus travel while keeping other options open for families with difficult journeys.",
+          "indonesian": "Sekolah bisa mendukung siswa yang bersepeda atau naik bus sambil tetap memberi pilihan lain kepada keluarga yang perjalanannya sulit.",
+          "note": "Bagian sebelum [[while]] merangkum dukungan sekolah. Bagian sesudahnya menunjukkan bagaimana usulan itu menanggapi kendala sebagian keluarga."
         }
       ]
     },
@@ -132,19 +129,23 @@
     },
     {
       "type": "breakdown",
-      "sentence": "While cycling has environmental benefits, students who travel long distances may need reliable public transport.",
+      "sentence": "The school could improve bicycle parking and share information about bus routes while allowing families to choose another option when their journey is difficult.",
       "parts": [
         {
-          "english": "While cycling has environmental benefits,",
-          "meaning": "Klausa konsesif ('Walaupun bersepeda memiliki manfaat lingkungan') yang mengakui argumen pendukung."
+          "english": "The school could improve bicycle parking",
+          "meaning": "Sekolah bisa memperbaiki tempat parkir sepeda. Kata [[could]] menunjukkan bahwa ini masih berupa usulan."
         },
         {
-          "english": "students who travel long distances",
-          "meaning": "Kelompok siswa dengan kondisi khusus yang menjadi dasar argumen penentang."
+          "english": "and share information about bus routes",
+          "meaning": "Sekolah juga bisa membagikan informasi tentang rute bus. Yang ditawarkan di sini adalah informasi untuk merencanakan perjalanan."
         },
         {
-          "english": "may need reliable public transport.",
-          "meaning": "Kebutuhan alternatif yang menunjukkan perlunya solusi yang fleksibel."
+          "english": "while allowing families to choose another option",
+          "meaning": "Pada saat yang sama, keluarga tetap boleh memilih cara lain untuk berangkat."
+        },
+        {
+          "english": "when their journey is difficult.",
+          "meaning": "Pilihan lain itu tersedia ketika perjalanan keluarga tersebut sulit. Bagian ini menjawab kekhawatiran tentang jarak dan keamanan."
         }
       ]
     },
@@ -156,11 +157,11 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Latihan membaca mandiri tentang perjalanan ke sekolah"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf berikut secara utuh. Identifikasi kalimat isu, alasan pendukung, alasan penentang, dan kesimpulan akhirnya."
+      "text": "Bacaan kedua ini membahas pertanyaan yang sama dengan alasan yang lebih rinci. Temukan satu manfaat dan satu kendala tambahan, lalu periksa bagaimana penulis menanggapi keduanya dalam simpulan."
     },
     {
       "type": "example",
