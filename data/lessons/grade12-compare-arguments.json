@@ -13,49 +13,44 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ikuti enam langkah berikut pada satu kasus yang sama—dua laporan mengenai jumlah peserta pameran sains sekolah—untuk melihat mengapa dua angka yang berbeda belum tentu saling bertentangan.",
+      "intro": "Baca catatan dari dua meja di pameran sains. Seorang teman ingin mengurangi angka pada Laporan A dengan angka pada Laporan B untuk menghitung siswa yang absen. Periksa dulu arti tiap angka.",
       "steps": [
         {
-          "title": "Pastikan kedua sumber membahas isu yang sama",
-          "explanation": "Sebelum membandingkan angka atau pendapat, pastikan kedua sumber membicarakan peristiwa atau persoalan yang sama.",
-          "english": "Both reports discuss student participation in the school science fair.",
-          "indonesian": "Kedua laporan membahas partisipasi siswa dalam pameran sains sekolah.",
-          "why": "Topik utamanya sama, tetapi kita tetap perlu memeriksa apa yang diukur masing-masing laporan."
-        },
-        {
-          "title": "Identifikasi klaim dan bukti sumber pertama",
-          "explanation": "Catat kesimpulan sumber pertama beserta cara mereka mengumpulkan datanya.",
+          "title": "Periksa apa yang dihitung di meja pendaftaran",
+          "explanation": "Perhatikan tindakan yang membuat seorang siswa masuk hitungan 180. Kapan tindakan itu dicatat?",
           "english": "We received online sign-ups from 180 students before the fair.",
           "indonesian": "Sebelum pameran, kami menerima pendaftaran daring dari 180 siswa.",
-          "why": "Angka 180 berasal dari daftar pendaftar, bukan orang yang benar-benar datang."
+          "why": "Laporan A mencatat siswa begitu mereka mendaftar. Saat itu pameran bahkan belum dimulai."
         },
         {
-          "title": "Identifikasi klaim dan bukti sumber kedua",
-          "explanation": "Lakukan pemeriksaan yang sama pada sumber kedua dengan ketelitian yang setara.",
+          "title": "Cari batas informasi dari pendaftaran",
+          "explanation": "Apa yang diketahui petugas tentang sebagian pendaftar? Apakah catatan ini menyebut jumlah mereka?",
+          "english": "Some who signed up later stayed home.",
+          "indonesian": "Sebagian pendaftar akhirnya tidak datang.",
+          "why": "Kata [[some]] memberi tahu kita bahwa ada pendaftar yang akhirnya tinggal di rumah. Kita belum mendapat angka pasti."
+        },
+        {
+          "title": "Tentukan satuan angka di pintu masuk",
+          "explanation": "Laporan B menyebut angka 142. Baca kata tepat setelah angka itu dan cari kapan pencatatan berlangsung.",
           "english": "Our volunteers recorded 142 entries at the hall on the day of the fair.",
           "indonesian": "Pada hari pameran, relawan kami mencatat 142 kali orang masuk ke aula.",
-          "why": "Kata [[entries]] menunjukkan bahwa yang dicatat adalah peristiwa masuk. Kalimat ini tidak memastikan bahwa semuanya siswa yang berbeda."
+          "why": "Kata [[entries]] mengacu pada kejadian masuk ke aula. Petugas mengamati orang yang masuk pada hari acara. Catatan ini belum merinci siapa saja yang sudah mendaftar."
         },
         {
-          "title": "Periksa kesetaraan ukuran (measure)",
-          "explanation": "Bandingkan apakah kedua sumber memakai definisi atau alat ukur yang sepadan.",
-          "english": "Online registration is not the same measure as physical attendance.",
-          "indonesian": "Pendaftaran daring bukanlah ukuran yang sama dengan kehadiran fisik.",
-          "why": "Sebagian pendaftar bisa saja batal hadir, sehingga perbedaan angka masuk akal."
+          "title": "Uji apakah angka itu menunjukkan jumlah siswa yang berbeda",
+          "explanation": "Baca cara relawan menghitung. Jika seseorang keluar lalu masuk lagi, apakah laporan ini menjelaskan bagaimana relawan mengenalinya?",
+          "english": "We counted people as they came in.",
+          "indonesian": "Kami menghitung orang saat mereka masuk.",
+          "why": "Kata [[people]] juga lebih luas daripada [[students]]. Penulis belum menjelaskan cara membedakan siswa dari pengunjung lain atau cara mengenali orang yang masuk dua kali."
         },
         {
-          "title": "Nilai relevansi dan keandalan bukti",
-          "explanation": "Pilih bukti yang paling sesuai dengan pertanyaan yang ingin dijawab dan periksa batasannya.",
-          "english": "A headcount at the entrance is stronger evidence of actual attendance than a sign-up form.",
-          "indonesian": "Penghitungan langsung di pintu masuk adalah bukti kehadiran nyata yang lebih kuat daripada formulir pendaftaran.",
-          "why": "Bukti harus relevan dengan klaim yang sedang diuji."
-        },
-        {
-          "title": "Tarik kesimpulan secara proporsional",
-          "explanation": "Hindari menyimpulkan bahwa salah satu sumber berbohong jika perbedaan dapat dijelaskan oleh perbedaan metode.",
-          "english": "Before judging which claim is stronger, readers must check whether both sources measure the same group and time period.",
-          "indonesian": "Sebelum menilai klaim mana yang lebih kuat, pembaca harus memeriksa apakah kedua sumber mengukur kelompok dan periode waktu yang sama.",
-          "why": "Perbandingan yang adil membutuhkan dasar data yang sebanding."
+          "title": "Tarik simpulan yang didukung kedua catatan",
+          "explanation": "Temanmu menghitung 180 dikurangi 142 dan menyimpulkan bahwa tepat 38 pendaftar tinggal di rumah. Periksa kembali bukti dari kedua meja. Mulailah dari dua kata ini.",
+          "english": "online sign-ups",
+          "indonesian": "pendaftaran daring",
+          "why": "Laporan A memberi jumlah siswa yang mendaftar. Laporan B memberi jumlah kejadian masuk. Untuk menyimpulkan berapa pendaftar yang absen, kita perlu tahu pendaftar mana yang benar-benar hadir.",
+          "check": "Andaikan relawan sudah memastikan setiap pengunjung dihitung sekali. Data apa lagi yang kamu perlukan untuk menghitung pendaftar yang absen?",
+          "checkAnswer": "Kita masih perlu mencocokkan identitas orang yang hadir dengan daftar pendaftar. Pengunjung yang hanya dihitung sekali pun bisa saja datang tanpa mendaftar."
         }
       ],
       "modelTitle": "Dua catatan dari pameran sains sekolah",
@@ -80,6 +75,43 @@
       "incorrect": "Two reports have different numbers, so one of them must be false.",
       "correct": "Two reports may show different numbers because they define and measure the event differently.",
       "explanation": "Periksa definisi dan cara penghitungan terlebih dahulu sebelum menyimpulkan adanya kesalahan data."
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-compare-arguments",
+      "prompt": "Which question could the registration desk answer from its own records?",
+      "translation": "Pertanyaan mana yang dapat dijawab meja pendaftaran dari catatannya sendiri?",
+      "choices": [
+        "How many people entered the hall?",
+        "How many students signed up online?",
+        "How many visitors entered twice?"
+      ],
+      "answer": 1,
+      "translationChoices": [
+        "Berapa orang yang masuk ke aula?",
+        "Berapa siswa yang mendaftar secara daring?",
+        "Berapa pengunjung yang masuk dua kali?"
+      ],
+      "explanation": "Daftar daring mencatat pendaftar sebelum acara. Daftar itu saja tidak menunjukkan siapa yang datang atau berapa kali seseorang masuk.",
+      "hint": "Perhatikan kapan petugas membuat catatan dan tindakan apa yang mereka catat."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Our volunteers recorded 142 entries at the hall on the day of the fair.",
+      "parts": [
+        {
+          "english": "Our volunteers recorded",
+          "meaning": "Relawan di pintu masuk membuat catatan. Merekalah sumber angka ini."
+        },
+        {
+          "english": "142 entries at the hall",
+          "meaning": "Ada 142 kejadian masuk ke aula. Kata [[entries]] menjelaskan satuan yang dihitung."
+        },
+        {
+          "english": "on the day of the fair.",
+          "meaning": "Pencatatan dilakukan pada hari pameran. Daftar dari meja pendaftaran sudah dibuat sebelumnya."
+        }
+      ]
     },
     {
       "type": "heading",
@@ -112,43 +144,6 @@
       ]
     },
     {
-      "type": "checkpoint",
-      "id": "guided-grade12-compare-arguments",
-      "prompt": "Which question could the registration desk answer from its own records?",
-      "translation": "Pertanyaan mana yang dapat dijawab meja pendaftaran dari catatannya sendiri?",
-      "choices": [
-        "How many people entered the hall?",
-        "How many students signed up online?",
-        "How many visitors entered twice?"
-      ],
-      "answer": 1,
-      "translationChoices": [
-        "Berapa orang yang masuk ke aula?",
-        "Berapa siswa yang mendaftar secara daring?",
-        "Berapa pengunjung yang masuk dua kali?"
-      ],
-      "explanation": "Daftar daring mencatat pendaftar sebelum acara. Daftar itu saja tidak menunjukkan siapa yang datang atau berapa kali seseorang masuk.",
-      "hint": "Perhatikan kapan petugas membuat catatan dan tindakan apa yang mereka catat."
-    },
-    {
-      "type": "breakdown",
-      "sentence": "Although Report A showed higher numbers, it counted online registrations rather than students entering the hall.",
-      "parts": [
-        {
-          "english": "Although Report A showed higher numbers,",
-          "meaning": "Klausa konsesif ('Meskipun Laporan A menunjukkan angka lebih tinggi') yang mengakui temuan pertama."
-        },
-        {
-          "english": "it counted online registrations",
-          "meaning": "Penjelasan tentang apa yang sebenarnya diukur oleh Laporan A."
-        },
-        {
-          "english": "rather than students entering the hall.",
-          "meaning": "Pembanding ('bukan siswa yang masuk ke aula') yang menunjukkan perbedaan ukuran dengan Laporan B."
-        }
-      ]
-    },
-    {
       "type": "reflection",
       "prompt": "Compare: (A) “50 students signed up for the workshop.” vs. (B) “40 students attended the workshop.” What must a reader check before calling this a contradiction?",
       "translation": "Bandingkan: (A) “50 siswa mendaftar lokakarya.” vs. (B) “40 siswa menghadiri lokakarya.” Apa yang harus diperiksa pembaca sebelum menyebutnya bertentangan?",
@@ -156,16 +151,16 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Baca ulasan tentang kedua laporan pameran"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf berikut secara utuh. Perhatikan bagaimana penulis menjelaskan alasan perbedaan angka antara Laporan A dan Laporan B."
+      "text": "Sekarang baca bagaimana unggahan media sosial menafsirkan perbedaan angka di pameran tadi. Bandingkan tuduhannya dengan penjelasan panitia."
     },
     {
       "type": "example",
       "text": "Two reports described the school’s science fair. Report A said participation reached 180 because it counted online registrations, including students who later stayed home. Report B recorded 142 participants because volunteers counted the people who entered the hall. A social media post claimed that one report must be false. However, the two reports measured different things. The organiser explained that both numbers could be accurate while answering different questions. A careful reader should compare the definitions before deciding whether the figures disagree.",
-      "note": "Periksa apakah selisih dua angka itu cukup untuk mengetahui siapa yang absen. Tuliskan data tambahan yang kamu perlukan."
+      "note": "Ulasan menyebut [[142 participants]]. Periksa kembali cara relawan menghitung di pintu masuk. Bukti apa yang masih dibutuhkan agar kita bisa menyebutnya 142 siswa yang berbeda?"
     },
     {
       "type": "summary",

@@ -16,60 +16,46 @@
       "intro": "Gunakan catatan perpustakaan hari Minggu untuk membedakan fakta, gagasan utama, dan simpulan yang masih memerlukan bukti.",
       "steps": [
         {
-          "title": "Temukan pokok bahasan",
-          "explanation": "Cari hal yang terus dibicarakan.",
-          "english": "The library tried Sunday opening.",
-          "indonesian": "Perpustakaan mencoba buka pada hari Minggu.",
-          "why": "Ini memperkenalkan perubahan jadwal."
+          "title": "Temukan perubahan yang diamati",
+          "explanation": "Apa yang dicoba perpustakaan? Cari perubahan jadwal dan batas waktunya dalam kalimat pertama.",
+          "english": "The school library opened on Sundays for a month.",
+          "indonesian": "Perpustakaan sekolah buka pada hari Minggu selama sebulan.",
+          "why": "[[On Sundays]] menunjukkan hari bukanya. [[For a month]] memberi batas waktu pengamatan. Lama uji coba saja belum merangkum hasilnya."
         },
         {
-          "title": "Catat detail waktu",
-          "explanation": "Periksa kapan pengamatan berlangsung.",
-          "english": "The trial lasted one month.",
-          "indonesian": "Uji coba berlangsung satu bulan.",
-          "why": "Lama uji coba adalah detail, bukan ringkasan seluruh bacaan."
+          "title": "Hubungkan dua peristiwa",
+          "explanation": "Bulan mana yang dimaksud dalam kalimat kedua? Rujuk kembali ke kalimat pertama.",
+          "english": "A book festival ran during the same month.",
+          "indonesian": "Festival buku berlangsung pada bulan yang sama.",
+          "why": "[[The same month]] menghubungkan festival dengan bulan ketika perpustakaan buka pada hari Minggu. Jadi ada dua hal yang berlangsung dalam satu periode."
         },
         {
-          "title": "Cari peristiwa lain",
-          "explanation": "Periksa apa lagi yang terjadi pada waktu itu.",
-          "english": "A book festival ran that month.",
-          "indonesian": "Festival buku berlangsung pada bulan itu.",
-          "why": "Kata [[that month]] menghubungkan dua kejadian dalam rentang waktu yang sama."
-        },
-        {
-          "title": "Baca hasil pengamatan",
-          "explanation": "Pisahkan hasil dari perkiraan penyebabnya.",
+          "title": "Bedakan kunjungan dari pengunjung",
+          "explanation": "Apa yang sebenarnya bertambah? Coba ungkapkan hasil pengamatan ini dengan kata-katamu sendiri.",
           "english": "Library visits rose.",
-          "indonesian": "Jumlah kunjungan meningkat.",
-          "why": "Kenaikan tercatat, tetapi kalimat ini tidak menyebut penyebab."
+          "indonesian": "Jumlah kunjungan ke perpustakaan meningkat.",
+          "why": "Yang dihitung adalah kunjungan. Satu orang bisa berkunjung beberapa kali. Bacaan belum memberi tahu kita apakah jumlah orang yang datang juga bertambah."
         },
         {
-          "title": "Kenali parafrasa",
-          "explanation": "Cocokkan ungkapan berbeda yang tetap setia pada bukti.",
-          "english": "More visits were recorded during the trial.",
-          "indonesian": "Lebih banyak kunjungan tercatat selama uji coba.",
-          "why": "Kenaikan kunjungan tidak selalu berarti lebih banyak orang yang berbeda."
+          "title": "Uji dugaan tentang penyebab",
+          "explanation": "Bayangkan seorang teman berkata bahwa festival pasti membuat kunjungan naik. Periksa apakah kata-kata penulis mendukung kata “pasti”.",
+          "english": "during the same month",
+          "indonesian": "pada bulan yang sama",
+          "why": "Frasa ini menunjukkan kapan festival berlangsung. Jadwal buka hari Minggu juga sedang dicoba. Catatan bulan itu saja belum bisa menunjukkan seberapa besar pengaruh masing-masing."
         },
         {
-          "title": "Bedakan gagasan utama dari detail",
-          "explanation": "Cari kalimat yang menghubungkan jadwal, festival, dan hasil.",
-          "english": "Visits rose while the library tried Sunday opening and a festival took place.",
-          "indonesian": "Kunjungan meningkat saat perpustakaan mencoba buka hari Minggu dan festival berlangsung.",
-          "why": "Kalimat ini mencakup perubahan dan konteksnya. Lama festival saja tidak merangkum isi."
-        },
-        {
-          "title": "Uji dugaan sebab",
-          "explanation": "Tanyakan apakah ada lebih dari satu penjelasan.",
-          "english": "The festival may have attracted readers too.",
-          "indonesian": "Festival mungkin juga menarik pembaca.",
-          "why": "Kata [[may]] menunjukkan kemungkinan, bukan penyebab yang sudah dibuktikan."
-        },
-        {
-          "title": "Tentukan bukti berikutnya",
-          "explanation": "Cari perbandingan yang membantu memisahkan pengaruh kedua kejadian.",
+          "title": "Tafsirkan keputusan pustakawan",
+          "explanation": "Bedakan rencana pustakawan dari hasil yang sudah diketahui. Apa gunanya memiliki catatan dari waktu yang berbeda?",
           "english": "The librarian decided to keep recording visits after the festival ended.",
-          "indonesian": "Pustakawan memutuskan untuk tetap mencatat kunjungan setelah festival berakhir.",
-          "why": "Keputusan untuk melanjutkan pencatatan menunjukkan cara mencari pembanding. Bacaan belum melaporkan hasil setelah festival."
+          "indonesian": "Pustakawan memutuskan untuk terus mencatat kunjungan setelah festival berakhir.",
+          "why": "Catatan berikutnya dapat menunjukkan apakah kunjungan tetap tinggi setelah festival. Untuk menilai pengaruh jadwal, kita juga perlu tahu apakah perpustakaan tetap buka pada hari Minggu."
+        },
+        {
+          "title": "Susun gagasan utama",
+          "explanation": "Gunakan hasil singkat ini sebagai awal ringkasan. Tambahkan dua kejadian yang berlangsung bersamaan dan keputusan pustakawan.",
+          "english": "Library visits rose.",
+          "indonesian": "Jumlah kunjungan ke perpustakaan meningkat.",
+          "why": "Ringkasan yang mencakup seluruh bacaan bisa berbunyi begini. Kunjungan naik saat jadwal baru dan festival berlangsung bersamaan, lalu pustakawan memutuskan untuk melanjutkan pencatatan. Ringkasan ini menjaga perbedaan antara apa yang tercatat dan apa yang masih perlu diteliti."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
@@ -104,7 +90,7 @@
     },
     {
       "type": "text",
-      "text": "Kesimpulan yang masuk akal adalah masih diperlukan bukti lain untuk memisahkan pengaruh jadwal buka hari Minggu. Menyatakan bahwa pembukaan hari Minggu menyebabkan seluruh peningkatan adalah klaim yang melampaui bukti. Kata [[but]] menandakan adanya informasi pembatas atau pembanding."
+      "text": "Kata [[during]] menunjukkan bahwa festival berlangsung pada bulan yang sama dengan uji coba jadwal. Jika kita menyimpulkan bahwa salah satunya menyebabkan seluruh kenaikan, kita menambahkan sesuatu yang belum dibuktikan bacaan."
     },
     {
       "type": "table",
@@ -171,31 +157,26 @@
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Dari catatan ke ringkasan"
     },
     {
       "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "text": "Bandingkan dua pernyataan tentang perpustakaan di bawah ini. Mana yang melaporkan detail? Mana yang menghubungkan beberapa informasi dari bacaan?"
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "Detail dan ringkasan",
       "collapsed": false,
       "items": [
         {
-          "english": "The café opens at six.",
-          "indonesian": "Kafe itu buka pukul enam.",
-          "note": "Informasi eksplisit: teks menyatakan jam buka langsung."
+          "english": "The library opened on Sundays for one month.",
+          "indonesian": "Perpustakaan buka pada hari Minggu selama satu bulan.",
+          "note": "Kalimat ini menyebut satu perubahan jadwal. Pembaca belum tahu apa yang terjadi selama uji coba."
         },
         {
-          "english": "Amina borrowed two novels.",
-          "indonesian": "Amina meminjam dua novel.",
-          "note": "Pertanyaan detail dapat dijawab dari angka [[two]]."
-        },
-        {
-          "english": "The author discusses ways to reduce plastic waste.",
-          "indonesian": "Penulis membahas cara mengurangi sampah plastik.",
-          "note": "Kalimat ini merangkum topik, bukan contoh kecil."
+          "english": "Visits rose while the library was open on Sundays and a book festival was taking place.",
+          "indonesian": "Kunjungan meningkat saat perpustakaan buka pada hari Minggu dan festival buku berlangsung.",
+          "note": "Ringkasan ini menghubungkan hasil dengan kedua kejadian. Agar lengkap, tambahkan keputusan pustakawan setelah festival."
         }
       ]
     },
@@ -234,7 +215,7 @@
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "title": "Latihan dengan contoh baru: batas bukti pada tiap kalimat",
       "collapsed": false,
       "items": [
         {
@@ -272,7 +253,7 @@
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "title": "Dua laporan lain untuk menguji simpulan",
       "collapsed": false,
       "items": [
         {
@@ -299,7 +280,7 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tuliskan simpulan terbatas tentang hasil uji coba dalam bahasa Inggris. Kutip satu kalimat sumber yang mendukungnya.",
+      "prompt": "Kembali ke catatan perpustakaan pada bacaan pembuka. Tulis satu simpulan dalam bahasa Inggris tentang apa yang ditunjukkan kenaikan kunjungan. Kutip satu kalimat bacaan yang mendukungnya.",
       "model": "Visits increased, although the reason is still uncertain. The report states, “Library visits rose.”",
       "modelTranslation": "Kunjungan meningkat, tetapi penyebabnya masih belum pasti. Laporan menyatakan, “Jumlah kunjungan meningkat.”",
       "criteria": "Kutipan mendukung kenaikan kunjungan. Simpulan tetap memberi ruang bagi dua kemungkinan pengaruh: festival dan jadwal baru."
