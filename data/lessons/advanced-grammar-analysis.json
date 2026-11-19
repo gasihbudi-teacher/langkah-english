@@ -20,7 +20,7 @@
           "explanation": "Kalimat panjang lebih mudah dipahami jika bagian intinya ditemukan sebelum menerjemahkan semua kata.",
           "english": "The boy who waved is my cousin.",
           "indonesian": "Anak laki-laki yang melambaikan tangan itu sepupu saya.",
-          "why": "[[Who waved]] menerangkan [[boy]], bukan [[cousin]]."
+          "why": "Sisihkan dulu [[who waved]]. Yang tersisa adalah [[the boy is my cousin]]. Bagian yang disisihkan menerangkan [[the boy]], yaitu anak yang melambaikan tangan."
         },
         {
           "title": "Cari subjek utama",
@@ -52,7 +52,7 @@
         },
         {
           "title": "Temukan nomina yang diterangkan",
-          "explanation": "Cari benda yang tepat di depan klausa pewatas.",
+          "explanation": "Cari tahu siapa atau apa yang diterangkan oleh bagian [[that you recommended]]. Lalu coba baca kalimatnya tanpa bagian tersebut.",
           "english": "The article that you recommended was revised.",
           "indonesian": "Artikel yang kamu rekomendasikan itu direvisi.",
           "why": "[[That you recommended]] menjelaskan artikel yang mana. Jika bagian itu dilepas, [[the article was revised]] tetap lengkap."
@@ -65,7 +65,7 @@
           "why": "[[After the meeting ended]] menerangkan kapan revisi dilakukan. Bagian ini tidak menjelaskan jenis artikelnya."
         },
         {
-          "title": "Bedakan rencana dan hasil",
+          "title": "Bedakan kejadian dan kemungkinan",
           "explanation": "Bandingkan waktu dan kepastian revisi.",
           "english": "The editor revised the article. The editor may revise the article.",
           "indonesian": "Editor sudah merevisi artikel itu. Editor mungkin akan merevisi artikel itu.",
@@ -83,7 +83,9 @@
           "explanation": "Uraikan satu kalimat akademik kompleks dan pilih tafsir yang didukung struktur, bukan yang sekadar terdengar wajar.",
           "english": "Although the proposal seems affordable, the committee has not explained how maintenance costs will be covered.",
           "indonesian": "Walaupun usulan itu tampak terjangkau, komite belum menjelaskan bagaimana biaya perawatannya akan ditanggung.",
-          "why": "[[Although]] membatasi klaim; [[has not explained]] menegaskan kekurangan bukti."
+          "why": "[[Although]] memperkenalkan kesan awal tentang biaya. Cari apa yang sebenarnya belum dijelaskan komite sebelum menyimpulkan apakah perawatannya terjangkau.",
+          "check": "Bolehkah kita menyimpulkan komite sudah punya dana perawatan? Tunjukkan bagian kalimat yang membatasi simpulanmu.",
+          "checkAnswer": "Belum ada dasar untuk menyimpulkan itu. [[Has not explained how maintenance costs will be covered]] berarti cara membayarnya belum dijelaskan. Bisa saja ada dana, tetapi kalimat ini tidak memastikannya."
         }
       ]
     },
@@ -163,7 +165,7 @@
       "type": "checkpoint",
       "id": "guided-advanced-grammar-analysis",
       "prompt": "In “The boy who waved is my cousin”, which pair gives the boy being described and the main verb?",
-      "translation": "Dalam “The boy who waved is my cousin”, pasangan mana yang menyebut orang yang diterangkan dan verba utama kalimat?",
+      "translation": "Dalam [[The boy who waved is my cousin]], pasangan mana yang menyebut orang yang diterangkan dan kata kerja utama kalimat?",
       "choices": [
         "The boy / is",
         "who waved / is",
@@ -230,9 +232,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "(A) “Only Sara read the article.” (B) “Sara only read the article; she did not review it.” What does “only” limit in each case?",
-      "translation": "(A) “Hanya Sara yang membaca artikel itu.” (B) “Sara hanya membaca artikel itu; ia tidak mengulasnya.” Apa yang dibatasi oleh kata itu pada masing-masing kalimat?",
-      "answer": "A membatasi orang yang membaca. Dalam konteks B, [[only]] membatasi tindakan Sara: ia membaca tetapi tidak mengulas."
+      "prompt": "(A) Only Sara read the article. (B) Sara only read the article. She did not review it. What does only limit in each example?",
+      "translation": "(A) [[Only Sara read the article.]] Hanya Sara yang membaca artikel itu. (B) [[Sara only read the article. She did not review it.]] Sara hanya membaca artikel itu. Ia tidak mengulasnya. Apa yang dibatasi oleh [[only]] pada masing-masing contoh?",
+      "answer": "Pada A, [[only Sara]] membatasi orang yang membaca. Pada B, kalimat tentang ulasan memperjelas bahwa [[only read]] membatasi tindakan Sara. Ia membaca tanpa mengulas."
     },
     {
       "type": "example_group",

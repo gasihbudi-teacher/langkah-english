@@ -13,14 +13,14 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[conditional sentences]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "“Kalau hujan” bisa membuka pernyataan tentang kebiasaan, rencana besok, atau situasi yang hanya dibayangkan. Cari tahu apa yang harus terjadi dan apa akibatnya sebelum memilih bentuk kata kerja.",
       "steps": [
         {
           "title": "Kenali hubungan syarat",
           "explanation": "Satu klausa menyatakan syarat; klausa lainnya menyatakan akibat yang bergantung pada syarat itu.",
           "english": "If you heat ice, it melts.",
           "indonesian": "Jika es dipanaskan, es mencair.",
-          "why": "[[Zero conditional]] menyatakan fakta umum."
+          "why": "[[If you heat ice]] menyatakan syaratnya. [[It melts]] memberi tahu apa yang terjadi pada es ketika syarat itu terpenuhi."
         },
         {
           "title": "Tandai dua klausa",
@@ -69,21 +69,23 @@
           "explanation": "Kenali penggunaan bentuk lampau di klausa [[if]] dan [[would + verb]] untuk hasil hipotetis.",
           "english": "If I had a bicycle, I would ride to school.",
           "indonesian": "Seandainya saya punya sepeda, saya akan naik sepeda ke sekolah.",
-          "why": "[[Had]] dalam klausa if dipasangkan dengan [[would ride]] untuk situasi hipotetis kini."
+          "why": "[[Had]] di sini menggambarkan kepemilikan yang dibayangkan sekarang. [[Would ride]] menyatakan apa yang akan dilakukan seandainya sepeda itu ada."
         },
         {
-          "title": "Bandingkan kemungkinan",
-          "explanation": "Perhatikan bagaimana satu situasi dapat dibicarakan sebagai kemungkinan realistis atau sebagai andaian.",
-          "english": "If the library opens on Saturday, our group will meet there.",
-          "indonesian": "Jika perpustakaan buka pada Sabtu, kelompok kami akan bertemu di sana.",
-          "why": "Pakai [[opens]], bukan [[will]] open, setelah [[if]] untuk [[first conditional]]."
+          "title": "Bandingkan rencana dan andaian",
+          "explanation": "Bayangkan seorang siswa sedang menyusun rencana Sabtu. Lalu bayangkan siswa lain mengira perpustakaan biasanya tutup pada hari itu. Bandingkan cara mereka berbicara.",
+          "english": "If the library opens on Saturday, we will meet there. If the library opened on Saturday, we would meet there.",
+          "indonesian": "Jika perpustakaan buka pada hari Sabtu, kami akan bertemu di sana. Seandainya perpustakaan buka pada hari Sabtu, kami akan bertemu di sana.",
+          "why": "[[Opens]] dan [[will meet]] memperlakukan perpustakaan buka sebagai kemungkinan nyata. [[Opened]] dan [[would meet]] membuat rencana itu terdengar lebih jauh dari kenyataan. Keduanya membicarakan Sabtu mendatang."
         },
         {
-          "title": "Terapkan dan perbaiki",
-          "explanation": "Buat kalimat sesuai maksud dan hindari kesalahan seperti [[If it will rain]] dalam pola first conditional dasar.",
-          "english": "If the internet were more reliable, students could join online lessons more easily.",
-          "indonesian": "Jika internet lebih andal, siswa bisa lebih mudah mengikuti pelajaran daring.",
-          "why": "[[Were]] dan [[could]] menampilkan situasi hipotetis."
+          "title": "Tulis rencana cadangan",
+          "explanation": "Pengumuman sekolah menyebutkan kemungkinan hujan besok. Lengkapi rencana ini dengan bentuk [[rain]] dan [[practise]] yang sesuai.",
+          "english": "If it ___ tomorrow, we ___ indoors.",
+          "indonesian": "Jika besok hujan, kami akan berlatih di dalam ruangan.",
+          "why": "Pikirkan apakah penutur sedang membayangkan keadaan yang sulit terjadi atau sedang bersiap menghadapi kemungkinan nyata.",
+          "check": "Bagaimana kamu melengkapi rencana latihan besok, dan bagian mana yang menyatakan syarat?",
+          "checkAnswer": "[[If it rains tomorrow, we will practise indoors.]] Bagian [[if it rains tomorrow]] menyatakan syarat. [[Will practise]] menyatakan rencana jika syarat itu terpenuhi."
         }
       ]
     },
@@ -170,20 +172,20 @@
     {
       "type": "checkpoint",
       "id": "guided-conditional-sentences",
-      "prompt": "Which sentence states a future possibility?",
-      "translation": "Kalimat mana yang menyatakan kemungkinan di masa depan?",
+      "prompt": "Which sentence presents staying home as a plan for a real possibility tomorrow?",
+      "translation": "Kalimat mana yang menyampaikan rencana untuk tetap di rumah jika besok benar-benar hujan?",
       "choices": [
-        "If it rains, we will stay home.",
-        "If it will rain, we stay home.",
-        "If rains, we will stay home."
+        "If it rains tomorrow, we will stay home.",
+        "If it rained every morning, we would stay home more often.",
+        "If it rains, we usually stay home."
       ],
       "answer": 0,
-      "explanation": "Pada pola umum ini, bagian [[if]] memakai [[present]] dan akibat memakai [[will]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[If it rains tomorrow]] menyebut syarat yang mungkin terpenuhi besok, dan [[will stay]] menyatakan rencana. [[Would stay]] pada pilihan kedua membayangkan keadaan, sedangkan [[usually]] pada pilihan terakhir menandai kebiasaan.",
+      "hint": "Pisahkan rencana satu hari dari kebiasaan berulang dan dari keadaan yang hanya dibayangkan.",
       "translationChoices": [
-        "Jika hujan turun, kita akan tinggal di rumah. (bentuk tepat)",
-        "Jika hujan akan turun, kita tinggal di rumah. (bentuk kurang tepat)",
-        "Jika turun hujan, kita akan tinggal di rumah. (struktur tidak lengkap)"
+        "Jika besok hujan, kami akan tetap di rumah.",
+        "Seandainya hujan turun setiap pagi, kami akan lebih sering tetap di rumah.",
+        "Jika hujan, kami biasanya tetap di rumah."
       ]
     },
     {
@@ -234,9 +236,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) If it rains, we practise indoors. (B) If it rains tomorrow, we will practise indoors. Which sentence describes the usual arrangement, and which makes a plan?",
+      "translation": "(A) [[If it rains, we practise indoors.]] Kalau hujan, kami berlatih di dalam ruangan. (B) [[If it rains tomorrow, we will practise indoors.]] Kalau besok hujan, kami akan berlatih di dalam ruangan. Kalimat mana yang menjelaskan kebiasaan dan mana yang menyampaikan rencana?",
+      "answer": "A menyebut apa yang biasa dilakukan setiap kali hujan. B memakai [[tomorrow]] dan [[will practise]] untuk satu kesempatan yang belum terjadi."
     },
     {
       "type": "example_group",
@@ -267,10 +269,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah pembicara menyatakan fakta, kemungkinan, atau khayalan?",
-      "model": "If the bus arrives late, we will take the train.",
-      "modelTranslation": "Jika bus datang terlambat, kami akan naik kereta.",
-      "criteria": "Ini [[first conditional]] untuk kemungkinan nyata: [[if]] + [[present]] disertai [[will]] pada akibatnya."
+      "prompt": "Bayangkan klubmu punya aturan saat lapangan basah. Tulis apa yang biasanya kalian lakukan, lalu tulis rencana khusus jika besok lapangan basah. Gunakan dua kalimat dengan [[if]].",
+      "model": "If the field is wet, we usually train in the hall. If the field is wet tomorrow, we will train in the hall.",
+      "modelTranslation": "Jika lapangan basah, kami biasanya berlatih di aula. Jika besok lapangan basah, kami akan berlatih di aula.",
+      "criteria": "Kalimat pertama menyatakan kebiasaan dengan [[usually train]]. Kalimat kedua menyebut hari tertentu dan rencana dengan [[will train]]. Pada keduanya, syaratnya tetap [[if the field is wet]]."
     },
     {
       "type": "vocabulary",

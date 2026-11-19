@@ -13,42 +13,42 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[gerunds and infinitives]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Dua kalimat bisa sama-sama menyebut kegiatan membaca, tetapi kata di depan kegiatan itu menentukan bentuknya. Bandingkan polanya dahulu, lalu uji kasus ketika pergantian bentuk juga mengubah makna.",
       "steps": [
         {
-          "title": "Kenali bentuk verba",
-          "explanation": "Bentuk [[-ing]] dan [[to + verb]] dapat muncul di posisi berbeda; jangan menebak fungsinya dari terjemahan saja.",
-          "english": "Reading helps me relax.",
-          "indonesian": "Membaca membantu saya merasa rileks.",
-          "why": "[[Reading]] adalah bentuk [[-ing]] yang menamai kegiatan dan menjadi subjek, bukan bagian dari present continuous."
+          "title": "Amati dua bentuk untuk satu kegiatan",
+          "explanation": "Kegiatan yang disukai atau direncanakan sama, yaitu membaca. Perhatikan bentuk kata sesudah [[enjoy]] dan [[want]].",
+          "english": "I enjoy reading. I want to read.",
+          "indonesian": "Saya suka membaca. Saya ingin membaca.",
+          "why": "[[Reading]] dan [[to read]] sama-sama menyebut kegiatan. Kata yang mendahuluinya membantu kita memilih bentuk yang lazim dalam bahasa Inggris."
         },
         {
-          "title": "Gerund sebagai nomina",
-          "explanation": "[[Reading]] dapat menjadi pokok kegiatan atau objek sebuah verba; ini berbeda dari [[is reading]] yang berbentuk kontinu.",
-          "english": "Reading helps me relax.",
-          "indonesian": "Membaca membantu saya merasa rileks.",
-          "why": "[[Reading]] berfungsi seperti nomina karena menempati posisi subjek."
+          "title": "Jadikan kegiatan sebagai subjek",
+          "explanation": "Bandingkan kalimat yang membicarakan sebuah kegiatan dengan kalimat yang melaporkan apa yang sedang dilakukan seseorang.",
+          "english": "Reading helps me relax. I am reading now.",
+          "indonesian": "Membaca membantu saya rileks. Saya sedang membaca sekarang.",
+          "why": "Pada kalimat pertama, [[reading]] menamai kegiatan dan menjadi subjek. Pada kalimat kedua, [[am reading]] menyampaikan kegiatan yang sedang berlangsung."
         },
         {
-          "title": "Gerund dalam kalimat",
-          "explanation": "Periksa verba yang mendahului kegiatan: [[enjoy reading]], bukan [[enjoy to read]] dalam penggunaan biasa.",
-          "english": "They are good at swimming.",
-          "indonesian": "Mereka pandai berenang.",
-          "why": "Setelah [[preposition]] [[at]], gunakan [[verb-ing]]."
+          "title": "Temukan kegiatan setelah kata kerja",
+          "explanation": "Apa yang dinikmati Rina? Cari bagian kalimat yang menjawab pertanyaan itu.",
+          "english": "Rina enjoys drawing animals.",
+          "indonesian": "Rina suka menggambar hewan.",
+          "why": "[[Drawing animals]] menyebut kegiatan yang dinikmati Rina. Setelah [[enjoys]], kata kerja berikutnya berbentuk [[-ing]]."
         },
         {
-          "title": "Kenali to-infinitive",
-          "explanation": "[[To read]] dapat mengikuti verba seperti [[decide]], atau menyatakan tujuan suatu kegiatan.",
-          "english": "She decided to leave.",
-          "indonesian": "Dia memutuskan untuk pergi.",
-          "why": "[[Decided]] dapat diikuti [[to leave]]; [[to]] adalah bagian penanda infinitive."
+          "title": "Temukan tujuan suatu tindakan",
+          "explanation": "Cari tahu mengapa dua siswa datang lebih awal. Perhatikan bentuk yang memperkenalkan tujuan itu.",
+          "english": "We arrived early to practise.",
+          "indonesian": "Kami datang lebih awal untuk berlatih.",
+          "why": "[[To practise]] menjawab “untuk apa kami datang lebih awal?” Bentuk [[to]] diikuti kata kerja dasar ini disebut infinitif."
         },
         {
-          "title": "Verba yang memilih gerund",
-          "explanation": "Pelajari pola yang lazim seperti [[enjoy/avoid/practise + -ing]] melalui kalimat utuh.",
-          "english": "I enjoy reading.",
-          "indonesian": "Saya menikmati membaca.",
-          "why": "[[Enjoy]] secara lazim diikuti gerund [[reading]]."
+          "title": "Pelajari kata kerja bersama pasangannya",
+          "explanation": "Selain [[enjoy]], ada kata kerja lain yang diikuti bentuk [[-ing]]. Baca contoh ini sebagai satu rangkaian.",
+          "english": "Rina avoids drawing on the desks.",
+          "indonesian": "Rina berusaha untuk tidak menggambar di permukaan meja kelas.",
+          "why": "[[Avoids drawing]] menyatakan kegiatan yang dihindari. Ingat pasangannya saat ingin memakai [[avoid]] untuk kegiatan lain."
         },
         {
           "title": "Verba yang memilih infinitive",
@@ -65,18 +65,20 @@
           "why": "[[Agreed to meet]] memakai infinitif, sedangkan [[after finishing]] memakai gerund sesudah preposisi."
         },
         {
-          "title": "Bentuk mengubah makna",
-          "explanation": "[[Stop smoking]] berbeda dari [[stop to smoke]]; perubahan bentuk dapat mengubah hubungan antara dua tindakan.",
-          "english": "Students practise summarising short articles before attempting long texts.",
-          "indonesian": "Siswa berlatih merangkum artikel pendek sebelum mencoba teks panjang.",
-          "why": "[[Practise]] dan [[before]] diikuti bentuk [[-ing]]."
+          "title": "Periksa kegiatan yang berhenti",
+          "explanation": "Bayangkan kamu mendengar dua laporan dari ruang latihan. Pada laporan mana percakapan baru akan dimulai ketika orang-orang menghentikan kegiatan lain?",
+          "english": "They stopped talking. They stopped to talk.",
+          "indonesian": "Mereka berhenti berbicara. Mereka menghentikan kegiatan mereka untuk berbicara.",
+          "why": "[[Stopped talking]] berarti percakapan berakhir. Pada [[stopped to talk]], kegiatan sebelumnya berhenti dan berbicara justru menjadi tujuannya."
         },
         {
           "title": "Pilih dari konteks",
           "explanation": "Tentukan pola yang diperlukan setelah kata sebelumnya lalu periksa arti keseluruhan kalimat.",
           "english": "The team hopes to finish the project without working late.",
           "indonesian": "Tim berharap menyelesaikan proyek tanpa bekerja hingga larut.",
-          "why": "[[Hopes]] + [[to-infinitive]], sedangkan [[without]] + [[-ing]]."
+          "why": "[[Hopes]] + [[to-infinitive]], sedangkan [[without]] + [[-ing]].",
+          "check": "Tim itu memutuskan untuk belajar dan menghindari bekerja sampai larut. Bagaimana kamu menyatakannya dengan [[decide]] dan [[avoid]]?",
+          "checkAnswer": "Misalnya, [[They decided to study and avoided working late.]] [[Decided]] diikuti [[to study]], sedangkan [[avoided]] diikuti [[working]]."
         }
       ]
     },
@@ -163,20 +165,20 @@
     {
       "type": "checkpoint",
       "id": "guided-gerunds-infinitives",
-      "prompt": "Which sentence is correct?",
-      "translation": "Kalimat mana yang benar?",
+      "prompt": "Which sentence follows the usual pattern after enjoy?",
+      "translation": "Kalimat mana yang mengikuti pola lazim sesudah [[enjoy]]?",
       "choices": [
         "I enjoy to read.",
         "I enjoy read.",
         "I enjoy reading."
       ],
       "answer": 2,
-      "explanation": "Setelah [[enjoy]], gunakan bentuk [[-ing]]: [[reading]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Enjoy]] diikuti kegiatan berbentuk [[-ing]], sehingga rangkaiannya [[enjoy reading]]. Bentuk dasar dan [[to]] ditambah kata kerja dasar tidak cocok setelah [[enjoy]] dalam pola ini.",
+      "hint": "Lihat kata sebelum kegiatan membaca. Pola apa yang biasa kamu temui sesudah kata itu?",
       "translationChoices": [
-        "Saya suka membaca. (pola keliru)",
-        "Saya suka membaca. (pola keliru)",
-        "Saya suka membaca. (pola tepat)"
+        "Saya suka membaca.",
+        "Saya suka membaca.",
+        "Saya suka membaca."
       ]
     },
     {
@@ -231,9 +233,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Nina stopped painting. (B) Nina stopped to paint. In which sentence does the painting end? What is the purpose of stopping in the other?",
+      "translation": "(A) [[Nina stopped painting.]] Nina berhenti melukis. (B) [[Nina stopped to paint.]] Nina menghentikan kegiatannya untuk melukis. Pada kalimat mana kegiatan melukis berakhir? Pada kalimat lain, untuk apa Nina berhenti?",
+      "answer": "Pada A, [[painting]] adalah kegiatan yang dihentikan. Pada B, [[to paint]] adalah tujuan Nina berhenti dari kegiatan lain. Kedua kalimat itu menceritakan urutan yang berbeda."
     },
     {
       "type": "example_group",
@@ -264,10 +266,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Kata apa yang muncul tepat sebelum kegiatan kedua?",
-      "model": "Before leaving, turn off the lights.",
-      "modelTranslation": "Sebelum pergi, matikan lampu.",
-      "criteria": "Setelah preposisi [[before]], kegiatan ditulis sebagai [[leaving]], bukan [[to leave]] dalam struktur ini."
+      "prompt": "Tulis dua kalimat tentang kegiatan memasak. Sampaikan bahwa kamu menikmatinya, lalu bahwa kamu berencana memasak malam ini. Gunakan [[enjoy]] dan [[plan]].",
+      "model": "I enjoy cooking. I plan to cook tonight.",
+      "modelTranslation": "Saya suka memasak. Saya berencana memasak malam ini.",
+      "criteria": "Sesudah [[enjoy]] gunakan [[cooking]]. Sesudah [[plan]] gunakan [[to cook]]. Kegiatan memasaknya sama, tetapi kata yang mengantarnya berbeda."
     },
     {
       "type": "vocabulary",

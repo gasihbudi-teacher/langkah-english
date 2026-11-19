@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[relative clauses]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Dua orang berdiri di depan kelas. Jika kamu hanya berkata “siswa itu”, temanmu mungkin belum tahu siapa yang dimaksud. Coba tambahkan keterangan yang memilih orang atau benda yang tepat.",
       "steps": [
         {
           "title": "Mulai dari noun dan clause",
@@ -27,7 +27,7 @@
           "explanation": "Pembaca kadang perlu tahu orang/benda yang mana; informasi tambahan ditempelkan pada kata benda itu.",
           "english": "The book that I borrowed is interesting.",
           "indonesian": "Buku yang saya pinjam menarik.",
-          "why": "[[That]] menjelaskan benda, yaitu [[book]]."
+          "why": "Seluruh bagian [[that I borrowed]] memilih buku yang saya maksud. [[That]] menghubungkan buku itu dengan tindakan meminjam."
         },
         {
           "title": "Satukan dua kalimat",
@@ -39,9 +39,9 @@
         {
           "title": "Gunakan who",
           "explanation": "[[Who]] umumnya merujuk pada orang dalam klausa relatif; cari kata benda yang dijelaskannya.",
-          "english": "Students who study regularly often improve.",
-          "indonesian": "Siswa yang belajar teratur sering meningkat.",
-          "why": "Klausa [[who]] [[study]] [[regularly]] membatasi kelompok siswa yang dimaksud."
+          "english": "Students who practise regularly improve their reading skills.",
+          "indonesian": "Siswa yang rutin berlatih makin terampil membaca.",
+          "why": "[[Who practise regularly]] memilih kelompok siswa yang dibahas. Yang berlatih adalah siswa itu sendiri."
         },
         {
           "title": "Gunakan which/that",
@@ -51,18 +51,18 @@
           "why": "[[That I borrowed]] menerangkan benda [[the book]] dan membatasi buku yang dimaksud."
         },
         {
-          "title": "Gunakan whose/where",
-          "explanation": "[[Whose]] menunjukkan kepemilikan, sedangkan [[where]] berkaitan dengan tempat; jangan menyamakan keduanya.",
-          "english": "The girl whose bag is red lives here.",
-          "indonesian": "Gadis yang tasnya merah itu tinggal di sini.",
-          "why": "[[Whose]] menunjukkan kepemilikan tas oleh [[girl]]."
+          "title": "Tunjukkan pemilik atau tempat",
+          "explanation": "Apa hubungan kata benda dengan informasi setelahnya? Bandingkan pemilik sebuah tas dengan lokasi kegiatan.",
+          "english": "The girl whose bag is red lives here. The room where we practise is upstairs.",
+          "indonesian": "Anak perempuan yang tasnya merah itu tinggal di sini. Ruangan tempat kami berlatih ada di lantai atas.",
+          "why": "[[Whose bag]] menghubungkan tas dengan pemiliknya. [[Where we practise]] menunjukkan apa yang dilakukan di ruangan itu."
         },
         {
-          "title": "Peran dalam klausa",
-          "explanation": "Bedakan relative pronoun yang menjadi subjek dari yang menjadi objek, karena penghilangan pronomina tidak selalu diizinkan.",
-          "english": "The book that I borrowed is interesting.",
-          "indonesian": "Buku yang saya pinjam itu menarik.",
-          "why": "Dalam [[that I borrowed]], [[I]] adalah subjek dan [[that]] berfungsi sebagai objek [[borrowed]]; pada konteks pembatas ini [[that]] boleh dihilangkan."
+          "title": "Coba lepas kata penghubung",
+          "explanation": "Periksa siapa yang melakukan tindakan di dalam keterangan. Apakah pelakunya masih disebut jika [[that]] atau [[who]] dilepas?",
+          "english": "The book that I borrowed is new. The student who borrowed it is here.",
+          "indonesian": "Buku yang saya pinjam itu baru. Siswa yang meminjamnya ada di sini.",
+          "why": "Pada [[that I borrowed]], [[I]] sudah menjadi subjek. Kita bisa mengatakan [[the book I borrowed]]. Pada [[who borrowed it]], [[who]] adalah subjeknya. Menghapusnya saja membuat susunan kalimat rusak."
         },
         {
           "title": "Informasi penting atau tambahan",
@@ -72,11 +72,13 @@
           "why": "Dua koma mengapit informasi tambahan yang tidak dibutuhkan untuk mengidentifikasi [[my brother]]."
         },
         {
-          "title": "Gabungkan dengan cermat",
-          "explanation": "Tentukan pronomina, posisi, dan tanda baca sambil memeriksa makna kalimat gabungan.",
-          "english": "The museum, which opened last year, offers free workshops for students.",
-          "indonesian": "Museum itu, yang dibuka tahun lalu, menawarkan lokakarya gratis untuk siswa.",
-          "why": "[[Which]] memberi informasi tambahan tentang [[museum]]."
+          "title": "Gabungkan tanpa mengulang nama",
+          "explanation": "Temanmu sudah mengenal Museum Sora. Satukan kabar utamanya dengan rincian tambahan tentang tahun pembukaannya.",
+          "english": "Sora Museum offers free workshops. It opened last year.",
+          "indonesian": "Museum Sora menyediakan lokakarya gratis. Museum itu dibuka tahun lalu.",
+          "why": "Nama museum sudah cukup untuk mengenalinya. Keterangan tentang pembukaannya bisa disisipkan setelah nama itu.",
+          "check": "Bagaimana kamu memakai [[which]] untuk menyisipkan rincian pembukaan museum sambil mempertahankan kabar tentang lokakarya?",
+          "checkAnswer": "[[Sora Museum, which opened last year, offers free workshops.]] Dua koma mengapit informasi tambahan. Sesudah sisipan dilepas, kabar tentang lokakarya tetap utuh."
         }
       ]
     },
@@ -163,20 +165,20 @@
     {
       "type": "checkpoint",
       "id": "guided-relative-clauses",
-      "prompt": "Which sentence describes a person?",
-      "translation": "Kalimat mana yang mendeskripsikan seseorang?",
+      "prompt": "Which sentence correctly identifies the girl by what she does?",
+      "translation": "Kalimat mana yang menggunakan klausa pewatas dengan tepat untuk menunjukkan anak perempuan yang dimaksud?",
       "choices": [
         "The girl which sits here is kind.",
         "The girl who sits here is kind.",
         "The girl where sits here is kind."
       ],
       "answer": 1,
-      "explanation": "[[Who]] menghubungkan keterangan dengan kata benda yang merujuk pada orang.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Anak perempuan itulah yang duduk, sehingga [[who]] sekaligus menghubungkan keterangan dan menjadi subjek [[sits]]. [[Which]] biasanya menerangkan benda, sedangkan [[where]] menunjukkan tempat.",
+      "hint": "Tentukan apa yang diterangkan dan siapa yang melakukan tindakan di dalam keterangannya.",
       "translationChoices": [
-        "Gadis yang duduk di sini baik hati. (penghubung keliru)",
-        "Gadis yang duduk di sini baik hati. (penghubung tepat)",
-        "Gadis yang duduk di sini baik hati. (penghubung keliru)"
+        "Anak perempuan yang duduk di sini itu baik hati.",
+        "Anak perempuan yang duduk di sini itu baik hati.",
+        "Anak perempuan yang duduk di sini itu baik hati."
       ]
     },
     {
@@ -231,9 +233,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The students who arrived early got seats. (B) The students, who arrived early, got seats. Is early arrival used to identify a group in both sentences?",
+      "translation": "(A) [[The students who arrived early got seats.]] Para siswa yang datang lebih awal mendapat tempat duduk. (B) [[The students, who arrived early, got seats.]] Para siswa itu mendapat tempat duduk. Mereka datang lebih awal. Apakah keterangan tentang kedatangan dipakai untuk memilih kelompok pada kedua kalimat?",
+      "answer": "Pada A, [[who arrived early]] memilih siswa yang dibicarakan. A tidak memberi kabar tentang siswa lain. Pada B, tanda koma menjadikan kedatangan awal keterangan tambahan tentang seluruh kelompok siswa yang sudah dimaksud."
     },
     {
       "type": "example_group",
@@ -264,10 +266,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Nomina mana yang diterangkan, dan apakah informasi itu wajib untuk mengenalinya?",
-      "model": "The volunteer who guided our group speaks three languages.",
-      "modelTranslation": "Relawan yang memandu kelompok kami berbicara tiga bahasa.",
-      "criteria": "[[Who guided our group]] menjelaskan relawan yang dimaksud dan mengandung verba sendiri."
+      "prompt": "Mulai dengan dua kalimat tentang sebuah benda yang kamu pinjam. Gabungkan keduanya menjadi satu kalimat yang menunjukkan benda mana yang dimaksud. Tulis dua kalimat awal dan hasil gabungannya.",
+      "model": "The jacket is blue. I borrowed it from Rina. The jacket that I borrowed from Rina is blue.",
+      "modelTranslation": "Jaket itu biru. Saya meminjamnya dari Rina. Jaket yang saya pinjam dari Rina itu biru.",
+      "criteria": "[[That I borrowed from Rina]] menempel pada [[the jacket]]. Dalam kalimat gabungan, [[it]] tidak perlu diulang karena [[that]] sudah merujuk ke jaket yang dipinjam."
     },
     {
       "type": "vocabulary",

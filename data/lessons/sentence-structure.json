@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus pada cara mengenali subject, verb, object, dan complement. Amati perbedaan antara kalimat yang memerlukan object dan kalimat yang sudah lengkap tanpa object, lalu gunakan latihan berikut untuk menerapkan pola tersebut.",
+      "intro": "Apa yang membuat deretan kata menjadi kalimat lengkap? Cari siapa atau apa yang dibicarakan dan temukan predikatnya. Lalu periksa apa yang diterangkan oleh bagian lain.",
       "steps": [
         {
           "title": "Kalimat menyampaikan gagasan",
@@ -30,34 +30,34 @@
           "why": "[[Mira]] = [[subject]], [[reads]] = [[verb]], [[books]] = [[object]]."
         },
         {
-          "title": "Temukan verb",
-          "explanation": "[[Verb]] merupakan bagian inti predikat. Bedakan verba utama dari kata yang hanya menjelaskan nomina.",
+          "title": "Cari kata kerja utama",
+          "explanation": "Keadaan juga dapat menjadi isi kalimat. Cari kata kerja yang menghubungkan subjek dengan keadaan itu.",
           "english": "The room is quiet.",
           "indonesian": "Ruangan itu tenang.",
-          "why": "[[Is]] adalah linking verb; [[quiet]] merupakan subject complement yang menjelaskan keadaan [[the room]]."
+          "why": "[[Is]] menghubungkan [[the room]] dengan sifatnya, [[quiet]]. Dalam bahasa Inggris, [[the room quiet]] saja belum menjadi kalimat lengkap."
         },
         {
-          "title": "Pola subject–verb",
+          "title": "Kenali kalimat tanpa objek",
           "explanation": "Latih bentuk sederhana yang sudah utuh, misalnya subjek diikuti verba yang tidak memerlukan objek.",
           "english": "He sleeps.",
           "indonesian": "Dia tidur.",
-          "why": "[[He]] adalah subject dan [[sleeps]] adalah verb. Kalimat ini sudah lengkap tanpa direct object."
+          "why": "[[He]] adalah subjek dan [[sleeps]] kata kerjanya. Keduanya sudah menyampaikan siapa yang tidur. Kalimat ini tidak memerlukan objek."
         },
         {
           "title": "Kenali object",
           "explanation": "Objek langsung adalah unsur yang menerima tindakan verba transitif. Bandingkan dua kalimat untuk melihat bahwa kata benda yang sama dapat menjadi subjek atau objek.",
           "english": "The door opened. Someone opened the door.",
           "indonesian": "Pintu itu terbuka. Seseorang membuka pintu itu.",
-          "why": "Pada kalimat pertama, [[the door]] menjadi subject dan [[opened]] tidak diikuti object langsung. Pada kalimat kedua, [[someone]] menjadi subject, [[opened]] verb, dan [[the door]] direct object yang menerima tindakan.",
-          "check": "Kalimat mana yang memiliki direct object: “The door opened” atau “Someone opened the door”? Sebutkan objeknya dan jelaskan perbedaannya.",
-          "checkAnswer": "“Someone opened the door” memiliki direct object, yaitu “the door”, karena pintu menerima tindakan opened. Dalam “The door opened”, “the door” adalah subject dan tidak ada direct object."
+          "why": "Pada kalimat pertama, [[the door]] menjadi subjek dan tidak ada objek. Pada kalimat kedua, [[someone]] membuka sesuatu. Yang dibuka ialah [[the door]], sehingga bagian itu menjadi objek langsung.",
+          "check": "Kalimat mana yang memiliki objek langsung ([[direct object]]), [[The door opened]] atau [[Someone opened the door]]? Sebutkan objeknya.",
+          "checkAnswer": "[[Someone opened the door]] memiliki objek langsung, yaitu [[the door]], karena pintulah yang dibuka seseorang. Dalam [[The door opened]], pintu menjadi subjek."
         },
         {
-          "title": "Pola subject–verb–object",
-          "explanation": "Bandingkan kalimat tanpa objek dengan kalimat yang menambahkan objek setelah verba transitif.",
-          "english": "The new student answered the question confidently.",
-          "indonesian": "Siswa baru itu menjawab pertanyaan dengan percaya diri.",
-          "why": "[[The new student]] adalah subject; [[answered]] adalah verb; [[the question]] adalah direct object; [[confidently]] adalah adverb of manner."
+          "title": "Tambahkan objek",
+          "explanation": "Bandingkan kegiatan tidur dengan kegiatan menjawab sesuatu. Apa yang menjadi sasaran tindakan pada kalimat kedua?",
+          "english": "The student slept. The student answered the question.",
+          "indonesian": "Siswa itu tidur. Siswa itu menjawab pertanyaan.",
+          "why": "[[Slept]] sudah cukup untuk menyampaikan kegiatan pada kalimat pertama. Pada kalimat kedua, [[the question]] menjawab pertanyaan “apa yang dijawab?” Itulah objek langsungnya."
         },
         {
           "title": "Pola be + complement",
@@ -68,17 +68,17 @@
         },
         {
           "title": "Tambahkan keterangan",
-          "explanation": "Keterangan dapat menambahkan cara, tempat, dan waktu. Temukan subject dan verb terlebih dahulu, lalu lihat informasi tambahan yang memperluas kalimat.",
+          "explanation": "Keterangan dapat menambahkan cara, tempat, dan waktu. Temukan subjek dan kata kerja terlebih dahulu, lalu lihat informasi yang bisa dilepas tanpa mengubah inti kalimat.",
           "english": "The students read quietly in the library after lunch.",
           "indonesian": "Para siswa membaca dengan tenang di perpustakaan setelah makan siang.",
           "why": "[[Quietly]] menjelaskan cara membaca, [[in the library]] menunjukkan tempat, dan [[after lunch]] menunjukkan waktu. Ketiganya memperluas informasi tanpa mengubah inti [[the students read]]."
         },
         {
           "title": "Perbaiki susunan kalimat",
-          "explanation": "Periksa hubungan antara klausa utama dan klausa penjelas. Jika “arrived early” menerangkan “students”, gunakan relative pronoun yang tepat agar susunan kalimat jelas.",
+          "explanation": "Dua tindakan muncul berdekatan. Tentukan tindakan utama dan tindakan yang hanya membantu kita mengenali siswa yang dimaksud.",
           "english": "The students arrived early found seats. → The students who arrived early found seats.",
           "indonesian": "Para siswa yang datang lebih awal mendapat tempat duduk.",
-          "why": "[[Who arrived early]] menjadi relative clause yang menerangkan [[the students]], sedangkan [[found]] adalah verb utama. [[Who]] menghubungkan informasi tambahan agar kalimat tersusun dengan benar."
+          "why": "[[Who arrived early]] menerangkan [[the students]]. Setelah keterangan itu dilepas, [[the students found seats]] masih menjadi kalimat lengkap."
         }
       ]
     },
@@ -195,20 +195,20 @@
     {
       "type": "checkpoint",
       "id": "guided-sentence-structure",
-      "prompt": "Which sentence has a subject and a verb?",
-      "translation": "Kalimat mana yang memiliki subjek dan kata kerja?",
+      "prompt": "Which group of words makes a complete sentence?",
+      "translation": "Kelompok kata mana yang sudah menjadi kalimat lengkap?",
       "choices": [
-        "Because the book.",
+        "A noisy bird.",
         "Birds sing.",
-        "On the table."
+        "In the tree."
       ],
       "answer": 1,
-      "explanation": "[[Birds]] adalah subjek dan [[sing]] adalah kata kerja.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Birds]] menjadi subjek dan [[sing]] menjadi predikat. [[A noisy bird]] hanya menamai burung, sedangkan [[in the tree]] hanya menyebut tempat.",
+      "hint": "Coba temukan apa yang dibicarakan dan apa yang dilakukan atau dinyatakan tentangnya.",
       "translationChoices": [
-        "Karena buku itu. (fragmen)",
-        "Burung-burung bernyanyi.",
-        "Di atas meja. (fragmen)"
+        "Seekor burung yang berisik.",
+        "Burung-burung berkicau.",
+        "Di atas pohon."
       ]
     },
     {
@@ -259,9 +259,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Dita opened the window. (B) The window opened. What job does the window do in each sentence?",
+      "translation": "(A) [[Dita opened the window.]] Dita membuka jendela itu. (B) [[The window opened.]] Jendela itu terbuka. Apa tugas [[the window]] di tiap kalimat?",
+      "answer": "Pada A, Dita melakukan tindakan dan [[the window]] menjadi objek. Pada B, [[the window]] menjadi subjek. Kalimat B sudah lengkap meski tidak menyebut orang yang membuka jendela."
     },
     {
       "type": "example_group",
@@ -292,10 +292,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Siapa atau apa subjeknya, dan apa yang dilakukan atau dinyatakan?",
-      "model": "The new student answered the question confidently.",
-      "modelTranslation": "Siswa baru itu menjawab pertanyaan dengan percaya diri.",
-      "criteria": "[[The new student]] subjek, [[answered]] predikat, [[the question]] objek, [[confidently]] keterangan cara."
+      "prompt": "Tulis satu kalimat tentang seorang siswa yang melakukan sesuatu pada sebuah benda. Tambahkan keterangan cara atau tempat.",
+      "model": "A student put the map on the wall.",
+      "modelTranslation": "Seorang siswa memasang peta di dinding.",
+      "criteria": "[[A student]] menyebut pelaku, [[put]] tindakannya, [[the map]] bendanya, dan [[on the wall]] tempatnya."
     },
     {
       "type": "vocabulary",

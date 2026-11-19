@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali fungsi [[present continuous]] dalam konteks. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Bayangkan kamu sedang menelepon teman. Bagaimana ia membedakan apa yang sedang ia lakukan sekarang dari kebiasaannya sehari-hari? Mulailah dengan satu kegiatan yang bisa kamu lihat.",
       "steps": [
         {
           "title": "Kegiatan berlangsung",
@@ -23,25 +23,25 @@
           "why": "[[I]] diikuti [[am]] + [[reading]] untuk kegiatan saat ini."
         },
         {
-          "title": "Kegiatan sementara",
-          "explanation": "[[Present continuous]] dapat menggambarkan situasi sementara sekitar masa kini, bukan hanya detik ini.",
-          "english": "They are waiting outside.",
-          "indonesian": "Mereka sedang menunggu di luar.",
-          "why": "[[They]] memakai [[are]] + [[waiting]]."
+          "title": "Kenali kegiatan sementara",
+          "explanation": "Seseorang bisa sedang menjalani kegiatan selama beberapa hari. Ia tidak harus melakukannya persis saat berbicara.",
+          "english": "I am staying with my aunt this week.",
+          "indonesian": "Minggu ini saya sedang tinggal di rumah bibi.",
+          "why": "[[This week]] membatasi masa tinggalnya. [[Am staying]] cocok untuk keadaan yang berlangsung sementara."
         },
         {
-          "title": "Pilih am/is/are",
-          "explanation": "Kenali subjek lalu pilih bentuk [[be]] yang cocok sebelum menambahkan verba kegiatan.",
-          "english": "She usually walks, but today she is cycling.",
-          "indonesian": "Biasanya dia berjalan kaki, tetapi hari ini dia sedang bersepeda.",
-          "why": "[[Walks]] menunjukkan kebiasaan; [[is]] [[cycling]] menunjukkan kegiatan sementara."
+          "title": "Cocokkan kata bantu dengan subjek",
+          "explanation": "Bayangkan tiga foto orang yang sedang menunggu. Lihat kata yang berubah ketika orang yang dibicarakan berganti.",
+          "english": "I am waiting. She is waiting. They are waiting.",
+          "indonesian": "Saya sedang menunggu. Dia sedang menunggu. Mereka sedang menunggu.",
+          "why": "[[Waiting]] tetap sama. Yang mengikuti subjek ialah [[am]], [[is]], atau [[are]]."
         },
         {
-          "title": "Bentuk -ing",
-          "explanation": "Bentuk [[verb-ing]] mengalami perubahan ejaan tertentu seperti [[write → writing]] dan [[run → running]].",
-          "english": "Do they study every day?",
-          "indonesian": "Apakah mereka belajar setiap hari?",
-          "why": "[[Do]] + [[verb]] dasar menanyakan rutinitas, bukan kegiatan saat ini."
+          "title": "Perhatikan ejaan sebelum menambah akhiran",
+          "explanation": "Bandingkan bentuk dasar [[write]] dan [[run]] dengan bentuk yang muncul di bawah ini.",
+          "english": "Lina is writing a note. Dito is running home.",
+          "indonesian": "Lina sedang menulis catatan. Dito sedang berlari pulang.",
+          "why": "Pada [[write → writing]], huruf [[e]] terakhir dilepas. Pada [[run → running]], huruf [[n]] digandakan. Keduanya berakhir dengan [[-ing]]."
         },
         {
           "title": "Kalimat afirmatif",
@@ -51,18 +51,20 @@
           "why": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung."
         },
         {
-          "title": "Negatif dan pertanyaan",
-          "explanation": "Letakkan [[not]] setelah [[be]] untuk negatif; pindahkan [[be]] sebelum subjek untuk pertanyaan.",
-          "english": "Is she reading now?",
-          "indonesian": "Apakah dia sedang membaca sekarang?",
-          "why": "Bentuk [[is]] dipindahkan ke depan subjek untuk pertanyaan."
+          "title": "Tanyakan atau sangkal kegiatannya",
+          "explanation": "Mulai dari pernyataan ini. Perhatikan letak kata bantu pada pertanyaan dan letak [[not]] pada sangkalan.",
+          "english": "She is reading. Is she reading? She is not reading.",
+          "indonesian": "Dia sedang membaca. Apakah dia sedang membaca? Dia tidak sedang membaca.",
+          "why": "Untuk bertanya, pindahkan [[is]] ke depan [[she]]. Untuk menyangkal, letakkan [[not]] sesudah [[is]]. Bentuk [[reading]] tetap."
         },
         {
-          "title": "Bandingkan dengan simple present",
-          "explanation": "Gunakan kegiatan sama dalam dua konteks: [[She reads every night]] berbeda dengan [[She is reading now]].",
-          "english": "Look! The children are crossing the street while the guard is watching them.",
-          "indonesian": "Lihat! Anak-anak sedang menyeberang jalan sementara petugas menjaga mereka.",
-          "why": "Dua tindakan berlangsung bersamaan; gunakan bentuk [[continuous]]."
+          "title": "Pilih berdasarkan situasinya",
+          "explanation": "Bandingkan dua kabar tentang Mira. Yang satu menceritakan kebiasaan, yang lain apa yang terlihat sekarang.",
+          "english": "Mira reads on the bus every day. Mira is reading on the bus right now.",
+          "indonesian": "Mira membaca di bus setiap hari. Mira sedang membaca di bus sekarang.",
+          "why": "[[Reads]] menceritakan rutinitas. [[Is reading]] membuat kita membayangkan satu kegiatan yang sedang berlangsung.",
+          "check": "Kamu melihat dua teman sedang menulis di papan. Bagaimana kamu menjawab pertanyaan [[What are they doing?]] dengan [[write]]?",
+          "checkAnswer": "[[They are writing on the board.]] Subjek [[they]] memakai [[are]]. Huruf [[e]] terakhir pada [[write]] dilepas sebelum menambahkan [[-ing]]."
         }
       ]
     },
@@ -182,20 +184,20 @@
     {
       "type": "checkpoint",
       "id": "guided-present-continuous",
-      "prompt": "Which sentence describes an action happening now?",
-      "translation": "Kalimat mana yang menggambarkan tindakan yang sedang berlangsung sekarang?",
+      "prompt": "You can see Raka at work on a picture. Which sentence describes what is happening now?",
+      "translation": "Kamu melihat Raka sedang mengerjakan sebuah gambar. Kalimat mana yang menjelaskan kegiatan yang sedang berlangsung?",
       "choices": [
-        "He drawing now.",
-        "He is drawing now.",
-        "He draw now."
+        "He draws after school.",
+        "He is drawing a bird.",
+        "He drew a bird."
       ],
       "answer": 1,
-      "explanation": "Gunakan [[is]] + [[drawing]] untuk kegiatan yang sedang berlangsung.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Is drawing]] menyatakan apa yang sedang terlihat. [[Draws after school]] menjelaskan kebiasaan, sedangkan [[drew]] melaporkan kegiatan yang sudah terjadi.",
+      "hint": "Bayangkan kamu sedang melaporkan apa yang terlihat. Bandingkan waktu kegiatan di tiap pilihan.",
       "translationChoices": [
-        "Dia sedang menggambar sekarang. (bentuk kurang lengkap)",
-        "Dia sedang menggambar sekarang. (bentuk tepat)",
-        "Dia menggambar sekarang. (bentuk tidak tepat untuk kegiatan saat ini)"
+        "Dia biasa menggambar sepulang sekolah.",
+        "Dia sedang menggambar seekor burung.",
+        "Dia menggambar seekor burung pada masa lalu."
       ]
     },
     {
@@ -254,9 +256,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Sari walks to school. (B) Sari is walking to school. Which sentence could describe what you see from the window? What does the other tell you?",
+      "translation": "(A) [[Sari walks to school.]] Sari biasa berjalan kaki ke sekolah. (B) [[Sari is walking to school.]] Sari sedang berjalan kaki ke sekolah. Kalimat mana yang cocok untuk apa yang kamu lihat dari jendela? Apa yang diceritakan kalimat satunya?",
+      "answer": "B memakai [[is walking]] untuk perjalanan yang sedang berlangsung. A memakai [[walks]] untuk cara Sari biasanya pergi ke sekolah."
     },
     {
       "type": "example_group",
@@ -287,10 +289,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kegiatan terjadi saat ini, dan bentuk [[be]] mana sesuai subjek?",
-      "model": "The students are preparing posters at the moment.",
-      "modelTranslation": "Para siswa sedang menyiapkan poster saat ini.",
-      "criteria": "[[Are preparing]] sesuai dengan subjek jamak [[the students]] dan kegiatan yang sedang berlangsung."
+      "prompt": "Bayangkan dua orang sedang melakukan sesuatu di halaman sekolah. Tulis satu kalimat untuk menjelaskan apa yang terlihat sekarang.",
+      "model": "Two students are putting up a poster in the schoolyard.",
+      "modelTranslation": "Dua siswa sedang memasang poster di halaman sekolah.",
+      "criteria": "[[Two students]] berjumlah dua, jadi kata bantunya [[are]]. Bentuk [[putting up]] menyatakan kegiatan yang sedang kamu lihat."
     },
     {
       "type": "vocabulary",

@@ -210,9 +210,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "(A) “We stayed inside because of the storm.” (B) “We stayed inside because the storm grew stronger.” How do the two reasons differ in structure?",
-      "translation": "(A) “Kami tetap di dalam karena badai.” (B) “Kami tetap di dalam karena badai bertambah kuat.” Apa perbedaan struktur kedua keterangan alasan itu?",
-      "answer": "Pada A, [[the storm]] berupa frasa nomina. Pada B, [[the storm]] menjadi subjek dan [[grew]] menjadi verba finit. B juga menyebut perubahan kekuatan badai."
+      "prompt": "(A) We stayed inside because of the storm. (B) We stayed inside because the storm grew stronger. How do the two reasons differ in structure?",
+      "translation": "(A) [[We stayed inside because of the storm.]] Kami tetap di dalam karena badai. (B) [[We stayed inside because the storm grew stronger.]] Kami tetap di dalam karena badai bertambah kuat. Apa perbedaan struktur kedua keterangan alasan itu?",
+      "answer": "Pada A, [[the storm]] hanya menamai penyebab. Pada B, [[the storm]] menjadi subjek dan [[grew]] menjadi kata kerja finit yang menandai waktu lampau. B juga menyebut perubahan kekuatan badai."
     },
     {
       "type": "subheading",
@@ -348,7 +348,7 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Ubah frasa waktu dalam kalimat “After the discussion, the team shared its draft with the teacher” menjadi klausa waktu seperti dalam bacaan. Tulis kedua kalimat lengkap.",
+      "prompt": "Ubah frasa waktu dalam [[After the discussion, the team shared its draft with the teacher]] menjadi klausa waktu yang menyampaikan urutan kejadian yang sama. Tulis kedua kalimat lengkap.",
       "model": "After the discussion, the team shared its draft with the teacher. After the discussion ended, the team shared its draft with the teacher.",
       "modelTranslation": "Setelah diskusi, tim menyerahkan drafnya kepada guru. Setelah diskusi berakhir, tim menyerahkan drafnya kepada guru.",
       "criteria": "Urutan peristiwa tetap sama. [[After the discussion]] berupa frasa. Dalam [[after the discussion ended]], subjeknya [[the discussion]] dan verba finitnya [[ended]]."

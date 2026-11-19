@@ -13,70 +13,72 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai advanced conditionals dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Sebuah tim melewatkan latihan kemarin. Bagaimana ceritanya jika mereka berlatih? Tentukan dulu kapan syaratnya bisa terjadi dan kapan akibat yang kamu bayangkan terlihat.",
       "steps": [
         {
-          "title": "Ulangi kondisi hipotetis",
-          "explanation": "Ingat bahwa bentuk conditional dipilih berdasarkan apakah situasi nyata, mungkin, atau hanya dibayangkan.",
-          "english": "If I had known, I would have called.",
-          "indonesian": "Jika saya tahu saat itu, saya pasti sudah menelepon.",
-          "why": "[[Third conditional]] menyesalkan peristiwa lampau yang tidak terjadi."
+          "title": "Mulai dari andaian sekarang",
+          "explanation": "Bayangkan kamu tidak memiliki sepeda. Bentuk lampau pada bagian syarat bisa dipakai untuk membayangkan keadaan berbeda sekarang.",
+          "english": "If I had a bike, I would ride to school.",
+          "indonesian": "Seandainya saya punya sepeda, saya akan bersepeda ke sekolah.",
+          "why": "[[Had a bike]] di sini membayangkan kepemilikan sekarang. [[Would ride]] menjelaskan apa yang akan kamu lakukan seandainya situasinya berbeda."
         },
         {
-          "title": "Buat garis waktu",
-          "explanation": "Pisahkan masa lalu dari masa kini; tanyakan kapan syarat terjadi dan kapan hasil dibayangkan.",
-          "english": "If she had studied, she would have passed.",
-          "indonesian": "Jika dia belajar waktu itu, dia akan lulus.",
-          "why": "[[Had]] + [[V3]] dan [[would]] [[have]] + [[V3]] menunjukkan akibat lampau hipotetis."
+          "title": "Letakkan dua kejadian di masa lalu",
+          "explanation": "Tim melewatkan latihan, lalu tim kalah. Urutkan dulu kejadian yang sungguh terjadi sebelum mengubahnya menjadi andaian.",
+          "english": "The team missed practice on Monday. It lost the match on Tuesday.",
+          "indonesian": "Tim itu melewatkan latihan pada Senin. Tim itu kalah dalam pertandingan pada Selasa.",
+          "why": "Senin adalah waktu latihan. Selasa adalah waktu pertandingan. Kita bisa membayangkan hasil lain untuk pertandingan yang sudah selesai."
         },
         {
-          "title": "Third conditional: makna",
-          "explanation": "Bayangkan hasil berbeda dari masa lalu yang sudah tidak dapat diubah.",
-          "english": "If I had known, I would have called.",
-          "indonesian": "Seandainya saya tahu, saya tentu sudah menelepon.",
-          "why": "Kalimat membayangkan perubahan atas masa lalu, bukan kejadian yang benar-benar terjadi."
+          "title": "Bayangkan hasil lampau yang berbeda",
+          "explanation": "Bandingkan kenyataan pada langkah sebelumnya dengan hasil yang dibayangkan kapten sesudah pertandingan.",
+          "english": "If we had practised on Monday, we would have played better on Tuesday.",
+          "indonesian": "Seandainya kami berlatih pada Senin, permainan kami pada Selasa tentu akan lebih baik.",
+          "why": "Kapten membayangkan perubahan pada dua peristiwa lampau. [[Would have played better]] menyatakan pendapat kapten tentang hasil alternatif, bukan bukti bahwa tim pasti akan menang."
         },
         {
-          "title": "Third conditional: bentuk",
-          "explanation": "Kenali [[if + had + V3]] dan [[would have + V3]] untuk syarat dan akibat lampau yang hipotetis.",
-          "english": "If she had studied, she would have passed.",
-          "indonesian": "Jika dahulu ia belajar, ia tentu akan lulus.",
-          "why": "Klausa syarat memakai [[had studied]] dan akibat [[would have passed]]."
+          "title": "Bangun syarat dan hasil lampau",
+          "explanation": "Lihat bentuk kata kerja pada kedua bagian. Pembicara tidak menyimpan tiket undiannya dan kini membayangkan apa yang mungkin terjadi waktu itu.",
+          "english": "If I had kept the ticket, I would have entered the draw.",
+          "indonesian": "Seandainya saya menyimpan tiketnya, saya tentu sudah ikut undian.",
+          "why": "[[Had kept]] adalah syarat lampau yang tidak terpenuhi. [[Would have entered]] adalah akibat lampau yang dibayangkan."
         },
         {
-          "title": "Bandingkan dengan kenyataan",
-          "explanation": "Tuliskan kejadian yang sebenarnya dan apa yang dibayangkan; jangan menganggap kalimat bersyarat sebagai laporan fakta.",
-          "english": "If I were more organised, I would have submitted it yesterday.",
-          "indonesian": "Jika saya lebih teratur, kemarin saya mungkin sudah mengumpulkannya.",
-          "why": "[[Mixed conditional]]: kondisi umum/kini, akibat masa lampau."
+          "title": "Pisahkan fakta dari andaian",
+          "explanation": "Baca dulu laporan faktanya, lalu bayangkan pilihan lain. Tentukan bagian yang boleh kamu laporkan sebagai sesuatu yang benar-benar terjadi.",
+          "english": "Dita missed the bus. If she had left earlier, she might have caught it.",
+          "indonesian": "Dita ketinggalan bus. Seandainya berangkat lebih awal, ia mungkin sempat naik bus itu.",
+          "why": "[[Missed]] melaporkan fakta. [[Might have caught]] membayangkan hasil yang mungkin terjadi. Kata [[might]] tetap menyisakan ketidakpastian."
         },
         {
-          "title": "Mixed: masa lalu ke kini",
-          "explanation": "Syarat tidak nyata di masa lalu bisa mempunyai akibat yang dibayangkan pada masa kini.",
-          "english": "If he had slept earlier, he would feel better now.",
-          "indonesian": "Jika dahulu ia tidur lebih cepat, ia akan merasa lebih baik sekarang.",
-          "why": "Syarat lampau menggunakan [[had slept]] dan hasil saat ini menggunakan [[would feel]]."
+          "title": "Hubungkan pilihan lampau dengan keadaan kini",
+          "explanation": "Bayangkan akibat yang dirasakan saat ini dari pilihan yang dibuat tadi malam. Cari petunjuk waktu di kedua bagian.",
+          "english": "If he had gone to bed earlier last night, he would feel better now.",
+          "indonesian": "Seandainya tadi malam ia tidur lebih awal, ia tentu merasa lebih baik sekarang.",
+          "why": "[[Had gone]] mengubah pilihan tadi malam dalam bayangan. [[Would feel]] bersama [[now]] menempatkan akibatnya pada masa kini."
         },
         {
-          "title": "Periksa dua waktu",
-          "explanation": "Bentuk verba di tiap klausa bergantung pada waktu masing-masing, bukan harus selalu sama.",
-          "english": "Had the team checked the figures, it would not have reported the wrong total.",
-          "indonesian": "Seandainya tim telah memeriksa angkanya, tim tidak akan melaporkan jumlah yang salah.",
-          "why": "[[Had the team checked]] ialah inversi bersyarat yang setara dengan [[If the team had checked]], tentang masa lalu yang tidak terjadi."
+          "title": "Balik arah hubungan waktunya",
+          "explanation": "Sifat yang dianggap menetap juga bisa menjelaskan pilihan kemarin. Tentukan bagian yang menggambarkan sifat dan bagian yang membayangkan hasil lampau.",
+          "english": "If I were more organised, I would have submitted the form yesterday.",
+          "indonesian": "Seandainya saya lebih teratur, kemarin tentu saya sudah menyerahkan formulir itu.",
+          "why": "[[Were more organised]] membayangkan sifat yang berbeda secara umum. [[Would have submitted]] adalah akibat yang dibayangkan untuk kemarin."
         },
         {
-          "title": "Bandingkan beberapa andaian",
-          "explanation": "Bedakan third conditional, mixed conditional, dan second conditional melalui satu kisah yang sama.",
-          "english": "If the team had tested the system before launch, fewer users would have encountered errors.",
-          "indonesian": "Jika tim menguji sistem sebelum peluncuran, lebih sedikit pengguna yang mungkin mengalami galat.",
-          "why": "Kondisi lampau yang tidak terpenuhi menjelaskan konsekuensi alternatif lampau."
+          "title": "Bandingkan tiga andaian tentang satu tim",
+          "explanation": "Tim ini jarang berlatih dan kemarin melewatkan latihan. Bandingkan tiga komentar pelatih. Cek kapan latihan dan hasilnya dibayangkan pada masing-masing komentar.",
+          "english": "If we practised more often, we would feel ready. If we had practised yesterday, we would have felt ready last night. If we had practised yesterday, we would feel ready now.",
+          "indonesian": "Seandainya lebih sering berlatih, kami tentu merasa siap. Seandainya kemarin berlatih, tadi malam kami tentu sudah merasa siap. Seandainya kemarin berlatih, sekarang kami tentu merasa siap.",
+          "why": "Yang pertama membayangkan kebiasaan dan akibatnya secara umum. Yang kedua menempatkan latihan dan rasa siap di masa lalu. Yang ketiga mempertahankan latihan kemarin, tetapi memindahkan akibatnya ke sekarang."
         },
         {
-          "title": "Terapkan sesuai konteks",
-          "explanation": "Rumuskan situasi nyata lalu alternatif hipotetis yang tepat; catat bahwa inversi bersyarat formal merupakan bentuk lanjutan, bukan syarat wajib.",
-          "english": "Were the instructions clearer, more students would complete the task independently.",
-          "indonesian": "Jika instruksinya lebih jelas, lebih banyak siswa akan menyelesaikan tugas secara mandiri.",
-          "why": "[[Were]] di awal menggantikan [[if]] pada kondisi hipotetis formal."
+          "title": "Kenali andaian formal tanpa kata penghubung",
+          "explanation": "Dalam pengumuman formal, kata [[if]] kadang dihilangkan. Bandingkan kalimat ini dengan bentuk yang biasa kamu pakai.",
+          "english": "Had the team checked the list, it would have noticed the missing name.",
+          "indonesian": "Seandainya tim itu memeriksa daftarnya, mereka tentu sudah menyadari ada nama yang belum tercantum.",
+          "why": "Bentuk awal [[had the team checked]] menunjukkan inversi. Hasilnya tetap dibayangkan di masa lalu.",
+          "check": "Bagaimana kamu menulis ulang pengumuman tentang daftar itu dengan [[if]] tanpa mengubah kapan kedua peristiwa dibayangkan?",
+          "checkAnswer": "[[If the team had checked the list, it would have noticed the missing name.]] Dengan [[if]], subjek [[the team]] kembali berada sebelum [[had checked]]."
         }
       ]
     },
@@ -158,20 +160,20 @@
     {
       "type": "checkpoint",
       "id": "guided-advanced-conditionals",
-      "prompt": "Which sentence imagines a different past?",
-      "translation": "Kalimat mana yang membayangkan keadaan masa lalu yang berbeda dari kenyataan?",
+      "prompt": "Which sentence places both the imagined phone call and its condition in the past?",
+      "translation": "Kalimat mana yang menempatkan syarat dan panggilan telepon yang dibayangkan sama-sama di masa lalu?",
       "choices": [
-        "If I knew, I call.",
-        "If I have known, I call.",
-        "If I had known, I would have called."
+        "If I knew her number, I would call her now.",
+        "If I had saved her number, I could call her now.",
+        "If I had saved her number, I would have called her yesterday."
       ],
       "answer": 2,
-      "explanation": "Pola [[had known]] dan [[would have called]] membayangkan kejadian masa lampau yang berbeda.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Had saved]] dan [[would have called ... yesterday]] sama-sama mengacu ke masa lalu. Pilihan pertama membayangkan keadaan kini. Pilihan kedua menghubungkan pilihan lampau dengan kesempatan menelepon sekarang.",
+      "hint": "Tentukan dua waktu secara terpisah. Kapan nomornya diketahui atau disimpan, dan kapan teleponnya dibayangkan?",
       "translationChoices": [
-        "Jika saya tahu, saya menelepon. (tidak sesuai pola)",
-        "Jika saya sudah tahu, saya menelepon. (tidak sesuai pola)",
-        "Jika saya dulu tahu, saya pasti sudah menelepon. (bentuk tepat)"
+        "Seandainya saya tahu nomornya, saya akan meneleponnya sekarang.",
+        "Seandainya dulu saya menyimpan nomornya, saya bisa meneleponnya sekarang.",
+        "Seandainya dulu saya menyimpan nomornya, kemarin saya tentu sudah meneleponnya."
       ]
     },
     {
@@ -222,9 +224,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) If we had trained, we would have won yesterday. (B) If we had trained, we would be ready now. What stays in the past, and what moves to the present?",
+      "translation": "(A) [[If we had trained, we would have won yesterday.]] Seandainya kami berlatih, kami tentu sudah menang kemarin. (B) [[If we had trained, we would be ready now.]] Seandainya kami berlatih, kami tentu siap sekarang. Bagian mana tetap berada di masa lalu, dan bagian mana berpindah ke masa kini?",
+      "answer": "Syarat [[had trained]] tetap lampau. Pada A, hasilnya dibayangkan untuk kemarin dengan [[would have won]]. Pada B, [[would be ready now]] membayangkan kesiapan saat ini."
     },
     {
       "type": "example_group",
@@ -255,10 +257,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah syaratnya tentang masa lalu, dan apakah akibatnya tentang sekarang atau masa lalu?",
-      "model": "If I had studied medicine, I would be a doctor now.",
-      "modelTranslation": "Jika dahulu saya belajar kedokteran, sekarang saya akan menjadi dokter.",
-      "criteria": "Syarat tidak nyata berada di masa lalu ([[had studied]]), tetapi akibat yang dibayangkan berada pada masa kini ([[would be]])."
+      "prompt": "Kamu lupa mengisi daya ponsel tadi malam. Tulis dua andaian dengan syarat yang sama. Bayangkan satu akibat untuk telepon yang terlewat tadi pagi dan satu akibat untuk penggunaan ponsel sekarang.",
+      "model": "If I had charged my phone last night, I could have answered the call this morning. If I had charged my phone last night, I could use it now.",
+      "modelTranslation": "Seandainya tadi malam saya mengisi daya ponsel, tadi pagi saya bisa mengangkat telepon itu. Seandainya tadi malam saya mengisi daya ponsel, sekarang saya bisa memakainya.",
+      "criteria": "Syarat [[had charged]] tetap sama. [[Could have answered]] adalah kemungkinan lampau yang terlewat. [[Could use it now]] adalah kemungkinan yang dibayangkan untuk saat ini."
     },
     {
       "type": "vocabulary",

@@ -13,56 +13,58 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menemukan inti subjek dalam sebuah frasa. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Bandingkan apa yang terjadi pada kata kerja ketika satu pemain catur menjadi dua. Setelah itu, coba temukan subjeknya ketika ada beberapa kata lain di antara subjek dan kata kerja.",
       "steps": [
         {
-          "title": "Temukan inti subjek",
-          "explanation": "Sebelum memilih verba, cari siapa atau apa yang benar-benar menjadi subjek; jangan hanya melihat kata yang paling dekat dengan verba.",
+          "title": "Cari siapa yang melakukan tindakan",
+          "explanation": "Untuk mengetahui bentuk kata kerjanya, mulai dari orang atau benda yang menjadi subjek.",
           "english": "The boy plays chess.",
           "indonesian": "Anak laki-laki itu bermain catur.",
-          "why": "[[Subject]] tunggal [[the]] [[boy]] memerlukan [[plays]]."
+          "why": "Yang bermain ialah [[the boy]]. Untuk satu anak ini, kata kerja dalam kalimat positif menjadi [[plays]]."
         },
         {
-          "title": "Tunggal dan jamak",
-          "explanation": "Bedakan satu orang atau benda dengan lebih dari satu. Jumlah subjek memengaruhi sejumlah bentuk verba bahasa Inggris.",
-          "english": "My sister is here.",
-          "indonesian": "Saudara perempuan saya ada di sini.",
-          "why": "Bentuk [[be]] untuk [[subject]] tunggal adalah [[is]]."
+          "title": "Bandingkan satu dan lebih dari satu",
+          "explanation": "Bayangkan seorang teman ikut bermain. Kegiatannya sama. Kata mana saja yang berubah?",
+          "english": "The boy plays chess. The boys play chess.",
+          "indonesian": "Anak laki-laki itu bermain catur. Anak-anak laki-laki itu bermain catur.",
+          "why": "[[Boy]] berubah menjadi [[boys]]. Sekarang subjeknya jamak, sehingga kata kerjanya berbentuk [[play]]."
         },
         {
-          "title": "Verb biasa di present",
-          "explanation": "Untuk subjek [[he/she/it]] tunggal, verba biasa afirmatif sering berakhiran [[-s/-es]]; bentuk jamak biasanya memakai verba dasar.",
-          "english": "The list of questions is long.",
-          "indonesian": "Daftar pertanyaannya panjang.",
-          "why": "Inti [[subject]] adalah [[list]], bukan [[questions]]."
+          "title": "Periksa pola kata kerja biasa",
+          "explanation": "Coba ganti nama seseorang dengan kata ganti. Pilih bentuk kata kerja sesuai dengan subjeknya.",
+          "english": "Mira watches the game. She watches the game. They watch the game.",
+          "indonesian": "Mira menonton pertandingan itu. Dia menonton pertandingan itu. Mereka menonton pertandingan itu.",
+          "why": "[[Mira]] dan [[she]] sama-sama memakai [[watches]]. Dengan [[they]], kita memakai bentuk dasar [[watch]]."
         },
         {
-          "title": "Agreement pada be",
-          "explanation": "[[Am]], [[is]], dan [[are]] mengikuti subjek masing-masing, berbeda dari perubahan akhiran verba biasa.",
-          "english": "The questions on the list are difficult.",
-          "indonesian": "Pertanyaan dalam daftar itu sulit.",
-          "why": "Inti [[subject]] adalah [[questions]] yang jamak."
+          "title": "Pilih bentuk kata kerja penghubung",
+          "explanation": "Untuk menyatakan keadaan, perhatikan perubahan bentuk [[be]] saat subjeknya berubah.",
+          "english": "I am ready. My sister is ready. My sisters are ready.",
+          "indonesian": "Saya siap. Saudara perempuan saya siap. Saudara-saudara perempuan saya siap.",
+          "why": "[[I]] berpasangan dengan [[am]]. Satu saudara memakai [[is]], sedangkan lebih dari satu memakai [[are]]."
         },
         {
-          "title": "Bandingkan pasangan",
-          "explanation": "Ganti hanya subjek dalam dua kalimat dan perhatikan bagian verba mana yang perlu berubah.",
-          "english": "A list of recommended books is on the table.",
-          "indonesian": "Daftar buku yang direkomendasikan ada di atas meja.",
-          "why": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]]."
+          "title": "Temukan inti subjek yang panjang",
+          "explanation": "Dua kalimat ini sama-sama menyebut buku. Apa yang sebenarnya berada di meja?",
+          "english": "A list of books is on the table. Two lists of books are on the table.",
+          "indonesian": "Satu daftar buku ada di meja. Dua daftar buku ada di meja.",
+          "why": "Yang dihitung ialah daftar. [[A list]] memakai [[is]], dan [[two lists]] memakai [[are]]. Kata [[books]] tetap sama."
         },
         {
-          "title": "Negatif dan pertanyaan",
-          "explanation": "Dalam [[does not]] dan pertanyaan [[does]], penanda kesesuaian berada pada [[does]] sehingga verba utama tetap dasar.",
-          "english": "The teacher and the assistant are preparing the room.",
-          "indonesian": "Guru dan asisten sedang menyiapkan ruangan.",
-          "why": "Dua [[subject]] yang digabung [[and]] umumnya memakai [[verb]] jamak."
+          "title": "Bentuk pertanyaan dan sangkalan",
+          "explanation": "Bandingkan pernyataan, pertanyaan, dan sangkalan tentang kebiasaan yang sama. Perhatikan bentuk [[read]] sesudah kata bantu.",
+          "english": "She reads at night. Does she read at night? She does not read at night.",
+          "indonesian": "Dia membaca pada malam hari. Apakah dia membaca pada malam hari? Dia tidak membaca pada malam hari.",
+          "why": "Pada pernyataan positif, [[reads]] menandai subjek [[she]]. Pada pertanyaan dan sangkalan, [[does]] sudah menjalankan tugas itu sehingga [[read]] tetap dalam bentuk dasar."
         },
         {
-          "title": "Jangan tertipu kata penyela",
-          "explanation": "Dalam [[the box of pencils]], subjek intinya [[box]], bukan [[pencils]]. Telusuri seluruh frasa subjek sebelum memilih verba.",
-          "english": "Does she read every night?",
-          "indonesian": "Apakah dia membaca setiap malam?",
-          "why": "[[Does]] menandai subjek tunggal; verba utamanya [[read]] tanpa [[-s]]."
+          "title": "Coba pilih dengan subjek yang panjang",
+          "explanation": "Isi kedua bagian kosong dengan [[is]] atau [[are]]. Jelaskan pilihanmu meski kedua kalimat sama-sama memuat kata [[pencils]].",
+          "english": "The box of pencils ___ full. The pencils in the box ___ new.",
+          "indonesian": "Kotak pensil itu penuh. Pensil-pensil di dalam kotak itu baru.",
+          "why": "Bayangkan apa yang penuh dan apa yang baru. Kedua sifat itu menerangkan benda yang berbeda.",
+          "check": "Bagaimana bunyi kedua kalimat lengkapnya, dan kata mana yang menentukan bentuk kata kerjanya?",
+          "checkAnswer": "[[The box of pencils is full.]] Satu kotak yang penuh. [[The pencils in the box are new.]] Beberapa pensillah yang baru."
         }
       ]
     },
@@ -166,20 +168,20 @@
     {
       "type": "checkpoint",
       "id": "guided-subject-verb-agreement",
-      "prompt": "Which sentence is correct?",
-      "translation": "Kalimat mana yang benar?",
+      "prompt": "Which sentence correctly describes several boys who play chess?",
+      "translation": "Kalimat mana yang tepat untuk beberapa anak laki-laki yang bermain catur?",
       "choices": [
         "The boys plays chess.",
-        "The boy play chess.",
+        "The boy plays chess.",
         "The boys play chess."
       ],
       "answer": 2,
-      "explanation": "Subjek jamak [[boys]] memakai kata kerja dasar [[play]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[The boys play]] cocok untuk beberapa anak. [[The boys plays]] memberi akhiran tunggal pada kata kerja, sedangkan [[the boy plays]] hanya menceritakan satu anak.",
+      "hint": "Periksa dua hal. Berapa orang yang dimaksud, dan apakah bentuk kata kerjanya cocok?",
       "translationChoices": [
-        "Anak-anak laki-laki itu bermain catur. (bentuk keliru)",
-        "Anak laki-laki itu bermain catur. (bentuk keliru)",
-        "Anak-anak laki-laki itu bermain catur. (bentuk tepat)"
+        "Anak-anak laki-laki itu bermain catur.",
+        "Anak laki-laki itu bermain catur.",
+        "Anak-anak laki-laki itu bermain catur."
       ]
     },
     {
@@ -234,9 +236,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The key to the lockers is missing. (B) The keys to the locker are missing. Why does the verb change?",
+      "translation": "(A) [[The key to the lockers is missing.]] Kunci untuk loker-loker itu hilang. (B) [[The keys to the locker are missing.]] Kunci-kunci untuk loker itu hilang. Mengapa bentuk kata kerjanya berubah?",
+      "answer": "Yang hilang adalah kuncinya. [[The key]] berpasangan dengan [[is]], sedangkan [[the keys]] berpasangan dengan [[are]]. Jumlah loker tidak menentukan bentuk kata kerja."
     },
     {
       "type": "example_group",
@@ -267,10 +269,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Kata manakah yang menjadi inti subjek, bukan sekadar kata di dekat verba?",
-      "model": "A list of recommended books is on the table.",
-      "modelTranslation": "Daftar buku yang direkomendasikan ada di atas meja.",
-      "criteria": "Inti subjeknya [[a list]] yang tunggal; frasa [[of recommended books]] bukan penentu verba [[is]]."
+      "prompt": "Tulis satu kalimat tentang benda di kelas. Sisipkan keterangan di antara inti subjek dan kata kerja. Buat jumlah bendanya berbeda dari jumlah benda yang disebut di dalam keterangan.",
+      "model": "The posters on the wall are new.",
+      "modelTranslation": "Poster-poster di dinding itu baru.",
+      "criteria": "Yang baru ialah [[the posters]], jadi bentuknya [[are]]. [[The wall]] hanya menyebut tempat poster dipasang."
     },
     {
       "type": "vocabulary",

@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali penggunaan [[simple past]] untuk peristiwa selesai di masa lampau. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ceritakan satu hal yang terjadi kemarin. Coba tanyakan kembali peristiwa yang sama. Perhatikan bagian mana yang menandai masa lalu ketika bentuk kalimat berubah.",
       "steps": [
         {
           "title": "Peristiwa yang selesai",
@@ -30,11 +30,11 @@
           "why": "[[Yesterday]] menunjukkan acuan waktu lampau; [[visited]] menyatakan kegiatan yang telah selesai."
         },
         {
-          "title": "Be di masa lalu",
-          "explanation": "Gunakan [[was/were]] untuk keadaan atau identitas pada masa lampau dan pilih berdasarkan subjek.",
-          "english": "They were tired last night.",
-          "indonesian": "Mereka lelah tadi malam.",
-          "why": "[[Were]] adalah bentuk lampau [[be]] untuk [[subject]] jamak."
+          "title": "Ceritakan keadaan di masa lalu",
+          "explanation": "Bandingkan keadaan satu orang dan dua orang pada waktu yang sama. Lihat bentuk lampau [[be]] yang digunakan.",
+          "english": "Rina was tired last night. Rina and Bima were tired last night.",
+          "indonesian": "Rina lelah tadi malam. Rina dan Bima lelah tadi malam.",
+          "why": "Keadaannya sama dan waktunya sama. [[Rina]] memakai [[was]], sedangkan [[Rina and Bima]] memakai [[were]]."
         },
         {
           "title": "Verba regular",
@@ -58,25 +58,27 @@
           "why": "[[Finished]] menyatakan tindakan selesai dalam kalimat afirmatif tanpa [[did]]."
         },
         {
-          "title": "Kalimat negatif",
-          "explanation": "Dengan verba biasa gunakan [[did not + verb]] dasar; untuk [[be]], gunakan [[wasn't/weren't]].",
-          "english": "Mira did not go to school yesterday.",
-          "indonesian": "Mira tidak pergi ke sekolah kemarin.",
-          "why": "[[Did not]] sudah menandai lampau, jadi gunakan [[go]], bukan [[went]]."
+          "title": "Sangkal tindakan atau keadaan",
+          "explanation": "Bandingkan menyangkal kegiatan pergi dengan menyangkal keadaan sakit. Perhatikan bagian yang menunjukkan masa lalu pada masing-masing kalimat.",
+          "english": "Mira did not go to school yesterday. She was not ill.",
+          "indonesian": "Mira tidak pergi ke sekolah kemarin. Dia tidak sakit.",
+          "why": "Untuk kegiatan, [[did not]] diikuti bentuk dasar [[go]]. Untuk keadaan, [[was]] sudah menandai lampau. Tambahkan [[not]] tepat setelahnya."
         },
         {
-          "title": "Pertanyaan lampau",
-          "explanation": "Gunakan [[Did + subject + verb]] dasar atau pindahkan [[was/were]] untuk pertanyaan dengan [[be]].",
-          "english": "Did Mira go to school yesterday?",
-          "indonesian": "Apakah Mira pergi ke sekolah kemarin?",
-          "why": "Setelah [[did]], verba tetap bentuk dasar [[go]]."
+          "title": "Tanyakan tindakan atau keadaan",
+          "explanation": "Sekarang kamu ingin memastikan dua hal tentang Mira. Bandingkan pertanyaan tentang kegiatan dan pertanyaan tentang keadaan.",
+          "english": "Did Mira go to school yesterday? Was she ill yesterday?",
+          "indonesian": "Apakah Mira pergi ke sekolah kemarin? Apakah dia sakit kemarin?",
+          "why": "Untuk menanyakan kegiatan, gunakan [[did]] dan bentuk dasar [[go]]. Untuk menanyakan keadaan, pindahkan [[was]] ke depan [[she]]."
         },
         {
-          "title": "Baca kisah pendek",
-          "explanation": "Urutkan beberapa tindakan lampau dan perbaiki kesalahan seperti [[Did she went?]] yang menggandakan penanda lampau.",
-          "english": "When the alarm rang, Dina left the building immediately.",
-          "indonesian": "Ketika alarm berbunyi, Dina segera meninggalkan gedung.",
-          "why": "[[Rang]] dan [[left]] adalah kejadian selesai dalam cerita lampau."
+          "title": "Tanyakan kembali peristiwa dalam cerita",
+          "explanation": "Seorang teman bercerita tentang alarm dan Dina. Tanyakan apakah Dina meninggalkan gedung. Pertahankan waktu peristiwanya.",
+          "english": "When the alarm rang, Dina left the building.",
+          "indonesian": "Ketika alarm berbunyi, Dina meninggalkan gedung.",
+          "why": "Dalam cerita, [[rang]] berasal dari [[ring]] dan [[left]] dari [[leave]]. Perhatikan mana yang perlu kamu ubah ketika bertanya tentang tindakan Dina.",
+          "check": "Bagaimana kamu menanyakan apakah Dina meninggalkan gedung saat alarm berbunyi?",
+          "checkAnswer": "[[Did Dina leave the building when the alarm rang?]] Kata [[did]] menandai pertanyaan lampau, jadi [[left]] kembali ke [[leave]]. Kata [[rang]] tetap karena bagian itu menyebut kapan peristiwanya terjadi."
         }
       ]
     },
@@ -192,20 +194,20 @@
     {
       "type": "checkpoint",
       "id": "guided-simple-past",
-      "prompt": "Which sentence describes a finished past event?",
-      "translation": "Kalimat mana yang menggambarkan peristiwa yang telah selesai pada masa lalu?",
+      "prompt": "Which sentence correctly reports a visit that took place yesterday?",
+      "translation": "Kalimat mana yang tepat untuk menceritakan kunjungan yang terjadi kemarin?",
       "choices": [
         "I visited my aunt yesterday.",
         "I visit my aunt yesterday.",
         "I visiting my aunt yesterday."
       ],
       "answer": 0,
-      "explanation": "[[Visited]] adalah bentuk lampau dari [[visit]] dan sesuai dengan [[yesterday]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Visited]] adalah bentuk lampau dari [[visit]]. [[Visit]] belum menandai masa lalu, sedangkan [[visiting]] tidak dapat berdiri sendiri sebagai predikat.",
+      "hint": "Cari waktu kunjungannya. Bagian mana yang dapat menjadi kata kerja utama untuk peristiwa pada waktu itu?",
       "translationChoices": [
-        "Saya mengunjungi bibi kemarin. (lampau tepat)",
-        "Saya mengunjungi bibi kemarin. (bentuk tidak tepat)",
-        "Saya mengunjungi bibi kemarin. (bentuk tidak tepat)"
+        "Saya mengunjungi bibi kemarin.",
+        "Saya mengunjungi bibi kemarin.",
+        "Saya mengunjungi bibi kemarin."
       ]
     },
     {
@@ -264,9 +266,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Mira went to the museum. (B) Did Mira go to the museum? Which word carries past time in each sentence?",
+      "translation": "(A) [[Mira went to the museum.]] Mira pergi ke museum. (B) [[Did Mira go to the museum?]] Apakah Mira pergi ke museum? Kata mana yang menunjukkan waktu lampau pada tiap kalimat?",
+      "answer": "Pada A, bentuk lampau ada pada [[went]]. Pada B, [[did]] sudah menandai lampau, sehingga yang muncul setelah [[Mira]] ialah [[go]]."
     },
     {
       "type": "example_group",
@@ -297,10 +299,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah tindakan selesai pada waktu lampau, dan apakah ada [[did]]?",
-      "model": "Did the visitors leave before sunset?",
-      "modelTranslation": "Apakah para pengunjung pergi sebelum matahari terbenam?",
-      "criteria": "[[Did]] menandai pertanyaan lampau dan [[leave]] tetap berbentuk dasar."
+      "prompt": "Tulis satu pertanyaan untuk memastikan apakah suatu kegiatan terjadi kemarin. Gunakan kata kerja yang bentuk lampaunya tidak beraturan.",
+      "model": "Did Rani bring her notebook yesterday?",
+      "modelTranslation": "Apakah Rani membawa buku catatannya kemarin?",
+      "criteria": "[[Did]] sudah menandai waktu lampau. Sesudah subjek, pilih bentuk dasar [[bring]]. Bentuk lampau [[brought]] cocok dalam pernyataan positif."
     },
     {
       "type": "vocabulary",
