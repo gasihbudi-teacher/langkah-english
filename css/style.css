@@ -417,7 +417,6 @@ progress::-moz-progress-bar { background: var(--forest); }
 .concept-definition, .concept-synthesis, .lesson-summary { margin: 1.5rem 0; padding: 1.05rem 1.25rem; border: 0; border-left: 3px solid var(--track,var(--forest)); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--wash,var(--mint)); }
 .concept-definition p, .concept-synthesis p { margin: 0; color: var(--ink); font-size: 1rem; }
 .objectives-panel, .lesson-reference, .more-examples { padding: .25rem .9rem; margin: 1rem 0; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); }
-.language-legend { margin-block: 1.2rem; padding: 0; background: none; color: var(--muted); border: 0; font-size: .94rem; }
 .english-term { color: #264f79; background: #e5edf5; font-style: italic; font-weight: 650; }
 .scaffold-guide { padding: 0; margin: 2.2rem 0; border: 0; border-radius: 0; background: transparent; }
 .scaffold-heading { display: block; margin-bottom: 1.25rem; }

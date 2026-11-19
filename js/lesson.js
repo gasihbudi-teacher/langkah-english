@@ -32,7 +32,6 @@ try{
     <div class="article-body lesson-opening">${blocks(d.blocks.filter(b=>b.type==='definition'))}</div>
     <details class="panel objectives-panel"><summary>${t('objectives')}</summary><ul>${d.objectives.map(o=>`<li lang="id">${formatIdText(o)}</li>`).join('')}</ul></details>
     ${prerequisite.length?`<div class="notice">${t('prerequisite')}: ${prerequisite.map(r=>`<a href="${link(r.id,r.type)}">${esc(r.title)}</a>`).join(', ')}</div>`:''}
-    <p class="language-legend" lang="id">Istilah bahasa Inggris, seperti ${formatIdText("[[verb]]")}, ditandai dengan warna khusus. Contoh kalimat bahasa Inggris ditampilkan terpisah dari arti dan penjelasannya dalam bahasa Indonesia.</p>
     <div class="article-body">${blocks(d.blocks.filter(b=>b.type!=='definition'&&b.type!=='vocabulary'))}</div>
     <section aria-label="${t('tryIt')}"><h2>${t('tryIt')}</h2><p class="lesson-practice-instruction" lang="id">${t('lessonPracticeInstruction')}</p><div id="practice"></div></section>
     <div class="article-body lesson-vocabulary">${blocks(d.blocks.filter(b=>b.type==='vocabulary'))}</div>
