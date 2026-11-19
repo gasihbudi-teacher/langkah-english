@@ -15,14 +15,15 @@ try{
     const attempts=Array.isArray(p.attempts)?p.attempts:[];
     const completed=resources.filter(r=>r.type==='lesson'&&lessonProgress[r.id]).length;
     const lessonCount=resources.filter(r=>r.type==='lesson').length;
-    const average=attempts.length
-      ? Math.round(attempts.reduce((sum,a)=>sum+(a.result?.percentage||0),0)/attempts.length)+'%'
-      : '—';
-    const stats=document.querySelector('#stats');
-    if(stats){
-      const values=[[completed,'statLessons'],[attempts.length,'statExams'],[average,'statAverage'],[lessonCount?Math.round(completed/lessonCount*100)+'%':'0%','statProgress']];
-      stats.innerHTML=values.map(([value,key])=>`<div class="stat"><strong>${value}</strong><span>${t(key)}</span></div>`).join('');
-    }
+    const percent = lessonCount ? Math.round(completed / lessonCount * 100) : 0;
+    document.querySelector('#progress-count').textContent = t('pathwayProgress', {done:completed, total:lessonCount});
+    document.querySelector('#progress-percent').textContent = percent + '%';
+    document.querySelector('#progress-meter').value = percent;
+    renderWeek(p, lessonProgress, attempts);
+    const average = attempts.length ? Math.round(attempts.reduce((sum, attempt) =>
+      sum + (attempt.result?.percentage || 0), 0) / attempts.length) + '%' : '—';
+    document.querySelector('#stats').innerHTML = [[attempts.length, 'statExams'], [average, 'statAverage']]
+      .map(([value, key]) => `<div class="stat"><strong>${value}</strong><span>${t(key)}</span></div>`).join('');
 
     const drafts = [...quizDrafts()].map(([id,draft]) => ({
       resource: resources.find(r => r.id === id && r.type === 'quiz'), draft
@@ -34,7 +35,7 @@ try{
     const continuePanel=document.querySelector('#continue');
     const hasProgress=Boolean(drafts.length || lastLesson || lastAttempt || p.activity?.length);
     continueSection.hidden=!hasProgress;
-    document.querySelector('.home-hero').hidden = hasProgress;
+    document.querySelector('#quick-start').hidden = hasProgress;
     if (hasProgress) {
       let title, href, description, action;
       if (drafts.length) {
@@ -66,11 +67,11 @@ try{
         href = link(item.id,item.type);
         action = 'continueAction';
       }
-      continuePanel.innerHTML = `<div class="hero-copy continue-panel">
-        <p class="hero-overline">${icon('history')}${t('continueKicker')}</p>
-        <h2>${esc(title)}</h2>${description ? `<p class="hero-lead">${t(description)}</p>` : ''}
-        <div class="hero-actions"><a class="button" href="${esc(href)}">${t(action)}${icon('arrow')}</a></div>
-      </div>`;
+      continuePanel.innerHTML = `<a class="dashboard-action" href="${esc(href)}">
+        <span class="dashboard-action-icon">${icon('history')}</span>
+        <span class="dashboard-action-copy"><small>${t(action)}</small><strong>${esc(title)}</strong>${description ? `<small>${t(description)}</small>` : ''}</span>
+        <span class="dashboard-arrow">${icon('arrow')}</span>
+      </a>`;
     } else {
       continuePanel.replaceChildren();
     }
@@ -84,12 +85,37 @@ try{
     }
   }
 
+  function renderWeek(record, lessons, attempts) {
+    const today = new Date();
+    // Calendar arithmetic keeps the displayed week local, including clock changes.
+    const start = new Date(today.getFullYear(), today.getMonth(), today.getDate() - today.getDay());
+    const dayKey = date => [date.getFullYear(), date.getMonth(), date.getDate()].join('-');
+    const history = Array.isArray(record.activity) ? record.activity : [];
+    const timestamps = [...Object.values(lessons), ...attempts.map(a => a.at),
+      ...history.filter(entry => entry.kind === 'Lesson completed' || entry.kind?.startsWith('Examination:')).map(entry => entry.at)];
+    const activeDays = new Set(timestamps
+      .filter(time => Number.isFinite(time) && time >= start.getTime() && time <= today.getTime())
+      .map(time => dayKey(new Date(time))));
+    const formatter = new Intl.DateTimeFormat(language() === 'id' ? 'id-ID' : 'en-US',
+      {weekday:'long', day:'numeric', month:'long'});
+    const labels = language() === 'id' ? ['Min','Sen','Sel','Rab','Kam','Jum','Sab'] : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    document.querySelector('#week-days').innerHTML = labels.map((label, i) => {
+      const date = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+      const key = dayKey(date);
+      const active = activeDays.has(key);
+      const labelText = formatter.format(date) + ' · ' + t(active ? 'weekDone' : 'weekNone');
+      return `<li class="week-day${active ? ' is-active' : ''}"${key === dayKey(today) ? ' aria-current="date"' : ''}>
+        <span class="visually-hidden">${esc(labelText)}</span>
+        <span aria-hidden="true">${label}</span><span class="week-day-dot" aria-hidden="true">${active ? icon('check') : ''}</span>
+      </li>`;
+    }).join('');
+  }
+
   setupBackup(renderHome);
   renderHome();
   onLanguageChange(renderHome);
-  const progressDetails=document.querySelector('#my-progress');
-  if(progressDetails&&location.hash==='#my-progress')progressDetails.open=true;
-  addEventListener('hashchange',()=>{
-    if(progressDetails&&location.hash==='#my-progress')progressDetails.open=true;
+  addEventListener('pageshow', renderHome);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) renderHome();
   });
 }catch(e){error(e)}

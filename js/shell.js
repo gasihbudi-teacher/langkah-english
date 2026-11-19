@@ -44,7 +44,7 @@ document.addEventListener('keydown', event => {
 });
 matchMedia('(max-width: 810px)').addEventListener('change', closeMenu);
 const current = location.pathname.split('/').pop() || 'index.html';
-for (const anchor of navigation.querySelectorAll('a[href]')) {
+for (const anchor of header.querySelectorAll('a[href]')) {
   if (anchor.getAttribute('href') === current) {
     anchor.setAttribute('aria-current', 'page');
     if (anchor.closest('.route-menu')) paths.classList.add('current-path');
