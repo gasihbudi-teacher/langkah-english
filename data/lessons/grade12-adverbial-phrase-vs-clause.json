@@ -59,11 +59,11 @@
           "why": "[[After the meeting ended]] adalah klausa adverbial finit: ada subjek [[the meeting]] dan predikat [[ended]]."
         },
         {
-          "title": "Pasangkan dua bentuk",
-          "explanation": "Bandingkan dua adverbial dengan fungsi waktu atau alasan sama; lihat struktur bagian adverbial, bukan subjek kalimat utama.",
-          "english": "Although the room was crowded, Maya concentrated.",
-          "indonesian": "Walaupun ruangan itu penuh sesak, Maya berkonsentrasi.",
-          "why": "[[Although the room was crowded]] = klausa; subjek [[the room]] dan verba finit [[was]]."
+          "title": "Bandingkan dua cara menyatakan hambatan",
+          "explanation": "Kedua kalimat mengakui hambatan yang sama. Periksa hanya bagian sebelum koma.",
+          "english": "Despite the crowded room, Maya concentrated. Although the room was crowded, Maya concentrated.",
+          "indonesian": "Meski ruangannya penuh, Maya tetap berkonsentrasi. Walaupun ruangan itu penuh, Maya tetap berkonsentrasi.",
+          "why": "Sesudah [[despite]] ada frasa nomina. Sesudah [[although]] ada subjek [[the room]] dan verba finit [[was]]."
         },
         {
           "title": "Pilih penghubung",
@@ -167,8 +167,8 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-adverbial-phrase-vs-clause",
-      "prompt": "Which highlighted part is an adverbial clause?",
-      "translation": "Bagian yang mana merupakan klausa adverbial?",
+      "prompt": "Which expression has its own subject and finite verb?",
+      "translation": "Ungkapan mana yang memiliki subjek dan verba finit sendiri?",
       "choices": [
         "after the exam",
         "because the bus was late",
@@ -180,7 +180,7 @@
         "karena busnya terlambat",
         "selama diskusi"
       ],
-      "hint": "Carilah bagian yang memiliki subjek dan kata kerja finit sendiri. Kata “was” adalah petunjuk penting.",
+      "hint": "Periksa setiap keterangan. Dapatkah kamu menunjuk subjek dan verba di dalam bagian itu sendiri?",
       "explanation": "[[Because the bus was late]] memiliki subjek [[the bus]] dan verba finit [[was]]. Dua pilihan lain hanya frasa."
     },
     {
@@ -234,9 +234,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "How do “because of the storm” and “because the storm became stronger” differ in structure?",
-      "translation": "Apa perbedaan struktur “because of the storm” dan “because the storm became stronger”?",
-      "answer": "Keduanya menerangkan alasan. [[Because of the storm]] adalah frasa dengan [[the storm]] sebagai frasa nomina; [[because the storm became stronger]] adalah klausa karena memiliki subjek [[the storm]] dan verba finit [[became]]."
+      "prompt": "(A) “We stayed inside because of the storm.” (B) “We stayed inside because the storm grew stronger.” How do the two reasons differ in structure?",
+      "translation": "(A) “Kami tetap di dalam karena badai.” (B) “Kami tetap di dalam karena badai bertambah kuat.” Apa perbedaan struktur kedua keterangan alasan itu?",
+      "answer": "Pada A, [[the storm]] berupa frasa nomina. Pada B, [[the storm]] menjadi subjek dan [[grew]] menjadi verba finit. B juga menyebut perubahan kekuatan badai."
     },
     {
       "type": "subheading",
@@ -372,10 +372,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah bagian keterangan itu memiliki subjek dan verba finit sendiri?",
-      "model": "Because of the delay, the audience waited outside.",
-      "modelTranslation": "Karena keterlambatan itu, penonton menunggu di luar.",
-      "criteria": "[[Because of the delay]] ialah frasa keterangan alasan karena di dalamnya tidak terdapat pasangan subjek–verba finit."
+      "prompt": "Ubah frasa waktu dalam kalimat “After the discussion, the team shared its draft with the teacher” menjadi klausa waktu seperti dalam bacaan. Tulis kedua kalimat lengkap.",
+      "model": "After the discussion, the team shared its draft with the teacher. After the discussion ended, the team shared its draft with the teacher.",
+      "modelTranslation": "Setelah diskusi, tim menyerahkan drafnya kepada guru. Setelah diskusi berakhir, tim menyerahkan drafnya kepada guru.",
+      "criteria": "Urutan peristiwa tetap sama. [[After the discussion]] berupa frasa. Dalam [[after the discussion ended]], subjeknya [[the discussion]] dan verba finitnya [[ended]]."
     },
     {
       "type": "vocabulary",
@@ -469,22 +469,22 @@
     },
     {
       "id": "q3",
-      "prompt": "Choose the correct completion: “___ the road was flooded, the bus stopped.”",
+      "prompt": "In the debate passage, which change turns “after the discussion ended” into a phrase with the same timing?",
       "choices": [
-        "Because of",
-        "Despite",
-        "Because",
-        "During"
+        "during the discussion",
+        "after the discussion",
+        "before the discussion",
+        "until the discussion"
       ],
-      "answer": 2,
-      "explanation": "Setelah bagian kosong ada klausa [[the road was flooded]], sehingga gunakan [[Because]]. [[Because of]] dan [[despite]] umumnya diikuti nomina/frasa nomina.",
+      "answer": 1,
+      "explanation": "Tim membagikan draf sesudah diskusi selesai. [[After the discussion]] mempertahankan urutan itu dan tidak memiliki verba sendiri. Pilihan lain menggeser waktu atau menunjukkan batas durasi.",
       "translationId": {
-        "prompt": "Pilih pelengkap yang benar untuk kalimat “___ jalan tergenang, bus berhenti.”",
+        "prompt": "Dalam bacaan tim debat, perubahan mana yang menghasilkan frasa dengan urutan waktu yang sama?",
         "choices": [
-          "Karena (diikuti frasa nomina)",
-          "Meskipun (diikuti frasa nomina)",
-          "Karena (diikuti klausa)",
-          "Selama (diikuti frasa nomina)"
+          "selama diskusi",
+          "setelah diskusi",
+          "sebelum diskusi",
+          "sampai diskusi"
         ]
       }
     },
@@ -500,7 +500,7 @@
       "answer": 3,
       "explanation": "[[Near the hall]] adalah frasa yang menerangkan tempat. [[Until the speaker arrived]] justru klausa waktu dengan subjek dan verba.",
       "translationId": {
-        "prompt": "Bagian mana dari kalimat tersebut yang merupakan frasa adverbial?",
+        "prompt": "Dalam kalimat “We waited near the hall until the speaker arrived”, bagian mana yang berupa frasa keterangan?",
         "choices": [
           "sampai pembicara tiba",
           "pembicara tiba",
@@ -511,22 +511,22 @@
     },
     {
       "id": "q5",
-      "prompt": "Which sentence is grammatically correct?",
+      "prompt": "Which pair can fill the gaps in order? “___ the noise, we listened. ___ people disagreed, we listened.”",
       "choices": [
-        "Despite she was nervous, she spoke.",
-        "Although she was nervous, she spoke.",
-        "During she was nervous, she spoke.",
-        "Because of she was nervous, she spoke."
+        "Although / despite",
+        "Despite / because of",
+        "Despite / although",
+        "During / despite"
       ],
-      "answer": 1,
-      "explanation": "[[Although]] dapat mengawali klausa [[she was nervous]]. [[Despite]], [[during]], dan [[because of]] tidak cocok langsung diikuti klausa finit pada pola ini.",
+      "answer": 2,
+      "explanation": "[[The noise]] adalah frasa nomina, sedangkan [[people disagreed]] memiliki subjek dan verba finit. [[Despite]] cocok pada bagian pertama dan [[although]] pada bagian kedua. Terjemahan Indonesia saja tidak memperlihatkan perbedaan struktur ini.",
       "translationId": {
-        "prompt": "Kalimat mana yang benar secara tata bahasa?",
+        "prompt": "Pilih pasangan penghubung untuk kedua bagian kosong secara berurutan: “___ the noise, we listened. ___ people disagreed, we listened.”",
         "choices": [
-          "Meskipun dia gugup, dia berbicara (struktur Inggris keliru).",
-          "Walaupun dia gugup, dia berbicara (struktur Inggris benar).",
-          "Saat dia gugup, dia berbicara (struktur Inggris keliru).",
-          "Karena dia gugup, dia berbicara (struktur Inggris keliru)."
+          "walaupun / meski",
+          "meski / karena",
+          "meski / walaupun",
+          "selama / meski"
         ]
       }
     }
