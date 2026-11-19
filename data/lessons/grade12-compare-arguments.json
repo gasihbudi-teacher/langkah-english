@@ -16,51 +16,51 @@
       "intro": "Ikuti enam langkah berikut pada satu kasus yang sama—dua laporan mengenai jumlah peserta pameran sains sekolah—untuk melihat mengapa dua angka yang berbeda belum tentu saling bertentangan.",
       "steps": [
         {
-          "title": "1. Pastikan kedua sumber membahas isu yang sama",
+          "title": "Pastikan kedua sumber membahas isu yang sama",
           "explanation": "Sebelum membandingkan angka atau pendapat, pastikan kedua sumber membicarakan peristiwa atau persoalan yang sama.",
           "english": "Both reports discuss student participation in the school science fair.",
           "indonesian": "Kedua laporan membahas partisipasi siswa dalam pameran sains sekolah.",
           "why": "Topik utamanya sama, tetapi kita tetap perlu memeriksa apa yang diukur masing-masing laporan."
         },
         {
-          "title": "2. Identifikasi klaim dan bukti sumber pertama",
+          "title": "Identifikasi klaim dan bukti sumber pertama",
           "explanation": "Catat kesimpulan sumber pertama beserta cara mereka mengumpulkan datanya.",
           "english": "Report A states that 180 students participated because it counted online registrations.",
           "indonesian": "Laporan A menyatakan bahwa 180 siswa berpartisipasi karena laporan itu menghitung pendaftaran daring.",
           "why": "Angka 180 berasal dari daftar pendaftar, bukan orang yang benar-benar datang."
         },
         {
-          "title": "3. Identifikasi klaim dan bukti sumber kedua",
+          "title": "Identifikasi klaim dan bukti sumber kedua",
           "explanation": "Lakukan pemeriksaan yang sama pada sumber kedua dengan ketelitian yang setara.",
           "english": "Report B records 142 participants by counting students who entered the hall.",
           "indonesian": "Laporan B mencatat 142 peserta dengan menghitung siswa yang masuk ke aula.",
           "why": "Sumber B mengukur kehadiran fisik di lokasi acara."
         },
         {
-          "title": "4. Periksa kesetaraan ukuran (measure)",
+          "title": "Periksa kesetaraan ukuran (measure)",
           "explanation": "Bandingkan apakah kedua sumber memakai definisi atau alat ukur yang sepadan.",
           "english": "Online registration is not the same measure as physical attendance.",
           "indonesian": "Pendaftaran daring bukanlah ukuran yang sama dengan kehadiran fisik.",
           "why": "Sebagian pendaftar bisa saja batal hadir, sehingga perbedaan angka masuk akal."
         },
         {
-          "title": "5. Nilai relevansi dan keandalan bukti",
+          "title": "Nilai relevansi dan keandalan bukti",
           "explanation": "Pilih bukti yang paling sesuai dengan pertanyaan yang ingin dijawab dan periksa batasannya.",
           "english": "A headcount at the entrance is stronger evidence of actual attendance than a sign-up form.",
           "indonesian": "Penghitungan langsung di pintu masuk adalah bukti kehadiran nyata yang lebih kuat daripada formulir pendaftaran.",
           "why": "Bukti harus relevan dengan klaim yang sedang diuji."
         },
         {
-          "title": "6. Tarik kesimpulan secara proporsional",
+          "title": "Tarik kesimpulan secara proporsional",
           "explanation": "Hindari menyimpulkan bahwa salah satu sumber berbohong jika perbedaan dapat dijelaskan oleh perbedaan metode.",
           "english": "Before judging which claim is stronger, readers must check whether both sources measure the same group and time period.",
           "indonesian": "Sebelum menilai klaim mana yang lebih kuat, pembaca harus memeriksa apakah kedua sumber mengukur kelompok dan periode waktu yang sama.",
           "why": "Perbandingan yang adil membutuhkan dasar data yang sebanding."
         }
       ],
-      "modelTitle": "Teks model utuh: Membandingkan dua evaluasi rute bus",
-      "modelEnglish": "Writer A claims the new school bus route is successful because 80 passengers used it on Monday. Writer B argues that 80 passengers alone is not enough to prove success because no previous data, operating cost, or passenger target is provided. Both writers examine the same bus route, yet Writer B shows why a single number needs context before we draw a conclusion.",
-      "modelIndonesian": "Penulis A mengklaim rute bus sekolah yang baru berhasil karena 80 penumpang menggunakannya pada hari Senin. Penulis B berpendapat bahwa angka 80 penumpang saja tidak cukup untuk membuktikan keberhasilan karena tidak ada data sebelumnya, biaya operasional, atau target penumpang yang disertakan. Kedua penulis membahas rute bus yang sama, tetapi Penulis B menunjukkan mengapa satu angka membutuhkan konteks sebelum kita menarik kesimpulan."
+      "modelTitle": "Dua catatan dari pameran sains sekolah",
+      "modelEnglish": "Registration desk: We received online sign-ups from 180 students before the fair. Some who signed up later stayed home.\n\nEntrance desk: Our volunteers recorded 142 entries at the hall on the day of the fair. We counted people as they came in.",
+      "modelIndonesian": "Meja pendaftaran: Sebelum pameran, kami menerima pendaftaran daring dari 180 siswa. Sebagian pendaftar akhirnya tidak datang.\n\nMeja penerima tamu: Pada hari pameran, relawan kami mencatat 142 kali orang masuk ke aula. Kami menghitung orang saat mereka masuk."
     },
     {
       "type": "synthesis",
@@ -114,21 +114,21 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-compare-arguments",
-      "prompt": "Report A says 180 students joined the science fair (based on online sign-ups), while Report B says 142 students joined (counted at the door). Why do these two numbers differ?",
-      "translation": "Laporan A menyebut 180 siswa mengikuti pameran sains (berdasarkan pendaftaran daring), sedangkan Laporan B menyebut 142 siswa hadir (dihitung di pintu masuk). Mengapa kedua angka ini berbeda?",
+      "prompt": "Which question could the registration desk answer from its own records?",
+      "translation": "Pertanyaan mana yang dapat dijawab meja pendaftaran dari catatannya sendiri?",
       "choices": [
-        "Because Report B forgot to count students who arrived in the morning.",
-        "Because the two reports measured different things: registration versus physical attendance.",
-        "Because online registration forms always double every student's name."
+        "How many people entered the hall?",
+        "How many students signed up online?",
+        "How many visitors entered twice?"
       ],
       "answer": 1,
       "translationChoices": [
-        "Karena Laporan B lupa menghitung siswa yang datang pada pagi hari.",
-        "Karena kedua laporan mengukur hal yang berbeda: pendaftaran dibandingkan kehadiran fisik.",
-        "Karena formulir pendaftaran daring selalu menggandakan nama setiap siswa."
+        "Berapa orang yang masuk ke aula?",
+        "Berapa siswa yang mendaftar secara daring?",
+        "Berapa pengunjung yang masuk dua kali?"
       ],
-      "explanation": "Laporan A menghitung [[registrations]] (pendaftaran), sedangkan Laporan B menghitung [[attendance]] (kehadiran fisik di aula). Perbedaan definisi inilah yang menjelaskan selisih angka tersebut.",
-      "hint": "Bandingkan cara pengumpulan data Laporan A dan Laporan B pada Langkah 2 dan Langkah 3."
+      "explanation": "Daftar daring mencatat pendaftar sebelum acara. Daftar itu saja tidak menunjukkan siapa yang datang atau berapa kali seseorang masuk.",
+      "hint": "Perhatikan kapan petugas membuat catatan dan tindakan apa yang mereka catat."
     },
     {
       "type": "breakdown",
@@ -152,7 +152,7 @@
       "type": "reflection",
       "prompt": "Compare: (A) “50 students signed up for the workshop.” vs. (B) “40 students attended the workshop.” What must a reader check before calling this a contradiction?",
       "translation": "Bandingkan: (A) “50 siswa mendaftar lokakarya.” vs. (B) “40 siswa menghadiri lokakarya.” Apa yang harus diperiksa pembaca sebelum menyebutnya bertentangan?",
-      "answer": "Pembaca perlu memeriksa perbedaan definisi antara 'signed up' (mendaftar) dan 'attended' (hadir). Sepuluh pendaftar bisa saja tidak hadir, sehingga kedua fakta tersebut dapat sama-sama benar."
+      "answer": "Periksa apa yang dihitung. [[Signed up]] berarti mendaftar dan [[attended]] berarti hadir. Kedua angka bisa benar tanpa membuktikan bahwa semua orang yang hadir sudah mendaftar."
     },
     {
       "type": "heading",
@@ -165,7 +165,7 @@
     {
       "type": "example",
       "text": "Two reports described the school’s science fair. Report A said participation reached 180 because it counted online registrations, including students who later stayed home. Report B recorded 142 participants because volunteers counted the people who entered the hall. A social media post claimed that one report must be false. However, the two reports measured different things. The organiser explained that both numbers could be accurate while answering different questions. A careful reader should compare the definitions before deciding whether the figures disagree.",
-      "note": "Pemetaan bacaan: Klaim & bukti Report A = 180 pendaftar daring; Klaim & bukti Report B = 142 pengunjung aula; Kesimpulan = Kedua angka bisa akurat karena menjawab pertanyaan dan definisi yang berbeda."
+      "note": "Periksa apakah selisih dua angka itu cukup untuk mengetahui siapa yang absen. Tuliskan data tambahan yang kamu perlukan."
     },
     {
       "type": "summary",
@@ -218,64 +218,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Based on the sample passage, why did Report A and Report B state different numbers of participants?",
+      "prompt": "A post says exactly 38 registered students missed the fair. What is missing from this calculation?",
       "choices": [
-        "Report A counted online registrations, whereas Report B counted people entering the hall.",
-        "Report B only counted teachers and volunteers instead of students.",
-        "Report A included students from two different school years.",
-        "One of the reports guessed the number without counting."
+        "The number of subjects offered at the fair",
+        "The room capacity before registration opened",
+        "The number of days registration was available",
+        "A way to match individual attendees to the registration list"
       ],
-      "answer": 0,
-      "explanation": "Laporan A menghitung [[online registrations]] (180), sedangkan Laporan B menghitung [[people who entered the hall]] (142). Keduanya memakai ukuran yang berbeda.",
+      "answer": 3,
+      "explanation": "Selisih 180 dan 142 adalah 38, tetapi kedua catatan mengukur hal berbeda. Tanpa pencocokan, kita belum tahu berapa pendaftar yang benar-benar hadir.",
       "translationId": {
-        "prompt": "Berdasarkan bacaan contoh, mengapa Laporan A dan Laporan B mencantumkan jumlah peserta yang berbeda?",
+        "prompt": "Sebuah unggahan menyebut tepat 38 siswa terdaftar tidak hadir. Informasi apa yang masih diperlukan untuk memastikan angka itu?",
         "choices": [
-          "Laporan A menghitung pendaftaran daring, sedangkan Laporan B menghitung orang yang masuk ke aula.",
-          "Laporan B hanya menghitung guru dan sukarelawan, bukan siswa.",
-          "Laporan A memasukkan siswa dari dua tahun ajaran yang berbeda.",
-          "Salah satu laporan menebak angka tanpa menghitung."
+          "Jumlah mata pelajaran di pameran",
+          "Kapasitas ruangan sebelum pendaftaran dibuka",
+          "Jumlah hari pendaftaran dibuka",
+          "Cara mencocokkan setiap orang yang hadir dengan daftar pendaftar"
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which evidence is stronger if you want to know how many students actually attended an event in person?",
+      "prompt": "What extra check would best turn the volunteers’ entrance tally into a count of distinct students?",
       "choices": [
-        "A social media post saying the room looked very crowded.",
-        "An online sign-up list collected three days before the event.",
-        "A volunteer headcount recorded at the entrance door during the event.",
-        "One student's opinion that most classmates planned to come."
+        "Record the time the hall first became crowded.",
+        "Compare the total with last year’s registrations.",
+        "Distinguish students from other visitors and count each student once.",
+        "Ask one class whether its members planned to attend."
       ],
       "answer": 2,
-      "explanation": "Penghitungan langsung di pintu masuk saat acara berlangsung mengukur kehadiran fisik secara langsung, sehingga paling relevan dengan pertanyaan tersebut.",
+      "explanation": "Pertanyaannya menyangkut siswa yang berbeda. Daftar masuk perlu membedakan pengunjung dan mencegah penghitungan ganda. Waktu keramaian, rencana hadir, dan angka tahun lalu tidak menjawabnya.",
       "translationId": {
-        "prompt": "Bukti mana yang lebih kuat jika kamu ingin mengetahui berapa banyak siswa yang benar-benar hadir secara langsung di suatu acara?",
+        "prompt": "Pemeriksaan tambahan mana yang paling membantu mengubah catatan relawan di pintu menjadi jumlah siswa yang berbeda?",
         "choices": [
-          "Unggahan media sosial yang menyebut ruangan tampak sangat ramai.",
-          "Daftar pendaftaran daring yang dikumpulkan tiga hari sebelum acara.",
-          "Penghitungan langsung oleh panitia di pintu masuk selama acara berlangsung.",
-          "Pendapat satu siswa bahwa sebagian besar teman sekelas berencana datang."
+          "Catat kapan aula mulai penuh.",
+          "Bandingkan jumlahnya dengan pendaftaran tahun lalu.",
+          "Bedakan siswa dari pengunjung lain dan hitung setiap siswa satu kali.",
+          "Tanyakan kepada satu kelas apakah siswanya berencana hadir."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "What should a careful reader do before deciding which of two conflicting claims is stronger?",
+      "prompt": "A bus route carried 80 passengers on Monday. Which comparison would best test a claim that the route increased use?",
       "choices": [
-        "Choose whichever writer uses stronger and more emotional words.",
-        "Assume the report with the larger number is always more reliable.",
-        "Check whether both sources examine the same group, time period, and definition.",
-        "Reject both sources immediately because their numbers do not match."
+        "Passenger counts on comparable Mondays before the change, using the same counting method",
+        "The number of online supporters of the route",
+        "The total seat capacity on all buses in town",
+        "A driver’s estimate of demand for next month"
       ],
-      "answer": 2,
-      "explanation": "Perbandingan yang adil mengharuskan pembaca memeriksa kesamaan kelompok ([[sample]]), periode waktu, dan definisi ukuran ([[measure]]) sebelum menilai kekuatan klaim.",
+      "answer": 0,
+      "explanation": "Untuk menilai kenaikan, bandingkan penggunaan sebelum dan sesudah perubahan pada hari yang sebanding dengan cara hitung yang sama. Kapasitas, dukungan, dan perkiraan bukan ukuran jumlah penumpang yang benar-benar naik.",
       "translationId": {
-        "prompt": "Apa yang sebaiknya dilakukan pembaca yang cermat sebelum memutuskan klaim mana yang lebih kuat di antara dua pendapat yang tampak bertentangan?",
+        "prompt": "Rute bus mengangkut 80 penumpang pada hari Senin. Perbandingan mana yang paling tepat untuk menguji klaim bahwa penggunaan bus meningkat?",
         "choices": [
-          "Memilih penulis mana pun yang memakai kata-kata lebih keras dan emosional.",
-          "Menganggap laporan dengan angka lebih besar selalu lebih dapat dipercaya.",
-          "Memeriksa apakah kedua sumber mengamati kelompok, periode waktu, dan definisi yang sama.",
-          "Menolak kedua sumber sekaligus karena angkanya tidak cocok."
+          "Jumlah penumpang pada hari Senin yang sebanding sebelum perubahan, dihitung dengan cara yang sama",
+          "Jumlah pendukung rute tersebut di internet",
+          "Seluruh tempat duduk bus di kota",
+          "Perkiraan pengemudi tentang permintaan bulan depan"
         ]
       }
     }
