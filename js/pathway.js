@@ -3,7 +3,8 @@ import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 const pathway=document.body.dataset.pathway;
 const target=document.querySelector('#pathway-resources');
-const sorted=(a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title,'id');
+const byTitle=(a,b)=>a.title.localeCompare(b.title,'id');
+const sorted=pathway==='school' ? byTitle : (a,b)=>(a.order??1000)-(b.order??1000)||byTitle(a,b);
 try{
  const c=await getCatalog(),p=progress.read();
  const resources=c.resources.filter(r=>r.placements.some(x=>x.pathway===pathway));
@@ -37,8 +38,10 @@ try{
    html+=group('utbk-mocks','UTBK · '+t('groupMocks'),quizzes.filter(r=>r.examFormat==='full'));
   }
   target.innerHTML=html;
-  const firstGroup=pathway==='grammar'?'beginner-materi':pathway==='school'?'grade-9-materi':'utbk-lessons';
-  if(firstDraw && !location.hash){const first=document.getElementById(firstGroup);if(first)first.open=true;}
+  if(firstDraw && pathway!=='school' && !location.hash){
+   const first=document.getElementById(pathway==='grammar'?'beginner-materi':'utbk-lessons');
+   if(first)first.open=true;
+  }
   firstDraw=false;
   const relevant=resources.filter(r=>r.type==='lesson');
   const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
