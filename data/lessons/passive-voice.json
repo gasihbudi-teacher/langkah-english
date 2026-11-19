@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[passive voice]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Seorang koki menyiapkan hidangan. Bagaimana kamu menceritakan peristiwa yang sama kepada orang yang ingin tahu tentang hidangannya? Amati apa yang menjadi subjek dan apa yang tetap sama.",
       "steps": [
         {
           "title": "Pelaku dan tindakan",
@@ -23,11 +23,11 @@
           "why": "Kalimat aktif: [[chef]] melakukan tindakan."
         },
         {
-          "title": "Penerima tindakan",
-          "explanation": "Temukan objek yang menerima tindakan; tidak semua verba memiliki objek untuk dijadikan subjek pasif.",
-          "english": "The meal is prepared by the chef.",
-          "indonesian": "Makanan disiapkan oleh koki.",
-          "why": "Kalimat pasif: [[meal]] menjadi [[subject]] penerima tindakan."
+          "title": "Cari yang menerima tindakan",
+          "explanation": "Kembali ke kalimat aktif. Tanyakan “apa yang disiapkan?” sebelum mencoba mengubah susunannya.",
+          "english": "The chef prepares the meal.",
+          "indonesian": "Koki itu menyiapkan hidangan.",
+          "why": "[[The meal]] adalah objeknya. Karena hidangan menerima tindakan, hidangan bisa menjadi subjek dalam kalimat pasif."
         },
         {
           "title": "Mengapa fokus berubah?",
@@ -51,11 +51,11 @@
           "why": "[[Prepares]] adalah aktif present; [[is prepared]] menjaga waktu present pada bentuk pasif."
         },
         {
-          "title": "Pasif simple past",
-          "explanation": "Bandingkan [[prepared]] dengan [[was prepared]]; bentuk [[was]] menjaga waktu lampau.",
-          "english": "The window was cleaned yesterday.",
-          "indonesian": "Jendela itu dibersihkan kemarin.",
-          "why": "[[Was + cleaned]] menunjukkan pasif lampau, bukan present."
+          "title": "Pertahankan waktu lampau",
+          "explanation": "Dua kalimat berikut menceritakan pembersihan yang sama. Lihat bagaimana waktu kemarin dipertahankan.",
+          "english": "Rini cleaned the window yesterday. The window was cleaned by Rini yesterday.",
+          "indonesian": "Rini membersihkan jendela itu kemarin. Jendela itu dibersihkan oleh Rini kemarin.",
+          "why": "Dalam bentuk pasif, [[was]] menandai waktu lampau dan [[cleaned]] adalah bentuk ketiga. Pelaku dan waktu tindakannya tetap sama."
         },
         {
           "title": "Perlukah by?",
@@ -65,11 +65,13 @@
           "why": "[[Was]] [[stolen]] cocok ketika pelaku tidak diketahui."
         },
         {
-          "title": "Buat dan periksa",
-          "explanation": "Ubahlah kalimat aktif yang cocok menjadi pasif, lalu periksa fokus, kesesuaian, bentuk V3, dan makna awal.",
-          "english": "The report will be published next week after it is reviewed.",
-          "indonesian": "Laporan akan diterbitkan minggu depan setelah ditinjau.",
-          "why": "[[Will]] [[be]] [[published]] menunjukkan pasif masa depan; [[is]] [[reviewed]] pasif kini."
+          "title": "Ubah sudut pandangnya sendiri",
+          "explanation": "Kelasmu sudah tahu siapa yang mengecat dinding. Mulai laporanmu dengan dinding yang dicat dan pertahankan waktu kejadiannya.",
+          "english": "The volunteers painted the walls yesterday.",
+          "indonesian": "Para relawan mengecat dinding-dinding itu kemarin.",
+          "why": "Tentukan satu atau lebih dari satu dinding. Jumlah dan waktu itu membantu kamu memilih bentuk [[be]].",
+          "check": "Bagaimana bunyi laporan pasifmu jika kamu tidak perlu menyebut relawannya lagi?",
+          "checkAnswer": "[[The walls were painted yesterday.]] Subjek [[the walls]] jamak, jadi gunakan [[were]] untuk lampau. [[Painted]] menunjukkan tindakan yang diterima dinding."
         }
       ]
     },
@@ -151,20 +153,20 @@
     {
       "type": "checkpoint",
       "id": "guided-passive-voice",
-      "prompt": "Which sentence focuses on the meal?",
-      "translation": "Kalimat mana yang menekankan makanan tersebut?",
+      "prompt": "A visitor wants to know what happened to the gate. Which sentence puts the gate first as the receiver of the action?",
+      "translation": "Seorang tamu bertanya apa yang terjadi pada gerbang. Kalimat mana yang menempatkan gerbang sebagai subjek yang menerima tindakan?",
       "choices": [
-        "The chef prepares the meal.",
-        "The meal is prepared by the chef.",
-        "The chef is preparing the meal."
+        "The guard locked the gate.",
+        "The gate was locked by the guard.",
+        "The guard was standing by the gate."
       ],
       "answer": 1,
-      "explanation": "Bentuk pasif menempatkan [[the meal]] sebagai subjek yang menerima tindakan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Dalam [[the gate was locked]], gerbang menjadi subjek yang dikunci. Kalimat pertama menceritakan tindakan petugas. Kalimat ketiga hanya menyebut tempat petugas berdiri.",
+      "hint": "Cari subjek dan tindakannya. Apakah subjek melakukan sesuatu atau dikenai tindakan?",
       "translationChoices": [
-        "Koki itu menyiapkan hidangan.",
-        "Hidangan itu disiapkan oleh koki.",
-        "Koki sedang menyiapkan hidangan."
+        "Petugas mengunci gerbang.",
+        "Gerbang dikunci oleh petugas.",
+        "Petugas sedang berdiri di dekat gerbang."
       ]
     },
     {
@@ -219,9 +221,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The students planted two trees. (B) Two trees were planted by the students. Whose action stays the same, and what becomes the subject in B?",
+      "translation": "(A) [[The students planted two trees.]] Para siswa menanam dua pohon. (B) [[Two trees were planted by the students.]] Dua pohon ditanam oleh para siswa. Tindakan siapa yang tetap sama, dan apa yang menjadi subjek pada B?",
+      "answer": "Siswa tetap menanam kedua pohon. Dalam B, [[two trees]] pindah ke posisi subjek dan [[were planted]] menyatakan tindakan yang diterima pohon-pohon itu."
     },
     {
       "type": "example_group",
@@ -252,10 +254,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apa yang menerima tindakan, dan apakah pelakunya perlu disebut?",
-      "model": "The results were checked by two independent readers.",
-      "modelTranslation": "Hasilnya diperiksa oleh dua pembaca independen.",
-      "criteria": "Subjek [[the results]] menerima tindakan; [[were]] + [[checked]] membentuk pasif lampau."
+      "prompt": "Kamu melihat dua jendela kelas sudah diperbaiki kemarin, tetapi kamu tidak tahu siapa yang memperbaikinya. Laporkan dalam satu kalimat pasif bahasa Inggris.",
+      "model": "Two classroom windows were repaired yesterday.",
+      "modelTranslation": "Dua jendela kelas diperbaiki kemarin.",
+      "criteria": "[[Two classroom windows]] menerima tindakan. [[Were repaired]] cocok untuk subjek jamak dan waktu lampau. Pelaku tidak perlu ditebak."
     },
     {
       "type": "vocabulary",

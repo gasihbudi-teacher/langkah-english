@@ -13,56 +13,58 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memendekkan beberapa [[relative clause]] tanpa mengubah hubungan makna dasar antara [[noun]] dan [[verb]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Siswa mana yang menunggu di luar? Buku mana yang disumbangkan? Coba jawab dengan dua cara. Saat memendekkan bagian yang diawali [[who]] atau [[that]], pastikan orang, benda, dan tindakannya tetap sama.",
       "steps": [
         {
-          "title": "Ingat relative clause",
-          "explanation": "Klausa relatif menerangkan kata benda; tentukan kata yang diterangkan sebelum mencoba memendekkannya.",
-          "english": "The girl who is reading is my friend.",
-          "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
-          "why": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
-        },
-        {
-          "title": "Temukan bentuk lengkap",
-          "explanation": "Dalam [[students who are waiting]], perhatikan klausa yang menerangkan [[students]].",
-          "english": "The books that were donated are useful.",
-          "indonesian": "Buku-buku yang disumbangkan itu bermanfaat.",
-          "why": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]]."
-        },
-        {
-          "title": "Mengapa dipersingkat?",
-          "explanation": "Penulis dapat memakai frasa partisipel untuk memadatkan informasi tanpa mengubah rujukan.",
-          "english": "The books donated yesterday are useful.",
-          "indonesian": "Buku-buku yang disumbangkan kemarin itu bermanfaat.",
-          "why": "[[Donated]] [[yesterday]] adalah bentuk relatif pasif yang dipendekkan."
-        },
-        {
-          "title": "Pola aktif -ing",
-          "explanation": "Dalam konteks tepat, [[who are waiting]] dapat menjadi [[waiting]] jika hubungan aktif dan maknanya terjaga.",
+          "title": "Cari kelompok yang dimaksud",
+          "explanation": "Baca kalimat ini. Apakah semua siswa gugup, atau kita hanya mendapat informasi tentang sebagian siswa?",
           "english": "The students who are waiting outside are nervous.",
-          "indonesian": "Siswa yang sedang menunggu di luar merasa gugup.",
-          "why": "[[Who]] [[are]] [[waiting]] menunjukkan bentuk lengkap."
+          "indonesian": "Para siswa yang sedang menunggu di luar merasa gugup.",
+          "why": "[[Who are waiting outside]] memberi tahu kita siswa yang mana. Pesan tentang mereka ada di bagian [[are nervous]]."
         },
         {
-          "title": "Pola pasif V3",
-          "explanation": "Dalam konteks tepat, [[which was repaired]] dapat menjadi [[repaired]] untuk hubungan pasif.",
-          "english": "The documents signed yesterday are on the desk.",
-          "indonesian": "Dokumen yang ditandatangani kemarin berada di atas meja.",
-          "why": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
+          "title": "Ringkas saat siswa melakukan tindakan",
+          "explanation": "Bandingkan dua cara menyebut kelompok yang sama. Perhatikan kata mana yang hilang dan mana yang tetap menyatakan tempat.",
+          "english": "The students who are waiting outside are nervous. The students waiting outside are nervous.",
+          "indonesian": "Kedua kalimat berarti para siswa yang sedang menunggu di luar merasa gugup.",
+          "why": "Siswa sendiri yang menunggu. Dalam bentuk ringkas, [[waiting outside]] tetap menempel pada [[the students]]. Yang hilang hanya [[who are]]."
         },
         {
-          "title": "Bandingkan hasil",
-          "explanation": "Baca bentuk lengkap dan pendek berdampingan; cari kata benda yang sama dan hubungan tindakan yang sama.",
-          "english": "The reports submitted before Friday will be reviewed first.",
-          "indonesian": "Laporan yang dikumpulkan sebelum Jumat akan ditinjau lebih dahulu.",
-          "why": "[[Submitted]] adalah bentuk [[V3]] pasif yang menerangkan [[reports]]."
+          "title": "Cari benda yang menerima tindakan",
+          "explanation": "Sekarang perhatikan buku. Apakah buku itu melakukan sesuatu, atau ada orang yang melakukan sesuatu terhadapnya?",
+          "english": "The books that were donated yesterday are on the shelf.",
+          "indonesian": "Buku-buku yang disumbangkan kemarin ada di rak.",
+          "why": "Seseorang menyumbangkan buku itu. Bagian [[that were donated yesterday]] memilih buku yang dimaksud, dan [[are on the shelf]] memberi tahu letaknya."
         },
         {
-          "title": "Jangan sembarang menghapus",
-          "explanation": "Tidak semua relative clause dapat direduksi dengan cara mekanis; cek waktu, makna, kejelasan, dan kelaziman bentuknya.",
-          "english": "The volunteers carrying water bottles walked toward the crowded hall.",
-          "indonesian": "Para relawan yang membawa botol air berjalan menuju aula yang ramai.",
-          "why": "[[Carrying]] [[water]] [[bottles]] menerangkan [[volunteers]] sebagai pelaku."
+          "title": "Ringkas bentuk pasif",
+          "explanation": "Baca kedua kalimat. Cari kata yang menunjukkan apa yang terjadi pada buku dan kapan itu terjadi.",
+          "english": "The books that were donated yesterday are on the shelf. The books donated yesterday are on the shelf.",
+          "indonesian": "Kedua kalimat berarti buku-buku yang disumbangkan kemarin ada di rak.",
+          "why": "Kita dapat melepas [[that were]]. Bentuk ketiga [[donated]] tetap menunjukkan bahwa buku menerima tindakan. [[Yesterday]] tetap ada pada kedua kalimat."
+        },
+        {
+          "title": "Bedakan pelaku dan penerima",
+          "explanation": "Kedua kalimat memakai bentuk yang berasal dari [[carry]]. Pada tiap kalimat, cari dulu siapa yang membawa dan apa yang dibawa.",
+          "english": "The students carrying the boxes need help. The boxes carried by the students are heavy.",
+          "indonesian": "Para siswa yang membawa kotak-kotak itu membutuhkan bantuan. Kotak-kotak yang dibawa para siswa itu berat.",
+          "why": "Dalam [[students carrying the boxes]], para siswalah yang membawa kotak. Dalam [[boxes carried by the students]], kotaklah yang dibawa. Bentuk kata kerja menunjukkan peran kata benda yang diterangkan."
+        },
+        {
+          "title": "Uji apakah maknanya bertahan",
+          "explanation": "Bayangkan guru sedang memberi tahu siapa yang wajib hadir. Baca kedua pengumuman ini. Apakah keduanya pasti menunjuk kelompok yang sama?",
+          "english": "Students who must attend the meeting should sign here. Students attending the meeting should sign here.",
+          "indonesian": "Siswa yang wajib menghadiri rapat sebaiknya menandatangani daftar ini. Siswa yang menghadiri rapat sebaiknya menandatangani daftar ini.",
+          "why": "[[Must attend]] menyatakan kewajiban. [[Attending]] hanya menjelaskan siapa yang hadir. Siswa yang wajib hadir bisa saja absen. Untuk menyampaikan kewajiban, pertahankan klausa lengkapnya."
+        },
+        {
+          "title": "Coba ringkas sendiri",
+          "explanation": "Seorang teman ingin mempersingkat kalimat ini. Pertahankan siapa yang diperiksa, waktu pemeriksaan, dan letak formulirnya.",
+          "english": "The forms that were checked this morning are in the blue folder.",
+          "indonesian": "Formulir yang diperiksa tadi pagi ada di map biru.",
+          "why": "Temukan dulu pesan utamanya. Bagian yang menunjukkan letak formulir harus tetap menjadi predikat kalimat.",
+          "check": "Bagaimana kamu menulis ulang kalimat tentang formulir itu? Apa alasanmu memilih bentuk kata kerjanya?",
+          "checkAnswer": "[[The forms checked this morning are in the blue folder.]] Formulirlah yang diperiksa, jadi [[checked]] tetap berbentuk pasif. Keterangan [[this morning]] juga tetap ada."
         }
       ]
     },
@@ -73,7 +75,7 @@
     },
     {
       "type": "rule",
-      "text": "[[Active]] [[relative clause]] → [[-ing]] [[phrase]]; [[passive]] [[relative clause]] → [[V3]] [[phrase]]. Pengurangan tidak selalu cocok jika kehilangan informasi waktu/identitas."
+      "text": "Jika orang atau benda yang diterangkan melakukan tindakan, bentuk [[-ing]] sering bisa dipakai. Jika menerima tindakan, bentuk ketiga seperti [[written]] bisa dipakai. Sebelum meringkas, periksa apakah waktu, kewajiban, dan orang atau benda yang dimaksud masih sama."
     },
     {
       "type": "subheading",
@@ -102,7 +104,7 @@
       "type": "mistake",
       "incorrect": "The books borrowing yesterday are here.",
       "correct": "The books borrowed yesterday are here.",
-      "explanation": "Buku menerima aksi borrowed, bukan melakukan borrowing."
+      "explanation": "Bukunya dipinjam seseorang. Bentuk [[borrowed]] menunjukkan peran itu. [[Borrowing]] justru membuat buku seolah-olah meminjam sesuatu."
     },
     {
       "type": "text",
@@ -122,39 +124,39 @@
       "collapsed": false,
       "items": [
         {
-          "english": "The girl who is reading is my friend.",
-          "indonesian": "Anak perempuan yang sedang membaca itu teman saya.",
-          "note": "Klausa relatif lengkap memakai [[who]] [[is]] [[reading]]."
+          "english": "The girl who is reading by the window is my friend.",
+          "indonesian": "Anak perempuan yang sedang membaca di dekat jendela itu teman saya.",
+          "note": "[[Who is reading by the window]] memberi tahu kita teman yang mana. Bandingkan dengan bentuk ringkas pada contoh berikutnya."
         },
         {
           "english": "The girl reading by the window is my friend.",
           "indonesian": "Anak perempuan yang membaca di dekat jendela itu teman saya.",
-          "note": "[[Reading]] [[by]] [[the]] [[window]] adalah reduced [[active]] [[relative clause]]."
+          "note": "[[Reading by the window]] masih menerangkan anak yang sama. Kata [[who is]] dapat dilepas tanpa mengubah kegiatan atau tempatnya."
         },
         {
-          "english": "The books that were donated are useful.",
-          "indonesian": "Buku-buku yang disumbangkan itu bermanfaat.",
-          "note": "Klausa pasif lengkap memakai [[that]] [[were]] [[donated]]."
+          "english": "The books that were donated yesterday are useful.",
+          "indonesian": "Buku-buku yang disumbangkan kemarin itu bermanfaat.",
+          "note": "[[That were donated yesterday]] menunjukkan buku mana yang dimaksud. Buku itu diserahkan oleh penyumbang."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-reduced-relative-clauses",
-      "prompt": "Which sentence has a reduced relative clause?",
-      "translation": "Kalimat mana yang memiliki relative clause (klausa relatif) yang dipersingkat?",
+      "prompt": "Which shorter sentence keeps the meaning of “The letters that were sent on Friday arrived today”?",
+      "translation": "Kalimat ringkas mana yang mempertahankan makna [[The letters that were sent on Friday arrived today]]?",
       "choices": [
-        "The girl who is reading is my friend.",
-        "The girl reading is my friend.",
-        "The girl who reading is my friend."
+        "The letters sent today arrived on Friday.",
+        "The letters sent on Friday arrived today.",
+        "The letters sent on Friday should arrive today."
       ],
       "answer": 1,
-      "explanation": "[[The girl reading]] meringkas [[the girl who is reading]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Sent on Friday]] tetap menerangkan surat yang dikirim pada Jumat, dan [[arrived today]] melaporkan bahwa surat itu sudah tiba. Pilihan pertama menukar hari pengiriman dan kedatangan. [[Should arrive]] baru menyatakan perkiraan.",
+      "hint": "Pisahkan peristiwa pengiriman dari peristiwa kedatangan. Waktu mana yang berkaitan dengan masing-masing peristiwa?",
       "translationChoices": [
-        "Gadis yang sedang membaca adalah temanku. (klausa lengkap)",
-        "Gadis yang sedang membaca adalah temanku. (klausa dipersingkat)",
-        "Gadis yang sedang membaca adalah temanku. (struktur keliru)"
+        "Surat-surat yang dikirim hari ini tiba pada Jumat.",
+        "Surat-surat yang dikirim pada Jumat tiba hari ini.",
+        "Surat-surat yang dikirim pada Jumat diperkirakan tiba hari ini."
       ]
     },
     {
@@ -209,9 +211,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The volunteers handing out tickets are at the gate. (B) The tickets handed out by the volunteers are free. Who gives and what is given in each sentence? Why do the verb forms differ?",
+      "translation": "(A) [[The volunteers handing out tickets are at the gate.]] Relawan yang membagikan tiket ada di gerbang. (B) [[The tickets handed out by the volunteers are free.]] Tiket yang dibagikan oleh relawan itu gratis. Siapa yang membagikan dan apa yang dibagikan pada tiap kalimat? Mengapa bentuk kata kerjanya berbeda?",
+      "answer": "Relawan membagikan tiket pada kedua kalimat. A menerangkan pelaku dengan [[handing out]]. B menerangkan benda yang dibagikan dengan [[handed out]]."
     },
     {
       "type": "example_group",
@@ -242,10 +244,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah kata yang diterangkan melakukan tindakan atau menerima tindakan?",
-      "model": "The documents signed yesterday are on the desk.",
-      "modelTranslation": "Dokumen yang ditandatangani kemarin berada di atas meja.",
-      "criteria": "[[Signed yesterday]] merupakan bentuk ringkas pasif dari [[that were signed yesterday]]."
+      "prompt": "Tulis satu kalimat lengkap tentang poster yang dibuat siswa untuk pameran. Gunakan klausa dengan [[that were]], lalu tulis kalimat kedua dengan meringkas klausa itu. Pertahankan semua rinciannya.",
+      "model": "The posters that were made by the students for the exhibition are upstairs. The posters made by the students for the exhibition are upstairs.",
+      "modelTranslation": "Poster yang dibuat para siswa untuk pameran itu ada di lantai atas. Poster yang dibuat para siswa untuk pameran itu ada di lantai atas.",
+      "criteria": "Pada kalimat kedua, [[made]] tetap menerangkan [[posters]] sebagai hasil karya siswa. Pelaku, tujuan pembuatan, dan letak poster masih sama."
     },
     {
       "type": "vocabulary",

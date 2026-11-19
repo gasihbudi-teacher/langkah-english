@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali inversi untuk penekanan dalam bahasa Inggris formal, terutama sesudah negative adverbials. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Kalimat [[I have never seen that painting]] menyampaikan pengalaman. Coba pindahkan kata yang ingin ditekankan ke depan. Periksa letak subjek dan kata bantu agar hasilnya tetap berupa pernyataan.",
       "steps": [
         {
           "title": "Urutan biasa",
@@ -37,25 +37,25 @@
           "why": "[[Have]] terletak sebelum subjek [[you]] dalam pertanyaan; ini membantu mengenali pola inversi."
         },
         {
-          "title": "Inversi dalam pernyataan",
-          "explanation": "Beberapa struktur formal memakai auxiliary-before-subject meskipun bukan pertanyaan.",
-          "english": "Rarely does she miss a class.",
-          "indonesian": "Jarang sekali dia melewatkan pelajaran.",
-          "why": "[[Rarely]] di depan memakai [[does]] + [[subject]] + [[verb]] dasar."
+          "title": "Pindahkan penekanan ke awal",
+          "explanation": "Mulai dari urutan pernyataan biasa, lalu lihat apa yang ikut berpindah ketika [[never]] ditempatkan di depan untuk penekanan.",
+          "english": "I have never seen that painting. Never have I seen that painting.",
+          "indonesian": "Saya belum pernah melihat lukisan itu. Belum pernah saya melihat lukisan itu.",
+          "why": "Kedua kalimat menyatakan pengalaman yang sama. Pada kalimat kedua, penutur menekankan [[never]]. Kata bantu [[have]] mendahului subjek [[I]], meskipun penutur tidak sedang bertanya."
         },
         {
-          "title": "Pemicu negatif/pembatas",
-          "explanation": "Ungkapan awal seperti [[never]], [[rarely]], dan [[only then]] dapat memicu inversi pada klausa utama.",
-          "english": "Never have I seen that painting.",
-          "indonesian": "Belum pernah saya melihat lukisan itu.",
-          "why": "[[Never]] di awal kalimat merupakan pemicu inversi; [[have]] muncul sebelum subjek [[I]]."
+          "title": "Kenali ungkapan pembatas",
+          "explanation": "Selain kata yang bermakna negatif, ungkapan pembatas tertentu juga dapat menempati bagian awal. Cari batas waktu pada contoh ini.",
+          "english": "Only then could we see the stage.",
+          "indonesian": "Baru saat itulah kami bisa melihat panggung.",
+          "why": "[[Only then]] membatasi kapan kami bisa melihat panggung. Saat ungkapan itu membuka kalimat, [[could]] muncul sebelum [[we]]."
         },
         {
-          "title": "Balik auxiliary dan subject",
-          "explanation": "Perhatikan [[Never have I ...]]; yang berpindah bukan sembarang kata tetapi auxiliary yang sesuai.",
-          "english": "Only after the teacher explained the rule did we understand the task.",
-          "indonesian": "Baru setelah guru menjelaskan aturan itu kami memahami tugasnya.",
-          "why": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]]."
+          "title": "Temukan klausa yang berubah",
+          "explanation": "Kalau keterangan pembuka memuat klausa sendiri, cari subjek dan kata bantu dari pesan utamanya.",
+          "english": "Only after the bell rang could we enter.",
+          "indonesian": "Baru setelah bel berbunyi kami boleh masuk.",
+          "why": "Urutan [[the bell rang]] di dalam keterangan waktu tetap. Inversi terjadi pada [[could we enter]], yaitu bagian yang menyampaikan kapan kami boleh masuk."
         },
         {
           "title": "Jika auxiliary belum ada",
@@ -65,18 +65,20 @@
           "why": "[[Does]] digunakan karena klausa present biasa [[she misses]] tidak memiliki auxiliary lain untuk dibalik."
         },
         {
-          "title": "Kapan tidak dibalik?",
-          "explanation": "Tidak semua frasa pembuka memicu inversi. Bandingkan [[Yesterday I saw ...]] dengan [[Never did I see ...]].",
-          "english": "Yesterday I met Lina.",
-          "indonesian": "Kemarin saya bertemu Lina.",
-          "why": "[[Yesterday]] di awal tidak menuntut inversi: urutannya tetap [[I met]], bukan [[did I meet]]."
+          "title": "Uji apakah pembuka memicu inversi",
+          "explanation": "Dua kalimat memakai kata kerja yang sama. Bandingkan keterangan waktu biasa dengan ungkapan pembatas.",
+          "english": "Yesterday we saw the stage. Only then did we see the stage.",
+          "indonesian": "Kemarin kami melihat panggung. Baru saat itulah kami melihat panggung.",
+          "why": "[[Yesterday]] cukup diikuti urutan biasa [[we saw]]. Sesudah [[only then]] di awal, bentuknya [[did we see]]."
         },
         {
-          "title": "Ubah lalu jelaskan",
-          "explanation": "Bentuk inversi dari kalimat yang cocok, periksa bentuk verba, dan jelaskan penekanan makna yang dihasilkan.",
-          "english": "Under no circumstances should students share their passwords.",
-          "indonesian": "Dalam keadaan apa pun siswa tidak boleh membagikan kata sandi.",
-          "why": "Frasa negatif di depan menyebabkan [[auxiliary]] [[should]] mendahului [[subject]]."
+          "title": "Ubah satu pernyataan untuk penekanan",
+          "explanation": "Tulis ulang kalimat berikut dengan memindahkan [[rarely]] ke depan. Pertahankan subjek, waktu, dan kegiatan yang sama.",
+          "english": "The bus rarely arrives early.",
+          "indonesian": "Bus itu jarang tiba lebih awal.",
+          "why": "Kalimat asal tidak mempunyai kata bantu terpisah. Saat menambahkannya, pikirkan di mana penanda subjek tunggal akan muncul.",
+          "check": "Bagaimana kalimat tentang bus itu jika diawali [[Rarely]]? Bagian mana yang berubah pada kata kerja utamanya?",
+          "checkAnswer": "[[Rarely does the bus arrive early.]] Kata bantu [[does]] mendahului subjek. Kata kerja utama kembali ke [[arrive]]."
         }
       ]
     },
@@ -155,20 +157,20 @@
     {
       "type": "checkpoint",
       "id": "guided-inversion",
-      "prompt": "Which sentence uses inversion correctly?",
-      "translation": "Kalimat mana yang menggunakan inversi dengan benar?",
+      "prompt": "Which statement correctly puts never first for emphasis?",
+      "translation": "Pernyataan mana yang tepat ketika [[never]] ditempatkan di awal untuk penekanan?",
       "choices": [
         "Never have I seen that painting.",
         "Never I have seen that painting.",
         "Never seen I have that painting."
       ],
       "answer": 0,
-      "explanation": "Setelah [[Never]] di awal, [[have]] muncul sebelum subjek [[I]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Kata bantu [[have]] mendahului [[I]], sementara [[seen]] tetap sesudah subjek. [[Never I have]] masih memakai urutan biasa, dan [[never seen I have]] memindahkan kata kerja utama ke tempat kata bantu.",
+      "hint": "Cari subjek, kata bantu, dan kata kerja utama. Uji urutan ketiganya sesudah bagian pembuka.",
       "translationChoices": [
-        "Belum pernah saya melihat lukisan itu. (inversi tepat)",
-        "Belum pernah saya melihat lukisan itu. (urutan salah)",
-        "Belum pernah saya melihat lukisan itu. (urutan salah)"
+        "Belum pernah saya melihat lukisan itu.",
+        "Belum pernah saya melihat lukisan itu.",
+        "Belum pernah saya melihat lukisan itu."
       ]
     },
     {
@@ -223,9 +225,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The hall had seldom been so quiet. (B) Seldom had the hall been so quiet. Does the event change? Which words change position to create emphasis?",
+      "translation": "(A) [[The hall had seldom been so quiet.]] Aula itu jarang sesunyi itu. (B) [[Seldom had the hall been so quiet.]] Jarang sekali aula itu sesunyi itu. Apakah keadaan aula berubah? Kata-kata mana yang berpindah untuk memberi penekanan?",
+      "answer": "Keadaan aula sama. Di B, [[seldom]] maju ke awal dan kata bantu [[had]] mendahului [[the hall]]. Bentuk [[been]] tetap berada setelah subjek."
     },
     {
       "type": "example_group",
@@ -256,10 +258,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Ungkapan pembuka apa yang memicu kata bantu mendahului subjek?",
-      "model": "Only after the teacher explained the rule did we understand the task.",
-      "modelTranslation": "Baru setelah guru menjelaskan aturan itu kami memahami tugasnya.",
-      "criteria": "Ungkapan pembatas [[Only after...]] di awal membuat [[did]] mendahului subjek [[we]]."
+      "prompt": "Tulis pernyataan biasa dengan [[rarely]] tentang perpustakaan yang jarang buka lebih awal. Tulis lagi pernyataan yang sama dengan [[Rarely]] di awal untuk memberi penekanan.",
+      "model": "The library rarely opens early. Rarely does the library open early.",
+      "modelTranslation": "Perpustakaan itu jarang buka lebih awal. Jarang sekali perpustakaan itu buka lebih awal.",
+      "criteria": "Ketika [[rarely]] maju, [[does]] muncul sebelum [[the library]], dan [[opens]] kembali ke bentuk dasar [[open]]. Makna kebiasaannya tetap sama."
     },
     {
       "type": "vocabulary",

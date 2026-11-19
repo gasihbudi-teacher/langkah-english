@@ -13,28 +13,28 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menentukan bentuk [[simple present]] untuk kebiasaan atau fakta. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Apa yang biasanya kamu lakukan sebelum sekolah? Mulai dengan satu kebiasaan. Lalu ceritakan kebiasaan orang lain, sangkal, dan ubah menjadi pertanyaan.",
       "steps": [
         {
-          "title": "Kebiasaan atau fakta",
-          "explanation": "[[Simple present]] biasa dipakai untuk rutinitas, fakta umum, dan jadwal tetap; tidak berarti semua kejadian yang sedang berlangsung.",
+          "title": "Kenali kebiasaan",
+          "explanation": "Pikirkan kegiatan yang berulang. Bagian mana yang memberi tahu kita seberapa sering kegiatan itu dilakukan?",
           "english": "I study English every afternoon.",
           "indonesian": "Saya belajar bahasa Inggris setiap sore.",
-          "why": "[[Subject]] [[I]] memakai [[verb]] dasar [[study]] untuk rutinitas."
+          "why": "[[Every afternoon]] memberi tahu kita bahwa kegiatan belajar ini berulang. Orang itu bisa saja sedang melakukan hal lain saat berbicara."
         },
         {
-          "title": "Kenali subject",
-          "explanation": "Siapa yang melakukan kegiatan? Bentuk verba afirmatif bergantung pada subjek tersebut.",
-          "english": "She studies English every afternoon.",
-          "indonesian": "Dia belajar bahasa Inggris setiap sore.",
-          "why": "[[Subject]] [[she]] mengubah [[study]] menjadi [[studies]]."
+          "title": "Cari subjeknya",
+          "explanation": "Kalimat ini membicarakan kebiasaan siapa? Cari pelaku sebelum memilih bentuk kata kerjanya.",
+          "english": "My cousins study English every afternoon.",
+          "indonesian": "Sepupu-sepupu saya belajar bahasa Inggris setiap sore.",
+          "why": "[[My cousins]] adalah subjek jamak. Kita bisa menggantinya dengan [[they]] tanpa mengubah [[study]]."
         },
         {
-          "title": "Kalimat dengan be",
-          "explanation": "Mulailah dari [[I am]], [[she is]], dan [[they are]] untuk keadaan atau identitas; jangan menambah [[do]].",
-          "english": "They are usually ready.",
-          "indonesian": "Mereka biasanya siap.",
-          "why": "Dengan [[be]], [[adverb]] [[usually]] ditempatkan setelah [[are]]."
+          "title": "Nyatakan keadaan",
+          "explanation": "Untuk menyatakan keadaan seperti siap, pasangkan subjek dengan bentuk [[be]] yang sesuai.",
+          "english": "I am ready. She is ready. They are ready.",
+          "indonesian": "Saya siap. Dia siap. Mereka siap.",
+          "why": "Kata [[ready]] menyatakan keadaan. Yang berubah mengikuti subjek ialah [[am]], [[is]], atau [[are]]."
         },
         {
           "title": "Verba dasar untuk I/you/we/they",
@@ -44,11 +44,11 @@
           "why": "Subjek [[I]] memakai bentuk dasar [[study]] dalam kalimat afirmatif."
         },
         {
-          "title": "Verba untuk he/she/it",
-          "explanation": "Pelajari [[studies]], [[watches]], dan [[plays]] sebagai variasi penambahan [[-s/-es]] pada kalimat afirmatif.",
-          "english": "She studies English every afternoon.",
-          "indonesian": "Dia belajar bahasa Inggris setiap sore.",
-          "why": "Subjek [[she]] memakai [[studies]]; bentuk [[-ies]] berasal dari [[study]]."
+          "title": "Perhatikan ejaan untuk satu orang",
+          "explanation": "Bandingkan kata yang digunakan bersama [[I]] dan [[she]]. Keduanya menyatakan kebiasaan, meski ejaannya berubah.",
+          "english": "I study after lunch. She studies after lunch. I play chess. She plays chess.",
+          "indonesian": "Saya belajar setelah makan siang. Dia belajar setelah makan siang. Saya bermain catur. Dia bermain catur.",
+          "why": "Pada [[study]], sebelum [[y]] ada huruf konsonan, sehingga bentuknya [[studies]]. Pada [[play]], sebelumnya ada huruf vokal, jadi cukup tambahkan [[s]] menjadi [[plays]]."
         },
         {
           "title": "Negatif dengan be",
@@ -79,11 +79,13 @@
           "why": "Pertanyaan memakai [[does]] dan verba dasar [[study]], bukan [[studies]]."
         },
         {
-          "title": "Tentukan pola yang tepat",
-          "explanation": "Pilih antara [[be]] dan verba biasa menurut makna, lalu periksa kesalahan seperti [[doesn't studies]].",
-          "english": "She studies, but they study at home.",
-          "indonesian": "Dia belajar, tetapi mereka belajar di rumah.",
-          "why": "[[She]] memakai [[studies]], sedangkan [[they]] memakai [[study]]. Konteks tidak mengubah aturan agreement."
+          "title": "Pilih cara menyangkal",
+          "explanation": "Mira membuat dua pernyataan tentang dirinya. Bagaimana ia mengatakan kebalikannya jika ternyata ia tidak sibuk dan Jumat adalah hari liburnya?",
+          "english": "I am busy. I work on Fridays.",
+          "indonesian": "Saya sibuk. Saya bekerja pada hari Jumat.",
+          "why": "Kalimat pertama menggambarkan keadaan. Kalimat kedua menyebut kegiatan rutin. Periksa kata yang menjadi predikat pada masing-masing kalimat.",
+          "check": "Bagaimana Mira menyangkal kedua pernyataan itu sambil mempertahankan subjek dan kebiasaan hari Jumat?",
+          "checkAnswer": "[[I am not busy. I do not work on Fridays.]] Letakkan [[not]] sesudah [[am]]. Untuk menyangkal kegiatan [[work]], gunakan [[do not]]."
         }
       ]
     },
@@ -199,20 +201,20 @@
     {
       "type": "checkpoint",
       "id": "guided-simple-present",
-      "prompt": "Which sentence describes a routine correctly?",
-      "translation": "Kalimat mana yang menggambarkan kebiasaan dengan benar?",
+      "prompt": "Which sentence correctly describes a daily routine?",
+      "translation": "Kalimat mana yang tepat untuk menyatakan kebiasaan sehari-hari?",
       "choices": [
         "She studies daily.",
         "She study daily.",
         "She studying daily."
       ],
       "answer": 0,
-      "explanation": "Subjek [[she]] memakai [[studies]] untuk kebiasaan.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Dalam kalimat positif ini, [[she]] memakai [[studies]]. Bentuk dasar [[study]] cocok dengan [[they]], sedangkan [[studying]] tidak dapat menjadi predikat sendiri.",
+      "hint": "Temukan siapa yang punya kebiasaan itu. Periksa apakah kalimat positifnya mempunyai kata kerja yang sesuai dengan subjek.",
       "translationChoices": [
-        "Dia belajar setiap hari. (bentuk tepat)",
-        "Dia belajar setiap hari. (bentuk tidak tepat)",
-        "Dia sedang belajar setiap hari. (bentuk tidak tepat)"
+        "Dia belajar setiap hari.",
+        "Dia belajar setiap hari.",
+        "Dia belajar setiap hari."
       ]
     },
     {
@@ -271,9 +273,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Nina walks to school. (B) Does Nina walk to school? Why does walks become walk in the question?",
+      "translation": "(A) [[Nina walks to school.]] Nina berjalan kaki ke sekolah. (B) [[Does Nina walk to school?]] Apakah Nina berjalan kaki ke sekolah? Mengapa [[walks]] berubah menjadi [[walk]] ketika Nina ditanya tentang kebiasaannya?",
+      "answer": "Dalam A, [[walks]] menandai subjek tunggal. Pada B, tugas itu sudah dilakukan oleh [[does]], sehingga kata kerja utama kembali ke [[walk]]."
     },
     {
       "type": "example_group",
@@ -304,10 +306,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kalimat menyatakan kebiasaan, fakta, atau jadwal—dan siapa subjeknya?",
-      "model": "Does your brother walk to school every day?",
-      "modelTranslation": "Apakah saudara laki-lakimu berjalan ke sekolah setiap hari?",
-      "criteria": "[[Does]] digunakan untuk subjek [[your brother]], sedangkan verba [[walk]] tidak mendapat [[-s]] lagi."
+      "prompt": "Tanyakan kepada seorang teman tentang kebiasaan saudara laki-laki atau perempuannya. Tulis satu pertanyaan bahasa Inggris dengan [[your brother]] atau [[your sister]].",
+      "model": "Does your sister read before bed?",
+      "modelTranslation": "Apakah saudara perempuanmu biasa membaca sebelum tidur?",
+      "criteria": "[[Your sister]] adalah satu orang. Pertanyaannya diawali [[does]] dan kata kerja utamanya tetap [[read]]."
     },
     {
       "type": "vocabulary",

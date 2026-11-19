@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menyusun daftar, pasangan konjungsi, dan perbandingan memakai bentuk grammar yang sejajar. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Bacakan daftar kegiatan seolah kamu sedang memberi petunjuk untuk teman sekelas. Bisakah setiap butir disambungkan ke pembuka yang sama? Gunakan uji itu juga untuk pasangan kata dan perbandingan.",
       "steps": [
         {
           "title": "Bagian yang setara",
@@ -23,39 +23,48 @@
           "why": "Tiga unsur dalam daftar sama-sama memakai [[-ing]]."
         },
         {
-          "title": "Daftar kata",
-          "explanation": "Bandingkan daftar sesama nomina dengan daftar yang tiba-tiba berubah menjadi verba tanpa alasan.",
-          "english": "The task requires planning and teamwork.",
-          "indonesian": "Tugas itu memerlukan perencanaan dan kerja sama.",
-          "why": "[[Planning]] dan [[teamwork]] sama-sama [[noun phrase]]."
+          "title": "Susun daftar benda",
+          "explanation": "Sebuah pengumuman meminta kamu membawa tiga benda. Coba sambungkan kata pembuka dengan tiap benda secara bergantian.",
+          "english": "Bring a pencil, a notebook, and a ruler.",
+          "indonesian": "Bawalah pensil, buku catatan, dan penggaris.",
+          "why": "[[Bring]] bisa diikuti [[a pencil]], [[a notebook]], atau [[a ruler]]. Ketiganya menamai benda yang bisa dibawa."
         },
         {
-          "title": "Daftar frasa",
-          "explanation": "Periksa apakah kegiatan dalam daftar ditulis dengan bentuk yang sebanding, misalnya [[reading, writing, and speaking]].",
-          "english": "She wants to learn and practise.",
-          "indonesian": "Dia ingin belajar dan berlatih.",
-          "why": "[[To]] dapat dipakai bersama dua [[verb]] dasar yang paralel."
+          "title": "Sejajarkan kegiatan",
+          "explanation": "Sekarang yang didaftar adalah tindakan. Periksa apakah setiap bagian cocok sesudah kata pembuka yang sama.",
+          "english": "We practise finding sources, checking facts, and writing summaries.",
+          "indonesian": "Kami berlatih mencari sumber, memeriksa fakta, dan menulis ringkasan.",
+          "why": "[[Finding sources]], [[checking facts]], dan [[writing summaries]] masing-masing bisa mengikuti [[we practise]]. Ketiganya memakai bentuk [[-ing]]."
         },
         {
-          "title": "Dua klausa setara",
-          "explanation": "Klausa yang dihubungkan dapat disusun sejajar agar hubungan gagasan jelas dan alami.",
-          "english": "He is not only intelligent but also hardworking.",
-          "indonesian": "Dia bukan hanya cerdas, melainkan juga rajin.",
-          "why": "[[Intelligent]] dan [[hardworking]] sama-sama [[adjective]]."
+          "title": "Sejajarkan dua klausa",
+          "explanation": "Kadang dua gagasan yang dibandingkan masing-masing memiliki subjek dan predikat. Cari siapa melakukan apa pada kedua sisi.",
+          "english": "Mira checked the dates, and Rafi checked the names.",
+          "indonesian": "Mira memeriksa tanggal, dan Rafi memeriksa nama.",
+          "why": "[[Mira checked the dates]] dan [[Rafi checked the names]] sama-sama berpola subjek, kata kerja, lalu objek. Kita mudah membandingkan tugas mereka."
         },
         {
-          "title": "Kata hubung berpasangan",
-          "explanation": "[[Both ... and]] serta [[either ... or]] menghubungkan unsur yang sebanding; cari pasangan yang semestinya.",
-          "english": "The course teaches students to observe, to compare, and to explain results.",
-          "indonesian": "Kursus itu mengajarkan siswa untuk mengamati, membandingkan, dan menjelaskan hasil.",
-          "why": "Tiga unsur dalam daftar memakai pola [[to]] + verba dasar secara konsisten."
+          "title": "Periksa jangkauan kata penghubung",
+          "explanation": "Temukan unsur sesudah [[both]] dan [[and]], lalu sesudah [[either]] dan [[or]]. Apakah tiap pasangan menghubungkan dua jenis unsur yang sama?",
+          "english": "Both Mira and Rafi can help. We can either check the facts or edit the draft.",
+          "indonesian": "Baik Mira maupun Rafi bisa membantu. Kita bisa memilih untuk memeriksa fakta atau menyunting draf.",
+          "why": "[[Both ... and]] memasangkan dua nama. [[Either ... or]] memasangkan dua tindakan, yaitu [[check the facts]] dan [[edit the draft]]. Keduanya dapat mengikuti [[we can]]."
         },
         {
-          "title": "Perbaiki dalam konteks",
-          "explanation": "Edit kalimat dengan [[not only ... but also]], periksa kesejajaran fungsi, dan pertahankan makna penulis.",
-          "english": "Rather than guessing quickly, students should reread the passage and examine the evidence.",
-          "indonesian": "Alih-alih menebak cepat, siswa sebaiknya membaca ulang teks dan memeriksa bukti.",
-          "why": "[[Reread]] dan [[examine]] adalah [[verb]] dasar yang sejajar setelah [[should]]."
+          "title": "Bandingkan kegiatan yang setara",
+          "explanation": "Untuk memilih cara pergi ke sekolah, kamu juga bisa membandingkan dua kegiatan secara langsung. Temukan kegiatannya pada kedua sisi [[to]].",
+          "english": "I prefer cycling to walking.",
+          "indonesian": "Saya lebih suka bersepeda daripada berjalan kaki.",
+          "why": "Dalam pola [[prefer ... to ...]], [[cycling]] dan [[walking]] adalah dua kegiatan yang dibandingkan. Keduanya menyebut kegiatan dengan bentuk [[-ing]]."
+        },
+        {
+          "title": "Perbaiki pasangan dalam kalimat",
+          "explanation": "Seorang teman ingin mengatakan bahwa tim itu memeriksa sumber sekaligus membandingkan tanggal. Perhatikan bentuk setelah [[not only]] dan [[but also]] pada drafnya.",
+          "english": "The team not only checks sources but also comparing dates.",
+          "indonesian": "Maksud penulisnya, tim itu tidak hanya memeriksa sumber, tetapi juga membandingkan tanggal.",
+          "why": "Uji tiap bagian dengan pembuka [[the team]]. Pertahankan dua tindakan itu ketika kamu memperbaiki bentuk yang janggal.",
+          "check": "Bagaimana kamu memperbaiki kalimat tim itu dengan mempertahankan [[not only ... but also]]?",
+          "checkAnswer": "[[The team not only checks sources but also compares dates.]] Bentuk [[checks]] dan [[compares]] sama-sama sesuai dengan subjek tunggal [[the team]]."
         }
       ]
     },
@@ -138,20 +147,20 @@
     {
       "type": "checkpoint",
       "id": "guided-parallel-structures",
-      "prompt": "Which list uses parallel structure?",
-      "translation": "Daftar mana yang menggunakan struktur sejajar?",
+      "prompt": "Which list fits after “Our project involves” all the way through?",
+      "translation": "Daftar mana yang setiap bagiannya bisa mengikuti [[Our project involves]]?",
       "choices": [
         "reading, to write, and drawing",
         "read, writing, and to draw",
         "reading, writing, and drawing"
       ],
       "answer": 2,
-      "explanation": "Ketiga kegiatan memakai bentuk yang sama: [[-ing]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Sesudah [[involves]], ketiga kegiatan dapat dinyatakan dengan [[reading]], [[writing]], dan [[drawing]]. Dua daftar lain mencampur bentuk sehingga setidaknya satu butir tidak cocok setelah pembukanya.",
+      "hint": "Coba pasangkan setiap butir langsung dengan pembuka yang sama. Apakah ketiga hasilnya dapat dipakai?",
       "translationChoices": [
-        "membaca, untuk menulis, dan menggambar (bentuk tidak sejajar)",
-        "membaca, menulis, dan untuk menggambar (bentuk tidak sejajar)",
-        "membaca, menulis, dan menggambar (bentuk sejajar)"
+        "membaca, menulis, dan menggambar",
+        "membaca, menulis, dan menggambar",
+        "membaca, menulis, dan menggambar"
       ]
     },
     {
@@ -202,9 +211,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Mira likes reading and writing. (B) Mira likes to read and to write. Are both lists parallel? Show the two matching parts in each.",
+      "translation": "(A) [[Mira likes reading and writing.]] Mira suka membaca dan menulis. (B) [[Mira likes to read and to write.]] Mira suka membaca dan menulis. Apakah kedua daftar itu sejajar? Tunjukkan bagian yang berpasangan di tiap kalimat.",
+      "answer": "Keduanya sejajar. Pada A pasangannya [[reading]] dan [[writing]]. Pada B pasangannya [[to read]] dan [[to write]]. Kesejajaran diperiksa di dalam masing-masing kalimat."
     },
     {
       "type": "example_group",
@@ -235,10 +244,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Apakah unsur yang dideretkan menggunakan bentuk gramatikal setara?",
-      "model": "The project involves collecting data, checking sources, and writing a report.",
-      "modelTranslation": "Proyek itu mencakup pengumpulan data, pemeriksaan sumber, dan penulisan laporan.",
-      "criteria": "Tiga kegiatan berada dalam bentuk [[-ing]] yang sejajar setelah [[involves]]."
+      "prompt": "Tulis daftar dua kegiatan klub jurnalistik dengan pola [[we enjoy]]. Tulis lagi kegiatan yang sama sebagai rencana dengan [[we plan]]. Pastikan kedua kegiatan cocok dengan pembuka masing-masing.",
+      "model": "We enjoy interviewing students and writing profiles. We plan to interview students and to write profiles.",
+      "modelTranslation": "Kami suka mewawancarai siswa dan menulis profil. Kami berencana mewawancarai siswa dan menulis profil.",
+      "criteria": "Sesudah [[enjoy]], pasangannya [[interviewing]] dan [[writing]]. Sesudah [[plan]], pasangannya [[to interview]] dan [[to write]]. Dua kegiatannya tetap sama."
     },
     {
       "type": "vocabulary",

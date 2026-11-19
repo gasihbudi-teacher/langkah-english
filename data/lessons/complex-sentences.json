@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[complex sentence]] structures dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Dua peristiwa bisa memiliki hubungan waktu, alasan, syarat, atau pertentangan. Mulai dari pesan yang bisa berdiri sendiri, lalu coba ganti penghubung dan periksa apa yang berubah.",
       "steps": [
         {
           "title": "Cari gagasan utama",
@@ -41,14 +41,14 @@
           "explanation": "[[Because]] menjelaskan alasan; bedakan penyebab dengan peristiwa yang sekadar terjadi lebih dulu.",
           "english": "Because the road was closed, we took a different route.",
           "indonesian": "Karena jalan ditutup, kami mengambil rute lain.",
-          "why": "[[Dependent clause]] di depan biasanya diikuti koma."
+          "why": "Penutupan jalan menjawab pertanyaan “kenapa kami mengambil rute lain?” Bagian [[because the road was closed]] memberi alasan bagi tindakan pada klausa utama."
         },
         {
-          "title": "Hubungan waktu",
-          "explanation": "[[When]], [[after]], dan [[until]] menandai hubungan waktu antara dua peristiwa.",
-          "english": "We took a different route because the road was closed.",
-          "indonesian": "Kami mengambil rute lain karena jalan ditutup.",
-          "why": "[[Dependent clause]] sesudah [[main clause]] umumnya tidak membutuhkan koma."
+          "title": "Hubungkan waktu dua peristiwa",
+          "explanation": "Kejadiannya sama-sama menyangkut jalan dan perjalanan. Kali ini, tanyakan kapan para penumpang melanjutkan perjalanan.",
+          "english": "After the road reopened, we continued our trip.",
+          "indonesian": "Setelah jalan dibuka kembali, kami melanjutkan perjalanan.",
+          "why": "[[After the road reopened]] menempatkan pembukaan jalan lebih dulu. Penghubung [[after]] memberi urutan waktu tanpa menyatakan alasan secara langsung."
         },
         {
           "title": "Hubungan kontras",
@@ -65,18 +65,20 @@
           "why": "[[If the bell rings]] menyatakan kondisi dan [[we will leave]] akibat yang diantisipasi."
         },
         {
-          "title": "Posisi dan tanda baca",
-          "explanation": "Klausa bergantung di depan biasanya diikuti koma; di belakang sering tidak. Bedakan [[although]] dan [[despite]] karena bentuk lanjutannya berbeda.",
-          "english": "Although the survey included many students, it did not represent every school in the city.",
-          "indonesian": "Walaupun survei mencakup banyak siswa, survei itu tidak mewakili semua sekolah di kota.",
-          "why": "[[Although]] menunjukkan batasan penting terhadap temuan."
+          "title": "Pindahkan klausa dan periksa koma",
+          "explanation": "Bandingkan dua letak klausa waktu yang sama. Perhatikan tanda baca di tempat dua klausa bertemu.",
+          "english": "After the road reopened, we left. We left after the road reopened.",
+          "indonesian": "Setelah jalan dibuka kembali, kami berangkat. Kami berangkat setelah jalan dibuka kembali.",
+          "why": "Ketika klausa [[after]] membuka kalimat, koma memisahkannya dari klausa utama. Ketika klausa waktu menyusul [[we left]], contoh ini tidak memerlukan koma. Urutan peristiwanya tetap sama."
         },
         {
           "title": "Uraikan kalimat panjang",
           "explanation": "Identifikasi klausa utama, semua klausa bergantung, dan hubungan maknanya sebelum mencoba menerjemahkan seluruh kalimat.",
           "english": "The volunteers continued working because the shelter still needed supplies, even though the roads were flooded.",
           "indonesian": "Relawan terus bekerja karena penampungan masih membutuhkan persediaan, meskipun jalanan banjir.",
-          "why": "Satu kalimat dapat memuat alasan dan kontras sekaligus."
+          "why": "Mulailah dari [[the volunteers continued working]]. Dua keterangan sesudahnya mengajak kita melihat keputusan relawan dari dua sisi berbeda.",
+          "check": "Apa alasan relawan terus bekerja, dan keadaan apa yang justru bisa membuat kita mengira mereka akan berhenti?",
+          "checkAnswer": "[[Because the shelter still needed supplies]] memberi alasan. [[Even though the roads were flooded]] menyebut hambatan yang dapat membuat orang mengira relawan akan berhenti."
         }
       ]
     },
@@ -163,20 +165,20 @@
     {
       "type": "checkpoint",
       "id": "guided-complex-sentences",
-      "prompt": "Which word introduces a reason?",
-      "translation": "Kata mana yang memperkenalkan alasan?",
+      "prompt": "The hall was locked. As a result, we met outside. Which sentence preserves that link?",
+      "translation": "Aula terkunci. Akibatnya, kami bertemu di luar. Kalimat mana yang mempertahankan hubungan antara kedua kejadian itu?",
       "choices": [
-        "although",
-        "because",
-        "unless"
+        "We met outside although the hall was locked.",
+        "We met outside because the hall was locked.",
+        "We met outside before the hall was locked."
       ],
       "answer": 1,
-      "explanation": "[[Because]] memperkenalkan alasan atau penyebab.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Because]] mempertahankan alasan pemilihan tempat. [[Although]] membuat keadaan aula terdengar seperti sesuatu yang berlawanan dengan harapan, dan [[before]] hanya mengurutkan waktunya.",
+      "hint": "Apa yang dijawab oleh keterangan tentang aula, kapan pertemuan terjadi atau mengapa tempatnya berubah?",
       "translationChoices": [
-        "meskipun",
-        "karena",
-        "kecuali jika"
+        "Kami bertemu di luar meskipun aula terkunci.",
+        "Kami bertemu di luar karena aula terkunci.",
+        "Kami bertemu di luar sebelum aula dikunci."
       ]
     },
     {
@@ -227,9 +229,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) We left when the bell rang. (B) We left because the bell rang. Which sentence explicitly gives the reason for leaving? What does the other establish?",
+      "translation": "(A) [[We left when the bell rang.]] Kami pergi ketika bel berbunyi. (B) [[We left because the bell rang.]] Kami pergi karena bel berbunyi. Kalimat mana yang menyebut alasan pergi secara langsung? Informasi apa yang pasti kita peroleh dari kalimat satunya?",
+      "answer": "B memakai [[because]] untuk menjawab “mengapa?”. A memakai [[when]] untuk menjawab “kapan?”. Bel mungkin juga menjadi alasan, tetapi A hanya menyatakan waktunya."
     },
     {
       "type": "example_group",
@@ -260,10 +262,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Bagian mana yang menjadi ide utama, dan apa hubungan bagian lainnya?",
-      "model": "Although the rain stopped, the road remained slippery.",
-      "modelTranslation": "Walaupun hujan berhenti, jalan tetap licin.",
-      "criteria": "[[Although the rain stopped]] menunjukkan pertentangan dengan klausa utama [[the road remained slippery]]."
+      "prompt": "Gunakan ide utama [[we moved the picnic indoors]]. Tulis satu kalimat yang memberi alasan pemindahan, lalu satu kalimat yang hanya memberi tahu kapan pemindahan terjadi.",
+      "model": "We moved the picnic indoors because it started to rain. We moved the picnic indoors when it started to rain.",
+      "modelTranslation": "Kami memindahkan acara piknik ke dalam ruangan karena hujan mulai turun. Kami memindahkan acara piknik ke dalam ruangan ketika hujan mulai turun.",
+      "criteria": "Pesan utama tetap sama. [[Because]] menyatakan alasan secara langsung, sedangkan [[when]] memberi tahu waktunya."
     },
     {
       "type": "vocabulary",

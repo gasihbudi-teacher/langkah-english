@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[perfect tenses]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ketika kamu berkata “sudah selesai”, sudah selesai kapan? Bandingkan hasil yang bisa dilihat sekarang dengan hasil yang sudah ada ketika peristiwa lain terjadi kemarin.",
       "steps": [
         {
           "title": "Waktu kejadian dan acuan",
@@ -23,11 +23,11 @@
           "why": "[[Have]] + [[V3]] menghubungkan hasil kegiatan lampau dengan sekarang."
         },
         {
-          "title": "Gunakan garis waktu",
-          "explanation": "Gambarkan masa lalu dan sekarang. Letakkan peristiwa, hasil, serta titik acuan sebelum memilih bentuk verba.",
-          "english": "I finished my homework yesterday. I have finished it now.",
-          "indonesian": "Saya menyelesaikan PR kemarin. Sekarang PR itu sudah selesai.",
-          "why": "Kalimat pertama menyebut kejadian lampau tertentu; yang kedua menekankan keadaan atau hasil yang relevan sekarang."
+          "title": "Tentukan titik acuan",
+          "explanation": "Dua orang melaporkan tugas yang sama dengan cara berbeda. Siapa yang memberi tahu kapan ia mengerjakannya? Siapa yang memberi kabar tentang hasilnya sekarang?",
+          "english": "I finished the poster yesterday. I have finished the poster, so it is ready to hang.",
+          "indonesian": "Saya menyelesaikan posternya kemarin. Saya sudah menyelesaikan posternya, jadi sekarang poster itu siap dipasang.",
+          "why": "[[Yesterday]] menempatkan tindakan pada waktu lampau tertentu. [[Have finished]] menghubungkan pekerjaan yang selesai dengan hasil yang sekarang siap dipasang."
         },
         {
           "title": "Kenali V3",
@@ -37,32 +37,32 @@
           "why": "[[Written]] adalah bentuk V3 dari [[write]] yang mengikuti [[has]]."
         },
         {
-          "title": "Susun present perfect",
-          "explanation": "Gunakan [[have/has + V3]]; [[have]] untuk [[I/you/we/they]] dan [[has]] untuk [[he/she/it]].",
-          "english": "I finished my homework last night.",
-          "indonesian": "Saya menyelesaikan PR tadi malam.",
-          "why": "[[Simple past]] cocok untuk waktu lampau yang spesifik."
+          "title": "Pilih kata bantu sesuai subjek",
+          "explanation": "Pertahankan kegiatan yang sama dan ganti orang yang melakukannya. Apa yang terjadi pada bentuk ketiga [[written]]?",
+          "english": "We have written the report. Mira has written the report.",
+          "indonesian": "Kami sudah menulis laporan itu. Mira sudah menulis laporan itu.",
+          "why": "[[Written]] tetap sama. [[We]] memakai [[have]], sedangkan [[Mira]] memakai [[has]]."
         },
         {
-          "title": "Pengalaman hidup",
-          "explanation": "[[I have visited Bali]] dapat membahas pengalaman tanpa menyatakan waktu lampau tertentu.",
-          "english": "When we arrived, the movie had started.",
-          "indonesian": "Saat kami tiba, film sudah dimulai.",
-          "why": "[[Had]] [[started]] terjadi sebelum [[we]] [[arrived]]."
+          "title": "Ceritakan pengalaman sampai sekarang",
+          "explanation": "Apakah kamu pernah mengunjungi suatu tempat? Kamu dapat menceritakan pengalaman itu meskipun tidak menyebut tanggalnya.",
+          "english": "I have visited Bali twice.",
+          "indonesian": "Saya sudah dua kali berkunjung ke Bali.",
+          "why": "[[Have visited]] menyampaikan pengalaman sampai sekarang. [[Twice]] memberi tahu berapa kali, tanpa menentukan kapan kunjungannya."
         },
         {
           "title": "Hasil yang relevan sekarang",
-          "explanation": "[[I have lost my key]] mengaitkan kejadian lampau dengan keadaan sekarang, misalnya kunci belum ditemukan.",
-          "english": "I have lost my key.",
-          "indonesian": "Saya kehilangan kunci saya.",
-          "why": "[[Have lost]] menekankan akibat masa lalu yang masih relevan, misalnya kunci belum ditemukan."
+          "explanation": "Bayangkan kamu sudah mencari kunci tetapi masih belum bisa membuka pintu. Kabarkan keadaanmu sekarang kepada seorang teman.",
+          "english": "I have lost my key, so I cannot open the door.",
+          "indonesian": "Kunci saya hilang, jadi saya tidak bisa membuka pintu.",
+          "why": "[[Have lost]] menghubungkan kehilangan kunci dengan akibat yang masih terasa sekarang. Bagian [[cannot open the door]] menunjukkan akibat itu."
         },
         {
-          "title": "Since dan for",
-          "explanation": "[[Since]] menandai awal periode dan [[for]] durasinya dalam situasi yang masih relevan sekarang.",
-          "english": "She has lived here for three years.",
-          "indonesian": "Dia sudah tinggal di sini selama tiga tahun.",
-          "why": "[[For three years]] menyatakan durasi yang berkaitan dengan situasi berlanjut hingga sekarang."
+          "title": "Bedakan awal dan lamanya waktu",
+          "explanation": "Dalam dua kalimat ini penutur masih tinggal di tempat yang sama. Cari titik awal di satu kalimat dan lamanya waktu di kalimat lain.",
+          "english": "I have lived here since I started school. I have lived here for six years.",
+          "indonesian": "Saya tinggal di sini sejak mulai bersekolah. Saya sudah tinggal di sini selama enam tahun.",
+          "why": "[[Since]] memperkenalkan awal masa tinggal, sedangkan [[for]] diikuti lamanya masa tinggal."
         },
         {
           "title": "Bedakan simple past",
@@ -79,11 +79,13 @@
           "why": "[[Had left]] terjadi lebih dulu daripada [[arrived]], dua kejadian yang sama-sama beracuan masa lalu."
         },
         {
-          "title": "Bandingkan dengan cerita",
-          "explanation": "Urutkan dua peristiwa lampau dan lihat mana yang memerlukan [[had + V3]]; jelaskan perbedaan dengan simple past.",
-          "english": "By the time the teacher entered, all students had opened their books.",
-          "indonesian": "Ketika guru masuk, semua siswa sudah membuka buku.",
-          "why": "[[Had]] [[opened]] menandai peristiwa yang lebih dahulu dari [[entered]]."
+          "title": "Susun kembali urutan peristiwa",
+          "explanation": "Bayangkan kamu terlambat ke bioskop. Saat kamu masuk, adegan pertama sudah lewat. Lengkapi bagian kosong dengan bentuk [[start]] yang menunjukkan urutan itu.",
+          "english": "By the time I took my seat, the film ___.",
+          "indonesian": "Saat saya duduk, filmnya sudah mulai.",
+          "why": "Kedua peristiwa terjadi di masa lalu. Pilih yang sudah terjadi sebelum kamu duduk.",
+          "check": "Apa yang kamu tulis di bagian kosong, dan peristiwa mana yang menjadi titik acuannya?",
+          "checkAnswer": "[[By the time I took my seat, the film had started.]] Film mulai lebih dulu. Saat saya duduk menjadi titik acuan di masa lalu."
         }
       ]
     },
@@ -165,20 +167,20 @@
     {
       "type": "checkpoint",
       "id": "guided-perfect-tenses",
-      "prompt": "Which sentence uses the present perfect correctly?",
-      "translation": "Kalimat mana yang menggunakan bentuk present perfect dengan benar?",
+      "prompt": "Which sentence uses the present perfect to report a completed task?",
+      "translation": "Kalimat mana yang memakai [[present perfect]] untuk melaporkan tugas yang sudah selesai?",
       "choices": [
         "She has finished her work.",
         "She have finished her work.",
         "She has finish her work."
       ],
       "answer": 0,
-      "explanation": "[[She]] memakai [[has]] diikuti bentuk ketiga [[finished]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[She]] memakai [[has]] dan bentuk ketiga [[finished]]. [[She have]] tidak cocok dengan subjeknya, dan [[finish]] masih berbentuk dasar.",
+      "hint": "Periksa kecocokan subjek dengan kata bantu, lalu lihat bentuk kata kerja setelah kata bantu itu.",
       "translationChoices": [
-        "Dia sudah menyelesaikan tugasnya. (bentuk tepat)",
-        "Dia sudah menyelesaikan tugasnya. (kata bantu salah)",
-        "Dia sudah menyelesaikan tugasnya. (bentuk kata kerja salah)"
+        "Dia sudah menyelesaikan tugasnya.",
+        "Dia sudah menyelesaikan tugasnya.",
+        "Dia sudah menyelesaikan tugasnya."
       ]
     },
     {
@@ -233,9 +235,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) The bus has left. (B) The bus had left when we reached the stop. By what point has the bus left in each sentence?",
+      "translation": "(A) [[The bus has left.]] Busnya sudah berangkat. (B) [[The bus had left when we reached the stop.]] Busnya sudah berangkat ketika kami sampai di halte. Pada tiap kalimat, pada saat apa busnya sudah berangkat?",
+      "answer": "Pada A, pembicara memberi kabar sekarang dengan [[has left]]. Pada B, [[had left]] berarti bus sudah berangkat sebelum kami sampai di halte, sebuah titik acuan di masa lalu."
     },
     {
       "type": "example_group",
@@ -266,10 +268,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Titik waktu mana menjadi acuan bagi kejadian yang sudah selesai?",
-      "model": "She has lived here for five years.",
-      "modelTranslation": "Dia sudah tinggal di sini selama lima tahun.",
-      "criteria": "[[Has lived]] menghubungkan awal masa lalu dengan keadaan yang masih berlangsung sekarang."
+      "prompt": "Tulis dua kabar tentang pintu gerbang yang sudah ditutup. Pada kalimat pertama, beri kabar kepada orang yang sedang menuju gerbang sekarang. Pada kalimat kedua, ceritakan keadaan saat kamu tiba kemarin. Gunakan [[close]] pada keduanya.",
+      "model": "The guard has closed the gate. The guard had closed the gate before I arrived yesterday.",
+      "modelTranslation": "Petugas sudah menutup gerbang. Petugas sudah menutup gerbang sebelum saya tiba kemarin.",
+      "criteria": "[[Has closed]] menjelaskan mengapa gerbang sekarang tertutup. [[Had closed]] menempatkan penutupan sebelum kedatangan saya kemarin."
     },
     {
       "type": "vocabulary",

@@ -13,21 +13,21 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membentuk pertanyaan yes/no dengan [[be]], [[do/does]], dan [[did]]. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Mulailah dengan kalimat berita. Lihat apakah predikatnya menyatakan keadaan atau kegiatan, lalu ubah beritanya menjadi pertanyaan dan sangkalan tanpa mengubah orang atau waktunya.",
       "steps": [
         {
-          "title": "Apa yang berubah?",
-          "explanation": "Pernyataan memberi informasi; negatif menyangkal, sedangkan pertanyaan meminta informasi. Maknanya berubah saat bentuk diubah.",
-          "english": "She likes music.",
-          "indonesian": "Dia menyukai musik.",
-          "why": "Ini kalimat positif dengan [[subject]] tunggal."
+          "title": "Bedakan memberi kabar dan meminta kepastian",
+          "explanation": "Baca kedua kalimat tentang Rina. Yang satu memberi informasi, yang lain bisa dijawab dengan ya atau tidak.",
+          "english": "Rina likes music. Does Rina like music?",
+          "indonesian": "Rina menyukai musik. Apakah Rina menyukai musik?",
+          "why": "Yang berubah ialah maksud penutur. Pada pertanyaan dengan [[does]], kata kerja utama kembali ke bentuk dasar [[like]]."
         },
         {
-          "title": "Kenali jenis predikat",
-          "explanation": "Periksa apakah kalimat memakai [[be]] atau verba biasa karena aturan pertanyaan dan negatifnya tidak sama.",
-          "english": "Does she like music?",
-          "indonesian": "Apakah dia menyukai musik?",
-          "why": "Pertanyaan [[simple present]] memakai [[does]] + [[verb]] dasar."
+          "title": "Bedakan keadaan dan kegiatan",
+          "explanation": "Bandingkan dua kalimat berita berikut. Mana yang sudah punya bentuk [[be]] dan mana yang memakai kata kerja biasa?",
+          "english": "Rina is ready. Rina likes music.",
+          "indonesian": "Rina siap. Rina menyukai musik.",
+          "why": "Pada kalimat pertama, [[is]] menghubungkan Rina dengan keadaannya. Pada kalimat kedua, [[likes]] adalah kata kerja biasa. Perbedaan ini menentukan cara bertanya atau menyangkal."
         },
         {
           "title": "Negatif dengan be",
@@ -65,11 +65,11 @@
           "why": "[[Does not]] membuat verba biasa menjadi negatif; [[like]] kembali ke bentuk dasar."
         },
         {
-          "title": "Pertanyaan/negatif lampau",
-          "explanation": "Gunakan [[did/didn't]] bersama verba dasar untuk tindakan masa lalu.",
-          "english": "Did Mira finish the experiment yesterday?",
-          "indonesian": "Apakah Mira menyelesaikan percobaan kemarin?",
-          "why": "[[Did]] menandai pertanyaan lampau sehingga [[finish]] tidak menjadi [[finished]]."
+          "title": "Tanyakan dan sangkal tindakan lampau",
+          "explanation": "Mulai dari kegiatan yang selesai kemarin. Periksa perubahan kata kerja setelah [[did]] dan [[did not]].",
+          "english": "Mira finished the task. Did Mira finish the task? Mira did not finish the task.",
+          "indonesian": "Mira menyelesaikan tugas itu. Apakah Mira menyelesaikan tugas itu? Mira tidak menyelesaikan tugas itu.",
+          "why": "Bentuk positif memakai [[finished]]. Pada pertanyaan dan sangkalan, [[did]] sudah menandai lampau sehingga bentuknya kembali ke [[finish]]."
         },
         {
           "title": "Kata tanya",
@@ -79,11 +79,13 @@
           "why": "[[Where]] mendahului [[does + Rina + study]]; bentuk [[study]] tetap dasar."
         },
         {
-          "title": "Periksa pilihan pola",
-          "explanation": "Ubah pernyataan menjadi negatif dan pertanyaan, lalu jelaskan pemakaian [[be]], [[do]], [[does]], atau [[did]].",
-          "english": "Why doesn't the train stop here on Sundays?",
-          "indonesian": "Mengapa kereta tidak berhenti di sini pada hari Minggu?",
-          "why": "Pertanyaan [[why]] + [[doesn't]] + [[subject]] + [[verb]] dasar."
+          "title": "Coba ubah satu pernyataan",
+          "explanation": "Bayangkan kamu ingin memastikan kabar tentang kereta. Tanyakan apakah kabar itu benar, lalu bayangkan bagaimana petugas menyangkalnya.",
+          "english": "The train stops here on Sundays.",
+          "indonesian": "Kereta itu berhenti di sini setiap hari Minggu.",
+          "why": "Tentukan dulu apakah predikatnya berupa keadaan atau kegiatan. Pertahankan tempat dan hari ketika mengubah kalimat.",
+          "check": "Bagaimana bunyi pertanyaan ya/tidak dan sangkalan tentang kereta itu dalam bahasa Inggris?",
+          "checkAnswer": "[[Does the train stop here on Sundays? The train does not stop here on Sundays.]] Subjeknya tunggal, sehingga kata bantunya [[does]] dan kata kerja utamanya [[stop]]."
         }
       ]
     },
@@ -211,20 +213,20 @@
     {
       "type": "checkpoint",
       "id": "guided-basic-questions-negatives",
-      "prompt": "Which question is correct?",
-      "translation": "Pertanyaan mana yang benar?",
+      "prompt": "Which yes-or-no question asks about her taste in music?",
+      "translation": "Pertanyaan ya/tidak mana yang tepat untuk menanyakan apakah dia menyukai musik?",
       "choices": [
         "Does she likes music?",
         "Do she like music?",
         "Does she like music?"
       ],
       "answer": 2,
-      "explanation": "Setelah [[does]], kata kerja kembali ke bentuk dasar [[like]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "Dengan [[she]], kata bantu pertanyaannya [[does]]. Sesudahnya, kata kerja utama berbentuk [[like]]. Pada dua pilihan lain, salah satu dari dua bentuk itu tidak sesuai.",
+      "hint": "Baca kata bantu dan kata kerja utama secara terpisah. Apakah keduanya cocok untuk subjek ini?",
       "translationChoices": [
-        "Apakah dia menyukai musik? (kata kerja salah)",
-        "Apakah dia menyukai musik? (kata bantu salah)",
-        "Apakah dia menyukai musik? (bentuk tepat)"
+        "Apakah dia menyukai musik?",
+        "Apakah dia menyukai musik?",
+        "Apakah dia menyukai musik?"
       ]
     },
     {
@@ -279,9 +281,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Is Rani ready? (B) Does Rani work here? Why do the questions begin differently?",
+      "translation": "(A) [[Is Rani ready?]] Apakah Rani siap? (B) [[Does Rani work here?]] Apakah Rani bekerja di sini? Mengapa kedua pertanyaan dimulai dengan kata yang berbeda?",
+      "answer": "A berasal dari [[Rani is ready]], sehingga [[is]] dapat dipindah ke depan. B berasal dari [[Rani works here]]. Kata kerja biasa memerlukan [[does]] untuk membentuk pertanyaan, dan [[works]] kembali ke [[work]]."
     },
     {
       "type": "example_group",
@@ -312,10 +314,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Apakah kalimat memakai [[be]] atau kata kerja biasa?",
-      "model": "Did Mira finish the experiment yesterday?",
-      "modelTranslation": "Apakah Mira menyelesaikan percobaan itu kemarin?",
-      "criteria": "[[Did]] sudah menandai masa lalu, sehingga [[finish]] kembali ke bentuk dasar, bukan [[finished]]."
+      "prompt": "Temanmu mengatakan [[Lina met the coach yesterday]]. Tulis pertanyaan ya/tidak untuk memastikan kabar itu, lalu tulis satu sangkalan kalau ternyata Lina tidak bertemu pelatih.",
+      "model": "Did Lina meet the coach yesterday? Lina did not meet the coach yesterday.",
+      "modelTranslation": "Apakah Lina bertemu pelatih kemarin? Lina tidak bertemu pelatih kemarin.",
+      "criteria": "Keduanya memakai [[did]] untuk waktu lampau dan [[meet]] sebagai bentuk dasar. Sangkalan menambahkan [[not]]."
     },
     {
       "type": "vocabulary",

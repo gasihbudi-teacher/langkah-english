@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Memahami dan memakai [[reported speech]] dalam kalimat dan teks berbahasa Inggris. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Saat menyampaikan pesan teman, apa yang harus didengar orang lain agar maksudnya tetap sama? Ikuti siapa yang berbicara, kepada siapa, dan kapan ucapan itu disampaikan kembali.",
       "steps": [
         {
           "title": "Ucapan langsung dan laporan",
@@ -23,11 +23,11 @@
           "why": "Versi kedua melaporkan ucapan tanpa mengutip kata demi kata."
         },
         {
-          "title": "Siapa dan kapan?",
-          "explanation": "Tentukan siapa yang berbicara, siapa yang dilapori, dan kapan laporan dibuat sebelum mengubah bentuk.",
-          "english": "Rani said that she was tired.",
-          "indonesian": "Rani mengatakan bahwa dia lelah.",
-          "why": "Dalam pelaporan lampau, [[am]] sering bergeser menjadi [[was]]."
+          "title": "Tentukan siapa dan kapan",
+          "explanation": "Rani berada di sekolah saat berbicara. Kamu kemudian menceritakan pesannya kepada Dita di rumah. Apa yang perlu diperjelas agar Dita tahu tas siapa dan di mana tas itu?",
+          "english": "On Monday Rani said, “My bag is here.” Later that day I told Dita that Rani’s bag was at school.",
+          "indonesian": "Pada Senin Rani berkata, “Tas saya ada di sini.” Beberapa saat kemudian pada hari yang sama, saya memberi tahu Dita bahwa tas Rani ada di sekolah.",
+          "why": "[[My]] adalah milik Rani. [[Here]] berarti sekolah ketika Rani mengucapkannya. Dengan menyebut [[Rani’s bag]] dan [[at school]], pelapor menjaga rujukan yang sama meski tempatnya sudah berganti."
         },
         {
           "title": "Say dan tell",
@@ -72,18 +72,20 @@
           "why": "Pertanyaan ya/tidak yang dilaporkan memakai [[whether]] dan urutan pernyataan [[I was]], bukan [[was I]]."
         },
         {
-          "title": "Laporkan wh-questions dan perintah",
-          "explanation": "Pertahankan kata tanya untuk pertanyaan informasi; perintah sering dilaporkan dengan [[told/asked + someone + to + verb]].",
-          "english": "He told me to close the door.",
-          "indonesian": "Ia menyuruh saya menutup pintu.",
-          "why": "Perintah dapat dilaporkan dengan [[told + person + to + verb]]."
+          "title": "Laporkan pertanyaan dengan kata tanya",
+          "explanation": "Untuk melaporkan pertanyaan tempat, pertahankan [[where]]. Lihat urutan subjek dan kata kerja setelahnya.",
+          "english": "Ana asked, “Where is the key?” Ana asked where the key was.",
+          "indonesian": "Ana bertanya, “Di mana kuncinya?” Ana menanyakan di mana kuncinya berada.",
+          "why": "Pada pertanyaan langsung, [[is]] berada di depan [[the key]]. Dalam laporan, subjek kembali mendahului kata kerja, yaitu [[the key was]]."
         },
         {
-          "title": "Laporkan percakapan",
-          "explanation": "Ubah beberapa kutipan secara berurutan, lalu periksa apakah orang, waktu, dan maksud tetap konsisten.",
-          "english": "The teacher explained that water boils at 100°C at sea level.",
-          "indonesian": "Guru menjelaskan bahwa air mendidih pada 100°C di permukaan laut.",
-          "why": "Kebenaran umum dapat tetap dalam [[present]] ketika dilaporkan."
+          "title": "Bedakan meminta informasi dan memberi perintah",
+          "explanation": "Bayangkan ketua kelas bertanya tentang jendela, lalu menyuruh Rafi menutupnya. Jangan sampai keduanya terdengar seperti perintah.",
+          "english": "The class leader asked Rafi, “Is the window open?” Then she said to him, “Close it, please.”",
+          "indonesian": "Ketua kelas bertanya kepada Rafi, “Apakah jendelanya terbuka?” Lalu ia berkata kepada Rafi, “Tolong tutup jendelanya.”",
+          "why": "Saat melaporkan percakapan, kamu dapat memakai [[asked whether]] untuk pertanyaan ya/tidak dan [[asked someone to]] untuk permintaan.",
+          "check": "Bagaimana kamu melaporkan dua ucapan ketua kelas dalam urutan semula?",
+          "checkAnswer": "[[The class leader asked Rafi whether the window was open. Then she asked him to close it.]] Kalimat pertama menanyakan keadaan. Pada kalimat kedua, [[him]] mengacu pada Rafi sebagai orang yang diminta bertindak."
         }
       ]
     },
@@ -165,20 +167,20 @@
     {
       "type": "checkpoint",
       "id": "guided-reported-speech",
-      "prompt": "Which sentence reports a past statement?",
-      "translation": "Kalimat mana yang melaporkan pernyataan yang disampaikan pada masa lalu?",
+      "prompt": "Yesterday Sinta said, “I am tired.” Which report correctly gives her meaning?",
+      "translation": "Kemarin Sinta berkata, [[I am tired]]. Laporan mana yang tepat untuk menyampaikan kembali ucapannya?",
       "choices": [
-        "She said that she was tired.",
-        "She said that she am tired.",
-        "She said that was she tired."
+        "Sinta said that she was tired.",
+        "Sinta asked whether I was tired.",
+        "Sinta told me to rest."
       ],
       "answer": 0,
-      "explanation": "Dalam pelaporan ucapan lampau ini, [[am]] berubah menjadi [[was]].",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[She was tired]] melaporkan keadaan Sinta. Ucapan aslinya tidak menanyakan keadaan pendengar dan tidak meminta pendengar melakukan sesuatu.",
+      "hint": "Periksa siapa yang merasa lelah dan apakah ucapan aslinya memberi kabar, bertanya, atau menyuruh.",
       "translationChoices": [
-        "Dia mengatakan bahwa dia lelah. (bentuk tepat)",
-        "Dia mengatakan bahwa dia lelah. (bentuk kata kerja salah)",
-        "Dia mengatakan bahwa dia lelah. (urutan keliru)"
+        "Sinta mengatakan bahwa ia lelah.",
+        "Sinta bertanya apakah saya lelah.",
+        "Sinta menyuruh saya beristirahat."
       ]
     },
     {
@@ -233,9 +235,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Lina asked, “Are you ready, Rafi?” (B) Lina asked whether Rafi was ready. How does the order of subject and verb change in the reported question?",
+      "translation": "(A) [[Lina asked, “Are you ready, Rafi?”]] Lina bertanya, “Apakah kamu siap, Rafi?” (B) [[Lina asked whether Rafi was ready.]] Lina bertanya apakah Rafi siap. Bagaimana urutan subjek dan kata kerja berubah ketika pertanyaan Lina dilaporkan?",
+      "answer": "Pada A, [[are]] mendahului [[you]] dalam pertanyaan langsung. Pada B, sesudah [[whether]] kita memakai urutan pernyataan, yaitu [[Rafi was]]. Yang ditanya tetap Rafi."
     },
     {
       "type": "example_group",
@@ -266,10 +268,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Siapa yang berbicara, siapa yang melaporkan, dan kapan peristiwanya?",
-      "model": "Rafi asked whether the library was open.",
-      "modelTranslation": "Rafi bertanya apakah perpustakaan sedang buka.",
-      "criteria": "Pertanyaan tidak langsung setelah [[asked whether]] memakai urutan [[the library was]], bukan urutan pertanyaan langsung."
+      "prompt": "Bayangkan Rafi menanyakan apakah perpustakaan buka. Tulis pertanyaan langsungnya dalam sebuah kalimat, lalu laporkan pertanyaan yang sama dari sudut pandang lampau.",
+      "model": "Rafi asked, “Is the library open?” Rafi asked whether the library was open.",
+      "modelTranslation": "Rafi bertanya, “Apakah perpustakaannya buka?” Rafi bertanya apakah perpustakaannya buka.",
+      "criteria": "Pertanyaan langsung menempatkan [[is]] sebelum [[the library]]. Dalam laporan, [[whether]] diikuti [[the library was open]]. Keduanya tetap menanyakan keadaan perpustakaan."
     },
     {
       "type": "vocabulary",

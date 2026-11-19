@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mengenali fungsi [[noun]], [[pronoun]], [[verb]], [[adjective]], dan [[adverb]] dalam kalimat. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Kata [[book]] bisa berarti buku atau memesan. Untuk mengenali jenis kata, cari dulu tugasnya di dalam kalimat. Mulailah dari siapa yang dibicarakan dan apa yang ia lakukan.",
       "steps": [
         {
           "title": "Kata punya tugas",
@@ -23,25 +23,25 @@
           "why": "[[Teacher]] menamai orang, sedangkan [[smiles]] menyatakan tindakan. Tugas kata di kalimat menentukan jenisnya."
         },
         {
-          "title": "Kenali noun",
-          "explanation": "[[Noun]] menamai orang, tempat, benda, atau gagasan. Cari kata yang menunjuk sesuatu, bukan tindakan yang sedang dilakukan.",
+          "title": "Temukan kata benda",
+          "explanation": "Cari kata yang menamai hewan di kalimat ini. Coba bayangkan menggantinya dengan nama hewan lain.",
           "english": "The small cat sleeps.",
           "indonesian": "Kucing kecil itu tidur.",
-          "why": "[[Small]] adalah [[adjective]] karena menjelaskan [[noun]] [[cat]]."
+          "why": "[[Cat]] menamai hewan, jadi termasuk kata benda atau [[noun]]. Kata [[small]] memberi tahu kita seperti apa kucing itu."
         },
         {
-          "title": "Kenali verb",
-          "explanation": "[[Verb]] menyatakan tindakan atau keadaan. Bandingkan kata yang menamai pelaku dengan kata yang menyatakan kegiatannya.",
+          "title": "Temukan kata kerja",
+          "explanation": "Apa yang dilakukan Rina? Kata yang menjawab pertanyaan itu adalah kata kerja atau [[verb]].",
           "english": "Rina speaks clearly.",
           "indonesian": "Rina berbicara dengan jelas.",
-          "why": "[[Clearly]] adalah [[adverb]] karena menjelaskan cara [[Rina]] berbicara."
+          "why": "[[Speaks]] menyatakan tindakan Rina. Kalau kata [[clearly]] dilepas, kita masih tahu apa yang ia lakukan."
         },
         {
-          "title": "Gabungkan subjek dan verba",
-          "explanation": "Satu kalimat sederhana dapat dibangun dari siapa yang dibahas dan apa yang ia lakukan. Periksa apakah ada verba yang mengungkapkan predikat.",
-          "english": "The book is on the desk.",
-          "indonesian": "Buku itu berada di atas meja.",
-          "why": "[[On]] adalah [[preposition]] yang menunjukkan hubungan tempat."
+          "title": "Gabungkan subjek dan kata kerja",
+          "explanation": "Cari siapa yang dibicarakan, lalu apa yang dilakukan. Ganti salah satu bagian dan lihat apa yang berubah.",
+          "english": "The cat sleeps. The cat plays.",
+          "indonesian": "Kucing itu tidur. Kucing itu bermain.",
+          "why": "[[The cat]] tetap menjadi subjek. Mengganti [[sleeps]] dengan [[plays]] mengubah tindakan yang diceritakan."
         },
         {
           "title": "Kenali pronoun",
@@ -65,25 +65,27 @@
           "why": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]]."
         },
         {
-          "title": "Kenali determiner",
-          "explanation": "Kata seperti [[the]], [[a]], dan [[this]] muncul bersama kata benda dan membantu menentukan rujukannya.",
-          "english": "After the race, the tired runner rested peacefully.",
-          "indonesian": "Setelah lomba, pelari yang lelah beristirahat dengan tenang.",
-          "why": "[[Tired]] adalah adjektiva untuk pelari, sedangkan [[peacefully]] adalah adverbia untuk cara beristirahat."
+          "title": "Tunjukkan benda yang dimaksud",
+          "explanation": "Perhatikan kata sebelum [[bag]]. Apakah pembicara menyebut sembarang tas atau menunjuk tas tertentu?",
+          "english": "Take a bag. Take this bag.",
+          "indonesian": "Ambil sebuah tas. Ambil tas ini.",
+          "why": "[[A]] memperkenalkan sebuah tas. [[This]] menunjuk tas tertentu. Keduanya termasuk [[determiner]], kata yang membantu kita mengenali benda yang dimaksud."
         },
         {
-          "title": "Hubungan dan sambungan",
-          "explanation": "[[Preposition]] menunjukkan hubungan seperti tempat atau waktu; [[conjunction]] menghubungkan bagian kalimat atau gagasan.",
-          "english": "After the rain stopped, the children played outside.",
-          "indonesian": "Setelah hujan berhenti, anak-anak bermain di luar.",
-          "why": "[[After]] menghubungkan waktu; [[outside]] memberi keterangan tempat."
+          "title": "Bedakan dua fungsi penghubung",
+          "explanation": "Perhatikan bagian setelah [[after]]. Apakah yang muncul hanya nama suatu peristiwa, atau ada juga kata kerja yang menyatakan apa yang terjadi?",
+          "english": "We left after lunch. We left after lunch ended.",
+          "indonesian": "Kami pergi setelah makan siang. Kami pergi setelah makan siang selesai.",
+          "why": "Pada kalimat pertama, [[after]] adalah preposisi yang diikuti [[lunch]]. Pada kalimat kedua, [[after]] menghubungkan klausa [[lunch ended]] dengan [[we left]]."
         },
         {
-          "title": "Periksa fungsi dalam konteks",
-          "explanation": "Kata seperti [[book]] bisa menjadi kata benda atau kata kerja. Jangan menebak kelas kata tanpa membaca kalimat lengkap.",
-          "english": "Although the road was wet, the driver moved carefully.",
-          "indonesian": "Walaupun jalan basah, pengemudi bergerak hati-hati.",
-          "why": "[[Although]] menghubungkan klausa yang berlawanan; [[carefully]] menerangkan [[moved]]."
+          "title": "Uji satu kata dalam dua kalimat",
+          "explanation": "Kata yang sama dapat menjalankan tugas berbeda. Lihat apa yang muncul sebelum dan sesudah [[book]].",
+          "english": "I need a book. I book a seat.",
+          "indonesian": "Saya membutuhkan sebuah buku. Saya memesan tempat duduk.",
+          "why": "Terjemahannya berubah karena tugas kata itu berubah. Coba cari bukti dari susunan masing-masing kalimat.",
+          "check": "Pada kalimat mana [[book]] menamai benda? Pada kalimat mana [[book]] menyatakan tindakan?",
+          "checkAnswer": "Sesudah [[a]], [[book]] menamai benda yang dibutuhkan. Dalam [[I book a seat]], [[book]] menyatakan tindakan memesan dan [[a seat]] adalah yang dipesan."
         }
       ]
     },
@@ -214,20 +216,20 @@
     {
       "type": "checkpoint",
       "id": "guided-parts-of-speech",
-      "prompt": "Which word names an action?",
-      "translation": "Kata mana yang menyatakan tindakan?",
+      "prompt": "In “The twins smile”, which word tells us what the twins do?",
+      "translation": "Dalam [[The twins smile]], kata mana yang menunjukkan apa yang dilakukan si kembar?",
       "choices": [
-        "teacher",
-        "smiles",
-        "small"
+        "twins",
+        "smile",
+        "the"
       ],
       "answer": 1,
-      "explanation": "Kata [[smiles]] menunjukkan tindakan. [[Teacher]] adalah orang; [[small]] menjelaskan sifat.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "explanation": "[[Smile]] menyatakan tindakan. [[Twins]] menamai pelakunya dan [[the]] membantu menunjuk anak kembar yang dimaksud.",
+      "hint": "Bayangkan kamu harus memperagakan kalimat ini. Bagian mana yang bisa kamu peragakan?",
       "translationChoices": [
-        "guru",
+        "anak kembar",
         "tersenyum",
-        "kecil"
+        "itu"
       ]
     },
     {
@@ -278,9 +280,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) Rina gave a clear answer. (B) Rina answered clearly. What does clear describe in A, and what does clearly describe in B?",
+      "translation": "(A) [[Rina gave a clear answer.]] Rina memberi jawaban yang jelas. (B) [[Rina answered clearly.]] Rina menjawab dengan jelas. Kata apa yang diterangkan oleh [[clear]] pada A dan [[clearly]] pada B?",
+      "answer": "Pada A, [[clear]] menjelaskan kata benda [[answer]], sehingga fungsinya sebagai adjektiva. Pada B, [[clearly]] menerangkan cara Rina menjawab, sehingga fungsinya sebagai adverbia."
     },
     {
       "type": "example_group",
@@ -311,10 +313,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Kata ini menamai sesuatu, menunjukkan tindakan, atau menerangkan kata lain?",
-      "model": "The quiet student spoke quietly during the debate.",
-      "modelTranslation": "Siswa yang pendiam itu berbicara dengan pelan selama debat.",
-      "criteria": "[[Quiet]] menerangkan nomina [[student]], sedangkan [[quietly]] menerangkan verba [[spoke]]."
+      "prompt": "Tulis kalimat bahasa Inggris yang menjelaskan sifat seseorang dan cara orang itu melakukan sesuatu. Gunakan satu adjektiva dan satu adverbia.",
+      "model": "The patient teacher explained the task slowly.",
+      "modelTranslation": "Guru yang sabar itu menjelaskan tugasnya pelan-pelan.",
+      "criteria": "[[Patient]] menjelaskan sifat guru, sedangkan [[slowly]] menjelaskan cara guru menerangkan tugas. Coba tunjuk kata yang diterangkan oleh masing-masing."
     },
     {
       "type": "vocabulary",
