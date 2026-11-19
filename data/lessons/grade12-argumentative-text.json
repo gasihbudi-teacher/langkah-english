@@ -1,9 +1,9 @@
 {
   "id": "grade12-argumentative-text",
   "objectives": [
-    "Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Menemukan posisi penulis serta membedakan alasan dari bukti uji coba.",
+    "Menilai seberapa jauh hasil uji coba mendukung kebijakan untuk seluruh kantin.",
+    "Menanggapi keberatan tentang akses dengan usulan yang didukung bacaan."
   ],
   "blocks": [
     {
@@ -13,82 +13,82 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menemukan klaim, alasan, bukti, serta tanggapan terhadap keberatan. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti rapat komite sekolah tentang pembayaran di kantin. Bedakan manfaat yang dijanjikan, hasil yang benar-benar diamati, dan masalah yang masih perlu diatasi.",
       "steps": [
         {
-          "title": "Mengapa ada perdebatan?",
-          "explanation": "[[Argumentative text]] mencoba mempertahankan posisi tentang isu yang dapat diperdebatkan.",
-          "english": "Digital payments can be convenient.",
-          "indonesian": "Pembayaran digital dapat praktis.",
-          "why": "Ini klaim yang memerlukan alasan."
+          "title": "Rumuskan keputusan",
+          "explanation": "Tanyakan dulu apa yang perlu diputuskan komite.",
+          "english": "Should the canteen accept digital payments?",
+          "indonesian": "Apakah kantin sebaiknya menerima pembayaran digital?",
+          "why": "Pertanyaan ini membuka perdebatan. Menerima pembayaran digital belum tentu berarti menghapus uang tunai."
         },
         {
-          "title": "Identifikasi isu",
-          "explanation": "Tentukan pertanyaan yang sedang dijawab sebelum menilai sikap penulis.",
-          "english": "Digital payments can be convenient.",
-          "indonesian": "Pembayaran digital dapat praktis.",
-          "why": "Ini klaim yang memerlukan alasan."
+          "title": "Temukan posisi awal",
+          "explanation": "Cari pihak yang menyampaikan usulan.",
+          "english": "Some committee members support a digital payment option.",
+          "indonesian": "Sebagian anggota komite mendukung pilihan pembayaran digital.",
+          "why": "Kata [[support]] menunjukkan posisi anggota itu. Belum ada hasil pengamatan dalam kalimat ini."
         },
         {
-          "title": "Posisi penulis",
-          "explanation": "Cari klaim utama yang ingin dibenarkan penulis.",
-          "english": "Digital payments can be convenient.",
-          "indonesian": "Pembayaran digital dapat praktis.",
-          "why": "Ini klaim yang memerlukan alasan."
+          "title": "Kenali alasan",
+          "explanation": "Periksa mengapa usulan dianggap bermanfaat.",
+          "english": "Electronic payments could shorten queues.",
+          "indonesian": "Pembayaran elektronik mungkin memperpendek antrean.",
+          "why": "Kata [[could]] menandai manfaat yang diperkirakan. Kita masih perlu memeriksa hasil uji coba."
         },
         {
-          "title": "Alasan pendukung",
-          "explanation": "Tandai mengapa penulis mendukung posisi itu.",
-          "english": "They can reduce the need to carry cash.",
-          "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-          "why": "Ini alasan yang mendukung klaim."
+          "title": "Temukan bukti",
+          "explanation": "Perhatikan siapa yang diamati dan apa yang terjadi.",
+          "english": "Several sellers completed payments more quickly during a small trial.",
+          "indonesian": "Beberapa penjual menyelesaikan pembayaran lebih cepat dalam uji coba kecil.",
+          "why": "Ada pengamatan tentang waktu transaksi. Besar penghematannya tidak dilaporkan."
         },
         {
-          "title": "Bukti untuk alasan",
-          "explanation": "Hubungkan contoh atau informasi faktual dengan alasan tertentu.",
-          "english": "Some students prefer digital payments.",
-          "indonesian": "Sebagian siswa lebih suka pembayaran digital.",
-          "why": "Klaim lebih terbatas dan mungkin dapat diuji."
+          "title": "Batasi simpulan",
+          "explanation": "Cocokkan luas simpulan dengan cakupan pengamatan.",
+          "english": "The trial gives some support to the speed claim.",
+          "indonesian": "Uji coba itu memberi sedikit dukungan bagi klaim tentang kecepatan transaksi.",
+          "why": "Kata [[several]] menunjukkan bahwa hasil tersebut belum tentu berlaku bagi semua penjual."
         },
         {
-          "title": "Ada pandangan lawan",
-          "explanation": "[[Counterargument]] menyatakan keberatan yang mungkin diajukan pihak lain.",
-          "english": "Some users may lack internet access.",
-          "indonesian": "Sebagian pengguna mungkin tidak memiliki akses internet.",
-          "why": "Ini keberatan atau keterbatasan yang perlu dipertimbangkan."
+          "title": "Dengarkan keberatan",
+          "explanation": "Cari siapa yang mungkin kesulitan menggunakan cara baru.",
+          "english": "Some students do not have a suitable device.",
+          "indonesian": "Sebagian siswa tidak memiliki perangkat yang sesuai.",
+          "why": "Antrean yang lebih singkat tidak mengatasi masalah akses bagi siswa tersebut."
         },
         {
-          "title": "Tandai counterargument",
-          "explanation": "Jangan mengira pendapat lawan adalah pendapat penulis hanya karena muncul dalam teks.",
-          "english": "Some people worry about security; however, careful verification may reduce the risk.",
-          "indonesian": "Sebagian orang khawatir tentang keamanan; namun, pemeriksaan yang teliti dapat mengurangi risikonya.",
-          "why": "Kalimat pertama menyatakan [[counterargument]] dan kalimat kedua memberikan tanggapan terbatas."
+          "title": "Bedakan dua kendala",
+          "explanation": "Bahkan pemilik perangkat masih memerlukan jaringan yang berfungsi.",
+          "english": "An unreliable connection can interrupt a transaction.",
+          "indonesian": "Koneksi yang tidak andal dapat mengganggu transaksi.",
+          "why": "Perangkat dan jaringan adalah dua syarat berbeda. Memenuhi satu syarat belum menjamin pembayaran berhasil."
         },
         {
-          "title": "Baca rebuttal",
-          "explanation": "[[Rebuttal]] merupakan jawaban penulis terhadap keberatan, bukan pengulangan klaim semula.",
-          "english": "Some parents say a later start makes transport difficult. Schools could test new routes first.",
-          "indonesian": "Sebagian orang tua mengatakan bahwa jam mulai lebih siang menyulitkan transportasi. Sekolah dapat lebih dahulu menguji rute baru.",
-          "why": "Kalimat kedua menjawab keberatan transportasi melalui tindakan yang relevan, bukan sekadar mengulang posisi."
+          "title": "Hubungkan tanggapan dengan keberatan",
+          "explanation": "Uji apakah usulan memberi jalan keluar bagi siswa yang terkendala.",
+          "english": "A cash option lets students pay when a connection fails.",
+          "indonesian": "Pilihan tunai memungkinkan siswa membayar ketika koneksi terputus.",
+          "why": "Pilihan tunai langsung menjawab kendala jaringan. Menjanjikan antrean cepat saja belum menyelesaikannya."
         },
         {
-          "title": "Uji tanggapan",
-          "explanation": "Periksa apakah rebuttal benar-benar menjawab masalah yang diajukan, bukan menghindarinya.",
-          "english": "Although digital payment is fast for connected users, cash remains useful when a network fails.",
-          "indonesian": "Walaupun pembayaran digital cepat bagi pengguna yang terhubung, uang tunai tetap berguna saat jaringan gagal.",
-          "why": "Kalimat mempertimbangkan dua keadaan."
+          "title": "Periksa hal yang belum diketahui",
+          "explanation": "Bedakan keputusan sementara dari kesimpulan akhir.",
+          "english": "The committee wants more testing before expanding the system.",
+          "indonesian": "Komite ingin lebih banyak pengujian sebelum memperluas sistem.",
+          "why": "Uji tambahan dapat menunjukkan apakah hasil awal juga berlaku pada penjual lain."
         },
         {
-          "title": "Rancang argumen lengkap",
-          "explanation": "Susun klaim, alasan, bukti, keberatan yang adil, dan tanggapan yang masuk akal.",
-          "english": "A fair school policy could allow both payment methods while teaching students how to protect their accounts.",
-          "indonesian": "Kebijakan sekolah yang adil dapat mengizinkan kedua metode sekaligus mengajarkan keamanan akun.",
-          "why": "Solusi mempertimbangkan manfaat dan kekhawatiran."
+          "title": "Tarik simpulan bersyarat",
+          "explanation": "Gabungkan bukti awal dengan kebutuhan siswa.",
+          "english": "The canteen could keep cash while it tests digital payments further.",
+          "indonesian": "Kantin dapat tetap menerima uang tunai sambil menguji pembayaran digital lebih lanjut.",
+          "why": "Usulan ini memberi ruang untuk menguji manfaat sekaligus melayani siswa yang masih membutuhkan uang tunai."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Schools should consider starting classes a little later because students need adequate rest. Some parents argue that later classes make transport difficult. This concern is important, but schools could test different transport schedules before changing the timetable permanently.",
-      "modelIndonesian": "Sekolah sebaiknya mempertimbangkan memulai pelajaran sedikit lebih siang karena siswa membutuhkan istirahat yang cukup. Sebagian orang tua berpendapat bahwa jam pelajaran lebih siang menyulitkan transportasi. Kekhawatiran ini penting, tetapi sekolah dapat menguji jadwal transportasi berbeda sebelum mengubah jadwal secara permanen."
+      "modelEnglish": "The canteen should continue its digital payment trial. Several sellers served customers more quickly during the trial, but some students cannot use the system when the network fails. Keeping a cash option would let them buy lunch while the committee gathers more evidence.",
+      "modelIndonesian": "Kantin sebaiknya melanjutkan uji coba pembayaran digital. Beberapa penjual melayani pelanggan lebih cepat selama uji coba, tetapi sebagian siswa tidak dapat memakai sistem itu ketika jaringan terputus. Dengan tetap menerima uang tunai, kantin dapat melayani mereka sambil menunggu komite mengumpulkan bukti tambahan."
     },
     {
       "type": "synthesis",
@@ -119,7 +119,7 @@
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Untuk tiap pernyataan komite, tentukan apakah isinya berupa perkiraan, hasil pengamatan, atau usulan. Periksa kata yang mendukung pilihanmu."
     },
     {
       "type": "example_group",
@@ -127,52 +127,56 @@
       "collapsed": false,
       "items": [
         {
-          "english": "Digital payments can be convenient.",
-          "indonesian": "Pembayaran digital dapat praktis.",
-          "note": "Ini klaim yang memerlukan alasan."
+          "english": "A shorter wait could help students buy lunch between classes.",
+          "indonesian": "Waktu tunggu yang lebih singkat bisa membantu siswa membeli makan siang di sela pelajaran.",
+          "note": "Ini alasan untuk mencoba sistem. Kata [[could]] menandai manfaat yang diperkirakan."
         },
         {
-          "english": "They can reduce the need to carry cash.",
-          "indonesian": "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-          "note": "Ini alasan yang mendukung klaim."
+          "english": "Several sellers finished transactions faster in the trial.",
+          "indonesian": "Beberapa penjual menyelesaikan transaksi lebih cepat saat uji coba.",
+          "note": "Ini bukti yang sudah diamati pada sebagian penjual."
         },
         {
-          "english": "Some users may lack internet access.",
-          "indonesian": "Sebagian pengguna mungkin tidak memiliki akses internet.",
-          "note": "Ini keberatan atau keterbatasan yang perlu dipertimbangkan."
+          "english": "The canteen should offer more than one way to pay.",
+          "indonesian": "Kantin sebaiknya menyediakan lebih dari satu cara untuk membayar.",
+          "note": "Ini usulan kebijakan; penulis masih perlu memberi alasan."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade12-argumentative-text",
-      "prompt": "Which sentence means “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.”?",
+      "prompt": "Which statement gives observed evidence for faster payment?",
+      "translation": "Pernyataan mana yang memberikan bukti pengamatan tentang kecepatan pembayaran?",
       "choices": [
-        "Digital payments can be convenient.",
-        "They can reduce the need to carry cash.",
-        "Some users may lack internet access."
+        "Queues could become shorter.",
+        "Some sellers completed transactions faster during the trial.",
+        "The committee wants to continue testing."
       ],
       "answer": 1,
       "translationChoices": [
-        "Pembayaran digital dapat praktis.",
-        "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-        "Sebagian pengguna mungkin tidak memiliki akses internet."
+        "Antrean mungkin menjadi lebih pendek.",
+        "Beberapa penjual menyelesaikan transaksi lebih cepat selama uji coba.",
+        "Komite ingin melanjutkan pengujian."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Ini alasan yang mendukung klaim.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Pilihan tentang penjual melaporkan kejadian selama uji coba. Dua lainnya menyatakan perkiraan dan rencana.",
+      "hint": "Bedakan hal yang sudah terjadi dari harapan dan rencana komite."
     },
     {
       "type": "breakdown",
-      "sentence": "Digital payments can be convenient.",
+      "sentence": "Several sellers completed payments more quickly during a small trial.",
       "parts": [
         {
-          "english": "Digital",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Several sellers",
+          "meaning": "Hasil ini menyangkut beberapa penjual."
         },
         {
-          "english": "payments can be convenient.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Pembayaran digital dapat praktis."
+          "english": "completed payments more quickly",
+          "meaning": "Perubahan yang diamati adalah transaksi selesai lebih cepat."
+        },
+        {
+          "english": "during a small trial",
+          "meaning": "Bukti berasal dari uji coba terbatas."
         }
       ]
     },
@@ -182,37 +186,32 @@
       "collapsed": false,
       "items": [
         {
-          "english": "Everyone prefers digital payments.",
-          "indonesian": "Semua orang lebih suka pembayaran digital.",
-          "note": "Klaim mutlak tidak disertai bukti."
+          "english": "Payments were faster for several sellers.",
+          "indonesian": "Pembayaran berlangsung lebih cepat bagi beberapa penjual.",
+          "note": "Klaim ini mengikuti cakupan hasil uji coba."
         },
         {
-          "english": "Some students prefer digital payments.",
-          "indonesian": "Sebagian siswa lebih suka pembayaran digital.",
-          "note": "Klaim lebih terbatas dan mungkin dapat diuji."
+          "english": "Every queue became shorter.",
+          "indonesian": "Semua antrean menjadi lebih pendek.",
+          "note": "Bacaan tidak menyebut pengukuran panjang antrean di semua loket."
         },
         {
-          "english": "The survey included only one school, so its results should not represent the whole city.",
-          "indonesian": "Survei itu hanya melibatkan satu sekolah, sehingga hasilnya tidak seharusnya mewakili seluruh kota.",
-          "note": "Penulis yang bertanggung jawab mengakui keterbatasan bukti sebelum membuat klaim luas."
+          "english": "A phone is useful only if its owner can connect.",
+          "indonesian": "Ponsel berguna untuk pembayaran ini hanya jika pemiliknya dapat tersambung ke jaringan.",
+          "note": "Keberatan ini menyangkut koneksi, bahkan bagi orang yang memiliki perangkat."
         },
         {
-          "english": "Some people worry about security; however, careful verification may reduce the risk.",
-          "indonesian": "Sebagian orang khawatir tentang keamanan; namun, pemeriksaan yang teliti dapat mengurangi risikonya.",
-          "note": "Kalimat pertama menyatakan [[counterargument]] dan kalimat kedua memberikan tanggapan terbatas."
-        },
-        {
-          "english": "Public transport deserves funding because affordable fares can improve access to jobs.",
-          "indonesian": "Transportasi umum layak mendapat pendanaan karena tarif terjangkau dapat meningkatkan akses pekerjaan.",
-          "note": "[[Deserves funding]] ialah klaim; alasan tentang akses kerja perlu didukung data atau contoh relevan."
+          "english": "Faster payments do not give a student a phone.",
+          "indonesian": "Pembayaran yang lebih cepat tidak membuat seorang siswa memiliki ponsel.",
+          "note": "Alasan tentang kecepatan tidak menjawab masalah kepemilikan perangkat."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Klaim mutlak tidak disertai bukti. Klaim lebih terbatas dan mungkin dapat diuji."
+      "prompt": "(A) “All sellers will serve students faster.” (B) “Several sellers completed payments more quickly in the trial.” Which claim can the committee defend now?",
+      "translation": "(A) “Semua penjual akan melayani siswa lebih cepat.” (B) “Beberapa penjual menyelesaikan pembayaran lebih cepat dalam uji coba.” Klaim mana yang dapat didukung komite saat ini?",
+      "answer": "B sesuai dengan kelompok dan waktu pengamatan. A memperluas hasil ke semua penjual dan menjanjikan hasil di masa depan."
     },
     {
       "type": "example_group",
@@ -220,14 +219,19 @@
       "collapsed": false,
       "items": [
         {
-          "english": "Although digital payment is fast for connected users, cash remains useful when a network fails.",
-          "indonesian": "Walaupun pembayaran digital cepat bagi pengguna yang terhubung, uang tunai tetap berguna saat jaringan gagal.",
-          "note": "Kalimat mempertimbangkan dua keadaan."
+          "english": "If the network fails, a student can still pay in cash.",
+          "indonesian": "Jika jaringan terputus, siswa tetap dapat membayar tunai.",
+          "note": "Kalimat bersyarat ini menunjukkan bagaimana pilihan tunai menjawab kendala tertentu."
         },
         {
-          "english": "A fair school policy could allow both payment methods while teaching students how to protect their accounts.",
-          "indonesian": "Kebijakan sekolah yang adil dapat mengizinkan kedua metode sekaligus mengajarkan keamanan akun.",
-          "note": "Solusi mempertimbangkan manfaat dan kekhawatiran."
+          "english": "The trial measured payment speed, while the committee also needs to consider access.",
+          "indonesian": "Uji coba mengukur kecepatan pembayaran, sedangkan komite juga perlu mempertimbangkan akses.",
+          "note": "Dua ukuran keberhasilan ini saling melengkapi."
+        },
+        {
+          "english": "The committee could compare queues at more counters before changing the policy.",
+          "indonesian": "Komite dapat membandingkan antrean di lebih banyak loket sebelum mengubah kebijakan.",
+          "note": "Ini usulan untuk mengumpulkan bukti baru, bukan hasil uji coba yang sudah ada."
         }
       ]
     },
@@ -260,10 +264,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Mana klaim, alasan, bukti, dan keberatan pembaca?",
-      "model": "The survey included only one school, so its results should not represent the whole city.",
-      "modelTranslation": "Survei itu hanya melibatkan satu sekolah, sehingga hasilnya tidak seharusnya mewakili seluruh kota.",
-      "criteria": "Penulis yang bertanggung jawab mengakui keterbatasan bukti sebelum membuat klaim luas."
+      "prompt": "Tulis dua kalimat Inggris. Gunakan satu hasil uji coba untuk mendukung usulan, lalu jawab satu keberatan siswa.",
+      "model": "The school should keep testing digital payments because several sellers processed them faster in the trial. Students without suitable devices could still buy lunch if the canteen also accepted cash.",
+      "modelTranslation": "Sekolah sebaiknya terus menguji pembayaran digital karena beberapa penjual memprosesnya lebih cepat selama uji coba. Siswa tanpa perangkat yang sesuai tetap dapat membeli makan siang jika kantin juga menerima uang tunai.",
+      "criteria": "Kalimat pertama mengaitkan usulan dengan hasil pengamatan. Kalimat kedua menyebut kendala dan menunjukkan bagaimana kebijakan menjawabnya."
     },
     {
       "type": "vocabulary",
@@ -288,6 +292,14 @@
         {
           "english": "cash",
           "indonesian": "uang tunai"
+        },
+        {
+          "english": "queue",
+          "indonesian": "antrean"
+        },
+        {
+          "english": "reliability",
+          "indonesian": "keandalan, yaitu seberapa konsisten sistem dapat digunakan"
         }
       ]
     }
@@ -295,43 +307,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “convenient”?",
+      "prompt": "Which conclusion about queues does the canteen trial support most strongly?",
       "choices": [
-        "They can reduce the need to carry cash.",
-        "Some users may lack internet access.",
-        "Everyone prefers digital payments.",
-        "Digital payments can be convenient."
+        "Some faster transactions make shorter queues possible, but queue lengths still need checking.",
+        "The sellers measured shorter queues at every counter.",
+        "The records show that every seller saved the same amount of time.",
+        "The committee measured queue lengths before the trial began."
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[convenient]] muncul dalam kalimat [[Digital payments can be convenient.]]. Ini klaim yang memerlukan alasan.",
+      "answer": 0,
+      "explanation": "Bacaan menyebut waktu transaksi beberapa penjual. Panjang antrean tidak dilaporkan. Transaksi cepat mendukung dugaan awal, tetapi tidak membuktikan antrean memendek di semua loket.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “convenient”?",
+        "prompt": "Simpulan tentang antrean mana yang paling kuat didukung uji coba kantin?",
         "choices": [
-          "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-          "Sebagian pengguna mungkin tidak memiliki akses internet.",
-          "Semua orang lebih suka pembayaran digital.",
-          "Pembayaran digital dapat praktis."
+          "Beberapa transaksi lebih cepat sehingga antrean mungkin memendek, tetapi panjang antrean masih perlu diperiksa.",
+          "Penjual mengukur antrean yang lebih pendek di setiap loket.",
+          "Catatan menunjukkan setiap penjual menghemat waktu yang sama.",
+          "Komite mengukur panjang antrean sebelum uji coba dimulai."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “internet”?",
+      "prompt": "Which policy answers the critics while preserving what supporters want to test?",
       "choices": [
-        "Some users may lack internet access.",
-        "Digital payments can be convenient.",
-        "They can reduce the need to carry cash.",
-        "Everyone prefers digital payments."
+        "End the trial until every student owns a device.",
+        "Require digital payment at every counter to collect more records.",
+        "Keep cash available while testing digital transactions at the canteen.",
+        "Accept cash only after the trial has finished."
       ],
-      "answer": 0,
-      "explanation": "Ungkapan [[internet]] muncul dalam kalimat [[Some users may lack internet access.]]. Ini keberatan atau keterbatasan yang perlu dipertimbangkan.",
+      "answer": 2,
+      "explanation": "Cara ini mempertahankan pengujian sekaligus melayani siswa yang terkendala perangkat atau jaringan. Menunda tunai membiarkan kendala itu terjadi selama uji coba; menghentikan uji coba menghilangkan kesempatan mencari bukti.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “internet”?",
+        "prompt": "Kebijakan mana yang menjawab keberatan sekaligus memungkinkan manfaat yang diharapkan tetap diuji?",
         "choices": [
-          "Sebagian pengguna mungkin tidak memiliki akses internet.",
-          "Pembayaran digital dapat praktis.",
-          "Pembayaran digital dapat mengurangi kebutuhan membawa uang tunai.",
-          "Semua orang lebih suka pembayaran digital."
+          "Hentikan uji coba sampai setiap siswa memiliki perangkat.",
+          "Wajibkan pembayaran digital di semua loket agar catatan bertambah.",
+          "Tetap terima uang tunai sambil menguji transaksi digital di kantin.",
+          "Terima uang tunai hanya setelah uji coba selesai."
         ]
       }
     }

@@ -1,9 +1,9 @@
 {
   "id": "grade12-critical-reading",
   "objectives": [
-    "Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik.",
-    "Menerapkan materi melalui contoh dan latihan singkat.",
-    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+    "Membedakan pertanyaan survei, bukti, dan simpulan penulis.",
+    "Menilai kelompok mana yang terwakili oleh jawaban sukarela.",
+    "Memperbaiki simpulan yang terlalu luas dengan menyebut batas bukti."
   ],
   "blocks": [
     {
@@ -13,82 +13,54 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti survei tentang jam layanan perpustakaan. Catat siapa yang menjawab, berapa yang memilih jam baru, dan sejauh mana kita boleh menarik simpulan.",
       "steps": [
         {
-          "title": "Bukan sekadar memahami isi",
-          "explanation": "Membaca kritis berarti memeriksa apakah alasan dan kesimpulan penulis benar-benar didukung informasi.",
-          "english": "Twenty students answered the survey.",
-          "indonesian": "Dua puluh siswa menjawab survei.",
-          "why": "Kenali ukuran sampel, bukan hanya hasilnya."
+          "title": "Tentukan pertanyaan",
+          "explanation": "Mulailah dari hal yang ingin diketahui.",
+          "english": "Do students prefer the new library hours?",
+          "indonesian": "Apakah siswa lebih menyukai jam layanan perpustakaan yang baru?",
+          "why": "Pertanyaannya tentang pilihan jam layanan, bukan jumlah kunjungan atau nilai ujian."
         },
         {
-          "title": "Kenali topik persoalan",
-          "explanation": "Tentukan pertanyaan yang diperdebatkan sebelum menilai kesimpulan.",
-          "english": "Twenty students answered the survey.",
-          "indonesian": "Dua puluh siswa menjawab survei.",
-          "why": "Kenali ukuran sampel, bukan hanya hasilnya."
+          "title": "Kenali kelompok yang menjawab",
+          "explanation": "Periksa cara responden ikut serta.",
+          "english": "Twenty-five students volunteered to answer.",
+          "indonesian": "Dua puluh lima siswa bersedia menjawab secara sukarela.",
+          "why": "Siswa lain mungkin memiliki pendapat berbeda. Mereka tidak otomatis terwakili."
         },
         {
-          "title": "Tandai klaim utama",
-          "explanation": "Cari pendapat atau interpretasi yang ingin diterima pembaca.",
-          "english": "All students love the new schedule.",
-          "indonesian": "Semua siswa menyukai jadwal baru.",
-          "why": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil."
+          "title": "Catat hasilnya",
+          "explanation": "Pasangkan jumlah pemilih dengan jumlah responden.",
+          "english": "Eighteen of the 25 preferred the new hours.",
+          "indonesian": "Delapan belas dari 25 responden lebih menyukai jam layanan yang baru.",
+          "why": "Angka 18 menghitung responden yang memilih jam baru, bukan semua pengguna perpustakaan."
         },
         {
-          "title": "Pisahkan alasan",
-          "explanation": "Alasan menjelaskan mengapa klaim diajukan, tetapi belum tentu membuktikannya.",
-          "english": "The results suggest interest among respondents.",
-          "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
-          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
+          "title": "Uji klaim penulis",
+          "explanation": "Bandingkan kelompok yang disebut klaim dengan kelompok yang menjawab.",
+          "english": "A student editor wrote that most students preferred the new hours.",
+          "indonesian": "Seorang redaktur majalah sekolah menulis bahwa sebagian besar siswa lebih menyukai jam baru.",
+          "why": "Kata [[students]] membuat klaim mencakup siswa yang tidak menjawab."
         },
         {
-          "title": "Temukan bukti",
-          "explanation": "Cari data, contoh, atau kutipan yang benar-benar ada di teks.",
-          "english": "Fifteen preferred the new schedule.",
-          "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
-          "why": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+          "title": "Tulis simpulan terbatas",
+          "explanation": "Pertahankan angka dan sebutkan siapa yang diukur.",
+          "english": "Most respondents preferred the new hours.",
+          "indonesian": "Sebagian besar responden lebih menyukai jam layanan yang baru.",
+          "why": "[[Respondents]] membatasi simpulan pada orang yang menjawab."
         },
         {
-          "title": "Hubungkan bukti dan klaim",
-          "explanation": "Periksa apakah bukti mendukung kesimpulan tersebut secara langsung atau hanya berkaitan longgar.",
-          "english": "Most surveyed students preferred the new schedule.",
-          "indonesian": "Sebagian besar siswa yang disurvei lebih menyukai jadwal baru.",
-          "why": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh."
-        },
-        {
-          "title": "Fakta dan tafsir",
-          "explanation": "Pernyataan hasil pengamatan berbeda dari tafsiran penulis terhadap hasil itu.",
-          "english": "The results suggest interest among respondents.",
-          "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
-          "why": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
-        },
-        {
-          "title": "Asumsi dan keterbatasan",
-          "explanation": "Cari hal yang dianggap benar tanpa bukti atau kelompok yang tidak tercakup dalam data.",
-          "english": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
-          "indonesian": "Artikel itu melaporkan tiga percobaan berhasil, tetapi tidak menyebutkan percobaan yang gagal.",
-          "why": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
-        },
-        {
-          "title": "Nilai simpulan",
-          "explanation": "Bandingkan simpulan yang sesuai data dengan simpulan yang terlalu pasti atau bertentangan.",
-          "english": "A headline says the method always works, yet the article tested it only twice.",
-          "indonesian": "Judul menyatakan metode itu selalu berhasil, padahal artikel hanya mengujinya dua kali.",
-          "why": "Kata mutlak [[always]] melampaui jangkauan bukti berupa dua pengujian."
-        },
-        {
-          "title": "Beri alasan dari teks",
-          "explanation": "Sampaikan penilaian dengan menunjuk kalimat, angka, dan batas informasi secara tepat.",
-          "english": "The author cites responses from five volunteers and concludes that those volunteers valued the new library hours.",
-          "indonesian": "Penulis mengutip tanggapan lima relawan dan menyimpulkan bahwa mereka menghargai jam buka perpustakaan yang baru.",
-          "why": "Kesimpulan dibatasi pada responden sehingga tidak menggeneralisasi berlebihan."
+          "title": "Tentukan bukti tambahan",
+          "explanation": "Pikirkan siapa yang belum terdengar suaranya.",
+          "english": "The librarian invited students from each class to give their views.",
+          "indonesian": "Pustakawan mengundang siswa dari tiap kelas untuk menyampaikan pendapat.",
+          "why": "Menjangkau tiap kelas dapat memperluas cakupan. Undangan saja belum menjamin semua kelompok benar-benar menjawab."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "A city survey found that 60% of 100 respondents wanted more public parks. A writer concludes that every resident supports building a large park. The survey suggests support among respondents, but it does not establish the opinion of all residents.",
-      "modelIndonesian": "Survei kota menemukan bahwa 60% dari 100 responden menginginkan lebih banyak taman umum. Seorang penulis menyimpulkan bahwa setiap warga mendukung pembangunan taman besar. Survei menunjukkan dukungan di antara responden, tetapi tidak menetapkan pendapat seluruh warga."
+      "modelEnglish": "Twenty-five students volunteered for a library survey. Eighteen preferred the new hours. The school magazine reported the result and invited students who had not answered to share their views.",
+      "modelIndonesian": "Dua puluh lima siswa menjadi responden sukarela dalam survei perpustakaan. Delapan belas di antaranya lebih menyukai jam layanan baru. Majalah sekolah melaporkan hasil itu dan mengundang siswa yang belum menjawab untuk menyampaikan pendapat."
     },
     {
       "type": "synthesis",
@@ -105,8 +77,8 @@
     },
     {
       "type": "example",
-      "text": "A survey of 25 volunteers found that 18 preferred the new library hours. This suggests interest among respondents, not necessarily among all students.",
-      "note": "18/25 menggambarkan responden sukarela; tidak otomatis mewakili populasi sekolah."
+      "text": "Twenty-five students volunteered for a survey about the new library hours. Eighteen preferred the new hours. A student editor wanted to publish the result under the headline “Most students prefer the new library hours.” The librarian asked the editor to identify the group that had actually answered before printing the headline.",
+      "note": "Bandingkan kelompok dalam judul usulan redaktur dengan orang yang menjawab survei."
     },
     {
       "type": "subheading",
@@ -153,37 +125,33 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-critical-reading",
-      "prompt": "Which information is evidence?",
-      "translation": "Informasi mana yang merupakan bukti?",
+      "prompt": "Which headline stays within the library survey evidence?",
+      "translation": "Judul mana yang sesuai dengan bukti survei perpustakaan?",
       "choices": [
-        "Fifteen out of twenty students preferred the new schedule.",
-        "Everyone definitely likes the schedule.",
-        "The schedule must be perfect."
+        "Most library users prefer new hours",
+        "Most volunteers in the survey prefer new hours",
+        "New hours attract more volunteers"
       ],
-      "answer": 0,
-      "explanation": "Jumlah responden adalah data, sedangkan pernyataan absolut perlu diperiksa.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "answer": 1,
+      "explanation": "Hasil itu berasal dari responden sukarela. Survei tidak mencakup semua pengguna dan tidak mengukur kenaikan jumlah relawan.",
+      "hint": "Bandingkan siapa yang menjawab dengan siapa yang disebut oleh setiap judul.",
       "translationChoices": [
-        "Lima belas dari dua puluh siswa lebih menyukai jadwal baru.",
-        "Semua orang pasti menyukai jadwal itu.",
-        "Jadwal itu pasti sempurna."
+        "Sebagian besar pengguna perpustakaan lebih menyukai jam baru",
+        "Sebagian besar relawan yang menjawab survei lebih menyukai jam baru",
+        "Jam baru menarik lebih banyak relawan"
       ]
     },
     {
       "type": "breakdown",
-      "sentence": "Twenty students answered the survey.",
+      "sentence": "Eighteen of the 25 volunteers preferred the new library hours.",
       "parts": [
         {
-          "english": "Twenty students",
-          "meaning": "ukuran sampel"
+          "english": "Eighteen of the 25 volunteers",
+          "meaning": "Jumlah pemilih dibandingkan dengan jumlah siswa yang bersedia menjawab."
         },
         {
-          "english": "answered",
-          "meaning": "aktivitas yang dilaporkan"
-        },
-        {
-          "english": "the survey",
-          "meaning": "instrumen pengumpulan data"
+          "english": "preferred the new library hours",
+          "meaning": "Pilihan yang dilaporkan responden: mereka lebih menyukai jam layanan baru."
         }
       ]
     },
@@ -221,9 +189,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) “Most students prefer the new hours.” (B) “Most respondents prefer the new hours.” Which group does each claim cover?",
+      "translation": "(A) “Sebagian besar siswa lebih menyukai jam baru.” (B) “Sebagian besar responden lebih menyukai jam baru.” Kelompok mana yang dicakup masing-masing klaim?",
+      "answer": "A mencakup seluruh kelompok siswa. B terbatas pada responden, sehingga lebih sesuai dengan cara survei dilakukan."
     },
     {
       "type": "example_group",
@@ -254,10 +222,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Bagian mana fakta dari teks, dan bagian mana tafsiran penulis?",
-      "model": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
-      "modelTranslation": "Artikel itu melaporkan tiga percobaan berhasil, tetapi tidak menyebutkan percobaan yang gagal.",
-      "criteria": "Tidak adanya informasi dapat membatasi kekuatan klaim; pembaca tidak boleh menganggap percobaan lain tidak ada."
+      "prompt": "Tuliskan satu kalimat fakta tentang survei dan satu kalimat tafsiran yang mengakui batasnya.",
+      "model": "Eighteen of the 25 volunteers preferred the new library hours. The new hours appear popular among respondents, but other students may feel differently.",
+      "modelTranslation": "Delapan belas dari 25 relawan lebih menyukai jam layanan perpustakaan yang baru. Jam baru tampaknya disukai responden, tetapi siswa lain mungkin berbeda pendapat.",
+      "criteria": "Kalimat fakta mempertahankan angka dan kelompoknya. Kalimat tafsiran membatasi simpulan pada orang yang menjawab."
     },
     {
       "type": "vocabulary",
@@ -285,54 +253,65 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which conclusion is best supported by the survey of 25 volunteers?",
+      "prompt": "Which finding did the library survey establish?",
       "choices": [
-        "Eighteen responding volunteers liked the new schedule.",
-        "All students liked the new schedule.",
-        "The new schedule improved exam marks."
+        "Eighteen students visited more often.",
+        "Eighteen of the 25 volunteers preferred the new library hours.",
+        "Twenty-five students preferred longer hours.",
+        "Eighteen volunteers wanted a larger library."
       ],
-      "answer": 0,
-      "explanation": "Data berlaku pada responden yang ditanya.",
+      "answer": 1,
+      "explanation": "Yang dihitung adalah pilihan responden tentang jam layanan. Angka 25 menunjukkan jumlah responden; survei tidak mencatat frekuensi kunjungan atau ukuran gedung.",
       "translationId": {
-        "prompt": "Kesimpulan paling didukung oleh survei 25 sukarelawan di atas adalah …",
+        "prompt": "Hasil mana yang benar-benar diperoleh dari survei perpustakaan?",
         "choices": [
-          "18 sukarelawan yang menjawab menyukai jadwal baru.",
-          "Semua siswa menyukai jadwal baru.",
-          "Jadwal baru menaikkan nilai ujian."
+          "Delapan belas siswa lebih sering berkunjung.",
+          "Delapan belas dari 25 relawan lebih menyukai jam layanan perpustakaan yang baru.",
+          "Dua puluh lima siswa lebih menyukai jam layanan yang lebih panjang.",
+          "Delapan belas relawan menginginkan perpustakaan lebih besar."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What is the main limitation when generalising the results?",
+      "prompt": "Why might the result differ if other students were surveyed?",
       "choices": [
-        "Volunteer selection may be biased.",
-        "The numbers cannot be read.",
-        "The library has no door."
+        "The survey recorded visits instead of preferences.",
+        "The volunteers all answered twice.",
+        "Students who chose to respond may have different preferences.",
+        "Only students who preferred the old hours could volunteer."
       ],
-      "answer": 0,
-      "explanation": "Voluntary response bias bisa membatasi representasi.",
+      "answer": 2,
+      "explanation": "Dalam survei sukarela, orang yang tertarik pada topik mungkin lebih terdorong menjawab. Kita tidak tahu pilihan siswa lain. Tidak ada bukti jawaban ganda atau pembatasan peserta.",
       "translationId": {
-        "prompt": "Apa kelemahan utama generalisasi?",
+        "prompt": "Mengapa hasilnya mungkin berbeda jika siswa lain ikut disurvei?",
         "choices": [
-          "Pemilihan sukarelawan bisa bias.",
-          "Angka tidak dapat dibaca.",
-          "Perpustakaan tidak memiliki pintu."
+          "Survei mencatat kunjungan alih-alih preferensi.",
+          "Semua relawan menjawab dua kali.",
+          "Siswa yang memilih untuk menjawab mungkin memiliki preferensi berbeda.",
+          "Hanya siswa yang menyukai jam lama yang boleh menjadi relawan."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "Which word signals excessive certainty?",
+      "prompt": "How should an editor revise “Most students prefer the new library hours”?",
       "choices": [
-        "may",
-        "perhaps",
-        "always"
+        "Most respondents preferred the new hours.",
+        "Most respondents used the library more often.",
+        "Most classes preferred the new hours.",
+        "Most library users volunteered."
       ],
-      "answer": 2,
-      "explanation": "[[Always]] menyatakan tanpa pengecualian.",
+      "answer": 0,
+      "explanation": "Batasi kelompok pada responden dan pertahankan hal yang ditanyakan, yaitu pilihan jam layanan. Survei tidak membandingkan kelas, frekuensi kunjungan, atau jumlah semua pengguna.",
       "translationId": {
-        "prompt": "Kata mana menandakan kepastian yang berlebihan?"
+        "prompt": "Bagaimana sebaiknya redaktur memperbaiki klaim “Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru”?",
+        "choices": [
+          "Sebagian besar responden lebih menyukai jam baru.",
+          "Sebagian besar responden lebih sering menggunakan perpustakaan.",
+          "Sebagian besar kelas lebih menyukai jam baru.",
+          "Sebagian besar pengguna perpustakaan menjadi relawan."
+        ]
       }
     }
   ],

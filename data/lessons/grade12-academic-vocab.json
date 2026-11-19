@@ -1,9 +1,9 @@
 {
   "id": "grade12-academic-vocab",
   "objectives": [
-    "Mempelajari makna kata akademik melalui konteks, sinonim, dan kalimat.",
-    "Menerapkan materi melalui contoh dan latihan singkat.",
-    "Memeriksa jawaban dan memperbaiki kesalahan umum."
+    "Memperkirakan makna kata akademik dari petunjuk di sekitarnya.",
+    "Membedakan penurunan yang diamati dari dugaan tentang penyebabnya.",
+    "Memperbaiki simpulan agar tingkat kepastiannya sesuai dengan bukti."
   ],
   "blocks": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Mempelajari makna kata akademik melalui konteks, sinonim, dan kalimat. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Mulailah dari perubahan kebisingan di dua kelas. Temukan petunjuk di sekitar kata baru, lalu uji apakah pilihan katamu membuat simpulan terlalu pasti.",
       "steps": [
         {
           "title": "Kata akademik punya konteks",
@@ -30,11 +30,11 @@
           "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
         },
         {
-          "title": "Lihat kelas katanya",
-          "explanation": "Apakah kata itu nomina, verba, adjektiva, atau adverbia? Fungsi membatasi kemungkinan maknanya.",
-          "english": "The study proves the idea.",
-          "indonesian": "Penelitian itu membuktikan gagasan tersebut.",
-          "why": "[[Proves]] adalah klaim jauh lebih kuat daripada [[suggests]]."
+          "title": "Temukan kata yang menunjukkan perubahan",
+          "explanation": "Cari hal yang diukur dan apa yang terjadi padanya.",
+          "english": "Noise levels declined over three weeks.",
+          "indonesian": "Tingkat kebisingan menurun selama tiga minggu.",
+          "why": "Sesudah subjek [[noise levels]], kata [[declined]] menyatakan perubahan. Bentuk lampaunya menunjukkan pengamatan sudah dilakukan."
         },
         {
           "title": "Baca satu kalimat utuh",
@@ -44,11 +44,11 @@
           "why": "[[Suggests]] lebih berhati-hati: belum menyatakan kepastian."
         },
         {
-          "title": "Cari definisi dan contoh",
-          "explanation": "Penulis kadang menjelaskan istilah melalui pengertian atau contoh di dekatnya.",
-          "english": "The two methods differ; however, both are useful.",
-          "indonesian": "Kedua metode berbeda; namun, keduanya berguna.",
-          "why": "[[However]] menghubungkan dua gagasan yang berkontras."
+          "title": "Gunakan contoh sebagai petunjuk makna",
+          "explanation": "Lihat seperti apa perubahan itu dari hari ke hari.",
+          "english": "The decline was gradual: the room became a little quieter each day.",
+          "indonesian": "Penurunannya bertahap: ruangan menjadi sedikit lebih tenang setiap hari.",
+          "why": "Bagian [[a little quieter each day]] memberi alasan untuk menafsirkan [[gradual]] sebagai bertahap."
         },
         {
           "title": "Cari perbandingan dan kontras",
@@ -73,8 +73,8 @@
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "The researchers observed a gradual decline in noise levels. However, the findings were limited to two classrooms. The results suggest a possible benefit, but they do not prove that the method will work everywhere.",
-      "modelIndonesian": "Para peneliti mengamati penurunan bertahap tingkat kebisingan. Namun, temuan itu terbatas pada dua ruang kelas. Hasilnya menunjukkan kemungkinan manfaat, tetapi tidak membuktikan bahwa metode tersebut akan berhasil di semua tempat."
+      "modelEnglish": "Two classrooms tried felt pads under chair legs. Noise levels fell a little each week. The gradual decline suggests a possible benefit. However, the team took no measurements in other classrooms.",
+      "modelIndonesian": "Dua kelas mencoba memasang bantalan kain di bawah kaki kursi. Tingkat kebisingan turun sedikit setiap minggu. Penurunan bertahap ini mengisyaratkan kemungkinan manfaat. Namun, tim tidak melakukan pengukuran di kelas lain."
     },
     {
       "type": "synthesis",
@@ -169,20 +169,20 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-academic-vocab",
-      "prompt": "Which word suggests an interpretation, not certainty?",
-      "translation": "Kata mana yang menunjukkan penafsiran, bukan kepastian?",
+      "prompt": "Which detail helps explain “gradual” in the classroom report?",
+      "translation": "Rincian mana yang membantu menjelaskan arti “gradual” dalam laporan kelas?",
       "choices": [
-        "proves",
-        "suggests",
-        "guarantees"
+        "The team used felt pads.",
+        "The team studied two rooms.",
+        "Noise fell a little each week."
       ],
-      "answer": 1,
-      "explanation": "[[Suggests]] berarti mengarah pada kemungkinan kesimpulan, bukan kepastian.",
-      "hint": "Baca kembali contoh dasar dan perhatikan satu perbedaan penting pada tiap pilihan.",
+      "answer": 2,
+      "explanation": "Perubahan kecil dari minggu ke minggu menunjukkan makna [[gradual]]. Jenis bantalan dan jumlah ruangan tidak menunjukkan kecepatan perubahan.",
+      "hint": "Cari rincian yang menunjukkan bagaimana hasil berubah dari waktu ke waktu.",
       "translationChoices": [
-        "membuktikan",
-        "mengindikasikan",
-        "menjamin"
+        "Tim menggunakan bantalan kain.",
+        "Tim meneliti dua ruangan.",
+        "Kebisingan turun sedikit setiap minggu."
       ]
     },
     {
@@ -191,7 +191,7 @@
       "parts": [
         {
           "english": "The results",
-          "meaning": "[[subject]]"
+          "meaning": "Bagian ini menyebut hasil yang sedang dibahas dan berfungsi sebagai subjek ([[subject]])."
         },
         {
           "english": "suggest",
@@ -199,7 +199,7 @@
         },
         {
           "english": "improvement",
-          "meaning": "dugaan perubahan"
+          "meaning": "Perbaikan atau peningkatan. Unsur dugaan berasal dari kata [[suggest]]."
         }
       ]
     },
@@ -237,9 +237,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) “The results suggest a benefit.” (B) “The results prove a benefit.” Which claim needs stronger evidence?",
+      "translation": "(A) “Hasilnya mengisyaratkan adanya manfaat.” (B) “Hasilnya membuktikan adanya manfaat.” Klaim mana yang memerlukan bukti lebih kuat?",
+      "answer": "B menuntut bukti lebih kuat. [[Suggest]] membuka kemungkinan penjelasan lain, sedangkan [[prove]] menyatakan bukti sudah cukup untuk memastikan."
     },
     {
       "type": "example_group",
@@ -262,18 +262,18 @@
       "type": "summary",
       "title": "Yang perlu kamu ingat",
       "items": [
-        "Tafsirkan istilah akademik memakai konteks kalimat dan paragraf.;[[Suggest]] tidak sama kuatnya dengan [[prove]]",
-        " [[approximately]] berarti perkiraan.",
-        "Perhatikan kata penghubung yang membatasi klaim, seperti [[however]]."
+        "Uji arti kata dengan rincian yang ada dalam paragraf.",
+        "Periksa apakah kata seperti [[suggest]] atau [[prove]] sesuai dengan kekuatan bukti.",
+        "Cari hubungan antara dua gagasan yang dihubungkan oleh [[however]]."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Hubungan ide apa yang ditandai kata ini?",
-      "model": "The results suggest a possible connection; however, they do not establish the cause.",
-      "modelTranslation": "Hasilnya menunjukkan kemungkinan hubungan; namun, hasil tersebut tidak menetapkan penyebabnya.",
-      "criteria": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan."
+      "prompt": "Tulis simpulan tentang bantalan kursi dalam dua kalimat Inggris. Sampaikan kemungkinan manfaat lalu batasi klaimmu berdasarkan lokasi pengukuran.",
+      "model": "The pads may help reduce noise. However, the team measured noise in only two classrooms.",
+      "modelTranslation": "Bantalan itu mungkin membantu mengurangi kebisingan. Namun, tim hanya mengukur kebisingan di dua kelas.",
+      "criteria": "Gunakan kata yang menyatakan kemungkinan, lalu jelaskan batas datanya. [[However]] menghubungkan dugaan manfaat dengan keterbatasan pengamatan."
     },
     {
       "type": "vocabulary",
@@ -294,6 +294,18 @@
         {
           "english": "maintain",
           "indonesian": "mempertahankan"
+        },
+        {
+          "english": "gradual",
+          "indonesian": "bertahap, sedikit demi sedikit"
+        },
+        {
+          "english": "preliminary",
+          "indonesian": "awal dan masih perlu diperiksa lagi"
+        },
+        {
+          "english": "trend",
+          "indonesian": "arah perubahan yang tampak dari beberapa pengamatan"
         }
       ]
     }
@@ -301,58 +313,64 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "In “The results suggest a pattern”, what does “suggest” mean?",
+      "prompt": "The report calls the decline “gradual”. Which paraphrase fits the observations?",
       "choices": [
-        "indicates or suggests",
-        "proves beyond any doubt",
-        "rejects"
+        "Noise stopped on the first day.",
+        "Noise dropped in small stages.",
+        "Noise returned each morning.",
+        "Noise changed by the same amount in every room."
       ],
-      "answer": 0,
-      "explanation": "[[Suggest]] menunjukkan kemungkinan berdasar temuan.",
+      "answer": 1,
+      "explanation": "Petunjuk [[a little each week]] menunjukkan perubahan bertahap. Teks tidak mengatakan kebisingan langsung hilang, kembali tiap pagi, atau berubah sama besar di semua ruang.",
       "translationId": {
-        "prompt": "“The results suggest a pattern.” Suggest berarti …",
+        "prompt": "Laporan memakai kata “gradual”. Parafrasa mana yang sesuai dengan pengamatan?",
         "choices": [
-          "mengisyaratkan",
-          "membuktikan tanpa keraguan",
-          "menolak"
+          "Kebisingan berhenti pada hari pertama.",
+          "Kebisingan turun sedikit demi sedikit.",
+          "Kebisingan kembali setiap pagi.",
+          "Kebisingan berubah dalam jumlah yang sama di setiap ruangan."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "What does “approximately forty people” mean?",
+      "prompt": "Which revision fits the evidence better than “The pads will work in every classroom”?",
       "choices": [
-        "exactly forty",
-        "about forty",
-        "fewer than four"
+        "The pads had no effect in the rooms studied.",
+        "The team established that all rooms were equally quiet.",
+        "The team measured a decline in every classroom.",
+        "The findings point to a possible benefit in the two rooms studied."
       ],
-      "answer": 1,
-      "explanation": "[[Approximately]] = roughly/sekitar.",
+      "answer": 3,
+      "explanation": "Ada penurunan di dua kelas, sehingga kita boleh menyampaikan kemungkinan manfaat. Data tidak cukup untuk memastikan penyebabnya atau hasil di semua kelas.",
       "translationId": {
-        "prompt": "“Approximately forty people” berarti …",
+        "prompt": "Revisi mana yang lebih sesuai dengan bukti daripada klaim bahwa bantalan pasti berhasil di setiap kelas?",
         "choices": [
-          "tepat empat puluh",
-          "sekitar empat puluh",
-          "kurang dari empat"
+          "Bantalan tidak berpengaruh di ruangan yang diteliti.",
+          "Tim memastikan semua ruangan sama tenangnya.",
+          "Tim mengukur penurunan di setiap kelas.",
+          "Temuan itu mengisyaratkan kemungkinan manfaat di dua ruangan yang diteliti."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "What relationship does “however” indicate?",
+      "prompt": "What does “however” introduce after the possible benefit?",
       "choices": [
-        "contrast",
-        "an equivalent addition",
-        "numerical sequence"
+        "A limit on where the findings apply",
+        "A second method of reducing noise",
+        "A reason the noise returned",
+        "A measurement from another classroom"
       ],
       "answer": 0,
-      "explanation": "[[However]] mengenalkan pertentangan atau pengecualian.",
+      "explanation": "Kalimat berikutnya membatasi tempat pengukuran. [[However]] mengantar pembaca dari kemungkinan manfaat ke alasan untuk berhati-hati, bukan ke hasil dari lokasi baru.",
       "translationId": {
-        "prompt": "“However” menandai hubungan …",
+        "prompt": "Gagasan apa yang diperkenalkan kata “however” sesudah dugaan manfaat?",
         "choices": [
-          "kontras",
-          "penambahan yang sama",
-          "urutan angka"
+          "Batas penerapan temuan",
+          "Cara kedua untuk mengurangi kebisingan",
+          "Penyebab kebisingan kembali",
+          "Hasil pengukuran dari kelas lain"
         ]
       }
     }

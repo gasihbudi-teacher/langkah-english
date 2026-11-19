@@ -1,9 +1,9 @@
 {
   "id": "grade12-advanced-narrative",
   "objectives": [
-    "Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Membedakan peristiwa yang diceritakan langsung dari tafsiran tentang perasaan Nara.",
+    "Menyimpulkan motif tokoh dengan menghubungkan sedikitnya dua petunjuk.",
+    "Menafsirkan tema melalui pilihan tokoh dan akibat yang ia terima."
   ],
   "blocks": [
     {
@@ -13,82 +13,82 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menafsirkan motivasi tokoh, petunjuk tersirat, dan tema tanpa menebak di luar cerita. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti Nara dari saat listrik padam sampai ia melihat akibat pilihannya. Setiap kali menduga perasaannya, cari tindakan yang benar-benar disebutkan dalam cerita.",
       "steps": [
         {
-          "title": "Unsur cerita dasar",
-          "explanation": "Kenali tokoh, tempat, dan rangkaian kejadian sebelum mencari makna tersembunyi.",
-          "english": "The lights went out.",
-          "indonesian": "Lampu-lampu padam.",
-          "why": "Ini peristiwa yang disebut langsung."
+          "title": "Kenali keadaan awal",
+          "explanation": "Cari apa yang sedang dikerjakan Nara sebelum masalah muncul.",
+          "english": "Nara was building a miniature solar lamp.",
+          "indonesian": "Nara sedang membuat miniatur lampu tenaga surya.",
+          "why": "Proyek itu sudah berjalan. Informasi ini membantu kita memahami apa yang mungkin harus ia korbankan."
         },
         {
-          "title": "Sudut pandang pencerita",
-          "explanation": "Pengetahuan dan sikap narator memengaruhi apa yang diketahui pembaca.",
-          "english": "Nara kept working by the window.",
-          "indonesian": "Nara terus bekerja dekat jendela.",
-          "why": "Tindakan dapat menjadi petunjuk tentang tekad."
+          "title": "Temukan gangguan",
+          "explanation": "Periksa perubahan yang membuat pekerjaan Nara sulit.",
+          "english": "The electricity failed during a storm.",
+          "indonesian": "Listrik padam saat badai.",
+          "why": "Padamnya listrik adalah peristiwa yang diceritakan langsung. Penyebab teknisnya tidak dijelaskan."
         },
         {
-          "title": "Situasi awal",
-          "explanation": "Pahami keadaan tokoh sebelum konflik berkembang.",
-          "english": "She gave the last battery to her friend.",
-          "indonesian": "Ia memberikan baterai terakhir kepada temannya.",
-          "why": "Tindakan bisa menunjukkan prioritas tokoh."
+          "title": "Periksa sumber daya",
+          "explanation": "Tanyakan apa yang tersisa untuk membantu mengatasi masalah.",
+          "english": "Nara had one spare battery left.",
+          "indonesian": "Nara hanya memiliki satu baterai cadangan lagi.",
+          "why": "Kata [[one]] penting: baterai yang sama tidak dapat dipakai di dua lampu sekaligus."
         },
         {
-          "title": "Konflik",
-          "explanation": "Identifikasi masalah yang mendorong pilihan dan tindakan tokoh.",
-          "english": "Nara said she was calm.",
-          "indonesian": "Nara berkata bahwa ia tenang.",
-          "why": "Perasaan dinyatakan secara langsung."
+          "title": "Kenali kebutuhan orang lain",
+          "explanation": "Lihat persoalan dari tempat kedua anak berdiri.",
+          "english": "Two younger children tried to read the emergency instructions in the dark.",
+          "indonesian": "Dua anak yang lebih kecil mencoba membaca petunjuk darurat dalam gelap.",
+          "why": "Mereka memerlukan cahaya agar dapat membaca petunjuk. Teks tidak mengatakan mereka meminta baterai."
         },
         {
-          "title": "Titik balik",
-          "explanation": "Cari peristiwa yang mengubah arah cerita atau hubungan antartokoh.",
-          "english": "Her hands shook as she smiled.",
-          "indonesian": "Tangannya gemetar saat ia tersenyum.",
-          "why": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+          "title": "Perhatikan jeda",
+          "explanation": "Bedakan tindakan yang terlihat dari perasaan yang kita duga.",
+          "english": "Nara hesitated and looked at her unfinished model.",
+          "indonesian": "Nara ragu sejenak dan memandang modelnya yang belum selesai.",
+          "why": "Tatapan ke proyek menunjukkan proyek itu masih penting baginya. Alasannya perlu diuji lewat tindakan berikutnya."
         },
         {
-          "title": "Petunjuk perasaan",
-          "explanation": "Tindakan dan dialog dapat menyiratkan emosi, tetapi jangan langsung menambah fakta baru.",
-          "english": "Nadia kept the letter unopened, even after the others had left.",
-          "indonesian": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
-          "why": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+          "title": "Temukan titik balik",
+          "explanation": "Tentukan kapan keraguan berubah menjadi keputusan.",
+          "english": "She carried the battery to the children’s lamp.",
+          "indonesian": "Ia membawa baterai itu ke lampu kedua anak.",
+          "why": "Di sini Nara memilih tindakan. Membawa baterai memiliki akibat bagi anak-anak sekaligus bagi proyeknya."
         },
         {
-          "title": "Motif tokoh",
-          "explanation": "Hubungkan beberapa petunjuk untuk menafsirkan mengapa tokoh bertindak.",
-          "english": "When her brother returned, she finally put the key on the table.",
-          "indonesian": "Ketika saudara laki-lakinya kembali, akhirnya ia meletakkan kunci di meja.",
-          "why": "Perubahan tindakan bisa menunjukkan perubahan keputusan tokoh; tafsir harus mempertimbangkan konteks cerita."
+          "title": "Hubungkan tindakan dan akibat",
+          "explanation": "Telusuri apa yang dapat dilakukan kedua anak sesudah lampu menyala.",
+          "english": "The children read the instructions and found a safe room.",
+          "indonesian": "Kedua anak membaca petunjuk lalu menemukan ruangan yang aman.",
+          "why": "Keputusan Nara membantu mereka memperoleh informasi keselamatan. Ia tidak diceritakan mengantar mereka ke ruangan itu."
         },
         {
-          "title": "Uji tafsir",
-          "explanation": "Periksa apakah peristiwa berikutnya menguatkan atau melemahkan dugaan tentang tokoh.",
-          "english": "The boy returned the medal without explaining why he had kept it.",
-          "indonesian": "Anak laki-laki itu mengembalikan medali tanpa menjelaskan mengapa ia menyimpannya.",
-          "why": "Tindakan dan informasi yang sengaja tidak dijelaskan membuka ruang inferensi yang masih memerlukan konteks."
+          "title": "Timbang pengorbanan",
+          "explanation": "Periksa apa yang terjadi pada proyek Nara.",
+          "english": "Nara could not complete her model that evening.",
+          "indonesian": "Nara tidak dapat menyelesaikan modelnya malam itu.",
+          "why": "Keterangan [[that evening]] membatasi waktunya. Kita tidak tahu apakah proyek itu akhirnya selesai."
         },
         {
-          "title": "Temukan tema",
-          "explanation": "Tema adalah gagasan yang berkembang melalui pilihan dan konflik, bukan sekadar label moral.",
-          "english": "Although Nara feared the storm, she stayed to help the younger children find a safe room.",
-          "indonesian": "Meskipun Nara takut pada badai, ia tetap membantu anak-anak kecil menemukan ruangan aman.",
-          "why": "Kontras antara takut dan bertindak menunjukkan keberanian."
+          "title": "Tafsirkan perasaan akhir",
+          "explanation": "Bandingkan perasaan yang ia perkirakan dengan yang sungguh ia rasakan.",
+          "english": "She felt less disappointed than she had expected.",
+          "indonesian": "Ia tidak merasa sekecewa yang ia perkirakan.",
+          "why": "Kata [[less]] masih memungkinkan adanya kekecewaan. Nara tidak mengatakan proyeknya sudah tidak penting."
         },
         {
-          "title": "Pertanggungjawabkan interpretasi",
-          "explanation": "Simpulkan motif dan tema dengan bukti tekstual sambil menyebut alternatif bila bukti belum pasti.",
-          "english": "When the power returned, she realised that sharing resources had mattered more than finishing her own project.",
-          "indonesian": "Saat listrik kembali, ia menyadari berbagi sumber daya lebih penting daripada menuntaskan proyeknya sendiri.",
-          "why": "Perubahan nilai tokoh membantu menemukan tema."
+          "title": "Hubungkan dua petunjuk",
+          "explanation": "Gunakan akibat bagi anak-anak dan perasaan akhir Nara untuk menguji dugaan tentang tema.",
+          "english": "Her model was unfinished, but the children had found a safe room.",
+          "indonesian": "Modelnya belum selesai, tetapi kedua anak telah menemukan ruangan yang aman.",
+          "why": "Dua akibat ini membantu menjelaskan mengapa bantuan itu terasa berharga meskipun Nara kehilangan waktu untuk proyeknya."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Dara waited outside the empty hall with her speech in hand. When her friend arrived late, Dara smiled but kept looking at the clock. She said she was not worried. Later, she admitted that speaking alone had frightened her. Her actions earlier had hinted at that fear.",
-      "modelIndonesian": "Dara menunggu di luar aula kosong sambil memegang naskah pidatonya. Saat temannya datang terlambat, Dara tersenyum tetapi terus melihat jam. Ia berkata bahwa dirinya tidak khawatir. Belakangan ia mengakui bahwa berbicara sendirian membuatnya takut. Tindakannya sebelumnya sudah memberi petunjuk mengenai ketakutan itu."
+      "modelEnglish": "Nara looked from her unfinished lamp to the two children in the dark. They were bending over the emergency instructions. She paused, then took her last spare battery to their lamp. The children read the instructions and reached a safe room. Nara’s project was still unfinished that evening. Somehow, that troubled her less than she had expected.",
+      "modelIndonesian": "Nara memandang lampunya yang belum selesai, lalu menoleh ke arah dua anak dalam gelap. Mereka sedang membungkuk untuk membaca petunjuk darurat. Ia berhenti sejenak, lalu membawa baterai cadangan terakhirnya ke lampu mereka. Kedua anak membaca petunjuk dan mencapai ruangan yang aman. Proyek Nara masih belum selesai malam itu. Entah mengapa, hal itu tidak terlalu mengusiknya seperti yang ia perkirakan."
     },
     {
       "type": "synthesis",
@@ -109,9 +109,9 @@
     },
     {
       "type": "mistake",
-      "incorrect": "Nara gave away the battery because she hated school.",
-      "correct": "Nara chose to help children despite the cost to her project.",
-      "explanation": "Interpretasi harus mengikuti tindakan dan petunjuk cerita."
+      "incorrect": "Nara gave the children the battery because her project no longer mattered to her.",
+      "correct": "Nara still cared about the project, but chose to help the children.",
+      "explanation": "Tatapan pada model yang belum selesai menunjukkan Nara masih peduli. Pilihannya menunjukkan mana yang ia dahulukan saat itu."
     },
     {
       "type": "heading",
@@ -119,7 +119,7 @@
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Saat membaca setiap contoh, bedakan tindakan yang dapat kamu tunjuk di dalam cerita dari dugaan tentang perasaan Nara."
     },
     {
       "type": "example_group",
@@ -127,52 +127,52 @@
       "collapsed": false,
       "items": [
         {
-          "english": "The lights went out.",
-          "indonesian": "Lampu-lampu padam.",
-          "note": "Ini peristiwa yang disebut langsung."
+          "english": "The lamp for Nara’s school project was unfinished.",
+          "indonesian": "Lampu untuk proyek sekolah Nara belum selesai.",
+          "note": "Ini keadaan awal yang menjelaskan mengapa baterai cadangan masih berharga."
         },
         {
-          "english": "Nara kept working by the window.",
-          "indonesian": "Nara terus bekerja dekat jendela.",
-          "note": "Tindakan dapat menjadi petunjuk tentang tekad."
+          "english": "The children needed light to read.",
+          "indonesian": "Kedua anak memerlukan cahaya untuk membaca.",
+          "note": "Kebutuhan mereka berkaitan dengan petunjuk darurat, bukan dengan proyek sekolah."
         },
         {
-          "english": "She gave the last battery to her friend.",
-          "indonesian": "Ia memberikan baterai terakhir kepada temannya.",
-          "note": "Tindakan bisa menunjukkan prioritas tokoh."
+          "english": "Nara paused before moving the battery.",
+          "indonesian": "Nara berhenti sejenak sebelum memindahkan baterai.",
+          "note": "Jeda merupakan tindakan yang dapat diamati. Motifnya masih perlu ditafsirkan."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade12-advanced-narrative",
-      "prompt": "Which sentence means “Nara terus bekerja dekat jendela.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Nara terus bekerja dekat jendela.”?",
+      "prompt": "Which action best shows that giving up the battery was a difficult choice?",
+      "translation": "Tindakan mana yang paling menunjukkan bahwa menyerahkan baterai merupakan pilihan sulit?",
       "choices": [
-        "The lights went out.",
-        "Nara kept working by the window.",
-        "She gave the last battery to her friend."
+        "Nara worked on a lamp before the storm.",
+        "Nara looked at her unfinished model before carrying the battery over.",
+        "The children read the emergency instructions."
       ],
       "answer": 1,
       "translationChoices": [
-        "Lampu-lampu padam.",
-        "Nara terus bekerja dekat jendela.",
-        "Ia memberikan baterai terakhir kepada temannya."
+        "Nara mengerjakan lampu sebelum badai.",
+        "Nara memandang model yang belum selesai sebelum membawa baterai ke lampu kedua anak.",
+        "Kedua anak membaca petunjuk darurat."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Tindakan dapat menjadi petunjuk tentang tekad.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Jeda dan tatapan Nara menghubungkan hal yang ia korbankan dengan pilihannya. Pekerjaan awal hanya memberi latar; tindakan anak-anak menunjukkan akibat.",
+      "hint": "Cari momen ketika Nara masih dapat memilih di antara dua tindakan."
     },
     {
       "type": "breakdown",
-      "sentence": "The lights went out.",
+      "sentence": "Nara hesitated, looking at her unfinished model.",
       "parts": [
         {
-          "english": "The",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Nara hesitated",
+          "meaning": "Nara berhenti sejenak karena ragu."
         },
         {
-          "english": "lights went out.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Lampu-lampu padam."
+          "english": "looking at her unfinished model",
+          "meaning": "Arah pandangannya menunjukkan apa yang sedang ia pertimbangkan."
         }
       ]
     },
@@ -182,37 +182,32 @@
       "collapsed": false,
       "items": [
         {
-          "english": "Nara said she was calm.",
-          "indonesian": "Nara berkata bahwa ia tenang.",
-          "note": "Perasaan dinyatakan secara langsung."
+          "english": "Nara looked at the model.",
+          "indonesian": "Nara memandang modelnya.",
+          "note": "Ini tindakan yang dilaporkan narator."
         },
         {
-          "english": "Her hands shook as she smiled.",
-          "indonesian": "Tangannya gemetar saat ia tersenyum.",
-          "note": "Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+          "english": "The unfinished work still mattered to Nara.",
+          "indonesian": "Pekerjaan yang belum selesai itu masih penting bagi Nara.",
+          "note": "Ini tafsiran yang dapat didukung oleh arah pandangan dan keraguannya."
         },
         {
-          "english": "Nadia kept the letter unopened, even after the others had left.",
-          "indonesian": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
-          "note": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+          "english": "The battery helped the children read the instructions.",
+          "indonesian": "Baterai itu membantu kedua anak membaca petunjuk.",
+          "note": "Ada akibat langsung yang ditunjukkan oleh rangkaian peristiwa."
         },
         {
-          "english": "When her brother returned, she finally put the key on the table.",
-          "indonesian": "Ketika saudara laki-lakinya kembali, akhirnya ia meletakkan kunci di meja.",
-          "note": "Perubahan tindakan bisa menunjukkan perubahan keputusan tokoh; tafsir harus mempertimbangkan konteks cerita."
-        },
-        {
-          "english": "The boy returned the medal without explaining why he had kept it.",
-          "indonesian": "Anak laki-laki itu mengembalikan medali tanpa menjelaskan mengapa ia menyimpannya.",
-          "note": "Tindakan dan informasi yang sengaja tidak dijelaskan membuka ruang inferensi yang masih memerlukan konteks."
+          "english": "Nara led the children to safety.",
+          "indonesian": "Nara mengantar kedua anak ke tempat aman.",
+          "note": "Ini tafsiran yang terlalu jauh. Teks menyebut anak-anak membaca petunjuk lalu menemukan tempat aman."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Perasaan dinyatakan secara langsung. Petunjuk gerakan dan senyum mengizinkan interpretasi lebih hati-hati."
+      "prompt": "(A) “Nara looked at her unfinished model.” (B) “Nara wanted to finish her project that evening.” Which sentence reports an action and which interprets it?",
+      "translation": "(A) “Nara memandang modelnya yang belum selesai.” (B) “Nara ingin menyelesaikan proyeknya malam itu.” Kalimat mana yang melaporkan tindakan dan mana yang menafsirkannya?",
+      "answer": "A menyebut tindakan yang dapat ditunjuk dalam teks. B merupakan tafsiran yang masuk akal tentang keinginannya, tetapi bukan ucapan langsung Nara."
     },
     {
       "type": "example_group",
@@ -220,14 +215,19 @@
       "collapsed": false,
       "items": [
         {
-          "english": "Although Nara feared the storm, she stayed to help the younger children find a safe room.",
-          "indonesian": "Meskipun Nara takut pada badai, ia tetap membantu anak-anak kecil menemukan ruangan aman.",
-          "note": "Kontras antara takut dan bertindak menunjukkan keberanian."
+          "english": "Nara could have kept the battery for her own lamp.",
+          "indonesian": "Nara sebenarnya bisa menyimpan baterai untuk lampunya sendiri.",
+          "note": "Membayangkan pilihan lain membantu kita melihat pengorbanan yang nyata."
         },
         {
-          "english": "When the power returned, she realised that sharing resources had mattered more than finishing her own project.",
-          "indonesian": "Saat listrik kembali, ia menyadari berbagi sumber daya lebih penting daripada menuntaskan proyeknya sendiri.",
-          "note": "Perubahan nilai tokoh membantu menemukan tema."
+          "english": "The children reached a safe room, but the model still needed work.",
+          "indonesian": "Kedua anak sampai di tempat aman, tetapi model itu masih perlu dikerjakan.",
+          "note": "Satu keputusan membawa dua akibat berbeda."
+        },
+        {
+          "english": "Helping someone can change how a setback feels.",
+          "indonesian": "Menolong orang lain bisa mengubah cara seseorang merasakan kegagalan sementara.",
+          "note": "Tema ini didukung oleh perubahan perasaan Nara meski proyeknya belum selesai."
         }
       ]
     },
@@ -242,7 +242,7 @@
     {
       "type": "example",
       "text": "When the town’s electricity failed during a storm, Nara was building a miniature solar lamp for a school project. She had one spare battery left. Across the hall, two younger children were trying to read the emergency instructions in the dark. Nara hesitated, looking at her unfinished model. Then she carried the battery to their lamp. The children read the instructions and found a safe room. Later, Nara could not complete her model that evening, but she felt less disappointed than she had expected.",
-      "note": "Ringkasan bantuan: Menolong orang lain dapat lebih penting daripada pencapaian pribadi. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+      "note": "Saat membaca, perhatikan apa yang dilihat Nara sebelum mengambil keputusan dan apa yang terjadi sesudahnya."
     },
     {
       "type": "text",
@@ -260,10 +260,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris untuk bagian yang sesuai dengan tujuan teks ini. Petunjuk mana yang menunjukkan motif tokoh, bukan sekadar peristiwa?",
-      "model": "Nadia kept the letter unopened, even after the others had left.",
-      "modelTranslation": "Nadia tetap membiarkan surat itu tertutup, bahkan setelah orang lain pergi.",
-      "criteria": "Tindakan menunda membuka surat memberi petunjuk keraguan tanpa menyatakan perasaannya langsung."
+      "prompt": "Tulis dua kalimat Inggris. Simpulkan motif Nara lalu gunakan dua petunjuk cerita untuk mendukungnya.",
+      "model": "Nara seems to value the children’s safety even though she still cares about her project. She looks at the unfinished model before giving them the battery that lets them read the instructions.",
+      "modelTranslation": "Nara tampaknya mengutamakan keselamatan kedua anak meskipun proyeknya tetap penting baginya. Ia memandang model yang belum selesai sebelum memberikan baterai yang memungkinkan mereka membaca petunjuk.",
+      "criteria": "Sebutkan motif sebagai tafsiran. Hubungkan keraguan Nara dan tindakannya setelah itu dengan kebutuhan kedua anak."
     },
     {
       "type": "vocabulary",
@@ -288,6 +288,18 @@
         {
           "english": "courage",
           "indonesian": "keberanian"
+        },
+        {
+          "english": "hesitated",
+          "indonesian": "ragu sejenak sebelum bertindak"
+        },
+        {
+          "english": "spare battery",
+          "indonesian": "baterai cadangan"
+        },
+        {
+          "english": "unfinished",
+          "indonesian": "belum selesai"
         }
       ]
     }
@@ -295,43 +307,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “lights”?",
+      "prompt": "Why does Nara look at her unfinished model before carrying the battery to the children?",
       "choices": [
-        "Nara kept working by the window.",
-        "She gave the last battery to her friend.",
-        "The lights went out.",
-        "Nara said she was calm."
+        "She expects the children to finish the model.",
+        "She needs the model to read the instructions.",
+        "She is weighing the cost of using her remaining battery to help them.",
+        "She has already found another battery for the model."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[lights]] muncul dalam kalimat [[The lights went out.]]. Ini peristiwa yang disebut langsung.",
+      "explanation": "Ia ragu, melihat pekerjaan yang belum selesai, lalu membawa satu-satunya baterai cadangan ke lampu mereka. Tindakan ini menunjukkan pilihan yang ada harganya. Tidak ada baterai pengganti atau janji anak-anak untuk membantu proyek.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “lights”?",
+        "prompt": "Mengapa Nara memandang model yang belum selesai sebelum membawa baterai ke lampu kedua anak?",
         "choices": [
-          "Nara terus bekerja dekat jendela.",
-          "Ia memberikan baterai terakhir kepada temannya.",
-          "Lampu-lampu padam.",
-          "Nara berkata bahwa ia tenang."
+          "Ia berharap kedua anak menyelesaikan modelnya.",
+          "Ia memerlukan model itu untuk membaca petunjuk.",
+          "Ia sedang mempertimbangkan akibat memakai sisa baterainya untuk membantu mereka.",
+          "Ia sudah menemukan baterai pengganti untuk model itu."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “battery”?",
+      "prompt": "Which interpretation best explains the contrast in the final sentence?",
       "choices": [
-        "The lights went out.",
-        "Nara kept working by the window.",
-        "Nara said she was calm.",
-        "She gave the last battery to her friend."
+        "The children’s safety gave the sacrifice value even though the project remained unfinished.",
+        "The model was almost complete, so the battery had little value to Nara.",
+        "The instructions showed Nara how to finish her project later.",
+        "The children promised to replace the battery once they were safe."
       ],
-      "answer": 3,
-      "explanation": "Ungkapan [[battery]] muncul dalam kalimat [[She gave the last battery to her friend.]]. Tindakan bisa menunjukkan prioritas tokoh.",
+      "answer": 0,
+      "explanation": "Anak-anak menemukan ruangan aman. Nara tetap kehilangan kesempatan menyelesaikan proyek malam itu, tetapi ia tidak sekecewa dugaannya. Akhir cerita tidak menyebut penggantian baterai, petunjuk proyek, atau pekerjaan yang hampir selesai.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “battery”?",
+        "prompt": "Tafsiran mana yang paling menjelaskan pertentangan dalam kalimat terakhir cerita?",
         "choices": [
-          "Lampu-lampu padam.",
-          "Nara terus bekerja dekat jendela.",
-          "Nara berkata bahwa ia tenang.",
-          "Ia memberikan baterai terakhir kepada temannya."
+          "Keselamatan kedua anak membuat pengorbanan itu terasa berarti meskipun proyeknya belum selesai.",
+          "Modelnya hampir selesai sehingga baterai itu tidak begitu berarti bagi Nara.",
+          "Petunjuk itu menunjukkan cara menyelesaikan proyek Nara nanti.",
+          "Kedua anak berjanji akan mengganti baterai setelah mereka aman."
         ]
       }
     }
