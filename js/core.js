@@ -1,6 +1,7 @@
 import {t} from "./i18n.js";
 import {validateQuestion,score as scoreResponses} from "./question-types.mjs";
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const byResourceTitle=(a,b)=>a.title.localeCompare(b.title,'id');
 export const params=new URLSearchParams(location.search);
 export const link=(id,type='lesson')=>`${type==='lesson'?'lesson':'quiz'}.html?id=${encodeURIComponent(id)}`;
 export function error(e){(document.querySelector('#content, #resources')||document.querySelector('main')).innerHTML=`<div class="error" role="alert"><h2>${t('errorTitle')}</h2><p>${esc(e.message)}</p><a href="index.html">${t('errorBack')}</a></div>`;}
@@ -58,7 +59,7 @@ function phasedScaffold(b){
   if(!g||g.label!==step.phase){g={label:step.phase,items:[]};groups.push(g);}
   g.items.push([step,i]);
  }
- return `<nav class="scaffold-phase-links" aria-label="${t('learningSections')}">${groups.map((g,i)=>`<a href="#scaffold-phase-${i+1}">${esc(g.label)}</a>`).join('')}</nav>${groups.map((g,i)=>`<details class="scaffold-phase" id="scaffold-phase-${i+1}" open><summary lang="id">${esc(g.label)}</summary>${g.items.map(([step,index])=>scaffoldCard(step,index)).join('')}</details>`).join('')}`;
+ return `<nav class="scaffold-phase-links" aria-label="${t('learningSections')}">${groups.map((g,i)=>`<a href="#scaffold-phase-${i+1}">${esc(g.label)}</a>`).join('')}</nav>${groups.map((g,i)=>`<details class="scaffold-phase" id="scaffold-phase-${i+1}"><summary lang="id">${esc(g.label)}</summary>${g.items.map(([step,index])=>scaffoldCard(step,index)).join('')}</details>`).join('')}`;
 }
 function scaffoldModel(b){return b.modelEnglish?`<section class="scaffold-model" aria-label="${t('modelPassage')}">${b.modelTitle?`<h3 lang="id">${formatIdText(b.modelTitle)}</h3>`:''}<p lang="en" class="example-english">${esc(b.modelEnglish)}</p>${pairedTranslation(b.modelIndonesian)}${b.modelImage?`<figure class="scaffold-graphic"><img src="${esc(b.modelImage)}" alt="${esc(b.modelImageAlt||t('visualSupport'))}" loading="lazy"></figure>`:''}${b.modelNote?`<p class="scaffold-model-note" lang="id">${formatIdText(b.modelNote)}</p>`:''}</section>`:''}
 function lessonBlock(b,context){switch(b.type){

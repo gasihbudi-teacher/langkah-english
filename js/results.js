@@ -54,7 +54,6 @@ try{
  }
  function render(){
   const content=document.querySelector('#content');
-  const previous=content.querySelector('.results-reading');
   const openCards=new Set([...content.querySelectorAll('.review[open]')].map(card=>Number(card.dataset.review)));
   content.innerHTML=`<article class="reading results-reading" data-track="${esc(track)}">
     <div class="result-hero"><div class="reading-path">${pathIllustration(track)}${t(pathNames[track])} · ${t('resultsEyebrow')}</div>
@@ -66,7 +65,7 @@ try{
     <div class="stats result-stats">${[[r.correct,'scoreCorrect'],[r.incorrect,'scoreIncorrect'],[r.unanswered,'scoreUnanswered'],[time(a.elapsed),'timeSpent']].map(([n,k])=>`<div class="stat"><strong>${esc(n)}</strong><span>${t(k)}</span></div>`).join('')}</div>
     ${skillSummary()}
     <h2 id="review-title" tabindex="-1">${t('questionReview')}</h2>
-    ${a.questions.map((q,i)=>reviewCard(q,i,previous?openCards.has(i):i===0)).join('')}
+    ${a.questions.map((q,i)=>reviewCard(q,i,openCards.has(i))).join('')}
     <details class="quiz-rules"><summary>${t('quizRules')}</summary><p>${t('tkaScoringRule')}</p></details>
     <div class="toolbar results-actions"><a class="button button-outline" href="${link(a.resourceId,'quiz')}">${t('retake')}</a><a class="button button-outline" href="${track}.html">${t('backLearning')}</a></div>
   </article>`;

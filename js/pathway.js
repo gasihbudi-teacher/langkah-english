@@ -1,17 +1,14 @@
-import {getCatalog,esc,progress,quizDrafts,resourceRow} from './core.js';
+import {getCatalog,esc,progress,quizDrafts,resourceRow,byResourceTitle} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 const pathway=document.body.dataset.pathway;
 const target=document.querySelector('#pathway-resources');
-const byTitle=(a,b)=>a.title.localeCompare(b.title,'id');
-const sorted=pathway==='school' ? byTitle : (a,b)=>(a.order??1000)-(b.order??1000)||byTitle(a,b);
 try{
  const c=await getCatalog(),p=progress.read();
  const resources=c.resources.filter(r=>r.placements.some(x=>x.pathway===pathway));
  const drafts=quizDrafts();
  const card=r=>resourceRow(r,p,drafts,pathway,t('difficulty'+r.difficulty));
- let firstDraw=true;
- function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(sorted).map(card).join('')}</ul>`:`<p>${t('gradeEmpty')}</p>`}</div></details>`}
+ function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(byResourceTitle).map(card).join('')}</ul>`:`<p>${t('gradeEmpty')}</p>`}</div></details>`}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
   document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'pathSchool'})[pathway]);
@@ -38,11 +35,6 @@ try{
    html+=group('utbk-mocks','UTBK · '+t('groupMocks'),quizzes.filter(r=>r.examFormat==='full'));
   }
   target.innerHTML=html;
-  if(firstDraw && pathway!=='school' && !location.hash){
-   const first=document.getElementById(pathway==='grammar'?'beginner-materi':'utbk-lessons');
-   if(first)first.open=true;
-  }
-  firstDraw=false;
   const relevant=resources.filter(r=>r.type==='lesson');
   const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
   const hero=document.querySelector('.pathway-hero');

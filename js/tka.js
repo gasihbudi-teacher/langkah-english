@@ -1,4 +1,4 @@
-import {getCatalog,esc,link,progress,quizDrafts,resourceRow,icon} from './core.js';
+import {getCatalog,esc,link,progress,quizDrafts,resourceRow,icon,byResourceTitle} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 // Planned sequence from the 2026-10-26 blueprint. V13-C5 publishes all ten modules; V13-D adds three full practice simulations.
@@ -14,7 +14,7 @@ export const tkaModules=[
  ['TKA-09','Membaca Lima Jenis Teks TKA',14,'tkaTransfer'],
  ['TKA-10','Memahami Bentuk Soal dan Berlatih Mandiri',9,'tkaTransfer'],
 ];
-const order=['sentence-structure','reading-bridge','reading-strategies','grade12-critical-reading','grade11-exposition-evidence','grade12-compare-arguments','grade10-descriptive','grade9-narrative'];
+const supportIds=['sentence-structure','reading-bridge','reading-strategies','grade12-critical-reading','grade11-exposition-evidence','grade12-compare-arguments','grade10-descriptive','grade9-narrative'];
 const modules=document.querySelector('#tka-module-list');
 const target=document.querySelector('#tka-support-list');
 const newLessons=document.querySelector('#tka-new-lessons');
@@ -54,10 +54,10 @@ function draw(){
 try{
  const c=await getCatalog();
  if(!c.pathways.some(p=>p.id==='tka'))throw Error('TKA pathway is not registered');
- items=order.map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
- tkaLessons=Object.values(published).map(([id])=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
- tkaQuizzes=Object.values(published).map(([,id])=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
- tkaMocks=mockIds.map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean);
+ items=supportIds.map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean).sort(byResourceTitle);
+ tkaLessons=Object.values(published).map(([id])=>c.resources.find(r=>r.id===id&&r.type==='lesson'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean).sort(byResourceTitle);
+ tkaQuizzes=Object.values(published).map(([,id])=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean).sort(byResourceTitle);
+ tkaMocks=mockIds.map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz'&&r.placements.some(p=>p.pathway==='tka'))).filter(Boolean).sort(byResourceTitle);
  draw();onLanguageChange(draw);
  function revealGroup(){
   const group=document.getElementById(location.hash.slice(1));

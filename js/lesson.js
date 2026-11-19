@@ -1,4 +1,4 @@
-import {resource,params,esc,blocks,formatIdText,link,progress,error,icon,pathIllustration} from './core.js';
+import {resource,params,esc,blocks,formatIdText,link,progress,error,icon,pathIllustration,byResourceTitle} from './core.js';
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
 initI18n();
@@ -16,12 +16,13 @@ try{
   const here=same.findIndex(x=>x.id===m.id);
   const previous=here>0?same[here-1]:null;
   const following=here>=0&&here<same.length-1?same[here+1]:null;
-  const assessments=(d.assessments||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz')).filter(Boolean);
-  const related=(m.relatedLessons||[]).map(id=>c.resources.find(r=>r.id===id)).filter(Boolean);
+  const assessments=(d.assessments||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='quiz')).filter(Boolean).sort(byResourceTitle);
+  const related=(m.relatedLessons||[]).map(id=>c.resources.find(r=>r.id===id)).filter(Boolean).sort(byResourceTitle);
   const prerequisite=(m.prerequisites||[]).map(id=>c.resources.find(r=>r.id===id&&r.type==='lesson')).filter(Boolean);
   function render(){
     const oldIndex = document.querySelector('.reader-index');
-    const showIndex = oldIndex ? oldIndex.open : matchMedia('(min-width: 760px)').matches;
+    const showIndex = oldIndex?.open;
+    const openPhases = [...document.querySelectorAll('.scaffold-phase[open]')].map(phase=>phase.id);
     document.querySelector('#content').innerHTML=`<article class="reading" data-track="${esc(primary.pathway)}">
     <a href="${esc(backUrl)}" class="page-back">← ${t('backPath')}</a>
     <div class="reading-intro">
@@ -57,6 +58,7 @@ try{
     tools.setAttribute('aria-label',t('readingContents'));
     tools.innerHTML=`<details class="reader-index" ${showIndex?'open':''}><summary><span class="lesson-tools-text">${t('readingContents')}</span></summary><div class="lesson-toc">${targets.map(([key,element])=>`<a href="#${element.id}">${t(key)}</a>`).join('')}</div></details><button class="focus-button" type="button" aria-pressed="false"></button>`;
     intro.insertAdjacentElement('afterend',tools);
+    for(const id of openPhases)document.getElementById(id).open=true;
     const focusButton=tools.querySelector('.focus-button');
     const activeFocus=()=>{
       focusButton.textContent=document.body.classList.contains('focus-reading')?t('exitFocus'):t('focusMode');
@@ -100,5 +102,23 @@ try{
       const feedback=section.querySelector('[role="status"]');const showFeedback=()=>{const value=practiceAnswers.get(q.id);feedback.hidden=!Number.isInteger(value);feedback.dataset.correct=String(value===q.answer);if(!feedback.hidden)feedback.innerHTML='<strong>'+esc(value===q.answer?t('correct'):t('notQuite'))+'</strong> '+formatIdText(q.explanation)};section.querySelectorAll('[data-answer]').forEach(btn=>btn.onclick=()=>{practiceAnswers.set(q.id,Number(btn.dataset.answer));section.querySelectorAll('[data-answer]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));showFeedback()});showFeedback();target.append(section)});
     const completion=document.querySelector('#completion');function status(){if(progress.read().lessons?.[m.id])completion.textContent=t('alreadyComplete');else completion.textContent=''}status();document.querySelector('#complete').onclick=()=>{if(!progress.read().lessons?.[m.id])progress.complete(m.id,m.title);completion.textContent=t('justComplete')};
   }
-  render();onLanguageChange(render);
+  function openLinkedDetails(hash) {
+    if (!hash) return;
+    let id;
+    try { id = decodeURIComponent(hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    for (let current=target; current; current=current.parentElement) {
+      if (current instanceof HTMLDetailsElement) current.open=true;
+    }
+    return target;
+  }
+  render();
+  onLanguageChange(render);
+  const target = openLinkedDetails(location.hash);
+  if (target) requestAnimationFrame(()=>target.scrollIntoView());
+  addEventListener('hashchange',()=>openLinkedDetails(location.hash));
+  document.querySelector('#content').addEventListener('click',event=>{
+    const link=event.target.closest('a[href^="#"]');
+    if(link)openLinkedDetails(link.hash);
+  });
 }catch(e){error(e)}
