@@ -25,16 +25,16 @@
         {
           "title": "Identifikasi klaim dan bukti sumber pertama",
           "explanation": "Catat kesimpulan sumber pertama beserta cara mereka mengumpulkan datanya.",
-          "english": "Report A states that 180 students participated because it counted online registrations.",
-          "indonesian": "Laporan A menyatakan bahwa 180 siswa berpartisipasi karena laporan itu menghitung pendaftaran daring.",
+          "english": "We received online sign-ups from 180 students before the fair.",
+          "indonesian": "Sebelum pameran, kami menerima pendaftaran daring dari 180 siswa.",
           "why": "Angka 180 berasal dari daftar pendaftar, bukan orang yang benar-benar datang."
         },
         {
           "title": "Identifikasi klaim dan bukti sumber kedua",
           "explanation": "Lakukan pemeriksaan yang sama pada sumber kedua dengan ketelitian yang setara.",
-          "english": "Report B records 142 participants by counting students who entered the hall.",
-          "indonesian": "Laporan B mencatat 142 peserta dengan menghitung siswa yang masuk ke aula.",
-          "why": "Sumber B mengukur kehadiran fisik di lokasi acara."
+          "english": "Our volunteers recorded 142 entries at the hall on the day of the fair.",
+          "indonesian": "Pada hari pameran, relawan kami mencatat 142 kali orang masuk ke aula.",
+          "why": "Kata [[entries]] menunjukkan bahwa yang dicatat adalah peristiwa masuk. Kalimat ini tidak memastikan bahwa semuanya siswa yang berbeda."
         },
         {
           "title": "Periksa kesetaraan ukuran (measure)",
@@ -59,8 +59,8 @@
         }
       ],
       "modelTitle": "Dua catatan dari pameran sains sekolah",
-      "modelEnglish": "Registration desk: We received online sign-ups from 180 students before the fair. Some who signed up later stayed home.\n\nEntrance desk: Our volunteers recorded 142 entries at the hall on the day of the fair. We counted people as they came in.",
-      "modelIndonesian": "Meja pendaftaran: Sebelum pameran, kami menerima pendaftaran daring dari 180 siswa. Sebagian pendaftar akhirnya tidak datang.\n\nMeja penerima tamu: Pada hari pameran, relawan kami mencatat 142 kali orang masuk ke aula. Kami menghitung orang saat mereka masuk."
+      "modelEnglish": "Report A — Registration desk: We received online sign-ups from 180 students before the fair. Some who signed up later stayed home.\n\nReport B — Entrance desk: Our volunteers recorded 142 entries at the hall on the day of the fair. We counted people as they came in.",
+      "modelIndonesian": "Laporan A — Meja pendaftaran: Sebelum pameran, kami menerima pendaftaran daring dari 180 siswa. Sebagian pendaftar akhirnya tidak datang.\n\nLaporan B — Meja penerima tamu: Pada hari pameran, relawan kami mencatat 142 kali orang masuk ke aula. Kami menghitung orang saat mereka masuk."
     },
     {
       "type": "synthesis",

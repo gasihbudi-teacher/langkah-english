@@ -13,63 +13,42 @@
     },
     {
       "type": "scaffold",
-      "intro": "Mulailah dari perubahan kebisingan di dua kelas. Temukan petunjuk di sekitar kata baru, lalu uji apakah pilihan katamu membuat simpulan terlalu pasti.",
+      "intro": "Baca laporan singkat tentang bantalan di kaki kursi. Mulailah dari perubahan yang diamati, lalu gunakan kata-kata di sekitarnya untuk menilai seberapa yakin penulis pada manfaat bantalan itu.",
       "steps": [
         {
-          "title": "Kata akademik punya konteks",
-          "explanation": "Arti kata dalam bacaan ilmiah tidak selalu sama dengan terjemahan yang paling sering dikenal.",
-          "english": "The results suggest improvement.",
-          "indonesian": "Hasilnya mengisyaratkan peningkatan.",
-          "why": "[[Suggest]] menunjukkan kemungkinan yang didukung data, bukan kepastian penuh."
+          "title": "Kenali apa yang diuji",
+          "explanation": "Cari benda yang dipasang dan tempat pengujiannya di kalimat pertama.",
+          "english": "Two classrooms tried felt pads under chair legs.",
+          "indonesian": "Dua kelas mencoba memasang bantalan kain di bawah kaki kursi.",
+          "why": "Frasa [[under chair legs]] membantu kita memahami fungsi [[felt pads]] sebagai bantalan. Dua kelas itulah tempat pengujiannya."
         },
         {
-          "title": "Temukan kata sasaran",
-          "explanation": "Tandai kata asing tetapi jangan berhenti membaca satu kata saja.",
-          "english": "The result was significant.",
-          "indonesian": "Hasilnya penting / signifikan.",
-          "why": "[[Significant]] dapat mempunyai arti umum atau teknis; cek konteks."
+          "title": "Cari petunjuk arah perubahan",
+          "explanation": "Baca kalimat kedua sebelum menebak makna kata baru di kalimat ketiga.",
+          "english": "Noise levels fell a little each week.",
+          "indonesian": "Tingkat kebisingan turun sedikit setiap minggu.",
+          "why": "Kata [[fell]] memberi arah perubahan. Yang diukur adalah tingkat kebisingan, bukan jumlah kursi."
         },
         {
-          "title": "Temukan kata yang menunjukkan perubahan",
-          "explanation": "Cari hal yang diukur dan apa yang terjadi padanya.",
-          "english": "Noise levels declined over three weeks.",
-          "indonesian": "Tingkat kebisingan menurun selama tiga minggu.",
-          "why": "Sesudah subjek [[noise levels]], kata [[declined]] menyatakan perubahan. Bentuk lampaunya menunjukkan pengamatan sudah dilakukan."
+          "title": "Uji makna kata dari konteks",
+          "explanation": "Hubungkan awal kalimat ketiga dengan perubahan mingguan pada kalimat sebelumnya.",
+          "english": "The gradual decline",
+          "indonesian": "Penurunan bertahap",
+          "why": "Kata [[decline]] merujuk pada penurunan tadi. Frasa [[a little each week]] menjelaskan [[gradual]]: sedikit demi sedikit, bukan sekaligus pada satu hari."
         },
         {
-          "title": "Baca satu kalimat utuh",
-          "explanation": "Tentukan gagasan pokok kalimat dan posisi kata sasaran di dalamnya.",
-          "english": "The study suggests the idea.",
-          "indonesian": "Penelitian itu mengisyaratkan gagasan tersebut.",
-          "why": "[[Suggests]] lebih berhati-hati: belum menyatakan kepastian."
+          "title": "Bedakan hasil dari tafsir penulis",
+          "explanation": "Pada kalimat ketiga, bedakan sesuatu yang sudah diukur dari manfaat yang masih diduga.",
+          "english": "suggests a possible benefit.",
+          "indonesian": "mengisyaratkan kemungkinan manfaat.",
+          "why": "Penurunan kebisingan tercatat. Kata [[suggests]] dan [[possible]] menunjukkan bahwa penulis masih berhati-hati saat mengaitkan penurunan itu dengan bantalan."
         },
         {
-          "title": "Gunakan contoh sebagai petunjuk makna",
-          "explanation": "Lihat seperti apa perubahan itu dari hari ke hari.",
-          "english": "The decline was gradual: the room became a little quieter each day.",
-          "indonesian": "Penurunannya bertahap: ruangan menjadi sedikit lebih tenang setiap hari.",
-          "why": "Bagian [[a little quieter each day]] memberi alasan untuk menafsirkan [[gradual]] sebagai bertahap."
-        },
-        {
-          "title": "Cari perbandingan dan kontras",
-          "explanation": "[[However]], [[unlike]], atau [[because]] dapat memberi petunjuk hubungan makna.",
-          "english": "The results suggest a possible connection; however, they do not establish the cause.",
-          "indonesian": "Hasilnya menunjukkan kemungkinan hubungan; namun, hasil tersebut tidak menetapkan penyebabnya.",
-          "why": "[[Suggest]] menyatakan kehati-hatian, sedangkan [[however]] menandai batas kesimpulan."
-        },
-        {
-          "title": "Uji tebakan",
-          "explanation": "Masukkan makna sementara ke kalimat dan periksa apakah logika paragraf tetap utuh.",
-          "english": "The researchers maintained detailed records so their findings could be checked later.",
-          "indonesian": "Para peneliti menyimpan catatan terperinci agar temuannya dapat diperiksa kemudian.",
-          "why": "[[Maintained]] di sini bermakna terus menjaga atau menyimpan dengan baik."
-        },
-        {
-          "title": "Kenali kadar kepastian",
-          "explanation": "Kata seperti [[suggest]], [[indicate]], dan [[prove]] memiliki kekuatan klaim berbeda; jangan menyamakannya.",
-          "english": "Although the sample was limited, the findings provide preliminary evidence of a possible trend.",
-          "indonesian": "Walaupun sampelnya terbatas, temuannya memberi bukti awal tentang kemungkinan tren.",
-          "why": "[[Preliminary]] dan [[possible]] membatasi tingkat kepastian klaim ilmiah."
+          "title": "Baca batas temuan",
+          "explanation": "Apa yang berubah setelah penulis memakai penghubung di awal kalimat terakhir?",
+          "english": "However, the team took no measurements in other classrooms.",
+          "indonesian": "Namun, tim tidak melakukan pengukuran di kelas lain.",
+          "why": "Kata [[however]] menghubungkan dugaan manfaat dengan batas bukti. Hasil di dua kelas belum memberi tahu kita apa yang akan terjadi di kelas lain."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
