@@ -1,9 +1,9 @@
 {
   "id": "grade11-money-procedure",
   "objectives": [
-    "Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Membedakan kebutuhan, tabungan, dan belanja pilihan dalam anggaran Dini.",
+    "Menghitung sisa uang dan mengusulkan perubahan jika rencana melebihi uang yang tersedia.",
+    "Menjelaskan urutan menyusun dan memeriksa anggaran berdasarkan petunjuk klub."
   ],
   "blocks": [
     {
@@ -13,80 +13,45 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membaca langkah anggaran sederhana serta membedakan kebutuhan dan keinginan. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti rencana mingguan Dini. Cari jumlah uang yang ia terima, bagian yang sudah ia sisihkan, dan pilihan yang masih bisa ia ubah.",
       "steps": [
         {
-          "title": "Mengapa membuat anggaran?",
-          "explanation": "Anggaran membagi uang yang tersedia untuk kebutuhan dan tujuan sehingga pengeluaran bisa dikendalikan.",
-          "english": "Write down your weekly allowance.",
-          "indonesian": "Catat uang saku mingguanmu.",
-          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia."
-        },
-        {
-          "title": "Tentukan tujuan",
-          "explanation": "Sebut sasaran konkret, misalnya menyisihkan uang untuk buku, sebelum mengalokasikan dana.",
-          "english": "Write down your weekly allowance.",
-          "indonesian": "Catat uang saku mingguanmu.",
-          "why": "Ini langkah pertama untuk mengetahui jumlah tersedia."
-        },
-        {
-          "title": "Hitung dana tersedia",
-          "explanation": "Identifikasi pemasukan atau uang saku yang benar-benar dapat dipakai.",
+          "title": "Tentukan batas untuk satu minggu",
+          "explanation": "Cari jumlah awal dan satuan waktunya. Semua alokasi Dini perlu dibandingkan dengan jumlah ini.",
           "english": "Dini receives Rp100,000 each week.",
           "indonesian": "Dini menerima Rp100.000 setiap minggu.",
-          "why": "[[Rp100,000]] adalah uang tersedia sebelum dikurangi pengeluaran."
+          "why": "Kata [[each week]] menunjukkan bahwa Rp100.000 tersedia untuk satu minggu. Angka ini menjadi batas untuk seluruh rencana mingguan."
         },
         {
-          "title": "Daftar pengeluaran wajib",
-          "explanation": "Catat ongkos, makanan, atau kebutuhan pokok sebelum belanja tambahan.",
-          "english": "List necessary transport costs.",
-          "indonesian": "Daftar biaya transportasi yang diperlukan.",
-          "why": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
-        },
-        {
-          "title": "Kebutuhan dan keinginan",
-          "explanation": "Bandingkan pengeluaran yang penting dengan yang bisa ditunda.",
-          "english": "A second decorative notebook may be a want.",
-          "indonesian": "Buku catatan hias kedua mungkin hanya keinginan.",
-          "why": "Tidak semua pembelian yang disukai merupakan kebutuhan."
-        },
-        {
-          "title": "Alokasikan uang",
-          "explanation": "Bagi jumlah tersedia ke kategori yang jelas tanpa menjumlahkan dua kali.",
+          "title": "Pisahkan kebutuhan dan tabungan",
+          "explanation": "Pilih dua bagian yang akan dipakai Dini untuk kebutuhannya. Uang mana yang ia sisihkan untuk nanti?",
           "english": "She plans Rp40,000 for transport, Rp30,000 for meals, and Rp20,000 for savings.",
           "indonesian": "Ia menganggarkan Rp40.000 untuk transportasi, Rp30.000 untuk makan, dan Rp20.000 untuk tabungan.",
-          "why": "Total alokasi Rp90.000 dari Rp100.000. Setiap kategori memiliki jumlah yang jelas."
+          "why": "Ongkos dan makan berjumlah Rp70.000. Masih ada Rp30.000 setelah keduanya dihitung, tetapi dari jumlah itu Dini sudah menyisihkan Rp20.000 untuk tabungan."
         },
         {
-          "title": "Hitung sisa",
-          "explanation": "Kurangi seluruh alokasi dari dana awal untuk memeriksa apakah anggaran seimbang.",
-          "english": "Rp100,000 − Rp40,000 − Rp30,000 − Rp20,000 = Rp10,000.",
-          "indonesian": "Rp100.000 dikurangi Rp40.000, Rp30.000, dan Rp20.000 sama dengan Rp10.000.",
-          "why": "Sisa anggaran adalah Rp10.000, bukan Rp30.000; kurangi seluruh alokasi dari dana awal."
+          "title": "Periksa sisa yang bisa dipakai",
+          "explanation": "Kurangi kebutuhan dan tabungan dari uang mingguan. Cocokkan hasilnya dengan kalimat ketiga.",
+          "english": "She has Rp10,000 left for other expenses.",
+          "indonesian": "Dini masih punya Rp10.000 untuk pengeluaran lain.",
+          "why": "Jumlah yang sudah dialokasikan adalah Rp90.000. Kata [[left]] menunjukkan sisa Rp10.000 yang bisa dipakai untuk pengeluaran lain tanpa mengubah rencana."
         },
         {
-          "title": "Kenali defisit",
-          "explanation": "Jika total pengeluaran lebih besar daripada pemasukan, rencana harus diperbaiki.",
-          "english": "Dini has Rp10,000 left, but she wants to spend Rp25,000.",
-          "indonesian": "Dini memiliki sisa Rp10.000, tetapi ingin mengeluarkan Rp25.000.",
-          "why": "Pengeluaran Rp25.000 melampaui sisa Rp10.000 dengan selisih Rp15.000."
+          "title": "Bedakan rencana dari pengeluaran nyata",
+          "explanation": "Perhatikan kata pembuka kalimat terakhir. Apakah Dini sudah menghabiskan uang itu?",
+          "english": "If she spends Rp25,000 on entertainment,",
+          "indonesian": "Jika ia membelanjakan Rp25.000 untuk hiburan,",
+          "why": "Kata [[if]] memperkenalkan kemungkinan. Hiburan senilai Rp25.000 adalah pilihan yang sedang diuji. Bacaan belum mengatakan Dini sudah membayarnya."
         },
         {
-          "title": "Pilih penyesuaian",
-          "explanation": "Kurangi pengeluaran yang lebih fleksibel sambil menjaga tujuan utama.",
-          "english": "Dini could lower her entertainment spending to Rp10,000.",
-          "indonesian": "Dini dapat mengurangi belanja hiburannya menjadi Rp10.000.",
-          "why": "Penyesuaian membatasi pengeluaran sesuai sisa anggaran tanpa memotong transportasi atau makan."
-        },
-        {
-          "title": "Terapkan rencana utuh",
-          "explanation": "Ikuti satu contoh anggaran dari awal hingga akhir dan periksa kembali perhitungannya.",
-          "english": "If the planned spending is higher than the allowance, reduce optional purchases before changing necessary costs.",
-          "indonesian": "Jika rencana pengeluaran lebih besar dari uang saku, kurangi pembelian pilihan sebelum mengubah biaya wajib.",
-          "why": "Instruksi bersyarat mendukung keputusan anggaran yang masuk akal."
+          "title": "Tentukan perubahan yang cukup",
+          "explanation": "Bandingkan biaya hiburan dengan sisa uang Dini. Berapa yang perlu dikurangi jika ia ingin mempertahankan ongkos, makan, dan tabungannya?",
+          "english": "she will exceed her plan by Rp15,000 unless she changes another allocation.",
+          "indonesian": "pengeluarannya akan melebihi rencana sebesar Rp15.000 kecuali ia mengubah alokasi lain.",
+          "why": "Selisih antara Rp25.000 dan Rp10.000 adalah Rp15.000. Salah satu pilihan Dini adalah membatasi hiburan hingga Rp10.000. Dengan begitu, tiga alokasi awalnya tetap terpenuhi."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelTitle": "Rencana Dini untuk satu minggu",
       "modelEnglish": "Dini receives Rp100,000 each week. She plans Rp40,000 for transport, Rp30,000 for meals, and Rp20,000 for savings. She has Rp10,000 left for other expenses. If she spends Rp25,000 on entertainment, she will exceed her plan by Rp15,000 unless she changes another allocation.",
       "modelIndonesian": "Dini menerima Rp100.000 setiap minggu. Ia merencanakan Rp40.000 untuk transportasi, Rp30.000 untuk makan, dan Rp20.000 untuk tabungan. Ia memiliki sisa Rp10.000 untuk pengeluaran lain. Jika ia mengeluarkan Rp25.000 untuk hiburan, ia akan melampaui rencana sebesar Rp15.000 kecuali mengubah alokasi lain."
     },
@@ -119,66 +84,66 @@
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Bacaan pembuka menceritakan rencana Dini. Tiga contoh berikut menyatakan urutannya sebagai petunjuk dalam bahasa Inggris."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Ubah rencana Dini menjadi langkah yang bisa diikuti",
       "collapsed": false,
       "items": [
         {
-          "english": "Write down your weekly allowance.",
-          "indonesian": "Catat uang saku mingguanmu.",
-          "note": "Ini langkah pertama untuk mengetahui jumlah tersedia."
+          "english": "Record the weekly allowance.",
+          "indonesian": "Catat uang saku mingguan.",
+          "note": "Langkah ini menetapkan batas uang untuk satu minggu."
         },
         {
-          "english": "List necessary transport costs.",
-          "indonesian": "Daftar biaya transportasi yang diperlukan.",
-          "note": "Biaya yang wajib didahulukan bisa disebut kebutuhan."
+          "english": "Set aside money for transport, meals, and savings.",
+          "indonesian": "Sisihkan uang untuk transportasi, makan, dan tabungan.",
+          "note": "Tiga alokasi Dini ini perlu dihitung sebelum ia merencanakan hiburan."
         },
         {
-          "english": "Review your plan each Friday.",
-          "indonesian": "Tinjau kembali rencanamu setiap Jumat.",
-          "note": "Peninjauan membantu memperbaiki rencana."
+          "english": "Compare entertainment costs with the amount left.",
+          "indonesian": "Bandingkan biaya hiburan dengan sisa uang.",
+          "note": "Bandingkan biaya dengan uang yang masih bebas digunakan. Sebagian uang mingguan sudah disisihkan."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-money-procedure",
-      "prompt": "Which sentence means “Daftar biaya transportasi yang diperlukan.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Daftar biaya transportasi yang diperlukan.”?",
+      "prompt": "Dini keeps all three allocations. Which entertainment plan fits her weekly allowance?",
+      "translation": "Dini mempertahankan ketiga alokasinya. Rencana hiburan mana yang sesuai dengan uang mingguannya?",
       "choices": [
-        "Write down your weekly allowance.",
-        "List necessary transport costs.",
-        "Review your plan each Friday."
+        "Spend Rp30,000 after paying for transport and meals.",
+        "Spend up to Rp10,000 after setting aside money for savings too.",
+        "Spend Rp15,000 because that was the difference in the example."
       ],
       "answer": 1,
       "translationChoices": [
-        "Catat uang saku mingguanmu.",
-        "Daftar biaya transportasi yang diperlukan.",
-        "Tinjau kembali rencanamu setiap Jumat."
+        "Membelanjakan Rp30.000 setelah membayar transportasi dan makan.",
+        "Membelanjakan paling banyak Rp10.000 setelah menyisihkan uang untuk tabungan juga.",
+        "Membelanjakan Rp15.000 karena itulah selisih pada contoh."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Biaya yang wajib didahulukan bisa disebut kebutuhan.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Tiga alokasi berjumlah Rp90.000, jadi dari Rp100.000 masih ada Rp10.000. Sisa Rp30.000 setelah ongkos dan makan masih mencakup tabungan. Angka Rp15.000 menunjukkan berapa besar anggaran akan terlampaui jika Dini memilih hiburan seharga Rp25.000.",
+      "hint": "Tandai semua uang yang sudah punya tujuan. Periksa apakah pilihanmu menghitungnya dua kali."
     },
     {
       "type": "breakdown",
-      "sentence": "Write down your weekly allowance.",
+      "sentence": "Compare entertainment costs with the amount left.",
       "parts": [
         {
-          "english": "Write",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Compare entertainment costs",
+          "meaning": "Bandingkan biaya hiburan yang sedang dipertimbangkan Dini."
         },
         {
-          "english": "down your weekly allowance.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Catat uang saku mingguanmu."
+          "english": "with the amount left.",
+          "meaning": "Pembandingnya adalah sisa Rp10.000 setelah ongkos, makan, dan tabungan disisihkan."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Latihan terpisah tentang kebutuhan dan keinginan",
       "collapsed": false,
       "items": [
         {
@@ -210,9 +175,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini contoh kebutuhan untuk perjalanan sekolah. Tidak semua pembelian yang disukai merupakan kebutuhan."
+      "prompt": "(A) “Bus fare is a necessary expense.” (B) “A second decorative notebook may be a want.” If a student needs the bus to get to school and already has a notebook, which purchase can wait? Why?",
+      "translation": "(A) “Ongkos bus adalah pengeluaran yang diperlukan.” (B) “Buku catatan hias kedua mungkin hanya keinginan.” Jika seorang siswa perlu naik bus ke sekolah dan sudah punya buku catatan, pembelian mana yang bisa ditunda? Mengapa?",
+      "answer": "Buku hias tambahan bisa ditunda karena siswa sudah punya buku catatan. Ongkos bus masih dibutuhkan agar ia bisa pergi ke sekolah. Penilaian ini mengikuti keadaan siswa dalam contoh."
     },
     {
       "type": "example_group",
@@ -233,16 +198,16 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Bacaan mandiri tentang panduan klub keuangan sekolah"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Kali ini yang kamu baca adalah petunjuk dari klub. Cari apa yang harus dilakukan sebelum belanja pilihan dan apa yang baru bisa diperiksa pada akhir minggu."
     },
     {
       "type": "example",
       "text": "A school finance club shared a simple budgeting guide. First, record your weekly allowance. Second, list essential expenses such as transport and meals. Third, decide on a realistic amount to save. Only then consider optional purchases. Check whether the total plan exceeds your allowance. If it does, revise optional spending before reducing essential costs. At the end of the week, compare your plan with your actual expenses. The guide advises students to review their choices rather than blame themselves for an imperfect first attempt.",
-      "note": "Ringkasan bantuan: Langkah praktis menyusun anggaran siswa. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+      "note": "Perhatikan penanda urutan dan bedakan jumlah yang direncanakan dari pengeluaran yang benar-benar terjadi."
     },
     {
       "type": "text",
@@ -260,10 +225,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua langkah petunjuk bahasa Inggris dengan urutan yang aman. Langkah mana menentukan prioritas sebelum uang dibelanjakan?",
-      "model": "Set aside money for transport before planning entertainment expenses.",
-      "modelTranslation": "Sisihkan uang untuk transportasi sebelum merencanakan pengeluaran hiburan.",
-      "criteria": "[[Before]] menunjukkan prioritas; kebutuhan dasar dipertimbangkan terlebih dahulu."
+      "prompt": "Tulis dua langkah dalam bahasa Inggris untuk siswa yang perlu membayar ongkos tetapi juga ingin membeli hiburan. Tunjukkan pengeluaran mana yang perlu disisihkan lebih dahulu.",
+      "model": "First, set aside the money you need for transport. Then decide how much of the remaining money you can spend on entertainment.",
+      "modelTranslation": "Pertama, sisihkan uang yang kamu perlukan untuk ongkos. Lalu tentukan berapa banyak dari sisa uang yang bisa kamu pakai untuk hiburan.",
+      "criteria": "Periksa apakah langkah pertama melindungi ongkos dan langkah kedua membatasi pengeluaran hiburan sesuai sisa uang."
     },
     {
       "type": "vocabulary",
@@ -295,43 +260,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “allowance”?",
+      "prompt": "In the club’s guide, what should a student do after listing transport and meals but before planning optional purchases?",
       "choices": [
-        "List necessary transport costs.",
-        "Write down your weekly allowance.",
-        "Review your plan each Friday.",
-        "Bus fare is a necessary expense."
+        "Compare the plan with the week’s actual spending.",
+        "Choose an amount the student can realistically save.",
+        "Divide the remaining money equally among optional purchases.",
+        "Reduce essential expenses to leave more money for entertainment."
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[allowance]] muncul dalam kalimat [[Write down your weekly allowance.]]. Ini langkah pertama untuk mengetahui jumlah tersedia.",
+      "explanation": "Panduan menempatkan tabungan setelah kebutuhan pokok dan sebelum belanja pilihan. Perbandingan dengan pengeluaran nyata baru bisa dilakukan pada akhir minggu.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “allowance”?",
+        "prompt": "Menurut panduan klub, apa yang dilakukan setelah mencatat ongkos dan makan tetapi sebelum merencanakan belanja pilihan?",
         "choices": [
-          "Daftar biaya transportasi yang diperlukan.",
-          "Catat uang saku mingguanmu.",
-          "Tinjau kembali rencanamu setiap Jumat.",
-          "Ongkos bus adalah pengeluaran yang diperlukan."
+          "Membandingkan rencana dengan pengeluaran nyata selama seminggu.",
+          "Menentukan jumlah yang sanggup ditabung.",
+          "Membagi rata sisa uang untuk semua belanja pilihan.",
+          "Mengurangi biaya kebutuhan agar ada lebih banyak uang untuk hiburan."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “Review”?",
+      "prompt": "Why does the guide ask students to compare their plan with actual spending at the end of the week?",
       "choices": [
-        "Write down your weekly allowance.",
-        "List necessary transport costs.",
-        "Review your plan each Friday.",
-        "Bus fare is a necessary expense."
+        "To decide whether their allowance was recorded before they planned.",
+        "To prove that the first budget should be used again without changes.",
+        "To see where the estimates differed and use that information for the next plan.",
+        "To treat every difference as a reason to reduce essential costs."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[Review]] muncul dalam kalimat [[Review your plan each Friday.]]. Peninjauan membantu memperbaiki rencana.",
+      "explanation": "Di akhir minggu siswa sudah punya dua angka untuk dibandingkan. Selisihnya bisa dipelajari saat menyusun anggaran berikutnya. Panduan mengajak siswa meninjau pilihan mereka dan menjaga biaya kebutuhan pokok.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “Review”?",
+        "prompt": "Mengapa panduan meminta siswa membandingkan rencana dengan pengeluaran nyata pada akhir minggu?",
         "choices": [
-          "Catat uang saku mingguanmu.",
-          "Daftar biaya transportasi yang diperlukan.",
-          "Tinjau kembali rencanamu setiap Jumat.",
-          "Ongkos bus adalah pengeluaran yang diperlukan."
+          "Untuk memastikan apakah uang saku sudah dicatat sebelum mereka menyusun rencana.",
+          "Untuk membuktikan bahwa anggaran pertama harus digunakan lagi tanpa perubahan.",
+          "Untuk melihat bagian yang meleset dari perkiraan dan menggunakannya saat membuat rencana berikutnya.",
+          "Untuk menjadikan setiap selisih sebagai alasan mengurangi biaya kebutuhan pokok."
         ]
       }
     }

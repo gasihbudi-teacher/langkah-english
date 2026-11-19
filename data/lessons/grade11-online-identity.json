@@ -1,9 +1,9 @@
 {
   "id": "grade11-online-identity",
   "objectives": [
-    "Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Menemukan tujuan permintaan dan memilih balasan yang menjawabnya.",
+    "Membedakan informasi kegiatan yang bisa dibagikan dari data masuk yang perlu dirahasiakan.",
+    "Menjelaskan bagaimana penerima memeriksa identitas pengirim sebelum bertindak."
   ],
   "blocks": [
     {
@@ -13,82 +13,47 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membaca pesan praktis, memilih respons yang sesuai, dan menjaga informasi pribadi. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Baca pesan Dito kepada Ibu Sari dan balasannya. Periksa apa yang sudah Dito ketahui, apa yang ia tanyakan, dan informasi apa yang cukup untuk menjawabnya.",
       "steps": [
         {
-          "title": "Jejak identitas daring",
-          "explanation": "Informasi yang dibagikan dapat membentuk gambaran mengenai seseorang dan bertahan lama di internet.",
-          "english": "Could you send the assignment link?",
-          "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
-          "why": "“Could you” mengajukan permintaan dengan sopan."
+          "title": "Baca tujuan dari baris subjek",
+          "explanation": "Apa yang perlu dikonfirmasi? Cari petunjuk sebelum membaca isi pesan.",
+          "english": "Subject: Request to confirm a workshop schedule.",
+          "indonesian": "Subjek: Permintaan konfirmasi jadwal lokakarya.",
+          "why": "Kata [[schedule]] mengarahkan pembaca ke jadwal kegiatan. Untuk mengetahui bagian jadwal yang belum jelas, baca pertanyaan Dito."
         },
         {
-          "title": "Informasi pribadi",
-          "explanation": "Bedakan informasi umum yang wajar dibagikan dari informasi sensitif yang perlu dilindungi.",
-          "english": "I will send the official class link.",
-          "indonesian": "Saya akan mengirim tautan kelas resmi.",
-          "why": "Respons menjawab permintaan secara spesifik."
+          "title": "Temukan penulis dan penerimanya",
+          "explanation": "Bandingkan sapaan di awal pesan dengan nama di bagian akhir.",
+          "english": "Dear Ms Sari,",
+          "indonesian": "Yth. Ibu Sari,",
+          "why": "Sapaan ini ditujukan kepada Ibu Sari. Dito menulis namanya setelah ucapan terima kasih. Jadi permintaan berasal dari peserta lokakarya."
         },
         {
-          "title": "Situasi menentukan gaya",
-          "explanation": "Pesan kepada teman dan pesan kepada guru atau lembaga membutuhkan kesesuaian gaya yang berbeda.",
-          "english": "Please check the sender first.",
-          "indonesian": "Tolong periksa pengirimnya terlebih dahulu.",
-          "why": "Petunjuk ini melindungi identitas digital."
+          "title": "Pisahkan yang sudah diketahui dari yang masih dicari",
+          "explanation": "Apakah Dito ingin mendaftar atau sudah mendaftar? Lihat apa yang berubah setelah kata [[but]].",
+          "english": "I registered for the writing workshop but cannot find the starting time.",
+          "indonesian": "Saya sudah mendaftar lokakarya menulis, tetapi belum menemukan waktu mulainya.",
+          "why": "Dito sudah terdaftar. Ia hanya perlu tahu jam mulai. Mengirim formulir pendaftaran lagi belum menjawab kebutuhannya."
         },
         {
-          "title": "Siapa pengirim-penerima?",
-          "explanation": "Kenali penulis dan orang yang dituju sebelum menafsirkan maksud pesan.",
-          "english": "The message asks for the meeting time.",
-          "indonesian": "Pesan meminta waktu pertemuan.",
-          "why": "Ini informasi kegiatan yang wajar."
+          "title": "Kenali permintaan yang sopan",
+          "explanation": "Temukan bagian yang memperhalus pertanyaan. Apa yang dirujuk oleh [[it]]?",
+          "english": "Could you please confirm when it begins?",
+          "indonesian": "Bisakah Ibu memastikan kapan acaranya dimulai?",
+          "why": "[[Could you please]] dipakai untuk meminta bantuan dengan sopan. Kata [[it]] merujuk pada lokakarya menulis yang disebut di kalimat sebelumnya."
         },
         {
-          "title": "Apa tujuan pesan?",
-          "explanation": "Cari apakah penulis meminta informasi, mengonfirmasi kegiatan, atau menanggapi permintaan.",
-          "english": "The message asks for a password.",
-          "indonesian": "Pesan meminta kata sandi.",
-          "why": "Ini informasi rahasia yang tidak boleh diberikan sembarangan."
-        },
-        {
-          "title": "Apa yang perlu dijawab?",
-          "explanation": "Catat pertanyaan, tanggal, persyaratan, atau tindakan yang benar-benar diminta.",
-          "english": "Could you clarify which file we should submit by Monday?",
-          "indonesian": "Bisakah Anda menjelaskan berkas mana yang harus kami kumpulkan sebelum Senin?",
-          "why": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi."
-        },
-        {
-          "title": "Kesopanan dan kejelasan",
-          "explanation": "Gunakan sapaan dan pilihan kata yang tepat tanpa membuat pesan bertele-tele.",
-          "english": "Think carefully before posting a classmate's photograph without permission.",
-          "indonesian": "Pikirkan baik-baik sebelum mengunggah foto teman sekelas tanpa izin.",
-          "why": "Kalimat menghubungkan tindakan daring dengan persetujuan dan privasi orang lain."
-        },
-        {
-          "title": "Balas sesuai kebutuhan",
-          "explanation": "Tulis jawaban yang relevan dan lengkap, bukan hanya mengulang pesan sebelumnya.",
-          "english": "Please remove my name from the public post until I give permission.",
-          "indonesian": "Tolong hapus nama saya dari unggahan publik sampai saya memberi izin.",
-          "why": "Pesan meminta tindakan dengan sopan dan menyatakan batas persetujuan secara jelas."
-        },
-        {
-          "title": "Jangan bagikan sembarangan",
-          "explanation": "Waspadai permintaan kata sandi, alamat pribadi, atau tautan mencurigakan yang tidak diperlukan.",
-          "english": "Although the account used a familiar profile photo, its request for a password made Siska suspicious.",
-          "indonesian": "Meskipun akun memakai foto profil yang dikenal, permintaan kata sandi membuat Siska curiga.",
-          "why": "Identitas visual saja tidak menjamin pengirim asli."
-        },
-        {
-          "title": "Periksa dan revisi",
-          "explanation": "Tinjau ulang penerima, fakta, kesopanan, dan keamanan sebelum pesan dikirim.",
-          "english": "Siska replied through the official class channel instead of sharing her private login details.",
-          "indonesian": "Siska membalas melalui kanal kelas resmi, bukan membagikan data masuk pribadinya.",
-          "why": "Pilihan kanal resmi mengurangi risiko."
+          "title": "Uji apakah balasan sudah cukup",
+          "explanation": "Cari dua rincian pada balasan. Apa yang bisa langsung dilakukan Dito setelah membacanya?",
+          "english": "The workshop starts at 09.00 on Friday.",
+          "indonesian": "Lokakarya dimulai pukul 09.00 pada hari Jumat.",
+          "why": "Hari dan jamnya jelas sehingga Dito bisa merencanakan kedatangannya. Untuk menjawab pertanyaan jadwal, Ibu Sari tidak memerlukan kata sandi Dito."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Subject: Request to confirm a workshop schedule. Dear Ms Sari, I registered for the writing workshop but cannot find the starting time. Could you please confirm when it begins? Thank you, Dito. Reply: The workshop starts at 09.00 on Friday.",
-      "modelIndonesian": "Subjek: Permintaan konfirmasi jadwal lokakarya. Yth. Ibu Sari, saya sudah mendaftar lokakarya menulis tetapi belum menemukan waktu mulainya. Bisakah Ibu mengonfirmasi kapan acara dimulai? Terima kasih, Dito. Balasan: Lokakarya dimulai pukul 09.00 pada hari Jumat."
+      "modelTitle": "Pesan Dito dan balasan tentang lokakarya",
+      "modelEnglish": "Subject: Request to confirm a workshop schedule.\nDear Ms Sari, I registered for the writing workshop but cannot find the starting time. Could you please confirm when it begins?\nThank you, Dito.\n\nReply: The workshop starts at 09.00 on Friday.",
+      "modelIndonesian": "Subjek: Permintaan konfirmasi jadwal lokakarya.\nYth. Ibu Sari, saya sudah mendaftar lokakarya menulis tetapi belum menemukan waktu mulainya. Bisakah Ibu mengonfirmasi kapan acara dimulai?\nTerima kasih, Dito.\n\nBalasan: Lokakarya dimulai pukul 09.00 pada hari Jumat."
     },
     {
       "type": "synthesis",
@@ -105,7 +70,7 @@
     },
     {
       "type": "subheading",
-      "text": "Contoh pemahaman dan kesalahan yang sering terjadi"
+      "text": "Latihan terpisah ketika pesan meminta data rahasia"
     },
     {
       "type": "mistake",
@@ -119,66 +84,66 @@
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Kembali ke pertanyaan Dito. Tiga balasan berikut sama-sama membahas lokakarya. Nilai apakah informasinya sudah cukup untuk membantu Dito datang tepat waktu."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Bandingkan tiga kemungkinan balasan untuk Dito",
       "collapsed": false,
       "items": [
         {
-          "english": "Could you send the assignment link?",
-          "indonesian": "Bisakah kamu mengirimkan tautan tugas?",
-          "note": "“Could you” mengajukan permintaan dengan sopan."
+          "english": "Yes, you are on the list for the writing workshop.",
+          "indonesian": "Ya, namamu ada di daftar peserta lokakarya menulis.",
+          "note": "Balasan ini mengonfirmasi pendaftaran. Apakah itu informasi yang masih dicari Dito?"
         },
         {
-          "english": "I will send the official class link.",
-          "indonesian": "Saya akan mengirim tautan kelas resmi.",
-          "note": "Respons menjawab permintaan secara spesifik."
+          "english": "The writing workshop is on Friday.",
+          "indonesian": "Lokakarya menulis diadakan pada hari Jumat.",
+          "note": "Hari kegiatan sudah jelas. Dito masih perlu menanyakan jamnya."
         },
         {
-          "english": "Please check the sender first.",
-          "indonesian": "Tolong periksa pengirimnya terlebih dahulu.",
-          "note": "Petunjuk ini melindungi identitas digital."
+          "english": "The workshop starts at 09.00 on Friday.",
+          "indonesian": "Lokakarya dimulai pukul 09.00 pada hari Jumat.",
+          "note": "Inilah balasan dalam bacaan. Dito mendapat hari dan jam mulai tanpa perlu memberikan informasi pribadi lagi."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-online-identity",
-      "prompt": "Which sentence means “Saya akan mengirim tautan kelas resmi.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Saya akan mengirim tautan kelas resmi.”?",
+      "prompt": "Which reply gives Dito the information he is missing?",
+      "translation": "Balasan mana yang memberi Dito informasi yang masih ia perlukan?",
       "choices": [
-        "Could you send the assignment link?",
-        "I will send the official class link.",
-        "Please check the sender first."
+        "Your workshop registration is complete.",
+        "The writing workshop starts at 09.00 on Friday.",
+        "The workshop registration desk opens at 09.00."
       ],
       "answer": 1,
       "translationChoices": [
-        "Bisakah kamu mengirimkan tautan tugas?",
-        "Saya akan mengirim tautan kelas resmi.",
-        "Tolong periksa pengirimnya terlebih dahulu."
+        "Pendaftaran lokakaryamu sudah selesai.",
+        "Lokakarya menulis dimulai pukul 09.00 pada hari Jumat.",
+        "Meja pendaftaran lokakarya dibuka pukul 09.00."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Respons menjawab permintaan secara spesifik.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Dito menanyakan kapan lokakaryanya dimulai. Konfirmasi pendaftaran mengulang hal yang sudah ia ketahui. Jam buka meja pendaftaran bisa berbeda dari jam mulai acara.",
+      "hint": "Periksa kegiatan yang dirujuk oleh waktu pada setiap balasan."
     },
     {
       "type": "breakdown",
-      "sentence": "Could you send the assignment link?",
+      "sentence": "Could you please confirm when it begins?",
       "parts": [
         {
-          "english": "Could",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "Could you please confirm",
+          "meaning": "Pembuka yang sopan untuk meminta kepastian dari penerima."
         },
         {
-          "english": "you send the assignment link?",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Bisakah kamu mengirimkan tautan tugas?"
+          "english": "when it begins?",
+          "meaning": "Hal yang ingin dipastikan Dito, yaitu waktu mulai lokakarya."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Latihan terpisah tentang privasi dalam pesan daring",
       "collapsed": false,
       "items": [
         {
@@ -210,39 +175,39 @@
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini informasi kegiatan yang wajar. Ini informasi rahasia yang tidak boleh diberikan sembarangan."
-    },
-    {
-      "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
-      "collapsed": false,
-      "items": [
-        {
-          "english": "Although the account used a familiar profile photo, its request for a password made Siska suspicious.",
-          "indonesian": "Meskipun akun memakai foto profil yang dikenal, permintaan kata sandi membuat Siska curiga.",
-          "note": "Identitas visual saja tidak menjamin pengirim asli."
-        },
-        {
-          "english": "Siska replied through the official class channel instead of sharing her private login details.",
-          "indonesian": "Siska membalas melalui kanal kelas resmi, bukan membagikan data masuk pribadinya.",
-          "note": "Pilihan kanal resmi mengurangi risiko."
-        }
-      ]
+      "prompt": "(A) “Could you tell me when the meeting starts?” (B) “Could you tell me your password?” Both requests sound polite. How should your replies differ?",
+      "translation": "(A) “Bisakah kamu memberi tahu saya kapan pertemuannya dimulai?” (B) “Bisakah kamu memberi tahu saya kata sandimu?” Keduanya terdengar sopan. Bagaimana kamu akan membalas masing-masing pesan?",
+      "answer": "Untuk A, waktu pertemuan bisa diberikan kepada peserta yang berhak mengetahuinya. Untuk B, tolak permintaan kata sandi. Kesopanan tidak membuat data masuk aman untuk dibagikan."
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Bacaan mandiri tentang akun yang menghubungi Siska"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Baca kasus Siska. Cari petunjuk tentang identitas pengirim dan bedakan tugas yang benar dari permintaan yang berisiko."
     },
     {
       "type": "example",
       "text": "Siska received a message from an account showing her class leader’s profile picture. It asked her to upload the group assignment and share the password to the class folder. Siska noticed that the account name contained an extra letter. She contacted the leader through the official class chat. The leader confirmed that the assignment was due on Friday but said that no one should share folder passwords. Siska then uploaded her work through the school platform and reported the suspicious account.",
-      "note": "Ringkasan bantuan: Seorang siswa memverifikasi permintaan mencurigakan sebelum membalas. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+      "note": "Perhatikan apa yang dikonfirmasi ketua kelas dan lewat saluran mana Siska mengumpulkan tugasnya."
+    },
+    {
+      "type": "example_group",
+      "title": "Periksa petunjuk yang ditemukan Siska",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "Siska noticed that the account name contained an extra letter.",
+          "indonesian": "Siska melihat ada satu huruf tambahan pada nama akun itu.",
+          "note": "Foto profilnya tampak familier, tetapi ejaan nama akun berbeda. Detail ini memberi Siska alasan untuk memeriksa identitas pengirim."
+        },
+        {
+          "english": "She contacted the leader through the official class chat.",
+          "indonesian": "Siska menghubungi ketua kelas lewat percakapan resmi kelas.",
+          "note": "Siska memeriksa pesan lewat saluran yang biasa digunakan kelas. Ia bisa memastikan permintaan itu tanpa mengirim kata sandi."
+        }
+      ]
     },
     {
       "type": "text",
@@ -260,10 +225,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kalimat bahasa Inggris lain yang mengikuti konsep ini. Sebelum melihat contoh jawaban, periksa: Informasi apa aman dibagikan, dan apakah tujuan pesannya jelas?",
-      "model": "Could you clarify which file we should submit by Monday?",
-      "modelTranslation": "Bisakah Anda menjelaskan berkas mana yang harus kami kumpulkan sebelum Senin?",
-      "criteria": "Pertanyaan sopan dan jelas membantu komunikasi daring yang bertujuan memperoleh informasi."
+      "prompt": "Bayangkan kamu masih perlu memastikan tempat lokakarya Dito. Tulis satu pertanyaan sopan dalam bahasa Inggris kepada Ibu Sari yang meminta informasi itu saja.",
+      "model": "Ms Sari, could you please confirm where the writing workshop will take place?",
+      "modelTranslation": "Ibu Sari, bisakah Ibu memastikan di mana lokakarya menulis akan berlangsung?",
+      "criteria": "Sebutkan kegiatan yang dimaksud dan tanyakan tempatnya dengan sopan. Pertanyaan itu bisa dijawab tanpa meminta data pribadi."
     },
     {
       "type": "vocabulary",
@@ -295,43 +260,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “assignment”?",
+      "prompt": "Why did Siska contact the class leader through the official class chat?",
       "choices": [
-        "I will send the official class link.",
-        "Please check the sender first.",
-        "Could you send the assignment link?",
-        "The message asks for the meeting time."
+        "To ask permission to give the sender the folder password.",
+        "To report that Friday’s assignment had been cancelled.",
+        "To verify a request from an account whose name looked slightly different.",
+        "To confirm that the familiar picture belonged to a new official account."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[assignment]] muncul dalam kalimat [[Could you send the assignment link?]]. “Could you” mengajukan permintaan dengan sopan.",
+      "explanation": "Foto akun tampak familier, tetapi ada huruf tambahan pada nama akun dan permintaan kata sandi. Siska memeriksa pesannya melalui saluran yang ia kenal. Belum ada bukti bahwa pengirim itu memakai akun resmi baru.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “assignment”?",
+        "prompt": "Mengapa Siska menghubungi ketua kelas lewat percakapan resmi kelas?",
         "choices": [
-          "Saya akan mengirim tautan kelas resmi.",
-          "Tolong periksa pengirimnya terlebih dahulu.",
-          "Bisakah kamu mengirimkan tautan tugas?",
-          "Pesan meminta waktu pertemuan."
+          "Untuk meminta izin memberikan kata sandi folder kepada pengirim.",
+          "Untuk melaporkan bahwa tugas hari Jumat telah dibatalkan.",
+          "Untuk memeriksa permintaan dari akun yang namanya tampak sedikit berbeda.",
+          "Untuk memastikan bahwa foto yang dikenalnya itu milik akun resmi baru."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “Please”?",
+      "prompt": "Which action followed the leader’s clarification and protected the class folder?",
       "choices": [
-        "Could you send the assignment link?",
-        "I will send the official class link.",
-        "The message asks for the meeting time.",
-        "Please check the sender first."
+        "Sending both the assignment and the password through the official class chat.",
+        "Waiting for the suspicious account to confirm the deadline again.",
+        "Reporting the account and leaving the assignment unsubmitted.",
+        "Uploading the work through the school platform and keeping the password private."
       ],
       "answer": 3,
-      "explanation": "Ungkapan [[Please]] muncul dalam kalimat [[Please check the sender first.]]. Petunjuk ini melindungi identitas digital.",
+      "explanation": "Tugasnya memang harus dikumpulkan. Siska bisa memenuhinya melalui platform sekolah tanpa memberikan kata sandi. Melaporkan akun saja belum menyelesaikan tugas.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “Please”?",
+        "prompt": "Tindakan mana yang sesuai dengan penjelasan ketua kelas sekaligus menjaga keamanan folder kelas?",
         "choices": [
-          "Bisakah kamu mengirimkan tautan tugas?",
-          "Saya akan mengirim tautan kelas resmi.",
-          "Pesan meminta waktu pertemuan.",
-          "Tolong periksa pengirimnya terlebih dahulu."
+          "Mengirim tugas dan kata sandi melalui percakapan resmi kelas.",
+          "Menunggu akun yang mencurigakan untuk memastikan tenggat sekali lagi.",
+          "Melaporkan akun itu tanpa mengumpulkan tugas.",
+          "Mengunggah tugas lewat platform sekolah dan merahasiakan kata sandi."
         ]
       }
     }

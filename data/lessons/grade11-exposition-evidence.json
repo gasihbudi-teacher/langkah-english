@@ -13,54 +13,54 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ikuti enam langkah berikut pada satu usulan yang sama—penyediaan tempat isi ulang air minum di sekolah—untuk melihat bagaimana klaim diuji dengan bukti dan batasannya.",
+      "intro": "Baca usulan tempat isi ulang air di sekolah. Bedakan manfaat yang diharapkan penulis, hal yang benar-benar ditanyakan dalam survei, dan hal yang baru bisa diamati saat uji coba.",
       "steps": [
         {
-          "title": "Identifikasi klaim atau usulan utama (Claim)",
-          "explanation": "Temukan pernyataan pendapat atau usulan tindakan yang ingin dibuktikan oleh penulis.",
-          "english": "Schools should install refillable drinking-water stations for students.",
-          "indonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum bagi siswa.",
-          "why": "Ini adalah [[claim]] (usulan utama) yang membutuhkan alasan dan bukti pendukung."
+          "title": "Temukan tindakan yang diusulkan",
+          "explanation": "Baca bagian sebelum [[because]]. Perubahan apa yang diinginkan penulis di sekolah?",
+          "english": "Schools should install refillable drinking-water stations",
+          "indonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum",
+          "why": "Kata [[should]] menyampaikan usulan penulis. Untuk menilainya, kita perlu tahu alasan penulis dan bukti apa yang mendukung usulan itu."
         },
         {
-          "title": "Temukan alasan logisnya (Reason)",
-          "explanation": "Cari penjelasan mengapa penulis menganggap usulan tersebut bermanfaat atau masuk akal.",
-          "english": "Refill stations can reduce single-use plastic bottles and help students stay hydrated.",
-          "indonesian": "Tempat isi ulang dapat mengurangi botol plastik sekali pakai dan membantu siswa tetap terhidrasi.",
-          "why": "Kalimat ini menjelaskan hubungan logis antara fasilitas air dan manfaatnya, tetapi belum berupa data."
+          "title": "Pisahkan manfaat yang diharapkan dari hasil pengamatan",
+          "explanation": "Lanjutkan ke bagian setelah [[because]]. Sebutkan dua manfaat yang menurut penulis bisa terjadi.",
+          "english": "they can reduce single-use plastic bottles and help students stay hydrated.",
+          "indonesian": "fasilitas itu bisa mengurangi penggunaan botol plastik sekali pakai dan membantu siswa mendapat cukup cairan.",
+          "why": "Kata [[can]] di sini menunjukkan kemungkinan. Belum ada laporan bahwa penggunaan botol sudah berkurang atau bahwa siswa sudah minum lebih banyak."
         },
         {
-          "title": "Periksa bukti yang disajikan (Evidence)",
-          "explanation": "Bukti adalah informasi yang dapat diperiksa—seperti hasil survei, catatan pengamatan, atau angka uji coba.",
-          "english": "In a school survey, 48 out of 60 students from two classes said they would bring reusable bottles if water stations were available.",
-          "indonesian": "Dalam survei sekolah, 48 dari 60 siswa dari dua kelas mengatakan mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air.",
-          "why": "Angka 48 dari 60 siswa merupakan bukti konkret dari survei."
+          "title": "Baca angka bersama asalnya",
+          "explanation": "Cari jumlah siswa yang menjawab, jumlah yang menyatakan kesediaan, dan kelas asal mereka.",
+          "english": "48 out of 60 students from two classes",
+          "indonesian": "48 dari 60 siswa dari dua kelas",
+          "why": "Ada 60 peserta survei. Angka 48 hanya menghitung peserta yang mengatakan akan membawa botol pakai ulang jika fasilitasnya tersedia."
         },
         {
-          "title": "Uji relevansi dan metode bukti",
-          "explanation": "Pastikan bukti berkaitan langsung dengan klaim dan jelaskan bagaimana data diperoleh.",
-          "english": "Asking students about their daily water habits is relevant, though self-reported answers may differ from actual behaviour.",
-          "indonesian": "Menanyakan kebiasaan minum harian siswa memang relevan, meskipun jawaban survei bisa berbeda dari perilaku nyata.",
-          "why": "Pembaca kritis membedakan niat yang dilaporkan dalam survei dari tindakan nyata di lapangan."
+          "title": "Tentukan apa yang diukur survei",
+          "explanation": "Kapan siswa mengatakan mereka akan membawa botol? Perhatikan bagian yang diawali [[if]].",
+          "english": "said they would bring reusable bottles if water stations were available.",
+          "indonesian": "mengatakan bahwa mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air.",
+          "why": "Jawaban itu mengukur niat dalam situasi yang dibayangkan. Untuk mengetahui kebiasaan nyata, sekolah perlu mengamati apa yang dilakukan siswa saat tempat isi ulang sudah tersedia."
         },
         {
-          "title": "Temukan keterbatasan sampel (Limitation)",
-          "explanation": "Periksa siapa yang diamati dan apakah sampel kecil boleh digeneralisasikan ke seluruh populasi.",
+          "title": "Tentukan siapa yang terwakili",
+          "explanation": "Baca keberatan penulis sesudah angka survei. Pendapat siapa yang belum diketahui?",
           "english": "Although the survey found strong support, two classes do not represent the entire school.",
-          "indonesian": "Meskipun survei tersebut menemukan dukungan kuat, dua kelas belum mewakili seluruh sekolah.",
-          "why": "Ukuran sampel (hanya dua kelas) membatasi seberapa luas kesimpulan dapat ditarik."
+          "indonesian": "Meski hasil survei menunjukkan dukungan yang kuat, dua kelas itu belum mewakili seluruh sekolah.",
+          "why": "Sebagian besar peserta di kedua kelas itu bersedia membawa botol. Belum ada jawaban dari kelas lain yang bisa menjadi dasar untuk menyimpulkan pendapat seluruh siswa."
         },
         {
-          "title": "Rumuskan kesimpulan yang proporsional",
-          "explanation": "Sesuaikan kekuatan klaim dengan bukti yang ada—gunakan kata hati-hati seperti [[may]] atau usulkan uji coba.",
+          "title": "Hubungkan tindak lanjut dengan bukti yang masih kurang",
+          "explanation": "Apa yang ingin dilakukan penulis sebelum sekolah menambah tempat isi ulang? Pikirkan hal apa yang bisa diamati selama kegiatan itu.",
           "english": "Therefore, the school should run a one-month trial before deciding whether to install more stations.",
-          "indonesian": "Oleh karena itu, sekolah sebaiknya menjalankan uji coba selama satu bulan sebelum memutuskan apakah akan memasang lebih banyak tempat isi ulang.",
-          "why": "Uji coba singkat mengumpulkan bukti tambahan sebelum mengambil keputusan berskala besar."
+          "indonesian": "Karena itu, sekolah sebaiknya mengadakan uji coba selama satu bulan sebelum memutuskan apakah perlu menambah tempat isi ulang.",
+          "why": "Selama uji coba, sekolah bisa mengamati penggunaan fasilitas. Bacaan baru mengusulkan uji coba itu, sehingga hasilnya belum diketahui."
         }
       ],
       "modelTitle": "Teks model utuh: Menguji klaim tempat isi ulang air minum dengan bukti",
       "modelEnglish": "Schools should install refillable drinking-water stations because they can reduce single-use plastic bottles and help students stay hydrated. In a school survey, 48 out of 60 students from two classes said they would bring reusable bottles if water stations were available. Although the survey found strong support, two classes do not represent the entire school. Therefore, the school should run a one-month trial before deciding whether to install more stations.",
-      "modelIndonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum karena fasilitas tersebut dapat mengurangi botol plastik sekali pakai dan membantu siswa tetap terhidrasi. Dalam survei sekolah, 48 dari 60 siswa dari dua kelas mengatakan mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air. Meskipun survei tersebut menemukan dukungan kuat, dua kelas belum mewakili seluruh sekolah. Oleh karena itu, sekolah sebaiknya menjalankan uji coba selama satu bulan sebelum memutuskan apakah akan memasang lebih banyak tempat isi ulang."
+      "modelIndonesian": "Sekolah sebaiknya memasang tempat isi ulang air minum karena fasilitas itu bisa mengurangi penggunaan botol plastik sekali pakai dan membantu siswa mendapat cukup cairan. Dalam survei sekolah, 48 dari 60 siswa dari dua kelas mengatakan mereka akan membawa botol pakai ulang jika tersedia tempat isi ulang air. Meskipun survei tersebut menemukan dukungan kuat, dua kelas belum mewakili seluruh sekolah. Oleh karena itu, sekolah sebaiknya menjalankan uji coba selama satu bulan sebelum memutuskan apakah akan memasang lebih banyak tempat isi ulang."
     },
     {
       "type": "synthesis",
@@ -87,64 +87,64 @@
     },
     {
       "type": "text",
-      "text": "Perhatikan bagaimana ukuran sampel, metode perhitungan, dan bahasa hati-hati memengaruhi kelayakan sebuah klaim."
+      "text": "Berikut tiga tafsiran terhadap survei tempat isi ulang dalam bacaan pembuka. Cocokkan setiap tafsiran dengan jenis data yang benar-benar dikumpulkan."
     },
     {
       "type": "example_group",
-      "title": "Bukti kuat vs. bukti terbatas",
+      "title": "Apa yang bisa disimpulkan dari survei dua kelas?",
       "collapsed": false,
       "items": [
         {
-          "english": "One student's higher test score is encouraging, but it does not prove the study method works for everyone.",
-          "indonesian": "Nilai ujian satu siswa yang lebih tinggi memang menggembirakan, tetapi itu tidak membuktikan metode belajar tersebut berhasil untuk semua orang.",
-          "note": "Satu contoh pribadi tidak cukup untuk mendukung klaim yang berlaku bagi seluruh kelompok."
+          "english": "Most of the students surveyed said they would bring a reusable bottle.",
+          "indonesian": "Sebagian besar siswa yang disurvei mengatakan bahwa mereka akan membawa botol pakai ulang.",
+          "note": "Angka 48 dari 60 mendukung pernyataan tentang niat para peserta survei."
         },
         {
-          "english": "The report claims lower electricity costs, yet it does not explain how the savings were calculated.",
-          "indonesian": "Laporan itu mengklaim biaya listrik lebih rendah, tetapi tidak menjelaskan bagaimana penghematan tersebut dihitung.",
-          "note": "Bukti kurang kredibel jika metode perhitungannya tidak dijelaskan."
+          "english": "The survey does not show how many bottles students actually refilled.",
+          "indonesian": "Survei itu tidak menunjukkan berapa banyak botol yang benar-benar diisi ulang oleh siswa.",
+          "note": "Siswa menjawab pertanyaan tentang hal yang akan mereka lakukan jika fasilitasnya tersedia."
         },
         {
-          "english": "A survey of twelve students cannot represent every teenager in the city.",
-          "indonesian": "Survei terhadap dua belas siswa tidak dapat mewakili seluruh remaja di kota.",
-          "note": "Ukuran sampel dan cakupan responden menentukan batas kesimpulan."
+          "english": "Other classes may respond differently.",
+          "indonesian": "Siswa di kelas lain mungkin memberikan jawaban berbeda.",
+          "note": "Bacaan menyebut dua kelas. Kata [[may]] memberi ruang bagi kemungkinan bahwa kelas lain punya pendapat berbeda."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade11-exposition-evidence",
-      "prompt": "A writer surveys 12 students in one club and concludes that 'all teenagers in the city hate reading.' What is the main flaw in this argument?",
-      "translation": "Seorang penulis menyurvei 12 siswa di satu klub dan menyimpulkan bahwa 'semua remaja di kota membenci membaca.' Apa kelemahan utama argumen ini?",
+      "prompt": "What limits the use of the refill-station survey to predict schoolwide use?",
+      "translation": "Apa yang membatasi penggunaan hasil survei ini untuk memperkirakan pemakaian tempat isi ulang di seluruh sekolah?",
       "choices": [
-        "Twelve students from one club is far too small a sample to represent every teenager in the city.",
-        "Surveys are never allowed to be used as evidence in any article.",
-        "Teenagers in cities do not know how to answer survey questions."
+        "It records intentions in two classes, so actual use across the school is still unknown.",
+        "It records how often bottles were refilled but leaves out the students’ reasons.",
+        "It reports a month of use but leaves out the number of students surveyed."
       ],
       "answer": 0,
       "translationChoices": [
-        "Dua belas siswa dari satu klub adalah sampel yang terlalu kecil untuk mewakili seluruh remaja di kota.",
-        "Survei tidak pernah boleh digunakan sebagai bukti dalam artikel mana pun.",
-        "Remaja di kota tidak tahu cara menjawab pertanyaan survei."
+        "Survei mencatat niat siswa di dua kelas, sehingga penggunaan nyata di seluruh sekolah masih belum diketahui.",
+        "Survei mencatat seberapa sering botol diisi ulang, tetapi tidak menyebut alasan siswa.",
+        "Survei melaporkan penggunaan selama sebulan, tetapi tidak menyebut jumlah siswa yang disurvei."
       ],
-      "explanation": "Kelemahan utamanya adalah overgeneralisasi: sampel kecil dari satu kelompok khusus tidak dapat mewakili seluruh remaja di kota ([[sample limitation]]).",
-      "hint": "Perhatikan perbandingan antara jumlah orang yang disurvei (12 siswa) dan luas klaimnya ('semua remaja di kota')."
+      "explanation": "Siswa menjawab sebelum fasilitas diuji. Kita tahu niat 48 dari 60 peserta, tetapi belum punya catatan pemakaian atau jawaban dari kelas lain.",
+      "hint": "Ingat kembali kapan survei dilakukan dan jenis informasi yang dikumpulkan."
     },
     {
       "type": "breakdown",
-      "sentence": "Although the survey found strong support, it involved only students from two classes.",
+      "sentence": "Although the survey found strong support, two classes do not represent the entire school.",
       "parts": [
         {
           "english": "Although the survey found strong support,",
-          "meaning": "Pengakuan terhadap hasil bukti yang ada ('Meskipun survei tersebut menemukan dukungan kuat')."
+          "meaning": "Meski survei menunjukkan dukungan yang kuat. Penulis mengakui bahwa banyak peserta menyatakan kesediaan membawa botol pakai ulang."
         },
         {
-          "english": "it involved only",
-          "meaning": "Penanda pembatas ('survei itu hanya melibatkan')."
+          "english": "two classes",
+          "meaning": "Dua kelas yang siswanya ikut survei. Dari kelompok inilah jawaban tentang botol pakai ulang berasal."
         },
         {
-          "english": "students from two classes.",
-          "meaning": "Keterbatasan sampel yang mencegah generalisasi ke seluruh sekolah."
+          "english": "do not represent the entire school.",
+          "meaning": "Belum mewakili seluruh sekolah. Kita tidak tahu apakah siswa di kelas lain akan memberi jawaban serupa."
         }
       ]
     },
@@ -156,16 +156,16 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Bacaan kedua tentang usulan tempat isi ulang"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf berikut secara utuh. Tandai mana klaim penulis, bukti surveinya, keterbatasan bukti tersebut, dan solusi tindak lanjutnya."
+      "text": "Artikel siswa berikut membahas fasilitas yang sama. Untuk soal latihan, gunakan informasi dalam artikel ini. Apa yang ditanyakan dalam surveinya, dan tindak lanjut apa yang disarankan sebelum kepala sekolah mengambil keputusan?"
     },
     {
       "type": "example",
       "text": "A student article argues that schools should provide refillable water stations. Students who forget a bottle could still reach drinking water, and reusable bottles may reduce single-use plastic. To support the proposal, the writer describes a survey in two classes in which most respondents wanted easier water access. However, the article acknowledges that two classes do not represent the whole school. It recommends a short trial and a wider survey before the principal decides whether to install more stations.",
-      "note": "Pemetaan argumen: Claim = sekolah sebaiknya menyediakan tempat isi ulang air; Reasons = memudahkan akses air & mengurangi plastik sekali pakai; Evidence = survei di dua kelas; Limitation = dua kelas belum mewakili seluruh sekolah; Action = uji coba singkat & survei lebih luas."
+      "note": "Perhatikan apa yang diinginkan responden dalam artikel ini. Bandingkan informasi itu dengan dua langkah tindak lanjut yang diusulkan penulis."
     },
     {
       "type": "summary",
