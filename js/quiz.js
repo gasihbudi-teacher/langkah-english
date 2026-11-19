@@ -121,12 +121,14 @@ try{
   source.hidden=!passage;
   if(passage && source.dataset.passage!==passage.id){
    source.dataset.passage=passage.id;
-   source.innerHTML=`<a class="passage-jump" href="#question-title">${t('goQuestion')} ↓</a><details open><summary><span class="section-kicker">${t('readingPassage')}</span><strong lang="en">${esc(passage.title)}</strong></summary><p lang="en">${esc(passage.text)}</p></details>`;
+   source.innerHTML=`<a class="passage-jump" href="#question-title">${t('goQuestion')} ↓</a><details><summary><span class="section-kicker">${t('readingPassage')}</span><strong lang="en">${esc(passage.title)}</strong></summary><p lang="en">${esc(passage.text)}</p></details>`;
   }
   document.querySelector('#question').innerHTML=`${passage?`<a class="passage-jump" href="#passage">↑ ${t('goPassage')}</a>`:''}
     <h2 id="question-title" lang="en" tabindex="-1">${index+1}. ${esc(q.prompt)}</h2>${mode==='practice'?translationDetails(q):''}${inputHtml(q,a)}
     <button id="clear-response" class="button button-outline clear-answer" type="button" ${a===null?'disabled':''}>${t('clearAnswer')}</button>
     ${mode==='practice'&&complete?`<button id="explain" class="button button-outline" type="button">${t('checkAnswer')}</button><div id="feedback" role="status" tabindex="-1">${revealed.has(index)?feedbackHtml(q,a):''}</div>`:''}`;
+  const passageJump=document.querySelector('#question a[href="#passage"]');
+  if(passageJump)passageJump.onclick=()=>{source.querySelector('details').open=true};
   const update=(value,focusSelector)=>{answers[index]=value;revealed.delete(index);renderQuestion();if(focusSelector)document.querySelector(focusSelector)?.focus()};
   document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>update(Number(b.dataset.answer),`[data-answer="${b.dataset.answer}"]`));
   document.querySelectorAll('[data-multi]').forEach(el=>el.onchange=()=>{const current=Array.isArray(answers[index])?answers[index]:[];const value=Number(el.dataset.multi);update(el.checked?[...current,value].sort((x,y)=>x-y):current.filter(x=>x!==value),`[data-multi="${value}"]`)});
@@ -145,5 +147,10 @@ try{
  function finish(){if(finished)return;finished=true;clearInterval(tick);const elapsed=Math.max(0,Math.floor((Math.min(deadline||Date.now(),Date.now())-start)/1000));const a={attemptId:globalThis.crypto?.randomUUID?.()||String(Date.now()),resourceId:m.id,pathway:m.placements?.[0]?.pathway||'grammar',title:m.title,at:Date.now(),mode,elapsed,answers:structuredClone(answers),flags:[...flags],questions:d.questions,passages:d.passages||[],result:score(d.questions,answers)};progress.save(a);try{localStorage.removeItem(draftKey);sessionStorage.setItem('langkah.last',JSON.stringify(a))}catch{}location.href='results.html?attempt='+encodeURIComponent(a.attemptId)}
  renderIntro();
  if(location.hash==='#resume' && draft)begin(draft.mode,true);
- onLanguageChange(()=>{if(phase==='intro')renderIntro();else if(phase==='active'){renderActive();clock()}});
+ onLanguageChange(()=>{if(phase==='intro')renderIntro();else if(phase==='active'){
+   const passageOpen=document.querySelector('#passage details')?.open;
+   renderActive();
+   if(passageOpen)document.querySelector('#passage details').open=true;
+   clock();
+  }});
 }catch(e){error(e)}

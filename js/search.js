@@ -1,4 +1,4 @@
-import {getCatalog,esc,link,progress,params,quizDrafts,resourceStatus,pathIllustration,icon} from './core.js';
+import {getCatalog,esc,link,progress,params,quizDrafts,resourceStatus,pathIllustration,icon,byResourceTitle} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 
 initI18n();
@@ -54,8 +54,8 @@ try {
       const words = [r.title,r.description,r.difficulty,r.type,...(r.tags||[]),...(r.grammarTopics||[]),...(r.readingSkills||[])];
       for(const p of r.placements) words.push(p.pathway, t(pathKeys[p.pathway]), p.grade ? 'kelas '+p.grade+' grade '+p.grade : '');
       return !term || words.join(' ').toLocaleLowerCase('id').includes(term);
-    }).sort((a,b)=>(a.order??1000)-(b.order??1000)||a.title.localeCompare(b.title));
-    const items = initial ? featuredIds.map(id=>catalog.resources.find(r=>r.id===id)).filter(Boolean) : hits;
+    }).sort(byResourceTitle);
+    const items = initial ? featuredIds.map(id=>catalog.resources.find(r=>r.id===id)).filter(Boolean).sort(byResourceTitle) : hits;
     input.placeholder = t('searchPlaceholder');
     const count = document.querySelector('#search-count');
     count.tabIndex = -1;
