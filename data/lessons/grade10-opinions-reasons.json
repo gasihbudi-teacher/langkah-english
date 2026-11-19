@@ -1,9 +1,8 @@
 {
   "id": "grade10-opinions-reasons",
   "objectives": [
-    "Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Membedakan usulan, alasan, dan tanggapan dalam percakapan.",
+    "Menjelaskan bagaimana usulan lanjutan menanggapi kebutuhan yang berbeda dalam diskusi."
   ],
   "blocks": [
     {
@@ -13,73 +12,38 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Membedakan pendapat, alasan, dan persetujuan sopan dalam dialog. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti percakapan Alya dan Bima. Cari apa yang ingin diubah Alya, apa yang dikhawatirkan Bima, dan bagian usulan yang disesuaikan setelah mereka berbicara.",
       "steps": [
         {
-          "title": "Opini atau fakta?",
-          "explanation": "Opini adalah penilaian yang bisa diperdebatkan; fakta dapat ditelusuri kebenarannya.",
-          "english": "The library opens at eight.",
-          "indonesian": "Perpustakaan buka pukul delapan.",
-          "why": "Ini fakta jadwal yang bisa diperiksa."
+          "title": "Temukan usulan Alya",
+          "explanation": "Apa yang ingin Alya ubah di sekolahnya? Perhatikan bagian sebelum alasan.",
+          "english": "I think our school should plant more trees",
+          "indonesian": "Menurut saya sekolah kita sebaiknya menanam lebih banyak pohon.",
+          "why": "[[I think]] menunjukkan siapa yang menyampaikan pendapat. [[Should plant]] menandai tindakan yang Alya usulkan."
         },
         {
-          "title": "Ekspresi opini",
-          "explanation": "[[I think]] atau [[In my opinion]] menandai posisi penutur, bukan dengan sendirinya menjadi alasan.",
-          "english": "I think the library should open earlier.",
-          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "why": "“I think” menandai pendapat."
+          "title": "Hubungkan usulan dengan alasannya",
+          "explanation": "Apa yang akan terasa berbeda bagi siswa jika ada lebih banyak tempat teduh? Cari masalah yang disebut Alya.",
+          "english": "because the yard gets very hot.",
+          "indonesian": "karena halaman sekolah menjadi sangat panas.",
+          "why": "Bagian sesudah [[because]] menjawab mengapa Alya ingin menambah pohon. Kata-kata itu mendukung usulannya dengan menyebut keadaan halaman."
         },
         {
-          "title": "Temukan posisi",
-          "explanation": "Tentukan bagian kalimat yang menyebut apa yang diyakini atau dipilih penutur.",
-          "english": "I think the library should open earlier.",
-          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "why": "“I think” menandai pendapat."
+          "title": "Dengarkan persetujuan dan keberatan Bima",
+          "explanation": "Adakah bagian dari pendapat Alya yang diterima Bima? Lalu, kebutuhan apa yang dia kemukakan?",
+          "english": "I agree that shade is helpful, but we also need space for sports.",
+          "indonesian": "Aku setuju tempat teduh itu berguna, tetapi kita juga perlu ruang untuk berolahraga.",
+          "why": "Bima menerima manfaat tempat teduh. Sesudah [[but]], ia mengingatkan bahwa halaman juga dipakai untuk olahraga. Ia mengajak Alya memikirkan tempat yang cocok untuk pohon."
         },
         {
-          "title": "Apa alasan?",
-          "explanation": "Alasan menjawab [[why]]; ulangi opini tanpa alasan belum membuat argumen lebih kuat.",
-          "english": "I think the library should open earlier because some students arrive before class.",
-          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal karena sebagian siswa datang sebelum pelajaran.",
-          "why": "[[Because some students arrive before class]] menjawab mengapa perpustakaan diusulkan buka lebih awal."
-        },
-        {
-          "title": "Hubungkan dengan because",
-          "explanation": "Gabungkan opini dan alasan yang relevan menjadi satu kalimat lengkap.",
-          "english": "I support a reading corner because it gives students a quiet place to study.",
-          "indonesian": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
-          "why": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
-        },
-        {
-          "title": "Dukung dengan contoh",
-          "explanation": "Contoh konkret membuat alasan lebih jelas tetapi tidak otomatis membuktikan klaim berlaku umum.",
-          "english": "I support a reading corner because it gives students a quiet place to study.",
-          "indonesian": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
-          "why": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
-        },
-        {
-          "title": "Setuju dengan sopan",
-          "explanation": "Tunjukkan persetujuan dan sebut alasan agar tanggapan tidak hanya [[yes]].",
-          "english": "I agree with your idea because a quiet room helps students focus.",
-          "indonesian": "Saya setuju dengan idemu karena ruangan tenang membantu siswa berkonsentrasi.",
-          "why": "Tanggapan menyatakan persetujuan dan memberi alasan yang relevan."
-        },
-        {
-          "title": "Tidak setuju dengan hormat",
-          "explanation": "Tanggapi isi alasan pihak lain tanpa menyerang orangnya.",
-          "english": "I see your point, but the staff may need time to prepare the books.",
-          "indonesian": "Saya memahami maksudmu, tetapi petugas mungkin memerlukan waktu menyiapkan buku.",
-          "why": "Tanggapan sopan dapat menyampaikan pertimbangan lain."
-        },
-        {
-          "title": "Bangun dialog",
-          "explanation": "Susun dua atau tiga giliran bicara yang saling menjawab, bukan monolog terpisah.",
-          "english": "A: We need more trees. B: I agree, but we also need space for sports.",
-          "indonesian": "A: Kita membutuhkan lebih banyak pohon. B: Saya setuju, tetapi kita juga membutuhkan tempat olahraga.",
-          "why": "Jawaban B menanggapi gagasan A dan menambah pertimbangan baru; ini dialog, bukan dua kalimat terpisah."
+          "title": "Periksa apa yang berubah sesudah tanggapan itu",
+          "explanation": "Di mana pohon akan ditanam menurut usulan terakhir? Mengapa pilihan tempat itu menanggapi kekhawatiran Bima?",
+          "english": "That is fair. We could plant trees along the fence.",
+          "indonesian": "Ada benarnya. Kita bisa menanam pohon di sepanjang pagar.",
+          "why": "Alya tetap mengusulkan penanaman pohon, tetapi kini menyebut lokasi di tepi halaman. Lokasi itu bisa menyisakan bagian tengah untuk olahraga. [[Could]] menandai usulan yang masih bisa dibahas."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelTitle": "Pohon dan ruang olahraga di halaman sekolah",
       "modelEnglish": "Alya: “I think our school should plant more trees because the yard gets very hot.” Bima: “I agree that shade is helpful, but we also need space for sports.” Alya: “That is fair. We could plant trees along the fence.”",
       "modelIndonesian": "Alya: “Menurut saya sekolah kita sebaiknya menanam lebih banyak pohon karena halaman sangat panas.” Bima: “Saya setuju tempat teduh berguna, tetapi kita juga memerlukan ruang olahraga.” Alya: “Itu masuk akal. Kita bisa menanam pohon di sepanjang pagar.”"
     },
@@ -108,70 +72,70 @@
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Tiga bagian dari percakapan Alya dan Bima"
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Baca bagian berikut sebagai potongan dialog pembuka. Apa peran tiap bagian dalam pembicaraan mereka?"
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Usulan, alasan, dan pertimbangan lain",
       "collapsed": false,
       "items": [
         {
-          "english": "I think the library should open earlier.",
-          "indonesian": "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "note": "“I think” menandai pendapat."
+          "english": "our school should plant more trees",
+          "indonesian": "sekolah kita sebaiknya menanam lebih banyak pohon",
+          "note": "Alya menyampaikan tindakan yang ia inginkan."
         },
         {
-          "english": "Because some students arrive early.",
-          "indonesian": "Karena beberapa siswa datang lebih awal.",
-          "note": "“Because” memberikan alasan."
+          "english": "because the yard gets very hot",
+          "indonesian": "karena halaman sekolah menjadi sangat panas",
+          "note": "Kondisi halaman menjelaskan alasan usulan Alya."
         },
         {
-          "english": "I agree with your idea.",
-          "indonesian": "Saya setuju dengan idemu.",
-          "note": "Kalimat ini menyatakan persetujuan."
+          "english": "but we also need space for sports",
+          "indonesian": "tetapi kita juga perlu ruang untuk berolahraga",
+          "note": "Bima menambahkan kebutuhan lain yang perlu diperhitungkan."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade10-opinions-reasons",
-      "prompt": "Which sentence means “Karena beberapa siswa datang lebih awal.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Karena beberapa siswa datang lebih awal.”?",
+      "prompt": "Why does Alya suggest planting trees along the fence?",
+      "translation": "Mengapa Alya menyarankan agar pohon ditanam di sepanjang pagar?",
       "choices": [
-        "I think the library should open earlier.",
-        "Because some students arrive early.",
-        "I agree with your idea."
+        "To replace the sports area with a shaded garden.",
+        "To add shade and leave room for sports.",
+        "To ask Bima to find another place for sports."
       ],
       "answer": 1,
       "translationChoices": [
-        "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-        "Karena beberapa siswa datang lebih awal.",
-        "Saya setuju dengan idemu."
+        "Untuk mengganti area olahraga dengan taman yang teduh.",
+        "Untuk menambah tempat teduh sekaligus menyisakan ruang olahraga.",
+        "Untuk meminta Bima mencari tempat olahraga lain."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. “Because” memberikan alasan.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Alya menyebut pagar sesudah Bima mengingatkan bahwa mereka perlu tempat olahraga. Letak pohon menjawab kebutuhan itu sambil mempertahankan tujuan awal Alya.",
+      "hint": "Baca tanggapan Bima serta jawaban Alya sesudahnya. Bagian mana dari usulan awal yang ia sesuaikan?"
     },
     {
       "type": "breakdown",
-      "sentence": "I think the library should open earlier.",
+      "sentence": "I agree that shade is helpful, but we also need space for sports.",
       "parts": [
         {
-          "english": "I",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "I agree that shade is helpful,",
+          "meaning": "Bima menerima satu hal dari gagasan Alya, yaitu manfaat tempat teduh."
         },
         {
-          "english": "think the library should open earlier.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Menurut saya perpustakaan sebaiknya buka lebih awal."
+          "english": "but we also need space for sports.",
+          "meaning": "Bima lalu menyampaikan kebutuhan lain. Ia ingin ruang olahraga ikut dipertimbangkan."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Contoh baru untuk membedakan fakta, usulan, dan alasan",
       "collapsed": false,
       "items": [
         {
@@ -203,13 +167,13 @@
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Ini fakta jadwal yang bisa diperiksa. Ini usulan atau pendapat."
+      "prompt": "(A) “The library opens at eight.” (B) “The library should open at seven.” Which statement can you check against the timetable, and which one proposes a change?",
+      "translation": "(A) “Perpustakaan buka pukul delapan.” (B) “Perpustakaan sebaiknya buka pukul tujuh.” Pernyataan mana yang bisa diperiksa lewat jadwal dan mana yang mengusulkan perubahan?",
+      "answer": "A menyatakan jam buka yang bisa diperiksa lewat jadwal perpustakaan. B memakai [[should]] untuk mengusulkan jam buka yang diinginkan penutur."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "title": "Contoh tanggapan terhadap usulan jam buka",
       "collapsed": false,
       "items": [
         {
@@ -226,11 +190,11 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Bacaan mandiri tentang rapat pengurus siswa"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Sekarang baca apa yang sebenarnya diusulkan Rani dalam rapat. Bedakan alasan Rani, tanggapan Bima, dan keputusan yang diambil kelompok."
     },
     {
       "type": "example",
@@ -253,10 +217,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Buat atau bandingkan dua kalimat yang menunjukkan perbedaan pola ini. Mana bagian pendapat, mana alasan, dan mana contoh pendukungnya?",
-      "model": "I support a reading corner because it gives students a quiet place to study.",
-      "modelTranslation": "Saya mendukung pojok baca karena tempat itu memberi siswa ruang tenang untuk belajar.",
-      "criteria": "[[I support]] menyatakan posisi, sedangkan [[because]] memperkenalkan alasan yang dapat dibahas."
+      "prompt": "Tulis dua giliran bicara dalam bahasa Inggris tentang usulan jam buka perpustakaan. Pada giliran pertama, beri usulan dan alasan. Pada giliran kedua, akui manfaatnya lalu ajukan satu hal yang perlu dipertimbangkan.",
+      "model": "Rani: I think the library should open earlier because some students arrive before class. Bima: I agree that early access would help, but the librarians may need time to get ready.",
+      "modelTranslation": "Rani: Menurut saya perpustakaan sebaiknya buka lebih awal karena sebagian siswa datang sebelum pelajaran. Bima: Saya setuju akses lebih pagi akan membantu, tetapi petugas perpustakaan mungkin perlu waktu untuk bersiap.",
+      "criteria": "Pembicara pertama menjelaskan mengapa jadwal perlu diubah. Pembicara kedua menanggapi manfaat itu dan menambahkan pertimbangan yang berkaitan dengan jam buka."
     },
     {
       "type": "vocabulary",
@@ -288,43 +252,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “earlier”?",
+      "prompt": "Why does Rani want the library to open earlier?",
       "choices": [
-        "Because some students arrive early.",
-        "I agree with your idea.",
-        "I think the library should open earlier.",
-        "The library opens at eight."
+        "Librarians need more time to get ready for their work.",
+        "The council needs a room to meet in before school.",
+        "Some students arrive before class and want a quiet place to read.",
+        "Students want to move their first lesson into the library."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[earlier]] muncul dalam kalimat [[I think the library should open earlier.]]. “I think” menandai pendapat.",
+      "explanation": "Rani mengaitkan jam kedatangan siswa dengan kebutuhan akan tempat membaca. Waktu persiapan petugas baru dibahas Bima sebagai pertimbangan terhadap usulan itu.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “earlier”?",
+        "prompt": "Mengapa Rani ingin perpustakaan buka lebih awal?",
         "choices": [
-          "Karena beberapa siswa datang lebih awal.",
-          "Saya setuju dengan idemu.",
-          "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "Perpustakaan buka pukul delapan."
+          "Petugas perpustakaan memerlukan lebih banyak waktu untuk bersiap bekerja.",
+          "Pengurus siswa membutuhkan ruang untuk rapat sebelum sekolah dimulai.",
+          "Sebagian siswa tiba sebelum pelajaran dan ingin tempat yang tenang untuk membaca.",
+          "Siswa ingin memindahkan pelajaran pertama ke perpustakaan."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “agree”?",
+      "prompt": "Which summary best captures the group’s response to Rani’s idea?",
       "choices": [
-        "I think the library should open earlier.",
-        "Because some students arrive early.",
-        "The library opens at eight.",
-        "I agree with your idea."
+        "They voted to open the library earlier permanently.",
+        "They rejected the idea because the librarians needed preparation time.",
+        "They agreed to start a one-week trial before asking the staff.",
+        "They decided to discuss the proposed trial with the librarians first."
       ],
       "answer": 3,
-      "explanation": "Ungkapan [[agree]] muncul dalam kalimat [[I agree with your idea.]]. Kalimat ini menyatakan persetujuan.",
+      "explanation": "Rani mengusulkan uji coba, tetapi mengusulkan dan menyetujui jadwal baru adalah dua hal berbeda. Pada akhir bacaan, kelompok baru sepakat berdiskusi dengan petugas.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “agree”?",
+        "prompt": "Ringkasan mana yang paling tepat menjelaskan tanggapan kelompok terhadap usulan Rani?",
         "choices": [
-          "Menurut saya perpustakaan sebaiknya buka lebih awal.",
-          "Karena beberapa siswa datang lebih awal.",
-          "Perpustakaan buka pukul delapan.",
-          "Saya setuju dengan idemu."
+          "Mereka memilih untuk membuka perpustakaan lebih awal secara permanen.",
+          "Mereka menolak usulan itu karena petugas membutuhkan waktu untuk bersiap.",
+          "Mereka sepakat memulai uji coba selama seminggu sebelum bertanya kepada petugas.",
+          "Mereka memutuskan membicarakan usulan uji coba itu dengan petugas perpustakaan terlebih dahulu."
         ]
       }
     }

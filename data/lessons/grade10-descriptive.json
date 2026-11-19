@@ -61,9 +61,9 @@
           "phase": "Menguji kesan dengan bukti",
           "title": "Pisahkan pengamatan dari kesan penulis",
           "explanation": "Pernyataan seperti jumlah meja atau letak rak dapat diperiksa langsung di dalam teks. Pernyataan seperti “active without being crowded” merupakan kesan yang dirangkum penulis. Kesan bukan berarti salah, tetapi pembaca perlu menemukan rincian yang mendukungnya.",
-          "english": "The studio feels active without being crowded.",
-          "indonesian": "Studio itu terasa aktif tanpa menjadi sesak.",
-          "why": "Kata feels menandai kesan. Pembaca dapat menguji kesan itu dengan rincian tentang meja kerja, alat yang terlihat, ruang yang memiliki fungsi, serta bunyi pelan dari ruang belakang.",
+          "english": "The studio feels active without being crowded: its tools are visible, its spaces have clear purposes, and its quiet sounds suggest that work is taking place throughout the building.",
+          "indonesian": "Studio itu terasa aktif tanpa menjadi sesak: peralatannya terlihat, setiap ruang memiliki fungsi yang jelas, dan suara-suara pelan menunjukkan bahwa kegiatan berlangsung di seluruh bangunan.",
+          "why": "Kata [[feels]] menandai kesan penulis. Sesudah tanda titik dua, penulis menjelaskan dasar kesannya. Alat kerja yang tampak dan bunyi pelan memberi petunjuk bahwa orang sedang bekerja. Tata ruang yang jelas membantu menjelaskan mengapa tempat itu terasa lapang.",
           "check": "Apakah kalimat “The studio feels active without being crowded” merupakan pengamatan langsung atau kesan yang perlu didukung rincian?",
           "checkAnswer": "Kalimat itu menyampaikan kesan penulis. Kesan tersebut didukung oleh detail tentang kegiatan yang berlangsung dan tata ruang yang tetap teratur."
         },
@@ -176,109 +176,109 @@
     },
     {
       "type": "example_group",
-      "title": "1 · Pilih detail yang dapat dibayangkan",
+      "title": "Dari keterangan umum ke rincian di studio",
       "collapsed": false,
       "items": [
         {
-          "english": "Three framed prints hang above the wooden counter.",
-          "indonesian": "Tiga karya cetak berbingkai tergantung di atas konter kayu.",
-          "note": "Jumlah, jenis benda, dan posisinya membentuk [[precise details]] memberi gambaran yang lebih jelas daripada kata umum seperti things."
+          "english": "There are some things on the counter.",
+          "indonesian": "Ada beberapa benda di atas konter.",
+          "note": "Ini versi umum sebagai pembanding. Coba bayangkan isi konternya sebelum membaca rincian penulis."
         },
         {
-          "english": "There are some things on the wall.",
-          "indonesian": "Ada beberapa benda di dinding.",
-          "note": "Kalimat ini terlalu umum. Pembaca belum mengetahui benda apa yang dimaksud atau bagaimana susunannya."
+          "english": "On the counter, jars of brushes stand beside folded cloths and small labelled boxes.",
+          "indonesian": "Di atas konter, stoples berisi kuas terletak di samping kain terlipat dan kotak-kotak kecil berlabel.",
+          "note": "Penulis menyebut apa yang ada di atas konter. Kata [[beside]] juga membantu kita membayangkan posisi benda-benda itu."
         },
         {
-          "english": "A narrow shelf runs along the left wall.",
-          "indonesian": "Rak sempit membentang di sepanjang dinding kiri.",
-          "note": "Runs along dan left wall menunjukkan posisi rak secara spesifik."
+          "english": "A narrow shelf runs along the left wall",
+          "indonesian": "Rak sempit membentang di sepanjang dinding kiri",
+          "note": "Kata [[along]] menunjukkan arah rak. Frasa [[the left wall]] memberi tahu kita di sisi mana rak itu berada."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade10-descriptive",
-      "prompt": "Which detail best supports the impression that the studio is active but not crowded?",
-      "translation": "Rincian mana yang paling mendukung kesan bahwa studio itu aktif tetapi tidak sesak?",
+      "prompt": "Which detail links the impression of ongoing work with an orderly workspace?",
+      "translation": "Rincian mana yang menunjukkan bahwa ada pekerjaan yang sedang berlangsung di ruang yang tertata?",
       "choices": [
         "A deep blue door faces the river.",
-        "Soft tapping comes from a back room, but the front room does not feel noisy.",
+        "Unfinished prints sit on tables arranged in two parallel rows.",
         "Three tall windows look onto a row of rain trees."
       ],
       "answer": 1,
       "translationChoices": [
         "Pintu biru tua menghadap ke sungai.",
-        "Bunyi ketukan pelan terdengar dari ruang belakang, tetapi ruang depan tidak terasa bising.",
+        "Karya cetak yang belum selesai berada di atas meja-meja yang tersusun dalam dua baris sejajar.",
         "Tiga jendela tinggi menghadap deretan pohon trembesi."
       ],
-      "explanation": "Pilihan kedua menunjukkan adanya kegiatan melalui bunyi ketukan, sekaligus menyatakan bahwa ruang depan tidak terasa bising. Kedua bagian itu bersama-sama mendukung kesan aktif tetapi tidak sesak.",
-      "hint": "Cari pilihan yang memberi bukti tentang kegiatan sekaligus tingkat kebisingan, bukan hanya warna atau posisi benda."
+      "explanation": "Karya cetak yang belum selesai menunjukkan pekerjaan yang masih berlangsung. Susunan meja dalam dua baris mendukung kesan rapi. Warna pintu dan arah jendela membantu kita membayangkan tampilan luar studio.",
+      "hint": "Cari dua petunjuk sekaligus. Apa yang menunjukkan ada pekerjaan di studio? Bagaimana penulis menggambarkan penataan ruangnya?"
     },
     {
       "type": "example_group",
-      "title": "2 · Gunakan detail inderawi secara tepat",
+      "title": "Perhatikan cahaya, aroma, dan bunyi di studio",
       "collapsed": false,
       "items": [
         {
-          "english": "A quiet fan turns above the central path.",
-          "indonesian": "Kipas yang berputar pelan berada di atas jalur tengah.",
-          "note": "Kalimat ini memberi detail visual tentang kipas dan posisinya. Kata quiet juga memberi petunjuk tentang tingkat bunyi."
+          "english": "Pale walls reflect daylight from the windows",
+          "indonesian": "Dinding berwarna pucat memantulkan cahaya siang dari jendela",
+          "note": "Cahaya yang terpantul membantu menjelaskan mengapa ruang depan tampak terang."
         },
         {
-          "english": "The room carries the faint scent of fresh paper.",
-          "indonesian": "Ruangan itu memiliki aroma samar kertas baru.",
-          "note": "Scent mengarahkan pembaca pada indera penciuman, bukan penglihatan."
+          "english": "The faint smell of paint mixes with the scent of polished wood.",
+          "indonesian": "Aroma cat yang samar bercampur dengan aroma kayu yang dipoles.",
+          "note": "Kata [[faint]] memberi gambaran tentang seberapa kuat aroma cat tercium."
         },
         {
-          "english": "A low humming sound comes from the ceiling fan.",
-          "indonesian": "Suara dengung rendah berasal dari kipas langit-langit.",
-          "note": "Sound dan humming menggambarkan bunyi yang dapat didengar. Detail ini tidak otomatis berarti ruangan bising."
+          "english": "Soft tapping comes from a back room, where someone is preparing a frame.",
+          "indonesian": "Bunyi ketukan pelan terdengar dari ruang belakang, tempat seseorang sedang menyiapkan bingkai.",
+          "note": "Bunyi ini membantu kita membayangkan kegiatan di ruangan lain meskipun kita belum melihat orang yang bekerja di sana."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "3 · Dukung kesan dengan beberapa rincian",
+      "title": "Hubungkan rincian dengan kesan penulis",
       "collapsed": false,
       "items": [
         {
-          "english": "The tables are arranged in two rows, and each tool has a labelled place.",
-          "indonesian": "Meja-meja ditata dalam dua baris, dan setiap alat memiliki tempat berlabel.",
-          "note": "Dua rincian tersebut mendukung kesan bahwa area kerja tertata."
+          "english": "At the centre, four wide tables form two parallel rows.",
+          "indonesian": "Di bagian tengah, empat meja lebar membentuk dua baris sejajar.",
+          "note": "Susunan meja mudah dibayangkan. Rincian ini mendukung kesan bahwa area kerja tertata."
         },
         {
-          "english": "The courtyard is quiet, although visitors can still hear the river.",
-          "indonesian": "Halaman itu tenang, meskipun pengunjung masih dapat mendengar sungai.",
-          "note": "Although menghubungkan suasana tenang dengan bunyi yang tetap terdengar; keduanya tidak saling meniadakan."
+          "english": "Each table holds paper, pencils, and unfinished prints.",
+          "indonesian": "Di setiap meja ada kertas, pensil, dan karya cetak yang belum selesai.",
+          "note": "Karya yang masih dikerjakan membantu menjelaskan mengapa studio terasa aktif."
         },
         {
-          "english": "Its open path makes the display area easy to cross.",
-          "indonesian": "Jalur terbukanya membuat area pajangan mudah dilalui.",
-          "note": "Its merujuk pada tempat yang sedang dijelaskan. Rincian tentang jalur mendukung simpulan mengenai kemudahan bergerak."
+          "english": "finished pieces rest there, arranged by size rather than colour.",
+          "indonesian": "karya yang sudah selesai diletakkan di sana dan disusun berdasarkan ukuran, bukan warna.",
+          "note": "Dalam paragraf ketiga, [[there]] menunjuk rak di dinding kiri. Cara karya disusun memberi kita bukti lain tentang kerapian studio."
         },
         {
-          "english": "Each display has a small label with its title and maker.",
-          "indonesian": "Setiap pajangan memiliki label kecil yang memuat judul dan pembuatnya.",
-          "note": "Detail ini menjelaskan informasi yang tersedia pada pajangan. It/its dapat menghubungkan keterangan dengan benda yang telah disebutkan tanpa mengulang nama benda."
+          "english": "Visitors can pause there before looking at the displays again.",
+          "indonesian": "Pengunjung bisa beristirahat di sana sebelum kembali melihat pajangan.",
+          "note": "Dalam paragraf terakhir, [[there]] menunjuk halaman kecil. Halaman memberi pengunjung tempat untuk berhenti sejenak di luar area kerja."
         }
       ]
     },
     {
       "type": "breakdown",
-      "sentence": "Three framed prints hang above the wooden counter.",
+      "sentence": "On the counter, jars of brushes stand beside folded cloths and small labelled boxes.",
       "parts": [
         {
-          "english": "Three framed prints",
-          "meaning": "Objek yang dijelaskan beserta jumlah dan cirinya."
+          "english": "On the counter,",
+          "meaning": "Di atas konter. Bagian awal kalimat menunjukkan lokasi."
         },
         {
-          "english": "hang",
-          "meaning": "Kata kerja yang menyatakan posisi benda."
+          "english": "jars of brushes",
+          "meaning": "Stoples berisi kuas. Inilah benda yang posisinya dijelaskan."
         },
         {
-          "english": "above the wooden counter",
-          "meaning": "Keterangan ruang yang menunjukkan letak karya cetak."
+          "english": "stand beside folded cloths and small labelled boxes.",
+          "meaning": "Stoples itu terletak di samping kain terlipat dan kotak-kotak kecil berlabel. Kata [[beside]] menunjukkan posisi stoples terhadap benda lain."
         }
       ]
     },
@@ -378,7 +378,7 @@
         "The small courtyard"
       ],
       "answer": 2,
-      "explanation": "Kalimat sebelumnya menyebutkan halaman kecil yang terbuka ke arah sungai. Kata there merujuk pada halaman tersebut.",
+      "explanation": "Pada awal paragraf terakhir, penulis memperkenalkan [[a small courtyard]]. Sesudah menyebut pot, bangku, dan kanopi di halaman itu, penulis memakai [[there]] untuk merujuk kembali ke halaman.",
       "skill": "Reference",
       "translationId": {
         "prompt": "Dalam kalimat “Visitors can pause there”, kata “there” merujuk pada apa?",

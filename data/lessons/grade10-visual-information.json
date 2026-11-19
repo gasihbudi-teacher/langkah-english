@@ -1,9 +1,9 @@
 {
   "id": "grade10-visual-information",
   "objectives": [
-    "Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual.",
-    "Membaca contoh dari mudah ke panjang dan menelaah satu teks utuh.",
-    "Mengerjakan cek pemahaman, latihan kalimat, dan kuis yang terhubung."
+    "Menemukan kegiatan, waktu, dan lokasi dengan membaca judul dan baris jadwal pada poster.",
+    "Membaca persentase bersama label dan jumlah acuannya.",
+    "Menilai simpulan tentang pendaftaran dan kehadiran berdasarkan data yang tersedia."
   ],
   "blocks": [
     {
@@ -13,82 +13,54 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menggabungkan angka, judul, dan keterangan untuk memahami informasi visual. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Baca poster Pekan Membaca. Bagian jadwal membantumu merencanakan kunjungan, sedangkan grafik di bawahnya menyajikan contoh data pendaftaran. Cari label yang menjawab pertanyaanmu sebelum membaca angkanya.",
       "steps": [
         {
-          "title": "Mengapa memakai visual?",
-          "explanation": "Poster dan infografik menyatukan teks, angka, dan gambar untuk menyampaikan pesan tertentu.",
-          "english": "The event starts at 8 a.m.",
-          "indonesian": "Acara dimulai pukul delapan pagi.",
-          "why": "Waktu adalah informasi faktual."
+          "title": "Cari lokasi yang berlaku untuk semua hari",
+          "explanation": "Baca kalimat tepat di bawah judul. Apakah kamu perlu mencari alamat berbeda untuk setiap kegiatan?",
+          "english": "All activities take place at the school library",
+          "indonesian": "Semua kegiatan berlangsung di perpustakaan sekolah",
+          "why": "Kata [[all]] menunjukkan bahwa keterangan tempat ini berlaku untuk tukar buku, bercerita, dan kunjungan hari Jumat."
         },
         {
-          "title": "Baca judul dan tujuan",
-          "explanation": "Judul membantu mengetahui pertanyaan apa yang sedang dijawab sebuah visual.",
-          "english": "SCHOOL READING WEEK — Monday: book exchange.",
-          "indonesian": "PEKAN MEMBACA SEKOLAH — Senin: tukar buku.",
-          "why": "Judul memberi tema umum, sedangkan baris hari Senin menyebut salah satu kegiatan."
+          "title": "Baca satu baris jadwal sampai selesai",
+          "explanation": "Kamu ingin bertukar buku. Ikuti baris yang memuat kegiatan itu dari nama hari sampai jam berakhirnya.",
+          "english": "MONDAY · Book exchange · 09:00–11:00",
+          "indonesian": "SENIN · Tukar buku · 09.00–11.00",
+          "why": "[[Book exchange]] sejajar dengan Senin dan pukul 09.00–11.00. Selisih jam mulai dan selesai menunjukkan kegiatan berlangsung dua jam."
         },
         {
-          "title": "Judul kecil dan label",
-          "explanation": "Label menunjukkan arti tiap bagian; jangan membaca angka tanpa labelnya.",
-          "english": "Thirty students registered.",
-          "indonesian": "Tiga puluh siswa telah mendaftar.",
-          "why": "Angka perlu dihubungkan dengan apa yang dihitung."
+          "title": "Bedakan jam dan lama kegiatan",
+          "explanation": "Bandingkan jam sesi bercerita dengan acara tukar buku. Apa yang sama? Apa yang berbeda?",
+          "english": "WEDNESDAY · Storytelling · 10:00–11:00",
+          "indonesian": "RABU · Bercerita · 10.00–11.00",
+          "why": "Kedua sesi berakhir pukul 11.00. Sesi Rabu mulai sejam lebih siang sehingga durasinya hanya satu jam."
         },
         {
-          "title": "Simbol dan legenda",
-          "explanation": "Warna atau ikon hanya bermakna jika dipahami menurut legenda atau penjelasan yang disediakan.",
-          "english": "♻ = recycling point; ✓ = registration completed.",
-          "indonesian": "♻ = titik daur ulang; ✓ = pendaftaran selesai.",
-          "why": "Makna ikon harus mengikuti legenda yang diberikan pada visual, bukan selalu makna pribadi pembaca."
+          "title": "Temukan apa yang dihitung dalam grafik",
+          "explanation": "Beralih ke bagian bawah poster. Baca label di atas batang sebelum melihat persentasenya.",
+          "english": "SAMPLE REGISTRATIONS BY DAY (100 total)",
+          "indonesian": "CONTOH DATA PENDAFTARAN PER HARI (total 100 pendaftaran)",
+          "why": "Kata [[registrations]] menunjukkan apa yang dihitung. Angka 100 adalah jumlah seluruh pendaftaran pada contoh grafik ini."
         },
         {
-          "title": "Baca angka",
-          "explanation": "Identifikasi angka mentah dan pastikan terkait dengan kategori yang benar.",
-          "english": "20 students joined on Monday.",
-          "indonesian": "Dua puluh siswa ikut pada hari Senin.",
-          "why": "Angka ini menghitung orang."
+          "title": "Bandingkan bagian dari total yang sama",
+          "explanation": "Hari mana memiliki bagian paling besar? Cek angka di samping nama setiap hari.",
+          "english": "Mon 30% · Wed 45% · Fri 25%",
+          "indonesian": "Senin 30% · Rabu 45% · Jumat 25%",
+          "why": "Rabu memiliki bagian terbesar. Karena totalnya 100 pendaftaran, 45% di sini setara dengan 45 pendaftaran. Jika totalnya berbeda, jumlah yang diwakili oleh 45% juga berbeda."
         },
         {
-          "title": "Satuan dan persentase",
-          "explanation": "[[30%]] berbeda dari [[30 people]]; pahami total acuan dan satuannya.",
-          "english": "30% of 100 students chose Friday.",
-          "indonesian": "30% dari 100 siswa memilih Jumat.",
-          "why": "[[30%]] menyatakan 30 dari setiap 100; pahami total acuan sebelum membandingkan angka."
-        },
-        {
-          "title": "Gabungkan dengan kategori",
-          "explanation": "Hubungkan angka dengan kelompok dan periode waktu yang dimaksud.",
-          "english": "The chart compares percentages, so the bars do not represent the number of students directly.",
-          "indonesian": "Grafik itu membandingkan persentase, sehingga batangnya tidak langsung menunjukkan jumlah siswa.",
-          "why": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan."
-        },
-        {
-          "title": "Bandingkan informasi",
-          "explanation": "Bandingkan bagian yang memang menggunakan satuan dan ukuran sebanding.",
-          "english": "According to the timetable, the second workshop lasts forty-five minutes.",
-          "indonesian": "Menurut jadwal, lokakarya kedua berlangsung empat puluh lima menit.",
-          "why": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai."
-        },
-        {
-          "title": "Simpulan yang dibatasi data",
-          "explanation": "Visual tidak otomatis menjelaskan sebab suatu perubahan; jangan menambah hasil yang tidak ditampilkan.",
-          "english": "The poster reports more registrations on Wednesday, but it does not show how many people actually attended.",
-          "indonesian": "Poster melaporkan lebih banyak pendaftaran hari Rabu, tetapi tidak menampilkan jumlah kehadiran sebenarnya.",
-          "why": "Pendaftaran dan kehadiran bukan ukuran yang sama."
-        },
-        {
-          "title": "Jelaskan pesan utuh",
-          "explanation": "Jawab pertanyaan tentang poster dengan bukti dari judul, label, angka, dan konteksnya.",
-          "english": "Because the chart shows only three days, we cannot conclude that interest rose throughout the month.",
-          "indonesian": "Karena grafik hanya menunjukkan tiga hari, kita tidak bisa menyimpulkan minat terus naik sepanjang bulan.",
-          "why": "Kesimpulan harus sesuai cakupan data."
+          "title": "Periksa batas simpulanmu",
+          "explanation": "Baca catatan di sebelah grafik. Data tambahan apa yang diperlukan untuk menentukan berapa orang yang benar-benar datang?",
+          "english": "Illustrative example — not attendance data",
+          "indonesian": "Data ini hanya contoh. Jumlah kehadiran tidak ditampilkan.",
+          "why": "Mendaftar dan hadir adalah dua hal berbeda. Untuk menghitung orang yang benar-benar datang, kita memerlukan catatan kehadiran masing-masing sesi."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "POSTER: School Reading Week. Monday: book exchange, 09.00–11.00. Wednesday: storytelling, 10.00–11.00. Friday: library visit, 08.00–09.00. All activities take place at the school library unless stated otherwise.",
-      "modelIndonesian": "POSTER: Pekan Membaca Sekolah. Senin: tukar buku, pukul 09.00–11.00. Rabu: bercerita, pukul 10.00–11.00. Jumat: kunjungan perpustakaan, pukul 08.00–09.00. Semua kegiatan berlangsung di perpustakaan sekolah kecuali disebutkan lain.",
+      "modelTitle": "Poster Pekan Membaca Sekolah",
+      "modelEnglish": "SCHOOL READING WEEK\nAll activities take place at the school library\n\nEVENT SCHEDULE\nMONDAY · Book exchange · 09:00–11:00\nWEDNESDAY · Storytelling · 10:00–11:00\nFRIDAY · Library visit · 08:00–09:00\n\nSAMPLE REGISTRATIONS BY DAY (100 total)\nMon 30% · Wed 45% · Fri 25%\nIllustrative example — not attendance data",
+      "modelIndonesian": "PEKAN MEMBACA SEKOLAH\nSemua kegiatan berlangsung di perpustakaan sekolah\n\nJADWAL KEGIATAN\nSENIN · Tukar buku · 09.00–11.00\nRABU · Bercerita · 10.00–11.00\nJUMAT · Kunjungan perpustakaan · 08.00–09.00\n\nCONTOH DATA PENDAFTARAN PER HARI (total 100 pendaftaran)\nSenin 30% · Rabu 45% · Jumat 25%\nData ini hanya contoh. Jumlah kehadiran tidak ditampilkan.",
       "modelImage": "assets/reading-week-poster.svg",
       "modelImageAlt": "Poster School Reading Week: Senin tukar buku pukul 09–11, Rabu bercerita pukul 10–11, Jumat kunjungan perpustakaan pukul 08–09; contoh pendaftaran 30%, 45%, 25% dari total 100."
     },
@@ -111,9 +83,9 @@
     },
     {
       "type": "mistake",
-      "incorrect": "The chart proves attendance increased all week.",
-      "correct": "The chart shows registration increases on the three listed days only.",
-      "explanation": "Hindari memperluas kesimpulan melewati data pada poster."
+      "incorrect": "More students attended on Wednesday than on Friday.",
+      "correct": "Wednesday has a larger share of the sample registrations than Friday.",
+      "explanation": "Grafik memberi Rabu 45% dan Jumat 25% dari contoh pendaftaran. Grafik ini tidak mencatat siapa yang hadir, jadi perbandingan jumlah peserta yang datang belum bisa dibuat."
     },
     {
       "type": "heading",
@@ -121,104 +93,98 @@
     },
     {
       "type": "text",
-      "text": "Baca kalimat Inggris dulu. Lalu baca terjemahan bahasa Indonesianya dan penjelasan “Mengapa?”. Kamu tidak perlu menghafal sekaligus."
+      "text": "Kembali ke tiga baris jadwal pada poster Pekan Membaca. Pasangkan setiap kegiatan dengan hari dan jamnya."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar, satu per satu",
+      "title": "Membaca jadwal Pekan Membaca",
       "collapsed": false,
       "items": [
         {
-          "english": "The event starts at 8 a.m.",
-          "indonesian": "Acara dimulai pukul delapan pagi.",
-          "note": "Waktu adalah informasi faktual."
+          "english": "The book exchange lasts two hours.",
+          "indonesian": "Acara tukar buku berlangsung dua jam.",
+          "note": "Durasinya dihitung dari pukul 09.00 sampai 11.00 pada hari Senin."
         },
         {
-          "english": "Bring a reusable bottle.",
-          "indonesian": "Bawalah botol minum yang dapat dipakai ulang.",
-          "note": "Kalimat pendek dapat berupa ajakan."
+          "english": "Storytelling starts at 10 a.m.",
+          "indonesian": "Sesi bercerita dimulai pukul 10 pagi.",
+          "note": "Pukul 10.00 adalah jam mulai pada baris Rabu."
         },
         {
-          "english": "Thirty students registered.",
-          "indonesian": "Tiga puluh siswa telah mendaftar.",
-          "note": "Angka perlu dihubungkan dengan apa yang dihitung."
+          "english": "The library visit ends at 9 a.m.",
+          "indonesian": "Kunjungan perpustakaan berakhir pukul 9 pagi.",
+          "note": "Angka kedua pada rentang waktu hari Jumat menunjukkan jam selesai."
         }
       ]
     },
     {
       "type": "checkpoint",
       "id": "guided-grade10-visual-information",
-      "prompt": "Which sentence means “Bawalah botol minum yang dapat dipakai ulang.”?",
-      "translation": "Kalimat bahasa Inggris mana yang berarti “Bawalah botol minum yang dapat dipakai ulang.”?",
+      "prompt": "You can stay at the library from 10:00 to 11:00 only. Which activity can you attend from beginning to end?",
+      "translation": "Kamu hanya bisa berada di perpustakaan dari pukul 10.00 sampai 11.00. Kegiatan mana yang bisa kamu ikuti dari awal sampai selesai?",
       "choices": [
-        "The event starts at 8 a.m.",
-        "Bring a reusable bottle.",
-        "Thirty students registered."
+        "The book exchange on Monday.",
+        "Storytelling on Wednesday.",
+        "The library visit on Friday."
       ],
       "answer": 1,
       "translationChoices": [
-        "Acara dimulai pukul delapan pagi.",
-        "Bawalah botol minum yang dapat dipakai ulang.",
-        "Tiga puluh siswa telah mendaftar."
+        "Tukar buku pada hari Senin.",
+        "Sesi bercerita pada hari Rabu.",
+        "Kunjungan perpustakaan pada hari Jumat."
       ],
-      "explanation": "Pilihan kedua sama dengan contoh yang sudah dibahas. Kalimat pendek dapat berupa ajakan.",
-      "hint": "Lihat kembali tiga contoh dasar. Bandingkan makna kata yang membedakan ketiganya."
+      "explanation": "Sesi bercerita berlangsung tepat pukul 10.00–11.00. Pada pukul 10.00, acara tukar buku sudah berjalan satu jam, sedangkan kunjungan hari Jumat sudah selesai.",
+      "hint": "Bandingkan jam mulai dan jam selesai setiap kegiatan dengan waktu yang kamu punya."
     },
     {
       "type": "breakdown",
-      "sentence": "The event starts at 8 a.m.",
+      "sentence": "All activities take place at the school library",
       "parts": [
         {
-          "english": "The",
-          "meaning": "Baca kata pembuka ini untuk memulai memahami makna."
+          "english": "All activities",
+          "meaning": "Semua kegiatan yang tercantum, apa pun harinya."
         },
         {
-          "english": "event starts at 8 a.m.",
-          "meaning": "Baca bagian berikut sebagai informasi utama. Makna lengkap: Acara dimulai pukul delapan pagi."
+          "english": "take place",
+          "meaning": "Berlangsung. Ungkapan ini menghubungkan kegiatan dengan tempatnya."
+        },
+        {
+          "english": "at the school library",
+          "meaning": "Di perpustakaan sekolah. Ini keterangan lokasi untuk ketiga kegiatan."
         }
       ]
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan makna dan tujuan",
+      "title": "Bedakan durasi, jumlah, dan persentase",
       "collapsed": false,
       "items": [
         {
-          "english": "20 students joined on Monday.",
-          "indonesian": "Dua puluh siswa ikut pada hari Senin.",
-          "note": "Angka ini menghitung orang."
+          "english": "Friday’s library visit lasts one hour.",
+          "indonesian": "Kunjungan hari Jumat berlangsung satu jam.",
+          "note": "Satuan jam memberi tahu kita lama kunjungan."
         },
         {
-          "english": "20 minutes of exercise were planned.",
-          "indonesian": "Direncanakan dua puluh menit olahraga.",
-          "note": "Angka sama tidak berarti informasi sama karena satuannya berbeda."
+          "english": "Friday accounts for 25% of the sample registrations.",
+          "indonesian": "Sebanyak 25% dari contoh pendaftaran tercatat untuk hari Jumat.",
+          "note": "Persentase membandingkan bagian hari Jumat dengan total pendaftaran semua hari."
         },
         {
-          "english": "The poster says registration closes on Friday, not Saturday.",
-          "indonesian": "Poster itu menyatakan pendaftaran ditutup hari Jumat, bukan Sabtu.",
-          "note": "Informasi tenggat harus diambil dari teks poster, bukan dikira-kira."
-        },
-        {
-          "english": "The chart compares percentages, so the bars do not represent the number of students directly.",
-          "indonesian": "Grafik itu membandingkan persentase, sehingga batangnya tidak langsung menunjukkan jumlah siswa.",
-          "note": "[[Percentages]] berbeda dari jumlah mentah; perlu melihat satuan sebelum membandingkan."
-        },
-        {
-          "english": "According to the timetable, the second workshop lasts forty-five minutes.",
-          "indonesian": "Menurut jadwal, lokakarya kedua berlangsung empat puluh lima menit.",
-          "note": "Informasi waktu diambil dari jadwal; pembaca perlu membedakan durasi dari waktu mulai."
+          "english": "In this sample, 25 registrations are for Friday.",
+          "indonesian": "Dalam contoh ini, ada 25 pendaftaran untuk hari Jumat.",
+          "note": "Jumlahnya 25 karena totalnya 100. Angka itu tidak menunjukkan lama kunjungan."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "What changes in meaning between the two examples?",
-      "translation": "Apa yang berbeda dalam makna atau tujuan kedua contoh?",
-      "answer": "Perhatikan apakah yang berubah adalah tindakan, tujuan kalimat, waktu, alasan, atau kekuatan klaim. Angka ini menghitung orang. Angka sama tidak berarti informasi sama karena satuannya berbeda."
+      "prompt": "(A) “Wednesday accounts for 45% of registrations.” (B) “45% of attendees came on Wednesday.” Which claim does the Reading Week chart support? Why?",
+      "translation": "(A) “Sebanyak 45% dari pendaftaran tercatat untuk hari Rabu.” (B) “Sebanyak 45% dari seluruh peserta yang hadir datang pada hari Rabu.” Pernyataan mana yang didukung grafik Pekan Membaca? Mengapa?",
+      "answer": "Pernyataan A sesuai dengan label [[registrations]]. Untuk memeriksa B kita perlu tahu siapa yang benar-benar datang. Poster tidak menyediakan daftar hadir."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat lebih panjang",
+      "title": "Simpulan yang bisa diuji dari poster Pekan Membaca",
       "collapsed": false,
       "items": [
         {
@@ -235,16 +201,16 @@
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Latihan mandiri tentang poster tantangan membaca"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf Inggris berikut. Jika terasa sulit, cari kosakata yang sudah diperkenalkan, lalu temukan satu kalimat utama terlebih dahulu."
+      "text": "Bacaan ini menggambarkan poster lain, yaitu tantangan membaca tiga hari. Kali ini angkanya berupa jumlah pendaftaran. Cari hari, satuan, dan sumber data dalam paragraf."
     },
     {
       "type": "example",
       "text": "A school poster advertised a three-day reading challenge. Its chart listed registrations: Monday, 24 students; Tuesday, 31 students; Wednesday, 39 students. The poster also stated that each session lasted 20 minutes and that students should bring their own books. A note below the chart explained that registrations were recorded before each session, so they were not the same as confirmed attendance. The source was the school library team. The poster did not provide numbers for Thursday or Friday.",
-      "note": "Ringkasan bantuan: Menjelaskan informasi pada poster acara. Paragraf ini orisinal, dibuat untuk latihan, bukan kutipan soal resmi."
+      "note": "Perhatikan kapan tim perpustakaan mencatat pendaftaran dan untuk hari apa saja angkanya tersedia."
     },
     {
       "type": "text",
@@ -262,10 +228,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Angka ini mengukur apa, kapan, dan untuk kelompok mana?",
-      "model": "The poster says registration closes on Friday, not Saturday.",
-      "modelTranslation": "Poster itu menyatakan pendaftaran ditutup hari Jumat, bukan Sabtu.",
-      "criteria": "Informasi tenggat harus diambil dari teks poster, bukan dikira-kira."
+      "prompt": "Berdasarkan bacaan tantangan membaca, tulis satu kalimat bahasa Inggris yang membandingkan jumlah pendaftaran pada dua hari. Sebutkan kedua hari dan angkanya.",
+      "model": "The reading challenge recorded 39 registrations on Wednesday and 24 on Monday.",
+      "modelTranslation": "Untuk tantangan membaca, tercatat 39 pendaftaran pada hari Rabu dan 24 pada hari Senin.",
+      "criteria": "Cocokkan kedua angka dengan hari masing-masing. Gunakan kata [[registrations]] untuk menunjukkan bahwa data itu menghitung pendaftaran."
     },
     {
       "type": "vocabulary",
@@ -297,43 +263,43 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which sentence contains “starts”?",
+      "prompt": "On the reading challenge poster, what does 31 tell a reader?",
       "choices": [
-        "Bring a reusable bottle.",
-        "The event starts at 8 a.m.",
-        "Thirty students registered.",
-        "20 students joined on Monday."
+        "How many minutes Tuesday’s session lasted.",
+        "How many students registered for Tuesday’s session.",
+        "How many students attended Tuesday’s session.",
+        "What percentage of registrations were for Tuesday."
       ],
       "answer": 1,
-      "explanation": "Ungkapan [[starts]] muncul dalam kalimat [[The event starts at 8 a.m.]]. Waktu adalah informasi faktual.",
+      "explanation": "Bacaan menyebut 31 siswa mendaftar untuk hari Selasa. Durasi setiap sesi adalah 20 menit. Angka 31 menyatakan jumlah pendaftar, sedangkan kehadiran tidak tercatat dalam grafik itu.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “starts”?",
+        "prompt": "Dalam bacaan tentang poster tantangan membaca, angka 31 memberi tahu pembaca tentang apa?",
         "choices": [
-          "Bawalah botol minum yang dapat dipakai ulang.",
-          "Acara dimulai pukul delapan pagi.",
-          "Tiga puluh siswa telah mendaftar.",
-          "Dua puluh siswa ikut pada hari Senin."
+          "Lama sesi Selasa dalam menit.",
+          "Jumlah siswa yang mendaftar untuk sesi Selasa.",
+          "Jumlah siswa yang hadir pada sesi Selasa.",
+          "Persentase pendaftaran untuk sesi Selasa."
         ]
       }
     },
     {
       "id": "p2",
-      "prompt": "Which sentence contains “registered”?",
+      "prompt": "Which statement could the library team support with its reading challenge data?",
       "choices": [
-        "The event starts at 8 a.m.",
-        "Bring a reusable bottle.",
-        "Thirty students registered.",
-        "20 students joined on Monday."
+        "Attendance was highest on Wednesday.",
+        "Registrations kept rising until Friday.",
+        "Registrations increased from Monday to Wednesday.",
+        "Wednesday’s session lasted longer than Monday’s."
       ],
       "answer": 2,
-      "explanation": "Ungkapan [[registered]] muncul dalam kalimat [[Thirty students registered.]]. Angka perlu dihubungkan dengan apa yang dihitung.",
+      "explanation": "Jumlah pendaftar naik dari 24 menjadi 31 lalu 39 pada Senin, Selasa, dan Rabu. Data tidak mencakup Kamis dan Jumat. Semua sesi berdurasi 20 menit dan catatannya tidak mengukur kehadiran.",
       "translationId": {
-        "prompt": "Kalimat mana yang memuat “registered”?",
+        "prompt": "Pernyataan mana yang dapat didukung tim perpustakaan dengan data tantangan membaca?",
         "choices": [
-          "Acara dimulai pukul delapan pagi.",
-          "Bawalah botol minum yang dapat dipakai ulang.",
-          "Tiga puluh siswa telah mendaftar.",
-          "Dua puluh siswa ikut pada hari Senin."
+          "Jumlah peserta yang hadir paling tinggi pada hari Rabu.",
+          "Pendaftaran terus meningkat hingga hari Jumat.",
+          "Jumlah pendaftaran bertambah dari Senin sampai Rabu.",
+          "Sesi Rabu berlangsung lebih lama daripada sesi Senin."
         ]
       }
     }

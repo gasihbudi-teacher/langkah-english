@@ -13,82 +13,54 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Belajar menemukan subjek, ide penting, dan petunjuk hubungan untuk pembaca pemula. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Baca cerita pendek tentang kebun Rina. Mulailah dari satu kalimat, lalu ikuti kata-kata yang menghubungkan Rina, tanamannya, dan orang yang membantunya.",
       "steps": [
         {
-          "title": "Mulai dengan kata dikenal",
-          "explanation": "Tidak perlu menerjemahkan semua kata sekaligus; cari kata paling mudah sebagai pijakan.",
+          "title": "Temukan siapa dan apa yang dibicarakan",
+          "explanation": "Mulailah dengan nama orangnya. Setelah itu, cari benda yang ia miliki.",
           "english": "Rina has a small garden.",
-          "indonesian": "Rina memiliki kebun kecil.",
-          "why": "[[Rina]] dan [[garden]] adalah kata mudah yang menjadi pijakan arti kalimat."
+          "indonesian": "Rina punya kebun kecil.",
+          "why": "[[Rina]] adalah subjek. Kata [[has]] menghubungkan Rina dengan apa yang ia miliki, yaitu [[a small garden]]. Jika kata [[small]] belum kamu kenal, kamu tetap bisa menangkap inti kalimatnya."
         },
         {
-          "title": "Siapa atau apa?",
-          "explanation": "Cari subjek kalimat untuk mengetahui hal utama yang sedang dibicarakan.",
-          "english": "Rina has a small garden.",
-          "indonesian": "Rina memiliki kebun kecil.",
-          "why": "Subjek kalimat ialah [[Rina]], bukan [[garden]]."
-        },
-        {
-          "title": "Apa yang terjadi?",
-          "explanation": "Temukan verba atau keadaan inti sehingga kalimat punya makna dasar.",
+          "title": "Ikuti pelaku ke kalimat kedua",
+          "explanation": "Penulis tidak mengulang nama Rina. Cari kata yang menggantikannya, lalu cari tindakan yang dilakukan orang itu.",
           "english": "She waters the plants every morning.",
           "indonesian": "Ia menyiram tanaman setiap pagi.",
-          "why": "[[Waters]] menyatakan kegiatan inti yang dilakukan [[she]]."
+          "why": "[[She]] merujuk ke Rina pada kalimat sebelumnya. [[Waters the plants]] memberi tahu kita apa yang ia lakukan di kebunnya."
         },
         {
-          "title": "Gabungkan informasi inti",
-          "explanation": "Sampaikan hubungan subjek dan predikat menggunakan bahasa Indonesia sederhana.",
-          "english": "Rina has a small garden.",
-          "indonesian": "Rina memiliki kebun kecil.",
-          "why": "Makna inti dapat dipahami sebagai [[Rina memiliki kebun]], sebelum detail [[small]] ditambahkan."
+          "title": "Bedakan kebiasaan dan peristiwa hari ini",
+          "explanation": "Cari petunjuk waktu pada kalimat tentang menyiram. Bandingkan dengan kata yang menunjukkan waktu pada kalimat berikutnya.",
+          "english": "every morning. The soil is dry today",
+          "indonesian": "setiap pagi. Tanahnya kering hari ini",
+          "why": "[[Every morning]] menunjukkan kebiasaan Rina. [[Today]] menjelaskan keadaan tanah pada hari yang diceritakan. Kita belum tahu apakah tanahnya kering setiap hari."
         },
         {
-          "title": "Informasi tambahan",
-          "explanation": "Kenali keterangan waktu, tempat, dan sifat tanpa kehilangan inti kalimat.",
-          "english": "She waters the plants every morning.",
-          "indonesian": "Ia menyiram tanaman setiap pagi.",
-          "why": "[[Every morning]] menambahkan informasi waktu pada tindakan [[waters]]."
+          "title": "Hubungkan keadaan tanah dengan tindakan Rina",
+          "explanation": "Baca bagian sebelum dan sesudah [[so]]. Mengapa Rina membawa satu botol air tambahan?",
+          "english": "The soil is dry today, so she brings an extra bottle of water.",
+          "indonesian": "Tanahnya kering hari ini, jadi ia membawa satu botol air tambahan.",
+          "why": "Tanah kering menjelaskan alasannya. Membawa air tambahan adalah tindakan Rina untuk menanggapi keadaan itu."
         },
         {
-          "title": "Dua kalimat satu topik",
-          "explanation": "Baca dua kalimat berurutan dan cari apa yang masih dibicarakan.",
-          "english": "Rina has a small garden. She waters the plants every morning.",
-          "indonesian": "Rina memiliki kebun kecil. Ia menyiram tanaman setiap pagi.",
-          "why": "Kedua kalimat membahas Rina dan kebunnya, sehingga saling berkaitan."
+          "title": "Cari siapa yang bekerja bersama",
+          "explanation": "Pada dua kalimat terakhir, penulis berpindah dari [[her]] ke [[they]]. Siapa yang dimaksud dengan masing-masing kata itu?",
+          "english": "Her brother helps her. Together, they finish before school.",
+          "indonesian": "Saudara laki-laki Rina membantunya. Mereka berdua selesai sebelum sekolah.",
+          "why": "[[Her]] setelah [[helps]] merujuk pada Rina yang dibantu. [[They]] berarti Rina dan saudara laki-lakinya. Kata [[together]] menunjukkan bahwa mereka menyelesaikan pekerjaan itu bersama."
         },
         {
-          "title": "Rujukan ulang",
-          "explanation": "[[He]], [[it]], [[they]], atau [[this]] sering merujuk informasi di kalimat sebelumnya; telusuri acuannya.",
-          "english": "Rina has a garden. She waters it.",
-          "indonesian": "Rina memiliki kebun. Ia menyiraminya.",
-          "why": "[[She]] merujuk pada [[Rina]], sedangkan [[it]] merujuk pada [[a garden]]."
-        },
-        {
-          "title": "Hubungan antarkalimat",
-          "explanation": "[[But]], [[because]], dan [[therefore]] menunjukkan kontras, alasan, atau akibat yang perlu dipahami.",
-          "english": "The soil is dry today, so she brings more water.",
-          "indonesian": "Tanahnya kering hari ini, jadi ia membawa lebih banyak air.",
-          "why": "[[So]] menghubungkan kondisi tanah kering dengan akibat berupa tindakan Rina."
-        },
-        {
-          "title": "Gagasan utama paragraf",
-          "explanation": "Gabungkan rincian pendukung menjadi satu pesan yang mencakup sebagian besar kalimat.",
-          "english": "Rina waters her garden and gets help from her brother.",
-          "indonesian": "Rina menyiram kebunnya dan mendapat bantuan dari kakaknya.",
-          "why": "Rangkuman ini menyatukan beberapa detail tanpa mengubah pesan utama paragraf."
-        },
-        {
-          "title": "Rangkum dengan bahasa sendiri",
-          "explanation": "Jelaskan paragraf pendek dalam bahasa Indonesia tanpa mengganti fakta atau menerjemahkan kata demi kata.",
-          "english": "Rina cares for her small garden before school.",
-          "indonesian": "Rina merawat kebun kecilnya sebelum sekolah.",
-          "why": "Ringkasan memadatkan beberapa kalimat tetapi tetap menjaga pelaku, kegiatan, dan waktu."
+          "title": "Rangkum kegiatan utama",
+          "explanation": "Jika temanmu hanya mendengar soal botol air, apa yang belum ia ketahui? Gabungkan kegiatan pada awal cerita dengan bantuan yang datang di akhir.",
+          "english": "Together, they finish before school.",
+          "indonesian": "Mereka berdua selesai sebelum sekolah.",
+          "why": "Contoh ringkasannya, “Rina merawat kebunnya dengan bantuan saudara laki-lakinya sebelum sekolah.” Ringkasan itu mencakup kegiatan mereka. Botol tambahan adalah rincian yang menjelaskan tindakan Rina hari itu."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
       "modelEnglish": "Rina has a small garden. She waters the plants every morning. The soil is dry today, so she brings an extra bottle of water. Her brother helps her. Together, they finish before school.",
-      "modelIndonesian": "Rina memiliki kebun kecil. Ia menyiram tanaman setiap pagi. Tanahnya kering hari ini, jadi ia membawa satu botol air tambahan. Kakaknya membantunya. Bersama-sama mereka selesai sebelum sekolah."
+      "modelIndonesian": "Rina memiliki kebun kecil. Ia menyiram tanaman setiap pagi. Tanahnya kering hari ini, jadi ia membawa satu botol air tambahan. Saudara laki-laki Rina membantunya. Bersama-sama mereka selesai sebelum sekolah."
     },
     {
       "type": "synthesis",
@@ -97,7 +69,7 @@
     },
     {
       "type": "heading",
-      "text": "Satu kalimat, satu gagasan"
+      "text": "Coba strategi yang sama pada kalimat baru"
     },
     {
       "type": "text",
@@ -230,9 +202,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "What is different between the examples?",
-      "translation": "Apa yang berbeda di antara contoh-contoh tersebut?",
-      "answer": "Perhatikan perubahan bentuk atau hubungan makna pada pasangan kalimat. Baca kembali catatan “Mengapa?” di bawah tiap contoh. Kamu boleh melanjutkan dengan perlahan."
+      "prompt": "(A) “The path was flooded. Therefore, the hikers turned back.” (B) “The library was crowded. However, the study room remained quiet.” How does the second sentence relate to the first in each pair?",
+      "translation": "(A) “Jalurnya terendam banjir. Karena itu, para pendaki berbalik arah.” (B) “Perpustakaan ramai. Namun, ruang belajarnya tetap tenang.” Apa hubungan kalimat kedua dengan kalimat pertama dalam tiap pasangan?",
+      "answer": "Pada A, [[therefore]] memperkenalkan akibat. Para pendaki berbalik karena jalurnya terendam. Pada B, [[however]] memperkenalkan keadaan yang mungkin tidak kita duga. Ruang belajar tetap tenang meski perpustakaannya ramai."
     },
     {
       "type": "example_group",
@@ -263,10 +235,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis satu kesimpulan bahasa Inggris yang didukung contoh di atas. Bagaimana kalimat kedua menambah, menjelaskan, atau membalik gagasan pertama?",
-      "model": "The path was flooded. Therefore, the hikers turned back.",
-      "modelTranslation": "Jalur itu terendam banjir. Karena itu, para pendaki berbalik arah.",
-      "criteria": "[[Therefore]] menunjukkan hubungan akibat; kalimat kedua tidak terpisah dari gagasan pertama."
+      "prompt": "Kembali ke bacaan tentang Rina. Tulis dua kalimat bahasa Inggris. Sebutkan keadaan tanah hari itu, lalu gunakan [[so]] atau [[therefore]] untuk menjelaskan apa yang Rina lakukan sebagai tanggapan.",
+      "model": "The soil in the garden is dry today. Therefore, Rina brings an extra bottle of water.",
+      "modelTranslation": "Tanah di kebun kering hari ini. Karena itu, Rina membawa satu botol air tambahan.",
+      "criteria": "Kalimat pertama memberi alasan. Kalimat kedua menyebut tindakan Rina yang sesuai dengan bacaan dan memakai penghubung yang menunjukkan akibat."
     },
     {
       "type": "vocabulary",
@@ -301,27 +273,32 @@
         "under"
       ],
       "answer": 0,
-      "explanation": "[[Verb]] slept = tidur.",
+      "explanation": "Kata [[slept]] menyebut tindakan kucing itu. Bagian [[under the chair]] menjelaskan tempatnya tidur.",
       "translationId": {
-        "prompt": "“The cat slept under the chair.” Apa kegiatan cat?"
+        "prompt": "Dalam kalimat [[The cat slept under the chair]], apa yang dilakukan kucing itu?",
+        "choices": [
+          "tidur",
+          "kursi",
+          "di bawah"
+        ]
       }
     },
     {
       "id": "p2",
-      "prompt": "In “It rained. Therefore, the game stopped”, what does “therefore” mean?",
+      "prompt": "“It rained. Therefore, the game stopped.” How does the second sentence relate to the first?",
       "choices": [
-        "therefore / as a result",
-        "although",
-        "before"
+        "It gives the result of the rain.",
+        "It explains why it rained.",
+        "It describes what happened before the rain."
       ],
       "answer": 0,
-      "explanation": "[[Therefore]] memperkenalkan akibat.",
+      "explanation": "Hujan adalah penyebabnya. Permainan berhenti sebagai akibatnya. Kata [[therefore]] membantu kita membaca hubungan itu sesuai urutan kalimat.",
       "translationId": {
-        "prompt": "“It rained. Therefore, the game stopped.” Therefore artinya …",
+        "prompt": "Baca dua kalimat ini: [[It rained. Therefore, the game stopped.]] Apa hubungan kalimat kedua dengan kalimat pertama?",
         "choices": [
-          "jadi/akibatnya",
-          "walaupun",
-          "sebelum"
+          "Kalimat kedua menyebut akibat hujan.",
+          "Kalimat kedua menjelaskan penyebab hujan.",
+          "Kalimat kedua menyebut kejadian sebelum hujan."
         ]
       }
     },
