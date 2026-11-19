@@ -1,0 +1,261 @@
+{
+  "id": "grade12-discussion-text-practice-4",
+  "questionCount": 10,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "archive",
+      "title": "A local history archive: two letters",
+      "text": "Letter from the history club: We want to put interviews with former market traders online so pupils in other towns can hear how the market changed. Each trader agreed to a recording for our classroom exhibition. We suggest sending each trader a private preview and publishing only the clips they approve for the website.\n\nLetter from a trader: I liked hearing my story at the exhibition, where I could explain a joke about a neighbour. A short clip without that explanation could sound unkind. I would welcome an online archive if contributors could attach a note and later ask for a clip to be removed.",
+      "original": true
+    },
+    {
+      "id": "meal-window",
+      "title": "A second lunch window?",
+      "text": "A student report: Our canteen opened a second serving window on Tuesday and Thursday for two weeks. On those four days our observers timed the wait of the first ten pupils in each queue; their average wait was three minutes shorter than on the Mondays we observed. We recommend extending the trial to the late lunch break before making the window permanent.\n\nA kitchen note: We borrowed a worker from the washing area to staff that window. Trays came back clean in time on Tuesday, but on both Thursdays some pupils at late lunch had to wait for trays. We could support a longer trial if someone records tray delays as well as queue times and the school can cover the washing area.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which claim about the two letters is fair?",
+      "choices": [
+        "Both writers prefer the audience to stay local.",
+        "Both writers see a possible place for an online archive.",
+        "Both writers regard exhibition consent as website permission.",
+        "Both writers think traders should select clips for other traders."
+      ],
+      "answer": 1,
+      "explanation": "Klub mengusulkan publikasi bersyarat, dan pedagang bersedia jika diberi ruang untuk menambahkan konteks dan meminta penghapusan.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang sesuai dengan kedua surat?",
+        "choices": [
+          "Kedua penulis lebih suka jika pendengarnya tetap warga setempat.",
+          "Kedua penulis melihat kemungkinan untuk membuat arsip daring.",
+          "Kedua penulis menganggap izin pameran juga berlaku untuk situs.",
+          "Kedua penulis ingin pedagang memilih klip milik pedagang lain."
+        ]
+      },
+      "skill": "Shared Position",
+      "passageId": "archive",
+      "evidence": "We suggest sending each trader a private preview and publishing only the clips they approve for the website.\n\nLetter from a trader: I liked hearing my story at the exhibition, where I could explain a joke about a neighbour. A short clip without that explanation could sound unkind. I would welcome an online archive if contributors could attach a note and later ask for a clip to be removed."
+    },
+    {
+      "id": "q2",
+      "prompt": "What can the club infer from the permission it already has?",
+      "choices": [
+        "The traders agreed to the classroom use described.",
+        "The traders approved any short clip they have not rejected.",
+        "The traders agreed to have neighbours identified online.",
+        "The traders accepted publication until they ask for removal."
+      ],
+      "answer": 0,
+      "explanation": "Izin yang disebut secara khusus menyangkut pameran kelas. Usulan pratinjau justru menunjukkan bahwa persetujuan untuk situs masih perlu diminta.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan klub dari izin yang sudah ada?",
+        "choices": [
+          "Pedagang menyetujui penggunaan rekaman untuk kegiatan kelas yang disebutkan.",
+          "Pedagang menyetujui semua klip pendek yang belum mereka tolak.",
+          "Pedagang setuju identitas tetangga mereka ditampilkan secara daring.",
+          "Pedagang menyetujui publikasi sampai mereka meminta penghapusan."
+        ]
+      },
+      "skill": "Scope of Evidence",
+      "passageId": "archive",
+      "evidence": "Each trader agreed to a recording for our classroom exhibition. We suggest sending each trader a private preview and publishing only the clips they approve for the website."
+    },
+    {
+      "id": "q3",
+      "prompt": "What job does the example about the joke do in the trader’s argument?",
+      "choices": [
+        "It establishes that the neighbour complained about the exhibition.",
+        "It shows that the club recorded the words incorrectly.",
+        "It shows how a change of audience and context can change meaning.",
+        "It shows why the trader regrets giving the entire interview."
+      ],
+      "answer": 2,
+      "explanation": "Saat pameran, pedagang bisa menjelaskan candaan itu. Kekhawatirannya muncul jika pendengar daring hanya mendapat potongan rekaman.",
+      "translationId": {
+        "prompt": "Apa fungsi contoh candaan dalam argumen pedagang?",
+        "choices": [
+          "Contoh itu memastikan tetangganya mengeluh tentang pameran.",
+          "Contoh itu menunjukkan klub salah merekam kata-katanya.",
+          "Contoh itu menunjukkan bahwa perubahan pendengar dan konteks dapat mengubah makna.",
+          "Contoh itu menunjukkan pedagang menyesal memberikan seluruh wawancara."
+        ]
+      },
+      "skill": "Interpreting an Example",
+      "passageId": "archive",
+      "evidence": "Letter from a trader: I liked hearing my story at the exhibition, where I could explain a joke about a neighbour. A short clip without that explanation could sound unkind."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the trader request beyond the club’s private preview?",
+      "choices": [
+        "A guarantee that pupils outside town will see every clip.",
+        "A chance for pupils to approve a clip on a trader’s behalf.",
+        "A copy of the recording before the classroom exhibition.",
+        "A way to add context and request removal later."
+      ],
+      "answer": 3,
+      "explanation": "Pratinjau memberi kesempatan menilai klip sebelum terbit. Pedagang juga menginginkan catatan penjelas dan pilihan menarik klip setelah terbit.",
+      "translationId": {
+        "prompt": "Apa yang diminta pedagang selain pratinjau pribadi dari klub?",
+        "choices": [
+          "Jaminan bahwa siswa luar kota akan melihat setiap klip.",
+          "Kesempatan bagi siswa untuk menyetujui klip atas nama pedagang.",
+          "Salinan rekaman sebelum pameran di kelas.",
+          "Cara menambahkan konteks dan meminta penghapusan setelah publikasi."
+        ]
+      },
+      "skill": "Comparing Safeguards",
+      "passageId": "archive",
+      "evidence": "We suggest sending each trader a private preview and publishing only the clips they approve for the website.\n\nLetter from a trader: I liked hearing my story at the exhibition, where I could explain a joke about a neighbour. A short clip without that explanation could sound unkind. I would welcome an online archive if contributors could attach a note and later ask for a clip to be removed."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which editorial rule best combines both letters?",
+      "choices": [
+        "Publish approved clips with optional notes and a removal contact.",
+        "Publish exhibition recordings with a general introduction about local humour.",
+        "Keep all approved clips permanently but let pupils add comments.",
+        "Remove jokes before posting and invite objections after publication."
+      ],
+      "answer": 0,
+      "explanation": "Aturan ini menggabungkan persetujuan sebelum publikasi, konteks dari pemilik cerita, dan kesempatan menarik klip. Menghapus candaan saja belum memenuhi syarat persetujuan.",
+      "translationId": {
+        "prompt": "Aturan penyuntingan mana yang paling sesuai dengan kedua surat?",
+        "choices": [
+          "Terbitkan klip yang disetujui dengan pilihan menambah catatan dan kontak untuk penghapusan.",
+          "Terbitkan rekaman pameran dengan pengantar umum tentang humor setempat.",
+          "Simpan semua klip yang disetujui secara permanen dan izinkan komentar siswa.",
+          "Hapus candaan sebelum menerbitkan klip lalu terima keberatan sesudahnya."
+        ]
+      },
+      "skill": "Synthesis",
+      "passageId": "archive",
+      "evidence": "We suggest sending each trader a private preview and publishing only the clips they approve for the website.\n\nLetter from a trader: I liked hearing my story at the exhibition, where I could explain a joke about a neighbour. A short clip without that explanation could sound unkind. I would welcome an online archive if contributors could attach a note and later ask for a clip to be removed."
+    },
+    {
+      "id": "q6",
+      "prompt": "Who is directly represented in the shorter average wait?",
+      "choices": [
+        "Everyone who used either window during the two weeks.",
+        "The late lunch pupils waiting for trays on Thursdays.",
+        "Only pupils who used the canteen on every observed day.",
+        "The early pupils timed in each observed queue."
+      ],
+      "answer": 3,
+      "explanation": "Pengamat mengukur sepuluh siswa pertama tiap antrean. Mereka tidak mengikuti semua siswa atau membatasi sampel pada pelanggan yang sama.",
+      "translationId": {
+        "prompt": "Siapa yang secara langsung terwakili dalam rata-rata waktu tunggu yang lebih singkat?",
+        "choices": [
+          "Semua pengguna kedua loket selama dua minggu.",
+          "Siswa yang menunggu nampan saat makan siang sesi akhir pada Kamis.",
+          "Hanya siswa yang datang ke kantin pada setiap hari pengamatan.",
+          "Siswa di bagian awal setiap antrean yang diukur waktunya."
+        ]
+      },
+      "skill": "Evidence Scope",
+      "passageId": "meal-window",
+      "evidence": "A student report: Our canteen opened a second serving window on Tuesday and Thursday for two weeks. On those four days our observers timed the wait of the first ten pupils in each queue; their average wait was three minutes shorter than on the Mondays we observed."
+    },
+    {
+      "id": "q7",
+      "prompt": "How could the student report and kitchen note both be accurate?",
+      "choices": [
+        "A clean tray on Tuesday rules out staffing problems on Thursday.",
+        "An early queue can move faster while some later diners wait for trays.",
+        "A shorter queue means fewer pupils ate on Thursday.",
+        "A tray delay shows the observers started their timers too late."
+      ],
+      "answer": 1,
+      "explanation": "Kedua sumber mengamati kelompok dan bagian layanan yang berbeda. Waktu sampai di loket belum mencakup semua waktu tunggu siswa sesi akhir.",
+      "translationId": {
+        "prompt": "Bagaimana laporan siswa dan catatan dapur bisa sama-sama benar?",
+        "choices": [
+          "Nampan bersih pada Selasa meniadakan kemungkinan masalah tenaga kerja pada Kamis.",
+          "Antrean awal bisa lebih cepat sementara sebagian siswa yang makan belakangan menunggu nampan.",
+          "Antrean yang lebih singkat berarti lebih sedikit siswa makan pada Kamis.",
+          "Keterlambatan nampan berarti pengamat terlambat menyalakan pencatat waktu."
+        ]
+      },
+      "skill": "Reconciling Evidence",
+      "passageId": "meal-window",
+      "evidence": "On those four days our observers timed the wait of the first ten pupils in each queue; their average wait was three minutes shorter than on the Mondays we observed. We recommend extending the trial to the late lunch break before making the window permanent.\n\nA kitchen note: We borrowed a worker from the washing area to staff that window. Trays came back clean in time on Tuesday, but on both Thursdays some pupils at late lunch had to wait for trays."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which record would best test the kitchen’s specific concern during a new trial?",
+      "choices": [
+        "For each window, count pupils who know about the trial.",
+        "For each week, count trays owned at the start and end.",
+        "For each shift, record washing staff and late diners’ tray waits.",
+        "For each day, record total meals sold across both lunch breaks."
+      ],
+      "answer": 2,
+      "explanation": "Catatan dapur mengaitkan pemindahan petugas dengan kesiapan nampan. Jumlah nampan milik kantin saja tidak menunjukkan kapan nampan bersih siap digunakan.",
+      "translationId": {
+        "prompt": "Catatan mana yang paling membantu menguji kekhawatiran dapur dalam uji coba baru?",
+        "choices": [
+          "Di tiap loket, hitung siswa yang mengetahui uji coba.",
+          "Setiap minggu, hitung nampan yang dimiliki pada awal dan akhir minggu.",
+          "Pada tiap giliran, catat jumlah petugas pencuci dan waktu tunggu nampan siswa sesi akhir.",
+          "Setiap hari, catat jumlah makanan yang terjual pada kedua sesi makan siang."
+        ]
+      },
+      "skill": "Testing a Recommendation",
+      "passageId": "meal-window",
+      "evidence": "A kitchen note: We borrowed a worker from the washing area to staff that window. Trays came back clean in time on Tuesday, but on both Thursdays some pupils at late lunch had to wait for trays. We could support a longer trial if someone records tray delays as well as queue times and the school can cover the washing area."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which headline represents the kitchen’s position most accurately?",
+      "choices": [
+        "Kitchen open to trial if washing duties and delays are addressed.",
+        "Kitchen backs permanent window after seeing the figures.",
+        "Kitchen rejects second window after Thursday delays.",
+        "Kitchen asks students to time trays instead of queues."
+      ],
+      "answer": 0,
+      "explanation": "Dapur menyatakan dukungan bersyarat dan ingin kedua waktu tunggu dicatat. Pengalaman Kamis belum membuat mereka menolak gagasan itu.",
+      "translationId": {
+        "prompt": "Judul mana yang paling tepat mewakili sikap pihak dapur?",
+        "choices": [
+          "Dapur terbuka pada uji coba jika tugas pencucian dan keterlambatan ditangani.",
+          "Dapur mendukung loket permanen setelah melihat hasil pengukuran.",
+          "Dapur menolak loket kedua setelah keterlambatan hari Kamis.",
+          "Dapur meminta siswa mengukur waktu tunggu nampan sebagai pengganti antrean."
+        ]
+      },
+      "skill": "Author’s Stance",
+      "passageId": "meal-window",
+      "evidence": "We recommend extending the trial to the late lunch break before making the window permanent.\n\nA kitchen note: We borrowed a worker from the washing area to staff that window. Trays came back clean in time on Tuesday, but on both Thursdays some pupils at late lunch had to wait for trays. We could support a longer trial if someone records tray delays as well as queue times and the school can cover the washing area."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which decision best uses both sources while leaving the unresolved question open?",
+      "choices": [
+        "Keep the window permanently because the timed pupils saved three minutes.",
+        "Close the window permanently because Thursday trays were delayed.",
+        "Extend the trial at early lunch only and use queue speed as the success measure.",
+        "Try a staffed late shift, measure both waits, then decide whether to continue."
+      ],
+      "answer": 3,
+      "explanation": "Uji pada sesi akhir menjawab usulan siswa. Menyiapkan petugas pencuci dan mencatat waktu tunggu nampan menjawab keberatan dapur. Hasilnya baru bisa dipakai untuk memutuskan langkah berikutnya.",
+      "translationId": {
+        "prompt": "Keputusan mana yang paling mempertimbangkan kedua sumber dan hal yang belum diketahui?",
+        "choices": [
+          "Tetapkan loket permanen karena siswa yang diamati menghemat tiga menit.",
+          "Tutup loket secara permanen karena nampan terlambat pada Kamis.",
+          "Perpanjang uji coba hanya pada sesi awal dan gunakan laju antrean sebagai ukuran keberhasilan.",
+          "Uji sesi akhir dengan petugas yang cukup, ukur kedua waktu tunggu, lalu putuskan kelanjutannya."
+        ]
+      },
+      "skill": "Independent Evaluation",
+      "passageId": "meal-window",
+      "evidence": "On those four days our observers timed the wait of the first ten pupils in each queue; their average wait was three minutes shorter than on the Mondays we observed. We recommend extending the trial to the late lunch break before making the window permanent.\n\nA kitchen note: We borrowed a worker from the washing area to staff that window. Trays came back clean in time on Tuesday, but on both Thursdays some pupils at late lunch had to wait for trays. We could support a longer trial if someone records tray delays as well as queue times and the school can cover the washing area."
+    }
+  ]
+}

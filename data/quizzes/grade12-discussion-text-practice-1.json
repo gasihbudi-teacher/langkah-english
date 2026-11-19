@@ -1,0 +1,261 @@
+{
+  "id": "grade12-discussion-text-practice-1",
+  "questionCount": 10,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "text-discussion-text",
+      "title": "Discussion Text: Weighing Two Sides",
+      "text": "Should schools encourage students to travel without private cars? Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward.",
+      "original": true
+    },
+    {
+      "id": "quiet-break",
+      "title": "A quiet room at lunch",
+      "text": "The council is considering reserving the music room for a quiet lunch break twice a week. Dian says students who need a break from the noisy yard would finally have somewhere to go. The choir agrees that a quiet space matters, but its members practise at lunch because several catch the first bus home. Dian suggests trying the idea on Tuesday, when the choir already meets elsewhere. The chair wants to hear from students who eat lunch late before choosing a second day.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which statement best summarises the discussion?",
+      "choices": [
+        "Let each family decide how to improve bicycle parking.",
+        "Encourage lower-emission journeys while allowing for different family circumstances.",
+        "Wait for every road to become safe before offering alternatives.",
+        "Make bus travel the main solution for congestion at the gate."
+      ],
+      "answer": 1,
+      "explanation": "Penulis melihat manfaat perjalanan rendah emisi sekaligus mengakui kendala keluarga. Informasi bus dan parkir sepeda hanyalah bagian dari usulan itu.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling tepat merangkum diskusi ini?",
+        "choices": [
+          "Serahkan keputusan tentang perbaikan parkir sepeda kepada tiap keluarga.",
+          "Dorong perjalanan rendah emisi sambil mempertimbangkan keadaan tiap keluarga.",
+          "Tunggu sampai semua jalan aman sebelum menawarkan pilihan lain.",
+          "Jadikan bus solusi utama untuk kemacetan di gerbang."
+        ]
+      },
+      "skill": "Main Idea",
+      "passageId": "text-discussion-text",
+      "evidence": "Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates. However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family. A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward."
+    },
+    {
+      "id": "q2",
+      "prompt": "What benefit do supporters mention?",
+      "choices": [
+        "The journey from distant homes could get shorter.",
+        "Families could spend less on bus fares.",
+        "New parking could make roads safer to cross.",
+        "Transport emissions could fall."
+      ],
+      "answer": 3,
+      "explanation": "Pendukung menyebut emisi dan lalu lintas. Bacaan tidak membahas ongkos, perubahan jarak, atau perbaikan penyeberangan.",
+      "translationId": {
+        "prompt": "Manfaat apa yang disebut oleh pendukung?",
+        "choices": [
+          "Perjalanan dari rumah yang jauh bisa menjadi lebih pendek.",
+          "Keluarga bisa menghemat ongkos bus.",
+          "Parkir baru bisa membuat jalan lebih aman untuk diseberangi.",
+          "Emisi transportasi bisa turun."
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "text-discussion-text",
+      "evidence": "Supporters say walking, cycling, and public transport can reduce some transport emissions and may ease traffic near school gates."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which concern belongs to the critics?",
+      "choices": [
+        "A route may be unsafe for a student travelling without a car.",
+        "Cars may queue near the school entrance.",
+        "Bus route information may attract too many passengers.",
+        "School bicycle parking may take up classroom space."
+      ],
+      "answer": 0,
+      "explanation": "Keamanan rute disebut bersama jarak dan cuaca. Kemacetan di gerbang justru menjadi alasan pendukung untuk mengurangi perjalanan bermobil.",
+      "translationId": {
+        "prompt": "Kendala apa yang disampaikan pihak yang keberatan?",
+        "choices": [
+          "Rute seorang siswa mungkin tidak aman jika ditempuh tanpa mobil.",
+          "Mobil mungkin mengantre di dekat gerbang sekolah.",
+          "Informasi rute bus mungkin menarik terlalu banyak penumpang.",
+          "Parkir sepeda sekolah mungkin memakan ruang kelas."
+        ]
+      },
+      "skill": "Comparing Views",
+      "passageId": "text-discussion-text",
+      "evidence": "However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult. They argue that a single rule would not fit every family."
+    },
+    {
+      "id": "q4",
+      "prompt": "In the final sentence, what does “while allowing flexibility” add to the parking and bus proposals?",
+      "choices": [
+        "The supporters want families to organise the bus routes.",
+        "The school wants to delay giving route information.",
+        "Families with difficult journeys can still choose another option.",
+        "The critics have shown that traffic will stay the same."
+      ],
+      "answer": 2,
+      "explanation": "Di sini “while” menghubungkan dua hal yang bisa dilakukan bersamaan. Sekolah dapat membantu siswa bersepeda atau naik bus sambil tetap memberi pilihan kepada keluarga yang menghadapi kendala.",
+      "translationId": {
+        "prompt": "Dalam kalimat terakhir, apa yang ditambahkan oleh “while allowing flexibility” pada usulan tentang parkir sepeda dan bus?",
+        "choices": [
+          "Pendukung ingin keluarga mengatur rute bus.",
+          "Sekolah ingin menunda pemberian informasi rute.",
+          "Keluarga yang perjalanannya sulit tetap dapat memilih cara lain.",
+          "Pihak yang keberatan telah menunjukkan bahwa lalu lintas akan tetap sama."
+        ]
+      },
+      "skill": "Inference",
+      "passageId": "text-discussion-text",
+      "evidence": "A balanced proposal is to improve bicycle parking and information about bus routes first, while allowing flexibility for students whose journeys are less straightforward."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does “However” ask the reader to reconsider?",
+      "choices": [
+        "Whether the suggested alternatives are practical for everyone.",
+        "Whether supporters mentioned emissions as well as traffic.",
+        "Whether the school has already improved the parking area.",
+        "Whether walking and cycling should be discussed separately."
+      ],
+      "answer": 0,
+      "explanation": "Sesudah “However”, pembaca diajak melihat hambatan perjalanan. Penulis tetap mengakui kemungkinan manfaat yang telah disebut.",
+      "translationId": {
+        "prompt": "Kata “However” mengajak pembaca mempertimbangkan kembali hal apa?",
+        "choices": [
+          "Apakah pilihan perjalanan tadi praktis bagi semua orang.",
+          "Apakah pendukung menyebut emisi selain lalu lintas.",
+          "Apakah sekolah sudah memperbaiki area parkir.",
+          "Apakah berjalan kaki dan bersepeda perlu dibahas secara terpisah."
+        ]
+      },
+      "skill": "Text Structure",
+      "passageId": "text-discussion-text",
+      "evidence": "However, critics point out that long distances, bad weather, and unsafe routes can make these options difficult."
+    },
+    {
+      "id": "q6",
+      "prompt": "Dian and the choir both value quiet. What difference does “but” introduce?",
+      "choices": [
+        "They prefer different lengths for the lunch break.",
+        "They disagree about whether the yard is noisy.",
+        "They need the same room for different activities at lunch.",
+        "They want the choir to catch different buses after school."
+      ],
+      "answer": 2,
+      "explanation": "Kata “but” mengantar pembaca dari kesepakatan tentang ruang tenang ke kendala pemakaiannya. Paduan suara membutuhkan ruangan pada jam itu untuk latihan.",
+      "translationId": {
+        "prompt": "Dian dan paduan suara sama-sama menghargai ketenangan. Perbedaan apa yang diperkenalkan oleh kata “but”?",
+        "choices": [
+          "Mereka menginginkan durasi istirahat siang yang berbeda.",
+          "Mereka berbeda pendapat tentang apakah halaman sekolah bising.",
+          "Mereka memerlukan ruangan yang sama untuk kegiatan berbeda saat istirahat siang.",
+          "Mereka ingin paduan suara naik bus yang berbeda sepulang sekolah."
+        ]
+      },
+      "skill": "Contrast in Context",
+      "passageId": "quiet-break",
+      "evidence": "The choir agrees that a quiet space matters, but its members practise at lunch because several catch the first bus home."
+    },
+    {
+      "id": "q7",
+      "prompt": "What do the choir and Dian agree on?",
+      "choices": [
+        "The second day should suit only choir members.",
+        "A quiet space would serve a real need.",
+        "Rehearsal should move to the afternoon.",
+        "The room should be reserved twice a week immediately."
+      ],
+      "answer": 1,
+      "explanation": "Paduan suara mengakui kebutuhan akan ruang tenang. Keberatan mereka menyangkut jadwal penggunaan ruangan.",
+      "translationId": {
+        "prompt": "Apa yang disepakati paduan suara dan Dian?",
+        "choices": [
+          "Hari kedua sebaiknya khusus disesuaikan dengan anggota paduan suara.",
+          "Ruang tenang dapat memenuhi kebutuhan siswa.",
+          "Latihan sebaiknya dipindah ke sore hari.",
+          "Ruangan sebaiknya langsung dipesan dua kali seminggu."
+        ]
+      },
+      "skill": "Concession",
+      "passageId": "quiet-break",
+      "evidence": "The choir agrees that a quiet space matters, but its members practise at lunch because several catch the first bus home."
+    },
+    {
+      "id": "q8",
+      "prompt": "Why is after-school rehearsal difficult for some singers?",
+      "choices": [
+        "They eat lunch after the others.",
+        "Their room gets too noisy after class.",
+        "Their teacher rehearses elsewhere on Tuesday.",
+        "Their bus leaves early."
+      ],
+      "answer": 3,
+      "explanation": "Beberapa anggota mengejar bus pertama untuk pulang. Kelompok yang makan siang terlambat dibahas untuk keputusan yang berbeda.",
+      "translationId": {
+        "prompt": "Mengapa latihan sepulang sekolah menyulitkan sebagian penyanyi?",
+        "choices": [
+          "Mereka makan siang setelah siswa lain.",
+          "Ruangan mereka terlalu bising sepulang sekolah.",
+          "Guru mereka berlatih di tempat lain pada hari Selasa.",
+          "Bus mereka berangkat lebih awal."
+        ]
+      },
+      "skill": "Supporting Details",
+      "passageId": "quiet-break",
+      "evidence": "The choir agrees that a quiet space matters, but its members practise at lunch because several catch the first bus home."
+    },
+    {
+      "id": "q9",
+      "prompt": "Why does Tuesday work as a first trial?",
+      "choices": [
+        "It lets late lunch groups choose the room first.",
+        "It avoids displacing the choir's usual rehearsal that day.",
+        "It gives the choir a chance to practise in silence.",
+        "It is the only day when the yard is noisy."
+      ],
+      "answer": 1,
+      "explanation": "Pada Selasa paduan suara sudah memakai tempat lain. Dian memakai informasi jadwal untuk menanggapi keberatan mereka.",
+      "translationId": {
+        "prompt": "Mengapa Selasa cocok untuk uji coba pertama?",
+        "choices": [
+          "Kelompok yang makan siang terlambat bisa memilih ruangan lebih dulu.",
+          "Uji coba itu tidak menggeser latihan paduan suara pada hari tersebut.",
+          "Paduan suara mendapat kesempatan berlatih tanpa suara.",
+          "Hanya pada hari itu halaman bising."
+        ]
+      },
+      "skill": "Proposal and Reason",
+      "passageId": "quiet-break",
+      "evidence": "Dian suggests trying the idea on Tuesday, when the choir already meets elsewhere."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which decision is still open?",
+      "choices": [
+        "When to offer a second quiet lunch.",
+        "Whether some singers take the first bus.",
+        "Where the choir usually meets on Tuesday: here or elsewhere.",
+        "Whether Dian values a quiet space."
+      ],
+      "answer": 0,
+      "explanation": "Ketua ingin mendengar pendapat kelompok makan siang terlambat sebelum memilih hari kedua. Jadwal latihan Selasa sudah diketahui.",
+      "translationId": {
+        "prompt": "Keputusan mana yang masih terbuka?",
+        "choices": [
+          "Kapan istirahat siang tenang yang kedua diadakan.",
+          "Apakah sebagian penyanyi naik bus pertama.",
+          "Apakah paduan suara biasanya berlatih di sini atau di tempat lain pada Selasa.",
+          "Apakah Dian menganggap ruang tenang penting."
+        ]
+      },
+      "skill": "Unresolved Issue",
+      "passageId": "quiet-break",
+      "evidence": "The chair wants to hear from students who eat lunch late before choosing a second day."
+    }
+  ]
+}

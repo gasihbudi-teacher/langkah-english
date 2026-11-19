@@ -1,0 +1,261 @@
+{
+  "id": "grade12-discussion-text-practice-2",
+  "questionCount": 10,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "bike-trial",
+      "title": "Counting journeys",
+      "text": "The school lent bicycle locks to students for a two-week trial. On the first dry Monday, volunteers counted 24 bicycles at the gate; on the next dry Monday they counted 36. Supporters say the rise makes it worth keeping the locks available. A teacher notes that roadworks closed the usual car entrance on the second Monday. The volunteers counted bicycles but did not ask riders whether they had borrowed locks. The teacher proposes counting again after the entrance reopens and asking riders how they travelled before the trial.",
+      "original": true
+    },
+    {
+      "id": "library-poll",
+      "title": "Who answered the library poll?",
+      "text": "The librarian is considering keeping the library open until five on Thursdays. Of 50 pupils who answered a poll at the library exit, 38 said they would stay after four to study. The student editor calls this a promising sign of demand. A bus monitor points out that pupils who leave school at three seldom pass the library exit. During a trial Thursday, 16 pupils actually stayed after four, and nobody recorded whether they had answered the poll. The librarian suggests asking early bus users what would help them study too.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which change did volunteers directly observe?",
+      "choices": [
+        "Twelve more locks were borrowed on the second Monday.",
+        "Twelve riders changed their route because of the roadworks.",
+        "The count at the gate rose by twelve bicycles.",
+        "Twelve students switched from cars to bikes."
+      ],
+      "answer": 2,
+      "explanation": "Selisih hitungan sepeda adalah 36 dikurangi 24. Relawan belum mengetahui kendaraan yang sebelumnya dipakai atau siapa yang meminjam kunci.",
+      "translationId": {
+        "prompt": "Perubahan mana yang diamati langsung oleh relawan?",
+        "choices": [
+          "Ada dua belas kunci tambahan yang dipinjam pada Senin kedua.",
+          "Dua belas pesepeda mengubah rute karena perbaikan jalan.",
+          "Jumlah sepeda yang terhitung di gerbang bertambah dua belas.",
+          "Dua belas siswa beralih dari mobil ke sepeda."
+        ]
+      },
+      "skill": "Observed Change",
+      "passageId": "bike-trial",
+      "evidence": "On the first dry Monday, volunteers counted 24 bicycles at the gate; on the next dry Monday they counted 36."
+    },
+    {
+      "id": "q2",
+      "prompt": "How do the roadworks affect the supporters’ interpretation?",
+      "choices": [
+        "They offer a second possible reason for the higher count.",
+        "They establish that the locks made no difference.",
+        "They make the second count of bicycles inaccurate.",
+        "They show that wet weather discouraged cyclists."
+      ],
+      "answer": 0,
+      "explanation": "Penutupan akses mobil mungkin mengubah cara siswa datang. Hal itu memengaruhi tafsir penyebab kenaikan, meski angka hasil hitungan bisa tetap benar.",
+      "translationId": {
+        "prompt": "Bagaimana perbaikan jalan memengaruhi penafsiran pendukung?",
+        "choices": [
+          "Perbaikan itu memberi kemungkinan penyebab lain untuk kenaikan hitungan.",
+          "Perbaikan itu memastikan kunci sama sekali tidak berpengaruh.",
+          "Perbaikan itu membuat hitungan sepeda kedua tidak akurat.",
+          "Perbaikan itu menunjukkan cuaca basah mengurangi minat bersepeda."
+        ]
+      },
+      "skill": "Alternative Explanation",
+      "passageId": "bike-trial",
+      "evidence": "A teacher notes that roadworks closed the usual car entrance on the second Monday."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which link was missing from the volunteers’ records?",
+      "choices": [
+        "Whether the first observation was on a Monday.",
+        "Whether the car entrance was closed on the second day counted.",
+        "Whether more bicycles were counted the second time.",
+        "Whether the people counted actually used the loan service."
+      ],
+      "answer": 3,
+      "explanation": "Relawan menghitung sepeda tanpa mencatat peminjaman oleh pengendaranya. Membandingkan dua jumlah saja belum menghubungkan perubahan dengan layanan.",
+      "translationId": {
+        "prompt": "Hubungan apa yang belum tercatat oleh relawan?",
+        "choices": [
+          "Apakah pengamatan pertama dilakukan pada Senin.",
+          "Apakah akses mobil ditutup pada hari penghitungan kedua.",
+          "Apakah lebih banyak sepeda terhitung pada pengamatan kedua.",
+          "Apakah orang yang dihitung benar-benar memakai layanan peminjaman."
+        ]
+      },
+      "skill": "Missing Evidence",
+      "passageId": "bike-trial",
+      "evidence": "The volunteers counted bicycles but did not ask riders whether they had borrowed locks."
+    },
+    {
+      "id": "q4",
+      "prompt": "Why ask how riders travelled before the trial?",
+      "choices": [
+        "To calculate how many locks the school owns.",
+        "To distinguish existing cyclists from people who changed transport.",
+        "To find out when the entrance will reopen.",
+        "To check whether the second Monday was dry."
+      ],
+      "answer": 1,
+      "explanation": "Kebiasaan sebelumnya membantu membedakan pengguna lama dan baru. Jawaban itu belum menjelaskan sendiri mengapa seseorang beralih.",
+      "translationId": {
+        "prompt": "Mengapa pesepeda ditanya bagaimana mereka berangkat sebelum uji coba?",
+        "choices": [
+          "Untuk menghitung jumlah kunci milik sekolah.",
+          "Untuk membedakan pesepeda lama dari orang yang berganti kendaraan.",
+          "Untuk mengetahui kapan akses masuk akan dibuka kembali.",
+          "Untuk memeriksa apakah Senin kedua tidak hujan."
+        ]
+      },
+      "skill": "Follow-up Evidence",
+      "passageId": "bike-trial",
+      "evidence": "The teacher proposes counting again after the entrance reopens and asking riders how they travelled before the trial."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which wording best fits the supporters’ evidence so far?",
+      "choices": [
+        "The increase justifies investigating the loan service further.",
+        "Most of the extra bicycles belonged to lock borrowers.",
+        "Closing the car entrance was more effective than lending locks.",
+        "Keeping the locks will maintain the second Monday’s count."
+      ],
+      "answer": 0,
+      "explanation": "Hitungan meningkat dan layak diteliti. Data belum memisahkan pengaruh kunci dari penutupan akses atau menjamin jumlah itu bertahan.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling sesuai dengan bukti pendukung sejauh ini?",
+        "choices": [
+          "Kenaikan itu menjadi alasan untuk meneliti layanan peminjaman lebih lanjut.",
+          "Sebagian besar sepeda tambahan milik peminjam kunci.",
+          "Penutupan akses mobil lebih efektif daripada peminjaman kunci.",
+          "Menyediakan kunci akan mempertahankan jumlah pada Senin kedua."
+        ]
+      },
+      "skill": "Strength of Claim",
+      "passageId": "bike-trial",
+      "evidence": "On the first dry Monday, volunteers counted 24 bicycles at the gate; on the next dry Monday they counted 36. Supporters say the rise makes it worth keeping the locks available. A teacher notes that roadworks closed the usual car entrance on the second Monday. The volunteers counted bicycles but did not ask riders whether they had borrowed locks."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which group was easiest for the poll to reach?",
+      "choices": [
+        "Only pupils who stayed during the trial.",
+        "Pupils leaving the library.",
+        "Pupils already on the early bus.",
+        "All pupils who wanted to study after four."
+      ],
+      "answer": 1,
+      "explanation": "Lokasi survei menentukan siapa yang mudah ditemui. Siswa yang sudah pulang punya peluang lebih kecil untuk menjawab.",
+      "translationId": {
+        "prompt": "Kelompok mana yang paling mudah dijangkau survei?",
+        "choices": [
+          "Hanya siswa yang tetap di sana saat uji coba.",
+          "Siswa yang keluar dari perpustakaan.",
+          "Siswa yang sudah berada di bus awal.",
+          "Semua siswa yang ingin belajar setelah pukul empat."
+        ]
+      },
+      "skill": "Sampling",
+      "passageId": "library-poll",
+      "evidence": "Of 50 pupils who answered a poll at the library exit, 38 said they would stay after four to study. The student editor calls this a promising sign of demand. A bus monitor points out that pupils who leave school at three seldom pass the library exit."
+    },
+    {
+      "id": "q7",
+      "prompt": "What do the figures 38 and 16 measure respectively?",
+      "choices": [
+        "Attendance before and after a schedule change.",
+        "Support from bus users and from library users.",
+        "Number invited and number who answered.",
+        "Stated intention and observed attendance."
+      ],
+      "answer": 3,
+      "explanation": "Angka 38 berasal dari jawaban tentang rencana. Angka 16 berasal dari pengamatan pada Kamis uji coba.",
+      "translationId": {
+        "prompt": "Apa yang diukur oleh angka 38 dan 16 secara berurutan?",
+        "choices": [
+          "Kehadiran sebelum dan sesudah perubahan jadwal.",
+          "Dukungan pengguna bus dan pengguna perpustakaan.",
+          "Jumlah siswa yang diundang dan yang menjawab.",
+          "Niat yang disampaikan dan kehadiran yang diamati."
+        ]
+      },
+      "skill": "Intention and Behaviour",
+      "passageId": "library-poll",
+      "evidence": "Of 50 pupils who answered a poll at the library exit, 38 said they would stay after four to study. The student editor calls this a promising sign of demand. A bus monitor points out that pupils who leave school at three seldom pass the library exit. During a trial Thursday, 16 pupils actually stayed after four, and nobody recorded whether they had answered the poll."
+    },
+    {
+      "id": "q8",
+      "prompt": "Why can’t the editor say exactly 22 supporters failed to turn up?",
+      "choices": [
+        "The survey asked about a different day of the week.",
+        "The editor excluded everyone who studied after four.",
+        "The attendance count was never matched to the poll respondents.",
+        "The librarian counted only pupils leaving at three."
+      ],
+      "answer": 2,
+      "explanation": "Pengurangan 38 dengan 16 mengandaikan semua yang hadir termasuk dalam 38 responden itu. Bacaan menyatakan bahwa hubungan tersebut tidak dicatat.",
+      "translationId": {
+        "prompt": "Mengapa redaktur tidak bisa mengatakan bahwa tepat 22 pendukung batal datang?",
+        "choices": [
+          "Survei menanyakan hari lain dalam minggu itu.",
+          "Redaktur mengabaikan semua siswa yang belajar setelah pukul empat.",
+          "Data kehadiran tidak dicocokkan dengan responden survei.",
+          "Pustakawan hanya menghitung siswa yang pulang pukul tiga."
+        ]
+      },
+      "skill": "Unsupported Calculation",
+      "passageId": "library-poll",
+      "evidence": "During a trial Thursday, 16 pupils actually stayed after four, and nobody recorded whether they had answered the poll."
+    },
+    {
+      "id": "q9",
+      "prompt": "What is the bus monitor’s strongest point?",
+      "choices": [
+        "The librarian recorded the wrong closing time.",
+        "Some pupils had little chance to express their needs.",
+        "Every early bus user would reject longer hours.",
+        "Sixteen pupils are too few to justify opening."
+      ],
+      "answer": 1,
+      "explanation": "Petugas menyoroti siapa yang terlewat dalam survei. Pendapat mereka sendiri masih perlu ditanyakan.",
+      "translationId": {
+        "prompt": "Apa inti keberatan petugas bus?",
+        "choices": [
+          "Pustakawan mencatat jam tutup yang salah.",
+          "Sebagian siswa hampir tidak punya kesempatan menyampaikan kebutuhan mereka.",
+          "Semua pengguna bus awal pasti menolak jam tambahan.",
+          "Enam belas siswa terlalu sedikit untuk membenarkan perpanjangan jam."
+        ]
+      },
+      "skill": "Perspective",
+      "passageId": "library-poll",
+      "evidence": "A bus monitor points out that pupils who leave school at three seldom pass the library exit. During a trial Thursday, 16 pupils actually stayed after four, and nobody recorded whether they had answered the poll. The librarian suggests asking early bus users what would help them study too."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which next step best addresses that concern?",
+      "choices": [
+        "Repeat the same exit poll with more library users.",
+        "Count the chairs occupied after four more carefully.",
+        "Ask the editor to predict bus users’ preferences.",
+        "Ask early bus users before they board about their study options."
+      ],
+      "answer": 3,
+      "explanation": "Menemui pengguna bus langsung memberi mereka kesempatan menjawab. Menambah responden di pintu perpustakaan belum mengatasi masalah jangkauan.",
+      "translationId": {
+        "prompt": "Langkah berikut mana yang paling menjawab keberatan tersebut?",
+        "choices": [
+          "Ulangi survei di pintu keluar dengan lebih banyak pengguna perpustakaan.",
+          "Hitung kursi yang terisi setelah pukul empat dengan lebih teliti.",
+          "Minta redaktur memperkirakan pilihan pengguna bus.",
+          "Tanyai pengguna bus awal tentang pilihan belajar mereka sebelum mereka naik."
+        ]
+      },
+      "skill": "Better Evidence",
+      "passageId": "library-poll",
+      "evidence": "A bus monitor points out that pupils who leave school at three seldom pass the library exit. During a trial Thursday, 16 pupils actually stayed after four, and nobody recorded whether they had answered the poll. The librarian suggests asking early bus users what would help them study too."
+    }
+  ]
+}

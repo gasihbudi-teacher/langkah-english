@@ -1,0 +1,261 @@
+{
+  "id": "grade12-discussion-text-practice-3",
+  "questionCount": 10,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "loan-desk",
+      "title": "Two ways to lend school cameras",
+      "text": "Students may borrow school cameras for weekend projects, but only six cameras are available. The film club wants advance booking so groups can arrange interviews before Saturday. The art class objects that pupils without reliable internet may miss an online opening time. One proposal would put all six cameras online each Friday evening. Another would take requests both on paper at lunch and online until Friday noon, then draw lots if requests exceed six. The librarian favours the second proposal but wants borrowers told the result on Friday afternoon so they can confirm their plans.",
+      "original": true
+    },
+    {
+      "id": "hall-trial",
+      "title": "Sharing the hall",
+      "text": "The drama club asks to use the hall on both afternoons before its performance because the stage cannot be moved. The badminton team usually trains there and has a match that same week. The head teacher proposes giving drama the hall on Wednesday and badminton the hall on Thursday. On Wednesday badminton could use the outdoor court, but only if it stays dry. The captain accepts one outdoor session on condition that a covered space is available if rain is forecast. The head teacher promises to check the covered space before confirming the timetable.",
+      "original": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What outcome do both groups have a reason to support?",
+      "choices": [
+        "Giving advance bookings priority over paper requests.",
+        "Giving film interviews priority over art work.",
+        "Allocating cameras in the order that online requests arrive.",
+        "A workable way for pupils to get cameras for projects."
+      ],
+      "answer": 3,
+      "explanation": "Kedua kelompok membahas cara mendapatkan kamera untuk proyek. Perbedaan mereka menyangkut kepastian rencana dan akses saat mendaftar.",
+      "translationId": {
+        "prompt": "Hasil apa yang punya alasan untuk didukung kedua kelompok?",
+        "choices": [
+          "Mendahulukan pemesanan awal daripada permintaan tertulis.",
+          "Mengutamakan wawancara film di atas tugas seni.",
+          "Membagikan kamera sesuai urutan masuknya permintaan daring.",
+          "Cara yang dapat dipakai siswa untuk meminjam kamera bagi proyek mereka."
+        ]
+      },
+      "skill": "Shared Goal",
+      "passageId": "loan-desk",
+      "evidence": "Students may borrow school cameras for weekend projects, but only six cameras are available. The film club wants advance booking so groups can arrange interviews before Saturday. The art class objects that pupils without reliable internet may miss an online opening time."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which weakness remains if all six cameras go online on Friday evening?",
+      "choices": [
+        "Groups would need to return equipment before Saturday.",
+        "Access still depends on getting online at the right time.",
+        "The system cannot tell borrowers about their requests.",
+        "Paper requests would have priority over online requests."
+      ],
+      "answer": 1,
+      "explanation": "Usulan pertama tetap mengandalkan satu saluran daring. Bacaan tidak menyatakan adanya prioritas kertas atau perubahan waktu pengembalian.",
+      "translationId": {
+        "prompt": "Kelemahan mana yang tersisa jika keenam kamera hanya ditawarkan secara daring pada Jumat malam?",
+        "choices": [
+          "Kelompok harus mengembalikan alat sebelum Sabtu.",
+          "Akses masih bergantung pada kemampuan untuk daring pada waktu yang tepat.",
+          "Sistem tidak dapat memberi kabar kepada peminjam tentang permintaan mereka.",
+          "Permintaan kertas akan didahulukan daripada permintaan daring."
+        ]
+      },
+      "skill": "Trade-off",
+      "passageId": "loan-desk",
+      "evidence": "The film club wants advance booking so groups can arrange interviews before Saturday. The art class objects that pupils without reliable internet may miss an online opening time. One proposal would put all six cameras online each Friday evening."
+    },
+    {
+      "id": "q3",
+      "prompt": "Under the second proposal, when would a lottery be needed?",
+      "choices": [
+        "When demand is greater than the supply of cameras.",
+        "Whenever a pupil applies on paper.",
+        "When exactly six requests arrive by noon.",
+        "Whenever both groups plan interviews."
+      ],
+      "answer": 0,
+      "explanation": "Undian dipakai jika permintaan melebihi enam. Jika ada enam peminjam untuk enam kamera, syarat undian belum terpenuhi.",
+      "translationId": {
+        "prompt": "Dalam usulan kedua, kapan undian diperlukan?",
+        "choices": [
+          "Saat permintaan melebihi jumlah kamera yang tersedia.",
+          "Setiap kali seorang siswa mendaftar lewat kertas.",
+          "Saat tepat enam permintaan masuk sebelum tengah hari.",
+          "Setiap kali kedua kelompok merencanakan wawancara."
+        ]
+      },
+      "skill": "Condition",
+      "passageId": "loan-desk",
+      "evidence": "Another would take requests both on paper at lunch and online until Friday noon, then draw lots if requests exceed six."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which part of the librarian’s recommendation responds specifically to the film club?",
+      "choices": [
+        "Drawing lots when there are too many requests.",
+        "Keeping the number of cameras at six.",
+        "Announcing results in time to confirm arrangements.",
+        "Accepting requests on paper at lunchtime."
+      ],
+      "answer": 2,
+      "explanation": "Klub film harus menyusun janji wawancara. Kabar pada Jumat sore memberi kepastian. Pilihan kertas terutama membantu akses pendaftaran.",
+      "translationId": {
+        "prompt": "Bagian mana dari saran pustakawan yang secara khusus menanggapi kebutuhan klub film?",
+        "choices": [
+          "Mengundi jika permintaan terlalu banyak.",
+          "Mempertahankan jumlah kamera sebanyak enam.",
+          "Mengumumkan hasil saat masih ada waktu untuk memastikan rencana.",
+          "Menerima permintaan tertulis pada jam makan siang."
+        ]
+      },
+      "skill": "Evaluation",
+      "passageId": "loan-desk",
+      "evidence": "The film club wants advance booking so groups can arrange interviews before Saturday. The art class objects that pupils without reliable internet may miss an online opening time. One proposal would put all six cameras online each Friday evening. Another would take requests both on paper at lunch and online until Friday noon, then draw lots if requests exceed six. The librarian favours the second proposal but wants borrowers told the result on Friday afternoon so they can confirm their plans."
+    },
+    {
+      "id": "q5",
+      "prompt": "Even if the second proposal works as intended, what can it still not promise?",
+      "choices": [
+        "A method of choosing when demand is high.",
+        "A camera for every group that applies.",
+        "A way to apply on paper.",
+        "A decision before the weekend."
+      ],
+      "answer": 1,
+      "explanation": "Dua jalur pendaftaran memperbaiki akses, tetapi jumlah kamera tetap enam. Kesempatan mendaftar tidak menjamin mendapat kamera.",
+      "translationId": {
+        "prompt": "Sekalipun usulan kedua berjalan sesuai rencana, apa yang tetap tidak bisa dijanjikan?",
+        "choices": [
+          "Cara memilih ketika permintaan tinggi.",
+          "Kamera untuk setiap kelompok yang mendaftar.",
+          "Cara mendaftar dengan formulir kertas.",
+          "Keputusan sebelum akhir pekan."
+        ]
+      },
+      "skill": "Limits of a Solution",
+      "passageId": "loan-desk",
+      "evidence": "Another would take requests both on paper at lunch and online until Friday noon, then draw lots if requests exceed six. The librarian favours the second proposal but wants borrowers told the result on Friday afternoon so they can confirm their plans."
+    },
+    {
+      "id": "q6",
+      "prompt": "What gives drama a particular reason to request the hall?",
+      "choices": [
+        "Their group usually trains outdoors.",
+        "They have already been promised both afternoons.",
+        "They need to practise on the fixed stage.",
+        "Their performance is scheduled on Thursday afternoon."
+      ],
+      "answer": 2,
+      "explanation": "Panggung tidak bisa dipindah. Tanggal pentas yang tepat dan janji pemakaian selama dua hari tidak disebutkan.",
+      "translationId": {
+        "prompt": "Apa alasan khusus kelompok drama meminta aula?",
+        "choices": [
+          "Kelompok mereka biasanya berlatih di luar.",
+          "Kedua sore itu sudah dijanjikan kepada mereka.",
+          "Mereka perlu berlatih di panggung yang tidak bisa dipindah.",
+          "Pentas mereka dijadwalkan Kamis sore."
+        ]
+      },
+      "skill": "Reason for Priority",
+      "passageId": "hall-trial",
+      "evidence": "The drama club asks to use the hall on both afternoons before its performance because the stage cannot be moved."
+    },
+    {
+      "id": "q7",
+      "prompt": "How does the proposed timetable change drama’s request?",
+      "choices": [
+        "It grants one of the two afternoons requested.",
+        "It grants both afternoons but requires a smaller stage.",
+        "It moves their Wednesday rehearsal outdoors.",
+        "It postpones the performance until after the match."
+      ],
+      "answer": 0,
+      "explanation": "Drama meminta dua sore. Kepala sekolah mengusulkan Rabu untuk drama dan Kamis untuk bulu tangkis.",
+      "translationId": {
+        "prompt": "Bagaimana jadwal usulan mengubah permintaan kelompok drama?",
+        "choices": [
+          "Jadwal memberi satu dari dua sore yang diminta.",
+          "Jadwal memberi kedua sore dengan syarat panggung lebih kecil.",
+          "Jadwal memindahkan latihan drama hari Rabu ke luar.",
+          "Jadwal menunda pentas sampai pertandingan selesai."
+        ]
+      },
+      "skill": "Comparing Proposals",
+      "passageId": "hall-trial",
+      "evidence": "The drama club asks to use the hall on both afternoons before its performance because the stage cannot be moved. The badminton team usually trains there and has a match that same week. The head teacher proposes giving drama the hall on Wednesday and badminton the hall on Thursday."
+    },
+    {
+      "id": "q8",
+      "prompt": "What would misrepresent the captain’s response?",
+      "choices": [
+        "The team could train outside for one session in dry weather.",
+        "The captain wants a backup in case rain is expected.",
+        "The captain treats the forecast as relevant to the plan.",
+        "The team agreed to train outside whatever the weather."
+      ],
+      "answer": 3,
+      "explanation": "Persetujuan kapten bersyarat. Menghapus syarat tentang hujan mengubah makna tanggapannya.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang keliru menggambarkan tanggapan kapten?",
+        "choices": [
+          "Tim bisa berlatih di luar untuk satu sesi jika cuaca kering.",
+          "Kapten menginginkan cadangan jika diperkirakan hujan.",
+          "Kapten mempertimbangkan prakiraan cuaca dalam rencana.",
+          "Tim setuju berlatih di luar apa pun cuacanya."
+        ]
+      },
+      "skill": "Conditional Agreement",
+      "passageId": "hall-trial",
+      "evidence": "On Wednesday badminton could use the outdoor court, but only if it stays dry. The captain accepts one outdoor session on condition that a covered space is available if rain is forecast."
+    },
+    {
+      "id": "q9",
+      "prompt": "Rain is forecast for Wednesday. Which action would meet the captain’s condition?",
+      "choices": [
+        "Confirm Wednesday outdoors before checking other spaces.",
+        "Secure a covered place for Wednesday’s training.",
+        "Point out that Thursday’s hall booking is indoors.",
+        "Ask the team to check the outdoor court after practice."
+      ],
+      "answer": 1,
+      "explanation": "Syaratnya berlaku pada sesi Rabu yang berisiko kehujanan. Pemakaian aula pada Kamis tidak memberi tempat latihan pada Rabu.",
+      "translationId": {
+        "prompt": "Hujan diperkirakan turun pada Rabu. Tindakan mana yang memenuhi syarat kapten?",
+        "choices": [
+          "Tetapkan latihan Rabu di luar sebelum memeriksa tempat lain.",
+          "Pastikan ada tempat beratap untuk latihan Rabu.",
+          "Ingatkan bahwa pemakaian aula pada Kamis ada di dalam ruangan.",
+          "Minta tim memeriksa lapangan luar setelah latihan."
+        ]
+      },
+      "skill": "Revision",
+      "passageId": "hall-trial",
+      "evidence": "On Wednesday badminton could use the outdoor court, but only if it stays dry. The captain accepts one outdoor session on condition that a covered space is available if rain is forecast. The head teacher promises to check the covered space before confirming the timetable."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which announcement could the head teacher honestly make now?",
+      "choices": [
+        "Drama has received the two afternoons it requested.",
+        "A covered court has been booked for the whole week.",
+        "The days are proposed; confirmation depends on checking a backup space.",
+        "The captain has accepted the final timetable for both days."
+      ],
+      "answer": 2,
+      "explanation": "Kepala sekolah baru berjanji memeriksa tempat cadangan. Janji untuk memeriksa belum sama dengan pemesanan atau jadwal tetap.",
+      "translationId": {
+        "prompt": "Pengumuman mana yang sesuai dengan keadaan saat ini?",
+        "choices": [
+          "Kelompok drama sudah mendapat dua sore yang dimintanya.",
+          "Lapangan beratap sudah dipesan untuk sepanjang minggu.",
+          "Harinya sudah diusulkan dan kepastiannya menunggu pemeriksaan tempat cadangan.",
+          "Kapten sudah menerima jadwal akhir untuk kedua hari."
+        ]
+      },
+      "skill": "Balanced Conclusion",
+      "passageId": "hall-trial",
+      "evidence": "The head teacher proposes giving drama the hall on Wednesday and badminton the hall on Thursday. On Wednesday badminton could use the outdoor court, but only if it stays dry. The captain accepts one outdoor session on condition that a covered space is available if rain is forecast. The head teacher promises to check the covered space before confirming the timetable."
+    }
+  ]
+}
