@@ -13,54 +13,54 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ikuti survei tentang jam layanan perpustakaan. Catat siapa yang menjawab, berapa yang memilih jam baru, dan sejauh mana kita boleh menarik simpulan.",
+      "intro": "Baca berita singkat tentang survei perpustakaan. Bandingkan hasil survei dengan judul yang diusulkan redaktur. Apakah judul itu berbicara tentang kelompok yang sama dengan kelompok yang menjawab?",
       "steps": [
         {
-          "title": "Tentukan pertanyaan",
-          "explanation": "Mulailah dari hal yang ingin diketahui.",
-          "english": "Do students prefer the new library hours?",
-          "indonesian": "Apakah siswa lebih menyukai jam layanan perpustakaan yang baru?",
-          "why": "Pertanyaannya tentang pilihan jam layanan, bukan jumlah kunjungan atau nilai ujian."
-        },
-        {
           "title": "Kenali kelompok yang menjawab",
-          "explanation": "Periksa cara responden ikut serta.",
-          "english": "Twenty-five students volunteered to answer.",
-          "indonesian": "Dua puluh lima siswa bersedia menjawab secara sukarela.",
-          "why": "Siswa lain mungkin memiliki pendapat berbeda. Mereka tidak otomatis terwakili."
+          "explanation": "Baca kalimat pertama. Berapa orang yang ikut dan bagaimana mereka menjadi peserta?",
+          "english": "Twenty-five students volunteered for a library survey.",
+          "indonesian": "Dua puluh lima siswa ikut survei perpustakaan secara sukarela.",
+          "why": "Kata [[volunteered]] menunjukkan bahwa siswa memilih sendiri untuk ikut. Siswa yang tidak menjawab mungkin punya pendapat lain."
         },
         {
-          "title": "Catat hasilnya",
-          "explanation": "Pasangkan jumlah pemilih dengan jumlah responden.",
-          "english": "Eighteen of the 25 preferred the new hours.",
-          "indonesian": "Delapan belas dari 25 responden lebih menyukai jam layanan yang baru.",
-          "why": "Angka 18 menghitung responden yang memilih jam baru, bukan semua pengguna perpustakaan."
+          "title": "Temukan apa yang diukur",
+          "explanation": "Baca kalimat kedua bersama kalimat pertama. Siapa yang dihitung dalam angka 18 dan apa yang mereka pilih?",
+          "english": "Eighteen preferred the new hours.",
+          "indonesian": "Delapan belas di antaranya lebih menyukai jam layanan yang baru.",
+          "why": "Dari 25 siswa yang ikut, 18 lebih menyukai jam baru. Dari kata [[preferred]], kita bisa menyimpulkan bahwa surveinya menanyakan pilihan jam layanan. Penulis tidak mengutip bunyi pertanyaan surveinya."
         },
         {
-          "title": "Uji klaim penulis",
-          "explanation": "Baca judul pertama yang diusulkan redaktur. Apakah semua siswa ikut disurvei?",
+          "title": "Periksa siapa yang disebut dalam judul",
+          "explanation": "Bandingkan kelompok dalam judul usulan redaktur dengan peserta pada kalimat pertama. Apakah cakupannya sama?",
           "english": "Most students prefer the new library hours.",
           "indonesian": "Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru.",
-          "why": "Kata [[students]] membuat klaim mencakup siswa yang tidak menjawab."
+          "why": "Angka 18 memang lebih dari separuh 25. Masalahnya ada pada [[students]]. Judul ini terdengar seperti pernyataan tentang siswa secara umum, padahal yang kita ketahui hanya pilihan peserta survei."
         },
         {
-          "title": "Tulis simpulan terbatas",
-          "explanation": "Pertahankan angka dan sebutkan siapa yang diukur.",
-          "english": "Most respondents preferred the new hours.",
-          "indonesian": "Sebagian besar responden lebih menyukai jam layanan yang baru.",
-          "why": "[[Respondents]] membatasi simpulan pada orang yang menjawab."
+          "title": "Gunakan pertanyaan pustakawan untuk menguji judul",
+          "explanation": "Kalau kamu menjawab pertanyaan pustakawan dengan data pada awal bacaan, bagian mana dari judul yang perlu dipersempit?",
+          "english": "The librarian asked who had answered.",
+          "indonesian": "Pustakawan menanyakan siapa yang menjawab survei.",
+          "why": "Jawabannya adalah 25 siswa yang ikut secara sukarela. Kita masih bisa memakai [[most]] untuk kelompok itu karena 18 dari mereka memilih jam baru."
         },
         {
-          "title": "Tentukan bukti tambahan",
-          "explanation": "Pikirkan siapa yang belum terdengar suaranya.",
-          "english": "The editor invited other students to share their views.",
-          "indonesian": "Redaktur mengundang siswa lain untuk menyampaikan pendapat.",
-          "why": "Undangan itu membuka kesempatan bagi siswa lain. Sampai mereka menjawab, hasil yang ada tetap terbatas pada 25 responden."
+          "title": "Perbaiki cakupan simpulan",
+          "explanation": "Cari satu kata yang diganti redaktur. Mengapa mengganti kata ini sudah memengaruhi makna judul?",
+          "english": "The editor changed “students” to “respondents”",
+          "indonesian": "Redaktur mengganti “siswa” dengan “responden”",
+          "why": "[[Respondents]] menyebut orang yang memberikan jawaban. Sesudah perubahan ini, pembaca tahu pendapat siapa yang boleh disimpulkan dari angka 18."
+        },
+        {
+          "title": "Bedakan undangan dari bukti baru",
+          "explanation": "Apakah redaktur sudah mengetahui pilihan siswa lain pada akhir bacaan? Perhatikan tindakan terakhirnya.",
+          "english": "invited other students to share their views.",
+          "indonesian": "mengundang siswa lain untuk menyampaikan pendapat.",
+          "why": "[[Invited]] hanya menyatakan bahwa mereka diundang. Sampai ada jawaban baru, bukti yang bisa kita pakai tetap jawaban dari 25 peserta tadi."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
       "modelEnglish": "Twenty-five students volunteered for a library survey. Eighteen preferred the new hours. A student editor proposed the headline “Most students prefer the new library hours.” The librarian asked who had answered. The editor changed “students” to “respondents” and invited other students to share their views.",
-      "modelIndonesian": "Dua puluh lima siswa bersedia menjawab survei perpustakaan. Delapan belas di antaranya lebih menyukai jam layanan yang baru. Seorang redaktur majalah sekolah mengusulkan judul “Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru.” Pustakawan menanyakan siapa yang menjawab survei. Redaktur mengganti “siswa” dengan “responden” dan mengundang siswa lain untuk menyampaikan pendapat."
+      "modelIndonesian": "Dua puluh lima siswa ikut survei perpustakaan secara sukarela. Delapan belas di antaranya lebih menyukai jam layanan yang baru. Seorang siswa yang bertugas sebagai redaktur mengusulkan judul “Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru.” Pustakawan menanyakan siapa yang menjawab survei. Redaktur mengganti “siswa” dengan “responden” dan mengundang siswa lain untuk menyampaikan pendapat."
     },
     {
       "type": "synthesis",
@@ -90,35 +90,35 @@
     },
     {
       "type": "rule",
-      "text": "Kesimpulan yang baik tidak lebih luas daripada bukti. Ganti “semua siswa” dengan “sebagian responden” jika sampel tidak representatif."
+      "text": "Sesuaikan simpulan dengan kelompok yang benar-benar menjawab. Dalam bacaan ini, “sebagian besar responden” tepat karena 18 dari 25 peserta memilih jam baru."
     },
     {
       "type": "heading",
-      "text": "Pelajari lebih banyak contoh sebelum latihan"
+      "text": "Siapa yang diwakili angka survei?"
     },
     {
       "type": "text",
-      "text": "Baca setiap kalimat bahasa Inggris, lihat terjemahannya, lalu pahami alasan pemilihan bentuk atau maknanya. Mulailah dari contoh paling sederhana sebelum membuka contoh lebih panjang."
+      "text": "Gunakan angka dari survei perpustakaan untuk memeriksa ketiga pernyataan berikut. Perhatikan peran tiap angka sebelum menilai judul berita."
     },
     {
       "type": "example_group",
-      "title": "1 · Contoh dasar",
+      "title": "Dari peserta survei ke hasilnya",
       "collapsed": false,
       "items": [
         {
-          "english": "Twenty students answered the survey.",
-          "indonesian": "Dua puluh siswa menjawab survei.",
-          "note": "Kenali ukuran sampel, bukan hanya hasilnya."
+          "english": "Twenty-five students volunteered for the survey.",
+          "indonesian": "Dua puluh lima siswa ikut survei secara sukarela.",
+          "note": "Angka 25 adalah jumlah semua peserta yang menjawab."
         },
         {
-          "english": "Fifteen preferred the new schedule.",
-          "indonesian": "Lima belas orang lebih menyukai jadwal baru.",
-          "note": "Pernyataan ini adalah hasil dari sampel, belum tentu dari semua siswa."
+          "english": "Eighteen of those students preferred the new hours.",
+          "indonesian": "Delapan belas dari siswa itu lebih menyukai jam layanan yang baru.",
+          "note": "Angka 18 adalah bagian dari kelompok 25 siswa tadi."
         },
         {
-          "english": "The results suggest interest among respondents.",
-          "indonesian": "Hasilnya menunjukkan kemungkinan minat di antara responden.",
-          "note": "[[Among]] [[respondents]] membatasi kelompok yang benar-benar diukur."
+          "english": "The new hours were more popular among the respondents.",
+          "indonesian": "Jam layanan baru lebih disukai di kalangan responden.",
+          "note": "[[Among the respondents]] memberi batas pada simpulan. Pilihan siswa yang tidak menjawab masih belum diketahui."
         }
       ]
     },
@@ -157,23 +157,23 @@
     },
     {
       "type": "example_group",
-      "title": "2 · Bandingkan dan perhatikan perbedaannya",
+      "title": "Uji tiga klaim survei, lalu dua contoh dari bacaan lain",
       "collapsed": false,
       "items": [
         {
           "english": "All students love the new schedule.",
           "indonesian": "Semua siswa menyukai jadwal baru.",
-          "note": "[[All]] terlalu kuat bila bukti berasal dari sampel kecil."
+          "note": "Dalam survei ini, 18 dari 25 peserta memilih jam baru. Kata [[all]] bahkan terlalu luas untuk kelompok peserta itu sendiri."
         },
         {
           "english": "Most surveyed students preferred the new schedule.",
           "indonesian": "Sebagian besar siswa yang disurvei lebih menyukai jadwal baru.",
-          "note": "[[Most]] [[surveyed]] [[students]] sesuai cakupan bukti dalam contoh."
+          "note": "[[Most surveyed students]] sesuai dengan hasil 18 dari 25 dan membatasi klaim pada siswa yang menjawab."
         },
         {
           "english": "The new schedule caused better grades.",
           "indonesian": "Jadwal baru menyebabkan nilai lebih baik.",
-          "note": "Kata [[caused]] membutuhkan bukti sebab-akibat, bukan sekadar kebersamaan waktu."
+          "note": "Kata [[caused]] menyatakan sebab. Bacaan memberi tahu kita jam layanan yang disukai peserta survei. Tidak ada data tentang nilai mereka."
         },
         {
           "english": "The article reports three successful trials, but it does not mention unsuccessful attempts.",
@@ -191,11 +191,11 @@
       "type": "reflection",
       "prompt": "(A) “Most students prefer the new hours.” (B) “Most respondents prefer the new hours.” Which group does each claim cover?",
       "translation": "(A) “Sebagian besar siswa lebih menyukai jam baru.” (B) “Sebagian besar responden lebih menyukai jam baru.” Kelompok mana yang dicakup masing-masing klaim?",
-      "answer": "A mencakup seluruh kelompok siswa. B terbatas pada responden, sehingga lebih sesuai dengan cara survei dilakukan."
+      "answer": "Pada A, [[most students]] terdengar seperti pernyataan tentang siswa di sekolah secara umum. Pada B, [[most respondents]] hanya merujuk pada siswa yang menjawab survei. Kesimpulan B sesuai dengan bukti yang ada."
     },
     {
       "type": "example_group",
-      "title": "3 · Contoh dalam kalimat yang lebih panjang",
+      "title": "Latihan dengan dua laporan baru",
       "collapsed": false,
       "items": [
         {
@@ -222,7 +222,7 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tuliskan satu kalimat fakta tentang survei dan satu kalimat tafsiran yang mengakui batasnya.",
+      "prompt": "Kembali ke survei perpustakaan pada bacaan pembuka. Tulis satu kalimat fakta tentang hasilnya dan satu kalimat tafsiran yang mengakui batas bukti tersebut.",
       "model": "Eighteen of the 25 volunteers preferred the new library hours. The new hours appear popular among respondents, but other students may feel differently.",
       "modelTranslation": "Delapan belas dari 25 relawan lebih menyukai jam layanan perpustakaan yang baru. Jam baru tampaknya disukai responden, tetapi siswa lain mungkin berbeda pendapat.",
       "criteria": "Kalimat fakta mempertahankan angka dan kelompoknya. Kalimat tafsiran membatasi simpulan pada orang yang menjawab."

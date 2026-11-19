@@ -44,7 +44,7 @@
         },
         {
           "title": "Gunakan tulisan pada papan",
-          "explanation": "Baca tulisan di atas meja sebelum menyimpulkan jenis kegiatan.",
+          "explanation": "Cari papan di atas kedua siswa. Apa yang kamu ketahui tentang kegiatan ini setelah membaca tulisannya?",
           "english": "BOOK DONATIONS",
           "indonesian": "SUMBANGAN BUKU",
           "why": "Papan menjadi bukti konteks donasi. Papan itu sendiri tidak memberi tanggal, tenggat, atau nama penyelenggara.",
@@ -80,9 +80,9 @@
         },
         {
           "title": "Temukan rincian untuk teks alternatif",
-          "explanation": "Untuk orang yang tidak melihat ilustrasi, pikirkan rincian visual mana yang membuat konteks donasi dapat dipahami.",
+          "explanation": "Bayangkan pembaca hanya bisa mendengarkan deskripsi gambar. Cari kata-kata dalam keterangan yang menjelaskan isi papan.",
           "english": "a sign that reads “BOOK DONATIONS.”",
-          "indonesian": "papan bertuliskan “SUMBANGAN BUKU”.",
+          "indonesian": "papan bertuliskan “BOOK DONATIONS” (sumbangan buku).",
           "why": "Teks alternatif ([[alt text]]) dapat menyebut hubungan antara papan, kotak, dan dua siswa. Keterangan foto dapat tetap ringkas.",
           "check": "Mengapa isi papan layak disebut dalam teks alternatif ilustrasi ini?",
           "checkAnswer": "Papan menerangkan bahwa buku sedang dikumpulkan untuk donasi."
@@ -119,7 +119,7 @@
       "modelEnglish": "Two students arrange books in a box on a library table beneath a sign that reads “BOOK DONATIONS.”",
       "modelIndonesian": "Dua siswa menata buku di dalam kotak di atas meja perpustakaan. Di atas meja itu ada papan bertuliskan “BOOK DONATIONS”.",
       "modelImage": "assets/book-donation-illustration.svg",
-      "modelImageAlt": "Ilustrasi dua siswa sedang menyusun buku di meja perpustakaan; ada kotak berisi buku dan papan bertuliskan BOOK DONATIONS."
+      "modelImageAlt": "Ilustrasi dua siswa di sisi kiri dan kanan kotak bertuliskan BOOKS di atas meja perpustakaan. Di dalam kotak ada buku. Terlihat rak buku di belakang siswa dan papan bertuliskan BOOK DONATIONS di atas mereka."
     },
     {
       "type": "synthesis",
@@ -146,32 +146,32 @@
     },
     {
       "type": "text",
-      "text": "Baca contoh tanpa menghafal. Tanyakan: bagian mana yang menjawab kebutuhan materi ini, dan adakah informasi yang tidak diketahui?"
+      "text": "Keempat contoh berikut merujuk pada ilustrasi pembuka. Untuk setiap contoh, cari bagian gambar yang mendukung kata-katanya."
     },
     {
       "type": "example_group",
-      "title": "1 · Caption sangat sederhana",
+      "title": "1 · Pilih fokus pada ilustrasi donasi buku",
       "collapsed": false,
       "items": [
         {
-          "english": "A student reads beside a window.",
-          "indonesian": "Seorang siswa membaca di dekat jendela.",
-          "note": "Gambar yang dibayangkan menunjukkan satu siswa dengan buku di sisi jendela; [[caption]] menyebut pelaku, tindakan, dan tempat tanpa menebak perasaannya."
+          "english": "A box of books sits between two students.",
+          "indonesian": "Kotak berisi buku berada di antara dua siswa.",
+          "note": "Keterangan ini memberi tahu pembaca jumlah siswa dan posisi mereka terhadap kotak."
         },
         {
-          "english": "Two students carry a box of books.",
-          "indonesian": "Dua siswa membawa sebuah kotak berisi buku.",
-          "note": "[[Carry]] adalah tindakan yang dapat dilihat; jumlah dua digunakan hanya jika memang tampak dua siswa."
+          "english": "Two students arrange books on a library table.",
+          "indonesian": "Dua siswa menata buku di meja perpustakaan.",
+          "note": "Kata [[arrange]] memberi tahu pembaca apa yang dilakukan siswa. Rak di belakang mereka ikut memberi petunjuk tentang tempatnya."
         },
         {
-          "english": "The school garden has new seedlings.",
-          "indonesian": "Kebun sekolah memiliki bibit tanaman baru.",
-          "note": "[[Caption]] menekankan objek yang tampak, bukan membuat klaim tentang hasil panen masa depan."
+          "english": "A box marked “BOOKS” sits on the table.",
+          "indonesian": "Sebuah kotak bertuliskan “BOOKS” berada di atas meja.",
+          "note": "Keterangan ini berfokus pada benda. Tulisan [[BOOKS]] ada di bagian depan kotak."
         },
         {
-          "english": "Students are cleaning the school courtyard.",
-          "indonesian": "Para siswa sedang membersihkan halaman sekolah.",
-          "note": "[[Are cleaning]] sesuai untuk menggambarkan aktivitas yang sedang berlangsung dalam visual."
+          "english": "A sign above the students reads “BOOK DONATIONS.”",
+          "indonesian": "Papan di atas para siswa bertuliskan “BOOK DONATIONS”.",
+          "note": "Tulisan pada papan menunjukkan tujuan pengumpulan buku. Nama penyelenggara dan tanggal kegiatan tidak tercantum."
         }
       ]
     },
@@ -214,7 +214,7 @@
     },
     {
       "type": "example_group",
-      "title": "2 · Tambahkan konteks yang telah dipastikan",
+      "title": "2 · Contoh terpisah dengan informasi dari penyelenggara",
       "collapsed": false,
       "items": [
         {
@@ -243,11 +243,11 @@
       "type": "reflection",
       "prompt": "(A) “Two students arrange donated books.” (B) “Bring a gently used book to our reading corner.” Which caption needs confirmation that donations are open?",
       "translation": "(A) “Dua siswa menata buku sumbangan.” (B) “Bawalah satu buku bekas yang masih layak ke pojok baca kita.” Keterangan mana yang memerlukan konfirmasi bahwa sumbangan masih diterima?",
-      "answer": "A melaporkan tindakan yang tampak. B mengajak pembaca bertindak, sehingga penulis perlu memastikan kegiatan memang menerima sumbangan."
+      "answer": "A melaporkan tindakan yang tampak. Sebelum memakai B, pastikan panitia memang menerima buku bekas layak pakai dan buku itu ditujukan untuk pojok baca."
     },
     {
       "type": "example_group",
-      "title": "3 · Pilih tujuan dan periksa keakuratan",
+      "title": "3 · Latihan terpisah untuk foto kegiatan dan grafik lain",
       "collapsed": false,
       "items": [
         {
@@ -283,7 +283,7 @@
         {
           "english": "On Friday, students sorted donated books at the school library.",
           "indonesian": "Pada hari Jumat, para siswa memilah buku sumbangan di perpustakaan sekolah.",
-          "note": "Contoh [[summary]]: menggabungkan pelaku, aksi, waktu, dan tempat yang telah diketahui."
+          "note": "Dalam contoh terpisah ini, anggap catatan kegiatan mengonfirmasi hari Jumat. Hari itu boleh dicantumkan pada [[caption]] untuk foto tersebut."
         },
         {
           "english": "Library visits by month, January–March (number of entries).",
@@ -306,8 +306,8 @@
       "type": "self_check",
       "title": "Coba tulis caption-mu sendiri · tanpa nilai",
       "prompt": "Buat dua keterangan Inggris untuk ilustrasi donasi buku. Satu memberi informasi, satu mengajak jika panitia sudah mengonfirmasi bahwa sumbangan masih dibuka. Jelaskan perbedaannya dalam bahasa Indonesia.",
-      "model": "Two students arrange donated books on a library table.\nBring a gently used book for our school reading corner.",
-      "modelTranslation": "Dua siswa menata buku sumbangan di meja perpustakaan.\nBawalah satu buku bekas yang masih layak untuk pojok baca sekolah kita.",
+      "model": "Two students arrange donated books on a library table.\nBring a book to donate.",
+      "modelTranslation": "Dua siswa menata buku sumbangan di meja perpustakaan.\nBawalah satu buku untuk disumbangkan.",
       "criteria": "Jawaban untuk bagian penjelasan: kalimat pertama melaporkan kegiatan yang tampak, sedangkan kalimat kedua mengajak pembaca menyumbang. Ajakan itu hanya layak diterbitkan jika sumbangan memang masih diterima."
     },
     {
@@ -381,28 +381,28 @@
     },
     {
       "id": "p2",
-      "prompt": "Which detail should be added only after checking the event information?",
+      "prompt": "Which detail about the donation activity needs confirmation from the organiser?",
       "choices": [
-        "Two books are visible.",
-        "A table is in the picture.",
-        "The photo was taken on Friday.",
-        "A student holds a book."
+        "Two students are visible.",
+        "A table is in the illustration.",
+        "The activity took place on Friday.",
+        "The box is marked “BOOKS”."
       ],
       "answer": 2,
-      "explanation": "Hari pengambilan gambar tidak selalu tampak secara visual. Tanggal harus diperiksa dari catatan kegiatan.",
+      "explanation": "Jumlah siswa, meja, dan tulisan pada kotak bisa diperiksa langsung pada ilustrasi. Hari kegiatan perlu dikonfirmasi karena pada gambar tidak ada tanggal atau jadwal.",
       "translationId": {
-        "prompt": "Rincian mana yang hanya boleh ditambahkan setelah memeriksa informasi kegiatan?",
+        "prompt": "Rincian tentang kegiatan donasi mana yang perlu dikonfirmasi kepada penyelenggara?",
         "choices": [
-          "Dua buku terlihat.",
-          "Ada meja dalam gambar.",
-          "Foto diambil pada hari Jumat.",
-          "Seorang siswa memegang buku."
+          "Terlihat dua siswa.",
+          "Ada meja dalam ilustrasi.",
+          "Kegiatan berlangsung pada hari Jumat.",
+          "Kotak itu bertuliskan “BOOKS”."
         ]
       }
     },
     {
       "id": "p3",
-      "prompt": "The club confirms it is accepting gently used books, but has announced no closing date. Which caption suits an invitation?",
+      "prompt": "The club confirms it is accepting gently used books for the school reading corner. It has announced no closing date. Which caption suits an invitation?",
       "choices": [
         "Students sort the books already donated.",
         "Bring a gently used book for the school reading corner.",
@@ -412,7 +412,7 @@
       "answer": 1,
       "explanation": "Ajakan ini memberi tindakan yang bisa dilakukan pembaca dan sesuai konfirmasi klub. Keterangan pertama hanya melaporkan kegiatan. Tenggat Jumat dan penjualan tidak disebutkan.",
       "translationId": {
-        "prompt": "Klub memastikan bahwa buku bekas layak pakai masih diterima, tetapi belum mengumumkan tanggal penutupan. Keterangan mana yang cocok sebagai ajakan?",
+        "prompt": "Klub memastikan bahwa mereka masih menerima buku bekas layak pakai untuk pojok baca sekolah. Belum ada pengumuman tentang tanggal penutupan. Keterangan mana yang cocok sebagai ajakan?",
         "choices": [
           "Siswa memilah buku yang sudah disumbangkan.",
           "Bawalah satu buku bekas layak pakai untuk pojok baca sekolah.",
