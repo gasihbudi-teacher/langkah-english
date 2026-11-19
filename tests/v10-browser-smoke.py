@@ -97,7 +97,15 @@ async def run():
   test_counts['grammar_groups']=await page.locator('.topic-fold').count()
   test_counts['grammar_progress_summary']=await page.locator('.pathway-progress-summary').count()
   await setup(page,'school.html','pathway.js')
-  test_counts['school_first_open']=await page.locator('#grade-9-materi').get_attribute('open') is not None
+  school_groups=page.locator('#pathway-resources details')
+  assert await school_groups.count()==8
+  assert await page.locator('#pathway-resources details[open]').count()==0
+  for group in await school_groups.all():
+   titles=await group.locator('.resource-copy h3').all_text_contents()
+   expected=await page.evaluate("titles => [...titles].sort((a,b)=>a.localeCompare(b,'id'))",titles)
+   assert titles==expected, await group.get_attribute('id')
+  await page.locator('#grade-9-materi summary').click()
+  assert await page.locator('#grade-9-materi .resource-link').first.is_visible()
   await setup(page,'utbk.html','pathway.js')
   test_counts['utbk_first_open']=await page.locator('#utbk-lessons').get_attribute('open') is not None
   await setup(page,'search.html','search.js')
