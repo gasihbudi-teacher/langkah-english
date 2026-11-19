@@ -13,7 +13,7 @@
     },
     {
       "type": "scaffold",
-      "intro": "Pelajari langkah satu per satu. Bacalah penjelasan berbahasa Indonesia lebih dahulu, cocokkan contoh bahasa Inggris dengan terjemahannya, lalu coba jawab pertanyaan kecil sebelum membuka jawabannya. Kamu boleh mengulang langkah mana pun; tidak ada batas waktu.",
+      "intro": "Baca CV fiktif Nadia untuk posisi relawan perpustakaan. Gunakan bagian yang sama untuk menilai kecocokan pengalaman, keterampilan, dan data kontaknya.",
       "steps": [
         {
           "title": "Pahami tujuan CV secara sederhana",
@@ -99,18 +99,18 @@
         {
           "title": "Susun bagian dan tanggal agar mudah diperiksa",
           "explanation": "Gunakan judul bagian yang konsisten, urutan yang mudah dibaca, dan tanggal dengan format yang seragam. Bila beberapa pengalaman memiliki tanggal, yang terbaru sering ditempatkan lebih dahulu. Satu halaman sering cukup untuk siswa, tetapi kejelasan lebih penting daripada aturan panjang yang mutlak.",
-          "english": "Activities | 2026 — Library Volunteer | 2025 — Class Poster Project",
-          "indonesian": "Kegiatan | 2026 — Relawan Perpustakaan | 2025 — Proyek Poster Kelas",
+          "english": "Library Volunteer (2026) / Reading Week (2025)",
+          "indonesian": "Relawan perpustakaan (2026) / Pekan Membaca (2025)",
           "why": "Tahun yang konsisten membantu pembaca melihat urutan pengalaman. Tidak perlu memasukkan semua kegiatan jika kurang relevan.",
           "check": "Mengapa format tahun yang seragam membantu pembaca CV?",
           "checkAnswer": "Karena pembaca dapat membandingkan waktu kegiatan dengan cepat tanpa menebak urutannya."
         },
         {
           "title": "Sesuaikan CV dengan kesempatan nyata",
-          "explanation": "[[Tailor]] berarti memilih dan menonjolkan informasi yang paling relevan, bukan mengubah fakta. Untuk magang desain, contoh proyek poster lebih penting; untuk relawan perpustakaan, pengalaman mengatur buku mungkin lebih penting.",
-          "english": "Relevant project: Designed a poster for Reading Week.",
-          "indonesian": "Proyek relevan: Mendesain poster untuk Pekan Membaca.",
-          "why": "Kegiatan desain yang benar dapat ditonjolkan jika kesempatan yang dituju berkaitan dengan komunikasi visual.",
+          "explanation": "Bandingkan dua pengalaman Nadia dengan posisi yang tertera pada baris lamaran. Mana yang sebaiknya lebih dahulu dibaca panitia perpustakaan?",
+          "english": "Library Volunteer (2026) — Organized donated books for a reading corner.",
+          "indonesian": "Relawan perpustakaan (2026) — Menata buku sumbangan untuk pojok baca.",
+          "why": "Pengalaman menata buku paling dekat dengan tugas relawan perpustakaan. Poster Pekan Membaca masih bisa disebut sebagai proyek pendukung.",
           "check": "Apakah menyesuaikan CV berarti boleh mengarang pengalaman supaya terlihat cocok?",
           "checkAnswer": "Tidak. Pilih dan susun fakta yang benar; jangan menciptakan pengalaman atau prestasi."
         },
@@ -125,8 +125,8 @@
         }
       ],
       "modelTitle": "Model CV siswa · contoh fiktif, bukan data untuk disalin",
-      "modelEnglish": "Nadia Putri\nContact: nadia.student@example.com\nProfile: Grade 12 student interested in library services and community projects.\nEducation: SMA Nusantara, Grade 12 (2026–present)\nActivities: Library Volunteer (2026) — Organized donated books for a reading corner.\nSkills: Teamwork, basic spreadsheet use, poster design.",
-      "modelIndonesian": "Nadia Putri\nKontak: nadia.student@example.com\nProfil: Siswa kelas 12 yang berminat pada layanan perpustakaan dan kegiatan masyarakat.\nPendidikan: SMA Nusantara, kelas 12 (2026–sekarang)\nKegiatan: Relawan perpustakaan (2026) — Menata buku sumbangan untuk pojok baca.\nKeterampilan: Kerja sama, penggunaan dasar lembar kerja elektronik, desain poster."
+      "modelEnglish": "Nadia Putri\nApplication: School Library Volunteer\nContact: nadia.student@example.com\nProfile: Grade 12 student interested in library services and community projects.\nEducation: SMA Nusantara, Grade 12 (2026–present)\nActivities: Library Volunteer (2026) — Organized donated books for a reading corner.\nProject: Reading Week (2025) — Designed a poster for the school reading campaign.\nSkills: Teamwork, basic spreadsheet use, poster design.",
+      "modelIndonesian": "Nadia Putri\nLamaran: Relawan perpustakaan sekolah\nKontak: nadia.student@example.com\nProfil: Siswa kelas 12 yang berminat pada layanan perpustakaan dan kegiatan masyarakat.\nPendidikan: SMA Nusantara, kelas 12 (2026–sekarang)\nKegiatan: Relawan perpustakaan (2026) — Menata buku sumbangan untuk pojok baca.\nProyek: Pekan Membaca (2025) — Mendesain poster untuk kampanye membaca di sekolah.\nKeterampilan: Kerja sama, penggunaan dasar lembar kerja elektronik, desain poster."
     },
     {
       "type": "synthesis",

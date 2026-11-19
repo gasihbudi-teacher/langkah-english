@@ -38,9 +38,9 @@
         },
         {
           "title": "Uji klaim penulis",
-          "explanation": "Bandingkan kelompok yang disebut klaim dengan kelompok yang menjawab.",
-          "english": "A student editor wrote that most students preferred the new hours.",
-          "indonesian": "Seorang redaktur majalah sekolah menulis bahwa sebagian besar siswa lebih menyukai jam baru.",
+          "explanation": "Baca judul pertama yang diusulkan redaktur. Apakah semua siswa ikut disurvei?",
+          "english": "Most students prefer the new library hours.",
+          "indonesian": "Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru.",
           "why": "Kata [[students]] membuat klaim mencakup siswa yang tidak menjawab."
         },
         {
@@ -53,14 +53,14 @@
         {
           "title": "Tentukan bukti tambahan",
           "explanation": "Pikirkan siapa yang belum terdengar suaranya.",
-          "english": "The librarian invited students from each class to give their views.",
-          "indonesian": "Pustakawan mengundang siswa dari tiap kelas untuk menyampaikan pendapat.",
-          "why": "Menjangkau tiap kelas dapat memperluas cakupan. Undangan saja belum menjamin semua kelompok benar-benar menjawab."
+          "english": "The editor invited other students to share their views.",
+          "indonesian": "Redaktur mengundang siswa lain untuk menyampaikan pendapat.",
+          "why": "Undangan itu membuka kesempatan bagi siswa lain. Sampai mereka menjawab, hasil yang ada tetap terbatas pada 25 responden."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",
-      "modelEnglish": "Twenty-five students volunteered for a library survey. Eighteen preferred the new hours. The school magazine reported the result and invited students who had not answered to share their views.",
-      "modelIndonesian": "Dua puluh lima siswa menjadi responden sukarela dalam survei perpustakaan. Delapan belas di antaranya lebih menyukai jam layanan baru. Majalah sekolah melaporkan hasil itu dan mengundang siswa yang belum menjawab untuk menyampaikan pendapat."
+      "modelEnglish": "Twenty-five students volunteered for a library survey. Eighteen preferred the new hours. A student editor proposed the headline “Most students prefer the new library hours.” The librarian asked who had answered. The editor changed “students” to “respondents” and invited other students to share their views.",
+      "modelIndonesian": "Dua puluh lima siswa bersedia menjawab survei perpustakaan. Delapan belas di antaranya lebih menyukai jam layanan yang baru. Seorang redaktur majalah sekolah mengusulkan judul “Sebagian besar siswa lebih menyukai jam layanan perpustakaan yang baru.” Pustakawan menanyakan siapa yang menjawab survei. Redaktur mengganti “siswa” dengan “responden” dan mengundang siswa lain untuk menyampaikan pendapat."
     },
     {
       "type": "synthesis",

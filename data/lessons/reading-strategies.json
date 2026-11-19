@@ -67,9 +67,9 @@
         {
           "title": "Tentukan bukti berikutnya",
           "explanation": "Cari perbandingan yang membantu memisahkan pengaruh kedua kejadian.",
-          "english": "The librarian kept counting after the festival.",
-          "indonesian": "Pustakawan tetap menghitung kunjungan setelah festival.",
-          "why": "Catatan lanjutan memberi pembanding saat festival sudah selesai."
+          "english": "The librarian decided to keep recording visits after the festival ended.",
+          "indonesian": "Pustakawan memutuskan untuk tetap mencatat kunjungan setelah festival berakhir.",
+          "why": "Keputusan untuk melanjutkan pencatatan menunjukkan cara mencari pembanding. Bacaan belum melaporkan hasil setelah festival."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

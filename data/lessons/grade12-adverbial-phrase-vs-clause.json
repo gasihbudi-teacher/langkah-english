@@ -14,77 +14,49 @@
     },
     {
       "type": "scaffold",
-      "intro": "Fokus materi: Menjelaskan bahwa [[adverbial]] adalah fungsi, sedangkan [[phrase]] dan [[clause]] menunjuk struktur. Amati contoh pada setiap langkah, lalu gunakan bagian latihan berikutnya untuk menerapkan keterampilan tersebut.",
+      "intro": "Ikuti Mira dari saat ia berada di dalam rumah hingga ia keluar setelah hujan reda. Di setiap langkah, periksa bagian yang menjawab mengapa atau kapan tindakan Mira terjadi.",
       "steps": [
         {
-          "title": "Fungsi adverbial",
-          "explanation": "[[Adverbial]] menambahkan informasi seperti waktu, alasan, cara, atau kontras; itu tugasnya, bukan nama satu bentuk tertentu.",
-          "english": "We studied in the library.",
-          "indonesian": "Kami belajar di perpustakaan.",
-          "why": "[[In the library]] menjawab “di mana?”; ini [[prepositional phrase]] yang berfungsi sebagai adverbial, tanpa subjek + verba sendiri."
+          "title": "Temukan tindakan inti",
+          "explanation": "Baca kalimat pertama. Apa yang dilakukan Mira sebelum kita menambahkan alasannya?",
+          "english": "Mira stayed inside",
+          "indonesian": "Mira tetap di dalam",
+          "why": "Bagian ini sudah mempunyai subjek [[Mira]] dan predikat [[stayed inside]]. Keterangan alasan dapat ditambahkan pada inti ini."
         },
         {
-          "title": "Pisahkan bagian inti",
-          "explanation": "Dalam [[She left after lunch]], klausa inti ialah [[She left]]; hanya [[after lunch]] yang diuji sebagai adverbial.",
-          "english": "She left after lunch.",
-          "indonesian": "Dia pergi setelah makan siang.",
-          "why": "[[She left]] adalah klausa utama; [[after lunch]] bagian yang menerangkan waktu."
+          "title": "Bedah keterangan alasan",
+          "explanation": "Lihat bagian sesudah tindakan Mira. Periksa apakah ada kata kerja di dalam alasan itu sendiri.",
+          "english": "because of the rain",
+          "indonesian": "karena hujan",
+          "why": "Sesudah [[because of]] hanya ada frasa nomina [[the rain]]. Verba [[stayed]] berada di bagian inti, bukan di dalam keterangan."
         },
         {
-          "title": "Phrase atau clause?",
-          "explanation": "[[Phrase]] tidak memuat struktur subjek–predikat klausa finit lengkap; [[clause]] mempunyai struktur predikasi, dan sebagian berbentuk nonfinit.",
-          "english": "The club met after school.",
-          "indonesian": "Klub itu bertemu setelah jam sekolah.",
-          "why": "[[After school]] = frasa adverbial waktu; [[school]] ialah nomina, bukan verba."
+          "title": "Temukan klausa waktu",
+          "explanation": "Pada kalimat kedua, kapan Mira membaca? Cari dua unsur di dalam bagian yang dimulai dengan [[while]].",
+          "english": "while the rain continued",
+          "indonesian": "sementara hujan terus turun",
+          "why": "Di sini [[the rain]] adalah subjek dan [[continued]] adalah verba finit. Keduanya menjadikan bagian ini klausa waktu."
         },
         {
-          "title": "Kenali finite verb",
-          "explanation": "Dalam [[the meeting ended]], [[ended]] adalah verba finit yang menandai waktu; bandingkan dengan [[after the meeting]] tanpa verba finit.",
-          "english": "She left after the meeting ended.",
-          "indonesian": "Dia pergi setelah rapat selesai.",
-          "why": "[[The meeting]] adalah subjek dan [[ended]] verba finit di dalam adverbial."
+          "title": "Periksa frasa di awal kalimat",
+          "explanation": "Pada kalimat ketiga, pisahkan keterangan sebelum koma dari tindakan mengecek cuaca.",
+          "english": "After lunch, she checked the weather.",
+          "indonesian": "Setelah makan siang, ia memeriksa cuaca.",
+          "why": "Kata [[lunch]] menamai waktu makan. Frasa [[after lunch]] menjawab kapan. Subjek [[she]] dan verba [[checked]] ada sesudah koma."
         },
         {
-          "title": "Analisis adverbial phrase",
-          "explanation": "[[After lunch]] adalah frasa preposisional yang berfungsi sebagai keterangan waktu dalam kalimat.",
-          "english": "She left after lunch.",
-          "indonesian": "Dia pergi setelah makan siang.",
-          "why": "[[After lunch]] ialah frasa preposisional tanpa predikasi finit yang berfungsi sebagai keterangan waktu."
+          "title": "Bandingkan dua bentuk dengan penghubung yang sama",
+          "explanation": "Bandingkan [[after lunch]] dengan bagian terakhir kalimat keempat. Apa yang mengikuti [[after]] kali ini?",
+          "english": "after the rain stopped",
+          "indonesian": "setelah hujan berhenti",
+          "why": "Ada subjek [[the rain]] dan verba [[stopped]]. Kedua bentuk dengan [[after]] sama-sama menerangkan waktu, tetapi bagian yang satu berupa frasa dan yang lain berupa klausa."
         },
         {
-          "title": "Analisis finite adverbial clause",
-          "explanation": "[[After the meeting ended]] memuat subjek [[the meeting]] dan verba finit [[ended]], sehingga merupakan klausa adverbial finit.",
-          "english": "She left after the meeting ended.",
-          "indonesian": "Dia pergi setelah rapat selesai.",
-          "why": "[[After the meeting ended]] adalah klausa adverbial finit: ada subjek [[the meeting]] dan predikat [[ended]]."
-        },
-        {
-          "title": "Bandingkan dua cara menyatakan hambatan",
-          "explanation": "Kedua kalimat mengakui hambatan yang sama. Periksa hanya bagian sebelum koma.",
-          "english": "Despite the crowded room, Maya concentrated. Although the room was crowded, Maya concentrated.",
-          "indonesian": "Meski ruangannya penuh, Maya tetap berkonsentrasi. Walaupun ruangan itu penuh, Maya tetap berkonsentrasi.",
-          "why": "Sesudah [[despite]] ada frasa nomina. Sesudah [[although]] ada subjek [[the room]] dan verba finit [[was]]."
-        },
-        {
-          "title": "Pilih penghubung",
-          "explanation": "[[Because]] lazim diikuti klausa; [[because of]] diikuti frasa nomina. Demikian pula [[although/despite]] dan [[while/during]] punya pola berbeda.",
-          "english": "She stayed home because of the rain. She stayed home because it rained.",
-          "indonesian": "Dia tetap di rumah karena hujan. Dia tetap di rumah karena hujan turun.",
-          "why": "[[Because of]] mendahului frasa nomina [[the rain]], sedangkan [[because]] mendahului klausa [[it rained]]."
-        },
-        {
-          "title": "Ubah tanpa mengubah maksud",
-          "explanation": "Ubah klausa menjadi frasa hanya bila makna, hubungan, dan kejelasan tetap wajar; tidak semua pasangan dapat diubah otomatis.",
-          "english": "We revised our notes before dinner.",
-          "indonesian": "Kami meninjau ulang catatan sebelum makan malam.",
-          "why": "[[Before dinner]] = frasa waktu tanpa pasangan subjek–verba sendiri."
-        },
-        {
-          "title": "Terapkan dan kenali batas",
-          "explanation": "Klasifikasikan dalam paragraf, lalu ingat bahwa klausa adverbial juga bisa nonfinit sehingga aturan [[ada subjek + verb finit]] adalah pembeda awal, bukan definisi semua klausa.",
-          "english": "Before dinner began, we revised our notes.",
-          "indonesian": "Sebelum makan malam dimulai, kami meninjau ulang catatan.",
-          "why": "[[Before dinner began]] = klausa waktu; [[dinner]] subjek dan [[began]] verba finit."
+          "title": "Uji perubahan bentuk pada tindakan Mira",
+          "explanation": "Tulis ulang alasan dalam kalimat pertama. Ganti [[because of]] dengan [[because]], lalu lengkapi penyebabnya dengan subjek dan verba.",
+          "english": "Mira stayed inside because it was raining.",
+          "indonesian": "Mira tetap di dalam karena saat itu sedang hujan.",
+          "why": "Ini versi lain dari kalimat pembuka. Tindakan Mira dan alasan hujannya tetap sama. Sesudah [[because]] kini ada [[it was raining]], bukan hanya frasa [[the rain]]."
         }
       ],
       "modelTitle": "Teks model yang akan kita pelajari bersama",

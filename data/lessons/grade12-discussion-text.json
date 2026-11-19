@@ -25,16 +25,16 @@
         {
           "title": "Sajikan argumen pendukung pertama (Arguments For)",
           "explanation": "Penulis memaparkan alasan utama mengapa sebagian orang mendukung gagasan tersebut.",
-          "english": "Supporters say walking and cycling reduce traffic congestion near school gates.",
-          "indonesian": "Para pendukung mengatakan berjalan kaki dan bersepeda mengurangi kemacetan di dekat gerbang sekolah.",
-          "why": "Kata [[Supporters say]] menandai sudut pandang pertama beserta manfaat nyatanya."
+          "english": "Walking or cycling could ease congestion at the school gate.",
+          "indonesian": "Berjalan kaki atau bersepeda bisa mengurangi kemacetan di gerbang sekolah.",
+          "why": "Frasa [[could ease]] menyatakan manfaat yang mungkin terjadi. Bacaan tidak mengklaim kemacetan sudah berkurang."
         },
         {
-          "title": "Tambahkan bukti atau manfaat pendukung",
-          "explanation": "Sisi pertama diperkuat dengan dampak positif tambahan yang relevan.",
-          "english": "Lower car use can also reduce transport emissions around the neighbourhood.",
-          "indonesian": "Penggunaan mobil yang lebih rendah juga dapat mengurangi emisi transportasi di lingkungan sekitar.",
-          "why": "Alasan ini memperjelas manfaat lingkungan dari sisi pendukung."
+          "title": "Timbang kekuatan alasan pendukung",
+          "explanation": "Lihat lagi kata sebelum [[ease]]. Apakah penulis melaporkan hasil pengukuran atau menyampaikan kemungkinan?",
+          "english": "could ease congestion",
+          "indonesian": "bisa mengurangi kemacetan",
+          "why": "Penulis memberi alasan untuk mencoba kebijakan, tetapi tidak menyebut data lalu lintas. Kita belum bisa menentukan seberapa besar dampaknya."
         },
         {
           "title": "Hadirkan sudut pandang berbeda (Arguments Against)",
@@ -46,15 +46,15 @@
         {
           "title": "Jelaskan alasan dan keterbatasan sisi kedua",
           "explanation": "Penulis menguraikan hambatan praktis yang membuat solusi tunggal sulit diterapkan bagi semua orang.",
-          "english": "Long distances, heavy rain, and unsafe roads make cycling difficult for many families.",
-          "indonesian": "Jarak yang jauh, hujan lebat, dan jalan yang kurang aman membuat bersepeda sulit bagi banyak keluarga.",
-          "why": "Alasan ini menjelaskan keterbatasan nyata di lapangan secara objektif."
+          "english": "students who live far away may have no safe route.",
+          "indonesian": "siswa yang tinggal jauh mungkin tidak memiliki rute yang aman.",
+          "why": "Jarak dan keamanan menjelaskan mengapa pilihan perjalanan yang sama belum tentu cocok untuk semua keluarga."
         },
         {
           "title": "Tulis kesimpulan yang mempertimbangkan kedua sisi (Conclusion)",
           "explanation": "Bagian akhir merangkum jalan tengah atau syarat penerapan yang adil berdasarkan kedua argumen.",
-          "english": "A balanced plan should improve bicycle parking and bus routes while allowing flexibility for distant students.",
-          "indonesian": "Rencana yang seimbang sebaiknya memperbaiki parkir sepeda dan rute bus sambil memberikan fleksibilitas bagi siswa yang tinggal jauh.",
+          "english": "The school could improve bicycle parking and share information about bus routes while allowing families to choose another option when their journey is difficult.",
+          "indonesian": "Sekolah dapat memperbaiki parkir sepeda dan membagikan informasi rute bus sambil memberi keluarga pilihan lain jika perjalanan mereka sulit.",
           "why": "Kesimpulan mengakui manfaat sisi pendukung sekaligus menjawab kekhawatiran sisi penentang."
         }
       ],

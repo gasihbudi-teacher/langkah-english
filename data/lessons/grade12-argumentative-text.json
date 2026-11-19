@@ -13,80 +13,52 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ikuti rapat komite sekolah tentang pembayaran di kantin. Bedakan manfaat yang dijanjikan, hasil yang benar-benar diamati, dan masalah yang masih perlu diatasi.",
+      "intro": "Baca tiga kalimat tentang uji coba pembayaran di kantin. Ikuti cara penulis mengusulkan tindakan, memberi bukti, mengakui kendala, lalu menjawab kendala itu.",
       "steps": [
         {
-          "title": "Rumuskan keputusan",
-          "explanation": "Tanyakan dulu apa yang perlu diputuskan komite.",
-          "english": "Should the canteen accept digital payments?",
-          "indonesian": "Apakah kantin sebaiknya menerima pembayaran digital?",
-          "why": "Pertanyaan ini membuka perdebatan. Menerima pembayaran digital belum tentu berarti menghapus uang tunai."
+          "title": "Temukan usulan penulis",
+          "explanation": "Baca kalimat pertama. Apa yang diminta penulis untuk dilanjutkan?",
+          "english": "The canteen should continue its digital payment trial.",
+          "indonesian": "Kantin sebaiknya melanjutkan uji coba pembayaran digital.",
+          "why": "Kata [[should continue]] menunjukkan usulan. Kata [[trial]] membatasi usulan pada tahap uji coba; penulis belum meminta kantin memakai sistem ini secara permanen."
         },
         {
-          "title": "Temukan posisi awal",
-          "explanation": "Cari pihak yang menyampaikan usulan.",
-          "english": "Some committee members support a digital payment option.",
-          "indonesian": "Sebagian anggota komite mendukung pilihan pembayaran digital.",
-          "why": "Kata [[support]] menunjukkan posisi anggota itu. Belum ada hasil pengamatan dalam kalimat ini."
+          "title": "Tunjuk bukti yang sudah diamati",
+          "explanation": "Pada awal kalimat kedua, cari pelaku dan hasil yang dilaporkan selama uji coba.",
+          "english": "Several sellers served customers more quickly during the trial",
+          "indonesian": "Beberapa penjual melayani pelanggan lebih cepat selama uji coba",
+          "why": "Hasil yang dilaporkan berupa pelayanan yang lebih cepat. Inilah bukti yang mendukung usulan di awal, bukan sekadar harapan penulis."
         },
         {
-          "title": "Kenali alasan",
-          "explanation": "Periksa mengapa usulan dianggap bermanfaat.",
-          "english": "Electronic payments could shorten queues.",
-          "indonesian": "Pembayaran elektronik mungkin memperpendek antrean.",
-          "why": "Kata [[could]] menandai manfaat yang diperkirakan. Kita masih perlu memeriksa hasil uji coba."
+          "title": "Periksa seberapa luas buktinya",
+          "explanation": "Perhatikan kata sebelum [[sellers]] dan keterangan waktu di akhir bagian tadi.",
+          "english": "Several sellers",
+          "indonesian": "Beberapa penjual",
+          "why": "Bacaan tidak menyebut jumlah pastinya dan tidak mengatakan semua penjual mendapat hasil yang sama. Bukti ini cukup untuk mempertimbangkan uji lanjut, tetapi belum cukup untuk menjamin hasil di seluruh kantin."
         },
         {
-          "title": "Temukan bukti",
-          "explanation": "Perhatikan siapa yang diamati dan apa yang terjadi.",
-          "english": "Several sellers completed payments more quickly during a small trial.",
-          "indonesian": "Beberapa penjual menyelesaikan pembayaran lebih cepat dalam uji coba kecil.",
-          "why": "Ada pengamatan tentang waktu transaksi. Besar penghematannya tidak dilaporkan."
+          "title": "Kenali keberatan dalam kalimat yang sama",
+          "explanation": "Sesudah melaporkan manfaat, penulis memakai [[but]]. Masalah apa yang muncul setelah kata itu?",
+          "english": "but some students cannot use the system when the network fails.",
+          "indonesian": "tetapi sebagian siswa tidak dapat menggunakan sistem itu ketika jaringan terputus.",
+          "why": "Pelayanan yang cepat tidak membantu siswa yang saat itu tidak bisa memakai sistem. Keberatan ini membatasi manfaat yang baru saja disebutkan."
         },
         {
-          "title": "Batasi simpulan",
-          "explanation": "Cocokkan luas simpulan dengan cakupan pengamatan.",
-          "english": "The trial gives some support to the speed claim.",
-          "indonesian": "Uji coba itu memberi sedikit dukungan bagi klaim tentang kecepatan transaksi.",
-          "why": "Kata [[several]] menunjukkan bahwa hasil tersebut belum tentu berlaku bagi semua penjual."
+          "title": "Cocokkan solusi dengan kendala",
+          "explanation": "Di awal kalimat terakhir, lihat siapa yang dirujuk oleh [[them]].",
+          "english": "Keeping a cash option would let them buy lunch",
+          "indonesian": "Dengan tetap menerima uang tunai, kantin memungkinkan mereka membeli makan siang",
+          "why": "Yang dirujuk ialah siswa yang tidak dapat membayar saat jaringan terputus. Pembayaran tunai menjawab keberatan itu karena mereka masih bisa membeli makan siang."
         },
         {
-          "title": "Dengarkan keberatan",
-          "explanation": "Cari siapa yang mungkin kesulitan menggunakan cara baru.",
-          "english": "Some students do not have a suitable device.",
-          "indonesian": "Sebagian siswa tidak memiliki perangkat yang sesuai.",
-          "why": "Antrean yang lebih singkat tidak mengatasi masalah akses bagi siswa tersebut."
-        },
-        {
-          "title": "Bedakan dua kendala",
-          "explanation": "Bahkan pemilik perangkat masih memerlukan jaringan yang berfungsi.",
-          "english": "An unreliable connection can interrupt a transaction.",
-          "indonesian": "Koneksi yang tidak andal dapat mengganggu transaksi.",
-          "why": "Perangkat dan jaringan adalah dua syarat berbeda. Memenuhi satu syarat belum menjamin pembayaran berhasil."
-        },
-        {
-          "title": "Hubungkan tanggapan dengan keberatan",
-          "explanation": "Uji apakah usulan memberi jalan keluar bagi siswa yang terkendala.",
-          "english": "A cash option lets students pay when a connection fails.",
-          "indonesian": "Pilihan tunai memungkinkan siswa membayar ketika koneksi terputus.",
-          "why": "Pilihan tunai langsung menjawab kendala jaringan. Menjanjikan antrean cepat saja belum menyelesaikannya."
-        },
-        {
-          "title": "Periksa hal yang belum diketahui",
-          "explanation": "Bedakan keputusan sementara dari kesimpulan akhir.",
-          "english": "The committee wants more testing before expanding the system.",
-          "indonesian": "Komite ingin lebih banyak pengujian sebelum memperluas sistem.",
-          "why": "Uji tambahan dapat menunjukkan apakah hasil awal juga berlaku pada penjual lain."
-        },
-        {
-          "title": "Tarik simpulan bersyarat",
-          "explanation": "Gabungkan bukti awal dengan kebutuhan siswa.",
-          "english": "The canteen could keep cash while it tests digital payments further.",
-          "indonesian": "Kantin dapat tetap menerima uang tunai sambil menguji pembayaran digital lebih lanjut.",
-          "why": "Usulan ini memberi ruang untuk menguji manfaat sekaligus melayani siswa yang masih membutuhkan uang tunai."
+          "title": "Tarik posisi akhir penulis",
+          "explanation": "Baca penutup kalimat terakhir bersama usulan di awal. Mengapa pembayaran tunai dan uji coba sama-sama dipertahankan?",
+          "english": "while the committee gathers more evidence.",
+          "indonesian": "sementara komite mengumpulkan lebih banyak bukti.",
+          "why": "Kata [[while]] menunjukkan dua hal berlangsung bersamaan. Kantin tetap melayani pembeli tunai, sementara komite memeriksa apakah manfaat awal cukup kuat untuk keputusan berikutnya."
         }
       ],
-      "modelTitle": "Teks model yang akan kita pelajari bersama",
+      "modelTitle": "Haruskah uji coba pembayaran digital di kantin dilanjutkan?",
       "modelEnglish": "The canteen should continue its digital payment trial. Several sellers served customers more quickly during the trial, but some students cannot use the system when the network fails. Keeping a cash option would let them buy lunch while the committee gathers more evidence.",
       "modelIndonesian": "Kantin sebaiknya melanjutkan uji coba pembayaran digital. Beberapa penjual melayani pelanggan lebih cepat selama uji coba, tetapi sebagian siswa tidak dapat memakai sistem itu ketika jaringan terputus. Dengan tetap menerima uang tunai, kantin dapat melayani mereka sambil menunggu komite mengumpulkan bukti tambahan."
     },

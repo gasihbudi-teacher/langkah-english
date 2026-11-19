@@ -39,28 +39,28 @@
         {
           "title": "Tambahkan alasan kedua (Argument 2)",
           "explanation": "Penulis memperkuat argumen dengan penyebab yang mudah dipahami pembaca.",
-          "english": "Without facial expressions or tone of voice, readers can easily misread a joke as an insult.",
-          "indonesian": "Tanpa ekspresi wajah atau nada suara, pembaca dapat dengan mudah salah mengartikan candaan sebagai hinaan.",
+          "english": "Short messages are easily misunderstood because readers cannot hear the speaker's tone.",
+          "indonesian": "Pesan singkat mudah disalahpahami karena pembaca tidak dapat mendengar nada bicara pengirimnya.",
           "why": "Kalimat ini menjelaskan sebab mengapa kesalahpahaman sering terjadi di pesan teks."
         },
         {
           "title": "Ajukan rekomendasi utama (Recommendation)",
           "explanation": "Kata [[therefore]] memperkenalkan simpulan. Periksa apakah isi simpulan meminta pembaca bertindak; kata itu sendiri belum menunjukkan saran.",
-          "english": "Therefore, students should reread their replies before sending them to the group.",
-          "indonesian": "Oleh karena itu, siswa sebaiknya membaca ulang balasan mereka sebelum mengirimkannya ke grup.",
-          "why": "Kata [[Therefore]] dan [[should reread]] menandai saran tindakan konkret, bukan sekadar pernyataan fakta."
+          "english": "Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send.",
+          "indonesian": "Karena itu, sebelum mengirim balasan, siswa sebaiknya memeriksa apakah mereka menanggapi gagasan atau justru menyerang pribadi.",
+          "why": "Sesudah [[therefore]], penulis memakai [[should check]] untuk meminta pembaca memeriksa isi balasannya."
         },
         {
           "title": "Lengkapi dengan tindakan pendukung",
           "explanation": "Rekomendasi dapat diikuti langkah tambahan agar solusi berjalan efektif.",
           "english": "Students should also report harmful posts through official school channels instead of spreading screenshots.",
           "indonesian": "Siswa juga sebaiknya melaporkan unggahan yang merugikan melalui saluran resmi sekolah alih-alih menyebarkan tangkapan layar.",
-          "why": "[[Should also report]] memberikan alternatif tindakan yang bertanggung jawab."
+          "why": "Frasa [[should report]] memberi cara menangani pesan yang merugikan. Meneruskan tangkapan layar justru dapat menyebarkan pesan itu lebih luas."
         }
       ],
       "modelTitle": "Teks model utuh: Thesis → Arguments → Recommendation",
-      "modelEnglish": "Respectful communication is needed in every online class group. Short messages are easily misunderstood because readers cannot hear the speaker's tone. When students post harsh replies, classmates feel hesitant to share ideas. Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send.",
-      "modelIndonesian": "Komunikasi yang sopan diperlukan di setiap grup kelas daring. Pesan singkat mudah disalahpahami karena pembaca tidak dapat mendengar nada bicara pengirimnya. Ketika siswa mengirim balasan yang kasar, teman sekelas merasa ragu untuk berbagi ide. Oleh karena itu, siswa sebaiknya memeriksa apakah balasan mereka menanggapi gagasan dan bukan menyerang pribadi sebelum menekan tombol kirim."
+      "modelEnglish": "Respectful communication is needed in every online class group. Short messages are easily misunderstood because readers cannot hear the speaker's tone. When students post harsh replies, classmates feel hesitant to share ideas. Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send. If a post harms a classmate, students should report it through a school channel instead of forwarding screenshots.",
+      "modelIndonesian": "Komunikasi yang sopan diperlukan di setiap grup kelas daring. Pesan singkat mudah disalahpahami karena pembaca tidak dapat mendengar nada bicara pengirimnya. Ketika siswa mengirim balasan yang kasar, teman sekelas merasa ragu untuk berbagi ide. Oleh karena itu, siswa sebaiknya memeriksa apakah balasan mereka menanggapi gagasan dan bukan menyerang pribadi sebelum menekan tombol kirim. Jika sebuah unggahan merugikan teman sekelas, siswa sebaiknya melaporkannya melalui saluran sekolah dan tidak meneruskan tangkapan layar."
     },
     {
       "type": "synthesis",
