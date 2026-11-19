@@ -1,8 +1,8 @@
 {
   "id": "grade11-explanation",
   "objectives": [
-    "Mengidentifikasi urutan tahapan dan hubungan sebab-akibat dalam teks eksplanasi (explanation text).",
-    "Membedakan kata penghubung urutan waktu (when, after) dari penanda sebab-akibat (because, as a result, therefore).",
+    "Mengidentifikasi urutan tahap dan hubungan sebab-akibat dalam teks eksplanasi ([[explanation text]]).",
+    "Membedakan penghubung yang menunjukkan waktu ([[when]], [[after]]) dari penghubung yang menjelaskan sebab atau akibat ([[because]], [[as a result]], [[therefore]]).",
     "Menganalisis mekanisme suatu fenomena alam pada bacaan utuh dan soal pemahaman."
   ],
   "blocks": [
@@ -13,54 +13,49 @@
     },
     {
       "type": "scaffold",
-      "intro": "Ikuti enam tahap berikut pada satu proses yang sama—terbentuknya hujan—untuk melihat bagaimana setiap tahap terhubung secara logis dari awal hingga akhir.",
+      "intro": "Baca penjelasan tentang terbentuknya hujan. Ikuti air sejak terkena panas matahari sampai jatuh sebagai hujan. Di bagian mana air berubah wujud?",
       "steps": [
         {
-          "title": "Kenali fenomena yang dijelaskan",
-          "explanation": "Bagian pembuka memperkenalkan peristiwa atau fenomena yang akan diuraikan prosesnya.",
-          "english": "Rain forms through a continuous cycle of heating, cooling, and condensation.",
-          "indonesian": "Hujan terbentuk melalui siklus pemanasan, pendinginan, dan pengembunan yang berkelanjutan.",
-          "why": "Kalimat ini menyatakan fenomena utama (terbentuknya hujan) beserta gambaran singkat mekanismenya."
+          "title": "Temukan titik awal penjelasan",
+          "explanation": "Kalimat pertama menyebut hujan. Apa yang sebenarnya terjadi pada air di tahap awal ini?",
+          "english": "Rain forms when sunlight warms water in oceans, rivers, and lakes.",
+          "indonesian": "Proses terbentuknya hujan berawal saat sinar matahari menghangatkan air di laut, sungai, dan danau.",
+          "why": "Bagian [[sunlight warms water]] memberi kita titik awal. Untuk menjelaskan bagaimana air itu bisa turun sebagai hujan, kita perlu mengikuti perubahan pada kalimat berikutnya."
         },
         {
-          "title": "Identifikasi kondisi awal proses (Evaporation)",
-          "explanation": "Proses selalu dimulai dari keadaan atau pemicu awal sebelum perubahan berikutnya terjadi.",
-          "english": "First, heat from the sun causes water from oceans and rivers to evaporate into water vapour.",
-          "indonesian": "Pertama, panas matahari menyebabkan air dari laut dan sungai menguap menjadi uap air.",
-          "why": "Kata [[First]] dan [[causes]] menunjukkan pemicu awal perubahan wujud air."
+          "title": "Ikuti perubahan air menjadi uap",
+          "explanation": "Perhatikan bentuk air sebelum dan sesudah proses yang disebut [[evaporates]].",
+          "english": "The heated water evaporates into water vapour and rises into the air.",
+          "indonesian": "Air yang dipanaskan menguap menjadi uap air, lalu naik ke udara.",
+          "why": "Air di permukaan awalnya cair. Setelah menguap, air itu berbentuk gas. Yang naik bersama udara adalah uap air."
         },
         {
-          "title": "Lacak tahap pergerakan berikutnya",
-          "explanation": "Gunakan penanda waktu seperti [[when]] atau [[as]] untuk melihat perubahan keadaan setelah tahap pertama.",
-          "english": "When warm, moist air rises higher into the atmosphere, it begins to cool.",
-          "indonesian": "Ketika udara hangat dan lembap naik lebih tinggi ke atmosfer, udara itu mulai mendingin.",
-          "why": "Kata [[When]] menghubungkan dua peristiwa berurutan: udara naik lalu mendingin."
+          "title": "Cari tahu apa yang mendingin",
+          "explanation": "Perhatikan kata [[it]]. Kata apa yang dirujuknya dalam bagian ini?",
+          "english": "As the warm air rises, it cools",
+          "indonesian": "Saat udara hangat naik, udara itu mendingin",
+          "why": "Kata [[it]] merujuk pada [[the warm air]]. Di sini [[as]] berarti “saat”. Udara mendingin sewaktu naik."
         },
         {
-          "title": "Temukan mekanisme sebab-akibat inti (Condensation)",
-          "explanation": "Kata penghubung seperti [[because]] menjelaskan mengapa perubahan fisik terjadi pada tahap ini.",
-          "english": "Because cool air holds less moisture than warm air, the water vapour condenses into tiny droplets.",
-          "indonesian": "Karena udara dingin menampung lebih sedikit kelembapan daripada udara hangat, uap air mengembun menjadi tetesan kecil.",
-          "why": "Kata [[Because]] menjelaskan alasan ilmiah terjadinya pengembunan ([[condenses]])."
+          "title": "Temukan perubahan yang menghasilkan awan",
+          "explanation": "Setelah udara mendingin, apa yang berubah menjadi tetesan kecil?",
+          "english": "the vapour condenses into tiny droplets that form clouds.",
+          "indonesian": "uap air mengembun menjadi tetesan kecil yang membentuk awan.",
+          "why": "Yang mendingin adalah udara. Yang mengembun adalah uap air di dalamnya. Kata [[condenses]] menjelaskan perubahan dari gas menjadi cair."
         },
         {
-          "title": "Hubungkan tahap menengah ke hasil (As a result)",
-          "explanation": "Ungkapan seperti [[as a result]] atau [[therefore]] menandai dampak dari gabungan tahap sebelumnya.",
-          "english": "Millions of tiny droplets gather around dust particles; as a result, visible clouds form.",
-          "indonesian": "Jutaan tetesan kecil berkumpul di sekitar partikel debu; akibatnya, awan yang tampak pun terbentuk.",
-          "why": "[[As a result]] menandai akibat langsung dari berkumpulnya tetesan air."
-        },
-        {
-          "title": "Tutup dengan hasil akhir siklus (Precipitation)",
-          "explanation": "Tahap akhir menjawab bagaimana fenomena awal benar-benar terwujud.",
-          "english": "When the water droplets combine and grow too heavy to stay suspended in the air, they fall to the ground as rain.",
-          "indonesian": "Ketika tetesan air bergabung dan menjadi terlalu berat untuk tetap melayang di udara, tetesan itu jatuh ke tanah sebagai hujan.",
-          "why": "Menjelaskan syarat akhir (terlalu berat) sebelum hujan turun."
+          "title": "Bedakan terbentuknya awan dari turunnya hujan",
+          "explanation": "Baca kalimat terakhir. Pada tahap sebelumnya sudah ada tetesan di awan. Apa yang masih perlu terjadi agar tetesannya jatuh sebagai hujan?",
+          "english": "When these droplets combine and become too heavy, they fall as rain.",
+          "indonesian": "Ketika tetesan air itu bergabung dan menjadi terlalu berat untuk tetap melayang, tetesan itu jatuh sebagai hujan.",
+          "why": "Bagian sesudah [[when]] menyebut kondisinya. Tetesan kecil bergabung menjadi tetes yang lebih besar. Bagian [[they fall as rain]] memberi tahu kita apa yang terjadi kemudian.",
+          "check": "Seorang teman meringkas bacaan begini: “Begitu air menguap, hujan turun.” Tahap apa saja yang perlu kamu tambahkan agar ringkasannya tepat?",
+          "checkAnswer": "Saat udara naik, udara mendingin. Uap air mengembun menjadi tetesan kecil yang membentuk awan. Tetesan itu bergabung dan membesar sebelum jatuh sebagai hujan."
         }
       ],
       "modelTitle": "Teks model utuh: Urutan proses terbentuknya hujan",
       "modelEnglish": "Rain forms when sunlight warms water in oceans, rivers, and lakes. The heated water evaporates into water vapour and rises into the air. As the warm air rises, it cools, and the vapour condenses into tiny droplets that form clouds. When these droplets combine and become too heavy, they fall as rain.",
-      "modelIndonesian": "Hujan terbentuk ketika sinar matahari menghangatkan air di laut, sungai, dan danau. Air yang memanas menguap menjadi uap air dan naik ke udara. Saat udara hangat naik, udara itu mendingin, dan uap air mengembun menjadi tetesan kecil yang membentuk awan. Ketika tetesan-tetesan ini bergabung dan menjadi terlalu berat, semuanya jatuh sebagai hujan."
+      "modelIndonesian": "Proses terbentuknya hujan berawal saat sinar matahari menghangatkan air di laut, sungai, dan danau. Air yang dipanaskan menguap menjadi uap air, lalu naik ke udara. Saat udara hangat naik, udara itu mendingin, dan uap air mengembun menjadi tetesan kecil yang membentuk awan. Ketika tetesan air itu bergabung dan menjadi terlalu berat untuk tetap melayang, tetesan itu jatuh sebagai hujan."
     },
     {
       "type": "synthesis",
@@ -69,7 +64,7 @@
     },
     {
       "type": "subheading",
-      "text": "Kata penghubung proses dan sebab-akibat"
+      "text": "Cara lain untuk menghubungkan tahap, sebab, dan akibat"
     },
     {
       "type": "table",
@@ -143,32 +138,36 @@
       "choices": [
         "We watched dark rain clouds from our classroom window yesterday.",
         "Rainy afternoons always feel much more relaxing than sunny days.",
-        "When warm, moist air rises, it cools and condenses into cloud droplets."
+        "As warm, moist air rises and cools, water vapour can condense into cloud droplets."
       ],
       "answer": 2,
       "translationChoices": [
         "Kami melihat awan hujan yang gelap dari jendela kelas kemarin.",
         "Sore yang hujan selalu terasa jauh lebih menenangkan daripada hari yang cerah.",
-        "Ketika udara hangat dan lembap naik, udara itu mendingin dan mengembun menjadi tetesan awan."
+        "Saat udara hangat dan lembap naik lalu mendingin, uap air dapat mengembun menjadi tetesan kecil yang membentuk awan."
       ],
-      "explanation": "Pilihan ketiga menguraikan tahapan mekanisme fisik (udara naik → mendingin → mengembun). Pilihan pertama adalah pengalaman pribadi, sedangkan pilihan kedua adalah pendapat.",
+      "explanation": "Pilihan ketiga menjelaskan bagaimana tetesan air terbentuk. Udara mendingin dan uap air di dalamnya mengembun. Pilihan pertama menceritakan pengalaman, sedangkan pilihan kedua menyatakan pendapat.",
       "hint": "Cari kalimat yang menjelaskan bagaimana suatu perubahan alam terjadi secara berurutan."
     },
     {
       "type": "breakdown",
-      "sentence": "Because cool air holds less moisture, water vapour condenses into tiny droplets.",
+      "sentence": "As the warm air rises, it cools, and the vapour condenses into tiny droplets that form clouds.",
       "parts": [
         {
-          "english": "Because cool air holds less moisture,",
-          "meaning": "Klausa penyebab ('Karena udara dingin menampung lebih sedikit kelembapan')."
+          "english": "As the warm air rises,",
+          "meaning": "Saat udara hangat naik. Bagian ini memberi tahu kita kapan perubahan berikut terjadi."
         },
         {
-          "english": "water vapour condenses",
-          "meaning": "Perubahan utama yang terjadi ('uap air mengembun')."
+          "english": "it cools,",
+          "meaning": "Udara itu mendingin. Kata [[it]] merujuk pada udara hangat tadi."
         },
         {
-          "english": "into tiny droplets.",
-          "meaning": "Wujud hasil dari proses pengembunan ('menjadi tetesan-tetesan kecil')."
+          "english": "and the vapour condenses into tiny droplets",
+          "meaning": "Uap air mengembun menjadi tetesan kecil. Di sini yang berubah wujud adalah air."
+        },
+        {
+          "english": "that form clouds.",
+          "meaning": "Tetesan-tetesan itulah yang membentuk awan."
         }
       ]
     },
@@ -176,15 +175,15 @@
       "type": "reflection",
       "prompt": "Compare: (A) “After the sun set, the grass became wet.” vs. (B) “Because the ground cooled overnight, water vapour condensed on the grass.” How do these two sentences differ?",
       "translation": "Bandingkan: (A) “Setelah matahari terbenam, rumput menjadi basah.” vs. (B) “Karena tanah mendingin pada malam hari, uap air mengembun di atas rumput.” Apa perbedaan kedua kalimat ini?",
-      "answer": "Kalimat (A) hanya mencatat urutan waktu menggunakan 'After' tanpa menjelaskan mekanismenya, sedangkan kalimat (B) memakai 'Because' untuk menjelaskan penyebab fisik terbentuknya embun."
+      "answer": "Kalimat A memakai [[after]] untuk menunjukkan kapan rumput menjadi basah. Kalimat B memakai [[because]] untuk menjelaskan mengapa uap air mengembun di rumput."
     },
     {
       "type": "heading",
-      "text": "Bacaan contoh: terapkan strategi di teks utuh"
+      "text": "Latihan membaca mandiri tentang embun"
     },
     {
       "type": "text",
-      "text": "Bacalah paragraf berikut secara utuh. Ikuti urutan tahap prosesnya dari awal sampai akhir."
+      "text": "Sekarang ikuti proses yang berbeda. Baca teks tentang rumput yang basah pada pagi hari. Apa yang mendingin setelah matahari terbenam, dan di mana tetesan air terbentuk?"
     },
     {
       "type": "example",
@@ -203,10 +202,10 @@
     {
       "type": "self_check",
       "title": "Coba sendiri · tanpa nilai",
-      "prompt": "Tulis dua kalimat bahasa Inggris yang menjelaskan satu proses sederhana di alam (misalnya penguapan air atau terbentuknya embun) menggunakan kata 'When' dan 'Because' atau 'As a result'.",
+      "prompt": "Jelaskan satu proses alam, misalnya penguapan air atau terbentuknya embun, dalam dua kalimat bahasa Inggris. Gunakan [[when]] untuk menunjukkan waktu, lalu pilih [[because]] atau [[as a result]] untuk menghubungkan sebab dengan akibatnya.",
       "model": "When sunlight heats a puddle, the liquid water slowly turns into water vapour. As a result, the puddle dries up on a warm afternoon.",
       "modelTranslation": "Ketika sinar matahari memanaskan genangan air, air cair perlahan berubah menjadi uap air. Akibatnya, genangan itu mengering pada sore yang hangat.",
-      "criteria": "Menjelaskan tahap proses secara berurutan dan menggunakan kata penghubung waktu atau sebab-akibat dengan tepat."
+      "criteria": "Periksa apakah [[when]] menunjukkan kapan perubahan terjadi. Pada kalimat lainnya, apakah [[because]] menjelaskan penyebab atau [[as a result]] menunjukkan akibat?"
     },
     {
       "type": "vocabulary",
@@ -284,22 +283,22 @@
     },
     {
       "id": "p3",
-      "prompt": "In the rain formation model text, what happens right after warm water vapour rises into the air?",
+      "prompt": "In the opening passage about rain, what happens as warm air rises?",
       "choices": [
-        "It immediately turns into solid hailstones.",
-        "It cools and condenses into tiny droplets that form clouds.",
-        "It sinks back into the ocean without forming clouds.",
-        "It stops moving until the next summer."
+        "Liquid droplets evaporate as the air warms.",
+        "The air cools and water vapour condenses into cloud droplets.",
+        "Cloud droplets fall as rain before they combine.",
+        "Rain warms the surface water and makes it evaporate."
       ],
       "answer": 1,
-      "explanation": "Dalam teks model pembentukan hujan, setelah uap air hangat naik ke udara, udara tersebut mendingin dan mengembun menjadi tetesan kecil yang membentuk awan ([[it cools, and the vapour condenses into tiny droplets that form clouds]]).",
+      "explanation": "Bacaan menyebut [[it cools]] untuk udara yang naik dan [[the vapour condenses]] untuk uap air. Penguapan sudah terjadi pada tahap sebelumnya saat matahari menghangatkan air. Tetesan air baru jatuh sebagai hujan setelah bergabung dan membesar.",
       "translationId": {
-        "prompt": "Dalam teks model pembentukan hujan, apa yang terjadi tepat setelah uap air hangat naik ke udara?",
+        "prompt": "Dalam bacaan pembuka tentang hujan, apa yang terjadi saat udara hangat naik?",
         "choices": [
-          "Uap air langsung berubah menjadi batu es padat.",
+          "Tetesan air menguap saat udara menghangat.",
           "Udara mendingin dan uap air mengembun menjadi tetesan kecil yang membentuk awan.",
-          "Uap air turun kembali ke laut tanpa membentuk awan.",
-          "Uap air berhenti bergerak hingga musim panas berikutnya."
+          "Tetesan air di awan jatuh sebagai hujan sebelum bergabung.",
+          "Hujan menghangatkan air di permukaan dan membuatnya menguap."
         ]
       }
     }
