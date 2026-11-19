@@ -2,14 +2,14 @@
   "id": "grade12-caption-text",
   "objectives": [
     "Membaca gambar secara hati-hati lalu membedakan pengamatan dari dugaan.",
-    "Menyusun caption informatif atau ajakan sesuai gambar, konteks dan tujuan pembaca.",
-    "Memeriksa fakta, ketepatan bahasa dan privasi sebelum menerbitkan caption."
+    "Menyusun [[caption]] informatif atau ajakan sesuai gambar, konteks dan tujuan pembaca.",
+    "Memeriksa fakta, ketepatan bahasa dan privasi sebelum menerbitkan [[caption]]."
   ],
   "blocks": [
     {
       "type": "definition",
       "title": "Apa itu Caption Text?",
-      "text": "[[Caption text]] adalah teks pendek yang menyertai gambar atau foto untuk memberi informasi, konteks, atau ajakan yang relevan. Caption yang baik sesuai dengan isi visual dan tidak menyampaikan tebakan sebagai fakta."
+      "text": "[[Caption text]] adalah teks pendek yang menyertai gambar atau foto untuk memberi informasi, konteks, atau ajakan yang relevan. [[Caption]] yang baik sesuai dengan isi visual dan tidak menyampaikan tebakan sebagai fakta."
     },
     {
       "type": "scaffold",
@@ -20,22 +20,22 @@
           "explanation": "[[Caption]] adalah tulisan singkat yang menyertai foto atau gambar. Tugas pertamanya ialah membantu pembaca memahami apa yang terlihat, bukan menceritakan semua hal yang mungkin terjadi. Cobalah mengamati satu gambar sebelum membaca tulisannya.",
           "english": "Students arrange donated books on a table.",
           "indonesian": "Para siswa menata buku sumbangan di atas meja.",
-          "why": "Kalimat ini dapat dipakai sebagai caption jika gambar memang memperlihatkan siswa dan buku yang sedang ditata. Kita belum menyebut alasan, nama, atau jumlah yang tidak terlihat.",
-          "check": "Apa yang harus dilakukan sebelum menulis caption: menebak alasan kegiatan atau mengamati hal yang terlihat? Jelaskan alasannya.",
-          "checkAnswer": "Amati yang benar-benar terlihat terlebih dahulu. Menebak alasan kegiatan dapat menghasilkan caption yang tidak sesuai gambar."
+          "why": "Kalimat ini dapat dipakai sebagai [[caption]] jika gambar memang memperlihatkan siswa dan buku yang sedang ditata. Kita belum menyebut alasan, nama, atau jumlah yang tidak terlihat.",
+          "check": "Apa yang harus dilakukan sebelum menulis [[caption]]: menebak alasan kegiatan atau mengamati hal yang terlihat? Jelaskan alasannya.",
+          "checkAnswer": "Amati yang benar-benar terlihat terlebih dahulu. Menebak alasan kegiatan dapat menghasilkan [[caption]] yang tidak sesuai gambar."
         },
         {
           "title": "Bedakan apa yang terlihat dan apa yang ditebak",
           "explanation": "Satu gambar dapat memperlihatkan tindakan, tetapi tidak selalu menjelaskan tujuan atau perasaan seseorang. Bedakan [[observation]] (pengamatan) dari [[assumption]] (dugaan). Jangan menulis dugaan seolah-olah fakta.",
           "english": "Two students hold books beside a table.",
           "indonesian": "Dua siswa memegang buku di dekat sebuah meja.",
-          "why": "Kita bisa mengamati dua siswa dan buku. Kalimat “They are the happiest students in school” tidak dapat dipastikan hanya dari gambar.",
+          "why": "Kita bisa mengamati dua siswa dan buku. Kalimat [[They are the happiest students in school]] tidak dapat dipastikan hanya dari gambar.",
           "check": "Mengapa “The students are very happy with their grades” belum tentu cocok untuk foto siswa yang memegang buku?",
-          "checkAnswer": "Karena nilai dan perasaan mereka tidak dapat dipastikan dari foto tersebut. Caption faktual perlu berpegang pada pengamatan atau informasi yang terverifikasi."
+          "checkAnswer": "Karena nilai dan perasaan mereka tidak dapat dipastikan dari foto tersebut. [[Caption]] faktual perlu berpegang pada pengamatan atau informasi yang terverifikasi."
         },
         {
           "title": "Kenali siapa atau apa yang utama",
-          "explanation": "Mulai dengan menjawab pertanyaan sederhana: [[Who or what is shown?]] Siapa atau apa yang menjadi pusat perhatian? Gunakan kata benda yang spesifik secukupnya; jangan langsung menuliskan paragraf.",
+          "explanation": "Contoh foto lain: catatan acara menyebut orang dewasa yang tampak adalah pustakawan. Mulai dengan menjawab pertanyaan sederhana: [[Who or what is shown?]] Siapa atau apa yang menjadi pusat perhatian? Gunakan kata benda yang spesifik secukupnya; jangan langsung menuliskan paragraf.",
           "english": "A school librarian stands beside a book display.",
           "indonesian": "Seorang pustakawan sekolah berdiri di samping pajangan buku.",
           "why": "Frasa [[a school librarian]] menunjukkan siapa, sedangkan [[a book display]] membantu pembaca mengenali konteks visual.",
@@ -44,7 +44,7 @@
         },
         {
           "title": "Sebutkan tindakan yang dapat diamati",
-          "explanation": "Setelah tahu siapa, tanyakan [[What is happening?]] Pilih kata kerja yang tepat untuk tindakan yang terlihat. Untuk aksi yang sedang berlangsung dalam foto, bentuk [[is/are + -ing]] sering terasa alami, tetapi bentuk lain juga mungkin sesuai jenis caption.",
+          "explanation": "Bayangkan foto lain dengan label mata pelajaran yang terlihat pada tiap tumpukan buku. Setelah tahu siapa, tanyakan [[What is happening?]] Pilih kata kerja yang tepat untuk tindakan yang terlihat. Untuk aksi yang sedang berlangsung dalam foto, bentuk [[is/are + -ing]] sering terasa alami, tetapi bentuk lain juga mungkin sesuai jenis [[caption]].",
           "english": "The students are sorting books by subject.",
           "indonesian": "Para siswa sedang memilah buku berdasarkan mata pelajaran.",
           "why": "[[Are sorting]] menggambarkan aktivitas yang tampak berlangsung; [[by subject]] memberi rincian yang bisa didukung oleh label atau konteks foto.",
@@ -53,65 +53,65 @@
         },
         {
           "title": "Tambahkan tempat atau waktu hanya jika diketahui",
-          "explanation": "Caption kadang perlu menjawab [[Where?]] dan [[When?]] Tempat dan waktu dapat berasal dari catatan kegiatan atau keterangan yang dapat dipercaya, bukan semata-mata dari tebakan berdasarkan latar foto.",
+          "explanation": "Untuk contoh berikut, panitia telah mengonfirmasi tempat dan waktu kegiatan. [[Caption]] kadang perlu menjawab [[Where?]] dan [[When?]] Tempat dan waktu dapat berasal dari catatan kegiatan atau keterangan yang dapat dipercaya, bukan semata-mata dari tebakan berdasarkan latar foto.",
           "english": "Students sort books in the school library on Friday.",
           "indonesian": "Para siswa memilah buku di perpustakaan sekolah pada hari Jumat.",
           "why": "[[In the school library]] menjelaskan tempat, sedangkan [[on Friday]] adalah waktu. Keduanya boleh ditulis jika sudah terkonfirmasi.",
           "check": "Jika kamu tidak tahu hari pengambilan foto, apakah boleh menambahkan “on Friday”? Mengapa?",
-          "checkAnswer": "Tidak. Waktu harus diketahui atau diverifikasi, bukan dibuat-buat untuk memperindah caption."
+          "checkAnswer": "Tidak. Waktu harus diketahui atau diverifikasi, bukan dibuat-buat untuk memperindah [[caption]]."
         },
         {
           "title": "Buat inti caption singkat dan jelas",
-          "explanation": "Caption bukan salinan seluruh cerita. Awali dengan informasi utama, lalu tambahkan satu rincian yang benar-benar membantu. Hindari banyak kata sifat yang tidak perlu. [[Concise]] berarti ringkas tanpa kehilangan hal penting.",
+          "explanation": "[[Caption]] bukan salinan seluruh cerita. Awali dengan informasi utama, lalu tambahkan satu rincian yang benar-benar membantu. Hindari banyak kata sifat yang tidak perlu. [[Concise]] berarti ringkas tanpa kehilangan hal penting.",
           "english": "Students organize donated books for the library.",
           "indonesian": "Para siswa menyusun buku sumbangan untuk perpustakaan.",
           "why": "Kalimat ini langsung menyampaikan pelaku, tindakan, dan sasaran kegiatan tanpa mengulang informasi yang sama.",
-          "check": "Mengapa caption yang singkat tetapi tepat lebih membantu daripada kalimat panjang yang penuh pujian?",
+          "check": "Mengapa [[caption]] yang singkat tetapi tepat lebih membantu daripada kalimat panjang yang penuh pujian?",
           "checkAnswer": "Pembaca lebih cepat memahami gambar dan tidak terdistraksi oleh komentar yang tidak dibuktikan."
         },
         {
           "title": "Pahami pilihan bentuk kalimat",
-          "explanation": "Caption dapat berupa kalimat lengkap atau frasa, tergantung tujuannya. Kalimat lengkap memudahkan siswa berlatih subjek dan kata kerja; frasa ringkas bisa muncul pada poster. Jangan menganggap semua caption wajib memakai satu tense tertentu.",
+          "explanation": "[[Caption]] dapat berupa kalimat lengkap atau frasa, tergantung tujuannya. Kalimat lengkap memudahkan siswa berlatih subjek dan kata kerja; frasa ringkas bisa muncul pada poster. Jangan menganggap semua [[caption]] wajib memakai satu [[tense]] tertentu.",
           "english": "Students plant seedlings in the school garden.",
           "indonesian": "Para siswa menanam bibit di kebun sekolah.",
-          "why": "[[Plant]] menggunakan simple present untuk menggambarkan peristiwa dalam gaya caption berita. [[Are planting]] juga mungkin bila ingin menekankan aksi yang berlangsung dalam gambar.",
-          "check": "Apakah caption “Students plant seedlings” harus selalu diubah menjadi “Students are planting seedlings”? Jelaskan.",
-          "checkAnswer": "Tidak. Keduanya dapat digunakan dalam konteks berbeda; pilih bentuk yang konsisten dengan tujuan dan gaya caption."
+          "why": "[[Plant]] menggunakan [[simple present]] untuk menggambarkan peristiwa dalam gaya [[caption]] berita. [[Are planting]] juga mungkin bila ingin menekankan aksi yang berlangsung dalam gambar.",
+          "check": "Apakah [[caption]] “Students plant seedlings” harus selalu diubah menjadi “Students are planting seedlings”? Jelaskan.",
+          "checkAnswer": "Tidak. Keduanya dapat digunakan dalam konteks berbeda; pilih bentuk yang konsisten dengan tujuan dan gaya [[caption]]."
         },
         {
           "title": "Bedakan caption dari penjelasan panjang dan alt text",
           "explanation": "[[Caption]] memberikan konteks atau informasi pendamping gambar bagi pembaca. [[Alt text]] menjelaskan isi visual yang penting bagi pengguna pembaca layar. Keduanya dapat saling melengkapi, tetapi tidak selalu berisi kata-kata yang sama.",
           "english": "Caption: The library opens its student book drive.",
           "indonesian": "Caption: Perpustakaan membuka kegiatan pengumpulan buku oleh siswa.",
-          "why": "Kalimat ini mengidentifikasi kegiatan. Alt text untuk ilustrasinya dapat lebih khusus menjelaskan meja, tumpukan buku, dan dua siswa yang terlihat.",
-          "check": "Apa perbedaan fokus caption kegiatan dengan alt text gambar?",
-          "checkAnswer": "Caption menjelaskan konteks atau peristiwa; alt text mendeskripsikan isi visual yang diperlukan agar gambar dapat dipahami tanpa melihatnya."
+          "why": "Kalimat ini mengidentifikasi kegiatan. [[Alt text]] untuk ilustrasinya dapat lebih khusus menjelaskan meja, tumpukan buku, dan dua siswa yang terlihat.",
+          "check": "Apa perbedaan fokus [[caption]] kegiatan dengan [[alt text]] gambar?",
+          "checkAnswer": "[[Caption]] menjelaskan konteks atau peristiwa; [[alt text]] mendeskripsikan isi visual yang diperlukan agar gambar dapat dipahami tanpa melihatnya."
         },
         {
           "title": "Jangan tambahkan kutipan, nama, atau sumber sembarangan",
-          "explanation": "Caption berita dapat memuat nama, lokasi, tanggal, atau atribusi sumber foto. Namun, tulisan seperti [[said]] atau nama seseorang harus berdasarkan informasi yang benar-benar tersedia. Jangan menciptakan kutipan, identitas, atau sumber.",
+          "explanation": "[[Caption]] berita dapat memuat nama, lokasi, tanggal, atau atribusi sumber foto. Namun, tulisan seperti [[said]] atau nama seseorang harus berdasarkan informasi yang benar-benar tersedia. Jangan menciptakan kutipan, identitas, atau sumber.",
           "english": "The science club displays its project at the school exhibition.",
           "indonesian": "Klub sains memamerkan proyeknya pada pameran sekolah.",
           "why": "Identitas kelompok dan acara boleh disebut jika penyelenggara sudah mengonfirmasi keduanya; jangan menambahkan nama siswa yang tidak diberikan.",
           "check": "Mengapa berbahaya menambahkan nama siswa atau kutipan yang tidak pernah diberikan?",
-          "checkAnswer": "Itu dapat menyebarkan informasi palsu, melanggar privasi, dan membuat caption tidak dapat dipercaya."
+          "checkAnswer": "Itu dapat menyebarkan informasi palsu, melanggar privasi, dan membuat [[caption]] tidak dapat dipercaya."
         },
         {
           "title": "Kenali identification dan cutline tanpa terburu-buru",
-          "explanation": "Dalam beberapa buku sekolah, caption dikelompokkan menurut informasi yang diberikannya. [[Identification bar]] atau [[group identification]] terutama menyebut siapa yang terlihat (satu orang atau kelompok). [[Cutline]] menambahkan apa yang dilakukan subjek tersebut. Nama jenis ini adalah alat bantu memahami, bukan aturan yang selalu dipakai semua media.",
+          "explanation": "Dalam beberapa buku sekolah, [[caption]] dikelompokkan menurut informasi yang diberikannya. [[Identification bar]] atau [[group identification]] terutama menyebut siapa yang terlihat (satu orang atau kelompok). [[Cutline]] menambahkan apa yang dilakukan subjek tersebut. Nama jenis ini adalah alat bantu memahami, bukan aturan yang selalu dipakai semua media.",
           "english": "Cutline: The school robotics team demonstrates a model.",
           "indonesian": "Cutline: Tim robotika sekolah mendemonstrasikan sebuah model.",
-          "why": "Kalimat menyebut kelompok yang ditampilkan serta kegiatannya. Kalau hanya tertulis “The school robotics team”, itu lebih mirip identifikasi tanpa uraian tindakan.",
-          "check": "Apakah “The school robotics team” memberi informasi tindakan, atau hanya mengidentifikasi kelompok?",
-          "checkAnswer": "Hanya mengidentifikasi kelompok. Tambahkan tindakan yang sesuai visual bila ingin membentuk cutline."
+          "why": "Kalimat menyebut kelompok yang ditampilkan serta kegiatannya. Kalau hanya tertulis [[The school robotics team]], itu lebih mirip identifikasi tanpa uraian tindakan.",
+          "check": "Apakah [[The school robotics team]] memberi informasi tindakan, atau hanya mengidentifikasi kelompok?",
+          "checkAnswer": "Hanya mengidentifikasi kelompok. Tambahkan tindakan yang sesuai visual bila ingin membentuk [[cutline]]."
         },
         {
           "title": "Bedakan summary dan expanded caption",
           "explanation": "[[Summary caption]] merangkum informasi penting seperti siapa, apa, kapan, dan di mana—sejauh diketahui. [[Expanded caption]] memberi rincian tambahan yang berguna, misalnya latar kegiatan atau proses. Keduanya tidak berarti kita wajib memasukkan semua unsur 5W1H bila informasinya tidak tersedia.",
           "english": "On Tuesday, the science club presented its project at the school fair.",
           "indonesian": "Pada hari Selasa, klub sains mempresentasikan proyeknya pada pameran sekolah.",
-          "why": "Kalimat contoh dapat menjadi ringkasan karena menyebut pelaku, aksi, waktu, dan tempat. Versi expanded dapat menambahkan rincian proses yang terverifikasi pada kalimat kedua.",
-          "check": "Jika kamu tidak tahu alasan kegiatan, apakah summary caption harus memuat kata “because” dengan alasan hasil tebakan?",
+          "why": "Kalimat contoh dapat menjadi ringkasan karena menyebut pelaku, aksi, waktu, dan tempat. Versi [[expanded]] dapat menambahkan rincian proses yang terverifikasi pada kalimat kedua.",
+          "check": "Jika kamu tidak tahu alasan kegiatan, apakah summary [[caption]] harus memuat kata “because” dengan alasan hasil tebakan?",
           "checkAnswer": "Tidak. Informasi harus diketahui atau diperiksa; summary tidak mewajibkan semua unsur bila tidak ada data yang benar."
         },
         {
@@ -125,19 +125,19 @@
         },
         {
           "title": "Sesuaikan caption untuk tabel, grafik, atau bagan",
-          "explanation": "Caption tidak selalu untuk foto; tabel dan grafik juga dapat diberi judul atau keterangan ringkas. Pertama periksa objek yang ditampilkan, satuan, periode, dan sumber data. Jangan menyimpulkan suatu perubahan sebagai bukti sebab-akibat tanpa data pendukung.",
-          "english": "Library visits by month, January–March (students).",
-          "indonesian": "Kunjungan perpustakaan per bulan, Januari–Maret (jumlah siswa).",
-          "why": "Frasa ini memberi tahu apa yang diukur, periode, dan satuan. Angka hasil kunjungan tidak boleh ditebak dari judul tersebut.",
+          "explanation": "[[Caption]] tidak selalu untuk foto; tabel dan grafik juga dapat diberi judul atau keterangan ringkas. Pertama periksa objek yang ditampilkan, satuan, periode, dan sumber data. Jangan menyimpulkan suatu perubahan sebagai bukti sebab-akibat tanpa data pendukung.",
+          "english": "Library visits by month, January–March (number of entries).",
+          "indonesian": "Kunjungan perpustakaan per bulan, Januari–Maret (jumlah kunjungan).",
+          "why": "Satuan yang dihitung adalah kunjungan. Satu siswa yang datang dua kali menyumbang dua kunjungan; judul ini tidak memberi tahu jumlah siswa yang berbeda.",
           "check": "Apakah judul grafik “Library visits by month” cukup untuk menyimpulkan bahwa kampanye membaca menyebabkan kunjungan meningkat?",
           "checkAnswer": "Tidak. Diperlukan data perubahan dan bukti hubungan sebab-akibat; judul saja tidak membuktikannya."
         },
         {
           "title": "Pilih caption sesuai tujuan dan pembaca",
-          "explanation": "Caption dokumentasi, caption informatif, dan caption ajakan bisa memiliki fokus berbeda. Tentukan terlebih dahulu apakah tugasmu menjelaskan peristiwa, menyoroti informasi penting, atau mengajak pembaca melakukan sesuatu. Informasi tetap harus akurat.",
+          "explanation": "[[Caption]] dokumentasi, [[caption]] informatif, dan [[caption]] ajakan bisa memiliki fokus berbeda. Tentukan terlebih dahulu apakah tugasmu menjelaskan peristiwa, menyoroti informasi penting, atau mengajak pembaca melakukan sesuatu. Informasi tetap harus akurat.",
           "english": "Bring one gently used book to support the school reading corner.",
           "indonesian": "Bawalah satu buku bekas yang masih layak untuk mendukung pojok baca sekolah.",
-          "why": "Ini caption ajakan: kata kerja [[Bring]] meminta tindakan. Kalimat tersebut cocok bila memang ada kampanye pengumpulan buku.",
+          "why": "Ini [[caption]] ajakan: kata kerja [[Bring]] meminta tindakan. Kalimat tersebut cocok bila memang ada kampanye pengumpulan buku.",
           "check": "Apa tujuan kalimat yang dimulai dengan “Bring one gently used book”: melaporkan kejadian atau mengajak pembaca bertindak?",
           "checkAnswer": "Mengajak pembaca bertindak, karena kata [[Bring]] berfungsi sebagai perintah atau ajakan."
         },
@@ -146,35 +146,35 @@
           "explanation": "Gunakan urutan kecil: amati visual, tentukan fokus, tulis siapa melakukan apa, tambahkan konteks yang diketahui, lalu cocokkan lagi setiap kata dengan gambar dan informasi acara. Periksa juga ejaan, keterbacaan, dan privasi sebelum memublikasikan.",
           "english": "On Friday, students organized donated books in the school library.",
           "indonesian": "Pada hari Jumat, para siswa menyusun buku sumbangan di perpustakaan sekolah.",
-          "why": "Caption ini memuat pelaku, tindakan, lokasi, dan waktu. Ia layak digunakan hanya jika semua rincian tersebut memang sudah diverifikasi.",
-          "check": "Apa dua hal terakhir yang perlu kamu periksa sebelum mengunggah caption ini?",
-          "checkAnswer": "Pastikan caption sesuai gambar dan informasi terverifikasi; periksa pula ejaan dan apakah ada data pribadi yang sebaiknya tidak dibagikan."
+          "why": "[[Caption]] ini memuat pelaku, tindakan, lokasi, dan waktu. Ia layak digunakan hanya jika semua rincian tersebut memang sudah diverifikasi.",
+          "check": "Apa dua hal terakhir yang perlu kamu periksa sebelum mengunggah [[caption]] ini?",
+          "checkAnswer": "Pastikan [[caption]] sesuai gambar dan informasi terverifikasi; periksa pula ejaan dan apakah ada data pribadi yang sebaiknya tidak dibagikan."
         }
       ],
-      "modelTitle": "Model visual dan caption · amati dulu, baca kemudian",
-      "modelEnglish": "Two students arrange donated books at a table in a school library. A sign above the table reads “BOOK DONATIONS.” Bookshelves are visible behind the students. Example caption: “Two students arrange donated books on a school library table.”",
-      "modelIndonesian": "Dua siswa menata buku sumbangan di meja perpustakaan sekolah. Sebuah papan di atas meja bertuliskan “BOOK DONATIONS”. Rak-rak buku tampak di belakang siswa. Contoh caption: “Dua siswa menata buku sumbangan di meja perpustakaan sekolah.”",
+      "modelTitle": "Keterangan untuk ilustrasi donasi buku",
+      "modelEnglish": "Two students arrange books in a box on a library table beneath a sign that reads “BOOK DONATIONS.”",
+      "modelIndonesian": "Dua siswa menata buku di dalam kotak di atas meja perpustakaan. Di atas meja itu ada papan bertuliskan “BOOK DONATIONS”.",
       "modelImage": "assets/book-donation-illustration.svg",
       "modelImageAlt": "Ilustrasi dua siswa sedang menyusun buku di meja perpustakaan; ada kotak berisi buku dan papan bertuliskan BOOK DONATIONS."
     },
     {
       "type": "synthesis",
       "title": "Jadi, apa inti konsep ini?",
-      "text": "[[Caption]] membantu pembaca menghubungkan gambar dengan informasi penting: siapa/apa yang terlihat, tindakan, dan konteks yang sudah diketahui. Untuk caption informatif, mulailah dari pengamatan dan gunakan bahasa ringkas. Untuk caption ajakan, jelaskan tindakan yang diminta tanpa mengarang rincian acara. Bedakan caption dari [[alt text]]: caption memberi konteks, sedangkan alt text menjelaskan isi visual yang penting untuk aksesibilitas. Nama, lokasi, tanggal, angka, dan kutipan hanya dicantumkan jika terverifikasi. Beberapa modul sekolah mengenalkan jenis [[identification]], [[group identification]], [[cutline]], [[summary]], [[expanded]], dan [[quote]]; pahami bedanya dari jumlah/kegunaan informasi, bukan sekadar menghafal nama."
+      "text": "[[Caption]] membantu pembaca menghubungkan gambar dengan informasi penting: siapa/apa yang terlihat, tindakan, dan konteks yang sudah diketahui. Untuk [[caption]] informatif, mulailah dari pengamatan dan gunakan bahasa ringkas. Untuk [[caption]] ajakan, jelaskan tindakan yang diminta tanpa mengarang rincian acara. Bedakan [[caption]] dari [[alt text]]: [[caption]] memberi konteks, sedangkan [[alt text]] menjelaskan isi visual yang penting untuk aksesibilitas. Nama, lokasi, tanggal, angka, dan kutipan hanya dicantumkan jika terverifikasi. Beberapa modul sekolah mengenalkan jenis [[identification]], [[group identification]], [[cutline]], [[summary]], [[expanded]], dan [[quote]]; pahami bedanya dari jumlah/kegunaan informasi, bukan sekadar menghafal nama."
     },
     {
       "type": "text",
-      "text": "Coba amati ilustrasi di bagian atas. Tulisan di bawah gambar harus merujuk pada isi visual yang benar. Dalam kegiatan nyata, cek informasi acara terlebih dahulu sebelum menulis tanggal, identitas, atau tujuan."
+      "text": "Amati papan donasi, buku, dan kedua siswa dalam ilustrasi. Untuk contoh lanjutan, perhatikan apakah ada catatan acara tambahan. Foto saja tidak menunjukkan nama, hari kegiatan, atau jabatan seseorang."
     },
     {
       "type": "rule",
-      "text": "Langkah aman: [[amati visual → pilih fokus → tulis siapa melakukan apa → tambahkan konteks terverifikasi → cocokkan kembali]]. Jangan mengubah dugaan menjadi fakta."
+      "text": "Amati gambar, pilih fokus, tulis siapa melakukan apa, lalu tambahkan konteks yang sudah diperiksa. Cocokkan setiap rincian dengan gambar dan catatan acara."
     },
     {
       "type": "mistake",
-      "incorrect": "These students are the happiest people in the city.",
-      "correct": "Two students arrange donated books in the school library.",
-      "explanation": "Foto siswa dengan buku tidak membuktikan bahwa mereka paling bahagia di kota. Pilih keterangan yang bisa diamati atau diperiksa dari informasi acara."
+      "incorrect": "Two students prepare their books for a competition.",
+      "correct": "Two students arrange donated books on a library table.",
+      "explanation": "Kegiatan lomba tidak disebut pada papan atau catatan acara. Buku dan tanda donasi mendukung keterangan tentang pengumpulan buku."
     },
     {
       "type": "heading",
@@ -192,7 +192,7 @@
         {
           "english": "A student reads beside a window.",
           "indonesian": "Seorang siswa membaca di dekat jendela.",
-          "note": "Gambar yang dibayangkan menunjukkan satu siswa dengan buku di sisi jendela; caption menyebut pelaku, tindakan, dan tempat tanpa menebak perasaannya."
+          "note": "Gambar yang dibayangkan menunjukkan satu siswa dengan buku di sisi jendela; [[caption]] menyebut pelaku, tindakan, dan tempat tanpa menebak perasaannya."
         },
         {
           "english": "Two students carry a box of books.",
@@ -202,7 +202,7 @@
         {
           "english": "The school garden has new seedlings.",
           "indonesian": "Kebun sekolah memiliki bibit tanaman baru.",
-          "note": "Caption menekankan objek yang tampak, bukan membuat klaim tentang hasil panen masa depan."
+          "note": "[[Caption]] menekankan objek yang tampak, bukan membuat klaim tentang hasil panen masa depan."
         },
         {
           "english": "Students are cleaning the school courtyard.",
@@ -214,21 +214,21 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-caption-text",
-      "prompt": "Which sentence would be the safest caption for an image showing two students placing books on a shelf?",
-      "translation": "Kalimat mana yang paling aman untuk caption gambar dua siswa sedang menaruh buku pada rak?",
+      "prompt": "The sign says “BOOK DONATIONS”. Which caption could accompany the illustration without an event schedule?",
+      "translation": "Papan bertuliskan “BOOK DONATIONS”. Keterangan mana yang bisa dipakai tanpa jadwal kegiatan?",
       "choices": [
-        "The students are certain to win an award.",
-        "Two students place books on a shelf.",
-        "The students have never visited a library."
+        "Two students arrange donated books at a table.",
+        "Two students open the last day of the book drive.",
+        "Two students prepare books for tomorrow’s sale."
       ],
-      "answer": 1,
+      "answer": 0,
       "translationChoices": [
-        "Para siswa pasti akan memenangkan penghargaan.",
-        "Dua siswa menaruh buku di rak.",
-        "Para siswa belum pernah mengunjungi perpustakaan."
+        "Dua siswa menata buku sumbangan di meja.",
+        "Dua siswa membuka hari terakhir pengumpulan buku.",
+        "Dua siswa menyiapkan buku untuk penjualan besok."
       ],
-      "explanation": "Jawaban kedua menyatakan orang dan tindakan yang benar-benar tampak. Dua pilihan lain mengarang informasi yang tidak dapat dipastikan dari gambar.",
-      "hint": "Pilih kalimat yang dapat kamu periksa hanya dengan mengamati isi gambar."
+      "explanation": "Papan dan kegiatan yang terlihat mendukung keterangan pertama. Hari terakhir dan rencana penjualan memerlukan informasi lain.",
+      "hint": "Bandingkan setiap rincian dengan gambar dan tulisan pada papan."
     },
     {
       "type": "breakdown",
@@ -261,7 +261,7 @@
         {
           "english": "The science team presents its model at the school exhibition.",
           "indonesian": "Tim sains mempresentasikan modelnya pada pameran sekolah.",
-          "note": "Caption gaya berita dengan [[presents]] dapat menarasikan momen acara; jangan memaksakan satu tense untuk semua caption."
+          "note": "[[Caption]] gaya berita dengan [[presents]] dapat menarasikan momen acara; jangan memaksakan satu [[tense]] untuk semua [[caption]]."
         },
         {
           "english": "Volunteers collect used books for the reading corner.",
@@ -277,9 +277,9 @@
     },
     {
       "type": "reflection",
-      "prompt": "How is a factual photo caption different from an invitation caption?",
-      "translation": "Apa perbedaan caption yang menjelaskan isi foto dengan caption yang mengajak orang bertindak?",
-      "answer": "Caption faktual menjelaskan hal yang terlihat atau telah dipastikan, sedangkan caption ajakan meminta pembaca melakukan tindakan, misalnya membawa buku. Keduanya harus akurat."
+      "prompt": "(A) “Two students arrange donated books.” (B) “Bring a gently used book to our reading corner.” Which caption needs confirmation that donations are open?",
+      "translation": "(A) “Dua siswa menata buku sumbangan.” (B) “Bawalah satu buku bekas yang masih layak ke pojok baca kita.” Keterangan mana yang memerlukan konfirmasi bahwa sumbangan masih diterima?",
+      "answer": "A melaporkan tindakan yang tampak. B mengajak pembaca bertindak, sehingga penulis perlu memastikan kegiatan memang menerima sumbangan."
     },
     {
       "type": "example_group",
@@ -289,12 +289,12 @@
         {
           "english": "Join the school clean-up this Saturday.",
           "indonesian": "Ikuti kegiatan bersih-bersih sekolah pada Sabtu ini.",
-          "note": "Caption ajakan memakai [[Join]]; tanggal harus dicek sebelum dipublikasikan."
+          "note": "[[Caption]] ajakan memakai [[Join]]; tanggal harus dicek sebelum dipublikasikan."
         },
         {
           "english": "Students discuss their poster designs after class.",
           "indonesian": "Para siswa mendiskusikan rancangan poster seusai kelas.",
-          "note": "Caption menjelaskan kegiatan dan waktu relatif; informasi “after class” harus diketahui dari konteks."
+          "note": "[[Caption]] menjelaskan kegiatan dan waktu relatif; informasi [[after class]] harus diketahui dari konteks."
         },
         {
           "english": "Book Donation Day: Students sort books for the school library.",
@@ -304,7 +304,7 @@
         {
           "english": "The robotics club tests its model during the school fair.",
           "indonesian": "Klub robotika menguji modelnya saat pameran sekolah.",
-          "note": "Kata [[tests]] menyatakan aksi teramati; jangan mengubahnya menjadi “wins first prize” tanpa bukti."
+          "note": "Kata [[tests]] menyatakan aksi teramati; jangan mengubahnya menjadi [[wins first prize]] tanpa bukti."
         },
         {
           "english": "The Grade 12 reading club.",
@@ -322,9 +322,9 @@
           "note": "Contoh [[summary]]: menggabungkan pelaku, aksi, waktu, dan tempat yang telah diketahui."
         },
         {
-          "english": "Library visits by month, January–March (students).",
-          "indonesian": "Kunjungan perpustakaan per bulan, Januari–Maret (jumlah siswa).",
-          "note": "Caption grafik menunjukkan ukuran, periode, dan satuan; jangan mengarang kesimpulan dari judul."
+          "english": "Library visits by month, January–March (number of entries).",
+          "indonesian": "Kunjungan perpustakaan per bulan, Januari–Maret (jumlah kunjungan).",
+          "note": "[[Caption]] grafik menunjukkan ukuran, periode, dan satuan; jangan mengarang kesimpulan dari judul."
         }
       ]
     },
@@ -334,17 +334,17 @@
       "items": [
         "Mulai dengan hal yang tampak, bukan dengan dugaan tentang perasaan atau prestasi.",
         "Tambahkan nama, tanggal, atau lokasi hanya jika diketahui dan bisa diperiksa.",
-        "Buat caption sesuai tujuan: informasi atau ajakan. Periksa bahwa teks tidak bertentangan dengan gambar.",
-        "Caption berbeda dari alt text; keduanya dapat membantu pembaca dengan cara berbeda."
+        "Buat [[caption]] sesuai tujuan: informasi atau ajakan. Periksa bahwa teks tidak bertentangan dengan gambar.",
+        "[[Caption]] memberi konteks, sedangkan [[alt text]] membantu pembaca memahami isi visual ketika gambar tidak terlihat."
       ]
     },
     {
       "type": "self_check",
       "title": "Coba tulis caption-mu sendiri · tanpa nilai",
-      "prompt": "Bayangkan ilustrasi dua siswa yang sedang meletakkan buku sumbangan pada meja perpustakaan. Tulis dua pilihan caption berbahasa Inggris: (1) caption informatif satu kalimat, (2) caption ajakan bila kegiatan tersebut benar-benar menerima sumbangan buku. Jangan menambahkan tanggal atau nama yang tidak diketahui. Lalu jelaskan satu perbedaannya.",
-      "model": "Informative: Two students arrange donated books on a library table. Invitation (only if the event accepts donations): Bring a gently used book to support our reading corner.",
-      "modelTranslation": "Informatif: Dua siswa menata buku sumbangan di meja perpustakaan. Ajakan (hanya jika kegiatan menerima donasi): Bawalah satu buku bekas yang masih layak untuk mendukung pojok baca kami.",
-      "criteria": "Caption informatif harus sesuai visual. Caption ajakan perlu tujuan yang benar dan kata kerja mengajak; hindari membuat tanggal, identitas, atau klaim prestasi yang tidak terbukti."
+      "prompt": "Buat dua keterangan Inggris untuk ilustrasi donasi buku. Satu memberi informasi, satu mengajak jika panitia sudah mengonfirmasi bahwa sumbangan masih dibuka. Jelaskan perbedaannya dalam bahasa Indonesia.",
+      "model": "Two students arrange donated books on a library table.\nBring a gently used book for our school reading corner.",
+      "modelTranslation": "Dua siswa menata buku sumbangan di meja perpustakaan.\nBawalah satu buku bekas yang masih layak untuk pojok baca sekolah kita.",
+      "criteria": "Jawaban untuk bagian penjelasan: kalimat pertama melaporkan kegiatan yang tampak, sedangkan kalimat kedua mengajak pembaca menyumbang. Ajakan itu hanya layak diterbitkan jika sumbangan memang masih diterima."
     },
     {
       "type": "vocabulary",
@@ -367,8 +367,8 @@
           "indonesian": "buku sumbangan"
         },
         {
-          "english": "reading drive",
-          "indonesian": "kegiatan donasi/gerakan membaca"
+          "english": "book drive",
+          "indonesian": "kegiatan pengumpulan buku"
         },
         {
           "english": "accurate",
@@ -396,22 +396,22 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which caption describes an observable action without guessing a feeling?",
+      "prompt": "The school can publish the illustration but has no permission to identify the students. Which caption fits?",
       "choices": [
-        "The students are surely very proud.",
-        "Two students arrange books on a table.",
-        "The students will become famous.",
-        "Everyone loves these books."
+        "The two organisers complete their final shift.",
+        "Rani and Bayu sort books for the library.",
+        "Two students arrange donated books on a library table.",
+        "The two winners receive books as prizes."
       ],
-      "answer": 1,
-      "explanation": "Pilihan B menggambarkan tindakan yang dapat diamati. Tiga pilihan lain menyatakan perasaan atau masa depan yang tidak dapat dipastikan dari gambar.",
+      "answer": 2,
+      "explanation": "Tindakan dan tempat terlihat tanpa menyebut identitas. Nama memerlukan izin, sedangkan tugas sebagai panitia, giliran terakhir, dan hadiah tidak dibuktikan oleh gambar.",
       "translationId": {
-        "prompt": "Caption mana menggambarkan tindakan yang dapat diamati tanpa menebak perasaan?",
+        "prompt": "Sekolah boleh menerbitkan ilustrasinya, tetapi belum mendapat izin menyebut identitas siswa. Keterangan mana yang sesuai?",
         "choices": [
-          "Para siswa pasti sangat bangga.",
-          "Dua siswa menata buku di atas meja.",
-          "Para siswa akan menjadi terkenal.",
-          "Semua orang menyukai buku-buku ini."
+          "Kedua penyelenggara menyelesaikan giliran terakhir mereka.",
+          "Rani dan Bayu memilah buku untuk perpustakaan.",
+          "Dua siswa menata buku sumbangan di meja perpustakaan.",
+          "Kedua pemenang menerima buku sebagai hadiah."
         ]
       }
     },
@@ -438,22 +438,22 @@
     },
     {
       "id": "p3",
-      "prompt": "What is the main purpose of this caption: “Bring a used book to support our reading corner”?",
+      "prompt": "The club confirms it is accepting gently used books, but has announced no closing date. Which caption suits an invitation?",
       "choices": [
-        "To invite participation",
-        "To describe a past match",
-        "To report a research result",
-        "To identify a person in a photo"
+        "Students sort the books already donated.",
+        "Bring a gently used book for the school reading corner.",
+        "Bring new books before registration closes on Friday.",
+        "Thank you for joining the book sale last week."
       ],
-      "answer": 0,
-      "explanation": "[[Bring]] adalah kata kerja ajakan/perintah; pesan bertujuan mengundang pembaca ikut menyumbang.",
+      "answer": 1,
+      "explanation": "Ajakan ini memberi tindakan yang bisa dilakukan pembaca dan sesuai konfirmasi klub. Keterangan pertama hanya melaporkan kegiatan. Tenggat Jumat dan penjualan tidak disebutkan.",
       "translationId": {
-        "prompt": "Apa tujuan utama caption “Bring a used book to support our reading corner”?",
+        "prompt": "Klub memastikan bahwa buku bekas layak pakai masih diterima, tetapi belum mengumumkan tanggal penutupan. Keterangan mana yang cocok sebagai ajakan?",
         "choices": [
-          "Mengajak pembaca berpartisipasi",
-          "Menceritakan pertandingan lampau",
-          "Melaporkan hasil penelitian",
-          "Mengidentifikasi seseorang dalam foto"
+          "Siswa memilah buku yang sudah disumbangkan.",
+          "Bawalah satu buku bekas layak pakai untuk pojok baca sekolah.",
+          "Bawalah buku baru sebelum pendaftaran ditutup pada Jumat.",
+          "Terima kasih telah mengikuti penjualan buku minggu lalu."
         ]
       }
     }

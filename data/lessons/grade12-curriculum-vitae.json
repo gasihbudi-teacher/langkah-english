@@ -53,7 +53,7 @@
         },
         {
           "title": "Perkenalkan profil singkat tanpa berlebihan",
-          "explanation": "[[Profile]] atau [[Summary]] adalah 1–2 kalimat opsional yang menyoroti status dan kekuatan yang relevan. Hindari klaim seperti “the best student” jika tidak ada bukti; tulis kemampuan yang benar-benar dimiliki.",
+          "explanation": "[[Profile]] atau [[Summary]] adalah 1–2 kalimat opsional yang menyoroti status dan kekuatan yang relevan. Hindari klaim seperti [[the best student]] jika tidak ada bukti; tulis kemampuan yang benar-benar dimiliki.",
           "english": "Grade 12 student interested in library services and community projects.",
           "indonesian": "Siswa kelas 12 yang berminat pada layanan perpustakaan dan proyek masyarakat.",
           "why": "Kalimat ini menyebut status dan minat, bukan mengklaim keahlian profesional yang belum dimiliki.",
@@ -74,7 +74,7 @@
           "explanation": "Siswa dapat menulis proyek kelas, organisasi, tugas kepanitiaan, atau kegiatan relawan. Jelaskan peran yang benar-benar dilakukan. Jika belum pernah ikut organisasi, jangan menciptakan pengalaman; mulai dari proyek sekolah yang memang pernah dikerjakan.",
           "english": "Library Volunteer — Organized donated books for a reading corner.",
           "indonesian": "Relawan Perpustakaan — Menata buku sumbangan untuk pojok baca.",
-          "why": "Keterangan kegiatan konkret lebih berguna daripada hanya menulis “volunteer” tanpa menjelaskan tugas.",
+          "why": "Keterangan kegiatan konkret lebih berguna daripada hanya menulis [[volunteer]] tanpa menjelaskan tugas.",
           "check": "Jika siswa belum pernah bekerja, apakah CV mereka otomatis harus kosong?",
           "checkAnswer": "Tidak. Kegiatan sekolah, proyek, dan kerja sukarela yang benar-benar dilakukan bisa menjadi pengalaman relevan."
         },
@@ -85,13 +85,13 @@
           "indonesian": "Membuat poster untuk kampanye membaca di sekolah.",
           "why": "[[Created]] menunjukkan kontribusi yang spesifik; pembaca dapat membayangkan pekerjaan yang dilakukan.",
           "check": "Mana yang lebih menunjukkan tugas nyata: “Responsible student” atau “Created a reading poster”? Mengapa?",
-          "checkAnswer": "“Created a reading poster” lebih jelas karena menyebut tindakan konkret, bukan sekadar sifat diri."
+          "checkAnswer": "[[Created a reading poster]] lebih jelas karena menyebut tindakan konkret, bukan sekadar sifat diri."
         },
         {
           "title": "Tulis keterampilan yang dapat dibuktikan",
           "explanation": "Bagian [[Skills]] sebaiknya berisi kemampuan yang memang dimiliki, misalnya mengolah dokumen, bekerja sama, atau komunikasi bahasa. Hindari daftar keterampilan yang tidak bisa dijelaskan dengan contoh saat diwawancarai.",
           "english": "Skills: Basic spreadsheet use; teamwork; poster design.",
-          "indonesian": "Keterampilan: penggunaan spreadsheet dasar; kerja sama; desain poster.",
+          "indonesian": "Keterampilan: penggunaan dasar lembar kerja elektronik; kerja sama; desain poster.",
           "why": "Kata [[Basic]] membatasi klaim kemampuan secara jujur; pemilihan keterampilan dapat disesuaikan dengan posisi yang dituju.",
           "check": "Jika kamu hanya pernah menggunakan spreadsheet untuk tugas sederhana, apakah tepat menulis “expert spreadsheet analyst”?",
           "checkAnswer": "Tidak. Sebutkan tingkat kemampuan yang benar, misalnya [[basic spreadsheet use]]."
@@ -118,15 +118,15 @@
           "title": "Rancang CV sendiri dan periksa ulang",
           "explanation": "Tulis draf dari identitas aman, pendidikan, satu pengalaman nyata, dan dua keterampilan relevan. Baca ulang: apakah semua benar? Apakah setiap bagian mudah ditemukan? Apakah bahasa Inggris dan ejaannya jelas? Apakah ada informasi pribadi yang tidak perlu? Simpan sebagai dokumen yang mudah dibaca sesuai instruksi pendaftaran.",
           "english": "Education: SMA Nusantara. Experience: Organized donated books. Skills: Teamwork and basic spreadsheet use.",
-          "indonesian": "Pendidikan: SMA Nusantara. Pengalaman: Menata buku sumbangan. Keterampilan: Kerja sama dan penggunaan spreadsheet dasar.",
+          "indonesian": "Pendidikan: SMA Nusantara. Pengalaman: Menata buku sumbangan. Keterampilan: Kerja sama dan penggunaan dasar lembar kerja elektronik.",
           "why": "Ini draf sangat sederhana: semua isi harus diganti dengan pengalaman nyata siswa. Setelah itu, pisahkan menjadi bagian yang mudah dibaca.",
           "check": "Sebutkan tiga pemeriksaan terakhir sebelum mengirim CV berbahasa Inggris.",
           "checkAnswer": "Pastikan isinya jujur dan relevan, ejaan serta format jelas, dan informasi pribadi tidak berlebihan."
         }
       ],
       "modelTitle": "Model CV siswa · contoh fiktif, bukan data untuk disalin",
-      "modelEnglish": "Nadia Putri — Grade 12 Student. Contact: nadia.student@example.com. Profile: Interested in library services and community projects. Education: SMA Nusantara, Grade 12 (2026–present). Activities: Library Volunteer (2026) — Organized donated books for a reading corner. Skills: Teamwork, basic spreadsheet use, poster design.",
-      "modelIndonesian": "Nadia Putri — Siswi kelas 12. Kontak: nadia.student@example.com (contoh). Profil: Berminat pada layanan perpustakaan dan proyek masyarakat. Pendidikan: SMA Nusantara, kelas 12 (2026–sekarang). Kegiatan: Relawan Perpustakaan (2026) — Menata buku sumbangan untuk pojok baca. Keterampilan: Kerja sama, spreadsheet dasar, desain poster."
+      "modelEnglish": "Nadia Putri\nContact: nadia.student@example.com\nProfile: Grade 12 student interested in library services and community projects.\nEducation: SMA Nusantara, Grade 12 (2026–present)\nActivities: Library Volunteer (2026) — Organized donated books for a reading corner.\nSkills: Teamwork, basic spreadsheet use, poster design.",
+      "modelIndonesian": "Nadia Putri\nKontak: nadia.student@example.com\nProfil: Siswa kelas 12 yang berminat pada layanan perpustakaan dan kegiatan masyarakat.\nPendidikan: SMA Nusantara, kelas 12 (2026–sekarang)\nKegiatan: Relawan perpustakaan (2026) — Menata buku sumbangan untuk pojok baca.\nKeterampilan: Kerja sama, penggunaan dasar lembar kerja elektronik, desain poster."
     },
     {
       "type": "synthesis",
@@ -135,7 +135,7 @@
     },
     {
       "type": "text",
-      "text": "Kita gunakan contoh siswa fiktif bernama Nadia Putri yang ingin menjadi relawan perpustakaan. Jangan menyalin kontak contoh ke lamaran asli. Dalam latihan, kamu boleh memakai nama fiktif demi menjaga privasi."
+      "text": "Kita gunakan contoh siswa fiktif bernama Nadia Putri yang ingin menjadi relawan perpustakaan. Jangan menyalin kontak contoh ke lamaran asli. Dalam latihan, kamu boleh memakai nama fiktif demi menjaga privasi. Alamat surel Nadia adalah contoh fiktif."
     },
     {
       "type": "rule",
@@ -143,9 +143,9 @@
     },
     {
       "type": "mistake",
-      "incorrect": "I am an expert manager who has led many international companies.",
-      "correct": "Organized donated books for a school reading corner.",
-      "explanation": "Siswa tidak perlu mengaku punya pekerjaan atau prestasi besar. Kegiatan konkret yang benar-benar dilakukan jauh lebih kuat dan lebih aman."
+      "incorrect": "Led the school reading campaign.",
+      "correct": "Designed the poster for the school reading campaign.",
+      "explanation": "Jika tugasmu membuat poster, tulis kontribusi itu. Kata [[led]] menyiratkan tanggung jawab memimpin seluruh kegiatan dan memerlukan bukti berbeda."
     },
     {
       "type": "heading",
@@ -185,21 +185,21 @@
     {
       "type": "checkpoint",
       "id": "guided-grade12-cv",
-      "prompt": "Which detail is a useful and believable CV entry for a student who designed a class poster?",
-      "translation": "Rincian mana yang cocok dan dapat dipercaya pada CV siswa yang pernah mendesain poster kelas?",
+      "prompt": "A library needs a volunteer to arrange books. Nadia has done that and also designed posters. Which entry should she highlight first?",
+      "translation": "Perpustakaan membutuhkan relawan untuk menata buku. Nadia pernah menata buku dan membuat poster. Entri mana yang paling relevan untuk ditonjolkan lebih dulu?",
       "choices": [
-        "Designed a poster for a class project.",
-        "Directed a multinational company.",
-        "Won every national design prize."
+        "Designed a poster for Reading Week.",
+        "Organized donated books for a reading corner.",
+        "Interested in community projects."
       ],
-      "answer": 0,
+      "answer": 1,
       "translationChoices": [
-        "Mendesain poster untuk proyek kelas.",
-        "Memimpin perusahaan multinasional.",
-        "Memenangkan semua penghargaan desain nasional."
+        "Mendesain poster untuk Pekan Membaca.",
+        "Menata buku sumbangan untuk pojok baca.",
+        "Berminat pada kegiatan masyarakat."
       ],
-      "explanation": "[[Designed a poster for a class project]] menyebut tugas nyata dan spesifik tanpa melebih-lebihkan prestasi.",
-      "hint": "Pilih pengalaman yang sesuai dengan kegiatan siswa yang disebut dalam pertanyaan."
+      "explanation": "Ketiganya masuk akal untuk Nadia. Pengalaman menata buku memberi bukti paling langsung bahwa ia pernah melakukan tugas yang diminta.",
+      "hint": "Cocokkan tugas pada lowongan dengan pekerjaan yang pernah dilakukan pelamar."
     },
     {
       "type": "breakdown",
@@ -241,16 +241,16 @@
         },
         {
           "english": "Skills: Teamwork and basic spreadsheet use.",
-          "indonesian": "Keterampilan: Kerja sama dan penggunaan spreadsheet dasar.",
+          "indonesian": "Keterampilan: Kerja sama dan penggunaan dasar lembar kerja elektronik.",
           "note": "[[Basic]] membuat tingkat keterampilan lebih akurat daripada mengaku ahli."
         }
       ]
     },
     {
       "type": "reflection",
-      "prompt": "Why can a real school project be more useful than an impressive but invented claim?",
-      "translation": "Mengapa proyek sekolah yang benar-benar dikerjakan lebih berguna daripada klaim besar yang dibuat-buat?",
-      "answer": "CV harus dapat dipercaya dan bisa dijelaskan ketika ditanya. Proyek nyata menunjukkan kontribusi spesifik; klaim palsu dapat menyesatkan pembaca."
+      "prompt": "(A) “Led the school reading campaign.” (B) “Designed the poster for the school reading campaign.” Which entry can a student defend with a poster draft alone?",
+      "translation": "(A) “Memimpin kampanye membaca di sekolah.” (B) “Mendesain poster untuk kampanye membaca di sekolah.” Entri mana yang dapat dijelaskan siswa dengan menunjukkan draf poster karyanya?",
+      "answer": "Draf poster mendukung B. Untuk memakai [[led]], siswa perlu menunjukkan perannya dalam memimpin kegiatan, misalnya membagi tugas dan mengoordinasikan tim."
     },
     {
       "type": "example_group",
@@ -292,10 +292,10 @@
     {
       "type": "self_check",
       "title": "Susun CV siswa sederhana · tanpa nilai",
-      "prompt": "Susun CV singkat dalam bahasa Inggris dengan data latihan yang kamu buat sendiri (bukan NIK/alamat rumah). Sertakan Name, Education, satu Activity/Project yang benar-benar dapat kamu jelaskan, dan dua Skills yang sesuai. Jika belum punya kegiatan organisasi, gunakan proyek kelas yang sungguh pernah dikerjakan. Setelah itu, cek apakah isinya jujur, relevan, dan mudah dibaca.",
-      "model": "Name: Nadia Putri | Contact: nadia.student@example.com | Education: SMA Nusantara, Grade 12 | Project: Designed a poster for Reading Week | Skills: Teamwork; basic document editing.",
-      "modelTranslation": "Nama: Nadia Putri | Kontak: nadia.student@example.com (contoh) | Pendidikan: SMA Nusantara, kelas 12 | Proyek: Mendesain poster untuk Pekan Membaca | Keterampilan: Kerja sama; penyuntingan dokumen dasar.",
-      "criteria": "Semua bagian diberi judul yang jelas. Pengalaman memakai kata kerja tindakan dan harus benar-benar terjadi. Keterampilan tidak dilebihkan. Kontak hanya yang diperlukan dan aman; jangan mencantumkan data pribadi sensitif."
+      "prompt": "Buat CV singkat dalam bahasa Inggris untuk kesempatan relawan sekolah. Gunakan nama latihan, pendidikan, satu proyek nyata yang dapat kamu jelaskan, serta dua keterampilan yang sesuai. Letakkan setiap bagian pada baris tersendiri dan periksa privasinya.",
+      "model": "Name: Nadia Putri\nEducation: SMA Nusantara, Grade 12\nProject: Designed a poster for Reading Week.\nSkills: Teamwork and basic document editing.",
+      "modelTranslation": "Nama: Nadia Putri\nPendidikan: SMA Nusantara, kelas 12\nProyek: Mendesain poster untuk Pekan Membaca.\nKeterampilan: Kerja sama dan penyuntingan dokumen dasar.",
+      "criteria": "Periksa apakah pembaca dapat menemukan pendidikan, kontribusi, dan keterampilan dengan cepat. Jelaskan bagian yang memang kamu kerjakan. Lindungi data pribadi: hindari nomor identitas dan alamat rumah lengkap."
     },
     {
       "type": "vocabulary",
@@ -356,6 +356,10 @@
         {
           "english": "basic",
           "indonesian": "tingkat dasar"
+        },
+        {
+          "english": "spreadsheet",
+          "indonesian": "lembar kerja elektronik untuk mencatat dan mengolah data, misalnya daftar buku"
         }
       ]
     }
@@ -363,22 +367,22 @@
   "practice": [
     {
       "id": "p1",
-      "prompt": "Which statement is appropriate for a student CV?",
+      "prompt": "Nadia designed a poster but did not coordinate Reading Week. Which entry describes her contribution accurately?",
       "choices": [
-        "I am the greatest worker in the country.",
-        "I have managed 20 companies.",
-        "Organized donated books at school.",
-        "I always win every competition."
+        "Coordinated the Reading Week design team.",
+        "Planned the full Reading Week programme.",
+        "Supervised the students making posters.",
+        "Designed a poster for Reading Week."
       ],
-      "answer": 2,
-      "explanation": "[[Organized donated books at school]] adalah kontribusi yang dapat dibuktikan apabila siswa benar-benar melakukannya.",
+      "answer": 3,
+      "explanation": "Hasil yang dapat ditunjukkan Nadia adalah poster. Mengatur tim, merencanakan seluruh acara, dan mengawasi siswa merupakan tanggung jawab lain yang belum didukung bukti.",
       "translationId": {
-        "prompt": "Pernyataan mana yang tepat untuk CV siswa?",
+        "prompt": "Nadia membuat poster tetapi tidak mengoordinasikan Pekan Membaca. Entri mana yang tepat menggambarkan kontribusinya?",
         "choices": [
-          "Saya pekerja terhebat di negara ini.",
-          "Saya pernah mengelola 20 perusahaan.",
-          "Menata buku sumbangan di sekolah.",
-          "Saya selalu menang di setiap lomba."
+          "Mengoordinasikan tim desain Pekan Membaca.",
+          "Merencanakan seluruh acara Pekan Membaca.",
+          "Mengawasi siswa yang membuat poster.",
+          "Mendesain poster untuk Pekan Membaca."
         ]
       }
     },
@@ -405,22 +409,22 @@
     },
     {
       "id": "p3",
-      "prompt": "Which description best fits an entry-level applicant with basic spreadsheet skills?",
+      "prompt": "A volunteer form asks for skills that will help maintain a book list. Nadia can enter titles and sort rows. Which Skills entry fits?",
       "choices": [
-        "Basic spreadsheet use",
-        "Expert financial database engineer",
-        "Advanced software architect",
-        "Professional auditor with ten years of work"
+        "Spreadsheet data entry and sorting",
+        "Spreadsheet automation and scripting",
+        "Database design and administration",
+        "Training staff to analyse borrowing trends"
       ],
       "answer": 0,
-      "explanation": "Klaim keterampilan harus sesuai kemampuan yang benar; [[basic spreadsheet use]] tidak melebih-lebihkan pengalaman.",
+      "explanation": "Memasukkan judul dan mengurutkan baris menunjukkan kemampuan dasar yang relevan. Menulis skrip, merancang basis data, atau melatih petugas memerlukan bukti tambahan.",
       "translationId": {
-        "prompt": "Deskripsi mana paling sesuai bagi pemula yang memiliki kemampuan spreadsheet dasar?",
+        "prompt": "Formulir relawan meminta keterampilan untuk mengelola daftar buku. Nadia bisa memasukkan judul dan mengurutkan baris. Entri keterampilan mana yang sesuai?",
         "choices": [
-          "Penggunaan spreadsheet dasar",
-          "Insinyur basis data keuangan ahli",
-          "Arsitek perangkat lunak tingkat lanjut",
-          "Auditor profesional dengan pengalaman sepuluh tahun"
+          "Memasukkan dan mengurutkan data pada lembar kerja elektronik",
+          "Mengotomatiskan lembar kerja dan menulis skrip",
+          "Merancang dan mengelola basis data",
+          "Melatih petugas menganalisis tren peminjaman"
         ]
       }
     }
