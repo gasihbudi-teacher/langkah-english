@@ -2,6 +2,53 @@
 
 Give the other AI this guide. It contains the quiz and catalogue formats used by the site. You supply the topic or approved test and make the GitHub edits yourself. No existing site files are needed as input.
 
+## School topic tests — Grade 12 Argumentative Text example
+
+For a school topic, use the two prompts below in place of the UTBK/TKA prompts. The quiz file uses the same question formats shown later in this guide.
+
+**1. Ask the AI to write the student paper**
+
+> Write an original, unofficial 20-question Grade 12 English test on argumentative texts. Write four short English passages with five questions each. Include a canteen policy trial where the evidence comes from a limited group and a student raises an access concern. Use three fresh contexts for the other passages. Across the test, ask students to identify the writer’s position, distinguish reasons from evidence, judge how far trial results support a wider policy, and choose a response that addresses a counterargument using evidence. Give each question four plausible choices with one best answer. Put the key, supporting quotations and student-friendly Indonesian explanations after the paper. Wait for my approval before converting.
+
+**2. After reviewing the questions, ask for the site outputs**
+
+> Package my approved paper as an untimed school topic test. Use quiz ID `grade12-argumentative-text-test-01`, lesson ID `grade12-argumentative-text`, 20 questions, and `durationSeconds: 0`. Follow this guide’s quiz, evidence, answer-index and Indonesian translation rules. Omit `referenceFormat`. Give me the complete quiz JSON, the single catalogue object below, and the quoted quiz ID to append to the lesson’s assessments. Preserve my approved keys and check each one against its final choices and passage.
+
+Catalogue object for this example:
+
+```json
+{
+  "id": "grade12-argumentative-text-test-01",
+  "title": "Tes Teks Argumentatif · Kelas 12 · Paket 1",
+  "description": "Latihan mandiri 20 soal tentang posisi penulis, kekuatan bukti, dan tanggapan terhadap keberatan.",
+  "type": "quiz",
+  "kind": "test",
+  "examFormat": "topic",
+  "placements": [{"pathway": "school", "grade": 12}],
+  "difficulty": "Advanced",
+  "grammarTopics": [],
+  "readingSkills": ["Main Idea", "Supporting Details", "Critical Reading"],
+  "tags": ["teks argumentatif", "kelas 12"],
+  "relatedLessons": ["grade12-argumentative-text"],
+  "file": "data/quizzes/grade12-argumentative-text-test-01.json",
+  "aiGenerated": true,
+  "unofficial": true
+}
+```
+
+**3. Publish from your phone.** On one GitHub branch, create the quiz file at the path above and insert the catalogue object into the existing `resources` array as described under “Publish from a phone.” That puts the test under Materi Sekolah → Kelas 12 → Latihan. To also give students a button at the end of the lesson, open `data/lessons/grade12-argumentative-text.json`, find `assessments`, and append the new quiz ID. For a lesson with the original practice link, the result looks like this:
+
+```json
+"assessments": [
+  "grade12-argumentative-text-practice",
+  "grade12-argumentative-text-test-01"
+]
+```
+
+Keep any other IDs already present. Preview both entry points and submit a trial attempt before merging. The TKA mock-list step applies only to TKA simulations.
+
+**Reuse for another topic.** Copy the lesson ID from the part after `?id=` in its website address. Give the AI that ID, the grade, the learning objectives in your own words, and a fresh quiz ID. For another test on the same topic, use a new suffix such as `-test-02`. Choose the timer yourself (0 for untimed, 1800 for 30 minutes). For questions about an exact passage already taught, paste just that passage into your prompt. For fresh texts assessing the same skills, the learning objectives are enough.
+
 ## First message to the AI — write the test
 
 > Write an original, unofficial [UTBK or TKA] English reading mock test for [learners], with [number] questions in [minutes] minutes. Cover [skills or topics]. Use [question formats and choice counts]. Write the student paper first, then a separate answer key with an exact supporting quotation and a short Indonesian explanation for each item. Include plausible distractors and check that each key follows from the passage. Wait for my content approval before converting it.
