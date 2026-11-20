@@ -2,6 +2,10 @@
 
 Give the other AI this guide. It contains the quiz and catalogue formats used by the site. You supply the topic or approved test and make the GitHub edits yourself. No existing site files are needed as input.
 
+## Choose a topic first
+
+> Help me choose a lesson for a topic test. Start with a menu of Grade 9, Grade 10, Grade 11, Grade 12, Grammar, UTBK, and TKA. When I choose a group, list its lesson titles alphabetically from the topic index at the end of this guide. If I ask for all topics, list each lesson once and show all its groups. When I choose a lesson, confirm its exact ID and ask how many questions I want before drafting.
+
 ## School topic tests — Grade 12 Argumentative Text example
 
 For a school topic, use the two prompts below in place of the UTBK/TKA prompts. The quiz file uses the same question formats shown later in this guide.
@@ -171,3 +175,129 @@ The dedicated TKA simulations list reads `mockIds` in `js/tka.js`. Give the owne
 6. Merge when satisfied. After the Pages deployment completes, open the quiz from the public pathway. Its direct address also works at `https://langkah-english.pages.dev/quiz?id=YOUR-ID`.
 
 This guide describes the site's November 2026 quiz format. Reuse it for subsequent tests as long as the quiz and catalogue formats stay the same.
+
+## Topic index
+
+Catalogue snapshot from 20 November 2026. The 66 distinct lessons below include cross-listed materials. A shared lesson has the same ID wherever it appears. New catalogue additions will need to be added to this snapshot.
+
+### Grade 10 (15)
+
+- Basic Questions and Negatives — `basic-questions-negatives`
+- Expressing Opinions and Supporting Reasons — `grade10-opinions-reasons`
+- Fractured Stories: Changing Perspectives — `grade10-fractured-stories`
+- Grade 10: Descriptive Text — Details, Space, and Atmosphere — `grade10-descriptive`
+- Grade 10: Healthy Procedure — Preparing a Safe Snack Box — `grade10-healthy-procedure`
+- Grade 10: Recounting Events and Time Relationships — `grade10-recount`
+- Jembatan membaca · dari kalimat ke paragraf — `reading-bridge`
+- Parts of Speech (Jenis Kata) — `parts-of-speech`
+- Present Continuous Tense — `present-continuous`
+- Reading Posters and Infographics — `grade10-visual-information`
+- Sentence Structure (Struktur Kalimat) — `sentence-structure`
+- Simple Past Tense — `simple-past`
+- Simple Present Tense — `simple-present`
+- Sports Event Recount — `grade10-sports-recount`
+- Subject–Verb Agreement — `subject-verb-agreement`
+
+### Grade 11 (10)
+
+- Analytical exposition · Kelas 11 — `grade11-exposition`
+- Analytical Exposition: Claims and Evidence — `grade11-exposition-evidence`
+- Biography: Environmental Changemakers — `grade11-environmental-biography`
+- Complex Sentence Structures — `complex-sentences`
+- Conditional Sentences — `conditional-sentences`
+- Describing Environmental Conditions — `grade11-environment-description`
+- Digital Identity and Transactional Messages — `grade11-online-identity`
+- Explanation texts · Kelas 11 — `grade11-explanation`
+- Passive Voice — `passive-voice`
+- Procedure Text: Personal Budgeting — `grade11-money-procedure`
+
+### Grade 12 (12)
+
+- Academic vocabulary in context · Kelas 12 — `grade12-academic-vocab`
+- Advanced Grammar Analysis — `advanced-grammar-analysis`
+- Advanced Narrative: Motives and Themes — `grade12-advanced-narrative`
+- Adverbial Phrase vs. Adverbial Clause · Kelas 12 — `grade12-adverbial-phrase-vs-clause`
+- Argumentative Text: Claims and Counterarguments — `grade12-argumentative-text`
+- Caption Text: Reading and Writing Image Captions — `grade12-caption-text`
+- Comparing Arguments and Evaluating Evidence — `grade12-compare-arguments`
+- Critical reading · Kelas 12 — `grade12-critical-reading`
+- Curriculum Vitae (CV): Writing a Student CV — `grade12-curriculum-vitae`
+- Discussion Text: Weighing Two Sides — `grade12-discussion-text`
+- Hortatory Exposition: Arguing for Action — `grade12-hortatory-exposition`
+- Read with evidence: a strategy toolkit — `reading-strategies`
+
+### Grade 9 (15)
+
+- Basic Questions and Negatives — `basic-questions-negatives`
+- Digital Safety: Protecting Personal Information — `grade9-digital-safety`
+- Grade 9: Reading a Place — Descriptive Text — `grade9-reading`
+- Grade 9: Recount Text — A School Trip — `grade9-trip-recount`
+- Grade 9: Understanding a Narrative — Characters and Plot — `grade9-narrative`
+- Jembatan membaca · dari kalimat ke paragraf — `reading-bridge`
+- Noun Groups: Build and Describe — `grade9-noun-groups`
+- Parts of Speech (Jenis Kata) — `parts-of-speech`
+- Present Continuous Tense — `present-continuous`
+- Procedure Text: Upcycling Materials — `grade9-upcycling-procedure`
+- Report Text: Indonesian Wildlife — `grade9-report-animals`
+- Sentence Structure (Struktur Kalimat) — `sentence-structure`
+- Simple Past Tense — `simple-past`
+- Simple Present Tense — `simple-present`
+- Subject–Verb Agreement — `subject-verb-agreement`
+
+### Grammar (23)
+
+- Advanced Conditionals — `advanced-conditionals`
+- Advanced Grammar Analysis — `advanced-grammar-analysis`
+- Adverbial Phrase vs. Adverbial Clause · Kelas 12 — `grade12-adverbial-phrase-vs-clause`
+- Basic Questions and Negatives — `basic-questions-negatives`
+- Complex Sentence Structures — `complex-sentences`
+- Conditional Sentences — `conditional-sentences`
+- Gerunds and Infinitives — `gerunds-infinitives`
+- Grade 10: Descriptive Text — Details, Space, and Atmosphere — `grade10-descriptive`
+- Grade 9: Understanding a Narrative — Characters and Plot — `grade9-narrative`
+- Inversion — `inversion`
+- Modal Verbs — `modal-verbs`
+- Parallel Structures — `parallel-structures`
+- Parts of Speech (Jenis Kata) — `parts-of-speech`
+- Passive Voice — `passive-voice`
+- Perfect Tenses — `perfect-tenses`
+- Present Continuous Tense — `present-continuous`
+- Reduced Relative Clauses — `reduced-relative-clauses`
+- Relative Clauses — `relative-clauses`
+- Reported Speech — `reported-speech`
+- Sentence Structure (Struktur Kalimat) — `sentence-structure`
+- Simple Past Tense — `simple-past`
+- Simple Present Tense — `simple-present`
+- Subject–Verb Agreement — `subject-verb-agreement`
+
+### TKA (18)
+
+- Analytical Exposition: Claims and Evidence — `grade11-exposition-evidence`
+- Comparing Arguments and Evaluating Evidence — `grade12-compare-arguments`
+- Critical reading · Kelas 12 — `grade12-critical-reading`
+- Grade 10: Descriptive Text — Details, Space, and Atmosphere — `grade10-descriptive`
+- Grade 9: Understanding a Narrative — Characters and Plot — `grade9-narrative`
+- Jembatan membaca · dari kalimat ke paragraf — `reading-bridge`
+- Read with evidence: a strategy toolkit — `reading-strategies`
+- Sentence Structure (Struktur Kalimat) — `sentence-structure`
+- TKA-01 · Jembatan TKA: Dari Kalimat ke Bacaan — `tka-reading-foundations`
+- TKA-02 · Informasi Tersurat dan Parafrasa — `tka-explicit-information`
+- TKA-03 · Mengelompokkan, Membuat Kerangka, Meringkas, dan Mensintesis — `tka-classify-outline-summarize-synthesize`
+- TKA-04 · Kosakata, Kata Rujukan, dan Penghubung dalam Konteks — `tka-context-vocabulary-reference-connectors`
+- TKA-05 · Ide Tersirat, Pembaca, Tujuan, dan Pesan — `tka-implied-ideas-audience-purpose-message`
+- TKA-06 · Inferensi, Sebab-Akibat, Karakter, dan Prediksi — `tka-inference-cause-character-prediction`
+- TKA-07 · Mengevaluasi Fakta, Opini, dan Kecukupan Bukti — `tka-evaluating-facts-opinions-evidence`
+- TKA-08 · Apresiasi Tokoh, Makna, dan Pilihan Bahasa — `tka-narrative-appreciation`
+- TKA-09 · Mengenali Lima Genre Teks — `tka-five-text-genres`
+- TKA-10 · Format Soal dan Latihan Mandiri — `tka-question-formats-independent-practice`
+
+### UTBK (8)
+
+- Academic vocabulary in context · Kelas 12 — `grade12-academic-vocab`
+- Critical reading · Kelas 12 — `grade12-critical-reading`
+- Jembatan membaca · dari kalimat ke paragraf — `reading-bridge`
+- Read with evidence: a strategy toolkit — `reading-strategies`
+- Subject–Verb Agreement — `subject-verb-agreement`
+- UTBK Lab: Inference and Alternative Explanations — `utbk-critical-inference`
+- UTBK Lab: Reading Scientific Evidence — `utbk-science-evidence`
+- UTBK Lab: Reading Social-Science Data — `utbk-social-science`
