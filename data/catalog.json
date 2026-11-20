@@ -1,7 +1,10 @@
 {
   "schemaVersion": 1,
   "pathways": [
-    {"id": "sas", "title": "Persiapan SAS"},
+    {
+      "id": "sas",
+      "title": "Persiapan SAS"
+    },
     {
       "id": "grammar",
       "title": "Grammar Academy"
@@ -5314,6 +5317,60 @@
       "kind": "test",
       "examFormat": "full",
       "estimatedMinutes": 45
+    },
+    {
+      "id": "sas-grade11-sem1-mixed-real-life-01",
+      "title": "Simulasi SAS Bahasa Inggris · Kelas 11 · Semester 1",
+      "description": "Simulasi SAS Bahasa Inggris Kelas XI Semester 1 dengan 40 soal pilihan ganda berbasis lima bacaan tentang lingkungan, identitas digital, literasi keuangan, fenomena sains, dan kesehatan. Dilengkapi pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 11,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Passive Voice",
+        "Modal Verbs",
+        "Conditional Sentences",
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Reference Questions",
+        "Author’s Purpose",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "SAS",
+        "kelas 11",
+        "semester 1",
+        "lingkungan",
+        "identitas digital",
+        "literasi keuangan",
+        "sains",
+        "kesehatan"
+      ],
+      "relatedLessons": [
+        "grade11-environmental-biography",
+        "grade11-environment-description",
+        "grade11-online-identity",
+        "grade11-money-procedure",
+        "grade11-explanation",
+        "grade11-exposition-evidence"
+      ],
+      "file": "data/quizzes/sas-grade11-sem1-mixed-real-life-01.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 80
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
