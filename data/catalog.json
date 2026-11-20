@@ -3311,6 +3311,39 @@
       }
     },
     {
+      "id": "grade12-hortatory-exposition-test-01",
+      "title": "Tes Hortatory Exposition · Kelas 12 · Paket 1",
+      "description": "Latihan mandiri 20 soal tentang posisi penulis, alasan pendukung, counterargument, bukti, dan recommendation dalam teks hortatory exposition.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Critical Reading"
+      ],
+      "tags": [
+        "Hortatory Exposition",
+        "Grade 12",
+        "mock test"
+      ],
+      "relatedLessons": [
+        "grade12-hortatory-exposition"
+      ],
+      "file": "data/quizzes/grade12-hortatory-exposition-test-01.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 462
+    },
+    {
       "id": "grade12-discussion-text",
       "type": "lesson",
       "relatedLessons": [
