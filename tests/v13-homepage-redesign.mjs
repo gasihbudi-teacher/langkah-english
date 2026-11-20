@@ -8,7 +8,7 @@ assert.match(html,/id="learning-choices"/);
 assert.match(html,/id="continue-section"[^>]*hidden/);
 assert.match(html,/<section class="dashboard-progress" id="my-progress"/);
 assert.match(html,/<details class="section home-progress-details" id="progress-history">/);
-for(const href of ['grammar.html#beginner','school.html','utbk.html','tka.html'])assert.match(html,new RegExp(`class="choice-card" href="${href.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"`));
+for(const href of ['grammar.html#beginner','school.html','utbk.html','tka.html','sas.html'])assert.match(html,new RegExp(`class="choice-card" href="${href.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"`));
 for(const removed of ['id="pathways"','id="journey-title"','id="grades-title"','id="roadmap-title"'])assert.ok(!html.includes(removed),`Redundant homepage section remains: ${removed}`);
 for(const id of ['progress-percent','progress-count','progress-meter','week-days','stats','activity','backup-export','backup-import','backup-status'])assert.match(html,new RegExp(`id="${id}"`),`Progress/backup feature missing: ${id}`);
 assert.match(home,/continueSection\.hidden=!hasProgress/,'Returning-user continuation should not appear for a brand-new learner.');
@@ -16,5 +16,5 @@ assert.match(home,/setupBackup\(renderHome\)/,'Backup restore must refresh the p
 const source=read('js/i18n.js')+'\nexport {dictionary};';
 const {dictionary}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 assert.deepEqual(Object.keys(dictionary.en).sort(),Object.keys(dictionary.id).sort(),'English and Indonesian interface keys must stay in sync.');
-for(const key of ['heroOverline','heroTitle','heroBody','heroPrimary','choiceTitle','choiceOne','choiceTwo','choiceThree','choiceFour','homeSearchHint','homeSearchLink','progressTitle','weekActivity','weekDone','weekNone','progressHistory'])assert.ok(dictionary.en[key]&&dictionary.id[key],`Missing homepage translation: ${key}`);
-console.log('PASS homepage redesign: one clear hero, four distinct routes, live progress and weekly activity, continuation only for returning learners, backup preserved, bilingual keys in sync.');
+for(const key of ['heroOverline','heroTitle','heroBody','heroPrimary','choiceTitle','choiceOne','choiceTwo','choiceThree','choiceFour','navSas','sasIntro','homeSearchHint','homeSearchLink','progressTitle','weekActivity','weekDone','weekNone','progressHistory'])assert.ok(dictionary.en[key]&&dictionary.id[key],`Missing homepage translation: ${key}`);
+console.log('PASS homepage redesign: one clear hero, five distinct routes, live progress and weekly activity, continuation only for returning learners, backup preserved, bilingual keys in sync.');

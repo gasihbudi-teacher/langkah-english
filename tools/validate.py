@@ -210,6 +210,12 @@ def validate(root):
             report(catalog_file, path + ".file", "expected the resource type directory and ID as filename")
         files[r["file"]] = r
         for j, placement in enumerate(r["placements"]):
+            if placement["pathway"] == "sas":
+                if r["type"] != "quiz":
+                    report(catalog_file, f"{path}.placements[{j}]", "SAS placement requires a quiz")
+                for field in ("grade", "semester"):
+                    if field not in placement:
+                        report(catalog_file, f"{path}.placements[{j}].{field}", "required for SAS placement")
             if placement["pathway"] not in pathways:
                 report(catalog_file, f"{path}.placements[{j}].pathway", "unknown pathway")
         for ref in r["relatedLessons"]:
