@@ -1,0 +1,529 @@
+{
+  "id": "grade12-hortatory-exposition-test-01",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "Reducing Food Waste at School",
+      "text": "Schools should make reducing canteen food waste a shared routine rather than relying on occasional campaigns.\n\nAt Merdeka Senior High, a three-week observation of 120 lunch trays found that 46 contained a substantial amount of uneaten rice or vegetables. This record does not represent every student or every day, but it shows that leftovers are a practical issue worth addressing.\n\nSome students take full portions because smaller portions are not offered; others are unsure whether they can ask for less without delaying the queue. The canteen could respond by displaying two portion sizes and allowing students to request extra rice later. This would give students more control while helping staff prepare food more accurately.\n\nA few workers worry that offering choices will slow service. However, a simple sign and a clear serving routine may prevent repeated questions. Students should also be encouraged to take only what they expect to eat, while teachers can explain why the change matters.\n\nThe school should trial these steps for one month, record leftover amounts, and ask students and workers for feedback before deciding whether to continue them."
+    },
+    {
+      "id": "passage-2",
+      "title": "Keep the School Garden Open After Lessons",
+      "text": "Senior students should be allowed to use the school garden after lessons through a supervised booking system.\n\nThe garden is currently locked at 2 p.m., although several clubs meet later. During six weeks in term two, the environment club recorded 27 visits before closing and 19 requests from students who arrived after the gate was locked. These figures come from one school and one term, so they do not prove that every student wants access. They do, however, suggest that the current schedule excludes some interested learners.\n\nThe garden can support biology projects, quiet reading, and group planning. Keeping it open without rules would create real concerns: tools might be misplaced, plants could be damaged, and staff may be asked to supervise without notice.\n\nA booking sheet, a student club leader, and a clear closing checklist would make access more manageable.\n\nThe school should run a six-week trial on two afternoons each week. It should review attendance, damage reports, and staff feedback before extending the arrangement. Rather than keeping the garden closed to avoid every possible problem, the school should test a controlled way to share it."
+    },
+    {
+      "id": "passage-3",
+      "title": "Teach Digital Privacy Before Problems Occur",
+      "text": "Schools should teach digital privacy as a practical skill, not leave students to learn it only after a problem occurs.\n\nIn a voluntary survey at one senior high school, 41 of 90 respondents said they had accepted an app's default privacy settings without checking them. The survey cannot describe all teenagers, and it did not test whether any account was actually misused. Still, it reveals a gap in students' awareness of the choices they make online.\n\nA short lesson could show students how to review app permissions, create different passwords, and recognise messages that ask for personal information.\n\nCritics may argue that families, not schools, should handle this topic. Families certainly have an important role, but students use school devices and learning platforms as well; teachers can explain safe routines in the settings where those tools are used.\n\nThe lesson need not require students to share private accounts or disclose passwords. Instead, they can practise with fictional profiles and sample messages.\n\nSchools should include one privacy workshop each semester and review it using anonymous student questions and a short skills check. Practical instruction is a better response than waiting for a preventable mistake."
+    },
+    {
+      "id": "passage-4",
+      "title": "Repair School Equipment Before Replacing It",
+      "text": "Schools should establish a small repair programme for usable equipment instead of replacing every damaged item immediately.\n\nAt one school, the student technology team examined 24 keyboards and desk lamps reported as faulty. Fourteen were working again after simple cleaning or the replacement of inexpensive parts; the remaining ten needed further assessment. This one-time check does not show how much money every school could save, but it suggests that some items labelled \"broken\" may still be useful.\n\nA repair programme could begin with a weekly collection point, a list of approved items, and adult supervision for electrical work. Students could help record faults and sort items, while trained staff or technicians handle repairs that involve risk.\n\nSome administrators may prefer replacement because it is quicker and comes with a warranty. That option is reasonable when an item is unsafe or cannot be repaired reliably. However, replacing everything by default creates unnecessary waste and may use funds that could support learning materials.\n\nThe school should pilot the programme for one term, compare repair costs with replacement costs, and track how many items return to use. It should then decide which categories are worth repairing regularly."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Main Recommendation",
+      "prompt": "What is the writer's main recommendation?",
+      "choices": [
+        "Schools should remove rice and vegetables from the canteen menu.",
+        "Schools should introduce portion choices and evaluate the results through a trial.",
+        "Students should be required to finish all the food they purchase.",
+        "Canteen workers should prepare less food without consulting students."
+      ],
+      "answer": 1,
+      "evidence": "The school should trial these steps for one month, record leftover amounts, and ask students and workers for feedback before deciding whether to continue them.",
+      "explanation": "Penulis menyarankan kantin menyediakan pilihan porsi dan menguji langkah tersebut selama satu bulan. Hasilnya dievaluasi melalui catatan sisa makanan serta masukan siswa dan pekerja. Pilihan lain tidak sesuai karena penulis tidak mengusulkan penghapusan menu, kewajiban menghabiskan makanan, atau pengurangan makanan tanpa konsultasi.",
+      "translationId": {
+        "prompt": "Apa rekomendasi utama penulis?",
+        "choices": [
+          "Sekolah sebaiknya menghapus nasi dan sayuran dari menu kantin.",
+          "Sekolah sebaiknya menyediakan pilihan porsi dan mengevaluasi hasilnya melalui uji coba.",
+          "Siswa sebaiknya diwajibkan menghabiskan semua makanan yang mereka beli.",
+          "Pekerja kantin sebaiknya menyiapkan lebih sedikit makanan tanpa berkonsultasi dengan siswa."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Textual Understanding",
+      "prompt": "What can be concluded from the three-week observation?",
+      "choices": [
+        "Almost all students at the school waste their food every day.",
+        "Food waste is mainly caused by expensive canteen meals.",
+        "Some observed lunch trays contained substantial leftovers.",
+        "Canteen workers were unable to prepare enough food for students."
+      ],
+      "answer": 2,
+      "evidence": "a three-week observation of 120 lunch trays found that 46 contained a substantial amount of uneaten rice or vegetables.",
+      "explanation": "Pengamatan menemukan bahwa 46 dari 120 nampan memiliki sisa nasi atau sayuran dalam jumlah cukup banyak. Data ini hanya mendukung kesimpulan tentang nampan yang diamati, bukan bahwa hampir semua siswa membuang makanan setiap hari.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari pengamatan selama tiga minggu?",
+        "choices": [
+          "Hampir semua siswa di sekolah tersebut membuang makanan setiap hari.",
+          "Sampah makanan terutama disebabkan oleh harga makanan kantin yang mahal.",
+          "Beberapa nampan makanan yang diamati memiliki sisa makanan dalam jumlah cukup banyak.",
+          "Pekerja kantin tidak mampu menyiapkan makanan yang cukup untuk siswa."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Supporting Reason",
+      "prompt": "Why does the writer mention that some students are unsure whether they can ask for smaller portions?",
+      "choices": [
+        "To show that students are not interested in healthy food.",
+        "To explain one practical barrier that prevents students from choosing smaller portions.",
+        "To suggest that students should bring their own food.",
+        "To prove that the canteen queue is always too long."
+      ],
+      "answer": 1,
+      "evidence": "others are unsure whether they can ask for less without delaying the queue.",
+      "explanation": "Penulis menunjukkan hambatan praktis: sebagian siswa ragu meminta porsi lebih kecil karena khawatir memperlambat antrean. Informasi ini menjelaskan mengapa pilihan porsi dan prosedur pelayanan yang jelas diperlukan.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebutkan bahwa sebagian siswa tidak yakin apakah mereka boleh meminta porsi lebih kecil?",
+        "choices": [
+          "Untuk menunjukkan bahwa siswa tidak tertarik pada makanan sehat.",
+          "Untuk menjelaskan salah satu hambatan praktis yang membuat siswa tidak memilih porsi lebih kecil.",
+          "Untuk menyarankan agar siswa membawa makanan sendiri.",
+          "Untuk membuktikan bahwa antrean kantin selalu terlalu panjang."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Counterargument",
+      "prompt": "Which statement represents the counterargument mentioned in the passage?",
+      "choices": [
+        "Offering different portion sizes may slow down the serving process.",
+        "Students should be encouraged to take only the food they expect to eat.",
+        "Teachers should explain the importance of reducing food waste.",
+        "The school should collect feedback after the trial."
+      ],
+      "answer": 0,
+      "evidence": "A few workers worry that offering choices will slow service.",
+      "explanation": "Pernyataan tersebut merupakan keberatan pekerja kantin terhadap usulan pilihan porsi karena mereka khawatir pelayanan menjadi lebih lambat. Pilihan lainnya merupakan bagian dari solusi atau rekomendasi penulis, bukan keberatan.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang mewakili argumen tandingan dalam bacaan?",
+        "choices": [
+          "Menawarkan ukuran porsi yang berbeda dapat memperlambat proses pelayanan.",
+          "Siswa sebaiknya didorong untuk mengambil hanya makanan yang mereka perkirakan akan dimakan.",
+          "Guru sebaiknya menjelaskan pentingnya mengurangi sampah makanan.",
+          "Sekolah sebaiknya mengumpulkan masukan setelah uji coba."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Evaluating Evidence",
+      "prompt": "Which evidence would most directly show whether the proposed programme reduces food waste?",
+      "choices": [
+        "A list of the most popular meals in the canteen.",
+        "The number of teachers who visit the canteen each week.",
+        "A comparison of leftover amounts before and during the trial.",
+        "The number of students who bring lunch from home."
+      ],
+      "answer": 2,
+      "evidence": "The school should trial these steps for one month, record leftover amounts, and ask students and workers for feedback before deciding whether to continue them.",
+      "explanation": "Perbandingan jumlah sisa makanan sebelum dan selama uji coba secara langsung menunjukkan apakah program mengurangi makanan yang terbuang. Popularitas menu, jumlah guru yang datang, atau siswa yang membawa bekal tidak mengukur hasil tersebut secara langsung.",
+      "translationId": {
+        "prompt": "Bukti mana yang paling langsung menunjukkan apakah program yang diusulkan mengurangi sampah makanan?",
+        "choices": [
+          "Daftar makanan kantin yang paling populer.",
+          "Jumlah guru yang mengunjungi kantin setiap minggu.",
+          "Perbandingan jumlah sisa makanan sebelum dan selama uji coba.",
+          "Jumlah siswa yang membawa bekal dari rumah."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Writer's Position",
+      "prompt": "What position does the writer support?",
+      "choices": [
+        "The school garden should remain permanently closed after lessons.",
+        "Only teachers should be allowed to enter the school garden.",
+        "Students should have supervised access to the garden after lessons.",
+        "The school should replace the garden with a new classroom."
+      ],
+      "answer": 2,
+      "evidence": "Senior students should be allowed to use the school garden after lessons through a supervised booking system.",
+      "explanation": "Penulis mendukung akses taman sekolah bagi siswa setelah pelajaran, dengan sistem pemesanan dan pengawasan. Penulis tidak mengusulkan penutupan permanen atau membatasi akses hanya untuk guru.",
+      "translationId": {
+        "prompt": "Posisi apa yang didukung oleh penulis?",
+        "choices": [
+          "Taman sekolah sebaiknya tetap ditutup secara permanen setelah pelajaran.",
+          "Hanya guru yang boleh memasuki taman sekolah.",
+          "Siswa sebaiknya mendapat akses ke taman setelah pelajaran dengan pengawasan.",
+          "Sekolah sebaiknya mengganti taman dengan ruang kelas baru."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Inference",
+      "prompt": "What do the 19 requests from students suggest?",
+      "choices": [
+        "Every student wants to participate in the environment club.",
+        "The current closing schedule prevents some interested students from using the garden.",
+        "The school garden is too small for student activities.",
+        "Most students prefer studying outdoors rather than indoors."
+      ],
+      "answer": 1,
+      "evidence": "They do, however, suggest that the current schedule excludes some interested learners.",
+      "explanation": "Sebanyak 19 permintaan dari siswa yang datang setelah gerbang dikunci menunjukkan bahwa jadwal penutupan saat ini menghalangi sebagian siswa yang berminat menggunakan taman. Data tersebut tidak membuktikan bahwa semua siswa ingin mengikuti klub lingkungan.",
+      "translationId": {
+        "prompt": "Apa yang ditunjukkan oleh 19 permintaan dari siswa tersebut?",
+        "choices": [
+          "Setiap siswa ingin mengikuti klub lingkungan.",
+          "Jadwal penutupan saat ini menghalangi sebagian siswa yang berminat untuk menggunakan taman.",
+          "Taman sekolah terlalu kecil untuk kegiatan siswa.",
+          "Sebagian besar siswa lebih suka belajar di luar ruangan daripada di dalam ruangan."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Supporting Details",
+      "prompt": "Which combination of measures does the writer propose to manage garden access?",
+      "choices": [
+        "A booking sheet, a student club leader, and a closing checklist.",
+        "A new garden building, additional classrooms, and longer school hours.",
+        "A daily examination, a gardening competition, and a student election.",
+        "A larger budget, additional plants, and new school uniforms."
+      ],
+      "answer": 0,
+      "evidence": "A booking sheet, a student club leader, and a clear closing checklist would make access more manageable.",
+      "explanation": "Penulis mengusulkan tiga alat pengelolaan akses: lembar pemesanan, ketua klub siswa, dan daftar pemeriksaan sebelum taman ditutup. Pilihan lain memuat kegiatan atau fasilitas yang tidak disebutkan sebagai langkah pengelolaan akses.",
+      "translationId": {
+        "prompt": "Kombinasi langkah mana yang diusulkan penulis untuk mengatur akses ke taman?",
+        "choices": [
+          "Lembar pemesanan, ketua klub siswa, dan daftar pemeriksaan penutupan.",
+          "Bangunan taman baru, ruang kelas tambahan, dan jam sekolah yang lebih panjang.",
+          "Ujian harian, lomba berkebun, dan pemilihan siswa.",
+          "Anggaran lebih besar, tanaman tambahan, dan seragam sekolah baru."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Argument Evaluation",
+      "prompt": "Why does the writer acknowledge possible problems such as damaged plants and misplaced tools?",
+      "choices": [
+        "To demonstrate that the garden should not be used by students.",
+        "To explain why students are incapable of maintaining a garden.",
+        "To recognise potential objections and support the need for supervision.",
+        "To suggest that the school should remove all gardening equipment."
+      ],
+      "answer": 2,
+      "evidence": "Keeping it open without rules would create real concerns: tools might be misplaced, plants could be damaged, and staff may be asked to supervise without notice.",
+      "explanation": "Penulis mengakui risiko yang mungkin muncul agar argumennya mempertimbangkan keberatan secara realistis. Risiko tersebut menjadi alasan perlunya aturan dan pengawasan, bukan alasan untuk melarang siswa menggunakan taman.",
+      "translationId": {
+        "prompt": "Mengapa penulis mengakui kemungkinan masalah seperti tanaman rusak dan peralatan hilang?",
+        "choices": [
+          "Untuk menunjukkan bahwa taman tidak boleh digunakan oleh siswa.",
+          "Untuk menjelaskan mengapa siswa tidak mampu merawat taman.",
+          "Untuk mengakui kemungkinan keberatan dan mendukung perlunya pengawasan.",
+          "Untuk menyarankan agar sekolah menghilangkan semua peralatan berkebun."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Evaluating Evidence",
+      "prompt": "Which evaluation plan best matches the writer's recommendation?",
+      "choices": [
+        "Count the number of plants in the garden before the school year ends.",
+        "Ask only the environment club leader whether the programme is successful.",
+        "Compare the garden's size with gardens at other schools.",
+        "Review attendance, damage reports, and staff feedback after the trial."
+      ],
+      "answer": 3,
+      "evidence": "It should review attendance, damage reports, and staff feedback before extending the arrangement.",
+      "explanation": "Penulis secara khusus menyarankan peninjauan kehadiran, laporan kerusakan, dan masukan staf setelah uji coba. Menggunakan ketiga informasi tersebut memberi gambaran manfaat dan risiko program secara lebih lengkap.",
+      "translationId": {
+        "prompt": "Rencana evaluasi mana yang paling sesuai dengan rekomendasi penulis?",
+        "choices": [
+          "Menghitung jumlah tanaman di taman sebelum tahun ajaran berakhir.",
+          "Hanya menanyakan kepada ketua klub lingkungan apakah program berhasil.",
+          "Membandingkan luas taman dengan taman di sekolah lain.",
+          "Meninjau kehadiran, laporan kerusakan, dan masukan staf setelah uji coba."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Author's Purpose",
+      "prompt": "What is the main purpose of the passage?",
+      "choices": [
+        "To persuade schools to teach students practical digital privacy skills.",
+        "To encourage students to stop using digital applications completely.",
+        "To argue that parents should take full responsibility for online safety.",
+        "To explain how schools can develop their own social media applications."
+      ],
+      "answer": 0,
+      "evidence": "Schools should teach digital privacy as a practical skill, not leave students to learn it only after a problem occurs.",
+      "explanation": "Tujuan utama penulis adalah meyakinkan sekolah agar mengajarkan keterampilan menjaga privasi digital secara praktis. Penulis tidak meminta siswa berhenti menggunakan aplikasi atau menyerahkan seluruh tanggung jawab kepada orang tua.",
+      "translationId": {
+        "prompt": "Apa tujuan utama bacaan tersebut?",
+        "choices": [
+          "Meyakinkan sekolah agar mengajarkan keterampilan praktis menjaga privasi digital kepada siswa.",
+          "Mendorong siswa untuk berhenti menggunakan aplikasi digital sepenuhnya.",
+          "Berpendapat bahwa orang tua harus bertanggung jawab penuh atas keamanan daring.",
+          "Menjelaskan cara sekolah mengembangkan aplikasi media sosial sendiri."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Evaluating Evidence",
+      "prompt": "What does the survey evidence actually support?",
+      "choices": [
+        "All teenagers have experienced online account misuse.",
+        "Most students deliberately share their passwords with strangers.",
+        "Some respondents accept default privacy settings without checking them.",
+        "Digital applications are always unsafe for students."
+      ],
+      "answer": 2,
+      "evidence": "41 of 90 respondents said they had accepted an app's default privacy settings without checking them.",
+      "explanation": "Survei mendukung kesimpulan terbatas bahwa 41 dari 90 responden pernah menerima pengaturan privasi bawaan tanpa memeriksanya. Survei tersebut tidak membuktikan bahwa semua remaja mengalami penyalahgunaan akun atau membagikan kata sandi.",
+      "translationId": {
+        "prompt": "Apa yang sebenarnya didukung oleh bukti survei tersebut?",
+        "choices": [
+          "Semua remaja pernah mengalami penyalahgunaan akun daring.",
+          "Sebagian besar siswa sengaja membagikan kata sandi mereka kepada orang asing.",
+          "Sebagian responden menerima pengaturan privasi bawaan tanpa memeriksanya.",
+          "Aplikasi digital selalu tidak aman bagi siswa."
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Counterargument",
+      "prompt": "Why does the writer mention the role of families?",
+      "choices": [
+        "To argue that schools should avoid teaching digital privacy.",
+        "To acknowledge another responsibility while explaining why schools also have a role.",
+        "To prove that families are unable to protect their children online.",
+        "To suggest that digital privacy should only be taught at home."
+      ],
+      "answer": 1,
+      "evidence": "Families certainly have an important role, but students use school devices and learning platforms as well; teachers can explain safe routines in the settings where those tools are used.",
+      "explanation": "Penulis mengakui bahwa keluarga memiliki peran penting, tetapi sekolah juga perlu mengajarkan privasi digital karena siswa menggunakan perangkat dan platform pembelajaran sekolah. Ini merupakan cara penulis menanggapi pandangan bahwa topik tersebut hanya menjadi tanggung jawab keluarga.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebutkan peran keluarga?",
+        "choices": [
+          "Untuk berpendapat bahwa sekolah sebaiknya tidak mengajarkan privasi digital.",
+          "Untuk mengakui tanggung jawab pihak lain sekaligus menjelaskan mengapa sekolah juga memiliki peran.",
+          "Untuk membuktikan bahwa keluarga tidak mampu melindungi anak-anak mereka saat daring.",
+          "Untuk menyarankan bahwa privasi digital hanya boleh diajarkan di rumah."
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Application",
+      "prompt": "Which classroom activity best follows the writer's proposed approach?",
+      "choices": [
+        "Asking students to reveal their personal passwords to the teacher.",
+        "Requiring students to share their private social media accounts.",
+        "Asking students to publish their personal information online.",
+        "Using fictional profiles and sample messages to practise identifying online risks."
+      ],
+      "answer": 3,
+      "evidence": "Instead, they can practise with fictional profiles and sample messages.",
+      "explanation": "Penulis menyarankan latihan menggunakan profil fiktif dan contoh pesan. Dengan demikian, siswa dapat mempelajari risiko digital tanpa harus membuka akun pribadi atau membagikan kata sandi.",
+      "translationId": {
+        "prompt": "Kegiatan kelas mana yang paling sesuai dengan pendekatan yang diusulkan penulis?",
+        "choices": [
+          "Meminta siswa mengungkapkan kata sandi pribadi mereka kepada guru.",
+          "Mewajibkan siswa membagikan akun media sosial pribadi mereka.",
+          "Meminta siswa menerbitkan informasi pribadi mereka secara daring.",
+          "Menggunakan profil fiktif dan contoh pesan untuk berlatih mengenali risiko daring."
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Evaluating Outcomes",
+      "prompt": "Which result would provide the strongest evidence that the workshop improves students' skills?",
+      "choices": [
+        "More students download new social media applications.",
+        "Students spend more time using school computers.",
+        "Students can correctly identify unsafe permissions and suspicious messages in a skills check.",
+        "Teachers receive more requests for new classroom devices."
+      ],
+      "answer": 2,
+      "evidence": "Schools should include one privacy workshop each semester and review it using anonymous student questions and a short skills check.",
+      "explanation": "Tes keterampilan yang menunjukkan bahwa siswa mampu mengenali izin aplikasi yang tidak aman dan pesan mencurigakan merupakan bukti langsung peningkatan kemampuan. Jumlah unduhan aplikasi atau waktu penggunaan komputer tidak mengukur keterampilan tersebut.",
+      "translationId": {
+        "prompt": "Hasil mana yang memberikan bukti terkuat bahwa lokakarya meningkatkan keterampilan siswa?",
+        "choices": [
+          "Lebih banyak siswa mengunduh aplikasi media sosial baru.",
+          "Siswa menghabiskan lebih banyak waktu menggunakan komputer sekolah.",
+          "Siswa dapat mengenali izin aplikasi yang tidak aman dan pesan mencurigakan dengan benar dalam tes keterampilan.",
+          "Guru menerima lebih banyak permintaan perangkat kelas baru."
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Main Argument",
+      "prompt": "What is the writer's main argument?",
+      "choices": [
+        "Schools should replace all damaged equipment immediately.",
+        "Schools should establish a repair programme for equipment that can still be used.",
+        "Students should repair all electrical equipment without supervision.",
+        "Schools should stop purchasing new learning materials."
+      ],
+      "answer": 1,
+      "evidence": "Schools should establish a small repair programme for usable equipment instead of replacing every damaged item immediately.",
+      "explanation": "Penulis berargumen bahwa sekolah sebaiknya memiliki program perbaikan untuk barang yang masih dapat digunakan, bukan langsung mengganti semua barang rusak. Penulis tetap mengakui bahwa penggantian diperlukan untuk barang yang tidak aman atau tidak dapat diperbaiki dengan baik.",
+      "translationId": {
+        "prompt": "Apa argumen utama penulis?",
+        "choices": [
+          "Sekolah sebaiknya segera mengganti semua perlengkapan yang rusak.",
+          "Sekolah sebaiknya membentuk program perbaikan untuk perlengkapan yang masih dapat digunakan.",
+          "Siswa sebaiknya memperbaiki semua peralatan listrik tanpa pengawasan.",
+          "Sekolah sebaiknya berhenti membeli bahan pembelajaran baru."
+        ]
+      }
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Textual Understanding",
+      "prompt": "What can be concluded from the examination of 24 faulty items?",
+      "choices": [
+        "Fourteen items became usable again after simple repairs or cleaning.",
+        "All 24 items were permanently damaged.",
+        "Every school could save the same amount of money through repairs.",
+        "Ten items were successfully repaired by students."
+      ],
+      "answer": 0,
+      "evidence": "Fourteen were working again after simple cleaning or the replacement of inexpensive parts; the remaining ten needed further assessment.",
+      "explanation": "Dari 24 barang yang diperiksa, 14 kembali berfungsi setelah dibersihkan atau diganti bagian yang murah. Sepuluh barang lainnya masih memerlukan pemeriksaan lebih lanjut, sehingga tidak tepat menyatakan bahwa semuanya rusak permanen atau berhasil diperbaiki.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari pemeriksaan terhadap 24 barang yang rusak?",
+        "choices": [
+          "Empat belas barang dapat digunakan kembali setelah perbaikan sederhana atau pembersihan.",
+          "Semua 24 barang rusak secara permanen.",
+          "Setiap sekolah dapat menghemat jumlah uang yang sama melalui perbaikan.",
+          "Sepuluh barang berhasil diperbaiki oleh siswa."
+        ]
+      }
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Writer's Perspective",
+      "prompt": "Why does the writer acknowledge that replacement can sometimes be reasonable?",
+      "choices": [
+        "To show that repairing equipment is always more expensive.",
+        "To argue that schools should avoid using technology.",
+        "To recognise situations in which replacing an item is safer or more reliable.",
+        "To demonstrate that administrators should make every decision without student input."
+      ],
+      "answer": 2,
+      "evidence": "That option is reasonable when an item is unsafe or cannot be repaired reliably.",
+      "explanation": "Penulis mengakui bahwa penggantian barang dapat menjadi pilihan yang tepat apabila barang tidak aman atau tidak dapat diperbaiki secara andal. Pengakuan ini membuat rekomendasi lebih seimbang, bukan berarti penulis menolak program perbaikan.",
+      "translationId": {
+        "prompt": "Mengapa penulis mengakui bahwa penggantian terkadang dapat dibenarkan?",
+        "choices": [
+          "Untuk menunjukkan bahwa memperbaiki perlengkapan selalu lebih mahal.",
+          "Untuk berpendapat bahwa sekolah sebaiknya menghindari penggunaan teknologi.",
+          "Untuk mengakui situasi ketika mengganti barang lebih aman atau lebih dapat diandalkan.",
+          "Untuk menunjukkan bahwa administrator harus membuat setiap keputusan tanpa masukan siswa."
+        ]
+      }
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Application",
+      "prompt": "Which policy best reflects the writer's recommendation?",
+      "choices": [
+        "Allow students to repair all electrical devices without adult supervision.",
+        "Replace every damaged item regardless of its condition.",
+        "Ask students to repair expensive equipment using any available tools.",
+        "Use approved items, supervise electrical work, and assign risky repairs to trained personnel."
+      ],
+      "answer": 3,
+      "evidence": "Students could help record faults and sort items, while trained staff or technicians handle repairs that involve risk.",
+      "explanation": "Kebijakan yang sesuai adalah membatasi pekerjaan siswa pada pencatatan kerusakan dan pemilahan barang, sementara pekerjaan berisiko ditangani staf atau teknisi terlatih. Ini menjaga keselamatan sekaligus mendukung program perbaikan.",
+      "translationId": {
+        "prompt": "Kebijakan mana yang paling mencerminkan rekomendasi penulis?",
+        "choices": [
+          "Mengizinkan siswa memperbaiki semua perangkat listrik tanpa pengawasan orang dewasa.",
+          "Mengganti setiap barang yang rusak tanpa mempertimbangkan kondisinya.",
+          "Meminta siswa memperbaiki perlengkapan mahal menggunakan alat apa pun yang tersedia.",
+          "Menggunakan barang yang telah disetujui, mengawasi pekerjaan listrik, dan menyerahkan perbaikan berisiko kepada tenaga terlatih."
+        ]
+      }
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Evaluating Evidence",
+      "prompt": "What information should the school examine before deciding which equipment categories should be repaired regularly?",
+      "choices": [
+        "The number of students who prefer using new equipment.",
+        "The colour and design of the equipment in each classroom.",
+        "The total number of items purchased during the previous five years only.",
+        "Repair costs, replacement costs, and the number of items successfully returned to use."
+      ],
+      "answer": 3,
+      "evidence": "The school should pilot the programme for one term, compare repair costs with replacement costs, and track how many items return to use.",
+      "explanation": "Sekolah perlu membandingkan biaya perbaikan dan biaya penggantian serta mencatat jumlah barang yang berhasil digunakan kembali. Informasi ini membantu menentukan kategori perlengkapan yang layak diperbaiki secara rutin.",
+      "translationId": {
+        "prompt": "Informasi apa yang perlu diperiksa sekolah sebelum memutuskan kategori perlengkapan mana yang sebaiknya diperbaiki secara rutin?",
+        "choices": [
+          "Jumlah siswa yang lebih suka menggunakan perlengkapan baru.",
+          "Warna dan desain perlengkapan di setiap kelas.",
+          "Jumlah seluruh barang yang dibeli selama lima tahun sebelumnya saja.",
+          "Biaya perbaikan, biaya penggantian, dan jumlah barang yang berhasil digunakan kembali."
+        ]
+      }
+    }
+  ]
+}
