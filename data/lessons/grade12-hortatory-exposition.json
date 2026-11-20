@@ -1,0 +1,289 @@
+{
+  "id": "grade12-hortatory-exposition",
+  "objectives": [
+    "Membedakan pernyataan masalah dan alasan pendukung dari rekomendasi tindakan di bagian akhir teks.",
+    "Mengenali saran dengan [[should]] atau [[ought to]] dan membedakannya dari fungsi penghubung [[therefore]].",
+    "Menghubungkan posisi penulis ([[thesis]]), alasan ([[arguments]]), dan saran tindakan ([[recommendation]]) dalam satu bacaan."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu Hortatory Exposition: Arguing for Action?",
+      "text": "[[Hortatory exposition]] adalah teks argumentatif yang menjelaskan suatu masalah, memberikan alasan logis, lalu mengajak atau menyarankan pembaca melakukan tindakan tertentu ([[recommendation]])."
+    },
+    {
+      "type": "scaffold",
+      "intro": "Baca pesan penulis untuk anggota grup kelas. Masalah apa yang bisa muncul ketika kita hanya membaca kata-kata di layar? Cari hubungan antara dua alasan penulis dan tindakan yang ia sarankan.",
+      "steps": [
+        {
+          "title": "Temukan sikap penulis",
+          "explanation": "Baca kalimat pertama. Bagian mana yang memberi tahu kita apa yang dianggap penting oleh penulis?",
+          "english": "Respectful communication is needed in every online class group.",
+          "indonesian": "Setiap grup kelas daring memerlukan komunikasi yang sopan.",
+          "why": "Lewat [[is needed]], penulis menyatakan bahwa anggota grup perlu berkomunikasi dengan sopan. Ini posisi yang akan ia dukung dengan alasan."
+        },
+        {
+          "title": "Telusuri penyebab salah paham",
+          "explanation": "Mengapa pesan singkat bisa ditafsirkan berbeda dari maksud pengirimnya? Ikuti bagian sesudah [[because]].",
+          "english": "Short messages are easily misunderstood because readers cannot hear the speaker's tone.",
+          "indonesian": "Pesan singkat mudah disalahpahami karena pembaca tidak bisa mendengar nada bicara pengirimnya.",
+          "why": "Saat berbicara langsung, nada suara membantu kita menangkap maksud seseorang. Di grup, pembaca hanya melihat tulisannya. Kalimat ini menjelaskan mengapa pengirim perlu berhati-hati memilih kata."
+        },
+        {
+          "title": "Bedakan alasan kedua dari alasan pertama",
+          "explanation": "Perhatikan siapa yang terkena dampak balasan kasar. Apa yang kini ragu mereka lakukan?",
+          "english": "When students post harsh replies, classmates feel hesitant to share ideas.",
+          "indonesian": "Ketika siswa mengirim balasan kasar, teman sekelas jadi ragu untuk menyampaikan gagasan.",
+          "why": "Alasan pertama membahas bagaimana pesan dipahami. Alasan kedua membahas kesediaan teman untuk ikut berdiskusi. [[Hesitant to share ideas]] berarti mereka ragu berbagi gagasan."
+        },
+        {
+          "title": "Temukan peralihan dari alasan ke saran",
+          "explanation": "Baca awal kalimat keempat. Kata mana yang menghubungkannya dengan dua alasan tadi? Kata mana yang meminta siswa melakukan sesuatu?",
+          "english": "Therefore, students should check",
+          "indonesian": "Karena itu, siswa sebaiknya memeriksa",
+          "why": "[[Therefore]] berarti “karena itu”. Kata ini menghubungkan simpulan dengan alasan sebelumnya. [[Should check]] menunjukkan bahwa simpulan kali ini berisi saran."
+        },
+        {
+          "title": "Perjelas apa yang perlu diperiksa",
+          "explanation": "Lanjutkan membaca kalimat keempat. Sebelum menekan tombol kirim, apa yang perlu dipertimbangkan siswa tentang balasannya?",
+          "english": "whether their reply addresses an idea rather than attacking a person before hitting send.",
+          "indonesian": "apakah balasannya menanggapi gagasan atau justru menyerang pribadi, sebelum balasan itu dikirim.",
+          "why": "Penulis tetap memberi ruang untuk berbeda pendapat. Yang perlu diperiksa adalah sasaran balasan kita. Mengkritik gagasan berbeda dari merendahkan teman yang menyampaikannya."
+        },
+        {
+          "title": "Sesuaikan tindakan dengan situasinya",
+          "explanation": "Pada kalimat terakhir, kapan siswa perlu melapor? Bandingkan situasi itu dengan saat siswa masih menyusun balasan sendiri.",
+          "english": "If a post harms a classmate, students should report it through a school channel instead of forwarding screenshots.",
+          "indonesian": "Jika sebuah unggahan merugikan teman sekelas, siswa sebaiknya melaporkannya lewat saluran sekolah, alih-alih meneruskan tangkapan layar.",
+          "why": "Kata [[If]] memberi syarat untuk saran kedua. Ketika unggahan sudah merugikan teman, penulis mengarahkan siswa ke saluran sekolah. Meneruskan tangkapan layar bisa membuat unggahan itu tersebar lebih luas.",
+          "check": "Dita sedang menulis balasan yang tidak setuju dengan ide temannya. Belum ada unggahan yang merugikan siapa pun. Saran mana dalam bacaan yang bisa Dita pakai sekarang? Mengapa?",
+          "checkAnswer": "Dita bisa memeriksa balasannya sebelum mengirim. Apakah isinya membahas ide temannya dengan sopan? Saran untuk melapor berlaku jika sudah ada unggahan yang merugikan teman."
+        }
+      ],
+      "modelTitle": "Bagaimana sebaiknya kita membalas pesan di grup kelas?",
+      "modelEnglish": "Respectful communication is needed in every online class group. Short messages are easily misunderstood because readers cannot hear the speaker's tone. When students post harsh replies, classmates feel hesitant to share ideas. Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send. If a post harms a classmate, students should report it through a school channel instead of forwarding screenshots.",
+      "modelIndonesian": "Setiap grup kelas daring memerlukan komunikasi yang sopan. Pesan singkat mudah disalahpahami karena pembaca tidak bisa mendengar nada bicara pengirimnya. Ketika siswa mengirim balasan kasar, teman sekelas jadi ragu untuk menyampaikan gagasan. Karena itu, sebelum mengirim balasan, siswa sebaiknya memeriksa apakah mereka menanggapi gagasan teman atau justru menyerang pribadinya. Jika sebuah unggahan merugikan teman sekelas, siswa sebaiknya melaporkannya lewat saluran sekolah, alih-alih meneruskan tangkapan layar."
+    },
+    {
+      "type": "synthesis",
+      "title": "Jadi, apa inti konsep ini?",
+      "text": "Berbeda dari teks yang hanya menjelaskan masalah, [[hortatory exposition]] selalu mengarah pada ajakan bertindak. Carilah pergeseran dari kalimat fakta atau alasan menuju kalimat saran yang memakai [[should]], [[ought to]], atau [[must]]."
+    },
+    {
+      "type": "rule",
+      "text": "Struktur [[hortatory exposition]] terdiri atas [[thesis]] (pernyataan isu dan posisi), [[arguments]] (alasan dan bukti pendukung), dan [[recommendation]] (saran tindakan bagi pembaca)."
+    },
+    {
+      "type": "subheading",
+      "text": "Kesalahan berpikir yang sering terjadi"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Everyone in a class group must always agree on every topic.",
+      "correct": "Students may disagree, but they should criticize ideas rather than attack classmates.",
+      "explanation": "Tujuan komunikasi yang sopan bukan menghilangkan perbedaan pendapat, melainkan menjaga agar perbedaan tetap berfokus pada gagasan."
+    },
+    {
+      "type": "heading",
+      "text": "Contoh membedakan alasan dan saran tindakan"
+    },
+    {
+      "type": "text",
+      "text": "Dua contoh pertama diambil dari bacaan pembuka. Pada contoh ketiga, amati bagaimana saran yang sama bisa disampaikan dengan [[ought to]]."
+    },
+    {
+      "type": "example_group",
+      "title": "Satu alasan dan dua cara menyatakan saran",
+      "collapsed": false,
+      "items": [
+        {
+          "english": "When students post harsh replies, classmates feel hesitant to share ideas.",
+          "indonesian": "Ketika siswa mengirim balasan kasar, teman sekelas jadi ragu untuk menyampaikan gagasan.",
+          "note": "Kalimat ini memberi alasan untuk menjaga cara kita membalas pesan. Pembaca mengetahui dampak balasan kasar bagi teman."
+        },
+        {
+          "english": "Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send.",
+          "indonesian": "Karena itu, sebelum mengirim balasan, siswa sebaiknya memeriksa apakah mereka menanggapi gagasan teman atau justru menyerang pribadinya.",
+          "note": "[[Should check]] menyebut langkah yang bisa diambil pembaca untuk mencegah serangan pribadi."
+        },
+        {
+          "english": "Students ought to check that their reply focuses on the idea before they send it.",
+          "indonesian": "Sebelum mengirim balasan, siswa sebaiknya memastikan bahwa balasan mereka berfokus pada gagasan yang dibahas.",
+          "note": "Ini cara lain menyampaikan saran dalam bacaan. [[Ought to check]] dan [[should check]] sama-sama menganjurkan tindakan."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "guided-grade12-hortatory-exposition",
+      "prompt": "Which sentence expresses a recommendation rather than a reason?",
+      "translation": "Kalimat mana yang menyatakan rekomendasi tindakan, bukan sekadar alasan atau fakta?",
+      "choices": [
+        "Short messages can be misunderstood without tone of voice.",
+        "Harsh replies can make classmates hesitant to share ideas.",
+        "Students should reread their messages before sending them."
+      ],
+      "answer": 2,
+      "translationChoices": [
+        "Pesan singkat dapat disalahpahami tanpa nada suara.",
+        "Balasan kasar bisa membuat teman sekelas ragu untuk menyampaikan gagasan.",
+        "Siswa sebaiknya membaca ulang pesan mereka sebelum mengirimkannya."
+      ],
+      "explanation": "Pilihan ketiga menggunakan [[should reread]] untuk menyarankan tindakan konkret. Dua pilihan pertama hanya menjelaskan masalah dan dampaknya.",
+      "hint": "Bayangkan pembaca selesai membaca tiap kalimat. Apakah ia mengetahui penyebab masalah, atau mengetahui tindakan yang diminta?"
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Therefore, students should check whether their reply addresses an idea rather than attacking a person before hitting send.",
+      "parts": [
+        {
+          "english": "Therefore,",
+          "meaning": "“Karena itu” menghubungkan kalimat ini dengan alasan yang sudah diberikan."
+        },
+        {
+          "english": "students should check",
+          "meaning": "Siswa sebaiknya memeriksa. Bagian ini menunjukkan siapa yang diminta bertindak dan apa yang perlu dilakukan."
+        },
+        {
+          "english": "whether their reply addresses an idea rather than attacking a person",
+          "meaning": "Yang diperiksa adalah isi balasan. Apakah kita membahas gagasan teman atau justru menyerang pribadinya?"
+        },
+        {
+          "english": "before hitting send.",
+          "meaning": "Pemeriksaan dilakukan sebelum menekan tombol kirim."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "Compare: (A) “Personal insults discourage participation.” vs. (B) “Personal insults should be avoided in class groups.” What changes in the writer's purpose?",
+      "translation": "Bandingkan: (A) “Hinaan pribadi menghambat partisipasi.” vs. (B) “Hinaan pribadi sebaiknya dihindari di grup kelas.” Apa yang berubah dalam tujuan penulis?",
+      "answer": "A menjelaskan dampak hinaan sebagai alasan ([[argument]]). B memakai [[should be avoided]] untuk meminta perubahan perilaku ([[recommendation]])."
+    },
+    {
+      "type": "heading",
+      "text": "Latihan membaca mandiri tentang grup sekolah"
+    },
+    {
+      "type": "text",
+      "text": "Baca teks kedua ini secara utuh. Temukan posisi penulis, dua alasan yang ia berikan, dan saran tindakannya. Gunakan rincian dari teks ini saat menjawab soal yang merujuk pada bacaan."
+    },
+    {
+      "type": "example",
+      "text": "Students should practise respectful communication in online school groups. Short messages can be misunderstood because readers cannot hear the speaker’s tone. Personal insults may discourage classmates from asking questions, even when they have useful ideas. Respectful disagreement makes discussion more productive. Therefore, before sending a reply, students should check whether it addresses an idea rather than attacking a person. They should also report harmful messages through the school’s established channels instead of spreading screenshots for entertainment.",
+      "note": "Cari alasan yang mendasari setiap saran. Apakah alasan untuk membaca ulang pesan sama dengan alasan untuk melaporkan pesan yang merugikan?"
+    },
+    {
+      "type": "summary",
+      "title": "Yang perlu kamu ingat",
+      "items": [
+        "[[Hortatory exposition]] bertujuan meyakinkan pembaca untuk melakukan suatu tindakan, bukan sekadar menjelaskan fenomena.",
+        "Gunakan urutan [[thesis]] → [[arguments]] → [[recommendation]] untuk memetakan isi bacaan dengan cepat.",
+        "[[Therefore]] menghubungkan simpulan dengan alasan sebelumnya. Untuk mengenali saran, periksa tindakan yang diminta, misalnya lewat [[should]] atau [[ought to]]."
+      ]
+    },
+    {
+      "type": "self_check",
+      "title": "Coba sendiri · tanpa nilai",
+      "prompt": "Tulis dua kalimat bahasa Inggris: kalimat pertama berisi satu alasan mengapa siswa perlu menjaga etika di grup kelas, dan kalimat kedua berisi satu rekomendasi menggunakan kata [[should]].",
+      "model": "Rude comments can hurt classmates and stop good discussions. Therefore, students should think carefully before posting in class groups.",
+      "modelTranslation": "Komentar kasar dapat menyakiti teman sekelas dan menghentikan diskusi yang baik. Oleh karena itu, siswa sebaiknya berpikir matang sebelum mengunggah pesan di grup kelas.",
+      "criteria": "Kalimat pertama menjelaskan satu dampak. Kalimat kedua memakai [[should]] untuk mengusulkan tindakan yang menjawab dampak itu."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Bekal kosakata penting",
+      "items": [
+        {
+          "english": "misunderstood",
+          "indonesian": "disalahpahami"
+        },
+        {
+          "english": "discourage",
+          "indonesian": "membuat enggan / mematahkan semangat"
+        },
+        {
+          "english": "productive",
+          "indonesian": "produktif / menghasilkan manfaat"
+        },
+        {
+          "english": "therefore",
+          "indonesian": "oleh karena itu"
+        },
+        {
+          "english": "channel",
+          "indonesian": "saluran / jalur resmi"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Which conclusion asks the reader to act rather than describing what follows?",
+      "choices": [
+        "Therefore, the disagreement lasted longer.",
+        "Therefore, fewer students joined the discussion.",
+        "Therefore, a short reply can sound harsher than intended.",
+        "Therefore, check the tone of your reply before posting."
+      ],
+      "answer": 3,
+      "explanation": "Semua pilihan memakai [[therefore]]. Hanya [[check the tone]] yang mengarahkan pembaca melakukan sesuatu. Pilihan lain melaporkan akibat atau menjelaskan kemungkinan.",
+      "translationId": {
+        "prompt": "Simpulan mana yang meminta pembaca bertindak?",
+        "choices": [
+          "Oleh karena itu, perselisihan berlangsung lebih lama.",
+          "Oleh karena itu, lebih sedikit siswa ikut berdiskusi.",
+          "Oleh karena itu, balasan singkat dapat terdengar lebih kasar daripada maksud pengirimnya.",
+          "Oleh karena itu, periksa nada balasanmu sebelum mengirimnya."
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Which pair best connects a problem in the passage with the recommended response?",
+      "choices": [
+        "Tone is hard to hear in text, so reread the reply before sending it.",
+        "Tone is hard to hear in text, so forward private screenshots for comparison.",
+        "Insults discourage questions, so avoid disagreeing with classmates.",
+        "Insults discourage questions, so ask the whole group to judge a screenshot."
+      ],
+      "answer": 0,
+      "explanation": "Membaca ulang membantu memeriksa apakah balasan menanggapi gagasan dengan sopan. Menyebarkan tangkapan layar justru dapat memperluas konflik. Teks tetap membolehkan perbedaan pendapat.",
+      "translationId": {
+        "prompt": "Pasangan mana yang paling tepat menghubungkan masalah dalam bacaan dengan tindakan yang disarankan?",
+        "choices": [
+          "Nada sulit didengar dari teks, jadi baca ulang balasan sebelum mengirimnya.",
+          "Nada sulit didengar dari teks, jadi teruskan tangkapan layar pribadi sebagai pembanding.",
+          "Hinaan membuat siswa enggan bertanya, jadi hindari perbedaan pendapat.",
+          "Hinaan membuat siswa enggan bertanya, jadi minta seluruh grup menilai tangkapan layar."
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "How does the writer move from a position to a recommendation in the class-chat passage?",
+      "choices": [
+        "A reporting rule is quoted, then exceptions are listed.",
+        "Two chat policies are compared, then readers vote.",
+        "Respectful discussion is valued, harm is explained, and specific replies and reporting habits are proposed.",
+        "A conflict is described in time order, then its outcome is announced."
+      ],
+      "answer": 2,
+      "explanation": "Awal bacaan menyatakan posisi. Dampak hinaan dan hilangnya nada suara menjadi alasan, lalu penulis meminta tindakan konkret. Bacaan tidak menyajikan pemungutan suara atau urutan kejadian tertentu.",
+      "translationId": {
+        "prompt": "Bagaimana penulis mengembangkan posisi menjadi rekomendasi dalam bacaan grup kelas?",
+        "choices": [
+          "Aturan pelaporan dikutip, lalu pengecualiannya didaftar.",
+          "Dua kebijakan grup dibandingkan, lalu pembaca memilih.",
+          "Penulis mendukung diskusi yang sopan, menjelaskan dampak perilaku kasar, lalu mengusulkan cara membalas dan melapor.",
+          "Konflik dikisahkan menurut urutan waktu, lalu hasilnya diumumkan."
+        ]
+      }
+    }
+  ],
+  "assessments": [
+    "grade12-hortatory-exposition-practice",
+    "grade12-hortatory-exposition-test-01"
+  ]
+}
