@@ -13,10 +13,10 @@ try{
   if(draft&&(!Array.isArray(draft.answers)||!Array.isArray(draft.flags)||draft.quizSnapshot!==JSON.stringify(d)||draft.answers.length!==count||draft.flags.length!==count||!draft.answers.every((a,i)=>validResponse(d.questions[i],a))||!draft.flags.every(v=>typeof v==='boolean')||!['practice','simulation'].includes(draft.mode)||!Number.isInteger(draft.index)||!Number.isFinite(draft.start)||!(draft.deadline===null||Number.isFinite(draft.deadline))))draft=null;
  }catch{draft=null}
  const answeredCount=()=>answers.filter((a,i)=>isAnswered(d.questions[i],a)).length;
- const back={grammar:'grammar.html',utbk:'utbk.html',school:'school.html',tka:'tka.html'};
+ const back={grammar:'grammar.html',utbk:'utbk.html',school:'school.html',tka:'tka.html',sas:'sas.html'};
  function presentation(){return m.examFormat==='full'?t('quizFull'):m.examFormat==='topic'||m.kind==='test'?t('quizTopic'):t('quizShort')}
  const track=m.placements[0].pathway;
- const trackLabel={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka'}[track];
+ const trackLabel={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas'}[track];
  function renderIntro(){
   phase='intro';
   content.innerHTML=`<article class="exam-intro" data-track="${esc(track)}">

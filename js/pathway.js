@@ -8,11 +8,11 @@ try{
  const resources=c.resources.filter(r=>r.placements.some(x=>x.pathway===pathway));
  const drafts=quizDrafts();
  const card=r=>resourceRow(r,p,drafts,pathway,t('difficulty'+r.difficulty));
- function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(byResourceTitle).map(card).join('')}</ul>`:`<p>${t('gradeEmpty')}</p>`}</div></details>`}
+ function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(byResourceTitle).map(card).join('')}</ul>`:`<p>${t(pathway==='sas'?'sasEmpty':'gradeEmpty')}</p>`}</div></details>`}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
-  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'pathSchool'})[pathway]);
-  document.querySelector('[data-pathway-description]').textContent=t(({grammar:'pathwayIntroGrammar',utbk:'pathwayIntroUtbk',school:'pathwayIntroSchool'})[pathway]);
+  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'pathSchool',sas:'navSas'})[pathway]);
+  document.querySelector('[data-pathway-description]').textContent=t(({grammar:'pathwayIntroGrammar',utbk:'pathwayIntroUtbk',school:'pathwayIntroSchool',sas:'sasIntro'})[pathway]);
   let html='';
   if(pathway==='grammar'){
    for(const level of ['Beginner','Intermediate','Advanced']){
@@ -20,6 +20,14 @@ try{
     html+=`<h2 class="topic-divider" id="${id}">${esc(label)}</h2>`;
     html+=group(id+'-materi',label+' · '+t('groupLessons'),here.filter(r=>r.type==='lesson'));
     html+=group(id+'-latihan',label+' · '+t('groupPractice'),here.filter(r=>r.type==='quiz'));
+   }
+  }else if(pathway==='sas'){
+   for(const grade of [9,10,11,12]){
+    html+=`<h2 class="topic-divider" id="grade-${grade}">${t('grade')} ${grade}</h2>`;
+    for(const semester of [1,2]){
+     const items=resources.filter(r=>r.type==='quiz'&&r.placements.some(p=>p.pathway==='sas'&&p.grade===grade&&p.semester===semester));
+     html+=group(`grade-${grade}-semester-${semester}`,`Semester ${semester}`,items);
+    }
    }
   }else if(pathway==='school'){
    for(const grade of [9,10,11,12]){
@@ -35,12 +43,14 @@ try{
    html+=group('utbk-mocks','UTBK · '+t('groupMocks'),quizzes.filter(r=>r.examFormat==='full'));
   }
   target.innerHTML=html;
-  const relevant=resources.filter(r=>r.type==='lesson');
-  const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
-  const hero=document.querySelector('.pathway-hero');
-  let summary=hero.querySelector('.pathway-progress-summary');
-  if(!summary){summary=document.createElement('div');summary.className='pathway-progress-summary';hero.append(summary);}
-  summary.innerHTML=`<span>${t('pathwayProgress',{done:completed,total:relevant.length})}</span><span class="pathway-progress-track" aria-hidden="true"><span style="width:${relevant.length?Math.round(100*completed/relevant.length):0}%"></span></span>`;
+  if(pathway!=='sas'){
+   const relevant=resources.filter(r=>r.type==='lesson');
+   const completed=relevant.filter(r=>p.lessons?.[r.id]).length;
+   const hero=document.querySelector('.pathway-hero');
+   let summary=hero.querySelector('.pathway-progress-summary');
+   if(!summary){summary=document.createElement('div');summary.className='pathway-progress-summary';hero.append(summary);}
+   summary.innerHTML=`<span>${t('pathwayProgress',{done:completed,total:relevant.length})}</span><span class="pathway-progress-track" aria-hidden="true"><span style="width:${relevant.length?Math.round(100*completed/relevant.length):0}%"></span></span>`;
+  }
   for(const id of previousOpen){const section=document.getElementById(id);if(section?.tagName==='DETAILS')section.open=true;}
   openForHash(false);
  }

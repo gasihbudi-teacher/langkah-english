@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "pathways": [
+    {"id": "sas", "title": "Persiapan SAS"},
     {
       "id": "grammar",
       "title": "Grammar Academy"

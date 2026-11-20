@@ -1,14 +1,38 @@
 # Make a Langkah English mock test with any AI
 
-Give the other AI this guide. It contains the quiz and catalogue formats used by the site. You supply the topic or approved test and make the GitHub edits yourself. No existing site files are needed as input.
+**MOCK-TEST-HANDOFF v3 — updated 20 November 2026**
 
-## Choose a topic first
+Give the other AI this guide. It contains the quiz and catalogue formats used by the site, the lesson index, and a phone-friendly publishing workflow. You choose the lesson, question count, and reading-passage theme, then approve the paper before conversion. Existing site files are not needed to draft a test. However, to create complete replacement copies of `data/catalog.json` and a lesson JSON for the easier delete-and-upload method, upload the current versions of those exact files to the AI. The AI must preserve their existing content and must not reconstruct them from memory.
 
-> Help me choose a lesson for a topic test. Start with a menu of Grade 9, Grade 10, Grade 11, Grade 12, Grammar, UTBK, and TKA. When I choose a group, list its lesson titles alphabetically from the topic index at the end of this guide. If I ask for all topics, list each lesson once and show all its groups. When I choose a lesson, confirm its exact ID and ask how many questions I want before drafting.
+## Choose a lesson, question count, and passage theme
 
-## School topic tests — Grade 12 Argumentative Text example
+> Help me choose a lesson for a mock test. Start with a menu of Grade 9, Grade 10, Grade 11, Grade 12, Grammar, UTBK, TKA, and SAS. For SAS, use the grade and semester workflow below. When I choose a group, list its lesson titles alphabetically from the topic index at the end of this guide. If I ask for all topics, list each lesson once and show all its groups. When I choose a lesson, confirm its exact ID and ask how many questions I want. After I choose the question count, ask what topic or theme I want the reading passages to cover. Do not assume the passages should be about school, classrooms, students, or canteens. The passage theme is separate from the lesson skill or text type: for example, a Hortatory Exposition test can use passages about climate change, artificial intelligence, health, sports, business, history, culture, or social issues. Use the theme I choose. If I give one broad theme, create varied passages about related aspects of it. If I give a specific topic, keep all passages focused on it. Do not start drafting until the passage theme is clear.
 
-For a school topic, use the two prompts below in place of the UTBK/TKA prompts. The quiz file uses the same question formats shown later in this guide.
+## Persiapan SAS — semester exercises
+
+> Ask for my grade (9–12), semester (1 or 2), and the topics my school covered. Show lessons from that grade in the topic index if I want suggestions. Ask whether I want one topic or a mixed semester test, then ask for question count, passage theme if relevant, and timer. Base the paper on my chosen topics. Wait for content approval before packaging.
+
+For example, a teacher might choose Grade 12, Semester 1, argumentative texts, 20 questions, and an environmental theme. This is an example of a teacher's selection. Confirm the semester with the teacher for each new test.
+
+Use the school topic catalogue object below as a template. Choose a fresh ID such as `sas-grade12-sem1-arguments-01` and use it in the quiz JSON, catalogue ID and quiz filename. Update the title, description, skills, related lessons and tags to match the paper. Use `kind: "test"` and `examFormat: "topic"` for a focused or mixed school exercise. Set the agreed timer in seconds (0 for untimed) and omit `referenceFormat`.
+
+For a SAS-only listing, set the catalogue entry's placements to:
+
+```json
+[{"pathway":"sas","grade":12,"semester":1}]
+```
+
+To also list the same paper under Materi Sekolah, use:
+
+```json
+[{"pathway":"sas","grade":12,"semester":1},{"pathway":"school","grade":12}]
+```
+
+Upload one quiz JSON and add one catalogue entry. The SAS page lists it automatically under the assigned grade and semester. Open **Persiapan SAS → Kelas 12 → Semester 1** on the preview and try the quiz. Updating a lesson's assessments is optional and only adds a button inside that lesson. For a standalone mixed test, skip all lesson-file editing, uploading and replacement steps below. Existing quizzes can also be listed by adding the SAS placement to their current entry, keeping their ID and file.
+
+## Example: School topic test — Grade 12 Argumentative Text
+
+This is one school-based example, not the default setting for every mock test. Use this canteen context only when the user chooses a school-life theme. For other user-selected themes, create fresh passages in the requested real-world context while retaining the lesson objectives and quiz schema. For a school topic, use the two prompts below in place of the UTBK/TKA prompts. The quiz file uses the same question formats shown later in this guide.
 
 **1. Ask the AI to write the student paper**
 
@@ -51,17 +75,17 @@ Catalogue object for this example:
 
 Keep any other IDs already present. Preview both entry points and submit a trial attempt before merging. The TKA mock-list step applies only to TKA simulations.
 
-**Reuse for another topic.** Copy the lesson ID from the part after `?id=` in its website address. Give the AI that ID, the grade, the learning objectives in your own words, and a fresh quiz ID. For another test on the same topic, use a new suffix such as `-test-02`. Choose the timer yourself (0 for untimed, 1800 for 30 minutes). For questions about an exact passage already taught, paste just that passage into your prompt. For fresh texts assessing the same skills, the learning objectives are enough.
+**Reuse for another test.** Copy the lesson ID from the part after `?id=` in its website address. Give the AI that ID, the grade or pathway, the learning objectives in your own words, and a fresh quiz ID. For another test on the same lesson, use a new suffix such as `-test-02`. Choose the timer yourself (0 for an untimed school topic test, 1800 for 30 minutes). The AI must ask for the passage theme after you choose the question count; never silently default to school-life passages. For questions about an exact passage already taught, paste just that passage into your prompt. For fresh texts assessing the same skills, the learning objectives are enough.
 
 ## First message to the AI — write the test
 
-> Write an original, unofficial [UTBK or TKA] English reading mock test for [learners], with [number] questions in [minutes] minutes. Cover [skills or topics]. Use [question formats and choice counts]. Write the student paper first, then a separate answer key with an exact supporting quotation and a short Indonesian explanation for each item. Include plausible distractors and check that each key follows from the passage. Wait for my content approval before converting it.
+> Write an original, unofficial [school topic / UTBK / TKA] English reading mock test for [learners], with [number] questions in [minutes] minutes. Lesson or text type: [selected lesson and ID]. Passage theme: [the theme I selected after choosing the question count]. Do not default to school-life contexts unless I selected that theme. Use [number of passages and questions per passage]. Cover [lesson skills or learning objectives]. Use [question formats and choice counts]. Write the student paper first, then a separate answer key with an exact supporting quotation and a short Indonesian explanation for each item. Include plausible distractors and check that each key follows from the passage. Wait for my content approval before converting it.
 
 The site's existing UTBK mocks use 20 questions in 20 minutes. Its existing TKA mocks use 30 questions in 45 minutes. These are site examples. The teacher can choose a different length. For reading tests, include a mix of locating evidence, connecting ideas, inference and evaluation suited to the requested level. Keep English prompts and options free of hints from the answer key.
 
 ## Second message to the AI — package the approved test
 
-> Follow this guide to convert the approved paper. My new quiz ID is [ID], the pathway is [utbk or tka], and the title is [title]. Give me (1) the complete quiz JSON, (2) one catalogue resource object to paste, and (3) for TKA, the ID token to add to the mock list. Keep the question order, option order, passages and keys I approved. Check every quotation, index, translation and count. Stop and identify the exact question if the approved paper has an ambiguous key or missing evidence. Return complete, separate, copyable outputs. Never reconstruct the site's catalogue from memory. If the test is long, provide a downloadable JSON file if possible. Never abbreviate questions with ellipses.
+> Follow this guide to convert the approved paper. My new quiz ID is [ID], lesson ID is [lesson ID], pathway is [school, utbk, tka, or sas], grade is [grade if school or SAS], semester is [1 or 2 for SAS], examFormat is [topic or full], and durationSeconds is [number]. For an untimed school topic test, use `durationSeconds: 0` and omit `referenceFormat`. Give me (1) the complete quiz JSON, (2) one catalogue resource object, (3) the quoted quiz ID to append to the lesson's `assessments` array for a school lesson, and (4) for TKA only, the ID token to add to the mock list. Keep the question order, option order, passages, selected passage theme, and keys I approved. Check every quotation, index, translation and count. Stop and identify the exact question if the approved paper has an ambiguous key or missing evidence. Return complete, separate, copyable outputs. Never reconstruct the site's catalogue from memory. If I upload the current `catalog.json` and current lesson JSON, also create complete updated replacement files based on those exact originals, preserving every unrelated resource and existing assessment ID. If the current files are not supplied, return only the catalogue object and assessment ID; do not invent a full replacement file. If the test is long, provide a downloadable JSON file if possible. Never abbreviate questions with ellipses.
 
 ## Output 1 — the quiz file
 
@@ -136,7 +160,7 @@ The following small working example illustrates all three supported formats. Use
 
 ## Output 2 — one catalogue entry
 
-The site discovers quizzes through the `resources` array in `data/catalog.json`. Return just **one object** like this, customized for the new quiz. The owner inserts it into the current file. Use existing lesson IDs for `relatedLessons` only if supplied by the owner. An empty array works.
+The site discovers quizzes through the `resources` array in `data/catalog.json`. Return just **one object** like this, customized for the new quiz. The owner can insert it into the current file. Use existing lesson IDs for `relatedLessons` only if supplied by the owner. An empty array works. If the owner supplies the current complete `catalog.json` and requests the phone-friendly replacement workflow, additionally return a complete updated `catalog.json` file based on that exact upload, preserving every existing resource and adding the new object once. Never rebuild the catalogue from memory or from the Topic Index.
 
 ```json
 {
@@ -161,20 +185,68 @@ The site discovers quizzes through the `resources` array in `data/catalog.json`.
 
 For UTBK use `{"pathway":"utbk"}` and UTBK-specific metadata. The UTBK page automatically lists registered quizzes with `examFormat` set to `full`. Difficulty is one of `Beginner`, `Intermediate`, or `Advanced`. To also list the quiz in Grade 12 school materials, add `{"pathway":"school","grade":12}` as another placement only if requested.
 
-## Output 3 — TKA only
+## Output 3 — lesson assessment ID for school topic tests
+
+For a school topic test, append the new quiz ID to the `assessments` array in `data/lessons/<lesson-id>.json`. Keep every existing assessment ID. For example:
+
+```json
+"assessments": [
+  "grade12-hortatory-exposition-practice",
+  "grade12-hortatory-exposition-test-01"
+]
+```
+
+Return the quiz ID as a quoted token so the owner can append it. If the owner uploads the current lesson JSON, also provide a complete updated lesson JSON file for the delete-and-upload method. Do not create a full lesson replacement from a lesson ID or topic index alone.
+
+## Output 4 — TKA only
 
 The dedicated TKA simulations list reads `mockIds` in `js/tka.js`. Give the owner the new ID as a quoted token with a leading comma, for example `, 'tka-library-trial-demo'`. They paste it immediately before the closing bracket of the existing `const mockIds=[...];` line. Keep all current IDs. Some descriptive text also mentions the old total in `js/i18n.js` and `tka.html`; the owner can update that wording when increasing the total.
 
-## Publish from a phone
+## Publish from a phone — beginner-friendly workflow
 
-1. Open the repository on GitHub in your browser. Create a branch from the latest `main` using the branch selector. Make the following edits on that same branch.
-2. Check that the proposed filename is unused under `data/quizzes/`. If it exists, choose a fresh ID and ask the AI to update both outputs. Open that folder, choose **Add file → Create new file**, enter the filename and paste only the quiz JSON. Commit the change to your branch. If you downloaded the JSON, **Upload files** in that folder also works.
-3. Open `data/catalog.json` and tap the edit pencil. Find `"resources": [`. Immediately after that opening bracket, paste the new catalogue object, then type **one comma** between it and the first existing object. Commit. The entry snippet belongs inside this file.
-4. For TKA, edit the mock ID list as described above and commit on the same branch.
-5. Open a pull request from your branch into `main`. If Cloudflare supplies a preview link, open the appropriate pathway there. Find the mock, check the timer, read a passage, answer each format, submit, and compare the result with your approved key. If a local checkout is available, the project check is `python3 -B tools/validate.py` from its root (dependency in `tools/requirements.txt`).
-6. Merge when satisfied. After the Pages deployment completes, open the quiz from the public pathway. Its direct address also works at `https://langkah-english.pages.dev/quiz?id=YOUR-ID`.
+**Important:** Do every change on one new branch created from the latest `main`. Never delete or replace files while the `main` branch is selected. The delete-and-upload method below avoids opening large JSON files, selecting all their text, or copying and pasting thousands of lines.
+
+### Prepare the files
+
+1. Download the new quiz JSON. Its filename must be `<id>.json`, without extra suffixes.
+2. For the easiest full-file replacement method, upload the current `data/catalog.json` and the current `data/lessons/<lesson-id>.json` to the AI before asking it to package the approved test. Ask it to return complete updated copies of both files, preserving all existing resources, lesson content, and assessment IDs. The AI must use the supplied originals, not reconstruct the files from memory.
+3. Rename the downloaded full replacement files on the phone so their filenames exactly match the repository files: `catalog.json` and `<lesson-id>.json`. Remove suffixes such as `.updated` from the local filenames. Keep the new quiz filename unchanged.
+
+### Make the GitHub changes
+
+1. Open the repository on GitHub in the phone browser. Create a branch from the latest `main`, for example `add-<lesson-id>-test-01`. Confirm that this new branch is selected before editing.
+2. Open `data/quizzes/`. Check that `<id>.json` does not already exist. If it exists, stop and choose a fresh quiz ID. Use **Add file → Upload files**, select the new quiz JSON from Downloads, and commit it to the new branch.
+3. Replace the catalogue without editing its text: open the existing `data/catalog.json`, use GitHub's **Delete file** action, and commit that deletion to the new branch. Return to the `data/` folder, choose **Add file → Upload files**, upload the complete replacement file named exactly `catalog.json` into that folder so its path is `data/catalog.json`, and commit it to the same branch. The replacement must contain the full catalogue, not just the new resource object.
+4. Replace the lesson file the same way: open `data/lessons/<lesson-id>.json`, delete it and commit the deletion on the new branch. Then upload the complete replacement file named exactly `<lesson-id>.json` into `data/lessons/` and commit it to the same branch. The replacement must preserve all existing lesson content and assessment IDs, adding only the new quiz ID to `assessments`.
+5. For TKA only, edit the mock ID list as described in Output 4 and commit on the same branch.
+
+**If complete replacement files were not prepared:** Do not delete the existing files. Instead, edit `data/catalog.json` and insert the single catalogue object inside its existing `resources` array. Then edit the lesson JSON and append the quoted quiz ID to its existing `assessments` array, preserving all other entries.
+
+### Review, test, and publish
+
+6. Open a pull request from your branch into `main`. Check that the PR contains the new quiz file and the two updated files (plus the TKA list change if applicable).
+7. If Cloudflare supplies a preview link, open it. Test both entry points: the quiz in Materi Sekolah → the selected grade → Latihan, and the assessment link at the end of the lesson. Read each passage, answer questions in every format, submit, and compare the result with the approved answer key. Check the timer and Indonesian explanations. If a local checkout is available, run `python3 -B tools/validate.py` from its root (dependency in `tools/requirements.txt`).
+8. Merge only after the preview works. After the Pages deployment completes, open the quiz from the public pathway. Its direct address also works at `https://langkah-english.pages.dev/quiz?id=YOUR-ID`.
+
+### Final publishing checklist
+
+- [ ] The new quiz JSON is in `data/quizzes/` and its filename matches the quiz ID.
+- [ ] The full `data/catalog.json` includes exactly one resource entry for the new quiz.
+- [ ] The lesson's `assessments` array includes the new quiz ID and retains all previous IDs.
+- [ ] The pull request targets `main` from the intended feature branch.
+- [ ] The preview loads the quiz from the catalogue and from the lesson.
+- [ ] The passage theme matches the user's choice; it was not silently changed to a school setting.
+- [ ] The quiz submits and scores correctly against the approved key.
+- [ ] The live public URL works after deployment.
 
 This guide describes the site's November 2026 quiz format. Reuse it for subsequent tests as long as the quiz and catalogue formats stay the same.
+
+## Version 2 changes
+
+- The AI now asks for the reading-passage theme after the user chooses the lesson and question count. School-life settings are never assumed; the passage theme is user-selected and distinct from the lesson skill or text type.
+- The guide supports full-file JSON replacements when the user supplies the current catalogue and lesson files. This enables the phone-friendly delete-and-upload workflow without manual copy/paste.
+- The publishing checklist now covers the quiz file, catalogue registration, lesson assessment link, pull request, preview, scoring, and live deployment.
+- The original quiz schema, conversion rules, catalogue example, and Topic Index are retained.
 
 ## Topic index
 

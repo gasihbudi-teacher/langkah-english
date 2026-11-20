@@ -36,7 +36,7 @@ try{
   }
   return `<div class="category-review-wrap"><table class="category-review"><thead><tr><th>${t('statementLabel')}</th><th>${t('yourChoice')}</th><th>${t('correctAnswer')}</th></tr></thead><tbody>${q.statements.map((row,j)=>`<tr><th scope="row">${esc(row.text)}${row.explanation&&language()==='en'?`<p class="review-reason">${esc(row.explanation)}</p>`:''}</th><td>${esc(Array.isArray(a)?a[j]??t('scoreUnanswered'):t('scoreUnanswered'))}</td><td>${esc(row.answerCategory)}</td></tr>`).join('')}</tbody></table></div>`;
  }
- const pathNames={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka'};
+ const pathNames={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas'};
  const track=Object.hasOwn(pathNames,a.pathway)?a.pathway:'grammar';
  function reviewCard(q,i,open){
   const passage=a.passages?.find(x=>x.id===q.passageId);
