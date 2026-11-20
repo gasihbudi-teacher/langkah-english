@@ -3157,6 +3157,44 @@
       }
     },
     {
+      "id": "grade11-exposition-evidence-karhutla-prep-01",
+      "title": "Persiapan Membaca Bertahap · Karhutla · Kelas 11",
+      "description": "Latihan membaca bertahap 16 soal tentang karhutla: memahami empat paragraf secara terpisah, lalu membaca teks lengkap untuk empat soal integratif.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "school",
+          "grade": 11
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Author’s Purpose",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "karhutla",
+        "Analytical Exposition",
+        "Grade 11",
+        "scaffolded reading",
+        "claims and evidence"
+      ],
+      "relatedLessons": [
+        "grade11-exposition-evidence"
+      ],
+      "file": "data/quizzes/grade11-exposition-evidence-karhutla-prep-01.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 442
+    },
+    {
       "id": "grade12-argumentative-text",
       "type": "lesson",
       "relatedLessons": [

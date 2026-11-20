@@ -1,0 +1,434 @@
+{
+  "id": "grade11-exposition-evidence-karhutla-prep-01",
+  "questionCount": 16,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "paragraph-1",
+      "title": "Paragraph 1 – Understanding the Main Claim",
+      "text": "Forest and land fires, commonly called karhutla in Indonesia, affect public health, local economies, and ecosystems. During long dry periods, fires can spread across forests, plantations, and peatlands. Some begin when land is cleared with fire; others start when flames escape or dry conditions help them spread. Peat soil can hold heat below the surface, so a fire may continue underground after visible flames disappear. For this reason, prevention should receive more attention than emergency response alone."
+    },
+    {
+      "id": "paragraph-2",
+      "title": "Paragraph 2 – Understanding Reasons and Supporting Arguments",
+      "text": "Prevention matters because land conditions influence how easily a fire spreads. When peatlands are drained, their soil becomes drier and more vulnerable to burning. Keeping peatlands wet, monitoring dry conditions, and reporting smoke early can reduce risks. Farmers also need practical, affordable ways to prepare land without burning it. These measures require cooperation among communities, land users, and public authorities. Preventing karhutla therefore means more than telling people not to start fires; it also means providing realistic alternatives."
+    },
+    {
+      "id": "paragraph-3",
+      "title": "Paragraph 3 – Understanding Evidence and Consequences",
+      "text": "The consequences extend far beyond the areas that burn. Smoke contains fine particles that can irritate the eyes and lungs and make breathing difficult, especially for children, older people, and people with respiratory problems. Thick haze can reduce visibility, disrupt transportation, and interrupt work and daily activities. Fires also damage habitats and threaten the livelihoods of people who depend on forests and nearby land. Thus, the cost of karhutla cannot be measured only by the area burned."
+    },
+    {
+      "id": "paragraph-4",
+      "title": "Paragraph 4 – Understanding Counterarguments and Conclusions",
+      "text": "Some land users may argue that burning is a quick, inexpensive way to clear land. However, this view considers only the immediate task and ignores wider costs. Money may later be needed for fire control and health services, while families and businesses may lose income when smoke disrupts daily activities. A more responsible approach combines community preparedness, support for non-burning land management, peatland protection, and consistent enforcement of rules. These steps require resources, but they address risks before a fire becomes a crisis."
+    },
+    {
+      "id": "complete-essay",
+      "title": "The Complete Reading – Preventing Forest and Land Fires Requires More Than Emergency Response",
+      "text": "Forest and land fires, commonly called karhutla in Indonesia, affect public health, local economies, and ecosystems. During long dry periods, fires can spread across forests, plantations, and peatlands. Some begin when land is cleared with fire; others start when flames escape or dry conditions help them spread. Peat soil can hold heat below the surface, so a fire may continue underground after visible flames disappear. For this reason, prevention should receive more attention than emergency response alone.\n\nPrevention matters because land conditions influence how easily a fire spreads. When peatlands are drained, their soil becomes drier and more vulnerable to burning. Keeping peatlands wet, monitoring dry conditions, and reporting smoke early can reduce risks. Farmers also need practical, affordable ways to prepare land without burning it. These measures require cooperation among communities, land users, and public authorities. Preventing karhutla therefore means more than telling people not to start fires; it also means providing realistic alternatives.\n\nThe consequences extend far beyond the areas that burn. Smoke contains fine particles that can irritate the eyes and lungs and make breathing difficult, especially for children, older people, and people with respiratory problems. Thick haze can reduce visibility, disrupt transportation, and interrupt work and daily activities. Fires also damage habitats and threaten the livelihoods of people who depend on forests and nearby land. Thus, the cost of karhutla cannot be measured only by the area burned.\n\nSome land users may argue that burning is a quick, inexpensive way to clear land. However, this view considers only the immediate task and ignores wider costs. Money may later be needed for fire control and health services, while families and businesses may lose income when smoke disrupts daily activities. A more responsible approach combines community preparedness, support for non-burning land management, peatland protection, and consistent enforcement of rules. These steps require resources, but they address risks before a fire becomes a crisis."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "questionType": "single",
+      "passageId": "paragraph-1",
+      "skill": "Main Idea",
+      "prompt": "Which statement best expresses the writer's main claim?",
+      "choices": [
+        "Karhutla can only occur in peatlands.",
+        "Emergency response should receive more attention than prevention.",
+        "Prevention should receive more attention than emergency response alone.",
+        "The economic effects of karhutla are more serious than its health effects."
+      ],
+      "answer": 2,
+      "evidence": "prevention should receive more attention than emergency response alone.",
+      "explanation": "Penulis menegaskan bahwa pencegahan harus lebih diutamakan daripada hanya mengandalkan penanganan ketika kebakaran sudah terjadi. Pilihan lain terlalu membatasi penyebab atau mengubah posisi penulis.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling tepat menunjukkan klaim utama penulis?",
+        "choices": [
+          "Karhutla hanya dapat terjadi di lahan gambut.",
+          "Penanganan darurat harus lebih diutamakan daripada pencegahan.",
+          "Pencegahan harus lebih diperhatikan daripada hanya mengandalkan penanganan darurat.",
+          "Dampak ekonomi karhutla lebih serius daripada dampaknya terhadap kesehatan."
+        ]
+      }
+    },
+    {
+      "id": "q02",
+      "questionType": "single",
+      "passageId": "paragraph-1",
+      "skill": "Supporting Details",
+      "prompt": "According to the passage, why can a peat fire continue underground after visible flames disappear?",
+      "choices": [
+        "Peat soil can hold heat below the surface.",
+        "Plantations produce smoke that increases underground temperatures.",
+        "Fires only spread during long dry periods.",
+        "Local communities report smoke too late."
+      ],
+      "answer": 0,
+      "evidence": "Peat soil can hold heat below the surface",
+      "explanation": "Tanah gambut dapat menyimpan panas di bawah permukaan. Hal ini menjelaskan mengapa api dapat tetap menyala meskipun tidak terlihat dari luar. Pilihan lain tidak disebut sebagai penyebab dalam bacaan.",
+      "translationId": {
+        "prompt": "Menurut bacaan, mengapa kebakaran gambut dapat terus berlangsung di bawah tanah setelah api yang terlihat menghilang?",
+        "choices": [
+          "Tanah gambut dapat menyimpan panas di bawah permukaan.",
+          "Perkebunan menghasilkan asap yang meningkatkan suhu bawah tanah.",
+          "Kebakaran hanya menyebar selama musim kering yang panjang.",
+          "Masyarakat setempat terlambat melaporkan asap."
+        ]
+      }
+    },
+    {
+      "id": "q03",
+      "questionType": "single",
+      "passageId": "paragraph-1",
+      "skill": "Author's Purpose",
+      "prompt": "Why does the writer mention forests, plantations, and peatlands?",
+      "choices": [
+        "To compare different types of land ownership.",
+        "To show that fires can spread across different types of land.",
+        "To argue that plantations are the main source of all fires.",
+        "To suggest that all land areas burn at the same rate."
+      ],
+      "answer": 1,
+      "evidence": "fires can spread across forests, plantations, and peatlands.",
+      "explanation": "Penulis menyebut beberapa jenis wilayah untuk menunjukkan bahwa karhutla dapat terjadi di berbagai jenis lahan. Bacaan tidak menyatakan bahwa semua kebakaran berasal dari perkebunan atau menyebar dengan kecepatan yang sama.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebut hutan, perkebunan, dan lahan gambut?",
+        "choices": [
+          "Untuk membandingkan berbagai jenis kepemilikan lahan.",
+          "Untuk menunjukkan bahwa kebakaran dapat menyebar di berbagai jenis lahan.",
+          "Untuk menyatakan bahwa perkebunan merupakan sumber utama semua kebakaran.",
+          "Untuk menyatakan bahwa semua wilayah lahan terbakar dengan kecepatan yang sama."
+        ]
+      }
+    },
+    {
+      "id": "q04",
+      "questionType": "single",
+      "passageId": "paragraph-2",
+      "skill": "Supporting Details",
+      "prompt": "What happens when peatlands are drained?",
+      "choices": [
+        "Their soil becomes wetter and safer.",
+        "Their soil becomes drier and more vulnerable to burning.",
+        "Fires become impossible to control.",
+        "Farmers no longer need to prepare their land."
+      ],
+      "answer": 1,
+      "evidence": "their soil becomes drier and more vulnerable to burning.",
+      "explanation": "Pengeringan lahan gambut membuat tanah lebih kering dan lebih mudah terbakar. Pilihan lain bertentangan dengan informasi yang disampaikan dalam paragraf.",
+      "translationId": {
+        "prompt": "Apa yang terjadi ketika lahan gambut dikeringkan?",
+        "choices": [
+          "Tanahnya menjadi lebih basah dan aman.",
+          "Tanahnya menjadi lebih kering dan lebih rentan terbakar.",
+          "Kebakaran menjadi mustahil untuk dikendalikan.",
+          "Petani tidak lagi perlu menyiapkan lahannya."
+        ]
+      }
+    },
+    {
+      "id": "q05",
+      "questionType": "single",
+      "passageId": "paragraph-2",
+      "skill": "Evaluating Solutions",
+      "prompt": "Which action best reflects one of the prevention measures recommended by the writer?",
+      "choices": [
+        "Waiting until visible flames appear before reporting smoke.",
+        "Draining peatlands before the dry season.",
+        "Providing practical and affordable ways to prepare land without burning it.",
+        "Focusing only on emergency response."
+      ],
+      "answer": 2,
+      "evidence": "Farmers also need practical, affordable ways to prepare land without burning it.",
+      "explanation": "Penulis menyarankan agar petani memperoleh cara yang praktis dan terjangkau untuk mengolah lahan tanpa membakarnya. Pilihan lain tidak sesuai dengan langkah pencegahan dalam bacaan.",
+      "translationId": {
+        "prompt": "Tindakan mana yang paling mencerminkan salah satu langkah pencegahan yang disarankan penulis?",
+        "choices": [
+          "Menunggu sampai api terlihat sebelum melaporkan asap.",
+          "Mengeringkan lahan gambut sebelum musim kemarau.",
+          "Menyediakan cara yang praktis dan terjangkau untuk menyiapkan lahan tanpa membakarnya.",
+          "Hanya berfokus pada penanganan darurat."
+        ]
+      }
+    },
+    {
+      "id": "q06",
+      "questionType": "single",
+      "passageId": "paragraph-2",
+      "skill": "Inference",
+      "prompt": "What can be inferred about preventing karhutla?",
+      "choices": [
+        "It requires cooperation and practical alternatives.",
+        "It depends only on individual farmers.",
+        "It can succeed without public authorities.",
+        "It focuses mainly on controlling visible flames after a fire starts."
+      ],
+      "answer": 0,
+      "evidence": "These measures require cooperation among communities, land users, and public authorities.",
+      "explanation": "Pencegahan karhutla memerlukan kerja sama berbagai pihak dan pilihan pengelolaan lahan yang realistis. Karena itu, pencegahan bukan hanya tanggung jawab petani atau tindakan setelah api muncul.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan tentang upaya mencegah karhutla?",
+        "choices": [
+          "Upaya tersebut membutuhkan kerja sama dan alternatif yang praktis.",
+          "Upaya tersebut hanya bergantung pada petani secara individu.",
+          "Upaya tersebut dapat berhasil tanpa pihak berwenang.",
+          "Upaya tersebut terutama berfokus pada pengendalian api yang terlihat setelah kebakaran dimulai."
+        ]
+      }
+    },
+    {
+      "id": "q07",
+      "questionType": "single",
+      "passageId": "paragraph-3",
+      "skill": "Supporting Details",
+      "prompt": "Which effect is directly associated with thick haze?",
+      "choices": [
+        "Increasing soil moisture.",
+        "Improving transportation conditions.",
+        "Reducing visibility and disrupting transportation.",
+        "Preventing respiratory problems."
+      ],
+      "answer": 2,
+      "evidence": "Thick haze can reduce visibility, disrupt transportation",
+      "explanation": "Kabut asap yang tebal dapat mengurangi jarak pandang dan mengganggu transportasi. Pilihan lain tidak sesuai dengan dampak yang disebutkan dalam paragraf.",
+      "translationId": {
+        "prompt": "Dampak apa yang secara langsung dikaitkan dengan kabut asap tebal?",
+        "choices": [
+          "Meningkatkan kelembapan tanah.",
+          "Memperbaiki kondisi transportasi.",
+          "Mengurangi jarak pandang dan mengganggu transportasi.",
+          "Mencegah gangguan pernapasan."
+        ]
+      }
+    },
+    {
+      "id": "q08",
+      "questionType": "single",
+      "passageId": "paragraph-3",
+      "skill": "Supporting Details",
+      "prompt": "Which groups are specifically mentioned as being more vulnerable to breathing difficulties?",
+      "choices": [
+        "Only firefighters and forest workers.",
+        "Children, older people, and people with respiratory problems.",
+        "All plantation owners.",
+        "Only people working in transportation."
+      ],
+      "answer": 1,
+      "evidence": "especially for children, older people, and people with respiratory problems.",
+      "explanation": "Bacaan secara khusus menyebut anak-anak, orang lanjut usia, dan orang yang memiliki masalah pernapasan. Pilihan lain mempersempit atau mengubah kelompok yang disebutkan.",
+      "translationId": {
+        "prompt": "Kelompok mana yang secara khusus disebut lebih rentan mengalami kesulitan bernapas?",
+        "choices": [
+          "Hanya petugas pemadam kebakaran dan pekerja hutan.",
+          "Anak-anak, orang lanjut usia, dan orang yang memiliki masalah pernapasan.",
+          "Semua pemilik perkebunan.",
+          "Hanya orang yang bekerja di bidang transportasi."
+        ]
+      }
+    },
+    {
+      "id": "q09",
+      "questionType": "single",
+      "passageId": "paragraph-3",
+      "skill": "Author's Purpose",
+      "prompt": "Why does the writer mention health, transportation, habitats, and livelihoods?",
+      "choices": [
+        "To show that karhutla only damages transportation.",
+        "To compare different firefighting techniques.",
+        "To argue that the effects of smoke are always temporary.",
+        "To demonstrate that the consequences extend beyond the burned area."
+      ],
+      "answer": 3,
+      "evidence": "the cost of karhutla cannot be measured only by the area burned.",
+      "explanation": "Penulis menunjukkan bahwa dampak karhutla tidak hanya berupa kerusakan lahan, tetapi juga mencakup kesehatan, transportasi, habitat, dan mata pencaharian. Pilihan yang hanya menyoroti satu dampak terlalu sempit.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebut kesehatan, transportasi, habitat, dan mata pencaharian?",
+        "choices": [
+          "Untuk menunjukkan bahwa karhutla hanya merusak transportasi.",
+          "Untuk membandingkan berbagai teknik pemadaman kebakaran.",
+          "Untuk menyatakan bahwa dampak asap selalu bersifat sementara.",
+          "Untuk menunjukkan bahwa akibat karhutla meluas melampaui area yang terbakar."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "paragraph-4",
+      "skill": "Counterargument",
+      "prompt": "Which argument is attributed to some land users?",
+      "choices": [
+        "Peatlands should always remain wet.",
+        "Burning is a quick and inexpensive way to clear land.",
+        "Emergency response is unnecessary.",
+        "Karhutla does not affect local businesses."
+      ],
+      "answer": 1,
+      "evidence": "burning is a quick, inexpensive way to clear land.",
+      "explanation": "Penulis menyampaikan pandangan sebagian pengguna lahan yang menganggap pembakaran sebagai cara cepat dan murah untuk membersihkan lahan. Ini merupakan pandangan yang kemudian ditanggapi penulis.",
+      "translationId": {
+        "prompt": "Argumen mana yang dikaitkan dengan sebagian pengguna lahan?",
+        "choices": [
+          "Lahan gambut harus selalu tetap basah.",
+          "Pembakaran merupakan cara yang cepat dan murah untuk membersihkan lahan.",
+          "Penanganan darurat tidak diperlukan.",
+          "Karhutla tidak berdampak pada usaha lokal."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "paragraph-4",
+      "skill": "Argument Evaluation",
+      "prompt": "What weakness does the writer identify in this argument?",
+      "choices": [
+        "It considers only the immediate task and ignores wider costs.",
+        "It assumes that all fires happen underground.",
+        "It focuses too much on long-term prevention.",
+        "It gives too much attention to health services."
+      ],
+      "answer": 0,
+      "evidence": "this view considers only the immediate task and ignores wider costs.",
+      "explanation": "Menurut penulis, pandangan tersebut hanya mempertimbangkan keuntungan jangka pendek dan mengabaikan biaya yang lebih luas. Pilihan lain tidak menggambarkan kelemahan yang disebutkan.",
+      "translationId": {
+        "prompt": "Kelemahan apa yang diidentifikasi penulis dalam argumen tersebut?",
+        "choices": [
+          "Argumen itu hanya mempertimbangkan pekerjaan langsung dan mengabaikan biaya yang lebih luas.",
+          "Argumen itu menganggap semua kebakaran terjadi di bawah tanah.",
+          "Argumen itu terlalu berfokus pada pencegahan jangka panjang.",
+          "Argumen itu terlalu memperhatikan layanan kesehatan."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "paragraph-4",
+      "skill": "Author's Recommendation",
+      "prompt": "Which approach is recommended by the writer?",
+      "choices": [
+        "Relying mainly on emergency response after fires spread.",
+        "Allowing each land user to make decisions without regulations.",
+        "Combining community preparedness, non-burning land management, peatland protection, and consistent enforcement of rules.",
+        "Focusing only on protecting transportation routes."
+      ],
+      "answer": 2,
+      "evidence": "A more responsible approach combines community preparedness, support for non-burning land management, peatland protection, and consistent enforcement of rules.",
+      "explanation": "Penulis merekomendasikan pendekatan menyeluruh yang mencakup kesiapsiagaan masyarakat, pengelolaan lahan tanpa pembakaran, perlindungan gambut, dan penegakan aturan secara konsisten.",
+      "translationId": {
+        "prompt": "Pendekatan mana yang direkomendasikan penulis?",
+        "choices": [
+          "Terutama mengandalkan penanganan darurat setelah kebakaran menyebar.",
+          "Membiarkan setiap pengguna lahan mengambil keputusan tanpa peraturan.",
+          "Menggabungkan kesiapsiagaan masyarakat, pengelolaan lahan tanpa pembakaran, perlindungan gambut, dan penegakan aturan secara konsisten.",
+          "Hanya berfokus pada perlindungan jalur transportasi."
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "complete-essay",
+      "skill": "Main Idea",
+      "prompt": "Which statement best summarizes the central argument of the entire passage?",
+      "choices": [
+        "Emergency response should replace prevention as the main strategy for dealing with karhutla.",
+        "Karhutla mainly affects forest animals and vegetation.",
+        "Preventing karhutla should be prioritized through practical alternatives, better land management, and cooperation because its effects extend beyond burned areas.",
+        "All forest and land fires are caused by land users."
+      ],
+      "answer": 2,
+      "evidence": "prevention should receive more attention than emergency response alone.",
+      "explanation": "Gagasan utama bacaan adalah mengutamakan pencegahan melalui kerja sama dan pengelolaan lahan yang lebih baik karena dampak karhutla sangat luas. Pilihan lain bertentangan dengan posisi penulis atau terlalu membatasi penyebab dan dampaknya.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling tepat merangkum argumen utama seluruh bacaan?",
+        "choices": [
+          "Penanganan darurat harus menggantikan pencegahan sebagai strategi utama untuk menangani karhutla.",
+          "Karhutla terutama berdampak pada hewan dan tumbuhan hutan.",
+          "Pencegahan karhutla harus diprioritaskan melalui alternatif yang praktis, pengelolaan lahan yang lebih baik, dan kerja sama karena dampaknya meluas melampaui area yang terbakar.",
+          "Semua kebakaran hutan dan lahan disebabkan oleh pengguna lahan."
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "complete-essay",
+      "skill": "Text Organization",
+      "prompt": "How does the second paragraph contribute to the writer's overall argument?",
+      "choices": [
+        "It describes the health consequences of smoke.",
+        "It explains land conditions and practical measures that support fire prevention.",
+        "It introduces an opposing argument about land clearing.",
+        "It concludes that prevention is too expensive."
+      ],
+      "answer": 1,
+      "evidence": "Keeping peatlands wet, monitoring dry conditions, and reporting smoke early can reduce risks.",
+      "explanation": "Paragraf kedua menjelaskan kondisi lahan yang meningkatkan risiko kebakaran serta langkah praktis untuk mencegahnya. Dengan demikian, paragraf ini memberikan alasan dan dukungan bagi klaim utama penulis.",
+      "translationId": {
+        "prompt": "Bagaimana paragraf kedua mendukung argumen penulis secara keseluruhan?",
+        "choices": [
+          "Paragraf tersebut menjelaskan dampak asap terhadap kesehatan.",
+          "Paragraf tersebut menjelaskan kondisi lahan dan langkah praktis yang mendukung pencegahan kebakaran.",
+          "Paragraf tersebut memperkenalkan argumen yang berlawanan tentang pembukaan lahan.",
+          "Paragraf tersebut menyimpulkan bahwa pencegahan terlalu mahal."
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "complete-essay",
+      "skill": "Evidence Evaluation",
+      "prompt": "Which information most directly challenges the argument that burning is an inexpensive way to clear land?",
+      "choices": [
+        "Dry conditions can help fires spread.",
+        "Peat soil can hold heat below the surface.",
+        "Costs may arise from firefighting, health services, and lost income.",
+        "Some fires begin when land is cleared with fire."
+      ],
+      "answer": 2,
+      "evidence": "Money may later be needed for fire control and health services, while families and businesses may lose income when smoke disrupts daily activities.",
+      "explanation": "Informasi tersebut menunjukkan bahwa pembakaran dapat menimbulkan biaya lanjutan, seperti penanganan kebakaran, layanan kesehatan, dan kehilangan pendapatan. Hal ini secara langsung melemahkan anggapan bahwa pembakaran selalu murah.",
+      "translationId": {
+        "prompt": "Informasi mana yang paling langsung menentang argumen bahwa pembakaran merupakan cara murah untuk membersihkan lahan?",
+        "choices": [
+          "Kondisi kering dapat membantu api menyebar.",
+          "Tanah gambut dapat menyimpan panas di bawah permukaan.",
+          "Biaya dapat muncul dari pemadaman kebakaran, layanan kesehatan, dan kehilangan pendapatan.",
+          "Sebagian kebakaran dimulai ketika lahan dibersihkan dengan api."
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "complete-essay",
+      "skill": "Conclusion",
+      "prompt": "Which conclusion is best supported by the entire passage?",
+      "choices": [
+        "Preventing karhutla requires coordinated measures that address risks before fires begin.",
+        "Only land users should be responsible for preventing karhutla.",
+        "Emergency response is unnecessary in managing forest fires.",
+        "The consequences of karhutla can be measured only by the area burned."
+      ],
+      "answer": 0,
+      "evidence": "they address risks before a fire becomes a crisis.",
+      "explanation": "Kesimpulan yang paling didukung adalah bahwa pencegahan karhutla membutuhkan tindakan terkoordinasi sebelum kebakaran terjadi. Bacaan tidak menyatakan bahwa penanganan darurat tidak diperlukan atau tanggung jawab hanya berada pada satu pihak.",
+      "translationId": {
+        "prompt": "Kesimpulan mana yang paling didukung oleh seluruh bacaan?",
+        "choices": [
+          "Pencegahan karhutla membutuhkan langkah terkoordinasi yang menangani risiko sebelum kebakaran terjadi.",
+          "Hanya pengguna lahan yang harus bertanggung jawab mencegah karhutla.",
+          "Penanganan darurat tidak diperlukan dalam pengelolaan kebakaran hutan.",
+          "Dampak karhutla hanya dapat diukur dari luas area yang terbakar."
+        ]
+      }
+    }
+  ]
+}
