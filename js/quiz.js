@@ -3,9 +3,31 @@ import {questionType,isAnswered,isCorrect,validResponse} from './question-types.
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
 initI18n();
+
+const content = document.querySelector('#content');
+const textSettings = document.querySelector('.quiz-text-settings');
+const spacingKey = 'langkah.quizSpacing';
+try {
+  if (localStorage.getItem(spacingKey) === 'relaxed') {
+    content.dataset.spacing = 'relaxed';
+    textSettings.querySelector('[value="relaxed"]').checked = true;
+  }
+} catch {
+  // The default remains available when browser storage is blocked.
+}
+textSettings.addEventListener('change', event => {
+  const spacing = event.target.value;
+  content.dataset.spacing = spacing;
+  try {
+    localStorage.setItem(spacingKey, spacing);
+  } catch {
+    // The current page still uses the selected spacing.
+  }
+});
+
 try{
  const {meta:m,data:d}=await resource(params.get('id'),'quiz');document.title=m.title+' · Langkah English';
- const content=document.querySelector('#content'),count=d.questionCount;
+ const count=d.questionCount;
  let mode='practice',answers=[],flags=[],index=0,start=0,deadline=null,tick=null,finished=false,phase='intro';
  const revealed=new Set(),draftKey='langkah.draft.'+m.id;let draft=null;
  try{
