@@ -1,0 +1,434 @@
+{
+  "id": "grade12-sas-argumentative-text-1",
+  "questionCount": 16,
+  "durationSeconds": 1740,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "Mental Health in a Culture of Constant Connection — Paragraph 1",
+      "text": "Modern society often presents constant connection as proof of progress. People can study, work, and maintain relationships through digital tools, yet the same environment can make it difficult to rest. Notifications arrive after working hours, personal achievements are displayed for public comparison, and being busy is sometimes treated as a measure of importance. These habits do not automatically cause mental health problems, but they can shape the conditions in which stress develops. Mental health, therefore, should not be treated only as a private responsibility; it is also a shared social concern."
+    },
+    {
+      "id": "passage-2",
+      "title": "Mental Health in a Culture of Constant Connection — Paragraph 2",
+      "text": "One challenge is that modern pressures rarely appear separately. A young adult may compare their appearance or lifestyle with carefully edited online posts while also facing academic deadlines, uncertain employment, or family expectations. Digital platforms can intensify comparison because users usually see selected moments rather than the ordinary difficulties behind them. At the same time, economic and personal circumstances differ, so the same online experience will not affect everyone in the same way. It is more accurate to view mental well-being as influenced by interacting social, personal, and environmental factors."
+    },
+    {
+      "id": "passage-3",
+      "title": "Mental Health in a Culture of Constant Connection — Paragraph 3",
+      "text": "Some critics argue that public discussion of mental health risks turning ordinary sadness or pressure into medical labels. They also worry that awareness campaigns may encourage people to identify problems without directing them toward effective help. These concerns deserve attention: not every difficult emotion is a disorder, and social media posts cannot replace professional assessment. However, this is a false choice between silence and exaggeration. Responsible mental health education can explain the difference between temporary distress and persistent difficulties, challenge stigma, and show people where qualified support is available."
+    },
+    {
+      "id": "passage-4",
+      "title": "Mental Health in a Culture of Constant Connection — Paragraph 4",
+      "text": "Schools, workplaces, and communities should respond with more than slogans. They can create realistic workloads, protect time for rest, train trusted staff to respond sensitively, and make confidential routes to qualified support easier to access. Individuals can also set boundaries around notifications and online comparison, but personal habits cannot solve problems created by unsafe environments or unreasonable expectations. A balanced approach combines individual strategies with institutional responsibility. When support is accessible and stigma is reduced, asking for help can become an ordinary step toward well-being rather than a source of shame."
+    },
+    {
+      "id": "passage-5",
+      "title": "Mental Health in a Culture of Constant Connection",
+      "text": "Modern society often presents constant connection as proof of progress. People can study, work, and maintain relationships through digital tools, yet the same environment can make it difficult to rest. Notifications arrive after working hours, personal achievements are displayed for public comparison, and being busy is sometimes treated as a measure of importance. These habits do not automatically cause mental health problems, but they can shape the conditions in which stress develops. Mental health, therefore, should not be treated only as a private responsibility; it is also a shared social concern.\n\nOne challenge is that modern pressures rarely appear separately. A young adult may compare their appearance or lifestyle with carefully edited online posts while also facing academic deadlines, uncertain employment, or family expectations. Digital platforms can intensify comparison because users usually see selected moments rather than the ordinary difficulties behind them. At the same time, economic and personal circumstances differ, so the same online experience will not affect everyone in the same way. It is more accurate to view mental well-being as influenced by interacting social, personal, and environmental factors.\n\nSome critics argue that public discussion of mental health risks turning ordinary sadness or pressure into medical labels. They also worry that awareness campaigns may encourage people to identify problems without directing them toward effective help. These concerns deserve attention: not every difficult emotion is a disorder, and social media posts cannot replace professional assessment. However, this is a false choice between silence and exaggeration. Responsible mental health education can explain the difference between temporary distress and persistent difficulties, challenge stigma, and show people where qualified support is available.\n\nSchools, workplaces, and communities should respond with more than slogans. They can create realistic workloads, protect time for rest, train trusted staff to respond sensitively, and make confidential routes to qualified support easier to access. Individuals can also set boundaries around notifications and online comparison, but personal habits cannot solve problems created by unsafe environments or unreasonable expectations. A balanced approach combines individual strategies with institutional responsibility. When support is accessible and stigma is reduced, asking for help can become an ordinary step toward well-being rather than a source of shame."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Main Argument",
+      "prompt": "What is the main argument presented in the paragraph?",
+      "choices": [
+        "Digital technology should be avoided because it always causes stress.",
+        "Being constantly busy is necessary for success in modern society.",
+        "Mental health is influenced by social conditions and should be a shared concern.",
+        "Personal achievements should not be shared through digital platforms."
+      ],
+      "answer": 2,
+      "evidence": "Mental health, therefore, should not be treated only as a private responsibility; it is also a shared social concern.",
+      "explanation": "Paragraf menegaskan bahwa kesehatan mental bukan hanya tanggung jawab pribadi, tetapi juga menjadi perhatian bersama. Pilihan A terlalu mutlak karena teks tidak menyatakan bahwa teknologi selalu menyebabkan stres.",
+      "translationId": {
+        "prompt": "Apa argumen utama yang disampaikan dalam paragraf tersebut?",
+        "choices": [
+          "Teknologi digital harus dihindari karena selalu menyebabkan stres.",
+          "Kesibukan terus-menerus diperlukan untuk mencapai keberhasilan dalam masyarakat modern.",
+          "Kesehatan mental dipengaruhi oleh kondisi sosial dan harus menjadi perhatian bersama.",
+          "Pencapaian pribadi tidak seharusnya dibagikan melalui platform digital."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Interpreting Meaning",
+      "prompt": "What does the phrase \"being busy is sometimes treated as a measure of importance\" suggest?",
+      "choices": [
+        "People may associate constant activity with personal value or social status.",
+        "People who have more free time are always less successful.",
+        "Modern workplaces no longer value productivity.",
+        "Social media platforms require users to remain active."
+      ],
+      "answer": 0,
+      "evidence": "being busy is sometimes treated as a measure of importance",
+      "explanation": "Frasa tersebut menunjukkan bahwa sebagian orang menghubungkan kesibukan dengan nilai diri atau status sosial. Pilihan B keliru karena teks tidak menyatakan bahwa orang yang memiliki waktu luang selalu kurang berhasil.",
+      "translationId": {
+        "prompt": "Apa makna frasa \"being busy is sometimes treated as a measure of importance\"?",
+        "choices": [
+          "Orang mungkin menghubungkan aktivitas yang terus-menerus dengan nilai diri atau status sosial.",
+          "Orang yang memiliki lebih banyak waktu luang selalu kurang berhasil.",
+          "Tempat kerja modern tidak lagi menghargai produktivitas.",
+          "Platform media sosial mengharuskan pengguna untuk terus aktif."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Author's Position",
+      "prompt": "Which statement best reflects the author's position on constant connection?",
+      "choices": [
+        "It is the only cause of mental health problems.",
+        "It can contribute to stressful conditions, although it does not automatically cause mental health problems.",
+        "It has no relationship with people's emotional experiences.",
+        "It should be completely removed from modern society."
+      ],
+      "answer": 1,
+      "evidence": "These habits do not automatically cause mental health problems, but they can shape the conditions in which stress develops.",
+      "explanation": "Penulis mengambil posisi yang seimbang: konektivitas terus-menerus bukan penyebab otomatis masalah kesehatan mental, tetapi dapat membentuk kondisi yang memicu stres. Pilihan A dan D terlalu ekstrem.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling mencerminkan posisi penulis mengenai konektivitas yang terus-menerus?",
+        "choices": [
+          "Hal tersebut merupakan satu-satunya penyebab masalah kesehatan mental.",
+          "Hal tersebut dapat berkontribusi pada kondisi yang menimbulkan stres, meskipun tidak secara otomatis menyebabkan masalah kesehatan mental.",
+          "Hal tersebut tidak memiliki hubungan dengan pengalaman emosional seseorang.",
+          "Hal tersebut harus sepenuhnya dihilangkan dari masyarakat modern."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Supporting Details",
+      "prompt": "Which combination of factors is mentioned as contributing to modern social pressure?",
+      "choices": [
+        "International travel, entertainment, and physical exercise.",
+        "Online shopping, technological innovation, and cultural festivals.",
+        "Academic achievement, financial independence, and personal hobbies.",
+        "Online comparison, academic deadlines, employment uncertainty, and family expectations."
+      ],
+      "answer": 3,
+      "evidence": "while also facing academic deadlines, uncertain employment, or family expectations.",
+      "explanation": "Paragraf menyebut perbandingan di ruang digital, tenggat akademik, ketidakpastian pekerjaan, dan ekspektasi keluarga sebagai tekanan yang dapat dialami anak muda. Pilihan lainnya tidak disebutkan sebagai faktor tersebut.",
+      "translationId": {
+        "prompt": "Kombinasi faktor mana yang disebutkan sebagai penyumbang tekanan sosial modern?",
+        "choices": [
+          "Perjalanan internasional, hiburan, dan latihan fisik.",
+          "Belanja daring, inovasi teknologi, dan festival budaya.",
+          "Prestasi akademik, kemandirian finansial, dan hobi pribadi.",
+          "Perbandingan daring, tenggat akademik, ketidakpastian pekerjaan, dan ekspektasi keluarga."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Cause and Explanation",
+      "prompt": "Why can digital platforms intensify social comparison?",
+      "choices": [
+        "They prevent users from communicating with other people.",
+        "They display every difficulty experienced by their users.",
+        "They often show selected moments rather than people's ordinary struggles.",
+        "They require users to achieve the same lifestyle."
+      ],
+      "answer": 2,
+      "evidence": "users usually see selected moments rather than the ordinary difficulties behind them.",
+      "explanation": "Platform digital dapat memperkuat perbandingan sosial karena pengguna sering melihat momen-momen yang dipilih atau ditampilkan, bukan kesulitan sehari-hari di baliknya. Pilihan B justru berlawanan dengan isi bacaan.",
+      "translationId": {
+        "prompt": "Mengapa platform digital dapat memperkuat perbandingan sosial?",
+        "choices": [
+          "Platform tersebut mencegah pengguna berkomunikasi dengan orang lain.",
+          "Platform tersebut menampilkan setiap kesulitan yang dialami penggunanya.",
+          "Platform tersebut sering menampilkan momen-momen tertentu, bukan kesulitan sehari-hari seseorang.",
+          "Platform tersebut mengharuskan pengguna mencapai gaya hidup yang sama."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Inference",
+      "prompt": "What can be inferred from the statement that the same online experience does not affect everyone in the same way?",
+      "choices": [
+        "Individual responses are influenced by different personal and social circumstances.",
+        "Digital platforms have identical effects on every user.",
+        "Economic conditions are unrelated to mental well-being.",
+        "Social comparison only affects young adults."
+      ],
+      "answer": 0,
+      "evidence": "economic and personal circumstances differ, so the same online experience will not affect everyone in the same way.",
+      "explanation": "Dapat disimpulkan bahwa respons setiap orang dipengaruhi oleh kondisi pribadi dan sosial yang berbeda. Pilihan B tidak tepat karena menyatakan dampak yang identik bagi semua pengguna, sedangkan teks menegaskan adanya perbedaan.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan dari pernyataan bahwa pengalaman daring yang sama tidak memengaruhi setiap orang dengan cara yang sama?",
+        "choices": [
+          "Respons individu dipengaruhi oleh keadaan pribadi dan sosial yang berbeda.",
+          "Platform digital memiliki dampak yang sama pada setiap pengguna.",
+          "Kondisi ekonomi tidak berkaitan dengan kesejahteraan mental.",
+          "Perbandingan sosial hanya memengaruhi orang dewasa muda."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Identifying Counterarguments",
+      "prompt": "What is one concern raised by critics of public mental health discussions?",
+      "choices": [
+        "Mental health education makes professional services unnecessary.",
+        "Ordinary emotional experiences may be incorrectly treated as medical conditions.",
+        "People are no longer interested in discussing personal experiences.",
+        "Mental health campaigns always provide accurate professional diagnoses."
+      ],
+      "answer": 1,
+      "evidence": "risks turning ordinary sadness or pressure into medical labels.",
+      "explanation": "Kritik yang disampaikan adalah risiko memberi label medis pada kesedihan atau tekanan biasa. Pilihan D keliru karena teks justru mengingatkan bahwa kampanye kesadaran tidak selalu dapat menggantikan penilaian profesional.",
+      "translationId": {
+        "prompt": "Apa salah satu kekhawatiran yang disampaikan oleh para pengkritik diskusi kesehatan mental di ruang publik?",
+        "choices": [
+          "Edukasi kesehatan mental membuat layanan profesional tidak lagi diperlukan.",
+          "Pengalaman emosional biasa mungkin keliru diperlakukan sebagai kondisi medis.",
+          "Orang tidak lagi tertarik membicarakan pengalaman pribadi.",
+          "Kampanye kesehatan mental selalu memberikan diagnosis profesional yang akurat."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Interpreting Figurative Meaning",
+      "prompt": "What does the expression \"a false choice between silence and exaggeration\" mean in the paragraph?",
+      "choices": [
+        "Society must choose between ignoring mental health and discussing it excessively.",
+        "Mental health should only be discussed by medical professionals.",
+        "Society can discuss mental health responsibly without ignoring problems or overstating them.",
+        "Mental health awareness should focus entirely on social media."
+      ],
+      "answer": 2,
+      "evidence": "However, this is a false choice between silence and exaggeration.",
+      "explanation": "Penulis menolak anggapan bahwa masyarakat hanya memiliki dua pilihan: diam atau membesar-besarkan masalah. Kesehatan mental tetap dapat dibicarakan secara bertanggung jawab dan proporsional.",
+      "translationId": {
+        "prompt": "Apa makna ungkapan \"a false choice between silence and exaggeration\" dalam paragraf tersebut?",
+        "choices": [
+          "Masyarakat harus memilih antara mengabaikan kesehatan mental atau membicarakannya secara berlebihan.",
+          "Kesehatan mental hanya boleh dibahas oleh tenaga medis profesional.",
+          "Masyarakat dapat membahas kesehatan mental secara bertanggung jawab tanpa mengabaikan atau melebih-lebihkan masalah.",
+          "Kesadaran kesehatan mental harus sepenuhnya berfokus pada media sosial."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Author's Reasoning",
+      "prompt": "Why does the author mention that not every difficult emotion is a disorder?",
+      "choices": [
+        "To argue that emotional difficulties should never receive professional attention.",
+        "To suggest that public awareness campaigns should be discontinued.",
+        "To demonstrate that mental health problems are usually exaggerated.",
+        "To acknowledge the limitations of oversimplified discussions and support a more balanced approach."
+      ],
+      "answer": 3,
+      "evidence": "not every difficult emotion is a disorder, and social media posts cannot replace professional assessment.",
+      "explanation": "Penulis mengakui bahwa tidak semua emosi sulit merupakan gangguan dan bahwa unggahan media sosial bukan pengganti penilaian profesional. Hal ini mendukung pembahasan kesehatan mental yang lebih seimbang, bukan penghentian edukasi.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebutkan bahwa tidak setiap emosi yang sulit merupakan gangguan?",
+        "choices": [
+          "Untuk menyatakan bahwa kesulitan emosional tidak boleh mendapat perhatian profesional.",
+          "Untuk menyarankan agar kampanye kesadaran publik dihentikan.",
+          "Untuk menunjukkan bahwa masalah kesehatan mental biasanya dilebih-lebihkan.",
+          "Untuk mengakui keterbatasan pembahasan yang terlalu disederhanakan dan mendukung pendekatan yang lebih seimbang."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Identifying Solutions",
+      "prompt": "Which of the following represents an institutional responsibility mentioned in the paragraph?",
+      "choices": [
+        "Encouraging everyone to stop using digital technology.",
+        "Requiring employees and students to share their personal problems publicly.",
+        "Creating realistic workloads and improving access to confidential professional support.",
+        "Asking individuals to manage all their emotional difficulties independently."
+      ],
+      "answer": 2,
+      "evidence": "They can create realistic workloads, protect time for rest, train trusted staff to respond sensitively, and make confidential routes to qualified support easier to access.",
+      "explanation": "Paragraf menyebut institusi dapat mengatur beban kerja yang realistis dan mempermudah akses ke dukungan profesional yang rahasia. Pilihan D bertentangan dengan argumen bahwa institusi juga memiliki tanggung jawab.",
+      "translationId": {
+        "prompt": "Manakah yang merupakan tanggung jawab institusi sebagaimana disebutkan dalam paragraf?",
+        "choices": [
+          "Mendorong semua orang berhenti menggunakan teknologi digital.",
+          "Mengharuskan pegawai dan siswa membagikan masalah pribadi mereka secara terbuka.",
+          "Menciptakan beban kerja yang realistis dan meningkatkan akses ke dukungan profesional yang bersifat rahasia.",
+          "Meminta individu mengelola seluruh kesulitan emosional mereka secara mandiri."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Evaluating Arguments",
+      "prompt": "Why does the author argue that personal habits alone are insufficient?",
+      "choices": [
+        "Personal boundaries have no influence on mental well-being.",
+        "Individual strategies cannot solve problems caused by unreasonable expectations or unsafe environments.",
+        "Institutional policies always create additional pressure.",
+        "Individuals are not responsible for any aspect of their well-being."
+      ],
+      "answer": 1,
+      "evidence": "personal habits cannot solve problems created by unsafe environments or unreasonable expectations.",
+      "explanation": "Penulis menjelaskan bahwa strategi pribadi tidak cukup untuk mengatasi masalah yang berasal dari lingkungan tidak aman atau ekspektasi yang tidak masuk akal. Namun, ini bukan berarti individu sama sekali tidak memiliki peran.",
+      "translationId": {
+        "prompt": "Mengapa penulis berpendapat bahwa kebiasaan pribadi saja tidak cukup?",
+        "choices": [
+          "Batasan pribadi tidak memiliki pengaruh terhadap kesejahteraan mental.",
+          "Strategi individu tidak dapat menyelesaikan masalah yang disebabkan oleh ekspektasi yang tidak masuk akal atau lingkungan yang tidak aman.",
+          "Kebijakan institusi selalu menciptakan tekanan tambahan.",
+          "Individu tidak bertanggung jawab atas aspek apa pun dari kesejahteraan mereka."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Understanding the Conclusion",
+      "prompt": "What is the main message of the final sentence?",
+      "choices": [
+        "Seeking help should be regarded as a normal and acceptable step toward well-being.",
+        "People should only seek help when their problems become publicly visible.",
+        "Social stigma cannot be reduced through community support.",
+        "Professional support should replace all personal coping strategies."
+      ],
+      "answer": 0,
+      "evidence": "asking for help can become an ordinary step toward well-being rather than a source of shame.",
+      "explanation": "Kalimat terakhir menekankan bahwa meminta bantuan seharusnya dipandang sebagai langkah yang wajar untuk mencapai kesejahteraan, bukan sesuatu yang memalukan.",
+      "translationId": {
+        "prompt": "Apa pesan utama dari kalimat terakhir?",
+        "choices": [
+          "Meminta bantuan seharusnya dipandang sebagai langkah yang normal dan dapat diterima untuk mencapai kesejahteraan.",
+          "Orang hanya boleh meminta bantuan ketika masalah mereka terlihat oleh publik.",
+          "Stigma sosial tidak dapat dikurangi melalui dukungan masyarakat.",
+          "Dukungan profesional seharusnya menggantikan semua strategi penanganan pribadi."
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Overall Main Idea",
+      "prompt": "Which statement best summarizes the overall argument of the essay?",
+      "choices": [
+        "Modern technology should be eliminated to protect people's mental health.",
+        "Mental health should be addressed through individual responsibility alone.",
+        "Mental well-being requires both individual strategies and supportive social environments.",
+        "Public discussions about mental health should be limited to professional institutions."
+      ],
+      "answer": 2,
+      "evidence": "A balanced approach combines individual strategies with institutional responsibility.",
+      "explanation": "Keseluruhan esai menegaskan bahwa kesejahteraan mental membutuhkan strategi individu sekaligus dukungan lingkungan dan tanggung jawab institusi. Pilihan A dan B terlalu sempit karena hanya menekankan satu sisi.",
+      "translationId": {
+        "prompt": "Pernyataan mana yang paling tepat merangkum keseluruhan argumen esai?",
+        "choices": [
+          "Teknologi modern harus dihilangkan untuk melindungi kesehatan mental masyarakat.",
+          "Kesehatan mental harus ditangani hanya melalui tanggung jawab individu.",
+          "Kesejahteraan mental membutuhkan strategi individu sekaligus lingkungan sosial yang mendukung.",
+          "Diskusi publik tentang kesehatan mental harus dibatasi hanya untuk institusi profesional."
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Text Organization",
+      "prompt": "How does Paragraph 3 contribute to the development of the author's argument?",
+      "choices": [
+        "It introduces a counterargument and responds to it with a more balanced perspective.",
+        "It provides statistical evidence that contradicts the first two paragraphs.",
+        "It changes the topic from mental health to digital technology.",
+        "It concludes that mental health awareness campaigns are ineffective."
+      ],
+      "answer": 0,
+      "evidence": "Some critics argue that public discussion of mental health risks turning ordinary sadness or pressure into medical labels.",
+      "explanation": "Paragraf ketiga memperkenalkan keberatan dari para pengkritik, kemudian menanggapinya dengan pendekatan yang lebih seimbang. Paragraf tersebut tidak menyajikan statistik atau mengganti topik esai.",
+      "translationId": {
+        "prompt": "Bagaimana Paragraf 3 berkontribusi pada pengembangan argumen penulis?",
+        "choices": [
+          "Paragraf tersebut memperkenalkan argumen tandingan dan menanggapinya dengan sudut pandang yang lebih seimbang.",
+          "Paragraf tersebut memberikan bukti statistik yang bertentangan dengan dua paragraf pertama.",
+          "Paragraf tersebut mengubah topik dari kesehatan mental menjadi teknologi digital.",
+          "Paragraf tersebut menyimpulkan bahwa kampanye kesadaran kesehatan mental tidak efektif."
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Evaluating Evidence",
+      "prompt": "Which additional evidence would most directly strengthen the author's recommendation in Paragraph 4?",
+      "choices": [
+        "A list of popular social media applications used by young adults.",
+        "A survey showing that people prefer working independently.",
+        "An opinion article explaining why modern society is stressful.",
+        "Research comparing well-being outcomes before and after institutions introduce reasonable workloads and accessible confidential support."
+      ],
+      "answer": 3,
+      "evidence": "They can create realistic workloads, protect time for rest, train trusted staff to respond sensitively, and make confidential routes to qualified support easier to access.",
+      "explanation": "Rekomendasi paragraf keempat berfokus pada perubahan di tingkat institusi. Karena itu, penelitian yang membandingkan kondisi sebelum dan sesudah kebijakan tersebut diterapkan akan memberikan bukti paling langsung mengenai manfaatnya. Pilihan lain tidak menguji rekomendasi itu secara langsung.",
+      "translationId": {
+        "prompt": "Bukti tambahan mana yang paling langsung memperkuat rekomendasi penulis dalam Paragraf 4?",
+        "choices": [
+          "Daftar aplikasi media sosial populer yang digunakan oleh orang dewasa muda.",
+          "Survei yang menunjukkan bahwa orang lebih suka bekerja secara mandiri.",
+          "Artikel opini yang menjelaskan mengapa masyarakat modern mengalami stres.",
+          "Penelitian yang membandingkan hasil kesejahteraan sebelum dan sesudah institusi menerapkan beban kerja yang wajar serta dukungan rahasia yang mudah diakses."
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Overall Inference and Conclusion",
+      "prompt": "Which conclusion is most strongly supported by the essay?",
+      "choices": [
+        "Mental health problems can be solved entirely by reducing screen time.",
+        "Mental health awareness is most effective when accompanied by practical support and institutional responsibility.",
+        "Every individual experiencing sadness requires medical treatment.",
+        "Social institutions should take complete control of people's personal decisions."
+      ],
+      "answer": 1,
+      "evidence": "A balanced approach combines individual strategies with institutional responsibility.",
+      "explanation": "Esai mendukung kesimpulan bahwa edukasi dan kesadaran kesehatan mental perlu disertai dukungan praktis serta tanggung jawab institusi. Penulis tidak menyatakan bahwa semua kesedihan memerlukan perawatan medis atau bahwa institusi harus mengendalikan seluruh keputusan pribadi.",
+      "translationId": {
+        "prompt": "Kesimpulan mana yang paling kuat didukung oleh esai?",
+        "choices": [
+          "Masalah kesehatan mental dapat diselesaikan sepenuhnya dengan mengurangi waktu penggunaan layar.",
+          "Kesadaran kesehatan mental paling efektif ketika disertai dukungan praktis dan tanggung jawab institusi.",
+          "Setiap individu yang mengalami kesedihan membutuhkan perawatan medis.",
+          "Institusi sosial harus mengambil kendali penuh atas keputusan pribadi masyarakat."
+        ]
+      }
+    }
+  ]
+}
