@@ -8,9 +8,12 @@ const content = document.querySelector('#content');
 const textSettings = document.querySelector('.quiz-text-settings');
 const spacingKey = 'langkah.quizSpacing';
 try {
-  if (localStorage.getItem(spacingKey) === 'relaxed') {
-    content.dataset.spacing = 'relaxed';
-    textSettings.querySelector('[value="relaxed"]').checked = true;
+  const savedSpacing = localStorage.getItem(spacingKey);
+  const savedOption = Array.from(textSettings.querySelectorAll('input'))
+    .find(option => option.value === savedSpacing);
+  if (savedOption) {
+    savedOption.checked = true;
+    content.dataset.spacing = savedOption.value;
   }
 } catch {
   // The default remains available when browser storage is blocked.

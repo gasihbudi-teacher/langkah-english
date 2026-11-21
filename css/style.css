@@ -922,6 +922,8 @@ body {
   margin: 0 0 0.75rem auto;
 }
 .quiz-text-settings summary {
+  font-size: 0.875rem;
+  min-height: 44px;
   padding: 0.65rem 0.85rem;
   border: 1px solid currentColor;
   border-radius: 1rem;
@@ -949,6 +951,10 @@ body {
 .quiz-content[data-spacing="relaxed"] {
   --quiz-word-spacing: 0.12em;
   --quiz-line-height: 1.8;
+}
+.quiz-content[data-spacing="extra-relaxed"] {
+  --quiz-word-spacing: 0.20em;
+  --quiz-line-height: 2;
 }
 .quiz-content :is(.passage p, .passage summary strong, #question-title,
   .answer-copy, .tka-category legend, .response-hint, .translation-detail,
