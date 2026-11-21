@@ -1,0 +1,434 @@
+{
+  "id": "grade11-sas-youth-demands-01",
+  "questionCount": 16,
+  "durationSeconds": 1800,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "Paragraph 1 — The Demands of a New Generation",
+      "text": "In 2026, university students across Indonesia took part in demonstrations to express concerns about the country's future. Their concerns extended beyond campus matters. Many young people were worried about rising living costs, expensive fuel, limited job opportunities, and the quality of education. Environmental problems also became a major concern, especially forest and land fires, commonly known as karhutla. During demonstrations in June, students questioned government spending priorities and rising fuel prices. In October, protests in several cities highlighted the government's response to forest fires and other public concerns. Taken together, these movements show that young Indonesians expect public policies to improve everyday life, protect the environment, and expand opportunities for the future."
+    },
+    {
+      "id": "passage-2",
+      "title": "Paragraph 2 — Dialogue and Economic Policy Responses",
+      "text": "The government has responded to some of these concerns through dialogue and policy adjustments. On June 19, 2026, leaders of Indonesia's House of Representatives met with student representatives after demonstrations in Jakarta. They promised to improve communication with students and facilitate further discussions with government officials. One major issue was the Free Nutritious Meals (MBG) programme, which students questioned because of its large budget. In May 2026, the government announced that the programme's 2026 budget would be reduced from Rp335 trillion to Rp268 trillion; by late June, officials reported a further efficiency adjustment to about Rp228.4 trillion. The meeting also addressed rising fuel prices and economic concerns. These steps show that dialogue and budget adjustments took place, although they do not establish that all student demands were met."
+    },
+    {
+      "id": "passage-3",
+      "title": "Paragraph 3 — Environmental Protection and Karhutla",
+      "text": "Environmental protection became another important issue during the October demonstrations. Students in Jakarta, Bandung, and Makassar demanded stronger government action against forest and land fires. Some protesters called for the fires to be declared a national disaster and asked authorities to hold responsible companies accountable. The problem was not only about damaged forests and wildlife but also about public health. According to Indonesia's Ministry of Health, more than 333,470 cases of acute respiratory infections linked to the haze had been recorded across seven affected provinces by October 22, 2026. In response, the government stated that it had prosecuted companies connected to the fires, provided assistance to affected provinces, and continued monitoring the situation. However, effective environmental protection also requires long-term prevention and transparent law enforcement."
+    },
+    {
+      "id": "passage-4",
+      "title": "Paragraph 4 — Measuring Progress Through Real Outcomes",
+      "text": "Beyond public demonstrations, the government has presented economic and education programmes as part of its response to young people's concerns. According to the Investment and Downstreaming Minister, investment between January and September 2026 reached Rp1,539.2 trillion and absorbed about 2.19 million workers. In education, the 2026 state budget set education spending at about Rp769 trillion, while the approved 2027 state budget allocates Rp824 trillion. These figures indicate economic activity and planned public spending, but they do not automatically mean that every young person has access to a decent job or affordable, quality education. Therefore, government responses should be measured not only by announcements and budget allocations but also by their actual results. Open communication, equal opportunities, environmental protection, and affordable education are important indicators of meaningful progress."
+    },
+    {
+      "id": "passage-5",
+      "title": "Complete Essay — Government Responses to Young Indonesians' Demands: Are Promises Enough?",
+      "text": "In 2026, university students across Indonesia took part in demonstrations to express concerns about the country's future. Their concerns extended beyond campus matters. Many young people were worried about rising living costs, expensive fuel, limited job opportunities, and the quality of education. Environmental problems also became a major concern, especially forest and land fires, commonly known as karhutla. During demonstrations in June, students questioned government spending priorities and rising fuel prices. In October, protests in several cities highlighted the government's response to forest fires and other public concerns. Taken together, these movements show that young Indonesians expect public policies to improve everyday life, protect the environment, and expand opportunities for the future.\n\nThe government has responded to some of these concerns through dialogue and policy adjustments. On June 19, 2026, leaders of Indonesia's House of Representatives met with student representatives after demonstrations in Jakarta. They promised to improve communication with students and facilitate further discussions with government officials. One major issue was the Free Nutritious Meals (MBG) programme, which students questioned because of its large budget. In May 2026, the government announced that the programme's 2026 budget would be reduced from Rp335 trillion to Rp268 trillion; by late June, officials reported a further efficiency adjustment to about Rp228.4 trillion. The meeting also addressed rising fuel prices and economic concerns. These steps show that dialogue and budget adjustments took place, although they do not establish that all student demands were met.\n\nEnvironmental protection became another important issue during the October demonstrations. Students in Jakarta, Bandung, and Makassar demanded stronger government action against forest and land fires. Some protesters called for the fires to be declared a national disaster and asked authorities to hold responsible companies accountable. The problem was not only about damaged forests and wildlife but also about public health. According to Indonesia's Ministry of Health, more than 333,470 cases of acute respiratory infections linked to the haze had been recorded across seven affected provinces by October 22, 2026. In response, the government stated that it had prosecuted companies connected to the fires, provided assistance to affected provinces, and continued monitoring the situation. However, effective environmental protection also requires long-term prevention and transparent law enforcement.\n\nBeyond public demonstrations, the government has presented economic and education programmes as part of its response to young people's concerns. According to the Investment and Downstreaming Minister, investment between January and September 2026 reached Rp1,539.2 trillion and absorbed about 2.19 million workers. In education, the 2026 state budget set education spending at about Rp769 trillion, while the approved 2027 state budget allocates Rp824 trillion. These figures indicate economic activity and planned public spending, but they do not automatically mean that every young person has access to a decent job or affordable, quality education. Therefore, government responses should be measured not only by announcements and budget allocations but also by their actual results. Open communication, equal opportunities, environmental protection, and affordable education are important indicators of meaningful progress."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Main Idea",
+      "prompt": "Which statement best summarises the range of concerns raised by young Indonesians in paragraph 1?",
+      "choices": [
+        "They are mainly concerned with changes to university rules.",
+        "They are focused only on the cost of fuel and transport.",
+        "They are concerned about living conditions, opportunities, and environmental protection.",
+        "They want environmental issues to replace all economic policies."
+      ],
+      "answer": 2,
+      "evidence": "Many young people were worried about rising living costs, expensive fuel, limited job opportunities, and the quality of education. Environmental problems also became a major concern, especially forest and land fires",
+      "explanation": "Paragraf pertama menunjukkan bahwa perhatian generasi muda mencakup kondisi ekonomi, kesempatan kerja, pendidikan, dan lingkungan. Pilihan lain terlalu membatasi atau mengubah cakupan tuntutan yang disebutkan dalam bacaan.",
+      "translationId": {
+        "prompt": "Pernyataan manakah yang paling tepat merangkum berbagai kekhawatiran yang disampaikan generasi muda Indonesia dalam paragraf 1?",
+        "choices": [
+          "Mereka terutama mengkhawatirkan perubahan peraturan universitas.",
+          "Mereka hanya berfokus pada biaya bahan bakar dan transportasi.",
+          "Mereka mengkhawatirkan kondisi kehidupan, kesempatan, dan perlindungan lingkungan.",
+          "Mereka ingin isu lingkungan menggantikan seluruh kebijakan ekonomi."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Vocabulary in Context",
+      "prompt": "In paragraph 1, what does the term \"karhutla\" refer to?",
+      "choices": [
+        "Forest and land fires.",
+        "Public demonstrations.",
+        "Government spending plans.",
+        "University employment programmes."
+      ],
+      "answer": 0,
+      "evidence": "forest and land fires, commonly known as karhutla.",
+      "explanation": "Istilah [[karhutla]] dijelaskan langsung dalam bacaan sebagai kebakaran hutan dan lahan. Pilihan lainnya merujuk pada isu berbeda yang juga dibahas dalam paragraf.",
+      "translationId": {
+        "prompt": "Dalam paragraf 1, apa yang dimaksud dengan istilah \"karhutla\"?",
+        "choices": [
+          "Kebakaran hutan dan lahan.",
+          "Demonstrasi publik.",
+          "Rencana belanja pemerintah.",
+          "Program ketenagakerjaan universitas."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Comparing Information",
+      "prompt": "What difference between the June and October demonstrations is described in paragraph 1?",
+      "choices": [
+        "June protests focused on university facilities, while October protests focused on tuition fees.",
+        "June protests questioned spending priorities and fuel prices, while October protests highlighted forest fires.",
+        "June protests were about environmental protection, while October protests were about job creation.",
+        "June protests were held in several cities, while October protests took place only in Jakarta."
+      ],
+      "answer": 1,
+      "evidence": "During demonstrations in June, students questioned government spending priorities and rising fuel prices. In October, protests in several cities highlighted the government's response to forest fires and other public concerns.",
+      "explanation": "Bacaan membedakan fokus kedua periode: demonstrasi Juni menyoroti prioritas belanja pemerintah dan harga BBM, sedangkan demonstrasi Oktober menyoroti respons terhadap kebakaran hutan. Pilihan lain tidak sesuai dengan peristiwa yang dijelaskan.",
+      "translationId": {
+        "prompt": "Perbedaan apa antara demonstrasi pada bulan Juni dan Oktober yang dijelaskan dalam paragraf 1?",
+        "choices": [
+          "Demonstrasi Juni berfokus pada fasilitas universitas, sedangkan demonstrasi Oktober berfokus pada biaya kuliah.",
+          "Demonstrasi Juni mempertanyakan prioritas belanja dan harga BBM, sedangkan demonstrasi Oktober menyoroti kebakaran hutan.",
+          "Demonstrasi Juni membahas perlindungan lingkungan, sedangkan demonstrasi Oktober membahas penciptaan lapangan kerja.",
+          "Demonstrasi Juni berlangsung di beberapa kota, sedangkan demonstrasi Oktober hanya berlangsung di Jakarta."
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Explicit Information",
+      "prompt": "What did House leaders promise during their meeting with student representatives?",
+      "choices": [
+        "To end all public demonstrations.",
+        "To cancel the MBG programme immediately.",
+        "To improve communication and facilitate further discussions.",
+        "To replace fuel subsidies with education grants."
+      ],
+      "answer": 2,
+      "evidence": "They promised to improve communication with students and facilitate further discussions with government officials.",
+      "explanation": "Pimpinan DPR berjanji memperbaiki komunikasi dengan mahasiswa dan memfasilitasi diskusi lanjutan. Bacaan tidak menyebut penghentian demonstrasi, pembatalan MBG, atau penggantian subsidi BBM.",
+      "translationId": {
+        "prompt": "Apa yang dijanjikan pimpinan DPR dalam pertemuan dengan perwakilan mahasiswa?",
+        "choices": [
+          "Mengakhiri seluruh demonstrasi publik.",
+          "Segera membatalkan program MBG.",
+          "Memperbaiki komunikasi dan memfasilitasi diskusi lanjutan.",
+          "Mengganti subsidi BBM dengan bantuan pendidikan."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Identifying Details",
+      "prompt": "Which sequence accurately describes the MBG budget figures in paragraph 2?",
+      "choices": [
+        "Rp228.4 trillion → Rp268 trillion → Rp335 trillion.",
+        "Rp335 trillion → Rp268 trillion → approximately Rp228.4 trillion.",
+        "Rp268 trillion → Rp335 trillion → approximately Rp228.4 trillion.",
+        "Rp335 trillion → approximately Rp228.4 trillion → Rp268 trillion."
+      ],
+      "answer": 1,
+      "evidence": "the programme's 2026 budget would be reduced from Rp335 trillion to Rp268 trillion; by late June, officials reported a further efficiency adjustment to about Rp228.4 trillion.",
+      "explanation": "Urutan dalam bacaan dimulai dari Rp335 triliun, turun menjadi Rp268 triliun, lalu disesuaikan lagi menjadi sekitar Rp228,4 triliun. Pilihan lain membalik atau mengubah urutan angka.",
+      "translationId": {
+        "prompt": "Urutan manakah yang secara tepat menggambarkan angka anggaran MBG dalam paragraf 2?",
+        "choices": [
+          "Rp228,4 triliun → Rp268 triliun → Rp335 triliun.",
+          "Rp335 triliun → Rp268 triliun → sekitar Rp228,4 triliun.",
+          "Rp268 triliun → Rp335 triliun → sekitar Rp228,4 triliun.",
+          "Rp335 triliun → sekitar Rp228,4 triliun → Rp268 triliun."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Author's Purpose",
+      "prompt": "Why does the writer mention that dialogue and budget adjustments do not establish that all student demands were met?",
+      "choices": [
+        "To show that the programme had already been cancelled.",
+        "To distinguish initial government responses from proof of complete solutions.",
+        "To suggest that students had withdrawn their concerns.",
+        "To explain that fuel prices were no longer discussed."
+      ],
+      "answer": 1,
+      "evidence": "although they do not establish that all student demands were met.",
+      "explanation": "Penulis membedakan adanya respons awal pemerintah dari bukti bahwa seluruh masalah sudah terselesaikan. Bacaan tidak menyatakan program dibatalkan atau mahasiswa menarik tuntutannya.",
+      "translationId": {
+        "prompt": "Mengapa penulis menyebutkan bahwa dialog dan penyesuaian anggaran tidak membuktikan bahwa seluruh tuntutan mahasiswa telah dipenuhi?",
+        "choices": [
+          "Untuk menunjukkan bahwa program tersebut sudah dibatalkan.",
+          "Untuk membedakan respons awal pemerintah dari bukti bahwa semua masalah telah terselesaikan.",
+          "Untuk menyatakan bahwa mahasiswa telah menarik kekhawatiran mereka.",
+          "Untuk menjelaskan bahwa harga BBM tidak lagi dibahas."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Explicit Information",
+      "prompt": "What did some protesters ask the authorities to do about the forest and land fires?",
+      "choices": [
+        "Declare the fires a national disaster and hold responsible companies accountable.",
+        "Move all affected residents to Jakarta permanently.",
+        "Stop monitoring the fires until the rainy season.",
+        "Replace environmental law enforcement with public campaigns."
+      ],
+      "answer": 0,
+      "evidence": "Some protesters called for the fires to be declared a national disaster and asked authorities to hold responsible companies accountable.",
+      "explanation": "Sebagian demonstran meminta penetapan status bencana nasional dan pertanggungjawaban perusahaan yang terkait. Pilihan lainnya tidak disebutkan dalam paragraf.",
+      "translationId": {
+        "prompt": "Apa yang diminta sebagian demonstran kepada pihak berwenang terkait kebakaran hutan dan lahan?",
+        "choices": [
+          "Menetapkan kebakaran sebagai bencana nasional dan meminta perusahaan yang bertanggung jawab mempertanggungjawabkan tindakannya.",
+          "Memindahkan seluruh warga terdampak ke Jakarta secara permanen.",
+          "Menghentikan pemantauan kebakaran hingga musim hujan.",
+          "Mengganti penegakan hukum lingkungan dengan kampanye publik."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Cause and Effect",
+      "prompt": "Why were the fires considered a public-health problem?",
+      "choices": [
+        "They reduced the number of university students.",
+        "They caused damage only to wildlife habitats.",
+        "The haze was linked to acute respiratory illnesses among residents.",
+        "They forced the government to reduce the education budget."
+      ],
+      "answer": 2,
+      "evidence": "According to Indonesia's Ministry of Health, more than 333,470 cases of acute respiratory infections linked to the haze had been recorded across seven affected provinces by October 22, 2026.",
+      "explanation": "Bacaan menyebut lebih dari 333.470 kasus infeksi pernapasan akut yang berkaitan dengan kabut asap telah tercatat di tujuh provinsi terdampak. Hal ini menunjukkan bahwa karhutla juga menjadi persoalan kesehatan masyarakat.",
+      "translationId": {
+        "prompt": "Mengapa kebakaran tersebut dianggap sebagai masalah kesehatan masyarakat?",
+        "choices": [
+          "Kebakaran mengurangi jumlah mahasiswa universitas.",
+          "Kebakaran hanya merusak habitat satwa liar.",
+          "Kabut asap dikaitkan dengan penyakit pernapasan akut pada penduduk.",
+          "Kebakaran memaksa pemerintah mengurangi anggaran pendidikan."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Inference",
+      "prompt": "What does the final sentence of paragraph 3 suggest about effective environmental protection?",
+      "choices": [
+        "Emergency assistance alone is enough to solve recurring fires.",
+        "Long-term prevention and transparent law enforcement are also necessary.",
+        "Monitoring should be stopped after companies are prosecuted.",
+        "Environmental protection should focus only on wildlife."
+      ],
+      "answer": 1,
+      "evidence": "effective environmental protection also requires long-term prevention and transparent law enforcement.",
+      "explanation": "Kalimat terakhir menyimpulkan bahwa penanganan yang efektif membutuhkan pencegahan jangka panjang dan penegakan hukum yang transparan. Bantuan darurat saja tidak cukup.",
+      "translationId": {
+        "prompt": "Apa yang disiratkan kalimat terakhir paragraf 3 tentang perlindungan lingkungan yang efektif?",
+        "choices": [
+          "Bantuan darurat saja cukup untuk mengatasi kebakaran berulang.",
+          "Pencegahan jangka panjang dan penegakan hukum yang transparan juga diperlukan.",
+          "Pemantauan harus dihentikan setelah perusahaan dituntut.",
+          "Perlindungan lingkungan hanya perlu berfokus pada satwa liar."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Numerical Information",
+      "prompt": "According to the Investment and Downstreaming Minister, how many workers were absorbed by investment from January to September 2026?",
+      "choices": [
+        "About 333,470 workers.",
+        "About 824,000 workers.",
+        "About 1.54 million workers.",
+        "About 2.19 million workers."
+      ],
+      "answer": 3,
+      "evidence": "investment between January and September 2026 reached Rp1,539.2 trillion and absorbed about 2.19 million workers.",
+      "explanation": "Angka yang disebutkan dalam paragraf adalah sekitar 2,19 juta pekerja. Angka 1,539.2 merupakan nilai investasi dalam triliun rupiah, bukan jumlah pekerja.",
+      "translationId": {
+        "prompt": "Menurut Menteri Investasi dan Hilirisasi, berapa banyak pekerja yang terserap oleh investasi dari Januari hingga September 2026?",
+        "choices": [
+          "Sekitar 333.470 pekerja.",
+          "Sekitar 824.000 pekerja.",
+          "Sekitar 1,54 juta pekerja.",
+          "Sekitar 2,19 juta pekerja."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Evaluating Evidence",
+      "prompt": "What limitation does the writer identify in using investment and education budget figures to evaluate progress?",
+      "choices": [
+        "They do not automatically show whether young people can access decent jobs and quality education.",
+        "They measure only environmental damage caused by forest fires.",
+        "They prove that every student has received financial support.",
+        "They show that all government programmes have been cancelled."
+      ],
+      "answer": 0,
+      "evidence": "they do not automatically mean that every young person has access to a decent job or affordable, quality education.",
+      "explanation": "Penulis menegaskan bahwa besarnya investasi dan anggaran belum otomatis menunjukkan akses nyata terhadap pekerjaan layak dan pendidikan berkualitas. Angka tersebut bukan bukti bahwa semua program dibatalkan atau semua siswa menerima bantuan.",
+      "translationId": {
+        "prompt": "Keterbatasan apa yang diidentifikasi penulis dalam menggunakan angka investasi dan anggaran pendidikan untuk menilai kemajuan?",
+        "choices": [
+          "Angka tersebut tidak secara otomatis menunjukkan apakah generasi muda dapat mengakses pekerjaan layak dan pendidikan berkualitas.",
+          "Angka tersebut hanya mengukur kerusakan lingkungan akibat kebakaran hutan.",
+          "Angka tersebut membuktikan bahwa setiap siswa telah menerima bantuan keuangan.",
+          "Angka tersebut menunjukkan bahwa semua program pemerintah telah dibatalkan."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Supporting Ideas",
+      "prompt": "Which combination does the writer identify as indicators of meaningful progress?",
+      "choices": [
+        "Higher fuel prices, larger budgets, and more demonstrations.",
+        "Open communication, equal opportunities, environmental protection, and affordable education.",
+        "More investment, fewer public discussions, and less monitoring.",
+        "Larger government programmes, fewer universities, and lower education spending."
+      ],
+      "answer": 1,
+      "evidence": "Open communication, equal opportunities, environmental protection, and affordable education are important indicators of meaningful progress.",
+      "explanation": "Empat indikator yang disebutkan adalah komunikasi terbuka, kesempatan setara, perlindungan lingkungan, dan pendidikan terjangkau. Pilihan lain memasukkan hal-hal yang tidak dinyatakan sebagai indikator kemajuan.",
+      "translationId": {
+        "prompt": "Kombinasi manakah yang diidentifikasi penulis sebagai indikator kemajuan yang bermakna?",
+        "choices": [
+          "Harga BBM lebih tinggi, anggaran lebih besar, dan lebih banyak demonstrasi.",
+          "Komunikasi terbuka, kesempatan yang setara, perlindungan lingkungan, dan pendidikan terjangkau.",
+          "Investasi lebih banyak, diskusi publik lebih sedikit, dan pemantauan yang berkurang.",
+          "Program pemerintah lebih besar, universitas lebih sedikit, dan belanja pendidikan lebih rendah."
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Central Argument",
+      "prompt": "Which statement best expresses the central argument of the complete essay?",
+      "choices": [
+        "Government responses should be judged by whether they produce real improvements in young people's lives, not by announcements alone.",
+        "Student demonstrations are the only way to change government spending.",
+        "Economic investment is the single most important measure of national progress.",
+        "Environmental protection should receive attention only during major fires."
+      ],
+      "answer": 0,
+      "evidence": "Therefore, government responses should be measured not only by announcements and budget allocations but also by their actual results.",
+      "explanation": "Gagasan utama esai adalah bahwa respons pemerintah harus dinilai melalui hasil nyata bagi masyarakat, bukan hanya pengumuman atau alokasi anggaran. Pilihan lain mempersempit argumen menjadi satu isu saja.",
+      "translationId": {
+        "prompt": "Pernyataan manakah yang paling tepat mengungkapkan argumen utama keseluruhan esai?",
+        "choices": [
+          "Respons pemerintah harus dinilai berdasarkan apakah respons tersebut menghasilkan perbaikan nyata dalam kehidupan generasi muda, bukan hanya berdasarkan pengumuman.",
+          "Demonstrasi mahasiswa adalah satu-satunya cara untuk mengubah belanja pemerintah.",
+          "Investasi ekonomi adalah satu-satunya ukuran terpenting kemajuan nasional.",
+          "Perlindungan lingkungan hanya perlu diperhatikan ketika terjadi kebakaran besar."
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Text Connection",
+      "prompt": "How does paragraph 3 develop an issue first introduced in paragraph 1?",
+      "choices": [
+        "It changes the essay's focus from public policy to campus facilities.",
+        "It provides detailed information about the environmental concern by explaining the health impact and government response to karhutla.",
+        "It argues that forest fires are unrelated to young people's demands.",
+        "It repeats the investment figures from paragraph 4."
+      ],
+      "answer": 1,
+      "evidence": "The problem was not only about damaged forests and wildlife but also about public health.",
+      "explanation": "Paragraf pertama memperkenalkan karhutla sebagai salah satu kekhawatiran generasi muda. Paragraf ketiga mengembangkan isu tersebut dengan menjelaskan dampaknya terhadap kesehatan serta respons pemerintah.",
+      "translationId": {
+        "prompt": "Bagaimana paragraf 3 mengembangkan isu yang pertama kali diperkenalkan dalam paragraf 1?",
+        "choices": [
+          "Paragraf tersebut mengubah fokus esai dari kebijakan publik menjadi fasilitas kampus.",
+          "Paragraf tersebut memberikan rincian tentang masalah lingkungan dengan menjelaskan dampak kesehatan dan respons pemerintah terhadap karhutla.",
+          "Paragraf tersebut menyatakan bahwa kebakaran hutan tidak berkaitan dengan tuntutan generasi muda.",
+          "Paragraf tersebut mengulang angka investasi dari paragraf 4."
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Argument Development",
+      "prompt": "How do paragraphs 2 and 4 work together in the argument?",
+      "choices": [
+        "Paragraph 2 describes dialogue and budget adjustments, while paragraph 4 explains why such actions must be assessed through actual outcomes.",
+        "Paragraph 2 discusses environmental law, while paragraph 4 describes university protests.",
+        "Paragraph 2 rejects government programmes, while paragraph 4 argues that all programmes should be expanded.",
+        "Paragraph 2 presents employment statistics, while paragraph 4 explains rising fuel prices."
+      ],
+      "answer": 0,
+      "evidence": "These figures indicate economic activity and planned public spending, but they do not automatically mean that every young person has access to a decent job or affordable, quality education.",
+      "explanation": "Paragraf kedua menunjukkan dialog dan penyesuaian kebijakan sebagai respons pemerintah. Paragraf keempat melanjutkan argumen dengan menegaskan bahwa program dan angka anggaran harus dinilai berdasarkan hasil yang benar-benar dirasakan generasi muda.",
+      "translationId": {
+        "prompt": "Bagaimana paragraf 2 dan 4 saling mendukung dalam membangun argumen?",
+        "choices": [
+          "Paragraf 2 menjelaskan dialog dan penyesuaian anggaran, sedangkan paragraf 4 menjelaskan mengapa tindakan tersebut harus dinilai berdasarkan hasil nyata.",
+          "Paragraf 2 membahas hukum lingkungan, sedangkan paragraf 4 menjelaskan demonstrasi universitas.",
+          "Paragraf 2 menolak program pemerintah, sedangkan paragraf 4 menyatakan bahwa semua program harus diperluas.",
+          "Paragraf 2 menyajikan statistik ketenagakerjaan, sedangkan paragraf 4 menjelaskan kenaikan harga BBM."
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "passage-5",
+      "skill": "Critical Evaluation",
+      "prompt": "Based on the complete essay, which question would best help determine whether government responses have meaningfully addressed young people's concerns?",
+      "choices": [
+        "Have government announcements increased the number of press conferences?",
+        "Have policies improved access to decent jobs and affordable education while strengthening environmental protection?",
+        "Have student demonstrations become less visible on social media?",
+        "Have government budgets increased regardless of their results?"
+      ],
+      "answer": 1,
+      "evidence": "Open communication, equal opportunities, environmental protection, and affordable education are important indicators of meaningful progress.",
+      "explanation": "Pertanyaan yang tepat menilai hasil kebijakan pada aspek yang disebutkan dalam kesimpulan, yaitu pekerjaan layak, pendidikan terjangkau, dan perlindungan lingkungan. Jumlah konferensi pers atau kenaikan anggaran saja tidak cukup menjadi ukuran keberhasilan.",
+      "translationId": {
+        "prompt": "Berdasarkan keseluruhan esai, pertanyaan manakah yang paling tepat untuk menentukan apakah respons pemerintah telah secara bermakna menjawab kekhawatiran generasi muda?",
+        "choices": [
+          "Apakah pengumuman pemerintah meningkatkan jumlah konferensi pers?",
+          "Apakah kebijakan telah meningkatkan akses terhadap pekerjaan layak dan pendidikan terjangkau sekaligus memperkuat perlindungan lingkungan?",
+          "Apakah demonstrasi mahasiswa menjadi kurang terlihat di media sosial?",
+          "Apakah anggaran pemerintah meningkat tanpa mempertimbangkan hasilnya?"
+        ]
+      }
+    }
+  ]
+}
