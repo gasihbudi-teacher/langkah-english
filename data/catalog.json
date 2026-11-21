@@ -5409,6 +5409,7 @@
         "grade12-argumentative-text"
       ],
       "file": "data/quizzes/grade12-sas-argumentative-text-1.json",
+      "glossaryFile": "data/glossaries/grade12-sas-argumentative-text-1.json",
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 29

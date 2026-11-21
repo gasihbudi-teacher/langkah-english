@@ -1,0 +1,625 @@
+{
+  "quizId": "grade12-sas-argumentative-text-1",
+  "sections": [
+    {
+      "passageId": "passage-1",
+      "entries": [
+        {
+          "expression": "rest",
+          "meaningId": "beristirahat",
+          "level": "A1",
+          "priority": false
+        },
+        {
+          "expression": "being busy",
+          "meaningId": "kesibukan",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "digital tools",
+          "meaningId": "alat digital",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "habits",
+          "meaningId": "kebiasaan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "yet",
+          "meaningId": "namun",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "mental health problems",
+          "meaningId": "masalah kesehatan mental",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "therefore",
+          "meaningId": "oleh karena itu",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "Modern society",
+          "meaningId": "masyarakat masa kini",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "environment",
+          "meaningId": "lingkungan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Notifications",
+          "meaningId": "pemberitahuan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "working hours",
+          "meaningId": "jam kerja",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "are displayed",
+          "meaningId": "ditampilkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "constant connection",
+          "meaningId": "keadaan selalu terhubung",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "a measure of importance",
+          "meaningId": "tolok ukur seberapa penting seseorang",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "private responsibility",
+          "meaningId": "tanggung jawab pribadi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "a shared social concern",
+          "meaningId": "masalah yang menjadi perhatian bersama",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "proof of progress",
+          "meaningId": "bukti kemajuan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "maintain relationships",
+          "meaningId": "menjaga hubungan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "personal achievements",
+          "meaningId": "pencapaian pribadi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "public comparison",
+          "meaningId": "perbandingan dengan orang lain di ruang publik",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "treated as",
+          "meaningId": "dianggap sebagai",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "automatically",
+          "meaningId": "secara otomatis",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "shape the conditions",
+          "meaningId": "memengaruhi keadaan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "stress develops",
+          "meaningId": "stres mulai muncul",
+          "level": "B2",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "entries": [
+        {
+          "expression": "compare",
+          "meaningId": "membandingkan",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "online posts",
+          "meaningId": "unggahan di internet",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "affect",
+          "meaningId": "memengaruhi",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "in the same way",
+          "meaningId": "dengan cara yang sama",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "rather than",
+          "meaningId": "alih-alih",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "At the same time",
+          "meaningId": "pada saat yang sama",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "young adult",
+          "meaningId": "orang dewasa muda",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "appearance",
+          "meaningId": "penampilan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "lifestyle",
+          "meaningId": "gaya hidup",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Digital platforms",
+          "meaningId": "platform digital",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "differ",
+          "meaningId": "berbeda-beda",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "influenced by",
+          "meaningId": "dipengaruhi oleh",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "modern pressures",
+          "meaningId": "tekanan kehidupan modern",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "academic deadlines",
+          "meaningId": "batas waktu tugas sekolah atau kuliah",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "selected moments",
+          "meaningId": "momen tertentu yang dipilih untuk ditampilkan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "mental well-being",
+          "meaningId": "keadaan mental dan perasaan yang baik",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "rarely appear separately",
+          "meaningId": "jarang muncul satu per satu",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "carefully edited",
+          "meaningId": "diedit dengan teliti",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "uncertain employment",
+          "meaningId": "pekerjaan yang belum pasti",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "family expectations",
+          "meaningId": "harapan keluarga",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "intensify comparison",
+          "meaningId": "memperkuat kebiasaan membandingkan diri",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "ordinary difficulties",
+          "meaningId": "kesulitan sehari-hari",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "economic and personal circumstances",
+          "meaningId": "keadaan ekonomi dan keadaan pribadi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "accurate",
+          "meaningId": "tepat",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "interacting social, personal, and environmental factors",
+          "meaningId": "faktor sosial, pribadi, dan lingkungan yang saling memengaruhi",
+          "level": "C1",
+          "priority": true
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "entries": [
+        {
+          "expression": "not every",
+          "meaningId": "tidak semua",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "worry",
+          "meaningId": "khawatir",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "available",
+          "meaningId": "tersedia",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "However",
+          "meaningId": "namun",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "argue",
+          "meaningId": "berpendapat",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "ordinary sadness",
+          "meaningId": "kesedihan yang biasa terjadi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "encourage",
+          "meaningId": "mendorong",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "concerns",
+          "meaningId": "kekhawatiran",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "replace",
+          "meaningId": "menggantikan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "the difference between",
+          "meaningId": "perbedaan antara",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "critics",
+          "meaningId": "orang yang menyampaikan kritik",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "medical labels",
+          "meaningId": "sebutan atau label medis",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "disorder",
+          "meaningId": "gangguan kesehatan mental",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "qualified support",
+          "meaningId": "bantuan dari orang yang memiliki keahlian",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "public discussion",
+          "meaningId": "pembicaraan di ruang publik",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "risks turning",
+          "meaningId": "berisiko mengubah",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "awareness campaigns",
+          "meaningId": "kampanye untuk meningkatkan kesadaran",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "identify problems",
+          "meaningId": "mengenali masalah",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "deserve attention",
+          "meaningId": "patut diperhatikan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "Responsible mental health education",
+          "meaningId": "edukasi kesehatan mental yang bertanggung jawab",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "challenge stigma",
+          "meaningId": "melawan pandangan negatif",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "professional assessment",
+          "meaningId": "penilaian oleh tenaga ahli",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "a false choice between silence and exaggeration",
+          "meaningId": "seolah-olah harus memilih antara diam atau membesar-besarkan masalah",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "directing them toward effective help",
+          "meaningId": "mengarahkan mereka kepada bantuan yang tepat",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "temporary distress",
+          "meaningId": "tekanan batin yang sementara",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "persistent difficulties",
+          "meaningId": "kesulitan yang terus berlangsung",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-4",
+      "entries": [
+        {
+          "expression": "asking for help",
+          "meaningId": "meminta bantuan",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "solve problems",
+          "meaningId": "menyelesaikan masalah",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "workplaces",
+          "meaningId": "tempat kerja",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "communities",
+          "meaningId": "kelompok masyarakat",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "respond",
+          "meaningId": "menanggapi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Individuals",
+          "meaningId": "setiap orang",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "personal habits",
+          "meaningId": "kebiasaan pribadi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "combines",
+          "meaningId": "menggabungkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "realistic workloads",
+          "meaningId": "beban tugas atau kerja yang masuk akal",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "confidential routes",
+          "meaningId": "jalur bantuan yang menjaga kerahasiaan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "set boundaries",
+          "meaningId": "menetapkan batasan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "A balanced approach",
+          "meaningId": "pendekatan yang seimbang",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "individual strategies",
+          "meaningId": "upaya yang dilakukan setiap orang",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "stigma is reduced",
+          "meaningId": "pandangan negatif semakin berkurang",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "slogans",
+          "meaningId": "slogan atau semboyan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "protect time for rest",
+          "meaningId": "menjaga agar ada waktu untuk istirahat",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "trusted staff",
+          "meaningId": "staf yang dipercaya",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "respond sensitively",
+          "meaningId": "menanggapi dengan memperhatikan perasaan orang lain",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "online comparison",
+          "meaningId": "membandingkan diri dengan orang lain di internet",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "unsafe environments",
+          "meaningId": "lingkungan yang tidak aman",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "unreasonable expectations",
+          "meaningId": "tuntutan yang tidak masuk akal",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "accessible",
+          "meaningId": "mudah diakses",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "a source of shame",
+          "meaningId": "sesuatu yang menimbulkan rasa malu",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "institutional responsibility",
+          "meaningId": "tanggung jawab lembaga atau institusi",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "an ordinary step toward well-being",
+          "meaningId": "langkah yang wajar menuju keadaan diri yang lebih baik",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    }
+  ]
+}

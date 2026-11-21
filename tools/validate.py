@@ -19,7 +19,7 @@ FOUR_CHOICE_QUIZZES = {
 }
 SCHEMAS = {
     kind: Draft202012Validator(json.loads((ROOT / f"data/schemas/{kind}.schema.json").read_text()))
-    for kind in ("catalog", "lesson", "quiz")
+    for kind in ("catalog", "lesson", "quiz", "glossary")
 }
 
 
@@ -169,6 +169,36 @@ def content_errors(kind, data, meta=None, by_id=None):
     yield from question_errors(data, kind)
 
 
+def glossary_errors(glossary, quiz):
+    findings = list(schema_errors("glossary", glossary))
+    if findings:
+        yield from findings
+        return
+    if glossary["quizId"] != quiz["id"]:
+        yield "$.quizId", "must match the linked quiz ID"
+    passages = {p["id"]: p["text"] for p in quiz["passages"]}
+    seen_passages = set()
+    for i, section in enumerate(glossary["sections"]):
+        path = f"$.sections[{i}]"
+        passage_id = section["passageId"]
+        if passage_id not in passages:
+            yield path + ".passageId", "unknown passage in linked quiz"
+            continue
+        if passage_id in seen_passages:
+            yield path + ".passageId", "duplicate glossary section"
+        seen_passages.add(passage_id)
+        seen_entries = set()
+        for j, entry in enumerate(section["entries"]):
+            expression = entry["expression"]
+            field = f"{path}.entries[{j}].expression"
+            if expression not in passages[passage_id]:
+                yield field, "must occur verbatim in the referenced passage"
+            key = (" ".join(expression.split()).casefold(), entry["meaningId"].strip().casefold())
+            if key in seen_entries:
+                yield field, "duplicate expression and meaning in this passage"
+            seen_entries.add(key)
+
+
 def validate(root):
     errors = []
     def report(file, path, reason):
@@ -200,6 +230,7 @@ def validate(root):
             report(catalog_file, f"pathways[{i}].id", "expected a pathway ID")
     seen = set()
     files = {}
+    glossary_files = {}
     for i, r in enumerate(resources):
         path = f"resources[{i}]"
         if r["id"] in seen:
@@ -209,6 +240,12 @@ def validate(root):
         if r["file"] != f"data/{directory}/{r['id']}.json":
             report(catalog_file, path + ".file", "expected the resource type directory and ID as filename")
         files[r["file"]] = r
+        if "glossaryFile" in r:
+            glossary_file = r["glossaryFile"]
+            if r["type"] != "quiz" or glossary_file != f"data/glossaries/{r['id']}.json":
+                report(catalog_file, path + ".glossaryFile", "expected a quiz glossary at data/glossaries/<quiz-id>.json")
+            else:
+                glossary_files[r["file"]] = glossary_file
         for j, placement in enumerate(r["placements"]):
             if placement["pathway"] == "sas":
                 if r["type"] != "quiz":
@@ -240,9 +277,19 @@ def validate(root):
         findings = list(content_errors(kind, data, meta, by_id))
         for path, reason in findings:
             report(file, path, reason)
+        if not findings and file in glossary_files:
+            glossary_file = glossary_files[file]
+            glossary = read(glossary_file)
+            if glossary is not None:
+                for path, reason in glossary_errors(glossary, data):
+                    report(glossary_file, path, reason)
         if not findings:
             count += len(data["practice" if kind == "lesson" else "questions"])
 
+    for file in (root / "data/glossaries").glob("*.json"):
+        relative = str(file.relative_to(root))
+        if relative not in glossary_files.values():
+            report(relative, "$", "glossary must be linked from its quiz catalogue entry")
     for file in root.rglob("*.json"):
         relative = str(file.relative_to(root))
         if relative not in content_files and relative != catalog_file:

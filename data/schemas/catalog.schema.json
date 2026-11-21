@@ -59,6 +59,10 @@
               "test"
             ]
           },
+          "glossaryFile": {
+            "type": "string",
+            "pattern": "^data/glossaries/[a-z0-9-]+\\.json$"
+          },
           "file": {
             "type": "string",
             "pattern": "^data/(lessons|quizzes)/[a-z0-9-]+\\.json$"
