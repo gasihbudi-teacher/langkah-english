@@ -5371,6 +5371,47 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 80
+    },
+    {
+      "id": "grade12-sas-argumentative-text-1",
+      "title": "12 - Argumentative 1 - Scaffolding",
+      "description": "Latihan SAS Bahasa Inggris Kelas 12 Semester 1 dengan model scaffolded reading. Empat passage pertama masing-masing memuat satu paragraf yang saling terhubung; passage kelima memuat esai lengkap. Berisi 16 soal pilihan ganda bertema Mental Health and Modern Society, dilengkapi bukti tekstual dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Author’s Purpose",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Argumentative Text",
+        "Scaffolded Reading",
+        "Mental Health and Modern Society"
+      ],
+      "relatedLessons": [
+        "grade12-argumentative-text"
+      ],
+      "file": "data/quizzes/grade12-sas-argumentative-text-1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 29
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
