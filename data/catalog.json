@@ -5456,6 +5456,47 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 20
+    },
+    {
+      "id": "grade11-sas-youth-demands-01",
+      "title": "11 - Youth Demands 1 - Scaffolding",
+      "description": "Latihan SAS Bahasa Inggris Kelas XI Semester 1 berbentuk scaffolded reading. Siswa membaca esai analytical exposition tentang tuntutan generasi muda Indonesia dan respons pemerintah terkait kualitas hidup, karhutla, kesempatan kerja, dan pendidikan.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 11,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Author’s Purpose",
+        "Critical Reading"
+      ],
+      "tags": [
+        "SAS",
+        "Grade 11",
+        "Semester 1",
+        "Analytical Exposition",
+        "Scaffolded Reading",
+        "Indonesia",
+        "Youth Demands"
+      ],
+      "relatedLessons": [
+        "grade11-exposition-evidence"
+      ],
+      "file": "data/quizzes/grade11-sas-youth-demands-01.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 30
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
