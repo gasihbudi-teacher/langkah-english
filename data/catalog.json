@@ -5454,6 +5454,7 @@
         "grade10-opinions-reasons"
       ],
       "file": "data/quizzes/grade10-sas-opinions-reasons-1.json",
+      "glossaryFile": "data/glossaries/grade10-sas-opinions-reasons-1.json",
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 20
