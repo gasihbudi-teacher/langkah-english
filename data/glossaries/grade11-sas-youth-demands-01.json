@@ -1,0 +1,721 @@
+{
+  "quizId": "grade11-sas-youth-demands-01",
+  "sections": [
+    {
+      "passageId": "passage-1",
+      "entries": [
+        {
+          "expression": "young people",
+          "meaningId": "anak muda",
+          "level": "A1",
+          "priority": false
+        },
+        {
+          "expression": "university students",
+          "meaningId": "mahasiswa",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "future",
+          "meaningId": "masa depan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "expect",
+          "meaningId": "berharap",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "improve",
+          "meaningId": "membuat menjadi lebih baik",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "everyday life",
+          "meaningId": "kehidupan sehari-hari",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "took part in",
+          "meaningId": "ikut serta dalam",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "were worried about",
+          "meaningId": "merasa khawatir tentang",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "expensive fuel",
+          "meaningId": "bahan bakar yang mahal",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Environmental problems",
+          "meaningId": "masalah lingkungan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "protect the environment",
+          "meaningId": "melindungi lingkungan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "demonstrations",
+          "meaningId": "aksi demonstrasi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "rising living costs",
+          "meaningId": "biaya hidup yang makin mahal",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "limited job opportunities",
+          "meaningId": "kesempatan kerja yang sedikit",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "forest and land fires",
+          "meaningId": "kebakaran hutan dan lahan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "Taken together",
+          "meaningId": "jika dilihat bersama-sama",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "public policies",
+          "meaningId": "kebijakan pemerintah",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "express concerns",
+          "meaningId": "menyampaikan hal yang dikhawatirkan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "extended beyond",
+          "meaningId": "tidak hanya tentang",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "campus matters",
+          "meaningId": "urusan kampus",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "quality of education",
+          "meaningId": "mutu pendidikan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "commonly known as",
+          "meaningId": "biasa disebut",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "questioned",
+          "meaningId": "mempertanyakan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "rising fuel prices",
+          "meaningId": "harga bahan bakar yang naik",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "highlighted",
+          "meaningId": "menyoroti",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "government's response",
+          "meaningId": "tanggapan pemerintah",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "expand opportunities",
+          "meaningId": "menambah kesempatan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "government spending priorities",
+          "meaningId": "hal-hal yang didahulukan dalam belanja pemerintah",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "entries": [
+        {
+          "expression": "met with",
+          "meaningId": "bertemu dengan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "programme",
+          "meaningId": "program",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "because of",
+          "meaningId": "karena",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "promised to",
+          "meaningId": "berjanji untuk",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "budget",
+          "meaningId": "anggaran",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "although",
+          "meaningId": "meskipun",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "responded to",
+          "meaningId": "menanggapi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Nutritious Meals",
+          "meaningId": "makanan bergizi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "large budget",
+          "meaningId": "anggaran yang besar",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "announced",
+          "meaningId": "mengumumkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "by late June",
+          "meaningId": "menjelang akhir Juni",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "reported",
+          "meaningId": "melaporkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "These steps",
+          "meaningId": "langkah-langkah ini",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "took place",
+          "meaningId": "terjadi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "through dialogue",
+          "meaningId": "melalui pembicaraan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "policy adjustments",
+          "meaningId": "perubahan kebijakan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "would be reduced",
+          "meaningId": "akan dikurangi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "student demands were met",
+          "meaningId": "tuntutan mahasiswa dipenuhi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "House of Representatives",
+          "meaningId": "Dewan Perwakilan Rakyat (DPR)",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "student representatives",
+          "meaningId": "wakil mahasiswa",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "improve communication",
+          "meaningId": "membuat komunikasi lebih baik",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "further discussions",
+          "meaningId": "diskusi lanjutan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "government officials",
+          "meaningId": "pejabat pemerintah",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "major issue",
+          "meaningId": "masalah penting",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "addressed",
+          "meaningId": "membahas",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "economic concerns",
+          "meaningId": "kekhawatiran soal ekonomi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "do not establish",
+          "meaningId": "tidak membuktikan",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "facilitate",
+          "meaningId": "membantu agar bisa terlaksana",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "further efficiency adjustment",
+          "meaningId": "perubahan lagi untuk menghemat biaya",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "entries": [
+        {
+          "expression": "damaged",
+          "meaningId": "rusak",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "cases",
+          "meaningId": "kasus",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "However",
+          "meaningId": "namun",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "not only about",
+          "meaningId": "bukan hanya tentang",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "but also about",
+          "meaningId": "tetapi juga tentang",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "According to",
+          "meaningId": "menurut",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "recorded",
+          "meaningId": "dicatat",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "In response",
+          "meaningId": "sebagai tanggapan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "stated",
+          "meaningId": "menyatakan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "requires",
+          "meaningId": "membutuhkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "Environmental protection",
+          "meaningId": "usaha menjaga lingkungan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "stronger government action",
+          "meaningId": "tindakan pemerintah yang lebih tegas",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "public health",
+          "meaningId": "kesehatan masyarakat",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "the haze",
+          "meaningId": "kabut asap",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "demanded",
+          "meaningId": "menuntut",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "protesters",
+          "meaningId": "orang yang ikut demonstrasi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "called for",
+          "meaningId": "meminta agar",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "authorities",
+          "meaningId": "pihak yang berwenang",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "wildlife",
+          "meaningId": "hewan yang hidup di alam liar",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "linked to",
+          "meaningId": "berkaitan dengan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "affected provinces",
+          "meaningId": "provinsi yang terkena dampak",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "provided assistance",
+          "meaningId": "memberi bantuan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "effective",
+          "meaningId": "berhasil dengan baik",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "acute respiratory infections",
+          "meaningId": "infeksi akut pada saluran pernapasan",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "long-term prevention",
+          "meaningId": "upaya mencegah masalah dalam jangka panjang",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "transparent law enforcement",
+          "meaningId": "hukum dijalankan secara terbuka dan jelas",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "declared a national disaster",
+          "meaningId": "ditetapkan sebagai bencana nasional",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "hold responsible companies accountable",
+          "meaningId": "meminta pertanggungjawaban perusahaan yang bertanggung jawab atas kebakaran",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "prosecuted",
+          "meaningId": "membawa ke pengadilan",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "continued monitoring",
+          "meaningId": "terus memantau",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-4",
+      "entries": [
+        {
+          "expression": "workers",
+          "meaningId": "pekerja",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "affordable",
+          "meaningId": "tidak terlalu mahal",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "Therefore",
+          "meaningId": "oleh karena itu",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "not only by",
+          "meaningId": "bukan hanya berdasarkan",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "but also by",
+          "meaningId": "tetapi juga berdasarkan",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "as part of",
+          "meaningId": "sebagai bagian dari",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "reached",
+          "meaningId": "mencapai",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "while",
+          "meaningId": "sedangkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "These figures",
+          "meaningId": "angka-angka ini",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "access to",
+          "meaningId": "bisa mendapatkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "quality education",
+          "meaningId": "pendidikan yang bagus",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "announcements",
+          "meaningId": "pengumuman",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "a decent job",
+          "meaningId": "pekerjaan yang layak",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "should be measured",
+          "meaningId": "harus dinilai",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "actual results",
+          "meaningId": "hasil nyata",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "Beyond public demonstrations",
+          "meaningId": "selain aksi demonstrasi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "investment",
+          "meaningId": "penanaman uang untuk usaha",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "absorbed",
+          "meaningId": "memberi pekerjaan kepada",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "state budget",
+          "meaningId": "anggaran negara",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "education spending",
+          "meaningId": "biaya yang dikeluarkan untuk pendidikan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "indicate",
+          "meaningId": "menunjukkan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "do not automatically mean",
+          "meaningId": "tidak langsung berarti",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "Open communication",
+          "meaningId": "komunikasi yang terbuka",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "equal opportunities",
+          "meaningId": "kesempatan yang sama",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "important indicators",
+          "meaningId": "tanda-tanda penting",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "meaningful progress",
+          "meaningId": "kemajuan yang benar-benar berarti",
+          "level": "C1",
+          "priority": true
+        },
+        {
+          "expression": "allocates",
+          "meaningId": "menyediakan dana",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "planned public spending",
+          "meaningId": "rencana pengeluaran pemerintah",
+          "level": "C1",
+          "priority": false
+        },
+        {
+          "expression": "budget allocations",
+          "meaningId": "pembagian dana anggaran",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    }
+  ]
+}
