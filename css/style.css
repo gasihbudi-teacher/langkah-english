@@ -915,3 +915,45 @@ body {
   .passage summary strong { margin-top: 0; }
   .passage-jump { min-height: 44px; align-content: center; }
 }
+
+.quiz-text-settings {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 0.75rem auto;
+}
+.quiz-text-settings summary {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid currentColor;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.quiz-text-settings fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  margin: 0.25rem 0 0;
+  padding: 0 0.75rem;
+  border: 0;
+}
+.quiz-text-settings label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+.quiz-content {
+  --quiz-word-spacing: 0.04em;
+  --quiz-line-height: 1.6;
+}
+.quiz-content[data-spacing="relaxed"] {
+  --quiz-word-spacing: 0.12em;
+  --quiz-line-height: 1.8;
+}
+.quiz-content :is(.passage p, .passage summary strong, #question-title,
+  .answer-copy, .tka-category legend, .response-hint, .translation-detail,
+  .inline-feedback) {
+  word-spacing: var(--quiz-word-spacing);
+  line-height: var(--quiz-line-height);
+  overflow-wrap: anywhere;
+}
