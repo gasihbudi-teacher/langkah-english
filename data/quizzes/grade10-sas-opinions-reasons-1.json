@@ -1,0 +1,354 @@
+{
+  "id": "grade10-sas-opinions-reasons-1",
+  "questionCount": 13,
+  "durationSeconds": 1200,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "The Writer's Opinion",
+      "text": "Digital technology has become an important part of everyday life. Smartphones and online services help people communicate, learn new skills, complete work, and manage daily tasks. These benefits make technology valuable, but convenience alone is not a good reason to use every application or follow every online trend. In my view, people should use digital tools with a clear purpose because useful technology supports what they need to do instead of controlling their attention."
+    },
+    {
+      "id": "passage-2",
+      "title": "First Supporting Reason",
+      "text": "One reason for this view is that online information needs careful checking. A post may look convincing, but its headline can hide important context or present an opinion as a fact. Before sharing it, readers should compare the claim with reliable sources and check the publication date and the author's background. These habits reduce the chance of spreading misleading information."
+    },
+    {
+      "id": "passage-3",
+      "title": "Second Supporting Reason",
+      "text": "A second reason is that responsible technology use protects privacy and well-being. People can protect personal information by using strong, unique passwords, reviewing app permissions, and limiting the details they share online. Constant notifications, however, can interrupt concentration and take time away from rest or face-to-face conversation. For these reasons, a balanced routine helps people benefit from technology without allowing it to dominate their lives."
+    },
+    {
+      "id": "passage-4",
+      "title": "Using Digital Technology Responsibly",
+      "text": "Digital technology has become an important part of everyday life. Smartphones and online services help people communicate, learn new skills, complete work, and manage daily tasks. These benefits make technology valuable, but convenience alone is not a good reason to use every application or follow every online trend. In my view, people should use digital tools with a clear purpose because useful technology supports what they need to do instead of controlling their attention.\n\nOne reason for this view is that online information needs careful checking. A post may look convincing, but its headline can hide important context or present an opinion as a fact. Before sharing it, readers should compare the claim with reliable sources and check the publication date and the author's background. These habits reduce the chance of spreading misleading information.\n\nA second reason is that responsible technology use protects privacy and well-being. People can protect personal information by using strong, unique passwords, reviewing app permissions, and limiting the details they share online. Constant notifications, however, can interrupt concentration and take time away from rest or face-to-face conversation. For these reasons, a balanced routine helps people benefit from technology without allowing it to dominate their lives."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Writer's Opinion",
+      "prompt": "Which statement best represents the writer's opinion?",
+      "choices": [
+        "People should stop using digital technology in their daily lives.",
+        "People should use digital tools purposefully and responsibly.",
+        "Online applications are more important than face-to-face communication.",
+        "People should follow every new digital trend."
+      ],
+      "answer": 1,
+      "evidence": "people should use digital tools with a clear purpose because useful technology supports what they need to do instead of controlling their attention.",
+      "explanation": "Penulis berpendapat bahwa teknologi perlu digunakan dengan tujuan yang jelas dan secara bertanggung jawab. Pilihan A terlalu ekstrem karena penulis tetap mengakui manfaat teknologi; penulis tidak meminta orang berhenti menggunakannya.",
+      "translationId": {
+        "prompt": "Pernyataan manakah yang paling tepat mewakili pendapat penulis?",
+        "choices": [
+          "Orang-orang sebaiknya berhenti menggunakan teknologi digital dalam kehidupan sehari-hari.",
+          "Orang-orang sebaiknya menggunakan perangkat digital secara terarah dan bertanggung jawab.",
+          "Aplikasi daring lebih penting daripada komunikasi tatap muka.",
+          "Orang-orang sebaiknya mengikuti setiap tren digital baru."
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Explicit Information",
+      "prompt": "Which benefit of digital technology is mentioned in paragraph 1?",
+      "choices": [
+        "It helps people manage daily tasks.",
+        "It eliminates the need for learning new skills.",
+        "It guarantees that all online information is accurate.",
+        "It prevents people from making mistakes."
+      ],
+      "answer": 0,
+      "evidence": "Smartphones and online services help people communicate, learn new skills, complete work, and manage daily tasks.",
+      "explanation": "Paragraf pertama menyebutkan bahwa teknologi membantu orang mengelola tugas sehari-hari. Pilihan B, C, dan D tidak dinyatakan dalam bacaan dan memberikan manfaat yang tidak dijanjikan oleh penulis.",
+      "translationId": {
+        "prompt": "Manfaat teknologi digital apa yang disebutkan dalam paragraf 1?",
+        "choices": [
+          "Teknologi membantu orang mengelola tugas sehari-hari.",
+          "Teknologi menghilangkan kebutuhan untuk mempelajari keterampilan baru.",
+          "Teknologi menjamin bahwa semua informasi daring akurat.",
+          "Teknologi mencegah orang melakukan kesalahan."
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "passage-1",
+      "skill": "Subject–Verb Agreement",
+      "prompt": "Choose the correct verb to complete the sentence.\n\n“Smartphones and online services _____ people communicate and learn new skills.”",
+      "choices": [
+        "helps",
+        "helping",
+        "help",
+        "has helped"
+      ],
+      "answer": 2,
+      "evidence": "Smartphones and online services help people communicate, learn new skills, complete work, and manage daily tasks.",
+      "explanation": "Subjek “Smartphones and online services” terdiri atas dua unsur yang dihubungkan dengan “and”, sehingga berbentuk jamak. Dalam simple present tense, subjek jamak menggunakan kata kerja dasar “help”. Pilihan “helps” digunakan untuk subjek orang ketiga tunggal.",
+      "translationId": {
+        "prompt": "Pilih kata kerja yang tepat untuk melengkapi kalimat berikut.\n\n“Ponsel pintar dan layanan daring _____ orang berkomunikasi dan mempelajari keterampilan baru.”",
+        "choices": [
+          "membantu (bentuk untuk subjek tunggal)",
+          "sedang membantu",
+          "membantu (bentuk dasar untuk subjek jamak)",
+          "telah membantu"
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Supporting Reasons",
+      "prompt": "Why does the writer encourage readers to check online information?",
+      "choices": [
+        "To make their posts more popular.",
+        "To reduce the chance of spreading misleading information.",
+        "To avoid reading different opinions.",
+        "To increase the number of online followers."
+      ],
+      "answer": 1,
+      "evidence": "These habits reduce the chance of spreading misleading information.",
+      "explanation": "Penulis mendorong pembaca memeriksa informasi agar tidak ikut menyebarkan informasi yang menyesatkan. Pilihan A dan D berkaitan dengan popularitas, bukan alasan yang disampaikan dalam bacaan.",
+      "translationId": {
+        "prompt": "Mengapa penulis menganjurkan pembaca untuk memeriksa informasi daring?",
+        "choices": [
+          "Untuk membuat unggahan mereka lebih populer.",
+          "Untuk mengurangi kemungkinan menyebarkan informasi yang menyesatkan.",
+          "Untuk menghindari membaca pendapat yang berbeda.",
+          "Untuk meningkatkan jumlah pengikut daring."
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Supporting Details",
+      "prompt": "Which two details does the writer recommend checking?",
+      "choices": [
+        "Publication date and author's background.",
+        "Number of comments and image quality.",
+        "Website colour and number of advertisements.",
+        "Writer's age and number of followers."
+      ],
+      "answer": 0,
+      "evidence": "Before sharing it, readers should compare the claim with reliable sources and check the publication date and the author's background.",
+      "explanation": "Bacaan secara langsung menyebut tanggal publikasi dan latar belakang penulis sebagai hal yang perlu diperiksa. Jumlah komentar, kualitas gambar, warna situs, dan jumlah pengikut tidak disebut sebagai kriteria tersebut.",
+      "translationId": {
+        "prompt": "Dua hal apa yang dianjurkan penulis untuk diperiksa?",
+        "choices": [
+          "Tanggal publikasi dan latar belakang penulis.",
+          "Jumlah komentar dan kualitas gambar.",
+          "Warna situs web dan jumlah iklan.",
+          "Usia penulis dan jumlah pengikut."
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "passage-2",
+      "skill": "Vocabulary in Context",
+      "prompt": "The word “misleading” in paragraph 2 is closest in meaning to:",
+      "choices": [
+        "Likely to cause someone to believe something incorrect.",
+        "Difficult to understand because of long sentences.",
+        "Recently published on a digital platform.",
+        "Supported by several reliable sources."
+      ],
+      "answer": 0,
+      "evidence": "These habits reduce the chance of spreading misleading information.",
+      "explanation": "Kata “misleading” berarti menyesatkan atau dapat membuat seseorang mempercayai sesuatu yang keliru. Pilihan D justru menggambarkan informasi yang didukung sumber tepercaya, bukan informasi menyesatkan.",
+      "translationId": {
+        "prompt": "Kata “misleading” dalam paragraf 2 memiliki makna yang paling dekat dengan:",
+        "choices": [
+          "Dapat membuat seseorang mempercayai sesuatu yang keliru.",
+          "Sulit dipahami karena menggunakan kalimat yang panjang.",
+          "Baru saja diterbitkan pada platform digital.",
+          "Didukung oleh beberapa sumber tepercaya."
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Explicit Information",
+      "prompt": "Which action is recommended to protect personal information?",
+      "choices": [
+        "Sharing personal details on every application.",
+        "Using the same password for all accounts.",
+        "Reviewing app permissions and using strong passwords.",
+        "Keeping all application permissions unchanged."
+      ],
+      "answer": 2,
+      "evidence": "People can protect personal information by using strong, unique passwords, reviewing app permissions, and limiting the details they share online.",
+      "explanation": "Penulis menyarankan penggunaan kata sandi yang kuat dan unik serta pemeriksaan izin aplikasi. Pilihan B tidak tepat karena menggunakan kata sandi yang sama untuk semua akun justru bertentangan dengan anjuran kata sandi unik.",
+      "translationId": {
+        "prompt": "Tindakan apa yang dianjurkan untuk melindungi informasi pribadi?",
+        "choices": [
+          "Membagikan detail pribadi di setiap aplikasi.",
+          "Menggunakan kata sandi yang sama untuk semua akun.",
+          "Memeriksa izin aplikasi dan menggunakan kata sandi yang kuat.",
+          "Membiarkan semua izin aplikasi tetap tanpa perubahan."
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Cause and Effect",
+      "prompt": "What is one negative effect of constant notifications?",
+      "choices": [
+        "They improve concentration.",
+        "They interrupt concentration and reduce time for rest.",
+        "They protect personal information.",
+        "They improve face-to-face communication."
+      ],
+      "answer": 1,
+      "evidence": "Constant notifications, however, can interrupt concentration and take time away from rest or face-to-face conversation.",
+      "explanation": "Notifikasi yang terus-menerus dapat mengganggu konsentrasi dan mengurangi waktu istirahat atau percakapan tatap muka. Pilihan A menyatakan dampak sebaliknya dari informasi dalam bacaan.",
+      "translationId": {
+        "prompt": "Apa salah satu dampak negatif dari notifikasi yang terus-menerus?",
+        "choices": [
+          "Notifikasi meningkatkan konsentrasi.",
+          "Notifikasi mengganggu konsentrasi dan mengurangi waktu untuk beristirahat.",
+          "Notifikasi melindungi informasi pribadi.",
+          "Notifikasi meningkatkan komunikasi tatap muka."
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "passage-3",
+      "skill": "Connecting Ideas",
+      "prompt": "What is the function of the word “however” in paragraph 3?",
+      "choices": [
+        "It introduces a contrasting idea about the negative effects of notifications.",
+        "It introduces another example of password protection.",
+        "It repeats the previous sentence.",
+        "It signals the beginning of a new topic unrelated to technology."
+      ],
+      "answer": 0,
+      "evidence": "Constant notifications, however, can interrupt concentration and take time away from rest or face-to-face conversation.",
+      "explanation": "Kata “however” menandai pertentangan. Setelah membahas tindakan untuk melindungi privasi, penulis memperkenalkan sisi lain, yaitu dampak negatif notifikasi yang berlebihan. Kata tersebut bukan pengulangan atau pengantar topik yang tidak berkaitan.",
+      "translationId": {
+        "prompt": "Apa fungsi kata “however” dalam paragraf 3?",
+        "choices": [
+          "Kata tersebut memperkenalkan gagasan yang berlawanan mengenai dampak negatif notifikasi.",
+          "Kata tersebut memperkenalkan contoh lain tentang perlindungan kata sandi.",
+          "Kata tersebut mengulangi kalimat sebelumnya.",
+          "Kata tersebut menandai awal topik baru yang tidak berkaitan dengan teknologi."
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Central Argument",
+      "prompt": "What is the central argument of the essay?",
+      "choices": [
+        "Digital technology should be avoided because it creates problems.",
+        "People should use digital technology responsibly and with a clear purpose.",
+        "Online communication is more important than personal relationships.",
+        "Digital technology is useful only for educational activities."
+      ],
+      "answer": 1,
+      "evidence": "In my view, people should use digital tools with a clear purpose because useful technology supports what they need to do instead of controlling their attention.",
+      "explanation": "Gagasan utama esai adalah penggunaan teknologi secara bertanggung jawab dan terarah. Penulis mengakui manfaat teknologi, sehingga pilihan A terlalu ekstrem. Bacaan juga tidak membatasi manfaat teknologi hanya untuk pendidikan.",
+      "translationId": {
+        "prompt": "Apa argumen utama dalam esai tersebut?",
+        "choices": [
+          "Teknologi digital sebaiknya dihindari karena menimbulkan masalah.",
+          "Orang-orang sebaiknya menggunakan teknologi digital secara bertanggung jawab dan dengan tujuan yang jelas.",
+          "Komunikasi daring lebih penting daripada hubungan pribadi.",
+          "Teknologi digital hanya bermanfaat untuk kegiatan pendidikan."
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Argument Development",
+      "prompt": "How do paragraphs 2 and 3 support the writer's opinion in paragraph 1?",
+      "choices": [
+        "They introduce unrelated topics about modern technology.",
+        "They provide reasons concerning information reliability, privacy, and well-being.",
+        "They explain the history of smartphones and online applications.",
+        "They contradict the writer's opinion about technology."
+      ],
+      "answer": 1,
+      "evidence": "These habits reduce the chance of spreading misleading information.\n\nA second reason is that responsible technology use protects privacy and well-being.",
+      "explanation": "Paragraf 2 memberikan alasan tentang pentingnya memeriksa keandalan informasi, sedangkan paragraf 3 menjelaskan perlindungan privasi dan kesejahteraan. Keduanya mendukung pendapat pada paragraf 1, bukan membahas topik yang tidak berkaitan atau menyangkal pendapat penulis.",
+      "translationId": {
+        "prompt": "Bagaimana paragraf 2 dan 3 mendukung pendapat penulis pada paragraf 1?",
+        "choices": [
+          "Keduanya memperkenalkan topik yang tidak berkaitan tentang teknologi modern.",
+          "Keduanya memberikan alasan mengenai keandalan informasi, privasi, dan kesejahteraan.",
+          "Keduanya menjelaskan sejarah ponsel pintar dan aplikasi daring.",
+          "Keduanya bertentangan dengan pendapat penulis tentang teknologi."
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Inference",
+      "prompt": "What can readers infer about the writer's attitude toward digital technology?",
+      "choices": [
+        "The writer completely rejects modern technology.",
+        "The writer believes technology is useful when people manage it thoughtfully.",
+        "The writer believes online information should never be trusted.",
+        "The writer considers convenience more important than privacy."
+      ],
+      "answer": 1,
+      "evidence": "These benefits make technology valuable, but convenience alone is not a good reason to use every application or follow every online trend.",
+      "explanation": "Penulis memiliki pandangan seimbang: teknologi dinilai bermanfaat, tetapi penggunaannya perlu dipertimbangkan. Pilihan A terlalu negatif, sedangkan pilihan D bertentangan dengan penekanan penulis pada privasi dan penggunaan yang bertanggung jawab.",
+      "translationId": {
+        "prompt": "Apa yang dapat disimpulkan pembaca mengenai sikap penulis terhadap teknologi digital?",
+        "choices": [
+          "Penulis sepenuhnya menolak teknologi modern.",
+          "Penulis percaya bahwa teknologi bermanfaat ketika orang mengelolanya dengan bijaksana.",
+          "Penulis percaya bahwa informasi daring tidak boleh dipercaya sama sekali.",
+          "Penulis menganggap kenyamanan lebih penting daripada privasi."
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "passage-4",
+      "skill": "Synthesis and Evaluation",
+      "prompt": "Which recommendation best combines the main ideas of the essay?",
+      "choices": [
+        "Use digital applications frequently, share information quickly, and ignore notifications.",
+        "Choose technology for a clear purpose, verify information, and protect privacy while maintaining balance.",
+        "Avoid online services, stop using smartphones, and communicate only through printed materials.",
+        "Focus on strong passwords while trusting every online post."
+      ],
+      "answer": 1,
+      "evidence": "Digital technology has become an important part of everyday life. Smartphones and online services help people communicate, learn new skills, complete work, and manage daily tasks. These benefits make technology valuable, but convenience alone is not a good reason to use every application or follow every online trend. In my view, people should use digital tools with a clear purpose because useful technology supports what they need to do instead of controlling their attention.\n\nOne reason for this view is that online information needs careful checking. A post may look convincing, but its headline can hide important context or present an opinion as a fact. Before sharing it, readers should compare the claim with reliable sources and check the publication date and the author's background. These habits reduce the chance of spreading misleading information.\n\nA second reason is that responsible technology use protects privacy and well-being. People can protect personal information by using strong, unique passwords, reviewing app permissions, and limiting the details they share online. Constant notifications, however, can interrupt concentration and take time away from rest or face-to-face conversation. For these reasons, a balanced routine helps people benefit from technology without allowing it to dominate their lives.",
+      "explanation": "Pilihan B menggabungkan seluruh gagasan utama: menggunakan teknologi dengan tujuan yang jelas, memeriksa informasi sebelum membagikannya, melindungi data pribadi, dan menjaga keseimbangan. Pilihan A dan D mengabaikan pemeriksaan informasi atau pengelolaan penggunaan teknologi, sedangkan pilihan C tidak sesuai dengan pandangan penulis yang tetap mengakui manfaat teknologi.",
+      "translationId": {
+        "prompt": "Rekomendasi manakah yang paling tepat menggabungkan gagasan utama esai?",
+        "choices": [
+          "Sering menggunakan aplikasi digital, membagikan informasi dengan cepat, dan mengabaikan notifikasi.",
+          "Memilih teknologi dengan tujuan yang jelas, memverifikasi informasi, serta melindungi privasi sambil menjaga keseimbangan.",
+          "Menghindari layanan daring, berhenti menggunakan ponsel pintar, dan hanya berkomunikasi melalui bahan cetak.",
+          "Berfokus pada kata sandi yang kuat sambil mempercayai setiap unggahan daring."
+        ]
+      }
+    }
+  ]
+}

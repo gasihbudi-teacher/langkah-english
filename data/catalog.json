@@ -5412,6 +5412,50 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 29
+    },
+    {
+      "id": "grade10-sas-opinions-reasons-1",
+      "title": "10 - Opinions and Reasons 1 - Scaffolding",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 10 Semester 1 dengan model scaffolded reading. Tiga passage pertama masing-masing memuat satu paragraf yang saling terhubung; passage keempat memuat esai lengkap. Berisi 13 soal pilihan ganda bertema Digital Technology and Everyday Life, dilengkapi bukti tekstual dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 10,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Simple Present Tense",
+        "Subject-Verb Agreement"
+      ],
+      "readingSkills": [
+        "Main Idea",
+        "Supporting Details",
+        "Making Inferences",
+        "Vocabulary in Context",
+        "Author’s Purpose",
+        "Text Organization",
+        "Critical Reading"
+      ],
+      "tags": [
+        "SAS",
+        "kelas 10",
+        "semester 1",
+        "Expressing Opinions and Supporting Reasons",
+        "Scaffolded Reading",
+        "Digital Technology and Everyday Life"
+      ],
+      "relatedLessons": [
+        "grade10-opinions-reasons"
+      ],
+      "file": "data/quizzes/grade10-sas-opinions-reasons-1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 20
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
