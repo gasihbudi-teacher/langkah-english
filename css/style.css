@@ -963,3 +963,22 @@ body {
   line-height: var(--quiz-line-height);
   overflow-wrap: anywhere;
 }
+
+.quiz-glossary { margin-block: 1rem; overflow-wrap: anywhere; }
+.quiz-glossary > summary { font-weight: 700; cursor: pointer; }
+.glossary-section { padding: .6rem 0; border-top: 1px solid var(--line); }
+.glossary-section summary { cursor: pointer; }
+.glossary-section summary span + span { display: block; margin-inline-start: 1rem; }
+.glossary-section h3 { font-size: 1rem; margin: .9rem 0 .25rem; }
+.glossary-section dl { margin: 0 0 .65rem; }
+.glossary-section dl > div { padding: .4rem 0; }
+.glossary-section dt { font-weight: 600; }
+.glossary-section dd { margin: .15rem 0 0; }
+.glossary-priority {
+  display: inline-block;
+  margin-inline-start: .3rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0 .45rem;
+  font-size: .75rem;
+}

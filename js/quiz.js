@@ -1,7 +1,8 @@
-import {resource,params,esc,score,progress,time,error,icon,pathIllustration} from './core.js';
+import {load,resource,params,esc,score,progress,time,error,icon,pathIllustration} from './core.js';
 import {questionType,isAnswered,isCorrect,validResponse} from './question-types.mjs';
 import {t,initI18n,onLanguageChange,language} from './i18n.js';
 import {translationDetails} from './translations.js';
+import {quizGlossary} from './quiz-glossary.js';
 initI18n();
 
 const content = document.querySelector('#content');
@@ -42,6 +43,11 @@ try{
  function presentation(){return m.examFormat==='full'?t('quizFull'):m.examFormat==='topic'||m.kind==='test'?t('quizTopic'):t('quizShort')}
  const track=m.placements[0].pathway;
  const trackLabel={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas'}[track];
+ let glossary = null;
+ function renderGlossary(){
+  const slot = content.querySelector('[data-quiz-glossary]');
+  if(slot && glossary) slot.innerHTML = quizGlossary(glossary,d);
+ }
  function renderIntro(){
   phase='intro';
   content.innerHTML=`<article class="exam-intro" data-track="${esc(track)}">
@@ -50,6 +56,7 @@ try{
     <h1>${esc(m.title)}</h1><p>${esc(m.description)}</p>
     <div class="learning-meta"><span>${presentation()}</span><span>${t('quizCount',{n:count})}</span><span>${icon('clock')} ${d.durationSeconds?t('quizMinutes',{n:d.durationSeconds/60}):t('quizNoTimer')}</span></div>
     ${draft?`<section class="draft-resume"><div><strong>${t('resumeSaved')}</strong><p>${t('draftIntro')}</p></div><button id="resume" type="button">${t('resume')} ${icon('arrow')}</button></section>`:''}
+    ${m.glossaryFile?'<div data-quiz-glossary></div>':''}
     <h2>${t('quizModes')}</h2><div class="mode-grid">
       <section class="mode-card"><span class="mode-icon">${icon('pen')}</span><h3>${t('practiceMode')}</h3><p>${t('practiceDetails')}</p><button class="button${draft?' button-outline':''}" id="practice" type="button">${t('startPractice')} ${icon('arrow')}</button></section>
       <section class="mode-card"><span class="mode-icon">${icon('clock')}</span><h3>${t('simulationMode')}</h3><p>${t('simulationDetails')}</p><button class="button button-outline" id="simulation" type="button">${t('startSimulation')} ${icon('arrow')}</button></section>
@@ -59,6 +66,7 @@ try{
       <p>${t('quizEnglishNotice')}</p><p>${t('simulationLanguageNote')}</p><p>${t('tkaScoringRule')}</p>
       <p>${t('quizNotice')} ${m.examFormat!=='full'&&d.referenceFormat?t('referenceInfo',{n:d.referenceFormat.questionCount,minutes:d.referenceFormat.durationSeconds/60}):''}</p>
     </details></article>`;
+  renderGlossary();
   document.querySelector('#practice').onclick=()=>begin('practice');
   document.querySelector('#simulation').onclick=()=>begin('simulation');
   if(draft)document.querySelector('#resume').onclick=()=>begin(draft.mode,true);
@@ -171,6 +179,16 @@ try{
  }
  function finish(){if(finished)return;finished=true;clearInterval(tick);const elapsed=Math.max(0,Math.floor((Math.min(deadline||Date.now(),Date.now())-start)/1000));const a={attemptId:globalThis.crypto?.randomUUID?.()||String(Date.now()),resourceId:m.id,pathway:m.placements?.[0]?.pathway||'grammar',title:m.title,at:Date.now(),mode,elapsed,answers:structuredClone(answers),flags:[...flags],questions:d.questions,passages:d.passages||[],result:score(d.questions,answers)};progress.save(a);try{localStorage.removeItem(draftKey);sessionStorage.setItem('langkah.last',JSON.stringify(a))}catch{}location.href='results.html?attempt='+encodeURIComponent(a.attemptId)}
  renderIntro();
+ const glossaryPath = `data/glossaries/${m.id}.json`;
+ if(m.glossaryFile === glossaryPath){
+  load(glossaryPath).then(data=>{
+   glossary = data;
+   renderGlossary();
+  }).catch(error=>{
+   glossary = null;
+   console.warn('Quiz glossary unavailable',error);
+  });
+ }
  if(location.hash==='#resume' && draft)begin(draft.mode,true);
  onLanguageChange(()=>{if(phase==='intro')renderIntro();else if(phase==='active'){
    const passageOpen=document.querySelector('#passage details')?.open;
