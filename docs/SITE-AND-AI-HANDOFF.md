@@ -103,7 +103,8 @@ Embedded `practice` items require `id`, `prompt`, `choices`, `answer`, and `expl
       "type": "summary",
       "title": "Yang perlu diingat",
       "items": [
-        "Tunjukkan kata yang mendukung jawabanmu."
+        "Tunjukkan kata yang mendukung jawabanmu.",
+        "Periksa apakah kata itu benar-benar menyebut hari yang ditanyakan."
       ]
     }
   ],
