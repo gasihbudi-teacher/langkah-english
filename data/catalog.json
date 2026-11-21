@@ -5495,6 +5495,7 @@
         "grade11-exposition-evidence"
       ],
       "file": "data/quizzes/grade11-sas-youth-demands-01.json",
+      "glossaryFile": "data/glossaries/grade11-sas-youth-demands-01.json",
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 30
