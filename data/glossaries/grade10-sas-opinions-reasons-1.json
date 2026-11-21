@@ -1,0 +1,446 @@
+{
+  "quizId": "grade10-sas-opinions-reasons-1",
+  "sections": [
+    {
+      "passageId": "passage-1",
+      "entries": [
+        {
+          "expression": "but",
+          "meaningId": "tetapi",
+          "level": "A1",
+          "priority": true
+        },
+        {
+          "expression": "because",
+          "meaningId": "karena",
+          "level": "A1",
+          "priority": true
+        },
+        {
+          "expression": "important",
+          "meaningId": "penting",
+          "level": "A1",
+          "priority": false
+        },
+        {
+          "expression": "everyday life",
+          "meaningId": "kehidupan sehari-hari",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "Digital technology",
+          "meaningId": "teknologi digital",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "Smartphones",
+          "meaningId": "ponsel pintar",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "communicate",
+          "meaningId": "berkomunikasi",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "learn new skills",
+          "meaningId": "mempelajari kemampuan baru",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "complete work",
+          "meaningId": "menyelesaikan pekerjaan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "benefits",
+          "meaningId": "manfaat",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "a good reason",
+          "meaningId": "alasan yang baik",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "application",
+          "meaningId": "aplikasi",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "should",
+          "meaningId": "sebaiknya",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "digital tools",
+          "meaningId": "alat digital",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "what they need to do",
+          "meaningId": "hal yang perlu mereka lakukan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "manage daily tasks",
+          "meaningId": "mengatur tugas sehari-hari",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "In my view",
+          "meaningId": "menurut saya",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "with a clear purpose",
+          "meaningId": "dengan tujuan yang jelas",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "instead of",
+          "meaningId": "bukannya",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "has become",
+          "meaningId": "sudah menjadi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "online services",
+          "meaningId": "layanan di internet",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "valuable",
+          "meaningId": "bermanfaat",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "follow every online trend",
+          "meaningId": "mengikuti semua tren di internet",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "supports",
+          "meaningId": "membantu",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "controlling their attention",
+          "meaningId": "mengendalikan perhatian mereka",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "convenience alone",
+          "meaningId": "kemudahan saja",
+          "level": "B2",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-2",
+      "entries": [
+        {
+          "expression": "One reason",
+          "meaningId": "salah satu alasan",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "this view",
+          "meaningId": "pendapat ini",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "online information",
+          "meaningId": "informasi di internet",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "A post",
+          "meaningId": "sebuah unggahan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "may",
+          "meaningId": "mungkin",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "hide",
+          "meaningId": "menyembunyikan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "readers",
+          "meaningId": "pembaca",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "check",
+          "meaningId": "memeriksa",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "habits",
+          "meaningId": "kebiasaan",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "needs careful checking",
+          "meaningId": "perlu diperiksa dengan teliti",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "Before sharing it",
+          "meaningId": "sebelum membagikannya",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "reliable sources",
+          "meaningId": "sumber yang bisa dipercaya",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "headline",
+          "meaningId": "judul utama berita atau unggahan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "spreading",
+          "meaningId": "menyebarkan",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "present an opinion as a fact",
+          "meaningId": "menyampaikan pendapat seolah-olah fakta",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "publication date",
+          "meaningId": "tanggal diterbitkan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "reduce the chance",
+          "meaningId": "mengurangi kemungkinan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "misleading information",
+          "meaningId": "informasi yang menyesatkan",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "look convincing",
+          "meaningId": "terlihat meyakinkan",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "important context",
+          "meaningId": "informasi penting untuk memahami isi",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "compare the claim",
+          "meaningId": "membandingkan pernyataan itu",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "author's background",
+          "meaningId": "latar belakang penulis",
+          "level": "B2",
+          "priority": false
+        }
+      ]
+    },
+    {
+      "passageId": "passage-3",
+      "entries": [
+        {
+          "expression": "rest",
+          "meaningId": "istirahat",
+          "level": "A1",
+          "priority": false
+        },
+        {
+          "expression": "A second reason",
+          "meaningId": "alasan kedua",
+          "level": "A2",
+          "priority": true
+        },
+        {
+          "expression": "technology use",
+          "meaningId": "penggunaan teknologi",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "protects",
+          "meaningId": "melindungi",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "share online",
+          "meaningId": "membagikan lewat internet",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "without",
+          "meaningId": "tanpa",
+          "level": "A2",
+          "priority": false
+        },
+        {
+          "expression": "personal information",
+          "meaningId": "informasi pribadi",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "however",
+          "meaningId": "namun",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "For these reasons",
+          "meaningId": "karena alasan-alasan tersebut",
+          "level": "B1",
+          "priority": true
+        },
+        {
+          "expression": "responsible",
+          "meaningId": "bertanggung jawab",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "limiting",
+          "meaningId": "membatasi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "the details",
+          "meaningId": "rincian informasi",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "face-to-face conversation",
+          "meaningId": "percakapan tatap muka",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "benefit from",
+          "meaningId": "mendapat manfaat dari",
+          "level": "B1",
+          "priority": false
+        },
+        {
+          "expression": "privacy",
+          "meaningId": "hak untuk menjaga informasi pribadi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "reviewing app permissions",
+          "meaningId": "memeriksa izin aplikasi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "interrupt concentration",
+          "meaningId": "mengganggu konsentrasi",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "a balanced routine",
+          "meaningId": "kebiasaan sehari-hari yang seimbang",
+          "level": "B2",
+          "priority": true
+        },
+        {
+          "expression": "well-being",
+          "meaningId": "keadaan diri yang baik dan sehat",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "strong, unique passwords",
+          "meaningId": "kata sandi yang kuat dan berbeda-beda",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "Constant notifications",
+          "meaningId": "notifikasi yang terus muncul",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "take time away from",
+          "meaningId": "mengurangi waktu untuk",
+          "level": "B2",
+          "priority": false
+        },
+        {
+          "expression": "allowing it to dominate their lives",
+          "meaningId": "membiarkan teknologi menguasai hidup mereka",
+          "level": "C1",
+          "priority": false
+        }
+      ]
+    }
+  ]
+}
