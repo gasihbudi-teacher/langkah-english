@@ -5500,6 +5500,41 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 30
+    },
+    {
+      "id": "grade12-sas-descriptive-reference-1",
+      "title": "12 - Descriptive Text - 1 - Find the Reference",
+      "description": "Latihan strategi SAS Bahasa Inggris Kelas 12 Semester 1: 15 soal singkat untuk menemukan rujukan it/they, memeriksa jumlah dan makna, serta menghindari jebakan kata benda terdekat. Soal orisinal, tanpa bacaan panjang, dilengkapi pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Reference Questions"
+      ],
+      "tags": [
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Descriptive Text",
+        "Find the Reference",
+        "Reference Questions",
+        "Strategy Practice",
+        "original practice"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade12-sas-descriptive-reference-1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 15
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

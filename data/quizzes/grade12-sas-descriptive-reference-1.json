@@ -1,0 +1,308 @@
+{
+  "id": "grade12-sas-descriptive-reference-1",
+  "questionCount": 15,
+  "durationSeconds": 0,
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The information desk stands near the entrance. It has a bright blue sign.\n\nThe word \"It\" refers to ...",
+      "choices": [
+        "The entrance",
+        "The bright blue sign",
+        "The information desk",
+        "The school building"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Entrance hanya menunjukkan lokasi meja informasi, bukan benda yang memiliki papan nama.",
+        "Bright blue sign adalah benda yang dimiliki, bukan pemiliknya dalam kalimat ini.",
+        "Meja informasi itulah yang mempunyai papan bertanda biru.",
+        "School building tidak disebutkan dalam kalimat, sehingga tidak mempunyai rujukan tekstual."
+      ],
+      "explanation": "“It” menggantikan satu benda, yaitu the information desk. Coba substitusi: “The information desk has a bright blue sign.” Maknanya tetap tepat."
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The reading corner has four soft chairs beside a bookshelf. They face a large window.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "Four soft chairs",
+        "The reading corner",
+        "A bookshelf",
+        "A large window"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Four soft chairs adalah kelompok benda jamak yang menghadap jendela.",
+        "Reading corner adalah satu area, sehingga bukan kelompok kursi yang dimaksud.",
+        "Bookshelf adalah satu rak, tidak cocok sebagai rujukan jamak di sini.",
+        "Window adalah objek yang dihadapi kursi, bukan subjek pengganti They."
+      ],
+      "explanation": "“They” merujuk pada empat kursi (jamak). “Four soft chairs face a large window” sesuai secara jumlah maupun makna."
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The school hall contains two large doors and one wall clock. It chimes every hour.\n\nThe word \"It\" refers to ...",
+      "choices": [
+        "The school hall",
+        "Two large doors",
+        "Every hour",
+        "One wall clock"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Hall adalah ruangan; kegiatan berdentang setiap jam lebih cocok untuk jam dinding.",
+        "Doors berjumlah dua dan tidak berfungsi sebagai penanda waktu yang berdentang.",
+        "Every hour adalah keterangan waktu, bukan benda yang dirujuk.",
+        "Jam dinding berjumlah satu dan dapat berdentang setiap jam."
+      ],
+      "explanation": "“It” mengacu pada satu jam dinding. Petunjuk makna “chimes every hour” (berdentang tiap jam) menunjukkan jam, bukan pintu atau aula."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "In the art room, several easels stand beside a wooden cabinet. They hold canvases during painting lessons.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "A wooden cabinet",
+        "The art room",
+        "Painting lessons",
+        "Several easels"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Cabinet berjumlah satu dan digunakan sebagai lokasi pembanding, bukan penyangga kanvas yang dimaksud.",
+        "Art room adalah satu ruangan, bukan beberapa benda yang menyangga kanvas.",
+        "Painting lessons adalah kegiatan, bukan benda yang menyangga kanvas.",
+        "Easels merupakan benda jamak yang dipakai untuk menopang kanvas."
+      ],
+      "explanation": "“They” merujuk kepada several easels (beberapa penyangga kanvas). Jumlahnya jamak dan fungsinya adalah menyangga kanvas."
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The museum displays three ancient masks beside two glass mirrors. They were worn during traditional ceremonies.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "Two glass mirrors",
+        "Three ancient masks",
+        "The museum",
+        "Traditional ceremonies"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Mirrors juga jamak, tetapi cermin tidak dipakai sebagai benda yang dikenakan dalam upacara.",
+        "Masks adalah benda yang dapat dikenakan pada upacara tradisional.",
+        "Museum tunggal dan merupakan tempat pameran, bukan barang yang dikenakan.",
+        "Ceremonies adalah kegiatan tempat topeng dipakai, bukan objek yang dimaksud They."
+      ],
+      "explanation": "Baik masks maupun mirrors berbentuk jamak, jadi jumlah saja belum cukup. Petunjuk “were worn during traditional ceremonies” menunjukkan topeng, bukan cermin."
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "Several atlases are kept beside the reference dictionaries in the geography room. They contain detailed maps of different countries.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "The geography room",
+        "The reference dictionaries",
+        "Several atlases",
+        "Different countries"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Geography room merupakan ruangan tunggal, bukan sejumlah buku yang berisi peta.",
+        "Dictionaries juga jamak, tetapi fungsi utama buku tersebut adalah menjelaskan kata, bukan menyediakan peta rinci.",
+        "Atlases adalah buku peta; ciri “detailed maps” cocok dengannya.",
+        "Countries merupakan objek yang digambarkan di peta, bukan buku yang memuatnya."
+      ],
+      "explanation": "“They” merujuk kepada atlases (atlas-atlas). Atlases dan dictionaries sama-sama jamak, tetapi atlaslah yang berisi peta rinci berbagai negara."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The science lab has a large microscope next to a storage cabinet. It magnifies tiny cells.\n\nThe word \"It\" refers to ...",
+      "choices": [
+        "A large microscope",
+        "The science lab",
+        "Tiny cells",
+        "A storage cabinet"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Microscope adalah alat yang memperbesar benda berukuran sangat kecil.",
+        "Lab adalah ruang kerja, bukan alat pembesar sel.",
+        "Cells adalah objek yang diperbesar; selain itu bentuknya jamak.",
+        "Cabinet dipakai untuk menyimpan barang, bukan memperbesar sel."
+      ],
+      "explanation": "Walaupun cabinet berada paling dekat sebelum “It”, benda yang memperbesar sel adalah microscope. Penggantian menjadi “A large microscope magnifies tiny cells” cocok."
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The school garden has five stone benches and three water fountains. They provide places for students to sit.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "Three water fountains",
+        "Five stone benches",
+        "Students",
+        "The school garden"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Fountains juga jamak, tetapi fungsi air mancur bukan menyediakan tempat duduk.",
+        "Benches adalah bangku-bangku yang menyediakan tempat duduk.",
+        "Students adalah orang yang akan duduk, bukan penyedia tempat duduk dalam kalimat.",
+        "Garden merupakan lokasi, bukan kelompok benda yang dimaksud oleh They."
+      ],
+      "explanation": "Benches dan fountains sama-sama jamak. Gunakan makna: tempat duduk disediakan oleh benches (bangku), bukan fountains (air mancur)."
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The school library, situated beside the teachers’ office, is always busy because it lends textbooks to students.\n\nThe word \"it\" refers to ...",
+      "choices": [
+        "The teachers’ office",
+        "The students",
+        "The school library",
+        "The textbooks"
+      ],
+      "answer": 2,
+      "choiceExplanations": [
+        "Teachers’ office adalah keterangan lokasi, bukan lembaga yang meminjamkan buku dalam konteks ini.",
+        "Students adalah penerima pinjaman dan berbentuk jamak.",
+        "School library menjadi subjek utama dan pihak yang meminjamkan buku.",
+        "Textbooks adalah benda yang dipinjamkan, bukan pihak yang meminjamkan."
+      ],
+      "explanation": "Bagian “situated beside the teachers’ office” hanya menunjukkan lokasi. Subjek utama school library-lah yang meminjamkan buku pelajaran."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The aquarium, located behind the souvenir shop, is famous because it houses rare freshwater fish.\n\nThe word \"it\" refers to ...",
+      "choices": [
+        "Rare freshwater fish",
+        "The aquarium",
+        "The area behind the shop",
+        "The souvenir shop"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Fish adalah hewan yang ditampung, bukan tempat yang menampungnya.",
+        "Aquarium merupakan tempat yang menampung ikan.",
+        "Area behind the shop adalah petunjuk tempat, bukan rujukan spesifik untuk it.",
+        "Souvenir shop menunjukkan lokasi akuarium dan berfungsi menjual suvenir."
+      ],
+      "explanation": "Souvenir shop memang lebih dekat, tetapi frasa lokasinya bukan inti kalimat. Aquarium-lah yang menampung ikan air tawar langka."
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The old theater near the bus terminal remains popular because it screens documentary films every weekend.\n\nThe word \"it\" refers to ...",
+      "choices": [
+        "The old theater",
+        "The bus terminal",
+        "Documentary films",
+        "Every weekend"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Theater adalah tempat untuk menayangkan film.",
+        "Bus terminal merupakan tempat transportasi, bukan penayang film dalam kalimat.",
+        "Films adalah objek yang ditayangkan, bukan pelaku penayangan.",
+        "Every weekend adalah keterangan waktu, bukan rujukan kata ganti."
+      ],
+      "explanation": "“It” mengacu pada theater yang memutar film. Bus terminal hanya petunjuk lokasi dan tidak otomatis menjadi jawaban karena lebih dekat."
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The community greenhouse, which stands beside the sports hall, attracts visitors because it grows tropical flowers throughout the year.\n\nThe word \"it\" refers to ...",
+      "choices": [
+        "The visitors",
+        "The sports hall",
+        "Tropical flowers",
+        "The community greenhouse"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Visitors adalah orang yang datang, bukan fasilitas yang menumbuhkan tanaman.",
+        "Sports hall hanya petunjuk lokasi greenhouse.",
+        "Flowers adalah tanaman yang tumbuh, bukan fasilitas yang menumbuhkannya.",
+        "Greenhouse merupakan tempat penumbuhan tanaman dan subjek utama kalimat."
+      ],
+      "explanation": "Lewati sebentar klausa “which stands beside the sports hall”. Subjek utama adalah greenhouse, dan tempat itulah yang digunakan untuk menumbuhkan bunga tropis."
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The school courtyard has a colorful mural beside the drinking fountain. It shows the history of the town.\n\nThe word \"It\" refers to ...",
+      "choices": [
+        "A colorful mural",
+        "The school courtyard",
+        "The town",
+        "The drinking fountain"
+      ],
+      "answer": 0,
+      "choiceExplanations": [
+        "Mural adalah karya visual yang dapat menampilkan sejarah suatu kota.",
+        "Courtyard adalah tempat mural berada, bukan gambar yang menampilkan sejarah.",
+        "Town adalah topik yang digambarkan, bukan lukisan yang menggambarkannya.",
+        "Fountain berada di dekat mural, tetapi tidak menggambarkan sejarah kota."
+      ],
+      "explanation": "Kata benda terdekat adalah fountain, tetapi sesuatu yang menggambarkan sejarah kota adalah mural (lukisan dinding)."
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "Several painters visited the old palace beside the river. They sketched its entrance for an hour.\n\nThe word \"They\" refers to ...",
+      "choices": [
+        "The old palace",
+        "The river",
+        "The entrance",
+        "Several painters"
+      ],
+      "answer": 3,
+      "choiceExplanations": [
+        "Palace adalah tempat yang dikunjungi dan berbentuk tunggal.",
+        "River adalah lokasi di dekat istana dan berbentuk tunggal.",
+        "Entrance adalah objek yang digambar, bukan pelaku kegiatan sketsa.",
+        "Para pelukislah yang membuat sketsa pintu masuk istana."
+      ],
+      "explanation": "“They” merujuk pada beberapa pelukis, bukan palace atau river yang lebih dekat. Para pelukis melakukan tindakan “sketched”."
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "skill": "Reference Questions",
+      "prompt": "The visitor center, across from the museum gift shop, helps tourists because it provides free maps and directions.\n\nThe word \"it\" refers to ...",
+      "choices": [
+        "Free maps and directions",
+        "The visitor center",
+        "The tourists",
+        "The museum gift shop"
+      ],
+      "answer": 1,
+      "choiceExplanations": [
+        "Maps and directions adalah informasi yang diberikan, bukan tempat pemberinya.",
+        "Visitor center adalah tempat yang membantu wisatawan dengan informasi.",
+        "Tourists adalah penerima bantuan dan berbentuk jamak.",
+        "Gift shop hanya dipakai sebagai penunjuk lokasi visitor center."
+      ],
+      "explanation": "Gift shop adalah petunjuk lokasi, bukan subjek utama. “The visitor center provides free maps and directions” cocok dengan fungsi pusat informasi pengunjung."
+    }
+  ]
+}
