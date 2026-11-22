@@ -2,13 +2,89 @@
   "id": "grade12-sas-descriptive-reference-1",
   "questionCount": 15,
   "durationSeconds": 0,
-  "passages": [],
+  "passages": [
+    {
+      "id": "ref-context-01",
+      "title": "Reference Context 01",
+      "text": "The information desk stands near the entrance. It has a bright blue sign."
+    },
+    {
+      "id": "ref-context-02",
+      "title": "Reference Context 02",
+      "text": "The reading corner has four soft chairs beside a bookshelf. They face a large window."
+    },
+    {
+      "id": "ref-context-03",
+      "title": "Reference Context 03",
+      "text": "The school hall contains two large doors and one wall clock. It chimes every hour."
+    },
+    {
+      "id": "ref-context-04",
+      "title": "Reference Context 04",
+      "text": "In the art room, several easels stand beside a wooden cabinet. They hold canvases during painting lessons."
+    },
+    {
+      "id": "ref-context-05",
+      "title": "Reference Context 05",
+      "text": "The museum displays three ancient masks beside two glass mirrors. They were worn during traditional ceremonies."
+    },
+    {
+      "id": "ref-context-06",
+      "title": "Reference Context 06",
+      "text": "Several atlases are kept beside the reference dictionaries in the geography room. They contain detailed maps of different countries."
+    },
+    {
+      "id": "ref-context-07",
+      "title": "Reference Context 07",
+      "text": "The science lab has a large microscope next to a storage cabinet. It magnifies tiny cells."
+    },
+    {
+      "id": "ref-context-08",
+      "title": "Reference Context 08",
+      "text": "The school garden has five stone benches and three water fountains. They provide places for students to sit."
+    },
+    {
+      "id": "ref-context-09",
+      "title": "Reference Context 09",
+      "text": "The school library, situated beside the teachers’ office, is always busy because it lends textbooks to students."
+    },
+    {
+      "id": "ref-context-10",
+      "title": "Reference Context 10",
+      "text": "The aquarium, located behind the souvenir shop, is famous because it houses rare freshwater fish."
+    },
+    {
+      "id": "ref-context-11",
+      "title": "Reference Context 11",
+      "text": "The old theater near the bus terminal remains popular because it screens documentary films every weekend."
+    },
+    {
+      "id": "ref-context-12",
+      "title": "Reference Context 12",
+      "text": "The community greenhouse, which stands beside the sports hall, attracts visitors because it grows tropical flowers throughout the year."
+    },
+    {
+      "id": "ref-context-13",
+      "title": "Reference Context 13",
+      "text": "The school courtyard has a colorful mural beside the drinking fountain. It shows the history of the town."
+    },
+    {
+      "id": "ref-context-14",
+      "title": "Reference Context 14",
+      "text": "Several painters visited the old palace beside the river. They sketched its entrance for an hour."
+    },
+    {
+      "id": "ref-context-15",
+      "title": "Reference Context 15",
+      "text": "The visitor center, across from the museum gift shop, helps tourists because it provides free maps and directions."
+    }
+  ],
   "questions": [
     {
       "id": "q1",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The information desk stands near the entrance. It has a bright blue sign.\n\nThe word \"It\" refers to ...",
+      "prompt": "The word \"It\" refers to ...",
       "choices": [
         "The entrance",
         "The bright blue sign",
@@ -22,13 +98,15 @@
         "Meja informasi itulah yang mempunyai papan bertanda biru.",
         "School building tidak disebutkan dalam kalimat, sehingga tidak mempunyai rujukan tekstual."
       ],
-      "explanation": "“It” menggantikan satu benda, yaitu the information desk. Coba substitusi: “The information desk has a bright blue sign.” Maknanya tetap tepat."
+      "explanation": "“It” menggantikan satu benda, yaitu the information desk. Coba substitusi: “The information desk has a bright blue sign.” Maknanya tetap tepat.",
+      "passageId": "ref-context-01",
+      "evidence": "The information desk stands near the entrance. It has a bright blue sign."
     },
     {
       "id": "q2",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The reading corner has four soft chairs beside a bookshelf. They face a large window.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "Four soft chairs",
         "The reading corner",
@@ -42,13 +120,15 @@
         "Bookshelf adalah satu rak, tidak cocok sebagai rujukan jamak di sini.",
         "Window adalah objek yang dihadapi kursi, bukan subjek pengganti They."
       ],
-      "explanation": "“They” merujuk pada empat kursi (jamak). “Four soft chairs face a large window” sesuai secara jumlah maupun makna."
+      "explanation": "“They” merujuk pada empat kursi (jamak). “Four soft chairs face a large window” sesuai secara jumlah maupun makna.",
+      "passageId": "ref-context-02",
+      "evidence": "The reading corner has four soft chairs beside a bookshelf. They face a large window."
     },
     {
       "id": "q3",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The school hall contains two large doors and one wall clock. It chimes every hour.\n\nThe word \"It\" refers to ...",
+      "prompt": "The word \"It\" refers to ...",
       "choices": [
         "The school hall",
         "Two large doors",
@@ -62,13 +142,15 @@
         "Every hour adalah keterangan waktu, bukan benda yang dirujuk.",
         "Jam dinding berjumlah satu dan dapat berdentang setiap jam."
       ],
-      "explanation": "“It” mengacu pada satu jam dinding. Petunjuk makna “chimes every hour” (berdentang tiap jam) menunjukkan jam, bukan pintu atau aula."
+      "explanation": "“It” mengacu pada satu jam dinding. Petunjuk makna “chimes every hour” (berdentang tiap jam) menunjukkan jam, bukan pintu atau aula.",
+      "passageId": "ref-context-03",
+      "evidence": "The school hall contains two large doors and one wall clock. It chimes every hour."
     },
     {
       "id": "q4",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "In the art room, several easels stand beside a wooden cabinet. They hold canvases during painting lessons.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "A wooden cabinet",
         "The art room",
@@ -82,13 +164,15 @@
         "Painting lessons adalah kegiatan, bukan benda yang menyangga kanvas.",
         "Easels merupakan benda jamak yang dipakai untuk menopang kanvas."
       ],
-      "explanation": "“They” merujuk kepada several easels (beberapa penyangga kanvas). Jumlahnya jamak dan fungsinya adalah menyangga kanvas."
+      "explanation": "“They” merujuk kepada several easels (beberapa penyangga kanvas). Jumlahnya jamak dan fungsinya adalah menyangga kanvas.",
+      "passageId": "ref-context-04",
+      "evidence": "In the art room, several easels stand beside a wooden cabinet. They hold canvases during painting lessons."
     },
     {
       "id": "q5",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The museum displays three ancient masks beside two glass mirrors. They were worn during traditional ceremonies.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "Two glass mirrors",
         "Three ancient masks",
@@ -102,13 +186,15 @@
         "Museum tunggal dan merupakan tempat pameran, bukan barang yang dikenakan.",
         "Ceremonies adalah kegiatan tempat topeng dipakai, bukan objek yang dimaksud They."
       ],
-      "explanation": "Baik masks maupun mirrors berbentuk jamak, jadi jumlah saja belum cukup. Petunjuk “were worn during traditional ceremonies” menunjukkan topeng, bukan cermin."
+      "explanation": "Baik masks maupun mirrors berbentuk jamak, jadi jumlah saja belum cukup. Petunjuk “were worn during traditional ceremonies” menunjukkan topeng, bukan cermin.",
+      "passageId": "ref-context-05",
+      "evidence": "The museum displays three ancient masks beside two glass mirrors. They were worn during traditional ceremonies."
     },
     {
       "id": "q6",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "Several atlases are kept beside the reference dictionaries in the geography room. They contain detailed maps of different countries.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "The geography room",
         "The reference dictionaries",
@@ -122,13 +208,15 @@
         "Atlases adalah buku peta; ciri “detailed maps” cocok dengannya.",
         "Countries merupakan objek yang digambarkan di peta, bukan buku yang memuatnya."
       ],
-      "explanation": "“They” merujuk kepada atlases (atlas-atlas). Atlases dan dictionaries sama-sama jamak, tetapi atlaslah yang berisi peta rinci berbagai negara."
+      "explanation": "“They” merujuk kepada atlases (atlas-atlas). Atlases dan dictionaries sama-sama jamak, tetapi atlaslah yang berisi peta rinci berbagai negara.",
+      "passageId": "ref-context-06",
+      "evidence": "Several atlases are kept beside the reference dictionaries in the geography room. They contain detailed maps of different countries."
     },
     {
       "id": "q7",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The science lab has a large microscope next to a storage cabinet. It magnifies tiny cells.\n\nThe word \"It\" refers to ...",
+      "prompt": "The word \"It\" refers to ...",
       "choices": [
         "A large microscope",
         "The science lab",
@@ -142,13 +230,15 @@
         "Cells adalah objek yang diperbesar; selain itu bentuknya jamak.",
         "Cabinet dipakai untuk menyimpan barang, bukan memperbesar sel."
       ],
-      "explanation": "Walaupun cabinet berada paling dekat sebelum “It”, benda yang memperbesar sel adalah microscope. Penggantian menjadi “A large microscope magnifies tiny cells” cocok."
+      "explanation": "Walaupun cabinet berada paling dekat sebelum “It”, benda yang memperbesar sel adalah microscope. Penggantian menjadi “A large microscope magnifies tiny cells” cocok.",
+      "passageId": "ref-context-07",
+      "evidence": "The science lab has a large microscope next to a storage cabinet. It magnifies tiny cells."
     },
     {
       "id": "q8",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The school garden has five stone benches and three water fountains. They provide places for students to sit.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "Three water fountains",
         "Five stone benches",
@@ -162,13 +252,15 @@
         "Students adalah orang yang akan duduk, bukan penyedia tempat duduk dalam kalimat.",
         "Garden merupakan lokasi, bukan kelompok benda yang dimaksud oleh They."
       ],
-      "explanation": "Benches dan fountains sama-sama jamak. Gunakan makna: tempat duduk disediakan oleh benches (bangku), bukan fountains (air mancur)."
+      "explanation": "Benches dan fountains sama-sama jamak. Gunakan makna: tempat duduk disediakan oleh benches (bangku), bukan fountains (air mancur).",
+      "passageId": "ref-context-08",
+      "evidence": "The school garden has five stone benches and three water fountains. They provide places for students to sit."
     },
     {
       "id": "q9",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The school library, situated beside the teachers’ office, is always busy because it lends textbooks to students.\n\nThe word \"it\" refers to ...",
+      "prompt": "The word \"it\" refers to ...",
       "choices": [
         "The teachers’ office",
         "The students",
@@ -182,13 +274,15 @@
         "School library menjadi subjek utama dan pihak yang meminjamkan buku.",
         "Textbooks adalah benda yang dipinjamkan, bukan pihak yang meminjamkan."
       ],
-      "explanation": "Bagian “situated beside the teachers’ office” hanya menunjukkan lokasi. Subjek utama school library-lah yang meminjamkan buku pelajaran."
+      "explanation": "Bagian “situated beside the teachers’ office” hanya menunjukkan lokasi. Subjek utama school library-lah yang meminjamkan buku pelajaran.",
+      "passageId": "ref-context-09",
+      "evidence": "The school library, situated beside the teachers’ office, is always busy because it lends textbooks to students."
     },
     {
       "id": "q10",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The aquarium, located behind the souvenir shop, is famous because it houses rare freshwater fish.\n\nThe word \"it\" refers to ...",
+      "prompt": "The word \"it\" refers to ...",
       "choices": [
         "Rare freshwater fish",
         "The aquarium",
@@ -202,13 +296,15 @@
         "Area behind the shop adalah petunjuk tempat, bukan rujukan spesifik untuk it.",
         "Souvenir shop menunjukkan lokasi akuarium dan berfungsi menjual suvenir."
       ],
-      "explanation": "Souvenir shop memang lebih dekat, tetapi frasa lokasinya bukan inti kalimat. Aquarium-lah yang menampung ikan air tawar langka."
+      "explanation": "Souvenir shop memang lebih dekat, tetapi frasa lokasinya bukan inti kalimat. Aquarium-lah yang menampung ikan air tawar langka.",
+      "passageId": "ref-context-10",
+      "evidence": "The aquarium, located behind the souvenir shop, is famous because it houses rare freshwater fish."
     },
     {
       "id": "q11",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The old theater near the bus terminal remains popular because it screens documentary films every weekend.\n\nThe word \"it\" refers to ...",
+      "prompt": "The word \"it\" refers to ...",
       "choices": [
         "The old theater",
         "The bus terminal",
@@ -222,13 +318,15 @@
         "Films adalah objek yang ditayangkan, bukan pelaku penayangan.",
         "Every weekend adalah keterangan waktu, bukan rujukan kata ganti."
       ],
-      "explanation": "“It” mengacu pada theater yang memutar film. Bus terminal hanya petunjuk lokasi dan tidak otomatis menjadi jawaban karena lebih dekat."
+      "explanation": "“It” mengacu pada theater yang memutar film. Bus terminal hanya petunjuk lokasi dan tidak otomatis menjadi jawaban karena lebih dekat.",
+      "passageId": "ref-context-11",
+      "evidence": "The old theater near the bus terminal remains popular because it screens documentary films every weekend."
     },
     {
       "id": "q12",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The community greenhouse, which stands beside the sports hall, attracts visitors because it grows tropical flowers throughout the year.\n\nThe word \"it\" refers to ...",
+      "prompt": "The word \"it\" refers to ...",
       "choices": [
         "The visitors",
         "The sports hall",
@@ -242,13 +340,15 @@
         "Flowers adalah tanaman yang tumbuh, bukan fasilitas yang menumbuhkannya.",
         "Greenhouse merupakan tempat penumbuhan tanaman dan subjek utama kalimat."
       ],
-      "explanation": "Lewati sebentar klausa “which stands beside the sports hall”. Subjek utama adalah greenhouse, dan tempat itulah yang digunakan untuk menumbuhkan bunga tropis."
+      "explanation": "Lewati sebentar klausa “which stands beside the sports hall”. Subjek utama adalah greenhouse, dan tempat itulah yang digunakan untuk menumbuhkan bunga tropis.",
+      "passageId": "ref-context-12",
+      "evidence": "The community greenhouse, which stands beside the sports hall, attracts visitors because it grows tropical flowers throughout the year."
     },
     {
       "id": "q13",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The school courtyard has a colorful mural beside the drinking fountain. It shows the history of the town.\n\nThe word \"It\" refers to ...",
+      "prompt": "The word \"It\" refers to ...",
       "choices": [
         "A colorful mural",
         "The school courtyard",
@@ -262,13 +362,15 @@
         "Town adalah topik yang digambarkan, bukan lukisan yang menggambarkannya.",
         "Fountain berada di dekat mural, tetapi tidak menggambarkan sejarah kota."
       ],
-      "explanation": "Kata benda terdekat adalah fountain, tetapi sesuatu yang menggambarkan sejarah kota adalah mural (lukisan dinding)."
+      "explanation": "Kata benda terdekat adalah fountain, tetapi sesuatu yang menggambarkan sejarah kota adalah mural (lukisan dinding).",
+      "passageId": "ref-context-13",
+      "evidence": "The school courtyard has a colorful mural beside the drinking fountain. It shows the history of the town."
     },
     {
       "id": "q14",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "Several painters visited the old palace beside the river. They sketched its entrance for an hour.\n\nThe word \"They\" refers to ...",
+      "prompt": "The word \"They\" refers to ...",
       "choices": [
         "The old palace",
         "The river",
@@ -282,13 +384,15 @@
         "Entrance adalah objek yang digambar, bukan pelaku kegiatan sketsa.",
         "Para pelukislah yang membuat sketsa pintu masuk istana."
       ],
-      "explanation": "“They” merujuk pada beberapa pelukis, bukan palace atau river yang lebih dekat. Para pelukis melakukan tindakan “sketched”."
+      "explanation": "“They” merujuk pada beberapa pelukis, bukan palace atau river yang lebih dekat. Para pelukis melakukan tindakan “sketched”.",
+      "passageId": "ref-context-14",
+      "evidence": "Several painters visited the old palace beside the river. They sketched its entrance for an hour."
     },
     {
       "id": "q15",
       "questionType": "single",
       "skill": "Reference Questions",
-      "prompt": "The visitor center, across from the museum gift shop, helps tourists because it provides free maps and directions.\n\nThe word \"it\" refers to ...",
+      "prompt": "The word \"it\" refers to ...",
       "choices": [
         "Free maps and directions",
         "The visitor center",
@@ -302,7 +406,9 @@
         "Tourists adalah penerima bantuan dan berbentuk jamak.",
         "Gift shop hanya dipakai sebagai penunjuk lokasi visitor center."
       ],
-      "explanation": "Gift shop adalah petunjuk lokasi, bukan subjek utama. “The visitor center provides free maps and directions” cocok dengan fungsi pusat informasi pengunjung."
+      "explanation": "Gift shop adalah petunjuk lokasi, bukan subjek utama. “The visitor center provides free maps and directions” cocok dengan fungsi pusat informasi pengunjung.",
+      "passageId": "ref-context-15",
+      "evidence": "The visitor center, across from the museum gift shop, helps tourists because it provides free maps and directions."
     }
   ]
 }
