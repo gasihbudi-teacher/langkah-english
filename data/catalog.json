@@ -5535,6 +5535,41 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 15
+    },
+    {
+      "id": "grade12-sas-descriptive-main-idea-2",
+      "title": "12 - Descriptive Text - 2 - Find the Main Idea",
+      "description": "Latihan bertahap SAS Bahasa Inggris Kelas 12 Semester 1: 15 soal main idea berbasis paragraf deskriptif orisinal, dari teks singkat hingga bacaan lebih kompleks, dengan penjelasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Descriptive Text",
+        "Find the Main Idea",
+        "Main Idea",
+        "Progressive Practice",
+        "original practice"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade12-sas-descriptive-main-idea-2.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "estimatedMinutes": 25
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

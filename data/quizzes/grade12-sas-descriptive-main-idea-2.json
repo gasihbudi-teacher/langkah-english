@@ -1,0 +1,414 @@
+{
+  "id": "grade12-sas-descriptive-main-idea-2",
+  "questionCount": 15,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "text-01",
+      "title": "Descriptive Text 01",
+      "text": "The art room has large tables, jars of paint, and shelves of paper. Students use the room to draw, paint, and make posters."
+    },
+    {
+      "id": "text-02",
+      "title": "Descriptive Text 02",
+      "text": "Behind the school, a small pond has clear water and green plants. Fish swim below the leaves, and birds often stop at its edge."
+    },
+    {
+      "id": "text-03",
+      "title": "Descriptive Text 03",
+      "text": "The new bus stop has a long roof, comfortable seats, and a clear route map. Passengers can wait out of the rain and check where their buses go."
+    },
+    {
+      "id": "text-04",
+      "title": "Descriptive Text 04",
+      "text": "The town library has books in two languages. It also has a reading corner for children and quiet desks for students. People of different ages use it every day."
+    },
+    {
+      "id": "text-05",
+      "title": "Descriptive Text 05",
+      "text": "A small public playground stands between two apartment buildings. It has swings for children, a walking path, and benches for adults. In the evening, neighbours gather there to spend time together."
+    },
+    {
+      "id": "text-06",
+      "title": "Descriptive Text 06",
+      "text": "At the community herb garden, small labels name each plant and describe its everyday uses. Volunteers show visitors how to care for the herbs, while families walk between the planting beds. Some school groups come with notebooks to record what they learn."
+    },
+    {
+      "id": "text-07",
+      "title": "Descriptive Text 07",
+      "text": "The pottery workshop is housed in an old warehouse. Bright shelves hold bowls and cups made by local artists. Behind a glass wall, visitors can watch the artists shape wet clay and paint finished pieces. On weekends, short classes allow visitors to try making simple pottery themselves."
+    },
+    {
+      "id": "text-08",
+      "title": "Descriptive Text 08",
+      "text": "Although surrounded by busy roads, Merdeka Square feels calm inside. Tall trees shade its walking paths, and a low fountain softens the sound of traffic. Office workers sit on benches during lunch, while children walk with their families in the late afternoon."
+    },
+    {
+      "id": "text-09",
+      "title": "Descriptive Text 09",
+      "text": "The seafood market near the harbor begins its activities before sunrise. Fishers carry fresh catches to open stalls, and buyers compare the fish, prawns, and crabs on display. Nearby food sellers prepare simple breakfasts for workers. By seven o'clock, the narrow lanes are crowded with people buying, selling, and eating."
+    },
+    {
+      "id": "text-10",
+      "title": "Descriptive Text 10",
+      "text": "The old stone bridge crosses a shallow river at the edge of town. Its original arches remain, but a new walkway and handrails make it safer for pedestrians. Information boards explain how traders used the bridge a century ago. Today, local residents cross it daily, while visitors stop to learn about its history."
+    },
+    {
+      "id": "text-11",
+      "title": "Descriptive Text 11",
+      "text": "At the edge of the school grounds, an unused water tower has been converted into a small astronomy centre. The lower room contains models of planets and a collection of student-made star charts. Upstairs, a telescope points toward the night sky. Science classes use the centre during the day, and local families join supervised sky-watching sessions on selected evenings. Although the tower's brick exterior remains unchanged, its interior now supports activities the building was never originally designed for."
+    },
+    {
+      "id": "text-12",
+      "title": "Descriptive Text 12",
+      "text": "In the centre of town stands the Amerta Theatre, built in the 1930s. During a recent restoration, workers repaired the faded ceiling paintings and kept the original wooden seats in the front rows. New lighting and safer exits were added without changing the shape of the main hall. The theatre now hosts school plays, traditional dance performances, and weekend concerts. Visitors who arrive early can also view photographs showing the building at different points in its history."
+    },
+    {
+      "id": "text-13",
+      "title": "Descriptive Text 13",
+      "text": "Along the northern coast, a raised wooden boardwalk winds through a strip of mangrove trees. At high tide, water covers the roots, while small fish move among them. Information signs describe how mangroves provide shelter for marine life and help reduce the force of waves. Several viewing platforms allow visitors to observe birds without entering the muddy ground below. Local guides sometimes lead students along the path, pointing out changes between the wet and dry seasons. The boardwalk makes an otherwise difficult environment easier to explore while keeping visitors on a designated route."
+    },
+    {
+      "id": "text-14",
+      "title": "Descriptive Text 14",
+      "text": "The village weaving studio opens onto a courtyard where bundles of cotton thread hang in the shade. Inside, older artisans work at wooden looms, producing cloth with patterns passed down through their families. Apprentices sit nearby, learning how to prepare dyes and tighten the threads. A small display area explains the meaning of the traditional patterns, and visitors can purchase finished cloth directly from the makers. The steady sound of the looms continues throughout the day as experienced and younger weavers work side by side."
+    },
+    {
+      "id": "text-15",
+      "title": "Descriptive Text 15",
+      "text": "Five years ago, a section of the riverbank behind the market was covered by an abandoned parking area. Today, a narrow public park follows the curve of the water. Rain gardens collect runoff from nearby streets, and native grasses grow between the walking paths. Small signs explain why the vegetation is left tall in some places. Commuters use the path as a shortcut in the morning, while residents sit near the river after work. Parts of the old pavement remain visible beneath the new benches, reminding visitors of the site's former use. Although the park is modest in size, it connects the market, the bus terminal, and several neighbourhood streets."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "text-01",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The art room has shelves for storing paper.",
+        "The art room helps students create different kinds of artwork.",
+        "Painting is the most popular activity in the art room.",
+        "Students clean the art room after their lessons."
+      ],
+      "answer": 1,
+      "evidence": "Students use the room to draw, paint, and make posters.",
+      "explanation": "Teks menjelaskan ruang seni sebagai tempat siswa menggambar, melukis, dan membuat poster. Ide utama harus mencakup berbagai kegiatan seni tersebut, bukan hanya satu perlengkapan atau kegiatan.",
+      "choiceExplanations": [
+        "Ini hanya satu detail tentang perlengkapan ruang seni, bukan fungsi utama ruangan secara keseluruhan.",
+        "Teks menjelaskan ruang seni sebagai tempat siswa menggambar, melukis, dan membuat poster. Ide utama harus mencakup berbagai kegiatan seni tersebut, bukan hanya satu perlengkapan atau kegiatan.",
+        "Teks memang menyebut melukis, tetapi tidak mengatakan kegiatan itu paling populer.",
+        "Teks tidak menyebut kegiatan membersihkan ruang seni."
+      ]
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "text-02",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The pond is located behind the school.",
+        "Fish are easier to see than birds near the pond.",
+        "The pond is home to different plants and animals.",
+        "Birds often visit the edge of the pond."
+      ],
+      "answer": 2,
+      "evidence": "a small pond has clear water and green plants. Fish swim below the leaves, and birds often stop at its edge.",
+      "explanation": "Paragraf menggambarkan kolam beserta tumbuhan hijau, ikan, dan burung. Keseluruhan rincian itu mendukung gagasan bahwa kolam menjadi tempat hidup berbagai tumbuhan dan hewan.",
+      "choiceExplanations": [
+        "Letak di belakang sekolah hanyalah informasi lokasi.",
+        "Teks tidak membandingkan kemudahan melihat ikan dengan melihat burung.",
+        "Paragraf menggambarkan kolam beserta tumbuhan hijau, ikan, dan burung. Keseluruhan rincian itu mendukung gagasan bahwa kolam menjadi tempat hidup berbagai tumbuhan dan hewan.",
+        "Kunjungan burung adalah satu detail, belum mencakup tumbuhan dan ikan."
+      ]
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "text-03",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "Passengers can read a route map at the bus stop.",
+        "New buses will arrive faster than older buses.",
+        "Heavy rain is a common problem in the town.",
+        "The new bus stop makes waiting and finding bus routes easier."
+      ],
+      "answer": 3,
+      "evidence": "Passengers can wait out of the rain and check where their buses go.",
+      "explanation": "Atap dan tempat duduk membuat menunggu lebih nyaman, sedangkan peta membantu penumpang mengetahui rute. Jawaban yang mencakup kedua manfaat tersebut merupakan ide utama.",
+      "choiceExplanations": [
+        "Peta rute memang disebut, tetapi hanya satu dari beberapa fasilitas dan manfaat.",
+        "Tidak ada informasi bahwa bus baru datang lebih cepat.",
+        "Teks menyebut perlindungan dari hujan, bukan frekuensi hujan di kota.",
+        "Atap dan tempat duduk membuat menunggu lebih nyaman, sedangkan peta membantu penumpang mengetahui rute. Jawaban yang mencakup kedua manfaat tersebut merupakan ide utama."
+      ]
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "text-04",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The library provides reading resources and spaces for different people.",
+        "The library keeps books in two different languages.",
+        "Children visit the library more frequently than students.",
+        "The library is designed only for students."
+      ],
+      "answer": 0,
+      "evidence": "It also has a reading corner for children and quiet desks for students. People of different ages use it every day.",
+      "explanation": "Perpustakaan menyediakan buku dan ruang membaca untuk pengguna dengan kebutuhan serta usia berbeda. Itu merangkum keseluruhan deskripsi.",
+      "choiceExplanations": [
+        "Perpustakaan menyediakan buku dan ruang membaca untuk pengguna dengan kebutuhan serta usia berbeda. Itu merangkum keseluruhan deskripsi.",
+        "Keberadaan buku dalam dua bahasa benar, tetapi hanya satu rincian.",
+        "Teks tidak membandingkan frekuensi kunjungan anak dan siswa.",
+        "Teks menyebut anak-anak dan orang dari berbagai usia, bukan siswa saja."
+      ]
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "text-05",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The playground has benches beside the children's swings.",
+        "Walking is the most popular activity at the playground.",
+        "The playground provides a shared space for play and community activities.",
+        "Children prefer visiting the playground in the evening."
+      ],
+      "answer": 2,
+      "evidence": "It has swings for children, a walking path, and benches for adults. In the evening, neighbours gather there to spend time together.",
+      "explanation": "Paragraf memadukan fasilitas bermain dan berjalan dengan kegiatan berkumpul warga. Ide utamanya adalah taman bermain sebagai ruang bersama untuk rekreasi dan kegiatan sosial.",
+      "choiceExplanations": [
+        "Teks menyebut bangku dan ayunan, tetapi tidak mengatakan keduanya berdampingan; ini juga terlalu sempit.",
+        "Tidak ada pernyataan tentang aktivitas yang paling populer.",
+        "Paragraf memadukan fasilitas bermain dan berjalan dengan kegiatan berkumpul warga. Ide utamanya adalah taman bermain sebagai ruang bersama untuk rekreasi dan kegiatan sosial.",
+        "Teks menyebut tetangga berkumpul pada malam hari, bukan preferensi waktu kunjungan anak."
+      ]
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "text-06",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The herb garden helps visitors learn about plants through displays and activities.",
+        "The labels in the garden explain the uses of different herbs.",
+        "The garden grows herbs mainly to sell to weekend visitors.",
+        "School groups are responsible for caring for all the herbs."
+      ],
+      "answer": 0,
+      "evidence": "small labels name each plant and describe its everyday uses. Volunteers show visitors how to care for the herbs, while families walk between the planting beds. Some school groups come with notebooks to record what they learn.",
+      "explanation": "Label tanaman, demonstrasi relawan, dan catatan kelompok sekolah sama-sama menunjukkan fungsi kebun sebagai tempat belajar tentang tanaman herbal.",
+      "choiceExplanations": [
+        "Label tanaman, demonstrasi relawan, dan catatan kelompok sekolah sama-sama menunjukkan fungsi kebun sebagai tempat belajar tentang tanaman herbal.",
+        "Ini benar sebagai satu detail, tetapi tidak mencakup kegiatan relawan dan siswa.",
+        "Teks tidak menyebut penjualan sebagai tujuan kebun.",
+        "Teks menyebut kelompok sekolah mencatat pembelajaran, bukan bertanggung jawab atas seluruh tanaman."
+      ]
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "text-07",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The pottery workshop displays bowls and cups made by local artists.",
+        "The pottery workshop lets visitors observe and experience pottery making.",
+        "Local artists produce pottery only during weekend classes.",
+        "The old warehouse is used mainly to store finished pottery."
+      ],
+      "answer": 1,
+      "evidence": "visitors can watch the artists shape wet clay and paint finished pieces. On weekends, short classes allow visitors to try making simple pottery themselves.",
+      "explanation": "Pengunjung bisa menyaksikan pembuat tembikar bekerja dan mencoba membuatnya sendiri. Kedua pengalaman itu merupakan pokok deskripsi bengkel.",
+      "choiceExplanations": [
+        "Pajangan mangkuk dan cangkir adalah salah satu fitur bengkel saja.",
+        "Pengunjung bisa menyaksikan pembuat tembikar bekerja dan mencoba membuatnya sendiri. Kedua pengalaman itu merupakan pokok deskripsi bengkel.",
+        "Tidak ada keterangan bahwa perajin bekerja hanya saat kelas akhir pekan.",
+        "Gudang lama menjadi tempat bengkel aktif, tidak hanya untuk penyimpanan."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "text-08",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "Office workers visit Merdeka Square during their lunch breaks.",
+        "The fountain is the most important landmark in Merdeka Square.",
+        "Tall trees provide shade along the square's walking paths.",
+        "Merdeka Square offers a peaceful place within a busy urban area."
+      ],
+      "answer": 3,
+      "evidence": "Although surrounded by busy roads, Merdeka Square feels calm inside. Tall trees shade its walking paths, and a low fountain softens the sound of traffic.",
+      "explanation": "Kontras antara jalan yang ramai dan area alun-alun yang tenang merupakan gagasan yang merangkum pepohonan, air mancur, dan kegiatan pengunjung.",
+      "choiceExplanations": [
+        "Kunjungan pekerja kantor adalah salah satu contoh penggunaan alun-alun.",
+        "Teks tidak mengurutkan landmark berdasarkan tingkat kepentingannya.",
+        "Ketimbunan pohon merupakan satu pendukung suasana tenang.",
+        "Kontras antara jalan yang ramai dan area alun-alun yang tenang merupakan gagasan yang merangkum pepohonan, air mancur, dan kegiatan pengunjung."
+      ]
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "text-09",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "Fishers bring fresh seafood to the market early in the morning.",
+        "Food sellers play a more important role than seafood sellers.",
+        "The harbor market is a busy centre of early-morning trade and activity.",
+        "Most seafood is purchased by restaurants outside the town."
+      ],
+      "answer": 2,
+      "evidence": "Fishers carry fresh catches to open stalls, and buyers compare the fish, prawns, and crabs on display. Nearby food sellers prepare simple breakfasts for workers. By seven o'clock, the narrow lanes are crowded with people buying, selling, and eating.",
+      "explanation": "Aktivitas nelayan, pembeli, dan penjual makanan menggambarkan pasar yang sibuk sejak pagi. Jawaban ini mencakup seluruh kegiatan tersebut.",
+      "choiceExplanations": [
+        "Kedatangan nelayan adalah satu bagian dari keramaian pasar.",
+        "Teks tidak mengatakan penjual makanan lebih penting daripada penjual seafood.",
+        "Aktivitas nelayan, pembeli, dan penjual makanan menggambarkan pasar yang sibuk sejak pagi. Jawaban ini mencakup seluruh kegiatan tersebut.",
+        "Teks tidak menjelaskan mayoritas pembeli berasal dari restoran di luar kota."
+      ]
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "text-10",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The old bridge preserves its historical character while serving modern needs.",
+        "Information boards explain the history of trade across the bridge.",
+        "The bridge's original arches have been replaced with modern structures.",
+        "The stone bridge has become a place used only by tourists."
+      ],
+      "answer": 0,
+      "evidence": "Its original arches remain, but a new walkway and handrails make it safer for pedestrians. Information boards explain how traders used the bridge a century ago. Today, local residents cross it daily, while visitors stop to learn about its history.",
+      "explanation": "Lengkung asli serta penjelasan sejarah mempertahankan nilai lama jembatan, sedangkan jalur dan pegangan baru mendukung pemakaian sehari-hari. Ide utamanya menggabungkan keduanya.",
+      "choiceExplanations": [
+        "Lengkung asli serta penjelasan sejarah mempertahankan nilai lama jembatan, sedangkan jalur dan pegangan baru mendukung pemakaian sehari-hari. Ide utamanya menggabungkan keduanya.",
+        "Papan informasi memang memuat sejarah, tetapi tidak mencakup penggunaan modern jembatan.",
+        "Teks secara jelas mengatakan lengkung aslinya masih ada.",
+        "Penduduk lokal masih melintasinya setiap hari, bukan wisatawan saja."
+      ]
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "text-11",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The preservation of a water tower's original brick design.",
+        "The collection of student-made astronomy models and charts.",
+        "The advantages of observing the night sky using a telescope.",
+        "The transformation of a water tower into a community learning space."
+      ],
+      "answer": 3,
+      "evidence": "an unused water tower has been converted into a small astronomy centre. The lower room contains models of planets and a collection of student-made star charts. Upstairs, a telescope points toward the night sky. Science classes use the centre during the day, and local families join supervised sky-watching sessions on selected evenings.",
+      "explanation": "Menara air yang tak digunakan diubah menjadi pusat astronomi bagi kelas sains dan keluarga setempat. Jawaban itu merangkum alih fungsi serta manfaat pendidikannya.",
+      "choiceExplanations": [
+        "Eksterior bata tetap dipertahankan, tetapi fokusnya justru perubahan fungsi bangunan.",
+        "Model dan bagan bintang hanya bagian dari fasilitas pusat astronomi.",
+        "Teleskop adalah salah satu peralatan; teks tidak membahas kelebihannya secara rinci.",
+        "Menara air yang tak digunakan diubah menjadi pusat astronomi bagi kelas sains dan keluarga setempat. Jawaban itu merangkum alih fungsi serta manfaat pendidikannya."
+      ]
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "text-12",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The replacement of the theatre's historic interior with modern facilities.",
+        "The preservation of the theatre's heritage alongside its continued cultural use.",
+        "The growing popularity of weekend performances at the town theatre.",
+        "The collection of historical photographs displayed before theatre performances."
+      ],
+      "answer": 1,
+      "evidence": "workers repaired the faded ceiling paintings and kept the original wooden seats in the front rows. New lighting and safer exits were added without changing the shape of the main hall. The theatre now hosts school plays, traditional dance performances, and weekend concerts.",
+      "explanation": "Restorasi menjaga unsur sejarah teater sekaligus memungkinkan kegiatan seni kontemporer. Jawaban yang menyatukan pelestarian dan pemanfaatan budaya paling mewakili isi teks.",
+      "choiceExplanations": [
+        "Bagian-bagian lama diperbaiki dan dipertahankan, bukan seluruhnya diganti.",
+        "Restorasi menjaga unsur sejarah teater sekaligus memungkinkan kegiatan seni kontemporer. Jawaban yang menyatukan pelestarian dan pemanfaatan budaya paling mewakili isi teks.",
+        "Teks menyebut konser akhir pekan tetapi tidak menyatakan popularitasnya meningkat.",
+        "Foto sejarah hanyalah satu daya tarik tambahan bagi pengunjung."
+      ]
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "text-13",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The mangrove boardwalk allows visitors to explore and learn about a coastal ecosystem.",
+        "The viewing platforms provide opportunities to observe coastal birds.",
+        "The boardwalk provides a convenient route to nearby fishing boats.",
+        "Seasonal changes affect the water levels around mangrove roots."
+      ],
+      "answer": 0,
+      "evidence": "Information signs describe how mangroves provide shelter for marine life and help reduce the force of waves. Several viewing platforms allow visitors to observe birds without entering the muddy ground below. Local guides sometimes lead students along the path, pointing out changes between the wet and dry seasons. The boardwalk makes an otherwise difficult environment easier to explore while keeping visitors on a designated route.",
+      "explanation": "Papan informasi, pemandu, dan jalur berpapan bersama-sama membantu pengunjung menjelajahi serta mempelajari ekosistem bakau. Jawaban ini mencakup fungsi akses dan pendidikan.",
+      "choiceExplanations": [
+        "Papan informasi, pemandu, dan jalur berpapan bersama-sama membantu pengunjung menjelajahi serta mempelajari ekosistem bakau. Jawaban ini mencakup fungsi akses dan pendidikan.",
+        "Pengamatan burung hanyalah salah satu kegiatan yang dimungkinkan oleh jalur.",
+        "Teks tidak menyebut akses menuju perahu nelayan.",
+        "Perubahan musiman disebut sebagai bahan belajar, bukan pesan utama keseluruhan paragraf."
+      ]
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "text-14",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The arrangement of weaving equipment inside a traditional village studio.",
+        "The opportunity for visitors to purchase handmade cloth from local artisans.",
+        "The studio's role in producing, teaching, and sharing traditional weaving.",
+        "The preference of young apprentices for traditional rather than modern materials."
+      ],
+      "answer": 2,
+      "evidence": "older artisans work at wooden looms, producing cloth with patterns passed down through their families. Apprentices sit nearby, learning how to prepare dyes and tighten the threads. A small display area explains the meaning of the traditional patterns, and visitors can purchase finished cloth directly from the makers.",
+      "explanation": "Studio ini menjadi tempat produksi tenun, pembelajaran bagi calon perajin, dan pengenalan hasil serta pola tradisional kepada pengunjung. Ketiganya dirangkum oleh jawaban utama.",
+      "choiceExplanations": [
+        "Susunan alat tenun hanya sebagian dari isi deskripsi.",
+        "Penjualan kain kepada pengunjung adalah satu kegiatan, bukan keseluruhan fungsi studio.",
+        "Studio ini menjadi tempat produksi tenun, pembelajaran bagi calon perajin, dan pengenalan hasil serta pola tradisional kepada pengunjung. Ketiganya dirangkum oleh jawaban utama.",
+        "Teks tidak membahas preferensi para magang terhadap bahan tradisional versus modern."
+      ]
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "text-15",
+      "skill": "Main Idea",
+      "prompt": "What is the main idea of the paragraph?",
+      "choices": [
+        "The park's role in connecting several streets and transport facilities.",
+        "The problems caused by an abandoned parking area near the river.",
+        "The transformation of the riverbank into a new commercial shopping area.",
+        "The redevelopment of a former parking area into a useful and environmentally supportive public space."
+      ],
+      "answer": 3,
+      "evidence": "Today, a narrow public park follows the curve of the water. Rain gardens collect runoff from nearby streets, and native grasses grow between the walking paths. Small signs explain why the vegetation is left tall in some places. Commuters use the path as a shortcut in the morning, while residents sit near the river after work.",
+      "explanation": "Bekas area parkir menjadi ruang publik dengan fungsi lingkungan (taman hujan dan rumput asli) serta fungsi sosial dan mobilitas warga. Itulah gagasan utama yang menyatukan perubahan dan manfaatnya.",
+      "choiceExplanations": [
+        "Konektivitas merupakan satu manfaat taman, tetapi tidak mencakup pengelolaan air maupun ruang publik.",
+        "Teks tidak merinci masalah yang disebabkan area parkir lama.",
+        "Teks menyatakan lahannya menjadi taman publik, bukan pusat belanja baru.",
+        "Bekas area parkir menjadi ruang publik dengan fungsi lingkungan (taman hujan dan rumput asli) serta fungsi sosial dan mobilitas warga. Itulah gagasan utama yang menyatukan perubahan dan manfaatnya."
+      ]
+    }
+  ]
+}
