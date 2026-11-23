@@ -673,6 +673,7 @@ body {
 }
 .nav-search:hover, .nav .nav-toggle:hover:not(:disabled) { background: var(--mint); color: var(--ink); }
 
+[data-track=text-based], [data-pathway=text-based] { --track: #20554a; --wash: #e5f3ee; }
 [data-track=grammar], [data-pathway=grammar] { --track: #283974; --wash: #EDF0FD; --tile: #B8C8FA; }
 [data-track=school], [data-pathway=school] { --track: #50356A; --wash: #F7ECFA; --tile: #E7A8F8; }
 [data-track=utbk], [data-pathway=utbk] { --track: #554311; --wash: #FCF4D8; --tile: #F2C94C; }

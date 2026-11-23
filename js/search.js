@@ -4,7 +4,7 @@ import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 const input = document.querySelector('#search-input');
 const results = document.querySelector('#search-results');
-const pathKeys = {grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas'};
+const pathKeys = {grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas','text-based':'navTextBased'};
 const featuredIds = ['parts-of-speech','simple-present','reading-bridge','grade12-adverbial-phrase-vs-clause','utbk-critical-inference','grammar-diagnostic'];
 
 try {

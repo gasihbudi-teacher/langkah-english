@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "pathways": [
     {
+      "id": "text-based",
+      "title": "Soal Berbasis Teks"
+    },
+    {
       "id": "sas",
       "title": "Persiapan SAS"
     },
@@ -96,6 +100,35 @@
     ]
   },
   "resources": [
+    {
+      "id": "text-central-meaning-l1",
+      "title": "Gagasan Utama Teks · Level 1",
+      "description": "20 latihan singkat untuk menemukan topik, judul, dan gagasan utama bacaan bahasa Inggris.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "central-meaning",
+          "level": 1
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "reading",
+        "text-based",
+        "main-idea",
+        "pre-a1"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-central-meaning-l1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice"
+    },
     {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",

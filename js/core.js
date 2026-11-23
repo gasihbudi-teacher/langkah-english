@@ -116,7 +116,7 @@ export function icon(name) {
 }
 
 export function pathIllustration(path) {
-  return `<svg class="path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#${esc(path==="sas"?"school":path)}"/></svg>`;
+  return `<svg class="path-art" viewBox="0 0 140 88" aria-hidden="true"><use href="assets/pathways.svg#${esc(path==="sas"?"school":path==="text-based"?"utbk":path)}"/></svg>`;
 }
 
 export function resourceStatus(resource, record, drafts) {
