@@ -1,0 +1,429 @@
+{
+  "id": "text-central-meaning-l2",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "l2-p01",
+      "title": "1",
+      "text": "Lina and her brother have a small garden behind their house. They grow tomatoes and green beans. Every afternoon, they give the plants water."
+    },
+    {
+      "id": "l2-p02",
+      "title": "2",
+      "text": "NOTICE\nThe music room is open after school on Wednesday. Students can sing or play easy songs there. You can bring a notebook. New students are welcome."
+    },
+    {
+      "id": "l2-p03",
+      "title": "3",
+      "text": "To: Deni\nFrom: Arif\n\nHi Deni,\nMy family is at my aunt's house this weekend. We cook together and play games. The children help set the table. I am having a good time.\nArif"
+    },
+    {
+      "id": "l2-p04",
+      "title": "4",
+      "text": "Near our school, there is a small food shop. It opens early, and people stop there on the way to work. The shop sells bread, fruit, and drinks. My mother buys milk there."
+    },
+    {
+      "id": "l2-p05",
+      "title": "5",
+      "text": "Last Saturday, Emi and her cousin went to a lake. They walked near the water and watched birds. They took photos and ate sandwiches before going home."
+    },
+    {
+      "id": "l2-p06",
+      "title": "6",
+      "text": "NOTICE\nCome to Room 3 on Friday at 3 p.m. We will make small cards for our teachers. Paper and colored pencils are on the table. You can bring a friend."
+    },
+    {
+      "id": "l2-p07",
+      "title": "7",
+      "text": "On Monday, our class visited a farm. We saw cows and chickens. A farmer showed us how to give food to the animals. We asked questions and went back to school before lunch."
+    },
+    {
+      "id": "l2-p08",
+      "title": "8",
+      "text": "In the morning, the beach is quiet. Some people walk near the sea. At noon, more families come. Children play in the sand, and parents sit under umbrellas. In the evening, the beach is quiet again."
+    },
+    {
+      "id": "l2-p09",
+      "title": "9",
+      "text": "Hi Sinta,\nI cannot meet you at the park today. My little brother is sick, so I need to stay home with him. Can we play tomorrow afternoon instead? Please send me a message.\nMaya"
+    },
+    {
+      "id": "l2-p10",
+      "title": "10",
+      "text": "Wash two tomatoes. Cut them into small pieces. Put the pieces in a bowl with rice. Mix them, then add a little salt. Your food is ready to eat."
+    },
+    {
+      "id": "l2-p11",
+      "title": "11",
+      "text": "To: Nisa\nFrom: Rani\n\nHi Nisa,\nI usually walk to school, but this week I take the bus. The road near my home is closed because workers are fixing it. I will walk again when the road opens.\nSee you tomorrow!\nRani"
+    },
+    {
+      "id": "l2-p12",
+      "title": "12",
+      "text": "On Saturdays, many people visit the town hall. In the morning, children come to draw pictures. After lunch, older students practice music. In the evening, parents meet there to talk. People come for many reasons."
+    },
+    {
+      "id": "l2-p13",
+      "title": "13",
+      "text": "Yesterday, our class wanted to play football outside. It started raining, so our teacher took us to the hall. We played a word game and worked in small teams. We still had a fun afternoon, even without football."
+    },
+    {
+      "id": "l2-p14",
+      "title": "14",
+      "text": "NOTICE\nThe school shop will not open on Monday because the worker is away. Students can buy pencils and notebooks on Tuesday morning. If you need something on Monday, ask your teacher for help."
+    },
+    {
+      "id": "l2-p15",
+      "title": "15",
+      "text": "There is a little park next to our apartment. On weekdays, people walk there before work. On weekends, families bring food and children play. We go there when we want to rest outside. Many people enjoy this park."
+    },
+    {
+      "id": "l2-p16",
+      "title": "16",
+      "text": "On Friday, our class wanted to clean the school yard. At first, only four students came. We thought the job would take all afternoon. Then more classmates arrived with bags and gloves. Some picked up paper, and others moved dry leaves. We finished before lunch. The yard looked better, and we were happy because we worked together."
+    },
+    {
+      "id": "l2-p17",
+      "title": "17",
+      "text": "Hi Beni,\nI wanted to cook dinner for my family on Sunday, but we had no eggs. I went to the shop, but it was closed. My sister helped me choose another meal. We made vegetable soup and ate it with bread. Everyone enjoyed dinner. I learned that changing a plan can be okay.\nRaka"
+    },
+    {
+      "id": "l2-p18",
+      "title": "18",
+      "text": "Last month, our school library had only six chairs. Teachers moved some books and added two long tables. Students can now sit together to read and do homework. The books are still the same, but more students come after class. The room is easier to use, and many students like the change."
+    },
+    {
+      "id": "l2-p19",
+      "title": "19",
+      "text": "NOTICE\nStarting next week, the art club will meet on Thursday, not Tuesday. The art room is busy on Tuesdays now. The club will still start at three o’clock, and students should bring their pencils and paper. Please tell your friends about the change."
+    },
+    {
+      "id": "l2-p20",
+      "title": "20",
+      "text": "After school, Fadil saw his neighbor near the gate with two heavy bags. She tried to carry both, but one fell to the ground. Fadil picked it up and carried it to her door. His neighbor smiled and thanked him. The next day, she gave him a small card that said, 'Thank you for helping.' Fadil felt happy because he made her day easier."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "l2-p01",
+      "prompt": "What is the text about?",
+      "choices": [
+        "Buying food for dinner",
+        "Taking care of plants at home",
+        "Giving plants water in the afternoon",
+        "Playing games with a brother"
+      ],
+      "answer": 1,
+      "evidence": "They grow tomatoes and green beans. Every afternoon, they give the plants water.",
+      "explanation": "B mencakup kegiatan menanam dan merawat tanaman di rumah; C hanya menyebut kegiatan menyiram.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "l2-p02",
+      "prompt": "What is the text mainly about?",
+      "choices": [
+        "Bringing a notebook on Wednesday",
+        "Singing in the music room",
+        "Music activities after school",
+        "New students in the music room"
+      ],
+      "answer": 2,
+      "evidence": "The music room is open after school on Wednesday. Students can sing or play easy songs there.",
+      "explanation": "C meliputi kegiatan bernyanyi dan bermain musik; B dan D hanya membahas sebagian isi pengumuman.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "l2-p03",
+      "prompt": "What is the text about?",
+      "choices": [
+        "Helping set a table",
+        "A new house for Arif",
+        "Going to school with family",
+        "Spending time with family"
+      ],
+      "answer": 3,
+      "evidence": "My family is at my aunt's house this weekend. We cook together and play games.",
+      "explanation": "D mencakup beberapa kegiatan keluarga selama akhir pekan; A hanya satu kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "l2-p04",
+      "prompt": "What is the text mainly about?",
+      "choices": [
+        "A shop where people buy food",
+        "My mother buying milk at the shop",
+        "People stopping before work",
+        "Food at the school kitchen"
+      ],
+      "answer": 0,
+      "evidence": "The shop sells bread, fruit, and drinks. My mother buys milk there.",
+      "explanation": "A menggambarkan fungsi toko secara umum; B dan C hanya menyebut rincian yang ada di bacaan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "l2-p05",
+      "prompt": "What is the text about?",
+      "choices": [
+        "Watching birds by the lake",
+        "A school trip to the lake",
+        "A day out by the lake",
+        "Eating sandwiches during the trip"
+      ],
+      "answer": 2,
+      "evidence": "Last Saturday, Emi and her cousin went to a lake. They walked near the water and watched birds. They took photos and ate sandwiches before going home.",
+      "explanation": "C mencakup seluruh kunjungan ke danau; A dan D hanya kegiatan tertentu.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "l2-p06",
+      "prompt": "Which title is best for this notice?",
+      "choices": [
+        "A Friday Meeting in Room 3",
+        "Making Cards Together",
+        "Paper and Colored Pencils",
+        "A Visit from Teachers"
+      ],
+      "answer": 1,
+      "evidence": "We will make small cards for our teachers. Paper and colored pencils are on the table. You can bring a friend.",
+      "explanation": "B mencakup kegiatan utama yang diumumkan; A hanya menyoroti waktu dan tempat, sedangkan C menyebut alat.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "l2-p07",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "Our class learned about animals on a farm",
+        "Our class went back before lunch",
+        "A farmer took the animals to school",
+        "We learned how to cook at the farm"
+      ],
+      "answer": 0,
+      "evidence": "We saw cows and chickens. A farmer showed us how to give food to the animals.",
+      "explanation": "A mencakup kegiatan melihat hewan, belajar memberi makan, dan bertanya; B hanya rincian waktu.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "l2-p08",
+      "prompt": "Which title fits the whole text?",
+      "choices": [
+        "Families at the Beach",
+        "A Quiet Evening",
+        "Walking Near the Sea",
+        "A Day at the Beach"
+      ],
+      "answer": 3,
+      "evidence": "In the morning, the beach is quiet. Some people walk near the sea. At noon, more families come. Children play in the sand, and parents sit under umbrellas. In the evening, the beach is quiet again.",
+      "explanation": "D mencakup perubahan kegiatan sepanjang hari; A, B, dan C masing-masing hanya mengambil sebagian waktu atau kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "l2-p09",
+      "prompt": "What is the main idea of the message?",
+      "choices": [
+        "Maya wants to play another day",
+        "Maya’s little brother is sick",
+        "Maya is at the park today",
+        "Sinta has already sent a message"
+      ],
+      "answer": 0,
+      "evidence": "I cannot meet you at the park today. My little brother is sick, so I need to stay home with him. Can we play tomorrow afternoon instead?",
+      "explanation": "A merangkum perubahan rencana bermain; B benar tetapi hanya alasan perubahan itu.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "l2-p10",
+      "prompt": "Which title is best?",
+      "choices": [
+        "Why Tomatoes Are Red",
+        "How to Cut Tomatoes",
+        "Making a Simple Meal",
+        "Buying Food for Dinner"
+      ],
+      "answer": 2,
+      "evidence": "Put the pieces in a bowl with rice. Mix them, then add a little salt. Your food is ready to eat.",
+      "explanation": "C mencakup semua langkah menyiapkan makanan; B hanya salah satu langkah.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "l2-p11",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "Workers are fixing a road",
+        "Rani is using the bus for a short time",
+        "Rani likes buses more than walking",
+        "Rani cannot go to school this week"
+      ],
+      "answer": 1,
+      "evidence": "I usually walk to school, but this week I take the bus. The road near my home is closed because workers are fixing it. I will walk again when the road opens.",
+      "explanation": "B merangkum perubahan sementara cara Rani ke sekolah; A hanya menjelaskan penyebabnya.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "l2-p12",
+      "prompt": "Which title is best?",
+      "choices": [
+        "Drawing Pictures on Saturday",
+        "Parents Meet in the Evening",
+        "A Music Room for Students",
+        "Different Activities at the Town Hall"
+      ],
+      "answer": 3,
+      "evidence": "In the morning, children come to draw pictures. After lunch, older students practice music. In the evening, parents meet there to talk.",
+      "explanation": "D mencakup tiga kegiatan untuk kelompok berbeda; A dan B hanya mengambil satu kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "l2-p13",
+      "prompt": "Which sentence best tells the whole text?",
+      "choices": [
+        "The class changed its plan because of rain and still had fun.",
+        "It started raining during a football game.",
+        "The class played a word game in the hall.",
+        "The class learned new words outside."
+      ],
+      "answer": 0,
+      "evidence": "It started raining, so our teacher took us to the hall. We played a word game and worked in small teams. We still had a fun afternoon, even without football.",
+      "explanation": "A mencakup perubahan rencana dan kegiatan pengganti; C benar tetapi hanya menyebut permainannya.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "l2-p14",
+      "prompt": "What is the main idea of this notice?",
+      "choices": [
+        "Students can buy pencils on Tuesday",
+        "Students need a new worker",
+        "The shop is closed on Monday, but students can get help.",
+        "All school shops are closed this week"
+      ],
+      "answer": 2,
+      "evidence": "The school shop will not open on Monday because the worker is away. Students can buy pencils and notebooks on Tuesday morning. If you need something on Monday, ask your teacher for help.",
+      "explanation": "C menyatukan informasi penutupan dan bantuan yang tersedia; A hanya satu rincian jadwal.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "l2-p15",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "Children play there on weekends.",
+        "The park is a place for different people and activities.",
+        "People only go there before work.",
+        "The park is far from our apartment."
+      ],
+      "answer": 1,
+      "evidence": "On weekdays, people walk there before work. On weekends, families bring food and children play. We go there when we want to rest outside.",
+      "explanation": "B mencakup berbagai orang dan kegiatan di taman; A benar tetapi hanya satu kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "l2-p16",
+      "prompt": "Which sentence best summarizes the whole text?",
+      "choices": [
+        "Four students came first.",
+        "Some students moved dry leaves.",
+        "The class finished before lunch.",
+        "The class worked together and made the school yard cleaner."
+      ],
+      "answer": 3,
+      "evidence": "Then more classmates arrived with bags and gloves. Some picked up paper, and others moved dry leaves. We finished before lunch. The yard looked better, and we were happy because we worked together.",
+      "explanation": "D merangkum kerja sama dan hasilnya; A, B, dan C benar tetapi hanya rincian.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "l2-p17",
+      "prompt": "What is the main idea of the message?",
+      "choices": [
+        "Raka and his sister made a good dinner after changing their plan.",
+        "The shop was closed on Sunday.",
+        "Raka and his sister made vegetable soup.",
+        "Everyone ate bread with soup."
+      ],
+      "answer": 0,
+      "evidence": "My sister helped me choose another meal. We made vegetable soup and ate it with bread. Everyone enjoyed dinner. I learned that changing a plan can be okay.",
+      "explanation": "A mencakup perubahan rencana dan hasil makan malam; B, C, dan D hanya detail yang benar.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "l2-p18",
+      "prompt": "Which sentence best tells the whole text?",
+      "choices": [
+        "Teachers added two long tables.",
+        "The library still has the same books.",
+        "Small changes made the library more useful for students.",
+        "More students visit after class."
+      ],
+      "answer": 2,
+      "evidence": "Students can now sit together to read and do homework. The books are still the same, but more students come after class. The room is easier to use, and many students like the change.",
+      "explanation": "C menggabungkan perubahan ruang dan manfaatnya; A, B, dan D adalah rincian benar yang lebih sempit.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "l2-p19",
+      "prompt": "What is the main point of this notice?",
+      "choices": [
+        "Students should bring pencils and paper.",
+        "The art club has a new meeting day.",
+        "The art room is busy on Tuesdays.",
+        "The club starts at three o’clock."
+      ],
+      "answer": 1,
+      "evidence": "Starting next week, the art club will meet on Thursday, not Tuesday.",
+      "explanation": "B menyatakan perubahan utama dalam pengumuman; A, C, dan D benar tetapi hanya informasi pendukung.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "l2-p20",
+      "prompt": "Which title is best for the whole story?",
+      "choices": [
+        "A Walk Home from School",
+        "Two Heavy Bags",
+        "A Thank-You Card",
+        "Helping a Neighbor"
+      ],
+      "answer": 3,
+      "evidence": "Fadil picked it up and carried it to her door. His neighbor smiled and thanked him.",
+      "explanation": "D mencakup tindakan utama Fadil dan hubungan dengan tetangganya; B dan C hanya benda dalam cerita.",
+      "skill": "Main Idea"
+    }
+  ]
+}
