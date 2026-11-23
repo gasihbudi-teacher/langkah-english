@@ -1,0 +1,419 @@
+{
+  "id": "text-central-meaning-l1",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "l1-p01",
+      "title": "1",
+      "text": "I have a small cup. It is blue. I drink milk from it."
+    },
+    {
+      "id": "l1-p02",
+      "title": "2",
+      "text": "At home, Mia feeds her fish. The fish is red. It swims in a bowl."
+    },
+    {
+      "id": "l1-p03",
+      "title": "3",
+      "text": "This bus is yellow. It stops near my house. I take it to school."
+    },
+    {
+      "id": "l1-p04",
+      "title": "4",
+      "text": "Grandma has a garden. She plants flowers there. She waters the garden every day."
+    },
+    {
+      "id": "l1-p05",
+      "title": "5",
+      "text": "A baby cat is under the table. The cat is hungry. I give it food."
+    },
+    {
+      "id": "l1-p06",
+      "title": "6",
+      "text": "Every morning, Jo puts on his shoes. He takes his bag. He walks to school."
+    },
+    {
+      "id": "l1-p07",
+      "title": "7",
+      "text": "At lunch, three friends sit at one table. They share bread and fruit. They talk and laugh."
+    },
+    {
+      "id": "l1-p08",
+      "title": "8",
+      "text": "There is a small shop near our school. It sells bread, milk, and fruit. Children buy snacks there."
+    },
+    {
+      "id": "l1-p09",
+      "title": "9",
+      "text": "Sara has a little plant. She puts it near the window. Every day, she gives it water. The plant grows."
+    },
+    {
+      "id": "l1-p10",
+      "title": "10",
+      "text": "First, wash your hands. Then take some bread. Put cheese on it. Your snack is ready."
+    },
+    {
+      "id": "l1-p11",
+      "title": "11",
+      "text": "Maya has a water bottle. She takes it to school. She drinks from it after sports. She puts more water in it at lunch."
+    },
+    {
+      "id": "l1-p12",
+      "title": "12",
+      "text": "The school library opens in the morning. Students read books there. Some students do homework there. The room is quiet."
+    },
+    {
+      "id": "l1-p13",
+      "title": "13",
+      "text": "Dad and I make dinner. Dad cooks rice. I wash the tomatoes. We put the food on the table and eat together."
+    },
+    {
+      "id": "l1-p14",
+      "title": "14",
+      "text": "The park has trees and a pond. Ducks swim in the pond. Children sit under the trees. Families like this park."
+    },
+    {
+      "id": "l1-p15",
+      "title": "15",
+      "text": "Rafi has two small dogs. One dog is white, and one is black. The dogs play in the yard. Rafi gives them food and water."
+    },
+    {
+      "id": "l1-p16",
+      "title": "16",
+      "text": "It is raining today. Nia stays inside. She draws a house. She reads a book. She plays a game with Dad. Nia has a good day."
+    },
+    {
+      "id": "l1-p17",
+      "title": "17",
+      "text": "A new girl comes to class. She does not have a pencil. Ida gives her one. At lunch, Ida sits with her. They talk and smile."
+    },
+    {
+      "id": "l1-p18",
+      "title": "18",
+      "text": "Our class has a small garden. We plant seeds. We give the plants water. We take away old leaves. Now there are many green plants."
+    },
+    {
+      "id": "l1-p19",
+      "title": "19",
+      "text": "Bima and Sari go to the market. They buy apples and eggs. They carry the food home. They put it in the kitchen. Then they make lunch."
+    },
+    {
+      "id": "l1-p20",
+      "title": "20",
+      "text": "Some students walk to school. Some ride bikes. Some take the bus. They all come to the same school. They come in different ways."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "l1-p01",
+      "prompt": "What is the text about?",
+      "choices": [
+        "Milk for breakfast",
+        "A cup",
+        "A new bag"
+      ],
+      "answer": 1,
+      "evidence": "I have a small cup. It is blue. I drink milk from it.",
+      "explanation": "Semua kalimat membahas cangkir; susu hanya isinya.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "l1-p02",
+      "prompt": "What is the text about?",
+      "choices": [
+        "A fish bowl",
+        "Food at home",
+        "Mia’s fish"
+      ],
+      "answer": 2,
+      "evidence": "Mia feeds her fish. The fish is red. It swims in a bowl.",
+      "explanation": "Bacaan berpusat pada ikan Mia; mangkuk hanya tempatnya.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "l1-p03",
+      "prompt": "What is the text about?",
+      "choices": [
+        "A school bus",
+        "A yellow house",
+        "My school bag"
+      ],
+      "answer": 0,
+      "evidence": "This bus is yellow. It stops near my house. I take it to school.",
+      "explanation": "Ketiga kalimat membicarakan bus yang dipakai ke sekolah.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "l1-p04",
+      "prompt": "What is the text about?",
+      "choices": [
+        "The water",
+        "Grandma’s garden",
+        "A flower shop"
+      ],
+      "answer": 1,
+      "evidence": "Grandma has a garden. She plants flowers there. She waters the garden every day.",
+      "explanation": "Teks membahas kebun Nenek dan apa yang ia lakukan di sana.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "l1-p05",
+      "prompt": "What is the text about?",
+      "choices": [
+        "A table at home",
+        "Food for dinner",
+        "A small cat"
+      ],
+      "answer": 2,
+      "evidence": "A baby cat is under the table. The cat is hungry. I give it food.",
+      "explanation": "Kucing adalah pokok bacaan; meja dan makanan hanya rincian.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "l1-p06",
+      "prompt": "What is the text mainly about?",
+      "choices": [
+        "Jo goes to school in the morning",
+        "Jo buys new shoes",
+        "Jo loses his bag"
+      ],
+      "answer": 0,
+      "evidence": "Every morning, Jo puts on his shoes. He takes his bag. He walks to school.",
+      "explanation": "Semua kegiatan Jo adalah bagian dari rutinitas pergi ke sekolah.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "l1-p07",
+      "prompt": "Which title is best?",
+      "choices": [
+        "Bread on the Table",
+        "Lunch with Friends",
+        "A Quiet Bedroom"
+      ],
+      "answer": 1,
+      "evidence": "At lunch, three friends sit at one table. They share bread and fruit. They talk and laugh.",
+      "explanation": "Judul ini mencakup makan dan kebersamaan teman-teman; roti hanya salah satu detail.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "l1-p08",
+      "prompt": "Which title is best?",
+      "choices": [
+        "Milk and Fruit",
+        "A New Classroom",
+        "The Shop Near School"
+      ],
+      "answer": 2,
+      "evidence": "There is a small shop near our school. It sells bread, milk, and fruit. Children buy snacks there.",
+      "explanation": "Teks menjelaskan toko dekat sekolah; susu dan buah hanya barang yang dijual.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "l1-p09",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "Sara opens a window",
+        "Sara helps her plant grow",
+        "Sara buys a flower"
+      ],
+      "answer": 1,
+      "evidence": "She puts it near the window. Every day, she gives it water. The plant grows.",
+      "explanation": "Kegiatan Sara membantu tanamannya tumbuh; jendela hanya salah satu rincian.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "l1-p10",
+      "prompt": "Which title is best?",
+      "choices": [
+        "How to Make a Snack",
+        "How to Wash Your Hands",
+        "How to Buy Bread"
+      ],
+      "answer": 0,
+      "evidence": "Then take some bread. Put cheese on it. Your snack is ready.",
+      "explanation": "Langkah-langkah utamanya membuat camilan; mencuci tangan hanya langkah awal.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "l1-p11",
+      "prompt": "Which sentence tells the whole text?",
+      "choices": [
+        "Maya drinks after sports.",
+        "Maya buys a big bottle.",
+        "Maya plays sports all day.",
+        "Maya uses her bottle at school."
+      ],
+      "answer": 3,
+      "evidence": "She takes it to school. She drinks from it after sports. She puts more water in it at lunch.",
+      "explanation": "Pilihan D mencakup penggunaan botol di sekolah; A hanya satu kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "l1-p12",
+      "prompt": "Which title is best?",
+      "choices": [
+        "A Quiet Morning",
+        "Our School Library",
+        "A New Sports Room",
+        "Homework at Home"
+      ],
+      "answer": 1,
+      "evidence": "The school library opens in the morning. Students read books there. Some students do homework there.",
+      "explanation": "Semua rincian berkaitan dengan perpustakaan sekolah, bukan hanya waktu atau PR.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "l1-p13",
+      "prompt": "Which sentence tells the whole text?",
+      "choices": [
+        "Dad cooks rice.",
+        "I buy tomatoes.",
+        "Dad and I make and eat dinner.",
+        "We cook at school."
+      ],
+      "answer": 2,
+      "evidence": "Dad and I make dinner. Dad cooks rice. I wash the tomatoes. We put the food on the table and eat together.",
+      "explanation": "Pilihan C mencakup menyiapkan dan makan malam bersama; A hanya satu detail.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "l1-p14",
+      "prompt": "Which title is best?",
+      "choices": [
+        "A Park People Like",
+        "Ducks in the Pond",
+        "A Busy Street",
+        "A Rainy Day"
+      ],
+      "answer": 0,
+      "evidence": "Ducks swim in the pond. Children sit under the trees. Families like this park.",
+      "explanation": "Judul A mencakup gambaran taman untuk pengunjung; bebek hanya satu rincian.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "l1-p15",
+      "prompt": "What is the text mainly about?",
+      "choices": [
+        "One White Dog",
+        "Rafi’s Cat",
+        "Food in the Kitchen",
+        "Rafi’s Two Dogs"
+      ],
+      "answer": 3,
+      "evidence": "Rafi has two small dogs. One dog is white, and one is black. The dogs play in the yard. Rafi gives them food and water.",
+      "explanation": "Seluruh bacaan membahas kedua anjing Rafi; anjing putih hanya salah satunya.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "l1-p16",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "Nia has fun at home on a rainy day.",
+        "Nia reads a book.",
+        "Nia plays outside in the rain.",
+        "Nia goes to school with Dad."
+      ],
+      "answer": 0,
+      "evidence": "Nia stays inside. She draws a house. She reads a book. She plays a game with Dad. Nia has a good day.",
+      "explanation": "A merangkum beberapa kegiatan menyenangkan Nia di rumah; B hanya satu kegiatan.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "l1-p17",
+      "prompt": "Which sentence tells the whole text?",
+      "choices": [
+        "Ida has a pencil.",
+        "The new girl goes home.",
+        "Ida helps a new girl.",
+        "Ida buys lunch."
+      ],
+      "answer": 2,
+      "evidence": "She does not have a pencil. Ida gives her one. At lunch, Ida sits with her. They talk and smile.",
+      "explanation": "Ida membantu murid baru dengan pensil dan menemani saat makan; A hanya satu rincian.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "l1-p18",
+      "prompt": "What is the main idea?",
+      "choices": [
+        "We give the plants water.",
+        "Our class grows plants.",
+        "We play games in the garden.",
+        "The garden has no plants."
+      ],
+      "answer": 1,
+      "evidence": "We plant seeds. We give the plants water. We take away old leaves. Now there are many green plants.",
+      "explanation": "B mencakup kegiatan menanam dan merawat tanaman hingga tumbuh; A hanya satu cara merawat.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "l1-p19",
+      "prompt": "Which sentence best tells the whole text?",
+      "choices": [
+        "They buy eggs.",
+        "They eat at the market.",
+        "They go to school.",
+        "They buy food and make lunch."
+      ],
+      "answer": 3,
+      "evidence": "They buy apples and eggs. They carry the food home. They put it in the kitchen. Then they make lunch.",
+      "explanation": "D mencakup kegiatan dari membeli bahan hingga membuat makan siang; A hanya satu detail.",
+      "skill": "Main Idea"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "l1-p20",
+      "prompt": "Which sentence best tells the whole text?",
+      "choices": [
+        "Some students ride bikes.",
+        "Students get to school in different ways.",
+        "All students walk.",
+        "Only one student takes the bus."
+      ],
+      "answer": 1,
+      "evidence": "Some students walk to school. Some ride bikes. Some take the bus. They all come to the same school. They come in different ways.",
+      "explanation": "B mencakup semua cara berangkat; A benar, tetapi hanya menyebut salah satu cara.",
+      "skill": "Main Idea"
+    }
+  ]
+}

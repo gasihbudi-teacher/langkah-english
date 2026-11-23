@@ -231,6 +231,7 @@ def validate(root):
     seen = set()
     files = {}
     glossary_files = {}
+    text_slots = set()
     for i, r in enumerate(resources):
         path = f"resources[{i}]"
         if r["id"] in seen:
@@ -253,6 +254,13 @@ def validate(root):
                 for field in ("grade", "semester"):
                     if field not in placement:
                         report(catalog_file, f"{path}.placements[{j}].{field}", "required for SAS placement")
+            if placement["pathway"] == "text-based":
+                if r["type"] != "quiz":
+                    report(catalog_file, f"{path}.placements[{j}]", "text-based placement requires a quiz")
+                slot = (placement["skillGroup"], placement["level"])
+                if slot in text_slots:
+                    report(catalog_file, f"{path}.placements[{j}]", "duplicate text-based skill and level")
+                text_slots.add(slot)
             if placement["pathway"] not in pathways:
                 report(catalog_file, f"{path}.placements[{j}].pathway", "unknown pathway")
         for ref in r["relatedLessons"]:

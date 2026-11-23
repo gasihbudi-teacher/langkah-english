@@ -88,6 +88,14 @@
                 "section": {
                   "type": "string"
                 }
+              },
+              "if": {"properties": {"pathway": {"const": "text-based"}}},
+              "then": {
+                "required": ["skillGroup", "level"],
+                "properties": {
+                  "skillGroup": {"enum": ["central-meaning", "writer-purpose", "information", "inference", "words-references", "organization"]},
+                  "level": {"type": "integer", "minimum": 1, "maximum": 5}
+                }
               }
             }
           },

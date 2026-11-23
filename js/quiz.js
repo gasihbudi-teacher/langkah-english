@@ -39,10 +39,10 @@ try{
   if(draft&&(!Array.isArray(draft.answers)||!Array.isArray(draft.flags)||draft.quizSnapshot!==JSON.stringify(d)||draft.answers.length!==count||draft.flags.length!==count||!draft.answers.every((a,i)=>validResponse(d.questions[i],a))||!draft.flags.every(v=>typeof v==='boolean')||!['practice','simulation'].includes(draft.mode)||!Number.isInteger(draft.index)||!Number.isFinite(draft.start)||!(draft.deadline===null||Number.isFinite(draft.deadline))))draft=null;
  }catch{draft=null}
  const answeredCount=()=>answers.filter((a,i)=>isAnswered(d.questions[i],a)).length;
- const back={grammar:'grammar.html',utbk:'utbk.html',school:'school.html',tka:'tka.html',sas:'sas.html'};
+ const back={grammar:'grammar.html',utbk:'utbk.html',school:'school.html',tka:'tka.html',sas:'sas.html','text-based':'text-based.html'};
  function presentation(){return m.examFormat==='full'?t('quizFull'):m.examFormat==='topic'||m.kind==='test'?t('quizTopic'):t('quizShort')}
  const track=m.placements[0].pathway;
- const trackLabel={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas'}[track];
+ const trackLabel={grammar:'navGrammar',school:'navSchool',utbk:'navUtbk',tka:'navTka',sas:'navSas','text-based':'navTextBased'}[track];
  let glossary = null;
  function renderGlossary(){
   const slot = content.querySelector('[data-quiz-glossary]');
