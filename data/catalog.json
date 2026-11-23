@@ -130,6 +130,35 @@
       "kind": "practice"
     },
     {
+      "id": "text-central-meaning-l2",
+      "title": "Gagasan Utama Teks · Level 2",
+      "description": "20 soal untuk menemukan topik, judul, dan gagasan utama dari bacaan pendek.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "central-meaning",
+          "level": 2
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea"
+      ],
+      "tags": [
+        "reading",
+        "text-based",
+        "main-idea",
+        "a1"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-central-meaning-l2.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice"
+    },
+    {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",
       "description": "Cek pemahaman simple present dan subject–verb agreement dalam lima soal.",
