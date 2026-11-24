@@ -1,0 +1,429 @@
+{
+  "id": "text-information-l2",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "info-l2-p01",
+      "title": "Text 01",
+      "text": "Hi Rina, The dance class starts at 3 p.m. Please come at 2:45 to change your shoes. — Ms Ayu"
+    },
+    {
+      "id": "info-l2-p02",
+      "title": "Text 02",
+      "text": "Café menu: Orange juice — Rp8,000. Milk — Rp6,000. Water — Rp3,000."
+    },
+    {
+      "id": "info-l2-p03",
+      "title": "Text 03",
+      "text": "Hello, Ben. I left your green notebook in the kitchen. Your blue notebook is on the sofa. — Dad"
+    },
+    {
+      "id": "info-l2-p04",
+      "title": "Text 04",
+      "text": "Sports Day: Grade 4 runs at 9 a.m. Grade 5 runs at 10 a.m. Everyone meets at the field."
+    },
+    {
+      "id": "info-l2-p05",
+      "title": "Text 05",
+      "text": "My sister Hana likes painting. On Saturdays, she paints flowers with her friend Nita."
+    },
+    {
+      "id": "info-l2-p06",
+      "title": "Text 06",
+      "text": "LIBRARY NOTICE: The library closes at 4 p.m. on Monday and at 2 p.m. on Friday. Please return books before closing."
+    },
+    {
+      "id": "info-l2-p07",
+      "title": "Text 07",
+      "text": "Hi Tio, I cannot meet you on Tuesday because I have a dentist appointment. Wednesday after school is fine. — Farah"
+    },
+    {
+      "id": "info-l2-p08",
+      "title": "Text 08",
+      "text": "Bus timetable: Bus 1 goes to the market at 7:15. Bus 2 goes to the station at 7:30. Bus 3 goes to the market at 8:00."
+    },
+    {
+      "id": "info-l2-p09",
+      "title": "Text 09",
+      "text": "Dear students, Bring your colored pencils for art on Thursday. You do not need to bring paint. — Mr Rio"
+    },
+    {
+      "id": "info-l2-p10",
+      "title": "Text 10",
+      "text": "Maya buys bread for Rp5,000 and a banana for Rp3,000. She does not buy the Rp4,000 cake."
+    },
+    {
+      "id": "info-l2-p11",
+      "title": "Text 11",
+      "text": "After school, Arman takes his sister home. Then he goes to football practice at the park."
+    },
+    {
+      "id": "info-l2-p12",
+      "title": "Text 12",
+      "text": "School trip groups: Group Red visits the museum in the morning and the garden in the afternoon. Group Blue visits the garden in the morning and the museum in the afternoon."
+    },
+    {
+      "id": "info-l2-p13",
+      "title": "Text 13",
+      "text": "Hi Yuni, The science room is being cleaned today. Our science club will meet in Room 6 instead. We still start at 3 p.m. — Mr Dika"
+    },
+    {
+      "id": "info-l2-p14",
+      "title": "Text 14",
+      "text": "Niko has a yellow raincoat and a black jacket. It is raining, so he wears the raincoat to school."
+    },
+    {
+      "id": "info-l2-p15",
+      "title": "Text 15",
+      "text": "Message from Aunt Sita: I will arrive on Saturday morning. Please meet me at the train station, not the bus stop. My train arrives at 9:20."
+    },
+    {
+      "id": "info-l2-p16",
+      "title": "Text 16",
+      "text": "Book club plan: On Monday, Deni borrows a book from the library. On Wednesday, he reads it with Lina. On Friday, they return it together."
+    },
+    {
+      "id": "info-l2-p17",
+      "title": "Text 17",
+      "text": "School announcement: The playground is closed this morning because workers are fixing the gate. Students may play there after lunch, but the basketball court is closed all day."
+    },
+    {
+      "id": "info-l2-p18",
+      "title": "Text 18",
+      "text": "Hi Fira, I put your project in the office because your classroom was locked. Ask Ms Lani for it before the lesson starts at 8:30. — Bima"
+    },
+    {
+      "id": "info-l2-p19",
+      "title": "Text 19",
+      "text": "Market trip: Seno needs eggs and rice. The egg shop opens at 8 a.m., but the rice shop opens at 9 a.m. Seno arrives at 8:30."
+    },
+    {
+      "id": "info-l2-p20",
+      "title": "Text 20",
+      "text": "Trip reminder: Bring your lunch and a bottle of water. Meet at the school gate by 7:15 a.m. The bus leaves at 7:30 a.m."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "info-l2-p01",
+      "prompt": "What time should Rina come?",
+      "choices": [
+        "At 3 p.m.",
+        "At 3:45 p.m.",
+        "At 2:45 p.m.",
+        "At 2 p.m."
+      ],
+      "answer": 2,
+      "evidence": "Please come at 2:45 to change your shoes.",
+      "explanation": "Rina diminta datang pukul 2.45, sebelum kelas mulai pukul 3.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "info-l2-p02",
+      "prompt": "How much is the milk?",
+      "choices": [
+        "Rp6,000",
+        "Rp8,000",
+        "Rp3,000",
+        "Rp11,000"
+      ],
+      "answer": 0,
+      "evidence": "Milk — Rp6,000.",
+      "explanation": "Harga susu adalah Rp6.000.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "info-l2-p03",
+      "prompt": "Where is Ben's green notebook?",
+      "choices": [
+        "On the sofa",
+        "In the bedroom",
+        "At school",
+        "In the kitchen"
+      ],
+      "answer": 3,
+      "evidence": "I left your green notebook in the kitchen. Your blue notebook is on the sofa.",
+      "explanation": "Buku catatan hijau ada di dapur; yang biru ada di sofa.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "info-l2-p04",
+      "prompt": "When does Grade 5 run?",
+      "choices": [
+        "At 9 a.m.",
+        "At 10 a.m.",
+        "At 8 a.m.",
+        "At 11 a.m."
+      ],
+      "answer": 1,
+      "evidence": "Grade 4 runs at 9 a.m. Grade 5 runs at 10 a.m.",
+      "explanation": "Kelas 5 berlari pukul 10, sedangkan kelas 4 pukul 9.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "info-l2-p05",
+      "prompt": "Who paints with Hana?",
+      "choices": [
+        "Her teacher",
+        "Nita",
+        "Her brother",
+        "Her mother"
+      ],
+      "answer": 1,
+      "evidence": "On Saturdays, she paints flowers with her friend Nita.",
+      "explanation": "Hana melukis bersama temannya, Nita.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "info-l2-p06",
+      "prompt": "When does the library close on Friday?",
+      "choices": [
+        "At 4 p.m.",
+        "At 3 p.m.",
+        "At 5 p.m.",
+        "At 2 p.m."
+      ],
+      "answer": 3,
+      "evidence": "The library closes at 4 p.m. on Monday and at 2 p.m. on Friday.",
+      "explanation": "Hari Jumat perpustakaan tutup pukul 2 siang, bukan pukul 4 seperti hari Senin.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "info-l2-p07",
+      "prompt": "When can Farah meet Tio?",
+      "choices": [
+        "Wednesday after school",
+        "Tuesday after school",
+        "Wednesday morning",
+        "Tuesday morning"
+      ],
+      "answer": 0,
+      "evidence": "I cannot meet you on Tuesday because I have a dentist appointment. Wednesday after school is fine.",
+      "explanation": "Farah tidak bisa Selasa dan bisa bertemu Rabu setelah sekolah.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "info-l2-p08",
+      "prompt": "Which bus goes to the station, and when?",
+      "choices": [
+        "Bus 1 at 7:15",
+        "Bus 3 at 8:00",
+        "Bus 2 at 7:30",
+        "Bus 2 at 8:00"
+      ],
+      "answer": 2,
+      "evidence": "Bus 2 goes to the station at 7:30.",
+      "explanation": "Bus 2 menuju stasiun pukul 7.30; bus lainnya menuju pasar.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "info-l2-p09",
+      "prompt": "What should students bring on Thursday?",
+      "choices": [
+        "Paint",
+        "A football",
+        "A dictionary",
+        "Colored pencils"
+      ],
+      "answer": 3,
+      "evidence": "Bring your colored pencils for art on Thursday. You do not need to bring paint.",
+      "explanation": "Siswa perlu membawa pensil warna, bukan cat.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "info-l2-p10",
+      "prompt": "Which two things does Maya buy?",
+      "choices": [
+        "Bread and cake",
+        "Bread and a banana",
+        "A banana and cake",
+        "Bread and milk"
+      ],
+      "answer": 1,
+      "evidence": "Maya buys bread for Rp5,000 and a banana for Rp3,000. She does not buy the Rp4,000 cake.",
+      "explanation": "Maya membeli roti dan pisang. Teks menyebut bahwa ia tidak membeli kue.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "info-l2-p11",
+      "prompt": "Where does Arman go after taking his sister home?",
+      "choices": [
+        "To the park",
+        "To school",
+        "To the library",
+        "To the shop"
+      ],
+      "answer": 0,
+      "evidence": "Then he goes to football practice at the park.",
+      "explanation": "Setelah mengantar saudara perempuannya pulang, Arman pergi latihan sepak bola di taman.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "info-l2-p12",
+      "prompt": "Where is Group Blue in the morning?",
+      "choices": [
+        "At the museum",
+        "At the school",
+        "At the garden",
+        "At the market"
+      ],
+      "answer": 2,
+      "evidence": "Group Blue visits the garden in the morning and the museum in the afternoon.",
+      "explanation": "Kelompok Biru ke taman pada pagi hari, lalu ke museum pada siang/sore hari.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "info-l2-p13",
+      "prompt": "Where and when will the science club meet?",
+      "choices": [
+        "Science room at 3 p.m.",
+        "Room 6 at 3 p.m.",
+        "Room 6 at 4 p.m.",
+        "Science room at 4 p.m."
+      ],
+      "answer": 1,
+      "evidence": "Our science club will meet in Room 6 instead. We still start at 3 p.m.",
+      "explanation": "Tempatnya pindah ke Ruang 6, tetapi waktunya tetap pukul 3.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "info-l2-p14",
+      "prompt": "What does Niko wear to school?",
+      "choices": [
+        "His black jacket",
+        "His school sweater",
+        "His blue coat",
+        "His yellow raincoat"
+      ],
+      "answer": 3,
+      "evidence": "Niko has a yellow raincoat and a black jacket. It is raining, so he wears the raincoat to school.",
+      "explanation": "Karena hujan, Niko memakai jas hujan kuning, bukan jaket hitam.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "info-l2-p15",
+      "prompt": "Where should the family meet Aunt Sita?",
+      "choices": [
+        "At the bus stop",
+        "At the airport",
+        "At the train station",
+        "At her house"
+      ],
+      "answer": 2,
+      "evidence": "Please meet me at the train station, not the bus stop.",
+      "explanation": "Bibi Sita meminta dijemput di stasiun kereta, bukan halte bus.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "info-l2-p16",
+      "prompt": "What do Deni and Lina do on Friday?",
+      "choices": [
+        "Return the book together",
+        "Borrow the book together",
+        "Read the book with Lina",
+        "Buy a new book"
+      ],
+      "answer": 0,
+      "evidence": "On Friday, they return it together.",
+      "explanation": "Hari Jumat mereka mengembalikan buku bersama; meminjam dan membaca terjadi pada hari lain.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "info-l2-p17",
+      "prompt": "Where can students play after lunch?",
+      "choices": [
+        "At the basketball court",
+        "At both places",
+        "At the playground",
+        "At neither place"
+      ],
+      "answer": 2,
+      "evidence": "School announcement: The playground is closed this morning because workers are fixing the gate. Students may play there after lunch, but the basketball court is closed all day.",
+      "explanation": "Lapangan bermain bisa digunakan setelah makan siang, tetapi lapangan basket tutup sepanjang hari.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "info-l2-p18",
+      "prompt": "Where should Fira go, and who should she ask?",
+      "choices": [
+        "To the classroom; ask Ms Lani",
+        "To the office; ask Ms Lani",
+        "To the office; ask Bima",
+        "To the library; ask Ms Lani"
+      ],
+      "answer": 1,
+      "evidence": "I put your project in the office because your classroom was locked. Ask Ms Lani for it before the lesson starts at 8:30.",
+      "explanation": "Proyek ada di kantor dan Fira harus memintanya kepada Bu Lani.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "info-l2-p19",
+      "prompt": "What can Seno buy when he arrives?",
+      "choices": [
+        "Rice, but not eggs yet",
+        "Both eggs and rice",
+        "Neither eggs nor rice",
+        "Eggs, but not rice yet"
+      ],
+      "answer": 3,
+      "evidence": "The egg shop opens at 8 a.m., but the rice shop opens at 9 a.m. Seno arrives at 8:30.",
+      "explanation": "Pukul 8.30 toko telur sudah buka, sedangkan toko beras baru buka pukul 9.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "info-l2-p20",
+      "prompt": "What should students bring, and when must they meet?",
+      "choices": [
+        "Lunch and water; by 7:15 a.m.",
+        "Lunch and water; by 7:30 a.m.",
+        "Only water; by 7:15 a.m.",
+        "Lunch only; by 7:30 a.m."
+      ],
+      "answer": 0,
+      "evidence": "Bring your lunch and a bottle of water. Meet at the school gate by 7:15 a.m. The bus leaves at 7:30 a.m.",
+      "explanation": "Siswa harus membawa bekal dan air minum serta berkumpul paling lambat pukul 7.15; pukul 7.30 adalah waktu bus berangkat.",
+      "skill": "Supporting Details"
+    }
+  ]
+}

@@ -252,6 +252,37 @@
       "examFormat": "sample"
     },
     {
+      "id": "text-information-l2",
+      "title": "Informasi dalam Teks — Level 2 (Pemula / A1)",
+      "description": "20 soal tanpa batas waktu untuk menemukan dan menghubungkan informasi dalam bacaan pendek.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "information",
+          "level": 2
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Supporting Details"
+      ],
+      "tags": [
+        "soal berbasis teks",
+        "informasi dalam teks",
+        "supporting details",
+        "a1",
+        "reading comprehension"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-information-l2.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",
       "description": "Cek pemahaman simple present dan subject–verb agreement dalam lima soal.",
