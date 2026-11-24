@@ -283,6 +283,68 @@
       "examFormat": "sample"
     },
     {
+      "id": "text-inference-l1",
+      "title": "Inferensi — Level 1 (Dasar / Pre-A1)",
+      "description": "20 soal tanpa batas waktu untuk menarik kesimpulan dari petunjuk dalam bacaan pendek.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "inference",
+          "level": 1
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Making Inferences"
+      ],
+      "tags": [
+        "soal berbasis teks",
+        "inferensi",
+        "making inferences",
+        "pre-a1",
+        "reading comprehension"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-inference-l1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
+      "id": "text-inference-l2",
+      "title": "Inferensi — Level 2 (Pemula / A1)",
+      "description": "20 soal tanpa batas waktu untuk menarik kesimpulan dari petunjuk dalam bacaan pendek.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "inference",
+          "level": 2
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Making Inferences"
+      ],
+      "tags": [
+        "soal berbasis teks",
+        "inferensi",
+        "making inferences",
+        "a1",
+        "reading comprehension"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-inference-l2.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",
       "description": "Cek pemahaman simple present dan subject–verb agreement dalam lima soal.",

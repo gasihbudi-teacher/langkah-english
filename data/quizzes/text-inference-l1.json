@@ -1,0 +1,429 @@
+{
+  "id": "text-inference-l1",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "inf-l1-p01",
+      "title": "Text 01",
+      "text": "Riko puts on his raincoat. He takes an umbrella before going outside."
+    },
+    {
+      "id": "inf-l1-p02",
+      "title": "Text 02",
+      "text": "Lia blows out the candles on a cake. Her family sings for her."
+    },
+    {
+      "id": "inf-l1-p03",
+      "title": "Text 03",
+      "text": "Beni rubs his eyes and yawns. He gets into bed."
+    },
+    {
+      "id": "inf-l1-p04",
+      "title": "Text 04",
+      "text": "Nana opens her bag. There is no pencil inside. She asks her friend, 'Can I use yours?'"
+    },
+    {
+      "id": "inf-l1-p05",
+      "title": "Text 05",
+      "text": "The dog runs to its empty bowl. Its owner opens a bag of dog food. The dog looks at the bag and barks."
+    },
+    {
+      "id": "inf-l1-p06",
+      "title": "Text 06",
+      "text": "Siti wears a thick jacket and gloves. She says, 'My hands are still cold.'"
+    },
+    {
+      "id": "inf-l1-p07",
+      "title": "Text 07",
+      "text": "Dad turns off the lights. The family sits on the sofa and looks at the TV."
+    },
+    {
+      "id": "inf-l1-p08",
+      "title": "Text 08",
+      "text": "Tomi looks at the clock. He grabs his school bag and runs to the door."
+    },
+    {
+      "id": "inf-l1-p09",
+      "title": "Text 09",
+      "text": "Mila tastes the soup and quickly drinks a glass of water. 'Too spicy!' she says."
+    },
+    {
+      "id": "inf-l1-p10",
+      "title": "Text 10",
+      "text": "The classroom is quiet. Everyone opens a book. The teacher says, 'Start reading now.'"
+    },
+    {
+      "id": "inf-l1-p11",
+      "title": "Text 11",
+      "text": "Ari takes a wet towel from his bag. His hair is wet, and he is wearing swimming goggles."
+    },
+    {
+      "id": "inf-l1-p12",
+      "title": "Text 12",
+      "text": "Rina looks at the empty bus stop. The bus is moving away. She says, 'Oh no!'"
+    },
+    {
+      "id": "inf-l1-p13",
+      "title": "Text 13",
+      "text": "Niko opens the fridge. There is no milk. He writes 'milk' on a small shopping list."
+    },
+    {
+      "id": "inf-l1-p14",
+      "title": "Text 14",
+      "text": "Lala holds a gift behind her back. She smiles when her friend walks into the room."
+    },
+    {
+      "id": "inf-l1-p15",
+      "title": "Text 15",
+      "text": "The floor is wet near the sink. Dodi takes a cloth and kneels beside it."
+    },
+    {
+      "id": "inf-l1-p16",
+      "title": "Text 16",
+      "text": "Fani has a ticket for the 10 a.m. train. It is 9:55, and she is still outside the station. She starts running."
+    },
+    {
+      "id": "inf-l1-p17",
+      "title": "Text 17",
+      "text": "The sky is dark. Wind blows the leaves. Dad takes the clothes off the line."
+    },
+    {
+      "id": "inf-l1-p18",
+      "title": "Text 18",
+      "text": "Mira is holding an ice cream. It starts to drip onto her hand. She eats it quickly."
+    },
+    {
+      "id": "inf-l1-p19",
+      "title": "Text 19",
+      "text": "The shop sign says 'CLOSED.' A worker is putting chairs on the tables and turning off the lights."
+    },
+    {
+      "id": "inf-l1-p20",
+      "title": "Text 20",
+      "text": "Rafi sees his little sister standing by a high shelf. She points to a toy at the top. Rafi reaches up and takes it down."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "inf-l1-p01",
+      "prompt": "What is the weather probably like?",
+      "choices": [
+        "It is very hot.",
+        "It is snowing.",
+        "It is raining.",
+        "It is windy and dry."
+      ],
+      "answer": 2,
+      "evidence": "Riko puts on his raincoat. He takes an umbrella before going outside.",
+      "explanation": "Jas hujan dan payung memberi petunjuk bahwa kemungkinan sedang hujan.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "inf-l1-p02",
+      "prompt": "What is Lia probably celebrating?",
+      "choices": [
+        "Her birthday.",
+        "A football game.",
+        "The first day of school.",
+        "A new pet."
+      ],
+      "answer": 0,
+      "evidence": "Lia blows out the candles on a cake. Her family sings for her.",
+      "explanation": "Lilin di kue dan keluarga yang bernyanyi menunjukkan perayaan ulang tahun.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "inf-l1-p03",
+      "prompt": "How does Beni probably feel?",
+      "choices": [
+        "Hungry.",
+        "Angry.",
+        "Excited to run.",
+        "Sleepy."
+      ],
+      "answer": 3,
+      "evidence": "Beni rubs his eyes and yawns. He gets into bed.",
+      "explanation": "Menguap dan naik ke tempat tidur menunjukkan Beni mengantuk.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "inf-l1-p04",
+      "prompt": "What does Nana probably need?",
+      "choices": [
+        "A lunch box.",
+        "A pencil.",
+        "A jacket.",
+        "A book."
+      ],
+      "answer": 1,
+      "evidence": "There is no pencil inside. She asks her friend, 'Can I use yours?'",
+      "explanation": "Pensilnya tidak ada sehingga kemungkinan ia ingin meminjam pensil temannya.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "inf-l1-p05",
+      "prompt": "What does the dog probably want?",
+      "choices": [
+        "A bath.",
+        "Food.",
+        "A walk in the park.",
+        "A new bed."
+      ],
+      "answer": 1,
+      "evidence": "The dog runs to its empty bowl. Its owner opens a bag of dog food. The dog looks at the bag and barks.",
+      "explanation": "Mangkuknya kosong dan anjing melihat kantong makanan anjing yang dibuka pemiliknya; kemungkinan ia ingin makan.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "inf-l1-p06",
+      "prompt": "What is the weather probably like?",
+      "choices": [
+        "Very hot.",
+        "Sunny and warm.",
+        "Dry and hot.",
+        "Cold."
+      ],
+      "answer": 3,
+      "evidence": "Siti wears a thick jacket and gloves. She says, 'My hands are still cold.'",
+      "explanation": "Jaket tebal, sarung tangan, dan tangan yang dingin menunjukkan cuaca dingin.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "inf-l1-p07",
+      "prompt": "What will the family probably do?",
+      "choices": [
+        "Watch TV.",
+        "Cook dinner.",
+        "Wash the car.",
+        "Go swimming."
+      ],
+      "answer": 0,
+      "evidence": "The family sits on the sofa and looks at the TV.",
+      "explanation": "Duduk menghadap televisi menunjukkan mereka akan menonton.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "inf-l1-p08",
+      "prompt": "Why is Tomi probably running?",
+      "choices": [
+        "He wants to sleep.",
+        "He is going to swim.",
+        "He may be late for school.",
+        "He is cleaning his room."
+      ],
+      "answer": 2,
+      "evidence": "Tomi looks at the clock. He grabs his school bag and runs to the door.",
+      "explanation": "Melihat jam lalu bergegas membawa tas sekolah menunjukkan ia mungkin terlambat.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "inf-l1-p09",
+      "prompt": "Why does Mila drink water?",
+      "choices": [
+        "She wants to wash the bowl.",
+        "The soup is cold.",
+        "She has finished her homework.",
+        "The soup is too spicy for her."
+      ],
+      "answer": 3,
+      "evidence": "Mila tastes the soup and quickly drinks a glass of water. 'Too spicy!' she says.",
+      "explanation": "Ia minum setelah mencicipi sup yang terasa terlalu pedas.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "inf-l1-p10",
+      "prompt": "What are the students probably doing?",
+      "choices": [
+        "Playing football.",
+        "Reading silently.",
+        "Singing loudly.",
+        "Eating lunch."
+      ],
+      "answer": 1,
+      "evidence": "The classroom is quiet. Everyone opens a book. The teacher says, 'Start reading now.'",
+      "explanation": "Kelas tenang, buku dibuka, dan guru menyuruh membaca menunjukkan kegiatan membaca.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "inf-l1-p11",
+      "prompt": "What has Ari probably just done?",
+      "choices": [
+        "Gone swimming.",
+        "Played basketball.",
+        "Painted a picture.",
+        "Read a book."
+      ],
+      "answer": 0,
+      "evidence": "Ari takes a wet towel from his bag. His hair is wet, and he is wearing swimming goggles.",
+      "explanation": "Rambut basah, handuk basah, dan kacamata renang mengarah pada kegiatan berenang.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "inf-l1-p12",
+      "prompt": "What probably happened?",
+      "choices": [
+        "Rina is already on the bus.",
+        "The bus is waiting for her.",
+        "Rina missed the bus.",
+        "Rina is driving the bus."
+      ],
+      "answer": 2,
+      "evidence": "Rina looks at the empty bus stop. The bus is moving away. She says, 'Oh no!'",
+      "explanation": "Bus sudah menjauh saat Rina di halte; kemungkinan ia ketinggalan bus.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "inf-l1-p13",
+      "prompt": "What will Niko probably do?",
+      "choices": [
+        "Throw away his list.",
+        "Buy some milk.",
+        "Make the fridge warmer.",
+        "Give milk to a friend."
+      ],
+      "answer": 1,
+      "evidence": "There is no milk. He writes 'milk' on a small shopping list.",
+      "explanation": "Susu habis dan ditulis dalam daftar belanja, jadi kemungkinan Niko akan membelinya.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "inf-l1-p14",
+      "prompt": "What is Lala probably planning?",
+      "choices": [
+        "To ask for homework.",
+        "To leave the room alone.",
+        "To return a library book.",
+        "To surprise her friend with a gift."
+      ],
+      "answer": 3,
+      "evidence": "Lala holds a gift behind her back. She smiles when her friend walks into the room.",
+      "explanation": "Hadiah disembunyikan dan Lala tersenyum ketika temannya datang; kemungkinan ia menyiapkan kejutan.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "inf-l1-p15",
+      "prompt": "What will Dodi probably do?",
+      "choices": [
+        "Make more water spill.",
+        "Put food on the floor.",
+        "Wipe up the water.",
+        "Go to sleep."
+      ],
+      "answer": 2,
+      "evidence": "The floor is wet near the sink. Dodi takes a cloth and kneels beside it.",
+      "explanation": "Lantai basah dan Dodi mengambil kain; kemungkinan ia akan mengelap air.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "inf-l1-p16",
+      "prompt": "Why does Fani probably run?",
+      "choices": [
+        "She wants to catch her train.",
+        "She wants to buy a new ticket tomorrow.",
+        "She wants to walk home slowly.",
+        "She wants to miss the train."
+      ],
+      "answer": 0,
+      "evidence": "Fani has a ticket for the 10 a.m. train. It is 9:55, and she is still outside the station. She starts running.",
+      "explanation": "Kereta berangkat lima menit lagi sementara Fani masih di luar stasiun, sehingga ia bergegas mengejar kereta.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "inf-l1-p17",
+      "prompt": "Why does Dad probably take the clothes off the line?",
+      "choices": [
+        "The clothes are too small.",
+        "He wants to wash them again.",
+        "He thinks it may rain soon.",
+        "He wants to hang more clothes."
+      ],
+      "answer": 2,
+      "evidence": "The sky is dark. Wind blows the leaves. Dad takes the clothes off the line.",
+      "explanation": "Langit gelap dan angin memberi petunjuk hujan mungkin segera turun; ayah mengamankan pakaian.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "inf-l1-p18",
+      "prompt": "Why does Mira eat quickly?",
+      "choices": [
+        "She is making ice cream.",
+        "Her ice cream is melting.",
+        "Her ice cream is frozen solid.",
+        "She wants to put it in a bag."
+      ],
+      "answer": 1,
+      "evidence": "It starts to drip onto her hand. She eats it quickly.",
+      "explanation": "Es krim menetes karena mencair; Mira makan cepat agar tidak semakin meleleh.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "inf-l1-p19",
+      "prompt": "What is probably happening at the shop?",
+      "choices": [
+        "It is opening for customers.",
+        "A party is starting.",
+        "A class is beginning.",
+        "It is closing for the day."
+      ],
+      "answer": 3,
+      "evidence": "The shop sign says 'CLOSED.' A worker is putting chairs on the tables and turning off the lights.",
+      "explanation": "Tulisan tutup, kursi diangkat, dan lampu dimatikan menunjukkan toko sedang ditutup.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "inf-l1-p20",
+      "prompt": "Why does Rafi take down the toy?",
+      "choices": [
+        "His sister cannot reach it.",
+        "He wants to hide it from her.",
+        "The toy is broken.",
+        "He wants to clean the shelf."
+      ],
+      "answer": 0,
+      "evidence": "Rafi sees his little sister standing by a high shelf. She points to a toy at the top. Rafi reaches up and takes it down.",
+      "explanation": "Adik menunjuk mainan di rak tinggi dan Rafi mengambilkannya; kemungkinan adiknya tidak bisa menjangkaunya.",
+      "skill": "Making Inferences"
+    }
+  ]
+}

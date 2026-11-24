@@ -1,0 +1,429 @@
+{
+  "id": "text-inference-l2",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "inf-l2-p01",
+      "title": "Text 01",
+      "text": "Hi Dita, I left my lunch at home. The school café is closed today. Can you share some of your rice? — Seno"
+    },
+    {
+      "id": "inf-l2-p02",
+      "title": "Text 02",
+      "text": "The football field is wet after last night's rain. The coach tells everyone to bring indoor shoes to the hall."
+    },
+    {
+      "id": "inf-l2-p03",
+      "title": "Text 03",
+      "text": "Tara studies her spelling words twice. Her teacher says, 'Tomorrow, I will read words aloud. Write them without looking at your lists.' Tara puts her word list in her bag and says, 'I hope I remember them all.'"
+    },
+    {
+      "id": "inf-l2-p04",
+      "title": "Text 04",
+      "text": "The museum opens at 9 a.m. Rani and Edo arrive at 8:40. They sit on a bench outside and look at the door."
+    },
+    {
+      "id": "inf-l2-p05",
+      "title": "Text 05",
+      "text": "Hi Mom, The art shop has no blue paper today, but it has green paper. My teacher said any color is fine. I'll get green. — Nisa"
+    },
+    {
+      "id": "inf-l2-p06",
+      "title": "Text 06",
+      "text": "On Monday, Putri brings a book to the library, but the return desk is closed. She keeps the book in her bag and returns on Tuesday."
+    },
+    {
+      "id": "inf-l2-p07",
+      "title": "Text 07",
+      "text": "The class plants seeds in two pots. They put one pot near a sunny window and one inside a dark cupboard. Every day, they check both pots."
+    },
+    {
+      "id": "inf-l2-p08",
+      "title": "Text 08",
+      "text": "The 7:30 bus is full, so Iwan waits. The next bus comes at 7:45. His class starts at 8:00."
+    },
+    {
+      "id": "inf-l2-p09",
+      "title": "Text 09",
+      "text": "A sign says, 'Please be quiet. Babies are sleeping.' Mila stops singing and speaks softly to her friend."
+    },
+    {
+      "id": "inf-l2-p10",
+      "title": "Text 10",
+      "text": "Arif puts his wet football shoes outside. He takes clean shoes from his bag before going into the classroom."
+    },
+    {
+      "id": "inf-l2-p11",
+      "title": "Text 11",
+      "text": "The picnic was planned for Saturday. On Friday evening, the weather report says there will be heavy rain all Saturday. The teacher sends a message: 'We will meet next weekend instead.'"
+    },
+    {
+      "id": "inf-l2-p12",
+      "title": "Text 12",
+      "text": "Rosa wants a storybook. The library has one copy, but the librarian says another student has it until Friday. Rosa writes 'Friday' in her notebook."
+    },
+    {
+      "id": "inf-l2-p13",
+      "title": "Text 13",
+      "text": "Hi Bimo, Our group has finished the poster, but we forgot to write the date of the school show. Please bring a black marker tomorrow. — Leni"
+    },
+    {
+      "id": "inf-l2-p14",
+      "title": "Text 14",
+      "text": "Alya buys two bottles of water for the trip. Her brother checks his bag, looks inside, and says, “Oh no, my water bottle is not here!” Alya puts one bottle in her bag and gives him the other."
+    },
+    {
+      "id": "inf-l2-p15",
+      "title": "Text 15",
+      "text": "The science club usually meets in Room 3. Today, Room 3 has a broken fan, and the club leader puts a sign on the door: 'Meet in Room 5.'"
+    },
+    {
+      "id": "inf-l2-p16",
+      "title": "Text 16",
+      "text": "At 4 p.m., the bakery has only two sandwiches left. Danu needs three for his friends. The worker says, 'We will make more in 20 minutes.' Danu sits down to wait."
+    },
+    {
+      "id": "inf-l2-p17",
+      "title": "Text 17",
+      "text": "The school garden has two paths. One is dry, but the other is muddy after rain. The teacher asks students to wear clean shoes for the school photo. They choose the dry path."
+    },
+    {
+      "id": "inf-l2-p18",
+      "title": "Text 18",
+      "text": "Hi Sasa, The music lesson is still at 3 p.m., but the piano room is being painted. Please wait in Room 2, and I will take you to another piano. — Ms Tia"
+    },
+    {
+      "id": "inf-l2-p19",
+      "title": "Text 19",
+      "text": "A notice says: 'The front gate will be locked after 7:50 a.m. Students arriving later must use the side gate.' It is 7:55, and Fadil is outside the school."
+    },
+    {
+      "id": "inf-l2-p20",
+      "title": "Text 20",
+      "text": "For the class trip, everyone must bring lunch and water. Rani has water but no lunch. The school café opens at 6:30, and the bus leaves at 7:00. Rani reaches school at 6:40."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "inf-l2-p01",
+      "prompt": "Why does Seno probably ask for rice?",
+      "choices": [
+        "He wants to cook for Dita.",
+        "He has nothing to eat at school.",
+        "He has already eaten lunch.",
+        "He wants to buy food at the café."
+      ],
+      "answer": 1,
+      "evidence": "I left my lunch at home. The school café is closed today. Can you share some of your rice?",
+      "explanation": "Bekal tertinggal dan kantin tutup, sehingga Seno kemungkinan tidak punya makanan untuk makan siang.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "inf-l2-p02",
+      "prompt": "Where will the team probably practice?",
+      "choices": [
+        "On the wet field.",
+        "At the swimming pool.",
+        "In the school garden.",
+        "Inside the hall."
+      ],
+      "answer": 3,
+      "evidence": "The football field is wet after last night's rain. The coach tells everyone to bring indoor shoes to the hall.",
+      "explanation": "Lapangan basah dan pelatih meminta sepatu dalam ruangan untuk aula; latihan kemungkinan dipindahkan ke dalam.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "inf-l2-p03",
+      "prompt": "What will Tara probably do at school?",
+      "choices": [
+        "Take a spelling test.",
+        "Play a spelling game at home.",
+        "Buy a new school bag.",
+        "Teach her parents spelling."
+      ],
+      "answer": 0,
+      "evidence": "Her teacher says, 'Tomorrow, I will read words aloud. Write them without looking at your lists.' Tara puts her word list in her bag and says, 'I hope I remember them all.'",
+      "explanation": "Guru akan membacakan kata dan siswa harus menulis tanpa melihat daftar. Tara kemungkinan bersiap menghadapi tes ejaan.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "inf-l2-p04",
+      "prompt": "Why are Rani and Edo probably waiting outside?",
+      "choices": [
+        "They have already finished their visit.",
+        "The museum closes at 8:40.",
+        "The museum is not open yet.",
+        "They are waiting for a bus home."
+      ],
+      "answer": 2,
+      "evidence": "The museum opens at 9 a.m. Rani and Edo arrive at 8:40. They sit on a bench outside and look at the door.",
+      "explanation": "Mereka datang 20 menit sebelum museum buka, sehingga kemungkinan menunggu jam buka.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "inf-l2-p05",
+      "prompt": "Why does Nisa choose green paper?",
+      "choices": [
+        "Blue is unavailable, and green is allowed.",
+        "Her teacher only wants green.",
+        "She already bought blue paper.",
+        "The shop has no green paper."
+      ],
+      "answer": 0,
+      "evidence": "The art shop has no blue paper today, but it has green paper. My teacher said any color is fine. I'll get green.",
+      "explanation": "Kertas biru habis dan guru membolehkan warna apa pun, sehingga Nisa memilih hijau.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "inf-l2-p06",
+      "prompt": "What will Putri probably do on Tuesday?",
+      "choices": [
+        "Borrow the same book again.",
+        "Buy the book.",
+        "Return the book.",
+        "Leave the book at home."
+      ],
+      "answer": 2,
+      "evidence": "the return desk is closed. She keeps the book in her bag and returns on Tuesday.",
+      "explanation": "Loket pengembalian tutup pada Senin, jadi ia kembali Selasa untuk mengembalikan buku.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "inf-l2-p07",
+      "prompt": "What are the students probably trying to learn?",
+      "choices": [
+        "Which pot is more expensive.",
+        "Whether light changes how the seeds grow.",
+        "How to paint a cupboard.",
+        "Where to buy windows."
+      ],
+      "answer": 1,
+      "evidence": "They put one pot near a sunny window and one inside a dark cupboard. Every day, they check both pots.",
+      "explanation": "Dua pot diletakkan di tempat dengan cahaya berbeda dan diamati, sehingga kemungkinan mereka membandingkan pengaruh cahaya pada pertumbuhan.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "inf-l2-p08",
+      "prompt": "Why does Iwan probably hope the next bus is not late?",
+      "choices": [
+        "He wants to buy a new bus.",
+        "He needs to go home for lunch.",
+        "His class finishes at 7:45.",
+        "His class starts soon after the bus comes."
+      ],
+      "answer": 3,
+      "evidence": "The next bus comes at 7:45. His class starts at 8:00.",
+      "explanation": "Bus berikutnya datang pukul 7.45, sedangkan kelas dimulai pukul 8.00. Iwan berharap bus tidak terlambat agar ia punya waktu menuju kelas.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "inf-l2-p09",
+      "prompt": "Why does Mila speak softly?",
+      "choices": [
+        "She wants the babies to sing.",
+        "She cannot find her friend.",
+        "She does not want to wake the babies.",
+        "She is practicing for a concert."
+      ],
+      "answer": 2,
+      "evidence": "'Please be quiet. Babies are sleeping.' Mila stops singing and speaks softly to her friend.",
+      "explanation": "Mila melihat bayi sedang tidur lalu mengecilkan suara agar mereka tidak terbangun.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "inf-l2-p10",
+      "prompt": "Why does Arif change his shoes?",
+      "choices": [
+        "He probably wants to keep the classroom clean.",
+        "He wants to play football in class.",
+        "His clean shoes are wet.",
+        "He is going to swim."
+      ],
+      "answer": 0,
+      "evidence": "Arif puts his wet football shoes outside. He takes clean shoes from his bag before going into the classroom.",
+      "explanation": "Ia meninggalkan sepatu basah di luar dan memakai sepatu bersih sebelum masuk kelas; kemungkinan agar kelas tidak kotor.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "inf-l2-p11",
+      "prompt": "Why is the picnic probably moved?",
+      "choices": [
+        "The picnic already happened.",
+        "The students have no lunch.",
+        "The teacher wants a shorter picnic.",
+        "Heavy rain is expected on Saturday."
+      ],
+      "answer": 3,
+      "evidence": "there will be heavy rain all Saturday. The teacher sends a message: 'We will meet next weekend instead.'",
+      "explanation": "Prakiraan hujan lebat pada hari piknik membuat kegiatan kemungkinan ditunda.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "inf-l2-p12",
+      "prompt": "What will Rosa probably do on Friday?",
+      "choices": [
+        "Return a book she already borrowed.",
+        "Check whether the book is available.",
+        "Buy a new notebook.",
+        "Ask for a different library card."
+      ],
+      "answer": 1,
+      "evidence": "another student has it until Friday. Rosa writes 'Friday' in her notebook.",
+      "explanation": "Buku dipinjam siswa lain sampai Jumat; Rosa mencatat hari itu untuk mengecek ketersediaannya.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "inf-l2-p13",
+      "prompt": "What will the group probably add to the poster?",
+      "choices": [
+        "A list of lunch prices.",
+        "The name of a new student.",
+        "A picture of a bus.",
+        "The date of the school show."
+      ],
+      "answer": 3,
+      "evidence": "we forgot to write the date of the school show. Please bring a black marker tomorrow.",
+      "explanation": "Tanggal acara belum ditulis dan Leni meminta spidol; kemungkinan kelompok akan menambahkan tanggal.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "inf-l2-p14",
+      "prompt": "Why does Alya give her brother water?",
+      "choices": [
+        "He has two bottles already.",
+        "He did not bring a drink.",
+        "She does not like water.",
+        "He wants to buy a bag."
+      ],
+      "answer": 1,
+      "evidence": "Her brother checks his bag, looks inside, and says, “Oh no, my water bottle is not here!” Alya puts one bottle in her bag and gives him the other.",
+      "explanation": "Saudara Alya tidak menemukan botol minumnya di tas. Alya kemungkinan memberinya air karena ia tidak membawa minuman.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "inf-l2-p15",
+      "prompt": "Why does the club probably meet in Room 5?",
+      "choices": [
+        "Room 5 is closed.",
+        "The club has ended.",
+        "Room 3 has a problem.",
+        "The leader forgot the meeting day."
+      ],
+      "answer": 2,
+      "evidence": "Room 3 has a broken fan, and the club leader puts a sign on the door: 'Meet in Room 5.'",
+      "explanation": "Kipas di Ruang 3 rusak dan pertemuan dipindahkan; masalah ruangan kemungkinan menjadi alasannya.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "inf-l2-p16",
+      "prompt": "Why does Danu probably wait?",
+      "choices": [
+        "He needs one more sandwich.",
+        "He wants to buy only two sandwiches.",
+        "The bakery is closing now.",
+        "His friends have already eaten."
+      ],
+      "answer": 0,
+      "evidence": "the bakery has only two sandwiches left. Danu needs three for his friends. The worker says, 'We will make more in 20 minutes.' Danu sits down to wait.",
+      "explanation": "Danu butuh tiga roti lapis tetapi hanya tersedia dua; ia menunggu tambahan dibuat.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "inf-l2-p17",
+      "prompt": "Why do the students probably choose the dry path?",
+      "choices": [
+        "To find more mud for the photo.",
+        "To keep their shoes clean for the photo.",
+        "Because the dry path is closed.",
+        "Because they want to wash their shoes."
+      ],
+      "answer": 1,
+      "evidence": "One is dry, but the other is muddy after rain. The teacher asks students to wear clean shoes for the school photo. They choose the dry path.",
+      "explanation": "Jalan berlumpur bisa mengotori sepatu, sedangkan sepatu harus bersih untuk foto.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "inf-l2-p18",
+      "prompt": "What will probably be different about today's lesson?",
+      "choices": [
+        "The piano will be in a different place.",
+        "The lesson will start at 4 p.m.",
+        "There will be no piano at all.",
+        "Sasa will paint the room."
+      ],
+      "answer": 0,
+      "evidence": "The music lesson is still at 3 p.m., but the piano room is being painted. Please wait in Room 2, and I will take you to another piano.",
+      "explanation": "Waktu tetap, tetapi ruang piano dicat dan guru akan membawa Sasa ke piano lain; tempatnya berubah.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "inf-l2-p19",
+      "prompt": "Which gate should Fadil probably use, and why?",
+      "choices": [
+        "The front gate, because it is before 7:50.",
+        "The side gate, because the front gate opens at 8:00.",
+        "The side gate, because it is after 7:50.",
+        "The front gate, because both gates are open all day."
+      ],
+      "answer": 2,
+      "evidence": "The front gate will be locked after 7:50 a.m. Students arriving later must use the side gate.' It is 7:55, and Fadil is outside the school.",
+      "explanation": "Fadil datang pukul 7.55, setelah batas 7.50, sehingga harus memakai gerbang samping.",
+      "skill": "Making Inferences"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "inf-l2-p20",
+      "prompt": "What can Rani probably do before the bus leaves?",
+      "choices": [
+        "Buy water because she has no water.",
+        "Wait for the café to open at 7:30.",
+        "Leave on the bus at 6:30.",
+        "Buy lunch at the school café."
+      ],
+      "answer": 3,
+      "evidence": "Rani has water but no lunch. The school café opens at 6:30, and the bus leaves at 7:00. Rani reaches school at 6:40.",
+      "explanation": "Rani sudah punya air tetapi belum punya bekal; kantin sudah buka saat ia tiba dan bus belum berangkat, sehingga ia bisa membeli makan siang.",
+      "skill": "Making Inferences"
+    }
+  ]
+}
