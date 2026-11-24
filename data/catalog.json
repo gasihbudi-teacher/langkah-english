@@ -159,6 +159,37 @@
       "kind": "practice"
     },
     {
+      "id": "text-writer-purpose-l1",
+      "title": "Tujuan Penulis — Level 1 (Dasar / Pre-A1)",
+      "description": "20 soal latihan tanpa batas waktu untuk mengenali tujuan penulis dalam pesan, undangan, pengumuman, dan petunjuk sederhana.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "text-based",
+          "skillGroup": "writer-purpose",
+          "level": 1
+        }
+      ],
+      "difficulty": "Beginner",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Author’s Purpose"
+      ],
+      "tags": [
+        "soal berbasis teks",
+        "tujuan penulis",
+        "writer purpose",
+        "pre-a1",
+        "reading comprehension"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/text-writer-purpose-l1.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "practice",
+      "examFormat": "sample"
+    },
+    {
       "id": "grammar-foundations",
       "title": "Grammar foundations: five-question check",
       "description": "Cek pemahaman simple present dan subject–verb agreement dalam lima soal.",

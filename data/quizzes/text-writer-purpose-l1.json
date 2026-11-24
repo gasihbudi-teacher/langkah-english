@@ -1,0 +1,429 @@
+{
+  "id": "text-writer-purpose-l1",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "wp-l1-p01",
+      "title": "Text 01",
+      "text": "Please sit here."
+    },
+    {
+      "id": "wp-l1-p02",
+      "title": "Text 02",
+      "text": "Happy birthday, Ana!"
+    },
+    {
+      "id": "wp-l1-p03",
+      "title": "Text 03",
+      "text": "STOP. Do not go in."
+    },
+    {
+      "id": "wp-l1-p04",
+      "title": "Text 04",
+      "text": "Come to my party on Sunday!"
+    },
+    {
+      "id": "wp-l1-p05",
+      "title": "Text 05",
+      "text": "The library opens at eight."
+    },
+    {
+      "id": "wp-l1-p06",
+      "title": "Text 06",
+      "text": "Hi Rina,\nPlease bring your blue pen tomorrow.\n— Sari"
+    },
+    {
+      "id": "wp-l1-p07",
+      "title": "Text 07",
+      "text": "Wash your hands. Then eat your lunch."
+    },
+    {
+      "id": "wp-l1-p08",
+      "title": "Text 08",
+      "text": "Dear Budi,\nThank you for helping me.\n— Ali"
+    },
+    {
+      "id": "wp-l1-p09",
+      "title": "Text 09",
+      "text": "School bus: 7:00 a.m.\nWait at the front gate."
+    },
+    {
+      "id": "wp-l1-p10",
+      "title": "Text 10",
+      "text": "Hi Dad,\nI am at the school library. I will come home at four.\n— Mia"
+    },
+    {
+      "id": "wp-l1-p11",
+      "title": "Text 11",
+      "text": "CAUTION: Wet floor. Walk slowly."
+    },
+    {
+      "id": "wp-l1-p12",
+      "title": "Text 12",
+      "text": "Hi Ben,\nCan you help me carry these books? They are heavy.\n— Tom"
+    },
+    {
+      "id": "wp-l1-p13",
+      "title": "Text 13",
+      "text": "FREE DRAWING TIME\nCome to Room 2 after school. Bring your pencils. Everyone can join."
+    },
+    {
+      "id": "wp-l1-p14",
+      "title": "Text 14",
+      "text": "First, open your book. Next, read page five. Then write your name."
+    },
+    {
+      "id": "wp-l1-p15",
+      "title": "Text 15",
+      "text": "Hi Nita,\nI cannot play today. I am sick. Let us play on Friday.\n— Eko"
+    },
+    {
+      "id": "wp-l1-p16",
+      "title": "Text 16",
+      "text": "Dear Mom,\nI made a card for you. Thank you for taking care of me. I love you!\n— Dina"
+    },
+    {
+      "id": "wp-l1-p17",
+      "title": "Text 17",
+      "text": "NOTICE\nThe playground is closed today. The ground is wet. Please play in the hall."
+    },
+    {
+      "id": "wp-l1-p18",
+      "title": "Text 18",
+      "text": "Hi Lala,\nWe will make sandwiches at my house on Saturday. You can come at ten. Please bring a plate.\n— Fina"
+    },
+    {
+      "id": "wp-l1-p19",
+      "title": "Text 19",
+      "text": "Remember!\nOur class photo is tomorrow. Wear your white shirt. Meet in Room 4 at nine."
+    },
+    {
+      "id": "wp-l1-p20",
+      "title": "Text 20",
+      "text": "Hi Rafi,\nI have your water bottle. You left it in class. Please come to my desk after lunch and take it.\n— Nino"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "wp-l1-p01",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does the writer say this?",
+      "choices": [
+        "To tell the time",
+        "To ask someone to sit",
+        "To ask someone to run",
+        "To say goodbye"
+      ],
+      "answer": 1,
+      "evidence": "Please sit here.",
+      "explanation": "Kalimat ini meminta pembaca duduk di tempat yang ditunjuk."
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "wp-l1-p02",
+      "skill": "Author’s Purpose",
+      "prompt": "Why is this written?",
+      "choices": [
+        "To give directions",
+        "To ask for help",
+        "To invite Ana to school",
+        "To say happy birthday"
+      ],
+      "answer": 3,
+      "evidence": "Happy birthday, Ana!",
+      "explanation": "Penulis menyampaikan ucapan ulang tahun kepada Ana."
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "wp-l1-p03",
+      "skill": "Author’s Purpose",
+      "prompt": "What does the sign do?",
+      "choices": [
+        "Tell people not to enter",
+        "Invite people inside",
+        "Ask people to sing",
+        "Tell people to eat"
+      ],
+      "answer": 0,
+      "evidence": "Do not go in.",
+      "explanation": "Larangan masuk menunjukkan tujuan memperingatkan atau melarang pembaca masuk."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "wp-l1-p04",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does the writer write this?",
+      "choices": [
+        "To explain a game",
+        "To say sorry",
+        "To invite someone to a party",
+        "To ask for water"
+      ],
+      "answer": 2,
+      "evidence": "Come to my party on Sunday!",
+      "explanation": "Kata come dan penyebutan pesta menunjukkan undangan."
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "wp-l1-p05",
+      "skill": "Author’s Purpose",
+      "prompt": "Why is this written?",
+      "choices": [
+        "To close the library",
+        "To invite someone home",
+        "To tell the opening time",
+        "To ask for a book"
+      ],
+      "answer": 2,
+      "evidence": "The library opens at eight.",
+      "explanation": "Teks memberi informasi tentang jam buka perpustakaan."
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "wp-l1-p06",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Sari write this message?",
+      "choices": [
+        "To say the pen is lost",
+        "To ask Rina to bring a pen",
+        "To sell a pen",
+        "To borrow a bag"
+      ],
+      "answer": 1,
+      "evidence": "Please bring your blue pen tomorrow.",
+      "explanation": "Sari meminta Rina membawa pena birunya besok."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "wp-l1-p07",
+      "skill": "Author’s Purpose",
+      "prompt": "Why did they write this?",
+      "choices": [
+        "To give simple instructions",
+        "To describe a lunch box",
+        "To invite someone to a game",
+        "To tell a story about lunch"
+      ],
+      "answer": 0,
+      "evidence": "Wash your hands. Then eat your lunch.",
+      "explanation": "Dua kalimat perintah memberi urutan tindakan yang harus dilakukan."
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "wp-l1-p08",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Ali write to Budi?",
+      "choices": [
+        "To invite Budi to dinner",
+        "To tell Budi to go home",
+        "To ask Budi to help tomorrow",
+        "To thank Budi"
+      ],
+      "answer": 3,
+      "evidence": "Thank you for helping me.",
+      "explanation": "Ungkapan thank you menunjukkan tujuan berterima kasih."
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "wp-l1-p09",
+      "skill": "Author’s Purpose",
+      "prompt": "Why is this notice here?",
+      "choices": [
+        "To tell students when and where to wait",
+        "To describe the bus color",
+        "To ask students to wash the bus",
+        "To invite students to a party"
+      ],
+      "answer": 0,
+      "evidence": "School bus: 7:00 a.m.\nWait at the front gate.",
+      "explanation": "Pengumuman memberi waktu bus dan tempat menunggu."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "wp-l1-p10",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Mia send this message?",
+      "choices": [
+        "To invite Dad to school",
+        "To ask Dad for a book",
+        "To ask Dad to visit the library",
+        "To tell Dad where she is and when she will return"
+      ],
+      "answer": 3,
+      "evidence": "I am at the school library. I will come home at four.",
+      "explanation": "Mia memberi kabar tentang lokasi dan waktu pulangnya."
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "wp-l1-p11",
+      "skill": "Author’s Purpose",
+      "prompt": "What does this sign try to do?",
+      "choices": [
+        "Tell people to clean the floor",
+        "Warn people to be careful",
+        "Invite people to swim",
+        "Ask people to run"
+      ],
+      "answer": 1,
+      "evidence": "Wet floor. Walk slowly.",
+      "explanation": "Lantai basah dan perintah berjalan pelan merupakan peringatan keselamatan."
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "wp-l1-p12",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Tom write to Ben?",
+      "choices": [
+        "To invite Ben to buy books",
+        "To say he likes books",
+        "To ask Ben for help",
+        "To tell Ben to read a book"
+      ],
+      "answer": 2,
+      "evidence": "Can you help me carry these books?",
+      "explanation": "Pertanyaan langsung meminta bantuan membawa buku."
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "wp-l1-p13",
+      "skill": "Author’s Purpose",
+      "prompt": "Why was this notice written?",
+      "choices": [
+        "To invite students to draw together",
+        "To ask students to buy pencils",
+        "To explain how to draw a cat",
+        "To tell students the room is closed"
+      ],
+      "answer": 0,
+      "evidence": "Come to Room 2 after school. Bring your pencils. Everyone can join.",
+      "explanation": "Pengumuman mengajak siswa mengikuti kegiatan menggambar."
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "wp-l1-p14",
+      "skill": "Author’s Purpose",
+      "prompt": "What is the writer trying to do?",
+      "choices": [
+        "Invite the reader to a party",
+        "Describe a new book",
+        "Tell the reader what to do step by step",
+        "Tell a funny story"
+      ],
+      "answer": 2,
+      "evidence": "First, open your book. Next, read page five. Then write your name.",
+      "explanation": "Urutan first, next, then dipakai untuk memberikan petunjuk langkah demi langkah."
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "wp-l1-p15",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Eko send this message?",
+      "choices": [
+        "To invite Nita to play today",
+        "To tell Nita where the park is",
+        "To ask Nita for medicine",
+        "To explain he cannot play today and suggest Friday"
+      ],
+      "answer": 3,
+      "evidence": "I cannot play today. I am sick. Let us play on Friday.",
+      "explanation": "Eko menjelaskan pembatalan hari ini sekaligus mengusulkan hari pengganti."
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "wp-l1-p16",
+      "skill": "Author’s Purpose",
+      "prompt": "What does Dina want to do with this card?",
+      "choices": [
+        "Ask Mom to buy a card",
+        "Show love and say thank you",
+        "Invite Mom to a class",
+        "Tell Mom to go to school"
+      ],
+      "answer": 1,
+      "evidence": "Thank you for taking care of me. I love you!",
+      "explanation": "Kartu menyampaikan kasih sayang dan terima kasih, bukan permintaan."
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "wp-l1-p17",
+      "skill": "Author’s Purpose",
+      "prompt": "Why is this notice written?",
+      "choices": [
+        "To ask children to clean the hall",
+        "To tell children the playground is new",
+        "To invite children to play on the wet ground",
+        "To tell children the playground is closed and where to play"
+      ],
+      "answer": 3,
+      "evidence": "The playground is closed today. The ground is wet. Please play in the hall.",
+      "explanation": "Teks memberitahu penutupan dan mengarahkan anak bermain di aula."
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "wp-l1-p18",
+      "skill": "Author’s Purpose",
+      "prompt": "Which answer best explains why Fina writes this message?",
+      "choices": [
+        "To invite Lala and ask her to bring a plate",
+        "To invite Lala to make sandwiches",
+        "To ask Lala to bring a plate",
+        "To tell Lala the sandwiches are ready"
+      ],
+      "answer": 0,
+      "evidence": "You can come at ten. Please bring a plate.",
+      "explanation": "Fina mengajak Lala datang untuk membuat sandwich sekaligus meminta Lala membawa piring. Dua tujuan itu sama-sama ada dalam pesan."
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "wp-l1-p19",
+      "skill": "Author’s Purpose",
+      "prompt": "Why did they write this?",
+      "choices": [
+        "To invite parents to a party",
+        "To remind students how to prepare for the photo",
+        "To sell white shirts",
+        "To describe a photo"
+      ],
+      "answer": 1,
+      "evidence": "Our class photo is tomorrow. Wear your white shirt. Meet in Room 4 at nine.",
+      "explanation": "Pesan mengingatkan kegiatan foto serta pakaian, tempat, dan waktunya."
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "wp-l1-p20",
+      "skill": "Author’s Purpose",
+      "prompt": "Why does Nino send this message?",
+      "choices": [
+        "To invite Rafi to lunch",
+        "To say Nino lost his bottle",
+        "To tell Rafi where to collect his bottle",
+        "To ask Rafi for water"
+      ],
+      "answer": 2,
+      "evidence": "I have your water bottle. You left it in class. Please come to my desk after lunch and take it.",
+      "explanation": "Nino memberi tahu botol Rafi ada padanya dan cara mengambilnya."
+    }
+  ]
+}
