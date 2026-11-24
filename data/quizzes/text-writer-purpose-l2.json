@@ -1,0 +1,429 @@
+{
+  "id": "text-writer-purpose-l2",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "wp-l2-p01",
+      "title": "Text 01",
+      "text": "Hi Rani, Please bring your blue notebook to class tomorrow. We need it for our English game. Thanks, Sita."
+    },
+    {
+      "id": "wp-l2-p02",
+      "title": "Text 02",
+      "text": "LIBRARY NOTICE: The library is closed on Friday. Please return your books on Thursday."
+    },
+    {
+      "id": "wp-l2-p03",
+      "title": "Text 03",
+      "text": "Hello, Dika! It is my birthday on Sunday. Come to my house at 2 p.m. We can eat cake together. — Ben"
+    },
+    {
+      "id": "wp-l2-p04",
+      "title": "Text 04",
+      "text": "PLEASE BE QUIET. Students are taking a test in this room."
+    },
+    {
+      "id": "wp-l2-p05",
+      "title": "Text 05",
+      "text": "Mila, your lunch is on the kitchen table. Please take it before you go to school. Love, Dad."
+    },
+    {
+      "id": "wp-l2-p06",
+      "title": "Text 06",
+      "text": "ART CLUB: Do you like drawing? Join us on Tuesday after school in Room 5. Bring a pencil. Everyone is welcome!"
+    },
+    {
+      "id": "wp-l2-p07",
+      "title": "Text 07",
+      "text": "Dear Ms Ana, I am sick today, so I cannot come to school. I will do my homework at home. — Riko"
+    },
+    {
+      "id": "wp-l2-p08",
+      "title": "Text 08",
+      "text": "BUS 4: The bus leaves at 7:15 a.m. Please be at the stop by 7:10."
+    },
+    {
+      "id": "wp-l2-p09",
+      "title": "Text 09",
+      "text": "Hi Nina, Thank you for helping me with my homework yesterday. I understand the lesson now! — Wati"
+    },
+    {
+      "id": "wp-l2-p10",
+      "title": "Text 10",
+      "text": "To make tea, put a tea bag in a cup. Add hot water. Wait two minutes. Then drink."
+    },
+    {
+      "id": "wp-l2-p11",
+      "title": "Text 11",
+      "text": "Hi everyone! Our class photo is on Wednesday, not Tuesday. Please wear your school uniform. See you then! — Class teacher"
+    },
+    {
+      "id": "wp-l2-p12",
+      "title": "Text 12",
+      "text": "Mom, I am at the school library. I will come home at four, not three. I have a group project. — Aldi"
+    },
+    {
+      "id": "wp-l2-p13",
+      "title": "Text 13",
+      "text": "KEEP THE PARK CLEAN. Put your rubbish in the bins. Do not leave bottles on the grass."
+    },
+    {
+      "id": "wp-l2-p14",
+      "title": "Text 14",
+      "text": "Hi Bima, I have your red ruler. You left it on my desk. I can give it back at lunch. — Tono"
+    },
+    {
+      "id": "wp-l2-p15",
+      "title": "Text 15",
+      "text": "SPORTS DAY: Games start at 8 a.m. on Saturday. Bring water and a hat. Parents can come and watch."
+    },
+    {
+      "id": "wp-l2-p16",
+      "title": "Text 16",
+      "text": "Hello Sari, I finished your storybook. It was fun to read! Can I give it back to you tomorrow after class? — Putri"
+    },
+    {
+      "id": "wp-l2-p17",
+      "title": "Text 17",
+      "text": "Hi friends! The football game is not at the school field today. It is at the town park at 4 p.m. Please come to the park. — Fajar"
+    },
+    {
+      "id": "wp-l2-p18",
+      "title": "Text 18",
+      "text": "Hi art club members! We will meet in Room 8 today, not Room 3. Please tell one friend about the new room so everyone can find us. — Nia"
+    },
+    {
+      "id": "wp-l2-p19",
+      "title": "Text 19",
+      "text": "The front gate is closed today. Use the small gate next to the library. Please do not wait at the front gate."
+    },
+    {
+      "id": "wp-l2-p20",
+      "title": "Text 20",
+      "text": "Dear class, Our trip is tomorrow. The bus leaves at 7 a.m. Bring your lunch and be at school by 6:45. We cannot wait for late students. — Ms Rina"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "wp-l2-p01",
+      "prompt": "Why does Sita write this note?",
+      "choices": [
+        "To tell Rani about a holiday",
+        "To ask Rani to bring a notebook",
+        "To invite Rani to buy a notebook",
+        "To say the game is over"
+      ],
+      "answer": 1,
+      "evidence": "Please bring your blue notebook to class tomorrow.",
+      "explanation": "Sita meminta Rani membawa buku catatan biru ke kelas untuk permainan bahasa Inggris.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "wp-l2-p02",
+      "prompt": "Why is this notice written?",
+      "choices": [
+        "To ask students to read on Friday",
+        "To invite students to the library",
+        "To sell books to students",
+        "To tell students the library is closed on Friday and ask them to return their books on Thursday."
+      ],
+      "answer": 3,
+      "evidence": "The library is closed on Friday. Please return your books on Thursday.",
+      "explanation": "Pengumuman memberi tahu perpustakaan tutup Jumat dan meminta buku dikembalikan Kamis.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "wp-l2-p03",
+      "prompt": "Why does Ben write this message?",
+      "choices": [
+        "To invite Dika to his birthday",
+        "To ask Dika to make a cake",
+        "To tell Dika to go to school",
+        "To thank Dika for a gift"
+      ],
+      "answer": 0,
+      "evidence": "Come to my house at 2 p.m. We can eat cake together.",
+      "explanation": "Ben mengundang Dika datang ke rumah untuk merayakan ulang tahunnya.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "wp-l2-p04",
+      "prompt": "Why is this sign here?",
+      "choices": [
+        "To tell students to start a game",
+        "To ask students to open the door",
+        "To ask people to be quiet",
+        "To invite people into the room"
+      ],
+      "answer": 2,
+      "evidence": "PLEASE BE QUIET. Students are taking a test in this room.",
+      "explanation": "Tulisan meminta orang menjaga ketenangan karena ada siswa yang sedang ujian.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "wp-l2-p05",
+      "prompt": "Why does Dad write this message?",
+      "choices": [
+        "To ask Mila to cook lunch",
+        "To tell Mila where her lunch is and remind her to take it",
+        "To ask Mila to buy lunch",
+        "To invite Mila to eat at a cafe"
+      ],
+      "answer": 1,
+      "evidence": "your lunch is on the kitchen table. Please take it before you go to school.",
+      "explanation": "Ayah memberi tahu letak bekal dan mengingatkan Mila untuk membawanya.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "wp-l2-p06",
+      "prompt": "Why was this poster made?",
+      "choices": [
+        "To explain how to draw a face",
+        "To tell students the art room is closed",
+        "To ask students to clean Room 5",
+        "To invite students to join art club"
+      ],
+      "answer": 3,
+      "evidence": "Join us on Tuesday after school in Room 5.",
+      "explanation": "Poster mengajak siswa bergabung dengan klub seni.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "wp-l2-p07",
+      "prompt": "Why does Riko write this note?",
+      "choices": [
+        "To explain why he is absent",
+        "To ask for a new school bag",
+        "To invite his teacher home",
+        "To tell his teacher to stay home"
+      ],
+      "answer": 0,
+      "evidence": "I am sick today, so I cannot come to school.",
+      "explanation": "Riko menjelaskan alasan ia tidak masuk sekolah.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "wp-l2-p08",
+      "prompt": "Why was this notice written?",
+      "choices": [
+        "To ask people to drive a bus",
+        "To tell people to buy a ticket",
+        "To help passengers arrive on time",
+        "To invite passengers to a party"
+      ],
+      "answer": 2,
+      "evidence": "The bus leaves at 7:15 a.m. Please be at the stop by 7:10.",
+      "explanation": "Pengumuman memberi waktu keberangkatan dan mengingatkan penumpang datang lebih awal.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "wp-l2-p09",
+      "prompt": "Why does Wati write this email?",
+      "choices": [
+        "To ask Nina for more homework",
+        "To tell Nina to study alone",
+        "To invite Nina to a lesson",
+        "To thank Nina for her help"
+      ],
+      "answer": 3,
+      "evidence": "Thank you for helping me with my homework yesterday.",
+      "explanation": "Wati berterima kasih atas bantuan Nina.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "wp-l2-p10",
+      "prompt": "Why was this text written?",
+      "choices": [
+        "To tell a story about tea",
+        "To show how to make tea",
+        "To invite someone for tea",
+        "To ask someone to buy tea"
+      ],
+      "answer": 1,
+      "evidence": "put a tea bag in a cup. Add hot water. Wait two minutes.",
+      "explanation": "Teks memberi langkah sederhana membuat teh.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "wp-l2-p11",
+      "prompt": "Why does the teacher send this message?",
+      "choices": [
+        "To tell students about a new photo day and what to wear",
+        "To ask students to take photos at home",
+        "To thank students for taking photos",
+        "To invite students to buy uniforms"
+      ],
+      "answer": 0,
+      "evidence": "Our class photo is on Wednesday, not Tuesday. Please wear your school uniform.",
+      "explanation": "Guru memberi tahu perubahan hari foto kelas dan pakaian yang harus dikenakan.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "wp-l2-p12",
+      "prompt": "Why does Aldi send this message?",
+      "choices": [
+        "To ask Mom to visit the library",
+        "To invite Mom to join his project",
+        "To tell Mom he will be home later",
+        "To ask Mom to bring a book"
+      ],
+      "answer": 2,
+      "evidence": "I will come home at four, not three. I have a group project.",
+      "explanation": "Aldi memberi tahu ibunya bahwa ia pulang lebih lambat karena proyek kelompok.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "wp-l2-p13",
+      "prompt": "Why was this sign put in the park?",
+      "choices": [
+        "To tell people where to play",
+        "To ask visitors to keep the park clean",
+        "To invite visitors to bring bottles",
+        "To explain when the park opens"
+      ],
+      "answer": 1,
+      "evidence": "Put your rubbish in the bins. Do not leave bottles on the grass.",
+      "explanation": "Papan meminta pengunjung menjaga kebersihan taman.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "wp-l2-p14",
+      "prompt": "Why does Tono write this note?",
+      "choices": [
+        "To ask Bima to buy a ruler",
+        "To ask Bima to clean his desk",
+        "To invite Bima to study after school",
+        "To tell Bima he has his ruler and can return it"
+      ],
+      "answer": 3,
+      "evidence": "I have your red ruler. You left it on my desk. I can give it back at lunch.",
+      "explanation": "Tono memberi tahu Bima bahwa penggarisnya ada pada Tono dan bisa dikembalikan saat makan siang.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "wp-l2-p15",
+      "prompt": "Why was this note written?",
+      "choices": [
+        "To tell families about sports day and what to bring",
+        "To ask parents to play every game",
+        "To tell students sports day is cancelled",
+        "To explain how to make a hat"
+      ],
+      "answer": 0,
+      "evidence": "Games start at 8 a.m. on Saturday. Bring water and a hat. Parents can come and watch.",
+      "explanation": "Catatan menginformasikan acara olahraga, perlengkapan yang perlu dibawa, dan bahwa orang tua boleh menonton.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "wp-l2-p16",
+      "prompt": "Why does Putri write this message?",
+      "choices": [
+        "To thank Sari for the book",
+        "To ask to return the book tomorrow",
+        "To say she finished the book and ask to return it tomorrow",
+        "To say she enjoyed reading the book"
+      ],
+      "answer": 2,
+      "evidence": "I finished your storybook. It was fun to read! Can I give it back to you tomorrow after class?",
+      "explanation": "Putri memberi tahu Sari bahwa ia sudah selesai membaca buku dan meminta izin mengembalikannya besok. Pilihan lain hanya memuat satu bagian pesan atau menambah tujuan yang tidak disebut.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "wp-l2-p17",
+      "prompt": "Which answer best explains why Fajar writes this message?",
+      "choices": [
+        "To tell friends the new place of the game",
+        "To tell friends the new place and ask them to come there",
+        "To ask friends to come to the park",
+        "To tell friends what time the game starts"
+      ],
+      "answer": 1,
+      "evidence": "The football game is not at the school field today. It is at the town park at 4 p.m. Please come to the park.",
+      "explanation": "Fajar menjelaskan bahwa tempat pertandingan pindah ke taman kota dan meminta teman-teman datang ke sana. Menyebut lokasi atau ajakan saja belum merangkum seluruh pesan.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "wp-l2-p18",
+      "prompt": "Which answer best explains why Nia writes this message?",
+      "choices": [
+        "To ask members to tell a friend",
+        "To tell members the meeting room has changed",
+        "To tell members the club meeting is cancelled",
+        "To tell members the new room and ask them to tell a friend"
+      ],
+      "answer": 3,
+      "evidence": "We will meet in Room 8 today, not Room 3. Please tell one friend about the new room so everyone can find us.",
+      "explanation": "Nia memberi tahu perubahan ruang pertemuan dan meminta anggota menyampaikan informasi itu kepada seorang teman. Kedua tujuan harus tercakup.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "wp-l2-p19",
+      "prompt": "Why did they write this notice?",
+      "choices": [
+        "To tell students the front gate is closed and show them another gate",
+        "To tell students the front gate is closed",
+        "To tell students to use the small gate",
+        "To tell students where the library is"
+      ],
+      "answer": 0,
+      "evidence": "The front gate is closed today. Use the small gate next to the library.",
+      "explanation": "Pengumuman menjelaskan bahwa gerbang depan ditutup dan mengarahkan siswa memakai gerbang kecil. Menyebut penutupan atau gerbang pengganti saja belum lengkap.",
+      "skill": "Author’s Purpose"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "wp-l2-p20",
+      "prompt": "Which answer best explains why Ms Rina writes this message?",
+      "choices": [
+        "To remind students what to bring",
+        "To remind students when to arrive",
+        "To remind students when to arrive and what to bring",
+        "To remind students when the bus leaves"
+      ],
+      "answer": 2,
+      "evidence": "The bus leaves at 7 a.m. Bring your lunch and be at school by 6:45.",
+      "explanation": "Pesan mengingatkan siswa membawa bekal dan datang paling lambat pukul 6.45. Pilihan tentang bekal, waktu datang, atau jam bus saja hanya menjelaskan sebagian isi.",
+      "skill": "Author’s Purpose"
+    }
+  ]
+}
