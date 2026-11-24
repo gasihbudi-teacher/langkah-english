@@ -1,0 +1,429 @@
+{
+  "id": "text-information-l1",
+  "questionCount": 20,
+  "durationSeconds": 0,
+  "passages": [
+    {
+      "id": "info-l1-p01",
+      "title": "Text 01",
+      "text": "Mia has a red bag."
+    },
+    {
+      "id": "info-l1-p02",
+      "title": "Text 02",
+      "text": "Tom is seven years old."
+    },
+    {
+      "id": "info-l1-p03",
+      "title": "Text 03",
+      "text": "The cat is under the chair."
+    },
+    {
+      "id": "info-l1-p04",
+      "title": "Text 04",
+      "text": "I eat rice for breakfast. — Ali"
+    },
+    {
+      "id": "info-l1-p05",
+      "title": "Text 05",
+      "text": "OPEN: 8 a.m. to 3 p.m."
+    },
+    {
+      "id": "info-l1-p06",
+      "title": "Text 06",
+      "text": "Hi Beni, Your pencil is on my desk. — Ana"
+    },
+    {
+      "id": "info-l1-p07",
+      "title": "Text 07",
+      "text": "School lunch today: chicken, rice, and water."
+    },
+    {
+      "id": "info-l1-p08",
+      "title": "Text 08",
+      "text": "Nina walks to school with her brother, Rafi."
+    },
+    {
+      "id": "info-l1-p09",
+      "title": "Text 09",
+      "text": "Dear Susi, The music class is on Monday at 4 p.m. — Mr Dan"
+    },
+    {
+      "id": "info-l1-p10",
+      "title": "Text 10",
+      "text": "At the park, Dodi plays football. His sister reads a book."
+    },
+    {
+      "id": "info-l1-p11",
+      "title": "Text 11",
+      "text": "Mira has two pets: a white cat and a brown dog."
+    },
+    {
+      "id": "info-l1-p12",
+      "title": "Text 12",
+      "text": "Hello, Edo. I put your blue shoes next to the front door. Your black shoes are in your room. — Mom"
+    },
+    {
+      "id": "info-l1-p13",
+      "title": "Text 13",
+      "text": "Our class has art on Wednesday and sports on Friday."
+    },
+    {
+      "id": "info-l1-p14",
+      "title": "Text 14",
+      "text": "Shop sign: Apples are 5,000 rupiah each. Bananas are 3,000 rupiah each."
+    },
+    {
+      "id": "info-l1-p15",
+      "title": "Text 15",
+      "text": "Lina is at the library. She borrows a storybook, but her brother buys a pencil at the shop."
+    },
+    {
+      "id": "info-l1-p16",
+      "title": "Text 16",
+      "text": "School note: On Tuesday, Grade 3 meets in Room 2. On Wednesday, Grade 3 meets in Room 5."
+    },
+    {
+      "id": "info-l1-p17",
+      "title": "Text 17",
+      "text": "Hi Sari, I can play after lunch, but I must help Dad in the morning. Come to my house at 2 p.m. — Wina"
+    },
+    {
+      "id": "info-l1-p18",
+      "title": "Text 18",
+      "text": "Library sign: The reading room is open today. The computer room is closed today. You can read books, but you cannot use the computers."
+    },
+    {
+      "id": "info-l1-p19",
+      "title": "Text 19",
+      "text": "Trip note: Group A takes the red bus at 8 a.m. Group B takes the blue bus at 9 a.m."
+    },
+    {
+      "id": "info-l1-p20",
+      "title": "Text 20",
+      "text": "Hi Fikri, Your English book is in my bag. I will bring it to school on Thursday. Please meet me near the school gate after class. — Danu"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "info-l1-p01",
+      "prompt": "What color is Mia's bag?",
+      "choices": [
+        "Blue",
+        "Green",
+        "Red",
+        "Black"
+      ],
+      "answer": 2,
+      "evidence": "Mia has a red bag.",
+      "explanation": "Tas Mia berwarna merah.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "info-l1-p02",
+      "prompt": "How old is Tom?",
+      "choices": [
+        "Seven",
+        "Six",
+        "Eight",
+        "Nine"
+      ],
+      "answer": 0,
+      "evidence": "Tom is seven years old.",
+      "explanation": "Teks menyebut Tom berusia tujuh tahun.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "info-l1-p03",
+      "prompt": "Where is the cat?",
+      "choices": [
+        "On the bed",
+        "In the box",
+        "Near the door",
+        "Under the chair"
+      ],
+      "answer": 3,
+      "evidence": "The cat is under the chair.",
+      "explanation": "Kucing berada di bawah kursi.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "info-l1-p04",
+      "prompt": "What does Ali eat for breakfast?",
+      "choices": [
+        "Bread",
+        "Rice",
+        "Eggs",
+        "Soup"
+      ],
+      "answer": 1,
+      "evidence": "I eat rice for breakfast.",
+      "explanation": "Ali makan nasi untuk sarapan.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "info-l1-p05",
+      "prompt": "When does this place open?",
+      "choices": [
+        "At 8 a.m.",
+        "At 3 p.m.",
+        "At 10 a.m.",
+        "At 7 p.m."
+      ],
+      "answer": 0,
+      "evidence": "OPEN: 8 a.m. to 3 p.m.",
+      "explanation": "Jam buka dimulai pukul 8 pagi.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "info-l1-p06",
+      "prompt": "Where is Beni's pencil?",
+      "choices": [
+        "In his bag",
+        "Under the desk",
+        "On Ana's desk",
+        "At home"
+      ],
+      "answer": 2,
+      "evidence": "Your pencil is on my desk.",
+      "explanation": "Ana mengatakan pensil Beni ada di mejanya.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "info-l1-p07",
+      "prompt": "What drink is on the lunch menu?",
+      "choices": [
+        "Milk",
+        "Water",
+        "Tea",
+        "Juice"
+      ],
+      "answer": 1,
+      "evidence": "School lunch today: chicken, rice, and water.",
+      "explanation": "Minuman yang disebut dalam menu adalah air putih.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "info-l1-p08",
+      "prompt": "Who goes to school with Nina?",
+      "choices": [
+        "Her mother",
+        "Her teacher",
+        "Her friend",
+        "Her brother"
+      ],
+      "answer": 3,
+      "evidence": "Nina walks to school with her brother, Rafi.",
+      "explanation": "Nina pergi ke sekolah bersama kakak atau adik laki-lakinya, Rafi.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "info-l1-p09",
+      "prompt": "When is the music class?",
+      "choices": [
+        "Tuesday at 4 p.m.",
+        "Monday at 8 a.m.",
+        "Friday at 4 p.m.",
+        "Monday at 4 p.m."
+      ],
+      "answer": 3,
+      "evidence": "The music class is on Monday at 4 p.m.",
+      "explanation": "Kelas musik berlangsung Senin pukul 4 sore.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "info-l1-p10",
+      "prompt": "What does Dodi's sister do?",
+      "choices": [
+        "Reads a book",
+        "Plays football",
+        "Rides a bike",
+        "Eats lunch"
+      ],
+      "answer": 0,
+      "evidence": "His sister reads a book.",
+      "explanation": "Saudara perempuan Dodi membaca buku.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "info-l1-p11",
+      "prompt": "Which pet is brown?",
+      "choices": [
+        "The cat",
+        "The dog",
+        "The bird",
+        "The fish"
+      ],
+      "answer": 1,
+      "evidence": "a white cat and a brown dog",
+      "explanation": "Anjing berwarna cokelat, sedangkan kucing berwarna putih.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "info-l1-p12",
+      "prompt": "Where are Edo's blue shoes?",
+      "choices": [
+        "In his room",
+        "Under his bed",
+        "Next to the front door",
+        "At school"
+      ],
+      "answer": 2,
+      "evidence": "I put your blue shoes next to the front door. Your black shoes are in your room.",
+      "explanation": "Sepatu biru berada di dekat pintu depan; yang ada di kamar adalah sepatu hitam.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "info-l1-p13",
+      "prompt": "What class is on Friday?",
+      "choices": [
+        "Sports",
+        "Art",
+        "Music",
+        "English"
+      ],
+      "answer": 0,
+      "evidence": "Our class has art on Wednesday and sports on Friday.",
+      "explanation": "Hari Jumat adalah pelajaran olahraga, bukan seni.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "info-l1-p14",
+      "prompt": "How much is one banana?",
+      "choices": [
+        "5,000 rupiah",
+        "8,000 rupiah",
+        "2,000 rupiah",
+        "3,000 rupiah"
+      ],
+      "answer": 3,
+      "evidence": "Bananas are 3,000 rupiah each.",
+      "explanation": "Harga satu pisang adalah 3.000 rupiah; 5.000 rupiah adalah harga apel.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "info-l1-p15",
+      "prompt": "What does Lina borrow?",
+      "choices": [
+        "A pencil",
+        "A bag",
+        "A storybook",
+        "A ruler"
+      ],
+      "answer": 2,
+      "evidence": "She borrows a storybook, but her brother buys a pencil at the shop.",
+      "explanation": "Lina meminjam buku cerita; pensil dibeli oleh saudaranya.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "info-l1-p16",
+      "prompt": "Where does Grade 3 meet on Wednesday?",
+      "choices": [
+        "Room 2",
+        "Room 5",
+        "Room 3",
+        "Room 4"
+      ],
+      "answer": 1,
+      "evidence": "On Tuesday, Grade 3 meets in Room 2. On Wednesday, Grade 3 meets in Room 5.",
+      "explanation": "Hari Rabu kelas 3 berada di Ruang 5; Ruang 2 untuk Selasa.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "info-l1-p17",
+      "prompt": "When can Sari come to play?",
+      "choices": [
+        "In the morning",
+        "Before lunch",
+        "At 8 a.m.",
+        "At 2 p.m."
+      ],
+      "answer": 3,
+      "evidence": "I can play after lunch, but I must help Dad in the morning. Come to my house at 2 p.m.",
+      "explanation": "Wina meminta Sari datang pukul 2 siang, bukan pagi saat ia membantu ayah.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "info-l1-p18",
+      "prompt": "What can students do today?",
+      "choices": [
+        "Read books in the reading room",
+        "Use the computers",
+        "Enter the computer room",
+        "Borrow a computer"
+      ],
+      "answer": 0,
+      "evidence": "The reading room is open today. The computer room is closed today. You can read books, but you cannot use the computers.",
+      "explanation": "Ruang baca buka sehingga siswa bisa membaca; ruang komputer tutup.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "info-l1-p19",
+      "prompt": "Which bus does Group B take, and when?",
+      "choices": [
+        "The red bus at 8 a.m.",
+        "The blue bus at 8 a.m.",
+        "The blue bus at 9 a.m.",
+        "The red bus at 9 a.m."
+      ],
+      "answer": 2,
+      "evidence": "Group A takes the red bus at 8 a.m. Group B takes the blue bus at 9 a.m.",
+      "explanation": "Kelompok B naik bus biru pukul 9; pilihan lain mencampur informasi dua kelompok.",
+      "skill": "Supporting Details"
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "info-l1-p20",
+      "prompt": "Where and when should Fikri meet Danu?",
+      "choices": [
+        "In Danu's house",
+        "Near the school gate after class",
+        "In the classroom",
+        "At the library before class"
+      ],
+      "answer": 1,
+      "evidence": "Your English book is in my bag. I will bring it to school on Thursday. Please meet me near the school gate after class.",
+      "explanation": "Buku ada di tas Danu, tetapi tempat bertemu untuk mengambilnya adalah dekat gerbang sekolah setelah kelas.",
+      "skill": "Supporting Details"
+    }
+  ]
+}
