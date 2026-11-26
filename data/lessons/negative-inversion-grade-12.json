@@ -54,32 +54,32 @@
       "collapsed": true,
       "items": [
         {
-          "english": "Rarely does she miss morning class.",
+          "english": "She rarely misses morning class.\nRarely does she miss morning class.",
           "indonesian": "Jarang sekali ia melewatkan kelas pagi.",
           "note": "Subjek tunggal [[she]] memakai [[does]] + [[miss]] ([[V1]])."
         },
         {
-          "english": "Seldom do they eat fast food.",
+          "english": "They seldom eat fast food.\nSeldom do they eat fast food.",
           "indonesian": "Jarang sekali mereka makan makanan cepat saji.",
           "note": "Subjek jamak [[they]] memakai [[do]] + [[eat]] ([[V1]])."
         },
         {
-          "english": "Seldom do students have free time before exams.",
+          "english": "Students seldom have free time before exams.\nSeldom do students have free time before exams.",
           "indonesian": "Jarang sekali siswa punya waktu luang sebelum ujian.",
           "note": "[[have]] berarti 'punya' (kata kerja utama), jadi tetap perlu [[do]]."
         },
         {
-          "english": "Never does the bus arrive early.",
+          "english": "The bus never arrives early.\nNever does the bus arrive early.",
           "indonesian": "Tidak pernah bus itu datang lebih awal.",
           "note": "Subjek tunggal [[the bus]] memakai [[does]] + [[arrive]] ([[V1]])."
         },
         {
-          "english": "In no way does this rule hurt students.",
+          "english": "This rule does not hurt students in any way.\nIn no way does this rule hurt students.",
           "indonesian": "Aturan ini sama sekali tidak merugikan siswa.",
           "note": "Subjek tunggal [[this rule]] memakai [[does]] + [[hurt]] ([[V1]])."
         },
         {
-          "english": "Not only does he study hard, but he also helps friends.",
+          "english": "He not only studies hard but also helps friends.\nNot only does he study hard, but he also helps friends.",
           "indonesian": "Ia tidak hanya belajar giat, tetapi juga membantu teman.",
           "note": "Inversi hanya di bagian pertama ([[does he study]]); bagian kedua normal."
         }
@@ -91,32 +91,32 @@
       "collapsed": true,
       "items": [
         {
-          "english": "At no time did the team give up.",
+          "english": "The team never gave up.\nAt no time did the team give up.",
           "indonesian": "Sama sekali tidak pernah tim itu menyerah.",
           "note": "Lampau tanpa kata bantu → pakai [[did]] + [[give]] ([[V1]])."
         },
         {
-          "english": "Little did she know about the surprise.",
+          "english": "She knew very little about the surprise.\nLittle did she know about the surprise.",
           "indonesian": "Ia sama sekali tidak tahu tentang kejutan itu.",
           "note": "[[Little]] bermakna 'sama sekali tidak' → [[did]] + [[she]] + [[know]] ([[V1]])."
         },
         {
-          "english": "Never did I expect such a high score.",
+          "english": "I never expected such a high score.\nNever did I expect such a high score.",
           "indonesian": "Tidak pernah saya menyangka nilai setinggi itu.",
           "note": "Semua subjek lampau memakai [[did]] + [[expect]] ([[V1]])."
         },
         {
-          "english": "Not only did they win, but they also broke the record.",
+          "english": "They not only won but also broke the record.\nNot only did they win, but they also broke the record.",
           "indonesian": "Mereka tidak hanya menang, tetapi juga memecahkan rekor.",
           "note": "Setelah [[Not only]] pakai [[did they win]] ([[V1]]), lalu [[but they also broke]] normal."
         },
         {
-          "english": "Only after the rain stopped did we go home.",
+          "english": "We went home only after the rain stopped.\nOnly after the rain stopped did we go home.",
           "indonesian": "Baru setelah hujan berhenti, kami pulang.",
           "note": "Anak kalimat [[the rain stopped]] tetap normal; inversi [[did we go]] di bagian kedua."
         },
         {
-          "english": "Not until he read the note did he understand.",
+          "english": "He did not understand until he read the note.\nNot until he read the note did he understand.",
           "indonesian": "Baru setelah membaca catatan itu, ia mengerti.",
           "note": "[[he read the note]] tetap normal; inversi [[did he understand]] di klausa utama."
         }
@@ -128,32 +128,32 @@
       "collapsed": true,
       "items": [
         {
-          "english": "Never have I seen such a clean room.",
+          "english": "I have never seen such a clean room.\nNever have I seen such a clean room.",
           "indonesian": "Belum pernah saya melihat ruangan sebersih ini.",
           "note": "Tarik [[have]] ke depan [[I]]; [[seen]] ([[V3]]) tetap."
         },
         {
-          "english": "Never has the school held a bigger event.",
+          "english": "The school has never held a bigger event.\nNever has the school held a bigger event.",
           "indonesian": "Belum pernah sekolah mengadakan acara sebesar ini.",
           "note": "Tarik [[has]] ke depan [[the school]]; [[held]] ([[V3]]) tetap."
         },
         {
-          "english": "Seldom have they complained about the rules.",
+          "english": "They have seldom complained about the rules.\nSeldom have they complained about the rules.",
           "indonesian": "Jarang sekali mereka mengeluh tentang aturan.",
           "note": "Tarik [[have]] ke depan [[they]]; [[complained]] ([[V3]]) tetap."
         },
         {
-          "english": "Hardly had we started when the bell rang.",
+          "english": "We had hardly started when the bell rang.\nHardly had we started when the bell rang.",
           "indonesian": "Kami baru saja mulai ketika bel berbunyi.",
           "note": "Pasangan tetap: [[Hardly had]] + [[subjek]] + [[V3]] ... [[when]]."
         },
         {
-          "english": "Scarcely had she sat down when the phone rang.",
+          "english": "She had scarcely sat down when the phone rang.\nScarcely had she sat down when the phone rang.",
           "indonesian": "Ia baru saja duduk ketika telepon berbunyi.",
           "note": "[[Scarcely]] sama dengan [[Hardly]]: pakai [[had she sat]] ... [[when]]."
         },
         {
-          "english": "No sooner had the train left than it rained.",
+          "english": "The train had no sooner left than it rained.\nNo sooner had the train left than it rained.",
           "indonesian": "Begitu kereta berangkat, hujan langsung turun.",
           "note": "Pasangan tetap: [[No sooner had]] + [[subjek]] + [[V3]] ... [[than]]."
         }
@@ -165,32 +165,32 @@
       "collapsed": true,
       "items": [
         {
-          "english": "Under no circumstances must you share your password.",
+          "english": "You must not share your password under any circumstances.\nUnder no circumstances must you share your password.",
           "indonesian": "Dalam kondisi apa pun kamu tidak boleh membagikan kata sandimu.",
           "note": "Tarik modal [[must]] ke depan [[you]]; [[share]] ([[V1]]) tetap."
         },
         {
-          "english": "Under no circumstances should this door be left open.",
+          "english": "This door should not be left open under any circumstances.\nUnder no circumstances should this door be left open.",
           "indonesian": "Dalam kondisi apa pun pintu ini tidak boleh dibiarkan terbuka.",
           "note": "Pada kalimat pasif, hanya [[should]] yang maju ke depan [[this door]]."
         },
         {
-          "english": "Rarely can a beginner solve this puzzle alone.",
+          "english": "A beginner can rarely solve this puzzle alone.\nRarely can a beginner solve this puzzle alone.",
           "indonesian": "Jarang sekali pemula bisa memecahkan teka-teki ini sendirian.",
           "note": "Tarik [[can]] ke depan [[a beginner]]; [[solve]] ([[V1]]) tetap."
         },
         {
-          "english": "At no time will the teacher accept late work.",
+          "english": "The teacher will never accept late work.\nAt no time will the teacher accept late work.",
           "indonesian": "Guru tidak akan pernah menerima tugas yang terlambat.",
           "note": "Tarik [[will]] ke depan [[the teacher]]; [[accept]] ([[V1]]) tetap."
         },
         {
-          "english": "Only by practicing daily can we improve.",
+          "english": "We can improve only by practicing daily.\nOnly by practicing daily can we improve.",
           "indonesian": "Hanya dengan berlatih setiap hari kita bisa berkembang.",
           "note": "[[Only by practicing daily]] adalah frasa, jadi langsung diikuti [[can we improve]]."
         },
         {
-          "english": "In no way could they hide the truth.",
+          "english": "They could not hide the truth in any way.\nIn no way could they hide the truth.",
           "indonesian": "Mereka sama sekali tidak bisa menyembunyikan kebenaran.",
           "note": "Tarik [[could]] ke depan [[they]]; [[hide]] ([[V1]]) tetap."
         }
