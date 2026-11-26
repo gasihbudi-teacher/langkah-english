@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="plane" viewBox="0 0 238 102">
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 87c25 11 64-1 69-29 4-22-23-25-24-5-2 29 51 33 88-10" fill="none" stroke="#9295ab" stroke-width="1.7" stroke-dasharray="4 6"/>
+      <g stroke="#63718b" stroke-width="1.8">
+        <path d="m143 39 82-31-27 55-22-13-13 16-4-22z" fill="#d2e2f4"/>
+        <path d="m143 39 82-31-66 36z" fill="#f7f6ff"/>
+        <path d="m159 44 66-36-54 40-8 18z" fill="#b9c2e5"/>
+        <path d="m171 48 27 15 27-55z" fill="#d7e9f6"/>
+      </g>
+      <path d="m150 27 4-3m-13 6 5-4" fill="none" stroke="#9da1b2" stroke-width="1.5"/>
+    </g>
+  </symbol>
+  <symbol id="conversation" viewBox="0 0 100 76">
+    <g stroke="#80748a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M41 34q16-9 43-4 7 1 7 9l-1 13q-1 6-8 7l3 10-15-9-21 1q-8 0-9-6z" fill="#ead5e4"/>
+      <path d="M10 15q15-8 43-6 14 0 15 8l2 17q0 7-8 9l-25 2-16 12 2-12-8-1q-7 0-7-7z" fill="#f6e5ae"/>
+      <path d="m23 22 28-2m-26 10 18-1m23 18 12-1" fill="none"/>
+      <path d="m80 11 3-5m0 12 7-3" fill="none" stroke="#b09cae"/>
+    </g>
+  </symbol>
+  <symbol id="pencil" viewBox="0 0 100 65">
+    <g stroke="#947568" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m11 54 7-16L78 8q4-2 7 3l2 5q1 3-3 5L25 51z" fill="#f2c5b4"/>
+      <path d="m11 54 7-16 7 13z" fill="#f7e4bf"/>
+      <path d="m11 54 3-6 3 4z" fill="#746968"/>
+      <path d="m75 10 5 13m-9-11 6 13m-55 15 48-24" fill="none"/>
+      <path d="M5 59q15 6 33-2t29-1" fill="none" stroke="#ae99b4"/>
+    </g>
+  </symbol>
+</svg>

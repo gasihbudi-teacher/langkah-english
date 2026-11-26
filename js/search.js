@@ -50,10 +50,15 @@ try {
   function render() {
     const term = input.value.trim().toLocaleLowerCase('id');
     const initial = !term && !showAll;
+    const grade = term.match(/\b(?:kelas|grade)\s+(\d+)\b/);
+    const topicWords = grade ? term.replace(grade[0], '').trim().split(/\s+/).filter(Boolean) : [];
     const hits = catalog.resources.filter(r => {
       const words = [r.title,r.description,r.difficulty,r.type,...(r.tags||[]),...(r.grammarTopics||[]),...(r.readingSkills||[])];
       for(const p of r.placements) words.push(p.pathway, t(pathKeys[p.pathway]), p.grade ? 'kelas '+p.grade+' grade '+p.grade : '');
-      return !term || words.join(' ').toLocaleLowerCase('id').includes(term);
+      const searchable = words.join(' ').toLocaleLowerCase('id');
+      if (!term || searchable.includes(term)) return true;
+      return grade && r.placements.some(p => String(p.grade) === grade[1])
+        && topicWords.every(word => searchable.includes(word));
     }).sort(byResourceTitle);
     const items = initial ? featuredIds.map(id=>catalog.resources.find(r=>r.id===id)).filter(Boolean).sort(byResourceTitle) : hits;
     input.placeholder = t('searchPlaceholder');

@@ -86,7 +86,7 @@ async def run():
   test_counts={}
   await setup(page,'index.html','home.js',screenshot='/tmp/langkah_v10_home_browser.png')
   test_counts['home_stats']=await page.locator('#stats .stat').count()
-  test_counts['home_path_cards']=await page.locator('.home-choice-section .choice-card').count()
+  test_counts['home_path_links']=await page.locator('.learning-wheel a').count()
   test_counts['home_duplicate_sections']=await page.locator('.path-section,.journey-section,.grade-section,.roadmap-section').count()
   test_counts['home_continue']=await page.locator('#continue .button').count()
   await page.locator('.lang-button[data-lang="en"]').click(timeout=4000)
@@ -154,7 +154,7 @@ async def run():
   print(json.dumps(test_counts,ensure_ascii=False,indent=2))
   print('ERRORS',errors)
   await browser.close()
-  return not errors and test_counts['home_stats']==4 and test_counts['home_path_cards']==4 and test_counts['home_duplicate_sections']==0 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']>=105 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
+  return not errors and test_counts['home_stats']==4 and test_counts['home_path_links']==6 and test_counts['home_duplicate_sections']==0 and test_counts['lesson_done_storage'] and test_counts['search_all_cards']>=105 and test_counts['mobile_overflow']==0 and test_counts['quiz_attempt_saved'] and test_counts['results_review_items']==12
 if __name__=='__main__':
  ok=asyncio.run(run())
  if not ok:raise SystemExit(1)

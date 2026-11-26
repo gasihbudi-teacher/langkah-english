@@ -38,4 +38,24 @@
       <path d="m30 36-5-2m10-3-2-5" fill="none"/>
     </g>
   </symbol>
+  <symbol id="sas" viewBox="0 0 140 88">
+    <g transform="rotate(-7 70 44)" stroke="#684438" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="39" y="18" width="64" height="56" rx="4" fill="#cc896b"/>
+      <rect x="36" y="14" width="64" height="56" rx="4" fill="#fff5df"/>
+      <path d="M36 29h64M51 10v11m32-11v11" fill="none"/>
+      <path d="M44 38h47m-47 12h47M58 34v27m16-27v27" fill="none" stroke="#c6b6a1"/>
+      <circle cx="81" cy="54" r="13" fill="#b5d2ab"/><path d="m74 54 4 4 10-11" fill="none"/>
+    </g>
+  </symbol>
+  <symbol id="text-based" viewBox="0 0 140 88">
+    <g stroke="#365d54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m49 14 47 6-7 57-47-7z" fill="#93bcaa"/>
+      <g transform="rotate(-7 66 42)">
+        <rect x="40" y="10" width="48" height="59" rx="2" fill="#fff8e5"/>
+        <path d="M48 23h23m-23 9h32m-32 9h29m-29 9h12" fill="none"/>
+        <path d="M62 48h24v7H62z" fill="#edc775" stroke="none"/>
+      </g>
+      <path d="m78 61 20-28 5 4-20 28-7 5z" fill="#dc9d78"/>
+    </g>
+  </symbol>
 </svg>

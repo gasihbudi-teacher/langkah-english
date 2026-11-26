@@ -276,6 +276,9 @@ const dictionary={
     resetFilters:"Reset filters",
     filtersTitle:"Find what fits",
     resourcesHint:"Lessons & practice",
+    homeQuery:"Search lessons or quizzes",
+    homeQueryHint:"Search lessons or quizzes…",
+    searchSubmit:"Search",
     searchLabel:"Search topics",
     searchPlaceholder:"Try simple present or grade 9",
     pathwayLabel:"Learning path",
@@ -604,9 +607,9 @@ const dictionary={
     pathwayIntroUtbk:"Pelajari cara menemukan gagasan utama dan bukti dalam bacaan untuk persiapan seleksi masuk perguruan tinggi.",
     pathwayIntroSchool:"Pilih kelasmu untuk menemukan penjelasan dan latihan yang sesuai dengan pelajaran sekolah.",
     skip:"Lewati ke konten",
-    navGrammar:"Tata bahasa",
+    navGrammar:"Grammar",
     navUtbk:"Persiapan UTBK",
-    navSchool:"Pelajaran sekolah",
+    navSchool:"Materi Sekolah",
     footerTagline:"Maju selangkah, setiap hari.",
     footerPrivacy:"Progres tersimpan di peramban perangkat ini.",
     footerUnofficial:"Latihan berbantuan AI ini tidak resmi dan tidak berafiliasi dengan SNPMB.",
@@ -619,9 +622,9 @@ const dictionary={
     choiceKicker:"Mulai dari sini",
     choiceTitle:"Pilih jalur belajarmu",
     choiceBody:"Pilih satu tujuan. Kamu bisa berganti jalur kapan saja.",
-    choiceOne:"Tata bahasa",
+    choiceOne:"Grammar",
     choiceOneDesc:"Untuk pemula yang ingin menyusun kalimat bahasa Inggris.",
-    choiceTwo:"Pelajaran sekolah",
+    choiceTwo:"Materi Sekolah",
     choiceTwoDesc:"Materi dan latihan untuk mengikuti pelajaran kelas 9–12.",
     choiceThree:"Persiapan UTBK",
     choiceThreeDesc:"Latihan memahami bacaan untuk seleksi masuk perguruan tinggi.",
@@ -687,6 +690,9 @@ const dictionary={
     resetFilters:"Hapus filter",
     filtersTitle:"Cari yang cocok",
     resourcesHint:"Materi & latihan",
+    homeQuery:"Cari materi atau latihan",
+    homeQueryHint:"Cari materi atau latihan…",
+    searchSubmit:"Cari",
     searchLabel:"Cari topik",
     searchPlaceholder:"Misalnya, simple present atau kelas 9",
     pathwayLabel:"Jalur belajar",
@@ -827,6 +833,6 @@ let current='id';
 try{const saved=localStorage.getItem('langkah.language.v2');if(saved==='id'||saved==='en')current=saved}catch{}
 export function language(){return current}
 export function t(key,values={}){let str=dictionary[current][key]??dictionary.en[key]??key;return str.replace(/\{(\w+)\}/g,(_,k)=>String(values[k]??''))}
-export function applyStatic(){document.documentElement.lang=current;document.querySelectorAll('[data-i18n]').forEach(el=>{const val=t(el.dataset.i18n);if(el.dataset.i18n==='heroTitle')el.innerHTML=val;else el.textContent=val});document.querySelectorAll('[data-i18n-aria]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.i18nAria)));document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===current)));}
+export function applyStatic(){document.documentElement.lang=current;document.querySelectorAll('[data-i18n]').forEach(el=>{const val=t(el.dataset.i18n);if(el.dataset.i18n==='heroTitle')el.innerHTML=val;else el.textContent=val});document.querySelectorAll('[data-i18n-aria]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.i18nAria)));document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>el.placeholder=t(el.dataset.i18nPlaceholder));document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===current)));}
 export function initI18n(){document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{if(b.dataset.lang===current)return;current=b.dataset.lang;try{localStorage.setItem('langkah.language.v2',current)}catch{}applyStatic();dispatchEvent(new Event('langkah:language'))}));applyStatic()}
 export function onLanguageChange(fn){addEventListener('langkah:language',fn)}
