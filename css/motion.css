@@ -1,0 +1,182 @@
+@media (prefers-reduced-motion: no-preference) {
+  /* Langkah English · playful motion layer
+     Progressive enhancement: motion.js adds .motion-ready only when
+     IntersectionObserver is available and reduced motion is not requested. */
+  :root {
+    --motion-ease: cubic-bezier(.2, .78, .24, 1);
+    --motion-pop: cubic-bezier(.28, 1.45, .48, 1);
+    --motion-duration: 270ms;
+  }
+
+  @keyframes le-rise-in {
+    from { opacity: 1; transform: translate3d(0, 20px, 0) scale(.985); }
+    to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+  }
+  @keyframes le-pop-in {
+    0% { opacity: 1; transform: translate3d(0, 12px, 0) scale(.92); }
+    72% { opacity: 1; transform: translate3d(0, -2px, 0) scale(1.015); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+  }
+  @keyframes le-menu-drop {
+    from { opacity: 1; transform: translate3d(0, -9px, 0) scale(.98); }
+    to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+  }
+  @keyframes le-accordion-in {
+    from { opacity: 1; transform: translate3d(0, -5px, 0); }
+    to { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes le-question-in {
+    from { opacity: 1; transform: translate3d(0, 10px, 0); }
+    to { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes le-choice-in {
+    from { opacity: 1; transform: translate3d(0, 9px, 0) scale(.985); }
+    to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+  }
+  @keyframes le-choice-select {
+    0% { transform: scale(1); }
+    48% { transform: scale(1.018); }
+    100% { transform: scale(1); }
+  }
+  @keyframes le-feedback-in {
+    0% { opacity: 1; transform: translate3d(0, 8px, 0) scale(.985); }
+    70% { opacity: 1; transform: translate3d(0, -1px, 0) scale(1.006); }
+    100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+  }
+  @keyframes le-float-art {
+    0%, 100% { transform: translateY(0) rotate(7deg); }
+    50% { transform: translateY(-7px) rotate(10deg); }
+  }
+  @keyframes le-plane-drift {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0); }
+    50% { transform: translate3d(7px, -4px, 0) rotate(-2deg); }
+  }
+  @keyframes le-brand-hop {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    35% { transform: translateY(-4px) rotate(-7deg); }
+    70% { transform: translateY(1px) rotate(5deg); }
+  }
+  @keyframes le-urgent-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 #d66a4c00; }
+    50% { box-shadow: 0 0 0 5px #d66a4c20; }
+  }
+
+  /* Scroll entrances for the main learning surfaces. */
+  .motion-ready .motion-reveal.is-visible {
+    animation: le-rise-in var(--motion-duration) var(--motion-ease) both;
+    animation-delay: var(--motion-delay, 0ms);
+  }
+
+  /* Navigation: friendly, tactile controls and springy menus. */
+  .brand-mark { transition: transform 220ms var(--motion-pop); }
+  .logo:hover .brand-mark, .logo:focus-visible .brand-mark { animation: le-brand-hop 520ms var(--motion-pop); }
+  .nav-links a, .nav-search, .nav-progress, .route-toggle, .nav-toggle,
+  .pathway-hero-links a, .lesson-toc a, .scaffold-phase-links a {
+    transition: transform 190ms var(--motion-pop), background-color 190ms ease,
+      border-color 190ms ease, color 190ms ease, box-shadow 190ms ease;
+  }
+  .nav-links a:hover, .nav-search:hover, .nav-progress:hover,
+  .pathway-hero-links a:hover, .lesson-toc a:hover, .scaffold-phase-links a:hover {
+    transform: translateY(-2px);
+  }
+  .route-toggle .icon { transition: transform 220ms var(--motion-pop); }
+  .route-toggle[aria-expanded="true"] .icon { transform: rotate(180deg); }
+  .route-menu { transform-origin: top left; }
+  .route-toggle[aria-expanded="true"] + .route-menu { animation: le-menu-drop 240ms var(--motion-ease) both; }
+  .route-menu li { animation: le-choice-in 300ms var(--motion-ease) both; }
+  .route-menu li:nth-child(2) { animation-delay: 25ms; }
+  .route-menu li:nth-child(3) { animation-delay: 50ms; }
+  .route-menu li:nth-child(4) { animation-delay: 75ms; }
+  .route-menu li:nth-child(5) { animation-delay: 100ms; }
+  .route-menu li:nth-child(6) { animation-delay: 125ms; }
+  .nav .nav-links.is-open { transform-origin: top right; animation: le-menu-drop 260ms var(--motion-ease) both; }
+  .nav .nav-links.is-open > a,
+  .nav .nav-links.is-open > .route-picker { animation: le-choice-in 280ms var(--motion-ease) both; }
+  .nav .nav-links.is-open > :nth-child(2) { animation-delay: 35ms; }
+  .nav .nav-links.is-open > :nth-child(3) { animation-delay: 70ms; }
+
+  /* Homepage: give the learning wheel and illustrated accents a little life. */
+  .dashboard-welcome { transform-origin: 20% 50%; }
+  .welcome-art { animation: le-float-art 5.2s ease-in-out; }
+  .flight-art svg { animation: le-plane-drift 6s ease-in-out; }
+  .learning-wheel a { transform-box: fill-box; transform-origin: center; transition: transform 240ms var(--motion-pop), filter 240ms ease; }
+  .learning-wheel a:hover, .learning-wheel a:focus-visible { transform: scale(1.035); }
+  .learning-wheel a:hover .wheel-slice { filter: saturate(1.12) brightness(1.035); }
+  .choice-card, .mode-card, .resource-card, .tka-module, .stat {
+    transition: transform 220ms var(--motion-pop), box-shadow 220ms ease, border-color 220ms ease;
+  }
+  .choice-card:hover, .mode-card:hover, .resource-card:hover, .tka-module:hover, .stat:hover {
+    transform: translateY(-4px) rotate(-.25deg);
+    box-shadow: 0 10px 24px #302a4514;
+  }
+  .choice-card:hover .choice-visual { transform: rotate(-5deg) scale(1.04); }
+  .choice-visual { transition: transform 220ms var(--motion-pop); }
+
+  /* Shared cards and buttons. */
+  button:not(:disabled), .button, .choice, .checkpoint-options button {
+    transition: transform 180ms var(--motion-pop), box-shadow 180ms ease,
+      background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+  }
+  button:not(:disabled):hover, .button:hover { transform: translateY(-1px); }
+  button:not(:disabled):active, .button:active { transform: translateY(1px) scale(.975); }
+  .choice[aria-pressed="true"], .checkpoint-options button[aria-pressed="true"] {
+    animation: le-choice-select 300ms var(--motion-pop);
+  }
+
+  /* Pathway catalogues and expandable learning material. */
+  .topic-fold, .tka-directory { transition: border-color 200ms ease, box-shadow 200ms ease; }
+  .topic-fold:hover, .tka-directory:hover { border-color: color-mix(in srgb, var(--track, var(--forest)) 32%, var(--line)); }
+  .topic-fold[open] > .topic-fold-body,
+  .tka-directory[open] > .tka-directory-body,
+  .scaffold-phase[open] > :not(summary),
+  .reader-index[open] > .lesson-toc,
+  .quiz-rules[open] > p,
+  .review[open] > .review-body {
+    animation: le-accordion-in 260ms var(--motion-ease) both;
+  }
+
+  /* Lesson reader: small reveals keep attention on the next step. */
+  .lesson-translation { transition: box-shadow 200ms ease, border-color 200ms ease; }
+  .lesson-translation:hover { box-shadow: 0 4px 14px #314b3912; }
+  .lesson-translation[open] .translation-content { animation: le-accordion-in 240ms var(--motion-ease) both; }
+  .lesson-translation > summary { transition: background-color 180ms ease; }
+  .lesson-translation > summary:hover { background: #dfead9; }
+  .scaffold-count { transition: transform 200ms var(--motion-pop), background-color 200ms ease; }
+  .scaffold-step:hover .scaffold-count { transform: rotate(-7deg) scale(1.08); }
+  .checkpoint-result:not([hidden]), .inline-feedback:not([hidden]), #feedback:not(:empty) {
+    animation: le-feedback-in 360ms var(--motion-pop) both;
+  }
+  .complete-box { transition: box-shadow 220ms ease; }
+  .complete-box:has(#complete:focus-visible) { box-shadow: 0 0 0 3px color-mix(in srgb, var(--track, var(--forest)) 20%, transparent); }
+
+  /* Quiz: questions arrive cleanly, choices cascade, progress responds. */
+  .question-panel #question > h2 { animation: le-question-in 360ms var(--motion-ease) both; }
+  .question-panel #question .choices .choice { animation: le-choice-in 340ms var(--motion-ease) both; }
+  .question-panel #question .choices .choice:nth-child(2) { animation-delay: 35ms; }
+  .question-panel #question .choices .choice:nth-child(3) { animation-delay: 70ms; }
+  .question-panel #question .choices .choice:nth-child(4) { animation-delay: 105ms; }
+  .question-panel #question .choices .choice:nth-child(5) { animation-delay: 140ms; }
+  .question-panel #question .choices .choice:nth-child(6) { animation-delay: 175ms; }
+  .numbers button { transition: transform 180ms var(--motion-pop), background-color 180ms ease, color 180ms ease, border-color 180ms ease; }
+  .numbers button:hover { transform: translateY(-2px) scale(1.04); }
+  .numbers button[aria-current="true"] { animation: le-pop-in 260ms var(--motion-pop) both; }
+  progress::-webkit-progress-value { transition: width 420ms var(--motion-ease); }
+  progress::-moz-progress-bar { transition: width 420ms var(--motion-ease); }
+  .timer.is-urgent { color: #a4432d; font-weight: 800; animation: le-urgent-pulse 1.2s ease-in-out; }
+
+  /* Results: celebratory, but keep the score readable and calm. */
+  .result-hero h1 { transform-origin: left center; animation: le-pop-in 520ms var(--motion-pop) both; }
+  .result-stats > .stat:nth-child(1) { animation-delay: 40ms; }
+  .result-stats > .stat:nth-child(2) { animation-delay: 100ms; }
+  .result-stats > .stat:nth-child(3) { animation-delay: 160ms; }
+  .result-stats > .stat:nth-child(4) { animation-delay: 220ms; }
+  .result-stats .stat strong { display: inline-block; animation: le-pop-in 440ms var(--motion-pop) both; }
+  .skill-list progress { overflow: hidden; }
+
+  @media (max-width: 810px) {
+    .nav .nav-links.is-open { box-shadow: 0 14px 28px #28223a1a; }
+  }
+}
+
+/* The timer stays visibly urgent without a pulsing effect. */
+.timer.is-urgent { color: #a4432d; font-weight: 800; }
