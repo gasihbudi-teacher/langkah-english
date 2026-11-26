@@ -14,7 +14,7 @@ const quizMeta=catalog.resources.find(r=>r.id==='grade9-place-reading-check');
 assert(lessonMeta&&quizMeta,'Grade 9 Lesson 1 and its dedicated assessment must be registered');
 assert.equal(lessonMeta.type,'lesson');
 assert.deepEqual(lessonMeta.placements,[{pathway:'school',grade:9}]);
-assert.equal(lessonMeta.title,'Grade 9: Reading a Place — Descriptive Text');
+assert.equal(lessonMeta.title,'Reading a Place — Descriptive Text (Grade 9)');
 assert.equal(quizMeta.type,'quiz');
 assert.deepEqual(quizMeta.placements,[{pathway:'school',grade:9}]);
 assert.deepEqual(quizMeta.relatedLessons,['grade9-reading']);

@@ -57,15 +57,14 @@ try{
    summary.innerHTML=`<span>${t('pathwayProgress',{done:completed,total:relevant.length})}</span><span class="pathway-progress-track" aria-hidden="true"><span style="width:${relevant.length?Math.round(100*completed/relevant.length):0}%"></span></span>`;
   }
   for(const id of previousOpen){const section=document.getElementById(id);if(section?.tagName==='DETAILS')section.open=true;}
-  openForHash(false);
  }
- function openForHash(shouldScroll=true){
+ function openForHash(){
   const id=decodeURIComponent(location.hash.slice(1));if(!id)return;
   let node=document.getElementById(id);
   if(node && node.tagName!=='DETAILS'){
    const first=document.getElementById(id+'-materi');if(first)first.open=true;
   }else if(node?.tagName==='DETAILS')node.open=true;
-  if(shouldScroll)requestAnimationFrame(()=>node?.scrollIntoView({block:'start'}));
+  requestAnimationFrame(()=>node?.scrollIntoView({block:'start'}));
  }
  draw();onLanguageChange(draw);
  document.querySelector('.pathway-hero-links').addEventListener('click',event=>{

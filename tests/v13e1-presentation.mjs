@@ -72,7 +72,7 @@ assert.deepEqual(narrativeMeta.placements[0],{pathway:'school',grade:9});
 assert(narrativeMeta.placements.some(p=>p.pathway==='grammar')&&narrativeMeta.placements.some(p=>p.pathway==='tka'),'Existing cross-listings must remain available');
 assert.equal(narrativeMeta.order,215);
 assert.equal(narrativeQuizMeta.type,'quiz');
-assert.equal(narrativeQuizMeta.title,'Grade 9 Narrative Check: The Missing Exhibition Lantern');
+assert.equal(narrativeQuizMeta.title,'Narrative Check: The Missing Exhibition Lantern (Grade 9)');
 assert.deepEqual(narrativeQuizMeta.placements[0],{pathway:'school',grade:9});
 assert.deepEqual(narrativeQuizMeta.relatedLessons,['grade9-narrative']);
 assert.equal(narrativeQuizMeta.kind,'practice');
@@ -141,7 +141,7 @@ assert(reportMeta&&reportQuizMeta,'Grade 9 Report Text lesson and independent pr
 assert.deepEqual(reportMeta.placements[0],{pathway:'school',grade:9});
 assert.equal(reportMeta.order,300);
 assert.equal(reportQuizMeta.type,'quiz');
-assert.equal(reportQuizMeta.title,'Grade 9 Report Text Check: The Bali Myna');
+assert.equal(reportQuizMeta.title,'Report Text Check: The Bali Myna (Grade 9)');
 assert.deepEqual(reportQuizMeta.placements[0],{pathway:'school',grade:9});
 assert.deepEqual(reportQuizMeta.relatedLessons,['grade9-report-animals']);
 assert.equal(reportQuizMeta.kind,'practice');

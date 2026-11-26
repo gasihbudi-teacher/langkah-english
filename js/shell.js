@@ -50,3 +50,12 @@ for (const anchor of header.querySelectorAll('a[href]')) {
     if (anchor.closest('.route-menu')) paths.classList.add('current-path');
   }
 }
+
+// A browser may restore the previous DOM when returning to a catalogue.
+if (document.body.dataset.pathway) {
+  window.addEventListener('pageshow', event => {
+    if (event.persisted && !location.hash) {
+      for (const topic of document.querySelectorAll('main details[open]')) topic.open = false;
+    }
+  });
+}

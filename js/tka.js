@@ -1,4 +1,4 @@
-import {getCatalog,esc,link,progress,quizDrafts,resourceRow,icon,byResourceTitle} from './core.js';
+import {getCatalog,esc,link,progress,quizDrafts,resourceRow,icon,byResourceTitle,compareTitles} from './core.js';
 import {t,initI18n,onLanguageChange} from './i18n.js';
 initI18n();
 // Planned sequence from the 2026-10-26 blueprint. V13-C5 publishes all ten modules; V13-D adds three full practice simulations.
@@ -38,8 +38,8 @@ let items=[],tkaLessons=[],tkaQuizzes=[];
 function draw(){
  const p=progress.read(),drafts=quizDrafts();
  const card=r=>resourceRow(r,p,drafts,'tka',t('difficulty'+r.difficulty));
- const groups=[...new Set(tkaModules.map(m=>m[3]))];
- modules.innerHTML=groups.map(key=>`<section class="tka-module-group"><h3>${esc(t(key))}</h3><ol class="tka-module-grid">${tkaModules.filter(m=>m[3]===key).map(([id,title])=>{
+ const groups=[...new Set(tkaModules.map(m=>m[3]))].sort((a,b)=>compareTitles(t(a),t(b)));
+ modules.innerHTML=groups.map(key=>`<section class="tka-module-group"><h3>${esc(t(key))}</h3><ol class="tka-module-grid">${tkaModules.filter(m=>m[3]===key).sort((a,b)=>compareTitles(a[1],b[1])).map(([id,title])=>{
   const paths=published[id];
   const lesson=paths?tkaLessons.find(x=>x.id===paths[0]):null;
   const quiz=paths?tkaQuizzes.find(x=>x.id===paths[1]):null;

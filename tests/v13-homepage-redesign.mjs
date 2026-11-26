@@ -8,7 +8,7 @@ assert.match(html,/id="learning-choices"/);
 assert.match(html,/id="continue-section"[^>]*hidden/);
 assert.match(html,/id="my-progress"/);
 assert.match(html,/<nav id="learning-choices"[^>]*data-i18n-aria="pathNav"/);
-const destinations = ['grammar.html#beginner', 'school.html', 'utbk.html', 'tka.html', 'sas.html', 'text-based.html'];
+const destinations = ['grammar.html', 'school.html', 'utbk.html', 'tka.html', 'sas.html', 'text-based.html'];
 const wheel = html.match(/<svg class="learning-wheel"[^>]*>([\s\S]*?)<\/svg>/)?.[1];
 assert.ok(wheel, 'Missing learning wheel');
 assert.deepEqual([...wheel.matchAll(/<a href="([^"]+)"/g)].map(match => match[1]), destinations);

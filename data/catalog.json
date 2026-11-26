@@ -554,7 +554,7 @@
     },
     {
       "id": "grade9-reading",
-      "title": "Grade 9: Reading a Place — Descriptive Text",
+      "title": "Reading a Place — Descriptive Text (Grade 9)",
       "description": "Pelajari cara memahami deskripsi tempat, menemukan bukti, menafsirkan kosakata, dan membuat simpulan yang didukung bacaan.",
       "type": "lesson",
       "placements": [
@@ -589,7 +589,7 @@
     },
     {
       "id": "grade9-place-reading-check",
-      "title": "Grade 9 Reading Check: Describing a Place",
+      "title": "Reading Check: Describing a Place (Grade 9)",
       "description": "Delapan soal untuk mengukur pemahaman gagasan utama, detail, rujukan kata, kosakata, dan simpulan berdasarkan teks deskriptif baru.",
       "type": "quiz",
       "placements": [
@@ -625,7 +625,7 @@
     },
     {
       "id": "grade10-recount",
-      "title": "Grade 10: Recounting Events and Time Relationships",
+      "title": "Recounting Events and Time Relationships (Grade 10)",
       "description": "Analisis tindakan yang berlangsung bersamaan, kejadian yang mengubah situasi, hubungan sebab-akibat, dan refleksi dalam recount text.",
       "type": "lesson",
       "placements": [
@@ -667,7 +667,7 @@
     },
     {
       "id": "grade10-recount-practice",
-      "title": "Grade 10 recount: overlapping actions and cause–effect",
+      "title": "Recount: overlapping actions and cause–effect (Grade 10)",
       "description": "Latihan mandiri untuk menelusuri tindakan bersamaan, kejadian yang muncul di tengah tindakan lain, alasan, urutan, dan refleksi.",
       "type": "quiz",
       "placements": [
@@ -1581,7 +1581,7 @@
     },
     {
       "id": "grade11-exposition",
-      "title": "Analytical exposition · Kelas 11",
+      "title": "Analytical exposition (Grade 11)",
       "description": "Membaca tesis, alasan, dan penegasan ulang dalam teks argumentatif.",
       "type": "lesson",
       "placements": [
@@ -1611,7 +1611,7 @@
     },
     {
       "id": "grade11-explanation",
-      "title": "Explanation texts · Kelas 11",
+      "title": "Explanation texts (Grade 11)",
       "description": "Menemukan proses sebab-akibat dan kata penghubung dalam explanation texts.",
       "type": "lesson",
       "placements": [
@@ -1641,7 +1641,7 @@
     },
     {
       "id": "grade12-critical-reading",
-      "title": "Critical reading · Kelas 12",
+      "title": "Critical reading",
       "description": "Membedakan klaim, bukti, dan keterbatasan pada bacaan akademik.",
       "type": "lesson",
       "placements": [
@@ -1678,7 +1678,7 @@
     },
     {
       "id": "grade12-academic-vocab",
-      "title": "Academic vocabulary in context · Kelas 12",
+      "title": "Academic vocabulary in context",
       "description": "Mempelajari makna kata akademik melalui konteks, sinonim, dan kalimat.",
       "type": "lesson",
       "placements": [
@@ -1926,7 +1926,7 @@
     },
     {
       "id": "grade9-narrative",
-      "title": "Grade 9: Understanding a Narrative — Characters and Plot",
+      "title": "Understanding a Narrative — Characters and Plot (Grade 9)",
       "description": "Pelajari cara mengenali tokoh dan tujuannya, menemukan masalah, mengikuti urutan peristiwa, serta memahami penyelesaian dan pesan cerita.",
       "type": "lesson",
       "placements": [
@@ -1967,7 +1967,7 @@
     },
     {
       "id": "grade9-narrative-practice",
-      "title": "Grade 9 Narrative Check: The Missing Exhibition Lantern",
+      "title": "Narrative Check: The Missing Exhibition Lantern (Grade 9)",
       "description": "Latihan mandiri untuk mengidentifikasi tokoh, masalah, urutan peristiwa, penyelesaian, dan pesan berdasarkan cerita baru.",
       "type": "quiz",
       "placements": [
@@ -2010,7 +2010,7 @@
     },
     {
       "id": "grade10-descriptive",
-      "title": "Grade 10: Descriptive Text — Details, Space, and Atmosphere",
+      "title": "Descriptive Text — Details, Space, and Atmosphere (Grade 10)",
       "description": "Analisis susunan ruang, detail inderawi, pilihan kata, dan cara rincian membentuk kesan dalam descriptive text.",
       "type": "lesson",
       "placements": [
@@ -2068,7 +2068,7 @@
     },
     {
       "id": "grade10-descriptive-practice",
-      "title": "Grade 10 descriptive: details, space, and atmosphere",
+      "title": "Descriptive: details, space, and atmosphere (Grade 10)",
       "description": "Latihan mandiri untuk menganalisis susunan ruang, detail inderawi, rujukan kata, bukti pendukung, dan kesan penulis dalam teks deskriptif baru.",
       "type": "quiz",
       "placements": [
@@ -2241,7 +2241,7 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 301,
-      "title": "Grade 9 Report Text Check: The Bali Myna",
+      "title": "Report Text Check: The Bali Myna (Grade 9)",
       "description": "Latihan mandiri dengan bacaan baru tentang jalak Bali untuk menguji pemahaman report text.",
       "placements": [
         {
@@ -2287,7 +2287,7 @@
       "prerequisites": [
         "simple-past"
       ],
-      "title": "Grade 9: Recount Text — A School Trip",
+      "title": "Recount Text — A School Trip (Grade 9)",
       "description": "Memahami orientasi, menyusun rangkaian peristiwa berdasarkan waktu, mengenali simple past, serta membedakan kejadian dan refleksi.",
       "placements": [
         {
@@ -2332,7 +2332,7 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 311,
-      "title": "Grade 9 Recount Check: A Visit to the Art Studio",
+      "title": "Recount Check: A Visit to the Art Studio (Grade 9)",
       "description": "Latihan mandiri dengan recount baru untuk menguji orientasi, urutan waktu, simple past, dan refleksi penulis.",
       "placements": [
         {
@@ -2622,7 +2622,7 @@
       "prerequisites": [
         "grade9-upcycling-procedure"
       ],
-      "title": "Grade 10: Healthy Procedure — Preparing a Safe Snack Box",
+      "title": "Healthy Procedure — Preparing a Safe Snack Box (Grade 10)",
       "description": "Menganalisis tujuan, langkah, modal, kondisi, alasan, dan peringatan dalam prosedur menyiapkan bekal sekolah secara aman.",
       "placements": [
         {
@@ -2673,7 +2673,7 @@
       "kind": "practice",
       "examFormat": "topic",
       "order": 351,
-      "title": "Grade 10 Healthy Procedure: A Safe School Walk",
+      "title": "Healthy Procedure: A Safe School Walk (Grade 10)",
       "description": "Latihan transfer untuk menganalisis tujuan, persiapan, larangan, kondisi, modal, dan alasan dalam panduan kegiatan jalan kaki sekolah.",
       "placements": [
         {
@@ -3410,7 +3410,7 @@
     },
     {
       "id": "grade11-exposition-evidence-karhutla-prep-01",
-      "title": "Persiapan Membaca Bertahap · Karhutla · Kelas 11",
+      "title": "Persiapan Membaca Bertahap · Karhutla (Grade 11)",
       "description": "Latihan membaca bertahap 16 soal tentang karhutla: memahami empat paragraf secara terpisah, lalu membaca teks lengkap untuk empat soal integratif.",
       "type": "quiz",
       "placements": [
@@ -3602,7 +3602,7 @@
     },
     {
       "id": "grade12-hortatory-exposition-test-01",
-      "title": "Tes Hortatory Exposition · Kelas 12 · Paket 1",
+      "title": "Tes Hortatory Exposition · Paket 1 (Grade 12)",
       "description": "Latihan mandiri 20 soal tentang posisi penulis, alasan pendukung, counterargument, bukti, dan recommendation dalam teks hortatory exposition.",
       "type": "quiz",
       "kind": "test",
@@ -4279,7 +4279,7 @@
         "sentence-structure",
         "complex-sentences"
       ],
-      "title": "Adverbial Phrase vs. Adverbial Clause · Kelas 12",
+      "title": "Adverbial Phrase vs. Adverbial Clause",
       "description": "Bedakan keterangan berbentuk frasa dan klausa lewat contoh bertahap, perbandingan, dan latihan dalam bacaan.",
       "placements": [
         {
@@ -5568,7 +5568,7 @@
     },
     {
       "id": "sas-grade11-sem1-mixed-real-life-01",
-      "title": "Simulasi SAS Bahasa Inggris · Kelas 11 · Semester 1",
+      "title": "Simulasi SAS Bahasa Inggris · Semester 1 (Grade 11)",
       "description": "Simulasi SAS Bahasa Inggris Kelas XI Semester 1 dengan 40 soal pilihan ganda berbasis lima bacaan tentang lingkungan, identitas digital, literasi keuangan, fenomena sains, dan kesehatan. Dilengkapi pembahasan Bahasa Indonesia.",
       "type": "quiz",
       "kind": "test",
@@ -5622,7 +5622,7 @@
     },
     {
       "id": "grade12-sas-argumentative-text-1",
-      "title": "12 - Argumentative 1 - Scaffolding",
+      "title": "Argumentative 1 - Scaffolding (Grade 12)",
       "description": "Latihan SAS Bahasa Inggris Kelas 12 Semester 1 dengan model scaffolded reading. Empat passage pertama masing-masing memuat satu paragraf yang saling terhubung; passage kelima memuat esai lengkap. Berisi 16 soal pilihan ganda bertema Mental Health and Modern Society, dilengkapi bukti tekstual dan pembahasan Bahasa Indonesia.",
       "type": "quiz",
       "kind": "test",
@@ -5664,7 +5664,7 @@
     },
     {
       "id": "grade10-sas-opinions-reasons-1",
-      "title": "10 - Opinions and Reasons 1 - Scaffolding",
+      "title": "Opinions and Reasons 1 - Scaffolding (Grade 10)",
       "description": "Latihan ASAS Bahasa Inggris Kelas 10 Semester 1 dengan model scaffolded reading. Tiga passage pertama masing-masing memuat satu paragraf yang saling terhubung; passage keempat memuat esai lengkap. Berisi 13 soal pilihan ganda bertema Digital Technology and Everyday Life, dilengkapi bukti tekstual dan pembahasan Bahasa Indonesia.",
       "type": "quiz",
       "kind": "test",
@@ -5709,7 +5709,7 @@
     },
     {
       "id": "grade11-sas-youth-demands-01",
-      "title": "11 - Analytical Exposition 1 - Scaffolding",
+      "title": "Analytical Exposition 1 - Scaffolding (Grade 11)",
       "description": "Latihan SAS Bahasa Inggris Kelas XI Semester 1 berbentuk scaffolded reading. Siswa membaca esai analytical exposition tentang tuntutan generasi muda Indonesia dan respons pemerintah terkait kualitas hidup, karhutla, kesempatan kerja, dan pendidikan.",
       "type": "quiz",
       "kind": "test",
@@ -5751,7 +5751,7 @@
     },
     {
       "id": "grade12-sas-descriptive-reference-1",
-      "title": "12 - Descriptive Text - 1 - Find the Reference",
+      "title": "Descriptive Text - 1 - Find the Reference (Grade 12)",
       "description": "Latihan strategi SAS Bahasa Inggris Kelas 12 Semester 1: 15 soal singkat untuk menemukan rujukan it/they, memeriksa jumlah dan makna, serta menghindari jebakan kata benda terdekat. Soal orisinal, tanpa bacaan panjang, dilengkapi pembahasan Bahasa Indonesia.",
       "type": "quiz",
       "kind": "test",
@@ -5786,7 +5786,7 @@
     },
     {
       "id": "grade12-sas-descriptive-main-idea-2",
-      "title": "12 - Descriptive Text - 2 - Find the Main Idea",
+      "title": "Descriptive Text - 2 - Find the Main Idea (Grade 12)",
       "description": "Latihan bertahap SAS Bahasa Inggris Kelas 12 Semester 1: 15 soal main idea berbasis paragraf deskriptif orisinal, dari teks singkat hingga bacaan lebih kompleks, dengan penjelasan Bahasa Indonesia.",
       "type": "quiz",
       "kind": "test",

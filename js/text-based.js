@@ -1,4 +1,4 @@
-import {error, getCatalog, progress, quizDrafts, resourceRow} from './core.js';
+import {error, getCatalog, progress, quizDrafts, resourceRow, byResourceTitle, compareTitles} from './core.js';
 import {initI18n, onLanguageChange, t} from './i18n.js';
 
 const pathway = 'text-based';
@@ -25,17 +25,15 @@ try {
       }
     }
   }
-  for (const quizzes of quizzesBySkill.values()) {
-    quizzes.sort((a, b) => a.level - b.level);
-  }
   const hasUpcomingLevels = [...quizzesBySkill.values()].some(quizzes => quizzes.length < bands.length);
 
   function render() {
     const openGroups = new Set([...container.querySelectorAll('details[open]')].map(panel => panel.id));
     const record = progress.read();
     const drafts = quizDrafts();
-    container.innerHTML = groups.map(([code, label]) => {
-      const quizzes = quizzesBySkill.get(code);
+    const sortedGroups = [...groups].sort((a,b) => compareTitles(t(a[1]),t(b[1])));
+    container.innerHTML = sortedGroups.map(([code, label]) => {
+      const quizzes = [...quizzesBySkill.get(code)].sort((a,b) => byResourceTitle(a.quiz,b.quiz));
       const rows = quizzes.map(({quiz, level}) =>
         resourceRow(quiz, record, drafts, pathway, t('textLevel', {level, band: bands[level - 1]}))
       ).join('');

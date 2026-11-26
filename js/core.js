@@ -1,7 +1,10 @@
-import {t} from "./i18n.js";
+import {t,language} from "./i18n.js";
 import {validateQuestion,score as scoreResponses} from "./question-types.mjs";
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export const byResourceTitle=(a,b)=>a.title.localeCompare(b.title,'id');
+export const compareTitles=(a,b)=>a.localeCompare(b,language(),{numeric:true,sensitivity:'base'});
+// Module codes stay visible, but the topic name determines its position in a list.
+const topicName=title=>title.replace(/^(?:Latihan )?TKA-\d+ · /,'');
+export const byResourceTitle=(a,b)=>compareTitles(topicName(a.title),topicName(b.title)) || compareTitles(a.title,b.title);
 export const params=new URLSearchParams(location.search);
 export const link=(id,type='lesson')=>`${type==='lesson'?'lesson':'quiz'}.html?id=${encodeURIComponent(id)}`;
 export function error(e){(document.querySelector('#content, #resources')||document.querySelector('main')).innerHTML=`<div class="error" role="alert"><h2>${t('errorTitle')}</h2><p>${esc(e.message)}</p><a href="index.html">${t('errorBack')}</a></div>`;}
