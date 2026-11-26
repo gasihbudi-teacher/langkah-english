@@ -198,67 +198,7 @@
     },
     {
       "type": "heading",
-      "text": "3. Latihan Bertahap"
-    },
-    {
-      "type": "example_group",
-      "title": "Latihan Langkah demi Langkah (3 Fase)",
-      "collapsed": true,
-      "items": [
-        {
-          "english": "Under no circumstances should this door be left open.",
-          "indonesian": "Dalam kondisi apa pun pintu ini tidak boleh dibiarkan terbuka.",
-          "note": "Fase 1 · Tarik kata bantu yang ada: [[should]] maju ke depan [[this door]]; [[be left]] tetap di belakang."
-        },
-        {
-          "english": "Biasa: She has never broken a promise.\nInversi: Never has she broken a promise.",
-          "indonesian": "Ia tidak pernah mengingkari janji.",
-          "note": "Fase 1 · Present Perfect: Kata bantu [[has]] sudah ada → tarik [[has]] ke depan subjek [[she]]."
-        },
-        {
-          "english": "Rarely does the bus arrive on time.",
-          "indonesian": "Jarang sekali bus itu datang tepat waktu.",
-          "note": "Fase 2 · Tambah do/does/did: Tidak ada kata bantu → subjek tunggal [[the bus]] memakai [[does]] + [[arrive]] ([[V1]])."
-        },
-        {
-          "english": "Biasa: The team never ignored the warning.\nInversi: At no time did the team ignore the warning.",
-          "indonesian": "Sama sekali tidak pernah tim itu mengabaikan peringatan.",
-          "note": "Fase 2 · Simple Past: Tambah [[did]] di depan [[the team]], lalu [[ignored]] kembali ke bentuk dasar [[ignore]] ([[V1]])."
-        },
-        {
-          "english": "Only after the rain stopped did we go home.",
-          "indonesian": "Baru setelah hujan berhenti, kami pulang.",
-          "note": "Fase 3 · Dua klausa: Anak kalimat [[the rain stopped]] tetap normal; inversi [[did we go]] ada di klausa utama."
-        },
-        {
-          "english": "Biasa: They did not talk until the test ended.\nInversi: Not until the test ended did they talk.",
-          "indonesian": "Baru setelah ujian selesai, mereka berbicara.",
-          "note": "Fase 3 · Not until: Biarkan [[the test ended]] normal, lalu balik bagian kedua menjadi [[did they talk]]."
-        }
-      ]
-    },
-    {
-      "type": "checkpoint",
-      "id": "cp-inversion-1",
-      "prompt": "At no time ___ their books during the test.",
-      "translation": "Sama sekali tidak pernah para siswa membuka buku mereka selama ujian.",
-      "choices": [
-        "the students did open",
-        "did the students open",
-        "did the students opened"
-      ],
-      "translationChoices": [
-        "para siswa membuka",
-        "para siswa membuka",
-        "para siswa membuka"
-      ],
-      "answer": 1,
-      "hint": "Perhatikan letak kata bantu dan bentuk kata kerja utama setelahnya.",
-      "explanation": "[[Did the students open]] menempatkan [[did]] sebelum subjek dan memakai bentuk dasar [[open]]. Pilihan pertama memakai urutan biasa. Pilihan ketiga memakai [[opened]], padahal penanda lampau sudah ada pada [[did]]."
-    },
-    {
-      "type": "heading",
-      "text": "4. Jebakan Umum"
+      "text": "3. Jebakan Umum"
     },
     {
       "type": "mistake",
@@ -274,7 +214,7 @@
     },
     {
       "type": "heading",
-      "text": "5. Uji Mandiri & Ringkasan"
+      "text": "4. Uji Mandiri & Ringkasan"
     },
     {
       "type": "self_check",
