@@ -35,19 +35,23 @@
       "parts": [
         {
           "english": "Never",
-          "meaning": "Kata negatif"
+          "meaning": "Keterangan negatif atau pembatas ([[Negative adverb]])"
         },
         {
           "english": "has",
-          "meaning": "[[Kata bantu]] maju"
+          "meaning": "Kata kerja bantu ([[Auxiliary verb]])"
         },
         {
           "english": "she",
-          "meaning": "[[Subjek]]"
+          "meaning": "Subjek ([[Subject]])"
         },
         {
-          "english": "seen snow.",
-          "meaning": "[[Kata kerja]] (V3)"
+          "english": "seen",
+          "meaning": "Kata kerja utama (V3) ([[Main verb (V3)]])"
+        },
+        {
+          "english": "snow.",
+          "meaning": "Objek (kata benda) ([[Object (noun)]])"
         }
       ]
     },
@@ -66,19 +70,23 @@
       "parts": [
         {
           "english": "Rarely",
-          "meaning": "Kata negatif"
+          "meaning": "Keterangan negatif atau pembatas ([[Negative adverb]])"
         },
         {
           "english": "did",
-          "meaning": "Tambah [[did]] (lampau)"
+          "meaning": "Kata kerja bantu ([[Auxiliary verb]])"
         },
         {
           "english": "he",
-          "meaning": "[[Subjek]]"
+          "meaning": "Subjek ([[Subject]])"
         },
         {
-          "english": "arrive late.",
-          "meaning": "Kata kerja dasar [[V1]]"
+          "english": "arrive",
+          "meaning": "Kata kerja utama (V1) ([[Main verb (V1)]])"
+        },
+        {
+          "english": "late.",
+          "meaning": "Kata keterangan ([[Adverb]])"
         }
       ]
     },
@@ -381,12 +389,12 @@
     },
     {
       "id": "p3",
-      "prompt": "Under no circumstances ___ open this door during the test.",
+      "prompt": "Under no circumstances ___ this door during the test.",
       "choices": [
-        "students may",
-        "may student",
-        "may students",
-        "do students may"
+        "students may open",
+        "may students opened",
+        "may students open",
+        "do students may open"
       ],
       "answer": 2,
       "explanation": "Modal [[may]] sudah ada, jadi cukup pindahkan [[may]] ke depan subjek [[students]] sebelum [[open]].",
