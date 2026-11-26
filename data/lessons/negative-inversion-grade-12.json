@@ -22,7 +22,11 @@
     },
     {
       "type": "example",
-      "text": "Biasa: She has never seen snow.\nInversi: Never has she seen snow.",
+      "text": "Biasa: She has never seen snow."
+    },
+    {
+      "type": "example",
+      "text": "Inversi: Never has she seen snow.",
       "note": "Kata bantu [[has]] sudah ada → tarik [[has]] ke depan [[she]] agar maknanya lebih tegas."
     },
     {
@@ -49,7 +53,11 @@
     },
     {
       "type": "example",
-      "text": "Biasa: He rarely arrived late.\nInversi: Rarely did he arrive late.",
+      "text": "Biasa: He rarely arrived late."
+    },
+    {
+      "type": "example",
+      "text": "Inversi: Rarely did he arrive late.",
       "note": "Tidak ada kata bantu → tambah [[did]], lalu [[arrived]] kembali ke dasar [[arrive]] ([[V1]])."
     },
     {
@@ -82,11 +90,11 @@
     },
     {
       "type": "heading",
-      "text": "2. Contoh Berdasarkan Tenses (Klik untuk Buka)"
+      "text": "2. Contoh Berdasarkan Tenses"
     },
     {
       "type": "example_group",
-      "title": "1. Simple Present (do / does + Subjek + V1) — 6 Contoh",
+      "title": "1. Simple Present (do / does + Subjek + V1)",
       "collapsed": true,
       "items": [
         {
@@ -123,7 +131,7 @@
     },
     {
       "type": "example_group",
-      "title": "2. Simple Past (did + Subjek + V1) — 6 Contoh",
+      "title": "2. Simple Past (did + Subjek + V1)",
       "collapsed": true,
       "items": [
         {
@@ -160,7 +168,7 @@
     },
     {
       "type": "example_group",
-      "title": "3. Present & Past Perfect (have / has / had + Subjek + V3) — 6 Contoh",
+      "title": "3. Present & Past Perfect (have / has / had + Subjek + V3)",
       "collapsed": true,
       "items": [
         {
@@ -197,7 +205,7 @@
     },
     {
       "type": "example_group",
-      "title": "4. Modals & Pasif (can / must / should + Subjek + ...) — 6 Contoh",
+      "title": "4. Modals & Pasif (can / must / should + Subjek + ...)",
       "collapsed": true,
       "items": [
         {
@@ -234,7 +242,7 @@
     },
     {
       "type": "heading",
-      "text": "3. Latihan Bertahap (3 Fase)"
+      "text": "3. Latihan Bertahap"
     },
     {
       "type": "scaffold",
@@ -242,45 +250,39 @@
       "intro": "Coba jawab sendiri dulu sebelum membuka kunci jawaban.",
       "steps": [
         {
-          "phase": "Fase 1 · Tarik Kata Bantu yang Ada",
-          "title": "Pindahkan has / had / must / should ke depan subjek",
+          "title": "Tarik kata bantu yang ada (has / had / must / should)",
           "explanation": "Jika kata bantu sudah terlihat, langsung pindahkan ke depan subjek.",
           "english": "Under no circumstances should this door be left open.",
           "indonesian": "Dalam kondisi apa pun pintu ini tidak boleh dibiarkan terbuka.",
           "why": "Hanya [[should]] yang maju ke depan [[this door]]; [[be left]] tetap di belakang."
         },
         {
-          "phase": "Fase 1 · Tarik Kata Bantu yang Ada",
           "title": "Coba sendiri: Present Perfect",
           "explanation": "Pindahkan [[has]] ke depan subjek [[she]].",
           "check": "Awali dengan [[Never]]: \"She has never broken a promise.\"",
           "checkAnswer": "Never has she broken a promise."
         },
         {
-          "phase": "Fase 2 · Tambah Do, Does, atau Did",
-          "title": "Gunakan do / does (sekarang) atau did (lampau) + V1",
+          "title": "Tambah do / does (sekarang) atau did (lampau) + V1",
           "explanation": "Jika tidak ada kata bantu, tambah [[do / does / did]] lalu kembalikan kata kerja ke dasar ([[V1]]).",
           "english": "Rarely does the bus arrive on time.",
           "indonesian": "Jarang sekali bus itu datang tepat waktu.",
           "why": "Subjek tunggal [[the bus]] memakai [[does]], dan [[arrives]] kembali menjadi [[arrive]]."
         },
         {
-          "phase": "Fase 2 · Tambah Do, Does, atau Did",
           "title": "Coba sendiri: Simple Past",
           "explanation": "Tambah [[did]] di depan subjek dan buang akhiran [[-ed]].",
           "check": "Awali dengan [[At no time]]: \"The team never ignored the warning.\"",
           "checkAnswer": "At no time did the team ignore the warning."
         },
         {
-          "phase": "Fase 3 · Dua Klausa (Only after / Not until)",
-          "title": "Balik bagian kedua (klausa utama), bukan bagian pertama",
+          "title": "Dua klausa: Balik bagian kedua (Only after / Not until)",
           "explanation": "Setelah [[Only after]] atau [[Not until]], biarkan anak kalimat tetap normal, lalu balik klausa utamanya.",
           "english": "Only after the rain stopped did we go home.",
           "indonesian": "Baru setelah hujan berhenti, kami pulang.",
           "why": "[[the rain stopped]] tetap normal; inversi [[did we go]] ada di bagian kedua."
         },
         {
-          "phase": "Fase 3 · Dua Klausa (Only after / Not until)",
           "title": "Coba sendiri: Not until",
           "explanation": "Biarkan [[the test ended]] normal, lalu balik bagian kedua.",
           "check": "Awali dengan [[Not until]]: \"They did not talk until the test ended.\"",
@@ -382,7 +384,7 @@
       "prompt": "Under no circumstances ___ open this door during the test.",
       "choices": [
         "students may",
-        "may open students",
+        "may student",
         "may students",
         "do students may"
       ],
