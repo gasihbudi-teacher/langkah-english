@@ -87,7 +87,7 @@ function lessonBlock(b,context){switch(b.type){
  case 'example_group':{
     const cards=`<ol class="worked-examples">${b.items.map(item=>lessonExampleCard(item,context.counter++)).join('')}</ol>`;
     return b.collapsed
-      ? `<details class="more-examples"><summary lang="id">${esc(b.title)} · Buka ${b.items.length} contoh tambahan</summary>${cards}</details>`
+      ? `<details class="more-examples"><summary lang="id">${esc(b.title)}</summary>${cards}</details>`
       : `<section class="example-section"><h3 lang="id">${esc(b.title)}</h3>${cards}</section>`;
  }
  case 'breakdown':return `<section class="sentence-breakdown"><h3 lang="id">Bedah kalimat, langkah demi langkah</h3><p class="example-english" lang="en">${esc(b.sentence)}</p><dl class="breakdown-grid">${b.parts.map(p=>`<div><dt lang="en">${esc(p.english)}</dt><dd lang="id">${formatIdText(p.meaning)}</dd></div>`).join('')}</dl></section>`;
