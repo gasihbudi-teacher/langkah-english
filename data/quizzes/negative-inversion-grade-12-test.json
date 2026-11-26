@@ -1,0 +1,248 @@
+{
+  "id": "negative-inversion-grade-12-test",
+  "questionCount": 15,
+  "durationSeconds": 1200,
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "prompt": "Never ___ such a clear correlation between sleep quality and exam accuracy.",
+      "choices": [
+        "the researchers have observed",
+        "have the researchers observed",
+        "had observed the researchers",
+        "the researchers observed have"
+      ],
+      "answer": 1,
+      "explanation": "Pemicu negatif [[Never]] di awal kalimat memindahkan [[auxiliary]] [[have]] ke depan subjek [[the researchers]], diikuti [[past participle]] [[observed]]. Jebakan utamanya adalah mempertahankan urutan [[the researchers have observed]].",
+      "translationId": {
+        "prompt": "Belum pernah para peneliti mengamati korelasi sejelas itu antara kualitas tidur dan ketepatan ujian."
+      }
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "prompt": "Under no circumstances ___ unattended inside the chemistry storage room.",
+      "choices": [
+        "should open containers be left",
+        "open containers should be left",
+        "should be left open containers",
+        "do open containers should be left"
+      ],
+      "answer": 0,
+      "explanation": "Pada kalimat pasif bermodal [[should be left]], hanya [[auxiliary]] pertama ([[should]]) yang berpindah ke depan subjek [[open containers]], sementara [[be left]] tetap di belakang subjek.",
+      "translationId": {
+        "prompt": "Dalam kondisi apa pun wadah terbuka tidak boleh ditinggalkan tanpa pengawasan di dalam ruang penyimpanan kimia."
+      }
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "prompt": "Rarely ___ a coastal storm as it strengthens rapidly over six hours.",
+      "choices": [
+        "meteorologists can track",
+        "can track meteorologists",
+        "do meteorologists can track",
+        "can meteorologists track"
+      ],
+      "answer": 3,
+      "explanation": "Karena modal [[can]] sudah tersedia, cukup pindahkan [[can]] ke depan subjek [[meteorologists]] sebelum kata kerja dasar [[track]], tanpa menambah [[do]].",
+      "translationId": {
+        "prompt": "Jarang sekali para ahli meteorologi dapat melacak badai pesisir saat badai itu menguat dengan cepat selama enam jam."
+      }
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "prompt": "Seldom ___ enough time to revise their drafts when they start writing the night before.",
+      "choices": [
+        "students get",
+        "do students get",
+        "does students get",
+        "do students gets"
+      ],
+      "answer": 1,
+      "explanation": "Karena [[students]] adalah subjek jamak, gunakan [[do]] sebelum subjek dan bentuk dasar [[get]] sesudahnya. [[Does]] dipakai untuk subjek orang ketiga tunggal.",
+      "translationId": {
+        "prompt": "Jarang sekali siswa memiliki waktu yang cukup untuk merevisi draf mereka ketika mulai menulis pada malam sebelumnya."
+      }
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "prompt": "At no time ___ any confidential data during the system migration.",
+      "choices": [
+        "the vendor accessed",
+        "did the vendor accessed",
+        "did the vendor access",
+        "accessed the vendor"
+      ],
+      "answer": 2,
+      "explanation": "Setelah [[At no time]], kalimat [[Simple Past]] memerlukan [[did]] di depan subjek [[the vendor]] dan bentuk dasar [[access]] (bukan *accessed*).",
+      "translationId": {
+        "prompt": "Sama sekali tidak pernah vendor mengakses data rahasia apa pun selama migrasi sistem berlangsung."
+      }
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "prompt": "In no way ___ the new grading rubric lower academic expectations for twelfth graders.",
+      "choices": [
+        "does",
+        "do",
+        "is",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "Subjek [[the new grading rubric]] berbentuk tunggal dan diikuti kata kerja dasar [[lower]], sehingga [[auxiliary]] yang sesuai adalah [[does]] (bukan [[do]] untuk jamak, atau [[is/has]] yang tidak cocok dengan [[lower]]).",
+      "translationId": {
+        "prompt": "Rubrik penilaian baru tersebut sama sekali tidak menurunkan ekspektasi akademik bagi siswa kelas dua belas."
+      }
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "prompt": "Little ___ that a minor typographical error in the code would delay the launch by two days.",
+      "choices": [
+        "the engineering lead suspected",
+        "did the engineering lead suspect",
+        "did the engineering lead suspected",
+        "suspected the engineering lead"
+      ],
+      "answer": 1,
+      "explanation": "Kata [[Little]] di awal kalimat bermakna negatif ('sama sekali tidak menyangka'), sehingga memicu inversi [[did + the engineering lead + suspect]] dengan bentuk dasar [[suspect]].",
+      "translationId": {
+        "prompt": "Kepala tim teknik sama sekali tidak menyangka bahwa kesalahan ketik kecil pada kode akan menunda peluncuran selama dua hari."
+      }
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "prompt": "Hardly ___ the keynote address when power went out across the auditorium.",
+      "choices": [
+        "the guest speaker had begun",
+        "did the guest speaker begun",
+        "has the guest speaker began",
+        "had the guest speaker begun"
+      ],
+      "answer": 3,
+      "explanation": "Pola baku [[Hardly... when]] memakai inversi [[Past Perfect]]: [[Hardly + had + Subject + V3]] ([[had the guest speaker begun]]).",
+      "translationId": {
+        "prompt": "Pembicara utama baru saja memulai pidato kuncinya ketika listrik padam di seluruh auditorium."
+      }
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "prompt": "No sooner had the ferry left the harbor ___ thick fog reduced visibility to near zero.",
+      "choices": [
+        "when",
+        "before",
+        "than",
+        "while"
+      ],
+      "answer": 2,
+      "explanation": "Ungkapan perbandingan [[No sooner]] wajib berpasangan dengan konjungsi [[than]], sedangkan [[when]] berpasangan dengan [[Hardly]] atau [[Scarcely]].",
+      "translationId": {
+        "prompt": "Begitu kapal feri meninggalkan pelabuhan, kabut tebal langsung mengurangi jarak pandang hingga hampir nol."
+      }
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "prompt": "Scarcely ___ the final question when the automated timer locked the submission portal.",
+      "choices": [
+        "had Nadia uploaded",
+        "Nadia had uploaded",
+        "did Nadia uploaded",
+        "was Nadia upload"
+      ],
+      "answer": 0,
+      "explanation": "Seperti [[Hardly]], [[Scarcely]] di awal kalimat memicu pembalikan [[had + Nadia + uploaded]] sebelum klausa [[when]].",
+      "translationId": {
+        "prompt": "Nadia baru saja mengunggah soal terakhir ketika pengatur waktu otomatis mengunci portal pengumpulan."
+      }
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "prompt": "Not only ___ accurate translations, but it also highlights subtle register differences.",
+      "choices": [
+        "the handbook provides",
+        "provides the handbook",
+        "does the handbook provide",
+        "do the handbook provide"
+      ],
+      "answer": 2,
+      "explanation": "Klausa setelah [[Not only]] wajib diinversi. Karena subjek [[the handbook]] tunggal pada [[Simple Present]], gunakan [[does the handbook provide]] (bukan [[do]] atau membalik kata kerja utama tanpa [[auxiliary]]).",
+      "translationId": {
+        "prompt": "Buku pegangan tersebut tidak hanya menyediakan terjemahan yang akurat, tetapi juga menyoroti perbedaan ragam bahasa yang halus."
+      }
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "prompt": "Only after the lab technicians verified every sample ___ the diagnostic report.",
+      "choices": [
+        "they issued",
+        "did they issued",
+        "they did issue",
+        "did they issue"
+      ],
+      "answer": 3,
+      "explanation": "Klausa pertama ([[Only after the lab technicians verified every sample]]) tetap berurutan normal; inversi terjadi pada klausa utama di bagian kedua: [[did they issue]] dengan bentuk dasar [[issue]].",
+      "translationId": {
+        "prompt": "Baru setelah teknisi laboratorium memverifikasi setiap sampel, mereka menerbitkan laporan diagnostik."
+      }
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "prompt": "Not until ___ did the residents realize how severe the water shortage had become.",
+      "choices": [
+        "did the reservoir run dry",
+        "the reservoir ran dry",
+        "ran dry the reservoir",
+        "had the reservoir run dry"
+      ],
+      "answer": 1,
+      "explanation": "Inversi sudah muncul di klausa utama ([[did the residents realize]]), sehingga anak kalimat setelah [[Not until]] harus tetap memakai urutan subjek–kata kerja biasa: [[the reservoir ran dry]].",
+      "translationId": {
+        "prompt": "Baru setelah waduk mengering, warga menyadari betapa parahnya kekurangan air yang terjadi."
+      }
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "prompt": "Only by cross-checking primary sources ___ historians avoid repeating unverified claims.",
+      "choices": [
+        "can",
+        "they can",
+        "do can",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "Frasa cara [[Only by cross-checking primary sources]] langsung diikuti [[auxiliary]] [[can]] di depan subjek [[historians]] dan kata kerja dasar [[avoid]].",
+      "translationId": {
+        "prompt": "Hanya dengan memeriksa silang sumber-sumber primer para sejarawan dapat menghindari pengulangan klaim yang belum terverifikasi."
+      }
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "prompt": "Which sentence uses Negative Inversion correctly?",
+      "choices": [
+        "Only when did the storm subside the rescue boats left the pier.",
+        "Never before had the coastal town experienced such prolonged high tides.",
+        "Seldom the committee approves budget revisions without a formal audit.",
+        "No sooner did the train arrived than passengers rushed toward the exits."
+      ],
+      "answer": 1,
+      "explanation": "Pilihan B tepat karena [[Never before]] diikuti inversi [[had + the coastal town + experienced]]. Pilihan A menginversi klausa yang salah, C tidak menyisipkan [[does]], dan D memakai [[arrived]] setelah [[did]].",
+      "translationId": {
+        "prompt": "Kalimat manakah yang menggunakan Negative Inversion secara tepat?"
+      }
+    }
+  ]
+}

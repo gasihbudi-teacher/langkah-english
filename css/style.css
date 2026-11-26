@@ -4,9 +4,9 @@
 .english-term{border-radius:.24em;padding:.04em .23em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .english-term::before{content:'“'}
 .english-term::after{content:'”'}
-/* V13-E1 renderer correction: translations preserve authored paragraphs. */
-.lesson-translation{white-space:pre-line}
-@media(forced-colors:active){.english-term,.scaffold-model,.scaffold-review details{border:1px solid currentColor}}
+/* Indonesian translations preserve authored paragraphs inside their disclosure. */
+.lesson-translation .translation-content{white-space:pre-line}
+@media(forced-colors:active){.english-term,.scaffold-model,.scaffold-review details,.lesson-translation{border:1px solid currentColor}}
 
 @font-face {
   font-family: "Fraunces Local";
@@ -413,10 +413,21 @@ progress::-moz-progress-bar { background: var(--forest); }
 }
 .scaffold-model .example-english { white-space: pre-line; }
 .scaffold-model .lesson-translation, .scaffold-sample .lesson-translation, .worked-example .lesson-translation, .lesson-translation {
-  display: block; margin: .7rem 0; padding: .75rem .95rem; background: #eaf1e5; color: #334c3f;
+  display: block; margin: .7rem 0; padding: 0; background: #eaf1e5; color: #334c3f;
   border: 0; border-left: 3px solid #648267; border-radius: 0 5px 5px 0; font: 400 1rem/1.65 var(--body);
 }
-.lesson-translation .translation-label { color: var(--forest); font-weight: 650; }
+.lesson-translation > summary {
+  display: flex; align-items: center; justify-content: space-between; gap: .65rem;
+  min-height: 44px; padding: .55rem .95rem; list-style: none; color: var(--forest);
+}
+.lesson-translation > summary::-webkit-details-marker { display: none; }
+.lesson-translation > summary::after {
+  content: ''; flex: none; width: 7px; height: 7px; border: solid currentColor;
+  border-width: 0 2px 2px 0; transform: rotate(45deg); transition: transform 160ms ease;
+}
+.lesson-translation[open] > summary { border-bottom: 1px solid rgba(100, 130, 103, .25); }
+.lesson-translation[open] > summary::after { transform: rotate(225deg); }
+.lesson-translation .translation-content { padding: .55rem .95rem .75rem; }
 .scaffold-step { border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 1.25rem 0 .5rem; margin: 1.35rem 0; background: transparent; }
 .scaffold-step h3 { display: flex; align-items: baseline; gap: .7rem; color: var(--ink); font: 600 1.32rem/1.4 var(--display); }
 .scaffold-count { display: inline-grid; place-items: center; flex: none; min-width: 28px; height: 28px; border-radius: 7px; color: var(--forest); background: var(--mint); font: 650 .92rem/1 var(--body); }
@@ -891,10 +902,6 @@ body {
 .lesson-tools .focus-button { border-radius: 999px; }
 .concept-definition, .concept-synthesis, .lesson-summary { border-radius: 0 18px 18px 0; }
 .scaffold-model, .passage { background: #FFFAEB; border-color: #E5DBC4; }
-.scaffold-model .lesson-translation, .scaffold-sample .lesson-translation, .worked-example .lesson-translation {
-  border-top: 1px solid var(--line);
-  padding-top: .55rem;
-}
 .complete-box { background: var(--paper); }
 .complete-box a.button { text-align: left; justify-content: space-between; }
 .mode-card { background: var(--paper); border-radius: 22px; }

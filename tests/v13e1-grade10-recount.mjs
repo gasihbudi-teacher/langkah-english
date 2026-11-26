@@ -26,7 +26,7 @@ const scaffold=lesson.blocks[1];
 assert(scaffold.modelEnglish&&scaffold.modelIndonesian&&scaffold.modelNote);
 const modelParagraphs=scaffold.modelIndonesian.split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
 assert.equal(modelParagraphs.length,4,'The Indonesian model must retain its four authored paragraphs');
-assert.match(read('css/style.css'),/\.lesson-translation\s*\{\s*white-space:\s*pre-line\s*;?\s*\}/,'Indonesian translation CSS must preserve authored newline and paragraph breaks');
+assert.match(read('css/style.css'),/\.lesson-translation\s+\.translation-content\s*\{\s*white-space:\s*pre-line\s*;?\s*\}/,'Indonesian translation CSS must preserve authored newline and paragraph breaks');
 const words=scaffold.modelEnglish.trim().split(/\s+/).length;
 assert(words>=190&&words<=270,`Connected Grade 10 model length: ${words}`);
 assert(scaffold.steps.length===6);

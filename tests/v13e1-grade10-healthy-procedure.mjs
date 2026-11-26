@@ -29,7 +29,7 @@ const words=scaffold.modelEnglish.trim().split(/\s+/).length;
 assert(words>=200&&words<=280,`Connected model length: ${words}`);
 assert.equal(scaffold.modelEnglish.split(/\n\s*\n/).length,4,'English model must have four connected paragraphs');
 assert.equal(scaffold.modelIndonesian.split(/\n\s*\n/).length,4,'Indonesian model must preserve four paragraph breaks');
-assert.match(read('css/style.css'),/\.lesson-translation\s*\{\s*white-space:\s*pre-line\s*;?\s*\}/,'Indonesian translation CSS must preserve paragraph breaks');
+assert.match(read('css/style.css'),/\.lesson-translation\s+\.translation-content\s*\{\s*white-space:\s*pre-line\s*;?\s*\}/,'Indonesian translation CSS must preserve paragraph breaks');
 assert.equal(scaffold.steps.length,8);
 assert(scaffold.steps.every(s=>s.phase&&s.title&&s.explanation&&s.english&&s.indonesian&&s.why));
 assert(scaffold.steps.every(s=>(!!s.check)===(!!s.checkAnswer)));

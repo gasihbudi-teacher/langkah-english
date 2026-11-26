@@ -1,6 +1,7 @@
 """Browser-level regression: no compulsory labels and optional bilingual aids across pathways."""
 import asyncio
 import json
+import tempfile
 from pathlib import Path
 from playwright.async_api import async_playwright
 from importlib import import_module
@@ -31,15 +32,27 @@ async def main():
    guide=next((b for b in lesson_data['blocks'] if b['type']=='scaffold'),None)
    expected_aids=sum(bool(step.get('english') and step.get('indonesian')) for step in guide['steps']) if guide else 0
    assert await aids.count()==expected_aids,(lesson_id,await aids.count(),expected_aids)
+   for phase in await page.locator('.scaffold-phase > summary').all():
+    await phase.click()
    if expected_aids:
     first=aids.first
-    assert await first.is_visible(),(lesson_id,'Indonesian translation should be visible by default')
-    assert len((await first.inner_text()).strip())>5,lesson_id
+    assert await first.is_visible(),(lesson_id,'Indonesian translation disclosure should be visible')
+    assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Indonesian translation must be collapsed by default')
+    summary=first.locator('summary')
+    await summary.focus()
+    await summary.press('Enter')
+    assert await first.evaluate('(el)=>el.open'),(lesson_id,'Translation must open with the keyboard')
+    assert len((await first.locator('.translation-content').text_content()).strip())>5,lesson_id
+    await summary.press('Enter')
+    assert not await first.evaluate('(el)=>el.open'),(lesson_id,'Translation must collapse with the keyboard')
    if lesson_id=='grade10-recount':
     model_translation=page.locator('.scaffold-model .lesson-translation')
-    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert not await model_translation.evaluate('(el)=>el.open')
+    translation_content=model_translation.locator('.translation-content')
+    white_space=await translation_content.evaluate('(el)=>getComputedStyle(el).whiteSpace')
     assert white_space=='pre-line',('Grade 10 Indonesian translation must preserve authored newlines',white_space)
-    rendered_translation=await model_translation.inner_text()
+    await model_translation.locator('summary').click()
+    rendered_translation=await translation_content.inner_text()
     assert rendered_translation.count('\n')>=3,('Indonesian model paragraph breaks are not visible',repr(rendered_translation))
    checks=page.locator('.scaffold-review details')
    if await checks.count():
@@ -53,24 +66,30 @@ async def main():
    assert overflow==0,(lesson_id,overflow)
    if lesson_id=='grade9-reading':
     assert await page.locator('#belajar-langkah-2 .scaffold-review').count()==0
-    await page.screenshot(path='/mnt/data/langkah-r3-grade9-mobile.png',full_page=False)
+    await page.screenshot(path=Path(tempfile.gettempdir())/'langkah-r3-grade9-mobile.png',full_page=False)
    if lesson_id in ['grade12-critical-reading','utbk-critical-inference']:
     assert await checks.count()==0,(lesson_id,'Explanation-only pilot should not show an answer disclosure')
    if lesson_id=='grade10-descriptive':
     assert await checks.count()==3,(lesson_id,'Three authored descriptive-text checks should be rendered')
     model_translation=page.locator('.scaffold-model .lesson-translation')
-    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert not await model_translation.evaluate('(el)=>el.open')
+    translation_content=model_translation.locator('.translation-content')
+    white_space=await translation_content.evaluate('(el)=>getComputedStyle(el).whiteSpace')
     assert white_space=='pre-line',('Grade 10 descriptive Indonesian translation must preserve paragraph breaks',white_space)
-    rendered_translation=await model_translation.inner_text()
+    await model_translation.locator('summary').click()
+    rendered_translation=await translation_content.inner_text()
     assert rendered_translation.count('\n')>=3,('Descriptive translation paragraph breaks are not visible',repr(rendered_translation))
    if lesson_id=='grade10-healthy-procedure':
     assert await page.locator('.scaffold-step').count()==8
     assert await checks.count()==3,(lesson_id,'Three authored healthy-procedure checks should be rendered')
     assert await page.locator('.worked-example').count()==10
     model_translation=page.locator('.scaffold-model .lesson-translation')
-    white_space=await model_translation.evaluate('(el)=>getComputedStyle(el).whiteSpace')
+    assert not await model_translation.evaluate('(el)=>el.open')
+    translation_content=model_translation.locator('.translation-content')
+    white_space=await translation_content.evaluate('(el)=>getComputedStyle(el).whiteSpace')
     assert white_space=='pre-line',('Grade 10 healthy-procedure Indonesian translation must preserve paragraph breaks',white_space)
-    rendered_translation=await model_translation.inner_text()
+    await model_translation.locator('summary').click()
+    rendered_translation=await translation_content.inner_text()
     assert rendered_translation.count('\n')>=3,('Healthy-procedure translation paragraph breaks are not visible',repr(rendered_translation))
     assert 'must not' in scaffold_text.lower() and 'should' in scaffold_text.lower()
    if lesson_id=='sentence-structure':

@@ -4,7 +4,7 @@ from playwright.async_api import async_playwright
 
 ROOT=Path(__file__).resolve().parent.parent
 JS=ROOT/'js'
-MODS=['i18n.js','question-types.mjs','core.js','translations.js']
+MODS=['i18n.js','question-types.mjs','core.js','translations.js','quiz-glossary.js']
 
 def module_wrap(name):
  raw=(JS/name).read_text()

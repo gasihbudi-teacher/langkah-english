@@ -1,0 +1,382 @@
+{
+  "id": "negative-inversion-grade-12",
+  "objectives": [
+    "Mengidentifikasi perubahan urutan kata antara kalimat deklaratif biasa dan kalimat dengan [[Negative Inversion]] setelah ungkapan negatif atau pembatas di awal kalimat.",
+    "Menentukan [[auxiliary verb]] yang tepat—termasuk menyisipkan [[do]], [[does]], atau [[did]] ketika kalimat asal tidak memiliki kata kerja bantu—serta mengembalikan kata kerja utama ke bentuk dasar ([[bare infinitive]]).",
+    "Menerapkan struktur inversi yang akurat pada pemicu satu klausa ([[Never]], [[Seldom]], [[Rarely]], [[Little]], [[At no time]], [[Under no circumstances]]), pemicu berkorelasi ([[Hardly... when]], [[No sooner... than]], [[Not only... but also]]), serta frasa dan anak kalimat pembatas ([[Only by]], [[Only after]], [[Not until]]).",
+    "Mengevaluasi dan memperbaiki kesalahan umum [[Negative Inversion]], seperti lupa menyisipkan [[auxiliary]], mempertahankan imbuhan kala lampau pada kata kerja utama, atau membalik urutan di dalam anak kalimat."
+  ],
+  "blocks": [
+    {
+      "type": "definition",
+      "title": "Apa itu Negative Inversion?",
+      "text": "[[Negative Inversion]] adalah pembalikan posisi [[auxiliary verb]] (kata kerja bantu) ke depan [[subject]] setelah ungkapan bermakna negatif atau pembatas (seperti [[Never]], [[Rarely]], [[Seldom]], [[At no time]], atau [[Not only]]) diletakkan di awal kalimat. Struktur ini dipakai dalam ragam formal atau akademik untuk memberi penekanan kuat pada pernyataan, bukan untuk membentuk pertanyaan."
+    },
+    {
+      "type": "vocabulary",
+      "title": "Istilah Kunci dalam Pelajaran Ini",
+      "items": [
+        {
+          "english": "negative or restrictive adverbial",
+          "indonesian": "keterangan bermakna negatif atau pembatas yang ditarik ke awal kalimat (misalnya [[never]], [[seldom]], [[little]], [[only after]])"
+        },
+        {
+          "english": "subject–auxiliary inversion",
+          "indonesian": "pembalikan urutan menjadi [[Auxiliary + Subject + Main Verb]], menyerupai susunan kalimat tanya"
+        },
+        {
+          "english": "overt auxiliary",
+          "indonesian": "kata kerja bantu yang sudah tertulis di kalimat asal (seperti [[has]], [[had]], [[can]], [[should]], [[must]])"
+        },
+        {
+          "english": "dummy auxiliary (do / does / did)",
+          "indonesian": "kata kerja bantu penyangga yang dimunculkan khusus pada [[Simple Present]] atau [[Simple Past]] saat kalimat asal tidak memiliki [[auxiliary]]"
+        },
+        {
+          "english": "bare infinitive",
+          "indonesian": "kata kerja bentuk dasar tanpa akhiran [[-s]], [[-ed]], atau bentuk lampau tidak beraturan (misalnya [[overlook]], [[cancel]], [[ignore]])"
+        },
+        {
+          "english": "main clause",
+          "indonesian": "klausa utama (induk kalimat) yang menjadi tempat terjadinya inversi pada pemicu dua bagian seperti [[Only by]], [[Only after]], dan [[Not until]]"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tahap 1: Membedah Pasangan Kontras dan Empat Slot Struktur"
+    },
+    {
+      "type": "text",
+      "text": "Perhatikan pasangan kontras pertama berikut ini. Pada kalimat asal (A), kata kerja bantu [[has]] sudah tersedia. Saat [[Never]] dipindahkan ke awal kalimat pada versi inversi (B), kita cukup menarik [[has]] ke depan subjek tanpa menambah kata baru:\n\nA. Biasa: The school committee has never approved such an ambitious proposal.\nB. Inversi: Never has the school committee approved such an ambitious proposal.",
+      "idText": "A. Biasa: Komite sekolah belum pernah menyetujui proposal seambisius itu.\nB. Inversi: Belum pernah komite sekolah menyetujui proposal seambisius itu."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Never has the school committee approved such an ambitious proposal.",
+      "parts": [
+        {
+          "english": "Never",
+          "meaning": "Slot 1 — Pemicu negatif yang ditarik ke posisi paling depan untuk penekanan."
+        },
+        {
+          "english": "has",
+          "meaning": "Slot 2 — [[Auxiliary verb]] yang melompat ke depan subjek."
+        },
+        {
+          "english": "the school committee",
+          "meaning": "Slot 3 — [[Subject]] kalimat yang kini berada tepat sesudah [[auxiliary]]."
+        },
+        {
+          "english": "approved such an ambitious proposal.",
+          "meaning": "Slot 4 — [[Main verb]] ([[past participle]]) beserta pelengkapnya yang tetap berada di belakang subjek."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Sekarang perhatikan pasangan kontras kedua. Pada kalimat asal (A), kata kerja utamanya adalah [[overlooked]] ([[Simple Past]] tunggal tanpa kata kerja bantu). Karena tidak ada [[auxiliary]] yang bisa ditarik ke depan, bahasa Inggris memunculkan [[did]] di depan subjek dan mengembalikan [[overlooked]] ke bentuk dasar [[overlook]]:\n\nA. Biasa: The researchers rarely overlooked a single measurement error.\nB. Inversi: Rarely did the researchers overlook a single measurement error.",
+      "idText": "A. Biasa: Para peneliti jarang sekali melewatkan satu pun kesalahan pengukuran.\nB. Inversi: Jarang sekali para peneliti melewatkan satu pun kesalahan pengukuran."
+    },
+    {
+      "type": "breakdown",
+      "sentence": "Rarely did the researchers overlook a single measurement error.",
+      "parts": [
+        {
+          "english": "Rarely",
+          "meaning": "Slot 1 — Pemicu negatif bermakna 'jarang sekali'."
+        },
+        {
+          "english": "did",
+          "meaning": "Slot 2 — [[Dummy auxiliary]] yang mengambil alih penanda waktu lampau dari kata kerja utama."
+        },
+        {
+          "english": "the researchers",
+          "meaning": "Slot 3 — [[Subject]] kalimat."
+        },
+        {
+          "english": "overlook a single measurement error.",
+          "meaning": "Slot 4 — [[Main verb]] yang wajib kembali ke bentuk dasar [[bare infinitive]] ([[overlook]], bukan *overlooked*)."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "prompt": "Compare Sentence A (\"Seldom has she missed a deadline.\") and Sentence B (\"Seldom did she miss a deadline.\"). Why does Sentence A reuse \"has\", whereas Sentence B introduces \"did\" and changes \"missed\" to \"miss\"?",
+      "translation": "Bandingkan Kalimat A (\"Seldom has she missed a deadline.\") dan Kalimat B (\"Seldom did she miss a deadline.\"). Mengapa Kalimat A memakai kembali [[has]], sedangkan Kalimat B memunculkan [[did]] dan mengubah [[missed]] menjadi [[miss]]?",
+      "answer": "Kalimat A berasal dari [[Present Perfect]] ([[She has seldom missed...]]), sehingga kata kerja bantu [[has]] sudah ada dan tinggal berpindah ke depan subjek [[she]] sementara bentuk ketiga [[missed]] tetap. Sebaliknya, Kalimat B berasal dari [[Simple Past]] ([[She seldom missed...]]) yang tidak memiliki [[auxiliary]]. Karena itu, [[did]] dimunculkan untuk menanggung penanda waktu lampau di depan subjek, dan kata kerja utama wajib kembali ke bentuk dasar [[miss]]."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kelompok Pemicu",
+        "Ungkapan Utama",
+        "Aturan & Kontras Struktur"
+      ],
+      "rows": [
+        [
+          "Frekuensi & Penegasan Nol",
+          "Never, Rarely, Seldom, Little, At no time, Under no circumstances, In no way",
+          "Langsung diikuti [[Auxiliary + Subject + Main Verb]]. Pada [[Simple Present/Past]] tanpa [[auxiliary]], sisipkan [[do/does/did]] (termasuk saat kata kerja utamanya [[have]] yang bermakna 'memiliki')."
+        ],
+        [
+          "Urutan Peristiwa Cepat",
+          "Hardly / Scarcely ... when; No sooner ... than",
+          "Memakai [[Past Perfect]] terbalik di klausa pertama: [[Hardly/Scarcely had + S + V3 ... when]] dan [[No sooner had + S + V3 ... than]]. Jangan tertukar antara [[when]] dan [[than]]."
+        ],
+        [
+          "Penambahan Fakta",
+          "Not only ... but (also)",
+          "Inversi hanya terjadi pada klausa pertama setelah [[Not only]]; klausa kedua setelah [[but (also)]] tetap berurutan normal ([[S + V]])."
+        ],
+        [
+          "Frasa vs. Anak Kalimat Pembatas",
+          "Frasa: Only by + V-ing\nAnak kalimat: Only after / Only when / Not until + S + V",
+          "Keduanya menempatkan inversi pada [[main clause]]. Bedanya, [[Only by checking...]] adalah frasa sehingga langsung diikuti inversi, sedangkan [[Only after they checked...]] adalah anak kalimat yang tetap berurutan normal sebelum [[main clause]] diinversi."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tahap 2: Latihan Terbimbing Bertahap (Scaffolding 3 Fase)"
+    },
+    {
+      "type": "scaffold",
+      "title": "Membangun Kalimat Inversi dari Dasar hingga Dua Klausa",
+      "intro": "Ikuti ketiga fase berikut secara berurutan. Pada langkah bertanda latihan mandiri singkat, susun jawabanmu terlebih dahulu sebelum membuka kunci jawaban.",
+      "steps": [
+        {
+          "phase": "Fase 1: Kalimat dengan Auxiliary Tersedia (Aktif & Pasif)",
+          "title": "Tarik modal atau auxiliary pertama ke depan subjek",
+          "explanation": "Jika kalimat asal memiliki [[must]], [[should]], [[can]], [[will]], atau [[have/has/had]], pindahkan hanya kata kerja bantu pertama ke belakang pemicu negatif. Pada kalimat pasif bermodal seperti [[should be left]], bagian [[be left]] tetap berada sesudah subjek.",
+          "english": "Under no circumstances should open containers be left unattended in the lab.",
+          "indonesian": "Dalam keadaan apa pun wadah terbuka tidak boleh ditinggalkan tanpa pengawasan di dalam laboratorium.",
+          "why": "Dari kalimat asal [[Open containers should under no circumstances be left...]], hanya [[auxiliary]] pertama ([[should]]) yang melompat ke depan subjek [[open containers]], sedangkan [[be left]] tetap di belakang."
+        },
+        {
+          "phase": "Fase 1: Kalimat dengan Auxiliary Tersedia (Aktif & Pasif)",
+          "title": "Terapkan pemindahan auxiliary pada Present Perfect",
+          "explanation": "Identifikasi [[auxiliary]] dalam kalimat asal, lalu pindahkan ke depan subjek tanpa mengubah bentuk [[past participle]].",
+          "check": "Ubah kalimat berikut dengan meletakkan [[Never]] di awal: \"She has never doubted her team's integrity.\"",
+          "checkAnswer": "Never has she doubted her team's integrity. ([[has]] pindah ke depan subjek [[she]], sedangkan [[doubted]] tetap)."
+        },
+        {
+          "phase": "Fase 2: Menyisipkan Do, Does, atau Did",
+          "title": "Pecah kata kerja Simple Past dan waspadai pemicu Little",
+          "explanation": "Saat kalimat asal memakai kata kerja lampau tunggal tanpa [[auxiliary]], tarik unsur lampaunya menjadi [[did]] di depan subjek, lalu kembalikan kata kerja utama ke bentuk dasar. Kata [[Little]] di awal kalimat juga bermakna negatif ('sama sekali tidak') bila dipasangkan dengan kata kerja seperti [[know]] atau [[realize]].",
+          "english": "Little did the team know that their prototype would win the national award.",
+          "indonesian": "Tim itu sama sekali tidak menyangka bahwa purwarupa mereka akan memenangkan penghargaan nasional.",
+          "why": "Kata kerja lampau [[knew]] dipecah menjadi [[did]] (di depan subjek [[the team]]) dan bentuk dasar [[know]]."
+        },
+        {
+          "phase": "Fase 2: Menyisipkan Do, Does, atau Did",
+          "title": "Latihan penyisipan auxiliary untuk Simple Present orang ketiga tunggal",
+          "explanation": "Perhatikan subjek tunggal dan akhiran [[-s]] pada kata kerja asal sebelum menentukan [[do]] atau [[does]]. Ingat pula bahwa kata kerja utama [[have]] (bermakna 'memiliki') tetap memerlukan [[do]] atau [[does]].",
+          "check": "Ubah kalimat berikut dengan meletakkan [[Rarely]] di awal: \"The principal rarely cancels a scheduled assembly.\"",
+          "checkAnswer": "Rarely does the principal cancel a scheduled assembly. (Subjek tunggal [[the principal]] pada [[Simple Present]] memerlukan [[does]], dan [[cancels]] kembali menjadi [[cancel]])."
+        },
+        {
+          "phase": "Fase 2: Menyisipkan Do, Does, atau Did",
+          "title": "Latihan penyisipan auxiliary untuk Simple Past",
+          "explanation": "Jika klausa asal berbentuk [[Simple Past]] dan memerlukan kata kerja bantu, gunakan [[did]] sebelum subjek dan kembalikan kata kerja utama ke bentuk dasar.",
+          "check": "Ubah kalimat berikut dengan meletakkan [[At no time]] di awal: \"The committee at no time ignored the students' feedback.\"",
+          "checkAnswer": "At no time did the committee ignore the students' feedback. ([[ignored]] dipecah menjadi [[did]] di depan [[the committee]] dan bentuk dasar [[ignore]])."
+        },
+        {
+          "phase": "Fase 3: Pola Berkorelasi dan Kontras Frasa vs. Anak Kalimat",
+          "title": "Pasangkan Hardly/Scarcely... when, No sooner... than, dan Not only... but also",
+          "explanation": "Pada [[Hardly / Scarcely... when]] dan [[No sooner... than]], inversi terjadi pada klausa pertama berpola [[had + Subject + V3]]. Pada [[Not only... but also]], inversi juga hanya terjadi pada klausa pertama setelah [[Not only]], sedangkan klausa setelah [[but also]] tetap berurutan normal.",
+          "english": "Not only did the new policy reduce plastic waste, but it also cut operational costs.",
+          "indonesian": "Kebijakan baru tersebut tidak hanya mengurangi sampah plastik, tetapi juga memangkas biaya operasional.",
+          "why": "Klausa pertama diinversi menjadi [[did the new policy reduce]], sementara klausa kedua setelah [[but it also]] tetap memakai urutan normal [[S + V]] ([[it also cut]]).",
+          "check": "Lengkapi bagian yang rumpang dengan urutan inversi yang tepat: \"No sooner _______ (the bell / ring) than the candidates opened their booklets.\"",
+          "checkAnswer": "had the bell rung (Kalimat lengkap: \"No sooner had the bell rung than the candidates opened their booklets.\")."
+        },
+        {
+          "phase": "Fase 3: Pola Berkorelasi dan Kontras Frasa vs. Anak Kalimat",
+          "title": "Bedakan frasa Only by + V-ing dengan anak kalimat Only after / Not until",
+          "explanation": "Keduanya meletakkan inversi di [[main clause]], tetapi batas awalnya berbeda: [[Only by checking...]] adalah frasa (tanpa subjek dan kata kerja ber-tense) sehingga langsung diikuti inversi pada klausa utama. Sebaliknya, [[Only after they checked...]] adalah anak kalimat lengkap ([[S + V]]), sehingga anak kalimat itu tetap normal dan inversi ditunda hingga klausa utama dimulai.",
+          "english": "Only by checking primary sources can historians avoid unverified claims.\nOnly after the historians checked primary sources did they publish the report.",
+          "indonesian": "Hanya dengan memeriksa sumber primer para sejarawan dapat menghindari klaim yang belum terverifikasi.\nBaru setelah para sejarawan memeriksa sumber primer, mereka menerbitkan laporan tersebut.",
+          "why": "Pada contoh pertama, [[Only by checking primary sources]] adalah frasa sehingga inversi [[can historians avoid]] langsung muncul. Pada contoh kedua, [[the historians checked primary sources]] adalah anak kalimat sehingga inversi [[did they publish]] baru muncul di klausa utama.",
+          "check": "Gabungkan kalimat berikut dengan diawali [[Not until]]: \"The students did not leave the hall until the proctor collected every sheet.\"",
+          "checkAnswer": "Not until the proctor collected every sheet did the students leave the hall. (Anak kalimat [[the proctor collected every sheet]] tetap normal; inversi [[did the students leave]] terjadi di klausa utama)."
+        }
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "id": "cp-inversion-1",
+      "prompt": "At no time ___ their original statement during the hearing.",
+      "translation": "Sama sekali tidak pernah para saksi mengubah pernyataan awal mereka selama sidang berlangsung.",
+      "choices": [
+        "the witnesses did change",
+        "did the witnesses change",
+        "did the witnesses changed"
+      ],
+      "translationChoices": [
+        "para saksi mengubah",
+        "para saksi mengubah",
+        "para saksi mengubah"
+      ],
+      "answer": 1,
+      "hint": "Periksa dua hal: urutan kata kerja bantu dan subjek setelah ungkapan negatif di awal kalimat, serta bentuk kata kerja utama sesudahnya.",
+      "explanation": "Pilihan kedua ([[did the witnesses change]]) menempatkan [[auxiliary]] [[did]] sebelum subjek [[the witnesses]] dan mempertahankan bentuk dasar [[change]]. Pilihan pertama gagal membalik urutan subjek dan kata kerja bantu, sedangkan pilihan ketiga salah karena menambahkan imbuhan lampau [[-ed]] pada [[changed]] setelah [[did]]."
+    },
+    {
+      "type": "heading",
+      "text": "Tahap 3: Mewaspadai Jebakan Umum Ujian"
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Never did the coordinator admitted that the schedule had a flaw.",
+      "correct": "Never did the coordinator admit that the schedule had a flaw.",
+      "explanation": "Setelah [[dummy auxiliary]] [[did]] muncul di depan subjek, penanda waktu lampau sudah ditanggung oleh [[did]]. Kata kerja utama harus kembali ke [[bare infinitive]] ([[admit]], bukan *admitted*)."
+    },
+    {
+      "type": "mistake",
+      "incorrect": "Only after did she finish her research she submitted the final report.",
+      "correct": "Only after she finished her research did she submit the final report.",
+      "explanation": "Pemicu dua klausa seperti [[Only after]] mengikat anak kalimat keterangan waktu terlebih dahulu ([[she finished her research]]). Pembalikan [[Auxiliary + Subject]] baru dilakukan pada klausa utama ([[did she submit]])."
+    },
+    {
+      "type": "example_group",
+      "title": "Contoh Tambahan Lintas Pola (Klik untuk Membuka)",
+      "collapsed": true,
+      "items": [
+        {
+          "english": "Seldom do senior students have enough time to revise drafts written at the last minute.",
+          "indonesian": "Jarang sekali siswa tingkat akhir memiliki waktu yang cukup untuk merevisi draf yang ditulis pada menit-menit terakhir.",
+          "note": "Kata [[have]] di sini adalah kata kerja utama ('memiliki') dalam [[Simple Present]], sehingga tetap membutuhkan [[dummy auxiliary]] [[do]] di depan subjek jamak [[senior students]]."
+        },
+        {
+          "english": "Scarcely had the presentation begun when the projector lost its signal.",
+          "indonesian": "Presentasi baru saja dimulai ketika proyektor kehilangan sinyalnya.",
+          "note": "[[Scarcely]] memakai pola yang sama dengan [[Hardly]]: [[Scarcely + had + Subject + V3 + when + Simple Past]]."
+        },
+        {
+          "english": "In no way does this revision lower the passing standard for twelfth graders.",
+          "indonesian": "Revisi ini sama sekali tidak menurunkan standar kelulusan bagi siswa kelas dua belas.",
+          "note": "Subjek tunggal [[this revision]] pada [[Simple Present]] memerlukan [[does]], diikuti kata kerja dasar [[lower]]."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tahap 4: Penerapan Mandiri dan Ringkasan"
+    },
+    {
+      "type": "self_check",
+      "title": "Uji Mandiri Tanpa Bantuan",
+      "prompt": "Tulis ulang kedua kalimat berikut menggunakan [[Negative Inversion]] sesuai pemicu di dalam kurung:\n1. The panel seldom rejected a well-documented proposal. (Mulai dengan [[Seldom]])\n2. The audience did not applaud until the final note faded away. (Mulai dengan [[Not until]])",
+      "model": "1. Seldom did the panel reject a well-documented proposal.\n2. Not until the final note faded away did the audience applaud.",
+      "modelTranslation": "1. Jarang sekali panel menolak proposal yang terdokumentasi dengan baik.\n2. Baru setelah nada terakhir memudar, penonton bertepuk tangan.",
+      "criteria": "Pastikan Kalimat 1 menyisipkan [[did]] tepat setelah [[Seldom]] dan di depan subjek [[the panel]] serta mengubah [[rejected]] menjadi bentuk dasar [[reject]]; pastikan pula Kalimat 2 mempertahankan urutan normal pada anak kalimat [[Not until the final note faded away]] dan baru melakukan inversi pada klausa utama menjadi [[did the audience applaud]]."
+    },
+    {
+      "type": "summary",
+      "title": "Ringkasan Poin Kunci",
+      "items": [
+        "Letakkan pemicu negatif atau pembatas di awal kalimat, lalu ikuti dengan urutan [[Auxiliary + Subject + Main Verb]] pada klausa utama.",
+        "Jika kalimat asal tidak punya kata kerja bantu ([[Simple Present]] atau [[Simple Past]]), sisipkan [[do]], [[does]], atau [[did]] dan kembalikan kata kerja utama ke bentuk dasar.",
+        "Pasangkan [[Hardly / Scarcely]] dengan [[when]], serta [[No sooner]] dengan [[than]] pada pola [[Past Perfect]].",
+        "Bedakan frasa [[Only by + V-ing]] (langsung diikuti inversi klausa utama) dari anak kalimat [[Only after / Only when / Not until + S + V]] (anak kalimat tetap normal, inversi ditunda ke klausa utama)."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "Never ___ such an unexpected turn of events in a regional final.",
+      "choices": [
+        "I have witnessed",
+        "have I witnessed",
+        "I witnessed have",
+        "had witnessed I"
+      ],
+      "answer": 1,
+      "explanation": "Setelah [[Never]] di awal kalimat, kata kerja bantu [[have]] berpindah ke depan subjek [[I]], diikuti [[past participle]] [[witnessed]] ([[have I witnessed]]). Jebakan utama adalah mempertahankan urutan normal [[I have witnessed]].",
+      "translationId": {
+        "prompt": "Belum pernah saya menyaksikan perubahan situasi yang begitu tak terduga dalam final tingkat wilayah."
+      }
+    },
+    {
+      "id": "p2",
+      "prompt": "Seldom ___ the laboratory equipment without checking the calibration log first.",
+      "choices": [
+        "the technicians operate",
+        "do the technicians operate",
+        "does the technicians operate",
+        "do the technicians operates"
+      ],
+      "answer": 1,
+      "explanation": "Subjek [[the technicians]] berbentuk jamak dalam [[Simple Present]], sehingga [[dummy auxiliary]] yang tepat adalah [[do]] diikuti bentuk dasar [[operate]] ([[do the technicians operate]]). Pilihan lain keliru karena menghilangkan [[do]], memakai [[does]] untuk subjek jamak, atau menyisakan imbuhan [[-s]] pada [[operates]].",
+      "translationId": {
+        "prompt": "Jarang sekali para teknisi mengoperasikan peralatan laboratorium tanpa memeriksa catatan kalibrasi terlebih dahulu."
+      }
+    },
+    {
+      "id": "p3",
+      "prompt": "Under no circumstances ___ confidential student records to third parties.",
+      "choices": [
+        "staff members may disclose",
+        "may disclose staff members",
+        "may staff members disclose",
+        "do staff members may disclose"
+      ],
+      "answer": 2,
+      "explanation": "Karena kalimat sudah memiliki modal [[may]], cukup pindahkan [[may]] ke depan subjek [[staff members]] sebelum bentuk dasar [[disclose]]. Jangan menyelipkan [[do]] tambahan di depan modal [[may]].",
+      "translationId": {
+        "prompt": "Dalam keadaan apa pun anggota staf tidak boleh mengungkapkan catatan rahasia siswa kepada pihak ketiga."
+      }
+    },
+    {
+      "id": "p4",
+      "prompt": "No sooner ___ the updated timetable than dozens of students requested schedule changes.",
+      "choices": [
+        "the administration published",
+        "had the administration published",
+        "did the administration published",
+        "has the administration publish"
+      ],
+      "answer": 1,
+      "explanation": "Pola baku [[No sooner... than]] menggunakan inversi [[Past Perfect]]: [[No sooner + had + Subject + V3]] ([[had the administration published]]). Jebakan umum adalah tidak menginversi subjek atau memakai [[published]] setelah [[did]].",
+      "translationId": {
+        "prompt": "Begitu pihak administrasi menerbitkan jadwal terbaru, puluhan siswa langsung mengajukan perubahan jadwal."
+      }
+    },
+    {
+      "id": "p5",
+      "prompt": "Not only ___ the scholarship interview, but she also earned the highest essay score.",
+      "choices": [
+        "she passed",
+        "did she passed",
+        "did she pass",
+        "passed she"
+      ],
+      "answer": 2,
+      "explanation": "Setelah [[Not only]] di awal kalimat, klausa pertama diinversi memakai [[did + she + pass]]. Kata kerja utama wajib kembali ke bentuk dasar [[pass]] (bukan *passed*).",
+      "translationId": {
+        "prompt": "Ia tidak hanya lolos wawancara beasiswa, tetapi juga meraih nilai esai tertinggi."
+      }
+    },
+    {
+      "id": "p6",
+      "prompt": "Only after the committee reviewed every appeal ___ the final rankings.",
+      "choices": [
+        "they released",
+        "did they release",
+        "did they released",
+        "they did release"
+      ],
+      "answer": 1,
+      "explanation": "Klausa [[Only after the committee reviewed every appeal]] adalah anak kalimat waktu, sehingga inversi terjadi pada klausa utama di bagian kedua: [[did they release]].",
+      "translationId": {
+        "prompt": "Baru setelah komite meninjau setiap banding, mereka merilis peringkat akhir."
+      }
+    }
+  ],
+  "assessments": [
+    "negative-inversion-grade-12-test"
+  ]
+}

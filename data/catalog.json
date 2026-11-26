@@ -96,7 +96,8 @@
       "Comparing Arguments and Evaluating Evidence",
       "Adverbial Phrases and Adverbial Clauses",
       "Caption Text: Reading and Writing Image Captions",
-      "Curriculum Vitae (CV): Writing a Student CV"
+      "Curriculum Vitae (CV): Writing a Student CV",
+      "Negative Inversion (Grade 12)"
     ]
   },
   "resources": [
@@ -1818,7 +1819,9 @@
         "advanced",
         "Inversion"
       ],
-      "relatedLessons": [],
+      "relatedLessons": [
+        "negative-inversion-grade-12"
+      ],
       "file": "data/lessons/inversion.json",
       "aiGenerated": true,
       "unofficial": true,
@@ -5818,6 +5821,78 @@
       "aiGenerated": true,
       "unofficial": true,
       "estimatedMinutes": 25
+    },
+    {
+      "id": "negative-inversion-grade-12",
+      "title": "Negative Inversion (Grade 12)",
+      "description": "Menerapkan inversi setelah ungkapan negatif dan pembatas, termasuk auxiliary, do/does/did, serta pola dua klausa.",
+      "type": "lesson",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Inversion"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "negative inversion",
+        "inversion",
+        "Grade 12",
+        "kelas 12"
+      ],
+      "relatedLessons": [
+        "inversion"
+      ],
+      "file": "data/lessons/negative-inversion-grade-12.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "order": 195,
+      "estimatedMinutes": 30,
+      "prerequisites": []
+    },
+    {
+      "id": "negative-inversion-grade-12-test",
+      "title": "Negative Inversion Assessment (15 Questions) (Grade 12)",
+      "description": "15 soal pilihan tunggal tentang inversi setelah ungkapan negatif dan pembatas, termasuk auxiliary, do/does/did, dan pola dua klausa.",
+      "type": "quiz",
+      "placements": [
+        {
+          "pathway": "grammar"
+        },
+        {
+          "pathway": "school",
+          "grade": 12
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Inversion"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "grammar",
+        "negative inversion",
+        "assessment",
+        "Grade 12",
+        "kelas 12"
+      ],
+      "relatedLessons": [
+        "negative-inversion-grade-12"
+      ],
+      "file": "data/quizzes/negative-inversion-grade-12-test.json",
+      "aiGenerated": true,
+      "unofficial": true,
+      "kind": "test",
+      "examFormat": "topic",
+      "order": 196
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

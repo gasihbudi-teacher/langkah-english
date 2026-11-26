@@ -35,11 +35,11 @@ export function formatIdText(source){
       ? `<span class="english-term" lang="en">${esc(part.slice(2,-2))}</span>`
       : esc(part)).join('');
 }
-// R4 language-of-instruction rule: Indonesian teaching support is visible by default.
-// English remains the target language in examples and passages; Indonesian meaning is paired directly below it.
+// Indonesian meaning stays paired with its English example, but opens only when requested.
+// Native details/summary keeps the disclosure keyboard-accessible without JavaScript.
 function pairedTranslation(text){
  if(!text)return '';
- return `<p class="lesson-translation" lang="id"><span class="translation-label">${t('modelTranslationLabel')}:</span> ${formatIdText(text)}</p>`;
+ return `<details class="lesson-translation"><summary>${t('modelTranslationLabel')}</summary><div class="translation-content" lang="id">${formatIdText(text)}</div></details>`;
 }
 function lessonExampleCard(item,index){
  return `<li class="worked-example"><span class="example-index">Contoh ${index+1}</span>

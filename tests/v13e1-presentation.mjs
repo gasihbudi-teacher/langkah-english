@@ -45,6 +45,8 @@ for(const meta of catalogue.resources.filter(r=>r.type==='lesson')){
  const translations=(rendered.match(/class="lesson-translation"/g)||[]).length;
  const translationMinimum=examples.length+(scaffold?scaffold.steps.filter(x=>x.english&&x.indonesian).length+(scaffold.modelIndonesian?1:0):0);
  assert(translations>=translationMinimum,`${meta.id}: Indonesian assistance disappeared`);
+ assert.equal((rendered.match(/<details class="lesson-translation"(?![^>]*\bopen\b)/g)||[]).length,translations,`${meta.id}: translations must be collapsed by default`);
+ assert.equal((rendered.match(/class="translation-content" lang="id"/g)||[]).length,translations,`${meta.id}: translation content must remain available inside each disclosure`);
  const authoredInsights=scaffold?scaffold.steps.filter(x=>x.why).length:0;
  assert((rendered.match(/class="scaffold-insight"/g)||[]).length===authoredInsights,`${meta.id}: authored teaching explanations were lost or invented`);
  validated++;
