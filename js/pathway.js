@@ -9,31 +9,34 @@ try{
  const drafts=quizDrafts();
  const card=r=>resourceRow(r,p,drafts,pathway,t('difficulty'+r.difficulty));
  function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(byResourceTitle).map(card).join('')}</ul>`:`<p>${t(pathway==='sas'?'sasEmpty':'gradeEmpty')}</p>`}</div></details>`}
+ function groupHeading(id,title){return `<section class="catalog-group" aria-labelledby="${esc(id)}"><h3 id="${esc(id)}">${esc(title)}</h3>`;}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
-  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'navSchool',sas:'navSas'})[pathway]);
+  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'navGrammar',utbk:'pathUtbk',school:'navSchool',sas:'navSas'})[pathway]);
   document.querySelector('[data-pathway-description]').textContent=t(({grammar:'pathwayIntroGrammar',utbk:'pathwayIntroUtbk',school:'pathwayIntroSchool',sas:'sasIntro'})[pathway]);
   let html='';
   if(pathway==='grammar'){
    for(const level of ['Beginner','Intermediate','Advanced']){
     const id=level.toLowerCase(),label=t('level'+level); const here=resources.filter(r=>r.difficulty===level);
-    html+=`<h2 class="topic-divider" id="${id}">${esc(label)}</h2>`;
-    html+=group(id+'-materi',label+' · '+t('groupLessons'),here.filter(r=>r.type==='lesson'));
-    html+=group(id+'-latihan',label+' · '+t('groupPractice'),here.filter(r=>r.type==='quiz'));
+    html+=groupHeading(id,label);
+    html+=group(id+'-materi',t('groupLessons'),here.filter(r=>r.type==='lesson'));
+    html+=group(id+'-latihan',t('groupPractice'),here.filter(r=>r.type==='quiz'));
+    html+='</section>';
    }
   }else if(pathway==='sas'){
    for(const grade of [9,10,11,12]){
-    html+=`<h2 class="topic-divider" id="grade-${grade}">${t('grade')} ${grade}</h2>`;
+    html+=groupHeading('grade-'+grade,t('grade')+' '+grade);
     for(const semester of [1,2]){
      const items=resources.filter(r=>r.type==='quiz'&&r.placements.some(p=>p.pathway==='sas'&&p.grade===grade&&p.semester===semester));
      html+=group(`grade-${grade}-semester-${semester}`,`Semester ${semester}`,items);
     }
+    html+='</section>';
    }
   }else if(pathway==='school'){
    for(const grade of [9,10,11,12]){
     const here=resources.filter(r=>r.placements.some(p=>p.pathway==='school'&&p.grade===grade));
     const gradeId='grade-'+grade;
-    html+=`<section class="school-grade" aria-labelledby="${gradeId}"><h3 id="${gradeId}">${t('grade')} ${grade}</h3>`;
+    html+=groupHeading(gradeId,t('grade')+' '+grade);
     html+=group(gradeId+'-materi',t('groupLessons'),here.filter(r=>r.type==='lesson'));
     html+=group(gradeId+'-latihan',t('groupPractice'),here.filter(r=>r.type==='quiz'));
     html+='</section>';
