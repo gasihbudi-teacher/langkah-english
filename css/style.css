@@ -411,7 +411,7 @@ progress::-moz-progress-bar { background: var(--forest); }
 .example-english, .article-body .worked-example .example-english, .legacy-example > span[lang=en] {
   color: #243e48; font: 500 clamp(1.14rem,1.65vw,1.28rem)/1.64 var(--display); letter-spacing: 0;
 }
-.scaffold-model .example-english, .worked-example .example-english { white-space: pre-line; }
+.scaffold-model .example-english, .worked-example .example-english, .legacy-example > span[lang=en] { white-space: pre-line; }
 .scaffold-model .lesson-translation, .scaffold-sample .lesson-translation, .worked-example .lesson-translation, .lesson-translation {
   display: block; margin: .7rem 0; padding: 0; background: #eaf1e5; color: #334c3f;
   border: 0; border-left: 3px solid #648267; border-radius: 0 5px 5px 0; font: 400 1rem/1.65 var(--body);

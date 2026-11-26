@@ -21,28 +21,22 @@
       "text": "1. Dua Cara Membalik Kalimat"
     },
     {
-      "type": "example",
-      "text": "Biasa: She has never seen snow."
+      "type": "rule",
+      "text": "Cara 1 (Ada Kata Bantu): [[Kata Negatif]] + [[Kata Bantu (has/had/can/was)]] + [[Subjek]] + [[Kata Kerja Tetap]]"
     },
     {
       "type": "example",
-      "text": "Inversi: Never has she seen snow.",
-      "note": "Kata bantu [[has]] sudah ada → tarik [[has]] ke depan [[she]] agar maknanya lebih tegas."
+      "text": "Biasa: She has never seen snow.\nInversi: Never has she seen snow.",
+      "note": "[[has]] hanya bertukar posisi dengan [[she]]. Bentuk [[seen]] tidak ikut berubah."
+    },
+    {
+      "type": "rule",
+      "text": "Cara 2 (Tanpa Kata Bantu): [[Kata Negatif]] + [[do / does / did]] + [[Subjek]] + [[V1 (Kata Kerja Dasar)]]"
     },
     {
       "type": "example",
-      "text": "Biasa: He rarely arrived late."
-    },
-    {
-      "type": "example",
-      "text": "Inversi: Rarely did he arrive late.",
-      "note": "Tidak ada kata bantu → tambah [[did]], lalu [[arrived]] kembali ke dasar [[arrive]] ([[V1]])."
-    },
-    {
-      "type": "reflection",
-      "prompt": "Compare A (\"Seldom has she missed class.\") and B (\"Seldom did she miss class.\"). Why does A use \"has\", while B adds \"did\" and changes \"missed\" to \"miss\"?",
-      "translation": "Bandingkan A (\"Seldom has she missed class.\") dan B (\"Seldom did she miss class.\"). Mengapa A memakai [[has]], sedangkan B menambah [[did]] dan mengubah [[missed]] menjadi [[miss]]?",
-      "answer": "Kalimat A sudah punya kata bantu [[has]], jadi [[has]] tinggal maju. Kalimat B tidak punya kata bantu lampau, jadi kita menambah [[did]] dan mengembalikan [[missed]] ke bentuk dasar [[miss]]."
+      "text": "Biasa: He rarely arrived late.\nInversi: Rarely did he arrive late.",
+      "note": "Karena waktu lampau sudah diwakili [[did]], [[arrived]] wajib kembali ke bentuk dasar [[arrive]]."
     },
     {
       "type": "heading",
