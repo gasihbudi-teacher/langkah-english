@@ -11,7 +11,7 @@ try{
  function group(id,title,items){return `<details class="topic-fold" id="${esc(id)}"><summary><span class="topic-title">${esc(title)}</span><span class="badge">${items.length} ${t('resources')}</span></summary><div class="topic-fold-body">${items.length?`<ul class="simple-resources">${[...items].sort(byResourceTitle).map(card).join('')}</ul>`:`<p>${t(pathway==='sas'?'sasEmpty':'gradeEmpty')}</p>`}</div></details>`}
  function draw(){
   const previousOpen=new Set([...target.querySelectorAll('details[open]')].map(d=>d.id));
-  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'pathSchool',sas:'navSas'})[pathway]);
+  document.querySelector('[data-pathway-title]').textContent=t(({grammar:'pathGrammar',utbk:'pathUtbk',school:'navSchool',sas:'navSas'})[pathway]);
   document.querySelector('[data-pathway-description]').textContent=t(({grammar:'pathwayIntroGrammar',utbk:'pathwayIntroUtbk',school:'pathwayIntroSchool',sas:'sasIntro'})[pathway]);
   let html='';
   if(pathway==='grammar'){
@@ -32,9 +32,11 @@ try{
   }else if(pathway==='school'){
    for(const grade of [9,10,11,12]){
     const here=resources.filter(r=>r.placements.some(p=>p.pathway==='school'&&p.grade===grade));
-    html+=`<h2 class="topic-divider" id="grade-${grade}">${t('grade')} ${grade}</h2>`;
-    html+=group('grade-'+grade+'-materi',t('grade')+' '+grade+' · '+t('groupLessons'),here.filter(r=>r.type==='lesson'));
-    html+=group('grade-'+grade+'-latihan',t('grade')+' '+grade+' · '+t('groupPractice'),here.filter(r=>r.type==='quiz'));
+    const gradeId='grade-'+grade;
+    html+=`<section class="school-grade" aria-labelledby="${gradeId}"><h3 id="${gradeId}">${t('grade')} ${grade}</h3>`;
+    html+=group(gradeId+'-materi',t('groupLessons'),here.filter(r=>r.type==='lesson'));
+    html+=group(gradeId+'-latihan',t('groupPractice'),here.filter(r=>r.type==='quiz'));
+    html+='</section>';
    }
   }else{
    const lessons=resources.filter(r=>r.type==='lesson');const quizzes=resources.filter(r=>r.type==='quiz');

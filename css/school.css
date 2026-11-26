@@ -1,0 +1,71 @@
+/* Materi Sekolah uses the butter-yellow segment of the homepage wheel. */
+:root {
+  --paper: #f8f8fc;
+  --ink: #292b38;
+  --forest: #403a50;
+  --forest-dark: #322e41;
+  --muted: #555361;
+  --line: #e0dfe6;
+  --ring: #654a94;
+  --display: var(--body);
+  background: var(--paper);
+}
+body[data-pathway="school"] {
+  --track: #604b29;
+  --wash: #fcf3d5;
+  width: 100%; min-height: 100vh; margin: 0; background: var(--paper);
+}
+.site-header, .site-footer { background: var(--paper); border: 0; }
+.shell { max-width: 1080px; }
+.brand-mark { background: #383449; }
+.page-main { padding-top: 0; }
+.school-overview .page-back { color: var(--muted); }
+.pathway-hero-school {
+  padding: clamp(20px, 2.6vw, 34px);
+  border-radius: 26px; background: #f5dc91;
+}
+.school-cover { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.school-cover .section-kicker { margin: 0; }
+.school-cover .path-art { width: clamp(64px, 8vw, 98px); transform: rotate(-7deg); }
+#school-title { font: 780 clamp(2.15rem, 4vw, 3.3rem)/1.08 var(--body); letter-spacing: -.06em; margin: 0 0 .65rem; }
+.pathway-description { color: #4c4334; font-size: 1rem; }
+[data-pathway="school"] .pathway-hero-links { gap: 6px; }
+.pathway-hero-links a { border-color: #a9945f; background: #fff9e8; }
+.pathway-hero-links a:hover { background: #fff; }
+.pathway-hero .pathway-progress-summary { margin-top: 18px; padding-top: 12px; width: 100%; border-top: 1px solid #cfb776; gap: .65rem; }
+.pathway-progress-track { box-shadow: none; background: #fff8e2; }
+.path-library .section-intro h2 { font: 730 clamp(1.45rem, 2.3vw, 2rem)/1.2 var(--body); }
+.pathway-sections { gap: 16px; }
+.school-grade { border: 1px solid var(--line); border-radius: 18px; background: white; }
+.school-grade > h3 {
+  padding: .8rem 1rem; margin: 0;
+  border-radius: 17px 17px 0 0; background: var(--wash);
+  color: var(--track); font: 750 1.05rem/1.35 var(--body);
+}
+.school-grade .topic-fold { border: 0; background: none; }
+.school-grade .topic-fold + .topic-fold { border-top: 1px solid var(--line); }
+.school-grade .topic-fold > summary {
+  background: transparent; border: 0; border-radius: 0;
+  padding: .55rem 1rem; min-height: 48px; gap: .6rem;
+}
+.school-grade .topic-fold > summary::before { order: 1; margin-inline-start: .4rem; }
+.school-grade .topic-fold > summary .topic-title { font-size: .95rem; }
+.school-grade .topic-fold > summary .badge { color: var(--muted); background: #f3f2f7; border-radius: 999px; }
+.school-grade .topic-fold > summary:hover, .school-grade .topic-fold[open] > summary { background: #faf8f1; }
+.topic-fold-body { padding: 0 1rem; }
+.simple-resources { border-top: 1px solid var(--line); }
+.resource-link { min-height: 48px; padding-block: .85rem; }
+.resource-link > .icon { color: #655876; }
+.resource-link h3 { font-size: 1rem; }
+.resource-link p { font-size: .94rem; }
+@media (min-width: 880px) {
+  .page-main { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); align-items: start; gap: clamp(24px, 4vw, 54px); }
+  .path-library { margin-top: 44px; }
+  .school-overview { position: sticky; top: 0; }
+  [data-pathway="school"] .pathway-hero-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pathway-hero .pathway-progress-summary { display: grid; }
+  .pathway-progress-track { width: 100%; }
+}
+@media (max-height: 580px) {
+  .school-overview { position: static; }
+}
