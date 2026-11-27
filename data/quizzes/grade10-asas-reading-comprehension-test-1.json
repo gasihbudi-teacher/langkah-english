@@ -5,26 +5,41 @@
   "passages": [
     {
       "id": "library-river",
+      "sectionNumber": 1,
+      "textType": "Descriptive Text",
+      "topic": "A Community Library by the River",
       "title": "A Community Library by the River",
       "text": "At the edge of a small town, beside a quiet river, stands a community library in a building that was once used to store fishing equipment. A group of volunteers repaired the old building and turned it into a welcoming place for readers. Although the library is not large, its shelves hold storybooks, school references, local history books, and magazines donated by residents.\n\nWide windows allow sunlight to enter the main reading room. There are several long tables for students, a small corner with cushions for younger children, and a wooden deck facing the river. On Saturday mornings, volunteers read stories aloud and help children with their schoolwork. Adults sometimes use the library to learn basic computer skills or to attend short community meetings.\n\nDuring the rainy season, the river sometimes rises, so the wooden deck is closed for safety. The volunteers then move reading activities into the main hall. The library has limited equipment, but residents continue to support it by donating books, repairing furniture, and sharing their skills. Over time, it has become more than a place to borrow books: it is a meeting point where neighbours learn from and help one another."
     },
     {
       "id": "green-valley-farm",
+      "sectionNumber": 2,
+      "textType": "Recount Text",
+      "topic": "An Afternoon at Green Valley Farm",
       "title": "An Afternoon at Green Valley Farm",
       "text": "Last Thursday, our class visited Green Valley Farm as part of a school project about food and the environment. Before we left, our teacher reminded us to bring a notebook, a water bottle, and a hat. When we arrived, the farmer, Mr Adi, welcomed us and explained how the farm supplied fresh vegetables to nearby markets.\n\nFirst, we visited the compost area. Mr Adi showed us how dry leaves and food scraps could become compost after they had broken down. Next, we were supposed to plant seedlings in an outdoor plot. However, it had rained heavily the night before, and the soil was too wet to work with. Because of this, Mr Adi moved the demonstration to a greenhouse. He showed us how to make small holes in the soil, place the seedlings inside, and cover their roots gently.\n\nAfter lunch, we interviewed two farm workers about their daily routines and how they decided when to water the plants. Before returning to school, each group wrote down one new thing it had learned. I learned that growing vegetables requires patience and careful planning. The visit lasted only three hours, but it helped me understand how much work takes place before vegetables reach a market."
     },
     {
       "id": "lantern-forest",
+      "sectionNumber": 3,
+      "textType": "Narrative Text",
+      "topic": "The Lantern in the Forest",
       "title": "The Lantern in the Forest",
       "text": "At dusk, Rani carried a basket of food along a narrow path through the forest. She was going to visit her aunt, who lived on the other side of the trees. Before Rani left, her grandmother lent her an old lantern and warned her that fog could cover the path after sunset.\n\nNear an old bridge, Rani noticed a faint light below the path. Then she heard someone calling for help. She looked down and saw Pak Hasan, a farmer, sitting beside his fallen bicycle. His ankle was hurt, and he could not climb the steep slope. Rani wanted to help immediately, but the ground was slippery. She decided not to climb down alone. Instead, she placed her basket in a safe spot, waved the lantern three times towards the nearby farmhouses, and shouted for help.\n\nA few minutes later, two farm workers arrived with a rope. Rani stayed beside Pak Hasan and held the lantern steady while the workers helped him reach the path. They then accompanied him to a small clinic. By the time Rani arrived at her aunt's house, the evening meal was already cold. Her aunt listened to the story and thanked her for helping. Rani smiled. The lantern had not only shown her the way; it had also helped someone else find safety."
     },
     {
       "id": "school-garden",
+      "sectionNumber": 4,
+      "textType": "Procedure Text",
+      "topic": "How to Start a Small School Garden",
       "title": "How to Start a Small School Garden",
       "text": "A small school garden can begin with only a few containers, some soil, and a packet of seeds. First, choose a place that receives at least five hours of sunlight each day. Avoid an area where water usually collects after rain, because too much water can damage plant roots.\n\nNext, prepare the soil. Loosen the top layer and mix in some compost to add nutrients. If you are using recycled containers, make several small holes in the bottom before adding the soil. These holes provide drainage by allowing extra water to flow out. Then, place the seeds in the soil according to the instructions on the packet. Cover them lightly, water gently, and label each row so that you know what is growing.\n\nCheck the garden every day. Water the soil when the top layer feels dry, but do not flood it. After heavy rain, inspect the containers and remove any leaves that may block the drainage holes. During the first week, observe the plants and record any changes in their growth. With regular care, even a small space can become a useful learning garden."
     },
     {
       "id": "plastic-waste",
+      "sectionNumber": 5,
+      "textType": "Informational / Introductory Analytical Exposition",
+      "topic": "Why Schools Should Reduce Plastic Waste",
       "title": "Why Schools Should Reduce Plastic Waste",
       "text": "Every school produces some waste, and much of it comes from single-use plastic packaging and drink bottles. These items are convenient, but many remain in the environment for a long time. Plastic can break into very small pieces and enter rivers. When plastic is left near open drains, rain can also carry it into waterways, where animals may mistake it for food.\n\nSchools can take practical steps to reduce this problem. Refill stations and reusable bottles can reduce the need for disposable drink containers. Clearly labelled bins in busy areas can help students separate recyclable materials. A school can also arrange regular collection with a local recycling group. These partnerships make it more likely that sorted plastic will be handled properly instead of being mixed with other waste.\n\nSome people argue that these changes cost money and require extra effort. However, schools do not need to change everything at once. They can begin with one refill station, a weekly waste check, and clear reminders. When students have useful facilities and take part in the process, better habits become easier to maintain. Reducing plastic waste is not only a cleaning task; it is a shared responsibility that protects the environment and encourages careful consumption."
     }
@@ -34,6 +49,7 @@
       "id": "q1",
       "passageId": "library-river",
       "skill": "Main Idea",
+      "topic": "A Community Library by the River",
       "prompt": "What is the passage mainly about?",
       "choices": [
         "The history of fishing in a small town.",
@@ -50,6 +66,7 @@
       "id": "q2",
       "passageId": "library-river",
       "skill": "Specific Information",
+      "topic": "A Community Library by the River",
       "prompt": "What was the library building used for before it became a library?",
       "choices": [
         "A classroom.",
@@ -66,6 +83,7 @@
       "id": "q3",
       "passageId": "library-river",
       "skill": "Vocabulary in Context",
+      "topic": "A Community Library by the River",
       "prompt": "The word “welcoming” in paragraph 1 is closest in meaning to ....",
       "choices": [
         "expensive and modern.",
@@ -82,6 +100,7 @@
       "id": "q4",
       "passageId": "library-river",
       "skill": "Inference",
+      "topic": "A Community Library by the River",
       "prompt": "What can be inferred about the volunteers?",
       "choices": [
         "They adjust library activities when weather conditions make outdoor areas unsafe.",
@@ -98,6 +117,7 @@
       "id": "q5",
       "passageId": "green-valley-farm",
       "skill": "Text Purpose",
+      "topic": "An Afternoon at Green Valley Farm",
       "prompt": "What is the writer's main purpose in writing the passage?",
       "choices": [
         "To advertise Green Valley Farm's vegetables.",
@@ -114,6 +134,7 @@
       "id": "q6",
       "passageId": "green-valley-farm",
       "skill": "Text Structure and Organisation",
+      "topic": "An Afternoon at Green Valley Farm",
       "prompt": "How is the passage organised?",
       "choices": [
         "It presents a problem, gives several solutions, and compares their results.",
@@ -130,6 +151,7 @@
       "id": "q7",
       "passageId": "green-valley-farm",
       "skill": "Reference",
+      "topic": "An Afternoon at Green Valley Farm",
       "prompt": "In paragraph 2, the word “He” in “He showed us how to make small holes in the soil” refers to ....",
       "choices": [
         "the writer's teacher.",
@@ -146,6 +168,7 @@
       "id": "q8",
       "passageId": "green-valley-farm",
       "skill": "Cause and Effect",
+      "topic": "An Afternoon at Green Valley Farm",
       "prompt": "Why was the planting demonstration moved to the greenhouse?",
       "choices": [
         "The students had forgotten to bring their notebooks.",
@@ -162,6 +185,7 @@
       "id": "q9",
       "passageId": "lantern-forest",
       "skill": "Supporting Details",
+      "topic": "The Lantern in the Forest",
       "prompt": "Which detail best shows that Rani acted carefully when she found Pak Hasan?",
       "choices": [
         "She did not climb down the slippery slope alone and called for help instead.",
@@ -178,6 +202,7 @@
       "id": "q10",
       "passageId": "lantern-forest",
       "skill": "Summary and Conclusion",
+      "topic": "The Lantern in the Forest",
       "prompt": "Which sentence best summarises the story?",
       "choices": [
         "Rani visits her aunt but decides that travelling through a forest is always dangerous.",
@@ -194,6 +219,7 @@
       "id": "q11",
       "passageId": "lantern-forest",
       "skill": "Main Idea",
+      "topic": "The Lantern in the Forest",
       "prompt": "What is the main idea of the story?",
       "choices": [
         "A farmer should never ride a bicycle near a forest.",
@@ -210,6 +236,7 @@
       "id": "q12",
       "passageId": "lantern-forest",
       "skill": "Specific Information",
+      "topic": "The Lantern in the Forest",
       "prompt": "How did Rani signal to the nearby farmhouses?",
       "choices": [
         "She rang a small bell.",
@@ -226,6 +253,7 @@
       "id": "q13",
       "passageId": "school-garden",
       "skill": "Vocabulary in Context",
+      "topic": "How to Start a Small School Garden",
       "prompt": "The word “drainage” in paragraph 2 refers to ....",
       "choices": [
         "the process of adding nutrients to the soil.",
@@ -242,6 +270,7 @@
       "id": "q14",
       "passageId": "school-garden",
       "skill": "Inference",
+      "topic": "How to Start a Small School Garden",
       "prompt": "What should students do if water remains inside a container after heavy rain?",
       "choices": [
         "Check the drainage holes and remove anything blocking them.",
@@ -258,6 +287,7 @@
       "id": "q15",
       "passageId": "school-garden",
       "skill": "Text Purpose",
+      "topic": "How to Start a Small School Garden",
       "prompt": "What is the main purpose of the passage?",
       "choices": [
         "To describe the history of school gardens.",
@@ -274,6 +304,7 @@
       "id": "q16",
       "passageId": "school-garden",
       "skill": "Text Structure and Organisation",
+      "topic": "How to Start a Small School Garden",
       "prompt": "How is the information in the passage organised?",
       "choices": [
         "It introduces two opinions and asks readers to choose one.",
@@ -290,6 +321,7 @@
       "id": "q17",
       "passageId": "plastic-waste",
       "skill": "Reference",
+      "topic": "Why Schools Should Reduce Plastic Waste",
       "prompt": "In paragraph 2, the phrase “These partnerships” refers to ....",
       "choices": [
         "students bringing reusable bottles to school.",
@@ -306,6 +338,7 @@
       "id": "q18",
       "passageId": "plastic-waste",
       "skill": "Cause and Effect",
+      "topic": "Why Schools Should Reduce Plastic Waste",
       "prompt": "According to paragraph 1, what may happen when plastic waste is left near open drains during rain?",
       "choices": [
         "The plastic will disappear immediately.",
@@ -322,6 +355,7 @@
       "id": "q19",
       "passageId": "plastic-waste",
       "skill": "Supporting Details",
+      "topic": "Why Schools Should Reduce Plastic Waste",
       "prompt": "Which detail best supports the idea that schools can reduce the use of disposable drink containers?",
       "choices": [
         "Providing refill stations and encouraging students to use reusable bottles.",
@@ -338,6 +372,7 @@
       "id": "q20",
       "passageId": "plastic-waste",
       "skill": "Summary and Conclusion",
+      "topic": "Why Schools Should Reduce Plastic Waste",
       "prompt": "Which statement best expresses the conclusion of the passage?",
       "choices": [
         "Plastic waste can only be reduced by completely closing school canteens.",
