@@ -1,0 +1,310 @@
+{
+  "id": "grade11-asas-vocabulary-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3000,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "MEANING IN CONTEXT",
+      "instruction": "Use the surrounding information to work out the meaning of the highlighted word.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "SYNONYMS AND ANTONYMS",
+      "instruction": "Choose the closest or opposite meaning, as requested.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "WORD FORMATION",
+      "instruction": "Choose the correct form of the word in brackets to complete each sentence.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "COLLOCATIONS AND PHRASAL VERBS",
+      "instruction": "Choose the word combination or phrasal verb that is natural in English.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "EXPRESSIONS AND COMMONLY CONFUSED WORDS",
+      "instruction": "Pay attention to the meaning and natural use of each expression or word.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "The once-thriving market began to deteriorate after the main road was closed. Many shops lost customers, and several stalls were left empty. The word “deteriorate” is closest in meaning to ....",
+      "choices": [
+        "become worse",
+        "become more popular",
+        "remain unchanged",
+        "become more expensive",
+        "recover quickly"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “deteriorate” berarti memburuk. Petunjuknya adalah banyak toko kehilangan pelanggan dan beberapa kios menjadi kosong."
+    },
+    {
+      "id": "q2",
+      "prompt": "Her explanation was remarkably coherent. Although the topic was complicated, everyone could follow how one idea connected to the next. The word “coherent” is closest in meaning to ....",
+      "choices": [
+        "very entertaining",
+        "clear and logical",
+        "short and incomplete",
+        "difficult to believe",
+        "highly emotional"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “coherent” berarti jelas dan masuk akal. Kalimat menjelaskan bahwa semua orang dapat mengikuti hubungan antara satu gagasan dan gagasan berikutnya."
+    },
+    {
+      "id": "q3",
+      "prompt": "The school introduced extra study sessions to mitigate the effects of the long classroom closure. The word “mitigate” is closest in meaning to ....",
+      "choices": [
+        "measure",
+        "explain",
+        "reduce the seriousness of",
+        "cause",
+        "predict"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “mitigate” berarti mengurangi dampak atau tingkat keparahan sesuatu. Sesi belajar tambahan dibuat untuk mengurangi akibat penutupan kelas yang lama."
+    },
+    {
+      "id": "q4",
+      "prompt": "At first, Dimas was reluctant to join the debate team. He worried that he would make mistakes in front of other students. The word “reluctant” is closest in meaning to ....",
+      "choices": [
+        "eager",
+        "qualified",
+        "prepared",
+        "unwilling or hesitant",
+        "proud"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “reluctant” berarti enggan atau ragu untuk melakukan sesuatu. Dimas khawatir akan membuat kesalahan, sehingga ia tidak langsung mau bergabung."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which word is closest in meaning to “meticulous”?",
+      "choices": [
+        "careless",
+        "ordinary",
+        "impatient",
+        "uncertain",
+        "thorough and careful"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “meticulous” berarti sangat teliti dan memperhatikan detail. “Thorough and careful” memiliki makna yang paling dekat."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which word is closest in meaning to “substantial” in the sentence: “The project requires a substantial amount of funding”?",
+      "choices": [
+        "considerable",
+        "temporary",
+        "unnecessary",
+        "limited",
+        "uncertain"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “substantial” dalam kalimat ini berarti besar atau cukup banyak. “Considerable” juga berarti dalam jumlah yang cukup besar."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which word is the opposite of “temporary”?",
+      "choices": [
+        "brief",
+        "permanent",
+        "occasional",
+        "recent",
+        "uncertain"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “temporary” berarti sementara, sedangkan “permanent” berarti tetap atau berlangsung dalam waktu lama."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which word is the opposite of “diminish”?",
+      "choices": [
+        "reduce",
+        "weaken",
+        "increase",
+        "decline",
+        "decrease"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “diminish” berarti berkurang atau menjadi lebih kecil. Lawannya adalah “increase”, yaitu bertambah atau meningkat."
+    },
+    {
+      "id": "q9",
+      "prompt": "After a long discussion, the committee reached a ______ decision. (UNANIMITY)",
+      "choices": [
+        "unanimously",
+        "unanimity",
+        "unanimable",
+        "unanimous",
+        "unanimousness"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Bagian kosong menjelaskan kata benda “decision”, jadi kita membutuhkan adjective (kata sifat). Bentuk yang tepat dari “unanimity” adalah “unanimous”, yang berarti disetujui oleh semua anggota."
+    },
+    {
+      "id": "q10",
+      "prompt": "The speaker presented her ideas with great ______, answering every question calmly. (CONFIDENT)",
+      "choices": [
+        "confident",
+        "confidently",
+        "confidential",
+        "confiding",
+        "confidence"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “with great” dibutuhkan noun (kata benda). “Confidence” berarti rasa percaya diri."
+    },
+    {
+      "id": "q11",
+      "prompt": "The instructions were written so ______ that even first-time users could follow them. (SIMPLE)",
+      "choices": [
+        "simply",
+        "simplify",
+        "simplicity",
+        "simple",
+        "simplistic"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Kata tersebut menjelaskan bagaimana instruksi ditulis, sehingga dibutuhkan adverb (kata keterangan). “Simply” adalah bentuk adverb dari “simple”."
+    },
+    {
+      "id": "q12",
+      "prompt": "The sudden ______ of the old bridge forced the town to close the road. (COLLAPSE)",
+      "choices": [
+        "collapsing",
+        "collapse",
+        "collapsed",
+        "collapsible",
+        "collapsively"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “the sudden” dibutuhkan noun (kata benda) sebagai subjek kalimat. “Collapse” berarti keruntuhan atau robohnya sesuatu."
+    },
+    {
+      "id": "q13",
+      "prompt": "The researchers carried ______ a series of interviews to understand students’ study habits.",
+      "choices": [
+        "away",
+        "over",
+        "out",
+        "up",
+        "through"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “carry out” berarti melaksanakan atau melakukan suatu kegiatan. Para peneliti melakukan serangkaian wawancara."
+    },
+    {
+      "id": "q14",
+      "prompt": "Students should take ______ of the free workshops offered by the school.",
+      "choices": [
+        "attention",
+        "place",
+        "part",
+        "advantage",
+        "care"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Pasangan kata yang tepat adalah “take advantage of”, yang berarti memanfaatkan kesempatan. Kalimat mendorong siswa menggunakan kesempatan mengikuti lokakarya gratis."
+    },
+    {
+      "id": "q15",
+      "prompt": "The committee promised to look ______ the complaint before making a final decision.",
+      "choices": [
+        "after",
+        "up",
+        "down",
+        "off",
+        "into"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “look into” berarti menyelidiki atau memeriksa suatu masalah. Komite akan memeriksa keluhan sebelum mengambil keputusan."
+    },
+    {
+      "id": "q16",
+      "prompt": "The unexpected rise in transport costs put considerable ______ on the project budget.",
+      "choices": [
+        "pressure",
+        "attention",
+        "permission",
+        "progress",
+        "advice"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Ungkapan yang lazim adalah “put pressure on”, artinya memberi tekanan atau beban pada sesuatu. Kenaikan biaya transportasi membebani anggaran proyek."
+    },
+    {
+      "id": "q17",
+      "prompt": "At first, the assignment seemed difficult. However, in the long ______, the research skills students gained were worth the effort.",
+      "choices": [
+        "period",
+        "run",
+        "time",
+        "way",
+        "term"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Expression in Context.\n\nPenjelasan: “in the long run” adalah ungkapan yang berarti dalam jangka panjang. Kalimat membahas manfaat yang akan terasa setelah waktu berlalu."
+    },
+    {
+      "id": "q18",
+      "prompt": "On ______ of the student council, Maya thanked the teachers for supporting the charity event.",
+      "choices": [
+        "account",
+        "purpose",
+        "behalf",
+        "reason",
+        "side"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Expression in Context.\n\nPenjelasan: “on behalf of” berarti mewakili atau atas nama suatu kelompok. Maya menyampaikan terima kasih sebagai wakil OSIS."
+    },
+    {
+      "id": "q19",
+      "prompt": "The new attendance policy may ______ how students manage their time.",
+      "choices": [
+        "effect",
+        "effective",
+        "affection",
+        "affect",
+        "effectively"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: Kalimat membutuhkan verb (kata kerja) setelah modal “may”. “Affect” berarti memengaruhi, sedangkan “effect” biasanya merupakan noun (kata benda) yang berarti dampak."
+    },
+    {
+      "id": "q20",
+      "prompt": "The number of students applying for the exchange programme has ______ steadily over the past three years.",
+      "choices": [
+        "raised",
+        "raising",
+        "rise",
+        "rised",
+        "risen"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: “rise” berarti meningkat dan tidak membutuhkan objek. Bentuk past participle-nya adalah “risen”, sehingga digunakan setelah “has”. “Raise” berbeda karena biasanya membutuhkan objek."
+    }
+  ]
+}

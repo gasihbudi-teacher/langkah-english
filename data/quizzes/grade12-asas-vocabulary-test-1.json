@@ -1,0 +1,310 @@
+{
+  "id": "grade12-asas-vocabulary-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3300,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "MEANING IN CONTEXT",
+      "instruction": "Use the surrounding information to work out the meaning of the highlighted word.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "SYNONYMS AND ANTONYMS",
+      "instruction": "Choose the closest or opposite meaning, as requested.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "WORD FORMATION",
+      "instruction": "Choose the correct form of the word in brackets to complete each sentence.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "COLLOCATIONS AND PHRASAL VERBS",
+      "instruction": "Choose the word combination or phrasal verb that is natural in English.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "EXPRESSIONS AND COMMONLY CONFUSED WORDS",
+      "instruction": "Pay attention to the meaning and natural use of each expression or word.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "The proposal was rejected because its supporting evidence was tenuous and failed to convince the review panel. The word “tenuous” is closest in meaning to ....",
+      "choices": [
+        "weak and unconvincing",
+        "detailed and complete",
+        "relevant and useful",
+        "recently collected",
+        "widely accepted"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “tenuous” berarti lemah atau tidak kuat. Petunjuknya adalah bukti tersebut gagal meyakinkan tim penilai."
+    },
+    {
+      "id": "q2",
+      "prompt": "The committee's approval is provisional; it will become final only after the legal team has reviewed the documents. The word “provisional” is closest in meaning to ....",
+      "choices": [
+        "permanent",
+        "temporary",
+        "unnecessary",
+        "unanimous",
+        "unexpected"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “provisional” berarti sementara dan belum final. Kalimat menjelaskan bahwa persetujuan baru menjadi final setelah dokumen diperiksa."
+    },
+    {
+      "id": "q3",
+      "prompt": "The witness gave an unequivocal answer, leaving no doubt about what she had seen that evening. The word “unequivocal” is closest in meaning to ....",
+      "choices": [
+        "uncertain",
+        "indirect",
+        "clear and definite",
+        "emotional",
+        "unreliable"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “unequivocal” berarti jelas dan tidak menimbulkan keraguan. Petunjuknya adalah bagian “leaving no doubt”, yang berarti tidak menyisakan keraguan."
+    },
+    {
+      "id": "q4",
+      "prompt": "The new measures are intended to alleviate the pressure on families who have been affected by the rising cost of living. The word “alleviate” is closest in meaning to ....",
+      "choices": [
+        "increase",
+        "ignore",
+        "explain",
+        "reduce or ease",
+        "transfer"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “alleviate” berarti mengurangi atau meringankan. Kebijakan tersebut dibuat agar beban keluarga menjadi lebih ringan."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which word is closest in meaning to “pragmatic”?",
+      "choices": [
+        "theoretical",
+        "emotional",
+        "careless",
+        "unrealistic",
+        "practical"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “pragmatic” berarti praktis dan berfokus pada hal yang bisa dilakukan. “Practical” memiliki makna yang paling dekat."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which word is closest in meaning to “obsolete”?",
+      "choices": [
+        "outdated",
+        "valuable",
+        "complicated",
+        "essential",
+        "modern"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “obsolete” berarti sudah kuno atau tidak digunakan lagi. “Outdated” juga berarti sudah ketinggalan zaman."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which word is the opposite of “ambiguous”?",
+      "choices": [
+        "unclear",
+        "explicit",
+        "confusing",
+        "uncertain",
+        "vague"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “ambiguous” berarti memiliki lebih dari satu kemungkinan arti atau tidak jelas. “Explicit” berarti jelas dan dinyatakan secara langsung."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which word is the opposite of “rigid” when describing a plan or approach?",
+      "choices": [
+        "strict",
+        "fixed",
+        "flexible",
+        "stiff",
+        "inflexible"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “rigid” berarti kaku dan sulit diubah, sedangkan “flexible” berarti lentur atau mudah disesuaikan."
+    },
+    {
+      "id": "q9",
+      "prompt": "The report highlights the growing ______ of digital literacy in the modern workplace. (IMPORTANT)",
+      "choices": [
+        "importantly",
+        "important",
+        "import",
+        "importance",
+        "importation"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “the growing” dibutuhkan noun (kata benda). “Importance” berarti kepentingan atau pentingnya sesuatu."
+    },
+    {
+      "id": "q10",
+      "prompt": "Her argument was persuasive because it was supported by ______ evidence from several independent studies. (CONVINCE)",
+      "choices": [
+        "convince",
+        "convinced",
+        "convincingly",
+        "convincement",
+        "convincing"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Kata tersebut menjelaskan “evidence”, sehingga dibutuhkan adjective (kata sifat). “Convincing evidence” berarti bukti yang meyakinkan."
+    },
+    {
+      "id": "q11",
+      "prompt": "The unexpected ______ of the agreement surprised both negotiating teams. (WITHDRAW)",
+      "choices": [
+        "withdrawal",
+        "withdrawing",
+        "withdrawn",
+        "withdraw",
+        "withdrawable"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “the unexpected” dibutuhkan noun (kata benda). “Withdrawal” berarti penarikan atau pembatalan keikutsertaan dari suatu kesepakatan."
+    },
+    {
+      "id": "q12",
+      "prompt": "The organization aims to distribute its resources more ______ among communities in need. (EQUITABLE)",
+      "choices": [
+        "equitable",
+        "equitably",
+        "equity",
+        "equal",
+        "equitability"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Kata tersebut menjelaskan bagaimana sumber daya dibagikan, sehingga dibutuhkan adverb (kata keterangan). “Equitably” berarti secara adil."
+    },
+    {
+      "id": "q13",
+      "prompt": "Before approving the proposal, the board must take the long-term consequences into ______.",
+      "choices": [
+        "recognition",
+        "attention",
+        "account",
+        "notice",
+        "thoughtful"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Ungkapan yang tepat adalah “take something into account”, yang berarti mempertimbangkan sesuatu sebelum mengambil keputusan."
+    },
+    {
+      "id": "q14",
+      "prompt": "The findings of the latest survey are consistent ______ the results of previous research.",
+      "choices": [
+        "to",
+        "for",
+        "by",
+        "with",
+        "at"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Pasangan kata yang benar adalah “consistent with”, yang berarti sesuai atau sejalan dengan sesuatu."
+    },
+    {
+      "id": "q15",
+      "prompt": "The audit turned ______ several discrepancies in the financial records that had not been noticed before.",
+      "choices": [
+        "into",
+        "over",
+        "down",
+        "off",
+        "up"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “turn up” dalam konteks ini berarti menemukan atau menunjukkan sesuatu yang sebelumnya tidak diketahui. Audit menemukan beberapa ketidaksesuaian dalam catatan keuangan."
+    },
+    {
+      "id": "q16",
+      "prompt": "The sudden resignation of the director took everyone by ______.",
+      "choices": [
+        "surprise",
+        "chance",
+        "attention",
+        "notice",
+        "warning"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Ungkapan yang tepat adalah “take someone by surprise”, yang berarti membuat seseorang terkejut."
+    },
+    {
+      "id": "q17",
+      "prompt": "The negotiations have not produced an agreement yet, and both sides appear unwilling to compromise. The talks have reached a deadlock. This means that ....",
+      "choices": [
+        "they have reached a final agreement",
+        "they cannot make further progress",
+        "one side has withdrawn",
+        "the talks have been postponed",
+        "the issue has been resolved"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Expression in Context.\n\nPenjelasan: “deadlock” berarti keadaan buntu, saat tidak ada pihak yang bisa membuat kemajuan. Kalimat menunjukkan kedua pihak tidak mau berkompromi."
+    },
+    {
+      "id": "q18",
+      "prompt": "The new policy may, to some extent, improve access to public services in remote areas. The phrase “to some extent” means ....",
+      "choices": [
+        "completely",
+        "without any doubt",
+        "partly or to a certain degree",
+        "for a short period",
+        "in every situation"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Expression in Context.\n\nPenjelasan: “to some extent” berarti sampai tingkat tertentu atau sebagian. Ungkapan ini tidak berarti perubahan terjadi sepenuhnya."
+    },
+    {
+      "id": "q19",
+      "prompt": "The central ______ of the school's new policy is that every student should have equal access to learning opportunities.",
+      "choices": [
+        "principal",
+        "principled",
+        "principally",
+        "principle",
+        "principality"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: “principle” berarti prinsip atau dasar pemikiran. “Principal” biasanya berarti kepala sekolah atau sesuatu yang utama, jadi tidak cocok dalam kalimat ini."
+    },
+    {
+      "id": "q20",
+      "prompt": "The two departments have different responsibilities, but their roles ______ one another and help the organization work efficiently.",
+      "choices": [
+        "compliment",
+        "complete",
+        "comply with",
+        "implement",
+        "complement"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: “complement” berarti melengkapi atau membuat sesuatu menjadi lebih baik. Peran kedua departemen berbeda, tetapi saling melengkapi. “Compliment” berarti memberi pujian."
+    }
+  ]
+}

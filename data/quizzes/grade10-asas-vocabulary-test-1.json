@@ -1,0 +1,310 @@
+{
+  "id": "grade10-asas-vocabulary-test-1",
+  "questionCount": 20,
+  "durationSeconds": 2700,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "MEANING IN CONTEXT",
+      "instruction": "Use the surrounding sentence to work out the meaning of the underlined word.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "SYNONYMS AND ANTONYMS",
+      "instruction": "Choose the word that has the closest or opposite meaning, as requested.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "WORD FORMATION",
+      "instruction": "Choose the correct form of the word in brackets to complete each sentence.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "COLLOCATIONS AND PHRASAL VERBS",
+      "instruction": "Choose the word combination or phrasal verb that is natural in English.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "EXPRESSIONS AND COMMONLY CONFUSED WORDS",
+      "instruction": "Pay attention to the meaning and natural use of the expression or word in each sentence.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Despite the heavy rain, the outdoor concert continued as scheduled. The word “continued” is closest in meaning to ....",
+      "choices": [
+        "went ahead as planned",
+        "was cancelled",
+        "was moved to another day",
+        "ended earlier than expected",
+        "was moved indoors"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “continued as scheduled” berarti acara tetap berlangsung sesuai rencana. Kalimat menunjukkan bahwa hujan deras tidak menghentikan konser."
+    },
+    {
+      "id": "q2",
+      "prompt": "The instructions were so vague that several students did not know what to do. The word “vague” is closest in meaning to ....",
+      "choices": [
+        "detailed",
+        "unclear",
+        "helpful",
+        "accurate",
+        "complicated"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “vague” berarti tidak jelas atau kurang terperinci. Petunjuknya adalah beberapa siswa tidak tahu apa yang harus dilakukan."
+    },
+    {
+      "id": "q3",
+      "prompt": "The scientist examined the sample carefully before recording the results. The word “examined” is closest in meaning to ....",
+      "choices": [
+        "discarded",
+        "prepared",
+        "inspected",
+        "replaced",
+        "described"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “examined” berarti memeriksa dengan teliti. Dalam kalimat, ilmuwan memeriksa sampel sebelum mencatat hasilnya."
+    },
+    {
+      "id": "q4",
+      "prompt": "The old bridge is fragile, so heavy vehicles are not allowed to cross it. The word “fragile” is closest in meaning to ....",
+      "choices": [
+        "very expensive",
+        "extremely narrow",
+        "recently repaired",
+        "easily damaged",
+        "difficult to find"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Meaning in Context.\n\nPenjelasan: “fragile” berarti rapuh atau mudah rusak. Petunjuknya adalah kendaraan berat tidak boleh melewati jembatan tersebut."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which word is closest in meaning to “generous”?",
+      "choices": [
+        "selfish",
+        "careless",
+        "wealthy",
+        "honest",
+        "charitable"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “generous” berarti murah hati atau suka memberi. “Charitable” memiliki makna yang paling dekat, yaitu suka membantu atau memberi kepada orang lain."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which word is closest in meaning to “reluctant”?",
+      "choices": [
+        "unwilling",
+        "excited",
+        "certain",
+        "prepared",
+        "grateful"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Synonym.\n\nPenjelasan: “reluctant” berarti enggan atau tidak bersedia melakukan sesuatu. “Unwilling” memiliki arti yang sama."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which word is the opposite of “scarce”?",
+      "choices": [
+        "rare",
+        "abundant",
+        "limited",
+        "insufficient",
+        "unavailable"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “scarce” berarti langka atau jumlahnya sedikit, sedangkan “abundant” berarti melimpah atau tersedia dalam jumlah banyak."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which word is the opposite of “expand”?",
+      "choices": [
+        "increase",
+        "develop",
+        "shrink",
+        "extend",
+        "enlarge"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Antonym.\n\nPenjelasan: “expand” berarti memperluas atau membesar, sedangkan “shrink” berarti menyusut atau mengecil."
+    },
+    {
+      "id": "q9",
+      "prompt": "The school encourages students to act ______ when they see bullying. (RESPONSIBLE)",
+      "choices": [
+        "responsibility",
+        "responsible",
+        "responsibleness",
+        "responsibly",
+        "responsibilities"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Kata tersebut menjelaskan cara siswa bertindak. Kita membutuhkan adverb (kata keterangan), yaitu “responsibly”, bukan adjective atau noun."
+    },
+    {
+      "id": "q10",
+      "prompt": "Her ______ to the project helped the team finish early. (CONTRIBUTE)",
+      "choices": [
+        "contribute",
+        "contributor",
+        "contributing",
+        "contributive",
+        "contribution"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Bagian kosong membutuhkan noun (kata benda) setelah “her”. “Contribution” berarti sumbangan atau kontribusi yang diberikan seseorang."
+    },
+    {
+      "id": "q11",
+      "prompt": "The instructions were ______, so everyone understood what to do. (CLEAR)",
+      "choices": [
+        "clear",
+        "clearly",
+        "clearness",
+        "clarify",
+        "clarity"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “were” dibutuhkan adjective (kata sifat) untuk menjelaskan “the instructions”. Bentuk adjective dari “clear” tetap “clear”."
+    },
+    {
+      "id": "q12",
+      "prompt": "We were impressed by the ______ of the mountain view. (BEAUTIFUL)",
+      "choices": [
+        "beautiful",
+        "beauty",
+        "beautifully",
+        "beautify",
+        "beautification"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Word Formation.\n\nPenjelasan: Setelah “the” dan sebelum “of” dibutuhkan noun. “Beauty” adalah kata benda yang berarti keindahan."
+    },
+    {
+      "id": "q13",
+      "prompt": "Please ______ your shoes before entering the room.",
+      "choices": [
+        "put on",
+        "look after",
+        "take off",
+        "bring up",
+        "turn down"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “take off” berarti melepas. Dalam konteks ini, seseorang diminta melepas sepatu sebelum masuk ruangan."
+    },
+    {
+      "id": "q14",
+      "prompt": "The meeting was ______ because the manager was ill.",
+      "choices": [
+        "taken after",
+        "looked into",
+        "brought up",
+        "put off",
+        "turned on"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “put off” berarti menunda. Rapat ditunda karena manajer sedang sakit."
+    },
+    {
+      "id": "q15",
+      "prompt": "She is looking ______ her younger brother while their parents are away.",
+      "choices": [
+        "at",
+        "for",
+        "into",
+        "up",
+        "after"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Phrasal Verb.\n\nPenjelasan: “look after” berarti menjaga atau merawat seseorang. Kalimat menjelaskan bahwa ia menjaga adiknya saat orang tua mereka pergi."
+    },
+    {
+      "id": "q16",
+      "prompt": "The charity hopes to ______ awareness about plastic waste among local residents.",
+      "choices": [
+        "raise",
+        "do",
+        "make",
+        "build",
+        "take"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Collocation.\n\nPenjelasan: Pasangan kata yang alami dalam bahasa Inggris adalah “raise awareness”, yang berarti meningkatkan kesadaran masyarakat tentang suatu masalah."
+    },
+    {
+      "id": "q17",
+      "prompt": "Although he was nervous, he managed to ______ his point clearly during the discussion.",
+      "choices": [
+        "get over",
+        "get across",
+        "get away",
+        "get along",
+        "get by"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Phrasal Expression.\n\nPenjelasan: “get a point across” berarti menyampaikan gagasan agar orang lain memahaminya. Kalimat menyebutkan bahwa ia berhasil menyampaikan pendapatnya dengan jelas."
+    },
+    {
+      "id": "q18",
+      "prompt": "The new timetable will take effect next Monday. The phrase “take effect” means ....",
+      "choices": [
+        "be discussed",
+        "be cancelled",
+        "become active",
+        "be printed",
+        "be changed"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Expression in Context.\n\nPenjelasan: “take effect” berarti mulai berlaku atau mulai diterapkan. Jadi, jadwal baru mulai digunakan pada hari Senin depan."
+    },
+    {
+      "id": "q19",
+      "prompt": "The school principal gave us useful ______ about choosing subjects for next year.",
+      "choices": [
+        "advices",
+        "advise",
+        "advisable",
+        "advice",
+        "advisor"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: “advice” berarti nasihat dan merupakan uncountable noun (kata benda yang tidak dihitung satu per satu). Karena itu, bentuk “advices” tidak tepat dalam kalimat ini."
+    },
+    {
+      "id": "q20",
+      "prompt": "The medicine had an immediate ______ on his headache.",
+      "choices": [
+        "affect",
+        "effective",
+        "effectively",
+        "affection",
+        "effect"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Commonly Confused Words.\n\nPenjelasan: “effect” adalah noun yang berarti dampak atau pengaruh. Kalimat membutuhkan kata benda setelah “an immediate”. “Affect” biasanya digunakan sebagai verb."
+    }
+  ]
+}

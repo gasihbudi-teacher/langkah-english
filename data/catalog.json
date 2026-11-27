@@ -6222,6 +6222,124 @@
       "aiGenerated": false,
       "unofficial": true,
       "estimatedMinutes": 55
+    },
+    {
+      "id": "grade10-asas-vocabulary-test-1",
+      "title": "Vocabulary Test 1 · Revised (Grade 10)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 10 berisi 20 soal vocabulary pilihan ganda dalam lima bagian, dengan batas waktu 45 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 10,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 10",
+        "semester 1",
+        "Vocabulary",
+        "Word Knowledge",
+        "Meaning in Context",
+        "Synonyms",
+        "Antonyms",
+        "Word Formation",
+        "Phrasal Verbs",
+        "Collocations",
+        "Expressions",
+        "Commonly Confused Words",
+        "Revised"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade10-asas-vocabulary-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 45
+    },
+    {
+      "id": "grade11-asas-vocabulary-test-1",
+      "title": "Vocabulary Test 1 (Grade 11)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 11 berisi 20 soal vocabulary pilihan ganda dalam lima bagian, dengan batas waktu 50 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 11,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 11",
+        "semester 1",
+        "Vocabulary",
+        "Word Knowledge",
+        "Meaning in Context",
+        "Synonyms",
+        "Antonyms",
+        "Word Formation",
+        "Phrasal Verbs",
+        "Collocations",
+        "Expressions",
+        "Commonly Confused Words"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade11-asas-vocabulary-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 50
+    },
+    {
+      "id": "grade12-asas-vocabulary-test-1",
+      "title": "Vocabulary Test 1 (Grade 12)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 12 berisi 20 soal vocabulary pilihan ganda dalam lima bagian, dengan batas waktu 55 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Vocabulary",
+        "Word Knowledge",
+        "Meaning in Context",
+        "Synonyms",
+        "Antonyms",
+        "Word Formation",
+        "Phrasal Verbs",
+        "Collocations",
+        "Expressions",
+        "Commonly Confused Words"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade12-asas-vocabulary-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 55
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
