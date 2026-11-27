@@ -1,0 +1,409 @@
+{
+  "id": "grade12-asas-reading-comprehension-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3900,
+  "passages": [
+    {
+      "id": "coastal-community",
+      "sectionNumber": 1,
+      "textType": "Descriptive Text",
+      "topic": "A Coastal Community Adapts to Change",
+      "title": "A Coastal Community Adapts to Change",
+      "text": "At the eastern edge of Teluk Sari, a fishing community has learned to live with a changing coastline. Over the past decade, high tides have reached the market road more often, and some families have had to protect the lower parts of their homes. The sea is part of daily life here, but residents have also had to think carefully about how to reduce the risks that come with it.\n\nOne important change is the restoration of a mangrove belt along the shallow inlet. Local volunteers and a coastal conservation group planted young mangroves where trees had once been cleared. As the trees grow, their roots help hold the soil and slow some of the water moving towards the shore. Residents understand that mangroves cannot prevent every flood, but they can help stabilise the coastline and provide shelter for small fish and crabs.\n\nThe community has also made practical changes. A raised footpath now connects several homes to the primary school, allowing children to use a safer route when water covers the lowest part of the road. A neighbourhood cooperative records unusually high tides and updates a warning board near the market. These measures do not remove all danger, but they help people prepare and respond more quickly.\n\nVisitors often notice the new mangroves first, but residents point to something less visible: the cooperation behind the project. Fishers share observations about the tide, teachers discuss safety with students, and volunteers maintain the footpath. Teluk Sari's experience shows how environmental restoration and community planning can work together."
+    },
+    {
+      "id": "two-journeys-discovery",
+      "sectionNumber": 2,
+      "textType": "Recount and Narrative Texts",
+      "topic": "Two Journeys of Discovery",
+      "title": "Two Journeys of Discovery",
+      "text": "TEXT A – A Night at the Hill Observatory\nLast month, our science club visited a small observatory on a hill outside the city. We arrived just before sunset, but thick clouds covered the sky. Instead of beginning the observation immediately, the guide invited us into a hall and explained how astronomers use telescopes to study distant objects. She also showed us how to record observations carefully rather than relying only on memory.\n\nAfter an hour, the clouds began to clear. The guide led us to the telescope platform and helped each group take a turn. We first looked at the Moon, then observed Saturn as a small bright shape with a visible ring. Before leaving, we wrote down what we had seen and compared our notes. The sky had delayed our plan, but the visit became a lesson in patience as well as astronomy.\n\nTEXT B – The Map in the Tin Box\nWhile helping her grandmother clean an attic, Mira found a small tin box beneath a stack of old blankets. Inside it was a faded map with a blue line leading from the village square to an old community garden. Her grandmother explained that neighbours had once used the path to carry tools and water to the garden.\n\nMira wanted to see whether the garden still existed, so she asked her grandmother to walk there with her. When they reached the old footbridge, they noticed that several wooden boards were loose. Her grandmother stopped before the bridge and pointed to a paved route that curved around the stream. They followed that safer path and eventually reached the garden, where a large tree still stood beside an empty tool shed. Mira realised that the map had preserved a small part of the village's history."
+    },
+    {
+      "id": "private-cars-city",
+      "sectionNumber": 3,
+      "textType": "Paired Analytical Exposition",
+      "topic": "Should Cities Restrict Private Cars?",
+      "title": "Should Cities Restrict Private Cars?",
+      "text": "TEXT A – Make the City Centre Safer and Less Crowded\nCity centres need streets that work for people who walk, cycle, use public transport, and deliver goods. During busy hours, large numbers of private cars can make buses slower and crossings less comfortable for pedestrians. For this reason, the city should introduce time-limited restrictions on private cars in its busiest central streets, while improving bus services and providing safe routes for cyclists.\n\nA transport office survey of 600 commuters in three central neighbourhoods found that 46 percent of the car trips reported by respondents were shorter than five kilometres. This suggests that some journeys might be made by walking, cycling, or public transport if safe and reliable alternatives are available. The survey does not prove that every short car trip can be replaced, but it gives the city a reason to examine how people travel.\n\nRestrictions should be introduced gradually. The city could begin with a small trial, monitor bus travel times and pedestrian activity, and ask residents and shop owners for feedback. Emergency vehicles, people with specific mobility needs, and essential deliveries would need appropriate arrangements. A carefully tested policy could make central streets more accessible without ignoring the needs of people who depend on cars.\n\nTEXT B – Improve Alternatives Before Limiting Cars\nReducing traffic is a worthwhile goal, but restricting private cars before public transport is ready may create difficulties for people who have few other ways to travel. Some workers begin early or finish late, while others live in neighbourhoods where buses are infrequent. A policy that looks effective in the city centre may be inconvenient for residents who travel from the outskirts.\n\nThe city should first improve bus frequency, extend services at the beginning and end of the day, and make stops safer and easier to reach. It should also consult workers, small businesses, older residents, and people with disabilities. These steps would give more people a realistic alternative to driving.\n\nThis does not mean that private cars should have unlimited access to every street. Once public transport is more dependable, the city can consider targeted restrictions in areas where alternatives are available. The order of changes matters: people are more likely to support a new rule when they can see how it will work in their daily lives."
+    },
+    {
+      "id": "verify-before-sharing",
+      "sectionNumber": 4,
+      "textType": "Procedure Text",
+      "topic": "How to Verify Information Before Sharing It",
+      "title": "How to Verify Information Before Sharing It",
+      "text": "Online information can spread quickly, but a message that is widely shared is not necessarily accurate. Before forwarding a surprising claim, take a few minutes to check it. A careful reader does not need to become an expert in every subject; the aim is to find out where the information came from and whether reliable evidence supports it.\n\nFirst, identify the exact claim. Separate the main statement from emotional language, images, or comments added by the person who shared it. Note the date and the name of the organisation or person said to have produced the information. A screenshot without a date or source is difficult to check, so try to locate the original post, report, or announcement.\n\nNext, examine the source. Check who is responsible for the website or publication and whether the author has relevant knowledge. Look for links to original documents, data, or direct statements. Then compare the claim with at least two independent sources. Independent sources should not simply repeat the same article; they should provide their own reporting or refer to original evidence.\n\nAfter that, consider the context. A statistic may be accurate but misleading if its date, sample, or meaning is left out. Read beyond the headline and check what was actually measured. If the claim concerns a study, look at who took part, how the information was collected, and what the researchers say the results can and cannot show.\n\nFinally, decide whether the evidence is strong enough to share. If important details cannot be confirmed, do not present the claim as fact. You can wait for better information or explain that the claim is still unverified.\n\nPausing before sharing is a simple habit that can reduce the spread of inaccurate information."
+    },
+    {
+      "id": "urban-green-spaces-health",
+      "sectionNumber": 5,
+      "textType": "Paired Academic / Informational Texts",
+      "topic": "Urban Green Spaces and Public Health",
+      "title": "Urban Green Spaces and Public Health",
+      "text": "TEXT A – How Trees Can Reduce Heat Exposure\nTrees can make streets and public spaces more comfortable during hot weather. Their canopies block some direct sunlight from reaching pavements, walls, and people. Because shaded surfaces absorb less solar energy, they may remain cooler than surfaces exposed to full sun. Leaves also release water vapour through a process called transpiration, which can contribute to cooling the surrounding air.\n\nThe benefits depend on the design and location of green spaces. A row of trees along a walking route can provide shade where people need it, while a small park can offer a cooler place to rest. However, planting trees is not an instant solution. Young trees need water and care, and different species grow at different rates. Local planners need to consider available space, maintenance, and the needs of residents.\n\nTEXT B – What a Neighbourhood Study Can Show\nA neighbourhood study compared afternoon surface temperatures on twelve streets with substantial tree cover and twelve streets with little tree cover. Measurements were taken on four hot days during one summer. On those days, the shaded streets generally had lower surface temperatures than the streets with less tree cover.\n\nThe researchers cautioned that the study did not measure every factor that can affect heat. Building materials, traffic, street direction, and the amount of shade from nearby structures may also influence temperature. The study measured surface conditions, not long-term health outcomes for residents. It therefore supports the idea that tree cover can help reduce heat on streets, but it cannot by itself show how much urban trees improve public health.\n\nThe researchers recommended longer studies that include air temperature, people's daily exposure, and health information collected with appropriate safeguards. Such research could help cities decide where new trees and other cooling measures would be most useful."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "questionType": "single",
+      "passageId": "coastal-community",
+      "skill": "Main Idea",
+      "topic": "A Coastal Community Adapts to Change",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "The history of fishing in a coastal village.",
+        "The reasons why families are moving away from Teluk Sari.",
+        "How a coastal community combines environmental restoration with practical preparation for changing conditions.",
+        "The different types of fish and crabs found near mangrove trees.",
+        "Why visitors prefer living near the sea."
+      ],
+      "answer": 2,
+      "evidence": "Teluk Sari's experience shows how environmental restoration and community planning can work together.",
+      "explanation": "Jawaban C benar karena teks membahas dua upaya warga: memulihkan hutan mangrove dan membuat persiapan praktis seperti jalur yang ditinggikan serta papan peringatan. Bukti dari teks: paragraf 2–4 menjelaskan penanaman mangrove, jalur aman, pemantauan pasang, dan kerja sama warga."
+    },
+    {
+      "id": "q2",
+      "questionType": "single",
+      "passageId": "coastal-community",
+      "skill": "Explicit Information",
+      "topic": "A Coastal Community Adapts to Change",
+      "prompt": "Why was the raised footpath built?",
+      "choices": [
+        "To provide visitors with a view of the mangrove forest.",
+        "To give children a safer route to school when the lowest part of the road is covered by water.",
+        "To allow fishing boats to reach the market more easily.",
+        "To prevent all high tides from reaching the village.",
+        "To connect the village directly to the coastal conservation centre."
+      ],
+      "answer": 1,
+      "evidence": "A raised footpath now connects several homes to the primary school, allowing children to use a safer route when water covers the lowest part of the road.",
+      "explanation": "Jawaban B benar karena jalur yang ditinggikan dibuat agar anak-anak tetap memiliki rute yang lebih aman menuju sekolah saat sebagian jalan tertutup air. Bukti dari teks: paragraf 3 menyebutkan bahwa raised footpath menghubungkan beberapa rumah dengan sekolah dasar."
+    },
+    {
+      "id": "q3",
+      "questionType": "single",
+      "passageId": "coastal-community",
+      "skill": "Inference",
+      "topic": "A Coastal Community Adapts to Change",
+      "prompt": "What can be inferred about the community's approach to coastal risks?",
+      "choices": [
+        "Residents believe that planting mangroves will remove every possible danger.",
+        "The community depends only on outside organisations to solve its problems.",
+        "Residents have stopped using the market road permanently.",
+        "The community recognises that no single measure is enough, so it combines several ways to reduce risk.",
+        "The warning board is used mainly to attract visitors."
+      ],
+      "answer": 3,
+      "evidence": "Residents understand that mangroves cannot prevent every flood, but they can help stabilise the coastline and provide shelter for small fish and crabs.",
+      "explanation": "Jawaban D benar. Warga tahu bahwa mangrove tidak dapat mencegah semua banjir. Karena itu, mereka juga membuat jalur aman, mencatat pasang tinggi, dan bekerja sama. Bukti dari teks: paragraf 2 menyatakan mangrove tidak mencegah setiap banjir, sedangkan paragraf 3 menjelaskan langkah tambahan."
+    },
+    {
+      "id": "q4",
+      "questionType": "single",
+      "passageId": "coastal-community",
+      "skill": "Vocabulary in Context",
+      "topic": "A Coastal Community Adapts to Change",
+      "prompt": "The word “stabilise” in paragraph 2 is closest in meaning to ....",
+      "choices": [
+        "make something more steady or less likely to change.",
+        "make something disappear completely.",
+        "move something to a different place.",
+        "make something grow more quickly.",
+        "measure something with greater accuracy."
+      ],
+      "answer": 0,
+      "evidence": "As the trees grow, their roots help hold the soil and slow some of the water moving towards the shore.",
+      "explanation": "Jawaban A benar. “Stabilise” berarti membuat sesuatu lebih stabil atau tidak mudah berubah. Akar mangrove membantu menahan tanah agar garis pantai tidak mudah terkikis. Bukti dari teks: paragraf 2 menjelaskan bahwa akar mangrove membantu menahan tanah di sepanjang pantai."
+    },
+    {
+      "id": "q5",
+      "questionType": "single",
+      "passageId": "two-journeys-discovery",
+      "skill": "Reference and Cohesion",
+      "topic": "Two Journeys of Discovery",
+      "prompt": "In Text B, the word “it” in the sentence “Inside it was a faded map” refers to ....",
+      "choices": [
+        "the stack of old blankets.",
+        "the village square.",
+        "the old community garden.",
+        "the paved route.",
+        "the small tin box."
+      ],
+      "answer": 4,
+      "evidence": "While helping her grandmother clean an attic, Mira found a small tin box beneath a stack of old blankets. Inside it was a faded map with a blue line leading from the village square to an old community garden.",
+      "explanation": "Jawaban E benar karena kata “it” merujuk pada benda yang baru saja ditemukan Mira, yaitu kotak kecil dari logam. Peta itu berada di dalam kotak tersebut. Bukti dari teks: kalimat sebelumnya menyebut Mira menemukan “a small tin box”; kalimat berikutnya menjelaskan isi kotak itu."
+    },
+    {
+      "id": "q6",
+      "questionType": "single",
+      "passageId": "two-journeys-discovery",
+      "skill": "Text Purpose and Structure",
+      "topic": "Two Journeys of Discovery",
+      "prompt": "Which statement best describes the organisation of Text A?",
+      "choices": [
+        "It presents a scientific argument, lists evidence, and challenges an opposing view.",
+        "It introduces a school visit, describes the activities in time order, and ends with the writer's reflection.",
+        "It gives instructions for using a telescope and warns readers about possible mistakes.",
+        "It compares two observatories and explains why one is better.",
+        "It describes the appearance of a hill without telling what happened there."
+      ],
+      "answer": 1,
+      "evidence": "Before leaving, we wrote down what we had seen and compared our notes. The sky had delayed our plan, but the visit became a lesson in patience as well as astronomy.",
+      "explanation": "Jawaban B benar. Text A dimulai dengan pengenalan kunjungan, lalu menceritakan kegiatan sesuai urutan waktu, dan diakhiri dengan pelajaran yang didapat penulis. Bukti dari teks: paragraf pertama memperkenalkan kunjungan; paragraf kedua menceritakan kegiatan setelah awan mulai terbuka dan refleksi penulis."
+    },
+    {
+      "id": "q7",
+      "questionType": "single",
+      "passageId": "two-journeys-discovery",
+      "skill": "Sequence and Logical Relationships",
+      "topic": "Two Journeys of Discovery",
+      "prompt": "According to Text A, which sequence shows the order of events during the visit?",
+      "choices": [
+        "The students observed Saturn, arrived at the observatory, and listened to the guide.",
+        "The students wrote their notes, the clouds covered the sky, and the guide explained telescopes.",
+        "The students arrived, listened to the guide while the sky was cloudy, and observed the Moon and Saturn after the clouds cleared.",
+        "The students left the observatory, observed the Moon, and then arrived on the hill.",
+        "The students observed the Moon, listened to the guide, and then waited for sunset."
+      ],
+      "answer": 2,
+      "evidence": "Last month, our science club visited a small observatory on a hill outside the city. We arrived just before sunset, but thick clouds covered the sky. Instead of beginning the observation immediately, the guide invited us into a hall and explained how astronomers use telescopes to study distant objects. She also showed us how to record observations carefully rather than relying only on memory.\n\nAfter an hour, the clouds began to clear. The guide led us to the telescope platform and helped each group take a turn. We first looked at the Moon, then observed Saturn as a small bright shape with a visible ring.",
+      "explanation": "Jawaban C benar karena urutannya sesuai teks: siswa tiba saat langit berawan, mendengarkan penjelasan pemandu, lalu mengamati Bulan dan Saturnus setelah awan menipis. Bukti dari teks: Text A paragraf 1 menjelaskan kedatangan dan penjelasan pemandu; paragraf 2 menjelaskan pengamatan setelah langit cerah."
+    },
+    {
+      "id": "q8",
+      "questionType": "single",
+      "passageId": "two-journeys-discovery",
+      "skill": "Cause and Effect",
+      "topic": "Two Journeys of Discovery",
+      "prompt": "Why did Mira and her grandmother choose the paved route instead of crossing the old footbridge?",
+      "choices": [
+        "The map showed that the garden had moved to another village.",
+        "Mira had forgotten how to read the map.",
+        "The stream had completely dried up.",
+        "Several boards on the bridge were loose, making it unsafe to cross.",
+        "The grandmother wanted to return to the village square."
+      ],
+      "answer": 3,
+      "evidence": "When they reached the old footbridge, they noticed that several wooden boards were loose. Her grandmother stopped before the bridge and pointed to a paved route that curved around the stream.",
+      "explanation": "Jawaban D benar karena beberapa papan kayu pada jembatan sudah longgar. Kondisi itu membuat mereka memilih jalur beraspal yang lebih aman. Bukti dari teks: Text B paragraf 2 menyebutkan papan jembatan yang longgar sebelum nenek menunjukkan jalur beraspal."
+    },
+    {
+      "id": "q9",
+      "questionType": "single",
+      "passageId": "private-cars-city",
+      "skill": "Author's Position and Evidence Evaluation",
+      "topic": "Should Cities Restrict Private Cars?",
+      "prompt": "Which evaluation of the survey evidence in Text A is the fairest?",
+      "choices": [
+        "The survey offers useful information about short car trips in three neighbourhoods, but it does not prove that restrictions will reduce traffic across the whole city.",
+        "The survey proves that every car journey in the city is unnecessary.",
+        "The survey is useless because it includes more than one neighbourhood.",
+        "The survey proves that all commuters can safely walk or cycle to work.",
+        "The survey shows that public transport is already reliable in every part of the city."
+      ],
+      "answer": 0,
+      "evidence": "A transport office survey of 600 commuters in three central neighbourhoods found that 46 percent of the car trips reported by respondents were shorter than five kilometres. This suggests that some journeys might be made by walking, cycling, or public transport if safe and reliable alternatives are available. The survey does not prove that every short car trip can be replaced, but it gives the city a reason to examine how people travel.",
+      "explanation": "Jawaban A benar karena data survei memberi gambaran tentang perjalanan pendek di tiga lingkungan, tetapi belum cukup untuk mewakili seluruh kota atau membuktikan dampak kebijakan. Bukti dari teks: Text A menyebut survei dilakukan terhadap 600 komuter di tiga lingkungan dan mengakui bahwa data itu tidak membuktikan semua perjalanan pendek dapat diganti."
+    },
+    {
+      "id": "q10",
+      "questionType": "single",
+      "passageId": "private-cars-city",
+      "skill": "Cross-Text Comparison and Synthesis",
+      "topic": "Should Cities Restrict Private Cars?",
+      "prompt": "What do the writers of Text A and Text B have in common?",
+      "choices": [
+        "Both believe that private cars should be banned from every city street immediately.",
+        "Both argue that public transport should be removed from central areas.",
+        "Both believe that only cyclists should be consulted about transport policies.",
+        "Both reject the idea of changing how people travel in city centres.",
+        "Both support reducing traffic and recognise that practical alternatives to private cars are important."
+      ],
+      "answer": 4,
+      "evidence": "For this reason, the city should introduce time-limited restrictions on private cars in its busiest central streets, while improving bus services and providing safe routes for cyclists.",
+      "explanation": "Jawaban E benar karena kedua penulis ingin mengurangi masalah lalu lintas dan sama-sama menekankan pentingnya pilihan transportasi lain yang dapat digunakan warga. Bukti dari teks: Text A mengusulkan pembatasan disertai perbaikan bus dan jalur sepeda; Text B meminta transportasi umum diperbaiki sebelum pembatasan diterapkan."
+    },
+    {
+      "id": "q11",
+      "questionType": "single",
+      "passageId": "private-cars-city",
+      "skill": "Main Idea",
+      "topic": "Should Cities Restrict Private Cars?",
+      "prompt": "What is the main idea of Text B?",
+      "choices": [
+        "Private cars should be the only form of transport in the city.",
+        "Cities should improve public transport and consult affected groups before introducing targeted car restrictions.",
+        "Traffic problems can be solved only by building more roads.",
+        "Workers who travel early should change their working hours.",
+        "Public transport is unnecessary in neighbourhoods outside the city centre."
+      ],
+      "answer": 1,
+      "evidence": "The city should first improve bus frequency, extend services at the beginning and end of the day, and make stops safer and easier to reach.",
+      "explanation": "Jawaban B benar karena Text B menekankan bahwa layanan transportasi umum perlu diperbaiki dan warga yang terdampak perlu diajak berdiskusi sebelum pembatasan mobil dilakukan. Bukti dari teks: paragraf 2 Text B menyebut perbaikan frekuensi bus, jam layanan, akses halte, dan konsultasi dengan warga."
+    },
+    {
+      "id": "q12",
+      "questionType": "single",
+      "passageId": "private-cars-city",
+      "skill": "Explicit Information",
+      "topic": "Should Cities Restrict Private Cars?",
+      "prompt": "According to Text A, which groups should receive special arrangements if car restrictions are introduced?",
+      "choices": [
+        "Tourists, university students, and sports teams.",
+        "Shop owners, delivery companies, and cyclists only.",
+        "People who live outside the city centre and all office managers.",
+        "Emergency vehicles, people with specific mobility needs, and essential deliveries.",
+        "All private car owners without any conditions."
+      ],
+      "answer": 3,
+      "evidence": "Emergency vehicles, people with specific mobility needs, and essential deliveries would need appropriate arrangements.",
+      "explanation": "Jawaban D benar karena Text A secara langsung menyebut tiga kelompok yang perlu mendapat pengaturan khusus. Bukti dari teks: Text A paragraf 3 menyebut emergency vehicles, people with specific mobility needs, and essential deliveries."
+    },
+    {
+      "id": "q13",
+      "questionType": "single",
+      "passageId": "verify-before-sharing",
+      "skill": "Inference",
+      "topic": "How to Verify Information Before Sharing It",
+      "prompt": "A student receives a screenshot claiming that a new school rule has been announced. The screenshot shows no date, author, or link. Based on the passage, what should the student do first?",
+      "choices": [
+        "Forward it quickly so classmates can prepare.",
+        "Assume it is true because it looks like an official notice.",
+        "Try to locate the original announcement and identify its source and date.",
+        "Ask friends to share the screenshot on other platforms.",
+        "Rewrite the claim in simpler words and post it again."
+      ],
+      "answer": 2,
+      "evidence": "A screenshot without a date or source is difficult to check, so try to locate the original post, report, or announcement.",
+      "explanation": "Jawaban C benar. Karena tangkapan layar tidak menunjukkan tanggal atau sumber, siswa perlu mencari pengumuman asli dan memeriksa siapa yang menerbitkannya. Bukti dari teks: paragraf 2 menyarankan mencari unggahan, laporan, atau pengumuman asli jika tangkapan layar tidak memiliki tanggal atau sumber."
+    },
+    {
+      "id": "q14",
+      "questionType": "single",
+      "passageId": "verify-before-sharing",
+      "skill": "Vocabulary in Context",
+      "topic": "How to Verify Information Before Sharing It",
+      "prompt": "In paragraph 3, the word “independent” is closest in meaning to ....",
+      "choices": [
+        "separate and not simply copying one another.",
+        "written in a difficult academic style.",
+        "published at exactly the same time.",
+        "supported only by personal opinions.",
+        "connected to the same social media account."
+      ],
+      "answer": 0,
+      "evidence": "Independent sources should not simply repeat the same article; they should provide their own reporting or refer to original evidence.",
+      "explanation": "Jawaban A benar. Dalam konteks ini, sumber yang “independent” berarti sumber yang tidak hanya menyalin artikel yang sama, tetapi memberikan laporan atau bukti sendiri. Bukti dari teks: paragraf 3 menjelaskan bahwa sumber independen tidak sekadar mengulang artikel yang sama."
+    },
+    {
+      "id": "q15",
+      "questionType": "single",
+      "passageId": "verify-before-sharing",
+      "skill": "Reference and Cohesion",
+      "topic": "How to Verify Information Before Sharing It",
+      "prompt": "In paragraph 4, the phrase “what was actually measured” refers to ....",
+      "choices": [
+        "the number of people who shared the headline.",
+        "the writer's opinion about the website.",
+        "the emotional language used in a social media post.",
+        "the date on which a reader opened the article.",
+        "the specific information or result that a study or statistic examined."
+      ],
+      "answer": 4,
+      "evidence": "A statistic may be accurate but misleading if its date, sample, or meaning is left out. Read beyond the headline and check what was actually measured.",
+      "explanation": "Jawaban E benar karena frasa tersebut merujuk pada hal yang benar-benar diteliti atau dihitung dalam sebuah studi atau statistik. Pembaca perlu memeriksa konteksnya, bukan hanya judul. Bukti dari teks: paragraf 4 membahas tanggal, sampel, makna statistik, dan hal yang sebenarnya diukur."
+    },
+    {
+      "id": "q16",
+      "questionType": "single",
+      "passageId": "verify-before-sharing",
+      "skill": "Text Purpose and Structure",
+      "topic": "How to Verify Information Before Sharing It",
+      "prompt": "What is the main purpose of the passage?",
+      "choices": [
+        "To persuade readers to stop using the internet.",
+        "To give step-by-step guidance for checking information before sharing it.",
+        "To describe the history of online news websites.",
+        "To compare the popularity of different social media platforms.",
+        "To explain how to write a research report."
+      ],
+      "answer": 1,
+      "evidence": "First, identify the exact claim.",
+      "explanation": "Jawaban B benar karena teks memberikan urutan langkah untuk memeriksa klaim: mengenali klaim, memeriksa sumber, membandingkan bukti, memahami konteks, lalu memutuskan apakah informasi layak dibagikan. Bukti dari teks: paragraf 2–5 menggunakan urutan langkah, mulai dari “First” hingga “Finally.”"
+    },
+    {
+      "id": "q17",
+      "questionType": "single",
+      "passageId": "urban-green-spaces-health",
+      "skill": "Sequence and Logical Relationships",
+      "topic": "Urban Green Spaces and Public Health",
+      "prompt": "According to Text A, which sequence best explains one way trees can help keep streets cooler?",
+      "choices": [
+        "Leaves absorb all rainwater, pavements become wet, and the air temperature rises.",
+        "Trees block all wind, streets become darker, and buildings produce less heat.",
+        "Pavements release water vapour, tree roots absorb sunlight, and the shade disappears.",
+        "Tree canopies block some direct sunlight, shaded surfaces absorb less solar energy, and those surfaces may remain cooler.",
+        "Trees are planted after a heatwave, and the temperature immediately becomes the same everywhere."
+      ],
+      "answer": 3,
+      "evidence": "Because shaded surfaces absorb less solar energy, they may remain cooler than surfaces exposed to full sun.",
+      "explanation": "Jawaban D benar karena urutannya sesuai penjelasan teks: tajuk pohon menghalangi sebagian sinar matahari, permukaan menerima lebih sedikit energi matahari, lalu permukaan dapat menjadi lebih sejuk. Bukti dari teks: Text A paragraf 1 menjelaskan hubungan antara tajuk pohon, sinar matahari, penyerapan energi, dan suhu permukaan."
+    },
+    {
+      "id": "q18",
+      "questionType": "single",
+      "passageId": "urban-green-spaces-health",
+      "skill": "Cause and Effect",
+      "topic": "Urban Green Spaces and Public Health",
+      "prompt": "According to Text B, why did the researchers avoid claiming that tree cover alone improves residents' long-term health?",
+      "choices": [
+        "The study included no streets with trees.",
+        "The researchers did not take any temperature measurements.",
+        "The study measured street surface temperatures, not long-term health outcomes, and other factors could also affect heat.",
+        "The study was conducted in several different countries over many years.",
+        "The researchers found that shaded streets were always hotter."
+      ],
+      "answer": 2,
+      "evidence": "The study measured surface conditions, not long-term health outcomes for residents. It therefore supports the idea that tree cover can help reduce heat on streets, but it cannot by itself show how much urban trees improve public health.",
+      "explanation": "Jawaban C benar karena penelitian hanya mengukur suhu permukaan jalan pada beberapa hari. Penelitian itu tidak mengukur hasil kesehatan jangka panjang, dan ada faktor lain yang memengaruhi suhu. Bukti dari teks: Text B paragraf 2 menjelaskan keterbatasan penelitian dan menyatakan bahwa hasil kesehatan jangka panjang tidak diukur."
+    },
+    {
+      "id": "q19",
+      "questionType": "single",
+      "passageId": "urban-green-spaces-health",
+      "skill": "Author's Position and Evidence Evaluation",
+      "topic": "Urban Green Spaces and Public Health",
+      "prompt": "Which statement best evaluates the evidence presented in Text B?",
+      "choices": [
+        "The measurements support a link between tree cover and cooler street surfaces on the days studied, but they are not enough to prove long-term health effects.",
+        "The study proves that trees prevent every heat-related illness.",
+        "The study shows that building materials have no effect on street temperature.",
+        "The measurements are meaningless because they were taken during summer.",
+        "The study proves that every neighbourhood needs exactly the same number of trees."
+      ],
+      "answer": 0,
+      "evidence": "On those days, the shaded streets generally had lower surface temperatures than the streets with less tree cover.",
+      "explanation": "Jawaban A benar karena data mendukung hubungan antara banyaknya pohon dan suhu permukaan yang lebih rendah pada hari pengukuran. Namun, data tersebut belum membuktikan dampak kesehatan jangka panjang. Bukti dari teks: Text B paragraf 1 melaporkan suhu permukaan yang lebih rendah di jalan yang teduh; paragraf 2 menjelaskan bahwa hasil kesehatan tidak diukur."
+    },
+    {
+      "id": "q20",
+      "questionType": "single",
+      "passageId": "urban-green-spaces-health",
+      "skill": "Cross-Text Comparison and Synthesis",
+      "topic": "Urban Green Spaces and Public Health",
+      "prompt": "Which statement best combines the main points of Text A and Text B?",
+      "choices": [
+        "Trees are useful only in large parks and cannot affect ordinary streets.",
+        "Neighbourhood studies are unnecessary because the benefits of trees are already fully known.",
+        "Cities should plant trees without considering maintenance or local conditions.",
+        "Tree planting has no value unless it immediately reduces every health risk.",
+        "Trees can help make streets cooler, but careful local planning and further research are needed to understand and maximise their wider benefits."
+      ],
+      "answer": 4,
+      "evidence": "Local planners need to consider available space, maintenance, and the needs of residents.",
+      "explanation": "Jawaban E benar karena Text A menjelaskan cara pohon membantu mendinginkan lingkungan, sedangkan Text B menunjukkan bukti yang mendukung manfaat tersebut sekaligus keterbatasan penelitian. Bukti dari teks: Text A menekankan manfaat dan kebutuhan perawatan; Text B menyarankan penelitian lebih lanjut sebelum menarik kesimpulan tentang dampak kesehatan."
+    }
+  ]
+}

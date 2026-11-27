@@ -64,7 +64,22 @@
     "Author’s Tone and Attitude",
     "Reading Between the Lines",
     "Text Organization",
-    "Critical Reading"
+    "Critical Reading",
+    "Claim Identification",
+    "Supporting Evidence",
+    "Inference",
+    "Author's Perspective and Tone",
+    "Fact vs. Opinion",
+    "Argument Structure and Logical Relationships",
+    "Counterargument and Rebuttal",
+    "Conclusion and Best-Supported Judgment",
+    "Explicit Information",
+    "Reference and Cohesion",
+    "Text Purpose and Structure",
+    "Sequence and Logical Relationships",
+    "Cause and Effect",
+    "Author's Position and Evidence Evaluation",
+    "Cross-Text Comparison and Synthesis"
   ],
   "schoolTopics": {
     "Grade 9": [
@@ -5939,6 +5954,110 @@
       "kind": "test",
       "examFormat": "topic",
       "order": 196
+    },
+    {
+      "id": "grade11-asas-reading-comprehension-test-1",
+      "title": "Reading Comprehension Test 1 (Grade 11)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 11 berisi 20 soal pemahaman bacaan dengan fokus critical reading dan analisis argumen, lima bagian bacaan, batas waktu 60 menit, dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 11,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Claim Identification",
+        "Supporting Evidence",
+        "Vocabulary in Context",
+        "Inference",
+        "Author's Perspective and Tone",
+        "Fact vs. Opinion",
+        "Argument Structure and Logical Relationships",
+        "Counterargument and Rebuttal",
+        "Conclusion and Best-Supported Judgment"
+      ],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 11",
+        "semester 1",
+        "Reading Comprehension",
+        "critical reading dan analisis argumen",
+        "Analytical Exposition",
+        "Discussion Text",
+        "Opinion Article",
+        "Informational Text with Data",
+        "Paired Opinion Texts",
+        "Should Schools Limit Smartphone Use?",
+        "Should Homework Be Reduced?",
+        "The Hidden Cost of Fast Fashion",
+        "How Screen Time Relates to Sleep",
+        "Renewable Energy in Our Communities"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade11-asas-reading-comprehension-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "grade12-asas-reading-comprehension-test-1",
+      "title": "Reading Comprehension Test 1 (Grade 12)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 12 berisi 20 soal pemahaman bacaan dengan fokus academic reading, evaluasi bukti, dan sintesis lintas teks, lima bagian bacaan, batas waktu 65 menit, dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Explicit Information",
+        "Inference",
+        "Vocabulary in Context",
+        "Reference and Cohesion",
+        "Text Purpose and Structure",
+        "Sequence and Logical Relationships",
+        "Cause and Effect",
+        "Author's Position and Evidence Evaluation",
+        "Cross-Text Comparison and Synthesis"
+      ],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Reading Comprehension",
+        "academic reading, evaluasi bukti, dan sintesis lintas teks",
+        "Descriptive Text",
+        "Recount and Narrative Texts",
+        "Paired Analytical Exposition",
+        "Procedure Text",
+        "Paired Academic / Informational Texts",
+        "A Coastal Community Adapts to Change",
+        "Two Journeys of Discovery",
+        "Should Cities Restrict Private Cars?",
+        "How to Verify Information Before Sharing It",
+        "Urban Green Spaces and Public Health"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade12-asas-reading-comprehension-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 65
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."
