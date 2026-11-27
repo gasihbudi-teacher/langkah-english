@@ -148,7 +148,7 @@ try{
   }else rows=`<ul class="feedback-rows">${q.statements.map((s,j)=>`<li>${esc(s.text)}<br><strong>${t('correctAnswer')}:</strong> ${esc(s.answerCategory)} · <strong>${t('yourChoice')}:</strong> ${esc(a[j])}${s.explanation&&language()==='en'?`<br>${esc(s.explanation)}`:''}</li>`).join('')}</ul>`;
   return `<div class="inline-feedback" data-correct="${isCorrect(q,a)}"><strong>${isCorrect(q,a)?t('correct'):t('notQuite')}</strong>${rows}<h4>${t('explanationHeading')}</h4><p>${esc(q.explanation)}</p>${q.evidence?`<blockquote>${t('textEvidence')}: ${esc(q.evidence)}</blockquote>`:''}</div>`;
  }
- function renderQuestion(){const q=d.questions[index],a=answers[index],passage=d.passages?.find(p=>p.id===q.passageId),complete=isAnswered(q,a);
+ function renderQuestion(){const q=d.questions[index],a=answers[index],passage=d.passages?.find(p=>p.id===q.passageId),activeSection=d.sections?.find(s=>index+1>=s.questionStart&&index+1<=s.questionEnd),complete=isAnswered(q,a);
   document.querySelector('#position').textContent=`${t('question')} ${index+1} / ${count} · ${answeredCount()} ${t('answered')}`;document.querySelector('#progress').value=answeredCount();
   const source=document.querySelector('#passage');
   source.hidden=!passage;
@@ -160,6 +160,7 @@ try{
    source.innerHTML=`<a class="passage-jump" href="#question-title">${t('goQuestion')} ↓</a><details><summary><span class="section-kicker"${sectionLabel?' lang="en"':''}>${sectionLabel?esc(sectionLabel):t('readingPassage')}</span><strong lang="en">${esc(passage.title)}</strong></summary><p lang="en">${esc(passage.text)}</p></details>`;
   }
   document.querySelector('#question').innerHTML=`${passage?`<a class="passage-jump" href="#passage">↑ ${t('goPassage')}</a>`:''}
+    ${activeSection?`<div class="quiz-section-context"><span class="section-kicker">Section ${activeSection.number}</span><h3>${esc(activeSection.title)}</h3><p>${esc(activeSection.instruction)}</p></div>`:''}
     <h2 id="question-title" lang="en" tabindex="-1">${index+1}. ${passage?.sectionNumber && passage?.textType && q.skill ? `[${esc(q.skill)}] ` : ''}${esc(q.prompt)}</h2>${mode==='practice'?translationDetails(q):''}${inputHtml(q,a)}
     <button id="clear-response" class="button button-outline clear-answer" type="button" ${a===null?'disabled':''}>${t('clearAnswer')}</button>
     ${mode==='practice'&&complete?`<button id="explain" class="button button-outline" type="button">${t('checkAnswer')}</button><div id="feedback" role="status" tabindex="-1">${revealed.has(index)?feedbackHtml(q,a):''}</div>`:''}`;
@@ -180,7 +181,7 @@ try{
   document.querySelector('#numbers').innerHTML=d.questions.map((item,i)=>`<button type="button" class="${isAnswered(item,answers[i])?'answered ':''}${flags[i]?'flagged':''}" data-index="${i}" ${i===index?'aria-current="true"':''} aria-label="${t('question')} ${i+1}${isAnswered(item,answers[i])?', '+t('answered'):''}${flags[i]?', '+t('flagged'):''}"><span>${i+1}</span><span class="nav-symbols" aria-hidden="true">${isAnswered(item,answers[i])?icon('check'):''}${flags[i]?icon('flag'):''}</span></button>`).join('');
   document.querySelectorAll('[data-index]').forEach(b=>b.onclick=()=>goToQuestion(Number(b.dataset.index)));save();
  }
- function finish(){if(finished)return;finished=true;clearInterval(tick);const elapsed=Math.max(0,Math.floor((Math.min(deadline||Date.now(),Date.now())-start)/1000));const a={attemptId:globalThis.crypto?.randomUUID?.()||String(Date.now()),resourceId:m.id,pathway:m.placements?.[0]?.pathway||'grammar',title:m.title,at:Date.now(),mode,elapsed,answers:structuredClone(answers),flags:[...flags],questions:d.questions,passages:d.passages||[],result:score(d.questions,answers)};progress.save(a);try{localStorage.removeItem(draftKey);sessionStorage.setItem('langkah.last',JSON.stringify(a))}catch{}location.href='results.html?attempt='+encodeURIComponent(a.attemptId)}
+ function finish(){if(finished)return;finished=true;clearInterval(tick);const elapsed=Math.max(0,Math.floor((Math.min(deadline||Date.now(),Date.now())-start)/1000));const a={attemptId:globalThis.crypto?.randomUUID?.()||String(Date.now()),resourceId:m.id,pathway:m.placements?.[0]?.pathway||'grammar',title:m.title,at:Date.now(),mode,elapsed,answers:structuredClone(answers),flags:[...flags],questions:d.questions,passages:d.passages||[],sections:d.sections||[],result:score(d.questions,answers)};progress.save(a);try{localStorage.removeItem(draftKey);sessionStorage.setItem('langkah.last',JSON.stringify(a))}catch{}location.href='results.html?attempt='+encodeURIComponent(a.attemptId)}
  renderIntro();
  const glossaryPath = `data/glossaries/${m.id}.json`;
  if(m.glossaryFile === glossaryPath){

@@ -1,0 +1,370 @@
+{
+  "id": "grade11-asas-grammar-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3000,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "VERB FORMS, TENSES, AND SUBJECT–VERB AGREEMENT",
+      "instruction": "Choose the form that makes each sentence grammatically correct.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "CONDITIONAL SENTENCES AND WISHES",
+      "instruction": "Pay attention to the relationship between the condition and its possible result.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "REPORTED SPEECH",
+      "instruction": "Choose the correct way to report each statement, question, or request.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "PASSIVE VOICE AND CAUSATIVE FORMS",
+      "instruction": "Focus on who receives the action and how the verb form changes.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "CLAUSES, CONNECTORS, AND SENTENCE STRUCTURE",
+      "instruction": "Choose the option that connects ideas or completes the sentence correctly.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "By the time the guests arrived, the committee ___ all the chairs in the hall.",
+      "choices": [
+        "had arranged",
+        "has arranged",
+        "was arranging",
+        "arranges",
+        "would arrange"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Past Perfect.\n\nPenjelasan: Jawaban A benar karena kegiatan menata kursi sudah selesai sebelum tamu tiba. Untuk kegiatan yang terjadi lebih dahulu daripada kejadian lain di masa lalu, gunakan had + V3. Kata “arrived” menjadi penanda kejadian yang terjadi kemudian.",
+      "translationId": {
+        "prompt": "Saat para tamu tiba, panitia sudah ___ semua kursi di aula."
+      }
+    },
+    {
+      "id": "q2",
+      "prompt": "Nadia has been studying since 6 p.m., and she ___ a break yet.",
+      "choices": [
+        "didn't take",
+        "hasn't taken",
+        "doesn't take",
+        "wasn't taking",
+        "hadn't taken"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Present Perfect.\n\nPenjelasan: Jawaban B benar karena kata “yet” dalam kalimat negatif biasanya digunakan dengan Present Perfect untuk menyatakan sesuatu yang belum terjadi sampai sekarang. Polanya adalah has/have + not + V3.",
+      "translationId": {
+        "prompt": "Nadia sudah belajar sejak pukul 6 sore, dan ia belum ___ istirahat."
+      }
+    },
+    {
+      "id": "q3",
+      "prompt": "The coach encouraged the players ___ focused during the final minutes.",
+      "choices": [
+        "staying",
+        "stay",
+        "to stay",
+        "stayed",
+        "to staying"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Verb Pattern (encourage + object + to-infinitive).\n\nPenjelasan: Jawaban C benar karena setelah “encourage” dan objek (the players), kata kerja berikutnya menggunakan to + verb dasar. Polanya: encourage someone to do something.",
+      "translationId": {
+        "prompt": "Pelatih mendorong para pemain ___ tetap fokus selama menit-menit terakhir."
+      }
+    },
+    {
+      "id": "q4",
+      "prompt": "Neither the teacher nor the students ___ aware of the schedule change.",
+      "choices": [
+        "was",
+        "is",
+        "has been",
+        "were",
+        "be"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Subject–Verb Agreement with “neither … nor”.\n\nPenjelasan: Jawaban D benar karena pada pola “neither … nor”, kata kerja biasanya mengikuti subjek yang paling dekat. Subjek terdekat adalah “the students” (jamak), sehingga digunakan “were”.",
+      "translationId": {
+        "prompt": "Baik guru maupun para siswa sama-sama tidak mengetahui perubahan jadwal."
+      }
+    },
+    {
+      "id": "q5",
+      "prompt": "If the weather improves tomorrow, we ___ the outdoor rehearsal.",
+      "choices": [
+        "continued",
+        "would continue",
+        "had continued",
+        "continue",
+        "will continue"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: First Conditional.\n\nPenjelasan: Jawaban E benar karena kalimat membicarakan kemungkinan nyata di masa depan. Pola umumnya adalah If + Simple Present, will + verb dasar. Jadi, “improves” dipasangkan dengan “will continue”.",
+      "translationId": {
+        "prompt": "Jika cuaca membaik besok, kami ___ latihan di luar ruangan."
+      }
+    },
+    {
+      "id": "q6",
+      "prompt": "If I ___ more confident, I would volunteer to present first.",
+      "choices": [
+        "were",
+        "am",
+        "had been",
+        "will be",
+        "would be"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Second Conditional.\n\nPenjelasan: Jawaban A benar karena kalimat membayangkan keadaan yang tidak sesuai dengan kondisi sekarang. Polanya adalah If + Simple Past, would + verb dasar. Dalam bentuk pengandaian, “were” dapat digunakan dengan semua subjek.",
+      "translationId": {
+        "prompt": "Jika saya ___ lebih percaya diri, saya akan bersedia menjadi orang pertama yang presentasi."
+      }
+    },
+    {
+      "id": "q7",
+      "prompt": "If the team had checked the equipment earlier, it ___ the delay.",
+      "choices": [
+        "avoids",
+        "could have avoided",
+        "will avoid",
+        "would avoid",
+        "had avoided"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Third Conditional.\n\nPenjelasan: Jawaban B benar karena kalimat membahas keadaan masa lalu yang tidak terjadi dan hasil yang mungkin berbeda. Polanya adalah If + Past Perfect, would/could have + V3. Bentuk “could have avoided” sesuai dengan pola tersebut.",
+      "translationId": {
+        "prompt": "Jika tim itu telah memeriksa peralatan lebih awal, mereka ___ keterlambatan tersebut."
+      }
+    },
+    {
+      "id": "q8",
+      "prompt": "Dina wishes she ___ the instructions more carefully before submitting the form.",
+      "choices": [
+        "reads",
+        "would read",
+        "had read",
+        "has read",
+        "will read"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Wish about the Past.\n\nPenjelasan: Jawaban C benar karena Dina menyesali sesuatu yang sudah terjadi, yaitu tidak membaca instruksi dengan teliti. Untuk menyatakan penyesalan tentang masa lalu, gunakan wish + Past Perfect (had + V3).",
+      "translationId": {
+        "prompt": "Dina berharap ia ___ instruksi dengan lebih teliti sebelum mengirim formulir itu."
+      }
+    },
+    {
+      "id": "q9",
+      "prompt": "“I am preparing for the debate,” Rina said. Which sentence reports Rina’s statement correctly?",
+      "choices": [
+        "Rina said that I am preparing for the debate.",
+        "Rina says that she had prepare for the debate.",
+        "Rina said that she is prepare for the debate.",
+        "Rina said that she was preparing for the debate.",
+        "Rina told that she was preparing for the debate."
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Reported Statements and Backshift.\n\nPenjelasan: Jawaban D benar karena “I” berubah menjadi “she” sesuai orang yang berbicara. Karena kata pelapor “said” berbentuk lampau, “am preparing” biasanya berubah menjadi “was preparing”. “Said” juga dapat langsung diikuti “that” dan isi pernyataan.",
+      "translationId": {
+        "prompt": "“I am preparing for the debate,” kata Rina. Kalimat mana yang melaporkan pernyataan Rina dengan benar?"
+      }
+    },
+    {
+      "id": "q10",
+      "prompt": "“Where did you put the attendance sheet?” the teacher asked me. Which is the correct reported question?",
+      "choices": [
+        "The teacher asked me where did I put the attendance sheet.",
+        "The teacher asked me where have I put the attendance sheet.",
+        "The teacher asked me where I putted the attendance sheet.",
+        "The teacher asked me where had I put the attendance sheet.",
+        "The teacher asked me where I had put the attendance sheet."
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Reported Wh-Questions.\n\nPenjelasan: Jawaban E benar karena pertanyaan tidak langsung menggunakan susunan kalimat pernyataan (subjek sebelum kata kerja), bukan susunan pertanyaan. “Did put” juga berubah menjadi “had put” setelah kata pelapor berbentuk lampau.",
+      "translationId": {
+        "prompt": "Guru bertanya kepada saya, “Di mana kamu meletakkan lembar kehadiran?” Manakah bentuk reported question yang benar?"
+      }
+    },
+    {
+      "id": "q11",
+      "prompt": "“Please do not leave your bags here,” the guard said to the visitors. Which sentence reports the request correctly?",
+      "choices": [
+        "The guard asked the visitors not to leave their bags there.",
+        "The guard said the visitors do not leave their bags here.",
+        "The guard asked that the visitors not left their bags there.",
+        "The guard told to the visitors not leaving their bags here.",
+        "The guard asked the visitors do not leave their bags there."
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Reported Requests and Negative Commands.\n\nPenjelasan: Jawaban A benar karena permintaan atau larangan dapat dilaporkan dengan pola ask/tell + object + not to + verb dasar. Kata “here” juga berubah menjadi “there” karena tempatnya dilaporkan dari sudut pandang berbeda.",
+      "translationId": {
+        "prompt": "“Tolong jangan tinggalkan tas kalian di sini,” kata petugas keamanan kepada para pengunjung. Kalimat mana yang melaporkan permintaan tersebut dengan benar?"
+      }
+    },
+    {
+      "id": "q12",
+      "prompt": "“We have finished the survey,” the students said. Which sentence reports their statement correctly?",
+      "choices": [
+        "The students said that we have finished the survey.",
+        "The students said that they had finished the survey.",
+        "The students said that they have finish the survey.",
+        "The students told that they had finished the survey.",
+        "The students said that they finished the survey yesterday."
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Reported Statements with Present Perfect.\n\nPenjelasan: Jawaban B benar karena “we” berubah menjadi “they”, sedangkan Present Perfect “have finished” berubah menjadi Past Perfect “had finished” setelah kata pelapor “said” dalam bentuk lampau.",
+      "translationId": {
+        "prompt": "“Kami telah menyelesaikan survei,” kata para siswa. Kalimat mana yang melaporkan pernyataan mereka dengan benar?"
+      }
+    },
+    {
+      "id": "q13",
+      "prompt": "The final schedule ___ by the committee before it is sent to students.",
+      "choices": [
+        "must approve",
+        "must have approved",
+        "must be approved",
+        "must be approving",
+        "must approved"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Passive Voice with Modal Verbs.\n\nPenjelasan: Jawaban C benar karena jadwal menerima tindakan persetujuan. Bentuk pasif setelah modal adalah modal + be + V3. Jadi, bentuk yang tepat adalah “must be approved”.",
+      "translationId": {
+        "prompt": "Jadwal akhir ___ oleh panitia sebelum dikirim kepada para siswa."
+      }
+    },
+    {
+      "id": "q14",
+      "prompt": "They are repairing the main entrance this week. Which sentence has the same meaning in the passive voice?",
+      "choices": [
+        "The main entrance has been repaired this week.",
+        "The main entrance is repaired this week.",
+        "The main entrance was repaired this week.",
+        "The main entrance is being repaired this week.",
+        "The main entrance has repaired this week."
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Present Continuous Passive.\n\nPenjelasan: Jawaban D benar karena kalimat aktif menggunakan Present Continuous (“are repairing”). Bentuk pasifnya adalah am/is/are + being + V3. “The main entrance” menjadi subjek yang menerima tindakan.",
+      "translationId": {
+        "prompt": "Mereka sedang memperbaiki pintu masuk utama minggu ini. Kalimat mana yang memiliki makna sama dalam bentuk pasif?"
+      }
+    },
+    {
+      "id": "q15",
+      "prompt": "We ___ our classroom windows cleaned last Friday.",
+      "choices": [
+        "have",
+        "were",
+        "did",
+        "have had",
+        "had"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Causative “have something done”.\n\nPenjelasan: Jawaban E benar karena kalimat berarti kami meminta atau mengatur agar orang lain membersihkan jendela. Pola lampau yang digunakan adalah had + object + V3. “Last Friday” menunjukkan waktu lampau.",
+      "translationId": {
+        "prompt": "Kami ___ jendela kelas kami dibersihkan Jumat lalu."
+      }
+    },
+    {
+      "id": "q16",
+      "prompt": "People believe that the new library will attract more visitors. Which sentence uses the correct impersonal passive form?",
+      "choices": [
+        "It is believed that the new library will attract more visitors.",
+        "It believes that the new library will attract more visitors.",
+        "It was believed that the new library will attract more visitors.",
+        "It has believed that the new library will attract more visitors.",
+        "It will believe that the new library will attract more visitors."
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Impersonal Passive.\n\nPenjelasan: Jawaban A benar karena ungkapan “People believe that …” dapat diubah menjadi “It is believed that …”. Karena kata kerja “believe” pada kalimat awal berbentuk Simple Present, bentuk pasifnya adalah “is believed”.",
+      "translationId": {
+        "prompt": "Orang-orang percaya bahwa perpustakaan baru itu akan menarik lebih banyak pengunjung. Kalimat mana yang menggunakan bentuk impersonal passive dengan benar?"
+      }
+    },
+    {
+      "id": "q17",
+      "prompt": "___ the students had to work after school, they completed the project on time.",
+      "choices": [
+        "Because of",
+        "Although",
+        "Despite",
+        "Unless",
+        "In spite of"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Concession Connectors.\n\nPenjelasan: Jawaban B benar karena “although” dapat diikuti klausa lengkap (subjek + kata kerja) dan menunjukkan pertentangan. Walaupun siswa harus bekerja setelah sekolah, mereka tetap menyelesaikan proyek tepat waktu. “Despite” dan “in spite of” biasanya diikuti kata benda atau verb-ing, bukan klausa lengkap.",
+      "translationId": {
+        "prompt": "___ para siswa harus bekerja setelah sekolah, mereka menyelesaikan proyek tepat waktu."
+      }
+    },
+    {
+      "id": "q18",
+      "prompt": "The article, ___ by a local journalist, describes changes in the river.",
+      "choices": [
+        "writing",
+        "writes",
+        "written",
+        "was written",
+        "has written"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Reduced Relative Clauses (Past Participle).\n\nPenjelasan: Jawaban C benar karena artikel menerima tindakan ditulis. Bentuk “written by a local journalist” merupakan bentuk singkat dari “which was written by a local journalist”. Karena bersifat pasif, digunakan V3.",
+      "translationId": {
+        "prompt": "Artikel itu, ___ oleh seorang jurnalis lokal, menjelaskan perubahan pada sungai."
+      }
+    },
+    {
+      "id": "q19",
+      "prompt": "The school encourages students to read widely, think critically, and ___ their ideas clearly.",
+      "choices": [
+        "expressing",
+        "to express",
+        "expressed",
+        "express",
+        "expression"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Parallel Structure.\n\nPenjelasan: Jawaban D benar karena kata kerja dalam daftar harus memiliki bentuk yang sejajar: “read”, “think”, dan “express”. Kata “to” sebelum kata kerja pertama berlaku untuk seluruh daftar.",
+      "translationId": {
+        "prompt": "Sekolah mendorong siswa untuk membaca secara luas, berpikir kritis, dan ___ gagasan mereka dengan jelas."
+      }
+    },
+    {
+      "id": "q20",
+      "prompt": "The more carefully you plan your study schedule, ___ you can use your time.",
+      "choices": [
+        "more effective",
+        "most effective",
+        "the most effectively",
+        "more effectively",
+        "the more effectively"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Correlative Comparative Structure.\n\nPenjelasan: Jawaban E benar karena pola perbandingan bertingkat adalah “the + comparative, the + comparative”. Jadi, “The more carefully …, the more effectively …”. Kata “effectively” berbentuk adverb karena menjelaskan cara menggunakan waktu.",
+      "translationId": {
+        "prompt": "Semakin cermat kamu merencanakan jadwal belajar, ___ kamu dapat menggunakan waktumu."
+      }
+    }
+  ]
+}

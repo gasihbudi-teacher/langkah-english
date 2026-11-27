@@ -6058,6 +6058,170 @@
       "aiGenerated": false,
       "unofficial": true,
       "estimatedMinutes": 65
+    },
+    {
+      "id": "grade10-asas-grammar-test-1",
+      "title": "Grammar Test 1 · Revised (Grade 10)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 10 berisi 20 soal grammar pilihan ganda dalam lima bagian, dengan batas waktu 45 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 10,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [
+        "Simple Present Tense",
+        "Simple Past Tense",
+        "Present Continuous Tense",
+        "Modal Verbs",
+        "Passive Voice",
+        "Relative Clauses",
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 10",
+        "semester 1",
+        "Grammar",
+        "Tenses",
+        "Modal Verbs",
+        "Passive Voice",
+        "Relative Clauses",
+        "Complex Sentences",
+        "Revised"
+      ],
+      "relatedLessons": [
+        "simple-present",
+        "simple-past",
+        "present-continuous",
+        "modal-verbs",
+        "passive-voice",
+        "relative-clauses",
+        "complex-sentences"
+      ],
+      "file": "data/quizzes/grade10-asas-grammar-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 45
+    },
+    {
+      "id": "grade11-asas-grammar-test-1",
+      "title": "Grammar Test 1 (Grade 11)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 11 berisi 20 soal grammar pilihan ganda dalam lima bagian, dengan batas waktu 50 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 11,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Perfect Tenses",
+        "Subject-Verb Agreement",
+        "Conditional Sentences",
+        "Advanced Conditionals",
+        "Reported Speech",
+        "Passive Voice",
+        "Reduced Relative Clauses",
+        "Parallel Structures",
+        "Complex Sentence Structures"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 11",
+        "semester 1",
+        "Grammar",
+        "Verb Forms",
+        "Conditionals",
+        "Reported Speech",
+        "Passive Voice",
+        "Causative Forms",
+        "Clauses",
+        "Connectors"
+      ],
+      "relatedLessons": [
+        "perfect-tenses",
+        "subject-verb-agreement",
+        "conditional-sentences",
+        "advanced-conditionals",
+        "reported-speech",
+        "passive-voice",
+        "reduced-relative-clauses",
+        "parallel-structures",
+        "complex-sentences"
+      ],
+      "file": "data/quizzes/grade11-asas-grammar-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 50
+    },
+    {
+      "id": "grade12-asas-grammar-test-1",
+      "title": "Grammar Test 1 (Grade 12)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 12 berisi 20 soal grammar pilihan ganda dalam lima bagian, dengan batas waktu 55 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 12,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Advanced",
+      "grammarTopics": [
+        "Perfect Tenses",
+        "Advanced Conditionals",
+        "Complex Sentence Structures",
+        "Inversion",
+        "Reduced Relative Clauses",
+        "Parallel Structures",
+        "Advanced Grammar Analysis"
+      ],
+      "readingSkills": [],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 12",
+        "semester 1",
+        "Grammar",
+        "Verb Tenses",
+        "Conditionals",
+        "Noun Clauses",
+        "Relative Clauses",
+        "Inversion",
+        "Subjunctive",
+        "Causatives",
+        "Connectors"
+      ],
+      "relatedLessons": [
+        "perfect-tenses",
+        "advanced-conditionals",
+        "inversion",
+        "negative-inversion-grade-12",
+        "reduced-relative-clauses",
+        "parallel-structures",
+        "advanced-grammar-analysis",
+        "complex-sentences"
+      ],
+      "file": "data/quizzes/grade12-asas-grammar-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 55
     }
   ],
   "curriculumNote": "Pemetaan tematik terhadap CP Inggris 2025 Fase D/E/F dan buku pemerintah, bukan silabus wajib atau kutipan buku."

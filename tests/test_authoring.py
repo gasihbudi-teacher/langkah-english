@@ -81,3 +81,16 @@ class AuthoringTests(unittest.TestCase):
         issues = dict(content_errors("quiz", quiz))
         self.assertIn("questions[1].answers", issues)
         self.assertIn("questions[2].statements[0]", issues)
+
+    def test_asas_grammar_sections_cover_questions(self):
+        quiz = json.loads((ROOT / "data/quizzes/grade10-asas-grammar-test-1.json").read_text())
+        self.assertEqual(list(content_errors("quiz", quiz)), [])
+        quiz["sections"][1]["questionStart"] = 6
+        issues = dict(content_errors("quiz", quiz))
+        self.assertIn("sections[1].questionStart", issues)
+
+    def test_asas_grammar_sections_reject_duplicate_ids(self):
+        quiz = json.loads((ROOT / "data/quizzes/grade11-asas-grammar-test-1.json").read_text())
+        quiz["sections"][1]["id"] = quiz["sections"][0]["id"]
+        issues = dict(content_errors("quiz", quiz))
+        self.assertIn("sections[1].id", issues)

@@ -40,12 +40,13 @@ try{
  const track=Object.hasOwn(pathNames,a.pathway)?a.pathway:'grammar';
  function reviewCard(q,i,open){
   const passage=a.passages?.find(x=>x.id===q.passageId);
+  const activeSection=a.sections?.find(s=>i+1>=s.questionStart&&i+1<=s.questionEnd);
   const status=isCorrect(q,a.answers[i])?'scoreCorrect':isAnswered(q,a.answers[i])?'scoreIncorrect':'scoreUnanswered';
   const symbol=status==='scoreCorrect'?'check':status==='scoreIncorrect'?'history':'pen';
   return `<details class="panel review" data-review="${i}" ${open?'open':''}>
     <summary><span class="review-heading"><span lang="en">${i+1}. ${esc(q.prompt)}</span>
       <span class="review-tag ${status}">${icon(symbol)}${t(status)}</span>${a.flags?.[i]?`<span class="review-tag">${icon('flag')}${t('flagged')}</span>`:''}</span></summary>
-    <div class="review-body">${translationDetails(q)}
+    <div class="review-body">${activeSection?`<div class="quiz-section-context review-section-context"><span class="section-kicker">Section ${activeSection.number}</span><h3>${esc(activeSection.title)}</h3></div>`:''}${translationDetails(q)}
       ${passage?`<details class="review-passage"><summary>${t('readPassage')} · ${esc(passage.title)}</summary><p lang="en">${esc(passage.text)}</p></details>`:''}
       ${reviewResponse(q,a.answers[i])}
       <h4>${t('explanationHeading')}</h4><p class="answer-explanation">${esc(q.explanation)}</p>

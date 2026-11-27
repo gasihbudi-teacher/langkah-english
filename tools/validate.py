@@ -145,6 +145,28 @@ def matching_text(entries, originals):
     )
 
 
+def quiz_section_errors(data):
+    sections = data.get("sections")
+    if sections is None:
+        return
+    seen = set()
+    next_question = 1
+    for i, section in enumerate(sections):
+        path = f"sections[{i}]"
+        if section["id"] in seen:
+            yield path + ".id", "duplicate section ID"
+        seen.add(section["id"])
+        if section["number"] != i + 1:
+            yield path + ".number", "section numbers must follow their printed order"
+        if section["questionStart"] != next_question:
+            yield path + ".questionStart", "sections must cover questions consecutively without gaps or overlap"
+        if section["questionEnd"] < section["questionStart"]:
+            yield path + ".questionEnd", "must not be earlier than questionStart"
+        next_question = section["questionEnd"] + 1
+    if next_question != len(data["questions"]) + 1:
+        yield "sections", "section ranges must cover every question exactly once"
+
+
 def content_errors(kind, data, meta=None, by_id=None):
     errors = list(schema_errors(kind, data))
     if errors:
@@ -166,6 +188,8 @@ def content_errors(kind, data, meta=None, by_id=None):
         yield from lesson_errors(data)
     elif data["questionCount"] != len(data["questions"]):
         yield "questionCount", "must match the number of questions"
+    if kind == "quiz":
+        yield from quiz_section_errors(data)
     yield from question_errors(data, kind)
 
 

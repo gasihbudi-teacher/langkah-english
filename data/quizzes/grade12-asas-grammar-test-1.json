@@ -1,0 +1,370 @@
+{
+  "id": "grade12-asas-grammar-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3300,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "VERB TENSES AND ASPECT",
+      "instruction": "Choose the verb form that best completes each sentence.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "CONDITIONALS AND MODAL VERBS",
+      "instruction": "Pay attention to whether the sentence expresses a condition, regret, advice, or a deduction.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "NOUN CLAUSES AND RELATIVE CLAUSES",
+      "instruction": "Choose the expression that correctly connects or completes the clauses.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "INVERSION, SUBJUNCTIVE, AND EMPHASIS",
+      "instruction": "Select the sentence structure that is grammatically correct.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "VERB PATTERNS, CAUSATIVES, AND CONNECTORS",
+      "instruction": "Choose the form or connector that completes each sentence correctly.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "By the time the documentary ended, we ___ for nearly two hours.",
+      "choices": [
+        "had been watching",
+        "have watched",
+        "were watching",
+        "watched",
+        "would watch"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Past Perfect Continuous.\n\nPenjelasan: Jawaban A benar karena kegiatan menonton sudah berlangsung selama hampir dua jam sebelum dokumenter berakhir. Untuk kegiatan yang berlangsung selama beberapa waktu sebelum kejadian lain di masa lalu, gunakan had been + verb-ing.",
+      "translationId": {
+        "prompt": "Saat dokumenter berakhir, kami sudah ___ selama hampir dua jam."
+      }
+    },
+    {
+      "id": "q2",
+      "prompt": "At 10 a.m. tomorrow, the students ___ their final presentations, so please do not interrupt them.",
+      "choices": [
+        "will have given",
+        "will be giving",
+        "give",
+        "are given",
+        "have given"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Future Continuous.\n\nPenjelasan: Jawaban B benar karena kegiatan presentasi diperkirakan sedang berlangsung pada waktu tertentu di masa depan, yaitu pukul 10 besok. Polanya adalah will be + verb-ing.",
+      "translationId": {
+        "prompt": "Besok pukul 10 pagi, para siswa ___ presentasi akhir mereka, jadi mohon jangan menyela."
+      }
+    },
+    {
+      "id": "q3",
+      "prompt": "I ___ the article yet, so I cannot comment on its conclusions.",
+      "choices": [
+        "did not read",
+        "am not reading",
+        "have not read",
+        "had not read",
+        "do not read"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Present Perfect with “yet”.\n\nPenjelasan: Jawaban C benar karena “yet” dalam kalimat negatif menunjukkan sesuatu yang belum dilakukan sampai sekarang. Gunakan have/has + not + V3.",
+      "translationId": {
+        "prompt": "Saya belum ___ artikel itu, jadi saya belum dapat mengomentari kesimpulannya."
+      }
+    },
+    {
+      "id": "q4",
+      "prompt": "At the moment the principal entered the room, the students ___ the results on the noticeboard.",
+      "choices": [
+        "discuss",
+        "have discussed",
+        "had discussed",
+        "were discussing",
+        "will discuss"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Past Continuous.\n\nPenjelasan: Jawaban D benar karena kegiatan berdiskusi sedang berlangsung ketika kepala sekolah masuk. Untuk kegiatan yang sedang terjadi pada saat kejadian lain di masa lalu, gunakan was/were + verb-ing.",
+      "translationId": {
+        "prompt": "Ketika kepala sekolah memasuki ruangan, para siswa sedang ___ hasilnya di papan pengumuman."
+      }
+    },
+    {
+      "id": "q5",
+      "prompt": "The building was locked, all the lights were off, and nobody answered the phone. The staff ___ for the day.",
+      "choices": [
+        "must leave",
+        "should leave",
+        "might leave",
+        "had to leave",
+        "must have left"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Modal Perfect for Deduction.\n\nPenjelasan: Jawaban E benar karena pembicara menarik kesimpulan kuat tentang kejadian yang sudah terjadi. Pola must have + V3 digunakan untuk menyatakan dugaan yang sangat kuat tentang masa lalu.",
+      "translationId": {
+        "prompt": "Gedung itu terkunci, semua lampu mati, dan tidak ada yang menjawab telepon. Para staf pasti sudah ___ untuk hari itu."
+      }
+    },
+    {
+      "id": "q6",
+      "prompt": "You ___ the data before drawing a conclusion; one of the figures was incorrect.",
+      "choices": [
+        "should have checked",
+        "must check",
+        "could check",
+        "should be checking",
+        "have checked"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Should Have + Past Participle.\n\nPenjelasan: Jawaban A benar karena kalimat menunjukkan bahwa seseorang seharusnya memeriksa data pada masa lalu, tetapi tidak melakukannya. Pola should have + V3 digunakan untuk menyatakan penyesalan atau kritik terhadap tindakan yang sudah lewat.",
+      "translationId": {
+        "prompt": "Kamu seharusnya ___ data sebelum menarik kesimpulan; salah satu angkanya ternyata keliru."
+      }
+    },
+    {
+      "id": "q7",
+      "prompt": "If Mira were more familiar with the software, she ___ the task more efficiently yesterday.",
+      "choices": [
+        "will complete",
+        "would have completed",
+        "would complete",
+        "had completed",
+        "will have completed"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Mixed Conditional.\n\nPenjelasan: Jawaban B benar karena kondisi yang dibayangkan berkaitan dengan keadaan sekarang (Mira kurang terbiasa dengan software), sedangkan hasilnya berkaitan dengan masa lalu (kemarin). Polanya: If + Simple Past, would have + V3.",
+      "translationId": {
+        "prompt": "Jika Mira lebih terbiasa menggunakan perangkat lunak itu, kemarin ia ___ tugas tersebut dengan lebih efisien."
+      }
+    },
+    {
+      "id": "q8",
+      "prompt": "You may use the laboratory ___ you follow all the safety instructions.",
+      "choices": [
+        "although",
+        "unless",
+        "provided that",
+        "because of",
+        "despite"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Conditional Connector.\n\nPenjelasan: Jawaban C benar karena “provided that” berarti “asalkan” dan memperkenalkan syarat. Artinya, siswa boleh menggunakan laboratorium dengan syarat mengikuti semua petunjuk keselamatan.",
+      "translationId": {
+        "prompt": "Kamu boleh menggunakan laboratorium ___ kamu mengikuti semua petunjuk keselamatan."
+      }
+    },
+    {
+      "id": "q9",
+      "prompt": "The report, ___ yesterday, contains the latest figures from the regional survey.",
+      "choices": [
+        "publishing",
+        "was published",
+        "having published",
+        "published",
+        "to publish"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Reduced Passive Relative Clause.\n\nPenjelasan: Jawaban D benar karena “published yesterday” merupakan bentuk singkat dari “which was published yesterday”. Laporan menerima tindakan diterbitkan, sehingga digunakan past participle (V3).",
+      "translationId": {
+        "prompt": "Laporan itu, yang ___ kemarin, memuat angka terbaru dari survei regional."
+      }
+    },
+    {
+      "id": "q10",
+      "prompt": "___ by the unexpected result, the researchers decided to repeat the experiment.",
+      "choices": [
+        "Having surprised",
+        "To surprise",
+        "Surprising",
+        "Were surprised",
+        "Surprised"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Participial Clause.\n\nPenjelasan: Jawaban E benar karena para peneliti merasa terkejut oleh hasil tersebut. Bentuk “Surprised by ...” adalah participle phrase pasif yang menjelaskan keadaan para peneliti.",
+      "translationId": {
+        "prompt": "___ oleh hasil yang tidak terduga, para peneliti memutuskan untuk mengulangi eksperimen."
+      }
+    },
+    {
+      "id": "q11",
+      "prompt": "The committee has not decided ___ the proposal should be revised or rejected.",
+      "choices": [
+        "whether",
+        "that",
+        "what",
+        "which",
+        "whoever"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Noun Clause with “whether”.\n\nPenjelasan: Jawaban A benar karena “whether” digunakan untuk memperkenalkan pilihan atau dua kemungkinan: proposal direvisi atau ditolak. Seluruh klausa tersebut menjadi objek dari kata “decided”.",
+      "translationId": {
+        "prompt": "Panitia belum memutuskan ___ usulan itu perlu direvisi atau ditolak."
+      }
+    },
+    {
+      "id": "q12",
+      "prompt": "The student ___ project won the regional award will speak at the school assembly.",
+      "choices": [
+        "who",
+        "whose",
+        "whom",
+        "which",
+        "where"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Relative Pronoun “whose”.\n\nPenjelasan: Jawaban B benar karena kata yang hilang menunjukkan kepemilikan: proyek itu milik siswa tersebut. “Whose” digunakan untuk menyatakan kepemilikan dalam relative clause.",
+      "translationId": {
+        "prompt": "Siswa yang proyeknya memenangkan penghargaan regional itu akan berbicara dalam pertemuan sekolah."
+      }
+    },
+    {
+      "id": "q13",
+      "prompt": "Not until the final chapter ___ why the narrator left the village.",
+      "choices": [
+        "the reader discovers",
+        "the reader does discover",
+        "does the reader discover",
+        "did the reader discovered",
+        "the reader did discover"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Inversion after a Negative Expression.\n\nPenjelasan: Jawaban C benar karena ungkapan pembatas negatif “Not until” berada di awal kalimat. Setelah ungkapan seperti ini, susunan kalimat utama menggunakan auxiliary sebelum subjek: does + the reader + discover.",
+      "translationId": {
+        "prompt": "Baru setelah bab terakhir, ___ pembaca mengetahui alasan narator meninggalkan desa itu."
+      }
+    },
+    {
+      "id": "q14",
+      "prompt": "The teacher recommended that every student ___ a copy of the article before the discussion.",
+      "choices": [
+        "brings",
+        "brought",
+        "to bring",
+        "bring",
+        "has brought"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Subjunctive after “recommend”.\n\nPenjelasan: Jawaban D benar karena setelah kata kerja seperti recommend, suggest, atau insist, kita dapat menggunakan pola that + subject + verb dasar. Jadi, bentuk yang tepat adalah “that every student bring”.",
+      "translationId": {
+        "prompt": "Guru menyarankan agar setiap siswa ___ salinan artikel sebelum diskusi."
+      }
+    },
+    {
+      "id": "q15",
+      "prompt": "Hardly ___ the meeting when the fire alarm rang.",
+      "choices": [
+        "we had started",
+        "did we start",
+        "we started",
+        "have we started",
+        "had we started"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Inversion with “Hardly … when”.\n\nPenjelasan: Jawaban E benar karena “Hardly” di awal kalimat membutuhkan inversion, yaitu auxiliary sebelum subjek. Polanya adalah Hardly + had + subject + V3 + when. Jadi, “had we started” tepat.",
+      "translationId": {
+        "prompt": "Baru saja ___ rapat ketika alarm kebakaran berbunyi."
+      }
+    },
+    {
+      "id": "q16",
+      "prompt": "It was the lack of reliable data ___ delayed the final decision.",
+      "choices": [
+        "that",
+        "which",
+        "what",
+        "where",
+        "who"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Cleft Sentence.\n\nPenjelasan: Jawaban A benar karena pola penekanan yang digunakan adalah “It was + bagian yang ditekankan + that ...”. Dalam kalimat ini, bagian yang ditekankan adalah “the lack of reliable data”.",
+      "translationId": {
+        "prompt": "Kurangnya data yang dapat diandalkan itulah yang ___ keputusan akhir."
+      }
+    },
+    {
+      "id": "q17",
+      "prompt": "The new policy is expected ___ operating costs over time.",
+      "choices": [
+        "reducing",
+        "to reduce",
+        "reduce",
+        "reduced",
+        "to reducing"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Infinitive after “be expected”.\n\nPenjelasan: Jawaban B benar karena pola yang digunakan adalah be expected + to-infinitive. Jadi, setelah “is expected” digunakan “to reduce”, bukan bentuk verb-ing atau verb dasar tanpa “to”.",
+      "translationId": {
+        "prompt": "Kebijakan baru itu diperkirakan ___ biaya operasional seiring waktu."
+      }
+    },
+    {
+      "id": "q18",
+      "prompt": "The manager had the technicians ___ the system before the presentation.",
+      "choices": [
+        "tested",
+        "to test",
+        "test",
+        "testing",
+        "have tested"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Causative “have someone do something”.\n\nPenjelasan: Jawaban C benar karena pola causative “have + object + verb dasar” digunakan saat seseorang mengatur agar orang lain melakukan sesuatu. “The technicians” adalah orang yang melakukan tes, sehingga digunakan “test”.",
+      "translationId": {
+        "prompt": "Manajer meminta para teknisi ___ sistem sebelum presentasi."
+      }
+    },
+    {
+      "id": "q19",
+      "prompt": "She is not only responsible for collecting the data but also for ___ the findings.",
+      "choices": [
+        "present",
+        "to present",
+        "presented",
+        "presenting",
+        "presentation"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Parallel Structure.\n\nPenjelasan: Jawaban D benar karena bentuk setelah “for” harus sejajar. “For collecting” dipasangkan dengan “for presenting”. Setelah preposisi “for”, kata kerja menggunakan bentuk -ing.",
+      "translationId": {
+        "prompt": "Ia tidak hanya bertanggung jawab mengumpulkan data, tetapi juga ___ temuan tersebut."
+      }
+    },
+    {
+      "id": "q20",
+      "prompt": "The experiment was repeated ___ the initial results had been inconsistent.",
+      "choices": [
+        "although",
+        "unless",
+        "despite",
+        "whereas",
+        "because"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Cause Connector.\n\nPenjelasan: Jawaban E benar karena “because” diikuti klausa lengkap (subjek + kata kerja) dan menjelaskan alasan eksperimen diulang. Hasil awal tidak konsisten, sehingga eksperimen perlu diulang.",
+      "translationId": {
+        "prompt": "Eksperimen itu diulang ___ hasil awalnya tidak konsisten."
+      }
+    }
+  ]
+}

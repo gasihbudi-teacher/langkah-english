@@ -1,0 +1,370 @@
+{
+  "id": "grade10-asas-grammar-test-1",
+  "questionCount": 20,
+  "durationSeconds": 2700,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "TENSES: Choosing the Correct Verb Form",
+      "instruction": "Choose the verb form that best fits the time and meaning of each sentence.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "MODAL VERBS: Ability, Advice, Obligation, and Permission",
+      "instruction": "Choose the modal verb that expresses the meaning required by the situation.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "PASSIVE VOICE: Present, Past, and Future Forms",
+      "instruction": "Pay attention to the tense and to the person or thing receiving the action.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "RELATIVE CLAUSES: Connecting Information About People and Things",
+      "instruction": "Choose the relative pronoun or sentence structure that correctly connects the information.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "COMPLEX SENTENCES AND CONNECTORS: Cause, Contrast, and Result",
+      "instruction": "Choose the connector or clause that makes the sentence logical and grammatically correct.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "The school library ___ at 7 a.m. on weekdays.",
+      "choices": [
+        "opens",
+        "opened",
+        "is opening",
+        "has opened",
+        "opening"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Simple Present.\n\nPenjelasan: Jawaban A benar karena kalimat menunjukkan jadwal atau kebiasaan pada hari kerja. Untuk kebiasaan dan jadwal rutin, kita menggunakan Simple Present. Subjek “the school library” tunggal, jadi kata kerjanya “opens”.",
+      "translationId": {
+        "prompt": "Perpustakaan sekolah ___ pada pukul 7 pagi setiap hari kerja."
+      }
+    },
+    {
+      "id": "q2",
+      "prompt": "Yesterday, our class ___ a short documentary about ocean life.",
+      "choices": [
+        "watch",
+        "watched",
+        "watching",
+        "has watched",
+        "watches"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Simple Past.\n\nPenjelasan: Jawaban B benar karena kata “yesterday” menunjukkan kejadian yang sudah selesai di masa lalu. Karena itu, kata kerja menggunakan bentuk kedua (V2), yaitu “watched”.",
+      "translationId": {
+        "prompt": "Kemarin, kelas kami ___ sebuah film dokumenter singkat tentang kehidupan laut."
+      }
+    },
+    {
+      "id": "q3",
+      "prompt": "Please be quiet. The baby ___ in the next room.",
+      "choices": [
+        "sleeps",
+        "slept",
+        "is sleeping",
+        "sleep",
+        "has sleep"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Present Continuous.\n\nPenjelasan: Jawaban C benar karena kalimat menunjukkan kegiatan yang sedang berlangsung sekarang. Present Continuous menggunakan am/is/are + verb-ing. Subjek “the baby” memakai “is”.",
+      "translationId": {
+        "prompt": "Tolong tenang. Bayi itu ___ di kamar sebelah."
+      }
+    },
+    {
+      "id": "q4",
+      "prompt": "Look at those dark clouds! It ___ soon.",
+      "choices": [
+        "rains",
+        "rained",
+        "has rained",
+        "is going to rain",
+        "rain"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Future Expression: Prediction.\n\nPenjelasan: Jawaban D benar karena ada tanda yang terlihat sekarang, yaitu awan gelap. Untuk prediksi berdasarkan bukti yang terlihat, kita dapat menggunakan “be going to” + verb 1.",
+      "translationId": {
+        "prompt": "Lihat awan gelap itu! Sebentar lagi akan ___."
+      }
+    },
+    {
+      "id": "q5",
+      "prompt": "Rafi ___ solve the puzzle without help because he has practised similar problems many times.",
+      "choices": [
+        "must",
+        "should",
+        "may",
+        "has to",
+        "can"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Expressing Ability.\n\nPenjelasan: Jawaban E benar karena “can” digunakan untuk menyatakan kemampuan. Kalimat menjelaskan bahwa Rafi mampu menyelesaikan teka-teki tersebut sendiri.",
+      "translationId": {
+        "prompt": "Rafi ___ menyelesaikan teka-teki itu tanpa bantuan karena ia sudah berlatih mengerjakan soal serupa berkali-kali."
+      }
+    },
+    {
+      "id": "q6",
+      "prompt": "You ___ bring a jacket; the weather may get cold this evening.",
+      "choices": [
+        "should",
+        "can",
+        "mustn't",
+        "may",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Giving Advice.\n\nPenjelasan: Jawaban A benar karena “should” digunakan untuk memberi saran. Membawa jaket adalah saran yang baik, bukan kewajiban mutlak atau larangan.",
+      "translationId": {
+        "prompt": "Kamu ___ membawa jaket; cuaca mungkin menjadi dingin sore ini."
+      }
+    },
+    {
+      "id": "q7",
+      "prompt": "According to the school safety rules, all visitors ___ show their identification at the front desk.",
+      "choices": [
+        "might",
+        "must",
+        "could",
+        "would",
+        "should"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Expressing Obligation.\n\nPenjelasan: Jawaban B benar karena “must” menunjukkan kewajiban atau aturan yang harus dipatuhi. Petunjuk “according to the school safety rules” menunjukkan adanya aturan.",
+      "translationId": {
+        "prompt": "Menurut peraturan keselamatan sekolah, semua pengunjung ___ menunjukkan identitas mereka di meja depan."
+      }
+    },
+    {
+      "id": "q8",
+      "prompt": "___ I leave the classroom for a moment, Ma'am?",
+      "choices": [
+        "Must",
+        "Should",
+        "May",
+        "Would",
+        "Have"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Asking for Permission.\n\nPenjelasan: Jawaban C benar karena “May I ...?” merupakan ungkapan sopan untuk meminta izin. Siswa sedang meminta izin kepada guru.",
+      "translationId": {
+        "prompt": "___ saya meninggalkan kelas sebentar, Bu?"
+      }
+    },
+    {
+      "id": "q9",
+      "prompt": "The school announcements ___ every morning before the first lesson.",
+      "choices": [
+        "reads",
+        "is read",
+        "read",
+        "are read",
+        "were read"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Present Simple Passive.\n\nPenjelasan: Jawaban D benar karena pengumuman menerima tindakan dibacakan, sehingga kalimat memakai passive voice. “Announcements” berbentuk jamak, jadi bentuknya “are + V3”: “are read”.",
+      "translationId": {
+        "prompt": "Pengumuman sekolah ___ setiap pagi sebelum pelajaran pertama."
+      }
+    },
+    {
+      "id": "q10",
+      "prompt": "The sports hall ___ last year after the roof was damaged.",
+      "choices": [
+        "renovated",
+        "is renovated",
+        "has renovated",
+        "were renovated",
+        "was renovated"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Past Simple Passive.\n\nPenjelasan: Jawaban E benar karena “last year” menunjukkan masa lalu. Subjek “the sports hall” tunggal dan menerima tindakan, jadi bentuk pasifnya “was + V3”, yaitu “was renovated”.",
+      "translationId": {
+        "prompt": "Gedung olahraga itu ___ tahun lalu setelah atapnya rusak."
+      }
+    },
+    {
+      "id": "q11",
+      "prompt": "Choose the correct passive form of this sentence: “The students clean the laboratory every Friday.”",
+      "choices": [
+        "The laboratory is cleaned by the students every Friday.",
+        "The laboratory was cleaned by students every Friday.",
+        "The laboratory cleans every Friday.",
+        "Every Friday the students are cleaned by the laboratory.",
+        "The laboratory is cleaning by students every Friday."
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Active-to-Passive Transformation.\n\nPenjelasan: Jawaban A benar karena objek kalimat aktif, yaitu “the laboratory”, menjadi subjek kalimat pasif. Karena kalimat aslinya Simple Present, bentuk pasifnya adalah “is + V3”.",
+      "translationId": {
+        "prompt": "Pilih bentuk pasif yang benar dari kalimat ini: “The students clean the laboratory every Friday.”"
+      }
+    },
+    {
+      "id": "q12",
+      "prompt": "The final results ___ on the school website tomorrow.",
+      "choices": [
+        "announce",
+        "will be announced",
+        "are announcing",
+        "announced",
+        "have announced"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Future Passive.\n\nPenjelasan: Jawaban B benar karena “tomorrow” menunjukkan waktu yang akan datang. Bentuk passive voice untuk future adalah “will be + V3”, yaitu “will be announced”.",
+      "translationId": {
+        "prompt": "Hasil akhir ___ di situs web sekolah besok."
+      }
+    },
+    {
+      "id": "q13",
+      "prompt": "The teacher ___ helped us prepare for the competition received a thank-you card.",
+      "choices": [
+        "which",
+        "whose",
+        "who",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Relative Pronoun for People.\n\nPenjelasan: Jawaban C benar karena “who” digunakan untuk merujuk pada orang. Kata yang dijelaskan adalah “the teacher”, yaitu seorang manusia.",
+      "translationId": {
+        "prompt": "Guru ___ membantu kami mempersiapkan kompetisi menerima kartu ucapan terima kasih."
+      }
+    },
+    {
+      "id": "q14",
+      "prompt": "The science project, ___ was displayed in the main hall, won first prize.",
+      "choices": [
+        "who",
+        "where",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Relative Pronoun for Things.\n\nPenjelasan: Jawaban D benar karena “which” digunakan untuk merujuk pada benda atau hal. “The science project” adalah benda, bukan orang. Koma juga menunjukkan informasi tambahan.",
+      "translationId": {
+        "prompt": "Proyek sains itu, ___ dipamerkan di aula utama, memenangkan hadiah pertama."
+      }
+    },
+    {
+      "id": "q15",
+      "prompt": "Which sentence correctly uses a defining relative clause to identify the students who may join the trip?",
+      "choices": [
+        "Students, who return the permission form by Friday, may join the trip.",
+        "Students which return the permission form by Friday may join the trip.",
+        "Students where return the permission form by Friday may join the trip.",
+        "Students whose return the permission form by Friday may join the trip.",
+        "Students who return the permission form by Friday may join the trip."
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Defining Relative Clause.\n\nPenjelasan: Jawaban E benar karena “who return the permission form by Friday” menjelaskan siswa yang dimaksud secara khusus. Klausa ini penting untuk menentukan siswa mana yang boleh ikut, sehingga tidak perlu koma.",
+      "translationId": {
+        "prompt": "Kalimat mana yang menggunakan defining relative clause dengan benar untuk mengidentifikasi siswa yang boleh mengikuti perjalanan itu?"
+      }
+    },
+    {
+      "id": "q16",
+      "prompt": "Choose the best way to combine these sentences: “I met a student. She designed the poster.”",
+      "choices": [
+        "I met a student who designed the poster.",
+        "I met a student which designed the poster.",
+        "I met a student where designed the poster.",
+        "I met a student she designed the poster.",
+        "I met a student whose designed the poster."
+      ],
+      "answer": 0,
+      "explanation": "Grammar focus: Combining Sentences with a Relative Clause.\n\nPenjelasan: Jawaban A benar karena dua kalimat digabung dengan “who”, yang menggantikan “she” dan merujuk pada “a student”. Hasilnya menjadi satu kalimat yang jelas.",
+      "translationId": {
+        "prompt": "Pilih cara terbaik untuk menggabungkan kalimat-kalimat ini: “I met a student. She designed the poster.”"
+      }
+    },
+    {
+      "id": "q17",
+      "prompt": "The outdoor practice was cancelled ___ the field was flooded after heavy rain.",
+      "choices": [
+        "although",
+        "because",
+        "unless",
+        "while",
+        "despite"
+      ],
+      "answer": 1,
+      "explanation": "Grammar focus: Cause Connector.\n\nPenjelasan: Jawaban B benar karena “because” menghubungkan alasan dengan akibat. Latihan dibatalkan karena lapangan tergenang setelah hujan deras.",
+      "translationId": {
+        "prompt": "Latihan di luar ruangan dibatalkan ___ lapangan tergenang setelah hujan deras."
+      }
+    },
+    {
+      "id": "q18",
+      "prompt": "___ the instructions were simple, several students made mistakes.",
+      "choices": [
+        "Because",
+        "Unless",
+        "Although",
+        "So",
+        "Since"
+      ],
+      "answer": 2,
+      "explanation": "Grammar focus: Contrast Connector.\n\nPenjelasan: Jawaban C benar karena “although” menunjukkan pertentangan. Instruksinya sederhana, tetapi beberapa siswa tetap melakukan kesalahan.",
+      "translationId": {
+        "prompt": "___ instruksinya sederhana, beberapa siswa tetap melakukan kesalahan."
+      }
+    },
+    {
+      "id": "q19",
+      "prompt": "The classroom was ___ noisy that we could not hear the announcement.",
+      "choices": [
+        "such",
+        "too",
+        "enough",
+        "so",
+        "very"
+      ],
+      "answer": 3,
+      "explanation": "Grammar focus: Result Clause.\n\nPenjelasan: Jawaban D benar karena pola yang digunakan adalah “so + adjective + that”. Jadi, bentuk yang tepat adalah “so noisy that”.",
+      "translationId": {
+        "prompt": "Ruang kelas itu begitu bising ___ kami tidak dapat mendengar pengumuman."
+      }
+    },
+    {
+      "id": "q20",
+      "prompt": "Read the sentence: “Because the bus arrived late, the students missed the opening speech.” Which part is the dependent clause?",
+      "choices": [
+        "the students missed the opening speech",
+        "the opening speech",
+        "the students",
+        "arrived late",
+        "Because the bus arrived late"
+      ],
+      "answer": 4,
+      "explanation": "Grammar focus: Identifying a Dependent Clause.\n\nPenjelasan: Jawaban E benar karena bagian yang diawali “because” tidak dapat berdiri sendiri sebagai kalimat lengkap dalam konteks ini. Bagian tersebut membutuhkan klausa utama untuk melengkapi maknanya.",
+      "translationId": {
+        "prompt": "Bacalah kalimat ini: “Because the bus arrived late, the students missed the opening speech.” Bagian mana yang merupakan klausa terikat?"
+      }
+    }
+  ]
+}
