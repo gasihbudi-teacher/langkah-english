@@ -517,7 +517,7 @@ progress::-moz-progress-bar { background: var(--forest); }
 .passage summary strong { display: block; margin-top: .45rem; color: var(--ink); font: 600 1.45rem/1.3 var(--display); }
 .passage p, .review-passage p { max-width: 68ch; white-space: pre-line; color: #273e43; font: 400 1.14rem/1.65 var(--display); margin: .4rem 0; }
 .passage-jump { display: none; }
-.question-panel h2 { margin: 0 0 1rem; font: 600 clamp(1.25rem,2.15vw,1.55rem)/1.35 var(--display); }
+.question-panel h2 { margin: 0 0 1rem; font: 600 clamp(1.25rem,2.15vw,1.55rem)/1.35 var(--display); white-space: pre-line; }
 
 .quiz-section-context { margin: 0 0 1rem; padding: 0 0 .85rem; border-bottom: 1px solid var(--line); }
 .quiz-section-context .section-kicker { margin: 0 0 .25rem; }

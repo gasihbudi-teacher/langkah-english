@@ -1,0 +1,310 @@
+{
+  "id": "grade11-asas-functional-language-test-1",
+  "questionCount": 20,
+  "durationSeconds": 3000,
+  "passages": [],
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "OPINIONS, AGREEMENT, AND DISAGREEMENT",
+      "instruction": "Choose the expression that best completes each conversation.",
+      "questionStart": 1,
+      "questionEnd": 4
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "SUGGESTIONS AND ADVICE",
+      "instruction": "Choose the most appropriate suggestion, advice, or response.",
+      "questionStart": 5,
+      "questionEnd": 8
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "REQUESTS, OFFERS, AND INVITATIONS",
+      "instruction": "Choose the expression that fits the speaker's purpose and the reply.",
+      "questionStart": 9,
+      "questionEnd": 12
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "APOLOGIES, THANKS, COMPLIMENTS, AND CONGRATULATIONS",
+      "instruction": "Choose the most natural response in each situation.",
+      "questionStart": 13,
+      "questionEnd": 16
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "CLARIFICATION, PREFERENCES, AND POSSIBILITY",
+      "instruction": "Choose the expression that best completes each conversation.",
+      "questionStart": 17,
+      "questionEnd": 20
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "A: “Replacing printed notices with a school app sounds efficient.”\nB: “____. We should also make sure that students without reliable internet can get the information.”",
+      "choices": [
+        "I agree, although access needs to be considered.",
+        "I completely disagree with every part of that idea.",
+        "I have no idea what a school app is.",
+        "You should ask the librarian for directions.",
+        "I'm sorry that the notices were printed."
+      ],
+      "answer": 0,
+      "explanation": "Skill: Qualified Agreement.\n\nPenjelasan: Jawaban A benar adalah ungkapan yang menunjukkan setuju, tetapi tetap menyampaikan hal yang perlu diperhatikan. Pembicara mendukung penggunaan aplikasi, namun mengingatkan bahwa semua siswa harus tetap bisa mendapat informasi."
+    },
+    {
+      "id": "q2",
+      "prompt": "A: “The school should cancel all group projects because some students do not contribute equally.”\nB: “____. Group projects can still be useful if each member has a clear responsibility.”",
+      "choices": [
+        "That's exactly what I believe.",
+        "I see your point, but I wouldn't go that far.",
+        "I couldn't agree more.",
+        "What a wonderful achievement!",
+        "Thanks for explaining the schedule."
+      ],
+      "answer": 1,
+      "explanation": "Skill: Polite Disagreement.\n\nPenjelasan: Jawaban B benar menunjukkan bahwa pembicara memahami alasan lawan bicara, tetapi tidak sepenuhnya setuju. Kalimat berikutnya memberikan pandangan yang berbeda."
+    },
+    {
+      "id": "q3",
+      "prompt": "A: “Do you think the new study area will help students concentrate?”\nB: “____, especially if it stays quiet during study hours.”",
+      "choices": [
+        "I have no preference whatsoever",
+        "I strongly object to the idea",
+        "I'd say it probably will",
+        "I insist that it has already failed",
+        "I apologize for the inconvenience"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Expressing a Tentative Opinion.\n\nPenjelasan: Jawaban C benar adalah “I'd say it probably will”, karena pembicara menyampaikan pendapat dengan cukup yakin tetapi tidak menganggapnya sebagai kepastian. Syaratnya, area itu tetap tenang."
+    },
+    {
+      "id": "q4",
+      "prompt": "A: “This survey proves that every student prefers online assignments.”\nB: “____. Only a small group of students took part in it.”",
+      "choices": [
+        "I couldn't agree more.",
+        "That is certainly beyond doubt.",
+        "You have my full support.",
+        "I'm not entirely convinced by that conclusion.",
+        "Congratulations on the survey."
+      ],
+      "answer": 3,
+      "explanation": "Skill: Expressing Reservation.\n\nPenjelasan: Jawaban D benar menunjukkan keraguan terhadap kesimpulan. Alasannya, hanya sedikit siswa yang mengikuti survei, sehingga hasilnya belum tentu mewakili semua siswa."
+    },
+    {
+      "id": "q5",
+      "prompt": "A: “I have several assignments due on the same day, and I don't know where to begin.”\nB: “____. Start with the one that is due first, then plan the rest.”",
+      "choices": [
+        "You shouldn't have studied at all.",
+        "Why don't you ignore every assignment?",
+        "I'm afraid I can't understand the calendar.",
+        "I wish I had more homework.",
+        "If I were in your position, I'd make a priority list."
+      ],
+      "answer": 4,
+      "explanation": "Skill: Giving Advice.\n\nPenjelasan: Jawaban E benar menggunakan pola “If I were in your position, I'd ...” untuk memberi saran. Membuat daftar prioritas membantu menentukan tugas mana yang harus dikerjakan lebih dulu."
+    },
+    {
+      "id": "q6",
+      "prompt": "A: “We need to prepare the classroom for the exhibition.”\nB: “____ divide the work into decorating, arranging the displays, and welcoming visitors?”",
+      "choices": [
+        "Shall we",
+        "I regret to inform you that we",
+        "Would you mind if I",
+        "I am certain that we",
+        "I would rather not"
+      ],
+      "answer": 0,
+      "explanation": "Skill: Making a Suggestion.\n\nPenjelasan: Jawaban A benar adalah “Shall we ...?”, yang digunakan untuk mengusulkan kegiatan bersama. Pembicara mengajak kelompok membagi tugas persiapan pameran."
+    },
+    {
+      "id": "q7",
+      "prompt": "A: “I am going to submit my project without checking the references.”\nB: “____ check them once more before you submit it.”",
+      "choices": [
+        "You are forbidden to",
+        "You might want to",
+        "I couldn't agree more that you",
+        "Would you like me to avoid",
+        "I'm looking forward to"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Giving Cautious Advice.\n\nPenjelasan: Jawaban B benar adalah “You might want to ...”, ungkapan yang memberi saran dengan nada tidak memaksa. Memeriksa referensi sekali lagi dapat membantu menghindari kesalahan."
+    },
+    {
+      "id": "q8",
+      "prompt": "A: “We could practise our presentation in front of a smaller group first.”\nB: “____. That would help us feel more confident before presenting to the whole class.”",
+      "choices": [
+        "I don't see any reason to prepare.",
+        "I'm afraid I have already left.",
+        "That's worth trying.",
+        "I would rather cancel the presentation.",
+        "I have no idea who suggested it."
+      ],
+      "answer": 2,
+      "explanation": "Skill: Responding to a Suggestion.\n\nPenjelasan: Jawaban C benar adalah “That's worth trying”, yang berarti usulan itu layak dicoba. Kalimat berikutnya menjelaskan manfaat dari usulan tersebut."
+    },
+    {
+      "id": "q9",
+      "prompt": "A: “____ sending me the updated schedule when you have a moment?”\nB: “Certainly. I'll email it this afternoon.”",
+      "choices": [
+        "Shall I",
+        "Would you like",
+        "Why don't we",
+        "Would you mind",
+        "I suggest"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Making a Polite Request.\n\nPenjelasan: Jawaban D benar adalah “Would you mind ...?”, yang digunakan untuk meminta bantuan dengan sopan. Jawaban “Certainly” menunjukkan bahwa permintaan itu diterima."
+    },
+    {
+      "id": "q10",
+      "prompt": "A: “You seem to have a lot of materials to carry.”\nB: “____ take some of them to the staff room for you?”\nA: “That's very kind of you.”",
+      "choices": [
+        "Do you have to",
+        "Have you considered",
+        "Are you able to",
+        "I would rather",
+        "Would you like me to"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Offering Assistance.\n\nPenjelasan: Jawaban E benar adalah “Would you like me to ...?”, yang digunakan untuk menawarkan bantuan. Respons “That's very kind of you” menunjukkan bahwa tawaran tersebut dihargai."
+    },
+    {
+      "id": "q11",
+      "prompt": "A: “We would be delighted if you could attend the student research presentation next Friday.”\nB: “____. Thank you for including me.”",
+      "choices": [
+        "I'd be delighted to attend.",
+        "I'm afraid I won't be able to attend.",
+        "I have already made other plans.",
+        "I don't think invitations are necessary.",
+        "Perhaps you should ask someone else."
+      ],
+      "answer": 0,
+      "explanation": "Skill: Accepting a Formal Invitation.\n\nPenjelasan: Jawaban A benar menerima undangan dengan sopan dan sesuai untuk situasi formal. Ucapan terima kasih setelahnya memperkuat bahwa pembicara bersedia hadir."
+    },
+    {
+      "id": "q12",
+      "prompt": "A: “Would you be available to join the committee meeting on Saturday?”\nB: “____. I have already committed to a family event that day.”",
+      "choices": [
+        "That sounds excellent; count me in.",
+        "Thank you, but I'm afraid I won't be able to make it.",
+        "I'd be happy to join.",
+        "I look forward to seeing everyone.",
+        "I completely agree with the proposal."
+      ],
+      "answer": 1,
+      "explanation": "Skill: Declining an Invitation Politely.\n\nPenjelasan: Jawaban B benar menolak undangan dengan sopan. Pembicara juga memberikan alasan, yaitu sudah memiliki acara keluarga pada hari itu."
+    },
+    {
+      "id": "q13",
+      "prompt": "A: “I should have told you earlier that I couldn't attend the rehearsal. I'm sorry for the trouble.”\nB: “____. Please let us know sooner next time so we can make other arrangements.”",
+      "choices": [
+        "I don't accept any explanation.",
+        "Congratulations on your decision.",
+        "I appreciate your apology.",
+        "That is exactly what I wanted to hear.",
+        "Would you like to join us?"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Responding to an Apology.\n\nPenjelasan: Jawaban C benar menerima permintaan maaf dengan sopan. Kalimat berikutnya menyampaikan harapan agar orang tersebut memberi kabar lebih awal lain kali."
+    },
+    {
+      "id": "q14",
+      "prompt": "A: “I really appreciate you staying late to help me finish the display.”\nB: “____. I'm glad I could help.”",
+      "choices": [
+        "I don't think you should.",
+        "You must thank me again.",
+        "I'm sorry you feel that way.",
+        "It was no trouble at all.",
+        "I would rather not discuss it."
+      ],
+      "answer": 3,
+      "explanation": "Skill: Responding to Gratitude.\n\nPenjelasan: Jawaban D benar adalah ungkapan untuk merespons ucapan terima kasih. “It was no trouble at all” berarti bantuan itu tidak merepotkan."
+    },
+    {
+      "id": "q15",
+      "prompt": "A: “Your analysis of the poem was thoughtful and well supported.”\nB: “____. I spent quite a bit of time checking the examples.”",
+      "choices": [
+        "I don't believe you.",
+        "That's not your concern.",
+        "I wish you hadn't noticed.",
+        "You should do it yourself.",
+        "Thank you; I'm glad it was useful."
+      ],
+      "answer": 4,
+      "explanation": "Skill: Responding to a Compliment.\n\nPenjelasan: Jawaban E benar menerima pujian dengan sopan. Pembicara juga menjelaskan bahwa ia berusaha memeriksa contoh-contohnya dengan baik."
+    },
+    {
+      "id": "q16",
+      "prompt": "A: “Congratulations on being selected to represent the school in the debate competition!”\nB: “____. The whole team helped me prepare.”",
+      "choices": [
+        "Thank you. I couldn't have done it without their support.",
+        "I'm sorry I missed the event.",
+        "I don't think that's possible.",
+        "Please accept my apology.",
+        "I would rather not take part."
+      ],
+      "answer": 0,
+      "explanation": "Skill: Responding to Congratulations.\n\nPenjelasan: Jawaban A benar menerima ucapan selamat dan mengakui bantuan tim. Ini merupakan respons yang wajar setelah seseorang berhasil terpilih."
+    },
+    {
+      "id": "q17",
+      "prompt": "A: “Please make your report more concise.”\nB: “____? Should I remove repeated points, or shorten every section?”\nA: “Start by removing repeated points.”",
+      "choices": [
+        "Would you mind waiting outside",
+        "Could you clarify what you mean by “concise”",
+        "Do you happen to know the answer",
+        "Would you rather work alone",
+        "Shall I submit it tomorrow"
+      ],
+      "answer": 1,
+      "explanation": "Skill: Asking for Clarification.\n\nPenjelasan: Jawaban B benar meminta penjelasan lebih lanjut tentang arti “concise”. Pertanyaan setelahnya menunjukkan bahwa pembicara ingin memastikan tindakan yang harus dilakukan."
+    },
+    {
+      "id": "q18",
+      "prompt": "A: “The results suggest that sleep quality affects memory.”\nB: “____ how that relationship works?”\nA: “Certainly. Sleep helps the brain process and store information.”",
+      "choices": [
+        "Would you mind if I left",
+        "Do you agree that it is impossible",
+        "Could you explain in a little more detail",
+        "I would rather not hear",
+        "How about cancelling"
+      ],
+      "answer": 2,
+      "explanation": "Skill: Asking for Further Explanation.\n\nPenjelasan: Jawaban C benar meminta penjelasan yang lebih rinci. Respons berikutnya memberikan informasi tambahan tentang hubungan tidur dan ingatan."
+    },
+    {
+      "id": "q19",
+      "prompt": "A: “Would you prefer to present first or after the break?”\nB: “____ present after the break, if that's possible. I need a little more time to prepare.”",
+      "choices": [
+        "I am uncertain whether",
+        "I insist that I must",
+        "I have no opinion about",
+        "I'd prefer to",
+        "I congratulate you for"
+      ],
+      "answer": 3,
+      "explanation": "Skill: Expressing a Preference.\n\nPenjelasan: Jawaban D benar adalah “I'd prefer to ...”, yang digunakan untuk menyatakan pilihan yang lebih disukai. Pembicara memilih tampil setelah istirahat karena membutuhkan waktu persiapan."
+    },
+    {
+      "id": "q20",
+      "prompt": "A: “Will the outdoor exhibition go ahead tomorrow?”\nB: “____, although the organizers are still checking the weather forecast.”",
+      "choices": [
+        "It is impossible under every circumstance",
+        "It has definitely been cancelled",
+        "I have no preference either way",
+        "I completely disagree with you",
+        "There is a good chance it will"
+      ],
+      "answer": 4,
+      "explanation": "Skill: Expressing Probability.\n\nPenjelasan: Jawaban E benar menunjukkan bahwa acara kemungkinan besar tetap berlangsung, tetapi belum pasti. Bagian “although ... checking the weather forecast” menunjukkan masih ada ketidakpastian."
+    }
+  ]
+}
