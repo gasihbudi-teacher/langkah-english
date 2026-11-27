@@ -5711,6 +5711,52 @@
       "estimatedMinutes": 20
     },
     {
+      "id": "grade10-asas-reading-comprehension-test-1",
+      "title": "Reading Comprehension Test 1 (Grade 10)",
+      "description": "Latihan ASAS Bahasa Inggris Kelas 10 berisi 20 soal pemahaman bacaan dari lima jenis teks, dengan batas waktu 50 menit dan pembahasan Bahasa Indonesia.",
+      "type": "quiz",
+      "kind": "test",
+      "examFormat": "topic",
+      "placements": [
+        {
+          "pathway": "sas",
+          "grade": 10,
+          "semester": 1
+        }
+      ],
+      "difficulty": "Intermediate",
+      "grammarTopics": [],
+      "readingSkills": [
+        "Main Idea",
+        "Specific Information",
+        "Vocabulary in Context",
+        "Inference",
+        "Text Purpose",
+        "Text Structure and Organisation",
+        "Reference",
+        "Cause and Effect",
+        "Supporting Details",
+        "Summary and Conclusion"
+      ],
+      "tags": [
+        "ASAS",
+        "SAS",
+        "kelas 10",
+        "semester 1",
+        "Reading Comprehension",
+        "Descriptive Text",
+        "Recount Text",
+        "Narrative Text",
+        "Procedure Text",
+        "Analytical Exposition"
+      ],
+      "relatedLessons": [],
+      "file": "data/quizzes/grade10-asas-reading-comprehension-test-1.json",
+      "aiGenerated": false,
+      "unofficial": true,
+      "estimatedMinutes": 50
+    },
+    {
       "id": "grade11-sas-youth-demands-01",
       "title": "Analytical Exposition 1 - Scaffolding (Grade 11)",
       "description": "Latihan SAS Bahasa Inggris Kelas XI Semester 1 berbentuk scaffolded reading. Siswa membaca esai analytical exposition tentang tuntutan generasi muda Indonesia dan respons pemerintah terkait kualitas hidup, karhutla, kesempatan kerja, dan pendidikan.",
