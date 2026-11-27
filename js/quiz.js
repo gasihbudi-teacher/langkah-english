@@ -154,10 +154,13 @@ try{
   source.hidden=!passage;
   if(passage && source.dataset.passage!==passage.id){
    source.dataset.passage=passage.id;
-   source.innerHTML=`<a class="passage-jump" href="#question-title">${t('goQuestion')} ↓</a><details><summary><span class="section-kicker">${t('readingPassage')}</span><strong lang="en">${esc(passage.title)}</strong></summary><p lang="en">${esc(passage.text)}</p></details>`;
+   const sectionLabel = passage.sectionNumber && passage.textType
+     ? `Section ${passage.sectionNumber} – ${passage.textType}`
+     : '';
+   source.innerHTML=`<a class="passage-jump" href="#question-title">${t('goQuestion')} ↓</a><details><summary><span class="section-kicker"${sectionLabel?' lang="en"':''}>${sectionLabel?esc(sectionLabel):t('readingPassage')}</span><strong lang="en">${esc(passage.title)}</strong></summary><p lang="en">${esc(passage.text)}</p></details>`;
   }
   document.querySelector('#question').innerHTML=`${passage?`<a class="passage-jump" href="#passage">↑ ${t('goPassage')}</a>`:''}
-    <h2 id="question-title" lang="en" tabindex="-1">${index+1}. ${esc(q.prompt)}</h2>${mode==='practice'?translationDetails(q):''}${inputHtml(q,a)}
+    <h2 id="question-title" lang="en" tabindex="-1">${index+1}. ${passage?.sectionNumber && passage?.textType && q.skill ? `[${esc(q.skill)}] ` : ''}${esc(q.prompt)}</h2>${mode==='practice'?translationDetails(q):''}${inputHtml(q,a)}
     <button id="clear-response" class="button button-outline clear-answer" type="button" ${a===null?'disabled':''}>${t('clearAnswer')}</button>
     ${mode==='practice'&&complete?`<button id="explain" class="button button-outline" type="button">${t('checkAnswer')}</button><div id="feedback" role="status" tabindex="-1">${revealed.has(index)?feedbackHtml(q,a):''}</div>`:''}`;
   const passageJump=document.querySelector('#question a[href="#passage"]');
